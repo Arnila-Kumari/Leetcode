@@ -1,0 +1,47 @@
+Problem: count-ways-to-build-good-strings
+Submission ID: 1695441870
+Submission Time: 2025-07-12 22:14:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 97 ms
+Memory: 15.60 MB
+
+Test Cases: 36/36 passed
+
+Runtime Percentile: 86.598%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "97 ms",
+  "memory": 15604000,
+  "display_runtime": "97",
+  "question_id": "2562",
+  "elapsed_time": 135,
+  "compare_result": "111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752338667230,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 36,
+  "total_testcases": 36,
+  "runtime_percentile": 86.598,
+  "status_memory": "15.6 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695441870",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

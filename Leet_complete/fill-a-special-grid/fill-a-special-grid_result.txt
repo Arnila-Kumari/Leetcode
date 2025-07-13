@@ -1,0 +1,47 @@
+Problem: fill-a-special-grid
+Submission ID: 1695499930
+Submission Time: 2025-07-12 23:10:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 202 ms
+Memory: 134.48 MB
+
+Test Cases: 11/11 passed
+
+Runtime Percentile: 77.64659999999994%
+Memory Percentile: 81.1764%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "202 ms",
+  "memory": 134476000,
+  "display_runtime": "202",
+  "question_id": "3822",
+  "elapsed_time": 413,
+  "compare_result": "11111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752342030993,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 11,
+  "total_testcases": 11,
+  "runtime_percentile": 77.64659999999994,
+  "status_memory": "134.5 MB",
+  "memory_percentile": 81.1764,
+  "pretty_lang": "Python",
+  "submission_id": "1695499930",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

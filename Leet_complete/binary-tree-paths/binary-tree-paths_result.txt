@@ -1,0 +1,47 @@
+Problem: binary-tree-paths
+Submission ID: 1695346337
+Submission Time: 2025-07-12 20:31:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.53 MB
+
+Test Cases: 208/208 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 44.960499999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12532000,
+  "display_runtime": "0",
+  "question_id": "257",
+  "elapsed_time": 35,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752332479066,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 208,
+  "total_testcases": 208,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 44.960499999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695346337",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

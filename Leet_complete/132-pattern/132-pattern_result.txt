@@ -1,0 +1,47 @@
+Problem: 132-pattern
+Submission ID: 1695315319
+Submission Time: 2025-07-12 19:55:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 80 ms
+Memory: 24.85 MB
+
+Test Cases: 107/107 passed
+
+Runtime Percentile: 70.87370000000001%
+Memory Percentile: 60.67970000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "80 ms",
+  "memory": 24852000,
+  "display_runtime": "80",
+  "question_id": "456",
+  "elapsed_time": 148,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752330332746,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 107,
+  "total_testcases": 107,
+  "runtime_percentile": 70.87370000000001,
+  "status_memory": "24.9 MB",
+  "memory_percentile": 60.67970000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695315319",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

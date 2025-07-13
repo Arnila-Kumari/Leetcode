@@ -1,0 +1,47 @@
+Problem: count-pairs-of-similar-strings
+Submission ID: 1695418400
+Submission Time: 2025-07-12 21:50:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 70 ms
+Memory: 12.43 MB
+
+Test Cases: 225/225 passed
+
+Runtime Percentile: 35.0%
+Memory Percentile: 67.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "70 ms",
+  "memory": 12428000,
+  "display_runtime": "70",
+  "question_id": "2594",
+  "elapsed_time": 113,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752337230253,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 225,
+  "total_testcases": 225,
+  "runtime_percentile": 35.0,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 67.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695418400",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

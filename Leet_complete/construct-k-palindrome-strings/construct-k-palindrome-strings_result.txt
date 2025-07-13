@@ -1,0 +1,47 @@
+Problem: construct-k-palindrome-strings
+Submission ID: 1695386430
+Submission Time: 2025-07-12 21:16:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 143 ms
+Memory: 12.86 MB
+
+Test Cases: 112/112 passed
+
+Runtime Percentile: 8.771299999999913%
+Memory Percentile: 78.9474%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "143 ms",
+  "memory": 12856000,
+  "display_runtime": "143",
+  "question_id": "1502",
+  "elapsed_time": 177,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752335194619,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 112,
+  "total_testcases": 112,
+  "runtime_percentile": 8.771299999999913,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 78.9474,
+  "pretty_lang": "Python",
+  "submission_id": "1695386430",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

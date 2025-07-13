@@ -1,0 +1,47 @@
+Problem: 01-matrix
+Submission ID: 1695314804
+Submission Time: 2025-07-12 19:55:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 115 ms
+Memory: 14.12 MB
+
+Test Cases: 50/50 passed
+
+Runtime Percentile: 95.40390000000008%
+Memory Percentile: 99.8879%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "115 ms",
+  "memory": 14116000,
+  "display_runtime": "115",
+  "question_id": "542",
+  "elapsed_time": 164,
+  "compare_result": "11111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752330295908,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 50,
+  "total_testcases": 50,
+  "runtime_percentile": 95.40390000000008,
+  "status_memory": "14.1 MB",
+  "memory_percentile": 99.8879,
+  "pretty_lang": "Python",
+  "submission_id": "1695314804",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

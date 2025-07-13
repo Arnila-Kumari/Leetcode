@@ -1,0 +1,46 @@
+Problem: find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree
+Submission ID: 1695501605
+Submission Time: 2025-07-12 23:12:11
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 570 ms ms
+Memory: 29.50 MB
+
+Test Cases: 56/56 passed
+
+Runtime Percentile: 55.55600000000007%
+Memory Percentile: 71.11120000000003%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "570 ms",
+  "memory": 29496000,
+  "question_id": "1498",
+  "elapsed_time": 700,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752342124580,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 56,
+  "total_testcases": 56,
+  "runtime_percentile": 55.55600000000007,
+  "status_memory": "29.5 MB",
+  "memory_percentile": 71.11120000000003,
+  "pretty_lang": "Python",
+  "submission_id": "1695501605",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

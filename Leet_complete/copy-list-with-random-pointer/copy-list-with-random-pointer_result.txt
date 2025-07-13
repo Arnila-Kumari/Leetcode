@@ -1,0 +1,46 @@
+Problem: copy-list-with-random-pointer
+Submission ID: 1695395834
+Submission Time: 2025-07-12 21:26:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 43 ms ms
+Memory: 13.22 MB
+
+Test Cases: 19/19 passed
+
+Runtime Percentile: 18.30409999999999%
+Memory Percentile: 38.74889999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "43 ms",
+  "memory": 13216000,
+  "question_id": "138",
+  "elapsed_time": 50,
+  "compare_result": "1111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752335805581,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 19,
+  "total_testcases": 19,
+  "runtime_percentile": 18.30409999999999,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 38.74889999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695395834",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

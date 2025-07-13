@@ -1,0 +1,47 @@
+Problem: car-fleet
+Submission ID: 1695359816
+Submission Time: 2025-07-12 20:46:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 234 ms
+Memory: 33.97 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 73.2909%
+Memory Percentile: 56.58469999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "234 ms",
+  "memory": 33972000,
+  "display_runtime": "234",
+  "question_id": "883",
+  "elapsed_time": 308,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752333396855,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 73.2909,
+  "status_memory": "34 MB",
+  "memory_percentile": 56.58469999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695359816",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

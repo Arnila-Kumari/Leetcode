@@ -1,0 +1,47 @@
+Problem: count-good-meals
+Submission ID: 1695404844
+Submission Time: 2025-07-12 21:36:34
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1635 ms
+Memory: 20.47 MB
+
+Test Cases: 72/72 passed
+
+Runtime Percentile: 21.212200000000067%
+Memory Percentile: 72.72730000000003%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1635 ms",
+  "memory": 20472000,
+  "display_runtime": "1635",
+  "question_id": "1830",
+  "elapsed_time": 1691,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752336386698,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 72,
+  "total_testcases": 72,
+  "runtime_percentile": 21.212200000000067,
+  "status_memory": "20.5 MB",
+  "memory_percentile": 72.72730000000003,
+  "pretty_lang": "Python",
+  "submission_id": "1695404844",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

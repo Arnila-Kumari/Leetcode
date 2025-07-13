@@ -1,0 +1,47 @@
+Problem: beautiful-array
+Submission ID: 1695338961
+Submission Time: 2025-07-12 20:22:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.65 MB
+
+Test Cases: 38/38 passed
+
+Runtime Percentile: 33.3334%
+Memory Percentile: 46.15389999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12648000,
+  "display_runtime": "4",
+  "question_id": "968",
+  "elapsed_time": 32,
+  "compare_result": "11111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752331968685,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 38,
+  "runtime_percentile": 33.3334,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 46.15389999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695338961",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

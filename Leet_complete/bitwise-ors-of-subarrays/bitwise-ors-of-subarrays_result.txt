@@ -1,0 +1,47 @@
+Problem: bitwise-ors-of-subarrays
+Submission ID: 1695349278
+Submission Time: 2025-07-12 20:34:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 511 ms
+Memory: 36.45 MB
+
+Test Cases: 85/85 passed
+
+Runtime Percentile: 65.21749999999996%
+Memory Percentile: 91.30439999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "511 ms",
+  "memory": 36448000,
+  "display_runtime": "511",
+  "question_id": "934",
+  "elapsed_time": 569,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752332685395,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 85,
+  "total_testcases": 85,
+  "runtime_percentile": 65.21749999999996,
+  "status_memory": "36.4 MB",
+  "memory_percentile": 91.30439999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695349278",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: 4sum
+Submission ID: 1695317386
+Submission Time: 2025-07-12 19:58:03
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 463 ms
+Memory: 12.48 MB
+
+Test Cases: 294/294 passed
+
+Runtime Percentile: 84.95500000000008%
+Memory Percentile: 58.4366%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "463 ms",
+  "memory": 12476000,
+  "display_runtime": "463",
+  "question_id": "18",
+  "elapsed_time": 500,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752330474078,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 294,
+  "total_testcases": 294,
+  "runtime_percentile": 84.95500000000008,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 58.4366,
+  "pretty_lang": "Python",
+  "submission_id": "1695317386",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: count-triplets-that-can-form-two-arrays-of-equal-xor
+Submission ID: 1695438874
+Submission Time: 2025-07-12 22:11:32
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.55 MB
+
+Test Cases: 47/47 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 19.047700000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12552000,
+  "display_runtime": "0",
+  "question_id": "1553",
+  "elapsed_time": 34,
+  "compare_result": "11111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752338486225,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 47,
+  "total_testcases": 47,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 19.047700000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695438874",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

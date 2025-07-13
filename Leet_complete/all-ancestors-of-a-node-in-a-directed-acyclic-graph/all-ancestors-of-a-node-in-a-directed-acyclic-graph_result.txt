@@ -1,0 +1,47 @@
+Problem: all-ancestors-of-a-node-in-a-directed-acyclic-graph
+Submission ID: 1695322652
+Submission Time: 2025-07-12 20:03:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 359 ms
+Memory: 56.44 MB
+
+Test Cases: 80/80 passed
+
+Runtime Percentile: 36.0%
+Memory Percentile: 93.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "359 ms",
+  "memory": 56444000,
+  "display_runtime": "359",
+  "question_id": "1431",
+  "elapsed_time": 486,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752330827838,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 80,
+  "total_testcases": 80,
+  "runtime_percentile": 36.0,
+  "status_memory": "56.4 MB",
+  "memory_percentile": 93.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695322652",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

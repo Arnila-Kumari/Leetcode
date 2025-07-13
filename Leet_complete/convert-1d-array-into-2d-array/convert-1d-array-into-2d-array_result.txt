@@ -1,0 +1,47 @@
+Problem: convert-1d-array-into-2d-array
+Submission ID: 1695392261
+Submission Time: 2025-07-12 21:23:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 19.16 MB
+
+Test Cases: 107/107 passed
+
+Runtime Percentile: 98.8048%
+Memory Percentile: 93.22720000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 19160000,
+  "display_runtime": "7",
+  "question_id": "2132",
+  "elapsed_time": 92,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752335579102,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 107,
+  "total_testcases": 107,
+  "runtime_percentile": 98.8048,
+  "status_memory": "19.2 MB",
+  "memory_percentile": 93.22720000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695392261",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

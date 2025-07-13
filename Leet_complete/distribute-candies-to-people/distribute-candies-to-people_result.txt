@@ -1,0 +1,47 @@
+Problem: distribute-candies-to-people
+Submission ID: 1695479577
+Submission Time: 2025-07-12 22:51:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.40 MB
+
+Test Cases: 27/27 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 47.8873%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12404000,
+  "display_runtime": "0",
+  "question_id": "1195",
+  "elapsed_time": 43,
+  "compare_result": "111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752340883832,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 27,
+  "total_testcases": 27,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 47.8873,
+  "pretty_lang": "Python",
+  "submission_id": "1695479577",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

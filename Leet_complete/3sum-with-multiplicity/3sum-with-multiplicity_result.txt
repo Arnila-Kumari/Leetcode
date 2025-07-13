@@ -1,0 +1,47 @@
+Problem: 3sum-with-multiplicity
+Submission ID: 1695316443
+Submission Time: 2025-07-12 19:56:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 27 ms
+Memory: 12.43 MB
+
+Test Cases: 72/72 passed
+
+Runtime Percentile: 55.73799999999995%
+Memory Percentile: 91.80330000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "27 ms",
+  "memory": 12428000,
+  "display_runtime": "27",
+  "question_id": "959",
+  "elapsed_time": 58,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752330412758,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 72,
+  "total_testcases": 72,
+  "runtime_percentile": 55.73799999999995,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 91.80330000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695316443",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

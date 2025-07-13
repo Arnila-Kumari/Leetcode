@@ -1,0 +1,46 @@
+Problem: count-the-number-of-consistent-strings
+Submission ID: 1695432645
+Submission Time: 2025-07-12 22:05:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 191 ms ms
+Memory: 14.54 MB
+
+Test Cases: 74/74 passed
+
+Runtime Percentile: 60.25560000000004%
+Memory Percentile: 56.55260000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "191 ms",
+  "memory": 14540000,
+  "question_id": "1786",
+  "elapsed_time": 208,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752338112140,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 74,
+  "total_testcases": 74,
+  "runtime_percentile": 60.25560000000004,
+  "status_memory": "14.5 MB",
+  "memory_percentile": 56.55260000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695432645",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

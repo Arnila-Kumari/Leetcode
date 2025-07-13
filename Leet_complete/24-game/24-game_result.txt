@@ -1,0 +1,47 @@
+Problem: 24-game
+Submission ID: 1695315819
+Submission Time: 2025-07-12 19:56:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 59 ms
+Memory: 12.54 MB
+
+Test Cases: 71/71 passed
+
+Runtime Percentile: 78.4313%
+Memory Percentile: 21.568699999999993%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "59 ms",
+  "memory": 12536000,
+  "display_runtime": "59",
+  "question_id": "679",
+  "elapsed_time": 98,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752330369121,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 71,
+  "total_testcases": 71,
+  "runtime_percentile": 78.4313,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 21.568699999999993,
+  "pretty_lang": "Python",
+  "submission_id": "1695315819",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

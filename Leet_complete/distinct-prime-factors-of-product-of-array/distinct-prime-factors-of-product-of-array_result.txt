@@ -1,0 +1,47 @@
+Problem: distinct-prime-factors-of-product-of-array
+Submission ID: 1695478567
+Submission Time: 2025-07-12 22:50:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 16 ms
+Memory: 13.20 MB
+
+Test Cases: 81/81 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 89.2857%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "16 ms",
+  "memory": 13200000,
+  "display_runtime": "16",
+  "question_id": "2609",
+  "elapsed_time": 64,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752340823375,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 81,
+  "total_testcases": 81,
+  "runtime_percentile": 100,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 89.2857,
+  "pretty_lang": "Python",
+  "submission_id": "1695478567",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

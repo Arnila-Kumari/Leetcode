@@ -1,0 +1,47 @@
+Problem: count-vowel-strings-in-ranges
+Submission ID: 1695441131
+Submission Time: 2025-07-12 22:13:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 27 ms
+Memory: 51.42 MB
+
+Test Cases: 94/94 passed
+
+Runtime Percentile: 71.34489999999997%
+Memory Percentile: 22.222199999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "27 ms",
+  "memory": 51420000,
+  "display_runtime": "27",
+  "question_id": "2691",
+  "elapsed_time": 137,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752338622121,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 94,
+  "total_testcases": 94,
+  "runtime_percentile": 71.34489999999997,
+  "status_memory": "51.4 MB",
+  "memory_percentile": 22.222199999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1695441131",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

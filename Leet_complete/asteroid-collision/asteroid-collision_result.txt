@@ -1,0 +1,47 @@
+Problem: asteroid-collision
+Submission ID: 1695334322
+Submission Time: 2025-07-12 20:17:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 13.39 MB
+
+Test Cases: 275/275 passed
+
+Runtime Percentile: 81.72570000000002%
+Memory Percentile: 33.01020000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 13392000,
+  "display_runtime": "7",
+  "question_id": "735",
+  "elapsed_time": 43,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752331647549,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 275,
+  "total_testcases": 275,
+  "runtime_percentile": 81.72570000000002,
+  "status_memory": "13.4 MB",
+  "memory_percentile": 33.01020000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695334322",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

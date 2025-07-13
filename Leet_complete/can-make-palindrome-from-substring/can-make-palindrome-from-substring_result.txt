@@ -1,0 +1,47 @@
+Problem: can-make-palindrome-from-substring
+Submission ID: 1695358175
+Submission Time: 2025-07-12 20:44:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 599 ms
+Memory: 68.08 MB
+
+Test Cases: 31/31 passed
+
+Runtime Percentile: 55.55520000000001%
+Memory Percentile: 49.99980000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "599 ms",
+  "memory": 68084000,
+  "display_runtime": "599",
+  "question_id": "1281",
+  "elapsed_time": 721,
+  "compare_result": "1111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752333291254,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 31,
+  "total_testcases": 31,
+  "runtime_percentile": 55.55520000000001,
+  "status_memory": "68.1 MB",
+  "memory_percentile": 49.99980000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695358175",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

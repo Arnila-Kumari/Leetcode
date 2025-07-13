@@ -1,0 +1,47 @@
+Problem: defuse-the-bomb
+Submission ID: 1695454289
+Submission Time: 2025-07-12 22:26:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1 ms
+Memory: 12.43 MB
+
+Test Cases: 74/74 passed
+
+Runtime Percentile: 73.00280000000001%
+Memory Percentile: 53.44349999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1 ms",
+  "memory": 12428000,
+  "display_runtime": "1",
+  "question_id": "1755",
+  "elapsed_time": 42,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752339413302,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 74,
+  "total_testcases": 74,
+  "runtime_percentile": 73.00280000000001,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 53.44349999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695454289",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

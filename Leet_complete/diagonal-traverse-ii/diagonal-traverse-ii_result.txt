@@ -1,0 +1,47 @@
+Problem: diagonal-traverse-ii
+Submission ID: 1695472795
+Submission Time: 2025-07-12 22:44:52
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 107 ms
+Memory: 29.27 MB
+
+Test Cases: 56/56 passed
+
+Runtime Percentile: 81.81800000000003%
+Memory Percentile: 97.2727%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "107 ms",
+  "memory": 29268000,
+  "display_runtime": "107",
+  "question_id": "1539",
+  "elapsed_time": 205,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752340485653,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 56,
+  "total_testcases": 56,
+  "runtime_percentile": 81.81800000000003,
+  "status_memory": "29.3 MB",
+  "memory_percentile": 97.2727,
+  "pretty_lang": "Python",
+  "submission_id": "1695472795",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

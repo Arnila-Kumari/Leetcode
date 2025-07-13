@@ -1,0 +1,47 @@
+Problem: count-the-number-of-square-free-subsets
+Submission ID: 1695437438
+Submission Time: 2025-07-12 22:10:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 51 ms
+Memory: 12.56 MB
+
+Test Cases: 44/44 passed
+
+Runtime Percentile: 50.0%
+Memory Percentile: 25.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "51 ms",
+  "memory": 12556000,
+  "display_runtime": "51",
+  "question_id": "2709",
+  "elapsed_time": 83,
+  "compare_result": "11111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752338402644,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 44,
+  "total_testcases": 44,
+  "runtime_percentile": 50.0,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 25.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695437438",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

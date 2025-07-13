@@ -1,0 +1,47 @@
+Problem: dinner-plate-stacks
+Submission ID: 1695476428
+Submission Time: 2025-07-12 22:48:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 298 ms
+Memory: 87.71 MB
+
+Test Cases: 18/18 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "298 ms",
+  "memory": 87712000,
+  "display_runtime": "298",
+  "question_id": "1270",
+  "elapsed_time": 2654,
+  "compare_result": "111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752340705026,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 18,
+  "total_testcases": 18,
+  "runtime_percentile": 100,
+  "status_memory": "87.7 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695476428",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

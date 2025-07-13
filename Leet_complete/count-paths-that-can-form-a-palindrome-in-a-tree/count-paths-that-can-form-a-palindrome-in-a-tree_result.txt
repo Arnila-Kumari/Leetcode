@@ -1,0 +1,47 @@
+Problem: count-paths-that-can-form-a-palindrome-in-a-tree
+Submission ID: 1695420624
+Submission Time: 2025-07-12 21:52:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1323 ms
+Memory: 34.32 MB
+
+Test Cases: 666/666 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1323 ms",
+  "memory": 34320000,
+  "display_runtime": "1323",
+  "question_id": "2905",
+  "elapsed_time": 1408,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752337362771,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 666,
+  "total_testcases": 666,
+  "runtime_percentile": 100,
+  "status_memory": "34.3 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695420624",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}
