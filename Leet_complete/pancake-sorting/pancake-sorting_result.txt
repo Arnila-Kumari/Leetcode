@@ -1,0 +1,47 @@
+Problem: pancake-sorting
+Submission ID: 1695577874
+Submission Time: 2025-07-12 11:56:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 5 ms
+Memory: 12.58 MB
+
+Test Cases: 215/215 passed
+
+Runtime Percentile: 45.45460000000001%
+Memory Percentile: 11.363600000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "5 ms",
+  "memory": 12576000,
+  "display_runtime": "5",
+  "question_id": "1009",
+  "elapsed_time": 43,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346588432,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 215,
+  "total_testcases": 215,
+  "runtime_percentile": 45.45460000000001,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 11.363600000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695577874",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

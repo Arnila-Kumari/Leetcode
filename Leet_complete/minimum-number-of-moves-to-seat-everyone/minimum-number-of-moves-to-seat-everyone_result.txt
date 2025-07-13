@@ -1,0 +1,47 @@
+Problem: minimum-number-of-moves-to-seat-everyone
+Submission ID: 1695698586
+Submission Time: 2025-07-12 15:16:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.47 MB
+
+Test Cases: 262/262 passed
+
+Runtime Percentile: 41.3792%
+Memory Percentile: 57.6803%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12468000,
+  "display_runtime": "4",
+  "question_id": "2148",
+  "elapsed_time": 38,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358567402,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 262,
+  "total_testcases": 262,
+  "runtime_percentile": 41.3792,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 57.6803,
+  "pretty_lang": "Python",
+  "submission_id": "1695698586",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

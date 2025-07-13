@@ -1,0 +1,47 @@
+Problem: smallest-range-ii
+Submission ID: 1695685244
+Submission Time: 2025-07-12 14:47:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 35 ms
+Memory: 13.35 MB
+
+Test Cases: 69/69 passed
+
+Runtime Percentile: 72.41359999999997%
+Memory Percentile: 34.482699999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "35 ms",
+  "memory": 13352000,
+  "display_runtime": "35",
+  "question_id": "946",
+  "elapsed_time": 72,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356835466,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 69,
+  "total_testcases": 69,
+  "runtime_percentile": 72.41359999999997,
+  "status_memory": "13.4 MB",
+  "memory_percentile": 34.482699999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1695685244",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: the-k-strongest-values-in-an-array
+Submission ID: 1695709899
+Submission Time: 2025-07-12 15:42:53
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 135 ms
+Memory: 22.37 MB
+
+Test Cases: 71/71 passed
+
+Runtime Percentile: 94.59460000000001%
+Memory Percentile: 56.75680000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "135 ms",
+  "memory": 22368000,
+  "display_runtime": "135",
+  "question_id": "1581",
+  "elapsed_time": 222,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360172580,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 71,
+  "total_testcases": 71,
+  "runtime_percentile": 94.59460000000001,
+  "status_memory": "22.4 MB",
+  "memory_percentile": 56.75680000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695709899",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

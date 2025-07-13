@@ -1,0 +1,47 @@
+Problem: maximum-width-of-binary-tree
+Submission ID: 1695700765
+Submission Time: 2025-07-12 15:21:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 8 ms
+Memory: 17.25 MB
+
+Test Cases: 116/116 passed
+
+Runtime Percentile: 44.298200000000016%
+Memory Percentile: 11.842099999999997%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "8 ms",
+  "memory": 17248000,
+  "display_runtime": "8",
+  "question_id": "662",
+  "elapsed_time": 52,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358878011,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 116,
+  "total_testcases": 116,
+  "runtime_percentile": 44.298200000000016,
+  "status_memory": "17.2 MB",
+  "memory_percentile": 11.842099999999997,
+  "pretty_lang": "Python",
+  "submission_id": "1695700765",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

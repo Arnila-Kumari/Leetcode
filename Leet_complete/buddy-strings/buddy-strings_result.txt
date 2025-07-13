@@ -1,0 +1,47 @@
+Problem: buddy-strings
+Submission ID: 1695567193
+Submission Time: 2025-07-12 11:44:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2 ms
+Memory: 12.76 MB
+
+Test Cases: 39/39 passed
+
+Runtime Percentile: 72.9729%
+Memory Percentile: 90.08999999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2 ms",
+  "memory": 12756000,
+  "display_runtime": "2",
+  "question_id": "889",
+  "elapsed_time": 34,
+  "compare_result": "111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345856461,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 39,
+  "total_testcases": 39,
+  "runtime_percentile": 72.9729,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 90.08999999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695567193",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

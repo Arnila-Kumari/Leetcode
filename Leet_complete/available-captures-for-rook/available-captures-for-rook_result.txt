@@ -1,0 +1,47 @@
+Problem: available-captures-for-rook
+Submission ID: 1695557109
+Submission Time: 2025-07-12 11:33:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.53 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 9.345799999999997%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12532000,
+  "display_runtime": "0",
+  "question_id": "1041",
+  "elapsed_time": 30,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345194958,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 9.345799999999997,
+  "pretty_lang": "Python",
+  "submission_id": "1695557109",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

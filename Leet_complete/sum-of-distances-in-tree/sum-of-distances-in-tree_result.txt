@@ -1,0 +1,47 @@
+Problem: sum-of-distances-in-tree
+Submission ID: 1695680179
+Submission Time: 2025-07-12 14:37:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 235 ms
+Memory: 60.81 MB
+
+Test Cases: 74/74 passed
+
+Runtime Percentile: 83.3332%
+Memory Percentile: 52.77770000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "235 ms",
+  "memory": 60812000,
+  "display_runtime": "235",
+  "question_id": "863",
+  "elapsed_time": 332,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356228150,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 74,
+  "total_testcases": 74,
+  "runtime_percentile": 83.3332,
+  "status_memory": "60.8 MB",
+  "memory_percentile": 52.77770000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695680179",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

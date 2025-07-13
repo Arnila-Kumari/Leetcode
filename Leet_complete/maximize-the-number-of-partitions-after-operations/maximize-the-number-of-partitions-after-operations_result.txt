@@ -1,0 +1,47 @@
+Problem: maximize-the-number-of-partitions-after-operations
+Submission ID: 1695618824
+Submission Time: 2025-07-12 12:49:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 103 ms
+Memory: 13.48 MB
+
+Test Cases: 277/277 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "103 ms",
+  "memory": 13480000,
+  "display_runtime": "103",
+  "question_id": "3233",
+  "elapsed_time": 196,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349764389,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 277,
+  "total_testcases": 277,
+  "runtime_percentile": 100,
+  "status_memory": "13.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695618824",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

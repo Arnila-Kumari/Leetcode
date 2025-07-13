@@ -1,0 +1,47 @@
+Problem: adding-two-negabinary-numbers
+Submission ID: 1695548305
+Submission Time: 2025-07-12 11:24:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1 ms
+Memory: 12.65 MB
+
+Test Cases: 267/267 passed
+
+Runtime Percentile: 92.5926%
+Memory Percentile: 14.814900000000009%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1 ms",
+  "memory": 12648000,
+  "display_runtime": "1",
+  "question_id": "1148",
+  "elapsed_time": 40,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344698338,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 267,
+  "total_testcases": 267,
+  "runtime_percentile": 92.5926,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 14.814900000000009,
+  "pretty_lang": "Python",
+  "submission_id": "1695548305",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

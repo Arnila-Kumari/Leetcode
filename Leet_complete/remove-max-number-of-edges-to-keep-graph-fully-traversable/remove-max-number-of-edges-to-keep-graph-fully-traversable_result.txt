@@ -1,0 +1,47 @@
+Problem: remove-max-number-of-edges-to-keep-graph-fully-traversable
+Submission ID: 1695739255
+Submission Time: 2025-07-12 17:05:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 523 ms
+Memory: 65.88 MB
+
+Test Cases: 86/86 passed
+
+Runtime Percentile: 9.52390000000003%
+Memory Percentile: 9.523899999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "523 ms",
+  "memory": 65876000,
+  "display_runtime": "523",
+  "question_id": "1701",
+  "elapsed_time": 664,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365134145,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 86,
+  "total_testcases": 86,
+  "runtime_percentile": 9.52390000000003,
+  "status_memory": "65.9 MB",
+  "memory_percentile": 9.523899999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695739255",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

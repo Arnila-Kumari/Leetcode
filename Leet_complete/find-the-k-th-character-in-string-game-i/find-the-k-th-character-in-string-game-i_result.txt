@@ -1,0 +1,47 @@
+Problem: find-the-k-th-character-in-string-game-i
+Submission ID: 1695692374
+Submission Time: 2025-07-12 15:02:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.30 MB
+
+Test Cases: 502/502 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 98.7711%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12300000,
+  "display_runtime": "0",
+  "question_id": "3600",
+  "elapsed_time": 42,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357768155,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 502,
+  "total_testcases": 502,
+  "runtime_percentile": 100,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 98.7711,
+  "pretty_lang": "Python",
+  "submission_id": "1695692374",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

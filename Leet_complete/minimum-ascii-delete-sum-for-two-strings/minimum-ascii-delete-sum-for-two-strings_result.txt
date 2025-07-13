@@ -1,0 +1,47 @@
+Problem: minimum-ascii-delete-sum-for-two-strings
+Submission ID: 1695683140
+Submission Time: 2025-07-12 14:42:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 435 ms
+Memory: 12.50 MB
+
+Test Cases: 93/93 passed
+
+Runtime Percentile: 68.53920000000004%
+Memory Percentile: 95.5056%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "435 ms",
+  "memory": 12504000,
+  "display_runtime": "435",
+  "question_id": "712",
+  "elapsed_time": 472,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356575267,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 93,
+  "total_testcases": 93,
+  "runtime_percentile": 68.53920000000004,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 95.5056,
+  "pretty_lang": "Python",
+  "submission_id": "1695683140",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

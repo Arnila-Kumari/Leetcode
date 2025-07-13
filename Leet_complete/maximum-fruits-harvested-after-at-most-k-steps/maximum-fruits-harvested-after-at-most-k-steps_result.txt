@@ -1,0 +1,47 @@
+Problem: maximum-fruits-harvested-after-at-most-k-steps
+Submission ID: 1695625756
+Submission Time: 2025-07-12 12:59:41
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 975 ms
+Memory: 48.54 MB
+
+Test Cases: 202/202 passed
+
+Runtime Percentile: 66.66660000000002%
+Memory Percentile: 49.99990000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "975 ms",
+  "memory": 48540000,
+  "display_runtime": "975",
+  "question_id": "2229",
+  "elapsed_time": 1113,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350378518,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 202,
+  "total_testcases": 202,
+  "runtime_percentile": 66.66660000000002,
+  "status_memory": "48.5 MB",
+  "memory_percentile": 49.99990000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695625756",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

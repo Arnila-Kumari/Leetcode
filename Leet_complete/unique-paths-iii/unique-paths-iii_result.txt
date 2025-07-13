@@ -1,0 +1,47 @@
+Problem: unique-paths-iii
+Submission ID: 1695689721
+Submission Time: 2025-07-12 14:56:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 32 ms
+Memory: 13.23 MB
+
+Test Cases: 39/39 passed
+
+Runtime Percentile: 12.592500000000012%
+Memory Percentile: 9.999999999976694e-05%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "32 ms",
+  "memory": 13228000,
+  "display_runtime": "32",
+  "question_id": "1022",
+  "elapsed_time": 68,
+  "compare_result": "111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357413801,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 39,
+  "total_testcases": 39,
+  "runtime_percentile": 12.592500000000012,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 9.999999999976694e-05,
+  "pretty_lang": "Python",
+  "submission_id": "1695689721",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

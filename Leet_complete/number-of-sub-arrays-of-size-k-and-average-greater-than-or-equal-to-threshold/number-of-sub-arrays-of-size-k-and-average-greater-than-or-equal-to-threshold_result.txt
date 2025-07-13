@@ -1,0 +1,47 @@
+Problem: number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold
+Submission ID: 1695566911
+Submission Time: 2025-07-12 11:44:00
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 62 ms
+Memory: 19.93 MB
+
+Test Cases: 69/69 passed
+
+Runtime Percentile: 38.22749999999997%
+Memory Percentile: 54.93669999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "62 ms",
+  "memory": 19932000,
+  "display_runtime": "62",
+  "question_id": "1445",
+  "elapsed_time": 127,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345839775,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 69,
+  "total_testcases": 69,
+  "runtime_percentile": 38.22749999999997,
+  "status_memory": "19.9 MB",
+  "memory_percentile": 54.93669999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695566911",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

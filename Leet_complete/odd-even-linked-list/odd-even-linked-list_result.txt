@@ -1,0 +1,47 @@
+Problem: odd-even-linked-list
+Submission ID: 1695574050
+Submission Time: 2025-07-12 11:52:03
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 15.85 MB
+
+Test Cases: 70/70 passed
+
+Runtime Percentile: 23.923900000000003%
+Memory Percentile: 33.433400000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 15848000,
+  "display_runtime": "3",
+  "question_id": "328",
+  "elapsed_time": 41,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346320693,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 70,
+  "total_testcases": 70,
+  "runtime_percentile": 23.923900000000003,
+  "status_memory": "15.8 MB",
+  "memory_percentile": 33.433400000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695574050",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

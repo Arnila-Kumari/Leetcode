@@ -1,0 +1,47 @@
+Problem: find-the-maximum-length-of-a-good-subsequence-i
+Submission ID: 1695675990
+Submission Time: 2025-07-12 14:28:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7930 ms
+Memory: 12.71 MB
+
+Test Cases: 543/543 passed
+
+Runtime Percentile: 8.333700000000016%
+Memory Percentile: 25.000000000000007%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7930 ms",
+  "memory": 12708000,
+  "display_runtime": "7930",
+  "question_id": "3456",
+  "elapsed_time": 8134,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355711493,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 543,
+  "total_testcases": 543,
+  "runtime_percentile": 8.333700000000016,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 25.000000000000007,
+  "pretty_lang": "Python",
+  "submission_id": "1695675990",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

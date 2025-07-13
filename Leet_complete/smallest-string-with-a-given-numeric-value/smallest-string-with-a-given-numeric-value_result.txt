@@ -1,0 +1,47 @@
+Problem: smallest-string-with-a-given-numeric-value
+Submission ID: 1695689121
+Submission Time: 2025-07-12 14:55:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 383 ms
+Memory: 13.76 MB
+
+Test Cases: 94/94 passed
+
+Runtime Percentile: 85.18520000000001%
+Memory Percentile: 92.5926%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "383 ms",
+  "memory": 13764000,
+  "display_runtime": "383",
+  "question_id": "1782",
+  "elapsed_time": 434,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357337502,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 94,
+  "total_testcases": 94,
+  "runtime_percentile": 85.18520000000001,
+  "status_memory": "13.8 MB",
+  "memory_percentile": 92.5926,
+  "pretty_lang": "Python",
+  "submission_id": "1695689121",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

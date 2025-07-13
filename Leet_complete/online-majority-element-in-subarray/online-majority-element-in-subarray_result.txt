@@ -1,0 +1,47 @@
+Problem: online-majority-element-in-subarray
+Submission ID: 1695574586
+Submission Time: 2025-07-12 11:52:42
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1333 ms
+Memory: 22.05 MB
+
+Test Cases: 37/37 passed
+
+Runtime Percentile: 9.090999999999998%
+Memory Percentile: 54.54550000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1333 ms",
+  "memory": 22052000,
+  "display_runtime": "1333",
+  "question_id": "1262",
+  "elapsed_time": 2698,
+  "compare_result": "1111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346360713,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 37,
+  "total_testcases": 37,
+  "runtime_percentile": 9.090999999999998,
+  "status_memory": "22.1 MB",
+  "memory_percentile": 54.54550000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695574586",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

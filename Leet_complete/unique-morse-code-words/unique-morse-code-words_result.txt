@@ -1,0 +1,47 @@
+Problem: unique-morse-code-words
+Submission ID: 1695675573
+Submission Time: 2025-07-12 14:27:32
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 5 ms
+Memory: 12.52 MB
+
+Test Cases: 82/82 passed
+
+Runtime Percentile: 8.433700000000005%
+Memory Percentile: 13.554200000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "5 ms",
+  "memory": 12516000,
+  "display_runtime": "5",
+  "question_id": "822",
+  "elapsed_time": 42,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355649330,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 82,
+  "total_testcases": 82,
+  "runtime_percentile": 8.433700000000005,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 13.554200000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695675573",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: maximum-length-of-subarray-with-positive-product
+Submission ID: 1695627023
+Submission Time: 2025-07-12 13:01:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 71 ms
+Memory: 21.60 MB
+
+Test Cases: 112/112 passed
+
+Runtime Percentile: 41.77250000000003%
+Memory Percentile: 53.16460000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "71 ms",
+  "memory": 21600000,
+  "display_runtime": "71",
+  "question_id": "1690",
+  "elapsed_time": 129,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350495365,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 112,
+  "total_testcases": 112,
+  "runtime_percentile": 41.77250000000003,
+  "status_memory": "21.6 MB",
+  "memory_percentile": 53.16460000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695627023",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

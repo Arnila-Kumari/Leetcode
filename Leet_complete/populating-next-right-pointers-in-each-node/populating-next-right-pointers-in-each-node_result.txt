@@ -1,0 +1,51 @@
+Problem: populating-next-right-pointers-in-each-node
+Submission ID: 1695585727
+Submission Time: 2025-07-12 12:05:50
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: N/A ms
+Memory: 15.49 MB
+
+Test Cases: 1/59 passed
+
+Last Test Case:
+Input: [1,2,3,4,5,6,7]
+Expected: [1,#,2,3,#,4,5,6,7,#]
+
+Code Output: []
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 15488000,
+  "question_id": "116",
+  "elapsed_time": 119,
+  "compare_result": "01000000000000000000000000000000000000000000000000000000000",
+  "code_output": "[]",
+  "std_output": "",
+  "last_testcase": "[1,2,3,4,5,6,7]",
+  "expected_output": "[1,#,2,3,#,4,5,6,7,#]",
+  "task_finish_time": 1752347149145,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 1,
+  "total_testcases": 59,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695585727",
+  "input_formatted": "[1,2,3,4,5,6,7]",
+  "input": "[1,2,3,4,5,6,7]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

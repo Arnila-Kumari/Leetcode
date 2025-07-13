@@ -1,0 +1,47 @@
+Problem: reverse-subarray-to-maximize-array-value
+Submission ID: 1695739926
+Submission Time: 2025-07-12 17:07:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 231 ms
+Memory: 15.22 MB
+
+Test Cases: 28/28 passed
+
+Runtime Percentile: 63.63639999999999%
+Memory Percentile: 9.091000000000012%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "231 ms",
+  "memory": 15216000,
+  "display_runtime": "231",
+  "question_id": "1255",
+  "elapsed_time": 276,
+  "compare_result": "1111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365235754,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 28,
+  "total_testcases": 28,
+  "runtime_percentile": 63.63639999999999,
+  "status_memory": "15.2 MB",
+  "memory_percentile": 9.091000000000012,
+  "pretty_lang": "Python",
+  "submission_id": "1695739926",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

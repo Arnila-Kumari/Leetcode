@@ -1,0 +1,47 @@
+Problem: maximize-the-distance-between-points-on-a-square
+Submission ID: 1695618498
+Submission Time: 2025-07-12 12:48:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 527 ms
+Memory: 17.76 MB
+
+Test Cases: 619/619 passed
+
+Runtime Percentile: 49.99990000000002%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "527 ms",
+  "memory": 17764000,
+  "display_runtime": "527",
+  "question_id": "3781",
+  "elapsed_time": 602,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349733906,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 619,
+  "total_testcases": 619,
+  "runtime_percentile": 49.99990000000002,
+  "status_memory": "17.8 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695618498",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

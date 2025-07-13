@@ -1,0 +1,47 @@
+Problem: number-of-different-integers-in-a-string
+Submission ID: 1695560071
+Submission Time: 2025-07-12 11:36:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 9 ms
+Memory: 12.36 MB
+
+Test Cases: 85/85 passed
+
+Runtime Percentile: 5.33329999999999%
+Memory Percentile: 90.6667%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "9 ms",
+  "memory": 12356000,
+  "display_runtime": "9",
+  "question_id": "1933",
+  "elapsed_time": 42,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345380177,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 85,
+  "total_testcases": 85,
+  "runtime_percentile": 5.33329999999999,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 90.6667,
+  "pretty_lang": "Python",
+  "submission_id": "1695560071",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: maximize-spanning-tree-stability-with-upgrades
+Submission ID: 1695617753
+Submission Time: 2025-07-12 12:47:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 594 ms
+Memory: 57.80 MB
+
+Test Cases: 569/569 passed
+
+Runtime Percentile: 97.33340000000001%
+Memory Percentile: 98.6667%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "594 ms",
+  "memory": 57796000,
+  "display_runtime": "594",
+  "question_id": "3902",
+  "elapsed_time": 956,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349666213,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 569,
+  "total_testcases": 569,
+  "runtime_percentile": 97.33340000000001,
+  "status_memory": "57.8 MB",
+  "memory_percentile": 98.6667,
+  "pretty_lang": "Python",
+  "submission_id": "1695617753",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

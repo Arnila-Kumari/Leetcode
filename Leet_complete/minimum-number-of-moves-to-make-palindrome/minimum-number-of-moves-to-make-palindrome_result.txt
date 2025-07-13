@@ -1,0 +1,47 @@
+Problem: minimum-number-of-moves-to-make-palindrome
+Submission ID: 1695701272
+Submission Time: 2025-07-12 15:22:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 100 ms
+Memory: 12.83 MB
+
+Test Cases: 129/129 passed
+
+Runtime Percentile: 72.7271%
+Memory Percentile: 13.636300000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "100 ms",
+  "memory": 12832000,
+  "display_runtime": "100",
+  "question_id": "1356",
+  "elapsed_time": 174,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358950375,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 129,
+  "total_testcases": 129,
+  "runtime_percentile": 72.7271,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 13.636300000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695701272",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

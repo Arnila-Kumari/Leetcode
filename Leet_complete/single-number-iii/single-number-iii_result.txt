@@ -1,0 +1,47 @@
+Problem: single-number-iii
+Submission ID: 1695739220
+Submission Time: 2025-07-12 17:05:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 13.12 MB
+
+Test Cases: 35/35 passed
+
+Runtime Percentile: 35.86199999999999%
+Memory Percentile: 80.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 13120000,
+  "display_runtime": "7",
+  "question_id": "260",
+  "elapsed_time": 35,
+  "compare_result": "11111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365126636,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 35,
+  "total_testcases": 35,
+  "runtime_percentile": 35.86199999999999,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 80.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695739220",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: running-sum-of-1d-array
+Submission ID: 1695691861
+Submission Time: 2025-07-12 15:01:41
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.61 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 31.02%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12608000,
+  "display_runtime": "0",
+  "question_id": "1603",
+  "elapsed_time": 32,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357699492,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 31.02,
+  "pretty_lang": "Python",
+  "submission_id": "1695691861",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

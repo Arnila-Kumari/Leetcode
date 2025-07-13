@@ -1,0 +1,47 @@
+Problem: pascals-triangle
+Submission ID: 1695580930
+Submission Time: 2025-07-12 12:00:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.55 MB
+
+Test Cases: 30/30 passed
+
+Runtime Percentile: 18.913500000000006%
+Memory Percentile: 21.749499999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12548000,
+  "display_runtime": "3",
+  "question_id": "118",
+  "elapsed_time": 33,
+  "compare_result": "111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346808158,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 30,
+  "total_testcases": 30,
+  "runtime_percentile": 18.913500000000006,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 21.749499999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695580930",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

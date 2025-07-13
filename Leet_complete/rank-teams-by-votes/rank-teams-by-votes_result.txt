@@ -1,0 +1,47 @@
+Problem: rank-teams-by-votes
+Submission ID: 1695593636
+Submission Time: 2025-07-12 12:15:32
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 18 ms
+Memory: 12.54 MB
+
+Test Cases: 36/36 passed
+
+Runtime Percentile: 77.193%
+Memory Percentile: 84.21050000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "18 ms",
+  "memory": 12540000,
+  "display_runtime": "18",
+  "question_id": "1483",
+  "elapsed_time": 60,
+  "compare_result": "111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347730914,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 36,
+  "total_testcases": 36,
+  "runtime_percentile": 77.193,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 84.21050000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695593636",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

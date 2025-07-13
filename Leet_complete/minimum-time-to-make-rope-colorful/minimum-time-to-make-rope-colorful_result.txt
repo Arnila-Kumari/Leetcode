@@ -1,0 +1,47 @@
+Problem: minimum-time-to-make-rope-colorful
+Submission ID: 1696128943
+Submission Time: 2025-07-13 00:43:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 156 ms
+Memory: 19.38 MB
+
+Test Cases: 113/113 passed
+
+Runtime Percentile: 38.2347999999999%
+Memory Percentile: 81.37249999999997%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "156 ms",
+  "memory": 19380000,
+  "display_runtime": "156",
+  "question_id": "1700",
+  "elapsed_time": 238,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752392614360,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 113,
+  "total_testcases": 113,
+  "runtime_percentile": 38.2347999999999,
+  "status_memory": "19.4 MB",
+  "memory_percentile": 81.37249999999997,
+  "pretty_lang": "Python",
+  "submission_id": "1696128943",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

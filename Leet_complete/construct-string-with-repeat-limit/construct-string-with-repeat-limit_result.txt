@@ -1,0 +1,47 @@
+Problem: construct-string-with-repeat-limit
+Submission ID: 1695588514
+Submission Time: 2025-07-12 12:09:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1520 ms
+Memory: 14.98 MB
+
+Test Cases: 150/150 passed
+
+Runtime Percentile: 14.892099999999967%
+Memory Percentile: 8.510599999999993%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1520 ms",
+  "memory": 14980000,
+  "display_runtime": "1520",
+  "question_id": "2300",
+  "elapsed_time": 1661,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347348870,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 150,
+  "total_testcases": 150,
+  "runtime_percentile": 14.892099999999967,
+  "status_memory": "15 MB",
+  "memory_percentile": 8.510599999999993,
+  "pretty_lang": "Python",
+  "submission_id": "1695588514",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

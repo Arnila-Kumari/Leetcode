@@ -1,0 +1,46 @@
+Problem: find-the-number-of-ways-to-place-people-ii
+Submission ID: 1695693539
+Submission Time: 2025-07-12 15:05:23
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1935 ms ms
+Memory: 13.01 MB
+
+Test Cases: 550/550 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 50.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1935 ms",
+  "memory": 13012000,
+  "question_id": "3277",
+  "elapsed_time": 2069,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357919995,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 550,
+  "total_testcases": 550,
+  "runtime_percentile": 100,
+  "status_memory": "13 MB",
+  "memory_percentile": 50.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695693539",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

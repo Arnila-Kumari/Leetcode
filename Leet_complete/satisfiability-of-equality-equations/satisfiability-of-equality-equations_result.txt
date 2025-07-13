@@ -1,0 +1,47 @@
+Problem: satisfiability-of-equality-equations
+Submission ID: 1695708814
+Submission Time: 2025-07-12 15:40:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.64 MB
+
+Test Cases: 181/181 passed
+
+Runtime Percentile: 23.3335%
+Memory Percentile: 17.777699999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12636000,
+  "display_runtime": "7",
+  "question_id": "1032",
+  "elapsed_time": 44,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360014418,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 181,
+  "total_testcases": 181,
+  "runtime_percentile": 23.3335,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 17.777699999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695708814",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

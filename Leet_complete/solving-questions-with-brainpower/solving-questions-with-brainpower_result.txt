@@ -1,0 +1,47 @@
+Problem: solving-questions-with-brainpower
+Submission ID: 1695678274
+Submission Time: 2025-07-12 14:33:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 75 ms
+Memory: 48.74 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 80.66659999999999%
+Memory Percentile: 52.66670000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "75 ms",
+  "memory": 48740000,
+  "display_runtime": "75",
+  "question_id": "2262",
+  "elapsed_time": 212,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355985000,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 80.66659999999999,
+  "status_memory": "48.7 MB",
+  "memory_percentile": 52.66670000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695678274",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

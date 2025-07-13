@@ -1,0 +1,47 @@
+Problem: maximum-number-of-words-you-can-type
+Submission ID: 1695740972
+Submission Time: 2025-07-12 17:09:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.41 MB
+
+Test Cases: 20/20 passed
+
+Runtime Percentile: 48.6843%
+Memory Percentile: 76.3158%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12408000,
+  "display_runtime": "3",
+  "question_id": "1264",
+  "elapsed_time": 34,
+  "compare_result": "11111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365395350,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 20,
+  "total_testcases": 20,
+  "runtime_percentile": 48.6843,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 76.3158,
+  "pretty_lang": "Python",
+  "submission_id": "1695740972",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

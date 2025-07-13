@@ -1,0 +1,46 @@
+Problem: lowest-common-ancestor-of-a-binary-tree
+Submission ID: 1695592230
+Submission Time: 2025-07-12 12:13:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 61 ms ms
+Memory: 28.19 MB
+
+Test Cases: 32/32 passed
+
+Runtime Percentile: 12.607699999999973%
+Memory Percentile: 8.316599999999985%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "61 ms",
+  "memory": 28188000,
+  "question_id": "236",
+  "elapsed_time": 82,
+  "compare_result": "11111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347626102,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 32,
+  "runtime_percentile": 12.607699999999973,
+  "status_memory": "28.2 MB",
+  "memory_percentile": 8.316599999999985,
+  "pretty_lang": "Python",
+  "submission_id": "1695592230",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

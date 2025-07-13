@@ -1,0 +1,47 @@
+Problem: count-good-numbers
+Submission ID: 1695597002
+Submission Time: 2025-07-12 12:19:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.45 MB
+
+Test Cases: 166/166 passed
+
+Runtime Percentile: 22.696600000000004%
+Memory Percentile: 54.60680000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12452000,
+  "display_runtime": "3",
+  "question_id": "2050",
+  "elapsed_time": 33,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347978113,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 166,
+  "total_testcases": 166,
+  "runtime_percentile": 22.696600000000004,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 54.60680000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695597002",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

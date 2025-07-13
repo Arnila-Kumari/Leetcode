@@ -1,0 +1,47 @@
+Problem: balanced-binary-tree
+Submission ID: 1695558595
+Submission Time: 2025-07-12 11:34:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 17.88 MB
+
+Test Cases: 228/228 passed
+
+Runtime Percentile: 29.816000000000006%
+Memory Percentile: 63.4845%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 17884000,
+  "display_runtime": "11",
+  "question_id": "110",
+  "elapsed_time": 49,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345287719,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 228,
+  "total_testcases": 228,
+  "runtime_percentile": 29.816000000000006,
+  "status_memory": "17.9 MB",
+  "memory_percentile": 63.4845,
+  "pretty_lang": "Python",
+  "submission_id": "1695558595",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: sort-list
+Submission ID: 1695709225
+Submission Time: 2025-07-12 15:41:20
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 548 ms
+Memory: 50.88 MB
+
+Test Cases: 30/30 passed
+
+Runtime Percentile: 9.871800000000231%
+Memory Percentile: 50.628900000000016%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "548 ms",
+  "memory": 50880000,
+  "display_runtime": "548",
+  "question_id": "148",
+  "elapsed_time": 763,
+  "compare_result": "111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360077209,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 30,
+  "total_testcases": 30,
+  "runtime_percentile": 9.871800000000231,
+  "status_memory": "50.9 MB",
+  "memory_percentile": 50.628900000000016,
+  "pretty_lang": "Python",
+  "submission_id": "1695709225",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

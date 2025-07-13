@@ -1,0 +1,47 @@
+Problem: partition-array-into-two-arrays-to-minimize-sum-difference
+Submission ID: 1695614667
+Submission Time: 2025-07-12 12:43:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2144 ms
+Memory: 13.01 MB
+
+Test Cases: 201/201 passed
+
+Runtime Percentile: 84.90560000000004%
+Memory Percentile: 98.1132%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2144 ms",
+  "memory": 13008000,
+  "display_runtime": "2144",
+  "question_id": "2162",
+  "elapsed_time": 2201,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349400150,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 201,
+  "total_testcases": 201,
+  "runtime_percentile": 84.90560000000004,
+  "status_memory": "13 MB",
+  "memory_percentile": 98.1132,
+  "pretty_lang": "Python",
+  "submission_id": "1695614667",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

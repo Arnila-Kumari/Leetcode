@@ -1,0 +1,47 @@
+Problem: minimum-weighted-subgraph-with-the-required-paths
+Submission ID: 1695546959
+Submission Time: 2025-07-12 11:23:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1135 ms
+Memory: 83.36 MB
+
+Test Cases: 88/88 passed
+
+Runtime Percentile: 95.8333%
+Memory Percentile: 95.8333%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1135 ms",
+  "memory": 83364000,
+  "display_runtime": "1135",
+  "question_id": "2321",
+  "elapsed_time": 1326,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344624739,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 88,
+  "total_testcases": 88,
+  "runtime_percentile": 95.8333,
+  "status_memory": "83.4 MB",
+  "memory_percentile": 95.8333,
+  "pretty_lang": "Python",
+  "submission_id": "1695546959",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

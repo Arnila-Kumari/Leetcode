@@ -1,0 +1,47 @@
+Problem: number-of-zero-filled-subarrays
+Submission ID: 1695573175
+Submission Time: 2025-07-12 11:50:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 36 ms
+Memory: 18.34 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 80.09489999999998%
+Memory Percentile: 65.40280000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "36 ms",
+  "memory": 18336000,
+  "display_runtime": "36",
+  "question_id": "2432",
+  "elapsed_time": 121,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346257670,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 80.09489999999998,
+  "status_memory": "18.3 MB",
+  "memory_percentile": 65.40280000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695573175",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

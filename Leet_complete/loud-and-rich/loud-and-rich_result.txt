@@ -1,0 +1,47 @@
+Problem: loud-and-rich
+Submission ID: 1695591944
+Submission Time: 2025-07-12 12:13:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 22 ms
+Memory: 19.60 MB
+
+Test Cases: 86/86 passed
+
+Runtime Percentile: 75.36200000000004%
+Memory Percentile: 18.840599999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "22 ms",
+  "memory": 19604000,
+  "display_runtime": "22",
+  "question_id": "881",
+  "elapsed_time": 83,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347606258,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 86,
+  "total_testcases": 86,
+  "runtime_percentile": 75.36200000000004,
+  "status_memory": "19.6 MB",
+  "memory_percentile": 18.840599999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1695591944",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

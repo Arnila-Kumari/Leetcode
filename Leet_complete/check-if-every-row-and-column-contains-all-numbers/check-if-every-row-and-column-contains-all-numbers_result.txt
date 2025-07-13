@@ -1,0 +1,47 @@
+Problem: check-if-every-row-and-column-contains-all-numbers
+Submission ID: 1695576671
+Submission Time: 2025-07-12 11:55:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 31 ms
+Memory: 12.66 MB
+
+Test Cases: 227/227 passed
+
+Runtime Percentile: 69.53569999999996%
+Memory Percentile: 90.0662%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "31 ms",
+  "memory": 12660000,
+  "display_runtime": "31",
+  "question_id": "2254",
+  "elapsed_time": 111,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346504568,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 227,
+  "total_testcases": 227,
+  "runtime_percentile": 69.53569999999996,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 90.0662,
+  "pretty_lang": "Python",
+  "submission_id": "1695576671",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

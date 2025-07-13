@@ -1,0 +1,47 @@
+Problem: number-of-operations-to-make-network-connected
+Submission ID: 1695563692
+Submission Time: 2025-07-12 11:40:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 99 ms
+Memory: 25.17 MB
+
+Test Cases: 36/36 passed
+
+Runtime Percentile: 25.520699999999948%
+Memory Percentile: 96.3542%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "99 ms",
+  "memory": 25172000,
+  "display_runtime": "99",
+  "question_id": "1442",
+  "elapsed_time": 158,
+  "compare_result": "111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345619572,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 36,
+  "total_testcases": 36,
+  "runtime_percentile": 25.520699999999948,
+  "status_memory": "25.2 MB",
+  "memory_percentile": 96.3542,
+  "pretty_lang": "Python",
+  "submission_id": "1695563692",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

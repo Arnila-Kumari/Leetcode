@@ -1,0 +1,47 @@
+Problem: unique-substrings-in-wraparound-string
+Submission ID: 1695739316
+Submission Time: 2025-07-12 17:05:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 51 ms
+Memory: 12.82 MB
+
+Test Cases: 82/82 passed
+
+Runtime Percentile: 97.561%
+Memory Percentile: 87.8049%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "51 ms",
+  "memory": 12820000,
+  "display_runtime": "51",
+  "question_id": "467",
+  "elapsed_time": 86,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365145358,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 82,
+  "total_testcases": 82,
+  "runtime_percentile": 97.561,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 87.8049,
+  "pretty_lang": "Python",
+  "submission_id": "1695739316",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

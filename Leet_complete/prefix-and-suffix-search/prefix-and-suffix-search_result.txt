@@ -1,0 +1,47 @@
+Problem: prefix-and-suffix-search
+Submission ID: 1695587274
+Submission Time: 2025-07-12 12:07:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2176 ms
+Memory: 178.64 MB
+
+Test Cases: 17/17 passed
+
+Runtime Percentile: 24.13739999999994%
+Memory Percentile: 20.68929999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2176 ms",
+  "memory": 178636000,
+  "display_runtime": "2176",
+  "question_id": "746",
+  "elapsed_time": 4129,
+  "compare_result": "11111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347262585,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 17,
+  "total_testcases": 17,
+  "runtime_percentile": 24.13739999999994,
+  "status_memory": "178.6 MB",
+  "memory_percentile": 20.68929999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695587274",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,53 @@
+Problem: verbal-arithmetic-puzzle
+Submission ID: 1695699873
+Submission Time: 2025-07-12 15:19:15
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 703 ms
+Memory: 12.39 MB
+
+Test Cases: 29/34 passed
+
+Last Test Case:
+Input: ["AA","BB"]
+"AA"
+Expected: false
+
+Code Output: true
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12388000,
+  "display_runtime": "703",
+  "question_id": "1429",
+  "elapsed_time": 741,
+  "compare_result": "1111111111111111111111111111001000",
+  "code_output": "true",
+  "std_output": "",
+  "last_testcase": "[\"AA\",\"BB\"]\n\"AA\"",
+  "expected_output": "false",
+  "task_finish_time": 1752358754263,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 29,
+  "total_testcases": 34,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695699873",
+  "input_formatted": "[\"AA\",\"BB\"], \"AA\"",
+  "input": "[\"AA\",\"BB\"]\n\"AA\"",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

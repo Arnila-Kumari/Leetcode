@@ -1,0 +1,47 @@
+Problem: maximum-erasure-value
+Submission ID: 1695625201
+Submission Time: 2025-07-12 12:58:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 264 ms
+Memory: 21.37 MB
+
+Test Cases: 62/62 passed
+
+Runtime Percentile: 41.66749999999993%
+Memory Percentile: 11.805699999999987%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "264 ms",
+  "memory": 21368000,
+  "display_runtime": "264",
+  "question_id": "1813",
+  "elapsed_time": 333,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350326002,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 62,
+  "total_testcases": 62,
+  "runtime_percentile": 41.66749999999993,
+  "status_memory": "21.4 MB",
+  "memory_percentile": 11.805699999999987,
+  "pretty_lang": "Python",
+  "submission_id": "1695625201",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

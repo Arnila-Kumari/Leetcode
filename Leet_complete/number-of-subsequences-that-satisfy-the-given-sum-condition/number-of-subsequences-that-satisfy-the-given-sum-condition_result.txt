@@ -1,0 +1,47 @@
+Problem: number-of-subsequences-that-satisfy-the-given-sum-condition
+Submission ID: 1695568320
+Submission Time: 2025-07-12 11:45:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 139 ms
+Memory: 19.80 MB
+
+Test Cases: 63/63 passed
+
+Runtime Percentile: 86.71849999999999%
+Memory Percentile: 95.0367%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "139 ms",
+  "memory": 19800000,
+  "display_runtime": "139",
+  "question_id": "1621",
+  "elapsed_time": 195,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345927924,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 63,
+  "total_testcases": 63,
+  "runtime_percentile": 86.71849999999999,
+  "status_memory": "19.8 MB",
+  "memory_percentile": 95.0367,
+  "pretty_lang": "Python",
+  "submission_id": "1695568320",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

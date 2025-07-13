@@ -1,0 +1,47 @@
+Problem: super-ugly-number
+Submission ID: 1695693596
+Submission Time: 2025-07-12 15:05:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 185 ms
+Memory: 16.16 MB
+
+Test Cases: 87/87 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 80.31499999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "185 ms",
+  "memory": 16156000,
+  "display_runtime": "185",
+  "question_id": "313",
+  "elapsed_time": 216,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357924121,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 87,
+  "total_testcases": 87,
+  "runtime_percentile": 100,
+  "status_memory": "16.2 MB",
+  "memory_percentile": 80.31499999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695693596",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

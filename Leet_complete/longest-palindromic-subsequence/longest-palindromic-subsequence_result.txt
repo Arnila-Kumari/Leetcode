@@ -1,0 +1,47 @@
+Problem: longest-palindromic-subsequence
+Submission ID: 1695588043
+Submission Time: 2025-07-12 12:08:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 447 ms
+Memory: 12.44 MB
+
+Test Cases: 86/86 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 97.0339%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "447 ms",
+  "memory": 12436000,
+  "display_runtime": "447",
+  "question_id": "516",
+  "elapsed_time": 483,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347311975,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 86,
+  "total_testcases": 86,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 97.0339,
+  "pretty_lang": "Python",
+  "submission_id": "1695588043",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: swim-in-rising-water
+Submission ID: 1695700695
+Submission Time: 2025-07-12 15:21:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 63 ms
+Memory: 12.93 MB
+
+Test Cases: 43/43 passed
+
+Runtime Percentile: 28.974600000000045%
+Memory Percentile: 14.134199999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "63 ms",
+  "memory": 12932000,
+  "display_runtime": "63",
+  "question_id": "794",
+  "elapsed_time": 104,
+  "compare_result": "1111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358867534,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 43,
+  "total_testcases": 43,
+  "runtime_percentile": 28.974600000000045,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 14.134199999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695700695",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

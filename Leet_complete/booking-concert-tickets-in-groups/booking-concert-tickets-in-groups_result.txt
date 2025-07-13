@@ -1,0 +1,47 @@
+Problem: booking-concert-tickets-in-groups
+Submission ID: 1695566340
+Submission Time: 2025-07-12 11:43:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1607 ms
+Memory: 52.63 MB
+
+Test Cases: 97/97 passed
+
+Runtime Percentile: 75.0%
+Memory Percentile: 0.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1607 ms",
+  "memory": 52632000,
+  "display_runtime": "1607",
+  "question_id": "2380",
+  "elapsed_time": 5019,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345804577,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 97,
+  "total_testcases": 97,
+  "runtime_percentile": 75.0,
+  "status_memory": "52.6 MB",
+  "memory_percentile": 0.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695566340",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

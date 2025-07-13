@@ -1,0 +1,47 @@
+Problem: strange-printer
+Submission ID: 1695681582
+Submission Time: 2025-07-12 14:39:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 497 ms
+Memory: 12.91 MB
+
+Test Cases: 200/200 passed
+
+Runtime Percentile: 35.48400000000002%
+Memory Percentile: 14.516100000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "497 ms",
+  "memory": 12908000,
+  "display_runtime": "497",
+  "question_id": "664",
+  "elapsed_time": 588,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356396158,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 200,
+  "total_testcases": 200,
+  "runtime_percentile": 35.48400000000002,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 14.516100000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695681582",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

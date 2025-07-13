@@ -1,0 +1,47 @@
+Problem: number-of-provinces
+Submission ID: 1696128904
+Submission Time: 2025-07-13 00:43:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 29 ms
+Memory: 13.11 MB
+
+Test Cases: 114/114 passed
+
+Runtime Percentile: 12.385300000000026%
+Memory Percentile: 55.70570000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "29 ms",
+  "memory": 13108000,
+  "display_runtime": "29",
+  "question_id": "547",
+  "elapsed_time": 149,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752392611728,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 114,
+  "total_testcases": 114,
+  "runtime_percentile": 12.385300000000026,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 55.70570000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1696128904",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

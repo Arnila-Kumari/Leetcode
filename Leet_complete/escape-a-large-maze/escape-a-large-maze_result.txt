@@ -1,0 +1,47 @@
+Problem: escape-a-large-maze
+Submission ID: 1695678993
+Submission Time: 2025-07-12 14:34:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 277 ms
+Memory: 15.52 MB
+
+Test Cases: 31/31 passed
+
+Runtime Percentile: 90.0%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "277 ms",
+  "memory": 15520000,
+  "display_runtime": "277",
+  "question_id": "1106",
+  "elapsed_time": 318,
+  "compare_result": "1111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356072729,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 31,
+  "total_testcases": 31,
+  "runtime_percentile": 90.0,
+  "status_memory": "15.5 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695678993",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

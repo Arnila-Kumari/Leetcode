@@ -1,0 +1,47 @@
+Problem: keyboard-row
+Submission ID: 1695570121
+Submission Time: 2025-07-12 11:47:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.42 MB
+
+Test Cases: 25/25 passed
+
+Runtime Percentile: 1.3458999999999985%
+Memory Percentile: 51.547799999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12420000,
+  "display_runtime": "4",
+  "question_id": "500",
+  "elapsed_time": 31,
+  "compare_result": "1111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346046617,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 25,
+  "total_testcases": 25,
+  "runtime_percentile": 1.3458999999999985,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 51.547799999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1695570121",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

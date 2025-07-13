@@ -1,0 +1,47 @@
+Problem: remove-all-adjacent-duplicates-in-string
+Submission ID: 1695702565
+Submission Time: 2025-07-12 15:25:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 35 ms
+Memory: 13.60 MB
+
+Test Cases: 106/106 passed
+
+Runtime Percentile: 78.3428%
+Memory Percentile: 52.01%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "35 ms",
+  "memory": 13596000,
+  "display_runtime": "35",
+  "question_id": "1128",
+  "elapsed_time": 79,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752359125365,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 106,
+  "total_testcases": 106,
+  "runtime_percentile": 78.3428,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 52.01,
+  "pretty_lang": "Python",
+  "submission_id": "1695702565",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

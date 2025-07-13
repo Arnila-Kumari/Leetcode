@@ -1,0 +1,47 @@
+Problem: split-two-strings-to-make-palindrome
+Submission ID: 1695739693
+Submission Time: 2025-07-12 17:06:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 48 ms
+Memory: 13.20 MB
+
+Test Cases: 111/111 passed
+
+Runtime Percentile: 43.75%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "48 ms",
+  "memory": 13204000,
+  "display_runtime": "48",
+  "question_id": "1739",
+  "elapsed_time": 88,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365203125,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 111,
+  "total_testcases": 111,
+  "runtime_percentile": 43.75,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695739693",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

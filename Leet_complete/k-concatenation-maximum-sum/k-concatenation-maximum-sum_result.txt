@@ -1,0 +1,47 @@
+Problem: k-concatenation-maximum-sum
+Submission ID: 1695568053
+Submission Time: 2025-07-12 11:45:12
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 103 ms
+Memory: 20.73 MB
+
+Test Cases: 44/44 passed
+
+Runtime Percentile: 90.90899999999999%
+Memory Percentile: 77.2727%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "103 ms",
+  "memory": 20728000,
+  "display_runtime": "103",
+  "question_id": "1299",
+  "elapsed_time": 145,
+  "compare_result": "11111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345911717,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 44,
+  "total_testcases": 44,
+  "runtime_percentile": 90.90899999999999,
+  "status_memory": "20.7 MB",
+  "memory_percentile": 77.2727,
+  "pretty_lang": "Python",
+  "submission_id": "1695568053",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

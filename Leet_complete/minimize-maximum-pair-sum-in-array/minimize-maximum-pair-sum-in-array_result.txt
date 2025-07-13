@@ -1,0 +1,46 @@
+Problem: minimize-maximum-pair-sum-in-array
+Submission ID: 1695740112
+Submission Time: 2025-07-12 17:07:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1047 ms ms
+Memory: 24.88 MB
+
+Test Cases: 37/37 passed
+
+Runtime Percentile: 58.27440000000018%
+Memory Percentile: 52.5182%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1047 ms",
+  "memory": 24876000,
+  "question_id": "1988",
+  "elapsed_time": 1090,
+  "compare_result": "1111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365264575,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 37,
+  "total_testcases": 37,
+  "runtime_percentile": 58.27440000000018,
+  "status_memory": "24.9 MB",
+  "memory_percentile": 52.5182,
+  "pretty_lang": "Python",
+  "submission_id": "1695740112",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

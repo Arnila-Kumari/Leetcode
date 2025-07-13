@@ -1,0 +1,47 @@
+Problem: combinations
+Submission ID: 1695585079
+Submission Time: 2025-07-12 12:05:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 204 ms
+Memory: 139.61 MB
+
+Test Cases: 27/27 passed
+
+Runtime Percentile: 88.27260000000005%
+Memory Percentile: 15.391499999999992%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "204 ms",
+  "memory": 139608000,
+  "display_runtime": "204",
+  "question_id": "77",
+  "elapsed_time": 389,
+  "compare_result": "111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347108002,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 27,
+  "total_testcases": 27,
+  "runtime_percentile": 88.27260000000005,
+  "status_memory": "139.6 MB",
+  "memory_percentile": 15.391499999999992,
+  "pretty_lang": "Python",
+  "submission_id": "1695585079",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

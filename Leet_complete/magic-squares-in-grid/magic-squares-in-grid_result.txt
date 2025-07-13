@@ -1,0 +1,47 @@
+Problem: magic-squares-in-grid
+Submission ID: 1695592720
+Submission Time: 2025-07-12 12:14:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 12.49 MB
+
+Test Cases: 101/101 passed
+
+Runtime Percentile: 13.793000000000006%
+Memory Percentile: 37.931000000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 12492000,
+  "display_runtime": "6",
+  "question_id": "870",
+  "elapsed_time": 44,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347664309,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 101,
+  "total_testcases": 101,
+  "runtime_percentile": 13.793000000000006,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 37.931000000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695592720",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

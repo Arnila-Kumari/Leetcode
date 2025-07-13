@@ -1,0 +1,47 @@
+Problem: continuous-subarray-sum
+Submission ID: 1695590185
+Submission Time: 2025-07-12 12:11:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 47 ms
+Memory: 31.18 MB
+
+Test Cases: 102/102 passed
+
+Runtime Percentile: 89.6826%
+Memory Percentile: 88.25410000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "47 ms",
+  "memory": 31180000,
+  "display_runtime": "47",
+  "question_id": "523",
+  "elapsed_time": 137,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347476194,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 102,
+  "total_testcases": 102,
+  "runtime_percentile": 89.6826,
+  "status_memory": "31.2 MB",
+  "memory_percentile": 88.25410000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695590185",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

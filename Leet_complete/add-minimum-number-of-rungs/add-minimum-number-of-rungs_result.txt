@@ -1,0 +1,47 @@
+Problem: add-minimum-number-of-rungs
+Submission ID: 1695546638
+Submission Time: 2025-07-12 11:23:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 58 ms
+Memory: 21.44 MB
+
+Test Cases: 117/117 passed
+
+Runtime Percentile: 5.881699999999992%
+Memory Percentile: 94.1176%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "58 ms",
+  "memory": 21444000,
+  "display_runtime": "58",
+  "question_id": "2066",
+  "elapsed_time": 177,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344606679,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 117,
+  "total_testcases": 117,
+  "runtime_percentile": 5.881699999999992,
+  "status_memory": "21.4 MB",
+  "memory_percentile": 94.1176,
+  "pretty_lang": "Python",
+  "submission_id": "1695546638",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

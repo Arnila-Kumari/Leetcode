@@ -1,0 +1,47 @@
+Problem: minimum-penalty-for-a-shop
+Submission ID: 1695741420
+Submission Time: 2025-07-12 17:11:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 67 ms
+Memory: 12.84 MB
+
+Test Cases: 42/42 passed
+
+Runtime Percentile: 75.41009999999996%
+Memory Percentile: 93.4426%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "67 ms",
+  "memory": 12844000,
+  "display_runtime": "67",
+  "question_id": "2576",
+  "elapsed_time": 99,
+  "compare_result": "111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365465816,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 42,
+  "total_testcases": 42,
+  "runtime_percentile": 75.41009999999996,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 93.4426,
+  "pretty_lang": "Python",
+  "submission_id": "1695741420",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

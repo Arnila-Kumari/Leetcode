@@ -1,0 +1,47 @@
+Problem: consecutive-numbers-sum
+Submission ID: 1695586704
+Submission Time: 2025-07-12 12:06:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 12.49 MB
+
+Test Cases: 170/170 passed
+
+Runtime Percentile: 98.3607%
+Memory Percentile: 72.13119999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 12492000,
+  "display_runtime": "6",
+  "question_id": "856",
+  "elapsed_time": 49,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347215373,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 170,
+  "total_testcases": 170,
+  "runtime_percentile": 98.3607,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 72.13119999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695586704",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

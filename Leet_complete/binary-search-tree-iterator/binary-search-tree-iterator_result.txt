@@ -1,0 +1,50 @@
+Problem: binary-search-tree-iterator
+Submission ID: 1695562612
+Submission Time: 2025-07-12 11:39:06
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.58 MB
+
+Test Cases: 0/61 passed
+
+Last Test Case:
+Input: ["BSTIterator","next","next","hasNext","next","hasNext","next","hasNext","next","hasNext"]
+[[[7,3,15,null,null,9,20]],[],[],[],[],[],[],[],[],[]]
+Expected: [null,3,7,true,9,true,15,true,20,false]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 59: TypeError: [TreeNode{val: 15, left: TreeNode{val: 9, left: None, right: None}, right: TreeNode{val: 20, left: None, right: None}}, TreeNode{val: 9, left: None, right: None}] is not valid value for the expected return type boolean",
+  "full_runtime_error": "TypeError: [TreeNode{val: 15, left: TreeNode{val: 9, left: None, right: None}, right: TreeNode{val: 20, left: None, right: None}}, TreeNode{val: 9, left: None, right: None}] is not valid value for the expected return type boolean\n    raise TypeError(str(result) + \" is not valid value for the expected return type boolean\")\nLine 59 in __helper_select_method__ (Solution.py)\n    ctime, ans = __DriverSolution__().__helper_select_method__(method, params[index], obj)\nLine 99 in _driver (Solution.py)\n    _driver()\nLine 111 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12576000,
+  "question_id": "173",
+  "elapsed_time": 33,
+  "compare_result": "0000000000000000000000000000000000000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[\"BSTIterator\",\"next\",\"next\",\"hasNext\",\"next\",\"hasNext\",\"next\",\"hasNext\",\"next\",\"hasNext\"]\n[[[7,3,15,null,null,9,20]],[],[],[],[],[],[],[],[],[]]",
+  "expected_output": "[null,3,7,true,9,true,15,true,20,false]",
+  "task_finish_time": 1752345545010,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 61,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695562612",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

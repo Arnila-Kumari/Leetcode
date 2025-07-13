@@ -1,0 +1,47 @@
+Problem: reach-a-number
+Submission ID: 1695594146
+Submission Time: 2025-07-12 12:16:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.41 MB
+
+Test Cases: 73/73 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 57.1429%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12408000,
+  "display_runtime": "0",
+  "question_id": "755",
+  "elapsed_time": 45,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347768352,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 73,
+  "total_testcases": 73,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 57.1429,
+  "pretty_lang": "Python",
+  "submission_id": "1695594146",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

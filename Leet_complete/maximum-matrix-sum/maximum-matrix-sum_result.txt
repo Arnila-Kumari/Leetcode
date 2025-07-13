@@ -1,0 +1,47 @@
+Problem: maximum-matrix-sum
+Submission ID: 1695627625
+Submission Time: 2025-07-12 13:02:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 94 ms
+Memory: 18.44 MB
+
+Test Cases: 98/98 passed
+
+Runtime Percentile: 75.67570000000003%
+Memory Percentile: 40.5406%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "94 ms",
+  "memory": 18440000,
+  "display_runtime": "94",
+  "question_id": "2089",
+  "elapsed_time": 171,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350546813,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 98,
+  "total_testcases": 98,
+  "runtime_percentile": 75.67570000000003,
+  "status_memory": "18.4 MB",
+  "memory_percentile": 40.5406,
+  "pretty_lang": "Python",
+  "submission_id": "1695627625",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: removing-stars-from-a-string
+Submission ID: 1695695510
+Submission Time: 2025-07-12 15:09:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 247 ms
+Memory: 14.18 MB
+
+Test Cases: 65/65 passed
+
+Runtime Percentile: 94.65839999999992%
+Memory Percentile: 31.188799999999972%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "247 ms",
+  "memory": 14180000,
+  "display_runtime": "247",
+  "question_id": "2470",
+  "elapsed_time": 386,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358166808,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 65,
+  "total_testcases": 65,
+  "runtime_percentile": 94.65839999999992,
+  "status_memory": "14.2 MB",
+  "memory_percentile": 31.188799999999972,
+  "pretty_lang": "Python",
+  "submission_id": "1695695510",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: sort-array-by-increasing-frequency
+Submission ID: 1695681009
+Submission Time: 2025-07-12 14:38:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.54 MB
+
+Test Cases: 180/180 passed
+
+Runtime Percentile: 63.4328%
+Memory Percentile: 19.403000000000013%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12540000,
+  "display_runtime": "4",
+  "question_id": "1741",
+  "elapsed_time": 41,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356328139,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 180,
+  "total_testcases": 180,
+  "runtime_percentile": 63.4328,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 19.403000000000013,
+  "pretty_lang": "Python",
+  "submission_id": "1695681009",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

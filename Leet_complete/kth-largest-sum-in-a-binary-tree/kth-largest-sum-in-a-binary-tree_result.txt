@@ -1,0 +1,47 @@
+Problem: kth-largest-sum-in-a-binary-tree
+Submission ID: 1695571542
+Submission Time: 2025-07-12 11:49:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 426 ms
+Memory: 96.27 MB
+
+Test Cases: 51/51 passed
+
+Runtime Percentile: 58.18149999999997%
+Memory Percentile: 45.454499999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "426 ms",
+  "memory": 96272000,
+  "display_runtime": "426",
+  "question_id": "2646",
+  "elapsed_time": 1593,
+  "compare_result": "111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346145173,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 51,
+  "total_testcases": 51,
+  "runtime_percentile": 58.18149999999997,
+  "status_memory": "96.3 MB",
+  "memory_percentile": 45.454499999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695571542",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

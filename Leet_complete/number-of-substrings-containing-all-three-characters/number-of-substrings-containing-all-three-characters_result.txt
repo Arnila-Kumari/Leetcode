@@ -1,0 +1,47 @@
+Problem: number-of-substrings-containing-all-three-characters
+Submission ID: 1695568524
+Submission Time: 2025-07-12 11:45:41
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 74 ms
+Memory: 12.50 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 99.56899999999999%
+Memory Percentile: 98.2759%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "74 ms",
+  "memory": 12496000,
+  "display_runtime": "74",
+  "question_id": "1460",
+  "elapsed_time": 125,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345941144,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 99.56899999999999,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 98.2759,
+  "pretty_lang": "Python",
+  "submission_id": "1695568524",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

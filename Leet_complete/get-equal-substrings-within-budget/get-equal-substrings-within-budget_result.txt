@@ -1,0 +1,47 @@
+Problem: get-equal-substrings-within-budget
+Submission ID: 1695553299
+Submission Time: 2025-07-12 11:29:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 27 ms
+Memory: 12.93 MB
+
+Test Cases: 37/37 passed
+
+Runtime Percentile: 98.4616%
+Memory Percentile: 94.6153%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "27 ms",
+  "memory": 12932000,
+  "display_runtime": "27",
+  "question_id": "1321",
+  "elapsed_time": 60,
+  "compare_result": "1111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344964944,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 37,
+  "total_testcases": 37,
+  "runtime_percentile": 98.4616,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 94.6153,
+  "pretty_lang": "Python",
+  "submission_id": "1695553299",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: online-stock-span
+Submission ID: 1695574745
+Submission Time: 2025-07-12 11:52:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 152 ms
+Memory: 17.15 MB
+
+Test Cases: 99/99 passed
+
+Runtime Percentile: 9.94500000000006%
+Memory Percentile: 54.0056%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "152 ms",
+  "memory": 17152000,
+  "display_runtime": "152",
+  "question_id": "937",
+  "elapsed_time": 1812,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346373764,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 99,
+  "total_testcases": 99,
+  "runtime_percentile": 9.94500000000006,
+  "status_memory": "17.2 MB",
+  "memory_percentile": 54.0056,
+  "pretty_lang": "Python",
+  "submission_id": "1695574745",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

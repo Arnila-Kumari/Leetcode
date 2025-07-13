@@ -1,0 +1,47 @@
+Problem: find-the-largest-area-of-square-inside-two-rectangles
+Submission ID: 1695702527
+Submission Time: 2025-07-12 15:25:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6156 ms
+Memory: 13.17 MB
+
+Test Cases: 661/661 passed
+
+Runtime Percentile: 43.75%
+Memory Percentile: 0.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6156 ms",
+  "memory": 13168000,
+  "display_runtime": "6156",
+  "question_id": "3325",
+  "elapsed_time": 6323,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752359126022,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 661,
+  "total_testcases": 661,
+  "runtime_percentile": 43.75,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 0.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695702527",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

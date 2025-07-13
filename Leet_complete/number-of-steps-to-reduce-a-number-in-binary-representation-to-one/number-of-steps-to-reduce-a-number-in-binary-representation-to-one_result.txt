@@ -1,0 +1,47 @@
+Problem: number-of-steps-to-reduce-a-number-in-binary-representation-to-one
+Submission ID: 1695566036
+Submission Time: 2025-07-12 11:43:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 5 ms
+Memory: 12.33 MB
+
+Test Cases: 74/74 passed
+
+Runtime Percentile: 31.343400000000003%
+Memory Percentile: 83.5821%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "5 ms",
+  "memory": 12332000,
+  "display_runtime": "5",
+  "question_id": "1520",
+  "elapsed_time": 34,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345780206,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 74,
+  "total_testcases": 74,
+  "runtime_percentile": 31.343400000000003,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 83.5821,
+  "pretty_lang": "Python",
+  "submission_id": "1695566036",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

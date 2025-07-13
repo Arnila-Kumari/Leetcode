@@ -1,0 +1,52 @@
+Problem: longest-consecutive-sequence
+Submission ID: 1695584809
+Submission Time: 2025-07-12 12:04:46
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 171 ms
+Memory: 30.64 MB
+
+Test Cases: 80/81 passed
+
+Last Test Case:
+Input: []
+Expected: 0
+
+Code Output: 1
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 30636000,
+  "display_runtime": "171",
+  "question_id": "128",
+  "elapsed_time": 222,
+  "compare_result": "111011111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "1",
+  "std_output": "",
+  "last_testcase": "[]",
+  "expected_output": "0",
+  "task_finish_time": 1752347086093,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 80,
+  "total_testcases": 81,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695584809",
+  "input_formatted": "[]",
+  "input": "[]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

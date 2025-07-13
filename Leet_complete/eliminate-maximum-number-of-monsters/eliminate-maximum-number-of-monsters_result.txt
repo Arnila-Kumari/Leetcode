@@ -1,0 +1,47 @@
+Problem: eliminate-maximum-number-of-monsters
+Submission ID: 1695740841
+Submission Time: 2025-07-12 17:09:32
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 83 ms
+Memory: 20.88 MB
+
+Test Cases: 131/131 passed
+
+Runtime Percentile: 97.0588%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "83 ms",
+  "memory": 20876000,
+  "display_runtime": "83",
+  "question_id": "2049",
+  "elapsed_time": 146,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365371617,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 131,
+  "total_testcases": 131,
+  "runtime_percentile": 97.0588,
+  "status_memory": "20.9 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695740841",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

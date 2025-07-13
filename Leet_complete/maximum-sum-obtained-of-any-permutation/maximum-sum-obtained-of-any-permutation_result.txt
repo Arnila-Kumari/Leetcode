@@ -1,0 +1,47 @@
+Problem: maximum-sum-obtained-of-any-permutation
+Submission ID: 1695683116
+Submission Time: 2025-07-12 14:42:53
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 129 ms
+Memory: 37.62 MB
+
+Test Cases: 84/84 passed
+
+Runtime Percentile: 80.0%
+Memory Percentile: 60.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "129 ms",
+  "memory": 37624000,
+  "display_runtime": "129",
+  "question_id": "1695",
+  "elapsed_time": 258,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356572755,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 84,
+  "total_testcases": 84,
+  "runtime_percentile": 80.0,
+  "status_memory": "37.6 MB",
+  "memory_percentile": 60.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695683116",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

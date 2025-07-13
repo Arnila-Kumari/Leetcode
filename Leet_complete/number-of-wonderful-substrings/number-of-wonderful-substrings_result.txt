@@ -1,0 +1,46 @@
+Problem: number-of-wonderful-substrings
+Submission ID: 1695573044
+Submission Time: 2025-07-12 11:50:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1617 ms ms
+Memory: 13.64 MB
+
+Test Cases: 88/88 passed
+
+Runtime Percentile: 20.0%
+Memory Percentile: 80.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1617 ms",
+  "memory": 13636000,
+  "question_id": "2044",
+  "elapsed_time": 1653,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346249285,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 88,
+  "total_testcases": 88,
+  "runtime_percentile": 20.0,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 80.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695573044",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

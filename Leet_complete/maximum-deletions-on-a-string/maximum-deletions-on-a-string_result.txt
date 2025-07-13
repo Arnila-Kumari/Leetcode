@@ -1,0 +1,47 @@
+Problem: maximum-deletions-on-a-string
+Submission ID: 1695622990
+Submission Time: 2025-07-12 12:55:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 5744 ms
+Memory: 12.90 MB
+
+Test Cases: 129/129 passed
+
+Runtime Percentile: 0.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "5744 ms",
+  "memory": 12900000,
+  "display_runtime": "5744",
+  "question_id": "2510",
+  "elapsed_time": 5909,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350132052,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 129,
+  "total_testcases": 129,
+  "runtime_percentile": 0.0,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695622990",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

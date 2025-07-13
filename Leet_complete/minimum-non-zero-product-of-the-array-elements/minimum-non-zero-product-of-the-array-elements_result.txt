@@ -1,0 +1,47 @@
+Problem: minimum-non-zero-product-of-the-array-elements
+Submission ID: 1695685992
+Submission Time: 2025-07-12 14:48:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.36 MB
+
+Test Cases: 60/60 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 83.33330000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12360000,
+  "display_runtime": "0",
+  "question_id": "2100",
+  "elapsed_time": 40,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356934806,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 60,
+  "total_testcases": 60,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 83.33330000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695685992",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

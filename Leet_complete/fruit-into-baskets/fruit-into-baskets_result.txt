@@ -1,0 +1,47 @@
+Problem: fruit-into-baskets
+Submission ID: 1695550602
+Submission Time: 2025-07-12 11:27:04
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 216 ms
+Memory: 16.42 MB
+
+Test Cases: 91/91 passed
+
+Runtime Percentile: 65.59729999999988%
+Memory Percentile: 77.8572%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "216 ms",
+  "memory": 16420000,
+  "display_runtime": "216",
+  "question_id": "940",
+  "elapsed_time": 330,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344823547,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 91,
+  "total_testcases": 91,
+  "runtime_percentile": 65.59729999999988,
+  "status_memory": "16.4 MB",
+  "memory_percentile": 77.8572,
+  "pretty_lang": "Python",
+  "submission_id": "1695550602",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

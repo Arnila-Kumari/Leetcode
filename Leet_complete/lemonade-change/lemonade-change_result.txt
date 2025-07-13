@@ -1,0 +1,47 @@
+Problem: lemonade-change
+Submission ID: 1695578498
+Submission Time: 2025-07-12 11:57:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 20 ms
+Memory: 15.15 MB
+
+Test Cases: 61/61 passed
+
+Runtime Percentile: 12.446399999999999%
+Memory Percentile: 91.73820000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "20 ms",
+  "memory": 15152000,
+  "display_runtime": "20",
+  "question_id": "890",
+  "elapsed_time": 102,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346634107,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 61,
+  "total_testcases": 61,
+  "runtime_percentile": 12.446399999999999,
+  "status_memory": "15.2 MB",
+  "memory_percentile": 91.73820000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695578498",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

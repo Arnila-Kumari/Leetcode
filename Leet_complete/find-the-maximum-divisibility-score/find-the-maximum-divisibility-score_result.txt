@@ -1,0 +1,47 @@
+Problem: find-the-maximum-divisibility-score
+Submission ID: 1695675024
+Submission Time: 2025-07-12 14:26:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 5152 ms
+Memory: 12.56 MB
+
+Test Cases: 160/160 passed
+
+Runtime Percentile: 5.715699999999948%
+Memory Percentile: 74.2857%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "5152 ms",
+  "memory": 12560000,
+  "display_runtime": "5152",
+  "question_id": "2694",
+  "elapsed_time": 5579,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355589013,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 160,
+  "total_testcases": 160,
+  "runtime_percentile": 5.715699999999948,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 74.2857,
+  "pretty_lang": "Python",
+  "submission_id": "1695675024",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

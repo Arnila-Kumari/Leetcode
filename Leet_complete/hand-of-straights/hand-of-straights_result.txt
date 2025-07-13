@@ -1,0 +1,47 @@
+Problem: hand-of-straights
+Submission ID: 1695557789
+Submission Time: 2025-07-12 11:33:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 123 ms
+Memory: 14.31 MB
+
+Test Cases: 92/92 passed
+
+Runtime Percentile: 43.23559999999994%
+Memory Percentile: 67.35319999999997%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "123 ms",
+  "memory": 14312000,
+  "display_runtime": "123",
+  "question_id": "876",
+  "elapsed_time": 195,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345236939,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 92,
+  "total_testcases": 92,
+  "runtime_percentile": 43.23559999999994,
+  "status_memory": "14.3 MB",
+  "memory_percentile": 67.35319999999997,
+  "pretty_lang": "Python",
+  "submission_id": "1695557789",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

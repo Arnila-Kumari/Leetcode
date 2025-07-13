@@ -1,0 +1,47 @@
+Problem: maximum-level-sum-of-a-binary-tree
+Submission ID: 1695627241
+Submission Time: 2025-07-12 13:01:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 62 ms
+Memory: 20.66 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 35.458799999999925%
+Memory Percentile: 88.3359%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "62 ms",
+  "memory": 20660000,
+  "display_runtime": "62",
+  "question_id": "1116",
+  "elapsed_time": 286,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350515662,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 35.458799999999925,
+  "status_memory": "20.7 MB",
+  "memory_percentile": 88.3359,
+  "pretty_lang": "Python",
+  "submission_id": "1695627241",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

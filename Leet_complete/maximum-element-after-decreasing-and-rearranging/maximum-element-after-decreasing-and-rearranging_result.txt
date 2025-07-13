@@ -1,0 +1,47 @@
+Problem: maximum-element-after-decreasing-and-rearranging
+Submission ID: 1695624570
+Submission Time: 2025-07-12 12:57:44
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 43 ms
+Memory: 17.56 MB
+
+Test Cases: 56/56 passed
+
+Runtime Percentile: 44.82719999999996%
+Memory Percentile: 96.5517%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "43 ms",
+  "memory": 17564000,
+  "display_runtime": "43",
+  "question_id": "1956",
+  "elapsed_time": 100,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350263656,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 56,
+  "total_testcases": 56,
+  "runtime_percentile": 44.82719999999996,
+  "status_memory": "17.6 MB",
+  "memory_percentile": 96.5517,
+  "pretty_lang": "Python",
+  "submission_id": "1695624570",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

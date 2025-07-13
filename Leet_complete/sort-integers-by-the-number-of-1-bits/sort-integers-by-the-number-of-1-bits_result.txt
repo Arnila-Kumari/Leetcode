@@ -1,0 +1,47 @@
+Problem: sort-integers-by-the-number-of-1-bits
+Submission ID: 1695679353
+Submission Time: 2025-07-12 14:35:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 14 ms
+Memory: 12.63 MB
+
+Test Cases: 77/77 passed
+
+Runtime Percentile: 31.428499999999996%
+Memory Percentile: 29.285700000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "14 ms",
+  "memory": 12628000,
+  "display_runtime": "14",
+  "question_id": "1458",
+  "elapsed_time": 59,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356114595,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 77,
+  "total_testcases": 77,
+  "runtime_percentile": 31.428499999999996,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 29.285700000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695679353",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

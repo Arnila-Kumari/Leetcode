@@ -1,0 +1,50 @@
+Problem: my-calendar-i
+Submission ID: 1695552390
+Submission Time: 2025-07-12 11:28:39
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.24 MB
+
+Test Cases: 0/107 passed
+
+Last Test Case:
+Input: ["MyCalendar","book","book","book"]
+[[],[10,20],[15,25],[20,30]]
+Expected: [null,true,false,true]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 41: AttributeError: 'MyCalendar' object has no attribute 'root'",
+  "full_runtime_error": "AttributeError: 'MyCalendar' object has no attribute 'root'\n    return self.root.insert(Node(start, end))\nLine 41 in book (Solution.py)\n    param_2)\nLine 84 in __helper_select_method__ (Solution.py)\n    ctime, ans = __DriverSolution__().__helper_select_method__(method, params[index], obj)\nLine 128 in _driver (Solution.py)\n    _driver()\nLine 140 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12244000,
+  "question_id": "729",
+  "elapsed_time": 33,
+  "compare_result": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[\"MyCalendar\",\"book\",\"book\",\"book\"]\n[[],[10,20],[15,25],[20,30]]",
+  "expected_output": "[null,true,false,true]",
+  "task_finish_time": 1752344917618,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 107,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695552390",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

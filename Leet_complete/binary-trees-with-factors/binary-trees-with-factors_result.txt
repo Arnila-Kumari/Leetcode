@@ -1,0 +1,47 @@
+Problem: binary-trees-with-factors
+Submission ID: 1695565266
+Submission Time: 2025-07-12 11:42:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 217 ms
+Memory: 12.73 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 37.93069999999996%
+Memory Percentile: 31.034400000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "217 ms",
+  "memory": 12728000,
+  "display_runtime": "217",
+  "question_id": "843",
+  "elapsed_time": 259,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345726101,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 37.93069999999996,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 31.034400000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695565266",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

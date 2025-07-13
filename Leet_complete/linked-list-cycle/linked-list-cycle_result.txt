@@ -1,0 +1,46 @@
+Problem: linked-list-cycle
+Submission ID: 1695582366
+Submission Time: 2025-07-12 12:01:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 34 ms ms
+Memory: 19.65 MB
+
+Test Cases: 29/29 passed
+
+Runtime Percentile: 75.62899999999999%
+Memory Percentile: 25.70429999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "34 ms",
+  "memory": 19652000,
+  "question_id": "141",
+  "elapsed_time": 67,
+  "compare_result": "11111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346913542,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 29,
+  "total_testcases": 29,
+  "runtime_percentile": 75.62899999999999,
+  "status_memory": "19.7 MB",
+  "memory_percentile": 25.70429999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695582366",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

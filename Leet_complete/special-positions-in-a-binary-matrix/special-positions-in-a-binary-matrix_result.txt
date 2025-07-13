@@ -1,0 +1,47 @@
+Problem: special-positions-in-a-binary-matrix
+Submission ID: 1695683743
+Submission Time: 2025-07-12 14:44:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 9 ms
+Memory: 12.68 MB
+
+Test Cases: 95/95 passed
+
+Runtime Percentile: 65.51729999999998%
+Memory Percentile: 44.827600000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "9 ms",
+  "memory": 12676000,
+  "display_runtime": "9",
+  "question_id": "1704",
+  "elapsed_time": 65,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356644193,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 95,
+  "total_testcases": 95,
+  "runtime_percentile": 65.51729999999998,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 44.827600000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695683743",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

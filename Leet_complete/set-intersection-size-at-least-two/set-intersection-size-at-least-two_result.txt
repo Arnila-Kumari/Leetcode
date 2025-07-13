@@ -1,0 +1,47 @@
+Problem: set-intersection-size-at-least-two
+Submission ID: 1695677946
+Submission Time: 2025-07-12 14:32:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 768 ms
+Memory: 13.23 MB
+
+Test Cases: 117/117 passed
+
+Runtime Percentile: 10.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "768 ms",
+  "memory": 13232000,
+  "display_runtime": "768",
+  "question_id": "759",
+  "elapsed_time": 827,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355943837,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 117,
+  "total_testcases": 117,
+  "runtime_percentile": 10.0,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695677946",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

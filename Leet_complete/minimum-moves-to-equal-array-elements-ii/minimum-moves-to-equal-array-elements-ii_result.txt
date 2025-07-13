@@ -1,0 +1,47 @@
+Problem: minimum-moves-to-equal-array-elements-ii
+Submission ID: 1695709857
+Submission Time: 2025-07-12 15:42:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 883 ms
+Memory: 13.25 MB
+
+Test Cases: 33/33 passed
+
+Runtime Percentile: 5.555599999999998%
+Memory Percentile: 88.8889%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "883 ms",
+  "memory": 13252000,
+  "display_runtime": "883",
+  "question_id": "462",
+  "elapsed_time": 926,
+  "compare_result": "111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360165951,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 33,
+  "total_testcases": 33,
+  "runtime_percentile": 5.555599999999998,
+  "status_memory": "13.3 MB",
+  "memory_percentile": 88.8889,
+  "pretty_lang": "Python",
+  "submission_id": "1695709857",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

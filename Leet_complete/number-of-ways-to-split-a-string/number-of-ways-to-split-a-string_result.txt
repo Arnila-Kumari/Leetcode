@@ -1,0 +1,47 @@
+Problem: number-of-ways-to-split-a-string
+Submission ID: 1695572321
+Submission Time: 2025-07-12 11:49:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 87 ms
+Memory: 12.77 MB
+
+Test Cases: 164/164 passed
+
+Runtime Percentile: 74.99989999999998%
+Memory Percentile: 95.8333%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "87 ms",
+  "memory": 12768000,
+  "display_runtime": "87",
+  "question_id": "1678",
+  "elapsed_time": 126,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346197684,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 164,
+  "total_testcases": 164,
+  "runtime_percentile": 74.99989999999998,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 95.8333,
+  "pretty_lang": "Python",
+  "submission_id": "1695572321",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

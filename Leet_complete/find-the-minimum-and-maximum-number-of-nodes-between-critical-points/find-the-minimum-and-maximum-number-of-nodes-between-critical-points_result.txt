@@ -1,0 +1,47 @@
+Problem: find-the-minimum-and-maximum-number-of-nodes-between-critical-points
+Submission ID: 1695691996
+Submission Time: 2025-07-12 15:02:03
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 320 ms
+Memory: 90.73 MB
+
+Test Cases: 139/139 passed
+
+Runtime Percentile: 8.0%
+Memory Percentile: 55.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "320 ms",
+  "memory": 90728000,
+  "display_runtime": "320",
+  "question_id": "2182",
+  "elapsed_time": 1121,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357720021,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 139,
+  "total_testcases": 139,
+  "runtime_percentile": 8.0,
+  "status_memory": "90.7 MB",
+  "memory_percentile": 55.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695691996",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

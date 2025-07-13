@@ -1,0 +1,47 @@
+Problem: coin-change-ii
+Submission ID: 1695738773
+Submission Time: 2025-07-12 17:04:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 127 ms
+Memory: 12.72 MB
+
+Test Cases: 30/30 passed
+
+Runtime Percentile: 99.57119999999999%
+Memory Percentile: 79.314%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "127 ms",
+  "memory": 12716000,
+  "display_runtime": "127",
+  "question_id": "518",
+  "elapsed_time": 160,
+  "compare_result": "111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365061843,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 30,
+  "total_testcases": 30,
+  "runtime_percentile": 99.57119999999999,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 79.314,
+  "pretty_lang": "Python",
+  "submission_id": "1695738773",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

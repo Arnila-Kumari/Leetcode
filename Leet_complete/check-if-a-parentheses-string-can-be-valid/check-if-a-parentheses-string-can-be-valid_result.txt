@@ -1,0 +1,47 @@
+Problem: check-if-a-parentheses-string-can-be-valid
+Submission ID: 1695573983
+Submission Time: 2025-07-12 11:51:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 154 ms
+Memory: 13.14 MB
+
+Test Cases: 260/260 passed
+
+Runtime Percentile: 63.333700000000086%
+Memory Percentile: 98.8889%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "154 ms",
+  "memory": 13140000,
+  "display_runtime": "154",
+  "question_id": "2221",
+  "elapsed_time": 207,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346316270,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 260,
+  "total_testcases": 260,
+  "runtime_percentile": 63.333700000000086,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 98.8889,
+  "pretty_lang": "Python",
+  "submission_id": "1695573983",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

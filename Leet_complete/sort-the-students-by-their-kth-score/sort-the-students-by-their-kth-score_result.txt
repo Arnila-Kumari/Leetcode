@@ -1,0 +1,47 @@
+Problem: sort-the-students-by-their-kth-score
+Submission ID: 1695691618
+Submission Time: 2025-07-12 15:01:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 19.32 MB
+
+Test Cases: 33/33 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 76.8421%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 19320000,
+  "display_runtime": "0",
+  "question_id": "2631",
+  "elapsed_time": 65,
+  "compare_result": "111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357666439,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 33,
+  "total_testcases": 33,
+  "runtime_percentile": 100,
+  "status_memory": "19.3 MB",
+  "memory_percentile": 76.8421,
+  "pretty_lang": "Python",
+  "submission_id": "1695691618",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

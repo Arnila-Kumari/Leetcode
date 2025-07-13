@@ -1,0 +1,47 @@
+Problem: find-all-numbers-disappeared-in-an-array
+Submission ID: 1695689247
+Submission Time: 2025-07-12 14:55:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 67 ms
+Memory: 26.88 MB
+
+Test Cases: 35/35 passed
+
+Runtime Percentile: 15.150499999999996%
+Memory Percentile: 70.8237%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "67 ms",
+  "memory": 26876000,
+  "display_runtime": "67",
+  "question_id": "448",
+  "elapsed_time": 125,
+  "compare_result": "11111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357354334,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 35,
+  "total_testcases": 35,
+  "runtime_percentile": 15.150499999999996,
+  "status_memory": "26.9 MB",
+  "memory_percentile": 70.8237,
+  "pretty_lang": "Python",
+  "submission_id": "1695689247",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

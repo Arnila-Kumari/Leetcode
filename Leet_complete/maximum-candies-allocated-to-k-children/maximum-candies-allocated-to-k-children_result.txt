@@ -1,0 +1,47 @@
+Problem: maximum-candies-allocated-to-k-children
+Submission ID: 1695622126
+Submission Time: 2025-07-12 12:54:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 481 ms
+Memory: 20.00 MB
+
+Test Cases: 101/101 passed
+
+Runtime Percentile: 25.804199999999984%
+Memory Percentile: 99.1935%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "481 ms",
+  "memory": 19996000,
+  "display_runtime": "481",
+  "question_id": "1335",
+  "elapsed_time": 560,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350054081,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 101,
+  "total_testcases": 101,
+  "runtime_percentile": 25.804199999999984,
+  "status_memory": "20 MB",
+  "memory_percentile": 99.1935,
+  "pretty_lang": "Python",
+  "submission_id": "1695622126",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

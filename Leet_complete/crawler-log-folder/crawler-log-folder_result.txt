@@ -1,0 +1,47 @@
+Problem: crawler-log-folder
+Submission ID: 1695629877
+Submission Time: 2025-07-12 13:05:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.38 MB
+
+Test Cases: 99/99 passed
+
+Runtime Percentile: 16.666700000000002%
+Memory Percentile: 92.8571%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12380000,
+  "display_runtime": "4",
+  "question_id": "1720",
+  "elapsed_time": 36,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350745307,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 99,
+  "total_testcases": 99,
+  "runtime_percentile": 16.666700000000002,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 92.8571,
+  "pretty_lang": "Python",
+  "submission_id": "1695629877",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

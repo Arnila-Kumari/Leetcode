@@ -1,0 +1,47 @@
+Problem: reachable-nodes-with-restrictions
+Submission ID: 1695594558
+Submission Time: 2025-07-12 12:16:42
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 237 ms
+Memory: 54.84 MB
+
+Test Cases: 62/62 passed
+
+Runtime Percentile: 93.05549999999997%
+Memory Percentile: 98.6111%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "237 ms",
+  "memory": 54840000,
+  "display_runtime": "237",
+  "question_id": "2445",
+  "elapsed_time": 545,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347800448,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 62,
+  "total_testcases": 62,
+  "runtime_percentile": 93.05549999999997,
+  "status_memory": "54.8 MB",
+  "memory_percentile": 98.6111,
+  "pretty_lang": "Python",
+  "submission_id": "1695594558",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

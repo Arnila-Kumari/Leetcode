@@ -1,0 +1,47 @@
+Problem: minimum-adjacent-swaps-to-reach-the-kth-smallest-number
+Submission ID: 1695682470
+Submission Time: 2025-07-12 14:41:42
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 911 ms
+Memory: 12.47 MB
+
+Test Cases: 109/109 passed
+
+Runtime Percentile: 0.0%
+Memory Percentile: 80.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "911 ms",
+  "memory": 12468000,
+  "display_runtime": "911",
+  "question_id": "1978",
+  "elapsed_time": 942,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356501777,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 109,
+  "total_testcases": 109,
+  "runtime_percentile": 0.0,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 80.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695682470",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

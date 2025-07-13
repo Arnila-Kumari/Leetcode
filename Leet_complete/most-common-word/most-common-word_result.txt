@@ -1,0 +1,53 @@
+Problem: most-common-word
+Submission ID: 1695549182
+Submission Time: 2025-07-12 11:25:48
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.41 MB
+
+Test Cases: 38/49 passed
+
+Last Test Case:
+Input: "a, a, a, a, b,b,b,c, c"
+["a"]
+Expected: "b"
+
+Code Output: "b,b,b,c"
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12412000,
+  "display_runtime": "7",
+  "question_id": "837",
+  "elapsed_time": 36,
+  "compare_result": "1111101111011111010111011011011111111100111001111",
+  "code_output": "\"b,b,b,c\"",
+  "std_output": "",
+  "last_testcase": "\"a, a, a, a, b,b,b,c, c\"\n[\"a\"]",
+  "expected_output": "\"b\"",
+  "task_finish_time": 1752344747256,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 49,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695549182",
+  "input_formatted": "\"a, a, a, a, b,b,b,c, c\", [\"a\"]",
+  "input": "\"a, a, a, a, b,b,b,c, c\"\n[\"a\"]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

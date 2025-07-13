@@ -1,0 +1,47 @@
+Problem: add-binary
+Submission ID: 1695546043
+Submission Time: 2025-07-12 11:22:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.56 MB
+
+Test Cases: 296/296 passed
+
+Runtime Percentile: 36.7937%
+Memory Percentile: 15.357700000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12564000,
+  "display_runtime": "7",
+  "question_id": "67",
+  "elapsed_time": 94,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344575269,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 296,
+  "total_testcases": 296,
+  "runtime_percentile": 36.7937,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 15.357700000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695546043",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

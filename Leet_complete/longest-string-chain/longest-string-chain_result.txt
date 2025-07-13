@@ -1,0 +1,47 @@
+Problem: longest-string-chain
+Submission ID: 1695589024
+Submission Time: 2025-07-12 12:09:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 111 ms
+Memory: 14.46 MB
+
+Test Cases: 86/86 passed
+
+Runtime Percentile: 54.143199999999986%
+Memory Percentile: 13.259500000000012%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "111 ms",
+  "memory": 14456000,
+  "display_runtime": "111",
+  "question_id": "1129",
+  "elapsed_time": 151,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347385183,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 86,
+  "total_testcases": 86,
+  "runtime_percentile": 54.143199999999986,
+  "status_memory": "14.5 MB",
+  "memory_percentile": 13.259500000000012,
+  "pretty_lang": "Python",
+  "submission_id": "1695589024",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

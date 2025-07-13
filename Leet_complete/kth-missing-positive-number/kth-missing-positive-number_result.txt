@@ -1,0 +1,47 @@
+Problem: kth-missing-positive-number
+Submission ID: 1695571702
+Submission Time: 2025-07-12 11:49:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.56 MB
+
+Test Cases: 87/87 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 50.2393%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12556000,
+  "display_runtime": "0",
+  "question_id": "1646",
+  "elapsed_time": 34,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346154190,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 87,
+  "total_testcases": 87,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 50.2393,
+  "pretty_lang": "Python",
+  "submission_id": "1695571702",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

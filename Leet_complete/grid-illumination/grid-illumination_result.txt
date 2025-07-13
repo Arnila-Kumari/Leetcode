@@ -1,0 +1,47 @@
+Problem: grid-illumination
+Submission ID: 1695555717
+Submission Time: 2025-07-12 11:31:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 171 ms
+Memory: 40.50 MB
+
+Test Cases: 45/45 passed
+
+Runtime Percentile: 82.35279999999999%
+Memory Percentile: 5.882300000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "171 ms",
+  "memory": 40500000,
+  "display_runtime": "171",
+  "question_id": "1043",
+  "elapsed_time": 274,
+  "compare_result": "111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345103960,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 45,
+  "total_testcases": 45,
+  "runtime_percentile": 82.35279999999999,
+  "status_memory": "40.5 MB",
+  "memory_percentile": 5.882300000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695555717",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

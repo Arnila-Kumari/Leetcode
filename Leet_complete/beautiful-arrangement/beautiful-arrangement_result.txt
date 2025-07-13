@@ -1,0 +1,47 @@
+Problem: beautiful-arrangement
+Submission ID: 1695559834
+Submission Time: 2025-07-12 11:36:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 82 ms
+Memory: 12.37 MB
+
+Test Cases: 15/15 passed
+
+Runtime Percentile: 93.19719999999998%
+Memory Percentile: 91.8368%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "82 ms",
+  "memory": 12368000,
+  "display_runtime": "82",
+  "question_id": "526",
+  "elapsed_time": 136,
+  "compare_result": "111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345365360,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 15,
+  "total_testcases": 15,
+  "runtime_percentile": 93.19719999999998,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 91.8368,
+  "pretty_lang": "Python",
+  "submission_id": "1695559834",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

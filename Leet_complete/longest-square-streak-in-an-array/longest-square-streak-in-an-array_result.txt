@@ -1,0 +1,47 @@
+Problem: longest-square-streak-in-an-array
+Submission ID: 1695588756
+Submission Time: 2025-07-12 12:09:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 83 ms
+Memory: 27.36 MB
+
+Test Cases: 92/92 passed
+
+Runtime Percentile: 90.0%
+Memory Percentile: 10.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "83 ms",
+  "memory": 27360000,
+  "display_runtime": "83",
+  "question_id": "2586",
+  "elapsed_time": 177,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347364789,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 92,
+  "total_testcases": 92,
+  "runtime_percentile": 90.0,
+  "status_memory": "27.4 MB",
+  "memory_percentile": 10.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695588756",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

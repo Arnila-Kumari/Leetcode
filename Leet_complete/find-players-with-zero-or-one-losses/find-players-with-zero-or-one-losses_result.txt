@@ -1,0 +1,47 @@
+Problem: find-players-with-zero-or-one-losses
+Submission ID: 1695676911
+Submission Time: 2025-07-12 14:30:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 183 ms
+Memory: 58.46 MB
+
+Test Cases: 127/127 passed
+
+Runtime Percentile: 47.840600000000066%
+Memory Percentile: 37.96330000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "183 ms",
+  "memory": 58460000,
+  "display_runtime": "183",
+  "question_id": "1354",
+  "elapsed_time": 355,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355815582,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 127,
+  "total_testcases": 127,
+  "runtime_percentile": 47.840600000000066,
+  "status_memory": "58.5 MB",
+  "memory_percentile": 37.96330000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695676911",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

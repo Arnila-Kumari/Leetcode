@@ -1,0 +1,47 @@
+Problem: cut-off-trees-for-golf-event
+Submission ID: 1695680911
+Submission Time: 2025-07-12 14:38:44
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 5485 ms
+Memory: 13.02 MB
+
+Test Cases: 55/55 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 8.163300000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "5485 ms",
+  "memory": 13024000,
+  "display_runtime": "5485",
+  "question_id": "675",
+  "elapsed_time": 5618,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356321257,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 55,
+  "total_testcases": 55,
+  "runtime_percentile": 100,
+  "status_memory": "13 MB",
+  "memory_percentile": 8.163300000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695680911",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

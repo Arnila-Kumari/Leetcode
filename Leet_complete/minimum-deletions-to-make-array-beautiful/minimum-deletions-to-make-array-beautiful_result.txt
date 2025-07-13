@@ -1,0 +1,47 @@
+Problem: minimum-deletions-to-make-array-beautiful
+Submission ID: 1695702625
+Submission Time: 2025-07-12 15:25:34
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 140 ms
+Memory: 21.46 MB
+
+Test Cases: 114/114 passed
+
+Runtime Percentile: 18.1819%
+Memory Percentile: 9.091000000000015%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "140 ms",
+  "memory": 21456000,
+  "display_runtime": "140",
+  "question_id": "1355",
+  "elapsed_time": 230,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752359133326,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 114,
+  "total_testcases": 114,
+  "runtime_percentile": 18.1819,
+  "status_memory": "21.5 MB",
+  "memory_percentile": 9.091000000000015,
+  "pretty_lang": "Python",
+  "submission_id": "1695702625",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

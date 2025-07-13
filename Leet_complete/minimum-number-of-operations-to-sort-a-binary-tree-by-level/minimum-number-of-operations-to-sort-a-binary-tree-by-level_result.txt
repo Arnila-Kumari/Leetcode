@@ -1,0 +1,47 @@
+Problem: minimum-number-of-operations-to-sort-a-binary-tree-by-level
+Submission ID: 1695739130
+Submission Time: 2025-07-12 17:05:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 209 ms
+Memory: 91.59 MB
+
+Test Cases: 146/146 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 52.56410000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "209 ms",
+  "memory": 91588000,
+  "display_runtime": "209",
+  "question_id": "2558",
+  "elapsed_time": 687,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365114530,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 146,
+  "total_testcases": 146,
+  "runtime_percentile": 100,
+  "status_memory": "91.6 MB",
+  "memory_percentile": 52.56410000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695739130",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

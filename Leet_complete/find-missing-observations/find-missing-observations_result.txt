@@ -1,0 +1,47 @@
+Problem: find-missing-observations
+Submission ID: 1695697947
+Submission Time: 2025-07-12 15:14:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 112 ms
+Memory: 17.90 MB
+
+Test Cases: 64/64 passed
+
+Runtime Percentile: 14.814900000000014%
+Memory Percentile: 92.5926%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "112 ms",
+  "memory": 17900000,
+  "display_runtime": "112",
+  "question_id": "2155",
+  "elapsed_time": 273,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358485128,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 64,
+  "total_testcases": 64,
+  "runtime_percentile": 14.814900000000014,
+  "status_memory": "17.9 MB",
+  "memory_percentile": 92.5926,
+  "pretty_lang": "Python",
+  "submission_id": "1695697947",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

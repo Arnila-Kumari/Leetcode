@@ -1,0 +1,47 @@
+Problem: minimum-cost-to-make-array-equal
+Submission ID: 1695689321
+Submission Time: 2025-07-12 14:56:04
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 133 ms
+Memory: 26.48 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 64.70559999999998%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "133 ms",
+  "memory": 26476000,
+  "display_runtime": "133",
+  "question_id": "2538",
+  "elapsed_time": 205,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357364114,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 64.70559999999998,
+  "status_memory": "26.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695689321",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

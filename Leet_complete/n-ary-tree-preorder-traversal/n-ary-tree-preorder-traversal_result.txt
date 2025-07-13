@@ -1,0 +1,46 @@
+Problem: n-ary-tree-preorder-traversal
+Submission ID: 1695553420
+Submission Time: 2025-07-12 11:29:32
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 43 ms ms
+Memory: 15.52 MB
+
+Test Cases: 39/39 passed
+
+Runtime Percentile: 14.9347%
+Memory Percentile: 47.4025%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "43 ms",
+  "memory": 15516000,
+  "question_id": "775",
+  "elapsed_time": 65,
+  "compare_result": "111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344971245,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 39,
+  "total_testcases": 39,
+  "runtime_percentile": 14.9347,
+  "status_memory": "15.5 MB",
+  "memory_percentile": 47.4025,
+  "pretty_lang": "Python",
+  "submission_id": "1695553420",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

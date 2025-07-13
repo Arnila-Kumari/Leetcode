@@ -1,0 +1,46 @@
+Problem: n-ary-tree-level-order-traversal
+Submission ID: 1695552998
+Submission Time: 2025-07-12 11:29:11
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 40 ms ms
+Memory: 15.57 MB
+
+Test Cases: 38/38 passed
+
+Runtime Percentile: 19.35479999999997%
+Memory Percentile: 68.2028%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "40 ms",
+  "memory": 15568000,
+  "question_id": "764",
+  "elapsed_time": 56,
+  "compare_result": "11111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344950568,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 38,
+  "runtime_percentile": 19.35479999999997,
+  "status_memory": "15.6 MB",
+  "memory_percentile": 68.2028,
+  "pretty_lang": "Python",
+  "submission_id": "1695552998",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

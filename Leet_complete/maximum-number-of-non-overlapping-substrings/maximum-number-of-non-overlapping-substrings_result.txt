@@ -1,0 +1,47 @@
+Problem: maximum-number-of-non-overlapping-substrings
+Submission ID: 1695681915
+Submission Time: 2025-07-12 14:40:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 863 ms
+Memory: 13.42 MB
+
+Test Cases: 285/285 passed
+
+Runtime Percentile: 22.221700000000027%
+Memory Percentile: 55.55550000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "863 ms",
+  "memory": 13416000,
+  "display_runtime": "863",
+  "question_id": "1644",
+  "elapsed_time": 928,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356435728,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 285,
+  "total_testcases": 285,
+  "runtime_percentile": 22.221700000000027,
+  "status_memory": "13.4 MB",
+  "memory_percentile": 55.55550000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695681915",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

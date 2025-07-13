@@ -1,0 +1,47 @@
+Problem: the-skyline-problem
+Submission ID: 1695693804
+Submission Time: 2025-07-12 15:05:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 115 ms
+Memory: 21.26 MB
+
+Test Cases: 44/44 passed
+
+Runtime Percentile: 26.704199999999993%
+Memory Percentile: 69.88629999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "115 ms",
+  "memory": 21264000,
+  "display_runtime": "115",
+  "question_id": "218",
+  "elapsed_time": 159,
+  "compare_result": "11111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357952494,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 44,
+  "total_testcases": 44,
+  "runtime_percentile": 26.704199999999993,
+  "status_memory": "21.3 MB",
+  "memory_percentile": 69.88629999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695693804",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

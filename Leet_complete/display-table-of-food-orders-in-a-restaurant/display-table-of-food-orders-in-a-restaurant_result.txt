@@ -1,0 +1,46 @@
+Problem: display-table-of-food-orders-in-a-restaurant
+Submission ID: 1695739453
+Submission Time: 2025-07-12 17:06:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 352 ms ms
+Memory: 21.36 MB
+
+Test Cases: 53/53 passed
+
+Runtime Percentile: 57.142900000000026%
+Memory Percentile: 76.1905%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "352 ms",
+  "memory": 21364000,
+  "question_id": "1533",
+  "elapsed_time": 388,
+  "compare_result": "11111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365166932,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 53,
+  "total_testcases": 53,
+  "runtime_percentile": 57.142900000000026,
+  "status_memory": "21.4 MB",
+  "memory_percentile": 76.1905,
+  "pretty_lang": "Python",
+  "submission_id": "1695739453",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

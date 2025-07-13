@@ -1,0 +1,47 @@
+Problem: intervals-between-identical-elements
+Submission ID: 1695565096
+Submission Time: 2025-07-12 11:41:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 299 ms
+Memory: 45.38 MB
+
+Test Cases: 61/61 passed
+
+Runtime Percentile: 81.81819999999999%
+Memory Percentile: 72.72729999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "299 ms",
+  "memory": 45376000,
+  "display_runtime": "299",
+  "question_id": "2240",
+  "elapsed_time": 762,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345714333,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 61,
+  "total_testcases": 61,
+  "runtime_percentile": 81.81819999999999,
+  "status_memory": "45.4 MB",
+  "memory_percentile": 72.72729999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695565096",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: sum-of-all-subset-xor-totals
+Submission ID: 1695688459
+Submission Time: 2025-07-12 14:54:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.47 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 63.5171%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12468000,
+  "display_runtime": "0",
+  "question_id": "1993",
+  "elapsed_time": 31,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357246330,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 63.5171,
+  "pretty_lang": "Python",
+  "submission_id": "1695688459",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: largest-merge-of-two-strings
+Submission ID: 1695574083
+Submission Time: 2025-07-12 11:52:04
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 239 ms
+Memory: 12.62 MB
+
+Test Cases: 101/101 passed
+
+Runtime Percentile: 8.572200000000006%
+Memory Percentile: 57.1429%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "239 ms",
+  "memory": 12620000,
+  "display_runtime": "239",
+  "question_id": "1880",
+  "elapsed_time": 274,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346323629,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 101,
+  "total_testcases": 101,
+  "runtime_percentile": 8.572200000000006,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 57.1429,
+  "pretty_lang": "Python",
+  "submission_id": "1695574083",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: minimum-number-of-work-sessions-to-finish-the-tasks
+Submission ID: 1695740190
+Submission Time: 2025-07-12 17:07:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 520 ms
+Memory: 12.99 MB
+
+Test Cases: 96/96 passed
+
+Runtime Percentile: 49.9999%
+Memory Percentile: 35.7143%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "520 ms",
+  "memory": 12988000,
+  "display_runtime": "520",
+  "question_id": "2114",
+  "elapsed_time": 564,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365275819,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 96,
+  "total_testcases": 96,
+  "runtime_percentile": 49.9999,
+  "status_memory": "13 MB",
+  "memory_percentile": 35.7143,
+  "pretty_lang": "Python",
+  "submission_id": "1695740190",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

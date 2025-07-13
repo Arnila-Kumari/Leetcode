@@ -1,0 +1,47 @@
+Problem: minesweeper
+Submission ID: 1695698719
+Submission Time: 2025-07-12 15:16:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 8 ms
+Memory: 12.82 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 73.0993%
+Memory Percentile: 88.88879999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "8 ms",
+  "memory": 12820000,
+  "display_runtime": "8",
+  "question_id": "529",
+  "elapsed_time": 65,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358587815,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 73.0993,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 88.88879999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695698719",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

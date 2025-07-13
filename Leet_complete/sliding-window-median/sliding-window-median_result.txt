@@ -1,0 +1,47 @@
+Problem: sliding-window-median
+Submission ID: 1695694428
+Submission Time: 2025-07-12 15:07:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 407 ms
+Memory: 22.58 MB
+
+Test Cases: 44/44 passed
+
+Runtime Percentile: 75.69000000000014%
+Memory Percentile: 77.34780000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "407 ms",
+  "memory": 22580000,
+  "display_runtime": "407",
+  "question_id": "480",
+  "elapsed_time": 546,
+  "compare_result": "11111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358027124,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 44,
+  "total_testcases": 44,
+  "runtime_percentile": 75.69000000000014,
+  "status_memory": "22.6 MB",
+  "memory_percentile": 77.34780000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695694428",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

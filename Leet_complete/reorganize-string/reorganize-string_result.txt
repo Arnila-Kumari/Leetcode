@@ -1,0 +1,47 @@
+Problem: reorganize-string
+Submission ID: 1695699638
+Submission Time: 2025-07-12 15:18:42
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 12.48 MB
+
+Test Cases: 71/71 passed
+
+Runtime Percentile: 35.98179999999999%
+Memory Percentile: 54.14300000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 12476000,
+  "display_runtime": "6",
+  "question_id": "778",
+  "elapsed_time": 44,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358721220,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 71,
+  "total_testcases": 71,
+  "runtime_percentile": 35.98179999999999,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 54.14300000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695699638",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

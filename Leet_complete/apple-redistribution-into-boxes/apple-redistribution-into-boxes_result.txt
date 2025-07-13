@@ -1,0 +1,47 @@
+Problem: apple-redistribution-into-boxes
+Submission ID: 1695553305
+Submission Time: 2025-07-12 11:29:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2 ms
+Memory: 12.41 MB
+
+Test Cases: 565/565 passed
+
+Runtime Percentile: 36.9565%
+Memory Percentile: 52.173899999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2 ms",
+  "memory": 12412000,
+  "display_runtime": "2",
+  "question_id": "3334",
+  "elapsed_time": 47,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344965221,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 565,
+  "total_testcases": 565,
+  "runtime_percentile": 36.9565,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 52.173899999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695553305",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

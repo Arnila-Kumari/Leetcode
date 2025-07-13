@@ -1,0 +1,47 @@
+Problem: array-of-doubled-pairs
+Submission ID: 1695556267
+Submission Time: 2025-07-12 11:32:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 71 ms
+Memory: 13.98 MB
+
+Test Cases: 102/102 passed
+
+Runtime Percentile: 76.78589999999997%
+Memory Percentile: 80.3571%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "71 ms",
+  "memory": 13984000,
+  "display_runtime": "71",
+  "question_id": "991",
+  "elapsed_time": 157,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345137588,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 102,
+  "total_testcases": 102,
+  "runtime_percentile": 76.78589999999997,
+  "status_memory": "14 MB",
+  "memory_percentile": 80.3571,
+  "pretty_lang": "Python",
+  "submission_id": "1695556267",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

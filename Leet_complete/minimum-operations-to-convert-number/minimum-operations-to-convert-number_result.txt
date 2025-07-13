@@ -1,0 +1,47 @@
+Problem: minimum-operations-to-convert-number
+Submission ID: 1695687778
+Submission Time: 2025-07-12 14:52:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 71 ms
+Memory: 12.67 MB
+
+Test Cases: 60/60 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "71 ms",
+  "memory": 12672000,
+  "display_runtime": "71",
+  "question_id": "2183",
+  "elapsed_time": 105,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357156877,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 60,
+  "total_testcases": 60,
+  "runtime_percentile": 100,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695687778",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

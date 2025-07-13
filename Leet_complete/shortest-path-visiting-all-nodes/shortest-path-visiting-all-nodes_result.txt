@@ -1,0 +1,47 @@
+Problem: shortest-path-visiting-all-nodes
+Submission ID: 1695697768
+Submission Time: 2025-07-12 15:14:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 167 ms
+Memory: 13.71 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 7.8125%
+Memory Percentile: 76.5625%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "167 ms",
+  "memory": 13712000,
+  "display_runtime": "167",
+  "question_id": "877",
+  "elapsed_time": 213,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358459278,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 7.8125,
+  "status_memory": "13.7 MB",
+  "memory_percentile": 76.5625,
+  "pretty_lang": "Python",
+  "submission_id": "1695697768",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

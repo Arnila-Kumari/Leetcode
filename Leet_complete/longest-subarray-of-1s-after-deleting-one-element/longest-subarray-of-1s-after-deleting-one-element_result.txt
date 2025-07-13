@@ -1,0 +1,47 @@
+Problem: longest-subarray-of-1s-after-deleting-one-element
+Submission ID: 1695589180
+Submission Time: 2025-07-12 12:09:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 36 ms
+Memory: 14.57 MB
+
+Test Cases: 82/82 passed
+
+Runtime Percentile: 92.23990000000002%
+Memory Percentile: 89.5048%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "36 ms",
+  "memory": 14572000,
+  "display_runtime": "36",
+  "question_id": "1586",
+  "elapsed_time": 102,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347397134,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 82,
+  "total_testcases": 82,
+  "runtime_percentile": 92.23990000000002,
+  "status_memory": "14.6 MB",
+  "memory_percentile": 89.5048,
+  "pretty_lang": "Python",
+  "submission_id": "1695589180",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

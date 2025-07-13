@@ -1,0 +1,47 @@
+Problem: maximal-network-rank
+Submission ID: 1695615486
+Submission Time: 2025-07-12 12:44:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 20 ms
+Memory: 14.14 MB
+
+Test Cases: 83/83 passed
+
+Runtime Percentile: 96.90729999999999%
+Memory Percentile: 52.577300000000015%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "20 ms",
+  "memory": 14144000,
+  "display_runtime": "20",
+  "question_id": "1738",
+  "elapsed_time": 178,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349467455,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 83,
+  "total_testcases": 83,
+  "runtime_percentile": 96.90729999999999,
+  "status_memory": "14.1 MB",
+  "memory_percentile": 52.577300000000015,
+  "pretty_lang": "Python",
+  "submission_id": "1695615486",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

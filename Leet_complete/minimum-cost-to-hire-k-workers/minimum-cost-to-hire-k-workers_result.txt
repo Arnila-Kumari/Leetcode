@@ -1,0 +1,47 @@
+Problem: minimum-cost-to-hire-k-workers
+Submission ID: 1695692216
+Submission Time: 2025-07-12 15:02:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 119 ms
+Memory: 14.74 MB
+
+Test Cases: 49/49 passed
+
+Runtime Percentile: 35.29400000000002%
+Memory Percentile: 64.7058%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "119 ms",
+  "memory": 14736000,
+  "display_runtime": "119",
+  "question_id": "887",
+  "elapsed_time": 161,
+  "compare_result": "1111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357748261,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 49,
+  "total_testcases": 49,
+  "runtime_percentile": 35.29400000000002,
+  "status_memory": "14.7 MB",
+  "memory_percentile": 64.7058,
+  "pretty_lang": "Python",
+  "submission_id": "1695692216",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

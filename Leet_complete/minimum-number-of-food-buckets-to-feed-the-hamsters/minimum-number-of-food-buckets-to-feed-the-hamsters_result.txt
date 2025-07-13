@@ -1,0 +1,47 @@
+Problem: minimum-number-of-food-buckets-to-feed-the-hamsters
+Submission ID: 1696125734
+Submission Time: 2025-07-13 00:39:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 61 ms
+Memory: 13.62 MB
+
+Test Cases: 208/208 passed
+
+Runtime Percentile: 23.076999999999977%
+Memory Percentile: 61.538499999999985%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "61 ms",
+  "memory": 13620000,
+  "display_runtime": "61",
+  "question_id": "2191",
+  "elapsed_time": 102,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752392386192,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 208,
+  "total_testcases": 208,
+  "runtime_percentile": 23.076999999999977,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 61.538499999999985,
+  "pretty_lang": "Python",
+  "submission_id": "1696125734",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

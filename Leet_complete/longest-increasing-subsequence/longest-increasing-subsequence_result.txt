@@ -1,0 +1,47 @@
+Problem: longest-increasing-subsequence
+Submission ID: 1695586531
+Submission Time: 2025-07-12 12:06:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1 ms
+Memory: 12.88 MB
+
+Test Cases: 55/55 passed
+
+Runtime Percentile: 99.4772%
+Memory Percentile: 35.866200000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1 ms",
+  "memory": 12880000,
+  "display_runtime": "1",
+  "question_id": "300",
+  "elapsed_time": 52,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347204695,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 55,
+  "total_testcases": 55,
+  "runtime_percentile": 99.4772,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 35.866200000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695586531",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

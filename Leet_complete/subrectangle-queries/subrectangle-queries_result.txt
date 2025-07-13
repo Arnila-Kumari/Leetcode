@@ -1,0 +1,46 @@
+Problem: subrectangle-queries
+Submission ID: 1695711388
+Submission Time: 2025-07-12 15:46:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 107 ms ms
+Memory: 14.69 MB
+
+Test Cases: 52/52 passed
+
+Runtime Percentile: 98.0%
+Memory Percentile: 28.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "107 ms",
+  "memory": 14692000,
+  "question_id": "1572",
+  "elapsed_time": 123,
+  "compare_result": "1111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360397561,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 52,
+  "total_testcases": 52,
+  "runtime_percentile": 98.0,
+  "status_memory": "14.7 MB",
+  "memory_percentile": 28.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695711388",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

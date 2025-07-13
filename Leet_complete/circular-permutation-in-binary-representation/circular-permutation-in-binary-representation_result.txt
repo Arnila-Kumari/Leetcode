@@ -1,0 +1,46 @@
+Problem: circular-permutation-in-binary-representation
+Submission ID: 1695582127
+Submission Time: 2025-07-12 12:01:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 129 ms ms
+Memory: 20.24 MB
+
+Test Cases: 47/47 passed
+
+Runtime Percentile: 79.99989999999998%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "129 ms",
+  "memory": 20236000,
+  "question_id": "1359",
+  "elapsed_time": 155,
+  "compare_result": "11111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346896744,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 47,
+  "total_testcases": 47,
+  "runtime_percentile": 79.99989999999998,
+  "status_memory": "20.2 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695582127",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

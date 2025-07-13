@@ -1,0 +1,47 @@
+Problem: shortest-path-with-alternating-colors
+Submission ID: 1695739559
+Submission Time: 2025-07-12 17:06:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.60 MB
+
+Test Cases: 90/90 passed
+
+Runtime Percentile: 37.69230000000002%
+Memory Percentile: 58.461600000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12596000,
+  "display_runtime": "7",
+  "question_id": "1229",
+  "elapsed_time": 40,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365183512,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 90,
+  "total_testcases": 90,
+  "runtime_percentile": 37.69230000000002,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 58.461600000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695739559",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

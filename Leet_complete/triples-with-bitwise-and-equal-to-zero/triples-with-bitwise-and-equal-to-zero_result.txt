@@ -1,0 +1,47 @@
+Problem: triples-with-bitwise-and-equal-to-zero
+Submission ID: 1695710101
+Submission Time: 2025-07-12 15:43:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 839 ms
+Memory: 15.93 MB
+
+Test Cases: 28/28 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "839 ms",
+  "memory": 15932000,
+  "display_runtime": "839",
+  "question_id": "1024",
+  "elapsed_time": 878,
+  "compare_result": "1111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360205149,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 28,
+  "total_testcases": 28,
+  "runtime_percentile": 100,
+  "status_memory": "15.9 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695710101",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

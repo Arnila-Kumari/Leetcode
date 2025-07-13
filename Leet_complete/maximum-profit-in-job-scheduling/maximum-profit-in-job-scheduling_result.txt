@@ -1,0 +1,47 @@
+Problem: maximum-profit-in-job-scheduling
+Submission ID: 1695675609
+Submission Time: 2025-07-12 14:27:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 510 ms
+Memory: 22.88 MB
+
+Test Cases: 35/35 passed
+
+Runtime Percentile: 14.052199999999928%
+Memory Percentile: 99.6656%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "510 ms",
+  "memory": 22880000,
+  "display_runtime": "510",
+  "question_id": "1352",
+  "elapsed_time": 717,
+  "compare_result": "11111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355655315,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 35,
+  "total_testcases": 35,
+  "runtime_percentile": 14.052199999999928,
+  "status_memory": "22.9 MB",
+  "memory_percentile": 99.6656,
+  "pretty_lang": "Python",
+  "submission_id": "1695675609",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

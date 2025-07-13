@@ -1,0 +1,46 @@
+Problem: maximize-number-of-nice-divisors
+Submission ID: 1695617196
+Submission Time: 2025-07-12 12:46:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 21 ms ms
+Memory: 12.35 MB
+
+Test Cases: 213/213 passed
+
+Runtime Percentile: 12.5%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "21 ms",
+  "memory": 12348000,
+  "question_id": "1936",
+  "elapsed_time": 89,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349616291,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 213,
+  "total_testcases": 213,
+  "runtime_percentile": 12.5,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695617196",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

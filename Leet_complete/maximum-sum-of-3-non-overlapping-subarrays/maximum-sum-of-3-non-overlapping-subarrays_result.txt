@@ -1,0 +1,53 @@
+Problem: maximum-sum-of-3-non-overlapping-subarrays
+Submission ID: 1695692436
+Submission Time: 2025-07-12 15:02:57
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 39 ms
+Memory: 14.32 MB
+
+Test Cases: 39/43 passed
+
+Last Test Case:
+Input: [1,2,1,2,1,2,1,2,1]
+2
+Expected: [0,2,4]
+
+Code Output: [0,2,7]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 14320000,
+  "display_runtime": "39",
+  "question_id": "689",
+  "elapsed_time": 76,
+  "compare_result": "1000101111111111111111111111111111111111111",
+  "code_output": "[0,2,7]",
+  "std_output": "",
+  "last_testcase": "[1,2,1,2,1,2,1,2,1]\n2",
+  "expected_output": "[0,2,4]",
+  "task_finish_time": 1752357776538,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 39,
+  "total_testcases": 43,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695692436",
+  "input_formatted": "[1,2,1,2,1,2,1,2,1], 2",
+  "input": "[1,2,1,2,1,2,1,2,1]\n2",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

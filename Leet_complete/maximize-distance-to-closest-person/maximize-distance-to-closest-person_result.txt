@@ -1,0 +1,47 @@
+Problem: maximize-distance-to-closest-person
+Submission ID: 1695616771
+Submission Time: 2025-07-12 12:46:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 12.77 MB
+
+Test Cases: 82/82 passed
+
+Runtime Percentile: 83.7371%
+Memory Percentile: 75.77860000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 12772000,
+  "display_runtime": "6",
+  "question_id": "879",
+  "elapsed_time": 56,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349577844,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 82,
+  "total_testcases": 82,
+  "runtime_percentile": 83.7371,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 75.77860000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695616771",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

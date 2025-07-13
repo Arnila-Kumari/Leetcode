@@ -1,0 +1,47 @@
+Problem: counting-bits
+Submission ID: 1695628608
+Submission Time: 2025-07-12 13:03:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 5 ms
+Memory: 15.24 MB
+
+Test Cases: 15/15 passed
+
+Runtime Percentile: 88.7788%
+Memory Percentile: 98.0498%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "5 ms",
+  "memory": 15244000,
+  "display_runtime": "5",
+  "question_id": "338",
+  "elapsed_time": 48,
+  "compare_result": "111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350634578,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 15,
+  "total_testcases": 15,
+  "runtime_percentile": 88.7788,
+  "status_memory": "15.2 MB",
+  "memory_percentile": 98.0498,
+  "pretty_lang": "Python",
+  "submission_id": "1695628608",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

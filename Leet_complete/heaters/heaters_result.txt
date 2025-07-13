@@ -1,0 +1,47 @@
+Problem: heaters
+Submission ID: 1695558721
+Submission Time: 2025-07-12 11:34:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 59 ms
+Memory: 14.57 MB
+
+Test Cases: 30/30 passed
+
+Runtime Percentile: 60.58389999999995%
+Memory Percentile: 16.058400000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "59 ms",
+  "memory": 14572000,
+  "display_runtime": "59",
+  "question_id": "475",
+  "elapsed_time": 107,
+  "compare_result": "111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345294763,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 30,
+  "total_testcases": 30,
+  "runtime_percentile": 60.58389999999995,
+  "status_memory": "14.6 MB",
+  "memory_percentile": 16.058400000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695558721",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

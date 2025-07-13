@@ -1,0 +1,47 @@
+Problem: group-anagrams
+Submission ID: 1695556085
+Submission Time: 2025-07-12 11:32:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 19 ms
+Memory: 15.96 MB
+
+Test Cases: 126/126 passed
+
+Runtime Percentile: 80.97530000000002%
+Memory Percentile: 93.32860000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "19 ms",
+  "memory": 15956000,
+  "display_runtime": "19",
+  "question_id": "49",
+  "elapsed_time": 62,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345125663,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 126,
+  "total_testcases": 126,
+  "runtime_percentile": 80.97530000000002,
+  "status_memory": "16 MB",
+  "memory_percentile": 93.32860000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695556085",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: minimum-cost-to-merge-stones
+Submission ID: 1695694861
+Submission Time: 2025-07-12 15:07:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.39 MB
+
+Test Cases: 84/84 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 95.2381%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12392000,
+  "display_runtime": "7",
+  "question_id": "1042",
+  "elapsed_time": 49,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358078448,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 84,
+  "total_testcases": 84,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 95.2381,
+  "pretty_lang": "Python",
+  "submission_id": "1695694861",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

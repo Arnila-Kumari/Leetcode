@@ -1,0 +1,47 @@
+Problem: count-the-number-of-good-subarrays
+Submission ID: 1695625039
+Submission Time: 2025-07-12 12:58:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 291 ms
+Memory: 28.97 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 18.18119999999996%
+Memory Percentile: 72.72730000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "291 ms",
+  "memory": 28968000,
+  "display_runtime": "291",
+  "question_id": "2626",
+  "elapsed_time": 360,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350307636,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 18.18119999999996,
+  "status_memory": "29 MB",
+  "memory_percentile": 72.72730000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695625039",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

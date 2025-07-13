@@ -1,0 +1,47 @@
+Problem: longest-binary-subsequence-less-than-or-equal-to-k
+Submission ID: 1695583668
+Submission Time: 2025-07-12 12:03:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1 ms
+Memory: 12.48 MB
+
+Test Cases: 154/154 passed
+
+Runtime Percentile: 81.3348%
+Memory Percentile: 58.9799%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1 ms",
+  "memory": 12480000,
+  "display_runtime": "1",
+  "question_id": "2395",
+  "elapsed_time": 40,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347006167,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 154,
+  "total_testcases": 154,
+  "runtime_percentile": 81.3348,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 58.9799,
+  "pretty_lang": "Python",
+  "submission_id": "1695583668",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

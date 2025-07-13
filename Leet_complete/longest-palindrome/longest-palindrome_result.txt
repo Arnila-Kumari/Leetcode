@@ -1,0 +1,47 @@
+Problem: longest-palindrome
+Submission ID: 1695587639
+Submission Time: 2025-07-12 12:08:04
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.48 MB
+
+Test Cases: 97/97 passed
+
+Runtime Percentile: 17.839200000000012%
+Memory Percentile: 55.967400000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12480000,
+  "display_runtime": "7",
+  "question_id": "409",
+  "elapsed_time": 133,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347284092,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 97,
+  "total_testcases": 97,
+  "runtime_percentile": 17.839200000000012,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 55.967400000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695587639",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

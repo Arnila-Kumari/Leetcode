@@ -1,0 +1,47 @@
+Problem: path-with-maximum-probability
+Submission ID: 1695582449
+Submission Time: 2025-07-12 12:02:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 195 ms
+Memory: 24.80 MB
+
+Test Cases: 21/21 passed
+
+Runtime Percentile: 20.777500000000096%
+Memory Percentile: 75.32440000000003%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "195 ms",
+  "memory": 24800000,
+  "display_runtime": "195",
+  "question_id": "1325",
+  "elapsed_time": 336,
+  "compare_result": "111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346919024,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 21,
+  "total_testcases": 21,
+  "runtime_percentile": 20.777500000000096,
+  "status_memory": "24.8 MB",
+  "memory_percentile": 75.32440000000003,
+  "pretty_lang": "Python",
+  "submission_id": "1695582449",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

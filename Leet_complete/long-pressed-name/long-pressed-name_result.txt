@@ -1,0 +1,47 @@
+Problem: long-pressed-name
+Submission ID: 1695582998
+Submission Time: 2025-07-12 12:02:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.55 MB
+
+Test Cases: 95/95 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 17.7686%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12552000,
+  "display_runtime": "0",
+  "question_id": "961",
+  "elapsed_time": 39,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346958431,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 95,
+  "total_testcases": 95,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 17.7686,
+  "pretty_lang": "Python",
+  "submission_id": "1695582998",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

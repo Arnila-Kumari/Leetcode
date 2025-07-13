@@ -1,0 +1,52 @@
+Problem: similar-string-groups
+Submission ID: 1695688945
+Submission Time: 2025-07-12 14:55:13
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 186 ms
+Memory: 12.59 MB
+
+Test Cases: 75/77 passed
+
+Last Test Case:
+Input: ["abc","abc"]
+Expected: 1
+
+Code Output: 2
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12588000,
+  "display_runtime": "186",
+  "question_id": "869",
+  "elapsed_time": 220,
+  "compare_result": "11111101111111111111111111111111011111111111111111111111111111111111111111111",
+  "code_output": "2",
+  "std_output": "",
+  "last_testcase": "[\"abc\",\"abc\"]",
+  "expected_output": "1",
+  "task_finish_time": 1752357313132,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 75,
+  "total_testcases": 77,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695688945",
+  "input_formatted": "[\"abc\",\"abc\"]",
+  "input": "[\"abc\",\"abc\"]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

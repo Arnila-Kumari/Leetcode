@@ -1,0 +1,47 @@
+Problem: word-ladder
+Submission ID: 1695698697
+Submission Time: 2025-07-12 15:16:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 35 ms
+Memory: 13.00 MB
+
+Test Cases: 51/51 passed
+
+Runtime Percentile: 98.27880000000003%
+Memory Percentile: 86.3067%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "35 ms",
+  "memory": 13000000,
+  "display_runtime": "35",
+  "question_id": "127",
+  "elapsed_time": 77,
+  "compare_result": "111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358585206,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 51,
+  "total_testcases": 51,
+  "runtime_percentile": 98.27880000000003,
+  "status_memory": "13 MB",
+  "memory_percentile": 86.3067,
+  "pretty_lang": "Python",
+  "submission_id": "1695698697",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

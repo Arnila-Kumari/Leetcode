@@ -1,0 +1,47 @@
+Problem: rank-transform-of-a-matrix
+Submission ID: 1695593744
+Submission Time: 2025-07-12 12:15:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1285 ms
+Memory: 57.52 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 27.777200000000022%
+Memory Percentile: 72.22200000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1285 ms",
+  "memory": 57524000,
+  "display_runtime": "1285",
+  "question_id": "1257",
+  "elapsed_time": 1412,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347740588,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 27.777200000000022,
+  "status_memory": "57.5 MB",
+  "memory_percentile": 72.22200000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695593744",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

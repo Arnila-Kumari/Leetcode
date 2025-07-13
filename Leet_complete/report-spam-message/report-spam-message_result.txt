@@ -1,0 +1,47 @@
+Problem: report-spam-message
+Submission ID: 1695694493
+Submission Time: 2025-07-12 15:07:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 74 ms
+Memory: 43.38 MB
+
+Test Cases: 526/526 passed
+
+Runtime Percentile: 33.33289999999998%
+Memory Percentile: 50.980399999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "74 ms",
+  "memory": 43384000,
+  "display_runtime": "74",
+  "question_id": "3541",
+  "elapsed_time": 288,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358034047,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 526,
+  "total_testcases": 526,
+  "runtime_percentile": 33.33289999999998,
+  "status_memory": "43.4 MB",
+  "memory_percentile": 50.980399999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695694493",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

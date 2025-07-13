@@ -1,0 +1,46 @@
+Problem: maximum-score-of-non-overlapping-intervals
+Submission ID: 1695688232
+Submission Time: 2025-07-12 14:53:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2139 ms ms
+Memory: 105.01 MB
+
+Test Cases: 581/581 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 16.66650000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2139 ms",
+  "memory": 105008000,
+  "question_id": "3562",
+  "elapsed_time": 2251,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357218555,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 581,
+  "total_testcases": 581,
+  "runtime_percentile": 100,
+  "status_memory": "105 MB",
+  "memory_percentile": 16.66650000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695688232",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

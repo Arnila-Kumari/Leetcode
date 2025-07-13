@@ -1,0 +1,47 @@
+Problem: disconnect-path-in-a-binary-matrix-by-at-most-one-flip
+Submission ID: 1695697813
+Submission Time: 2025-07-12 15:14:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 275 ms
+Memory: 14.62 MB
+
+Test Cases: 55/55 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "275 ms",
+  "memory": 14624000,
+  "display_runtime": "275",
+  "question_id": "2641",
+  "elapsed_time": 358,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358466340,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 55,
+  "total_testcases": 55,
+  "runtime_percentile": 100,
+  "status_memory": "14.6 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695697813",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

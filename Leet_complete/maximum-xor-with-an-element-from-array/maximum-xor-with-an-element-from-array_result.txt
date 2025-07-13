@@ -1,0 +1,47 @@
+Problem: maximum-xor-with-an-element-from-array
+Submission ID: 1695691310
+Submission Time: 2025-07-12 15:00:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3271 ms
+Memory: 466.74 MB
+
+Test Cases: 67/67 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3271 ms",
+  "memory": 466740000,
+  "display_runtime": "3271",
+  "question_id": "1826",
+  "elapsed_time": 3568,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357629683,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 67,
+  "total_testcases": 67,
+  "runtime_percentile": 100,
+  "status_memory": "466.7 MB",
+  "memory_percentile": 0,
+  "pretty_lang": "Python",
+  "submission_id": "1695691310",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

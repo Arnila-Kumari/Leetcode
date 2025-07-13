@@ -1,0 +1,47 @@
+Problem: find-the-count-of-good-integers
+Submission ID: 1695711662
+Submission Time: 2025-07-12 15:47:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1416 ms
+Memory: 13.70 MB
+
+Test Cases: 90/90 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1416 ms",
+  "memory": 13704000,
+  "display_runtime": "1416",
+  "question_id": "3548",
+  "elapsed_time": 1527,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360437891,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 90,
+  "total_testcases": 90,
+  "runtime_percentile": 100,
+  "status_memory": "13.7 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695711662",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

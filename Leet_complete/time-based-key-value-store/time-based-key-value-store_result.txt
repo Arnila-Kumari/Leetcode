@@ -1,0 +1,47 @@
+Problem: time-based-key-value-store
+Submission ID: 1695698124
+Submission Time: 2025-07-12 15:15:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 73 ms
+Memory: 71.91 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 98.21979999999999%
+Memory Percentile: 67.55739999999993%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "73 ms",
+  "memory": 71912000,
+  "display_runtime": "73",
+  "question_id": "1023",
+  "elapsed_time": 2115,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358508737,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 98.21979999999999,
+  "status_memory": "71.9 MB",
+  "memory_percentile": 67.55739999999993,
+  "pretty_lang": "Python",
+  "submission_id": "1695698124",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

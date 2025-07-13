@@ -1,0 +1,47 @@
+Problem: group-the-people-given-the-group-size-they-belong-to
+Submission ID: 1695556228
+Submission Time: 2025-07-12 11:32:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.62 MB
+
+Test Cases: 103/103 passed
+
+Runtime Percentile: 43.0463%
+Memory Percentile: 28.476799999999997%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12616000,
+  "display_runtime": "7",
+  "question_id": "1407",
+  "elapsed_time": 40,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345135294,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 103,
+  "total_testcases": 103,
+  "runtime_percentile": 43.0463,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 28.476799999999997,
+  "pretty_lang": "Python",
+  "submission_id": "1695556228",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: max-dot-product-of-two-subsequences
+Submission ID: 1695614639
+Submission Time: 2025-07-12 12:43:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 367 ms
+Memory: 12.16 MB
+
+Test Cases: 69/69 passed
+
+Runtime Percentile: 27.272799999999997%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "367 ms",
+  "memory": 12156000,
+  "display_runtime": "367",
+  "question_id": "1569",
+  "elapsed_time": 446,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349396479,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 69,
+  "total_testcases": 69,
+  "runtime_percentile": 27.272799999999997,
+  "status_memory": "12.2 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695614639",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

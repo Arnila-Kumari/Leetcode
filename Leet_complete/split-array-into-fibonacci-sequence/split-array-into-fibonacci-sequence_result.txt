@@ -1,0 +1,52 @@
+Problem: split-array-into-fibonacci-sequence
+Submission ID: 1695686107
+Submission Time: 2025-07-12 14:49:10
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 107 ms
+Memory: 12.47 MB
+
+Test Cases: 73/74 passed
+
+Last Test Case:
+Input: "121202436"
+Expected: []
+
+Code Output: [12,12,24,36]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12468000,
+  "display_runtime": "107",
+  "question_id": "872",
+  "elapsed_time": 141,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111011",
+  "code_output": "[12,12,24,36]",
+  "std_output": "",
+  "last_testcase": "\"121202436\"",
+  "expected_output": "[]",
+  "task_finish_time": 1752356949179,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 73,
+  "total_testcases": 74,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695686107",
+  "input_formatted": "\"121202436\"",
+  "input": "\"121202436\"",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

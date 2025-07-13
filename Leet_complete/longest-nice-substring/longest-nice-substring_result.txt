@@ -1,0 +1,47 @@
+Problem: longest-nice-substring
+Submission ID: 1695586960
+Submission Time: 2025-07-12 12:07:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 12.28 MB
+
+Test Cases: 73/73 passed
+
+Runtime Percentile: 44.4444%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 12284000,
+  "display_runtime": "6",
+  "question_id": "1873",
+  "elapsed_time": 43,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347234850,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 73,
+  "total_testcases": 73,
+  "runtime_percentile": 44.4444,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695586960",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

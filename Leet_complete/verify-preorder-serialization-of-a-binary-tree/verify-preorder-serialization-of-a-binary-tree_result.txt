@@ -1,0 +1,47 @@
+Problem: verify-preorder-serialization-of-a-binary-tree
+Submission ID: 1695699677
+Submission Time: 2025-07-12 15:18:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 12.37 MB
+
+Test Cases: 152/152 passed
+
+Runtime Percentile: 15.151599999999991%
+Memory Percentile: 96.9697%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 12372000,
+  "display_runtime": "6",
+  "question_id": "331",
+  "elapsed_time": 51,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358725524,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 152,
+  "total_testcases": 152,
+  "runtime_percentile": 15.151599999999991,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 96.9697,
+  "pretty_lang": "Python",
+  "submission_id": "1695699677",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

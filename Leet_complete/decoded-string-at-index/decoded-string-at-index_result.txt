@@ -1,0 +1,47 @@
+Problem: decoded-string-at-index
+Submission ID: 1695682249
+Submission Time: 2025-07-12 14:41:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.50 MB
+
+Test Cases: 46/46 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 11.1111%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12504000,
+  "display_runtime": "0",
+  "question_id": "916",
+  "elapsed_time": 33,
+  "compare_result": "1111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356475587,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 46,
+  "total_testcases": 46,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 11.1111,
+  "pretty_lang": "Python",
+  "submission_id": "1695682249",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

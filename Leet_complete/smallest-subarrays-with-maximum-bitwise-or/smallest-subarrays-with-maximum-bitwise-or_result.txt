@@ -1,0 +1,47 @@
+Problem: smallest-subarrays-with-maximum-bitwise-or
+Submission ID: 1695710447
+Submission Time: 2025-07-12 15:44:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 420 ms
+Memory: 26.23 MB
+
+Test Cases: 59/59 passed
+
+Runtime Percentile: 49.99990000000002%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "420 ms",
+  "memory": 26228000,
+  "display_runtime": "420",
+  "question_id": "2498",
+  "elapsed_time": 507,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360255486,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 59,
+  "total_testcases": 59,
+  "runtime_percentile": 49.99990000000002,
+  "status_memory": "26.2 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695710447",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,50 @@
+Problem: design-neighbor-sum-service
+Submission ID: 1695694565
+Submission Time: 2025-07-12 15:07:26
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.36 MB
+
+Test Cases: 0/652 passed
+
+Last Test Case:
+Input: ["NeighborSum","adjacentSum","adjacentSum","diagonalSum","diagonalSum"]
+[[[[0,1,2],[3,4,5],[6,7,8]]],[1],[4],[4],[8]]
+Expected: [null,6,16,16,4]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 114: NameError: global name 'NeighborSum' is not defined",
+  "full_runtime_error": "NameError: global name 'NeighborSum' is not defined\n    obj = NeighborSum(cparam_1)\nLine 114 in _driver (Solution.py)\n    _driver()\nLine 134 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12364000,
+  "question_id": "3516",
+  "elapsed_time": 33,
+  "compare_result": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[\"NeighborSum\",\"adjacentSum\",\"adjacentSum\",\"diagonalSum\",\"diagonalSum\"]\n[[[[0,1,2],[3,4,5],[6,7,8]]],[1],[4],[4],[8]]",
+  "expected_output": "[null,6,16,16,4]",
+  "task_finish_time": 1752358043298,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 652,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695694565",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

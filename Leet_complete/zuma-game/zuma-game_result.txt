@@ -1,0 +1,48 @@
+Problem: zuma-game
+Submission ID: 1695690542
+Submission Time: 2025-07-12 14:58:59
+============================================================
+
+State: SUCCESS
+Status: Time Limit Exceeded
+Language: Python
+
+Runtime: N/A ms
+Memory: 38.22 MB
+
+Test Cases: 34/57 passed
+
+Last Test Case:
+Input: "RRGGBBYYWWRRGGBB"
+"RGBYW"
+Expected: -1
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 14,
+  "lang": "python",
+  "run_success": false,
+  "status_runtime": "N/A",
+  "memory": 38220000,
+  "question_id": "488",
+  "elapsed_time": 11025,
+  "compare_result": "111111111111111111111111111111111100000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "\"RRGGBBYYWWRRGGBB\"\n\"RGBYW\"",
+  "expected_output": "-1",
+  "task_finish_time": 1752357538692,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 34,
+  "total_testcases": 57,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695690542",
+  "status_msg": "Time Limit Exceeded",
+  "state": "SUCCESS"
+}

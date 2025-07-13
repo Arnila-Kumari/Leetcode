@@ -1,0 +1,47 @@
+Problem: largest-local-values-in-a-matrix
+Submission ID: 1695573808
+Submission Time: 2025-07-12 11:51:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 59 ms
+Memory: 12.95 MB
+
+Test Cases: 50/50 passed
+
+Runtime Percentile: 54.359700000000075%
+Memory Percentile: 67.6923%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "59 ms",
+  "memory": 12948000,
+  "display_runtime": "59",
+  "question_id": "2454",
+  "elapsed_time": 95,
+  "compare_result": "11111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346303696,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 50,
+  "total_testcases": 50,
+  "runtime_percentile": 54.359700000000075,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 67.6923,
+  "pretty_lang": "Python",
+  "submission_id": "1695573808",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

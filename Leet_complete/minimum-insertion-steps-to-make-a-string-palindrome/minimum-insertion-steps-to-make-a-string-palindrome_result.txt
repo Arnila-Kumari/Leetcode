@@ -1,0 +1,47 @@
+Problem: minimum-insertion-steps-to-make-a-string-palindrome
+Submission ID: 1695711165
+Submission Time: 2025-07-12 15:46:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 867 ms
+Memory: 12.44 MB
+
+Test Cases: 58/58 passed
+
+Runtime Percentile: 30.88179999999982%
+Memory Percentile: 95.098%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "867 ms",
+  "memory": 12444000,
+  "display_runtime": "867",
+  "question_id": "1437",
+  "elapsed_time": 903,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360364813,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 58,
+  "total_testcases": 58,
+  "runtime_percentile": 30.88179999999982,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 95.098,
+  "pretty_lang": "Python",
+  "submission_id": "1695711165",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

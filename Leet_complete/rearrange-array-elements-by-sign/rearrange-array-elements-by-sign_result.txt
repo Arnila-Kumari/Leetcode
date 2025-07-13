@@ -1,0 +1,47 @@
+Problem: rearrange-array-elements-by-sign
+Submission ID: 1695594818
+Submission Time: 2025-07-12 12:16:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 56 ms
+Memory: 42.28 MB
+
+Test Cases: 133/133 passed
+
+Runtime Percentile: 86.43640000000002%
+Memory Percentile: 94.22950000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "56 ms",
+  "memory": 42284000,
+  "display_runtime": "56",
+  "question_id": "2271",
+  "elapsed_time": 193,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347817984,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 133,
+  "total_testcases": 133,
+  "runtime_percentile": 86.43640000000002,
+  "status_memory": "42.3 MB",
+  "memory_percentile": 94.22950000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695594818",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

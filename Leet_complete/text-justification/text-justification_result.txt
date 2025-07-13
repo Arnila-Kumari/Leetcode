@@ -1,0 +1,47 @@
+Problem: text-justification
+Submission ID: 1695682260
+Submission Time: 2025-07-12 14:41:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.44 MB
+
+Test Cases: 29/29 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 53.42200000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12440000,
+  "display_runtime": "0",
+  "question_id": "68",
+  "elapsed_time": 34,
+  "compare_result": "11111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356477281,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 29,
+  "total_testcases": 29,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 53.42200000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695682260",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

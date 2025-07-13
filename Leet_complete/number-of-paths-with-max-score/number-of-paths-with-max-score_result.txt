@@ -1,0 +1,46 @@
+Problem: number-of-paths-with-max-score
+Submission ID: 1695564401
+Submission Time: 2025-07-12 11:41:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 133 ms ms
+Memory: 12.53 MB
+
+Test Cases: 25/25 passed
+
+Runtime Percentile: 61.538499999999985%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "133 ms",
+  "memory": 12532000,
+  "question_id": "1234",
+  "elapsed_time": 165,
+  "compare_result": "1111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345667568,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 25,
+  "total_testcases": 25,
+  "runtime_percentile": 61.538499999999985,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695564401",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

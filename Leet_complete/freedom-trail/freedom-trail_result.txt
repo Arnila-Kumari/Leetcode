@@ -1,0 +1,47 @@
+Problem: freedom-trail
+Submission ID: 1695549155
+Submission Time: 2025-07-12 11:25:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 85 ms
+Memory: 12.35 MB
+
+Test Cases: 303/303 passed
+
+Runtime Percentile: 73.33359999999999%
+Memory Percentile: 91.1111%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "85 ms",
+  "memory": 12352000,
+  "display_runtime": "85",
+  "question_id": "514",
+  "elapsed_time": 150,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344745407,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 303,
+  "total_testcases": 303,
+  "runtime_percentile": 73.33359999999999,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 91.1111,
+  "pretty_lang": "Python",
+  "submission_id": "1695549155",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

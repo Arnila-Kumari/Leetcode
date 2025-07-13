@@ -1,0 +1,47 @@
+Problem: maximum-number-of-non-overlapping-palindrome-substrings
+Submission ID: 1695685219
+Submission Time: 2025-07-12 14:47:11
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 12.36 MB
+
+Test Cases: 56/56 passed
+
+Runtime Percentile: 80.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 12356000,
+  "display_runtime": "11",
+  "question_id": "2559",
+  "elapsed_time": 40,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356830803,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 56,
+  "total_testcases": 56,
+  "runtime_percentile": 80.0,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695685219",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

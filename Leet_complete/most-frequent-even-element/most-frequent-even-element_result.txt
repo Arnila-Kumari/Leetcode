@@ -1,0 +1,47 @@
+Problem: most-frequent-even-element
+Submission ID: 1695549431
+Submission Time: 2025-07-12 11:26:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 43 ms
+Memory: 12.91 MB
+
+Test Cases: 219/219 passed
+
+Runtime Percentile: 41.01589999999999%
+Memory Percentile: 20.312499999999993%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "43 ms",
+  "memory": 12912000,
+  "display_runtime": "43",
+  "question_id": "2486",
+  "elapsed_time": 99,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344761158,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 219,
+  "total_testcases": 219,
+  "runtime_percentile": 41.01589999999999,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 20.312499999999993,
+  "pretty_lang": "Python",
+  "submission_id": "1695549431",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

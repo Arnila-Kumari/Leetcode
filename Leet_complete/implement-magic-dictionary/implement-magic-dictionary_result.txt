@@ -1,0 +1,47 @@
+Problem: implement-magic-dictionary
+Submission ID: 1695560911
+Submission Time: 2025-07-12 11:37:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 162 ms
+Memory: 15.41 MB
+
+Test Cases: 83/83 passed
+
+Runtime Percentile: 46.3760000000001%
+Memory Percentile: 27.536100000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "162 ms",
+  "memory": 15408000,
+  "display_runtime": "162",
+  "question_id": "676",
+  "elapsed_time": 243,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345435204,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 83,
+  "total_testcases": 83,
+  "runtime_percentile": 46.3760000000001,
+  "status_memory": "15.4 MB",
+  "memory_percentile": 27.536100000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695560911",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

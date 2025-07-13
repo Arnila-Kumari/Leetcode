@@ -1,0 +1,47 @@
+Problem: count-binary-substrings
+Submission ID: 1695594221
+Submission Time: 2025-07-12 12:16:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 83 ms
+Memory: 12.66 MB
+
+Test Cases: 91/91 passed
+
+Runtime Percentile: 85.89689999999999%
+Memory Percentile: 92.3076%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "83 ms",
+  "memory": 12664000,
+  "display_runtime": "83",
+  "question_id": "696",
+  "elapsed_time": 122,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347775050,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 91,
+  "total_testcases": 91,
+  "runtime_percentile": 85.89689999999999,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 92.3076,
+  "pretty_lang": "Python",
+  "submission_id": "1695594221",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: delete-leaves-with-a-given-value
+Submission ID: 1695679206
+Submission Time: 2025-07-12 14:35:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 14.61 MB
+
+Test Cases: 51/51 passed
+
+Runtime Percentile: 32.258099999999985%
+Memory Percentile: 33.870799999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 14608000,
+  "display_runtime": "7",
+  "question_id": "1450",
+  "elapsed_time": 50,
+  "compare_result": "111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356097733,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 51,
+  "total_testcases": 51,
+  "runtime_percentile": 32.258099999999985,
+  "status_memory": "14.6 MB",
+  "memory_percentile": 33.870799999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695679206",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

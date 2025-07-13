@@ -1,0 +1,47 @@
+Problem: super-washing-machines
+Submission ID: 1695712367
+Submission Time: 2025-07-12 15:48:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 8 ms
+Memory: 13.21 MB
+
+Test Cases: 120/120 passed
+
+Runtime Percentile: 11.110999999999997%
+Memory Percentile: 22.2222%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "8 ms",
+  "memory": 13212000,
+  "display_runtime": "8",
+  "question_id": "517",
+  "elapsed_time": 40,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360534744,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 120,
+  "total_testcases": 120,
+  "runtime_percentile": 11.110999999999997,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 22.2222,
+  "pretty_lang": "Python",
+  "submission_id": "1695712367",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

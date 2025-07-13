@@ -1,0 +1,47 @@
+Problem: checking-existence-of-edge-length-limited-paths
+Submission ID: 1695581164
+Submission Time: 2025-07-12 12:00:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 453 ms
+Memory: 49.49 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 14.285799999999993%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "453 ms",
+  "memory": 49492000,
+  "display_runtime": "453",
+  "question_id": "1815",
+  "elapsed_time": 686,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346826577,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 14.285799999999993,
+  "status_memory": "49.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695581164",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

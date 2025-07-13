@@ -1,0 +1,47 @@
+Problem: find-the-array-concatenation-value
+Submission ID: 1695710190
+Submission Time: 2025-07-12 15:43:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.60 MB
+
+Test Cases: 53/53 passed
+
+Runtime Percentile: 86.07600000000001%
+Memory Percentile: 6.329100000000011%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12604000,
+  "display_runtime": "3",
+  "question_id": "2698",
+  "elapsed_time": 37,
+  "compare_result": "11111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360215943,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 53,
+  "total_testcases": 53,
+  "runtime_percentile": 86.07600000000001,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 6.329100000000011,
+  "pretty_lang": "Python",
+  "submission_id": "1695710190",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

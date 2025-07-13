@@ -1,0 +1,47 @@
+Problem: can-convert-string-in-k-moves
+Submission ID: 1695570253
+Submission Time: 2025-07-12 11:47:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 232 ms
+Memory: 13.13 MB
+
+Test Cases: 155/155 passed
+
+Runtime Percentile: 79.31019999999998%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "232 ms",
+  "memory": 13132000,
+  "display_runtime": "232",
+  "question_id": "1647",
+  "elapsed_time": 334,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346055782,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 155,
+  "total_testcases": 155,
+  "runtime_percentile": 79.31019999999998,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695570253",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

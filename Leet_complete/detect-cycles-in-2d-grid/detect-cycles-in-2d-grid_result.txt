@@ -1,0 +1,47 @@
+Problem: detect-cycles-in-2d-grid
+Submission ID: 1695678040
+Submission Time: 2025-07-12 14:32:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 431 ms
+Memory: 57.26 MB
+
+Test Cases: 76/76 passed
+
+Runtime Percentile: 98.1132%
+Memory Percentile: 92.45280000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "431 ms",
+  "memory": 57260000,
+  "display_runtime": "431",
+  "question_id": "1663",
+  "elapsed_time": 634,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355956560,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 76,
+  "total_testcases": 76,
+  "runtime_percentile": 98.1132,
+  "status_memory": "57.3 MB",
+  "memory_percentile": 92.45280000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695678040",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

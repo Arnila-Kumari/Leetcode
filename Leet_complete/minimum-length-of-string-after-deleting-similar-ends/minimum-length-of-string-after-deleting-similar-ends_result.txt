@@ -1,0 +1,47 @@
+Problem: minimum-length-of-string-after-deleting-similar-ends
+Submission ID: 1695711535
+Submission Time: 2025-07-12 15:46:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 43 ms
+Memory: 12.56 MB
+
+Test Cases: 103/103 passed
+
+Runtime Percentile: 50.00019999999998%
+Memory Percentile: 94.6429%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "43 ms",
+  "memory": 12564000,
+  "display_runtime": "43",
+  "question_id": "1850",
+  "elapsed_time": 78,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360418371,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 103,
+  "total_testcases": 103,
+  "runtime_percentile": 50.00019999999998,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 94.6429,
+  "pretty_lang": "Python",
+  "submission_id": "1695711535",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

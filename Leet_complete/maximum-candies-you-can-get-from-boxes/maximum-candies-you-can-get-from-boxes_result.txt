@@ -1,0 +1,47 @@
+Problem: maximum-candies-you-can-get-from-boxes
+Submission ID: 1695622275
+Submission Time: 2025-07-12 12:54:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 55 ms
+Memory: 19.03 MB
+
+Test Cases: 43/43 passed
+
+Runtime Percentile: 15.843400000000013%
+Memory Percentile: 15.463700000000003%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "55 ms",
+  "memory": 19028000,
+  "display_runtime": "55",
+  "question_id": "1424",
+  "elapsed_time": 133,
+  "compare_result": "1111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350066715,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 43,
+  "total_testcases": 43,
+  "runtime_percentile": 15.843400000000013,
+  "status_memory": "19 MB",
+  "memory_percentile": 15.463700000000003,
+  "pretty_lang": "Python",
+  "submission_id": "1695622275",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

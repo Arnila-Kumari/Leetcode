@@ -1,0 +1,47 @@
+Problem: expressive-words
+Submission ID: 1695699703
+Submission Time: 2025-07-12 15:18:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 31 ms
+Memory: 12.31 MB
+
+Test Cases: 36/36 passed
+
+Runtime Percentile: 20.0%
+Memory Percentile: 87.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "31 ms",
+  "memory": 12312000,
+  "display_runtime": "31",
+  "question_id": "827",
+  "elapsed_time": 63,
+  "compare_result": "111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358728063,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 36,
+  "total_testcases": 36,
+  "runtime_percentile": 20.0,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 87.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695699703",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

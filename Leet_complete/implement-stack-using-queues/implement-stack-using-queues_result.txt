@@ -1,0 +1,50 @@
+Problem: implement-stack-using-queues
+Submission ID: 1695561561
+Submission Time: 2025-07-12 11:37:58
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.39 MB
+
+Test Cases: 0/18 passed
+
+Last Test Case:
+Input: ["MyStack","push","push","top","pop","empty"]
+[[],[1],[2],[],[],[]]
+Expected: [null,null,null,2,2,false]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 159: NameError: global name 'MyStack' is not defined",
+  "full_runtime_error": "NameError: global name 'MyStack' is not defined\n    obj = MyStack()\nLine 159 in _driver (Solution.py)\n    _driver()\nLine 179 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12388000,
+  "question_id": "225",
+  "elapsed_time": 35,
+  "compare_result": "000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[\"MyStack\",\"push\",\"push\",\"top\",\"pop\",\"empty\"]\n[[],[1],[2],[],[],[]]",
+  "expected_output": "[null,null,null,2,2,false]",
+  "task_finish_time": 1752345476587,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 18,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695561561",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: minimum-time-difference
+Submission ID: 1695614099
+Submission Time: 2025-07-12 12:42:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 16.42 MB
+
+Test Cases: 116/116 passed
+
+Runtime Percentile: 94.78679999999999%
+Memory Percentile: 5.68710000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 16424000,
+  "display_runtime": "15",
+  "question_id": "539",
+  "elapsed_time": 57,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349353133,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 116,
+  "total_testcases": 116,
+  "runtime_percentile": 94.78679999999999,
+  "status_memory": "16.4 MB",
+  "memory_percentile": 5.68710000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695614099",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

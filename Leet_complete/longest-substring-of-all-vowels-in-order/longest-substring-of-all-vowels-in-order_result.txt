@@ -1,0 +1,47 @@
+Problem: longest-substring-of-all-vowels-in-order
+Submission ID: 1695589766
+Submission Time: 2025-07-12 12:10:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 776 ms
+Memory: 16.63 MB
+
+Test Cases: 121/121 passed
+
+Runtime Percentile: 12.501300000000075%
+Memory Percentile: 89.5833%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "776 ms",
+  "memory": 16632000,
+  "display_runtime": "776",
+  "question_id": "1967",
+  "elapsed_time": 823,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347444917,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 121,
+  "total_testcases": 121,
+  "runtime_percentile": 12.501300000000075,
+  "status_memory": "16.6 MB",
+  "memory_percentile": 89.5833,
+  "pretty_lang": "Python",
+  "submission_id": "1695589766",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

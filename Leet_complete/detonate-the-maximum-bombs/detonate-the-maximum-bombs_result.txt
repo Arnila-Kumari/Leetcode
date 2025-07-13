@@ -1,0 +1,47 @@
+Problem: detonate-the-maximum-bombs
+Submission ID: 1695696167
+Submission Time: 2025-07-12 15:11:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 102 ms
+Memory: 12.54 MB
+
+Test Cases: 164/164 passed
+
+Runtime Percentile: 98.50739999999999%
+Memory Percentile: 92.5373%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "102 ms",
+  "memory": 12540000,
+  "display_runtime": "102",
+  "question_id": "2206",
+  "elapsed_time": 137,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358258325,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 164,
+  "total_testcases": 164,
+  "runtime_percentile": 98.50739999999999,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 92.5373,
+  "pretty_lang": "Python",
+  "submission_id": "1695696167",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

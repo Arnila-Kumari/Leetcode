@@ -1,0 +1,47 @@
+Problem: filling-bookcase-shelves
+Submission ID: 1695697407
+Submission Time: 2025-07-12 15:13:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 8 ms
+Memory: 12.59 MB
+
+Test Cases: 20/20 passed
+
+Runtime Percentile: 55.55560000000001%
+Memory Percentile: 85.18520000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "8 ms",
+  "memory": 12588000,
+  "display_runtime": "8",
+  "question_id": "1196",
+  "elapsed_time": 36,
+  "compare_result": "11111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358414369,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 20,
+  "total_testcases": 20,
+  "runtime_percentile": 55.55560000000001,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 85.18520000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695697407",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: check-if-array-pairs-are-divisible-by-k
+Submission ID: 1695575860
+Submission Time: 2025-07-12 11:54:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 169 ms
+Memory: 23.72 MB
+
+Test Cases: 99/99 passed
+
+Runtime Percentile: 7.692400000000056%
+Memory Percentile: 35.89750000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "169 ms",
+  "memory": 23720000,
+  "display_runtime": "169",
+  "question_id": "1620",
+  "elapsed_time": 256,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346446805,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 99,
+  "total_testcases": 99,
+  "runtime_percentile": 7.692400000000056,
+  "status_memory": "23.7 MB",
+  "memory_percentile": 35.89750000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695575860",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

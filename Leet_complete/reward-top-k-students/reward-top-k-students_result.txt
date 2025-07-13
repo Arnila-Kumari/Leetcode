@@ -1,0 +1,47 @@
+Problem: reward-top-k-students
+Submission ID: 1695699203
+Submission Time: 2025-07-12 15:17:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 115 ms
+Memory: 21.25 MB
+
+Test Cases: 30/30 passed
+
+Runtime Percentile: 31.03419999999996%
+Memory Percentile: 79.31019999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "115 ms",
+  "memory": 21252000,
+  "display_runtime": "115",
+  "question_id": "2603",
+  "elapsed_time": 191,
+  "compare_result": "111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358652572,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 30,
+  "total_testcases": 30,
+  "runtime_percentile": 31.03419999999996,
+  "status_memory": "21.3 MB",
+  "memory_percentile": 79.31019999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695699203",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: subarray-sums-divisible-by-k
+Submission ID: 1695679175
+Submission Time: 2025-07-12 14:34:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 28 ms
+Memory: 15.16 MB
+
+Test Cases: 76/76 passed
+
+Runtime Percentile: 80.69139999999999%
+Memory Percentile: 26.801300000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "28 ms",
+  "memory": 15164000,
+  "display_runtime": "28",
+  "question_id": "1016",
+  "elapsed_time": 73,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356093912,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 76,
+  "total_testcases": 76,
+  "runtime_percentile": 80.69139999999999,
+  "status_memory": "15.2 MB",
+  "memory_percentile": 26.801300000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695679175",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: rotate-function
+Submission ID: 1695694176
+Submission Time: 2025-07-12 15:06:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 163 ms
+Memory: 17.26 MB
+
+Test Cases: 58/58 passed
+
+Runtime Percentile: 76.66700000000006%
+Memory Percentile: 97.50010000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "163 ms",
+  "memory": 17264000,
+  "display_runtime": "163",
+  "question_id": "396",
+  "elapsed_time": 263,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357995915,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 58,
+  "total_testcases": 58,
+  "runtime_percentile": 76.66700000000006,
+  "status_memory": "17.3 MB",
+  "memory_percentile": 97.50010000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695694176",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

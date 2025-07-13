@@ -1,0 +1,47 @@
+Problem: swapping-nodes-in-a-linked-list
+Submission ID: 1695677309
+Submission Time: 2025-07-12 14:31:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 58 ms
+Memory: 85.28 MB
+
+Test Cases: 132/132 passed
+
+Runtime Percentile: 45.73500000000001%
+Memory Percentile: 82.0325%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "58 ms",
+  "memory": 85284000,
+  "display_runtime": "58",
+  "question_id": "528",
+  "elapsed_time": 1007,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355866581,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 132,
+  "total_testcases": 132,
+  "runtime_percentile": 45.73500000000001,
+  "status_memory": "85.3 MB",
+  "memory_percentile": 82.0325,
+  "pretty_lang": "Python",
+  "submission_id": "1695677309",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

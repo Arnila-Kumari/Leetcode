@@ -1,0 +1,53 @@
+Problem: number-of-ways-of-cutting-a-pizza
+Submission ID: 1695570136
+Submission Time: 2025-07-12 11:47:29
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 181 ms
+Memory: 12.94 MB
+
+Test Cases: 53/54 passed
+
+Last Test Case:
+Input: ["...","...","..."]
+1
+Expected: 0
+
+Code Output: 1
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12944000,
+  "display_runtime": "181",
+  "question_id": "1555",
+  "elapsed_time": 216,
+  "compare_result": "111111111111111111111111111111111111111111111111111110",
+  "code_output": "1",
+  "std_output": "",
+  "last_testcase": "[\"...\",\"...\",\"...\"]\n1",
+  "expected_output": "0",
+  "task_finish_time": 1752346047939,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 53,
+  "total_testcases": 54,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695570136",
+  "input_formatted": "[\"...\",\"...\",\"...\"], 1",
+  "input": "[\"...\",\"...\",\"...\"]\n1",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

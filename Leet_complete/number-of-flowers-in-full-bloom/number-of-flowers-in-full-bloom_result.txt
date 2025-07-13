@@ -1,0 +1,47 @@
+Problem: number-of-flowers-in-full-bloom
+Submission ID: 1695561641
+Submission Time: 2025-07-12 11:38:03
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 169 ms
+Memory: 34.71 MB
+
+Test Cases: 53/53 passed
+
+Runtime Percentile: 45.0%
+Memory Percentile: 36.25%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "169 ms",
+  "memory": 34712000,
+  "display_runtime": "169",
+  "question_id": "2334",
+  "elapsed_time": 279,
+  "compare_result": "11111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345481482,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 53,
+  "total_testcases": 53,
+  "runtime_percentile": 45.0,
+  "status_memory": "34.7 MB",
+  "memory_percentile": 36.25,
+  "pretty_lang": "Python",
+  "submission_id": "1695561641",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

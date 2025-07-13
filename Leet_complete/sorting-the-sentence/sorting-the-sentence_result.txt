@@ -1,0 +1,46 @@
+Problem: sorting-the-sentence
+Submission ID: 1695689783
+Submission Time: 2025-07-12 14:57:03
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 24 ms ms
+Memory: 12.46 MB
+
+Test Cases: 45/45 passed
+
+Runtime Percentile: 7.027099999999979%
+Memory Percentile: 50.27029999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "24 ms",
+  "memory": 12456000,
+  "question_id": "1970",
+  "elapsed_time": 45,
+  "compare_result": "111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357422931,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 45,
+  "total_testcases": 45,
+  "runtime_percentile": 7.027099999999979,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 50.27029999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695689783",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

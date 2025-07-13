@@ -1,0 +1,47 @@
+Problem: adding-spaces-to-a-string
+Submission ID: 1695548090
+Submission Time: 2025-07-12 11:24:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 213 ms
+Memory: 41.47 MB
+
+Test Cases: 66/66 passed
+
+Runtime Percentile: 25.805800000000048%
+Memory Percentile: 51.61290000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "213 ms",
+  "memory": 41472000,
+  "display_runtime": "213",
+  "question_id": "2232",
+  "elapsed_time": 372,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344685495,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 66,
+  "total_testcases": 66,
+  "runtime_percentile": 25.805800000000048,
+  "status_memory": "41.5 MB",
+  "memory_percentile": 51.61290000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695548090",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

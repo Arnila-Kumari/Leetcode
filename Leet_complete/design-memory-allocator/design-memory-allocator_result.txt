@@ -1,0 +1,50 @@
+Problem: design-memory-allocator
+Submission ID: 1695696929
+Submission Time: 2025-07-12 15:12:33
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.52 MB
+
+Test Cases: 0/109 passed
+
+Last Test Case:
+Input: ["Allocator","allocate","allocate","allocate","freeMemory","allocate","allocate","allocate","freeMemory","allocate","freeMemory"]
+[[10],[1,1],[1,2],[1,3],[2],[3,4],[1,1],[1,1],[1],[10,2],[7]]
+Expected: [null,0,1,2,1,3,1,6,3,-1,0]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 84: AttributeError: 'Allocator' object has no attribute 'freeMemory'",
+  "full_runtime_error": "AttributeError: 'Allocator' object has no attribute 'freeMemory'\n    result = obj.freeMemory(\nLine 84 in __helper_select_method__ (Solution.py)\n    ctime, ans = __DriverSolution__().__helper_select_method__(method, params[index], obj)\nLine 131 in _driver (Solution.py)\n    _driver()\nLine 143 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12516000,
+  "question_id": "2587",
+  "elapsed_time": 40,
+  "compare_result": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[\"Allocator\",\"allocate\",\"allocate\",\"allocate\",\"freeMemory\",\"allocate\",\"allocate\",\"allocate\",\"freeMemory\",\"allocate\",\"freeMemory\"]\n[[10],[1,1],[1,2],[1,3],[2],[3,4],[1,1],[1,1],[1],[10,2],[7]]",
+  "expected_output": "[null,0,1,2,1,3,1,6,3,-1,0]",
+  "task_finish_time": 1752358352281,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 109,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695696929",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

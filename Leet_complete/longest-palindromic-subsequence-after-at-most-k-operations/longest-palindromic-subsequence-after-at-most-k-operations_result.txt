@@ -1,0 +1,47 @@
+Problem: longest-palindromic-subsequence-after-at-most-k-operations
+Submission ID: 1695587826
+Submission Time: 2025-07-12 12:08:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7230 ms
+Memory: 78.59 MB
+
+Test Cases: 550/550 passed
+
+Runtime Percentile: 71.42859999999999%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7230 ms",
+  "memory": 78592000,
+  "display_runtime": "7230",
+  "question_id": "3786",
+  "elapsed_time": 8384,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347305293,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 550,
+  "total_testcases": 550,
+  "runtime_percentile": 71.42859999999999,
+  "status_memory": "78.6 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695587826",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

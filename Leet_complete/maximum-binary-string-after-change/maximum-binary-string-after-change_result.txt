@@ -1,0 +1,47 @@
+Problem: maximum-binary-string-after-change
+Submission ID: 1695621651
+Submission Time: 2025-07-12 12:53:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 419 ms
+Memory: 14.77 MB
+
+Test Cases: 76/76 passed
+
+Runtime Percentile: 7.143400000000046%
+Memory Percentile: 35.714200000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "419 ms",
+  "memory": 14768000,
+  "display_runtime": "419",
+  "question_id": "1804",
+  "elapsed_time": 474,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350013957,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 76,
+  "total_testcases": 76,
+  "runtime_percentile": 7.143400000000046,
+  "status_memory": "14.8 MB",
+  "memory_percentile": 35.714200000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695621651",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

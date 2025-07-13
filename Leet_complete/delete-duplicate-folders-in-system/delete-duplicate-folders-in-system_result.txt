@@ -1,0 +1,47 @@
+Problem: delete-duplicate-folders-in-system
+Submission ID: 1695689565
+Submission Time: 2025-07-12 14:56:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 282 ms
+Memory: 38.02 MB
+
+Test Cases: 108/108 passed
+
+Runtime Percentile: 50.0%
+Memory Percentile: 50.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "282 ms",
+  "memory": 38024000,
+  "display_runtime": "282",
+  "question_id": "2079",
+  "elapsed_time": 492,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357397311,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 108,
+  "total_testcases": 108,
+  "runtime_percentile": 50.0,
+  "status_memory": "38 MB",
+  "memory_percentile": 50.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695689565",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

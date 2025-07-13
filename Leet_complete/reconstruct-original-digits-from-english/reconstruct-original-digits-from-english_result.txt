@@ -1,0 +1,47 @@
+Problem: reconstruct-original-digits-from-english
+Submission ID: 1695596077
+Submission Time: 2025-07-12 12:18:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 499 ms
+Memory: 13.18 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 7.142200000000006%
+Memory Percentile: 5.952300000000007%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "499 ms",
+  "memory": 13184000,
+  "display_runtime": "499",
+  "question_id": "423",
+  "elapsed_time": 535,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347909338,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 7.142200000000006,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 5.952300000000007,
+  "pretty_lang": "Python",
+  "submission_id": "1695596077",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

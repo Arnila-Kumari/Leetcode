@@ -1,0 +1,47 @@
+Problem: parsing-a-boolean-expression
+Submission ID: 1695578448
+Submission Time: 2025-07-12 11:57:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 19 ms
+Memory: 12.60 MB
+
+Test Cases: 78/78 passed
+
+Runtime Percentile: 91.42869999999999%
+Memory Percentile: 68.57140000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "19 ms",
+  "memory": 12596000,
+  "display_runtime": "19",
+  "question_id": "1197",
+  "elapsed_time": 55,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346630019,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 78,
+  "total_testcases": 78,
+  "runtime_percentile": 91.42869999999999,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 68.57140000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695578448",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

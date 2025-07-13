@@ -1,0 +1,47 @@
+Problem: string-matching-in-an-array
+Submission ID: 1695712073
+Submission Time: 2025-07-12 15:48:13
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 30 ms
+Memory: 14.94 MB
+
+Test Cases: 69/69 passed
+
+Runtime Percentile: 6.752399999999992%
+Memory Percentile: 0.32159999999999656%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "30 ms",
+  "memory": 14944000,
+  "display_runtime": "30",
+  "question_id": "1524",
+  "elapsed_time": 69,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360492877,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 69,
+  "total_testcases": 69,
+  "runtime_percentile": 6.752399999999992,
+  "status_memory": "14.9 MB",
+  "memory_percentile": 0.32159999999999656,
+  "pretty_lang": "Python",
+  "submission_id": "1695712073",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

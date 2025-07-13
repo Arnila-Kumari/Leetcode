@@ -1,0 +1,47 @@
+Problem: convert-binary-number-in-a-linked-list-to-integer
+Submission ID: 1695590859
+Submission Time: 2025-07-12 12:12:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.42 MB
+
+Test Cases: 102/102 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 52.029500000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12420000,
+  "display_runtime": "0",
+  "question_id": "1411",
+  "elapsed_time": 34,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347527464,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 102,
+  "total_testcases": 102,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 52.029500000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695590859",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

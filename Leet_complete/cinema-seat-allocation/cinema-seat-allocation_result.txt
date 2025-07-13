@@ -1,0 +1,47 @@
+Problem: cinema-seat-allocation
+Submission ID: 1695581677
+Submission Time: 2025-07-12 12:01:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 56 ms
+Memory: 16.27 MB
+
+Test Cases: 53/53 passed
+
+Runtime Percentile: 86.111%
+Memory Percentile: 63.88880000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "56 ms",
+  "memory": 16268000,
+  "display_runtime": "56",
+  "question_id": "1487",
+  "elapsed_time": 126,
+  "compare_result": "11111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346864438,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 53,
+  "total_testcases": 53,
+  "runtime_percentile": 86.111,
+  "status_memory": "16.3 MB",
+  "memory_percentile": 63.88880000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695581677",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: minimum-space-wasted-from-packaging
+Submission ID: 1695686221
+Submission Time: 2025-07-12 14:49:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 247 ms
+Memory: 26.98 MB
+
+Test Cases: 42/42 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "247 ms",
+  "memory": 26984000,
+  "display_runtime": "247",
+  "question_id": "2018",
+  "elapsed_time": 347,
+  "compare_result": "111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356963326,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 42,
+  "total_testcases": 42,
+  "runtime_percentile": 100,
+  "status_memory": "27 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695686221",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

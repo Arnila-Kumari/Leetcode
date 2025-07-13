@@ -1,0 +1,47 @@
+Problem: capacity-to-ship-packages-within-d-days
+Submission ID: 1695571302
+Submission Time: 2025-07-12 11:48:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 219 ms
+Memory: 15.27 MB
+
+Test Cases: 88/88 passed
+
+Runtime Percentile: 55.49409999999986%
+Memory Percentile: 37.9888%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "219 ms",
+  "memory": 15268000,
+  "display_runtime": "219",
+  "question_id": "1056",
+  "elapsed_time": 281,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346127623,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 88,
+  "total_testcases": 88,
+  "runtime_percentile": 55.49409999999986,
+  "status_memory": "15.3 MB",
+  "memory_percentile": 37.9888,
+  "pretty_lang": "Python",
+  "submission_id": "1695571302",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

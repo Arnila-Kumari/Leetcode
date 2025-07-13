@@ -1,0 +1,47 @@
+Problem: shifting-letters
+Submission ID: 1695711792
+Submission Time: 2025-07-12 15:47:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 133 ms
+Memory: 19.83 MB
+
+Test Cases: 53/53 passed
+
+Runtime Percentile: 79.43279999999997%
+Memory Percentile: 89.3617%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "133 ms",
+  "memory": 19832000,
+  "display_runtime": "133",
+  "question_id": "878",
+  "elapsed_time": 222,
+  "compare_result": "11111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360455332,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 53,
+  "total_testcases": 53,
+  "runtime_percentile": 79.43279999999997,
+  "status_memory": "19.8 MB",
+  "memory_percentile": 89.3617,
+  "pretty_lang": "Python",
+  "submission_id": "1695711792",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

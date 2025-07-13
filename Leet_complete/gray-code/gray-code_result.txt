@@ -1,0 +1,47 @@
+Problem: gray-code
+Submission ID: 1695554743
+Submission Time: 2025-07-12 11:30:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 8 ms
+Memory: 19.09 MB
+
+Test Cases: 16/16 passed
+
+Runtime Percentile: 65.9638%
+Memory Percentile: 87.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "8 ms",
+  "memory": 19092000,
+  "display_runtime": "8",
+  "question_id": "89",
+  "elapsed_time": 56,
+  "compare_result": "1111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345046482,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 16,
+  "total_testcases": 16,
+  "runtime_percentile": 65.9638,
+  "status_memory": "19.1 MB",
+  "memory_percentile": 87.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695554743",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

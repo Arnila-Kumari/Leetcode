@@ -1,0 +1,47 @@
+Problem: brick-wall
+Submission ID: 1695566722
+Submission Time: 2025-07-12 11:43:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 23 ms
+Memory: 16.00 MB
+
+Test Cases: 88/88 passed
+
+Runtime Percentile: 25.19699999999998%
+Memory Percentile: 40.157499999999985%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "23 ms",
+  "memory": 15996000,
+  "display_runtime": "23",
+  "question_id": "554",
+  "elapsed_time": 57,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345827275,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 88,
+  "total_testcases": 88,
+  "runtime_percentile": 25.19699999999998,
+  "status_memory": "16 MB",
+  "memory_percentile": 40.157499999999985,
+  "pretty_lang": "Python",
+  "submission_id": "1695566722",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

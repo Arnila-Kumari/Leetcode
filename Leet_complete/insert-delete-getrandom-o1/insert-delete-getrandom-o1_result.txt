@@ -1,0 +1,47 @@
+Problem: insert-delete-getrandom-o1
+Submission ID: 1695562749
+Submission Time: 2025-07-12 11:39:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 269 ms
+Memory: 56.47 MB
+
+Test Cases: 21/21 passed
+
+Runtime Percentile: 44.86120000000002%
+Memory Percentile: 5.771900000000023%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "269 ms",
+  "memory": 56472000,
+  "display_runtime": "269",
+  "question_id": "380",
+  "elapsed_time": 1627,
+  "compare_result": "111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345556512,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 21,
+  "total_testcases": 21,
+  "runtime_percentile": 44.86120000000002,
+  "status_memory": "56.5 MB",
+  "memory_percentile": 5.771900000000023,
+  "pretty_lang": "Python",
+  "submission_id": "1695562749",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

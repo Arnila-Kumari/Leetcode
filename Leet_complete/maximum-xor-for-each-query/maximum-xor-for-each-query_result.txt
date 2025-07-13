@@ -1,0 +1,47 @@
+Problem: maximum-xor-for-each-query
+Submission ID: 1695690076
+Submission Time: 2025-07-12 14:57:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 31 ms
+Memory: 29.74 MB
+
+Test Cases: 86/86 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 87.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "31 ms",
+  "memory": 29740000,
+  "display_runtime": "31",
+  "question_id": "1940",
+  "elapsed_time": 140,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357461807,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 86,
+  "total_testcases": 86,
+  "runtime_percentile": 100,
+  "status_memory": "29.7 MB",
+  "memory_percentile": 87.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695690076",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

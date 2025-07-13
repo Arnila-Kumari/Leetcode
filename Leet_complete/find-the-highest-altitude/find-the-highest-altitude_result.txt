@@ -1,0 +1,47 @@
+Problem: find-the-highest-altitude
+Submission ID: 1695676713
+Submission Time: 2025-07-12 14:29:52
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.46 MB
+
+Test Cases: 80/80 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 51.973699999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12464000,
+  "display_runtime": "0",
+  "question_id": "1833",
+  "elapsed_time": 32,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355791355,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 80,
+  "total_testcases": 80,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 51.973699999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1695676713",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

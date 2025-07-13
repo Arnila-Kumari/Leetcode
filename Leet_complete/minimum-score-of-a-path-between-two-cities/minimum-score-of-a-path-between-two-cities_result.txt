@@ -1,0 +1,47 @@
+Problem: minimum-score-of-a-path-between-two-cities
+Submission ID: 1695677171
+Submission Time: 2025-07-12 14:30:51
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 325 ms
+Memory: 68.01 MB
+
+Test Cases: 43/43 passed
+
+Runtime Percentile: 86.48650000000004%
+Memory Percentile: 86.48650000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "325 ms",
+  "memory": 68012000,
+  "display_runtime": "325",
+  "question_id": "2582",
+  "elapsed_time": 480,
+  "compare_result": "1111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355848852,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 43,
+  "total_testcases": 43,
+  "runtime_percentile": 86.48650000000004,
+  "status_memory": "68 MB",
+  "memory_percentile": 86.48650000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695677171",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

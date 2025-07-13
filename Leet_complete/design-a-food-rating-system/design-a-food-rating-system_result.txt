@@ -1,0 +1,47 @@
+Problem: design-a-food-rating-system
+Submission ID: 1695696199
+Submission Time: 2025-07-12 15:11:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 384 ms
+Memory: 44.20 MB
+
+Test Cases: 78/78 passed
+
+Runtime Percentile: 30.435199999999952%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "384 ms",
+  "memory": 44204000,
+  "display_runtime": "384",
+  "question_id": "2429",
+  "elapsed_time": 1441,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358264444,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 78,
+  "total_testcases": 78,
+  "runtime_percentile": 30.435199999999952,
+  "status_memory": "44.2 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695696199",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

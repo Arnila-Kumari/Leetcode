@@ -1,0 +1,47 @@
+Problem: pacific-atlantic-water-flow
+Submission ID: 1695575742
+Submission Time: 2025-07-12 11:53:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 69 ms
+Memory: 15.64 MB
+
+Test Cases: 113/113 passed
+
+Runtime Percentile: 23.529200000000007%
+Memory Percentile: 7.505300000000008%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "69 ms",
+  "memory": 15640000,
+  "display_runtime": "69",
+  "question_id": "417",
+  "elapsed_time": 123,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346438388,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 113,
+  "total_testcases": 113,
+  "runtime_percentile": 23.529200000000007,
+  "status_memory": "15.6 MB",
+  "memory_percentile": 7.505300000000008,
+  "pretty_lang": "Python",
+  "submission_id": "1695575742",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

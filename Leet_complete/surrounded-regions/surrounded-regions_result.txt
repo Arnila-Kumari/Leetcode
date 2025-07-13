@@ -1,0 +1,47 @@
+Problem: surrounded-regions
+Submission ID: 1695694968
+Submission Time: 2025-07-12 15:08:11
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 16.07 MB
+
+Test Cases: 58/58 passed
+
+Runtime Percentile: 86.6251%
+Memory Percentile: 92.0305%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 16072000,
+  "display_runtime": "6",
+  "question_id": "130",
+  "elapsed_time": 87,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358090077,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 58,
+  "total_testcases": 58,
+  "runtime_percentile": 86.6251,
+  "status_memory": "16.1 MB",
+  "memory_percentile": 92.0305,
+  "pretty_lang": "Python",
+  "submission_id": "1695694968",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

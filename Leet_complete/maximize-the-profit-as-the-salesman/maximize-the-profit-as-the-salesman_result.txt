@@ -1,0 +1,47 @@
+Problem: maximize-the-profit-as-the-salesman
+Submission ID: 1695619121
+Submission Time: 2025-07-12 12:49:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 191 ms
+Memory: 43.54 MB
+
+Test Cases: 435/435 passed
+
+Runtime Percentile: 92.68300000000002%
+Memory Percentile: 14.634300000000007%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "191 ms",
+  "memory": 43544000,
+  "display_runtime": "191",
+  "question_id": "2979",
+  "elapsed_time": 299,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349793634,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 435,
+  "total_testcases": 435,
+  "runtime_percentile": 92.68300000000002,
+  "status_memory": "43.5 MB",
+  "memory_percentile": 14.634300000000007,
+  "pretty_lang": "Python",
+  "submission_id": "1695619121",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

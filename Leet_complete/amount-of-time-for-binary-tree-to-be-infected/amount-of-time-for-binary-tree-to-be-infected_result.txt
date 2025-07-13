@@ -1,0 +1,47 @@
+Problem: amount-of-time-for-binary-tree-to-be-infected
+Submission ID: 1695552370
+Submission Time: 2025-07-12 11:28:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 892 ms
+Memory: 110.14 MB
+
+Test Cases: 80/80 passed
+
+Runtime Percentile: 7.605699999999818%
+Memory Percentile: 69.56519999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "892 ms",
+  "memory": 110136000,
+  "display_runtime": "892",
+  "question_id": "2461",
+  "elapsed_time": 1381,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344918780,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 80,
+  "total_testcases": 80,
+  "runtime_percentile": 7.605699999999818,
+  "status_memory": "110.1 MB",
+  "memory_percentile": 69.56519999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695552370",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

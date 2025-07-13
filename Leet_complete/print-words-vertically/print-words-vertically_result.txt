@@ -1,0 +1,46 @@
+Problem: print-words-vertically
+Submission ID: 1695588964
+Submission Time: 2025-07-12 12:09:41
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 22 ms ms
+Memory: 12.35 MB
+
+Test Cases: 32/32 passed
+
+Runtime Percentile: 5.4055000000000035%
+Memory Percentile: 75.6757%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "22 ms",
+  "memory": 12352000,
+  "question_id": "1449",
+  "elapsed_time": 30,
+  "compare_result": "11111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347380582,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 32,
+  "runtime_percentile": 5.4055000000000035,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 75.6757,
+  "pretty_lang": "Python",
+  "submission_id": "1695588964",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

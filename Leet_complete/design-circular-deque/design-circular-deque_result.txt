@@ -1,0 +1,47 @@
+Problem: design-circular-deque
+Submission ID: 1695689841
+Submission Time: 2025-07-12 14:57:11
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 13.08 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 69.4612%
+Memory Percentile: 31.137800000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 13084000,
+  "display_runtime": "11",
+  "question_id": "859",
+  "elapsed_time": 226,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357431243,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 69.4612,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 31.137800000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695689841",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

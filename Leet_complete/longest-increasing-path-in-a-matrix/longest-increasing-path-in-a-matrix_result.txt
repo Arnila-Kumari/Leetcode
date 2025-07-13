@@ -1,0 +1,47 @@
+Problem: longest-increasing-path-in-a-matrix
+Submission ID: 1695586227
+Submission Time: 2025-07-12 12:06:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 265 ms
+Memory: 12.84 MB
+
+Test Cases: 139/139 passed
+
+Runtime Percentile: 22.745099999999876%
+Memory Percentile: 99.812%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "265 ms",
+  "memory": 12836000,
+  "display_runtime": "265",
+  "question_id": "329",
+  "elapsed_time": 333,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347183485,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 139,
+  "total_testcases": 139,
+  "runtime_percentile": 22.745099999999876,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 99.812,
+  "pretty_lang": "Python",
+  "submission_id": "1695586227",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

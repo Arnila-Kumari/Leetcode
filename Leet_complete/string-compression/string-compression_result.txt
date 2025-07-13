@@ -1,0 +1,47 @@
+Problem: string-compression
+Submission ID: 1695712413
+Submission Time: 2025-07-12 15:49:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.47 MB
+
+Test Cases: 76/76 passed
+
+Runtime Percentile: 36.090900000000005%
+Memory Percentile: 75.9091%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12468000,
+  "display_runtime": "4",
+  "question_id": "443",
+  "elapsed_time": 50,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360541638,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 76,
+  "total_testcases": 76,
+  "runtime_percentile": 36.090900000000005,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 75.9091,
+  "pretty_lang": "Python",
+  "submission_id": "1695712413",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

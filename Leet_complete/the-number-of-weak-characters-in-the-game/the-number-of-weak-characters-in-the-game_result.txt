@@ -1,0 +1,47 @@
+Problem: the-number-of-weak-characters-in-the-game
+Submission ID: 1695712265
+Submission Time: 2025-07-12 15:48:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 357 ms
+Memory: 56.42 MB
+
+Test Cases: 44/44 passed
+
+Runtime Percentile: 92.30770000000001%
+Memory Percentile: 5.128300000000028%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "357 ms",
+  "memory": 56416000,
+  "display_runtime": "357",
+  "question_id": "2123",
+  "elapsed_time": 543,
+  "compare_result": "11111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360517761,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 44,
+  "total_testcases": 44,
+  "runtime_percentile": 92.30770000000001,
+  "status_memory": "56.4 MB",
+  "memory_percentile": 5.128300000000028,
+  "pretty_lang": "Python",
+  "submission_id": "1695712265",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

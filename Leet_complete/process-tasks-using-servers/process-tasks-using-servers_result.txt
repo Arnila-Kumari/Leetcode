@@ -1,0 +1,47 @@
+Problem: process-tasks-using-servers
+Submission ID: 1695589445
+Submission Time: 2025-07-12 12:10:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1168 ms
+Memory: 53.71 MB
+
+Test Cases: 36/36 passed
+
+Runtime Percentile: 67.64680000000006%
+Memory Percentile: 64.70580000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1168 ms",
+  "memory": 53712000,
+  "display_runtime": "1168",
+  "question_id": "2012",
+  "elapsed_time": 1392,
+  "compare_result": "111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347420002,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 36,
+  "total_testcases": 36,
+  "runtime_percentile": 67.64680000000006,
+  "status_memory": "53.7 MB",
+  "memory_percentile": 64.70580000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695589445",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

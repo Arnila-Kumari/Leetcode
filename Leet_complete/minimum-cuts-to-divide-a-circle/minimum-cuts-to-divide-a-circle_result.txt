@@ -1,0 +1,47 @@
+Problem: minimum-cuts-to-divide-a-circle
+Submission ID: 1695739758
+Submission Time: 2025-07-12 17:06:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.42 MB
+
+Test Cases: 100/100 passed
+
+Runtime Percentile: 0%
+Memory Percentile: 44.303799999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12424000,
+  "display_runtime": "3",
+  "question_id": "2575",
+  "elapsed_time": 33,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365211825,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 100,
+  "total_testcases": 100,
+  "runtime_percentile": 0,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 44.303799999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1695739758",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

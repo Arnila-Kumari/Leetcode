@@ -1,0 +1,47 @@
+Problem: maximum-twin-sum-of-a-linked-list
+Submission ID: 1695701702
+Submission Time: 2025-07-12 15:23:32
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 215 ms
+Memory: 71.40 MB
+
+Test Cases: 46/46 passed
+
+Runtime Percentile: 21.113900000000037%
+Memory Percentile: 73.63479999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "215 ms",
+  "memory": 71396000,
+  "display_runtime": "215",
+  "question_id": "2236",
+  "elapsed_time": 1062,
+  "compare_result": "1111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752359008691,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 46,
+  "total_testcases": 46,
+  "runtime_percentile": 21.113900000000037,
+  "status_memory": "71.4 MB",
+  "memory_percentile": 73.63479999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695701702",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

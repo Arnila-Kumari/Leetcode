@@ -1,0 +1,47 @@
+Problem: compare-strings-by-frequency-of-the-smallest-character
+Submission ID: 1695585243
+Submission Time: 2025-07-12 12:05:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 12.91 MB
+
+Test Cases: 37/37 passed
+
+Runtime Percentile: 83.78380000000001%
+Memory Percentile: 29.729800000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 12912000,
+  "display_runtime": "15",
+  "question_id": "1273",
+  "elapsed_time": 44,
+  "compare_result": "1111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347116445,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 37,
+  "total_testcases": 37,
+  "runtime_percentile": 83.78380000000001,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 29.729800000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695585243",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

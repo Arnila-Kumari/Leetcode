@@ -1,0 +1,47 @@
+Problem: linked-list-random-node
+Submission ID: 1695582718
+Submission Time: 2025-07-12 12:02:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 156 ms
+Memory: 16.34 MB
+
+Test Cases: 8/8 passed
+
+Runtime Percentile: 5.342099999999988%
+Memory Percentile: 91.6031%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "156 ms",
+  "memory": 16344000,
+  "display_runtime": "156",
+  "question_id": "382",
+  "elapsed_time": 327,
+  "compare_result": "11111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346937997,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 8,
+  "total_testcases": 8,
+  "runtime_percentile": 5.342099999999988,
+  "status_memory": "16.3 MB",
+  "memory_percentile": 91.6031,
+  "pretty_lang": "Python",
+  "submission_id": "1695582718",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

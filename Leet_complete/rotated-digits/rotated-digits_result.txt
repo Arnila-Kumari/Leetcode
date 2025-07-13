@@ -1,0 +1,47 @@
+Problem: rotated-digits
+Submission ID: 1695688838
+Submission Time: 2025-07-12 14:54:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.35 MB
+
+Test Cases: 50/50 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12352000,
+  "display_runtime": "0",
+  "question_id": "804",
+  "elapsed_time": 35,
+  "compare_result": "11111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357297845,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 50,
+  "total_testcases": 50,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695688838",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: minimum-size-subarray-sum
+Submission ID: 1695697828
+Submission Time: 2025-07-12 15:14:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 19.50 MB
+
+Test Cases: 21/21 passed
+
+Runtime Percentile: 52.67300000000001%
+Memory Percentile: 75.6452%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 19504000,
+  "display_runtime": "15",
+  "question_id": "209",
+  "elapsed_time": 56,
+  "compare_result": "111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358468822,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 21,
+  "total_testcases": 21,
+  "runtime_percentile": 52.67300000000001,
+  "status_memory": "19.5 MB",
+  "memory_percentile": 75.6452,
+  "pretty_lang": "Python",
+  "submission_id": "1695697828",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

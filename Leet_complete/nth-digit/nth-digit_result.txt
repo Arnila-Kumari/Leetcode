@@ -1,0 +1,47 @@
+Problem: nth-digit
+Submission ID: 1695557013
+Submission Time: 2025-07-12 11:33:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.32 MB
+
+Test Cases: 71/71 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 79.1208%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12324000,
+  "display_runtime": "0",
+  "question_id": "400",
+  "elapsed_time": 53,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345188016,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 71,
+  "total_testcases": 71,
+  "runtime_percentile": 100,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 79.1208,
+  "pretty_lang": "Python",
+  "submission_id": "1695557013",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

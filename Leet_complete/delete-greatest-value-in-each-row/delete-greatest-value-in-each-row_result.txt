@@ -1,0 +1,47 @@
+Problem: delete-greatest-value-in-each-row
+Submission ID: 1695689465
+Submission Time: 2025-07-12 14:56:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.59 MB
+
+Test Cases: 55/55 passed
+
+Runtime Percentile: 80.55550000000001%
+Memory Percentile: 46.2963%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12592000,
+  "display_runtime": "7",
+  "question_id": "2585",
+  "elapsed_time": 41,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357384910,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 55,
+  "total_testcases": 55,
+  "runtime_percentile": 80.55550000000001,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 46.2963,
+  "pretty_lang": "Python",
+  "submission_id": "1695689465",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: arithmetic-slices-ii-subsequence
+Submission ID: 1695555401
+Submission Time: 2025-07-12 11:31:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 436 ms
+Memory: 59.66 MB
+
+Test Cases: 101/101 passed
+
+Runtime Percentile: 83.333%
+Memory Percentile: 78.57130000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "436 ms",
+  "memory": 59656000,
+  "display_runtime": "436",
+  "question_id": "446",
+  "elapsed_time": 484,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345084792,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 101,
+  "total_testcases": 101,
+  "runtime_percentile": 83.333,
+  "status_memory": "59.7 MB",
+  "memory_percentile": 78.57130000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695555401",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

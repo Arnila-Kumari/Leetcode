@@ -1,0 +1,47 @@
+Problem: largest-values-from-labels
+Submission ID: 1695576670
+Submission Time: 2025-07-12 11:55:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 27 ms
+Memory: 16.56 MB
+
+Test Cases: 81/81 passed
+
+Runtime Percentile: 41.37909999999999%
+Memory Percentile: 79.31040000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "27 ms",
+  "memory": 16560000,
+  "display_runtime": "27",
+  "question_id": "1169",
+  "elapsed_time": 64,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346504398,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 81,
+  "total_testcases": 81,
+  "runtime_percentile": 41.37909999999999,
+  "status_memory": "16.6 MB",
+  "memory_percentile": 79.31040000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695576670",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

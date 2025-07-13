@@ -1,0 +1,47 @@
+Problem: closest-nodes-queries-in-a-binary-search-tree
+Submission ID: 1695583240
+Submission Time: 2025-07-12 12:02:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 427 ms
+Memory: 112.14 MB
+
+Test Cases: 35/35 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 96.1538%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "427 ms",
+  "memory": 112140000,
+  "display_runtime": "427",
+  "question_id": "2567",
+  "elapsed_time": 1068,
+  "compare_result": "11111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346976092,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 35,
+  "total_testcases": 35,
+  "runtime_percentile": 100,
+  "status_memory": "112.1 MB",
+  "memory_percentile": 96.1538,
+  "pretty_lang": "Python",
+  "submission_id": "1695583240",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: words-within-two-edits-of-dictionary
+Submission ID: 1695675103
+Submission Time: 2025-07-12 14:26:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1894 ms
+Memory: 38.92 MB
+
+Test Cases: 33/33 passed
+
+Runtime Percentile: 9.091%
+Memory Percentile: 9.091000000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1894 ms",
+  "memory": 38924000,
+  "display_runtime": "1894",
+  "question_id": "2550",
+  "elapsed_time": 2014,
+  "compare_result": "111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355594271,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 33,
+  "total_testcases": 33,
+  "runtime_percentile": 9.091,
+  "status_memory": "38.9 MB",
+  "memory_percentile": 9.091000000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695675103",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

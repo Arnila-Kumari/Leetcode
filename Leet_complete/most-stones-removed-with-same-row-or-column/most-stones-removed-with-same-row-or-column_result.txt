@@ -1,0 +1,52 @@
+Problem: most-stones-removed-with-same-row-or-column
+Submission ID: 1695550884
+Submission Time: 2025-07-12 11:27:19
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 40 ms
+Memory: 13.21 MB
+
+Test Cases: 68/69 passed
+
+Last Test Case:
+Input: [[0,0],[2,2],[10000,2]]
+Expected: 1
+
+Code Output: 2
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 13208000,
+  "display_runtime": "40",
+  "question_id": "984",
+  "elapsed_time": 84,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111110",
+  "code_output": "2",
+  "std_output": "",
+  "last_testcase": "[[0,0],[2,2],[10000,2]]",
+  "expected_output": "1",
+  "task_finish_time": 1752344838125,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 68,
+  "total_testcases": 69,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695550884",
+  "input_formatted": "[[0,0],[2,2],[10000,2]]",
+  "input": "[[0,0],[2,2],[10000,2]]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

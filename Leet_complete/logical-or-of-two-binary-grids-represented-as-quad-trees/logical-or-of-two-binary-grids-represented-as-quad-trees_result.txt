@@ -1,0 +1,46 @@
+Problem: logical-or-of-two-binary-grids-represented-as-quad-trees
+Submission ID: 1695582825
+Submission Time: 2025-07-12 12:02:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 51 ms ms
+Memory: 13.34 MB
+
+Test Cases: 61/61 passed
+
+Runtime Percentile: 31.25%
+Memory Percentile: 87.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "51 ms",
+  "memory": 13336000,
+  "question_id": "773",
+  "elapsed_time": 208,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346944898,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 61,
+  "total_testcases": 61,
+  "runtime_percentile": 31.25,
+  "status_memory": "13.3 MB",
+  "memory_percentile": 87.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695582825",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

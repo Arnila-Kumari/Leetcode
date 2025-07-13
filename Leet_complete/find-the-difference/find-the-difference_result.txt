@@ -1,0 +1,47 @@
+Problem: find-the-difference
+Submission ID: 1695739701
+Submission Time: 2025-07-12 17:06:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 12.53 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 36.56980000000001%
+Memory Percentile: 22.52289999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 12528000,
+  "display_runtime": "6",
+  "question_id": "389",
+  "elapsed_time": 37,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365204193,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 36.56980000000001,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 22.52289999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695739701",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

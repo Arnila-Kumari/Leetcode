@@ -1,0 +1,47 @@
+Problem: maximum-score-words-formed-by-letters
+Submission ID: 1695675232
+Submission Time: 2025-07-12 14:26:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 19 ms
+Memory: 12.46 MB
+
+Test Cases: 53/53 passed
+
+Runtime Percentile: 66.6663%
+Memory Percentile: 68.5185%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "19 ms",
+  "memory": 12464000,
+  "display_runtime": "19",
+  "question_id": "1381",
+  "elapsed_time": 53,
+  "compare_result": "11111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355607415,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 53,
+  "total_testcases": 53,
+  "runtime_percentile": 66.6663,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 68.5185,
+  "pretty_lang": "Python",
+  "submission_id": "1695675232",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

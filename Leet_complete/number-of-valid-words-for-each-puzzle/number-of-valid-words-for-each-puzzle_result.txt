@@ -1,0 +1,47 @@
+Problem: number-of-valid-words-for-each-puzzle
+Submission ID: 1695569727
+Submission Time: 2025-07-12 11:47:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 523 ms
+Memory: 37.16 MB
+
+Test Cases: 11/11 passed
+
+Runtime Percentile: 76.47039999999998%
+Memory Percentile: 94.1176%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "523 ms",
+  "memory": 37160000,
+  "display_runtime": "523",
+  "question_id": "1282",
+  "elapsed_time": 625,
+  "compare_result": "11111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346019396,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 11,
+  "total_testcases": 11,
+  "runtime_percentile": 76.47039999999998,
+  "status_memory": "37.2 MB",
+  "memory_percentile": 94.1176,
+  "pretty_lang": "Python",
+  "submission_id": "1695569727",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

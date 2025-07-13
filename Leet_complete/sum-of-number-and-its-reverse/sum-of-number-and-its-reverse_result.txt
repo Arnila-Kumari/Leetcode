@@ -1,0 +1,47 @@
+Problem: sum-of-number-and-its-reverse
+Submission ID: 1695692250
+Submission Time: 2025-07-12 15:02:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.57 MB
+
+Test Cases: 258/258 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 91.17640000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12568000,
+  "display_runtime": "0",
+  "question_id": "2541",
+  "elapsed_time": 36,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357752782,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 258,
+  "total_testcases": 258,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 91.17640000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695692250",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

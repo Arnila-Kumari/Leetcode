@@ -1,0 +1,47 @@
+Problem: take-gifts-from-the-richest-pile
+Submission ID: 1695683557
+Submission Time: 2025-07-12 14:43:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 12.45 MB
+
+Test Cases: 103/103 passed
+
+Runtime Percentile: 72.91659999999999%
+Memory Percentile: 84.375%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 12452000,
+  "display_runtime": "15",
+  "question_id": "2692",
+  "elapsed_time": 50,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356622995,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 103,
+  "total_testcases": 103,
+  "runtime_percentile": 72.91659999999999,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 84.375,
+  "pretty_lang": "Python",
+  "submission_id": "1695683557",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

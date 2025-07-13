@@ -1,0 +1,47 @@
+Problem: maximum-number-of-balls-in-a-box
+Submission ID: 1695628490
+Submission Time: 2025-07-12 13:03:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 973 ms
+Memory: 12.41 MB
+
+Test Cases: 97/97 passed
+
+Runtime Percentile: 44.68199999999997%
+Memory Percentile: 98.9362%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "973 ms",
+  "memory": 12412000,
+  "display_runtime": "973",
+  "question_id": "1844",
+  "elapsed_time": 1009,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350624906,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 97,
+  "total_testcases": 97,
+  "runtime_percentile": 44.68199999999997,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 98.9362,
+  "pretty_lang": "Python",
+  "submission_id": "1695628490",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

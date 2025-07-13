@@ -1,0 +1,47 @@
+Problem: can-you-eat-your-favorite-candy-on-your-favorite-day
+Submission ID: 1695571024
+Submission Time: 2025-07-12 11:48:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 48 ms
+Memory: 50.36 MB
+
+Test Cases: 64/64 passed
+
+Runtime Percentile: 91.6667%
+Memory Percentile: 16.666600000000003%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "48 ms",
+  "memory": 50364000,
+  "display_runtime": "48",
+  "question_id": "1872",
+  "elapsed_time": 196,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346108656,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 64,
+  "total_testcases": 64,
+  "runtime_percentile": 91.6667,
+  "status_memory": "50.4 MB",
+  "memory_percentile": 16.666600000000003,
+  "pretty_lang": "Python",
+  "submission_id": "1695571024",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

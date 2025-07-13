@@ -1,0 +1,46 @@
+Problem: search-a-2d-matrix-ii
+Submission ID: 1695680279
+Submission Time: 2025-07-12 14:37:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 136 ms ms
+Memory: 18.57 MB
+
+Test Cases: 130/130 passed
+
+Runtime Percentile: 14.959600000000023%
+Memory Percentile: 46.17890000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "136 ms",
+  "memory": 18568000,
+  "question_id": "240",
+  "elapsed_time": 148,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356241514,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 130,
+  "total_testcases": 130,
+  "runtime_percentile": 14.959600000000023,
+  "status_memory": "18.6 MB",
+  "memory_percentile": 46.17890000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695680279",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

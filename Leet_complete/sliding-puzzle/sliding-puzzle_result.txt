@@ -1,0 +1,47 @@
+Problem: sliding-puzzle
+Submission ID: 1695701225
+Submission Time: 2025-07-12 15:22:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 18 ms
+Memory: 12.63 MB
+
+Test Cases: 32/32 passed
+
+Runtime Percentile: 26.865899999999975%
+Memory Percentile: 8.955300000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "18 ms",
+  "memory": 12632000,
+  "display_runtime": "18",
+  "question_id": "787",
+  "elapsed_time": 58,
+  "compare_result": "11111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358942685,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 32,
+  "runtime_percentile": 26.865899999999975,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 8.955300000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695701225",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

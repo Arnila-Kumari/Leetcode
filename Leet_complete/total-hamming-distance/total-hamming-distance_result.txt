@@ -1,0 +1,47 @@
+Problem: total-hamming-distance
+Submission ID: 1695684820
+Submission Time: 2025-07-12 14:46:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 226 ms
+Memory: 13.38 MB
+
+Test Cases: 46/46 passed
+
+Runtime Percentile: 19.40379999999988%
+Memory Percentile: 83.5821%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "226 ms",
+  "memory": 13380000,
+  "display_runtime": "226",
+  "question_id": "477",
+  "elapsed_time": 290,
+  "compare_result": "1111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356778634,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 46,
+  "total_testcases": 46,
+  "runtime_percentile": 19.40379999999988,
+  "status_memory": "13.4 MB",
+  "memory_percentile": 83.5821,
+  "pretty_lang": "Python",
+  "submission_id": "1695684820",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

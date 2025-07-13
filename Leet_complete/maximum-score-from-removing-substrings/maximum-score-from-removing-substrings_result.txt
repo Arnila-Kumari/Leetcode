@@ -1,0 +1,47 @@
+Problem: maximum-score-from-removing-substrings
+Submission ID: 1695740739
+Submission Time: 2025-07-12 17:09:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 512 ms
+Memory: 15.10 MB
+
+Test Cases: 77/77 passed
+
+Runtime Percentile: 22.221900000000026%
+Memory Percentile: 22.222000000000016%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "512 ms",
+  "memory": 15100000,
+  "display_runtime": "512",
+  "question_id": "1818",
+  "elapsed_time": 582,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365354387,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 77,
+  "total_testcases": 77,
+  "runtime_percentile": 22.221900000000026,
+  "status_memory": "15.1 MB",
+  "memory_percentile": 22.222000000000016,
+  "pretty_lang": "Python",
+  "submission_id": "1695740739",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

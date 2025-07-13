@@ -1,0 +1,47 @@
+Problem: count-square-sum-triples
+Submission ID: 1695621300
+Submission Time: 2025-07-12 12:53:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 243 ms
+Memory: 12.46 MB
+
+Test Cases: 91/91 passed
+
+Runtime Percentile: 50.684199999999976%
+Memory Percentile: 61.6439%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "243 ms",
+  "memory": 12460000,
+  "display_runtime": "243",
+  "question_id": "2037",
+  "elapsed_time": 284,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349985066,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 91,
+  "total_testcases": 91,
+  "runtime_percentile": 50.684199999999976,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 61.6439,
+  "pretty_lang": "Python",
+  "submission_id": "1695621300",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

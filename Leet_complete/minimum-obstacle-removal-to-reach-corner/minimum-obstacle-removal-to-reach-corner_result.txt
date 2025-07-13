@@ -1,0 +1,47 @@
+Problem: minimum-obstacle-removal-to-reach-corner
+Submission ID: 1695692644
+Submission Time: 2025-07-12 15:03:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2051 ms
+Memory: 42.52 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 29.166099999999965%
+Memory Percentile: 62.50010000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2051 ms",
+  "memory": 42524000,
+  "display_runtime": "2051",
+  "question_id": "2375",
+  "elapsed_time": 2341,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357805908,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 29.166099999999965,
+  "status_memory": "42.5 MB",
+  "memory_percentile": 62.50010000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695692644",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

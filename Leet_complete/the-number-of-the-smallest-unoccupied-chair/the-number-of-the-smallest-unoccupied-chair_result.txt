@@ -1,0 +1,47 @@
+Problem: the-number-of-the-smallest-unoccupied-chair
+Submission ID: 1695740408
+Submission Time: 2025-07-12 17:08:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 147 ms
+Memory: 17.90 MB
+
+Test Cases: 65/65 passed
+
+Runtime Percentile: 68.75%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "147 ms",
+  "memory": 17900000,
+  "display_runtime": "147",
+  "question_id": "2054",
+  "elapsed_time": 200,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365304952,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 65,
+  "total_testcases": 65,
+  "runtime_percentile": 68.75,
+  "status_memory": "17.9 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695740408",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

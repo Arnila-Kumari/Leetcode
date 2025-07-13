@@ -1,0 +1,47 @@
+Problem: shortest-palindrome
+Submission ID: 1695680572
+Submission Time: 2025-07-12 14:37:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 71 ms
+Memory: 16.64 MB
+
+Test Cases: 126/126 passed
+
+Runtime Percentile: 76.77759999999995%
+Memory Percentile: 50.23709999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "71 ms",
+  "memory": 16640000,
+  "display_runtime": "71",
+  "question_id": "214",
+  "elapsed_time": 106,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356277520,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 126,
+  "total_testcases": 126,
+  "runtime_percentile": 76.77759999999995,
+  "status_memory": "16.6 MB",
+  "memory_percentile": 50.23709999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695680572",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

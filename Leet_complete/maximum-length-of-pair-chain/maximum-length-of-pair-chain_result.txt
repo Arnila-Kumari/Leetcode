@@ -1,0 +1,47 @@
+Problem: maximum-length-of-pair-chain
+Submission ID: 1695626811
+Submission Time: 2025-07-12 13:01:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 14 ms
+Memory: 12.77 MB
+
+Test Cases: 206/206 passed
+
+Runtime Percentile: 54.794500000000006%
+Memory Percentile: 29.680400000000013%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "14 ms",
+  "memory": 12772000,
+  "display_runtime": "14",
+  "question_id": "646",
+  "elapsed_time": 62,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350476374,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 206,
+  "total_testcases": 206,
+  "runtime_percentile": 54.794500000000006,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 29.680400000000013,
+  "pretty_lang": "Python",
+  "submission_id": "1695626811",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

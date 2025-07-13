@@ -1,0 +1,47 @@
+Problem: rotate-string
+Submission ID: 1695689662
+Submission Time: 2025-07-12 14:56:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.38 MB
+
+Test Cases: 58/58 passed
+
+Runtime Percentile: 8.977199999999998%
+Memory Percentile: 80.0589%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12380000,
+  "display_runtime": "3",
+  "question_id": "812",
+  "elapsed_time": 36,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357407391,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 58,
+  "total_testcases": 58,
+  "runtime_percentile": 8.977199999999998,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 80.0589,
+  "pretty_lang": "Python",
+  "submission_id": "1695689662",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: count-of-smaller-numbers-after-self
+Submission ID: 1695618073
+Submission Time: 2025-07-12 12:48:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1494 ms
+Memory: 38.56 MB
+
+Test Cases: 66/66 passed
+
+Runtime Percentile: 80.20360000000014%
+Memory Percentile: 59.8993000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1494 ms",
+  "memory": 38564000,
+  "display_runtime": "1494",
+  "question_id": "315",
+  "elapsed_time": 1601,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349696178,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 66,
+  "total_testcases": 66,
+  "runtime_percentile": 80.20360000000014,
+  "status_memory": "38.6 MB",
+  "memory_percentile": 59.8993000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695618073",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

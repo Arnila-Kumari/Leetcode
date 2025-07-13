@@ -1,0 +1,47 @@
+Problem: merge-two-binary-trees
+Submission ID: 1695680757
+Submission Time: 2025-07-12 14:38:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 13.30 MB
+
+Test Cases: 182/182 passed
+
+Runtime Percentile: 55.285900000000005%
+Memory Percentile: 35.181999999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 13300000,
+  "display_runtime": "4",
+  "question_id": "617",
+  "elapsed_time": 64,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356300086,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 182,
+  "total_testcases": 182,
+  "runtime_percentile": 55.285900000000005,
+  "status_memory": "13.3 MB",
+  "memory_percentile": 35.181999999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1695680757",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

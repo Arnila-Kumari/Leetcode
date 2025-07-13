@@ -1,0 +1,47 @@
+Problem: minimum-depth-of-binary-tree
+Submission ID: 1695695283
+Submission Time: 2025-07-12 15:08:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 195 ms
+Memory: 94.59 MB
+
+Test Cases: 53/53 passed
+
+Runtime Percentile: 20.449099999999845%
+Memory Percentile: 58.183199999999914%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "195 ms",
+  "memory": 94588000,
+  "display_runtime": "195",
+  "question_id": "111",
+  "elapsed_time": 707,
+  "compare_result": "11111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358131484,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 53,
+  "total_testcases": 53,
+  "runtime_percentile": 20.449099999999845,
+  "status_memory": "94.6 MB",
+  "memory_percentile": 58.183199999999914,
+  "pretty_lang": "Python",
+  "submission_id": "1695695283",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

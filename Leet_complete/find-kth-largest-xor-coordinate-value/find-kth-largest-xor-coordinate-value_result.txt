@@ -1,0 +1,47 @@
+Problem: find-kth-largest-xor-coordinate-value
+Submission ID: 1695677975
+Submission Time: 2025-07-12 14:32:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1467 ms
+Memory: 33.96 MB
+
+Test Cases: 49/49 passed
+
+Runtime Percentile: 30.55500000000002%
+Memory Percentile: 74.99990000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1467 ms",
+  "memory": 33960000,
+  "display_runtime": "1467",
+  "question_id": "1860",
+  "elapsed_time": 1598,
+  "compare_result": "1111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355949325,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 49,
+  "total_testcases": 49,
+  "runtime_percentile": 30.55500000000002,
+  "status_memory": "34 MB",
+  "memory_percentile": 74.99990000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695677975",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

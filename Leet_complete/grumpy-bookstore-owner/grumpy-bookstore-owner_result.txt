@@ -1,0 +1,47 @@
+Problem: grumpy-bookstore-owner
+Submission ID: 1695556646
+Submission Time: 2025-07-12 11:32:44
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 20 ms
+Memory: 13.94 MB
+
+Test Cases: 78/78 passed
+
+Runtime Percentile: 48.35169999999999%
+Memory Percentile: 90.1099%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "20 ms",
+  "memory": 13944000,
+  "display_runtime": "20",
+  "question_id": "1138",
+  "elapsed_time": 62,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345163626,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 78,
+  "total_testcases": 78,
+  "runtime_percentile": 48.35169999999999,
+  "status_memory": "13.9 MB",
+  "memory_percentile": 90.1099,
+  "pretty_lang": "Python",
+  "submission_id": "1695556646",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

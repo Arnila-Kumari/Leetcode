@@ -1,0 +1,47 @@
+Problem: valid-perfect-square
+Submission ID: 1695689658
+Submission Time: 2025-07-12 14:56:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.52 MB
+
+Test Cases: 71/71 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 12.781599999999997%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12520000,
+  "display_runtime": "0",
+  "question_id": "367",
+  "elapsed_time": 31,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357407179,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 71,
+  "total_testcases": 71,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 12.781599999999997,
+  "pretty_lang": "Python",
+  "submission_id": "1695689658",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

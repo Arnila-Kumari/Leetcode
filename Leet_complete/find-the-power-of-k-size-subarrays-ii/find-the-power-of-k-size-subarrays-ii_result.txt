@@ -1,0 +1,47 @@
+Problem: find-the-power-of-k-size-subarrays-ii
+Submission ID: 1695700167
+Submission Time: 2025-07-12 15:19:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 112 ms
+Memory: 28.85 MB
+
+Test Cases: 653/653 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 80.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "112 ms",
+  "memory": 28848000,
+  "display_runtime": "112",
+  "question_id": "3523",
+  "elapsed_time": 283,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358794233,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 653,
+  "total_testcases": 653,
+  "runtime_percentile": 100,
+  "status_memory": "28.8 MB",
+  "memory_percentile": 80.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695700167",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

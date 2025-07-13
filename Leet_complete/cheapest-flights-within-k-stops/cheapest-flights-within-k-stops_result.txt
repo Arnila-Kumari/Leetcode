@@ -1,0 +1,47 @@
+Problem: cheapest-flights-within-k-stops
+Submission ID: 1695573299
+Submission Time: 2025-07-12 11:51:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 17 ms
+Memory: 14.03 MB
+
+Test Cases: 58/58 passed
+
+Runtime Percentile: 58.011299999999984%
+Memory Percentile: 24.033200000000022%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "17 ms",
+  "memory": 14032000,
+  "display_runtime": "17",
+  "question_id": "803",
+  "elapsed_time": 60,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346265401,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 58,
+  "total_testcases": 58,
+  "runtime_percentile": 58.011299999999984,
+  "status_memory": "14 MB",
+  "memory_percentile": 24.033200000000022,
+  "pretty_lang": "Python",
+  "submission_id": "1695573299",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

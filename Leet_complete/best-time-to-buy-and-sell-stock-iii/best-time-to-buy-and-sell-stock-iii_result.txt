@@ -1,0 +1,47 @@
+Problem: best-time-to-buy-and-sell-stock-iii
+Submission ID: 1695561279
+Submission Time: 2025-07-12 11:37:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 235 ms
+Memory: 20.85 MB
+
+Test Cases: 214/214 passed
+
+Runtime Percentile: 60.891800000000046%
+Memory Percentile: 82.0668%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "235 ms",
+  "memory": 20848000,
+  "display_runtime": "235",
+  "question_id": "123",
+  "elapsed_time": 302,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345457905,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 214,
+  "total_testcases": 214,
+  "runtime_percentile": 60.891800000000046,
+  "status_memory": "20.8 MB",
+  "memory_percentile": 82.0668,
+  "pretty_lang": "Python",
+  "submission_id": "1695561279",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

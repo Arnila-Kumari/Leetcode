@@ -1,0 +1,47 @@
+Problem: counting-words-with-a-given-prefix
+Submission ID: 1695628715
+Submission Time: 2025-07-12 13:04:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.44 MB
+
+Test Cases: 95/95 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 57.806000000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12440000,
+  "display_runtime": "0",
+  "question_id": "2292",
+  "elapsed_time": 34,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350644802,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 95,
+  "total_testcases": 95,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 57.806000000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695628715",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: total-appeal-of-a-string
+Submission ID: 1695709910
+Submission Time: 2025-07-12 15:42:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 171 ms
+Memory: 12.94 MB
+
+Test Cases: 77/77 passed
+
+Runtime Percentile: 30.98489999999993%
+Memory Percentile: 59.1549%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "171 ms",
+  "memory": 12936000,
+  "display_runtime": "171",
+  "question_id": "2340",
+  "elapsed_time": 206,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360174155,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 77,
+  "total_testcases": 77,
+  "runtime_percentile": 30.98489999999993,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 59.1549,
+  "pretty_lang": "Python",
+  "submission_id": "1695709910",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

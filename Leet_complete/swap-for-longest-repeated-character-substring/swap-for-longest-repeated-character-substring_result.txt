@@ -1,0 +1,52 @@
+Problem: swap-for-longest-repeated-character-substring
+Submission ID: 1695708877
+Submission Time: 2025-07-12 15:40:28
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 55 ms
+Memory: 12.53 MB
+
+Test Cases: 58/61 passed
+
+Last Test Case:
+Input: "aabbbcaa"
+Expected: 3
+
+Code Output: 4
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12528000,
+  "display_runtime": "55",
+  "question_id": "1261",
+  "elapsed_time": 87,
+  "compare_result": "1111111011111011111111111111111111111111111111111111111110111",
+  "code_output": "4",
+  "std_output": "",
+  "last_testcase": "\"aabbbcaa\"",
+  "expected_output": "3",
+  "task_finish_time": 1752360026801,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 58,
+  "total_testcases": 61,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695708877",
+  "input_formatted": "\"aabbbcaa\"",
+  "input": "\"aabbbcaa\"",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

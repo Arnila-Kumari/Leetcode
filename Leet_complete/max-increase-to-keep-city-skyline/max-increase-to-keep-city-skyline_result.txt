@@ -1,0 +1,47 @@
+Problem: max-increase-to-keep-city-skyline
+Submission ID: 1695614721
+Submission Time: 2025-07-12 12:43:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.60 MB
+
+Test Cases: 133/133 passed
+
+Runtime Percentile: 68.421%
+Memory Percentile: 3.9472999999999914%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12604000,
+  "display_runtime": "7",
+  "question_id": "825",
+  "elapsed_time": 66,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349403674,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 133,
+  "total_testcases": 133,
+  "runtime_percentile": 68.421,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 3.9472999999999914,
+  "pretty_lang": "Python",
+  "submission_id": "1695614721",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

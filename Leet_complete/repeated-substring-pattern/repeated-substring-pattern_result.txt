@@ -1,0 +1,47 @@
+Problem: repeated-substring-pattern
+Submission ID: 1695709984
+Submission Time: 2025-07-12 15:43:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 81 ms
+Memory: 12.90 MB
+
+Test Cases: 129/129 passed
+
+Runtime Percentile: 22.782999999999962%
+Memory Percentile: 7.628900000000012%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "81 ms",
+  "memory": 12904000,
+  "display_runtime": "81",
+  "question_id": "459",
+  "elapsed_time": 124,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360186098,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 129,
+  "total_testcases": 129,
+  "runtime_percentile": 22.782999999999962,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 7.628900000000012,
+  "pretty_lang": "Python",
+  "submission_id": "1695709984",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

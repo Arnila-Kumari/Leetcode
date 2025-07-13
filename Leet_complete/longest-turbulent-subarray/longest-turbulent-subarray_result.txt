@@ -1,0 +1,52 @@
+Problem: longest-turbulent-subarray
+Submission ID: 1695590296
+Submission Time: 2025-07-12 12:11:25
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 81 ms
+Memory: 14.60 MB
+
+Test Cases: 89/93 passed
+
+Last Test Case:
+Input: [9,9]
+Expected: 1
+
+Code Output: 2
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 14600000,
+  "display_runtime": "81",
+  "question_id": "1020",
+  "elapsed_time": 138,
+  "compare_result": "111011111111101101111111111111101111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "2",
+  "std_output": "",
+  "last_testcase": "[9,9]",
+  "expected_output": "1",
+  "task_finish_time": 1752347483585,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 89,
+  "total_testcases": 93,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695590296",
+  "input_formatted": "[9,9]",
+  "input": "[9,9]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

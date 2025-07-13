@@ -1,0 +1,46 @@
+Problem: all-nodes-distance-k-in-binary-tree
+Submission ID: 1695550285
+Submission Time: 2025-07-12 11:26:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 21 ms ms
+Memory: 12.70 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 61.6718%
+Memory Percentile: 86.1198%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "21 ms",
+  "memory": 12700000,
+  "question_id": "893",
+  "elapsed_time": 44,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344807754,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 61.6718,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 86.1198,
+  "pretty_lang": "Python",
+  "submission_id": "1695550285",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

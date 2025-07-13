@@ -1,0 +1,47 @@
+Problem: find-servers-that-handled-most-number-of-requests
+Submission ID: 1695709281
+Submission Time: 2025-07-12 15:41:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 647 ms
+Memory: 28.57 MB
+
+Test Cases: 108/108 passed
+
+Runtime Percentile: 97.2222%
+Memory Percentile: 69.4444%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "647 ms",
+  "memory": 28572000,
+  "display_runtime": "647",
+  "question_id": "1710",
+  "elapsed_time": 726,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360085882,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 108,
+  "total_testcases": 108,
+  "runtime_percentile": 97.2222,
+  "status_memory": "28.6 MB",
+  "memory_percentile": 69.4444,
+  "pretty_lang": "Python",
+  "submission_id": "1695709281",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

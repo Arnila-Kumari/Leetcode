@@ -1,0 +1,47 @@
+Problem: diameter-of-binary-tree
+Submission ID: 1695686339
+Submission Time: 2025-07-12 14:49:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 20 ms
+Memory: 20.24 MB
+
+Test Cases: 106/106 passed
+
+Runtime Percentile: 6.391199999999982%
+Memory Percentile: 98.45439999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "20 ms",
+  "memory": 20236000,
+  "display_runtime": "20",
+  "question_id": "543",
+  "elapsed_time": 73,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356980817,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 106,
+  "total_testcases": 106,
+  "runtime_percentile": 6.391199999999982,
+  "status_memory": "20.2 MB",
+  "memory_percentile": 98.45439999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1695686339",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

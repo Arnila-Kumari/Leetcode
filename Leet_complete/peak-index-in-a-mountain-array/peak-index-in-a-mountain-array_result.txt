@@ -1,0 +1,47 @@
+Problem: peak-index-in-a-mountain-array
+Submission ID: 1695582933
+Submission Time: 2025-07-12 12:02:34
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 21.69 MB
+
+Test Cases: 44/44 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 59.43139999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 21688000,
+  "display_runtime": "0",
+  "question_id": "882",
+  "elapsed_time": 63,
+  "compare_result": "11111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346953799,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 44,
+  "total_testcases": 44,
+  "runtime_percentile": 100,
+  "status_memory": "21.7 MB",
+  "memory_percentile": 59.43139999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695582933",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

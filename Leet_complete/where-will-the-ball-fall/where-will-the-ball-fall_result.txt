@@ -1,0 +1,47 @@
+Problem: where-will-the-ball-fall
+Submission ID: 1695678729
+Submission Time: 2025-07-12 14:34:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 12.55 MB
+
+Test Cases: 64/64 passed
+
+Runtime Percentile: 49.999800000000015%
+Memory Percentile: 77.7778%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 12552000,
+  "display_runtime": "11",
+  "question_id": "1324",
+  "elapsed_time": 47,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356040365,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 64,
+  "total_testcases": 64,
+  "runtime_percentile": 49.999800000000015,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 77.7778,
+  "pretty_lang": "Python",
+  "submission_id": "1695678729",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

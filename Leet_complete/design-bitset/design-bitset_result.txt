@@ -1,0 +1,47 @@
+Problem: design-bitset
+Submission ID: 1695740807
+Submission Time: 2025-07-12 17:09:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 292 ms
+Memory: 46.06 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 59.99979999999997%
+Memory Percentile: 80.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "292 ms",
+  "memory": 46056000,
+  "display_runtime": "292",
+  "question_id": "2285",
+  "elapsed_time": 2298,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365367978,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 59.99979999999997,
+  "status_memory": "46.1 MB",
+  "memory_percentile": 80.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695740807",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

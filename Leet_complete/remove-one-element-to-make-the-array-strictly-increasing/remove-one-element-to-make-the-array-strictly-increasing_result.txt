@@ -1,0 +1,52 @@
+Problem: remove-one-element-to-make-the-array-strictly-increasing
+Submission ID: 1695677105
+Submission Time: 2025-07-12 14:30:42
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.63 MB
+
+Test Cases: 108/109 passed
+
+Last Test Case:
+Input: [1,4,1,2,3]
+Expected: false
+
+Code Output: true
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12628000,
+  "display_runtime": "0",
+  "question_id": "2020",
+  "elapsed_time": 39,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111011111",
+  "code_output": "true",
+  "std_output": "",
+  "last_testcase": "[1,4,1,2,3]",
+  "expected_output": "false",
+  "task_finish_time": 1752355841110,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 108,
+  "total_testcases": 109,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695677105",
+  "input_formatted": "[1,4,1,2,3]",
+  "input": "[1,4,1,2,3]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

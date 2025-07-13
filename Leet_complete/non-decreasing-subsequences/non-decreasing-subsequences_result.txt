@@ -1,0 +1,47 @@
+Problem: non-decreasing-subsequences
+Submission ID: 1696125708
+Submission Time: 2025-07-13 00:39:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 33 ms
+Memory: 28.42 MB
+
+Test Cases: 58/58 passed
+
+Runtime Percentile: 74.79679999999999%
+Memory Percentile: 33.333600000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "33 ms",
+  "memory": 28420000,
+  "display_runtime": "33",
+  "question_id": "491",
+  "elapsed_time": 85,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752392384936,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 58,
+  "total_testcases": 58,
+  "runtime_percentile": 74.79679999999999,
+  "status_memory": "28.4 MB",
+  "memory_percentile": 33.333600000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1696125708",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

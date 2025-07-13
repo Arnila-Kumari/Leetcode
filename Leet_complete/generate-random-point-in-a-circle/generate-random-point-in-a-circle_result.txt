@@ -1,0 +1,47 @@
+Problem: generate-random-point-in-a-circle
+Submission ID: 1695552758
+Submission Time: 2025-07-12 11:28:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 19 ms
+Memory: 22.60 MB
+
+Test Cases: 8/8 passed
+
+Runtime Percentile: 97.01499999999999%
+Memory Percentile: 17.910499999999985%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "19 ms",
+  "memory": 22596000,
+  "display_runtime": "19",
+  "question_id": "915",
+  "elapsed_time": 255,
+  "compare_result": "11111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344938325,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 8,
+  "total_testcases": 8,
+  "runtime_percentile": 97.01499999999999,
+  "status_memory": "22.6 MB",
+  "memory_percentile": 17.910499999999985,
+  "pretty_lang": "Python",
+  "submission_id": "1695552758",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

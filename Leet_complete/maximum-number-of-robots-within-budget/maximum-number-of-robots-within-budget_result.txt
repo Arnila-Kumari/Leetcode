@@ -1,0 +1,47 @@
+Problem: maximum-number-of-robots-within-budget
+Submission ID: 1695739585
+Submission Time: 2025-07-12 17:06:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 128 ms
+Memory: 17.30 MB
+
+Test Cases: 82/82 passed
+
+Runtime Percentile: 97.6744%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "128 ms",
+  "memory": 17296000,
+  "display_runtime": "128",
+  "question_id": "2449",
+  "elapsed_time": 225,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365186271,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 82,
+  "total_testcases": 82,
+  "runtime_percentile": 97.6744,
+  "status_memory": "17.3 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695739585",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

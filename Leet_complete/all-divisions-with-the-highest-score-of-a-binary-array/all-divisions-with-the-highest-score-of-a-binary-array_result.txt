@@ -1,0 +1,47 @@
+Problem: all-divisions-with-the-highest-score-of-a-binary-array
+Submission ID: 1695549877
+Submission Time: 2025-07-12 11:26:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 368 ms
+Memory: 21.38 MB
+
+Test Cases: 58/58 passed
+
+Runtime Percentile: 60.0%
+Memory Percentile: 95.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "368 ms",
+  "memory": 21376000,
+  "display_runtime": "368",
+  "question_id": "2261",
+  "elapsed_time": 549,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344788938,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 58,
+  "total_testcases": 58,
+  "runtime_percentile": 60.0,
+  "status_memory": "21.4 MB",
+  "memory_percentile": 95.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695549877",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

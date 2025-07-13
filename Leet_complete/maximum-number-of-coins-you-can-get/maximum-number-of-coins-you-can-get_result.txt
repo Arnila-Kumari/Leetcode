@@ -1,0 +1,47 @@
+Problem: maximum-number-of-coins-you-can-get
+Submission ID: 1695628607
+Submission Time: 2025-07-12 13:03:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 104 ms
+Memory: 18.80 MB
+
+Test Cases: 116/116 passed
+
+Runtime Percentile: 67.9689%
+Memory Percentile: 95.3127%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "104 ms",
+  "memory": 18796000,
+  "display_runtime": "104",
+  "question_id": "1683",
+  "elapsed_time": 186,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350634785,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 116,
+  "total_testcases": 116,
+  "runtime_percentile": 67.9689,
+  "status_memory": "18.8 MB",
+  "memory_percentile": 95.3127,
+  "pretty_lang": "Python",
+  "submission_id": "1695628607",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: making-file-names-unique
+Submission ID: 1695595606
+Submission Time: 2025-07-12 12:17:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 146 ms
+Memory: 30.80 MB
+
+Test Cases: 34/34 passed
+
+Runtime Percentile: 25.000200000000014%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "146 ms",
+  "memory": 30796000,
+  "display_runtime": "146",
+  "question_id": "1611",
+  "elapsed_time": 224,
+  "compare_result": "1111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347874621,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 34,
+  "total_testcases": 34,
+  "runtime_percentile": 25.000200000000014,
+  "status_memory": "30.8 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695595606",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

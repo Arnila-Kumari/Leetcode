@@ -1,0 +1,47 @@
+Problem: maximal-rectangle
+Submission ID: 1695615572
+Submission Time: 2025-07-12 12:44:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 58 ms
+Memory: 18.26 MB
+
+Test Cases: 74/74 passed
+
+Runtime Percentile: 43.19729999999998%
+Memory Percentile: 42.68709999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "58 ms",
+  "memory": 18256000,
+  "display_runtime": "58",
+  "question_id": "85",
+  "elapsed_time": 120,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349476391,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 74,
+  "total_testcases": 74,
+  "runtime_percentile": 43.19729999999998,
+  "status_memory": "18.3 MB",
+  "memory_percentile": 42.68709999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695615572",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

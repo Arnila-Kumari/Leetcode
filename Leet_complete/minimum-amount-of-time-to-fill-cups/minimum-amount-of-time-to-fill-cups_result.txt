@@ -1,0 +1,47 @@
+Problem: minimum-amount-of-time-to-fill-cups
+Submission ID: 1695698658
+Submission Time: 2025-07-12 15:16:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.46 MB
+
+Test Cases: 280/280 passed
+
+Runtime Percentile: 45.569700000000005%
+Memory Percentile: 60.7595%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12464000,
+  "display_runtime": "3",
+  "question_id": "2412",
+  "elapsed_time": 34,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358579491,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 280,
+  "total_testcases": 280,
+  "runtime_percentile": 45.569700000000005,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 60.7595,
+  "pretty_lang": "Python",
+  "submission_id": "1695698658",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

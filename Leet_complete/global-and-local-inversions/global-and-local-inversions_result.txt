@@ -1,0 +1,47 @@
+Problem: global-and-local-inversions
+Submission ID: 1695554020
+Submission Time: 2025-07-12 11:30:04
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 23 ms
+Memory: 19.46 MB
+
+Test Cases: 226/226 passed
+
+Runtime Percentile: 74.99990000000001%
+Memory Percentile: 89.2857%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "23 ms",
+  "memory": 19456000,
+  "display_runtime": "23",
+  "question_id": "790",
+  "elapsed_time": 135,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345003553,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 226,
+  "total_testcases": 226,
+  "runtime_percentile": 74.99990000000001,
+  "status_memory": "19.5 MB",
+  "memory_percentile": 89.2857,
+  "pretty_lang": "Python",
+  "submission_id": "1695554020",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

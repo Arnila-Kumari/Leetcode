@@ -1,0 +1,47 @@
+Problem: find-valid-matrix-given-row-and-column-sums
+Submission ID: 1695690174
+Submission Time: 2025-07-12 14:57:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 19 ms
+Memory: 20.98 MB
+
+Test Cases: 85/85 passed
+
+Runtime Percentile: 93.33340000000001%
+Memory Percentile: 86.66680000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "19 ms",
+  "memory": 20980000,
+  "display_runtime": "19",
+  "question_id": "1711",
+  "elapsed_time": 100,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357476449,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 85,
+  "total_testcases": 85,
+  "runtime_percentile": 93.33340000000001,
+  "status_memory": "21 MB",
+  "memory_percentile": 86.66680000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695690174",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: number-of-ways-to-reconstruct-a-tree
+Submission ID: 1695571800
+Submission Time: 2025-07-12 11:49:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 167 ms
+Memory: 45.78 MB
+
+Test Cases: 81/81 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "167 ms",
+  "memory": 45784000,
+  "display_runtime": "167",
+  "question_id": "1820",
+  "elapsed_time": 334,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346161283,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 81,
+  "total_testcases": 81,
+  "runtime_percentile": 100,
+  "status_memory": "45.8 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695571800",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

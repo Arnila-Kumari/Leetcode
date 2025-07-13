@@ -1,0 +1,47 @@
+Problem: minimum-limit-of-balls-in-a-bag
+Submission ID: 1695688134
+Submission Time: 2025-07-12 14:53:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 817 ms
+Memory: 19.63 MB
+
+Test Cases: 60/60 passed
+
+Runtime Percentile: 31.883000000000045%
+Memory Percentile: 94.2029%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "817 ms",
+  "memory": 19632000,
+  "display_runtime": "817",
+  "question_id": "1886",
+  "elapsed_time": 883,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357204789,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 60,
+  "total_testcases": 60,
+  "runtime_percentile": 31.883000000000045,
+  "status_memory": "19.6 MB",
+  "memory_percentile": 94.2029,
+  "pretty_lang": "Python",
+  "submission_id": "1695688134",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

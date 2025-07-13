@@ -1,0 +1,47 @@
+Problem: minimum-number-of-taps-to-open-to-water-a-garden
+Submission ID: 1695691476
+Submission Time: 2025-07-12 15:00:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 27 ms
+Memory: 12.87 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 78.72329999999997%
+Memory Percentile: 95.7447%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "27 ms",
+  "memory": 12872000,
+  "display_runtime": "27",
+  "question_id": "1451",
+  "elapsed_time": 62,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357648360,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 78.72329999999997,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 95.7447,
+  "pretty_lang": "Python",
+  "submission_id": "1695691476",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

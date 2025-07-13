@@ -1,0 +1,47 @@
+Problem: count-integers-in-intervals
+Submission ID: 1695614250
+Submission Time: 2025-07-12 12:42:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 794 ms
+Memory: 46.78 MB
+
+Test Cases: 73/73 passed
+
+Runtime Percentile: 14.285799999999993%
+Memory Percentile: 57.1429%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "794 ms",
+  "memory": 46780000,
+  "display_runtime": "794",
+  "question_id": "2357",
+  "elapsed_time": 3372,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349368212,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 73,
+  "total_testcases": 73,
+  "runtime_percentile": 14.285799999999993,
+  "status_memory": "46.8 MB",
+  "memory_percentile": 57.1429,
+  "pretty_lang": "Python",
+  "submission_id": "1695614250",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

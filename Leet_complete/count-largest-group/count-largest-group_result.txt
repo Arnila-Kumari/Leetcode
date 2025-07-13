@@ -1,0 +1,47 @@
+Problem: count-largest-group
+Submission ID: 1695614859
+Submission Time: 2025-07-12 12:43:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 141 ms
+Memory: 12.53 MB
+
+Test Cases: 75/75 passed
+
+Runtime Percentile: 23.790100000000013%
+Memory Percentile: 91.5322%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "141 ms",
+  "memory": 12528000,
+  "display_runtime": "141",
+  "question_id": "1500",
+  "elapsed_time": 213,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349414827,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 75,
+  "total_testcases": 75,
+  "runtime_percentile": 23.790100000000013,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 91.5322,
+  "pretty_lang": "Python",
+  "submission_id": "1695614859",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

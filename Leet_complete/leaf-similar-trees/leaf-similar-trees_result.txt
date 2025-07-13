@@ -1,0 +1,47 @@
+Problem: leaf-similar-trees
+Submission ID: 1695577947
+Submission Time: 2025-07-12 11:56:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.76 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 2.545400000000008%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12764000,
+  "display_runtime": "0",
+  "question_id": "904",
+  "elapsed_time": 39,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346593335,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 100,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 2.545400000000008,
+  "pretty_lang": "Python",
+  "submission_id": "1695577947",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: last-day-where-you-can-still-cross
+Submission ID: 1695576829
+Submission Time: 2025-07-12 11:55:20
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 779 ms
+Memory: 19.18 MB
+
+Test Cases: 118/118 passed
+
+Runtime Percentile: 95.2381%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "779 ms",
+  "memory": 19180000,
+  "display_runtime": "779",
+  "question_id": "2101",
+  "elapsed_time": 870,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346517060,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 118,
+  "total_testcases": 118,
+  "runtime_percentile": 95.2381,
+  "status_memory": "19.2 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695576829",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

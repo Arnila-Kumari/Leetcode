@@ -1,0 +1,47 @@
+Problem: binary-watch
+Submission ID: 1695565387
+Submission Time: 2025-07-12 11:42:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.50 MB
+
+Test Cases: 11/11 passed
+
+Runtime Percentile: 20.625%
+Memory Percentile: 9.375%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12504000,
+  "display_runtime": "4",
+  "question_id": "401",
+  "elapsed_time": 34,
+  "compare_result": "11111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345734302,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 11,
+  "total_testcases": 11,
+  "runtime_percentile": 20.625,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 9.375,
+  "pretty_lang": "Python",
+  "submission_id": "1695565387",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

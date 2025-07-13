@@ -1,0 +1,47 @@
+Problem: find-good-days-to-rob-the-bank
+Submission ID: 1695696316
+Submission Time: 2025-07-12 15:11:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 137 ms
+Memory: 28.96 MB
+
+Test Cases: 144/144 passed
+
+Runtime Percentile: 37.50049999999997%
+Memory Percentile: 91.0715%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "137 ms",
+  "memory": 28956000,
+  "display_runtime": "137",
+  "question_id": "2205",
+  "elapsed_time": 430,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358278506,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 144,
+  "total_testcases": 144,
+  "runtime_percentile": 37.50049999999997,
+  "status_memory": "29 MB",
+  "memory_percentile": 91.0715,
+  "pretty_lang": "Python",
+  "submission_id": "1695696316",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

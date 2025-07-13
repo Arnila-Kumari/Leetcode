@@ -1,0 +1,47 @@
+Problem: lru-cache
+Submission ID: 1695592515
+Submission Time: 2025-07-12 12:14:11
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 386 ms
+Memory: 77.44 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 29.202899999999957%
+Memory Percentile: 84.06669999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "386 ms",
+  "memory": 77436000,
+  "display_runtime": "386",
+  "question_id": "146",
+  "elapsed_time": 3172,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347650319,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 29.202899999999957,
+  "status_memory": "77.4 MB",
+  "memory_percentile": 84.06669999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695592515",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

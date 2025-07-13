@@ -1,0 +1,47 @@
+Problem: path-with-maximum-gold
+Submission ID: 1695582294
+Submission Time: 2025-07-12 12:01:53
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3603 ms
+Memory: 12.30 MB
+
+Test Cases: 55/55 passed
+
+Runtime Percentile: 63.79200000000009%
+Memory Percentile: 88.79310000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3603 ms",
+  "memory": 12304000,
+  "display_runtime": "3603",
+  "question_id": "1331",
+  "elapsed_time": 3742,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346911877,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 55,
+  "total_testcases": 55,
+  "runtime_percentile": 63.79200000000009,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 88.79310000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695582294",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

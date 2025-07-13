@@ -1,0 +1,47 @@
+Problem: partition-string-into-substrings-with-values-at-most-k
+Submission ID: 1695580232
+Submission Time: 2025-07-12 11:59:23
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 392 ms
+Memory: 12.85 MB
+
+Test Cases: 56/56 passed
+
+Runtime Percentile: 10.0%
+Memory Percentile: 90.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "392 ms",
+  "memory": 12848000,
+  "display_runtime": "392",
+  "question_id": "2511",
+  "elapsed_time": 464,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346761989,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 56,
+  "total_testcases": 56,
+  "runtime_percentile": 10.0,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 90.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695580232",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

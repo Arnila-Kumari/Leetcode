@@ -1,0 +1,47 @@
+Problem: split-array-into-consecutive-subsequences
+Submission ID: 1695709361
+Submission Time: 2025-07-12 15:41:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 13.29 MB
+
+Test Cases: 187/187 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 89.3617%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 13288000,
+  "display_runtime": "4",
+  "question_id": "659",
+  "elapsed_time": 60,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360096529,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 187,
+  "total_testcases": 187,
+  "runtime_percentile": 100,
+  "status_memory": "13.3 MB",
+  "memory_percentile": 89.3617,
+  "pretty_lang": "Python",
+  "submission_id": "1695709361",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

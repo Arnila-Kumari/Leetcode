@@ -1,0 +1,47 @@
+Problem: maximum-sum-of-distinct-subarrays-with-length-k
+Submission ID: 1695687488
+Submission Time: 2025-07-12 14:52:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 143 ms
+Memory: 26.98 MB
+
+Test Cases: 93/93 passed
+
+Runtime Percentile: 54.48299999999994%
+Memory Percentile: 14.827599999999979%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "143 ms",
+  "memory": 26976000,
+  "display_runtime": "143",
+  "question_id": "2552",
+  "elapsed_time": 210,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357120155,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 93,
+  "total_testcases": 93,
+  "runtime_percentile": 54.48299999999994,
+  "status_memory": "27 MB",
+  "memory_percentile": 14.827599999999979,
+  "pretty_lang": "Python",
+  "submission_id": "1695687488",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

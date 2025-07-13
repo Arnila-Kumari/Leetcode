@@ -1,0 +1,47 @@
+Problem: number-of-ways-to-stay-in-the-same-place-after-some-steps
+Submission ID: 1695572637
+Submission Time: 2025-07-12 11:50:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 55 ms
+Memory: 12.54 MB
+
+Test Cases: 33/33 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 46.15390000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "55 ms",
+  "memory": 12536000,
+  "display_runtime": "55",
+  "question_id": "1398",
+  "elapsed_time": 132,
+  "compare_result": "111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346218575,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 33,
+  "total_testcases": 33,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 46.15390000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695572637",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

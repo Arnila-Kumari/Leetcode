@@ -1,0 +1,47 @@
+Problem: minimize-the-difference-between-target-and-chosen-elements
+Submission ID: 1695711723
+Submission Time: 2025-07-12 15:47:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3357 ms
+Memory: 12.68 MB
+
+Test Cases: 81/81 passed
+
+Runtime Percentile: 88.8888%
+Memory Percentile: 72.2222%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3357 ms",
+  "memory": 12676000,
+  "display_runtime": "3357",
+  "question_id": "2108",
+  "elapsed_time": 3425,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360447786,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 81,
+  "total_testcases": 81,
+  "runtime_percentile": 88.8888,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 72.2222,
+  "pretty_lang": "Python",
+  "submission_id": "1695711723",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

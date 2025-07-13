@@ -1,0 +1,47 @@
+Problem: make-array-strictly-increasing
+Submission ID: 1695593981
+Submission Time: 2025-07-12 12:15:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 76 ms
+Memory: 12.79 MB
+
+Test Cases: 22/22 passed
+
+Runtime Percentile: 88.8889%
+Memory Percentile: 77.7778%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "76 ms",
+  "memory": 12788000,
+  "display_runtime": "76",
+  "question_id": "1290",
+  "elapsed_time": 110,
+  "compare_result": "1111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347756653,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 22,
+  "total_testcases": 22,
+  "runtime_percentile": 88.8889,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 77.7778,
+  "pretty_lang": "Python",
+  "submission_id": "1695593981",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

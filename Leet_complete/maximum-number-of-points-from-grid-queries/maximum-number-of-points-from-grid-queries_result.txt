@@ -1,0 +1,47 @@
+Problem: maximum-number-of-points-from-grid-queries
+Submission ID: 1695709761
+Submission Time: 2025-07-12 15:42:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1161 ms
+Memory: 25.54 MB
+
+Test Cases: 22/22 passed
+
+Runtime Percentile: 7.6913000000000125%
+Memory Percentile: 69.2307%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1161 ms",
+  "memory": 25540000,
+  "display_runtime": "1161",
+  "question_id": "2588",
+  "elapsed_time": 1243,
+  "compare_result": "1111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360154439,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 22,
+  "total_testcases": 22,
+  "runtime_percentile": 7.6913000000000125,
+  "status_memory": "25.5 MB",
+  "memory_percentile": 69.2307,
+  "pretty_lang": "Python",
+  "submission_id": "1695709761",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

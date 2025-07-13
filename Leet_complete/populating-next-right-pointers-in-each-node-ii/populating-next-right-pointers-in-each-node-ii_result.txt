@@ -1,0 +1,46 @@
+Problem: populating-next-right-pointers-in-each-node-ii
+Submission ID: 1695585599
+Submission Time: 2025-07-12 12:05:42
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 28 ms ms
+Memory: 14.86 MB
+
+Test Cases: 55/55 passed
+
+Runtime Percentile: 75.76090000000002%
+Memory Percentile: 25.175599999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "28 ms",
+  "memory": 14860000,
+  "question_id": "117",
+  "elapsed_time": 52,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347140278,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 55,
+  "total_testcases": 55,
+  "runtime_percentile": 75.76090000000002,
+  "status_memory": "14.9 MB",
+  "memory_percentile": 25.175599999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695585599",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

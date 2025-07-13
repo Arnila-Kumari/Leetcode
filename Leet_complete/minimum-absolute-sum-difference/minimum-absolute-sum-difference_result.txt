@@ -1,0 +1,47 @@
+Problem: minimum-absolute-sum-difference
+Submission ID: 1695695932
+Submission Time: 2025-07-12 15:10:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 79 ms
+Memory: 21.97 MB
+
+Test Cases: 51/51 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "79 ms",
+  "memory": 21972000,
+  "display_runtime": "79",
+  "question_id": "1946",
+  "elapsed_time": 146,
+  "compare_result": "111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358224374,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 51,
+  "total_testcases": 51,
+  "runtime_percentile": 100,
+  "status_memory": "22 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695695932",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: number-of-ways-to-wear-different-hats-to-each-other
+Submission ID: 1695572815
+Submission Time: 2025-07-12 11:50:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 155 ms
+Memory: 12.53 MB
+
+Test Cases: 65/65 passed
+
+Runtime Percentile: 71.42859999999999%
+Memory Percentile: 71.4286%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "155 ms",
+  "memory": 12528000,
+  "display_runtime": "155",
+  "question_id": "1531",
+  "elapsed_time": 189,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346230961,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 65,
+  "total_testcases": 65,
+  "runtime_percentile": 71.42859999999999,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 71.4286,
+  "pretty_lang": "Python",
+  "submission_id": "1695572815",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

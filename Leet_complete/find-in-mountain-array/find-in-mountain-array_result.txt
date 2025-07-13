@@ -1,0 +1,46 @@
+Problem: find-in-mountain-array
+Submission ID: 1695702562
+Submission Time: 2025-07-12 15:25:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 34 ms ms
+Memory: 13.49 MB
+
+Test Cases: 80/80 passed
+
+Runtime Percentile: 76.8292%
+Memory Percentile: 73.7805%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "34 ms",
+  "memory": 13488000,
+  "question_id": "1185",
+  "elapsed_time": 58,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752359124976,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 80,
+  "total_testcases": 80,
+  "runtime_percentile": 76.8292,
+  "status_memory": "13.5 MB",
+  "memory_percentile": 73.7805,
+  "pretty_lang": "Python",
+  "submission_id": "1695702562",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

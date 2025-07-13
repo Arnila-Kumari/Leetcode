@@ -1,0 +1,47 @@
+Problem: find-k-pairs-with-smallest-sums
+Submission ID: 1695698068
+Submission Time: 2025-07-12 15:15:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 121 ms
+Memory: 26.47 MB
+
+Test Cases: 30/30 passed
+
+Runtime Percentile: 96.49169999999994%
+Memory Percentile: 62.183199999999985%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "121 ms",
+  "memory": 26468000,
+  "display_runtime": "121",
+  "question_id": "373",
+  "elapsed_time": 311,
+  "compare_result": "111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358500779,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 30,
+  "total_testcases": 30,
+  "runtime_percentile": 96.49169999999994,
+  "status_memory": "26.5 MB",
+  "memory_percentile": 62.183199999999985,
+  "pretty_lang": "Python",
+  "submission_id": "1695698068",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

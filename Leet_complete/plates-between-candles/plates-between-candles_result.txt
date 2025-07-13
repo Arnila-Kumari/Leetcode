@@ -1,0 +1,50 @@
+Problem: plates-between-candles
+Submission ID: 1695584996
+Submission Time: 2025-07-12 12:05:00
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 47.00 MB
+
+Test Cases: 27/36 passed
+
+Last Test Case:
+Input: "||*"
+[[2,2]]
+Expected: [0]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 25: KeyError: 3",
+  "full_runtime_error": "KeyError: 3\n    return [max((left[r]-right[l]+1) - (prefix[left[r]]-prefix[right[l]]+1), 0) for l, r in queries]\nLine 25 in platesBetweenCandles (Solution.py)\n    ret = Solution().platesBetweenCandles(param_1, param_2)\nLine 56 in _driver (Solution.py)\n    _driver()\nLine 70 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 47004000,
+  "question_id": "2165",
+  "elapsed_time": 307,
+  "compare_result": "111111111111111111111111111000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "\"||*\"\n[[2,2]]",
+  "expected_output": "[0]",
+  "task_finish_time": 1752347099556,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 27,
+  "total_testcases": 36,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695584996",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

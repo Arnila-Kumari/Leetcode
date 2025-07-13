@@ -1,0 +1,47 @@
+Problem: spiral-matrix-iv
+Submission ID: 1695691341
+Submission Time: 2025-07-12 15:00:34
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 273 ms
+Memory: 101.24 MB
+
+Test Cases: 50/50 passed
+
+Runtime Percentile: 13.63679999999999%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "273 ms",
+  "memory": 101240000,
+  "display_runtime": "273",
+  "question_id": "2411",
+  "elapsed_time": 1133,
+  "compare_result": "11111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357630628,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 50,
+  "total_testcases": 50,
+  "runtime_percentile": 13.63679999999999,
+  "status_memory": "101.2 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695691341",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

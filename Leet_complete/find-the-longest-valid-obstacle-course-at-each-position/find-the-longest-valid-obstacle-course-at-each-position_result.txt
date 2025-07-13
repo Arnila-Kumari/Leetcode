@@ -1,0 +1,47 @@
+Problem: find-the-longest-valid-obstacle-course-at-each-position
+Submission ID: 1695698917
+Submission Time: 2025-07-12 15:16:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 286 ms
+Memory: 30.41 MB
+
+Test Cases: 78/78 passed
+
+Runtime Percentile: 52.63130000000002%
+Memory Percentile: 73.68419999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "286 ms",
+  "memory": 30412000,
+  "display_runtime": "286",
+  "question_id": "2096",
+  "elapsed_time": 456,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358613868,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 78,
+  "total_testcases": 78,
+  "runtime_percentile": 52.63130000000002,
+  "status_memory": "30.4 MB",
+  "memory_percentile": 73.68419999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695698917",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

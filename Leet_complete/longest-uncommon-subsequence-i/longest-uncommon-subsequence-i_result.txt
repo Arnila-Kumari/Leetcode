@@ -1,0 +1,47 @@
+Problem: longest-uncommon-subsequence-i
+Submission ID: 1695590470
+Submission Time: 2025-07-12 12:11:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.36 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 80.8%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12364000,
+  "display_runtime": "0",
+  "question_id": "521",
+  "elapsed_time": 31,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347496969,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 80.8,
+  "pretty_lang": "Python",
+  "submission_id": "1695590470",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

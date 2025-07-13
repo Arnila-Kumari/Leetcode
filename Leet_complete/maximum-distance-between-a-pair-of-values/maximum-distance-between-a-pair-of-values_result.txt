@@ -1,0 +1,47 @@
+Problem: maximum-distance-between-a-pair-of-values
+Submission ID: 1695624170
+Submission Time: 2025-07-12 12:57:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 90 ms
+Memory: 23.97 MB
+
+Test Cases: 32/32 passed
+
+Runtime Percentile: 52.0%
+Memory Percentile: 64.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "90 ms",
+  "memory": 23968000,
+  "display_runtime": "90",
+  "question_id": "1984",
+  "elapsed_time": 187,
+  "compare_result": "11111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350224448,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 32,
+  "runtime_percentile": 52.0,
+  "status_memory": "24 MB",
+  "memory_percentile": 64.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695624170",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

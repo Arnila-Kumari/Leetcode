@@ -1,0 +1,47 @@
+Problem: minimum-operations-to-reduce-x-to-zero
+Submission ID: 1695701491
+Submission Time: 2025-07-12 15:22:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 157 ms
+Memory: 20.24 MB
+
+Test Cases: 97/97 passed
+
+Runtime Percentile: 26.563900000000046%
+Memory Percentile: 79.6875%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "157 ms",
+  "memory": 20244000,
+  "display_runtime": "157",
+  "question_id": "1776",
+  "elapsed_time": 244,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358977003,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 97,
+  "total_testcases": 97,
+  "runtime_percentile": 26.563900000000046,
+  "status_memory": "20.2 MB",
+  "memory_percentile": 79.6875,
+  "pretty_lang": "Python",
+  "submission_id": "1695701491",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

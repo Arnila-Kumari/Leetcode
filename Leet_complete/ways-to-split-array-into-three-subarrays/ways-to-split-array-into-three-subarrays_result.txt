@@ -1,0 +1,47 @@
+Problem: ways-to-split-array-into-three-subarrays
+Submission ID: 1695691250
+Submission Time: 2025-07-12 15:00:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 423 ms
+Memory: 20.36 MB
+
+Test Cases: 89/89 passed
+
+Runtime Percentile: 86.36349999999999%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "423 ms",
+  "memory": 20364000,
+  "display_runtime": "423",
+  "question_id": "1831",
+  "elapsed_time": 509,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357619498,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 89,
+  "total_testcases": 89,
+  "runtime_percentile": 86.36349999999999,
+  "status_memory": "20.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695691250",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

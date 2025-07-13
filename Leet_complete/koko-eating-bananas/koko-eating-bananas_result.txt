@@ -1,0 +1,47 @@
+Problem: koko-eating-bananas
+Submission ID: 1695570818
+Submission Time: 2025-07-12 11:48:14
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 154 ms
+Memory: 13.58 MB
+
+Test Cases: 126/126 passed
+
+Runtime Percentile: 85.28639999999996%
+Memory Percentile: 44.719899999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "154 ms",
+  "memory": 13576000,
+  "display_runtime": "154",
+  "question_id": "907",
+  "elapsed_time": 201,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346093384,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 126,
+  "total_testcases": 126,
+  "runtime_percentile": 85.28639999999996,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 44.719899999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695570818",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

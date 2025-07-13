@@ -1,0 +1,47 @@
+Problem: find-palindrome-with-fixed-length
+Submission ID: 1695691146
+Submission Time: 2025-07-12 15:00:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 191 ms
+Memory: 22.57 MB
+
+Test Cases: 162/162 passed
+
+Runtime Percentile: 14.285300000000017%
+Memory Percentile: 21.42850000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "191 ms",
+  "memory": 22572000,
+  "display_runtime": "191",
+  "question_id": "1375",
+  "elapsed_time": 474,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357607860,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 162,
+  "total_testcases": 162,
+  "runtime_percentile": 14.285300000000017,
+  "status_memory": "22.6 MB",
+  "memory_percentile": 21.42850000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695691146",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

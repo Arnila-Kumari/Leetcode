@@ -1,0 +1,47 @@
+Problem: reorder-data-in-log-files
+Submission ID: 1696125658
+Submission Time: 2025-07-13 00:39:42
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2 ms
+Memory: 12.58 MB
+
+Test Cases: 65/65 passed
+
+Runtime Percentile: 44.3636%
+Memory Percentile: 45.45449999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2 ms",
+  "memory": 12576000,
+  "display_runtime": "2",
+  "question_id": "974",
+  "elapsed_time": 87,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752392380586,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 65,
+  "total_testcases": 65,
+  "runtime_percentile": 44.3636,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 45.45449999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1696125658",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

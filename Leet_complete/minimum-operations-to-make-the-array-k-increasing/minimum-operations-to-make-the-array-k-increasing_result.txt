@@ -1,0 +1,47 @@
+Problem: minimum-operations-to-make-the-array-k-increasing
+Submission ID: 1695709604
+Submission Time: 2025-07-12 15:42:14
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 314 ms
+Memory: 21.30 MB
+
+Test Cases: 90/90 passed
+
+Runtime Percentile: 33.33339999999999%
+Memory Percentile: 33.33339999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "314 ms",
+  "memory": 21296000,
+  "display_runtime": "314",
+  "question_id": "2234",
+  "elapsed_time": 383,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360132332,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 90,
+  "total_testcases": 90,
+  "runtime_percentile": 33.33339999999999,
+  "status_memory": "21.3 MB",
+  "memory_percentile": 33.33339999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695709604",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,46 @@
+Problem: largest-color-value-in-a-directed-graph
+Submission ID: 1695573128
+Submission Time: 2025-07-12 11:50:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2021 ms ms
+Memory: 80.84 MB
+
+Test Cases: 84/84 passed
+
+Runtime Percentile: 86.76600000000035%
+Memory Percentile: 98.54570000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2021 ms",
+  "memory": 80836000,
+  "question_id": "1986",
+  "elapsed_time": 2141,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346256031,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 84,
+  "total_testcases": 84,
+  "runtime_percentile": 86.76600000000035,
+  "status_memory": "80.8 MB",
+  "memory_percentile": 98.54570000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695573128",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

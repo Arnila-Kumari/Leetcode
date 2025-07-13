@@ -1,0 +1,47 @@
+Problem: erect-the-fence
+Submission ID: 1695691904
+Submission Time: 2025-07-12 15:01:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 55 ms
+Memory: 12.98 MB
+
+Test Cases: 88/88 passed
+
+Runtime Percentile: 33.33340000000001%
+Memory Percentile: 42.857200000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "55 ms",
+  "memory": 12980000,
+  "display_runtime": "55",
+  "question_id": "587",
+  "elapsed_time": 102,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357706807,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 88,
+  "total_testcases": 88,
+  "runtime_percentile": 33.33340000000001,
+  "status_memory": "13 MB",
+  "memory_percentile": 42.857200000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695691904",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

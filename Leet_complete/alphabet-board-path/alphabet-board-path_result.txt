@@ -1,0 +1,46 @@
+Problem: alphabet-board-path
+Submission ID: 1695551214
+Submission Time: 2025-07-12 11:27:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 14 ms ms
+Memory: 12.30 MB
+
+Test Cases: 61/61 passed
+
+Runtime Percentile: 90.4762%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "14 ms",
+  "memory": 12300000,
+  "question_id": "1238",
+  "elapsed_time": 39,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344856925,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 61,
+  "total_testcases": 61,
+  "runtime_percentile": 90.4762,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695551214",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

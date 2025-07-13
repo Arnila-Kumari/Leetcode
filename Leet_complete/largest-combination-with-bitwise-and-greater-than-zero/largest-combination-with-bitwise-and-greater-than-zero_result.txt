@@ -1,0 +1,47 @@
+Problem: largest-combination-with-bitwise-and-greater-than-zero
+Submission ID: 1695573278
+Submission Time: 2025-07-12 11:51:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 476 ms
+Memory: 18.72 MB
+
+Test Cases: 80/80 passed
+
+Runtime Percentile: 88.23519999999999%
+Memory Percentile: 47.0588%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "476 ms",
+  "memory": 18716000,
+  "display_runtime": "476",
+  "question_id": "2356",
+  "elapsed_time": 548,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346264062,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 80,
+  "total_testcases": 80,
+  "runtime_percentile": 88.23519999999999,
+  "status_memory": "18.7 MB",
+  "memory_percentile": 47.0588,
+  "pretty_lang": "Python",
+  "submission_id": "1695573278",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

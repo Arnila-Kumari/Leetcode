@@ -1,0 +1,47 @@
+Problem: maximum-length-of-a-concatenated-string-with-unique-characters
+Submission ID: 1695626675
+Submission Time: 2025-07-12 13:01:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 39 ms
+Memory: 14.15 MB
+
+Test Cases: 89/89 passed
+
+Runtime Percentile: 98.5294%
+Memory Percentile: 14.705899999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "39 ms",
+  "memory": 14152000,
+  "display_runtime": "39",
+  "question_id": "1360",
+  "elapsed_time": 71,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350464131,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 89,
+  "total_testcases": 89,
+  "runtime_percentile": 98.5294,
+  "status_memory": "14.2 MB",
+  "memory_percentile": 14.705899999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695626675",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

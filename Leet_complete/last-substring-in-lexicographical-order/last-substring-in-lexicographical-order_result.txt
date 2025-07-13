@@ -1,0 +1,47 @@
+Problem: last-substring-in-lexicographical-order
+Submission ID: 1695577370
+Submission Time: 2025-07-12 11:55:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 203 ms
+Memory: 16.14 MB
+
+Test Cases: 36/36 passed
+
+Runtime Percentile: 34.2861%
+Memory Percentile: 74.2858%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "203 ms",
+  "memory": 16136000,
+  "display_runtime": "203",
+  "question_id": "1133",
+  "elapsed_time": 282,
+  "compare_result": "111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346554565,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 36,
+  "total_testcases": 36,
+  "runtime_percentile": 34.2861,
+  "status_memory": "16.1 MB",
+  "memory_percentile": 74.2858,
+  "pretty_lang": "Python",
+  "submission_id": "1695577370",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

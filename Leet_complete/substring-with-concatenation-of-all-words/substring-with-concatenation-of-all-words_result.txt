@@ -1,0 +1,47 @@
+Problem: substring-with-concatenation-of-all-words
+Submission ID: 1695692569
+Submission Time: 2025-07-12 15:03:14
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 23 ms
+Memory: 13.19 MB
+
+Test Cases: 182/182 passed
+
+Runtime Percentile: 94.71009999999997%
+Memory Percentile: 68.1884%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "23 ms",
+  "memory": 13188000,
+  "display_runtime": "23",
+  "question_id": "30",
+  "elapsed_time": 62,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357793347,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 182,
+  "total_testcases": 182,
+  "runtime_percentile": 94.71009999999997,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 68.1884,
+  "pretty_lang": "Python",
+  "submission_id": "1695692569",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: product-of-the-last-k-numbers
+Submission ID: 1695589715
+Submission Time: 2025-07-12 12:10:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 87 ms
+Memory: 28.79 MB
+
+Test Cases: 35/35 passed
+
+Runtime Percentile: 48.27489999999993%
+Memory Percentile: 74.4827%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "87 ms",
+  "memory": 28788000,
+  "display_runtime": "87",
+  "question_id": "1477",
+  "elapsed_time": 1243,
+  "compare_result": "11111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347440066,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 35,
+  "total_testcases": 35,
+  "runtime_percentile": 48.27489999999993,
+  "status_memory": "28.8 MB",
+  "memory_percentile": 74.4827,
+  "pretty_lang": "Python",
+  "submission_id": "1695589715",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

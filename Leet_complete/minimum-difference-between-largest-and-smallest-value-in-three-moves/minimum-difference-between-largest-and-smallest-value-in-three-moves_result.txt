@@ -1,0 +1,47 @@
+Problem: minimum-difference-between-largest-and-smallest-value-in-three-moves
+Submission ID: 1695680919
+Submission Time: 2025-07-12 14:38:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 148 ms
+Memory: 19.29 MB
+
+Test Cases: 73/73 passed
+
+Runtime Percentile: 6.5218999999999845%
+Memory Percentile: 34.7826%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "148 ms",
+  "memory": 19292000,
+  "display_runtime": "148",
+  "question_id": "1616",
+  "elapsed_time": 206,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356316808,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 73,
+  "total_testcases": 73,
+  "runtime_percentile": 6.5218999999999845,
+  "status_memory": "19.3 MB",
+  "memory_percentile": 34.7826,
+  "pretty_lang": "Python",
+  "submission_id": "1695680919",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

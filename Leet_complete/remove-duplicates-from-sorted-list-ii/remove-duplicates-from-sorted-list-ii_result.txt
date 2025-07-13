@@ -1,0 +1,47 @@
+Problem: remove-duplicates-from-sorted-list-ii
+Submission ID: 1695698506
+Submission Time: 2025-07-12 15:15:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.55 MB
+
+Test Cases: 166/166 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 51.101000000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12548000,
+  "display_runtime": "0",
+  "question_id": "82",
+  "elapsed_time": 40,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358556029,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 166,
+  "total_testcases": 166,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 51.101000000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695698506",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

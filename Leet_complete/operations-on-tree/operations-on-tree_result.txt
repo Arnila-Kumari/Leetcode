@@ -1,0 +1,47 @@
+Problem: operations-on-tree
+Submission ID: 1695575016
+Submission Time: 2025-07-12 11:53:12
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 767 ms
+Memory: 13.94 MB
+
+Test Cases: 151/151 passed
+
+Runtime Percentile: 76.47039999999998%
+Memory Percentile: 94.1176%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "767 ms",
+  "memory": 13936000,
+  "display_runtime": "767",
+  "question_id": "2104",
+  "elapsed_time": 2952,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346391183,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 151,
+  "total_testcases": 151,
+  "runtime_percentile": 76.47039999999998,
+  "status_memory": "13.9 MB",
+  "memory_percentile": 94.1176,
+  "pretty_lang": "Python",
+  "submission_id": "1695575016",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

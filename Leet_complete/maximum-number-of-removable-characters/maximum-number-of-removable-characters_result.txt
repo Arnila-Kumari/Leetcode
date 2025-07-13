@@ -1,0 +1,47 @@
+Problem: maximum-number-of-removable-characters
+Submission ID: 1695686889
+Submission Time: 2025-07-12 14:50:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1449 ms
+Memory: 25.83 MB
+
+Test Cases: 67/67 passed
+
+Runtime Percentile: 96.5517%
+Memory Percentile: 86.20679999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1449 ms",
+  "memory": 25832000,
+  "display_runtime": "1449",
+  "question_id": "2027",
+  "elapsed_time": 1608,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357048652,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 67,
+  "total_testcases": 67,
+  "runtime_percentile": 96.5517,
+  "status_memory": "25.8 MB",
+  "memory_percentile": 86.20679999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695686889",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

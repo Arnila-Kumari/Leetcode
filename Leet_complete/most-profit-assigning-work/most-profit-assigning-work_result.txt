@@ -1,0 +1,47 @@
+Problem: most-profit-assigning-work
+Submission ID: 1695550491
+Submission Time: 2025-07-12 11:26:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 49 ms
+Memory: 14.90 MB
+
+Test Cases: 60/60 passed
+
+Runtime Percentile: 81.08100000000002%
+Memory Percentile: 64.8647%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "49 ms",
+  "memory": 14896000,
+  "display_runtime": "49",
+  "question_id": "853",
+  "elapsed_time": 109,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344818061,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 60,
+  "total_testcases": 60,
+  "runtime_percentile": 81.08100000000002,
+  "status_memory": "14.9 MB",
+  "memory_percentile": 64.8647,
+  "pretty_lang": "Python",
+  "submission_id": "1695550491",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

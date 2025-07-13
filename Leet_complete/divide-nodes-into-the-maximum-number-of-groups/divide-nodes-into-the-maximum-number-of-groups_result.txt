@@ -1,0 +1,47 @@
+Problem: divide-nodes-into-the-maximum-number-of-groups
+Submission ID: 1695684540
+Submission Time: 2025-07-12 14:45:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 823 ms
+Memory: 14.51 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 92.45280000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "823 ms",
+  "memory": 14508000,
+  "display_runtime": "823",
+  "question_id": "2583",
+  "elapsed_time": 879,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356744826,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 100,
+  "status_memory": "14.5 MB",
+  "memory_percentile": 92.45280000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695684540",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

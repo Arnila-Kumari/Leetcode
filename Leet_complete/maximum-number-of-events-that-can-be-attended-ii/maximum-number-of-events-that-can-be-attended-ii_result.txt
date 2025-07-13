@@ -1,0 +1,47 @@
+Problem: maximum-number-of-events-that-can-be-attended-ii
+Submission ID: 1695629170
+Submission Time: 2025-07-12 13:04:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 958 ms
+Memory: 76.14 MB
+
+Test Cases: 70/70 passed
+
+Runtime Percentile: 76.73509999999979%
+Memory Percentile: 69.00259999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "958 ms",
+  "memory": 76144000,
+  "display_runtime": "958",
+  "question_id": "1851",
+  "elapsed_time": 1153,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350687351,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 70,
+  "total_testcases": 70,
+  "runtime_percentile": 76.73509999999979,
+  "status_memory": "76.1 MB",
+  "memory_percentile": 69.00259999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1695629170",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

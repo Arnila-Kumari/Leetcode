@@ -1,0 +1,47 @@
+Problem: all-paths-from-source-to-target
+Submission ID: 1695550645
+Submission Time: 2025-07-12 11:27:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 9 ms
+Memory: 15.84 MB
+
+Test Cases: 30/30 passed
+
+Runtime Percentile: 57.88429999999998%
+Memory Percentile: 72.2556%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "9 ms",
+  "memory": 15840000,
+  "display_runtime": "9",
+  "question_id": "813",
+  "elapsed_time": 61,
+  "compare_result": "111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344826001,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 30,
+  "total_testcases": 30,
+  "runtime_percentile": 57.88429999999998,
+  "status_memory": "15.8 MB",
+  "memory_percentile": 72.2556,
+  "pretty_lang": "Python",
+  "submission_id": "1695550645",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: flip-equivalent-binary-trees
+Submission ID: 1695547029
+Submission Time: 2025-07-12 11:23:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.62 MB
+
+Test Cases: 81/81 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 23.880599999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12624000,
+  "display_runtime": "0",
+  "question_id": "988",
+  "elapsed_time": 41,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344627234,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 81,
+  "total_testcases": 81,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 23.880599999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1695547029",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

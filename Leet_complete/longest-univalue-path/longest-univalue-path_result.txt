@@ -1,0 +1,47 @@
+Problem: longest-univalue-path
+Submission ID: 1695590963
+Submission Time: 2025-07-12 12:12:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 127 ms
+Memory: 19.65 MB
+
+Test Cases: 71/71 passed
+
+Runtime Percentile: 61.53840000000005%
+Memory Percentile: 54.61550000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "127 ms",
+  "memory": 19648000,
+  "display_runtime": "127",
+  "question_id": "687",
+  "elapsed_time": 337,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347533929,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 71,
+  "total_testcases": 71,
+  "runtime_percentile": 61.53840000000005,
+  "status_memory": "19.6 MB",
+  "memory_percentile": 54.61550000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695590963",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

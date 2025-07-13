@@ -1,0 +1,47 @@
+Problem: maximum-subarray
+Submission ID: 1695708930
+Submission Time: 2025-07-12 15:40:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 89 ms
+Memory: 22.17 MB
+
+Test Cases: 210/210 passed
+
+Runtime Percentile: 43.817200000000014%
+Memory Percentile: 7.191700000000011%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "89 ms",
+  "memory": 22172000,
+  "display_runtime": "89",
+  "question_id": "53",
+  "elapsed_time": 282,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360035267,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 210,
+  "total_testcases": 210,
+  "runtime_percentile": 43.817200000000014,
+  "status_memory": "22.2 MB",
+  "memory_percentile": 7.191700000000011,
+  "pretty_lang": "Python",
+  "submission_id": "1695708930",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

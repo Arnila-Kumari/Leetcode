@@ -1,0 +1,47 @@
+Problem: find-the-winner-of-an-array-game
+Submission ID: 1695740699
+Submission Time: 2025-07-12 17:09:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 16 ms
+Memory: 20.06 MB
+
+Test Cases: 185/185 passed
+
+Runtime Percentile: 85.18520000000001%
+Memory Percentile: 66.66670000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "16 ms",
+  "memory": 20064000,
+  "display_runtime": "16",
+  "question_id": "1657",
+  "elapsed_time": 77,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365347709,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 185,
+  "total_testcases": 185,
+  "runtime_percentile": 85.18520000000001,
+  "status_memory": "20.1 MB",
+  "memory_percentile": 66.66670000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695740699",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

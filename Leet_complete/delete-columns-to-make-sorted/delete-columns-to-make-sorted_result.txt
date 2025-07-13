@@ -1,0 +1,47 @@
+Problem: delete-columns-to-make-sorted
+Submission ID: 1695683652
+Submission Time: 2025-07-12 14:43:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 75 ms
+Memory: 13.10 MB
+
+Test Cases: 86/86 passed
+
+Runtime Percentile: 86.13159999999998%
+Memory Percentile: 35.766400000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "75 ms",
+  "memory": 13096000,
+  "display_runtime": "75",
+  "question_id": "981",
+  "elapsed_time": 128,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356635121,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 86,
+  "total_testcases": 86,
+  "runtime_percentile": 86.13159999999998,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 35.766400000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695683652",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

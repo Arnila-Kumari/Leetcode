@@ -1,0 +1,50 @@
+Problem: shortest-unsorted-continuous-subarray
+Submission ID: 1695739709
+Submission Time: 2025-07-12 17:06:46
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 39 ms
+Memory: 13.54 MB
+
+Test Cases: 0/307 passed
+
+Last Test Case:
+Input: [2,6,4,8,10,9,15]
+Expected: 5
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 13536000,
+  "display_runtime": "39",
+  "question_id": "581",
+  "elapsed_time": 81,
+  "compare_result": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "code_output": "null",
+  "std_output": "",
+  "last_testcase": "[2,6,4,8,10,9,15]",
+  "expected_output": "5",
+  "task_finish_time": 1752365205299,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 307,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695739709",
+  "input_formatted": "[2,6,4,8,10,9,15]",
+  "input": "[2,6,4,8,10,9,15]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

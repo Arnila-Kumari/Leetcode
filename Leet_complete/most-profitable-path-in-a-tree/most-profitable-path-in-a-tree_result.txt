@@ -1,0 +1,47 @@
+Problem: most-profitable-path-in-a-tree
+Submission ID: 1695550753
+Submission Time: 2025-07-12 11:27:14
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 686 ms
+Memory: 83.23 MB
+
+Test Cases: 31/31 passed
+
+Runtime Percentile: 16.666000000000025%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "686 ms",
+  "memory": 83232000,
+  "display_runtime": "686",
+  "question_id": "2564",
+  "elapsed_time": 870,
+  "compare_result": "1111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344831757,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 31,
+  "total_testcases": 31,
+  "runtime_percentile": 16.666000000000025,
+  "status_memory": "83.2 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695550753",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

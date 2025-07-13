@@ -1,0 +1,47 @@
+Problem: longest-arithmetic-subsequence
+Submission ID: 1696125664
+Submission Time: 2025-07-13 00:39:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 5471 ms
+Memory: 107.80 MB
+
+Test Cases: 65/65 passed
+
+Runtime Percentile: 6.025599999999875%
+Memory Percentile: 6.024599999999944%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "5471 ms",
+  "memory": 107804000,
+  "display_runtime": "5471",
+  "question_id": "1087",
+  "elapsed_time": 5642,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752392386775,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 65,
+  "total_testcases": 65,
+  "runtime_percentile": 6.025599999999875,
+  "status_memory": "107.8 MB",
+  "memory_percentile": 6.024599999999944,
+  "pretty_lang": "Python",
+  "submission_id": "1696125664",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

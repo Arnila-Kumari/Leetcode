@@ -1,0 +1,47 @@
+Problem: largest-sum-of-averages
+Submission ID: 1695576269
+Submission Time: 2025-07-12 11:54:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 203 ms
+Memory: 12.48 MB
+
+Test Cases: 51/51 passed
+
+Runtime Percentile: 65.0%
+Memory Percentile: 80.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "203 ms",
+  "memory": 12476000,
+  "display_runtime": "203",
+  "question_id": "831",
+  "elapsed_time": 244,
+  "compare_result": "111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346475307,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 51,
+  "total_testcases": 51,
+  "runtime_percentile": 65.0,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 80.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695576269",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

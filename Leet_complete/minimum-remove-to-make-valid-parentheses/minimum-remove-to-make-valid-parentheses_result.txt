@@ -1,0 +1,47 @@
+Problem: minimum-remove-to-make-valid-parentheses
+Submission ID: 1695676906
+Submission Time: 2025-07-12 14:30:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 43 ms
+Memory: 13.86 MB
+
+Test Cases: 62/62 passed
+
+Runtime Percentile: 99.2979%
+Memory Percentile: 90.7303%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "43 ms",
+  "memory": 13864000,
+  "display_runtime": "43",
+  "question_id": "1371",
+  "elapsed_time": 75,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355814571,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 62,
+  "total_testcases": 62,
+  "runtime_percentile": 99.2979,
+  "status_memory": "13.9 MB",
+  "memory_percentile": 90.7303,
+  "pretty_lang": "Python",
+  "submission_id": "1695676906",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

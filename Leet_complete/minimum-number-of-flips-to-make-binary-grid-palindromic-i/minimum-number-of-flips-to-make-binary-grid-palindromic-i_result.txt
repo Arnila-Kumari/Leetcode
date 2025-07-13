@@ -1,0 +1,47 @@
+Problem: minimum-number-of-flips-to-make-binary-grid-palindromic-i
+Submission ID: 1695694739
+Submission Time: 2025-07-12 15:07:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 367 ms
+Memory: 54.16 MB
+
+Test Cases: 625/625 passed
+
+Runtime Percentile: 30.0%
+Memory Percentile: 90.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "367 ms",
+  "memory": 54156000,
+  "display_runtime": "367",
+  "question_id": "3526",
+  "elapsed_time": 559,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358063467,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 625,
+  "total_testcases": 625,
+  "runtime_percentile": 30.0,
+  "status_memory": "54.2 MB",
+  "memory_percentile": 90.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695694739",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

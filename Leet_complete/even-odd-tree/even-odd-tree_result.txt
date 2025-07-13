@@ -1,0 +1,47 @@
+Problem: even-odd-tree
+Submission ID: 1695711635
+Submission Time: 2025-07-12 15:47:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 59 ms
+Memory: 66.89 MB
+
+Test Cases: 107/107 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 34.9514%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "59 ms",
+  "memory": 66888000,
+  "display_runtime": "59",
+  "question_id": "1731",
+  "elapsed_time": 446,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360434124,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 107,
+  "total_testcases": 107,
+  "runtime_percentile": 100,
+  "status_memory": "66.9 MB",
+  "memory_percentile": 34.9514,
+  "pretty_lang": "Python",
+  "submission_id": "1695711635",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

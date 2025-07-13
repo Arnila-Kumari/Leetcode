@@ -1,0 +1,47 @@
+Problem: iterator-for-combination
+Submission ID: 1695566411
+Submission Time: 2025-07-12 11:43:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 28 ms
+Memory: 14.40 MB
+
+Test Cases: 18/18 passed
+
+Runtime Percentile: 26.190100000000022%
+Memory Percentile: 83.33330000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "28 ms",
+  "memory": 14404000,
+  "display_runtime": "28",
+  "question_id": "1211",
+  "elapsed_time": 134,
+  "compare_result": "111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345803831,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 18,
+  "total_testcases": 18,
+  "runtime_percentile": 26.190100000000022,
+  "status_memory": "14.4 MB",
+  "memory_percentile": 83.33330000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695566411",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

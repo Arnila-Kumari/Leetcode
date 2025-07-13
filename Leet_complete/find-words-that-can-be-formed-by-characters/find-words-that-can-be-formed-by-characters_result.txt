@@ -1,0 +1,47 @@
+Problem: find-words-that-can-be-formed-by-characters
+Submission ID: 1695680707
+Submission Time: 2025-07-12 14:38:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 67 ms
+Memory: 12.91 MB
+
+Test Cases: 36/36 passed
+
+Runtime Percentile: 78.44779999999994%
+Memory Percentile: 22.126400000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "67 ms",
+  "memory": 12912000,
+  "display_runtime": "67",
+  "question_id": "1112",
+  "elapsed_time": 102,
+  "compare_result": "111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356294736,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 36,
+  "total_testcases": 36,
+  "runtime_percentile": 78.44779999999994,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 22.126400000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695680707",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

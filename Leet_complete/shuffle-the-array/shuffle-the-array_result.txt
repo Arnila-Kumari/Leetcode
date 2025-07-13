@@ -1,0 +1,46 @@
+Problem: shuffle-the-array
+Submission ID: 1695710722
+Submission Time: 2025-07-12 15:44:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 31 ms ms
+Memory: 12.68 MB
+
+Test Cases: 53/53 passed
+
+Runtime Percentile: 97.1611%
+Memory Percentile: 43.04020000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "31 ms",
+  "memory": 12684000,
+  "question_id": "1580",
+  "elapsed_time": 60,
+  "compare_result": "11111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360296990,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 53,
+  "total_testcases": 53,
+  "runtime_percentile": 97.1611,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 43.04020000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695710722",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: reveal-cards-in-increasing-order
+Submission ID: 1695695849
+Submission Time: 2025-07-12 15:10:13
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.72 MB
+
+Test Cases: 33/33 passed
+
+Runtime Percentile: 58.2279%
+Memory Percentile: 4.4302999999999955%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12716000,
+  "display_runtime": "3",
+  "question_id": "987",
+  "elapsed_time": 37,
+  "compare_result": "111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358212249,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 33,
+  "total_testcases": 33,
+  "runtime_percentile": 58.2279,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 4.4302999999999955,
+  "pretty_lang": "Python",
+  "submission_id": "1695695849",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

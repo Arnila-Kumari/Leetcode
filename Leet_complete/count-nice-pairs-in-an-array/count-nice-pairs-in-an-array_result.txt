@@ -1,0 +1,47 @@
+Problem: count-nice-pairs-in-an-array
+Submission ID: 1695615346
+Submission Time: 2025-07-12 12:44:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 637 ms
+Memory: 20.79 MB
+
+Test Cases: 84/84 passed
+
+Runtime Percentile: 10.637099999999958%
+Memory Percentile: 97.8723%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "637 ms",
+  "memory": 20792000,
+  "display_runtime": "637",
+  "question_id": "1925",
+  "elapsed_time": 825,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349456310,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 84,
+  "total_testcases": 84,
+  "runtime_percentile": 10.637099999999958,
+  "status_memory": "20.8 MB",
+  "memory_percentile": 97.8723,
+  "pretty_lang": "Python",
+  "submission_id": "1695615346",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: maximum-gap
+Submission ID: 1695625826
+Submission Time: 2025-07-12 12:59:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 928 ms
+Memory: 54.69 MB
+
+Test Cases: 44/44 passed
+
+Runtime Percentile: 7.06270000000012%
+Memory Percentile: 5.747599999999981%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "928 ms",
+  "memory": 54692000,
+  "display_runtime": "928",
+  "question_id": "164",
+  "elapsed_time": 1049,
+  "compare_result": "11111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350386309,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 44,
+  "total_testcases": 44,
+  "runtime_percentile": 7.06270000000012,
+  "status_memory": "54.7 MB",
+  "memory_percentile": 5.747599999999981,
+  "pretty_lang": "Python",
+  "submission_id": "1695625826",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

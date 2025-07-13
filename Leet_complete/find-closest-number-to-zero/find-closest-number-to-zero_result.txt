@@ -1,0 +1,47 @@
+Problem: find-closest-number-to-zero
+Submission ID: 1695687784
+Submission Time: 2025-07-12 14:52:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 12.50 MB
+
+Test Cases: 227/227 passed
+
+Runtime Percentile: 13.940100000000006%
+Memory Percentile: 67.9821%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 12504000,
+  "display_runtime": "15",
+  "question_id": "2350",
+  "elapsed_time": 51,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357157409,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 227,
+  "total_testcases": 227,
+  "runtime_percentile": 13.940100000000006,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 67.9821,
+  "pretty_lang": "Python",
+  "submission_id": "1695687784",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

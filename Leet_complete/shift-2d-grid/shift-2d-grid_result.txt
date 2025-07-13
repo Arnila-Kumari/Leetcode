@@ -1,0 +1,47 @@
+Problem: shift-2d-grid
+Submission ID: 1695675089
+Submission Time: 2025-07-12 14:26:32
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 19 ms
+Memory: 12.61 MB
+
+Test Cases: 107/107 passed
+
+Runtime Percentile: 20.289599999999993%
+Memory Percentile: 56.521699999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "19 ms",
+  "memory": 12612000,
+  "display_runtime": "19",
+  "question_id": "1386",
+  "elapsed_time": 66,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355590576,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 107,
+  "total_testcases": 107,
+  "runtime_percentile": 20.289599999999993,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 56.521699999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695675089",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

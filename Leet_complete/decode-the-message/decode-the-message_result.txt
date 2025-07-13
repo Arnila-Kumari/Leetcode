@@ -1,0 +1,47 @@
+Problem: decode-the-message
+Submission ID: 1695708945
+Submission Time: 2025-07-12 15:40:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 13 ms
+Memory: 12.58 MB
+
+Test Cases: 69/69 passed
+
+Runtime Percentile: 8.420999999999994%
+Memory Percentile: 33.684200000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "13 ms",
+  "memory": 12576000,
+  "display_runtime": "13",
+  "question_id": "2406",
+  "elapsed_time": 70,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360036166,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 69,
+  "total_testcases": 69,
+  "runtime_percentile": 8.420999999999994,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 33.684200000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695708945",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

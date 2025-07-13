@@ -1,0 +1,47 @@
+Problem: number-of-ways-to-split-array
+Submission ID: 1695572511
+Submission Time: 2025-07-12 11:50:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 84 ms
+Memory: 21.18 MB
+
+Test Cases: 104/104 passed
+
+Runtime Percentile: 35.77279999999999%
+Memory Percentile: 98.374%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "84 ms",
+  "memory": 21180000,
+  "display_runtime": "84",
+  "question_id": "2358",
+  "elapsed_time": 182,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346210235,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 104,
+  "total_testcases": 104,
+  "runtime_percentile": 35.77279999999999,
+  "status_memory": "21.2 MB",
+  "memory_percentile": 98.374,
+  "pretty_lang": "Python",
+  "submission_id": "1695572511",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

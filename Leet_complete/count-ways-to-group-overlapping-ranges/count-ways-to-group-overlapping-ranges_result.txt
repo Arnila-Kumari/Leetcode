@@ -1,0 +1,47 @@
+Problem: count-ways-to-group-overlapping-ranges
+Submission ID: 1695628168
+Submission Time: 2025-07-12 13:03:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 29 ms
+Memory: 37.10 MB
+
+Test Cases: 32/32 passed
+
+Runtime Percentile: 76.47049999999999%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "29 ms",
+  "memory": 37096000,
+  "display_runtime": "29",
+  "question_id": "2651",
+  "elapsed_time": 127,
+  "compare_result": "11111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350595763,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 32,
+  "runtime_percentile": 76.47049999999999,
+  "status_memory": "37.1 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695628168",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,52 @@
+Problem: sort-characters-by-frequency
+Submission ID: 1695685710
+Submission Time: 2025-07-12 14:48:19
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 35 ms
+Memory: 14.39 MB
+
+Test Cases: 32/33 passed
+
+Last Test Case:
+Input: "eeeee"
+Expected: "eeeee"
+
+Code Output: ""
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 14388000,
+  "display_runtime": "35",
+  "question_id": "451",
+  "elapsed_time": 91,
+  "compare_result": "111101111111111111111111111111111",
+  "code_output": "\"\"",
+  "std_output": "",
+  "last_testcase": "\"eeeee\"",
+  "expected_output": "\"eeeee\"",
+  "task_finish_time": 1752356897749,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 33,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695685710",
+  "input_formatted": "\"eeeee\"",
+  "input": "\"eeeee\"",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

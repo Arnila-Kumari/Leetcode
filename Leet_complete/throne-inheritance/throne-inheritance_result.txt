@@ -1,0 +1,47 @@
+Problem: throne-inheritance
+Submission ID: 1695676582
+Submission Time: 2025-07-12 14:29:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 247 ms
+Memory: 68.36 MB
+
+Test Cases: 49/49 passed
+
+Runtime Percentile: 42.857599999999934%
+Memory Percentile: 91.8368%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "247 ms",
+  "memory": 68364000,
+  "display_runtime": "247",
+  "question_id": "1722",
+  "elapsed_time": 1468,
+  "compare_result": "1111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355777498,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 49,
+  "total_testcases": 49,
+  "runtime_percentile": 42.857599999999934,
+  "status_memory": "68.4 MB",
+  "memory_percentile": 91.8368,
+  "pretty_lang": "Python",
+  "submission_id": "1695676582",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

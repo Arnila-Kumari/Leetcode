@@ -1,0 +1,47 @@
+Problem: find-two-non-overlapping-sub-arrays-each-with-target-sum
+Submission ID: 1695739628
+Submission Time: 2025-07-12 17:06:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 179 ms
+Memory: 33.06 MB
+
+Test Cases: 61/61 passed
+
+Runtime Percentile: 43.75%
+Memory Percentile: 18.75%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "179 ms",
+  "memory": 33056000,
+  "display_runtime": "179",
+  "question_id": "1573",
+  "elapsed_time": 241,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365193481,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 61,
+  "total_testcases": 61,
+  "runtime_percentile": 43.75,
+  "status_memory": "33.1 MB",
+  "memory_percentile": 18.75,
+  "pretty_lang": "Python",
+  "submission_id": "1695739628",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

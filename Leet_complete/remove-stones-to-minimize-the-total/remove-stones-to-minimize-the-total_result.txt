@@ -1,0 +1,47 @@
+Problem: remove-stones-to-minimize-the-total
+Submission ID: 1695698116
+Submission Time: 2025-07-12 15:15:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2697 ms
+Memory: 20.92 MB
+
+Test Cases: 60/60 passed
+
+Runtime Percentile: 72.82499999999992%
+Memory Percentile: 71.73899999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2697 ms",
+  "memory": 20916000,
+  "display_runtime": "2697",
+  "question_id": "2094",
+  "elapsed_time": 2802,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358508179,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 60,
+  "total_testcases": 60,
+  "runtime_percentile": 72.82499999999992,
+  "status_memory": "20.9 MB",
+  "memory_percentile": 71.73899999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695698116",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

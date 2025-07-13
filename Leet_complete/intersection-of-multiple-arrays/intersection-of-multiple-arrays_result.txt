@@ -1,0 +1,47 @@
+Problem: intersection-of-multiple-arrays
+Submission ID: 1695564386
+Submission Time: 2025-07-12 11:41:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.64 MB
+
+Test Cases: 151/151 passed
+
+Runtime Percentile: 29.70299999999999%
+Memory Percentile: 44.55440000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12636000,
+  "display_runtime": "7",
+  "question_id": "2331",
+  "elapsed_time": 42,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345666640,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 151,
+  "total_testcases": 151,
+  "runtime_percentile": 29.70299999999999,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 44.55440000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695564386",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

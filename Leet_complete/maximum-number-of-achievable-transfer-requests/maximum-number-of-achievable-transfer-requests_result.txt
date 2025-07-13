@@ -1,0 +1,47 @@
+Problem: maximum-number-of-achievable-transfer-requests
+Submission ID: 1695628162
+Submission Time: 2025-07-12 13:03:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 749 ms
+Memory: 12.48 MB
+
+Test Cases: 117/117 passed
+
+Runtime Percentile: 88.8889%
+Memory Percentile: 55.555600000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "749 ms",
+  "memory": 12476000,
+  "display_runtime": "749",
+  "question_id": "1723",
+  "elapsed_time": 814,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350595423,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 117,
+  "total_testcases": 117,
+  "runtime_percentile": 88.8889,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 55.555600000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695628162",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

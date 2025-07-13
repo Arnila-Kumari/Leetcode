@@ -1,0 +1,47 @@
+Problem: largest-triangle-area
+Submission ID: 1695576540
+Submission Time: 2025-07-12 11:54:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 79 ms
+Memory: 12.56 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 33.33370000000008%
+Memory Percentile: 19.48720000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "79 ms",
+  "memory": 12564000,
+  "display_runtime": "79",
+  "question_id": "830",
+  "elapsed_time": 111,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346495184,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 33.33370000000008,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 19.48720000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695576540",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

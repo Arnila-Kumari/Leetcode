@@ -1,0 +1,46 @@
+Problem: delete-node-in-a-linked-list
+Submission ID: 1695741107
+Submission Time: 2025-07-12 17:10:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 31 ms ms
+Memory: 12.78 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 8.411100000000005%
+Memory Percentile: 96.6822%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "31 ms",
+  "memory": 12776000,
+  "question_id": "237",
+  "elapsed_time": 57,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365416569,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 8.411100000000005,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 96.6822,
+  "pretty_lang": "Python",
+  "submission_id": "1695741107",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: count-different-palindromic-subsequences
+Submission ID: 1695595889
+Submission Time: 2025-07-12 12:18:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 585 ms
+Memory: 22.25 MB
+
+Test Cases: 367/367 passed
+
+Runtime Percentile: 81.8182%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "585 ms",
+  "memory": 22252000,
+  "display_runtime": "585",
+  "question_id": "730",
+  "elapsed_time": 653,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347895733,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 367,
+  "total_testcases": 367,
+  "runtime_percentile": 81.8182,
+  "status_memory": "22.3 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695595889",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

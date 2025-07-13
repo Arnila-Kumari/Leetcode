@@ -1,0 +1,47 @@
+Problem: count-the-number-of-beautiful-subarrays
+Submission ID: 1695624285
+Submission Time: 2025-07-12 12:57:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 299 ms
+Memory: 31.26 MB
+
+Test Cases: 114/114 passed
+
+Runtime Percentile: 28.571500000000036%
+Memory Percentile: 76.1905%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "299 ms",
+  "memory": 31260000,
+  "display_runtime": "299",
+  "question_id": "2656",
+  "elapsed_time": 385,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350235062,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 114,
+  "total_testcases": 114,
+  "runtime_percentile": 28.571500000000036,
+  "status_memory": "31.3 MB",
+  "memory_percentile": 76.1905,
+  "pretty_lang": "Python",
+  "submission_id": "1695624285",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

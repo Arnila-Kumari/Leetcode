@@ -1,0 +1,47 @@
+Problem: queries-on-number-of-points-inside-a-circle
+Submission ID: 1695591061
+Submission Time: 2025-07-12 12:12:23
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 369 ms
+Memory: 12.76 MB
+
+Test Cases: 66/66 passed
+
+Runtime Percentile: 70.88650000000003%
+Memory Percentile: 15.189900000000009%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "369 ms",
+  "memory": 12756000,
+  "display_runtime": "369",
+  "question_id": "1939",
+  "elapsed_time": 428,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347540941,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 66,
+  "total_testcases": 66,
+  "runtime_percentile": 70.88650000000003,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 15.189900000000009,
+  "pretty_lang": "Python",
+  "submission_id": "1695591061",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

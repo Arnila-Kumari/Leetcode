@@ -1,0 +1,47 @@
+Problem: range-sum-of-bst
+Submission ID: 1695592943
+Submission Time: 2025-07-12 12:14:41
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 9 ms
+Memory: 28.80 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 44.02480000000002%
+Memory Percentile: 69.9472%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "9 ms",
+  "memory": 28800000,
+  "display_runtime": "9",
+  "question_id": "975",
+  "elapsed_time": 262,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347680077,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 44.02480000000002,
+  "status_memory": "28.8 MB",
+  "memory_percentile": 69.9472,
+  "pretty_lang": "Python",
+  "submission_id": "1695592943",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

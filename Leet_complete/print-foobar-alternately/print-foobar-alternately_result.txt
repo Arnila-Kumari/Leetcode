@@ -1,0 +1,46 @@
+Problem: print-foobar-alternately
+Submission ID: 1695588653
+Submission Time: 2025-07-12 12:09:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 101 ms ms
+Memory: 12.54 MB
+
+Test Cases: 144/144 passed
+
+Runtime Percentile: 6.123200000000022%
+Memory Percentile: 75.5102%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "101 ms",
+  "memory": 12544000,
+  "question_id": "1187",
+  "elapsed_time": 172,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347357418,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 144,
+  "total_testcases": 144,
+  "runtime_percentile": 6.123200000000022,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 75.5102,
+  "pretty_lang": "Python",
+  "submission_id": "1695588653",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

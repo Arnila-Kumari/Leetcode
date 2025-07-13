@@ -1,0 +1,47 @@
+Problem: minimize-hamming-distance-after-swap-operations
+Submission ID: 1695679580
+Submission Time: 2025-07-12 14:35:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1076 ms
+Memory: 85.82 MB
+
+Test Cases: 71/71 passed
+
+Runtime Percentile: 10.0%
+Memory Percentile: 10.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1076 ms",
+  "memory": 85820000,
+  "display_runtime": "1076",
+  "question_id": "1840",
+  "elapsed_time": 1212,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356148961,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 71,
+  "total_testcases": 71,
+  "runtime_percentile": 10.0,
+  "status_memory": "85.8 MB",
+  "memory_percentile": 10.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695679580",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

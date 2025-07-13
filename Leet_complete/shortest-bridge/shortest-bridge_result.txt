@@ -1,0 +1,47 @@
+Problem: shortest-bridge
+Submission ID: 1695676258
+Submission Time: 2025-07-12 14:28:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 188 ms
+Memory: 13.58 MB
+
+Test Cases: 97/97 passed
+
+Runtime Percentile: 28.06959999999991%
+Memory Percentile: 77.19279999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "188 ms",
+  "memory": 13584000,
+  "display_runtime": "188",
+  "question_id": "971",
+  "elapsed_time": 249,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355738607,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 97,
+  "total_testcases": 97,
+  "runtime_percentile": 28.06959999999991,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 77.19279999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695676258",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

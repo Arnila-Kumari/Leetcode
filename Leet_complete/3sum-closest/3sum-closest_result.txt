@@ -1,0 +1,47 @@
+Problem: 3sum-closest
+Submission ID: 1695544434
+Submission Time: 2025-07-12 11:21:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 346 ms
+Memory: 12.42 MB
+
+Test Cases: 106/106 passed
+
+Runtime Percentile: 97.87529999999997%
+Memory Percentile: 66.7237%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "346 ms",
+  "memory": 12424000,
+  "display_runtime": "346",
+  "question_id": "16",
+  "elapsed_time": 385,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344485093,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 106,
+  "total_testcases": 106,
+  "runtime_percentile": 97.87529999999997,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 66.7237,
+  "pretty_lang": "Python",
+  "submission_id": "1695544434",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

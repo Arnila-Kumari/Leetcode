@@ -1,0 +1,47 @@
+Problem: bricks-falling-when-hit
+Submission ID: 1695566847
+Submission Time: 2025-07-12 11:43:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 731 ms
+Memory: 21.28 MB
+
+Test Cases: 40/40 passed
+
+Runtime Percentile: 37.25439999999992%
+Memory Percentile: 39.21569999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "731 ms",
+  "memory": 21276000,
+  "display_runtime": "731",
+  "question_id": "821",
+  "elapsed_time": 843,
+  "compare_result": "1111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345836212,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 40,
+  "total_testcases": 40,
+  "runtime_percentile": 37.25439999999992,
+  "status_memory": "21.3 MB",
+  "memory_percentile": 39.21569999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695566847",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

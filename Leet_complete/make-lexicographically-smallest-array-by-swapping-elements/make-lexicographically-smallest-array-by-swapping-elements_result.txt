@@ -1,0 +1,47 @@
+Problem: make-lexicographically-smallest-array-by-swapping-elements
+Submission ID: 1695594518
+Submission Time: 2025-07-12 12:16:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 373 ms
+Memory: 33.21 MB
+
+Test Cases: 523/523 passed
+
+Runtime Percentile: 89.79599999999999%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "373 ms",
+  "memory": 33208000,
+  "display_runtime": "373",
+  "question_id": "3219",
+  "elapsed_time": 509,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347797015,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 523,
+  "total_testcases": 523,
+  "runtime_percentile": 89.79599999999999,
+  "status_memory": "33.2 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695594518",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: check-if-dfs-strings-are-palindromes
+Submission ID: 1695576266
+Submission Time: 2025-07-12 11:54:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2539 ms
+Memory: 60.76 MB
+
+Test Cases: 584/584 passed
+
+Runtime Percentile: 50.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2539 ms",
+  "memory": 60764000,
+  "display_runtime": "2539",
+  "question_id": "3603",
+  "elapsed_time": 2982,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346477863,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 584,
+  "total_testcases": 584,
+  "runtime_percentile": 50.0,
+  "status_memory": "60.8 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695576266",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

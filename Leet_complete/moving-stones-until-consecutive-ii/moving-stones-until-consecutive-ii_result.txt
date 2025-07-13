@@ -1,0 +1,47 @@
+Problem: moving-stones-until-consecutive-ii
+Submission ID: 1695551821
+Submission Time: 2025-07-12 11:28:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 30 ms
+Memory: 13.12 MB
+
+Test Cases: 27/27 passed
+
+Runtime Percentile: 12.0%
+Memory Percentile: 72.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "30 ms",
+  "memory": 13124000,
+  "display_runtime": "30",
+  "question_id": "1113",
+  "elapsed_time": 67,
+  "compare_result": "111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344888365,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 27,
+  "total_testcases": 27,
+  "runtime_percentile": 12.0,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 72.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695551821",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

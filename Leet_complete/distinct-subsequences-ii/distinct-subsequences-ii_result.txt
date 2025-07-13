@@ -1,0 +1,47 @@
+Problem: distinct-subsequences-ii
+Submission ID: 1695678045
+Submission Time: 2025-07-12 14:32:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 12.35 MB
+
+Test Cases: 110/110 passed
+
+Runtime Percentile: 75.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 12352000,
+  "display_runtime": "11",
+  "question_id": "977",
+  "elapsed_time": 43,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355956427,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 110,
+  "total_testcases": 110,
+  "runtime_percentile": 75.0,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695678045",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

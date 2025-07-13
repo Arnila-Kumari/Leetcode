@@ -1,0 +1,47 @@
+Problem: merge-intervals
+Submission ID: 1695681770
+Submission Time: 2025-07-12 14:40:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 16.10 MB
+
+Test Cases: 171/171 passed
+
+Runtime Percentile: 24.74549999999999%
+Memory Percentile: 46.25080000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 16104000,
+  "display_runtime": "15",
+  "question_id": "56",
+  "elapsed_time": 56,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356415678,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 171,
+  "total_testcases": 171,
+  "runtime_percentile": 24.74549999999999,
+  "status_memory": "16.1 MB",
+  "memory_percentile": 46.25080000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695681770",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

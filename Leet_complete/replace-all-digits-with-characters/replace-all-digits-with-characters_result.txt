@@ -1,0 +1,47 @@
+Problem: replace-all-digits-with-characters
+Submission ID: 1695684162
+Submission Time: 2025-07-12 14:44:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.35 MB
+
+Test Cases: 99/99 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 83.20609999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12352000,
+  "display_runtime": "0",
+  "question_id": "1954",
+  "elapsed_time": 56,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356693647,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 99,
+  "total_testcases": 99,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 83.20609999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695684162",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

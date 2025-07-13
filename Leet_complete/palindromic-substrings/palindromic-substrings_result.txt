@@ -1,0 +1,47 @@
+Problem: palindromic-substrings
+Submission ID: 1695577775
+Submission Time: 2025-07-12 11:56:23
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 12.52 MB
+
+Test Cases: 132/132 passed
+
+Runtime Percentile: 98.70200000000004%
+Memory Percentile: 40.42830000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 12516000,
+  "display_runtime": "11",
+  "question_id": "647",
+  "elapsed_time": 46,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346582212,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 132,
+  "total_testcases": 132,
+  "runtime_percentile": 98.70200000000004,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 40.42830000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695577775",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

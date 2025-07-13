@@ -1,0 +1,47 @@
+Problem: minimum-rounds-to-complete-all-tasks
+Submission ID: 1695680798
+Submission Time: 2025-07-12 14:38:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 114 ms
+Memory: 21.73 MB
+
+Test Cases: 79/79 passed
+
+Runtime Percentile: 71.15349999999997%
+Memory Percentile: 57.6922%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "114 ms",
+  "memory": 21732000,
+  "display_runtime": "114",
+  "question_id": "2362",
+  "elapsed_time": 195,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356304037,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 79,
+  "total_testcases": 79,
+  "runtime_percentile": 71.15349999999997,
+  "status_memory": "21.7 MB",
+  "memory_percentile": 57.6922,
+  "pretty_lang": "Python",
+  "submission_id": "1695680798",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

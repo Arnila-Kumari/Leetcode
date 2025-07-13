@@ -1,0 +1,47 @@
+Problem: separate-the-digits-in-an-array
+Submission ID: 1695693712
+Submission Time: 2025-07-12 15:05:42
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.92 MB
+
+Test Cases: 52/52 passed
+
+Runtime Percentile: 95.7747%
+Memory Percentile: 2.1126000000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12916000,
+  "display_runtime": "3",
+  "question_id": "2639",
+  "elapsed_time": 38,
+  "compare_result": "1111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357940979,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 52,
+  "total_testcases": 52,
+  "runtime_percentile": 95.7747,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 2.1126000000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695693712",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

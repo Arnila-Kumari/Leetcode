@@ -1,0 +1,47 @@
+Problem: get-watched-videos-by-your-friends
+Submission ID: 1695553902
+Submission Time: 2025-07-12 11:29:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 31 ms
+Memory: 14.16 MB
+
+Test Cases: 52/52 passed
+
+Runtime Percentile: 70.58809999999998%
+Memory Percentile: 88.23519999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "31 ms",
+  "memory": 14160000,
+  "display_runtime": "31",
+  "question_id": "1436",
+  "elapsed_time": 82,
+  "compare_result": "1111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344996831,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 52,
+  "total_testcases": 52,
+  "runtime_percentile": 70.58809999999998,
+  "status_memory": "14.2 MB",
+  "memory_percentile": 88.23519999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695553902",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

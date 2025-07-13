@@ -1,0 +1,47 @@
+Problem: minimum-incompatibility
+Submission ID: 1695687985
+Submission Time: 2025-07-12 14:53:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4617 ms
+Memory: 21.12 MB
+
+Test Cases: 58/58 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 0.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4617 ms",
+  "memory": 21116000,
+  "display_runtime": "4617",
+  "question_id": "1799",
+  "elapsed_time": 4806,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357188648,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 58,
+  "total_testcases": 58,
+  "runtime_percentile": 100,
+  "status_memory": "21.1 MB",
+  "memory_percentile": 0.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695687985",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

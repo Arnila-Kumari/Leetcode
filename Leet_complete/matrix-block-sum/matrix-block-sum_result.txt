@@ -1,0 +1,47 @@
+Problem: matrix-block-sum
+Submission ID: 1695596683
+Submission Time: 2025-07-12 12:19:14
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 13 ms
+Memory: 13.71 MB
+
+Test Cases: 12/12 passed
+
+Runtime Percentile: 96.4286%
+Memory Percentile: 14.285700000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "13 ms",
+  "memory": 13712000,
+  "display_runtime": "13",
+  "question_id": "1242",
+  "elapsed_time": 65,
+  "compare_result": "111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347954088,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 12,
+  "total_testcases": 12,
+  "runtime_percentile": 96.4286,
+  "status_memory": "13.7 MB",
+  "memory_percentile": 14.285700000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695596683",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

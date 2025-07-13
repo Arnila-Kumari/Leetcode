@@ -1,0 +1,47 @@
+Problem: kth-smallest-path-xor-sum
+Submission ID: 1695572572
+Submission Time: 2025-07-12 11:50:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2355 ms
+Memory: 129.80 MB
+
+Test Cases: 595/595 passed
+
+Runtime Percentile: 71.15349999999994%
+Memory Percentile: 71.15349999999992%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2355 ms",
+  "memory": 129796000,
+  "display_runtime": "2355",
+  "question_id": "3906",
+  "elapsed_time": 2534,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346216253,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 595,
+  "total_testcases": 595,
+  "runtime_percentile": 71.15349999999994,
+  "status_memory": "129.8 MB",
+  "memory_percentile": 71.15349999999992,
+  "pretty_lang": "Python",
+  "submission_id": "1695572572",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

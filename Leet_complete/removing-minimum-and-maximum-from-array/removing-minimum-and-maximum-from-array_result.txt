@@ -1,0 +1,47 @@
+Problem: removing-minimum-and-maximum-from-array
+Submission ID: 1695682601
+Submission Time: 2025-07-12 14:41:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 20.57 MB
+
+Test Cases: 62/62 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 60.4167%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 20568000,
+  "display_runtime": "15",
+  "question_id": "2212",
+  "elapsed_time": 160,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356517215,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 62,
+  "total_testcases": 62,
+  "runtime_percentile": 100,
+  "status_memory": "20.6 MB",
+  "memory_percentile": 60.4167,
+  "pretty_lang": "Python",
+  "submission_id": "1695682601",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

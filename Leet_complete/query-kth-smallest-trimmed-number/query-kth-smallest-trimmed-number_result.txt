@@ -1,0 +1,47 @@
+Problem: query-kth-smallest-trimmed-number
+Submission ID: 1695591176
+Submission Time: 2025-07-12 12:12:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 956 ms
+Memory: 12.70 MB
+
+Test Cases: 251/251 passed
+
+Runtime Percentile: 15.384700000000084%
+Memory Percentile: 7.692399999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "956 ms",
+  "memory": 12700000,
+  "display_runtime": "956",
+  "question_id": "2422",
+  "elapsed_time": 1006,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347549442,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 251,
+  "total_testcases": 251,
+  "runtime_percentile": 15.384700000000084,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 7.692399999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695591176",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

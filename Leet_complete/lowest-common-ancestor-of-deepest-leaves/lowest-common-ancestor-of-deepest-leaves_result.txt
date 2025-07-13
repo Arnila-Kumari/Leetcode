@@ -1,0 +1,47 @@
+Problem: lowest-common-ancestor-of-deepest-leaves
+Submission ID: 1695592364
+Submission Time: 2025-07-12 12:13:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2 ms
+Memory: 12.78 MB
+
+Test Cases: 81/81 passed
+
+Runtime Percentile: 79.5775%
+Memory Percentile: 97.8873%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2 ms",
+  "memory": 12780000,
+  "display_runtime": "2",
+  "question_id": "1218",
+  "elapsed_time": 66,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347635124,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 81,
+  "total_testcases": 81,
+  "runtime_percentile": 79.5775,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 97.8873,
+  "pretty_lang": "Python",
+  "submission_id": "1695592364",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

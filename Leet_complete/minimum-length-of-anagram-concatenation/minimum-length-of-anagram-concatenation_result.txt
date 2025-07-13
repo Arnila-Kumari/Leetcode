@@ -1,0 +1,47 @@
+Problem: minimum-length-of-anagram-concatenation
+Submission ID: 1695683233
+Submission Time: 2025-07-12 14:43:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1718 ms
+Memory: 12.89 MB
+
+Test Cases: 560/560 passed
+
+Runtime Percentile: 28.571000000000023%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1718 ms",
+  "memory": 12892000,
+  "display_runtime": "1718",
+  "question_id": "3395",
+  "elapsed_time": 1776,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356586015,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 560,
+  "total_testcases": 560,
+  "runtime_percentile": 28.571000000000023,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695683233",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: find-lucky-integer-in-an-array
+Submission ID: 1695687367
+Submission Time: 2025-07-12 14:51:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.64 MB
+
+Test Cases: 102/102 passed
+
+Runtime Percentile: 29.634299999999996%
+Memory Percentile: 18.202699999999993%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12640000,
+  "display_runtime": "7",
+  "question_id": "1510",
+  "elapsed_time": 40,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357104832,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 102,
+  "total_testcases": 102,
+  "runtime_percentile": 29.634299999999996,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 18.202699999999993,
+  "pretty_lang": "Python",
+  "submission_id": "1695687367",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

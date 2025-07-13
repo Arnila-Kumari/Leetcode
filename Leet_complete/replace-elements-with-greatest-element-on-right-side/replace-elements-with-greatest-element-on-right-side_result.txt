@@ -1,0 +1,47 @@
+Problem: replace-elements-with-greatest-element-on-right-side
+Submission ID: 1695710476
+Submission Time: 2025-07-12 15:44:20
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 43 ms
+Memory: 13.84 MB
+
+Test Cases: 90/90 passed
+
+Runtime Percentile: 53.7382%
+Memory Percentile: 78.6605%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "43 ms",
+  "memory": 13840000,
+  "display_runtime": "43",
+  "question_id": "1231",
+  "elapsed_time": 130,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360259230,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 90,
+  "total_testcases": 90,
+  "runtime_percentile": 53.7382,
+  "status_memory": "13.8 MB",
+  "memory_percentile": 78.6605,
+  "pretty_lang": "Python",
+  "submission_id": "1695710476",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

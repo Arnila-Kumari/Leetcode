@@ -1,0 +1,47 @@
+Problem: smallest-even-multiple
+Submission ID: 1695690427
+Submission Time: 2025-07-12 14:58:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.54 MB
+
+Test Cases: 150/150 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 8.080799999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12536000,
+  "display_runtime": "0",
+  "question_id": "2491",
+  "elapsed_time": 33,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357512574,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 150,
+  "total_testcases": 150,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 8.080799999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695690427",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

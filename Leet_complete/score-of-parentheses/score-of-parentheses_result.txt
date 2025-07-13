@@ -1,0 +1,47 @@
+Problem: score-of-parentheses
+Submission ID: 1695700981
+Submission Time: 2025-07-12 15:21:51
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.54 MB
+
+Test Cases: 86/86 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 11.458299999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12544000,
+  "display_runtime": "0",
+  "question_id": "886",
+  "elapsed_time": 31,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358910159,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 86,
+  "total_testcases": 86,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 11.458299999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1695700981",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

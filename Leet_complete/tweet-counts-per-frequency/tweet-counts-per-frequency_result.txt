@@ -1,0 +1,47 @@
+Problem: tweet-counts-per-frequency
+Submission ID: 1695741253
+Submission Time: 2025-07-12 17:10:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 113 ms
+Memory: 25.42 MB
+
+Test Cases: 22/22 passed
+
+Runtime Percentile: 85.0%
+Memory Percentile: 5.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "113 ms",
+  "memory": 25420000,
+  "display_runtime": "113",
+  "question_id": "1470",
+  "elapsed_time": 498,
+  "compare_result": "1111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365436939,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 22,
+  "total_testcases": 22,
+  "runtime_percentile": 85.0,
+  "status_memory": "25.4 MB",
+  "memory_percentile": 5.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695741253",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

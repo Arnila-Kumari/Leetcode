@@ -1,0 +1,47 @@
+Problem: minimum-number-of-steps-to-make-two-strings-anagram
+Submission ID: 1695689880
+Submission Time: 2025-07-12 14:57:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 323 ms
+Memory: 12.74 MB
+
+Test Cases: 63/63 passed
+
+Runtime Percentile: 12.97509999999991%
+Memory Percentile: 51.1451%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "323 ms",
+  "memory": 12740000,
+  "display_runtime": "323",
+  "question_id": "1469",
+  "elapsed_time": 366,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357436821,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 63,
+  "total_testcases": 63,
+  "runtime_percentile": 12.97509999999991,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 51.1451,
+  "pretty_lang": "Python",
+  "submission_id": "1695689880",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

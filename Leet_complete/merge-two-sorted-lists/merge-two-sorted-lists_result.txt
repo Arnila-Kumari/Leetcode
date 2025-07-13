@@ -1,0 +1,47 @@
+Problem: merge-two-sorted-lists
+Submission ID: 1695708544
+Submission Time: 2025-07-12 15:39:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.56 MB
+
+Test Cases: 208/208 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 46.41199999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12556000,
+  "display_runtime": "0",
+  "question_id": "21",
+  "elapsed_time": 46,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752359977584,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 208,
+  "total_testcases": 208,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 46.41199999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695708544",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: richest-customer-wealth
+Submission ID: 1695697470
+Submission Time: 2025-07-12 15:13:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.60 MB
+
+Test Cases: 34/34 passed
+
+Runtime Percentile: 5.242899999999995%
+Memory Percentile: 1.0022999999999982%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12604000,
+  "display_runtime": "4",
+  "question_id": "1791",
+  "elapsed_time": 32,
+  "compare_result": "1111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358422353,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 34,
+  "total_testcases": 34,
+  "runtime_percentile": 5.242899999999995,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 1.0022999999999982,
+  "pretty_lang": "Python",
+  "submission_id": "1695697470",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,46 @@
+Problem: defanging-an-ip-address
+Submission ID: 1695697974
+Submission Time: 2025-07-12 15:14:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms ms
+Memory: 12.36 MB
+
+Test Cases: 62/62 passed
+
+Runtime Percentile: 63.341%
+Memory Percentile: 80.2784%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 12364000,
+  "question_id": "1205",
+  "elapsed_time": 32,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358488064,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 62,
+  "total_testcases": 62,
+  "runtime_percentile": 63.341,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 80.2784,
+  "pretty_lang": "Python",
+  "submission_id": "1695697974",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

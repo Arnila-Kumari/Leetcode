@@ -1,0 +1,47 @@
+Problem: maximum-sum-of-an-hourglass
+Submission ID: 1695699908
+Submission Time: 2025-07-12 15:19:23
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 33 ms
+Memory: 14.12 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 96.6667%
+Memory Percentile: 90.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "33 ms",
+  "memory": 14120000,
+  "display_runtime": "33",
+  "question_id": "2508",
+  "elapsed_time": 87,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358760729,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 96.6667,
+  "status_memory": "14.1 MB",
+  "memory_percentile": 90.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695699908",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

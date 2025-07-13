@@ -1,0 +1,47 @@
+Problem: frequency-of-the-most-frequent-element
+Submission ID: 1695549488
+Submission Time: 2025-07-12 11:26:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 184 ms
+Memory: 20.14 MB
+
+Test Cases: 73/73 passed
+
+Runtime Percentile: 99.5146%
+Memory Percentile: 89.32050000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "184 ms",
+  "memory": 20144000,
+  "display_runtime": "184",
+  "question_id": "1966",
+  "elapsed_time": 267,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344764578,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 73,
+  "total_testcases": 73,
+  "runtime_percentile": 99.5146,
+  "status_memory": "20.1 MB",
+  "memory_percentile": 89.32050000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695549488",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

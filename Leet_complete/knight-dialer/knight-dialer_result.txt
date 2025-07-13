@@ -1,0 +1,47 @@
+Problem: knight-dialer
+Submission ID: 1695570545
+Submission Time: 2025-07-12 11:47:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 175 ms
+Memory: 12.53 MB
+
+Test Cases: 121/121 passed
+
+Runtime Percentile: 91.228%
+Memory Percentile: 82.4561%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "175 ms",
+  "memory": 12528000,
+  "display_runtime": "175",
+  "question_id": "972",
+  "elapsed_time": 243,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346074189,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 121,
+  "total_testcases": 121,
+  "runtime_percentile": 91.228,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 82.4561,
+  "pretty_lang": "Python",
+  "submission_id": "1695570545",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

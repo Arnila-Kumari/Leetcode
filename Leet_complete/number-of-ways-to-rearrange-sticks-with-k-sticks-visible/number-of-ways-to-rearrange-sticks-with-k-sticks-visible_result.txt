@@ -1,0 +1,47 @@
+Problem: number-of-ways-to-rearrange-sticks-with-k-sticks-visible
+Submission ID: 1695571612
+Submission Time: 2025-07-12 11:49:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1006 ms
+Memory: 12.44 MB
+
+Test Cases: 50/50 passed
+
+Runtime Percentile: 86.66659999999999%
+Memory Percentile: 93.3333%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1006 ms",
+  "memory": 12436000,
+  "display_runtime": "1006",
+  "question_id": "1996",
+  "elapsed_time": 1080,
+  "compare_result": "11111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346149156,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 50,
+  "total_testcases": 50,
+  "runtime_percentile": 86.66659999999999,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 93.3333,
+  "pretty_lang": "Python",
+  "submission_id": "1695571612",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

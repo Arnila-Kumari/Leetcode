@@ -1,0 +1,47 @@
+Problem: nearest-exit-from-entrance-in-maze
+Submission ID: 1695554491
+Submission Time: 2025-07-12 11:30:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 99 ms
+Memory: 13.71 MB
+
+Test Cases: 194/194 passed
+
+Runtime Percentile: 69.75919999999998%
+Memory Percentile: 71.4286%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "99 ms",
+  "memory": 13712000,
+  "display_runtime": "99",
+  "question_id": "2038",
+  "elapsed_time": 187,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345029851,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 194,
+  "total_testcases": 194,
+  "runtime_percentile": 69.75919999999998,
+  "status_memory": "13.7 MB",
+  "memory_percentile": 71.4286,
+  "pretty_lang": "Python",
+  "submission_id": "1695554491",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: top-k-frequent-words
+Submission ID: 1695687388
+Submission Time: 2025-07-12 14:51:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 12.66 MB
+
+Test Cases: 110/110 passed
+
+Runtime Percentile: 10.183900000000015%
+Memory Percentile: 3.394599999999997%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 12664000,
+  "display_runtime": "11",
+  "question_id": "692",
+  "elapsed_time": 40,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357107447,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 110,
+  "total_testcases": 110,
+  "runtime_percentile": 10.183900000000015,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 3.394599999999997,
+  "pretty_lang": "Python",
+  "submission_id": "1695687388",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,54 @@
+Problem: maximum-number-of-integers-to-choose-from-a-range-i
+Submission ID: 1695709397
+Submission Time: 2025-07-12 15:41:43
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 24 ms
+Memory: 14.08 MB
+
+Test Cases: 207/208 passed
+
+Last Test Case:
+Input: [8155, 8108]
+2431
+7821
+Expected: 124
+
+Code Output: 125
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 14080000,
+  "display_runtime": "24",
+  "question_id": "2640",
+  "elapsed_time": 136,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111011",
+  "code_output": "125",
+  "std_output": "",
+  "last_testcase": "[8155, 8108]\n2431\n7821",
+  "expected_output": "124",
+  "task_finish_time": 1752360102797,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 207,
+  "total_testcases": 208,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695709397",
+  "input_formatted": "[8155, 8108], 2431, 7821",
+  "input": "[8155, 8108]\n2431\n7821",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

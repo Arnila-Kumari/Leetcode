@@ -1,0 +1,47 @@
+Problem: design-hashmap
+Submission ID: 1695696819
+Submission Time: 2025-07-12 15:12:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 225 ms
+Memory: 23.60 MB
+
+Test Cases: 37/37 passed
+
+Runtime Percentile: 18.119200000000102%
+Memory Percentile: 24.204899999999988%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "225 ms",
+  "memory": 23596000,
+  "display_runtime": "225",
+  "question_id": "817",
+  "elapsed_time": 932,
+  "compare_result": "1111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358338628,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 37,
+  "total_testcases": 37,
+  "runtime_percentile": 18.119200000000102,
+  "status_memory": "23.6 MB",
+  "memory_percentile": 24.204899999999988,
+  "pretty_lang": "Python",
+  "submission_id": "1695696819",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,46 @@
+Problem: network-delay-time
+Submission ID: 1695554940
+Submission Time: 2025-07-12 11:31:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 346 ms ms
+Memory: 14.70 MB
+
+Test Cases: 55/55 passed
+
+Runtime Percentile: 84.093%
+Memory Percentile: 76.2367%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "346 ms",
+  "memory": 14696000,
+  "question_id": "744",
+  "elapsed_time": 401,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345057607,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 55,
+  "total_testcases": 55,
+  "runtime_percentile": 84.093,
+  "status_memory": "14.7 MB",
+  "memory_percentile": 76.2367,
+  "pretty_lang": "Python",
+  "submission_id": "1695554940",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

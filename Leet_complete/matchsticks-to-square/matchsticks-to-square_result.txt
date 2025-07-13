@@ -1,0 +1,47 @@
+Problem: matchsticks-to-square
+Submission ID: 1695596558
+Submission Time: 2025-07-12 12:19:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1418 ms
+Memory: 12.70 MB
+
+Test Cases: 195/195 passed
+
+Runtime Percentile: 51.748300000000086%
+Memory Percentile: 9.090999999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1418 ms",
+  "memory": 12704000,
+  "display_runtime": "1418",
+  "question_id": "473",
+  "elapsed_time": 1544,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347945358,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 195,
+  "total_testcases": 195,
+  "runtime_percentile": 51.748300000000086,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 9.090999999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1695596558",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

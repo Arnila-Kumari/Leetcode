@@ -1,0 +1,54 @@
+Problem: poor-pigs
+Submission ID: 1695585397
+Submission Time: 2025-07-12 12:05:28
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.48 MB
+
+Test Cases: 25/26 passed
+
+Last Test Case:
+Input: 125
+1
+4
+Expected: 3
+
+Code Output: 4
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12484000,
+  "display_runtime": "0",
+  "question_id": "458",
+  "elapsed_time": 37,
+  "compare_result": "11111111111111111011111111",
+  "code_output": "4",
+  "std_output": "",
+  "last_testcase": "125\n1\n4",
+  "expected_output": "3",
+  "task_finish_time": 1752347127411,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 25,
+  "total_testcases": 26,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695585397",
+  "input_formatted": "125, 1, 4",
+  "input": "125\n1\n4",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

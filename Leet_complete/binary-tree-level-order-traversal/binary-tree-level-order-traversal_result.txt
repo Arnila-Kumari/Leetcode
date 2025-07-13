@@ -1,0 +1,47 @@
+Problem: binary-tree-level-order-traversal
+Submission ID: 1695563975
+Submission Time: 2025-07-12 11:40:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 13.08 MB
+
+Test Cases: 35/35 passed
+
+Runtime Percentile: 39.6013%
+Memory Percentile: 98.9108%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 13084000,
+  "display_runtime": "3",
+  "question_id": "102",
+  "elapsed_time": 40,
+  "compare_result": "11111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345638592,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 35,
+  "total_testcases": 35,
+  "runtime_percentile": 39.6013,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 98.9108,
+  "pretty_lang": "Python",
+  "submission_id": "1695563975",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

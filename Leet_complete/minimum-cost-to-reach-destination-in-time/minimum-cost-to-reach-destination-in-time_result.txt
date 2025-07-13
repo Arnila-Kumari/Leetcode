@@ -1,0 +1,47 @@
+Problem: minimum-cost-to-reach-destination-in-time
+Submission ID: 1695686425
+Submission Time: 2025-07-12 14:49:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 169 ms
+Memory: 12.78 MB
+
+Test Cases: 94/94 passed
+
+Runtime Percentile: 84.78269999999998%
+Memory Percentile: 95.6522%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "169 ms",
+  "memory": 12780000,
+  "display_runtime": "169",
+  "question_id": "2040",
+  "elapsed_time": 203,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356993019,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 94,
+  "total_testcases": 94,
+  "runtime_percentile": 84.78269999999998,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 95.6522,
+  "pretty_lang": "Python",
+  "submission_id": "1695686425",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

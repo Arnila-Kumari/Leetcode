@@ -1,0 +1,47 @@
+Problem: replace-the-substring-for-balanced-string
+Submission ID: 1695711519
+Submission Time: 2025-07-12 15:46:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 346 ms
+Memory: 12.76 MB
+
+Test Cases: 40/40 passed
+
+Runtime Percentile: 63.88860000000001%
+Memory Percentile: 69.4445%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "346 ms",
+  "memory": 12760000,
+  "display_runtime": "346",
+  "question_id": "1351",
+  "elapsed_time": 421,
+  "compare_result": "1111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360416902,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 40,
+  "total_testcases": 40,
+  "runtime_percentile": 63.88860000000001,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 69.4445,
+  "pretty_lang": "Python",
+  "submission_id": "1695711519",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

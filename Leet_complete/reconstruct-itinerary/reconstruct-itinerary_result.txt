@@ -1,0 +1,47 @@
+Problem: reconstruct-itinerary
+Submission ID: 1695595934
+Submission Time: 2025-07-12 12:18:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.57 MB
+
+Test Cases: 82/82 passed
+
+Runtime Percentile: 85.1175%
+Memory Percentile: 93.2115%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12568000,
+  "display_runtime": "3",
+  "question_id": "332",
+  "elapsed_time": 48,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347897994,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 82,
+  "total_testcases": 82,
+  "runtime_percentile": 85.1175,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 93.2115,
+  "pretty_lang": "Python",
+  "submission_id": "1695595934",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

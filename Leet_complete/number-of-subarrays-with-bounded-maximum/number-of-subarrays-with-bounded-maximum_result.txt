@@ -1,0 +1,47 @@
+Problem: number-of-subarrays-with-bounded-maximum
+Submission ID: 1695567738
+Submission Time: 2025-07-12 11:44:51
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 39 ms
+Memory: 16.26 MB
+
+Test Cases: 46/46 passed
+
+Runtime Percentile: 58.6666%
+Memory Percentile: 77.33340000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "39 ms",
+  "memory": 16256000,
+  "display_runtime": "39",
+  "question_id": "811",
+  "elapsed_time": 88,
+  "compare_result": "1111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345890700,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 46,
+  "total_testcases": 46,
+  "runtime_percentile": 58.6666,
+  "status_memory": "16.3 MB",
+  "memory_percentile": 77.33340000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695567738",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

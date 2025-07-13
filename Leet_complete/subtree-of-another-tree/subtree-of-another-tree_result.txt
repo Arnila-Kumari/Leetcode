@@ -1,0 +1,47 @@
+Problem: subtree-of-another-tree
+Submission ID: 1695696483
+Submission Time: 2025-07-12 15:11:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 79 ms
+Memory: 13.61 MB
+
+Test Cases: 185/185 passed
+
+Runtime Percentile: 56.18050000000008%
+Memory Percentile: 40.717000000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "79 ms",
+  "memory": 13612000,
+  "display_runtime": "79",
+  "question_id": "572",
+  "elapsed_time": 125,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358296249,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 185,
+  "total_testcases": 185,
+  "runtime_percentile": 56.18050000000008,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 40.717000000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695696483",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

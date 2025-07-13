@@ -1,0 +1,47 @@
+Problem: minimum-operations-to-halve-array-sum
+Submission ID: 1695697328
+Submission Time: 2025-07-12 15:13:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1073 ms
+Memory: 23.85 MB
+
+Test Cases: 62/62 passed
+
+Runtime Percentile: 48.718000000000075%
+Memory Percentile: 20.51290000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1073 ms",
+  "memory": 23852000,
+  "display_runtime": "1073",
+  "question_id": "2310",
+  "elapsed_time": 1166,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358405966,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 62,
+  "total_testcases": 62,
+  "runtime_percentile": 48.718000000000075,
+  "status_memory": "23.9 MB",
+  "memory_percentile": 20.51290000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695697328",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

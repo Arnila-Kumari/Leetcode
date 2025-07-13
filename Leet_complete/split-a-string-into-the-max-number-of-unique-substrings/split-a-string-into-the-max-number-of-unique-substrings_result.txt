@@ -1,0 +1,47 @@
+Problem: split-a-string-into-the-max-number-of-unique-substrings
+Submission ID: 1695699473
+Submission Time: 2025-07-12 15:18:13
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 151 ms
+Memory: 12.44 MB
+
+Test Cases: 96/96 passed
+
+Runtime Percentile: 98.1481%
+Memory Percentile: 42.5926%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "151 ms",
+  "memory": 12436000,
+  "display_runtime": "151",
+  "question_id": "1715",
+  "elapsed_time": 186,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358692965,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 96,
+  "total_testcases": 96,
+  "runtime_percentile": 98.1481,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 42.5926,
+  "pretty_lang": "Python",
+  "submission_id": "1695699473",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

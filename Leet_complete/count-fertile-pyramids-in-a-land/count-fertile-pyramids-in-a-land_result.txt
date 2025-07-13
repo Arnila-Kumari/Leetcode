@@ -1,0 +1,47 @@
+Problem: count-fertile-pyramids-in-a-land
+Submission ID: 1695596579
+Submission Time: 2025-07-12 12:19:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 671 ms
+Memory: 14.45 MB
+
+Test Cases: 49/49 passed
+
+Runtime Percentile: 0.0%
+Memory Percentile: 0.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "671 ms",
+  "memory": 14448000,
+  "display_runtime": "671",
+  "question_id": "2193",
+  "elapsed_time": 796,
+  "compare_result": "1111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347946121,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 49,
+  "total_testcases": 49,
+  "runtime_percentile": 0.0,
+  "status_memory": "14.4 MB",
+  "memory_percentile": 0.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695596579",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

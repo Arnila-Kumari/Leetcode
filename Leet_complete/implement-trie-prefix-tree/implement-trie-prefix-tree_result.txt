@@ -1,0 +1,47 @@
+Problem: implement-trie-prefix-tree
+Submission ID: 1695561692
+Submission Time: 2025-07-12 11:38:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 79 ms
+Memory: 38.78 MB
+
+Test Cases: 16/16 passed
+
+Runtime Percentile: 75.5411000000001%
+Memory Percentile: 57.46100000000007%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "79 ms",
+  "memory": 38780000,
+  "display_runtime": "79",
+  "question_id": "208",
+  "elapsed_time": 346,
+  "compare_result": "1111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345485054,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 16,
+  "total_testcases": 16,
+  "runtime_percentile": 75.5411000000001,
+  "status_memory": "38.8 MB",
+  "memory_percentile": 57.46100000000007,
+  "pretty_lang": "Python",
+  "submission_id": "1695561692",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

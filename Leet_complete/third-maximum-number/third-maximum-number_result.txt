@@ -1,0 +1,47 @@
+Problem: third-maximum-number
+Submission ID: 1695697108
+Submission Time: 2025-07-12 15:12:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.96 MB
+
+Test Cases: 34/34 passed
+
+Runtime Percentile: 37.5%
+Memory Percentile: 85.2697%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12960000,
+  "display_runtime": "3",
+  "question_id": "414",
+  "elapsed_time": 34,
+  "compare_result": "1111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358377318,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 34,
+  "total_testcases": 34,
+  "runtime_percentile": 37.5,
+  "status_memory": "13 MB",
+  "memory_percentile": 85.2697,
+  "pretty_lang": "Python",
+  "submission_id": "1695697108",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

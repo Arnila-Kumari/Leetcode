@@ -1,0 +1,47 @@
+Problem: largest-odd-number-in-string
+Submission ID: 1695575011
+Submission Time: 2025-07-12 11:53:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 30 ms
+Memory: 13.61 MB
+
+Test Cases: 196/196 passed
+
+Runtime Percentile: 83.4154%
+Memory Percentile: 84.60000000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "30 ms",
+  "memory": 13608000,
+  "display_runtime": "30",
+  "question_id": "2032",
+  "elapsed_time": 75,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346387554,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 196,
+  "total_testcases": 196,
+  "runtime_percentile": 83.4154,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 84.60000000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695575011",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

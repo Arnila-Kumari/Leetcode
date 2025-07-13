@@ -1,0 +1,47 @@
+Problem: minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix
+Submission ID: 1695675818
+Submission Time: 2025-07-12 14:28:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 12.46 MB
+
+Test Cases: 26/26 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 80.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 12456000,
+  "display_runtime": "11",
+  "question_id": "1409",
+  "elapsed_time": 46,
+  "compare_result": "11111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355680054,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 26,
+  "total_testcases": 26,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 80.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695675818",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

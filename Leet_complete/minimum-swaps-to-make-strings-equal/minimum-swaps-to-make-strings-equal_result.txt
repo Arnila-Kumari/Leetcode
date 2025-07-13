@@ -1,0 +1,47 @@
+Problem: minimum-swaps-to-make-strings-equal
+Submission ID: 1695613812
+Submission Time: 2025-07-12 12:42:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.53 MB
+
+Test Cases: 70/70 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 22.727299999999993%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12528000,
+  "display_runtime": "0",
+  "question_id": "1369",
+  "elapsed_time": 38,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349327802,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 70,
+  "total_testcases": 70,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 22.727299999999993,
+  "pretty_lang": "Python",
+  "submission_id": "1695613812",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

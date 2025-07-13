@@ -1,0 +1,52 @@
+Problem: check-if-there-is-a-valid-parentheses-string-path
+Submission ID: 1695579725
+Submission Time: 2025-07-12 11:58:46
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 9 ms
+Memory: 13.62 MB
+
+Test Cases: 32/81 passed
+
+Last Test Case:
+Input: [["(","(","("],[")","(",")"],["(","(",")"],["(","(",")"]]
+Expected: true
+
+Code Output: 1
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 13620000,
+  "display_runtime": "9",
+  "question_id": "2349",
+  "elapsed_time": 73,
+  "compare_result": "011110110111000010011000111000011000010111110110000000011010000001100000010000100",
+  "code_output": "1",
+  "std_output": "",
+  "last_testcase": "[[\"(\",\"(\",\"(\"],[\")\",\"(\",\")\"],[\"(\",\"(\",\")\"],[\"(\",\"(\",\")\"]]",
+  "expected_output": "true",
+  "task_finish_time": 1752346724570,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 81,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695579725",
+  "input_formatted": "[[\"(\",\"(\",\"(\"],[\")\",\"(\",\")\"],[\"(\",\"(\",\")\"],[\"(\",\"(\",\")\"]]",
+  "input": "[[\"(\",\"(\",\"(\"],[\")\",\"(\",\")\"],[\"(\",\"(\",\")\"],[\"(\",\"(\",\")\"]]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

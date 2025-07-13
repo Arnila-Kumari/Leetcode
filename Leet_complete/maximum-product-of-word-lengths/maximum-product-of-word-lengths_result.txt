@@ -1,0 +1,47 @@
+Problem: maximum-product-of-word-lengths
+Submission ID: 1695675408
+Submission Time: 2025-07-12 14:27:23
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 395 ms
+Memory: 15.56 MB
+
+Test Cases: 168/168 passed
+
+Runtime Percentile: 23.914400000000114%
+Memory Percentile: 31.8841%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "395 ms",
+  "memory": 15556000,
+  "display_runtime": "395",
+  "question_id": "318",
+  "elapsed_time": 439,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355629050,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 168,
+  "total_testcases": 168,
+  "runtime_percentile": 23.914400000000114,
+  "status_memory": "15.6 MB",
+  "memory_percentile": 31.8841,
+  "pretty_lang": "Python",
+  "submission_id": "1695675408",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

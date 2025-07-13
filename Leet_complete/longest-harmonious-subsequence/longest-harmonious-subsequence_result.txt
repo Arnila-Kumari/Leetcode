@@ -1,0 +1,47 @@
+Problem: longest-harmonious-subsequence
+Submission ID: 1695585982
+Submission Time: 2025-07-12 12:06:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 84 ms
+Memory: 14.49 MB
+
+Test Cases: 207/207 passed
+
+Runtime Percentile: 14.169699999999978%
+Memory Percentile: 46.32819999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "84 ms",
+  "memory": 14492000,
+  "display_runtime": "84",
+  "question_id": "594",
+  "elapsed_time": 133,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347165192,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 207,
+  "total_testcases": 207,
+  "runtime_percentile": 14.169699999999978,
+  "status_memory": "14.5 MB",
+  "memory_percentile": 46.32819999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695585982",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

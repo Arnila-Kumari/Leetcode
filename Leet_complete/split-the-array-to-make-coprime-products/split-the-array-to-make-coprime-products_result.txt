@@ -1,0 +1,47 @@
+Problem: split-the-array-to-make-coprime-products
+Submission ID: 1695691897
+Submission Time: 2025-07-12 15:01:51
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4164 ms
+Memory: 14.83 MB
+
+Test Cases: 75/75 passed
+
+Runtime Percentile: 0.0%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4164 ms",
+  "memory": 14832000,
+  "display_runtime": "4164",
+  "question_id": "2647",
+  "elapsed_time": 4238,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357709773,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 75,
+  "total_testcases": 75,
+  "runtime_percentile": 0.0,
+  "status_memory": "14.8 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695691897",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

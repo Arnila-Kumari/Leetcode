@@ -1,0 +1,47 @@
+Problem: best-time-to-buy-and-sell-stock-iv
+Submission ID: 1695561412
+Submission Time: 2025-07-12 11:37:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.62 MB
+
+Test Cases: 210/210 passed
+
+Runtime Percentile: 99.8198%
+Memory Percentile: 64.50450000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12620000,
+  "display_runtime": "3",
+  "question_id": "188",
+  "elapsed_time": 41,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345466183,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 210,
+  "total_testcases": 210,
+  "runtime_percentile": 99.8198,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 64.50450000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695561412",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

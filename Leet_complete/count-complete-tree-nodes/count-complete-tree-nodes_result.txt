@@ -1,0 +1,47 @@
+Problem: count-complete-tree-nodes
+Submission ID: 1695595321
+Submission Time: 2025-07-12 12:17:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 28.34 MB
+
+Test Cases: 18/18 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 28.4994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 28336000,
+  "display_runtime": "0",
+  "question_id": "222",
+  "elapsed_time": 93,
+  "compare_result": "111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347853398,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 18,
+  "total_testcases": 18,
+  "runtime_percentile": 100,
+  "status_memory": "28.3 MB",
+  "memory_percentile": 28.4994,
+  "pretty_lang": "Python",
+  "submission_id": "1695595321",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

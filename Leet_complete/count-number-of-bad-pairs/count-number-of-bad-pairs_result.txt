@@ -1,0 +1,47 @@
+Problem: count-number-of-bad-pairs
+Submission ID: 1695615808
+Submission Time: 2025-07-12 12:44:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 211 ms
+Memory: 24.75 MB
+
+Test Cases: 65/65 passed
+
+Runtime Percentile: 5.515999999999938%
+Memory Percentile: 97.2413%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "211 ms",
+  "memory": 24748000,
+  "display_runtime": "211",
+  "question_id": "2448",
+  "elapsed_time": 438,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349495494,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 65,
+  "total_testcases": 65,
+  "runtime_percentile": 5.515999999999938,
+  "status_memory": "24.7 MB",
+  "memory_percentile": 97.2413,
+  "pretty_lang": "Python",
+  "submission_id": "1695615808",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,50 @@
+Problem: longest-unequal-adjacent-groups-subsequence-i
+Submission ID: 1695590723
+Submission Time: 2025-07-12 12:11:58
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.55 MB
+
+Test Cases: 0/382 passed
+
+Last Test Case:
+Input: ["c"]
+[0]
+Expected: ["c"]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 44: AttributeError: 'Solution' object has no attribute 'getLongestSubsequence'",
+  "full_runtime_error": "AttributeError: 'Solution' object has no attribute 'getLongestSubsequence'\n    ret = Solution().getLongestSubsequence(param_1, param_2)\nLine 44 in _driver (Solution.py)\n    _driver()\nLine 58 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12548000,
+  "question_id": "3143",
+  "elapsed_time": 35,
+  "compare_result": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[\"c\"]\n[0]",
+  "expected_output": "[\"c\"]",
+  "task_finish_time": 1752347516667,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 382,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695590723",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

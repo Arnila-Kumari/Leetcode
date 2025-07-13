@@ -1,0 +1,47 @@
+Problem: design-skiplist
+Submission ID: 1695711382
+Submission Time: 2025-07-12 15:46:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 171 ms
+Memory: 22.99 MB
+
+Test Cases: 20/20 passed
+
+Runtime Percentile: 75.0%
+Memory Percentile: 62.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "171 ms",
+  "memory": 22988000,
+  "display_runtime": "171",
+  "question_id": "1337",
+  "elapsed_time": 536,
+  "compare_result": "11111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360395967,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 20,
+  "total_testcases": 20,
+  "runtime_percentile": 75.0,
+  "status_memory": "23 MB",
+  "memory_percentile": 62.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695711382",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

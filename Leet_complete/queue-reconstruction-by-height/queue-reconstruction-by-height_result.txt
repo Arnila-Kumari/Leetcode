@@ -1,0 +1,47 @@
+Problem: queue-reconstruction-by-height
+Submission ID: 1695591309
+Submission Time: 2025-07-12 12:12:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 12.94 MB
+
+Test Cases: 36/36 passed
+
+Runtime Percentile: 26.08690000000001%
+Memory Percentile: 22.360300000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 12940000,
+  "display_runtime": "15",
+  "question_id": "406",
+  "elapsed_time": 63,
+  "compare_result": "111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347558005,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 36,
+  "total_testcases": 36,
+  "runtime_percentile": 26.08690000000001,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 22.360300000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695591309",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: count-unhappy-friends
+Submission ID: 1695627013
+Submission Time: 2025-07-12 13:01:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 28 ms
+Memory: 22.80 MB
+
+Test Cases: 99/99 passed
+
+Runtime Percentile: 26.666499999999992%
+Memory Percentile: 40.00000000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "28 ms",
+  "memory": 22800000,
+  "display_runtime": "28",
+  "question_id": "1705",
+  "elapsed_time": 211,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350494823,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 99,
+  "total_testcases": 99,
+  "runtime_percentile": 26.666499999999992,
+  "status_memory": "22.8 MB",
+  "memory_percentile": 40.00000000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695627013",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

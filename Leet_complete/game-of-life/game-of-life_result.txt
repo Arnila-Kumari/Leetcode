@@ -1,0 +1,47 @@
+Problem: game-of-life
+Submission ID: 1695551572
+Submission Time: 2025-07-12 11:27:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.55 MB
+
+Test Cases: 23/23 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 13.544199999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12548000,
+  "display_runtime": "0",
+  "question_id": "289",
+  "elapsed_time": 33,
+  "compare_result": "11111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344874449,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 23,
+  "total_testcases": 23,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 13.544199999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695551572",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

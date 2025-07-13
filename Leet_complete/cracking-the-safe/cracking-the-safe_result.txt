@@ -1,0 +1,47 @@
+Problem: cracking-the-safe
+Submission ID: 1695629804
+Submission Time: 2025-07-12 13:05:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.49 MB
+
+Test Cases: 38/38 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 96.5517%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12492000,
+  "display_runtime": "0",
+  "question_id": "754",
+  "elapsed_time": 49,
+  "compare_result": "11111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350739264,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 38,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 96.5517,
+  "pretty_lang": "Python",
+  "submission_id": "1695629804",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: sum-of-floored-pairs
+Submission ID: 1695739129
+Submission Time: 2025-07-12 17:05:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1132 ms
+Memory: 27.73 MB
+
+Test Cases: 51/51 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1132 ms",
+  "memory": 27732000,
+  "display_runtime": "1132",
+  "question_id": "1326",
+  "elapsed_time": 1222,
+  "compare_result": "111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365114943,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 51,
+  "total_testcases": 51,
+  "runtime_percentile": 100,
+  "status_memory": "27.7 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695739129",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

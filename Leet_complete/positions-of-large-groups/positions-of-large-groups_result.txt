@@ -1,0 +1,47 @@
+Problem: positions-of-large-groups
+Submission ID: 1695585865
+Submission Time: 2025-07-12 12:06:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 5 ms
+Memory: 12.44 MB
+
+Test Cases: 202/202 passed
+
+Runtime Percentile: 11.258199999999999%
+Memory Percentile: 55.629099999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "5 ms",
+  "memory": 12440000,
+  "display_runtime": "5",
+  "question_id": "857",
+  "elapsed_time": 41,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347160467,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 202,
+  "total_testcases": 202,
+  "runtime_percentile": 11.258199999999999,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 55.629099999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1695585865",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

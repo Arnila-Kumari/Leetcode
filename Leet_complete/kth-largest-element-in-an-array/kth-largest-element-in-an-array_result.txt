@@ -1,0 +1,47 @@
+Problem: kth-largest-element-in-an-array
+Submission ID: 1695571408
+Submission Time: 2025-07-12 11:48:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 251 ms
+Memory: 19.77 MB
+
+Test Cases: 42/42 passed
+
+Runtime Percentile: 71.84660000000017%
+Memory Percentile: 33.77540000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "251 ms",
+  "memory": 19768000,
+  "display_runtime": "251",
+  "question_id": "215",
+  "elapsed_time": 451,
+  "compare_result": "111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346134512,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 42,
+  "total_testcases": 42,
+  "runtime_percentile": 71.84660000000017,
+  "status_memory": "19.8 MB",
+  "memory_percentile": 33.77540000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695571408",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

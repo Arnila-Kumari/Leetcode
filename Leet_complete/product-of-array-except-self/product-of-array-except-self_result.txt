@@ -1,0 +1,47 @@
+Problem: product-of-array-except-self
+Submission ID: 1695589582
+Submission Time: 2025-07-12 12:10:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 31 ms
+Memory: 19.27 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 68.38880000000003%
+Memory Percentile: 98.30720000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "31 ms",
+  "memory": 19268000,
+  "display_runtime": "31",
+  "question_id": "238",
+  "elapsed_time": 114,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347430973,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 68.38880000000003,
+  "status_memory": "19.3 MB",
+  "memory_percentile": 98.30720000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695589582",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

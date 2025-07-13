@@ -1,0 +1,47 @@
+Problem: letter-case-permutation
+Submission ID: 1695579843
+Submission Time: 2025-07-12 11:58:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 13.63 MB
+
+Test Cases: 63/63 passed
+
+Runtime Percentile: 46.15389999999999%
+Memory Percentile: 34.473%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 13628000,
+  "display_runtime": "11",
+  "question_id": "800",
+  "elapsed_time": 45,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346733798,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 63,
+  "total_testcases": 63,
+  "runtime_percentile": 46.15389999999999,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 34.473,
+  "pretty_lang": "Python",
+  "submission_id": "1695579843",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

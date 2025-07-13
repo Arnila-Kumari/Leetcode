@@ -1,0 +1,47 @@
+Problem: find-xor-beauty-of-array
+Submission ID: 1695543515
+Submission Time: 2025-07-12 11:20:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 21.67 MB
+
+Test Cases: 32/32 passed
+
+Runtime Percentile: 25.0%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 21672000,
+  "display_runtime": "11",
+  "question_id": "2621",
+  "elapsed_time": 75,
+  "compare_result": "11111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344434383,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 32,
+  "runtime_percentile": 25.0,
+  "status_memory": "21.7 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695543515",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

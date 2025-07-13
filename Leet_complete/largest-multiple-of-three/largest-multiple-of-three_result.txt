@@ -1,0 +1,47 @@
+Problem: largest-multiple-of-three
+Submission ID: 1695574277
+Submission Time: 2025-07-12 11:52:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 17 ms
+Memory: 12.80 MB
+
+Test Cases: 45/45 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 63.636399999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "17 ms",
+  "memory": 12796000,
+  "display_runtime": "17",
+  "question_id": "1277",
+  "elapsed_time": 113,
+  "compare_result": "111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346335763,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 45,
+  "total_testcases": 45,
+  "runtime_percentile": 100,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 63.636399999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1695574277",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: lexicographically-smallest-equivalent-string
+Submission ID: 1695580773
+Submission Time: 2025-07-12 11:59:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 18 ms
+Memory: 12.59 MB
+
+Test Cases: 117/117 passed
+
+Runtime Percentile: 41.2043%
+Memory Percentile: 54.2409%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "18 ms",
+  "memory": 12592000,
+  "display_runtime": "18",
+  "question_id": "1058",
+  "elapsed_time": 112,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346797355,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 117,
+  "total_testcases": 117,
+  "runtime_percentile": 41.2043,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 54.2409,
+  "pretty_lang": "Python",
+  "submission_id": "1695580773",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

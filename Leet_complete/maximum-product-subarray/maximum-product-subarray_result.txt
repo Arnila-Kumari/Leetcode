@@ -1,0 +1,47 @@
+Problem: maximum-product-subarray
+Submission ID: 1695700328
+Submission Time: 2025-07-12 15:20:14
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 12.71 MB
+
+Test Cases: 190/190 passed
+
+Runtime Percentile: 95.3934%
+Memory Percentile: 83.692%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 12712000,
+  "display_runtime": "6",
+  "question_id": "152",
+  "elapsed_time": 125,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358814150,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 190,
+  "total_testcases": 190,
+  "runtime_percentile": 95.3934,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 83.692,
+  "pretty_lang": "Python",
+  "submission_id": "1695700328",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

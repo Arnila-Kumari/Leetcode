@@ -1,0 +1,47 @@
+Problem: soup-servings
+Submission ID: 1695712542
+Submission Time: 2025-07-12 15:49:23
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 13 ms
+Memory: 13.77 MB
+
+Test Cases: 43/43 passed
+
+Runtime Percentile: 85.7144%
+Memory Percentile: 94.2858%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "13 ms",
+  "memory": 13768000,
+  "display_runtime": "13",
+  "question_id": "826",
+  "elapsed_time": 48,
+  "compare_result": "1111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360562641,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 43,
+  "total_testcases": 43,
+  "runtime_percentile": 85.7144,
+  "status_memory": "13.8 MB",
+  "memory_percentile": 94.2858,
+  "pretty_lang": "Python",
+  "submission_id": "1695712542",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

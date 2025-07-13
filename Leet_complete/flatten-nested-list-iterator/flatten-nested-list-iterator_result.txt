@@ -1,0 +1,46 @@
+Problem: flatten-nested-list-iterator
+Submission ID: 1695546402
+Submission Time: 2025-07-12 11:23:14
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 57 ms ms
+Memory: 18.43 MB
+
+Test Cases: 43/43 passed
+
+Runtime Percentile: 33.879799999999975%
+Memory Percentile: 22.131199999999986%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "57 ms",
+  "memory": 18432000,
+  "question_id": "341",
+  "elapsed_time": 77,
+  "compare_result": "1111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344594348,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 43,
+  "total_testcases": 43,
+  "runtime_percentile": 33.879799999999975,
+  "status_memory": "18.4 MB",
+  "memory_percentile": 22.131199999999986,
+  "pretty_lang": "Python",
+  "submission_id": "1695546402",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

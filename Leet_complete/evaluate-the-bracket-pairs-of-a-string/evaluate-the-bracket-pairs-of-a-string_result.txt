@@ -1,0 +1,47 @@
+Problem: evaluate-the-bracket-pairs-of-a-string
+Submission ID: 1695681932
+Submission Time: 2025-07-12 14:40:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 99 ms
+Memory: 55.85 MB
+
+Test Cases: 105/105 passed
+
+Runtime Percentile: 52.38100000000002%
+Memory Percentile: 52.381000000000014%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "99 ms",
+  "memory": 55852000,
+  "display_runtime": "99",
+  "question_id": "1934",
+  "elapsed_time": 209,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356437755,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 105,
+  "total_testcases": 105,
+  "runtime_percentile": 52.38100000000002,
+  "status_memory": "55.9 MB",
+  "memory_percentile": 52.381000000000014,
+  "pretty_lang": "Python",
+  "submission_id": "1695681932",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

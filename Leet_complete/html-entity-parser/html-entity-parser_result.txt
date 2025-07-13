@@ -1,0 +1,47 @@
+Problem: html-entity-parser
+Submission ID: 1695560267
+Submission Time: 2025-07-12 11:36:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 895 ms
+Memory: 14.60 MB
+
+Test Cases: 171/171 passed
+
+Runtime Percentile: 6.667300000000031%
+Memory Percentile: 16.666700000000013%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "895 ms",
+  "memory": 14600000,
+  "display_runtime": "895",
+  "question_id": "1526",
+  "elapsed_time": 1021,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345394212,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 171,
+  "total_testcases": 171,
+  "runtime_percentile": 6.667300000000031,
+  "status_memory": "14.6 MB",
+  "memory_percentile": 16.666700000000013,
+  "pretty_lang": "Python",
+  "submission_id": "1695560267",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

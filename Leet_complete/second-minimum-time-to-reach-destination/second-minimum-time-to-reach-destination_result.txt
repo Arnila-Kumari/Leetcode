@@ -1,0 +1,55 @@
+Problem: second-minimum-time-to-reach-destination
+Submission ID: 1695712448
+Submission Time: 2025-07-12 15:49:10
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 135 ms
+Memory: 19.85 MB
+
+Test Cases: 73/77 passed
+
+Last Test Case:
+Input: 5
+[[3,1],[1,4],[5,4],[3,2],[1,2],[2,5],[3,5]]
+5
+4
+Expected: 21
+
+Code Output: 29
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 19848000,
+  "display_runtime": "135",
+  "question_id": "2171",
+  "elapsed_time": 264,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111110101101101111111111",
+  "code_output": "29",
+  "std_output": "",
+  "last_testcase": "5\n[[3,1],[1,4],[5,4],[3,2],[1,2],[2,5],[3,5]]\n5\n4",
+  "expected_output": "21",
+  "task_finish_time": 1752360547552,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 73,
+  "total_testcases": 77,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695712448",
+  "input_formatted": "5, [[3,1],[1,4],[5,4],[3,2],[1,2],[2,5],[3,5]], 5, 4",
+  "input": "5\n[[3,1],[1,4],[5,4],[3,2],[1,2],[2,5],[3,5]]\n5\n4",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

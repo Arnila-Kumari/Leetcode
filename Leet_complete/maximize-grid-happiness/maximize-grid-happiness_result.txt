@@ -1,0 +1,47 @@
+Problem: maximize-grid-happiness
+Submission ID: 1695616962
+Submission Time: 2025-07-12 12:46:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1235 ms
+Memory: 12.60 MB
+
+Test Cases: 67/67 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1235 ms",
+  "memory": 12604000,
+  "display_runtime": "1235",
+  "question_id": "1778",
+  "elapsed_time": 1290,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349597277,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 67,
+  "total_testcases": 67,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695616962",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

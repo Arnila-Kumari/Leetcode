@@ -1,0 +1,46 @@
+Problem: string-without-aaa-or-bbb
+Submission ID: 1695697733
+Submission Time: 2025-07-12 15:14:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 18 ms ms
+Memory: 12.41 MB
+
+Test Cases: 103/103 passed
+
+Runtime Percentile: 34.14650000000002%
+Memory Percentile: 58.53659999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "18 ms",
+  "memory": 12412000,
+  "question_id": "1026",
+  "elapsed_time": 35,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358455843,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 103,
+  "total_testcases": 103,
+  "runtime_percentile": 34.14650000000002,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 58.53659999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695697733",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

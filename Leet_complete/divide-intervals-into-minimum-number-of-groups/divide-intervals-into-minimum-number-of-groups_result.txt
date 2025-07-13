@@ -1,0 +1,47 @@
+Problem: divide-intervals-into-minimum-number-of-groups
+Submission ID: 1695684334
+Submission Time: 2025-07-12 14:45:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 283 ms
+Memory: 58.79 MB
+
+Test Cases: 35/35 passed
+
+Runtime Percentile: 82.75849999999998%
+Memory Percentile: 13.792699999999975%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "283 ms",
+  "memory": 58788000,
+  "display_runtime": "283",
+  "question_id": "2488",
+  "elapsed_time": 386,
+  "compare_result": "11111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356714611,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 35,
+  "total_testcases": 35,
+  "runtime_percentile": 82.75849999999998,
+  "status_memory": "58.8 MB",
+  "memory_percentile": 13.792699999999975,
+  "pretty_lang": "Python",
+  "submission_id": "1695684334",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

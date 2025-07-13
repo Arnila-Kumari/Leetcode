@@ -1,0 +1,47 @@
+Problem: decrease-elements-to-make-array-zigzag
+Submission ID: 1695697162
+Submission Time: 2025-07-12 15:13:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.54 MB
+
+Test Cases: 37/37 passed
+
+Runtime Percentile: 56.6667%
+Memory Percentile: 63.333299999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12540000,
+  "display_runtime": "3",
+  "question_id": "1247",
+  "elapsed_time": 34,
+  "compare_result": "1111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358385056,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 37,
+  "total_testcases": 37,
+  "runtime_percentile": 56.6667,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 63.333299999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1695697162",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,46 @@
+Problem: taking-maximum-energy-from-the-mystic-dungeon
+Submission ID: 1695689851
+Submission Time: 2025-07-12 14:57:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1297 ms ms
+Memory: 22.80 MB
+
+Test Cases: 533/533 passed
+
+Runtime Percentile: 33.333299999999994%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1297 ms",
+  "memory": 22796000,
+  "question_id": "3383",
+  "elapsed_time": 1471,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357433916,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 533,
+  "total_testcases": 533,
+  "runtime_percentile": 33.333299999999994,
+  "status_memory": "22.8 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695689851",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

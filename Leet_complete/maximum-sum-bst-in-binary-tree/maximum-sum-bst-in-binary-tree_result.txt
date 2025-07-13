@@ -1,0 +1,47 @@
+Problem: maximum-sum-bst-in-binary-tree
+Submission ID: 1695690661
+Submission Time: 2025-07-12 14:59:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 472 ms
+Memory: 50.14 MB
+
+Test Cases: 60/60 passed
+
+Runtime Percentile: 5.405499999999975%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "472 ms",
+  "memory": 50144000,
+  "display_runtime": "472",
+  "question_id": "1475",
+  "elapsed_time": 816,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357543860,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 60,
+  "total_testcases": 60,
+  "runtime_percentile": 5.405499999999975,
+  "status_memory": "50.1 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695690661",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

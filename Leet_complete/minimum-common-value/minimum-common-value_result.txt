@@ -1,0 +1,47 @@
+Problem: minimum-common-value
+Submission ID: 1695701750
+Submission Time: 2025-07-12 15:23:34
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 10 ms
+Memory: 24.20 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 90.1735%
+Memory Percentile: 97.3988%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "10 ms",
+  "memory": 24200000,
+  "display_runtime": "10",
+  "question_id": "2634",
+  "elapsed_time": 78,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752359013263,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 90.1735,
+  "status_memory": "24.2 MB",
+  "memory_percentile": 97.3988,
+  "pretty_lang": "Python",
+  "submission_id": "1695701750",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

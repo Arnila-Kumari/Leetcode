@@ -1,0 +1,47 @@
+Problem: minimum-sideway-jumps
+Submission ID: 1695696349
+Submission Time: 2025-07-12 15:11:23
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 567 ms
+Memory: 24.36 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 93.3333%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "567 ms",
+  "memory": 24364000,
+  "display_runtime": "567",
+  "question_id": "1952",
+  "elapsed_time": 794,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358281033,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 100,
+  "status_memory": "24.4 MB",
+  "memory_percentile": 93.3333,
+  "pretty_lang": "Python",
+  "submission_id": "1695696349",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

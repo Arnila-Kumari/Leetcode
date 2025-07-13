@@ -1,0 +1,47 @@
+Problem: probability-of-a-two-boxes-having-the-same-number-of-distinct-balls
+Submission ID: 1695677619
+Submission Time: 2025-07-12 14:31:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.60 MB
+
+Test Cases: 21/21 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 20.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12600000,
+  "display_runtime": "3",
+  "question_id": "1577",
+  "elapsed_time": 38,
+  "compare_result": "111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355902806,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 21,
+  "total_testcases": 21,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 20.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695677619",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: rectangle-overlap
+Submission ID: 1695596888
+Submission Time: 2025-07-12 12:19:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.51 MB
+
+Test Cases: 40/40 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 11.224500000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12512000,
+  "display_runtime": "0",
+  "question_id": "866",
+  "elapsed_time": 35,
+  "compare_result": "1111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347969763,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 40,
+  "total_testcases": 40,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 11.224500000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695596888",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

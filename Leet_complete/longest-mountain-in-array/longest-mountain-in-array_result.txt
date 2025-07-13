@@ -1,0 +1,47 @@
+Problem: longest-mountain-in-array
+Submission ID: 1695586700
+Submission Time: 2025-07-12 12:06:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 22 ms
+Memory: 13.15 MB
+
+Test Cases: 75/75 passed
+
+Runtime Percentile: 18.309900000000006%
+Memory Percentile: 81.338%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "22 ms",
+  "memory": 13148000,
+  "display_runtime": "22",
+  "question_id": "875",
+  "elapsed_time": 86,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347214985,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 75,
+  "total_testcases": 75,
+  "runtime_percentile": 18.309900000000006,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 81.338,
+  "pretty_lang": "Python",
+  "submission_id": "1695586700",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

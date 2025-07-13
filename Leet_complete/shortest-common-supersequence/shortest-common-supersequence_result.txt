@@ -1,0 +1,47 @@
+Problem: shortest-common-supersequence
+Submission ID: 1695740074
+Submission Time: 2025-07-12 17:07:41
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1306 ms
+Memory: 132.72 MB
+
+Test Cases: 50/50 passed
+
+Runtime Percentile: 5.372000000000057%
+Memory Percentile: 22.81930000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1306 ms",
+  "memory": 132716000,
+  "display_runtime": "1306",
+  "question_id": "1170",
+  "elapsed_time": 1359,
+  "compare_result": "11111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365259956,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 50,
+  "total_testcases": 50,
+  "runtime_percentile": 5.372000000000057,
+  "status_memory": "132.7 MB",
+  "memory_percentile": 22.81930000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695740074",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

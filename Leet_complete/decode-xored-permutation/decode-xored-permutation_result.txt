@@ -1,0 +1,47 @@
+Problem: decode-xored-permutation
+Submission ID: 1695699447
+Submission Time: 2025-07-12 15:18:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 83 ms
+Memory: 32.37 MB
+
+Test Cases: 63/63 passed
+
+Runtime Percentile: 8.333500000000017%
+Memory Percentile: 33.33340000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "83 ms",
+  "memory": 32368000,
+  "display_runtime": "83",
+  "question_id": "1835",
+  "elapsed_time": 205,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358688812,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 63,
+  "total_testcases": 63,
+  "runtime_percentile": 8.333500000000017,
+  "status_memory": "32.4 MB",
+  "memory_percentile": 33.33340000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695699447",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

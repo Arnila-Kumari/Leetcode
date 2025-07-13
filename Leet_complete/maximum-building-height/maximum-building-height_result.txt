@@ -1,0 +1,47 @@
+Problem: maximum-building-height
+Submission ID: 1695622033
+Submission Time: 2025-07-12 12:54:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 354 ms
+Memory: 36.27 MB
+
+Test Cases: 50/50 passed
+
+Runtime Percentile: 25.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "354 ms",
+  "memory": 36272000,
+  "display_runtime": "354",
+  "question_id": "1968",
+  "elapsed_time": 509,
+  "compare_result": "11111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350045393,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 50,
+  "total_testcases": 50,
+  "runtime_percentile": 25.0,
+  "status_memory": "36.3 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695622033",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

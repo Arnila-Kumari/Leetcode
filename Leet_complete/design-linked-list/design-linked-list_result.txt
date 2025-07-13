@@ -1,0 +1,47 @@
+Problem: design-linked-list
+Submission ID: 1695679776
+Submission Time: 2025-07-12 14:36:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 58 ms
+Memory: 14.57 MB
+
+Test Cases: 66/66 passed
+
+Runtime Percentile: 94.22689999999987%
+Memory Percentile: 17.864899999999984%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "58 ms",
+  "memory": 14572000,
+  "display_runtime": "58",
+  "question_id": "838",
+  "elapsed_time": 265,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356175594,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 66,
+  "total_testcases": 66,
+  "runtime_percentile": 94.22689999999987,
+  "status_memory": "14.6 MB",
+  "memory_percentile": 17.864899999999984,
+  "pretty_lang": "Python",
+  "submission_id": "1695679776",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

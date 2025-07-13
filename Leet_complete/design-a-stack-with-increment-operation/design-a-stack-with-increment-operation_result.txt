@@ -1,0 +1,47 @@
+Problem: design-a-stack-with-increment-operation
+Submission ID: 1695710497
+Submission Time: 2025-07-12 15:44:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 24 ms
+Memory: 13.16 MB
+
+Test Cases: 34/34 passed
+
+Runtime Percentile: 77.91399999999999%
+Memory Percentile: 54.601200000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "24 ms",
+  "memory": 13156000,
+  "display_runtime": "24",
+  "question_id": "1497",
+  "elapsed_time": 221,
+  "compare_result": "1111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360264082,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 34,
+  "total_testcases": 34,
+  "runtime_percentile": 77.91399999999999,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 54.601200000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695710497",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

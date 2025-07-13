@@ -1,0 +1,47 @@
+Problem: as-far-from-land-as-possible
+Submission ID: 1695556536
+Submission Time: 2025-07-12 11:32:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 215 ms
+Memory: 12.89 MB
+
+Test Cases: 38/38 passed
+
+Runtime Percentile: 48.64770000000001%
+Memory Percentile: 68.9189%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "215 ms",
+  "memory": 12892000,
+  "display_runtime": "215",
+  "question_id": "1117",
+  "elapsed_time": 258,
+  "compare_result": "11111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345155813,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 38,
+  "runtime_percentile": 48.64770000000001,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 68.9189,
+  "pretty_lang": "Python",
+  "submission_id": "1695556536",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

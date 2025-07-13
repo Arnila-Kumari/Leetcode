@@ -1,0 +1,47 @@
+Problem: minimum-time-to-finish-the-race
+Submission ID: 1695543827
+Submission Time: 2025-07-12 11:20:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 584 ms
+Memory: 41.87 MB
+
+Test Cases: 58/58 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 87.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "584 ms",
+  "memory": 41872000,
+  "display_runtime": "584",
+  "question_id": "2295",
+  "elapsed_time": 1073,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344452571,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 58,
+  "total_testcases": 58,
+  "runtime_percentile": 100,
+  "status_memory": "41.9 MB",
+  "memory_percentile": 87.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695543827",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

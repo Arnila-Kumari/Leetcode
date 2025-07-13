@@ -1,0 +1,47 @@
+Problem: find-the-smallest-divisor-given-a-threshold
+Submission ID: 1695676596
+Submission Time: 2025-07-12 14:29:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 141 ms
+Memory: 15.32 MB
+
+Test Cases: 71/71 passed
+
+Runtime Percentile: 77.57590000000005%
+Memory Percentile: 36.21210000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "141 ms",
+  "memory": 15316000,
+  "display_runtime": "141",
+  "question_id": "1408",
+  "elapsed_time": 191,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355777601,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 71,
+  "total_testcases": 71,
+  "runtime_percentile": 77.57590000000005,
+  "status_memory": "15.3 MB",
+  "memory_percentile": 36.21210000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695676596",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

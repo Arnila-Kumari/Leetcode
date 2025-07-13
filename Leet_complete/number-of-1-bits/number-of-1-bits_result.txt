@@ -1,0 +1,49 @@
+Problem: number-of-1-bits
+Submission ID: 1695557531
+Submission Time: 2025-07-12 11:33:42
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 6.59 MB
+
+Test Cases: 0/598 passed
+
+Last Test Case:
+Input: 11
+Expected: 3
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 61: SyntaxError: invalid syntax",
+  "full_runtime_error": "SyntaxError: invalid syntax\n                             ^\n    def hammingWeight(self, n: int) -> int:\nLine 61  (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 6588000,
+  "question_id": "191",
+  "elapsed_time": 17,
+  "compare_result": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "11",
+  "expected_output": "3",
+  "task_finish_time": 1752345221041,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 598,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695557531",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

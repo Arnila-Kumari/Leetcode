@@ -1,0 +1,47 @@
+Problem: decompress-run-length-encoded-list
+Submission ID: 1695684922
+Submission Time: 2025-07-12 14:46:32
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.54 MB
+
+Test Cases: 53/53 passed
+
+Runtime Percentile: 6.572800000000006%
+Memory Percentile: 94.3662%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12540000,
+  "display_runtime": "7",
+  "question_id": "1241",
+  "elapsed_time": 38,
+  "compare_result": "11111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356790767,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 53,
+  "total_testcases": 53,
+  "runtime_percentile": 6.572800000000006,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 94.3662,
+  "pretty_lang": "Python",
+  "submission_id": "1695684922",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

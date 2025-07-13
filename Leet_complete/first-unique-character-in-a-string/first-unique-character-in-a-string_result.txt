@@ -1,0 +1,47 @@
+Problem: first-unique-character-in-a-string
+Submission ID: 1695545472
+Submission Time: 2025-07-12 11:22:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 96 ms
+Memory: 12.79 MB
+
+Test Cases: 107/107 passed
+
+Runtime Percentile: 64.78469999999996%
+Memory Percentile: 69.59019999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "96 ms",
+  "memory": 12792000,
+  "display_runtime": "96",
+  "question_id": "387",
+  "elapsed_time": 136,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344545229,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 107,
+  "total_testcases": 107,
+  "runtime_percentile": 64.78469999999996,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 69.59019999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695545472",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

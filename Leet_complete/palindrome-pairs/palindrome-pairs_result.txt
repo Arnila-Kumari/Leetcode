@@ -1,0 +1,47 @@
+Problem: palindrome-pairs
+Submission ID: 1695576850
+Submission Time: 2025-07-12 11:55:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 904 ms
+Memory: 25.06 MB
+
+Test Cases: 136/136 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 95.3705%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "904 ms",
+  "memory": 25056000,
+  "display_runtime": "904",
+  "question_id": "336",
+  "elapsed_time": 989,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346518574,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 136,
+  "total_testcases": 136,
+  "runtime_percentile": 100,
+  "status_memory": "25.1 MB",
+  "memory_percentile": 95.3705,
+  "pretty_lang": "Python",
+  "submission_id": "1695576850",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: valid-tic-tac-toe-state
+Submission ID: 1695677370
+Submission Time: 2025-07-12 14:31:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.55 MB
+
+Test Cases: 111/111 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 4.347800000000003%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12552000,
+  "display_runtime": "0",
+  "question_id": "810",
+  "elapsed_time": 34,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355872859,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 111,
+  "total_testcases": 111,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 4.347800000000003,
+  "pretty_lang": "Python",
+  "submission_id": "1695677370",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

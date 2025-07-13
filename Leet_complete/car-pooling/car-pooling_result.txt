@@ -1,0 +1,47 @@
+Problem: car-pooling
+Submission ID: 1695571874
+Submission Time: 2025-07-12 11:49:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.80 MB
+
+Test Cases: 59/59 passed
+
+Runtime Percentile: 41.86039999999999%
+Memory Percentile: 19.638199999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12800000,
+  "display_runtime": "7",
+  "question_id": "1184",
+  "elapsed_time": 38,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346166650,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 59,
+  "total_testcases": 59,
+  "runtime_percentile": 41.86039999999999,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 19.638199999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695571874",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

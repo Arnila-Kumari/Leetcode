@@ -1,0 +1,47 @@
+Problem: longest-word-in-dictionary
+Submission ID: 1695591659
+Submission Time: 2025-07-12 12:13:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 50 ms
+Memory: 13.50 MB
+
+Test Cases: 59/59 passed
+
+Runtime Percentile: 38.686099999999975%
+Memory Percentile: 15.3285%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "50 ms",
+  "memory": 13504000,
+  "display_runtime": "50",
+  "question_id": "720",
+  "elapsed_time": 108,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347584308,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 59,
+  "total_testcases": 59,
+  "runtime_percentile": 38.686099999999975,
+  "status_memory": "13.5 MB",
+  "memory_percentile": 15.3285,
+  "pretty_lang": "Python",
+  "submission_id": "1695591659",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

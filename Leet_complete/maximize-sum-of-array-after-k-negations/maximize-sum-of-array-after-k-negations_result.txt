@@ -1,0 +1,50 @@
+Problem: maximize-sum-of-array-after-k-negations
+Submission ID: 1695618160
+Submission Time: 2025-07-12 12:48:24
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.46 MB
+
+Test Cases: 79/83 passed
+
+Last Test Case:
+Input: [-4,-2,-3]
+4
+Expected: 5
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 41: IndexError: list index out of range",
+  "full_runtime_error": "IndexError: list index out of range\n    if A[i] < 0:\nLine 41 in largestSumAfterKNegations (Solution.py)\n    ret = Solution().largestSumAfterKNegations(param_1, param_2)\nLine 94 in _driver (Solution.py)\n    _driver()\nLine 108 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12460000,
+  "question_id": "1047",
+  "elapsed_time": 42,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111110000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[-4,-2,-3]\n4",
+  "expected_output": "5",
+  "task_finish_time": 1752349703681,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 79,
+  "total_testcases": 83,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695618160",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

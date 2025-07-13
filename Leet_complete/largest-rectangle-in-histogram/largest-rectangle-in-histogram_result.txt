@@ -1,0 +1,47 @@
+Problem: largest-rectangle-in-histogram
+Submission ID: 1695575873
+Submission Time: 2025-07-12 11:54:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 234 ms
+Memory: 20.40 MB
+
+Test Cases: 99/99 passed
+
+Runtime Percentile: 28.62899999999994%
+Memory Percentile: 98.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "234 ms",
+  "memory": 20396000,
+  "display_runtime": "234",
+  "question_id": "84",
+  "elapsed_time": 312,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346447663,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 99,
+  "total_testcases": 99,
+  "runtime_percentile": 28.62899999999994,
+  "status_memory": "20.4 MB",
+  "memory_percentile": 98.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695575873",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

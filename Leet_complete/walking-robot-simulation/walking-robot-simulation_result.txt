@@ -1,0 +1,47 @@
+Problem: walking-robot-simulation
+Submission ID: 1695700800
+Submission Time: 2025-07-12 15:21:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 79 ms
+Memory: 17.26 MB
+
+Test Cases: 51/51 passed
+
+Runtime Percentile: 22.221599999999945%
+Memory Percentile: 34.72219999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "79 ms",
+  "memory": 17256000,
+  "display_runtime": "79",
+  "question_id": "906",
+  "elapsed_time": 129,
+  "compare_result": "111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358883276,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 51,
+  "total_testcases": 51,
+  "runtime_percentile": 22.221599999999945,
+  "status_memory": "17.3 MB",
+  "memory_percentile": 34.72219999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695700800",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

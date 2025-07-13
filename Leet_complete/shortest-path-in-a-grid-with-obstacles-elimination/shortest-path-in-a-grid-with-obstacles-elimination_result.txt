@@ -1,0 +1,47 @@
+Problem: shortest-path-in-a-grid-with-obstacles-elimination
+Submission ID: 1695710581
+Submission Time: 2025-07-12 15:44:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 13.00 MB
+
+Test Cases: 55/55 passed
+
+Runtime Percentile: 97.78750000000001%
+Memory Percentile: 86.7257%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 13000000,
+  "display_runtime": "15",
+  "question_id": "1414",
+  "elapsed_time": 47,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360276299,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 55,
+  "total_testcases": 55,
+  "runtime_percentile": 97.78750000000001,
+  "status_memory": "13 MB",
+  "memory_percentile": 86.7257,
+  "pretty_lang": "Python",
+  "submission_id": "1695710581",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

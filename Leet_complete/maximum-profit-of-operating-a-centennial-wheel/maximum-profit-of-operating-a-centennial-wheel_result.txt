@@ -1,0 +1,47 @@
+Problem: maximum-profit-of-operating-a-centennial-wheel
+Submission ID: 1695682266
+Submission Time: 2025-07-12 14:41:20
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1043 ms
+Memory: 15.31 MB
+
+Test Cases: 145/145 passed
+
+Runtime Percentile: 46.15389999999998%
+Memory Percentile: 30.769299999999987%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1043 ms",
+  "memory": 15308000,
+  "display_runtime": "1043",
+  "question_id": "1721",
+  "elapsed_time": 1311,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356479003,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 145,
+  "total_testcases": 145,
+  "runtime_percentile": 46.15389999999998,
+  "status_memory": "15.3 MB",
+  "memory_percentile": 30.769299999999987,
+  "pretty_lang": "Python",
+  "submission_id": "1695682266",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

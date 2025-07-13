@@ -1,0 +1,47 @@
+Problem: online-election
+Submission ID: 1695574442
+Submission Time: 2025-07-12 11:52:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 221 ms
+Memory: 18.47 MB
+
+Test Cases: 98/98 passed
+
+Runtime Percentile: 60.37720000000009%
+Memory Percentile: 11.320700000000016%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "221 ms",
+  "memory": 18472000,
+  "display_runtime": "221",
+  "question_id": "947",
+  "elapsed_time": 1648,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346349282,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 98,
+  "total_testcases": 98,
+  "runtime_percentile": 60.37720000000009,
+  "status_memory": "18.5 MB",
+  "memory_percentile": 11.320700000000016,
+  "pretty_lang": "Python",
+  "submission_id": "1695574442",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

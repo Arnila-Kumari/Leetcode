@@ -1,0 +1,47 @@
+Problem: remove-duplicates-from-sorted-array
+Submission ID: 1695690517
+Submission Time: 2025-07-12 14:58:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 13.26 MB
+
+Test Cases: 362/362 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 88.5445%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 13256000,
+  "display_runtime": "0",
+  "question_id": "26",
+  "elapsed_time": 42,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357524593,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 362,
+  "total_testcases": 362,
+  "runtime_percentile": 100,
+  "status_memory": "13.3 MB",
+  "memory_percentile": 88.5445,
+  "pretty_lang": "Python",
+  "submission_id": "1695690517",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

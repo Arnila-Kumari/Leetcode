@@ -1,0 +1,47 @@
+Problem: escape-the-ghosts
+Submission ID: 1695711255
+Submission Time: 2025-07-12 15:46:20
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.48 MB
+
+Test Cases: 77/77 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 57.446799999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12476000,
+  "display_runtime": "0",
+  "question_id": "805",
+  "elapsed_time": 35,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360378047,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 77,
+  "total_testcases": 77,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 57.446799999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695711255",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

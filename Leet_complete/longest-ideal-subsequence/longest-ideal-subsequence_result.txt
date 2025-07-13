@@ -1,0 +1,47 @@
+Problem: longest-ideal-subsequence
+Submission ID: 1695586144
+Submission Time: 2025-07-12 12:06:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 830 ms
+Memory: 12.84 MB
+
+Test Cases: 85/85 passed
+
+Runtime Percentile: 76.47039999999998%
+Memory Percentile: 94.1176%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "830 ms",
+  "memory": 12840000,
+  "display_runtime": "830",
+  "question_id": "2444",
+  "elapsed_time": 863,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347177661,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 85,
+  "total_testcases": 85,
+  "runtime_percentile": 76.47039999999998,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 94.1176,
+  "pretty_lang": "Python",
+  "submission_id": "1695586144",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

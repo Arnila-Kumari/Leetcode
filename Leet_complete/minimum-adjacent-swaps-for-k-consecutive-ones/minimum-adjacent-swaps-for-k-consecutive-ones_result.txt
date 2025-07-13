@@ -1,0 +1,47 @@
+Problem: minimum-adjacent-swaps-for-k-consecutive-ones
+Submission ID: 1695692338
+Submission Time: 2025-07-12 15:02:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 171 ms
+Memory: 20.16 MB
+
+Test Cases: 117/117 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 90.9091%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "171 ms",
+  "memory": 20156000,
+  "display_runtime": "171",
+  "question_id": "1805",
+  "elapsed_time": 246,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357763721,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 117,
+  "total_testcases": 117,
+  "runtime_percentile": 100,
+  "status_memory": "20.2 MB",
+  "memory_percentile": 90.9091,
+  "pretty_lang": "Python",
+  "submission_id": "1695692338",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

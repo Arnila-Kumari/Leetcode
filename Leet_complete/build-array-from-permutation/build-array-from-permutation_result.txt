@@ -1,0 +1,47 @@
+Problem: build-array-from-permutation
+Submission ID: 1695567707
+Submission Time: 2025-07-12 11:44:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 14 ms
+Memory: 12.68 MB
+
+Test Cases: 140/140 passed
+
+Runtime Percentile: 5.150000000000002%
+Memory Percentile: 63.03789999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "14 ms",
+  "memory": 12676000,
+  "display_runtime": "14",
+  "question_id": "2048",
+  "elapsed_time": 89,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345888277,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 140,
+  "total_testcases": 140,
+  "runtime_percentile": 5.150000000000002,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 63.03789999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695567707",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,46 @@
+Problem: print-in-order
+Submission ID: 1695588853
+Submission Time: 2025-07-12 12:09:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 34 ms ms
+Memory: 12.71 MB
+
+Test Cases: 36/36 passed
+
+Runtime Percentile: 37.93089999999998%
+Memory Percentile: 12.643800000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "34 ms",
+  "memory": 12708000,
+  "question_id": "1203",
+  "elapsed_time": 2764,
+  "compare_result": "111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347374478,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 36,
+  "total_testcases": 36,
+  "runtime_percentile": 37.93089999999998,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 12.643800000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695588853",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

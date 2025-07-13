@@ -1,0 +1,47 @@
+Problem: special-array-with-x-elements-greater-than-or-equal-x
+Submission ID: 1695697633
+Submission Time: 2025-07-12 15:14:03
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.61 MB
+
+Test Cases: 98/98 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12612000,
+  "display_runtime": "0",
+  "question_id": "1730",
+  "elapsed_time": 40,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358442254,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 98,
+  "total_testcases": 98,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 0,
+  "pretty_lang": "Python",
+  "submission_id": "1695697633",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

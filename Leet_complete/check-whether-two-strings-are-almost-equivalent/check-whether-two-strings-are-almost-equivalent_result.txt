@@ -1,0 +1,47 @@
+Problem: check-whether-two-strings-are-almost-equivalent
+Submission ID: 1695581020
+Submission Time: 2025-07-12 12:00:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 12.50 MB
+
+Test Cases: 196/196 passed
+
+Runtime Percentile: 16.666500000000003%
+Memory Percentile: 9.770099999999985%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 12504000,
+  "display_runtime": "6",
+  "question_id": "2177",
+  "elapsed_time": 40,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346814829,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 196,
+  "total_testcases": 196,
+  "runtime_percentile": 16.666500000000003,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 9.770099999999985,
+  "pretty_lang": "Python",
+  "submission_id": "1695581020",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

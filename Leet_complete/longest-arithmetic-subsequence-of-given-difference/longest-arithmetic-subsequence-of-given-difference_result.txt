@@ -1,0 +1,47 @@
+Problem: longest-arithmetic-subsequence-of-given-difference
+Submission ID: 1695583499
+Submission Time: 2025-07-12 12:03:14
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 95 ms
+Memory: 21.41 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 35.184400000000004%
+Memory Percentile: 18.518500000000003%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "95 ms",
+  "memory": 21408000,
+  "display_runtime": "95",
+  "question_id": "1330",
+  "elapsed_time": 163,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346993760,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 35.184400000000004,
+  "status_memory": "21.4 MB",
+  "memory_percentile": 18.518500000000003,
+  "pretty_lang": "Python",
+  "submission_id": "1695583499",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

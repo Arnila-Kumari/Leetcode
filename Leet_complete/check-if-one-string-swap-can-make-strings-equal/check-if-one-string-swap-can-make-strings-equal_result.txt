@@ -1,0 +1,47 @@
+Problem: check-if-one-string-swap-can-make-strings-equal
+Submission ID: 1695578420
+Submission Time: 2025-07-12 11:57:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.55 MB
+
+Test Cases: 137/137 passed
+
+Runtime Percentile: 23.7196%
+Memory Percentile: 11.320799999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12548000,
+  "display_runtime": "3",
+  "question_id": "1915",
+  "elapsed_time": 33,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346627421,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 137,
+  "total_testcases": 137,
+  "runtime_percentile": 23.7196,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 11.320799999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695578420",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,46 @@
+Problem: number-of-strings-which-can-be-rearranged-to-contain-substring
+Submission ID: 1695566476
+Submission Time: 2025-07-12 11:43:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 27 ms ms
+Memory: 12.31 MB
+
+Test Cases: 264/264 passed
+
+Runtime Percentile: 0.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "27 ms",
+  "memory": 12312000,
+  "question_id": "3200",
+  "elapsed_time": 45,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345808603,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 264,
+  "total_testcases": 264,
+  "runtime_percentile": 0.0,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695566476",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

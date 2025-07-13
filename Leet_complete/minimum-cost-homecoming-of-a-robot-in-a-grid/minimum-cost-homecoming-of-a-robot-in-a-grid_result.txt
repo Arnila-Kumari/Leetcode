@@ -1,0 +1,47 @@
+Problem: minimum-cost-homecoming-of-a-robot-in-a-grid
+Submission ID: 1695741020
+Submission Time: 2025-07-12 17:10:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 23 ms
+Memory: 20.82 MB
+
+Test Cases: 69/69 passed
+
+Runtime Percentile: 90.32259999999998%
+Memory Percentile: 83.871%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "23 ms",
+  "memory": 20824000,
+  "display_runtime": "23",
+  "question_id": "2192",
+  "elapsed_time": 112,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365404088,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 69,
+  "total_testcases": 69,
+  "runtime_percentile": 90.32259999999998,
+  "status_memory": "20.8 MB",
+  "memory_percentile": 83.871,
+  "pretty_lang": "Python",
+  "submission_id": "1695741020",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

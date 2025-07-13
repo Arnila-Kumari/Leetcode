@@ -1,0 +1,47 @@
+Problem: out-of-boundary-paths
+Submission ID: 1695575626
+Submission Time: 2025-07-12 11:53:52
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 99 ms
+Memory: 12.62 MB
+
+Test Cases: 94/94 passed
+
+Runtime Percentile: 43.7503%
+Memory Percentile: 95.83340000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "99 ms",
+  "memory": 12620000,
+  "display_runtime": "99",
+  "question_id": "576",
+  "elapsed_time": 138,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346430618,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 94,
+  "total_testcases": 94,
+  "runtime_percentile": 43.7503,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 95.83340000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695575626",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

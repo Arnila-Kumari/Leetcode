@@ -1,0 +1,47 @@
+Problem: perfect-number
+Submission ID: 1695583593
+Submission Time: 2025-07-12 12:03:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 8 ms
+Memory: 12.55 MB
+
+Test Cases: 98/98 passed
+
+Runtime Percentile: 30.769099999999984%
+Memory Percentile: 51.70940000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "8 ms",
+  "memory": 12548000,
+  "display_runtime": "8",
+  "question_id": "507",
+  "elapsed_time": 42,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347000828,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 98,
+  "total_testcases": 98,
+  "runtime_percentile": 30.769099999999984,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 51.70940000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695583593",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

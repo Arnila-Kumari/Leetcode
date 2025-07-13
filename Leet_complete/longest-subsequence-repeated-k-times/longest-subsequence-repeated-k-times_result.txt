@@ -1,0 +1,47 @@
+Problem: longest-subsequence-repeated-k-times
+Submission ID: 1695589421
+Submission Time: 2025-07-12 12:10:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1379 ms
+Memory: 12.48 MB
+
+Test Cases: 314/314 passed
+
+Runtime Percentile: 66.79070000000029%
+Memory Percentile: 71.69810000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1379 ms",
+  "memory": 12476000,
+  "display_runtime": "1379",
+  "question_id": "2140",
+  "elapsed_time": 1443,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347418025,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 314,
+  "total_testcases": 314,
+  "runtime_percentile": 66.79070000000029,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 71.69810000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695589421",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

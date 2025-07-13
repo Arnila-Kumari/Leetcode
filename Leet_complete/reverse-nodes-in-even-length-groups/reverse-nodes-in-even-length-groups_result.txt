@@ -1,0 +1,47 @@
+Problem: reverse-nodes-in-even-length-groups
+Submission ID: 1695676815
+Submission Time: 2025-07-12 14:30:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 134 ms
+Memory: 85.44 MB
+
+Test Cases: 165/165 passed
+
+Runtime Percentile: 97.1429%
+Memory Percentile: 97.1429%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "134 ms",
+  "memory": 85444000,
+  "display_runtime": "134",
+  "question_id": "2196",
+  "elapsed_time": 2323,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355805846,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 165,
+  "total_testcases": 165,
+  "runtime_percentile": 97.1429,
+  "status_memory": "85.4 MB",
+  "memory_percentile": 97.1429,
+  "pretty_lang": "Python",
+  "submission_id": "1695676815",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

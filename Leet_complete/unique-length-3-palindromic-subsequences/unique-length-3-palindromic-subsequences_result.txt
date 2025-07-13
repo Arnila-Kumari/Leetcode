@@ -1,0 +1,47 @@
+Problem: unique-length-3-palindromic-subsequences
+Submission ID: 1695695796
+Submission Time: 2025-07-12 15:10:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 921 ms
+Memory: 13.12 MB
+
+Test Cases: 70/70 passed
+
+Runtime Percentile: 33.56650000000003%
+Memory Percentile: 56.6434%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "921 ms",
+  "memory": 13124000,
+  "display_runtime": "921",
+  "question_id": "2059",
+  "elapsed_time": 995,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358204656,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 70,
+  "total_testcases": 70,
+  "runtime_percentile": 33.56650000000003,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 56.6434,
+  "pretty_lang": "Python",
+  "submission_id": "1695695796",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

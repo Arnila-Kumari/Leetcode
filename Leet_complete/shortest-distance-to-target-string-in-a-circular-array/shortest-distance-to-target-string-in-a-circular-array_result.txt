@@ -1,0 +1,51 @@
+Problem: shortest-distance-to-target-string-in-a-circular-array
+Submission ID: 1695700538
+Submission Time: 2025-07-12 15:20:45
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.35 MB
+
+Test Cases: 0/164 passed
+
+Last Test Case:
+Input: ["hello","i","am","leetcode","hello"]
+"hello"
+1
+Expected: 1
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 54: AttributeError: 'Solution' object has no attribute 'closestTarget'",
+  "full_runtime_error": "AttributeError: 'Solution' object has no attribute 'closestTarget'\n    ret = Solution().closestTarget(param_1, param_2, param_3)\nLine 54 in _driver (Solution.py)\n    _driver()\nLine 68 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12348000,
+  "question_id": "2598",
+  "elapsed_time": 35,
+  "compare_result": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[\"hello\",\"i\",\"am\",\"leetcode\",\"hello\"]\n\"hello\"\n1",
+  "expected_output": "1",
+  "task_finish_time": 1752358844381,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 164,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695700538",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

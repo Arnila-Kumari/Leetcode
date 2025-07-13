@@ -1,0 +1,47 @@
+Problem: mean-of-array-after-removing-some-elements
+Submission ID: 1695679908
+Submission Time: 2025-07-12 14:36:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 23 ms
+Memory: 12.73 MB
+
+Test Cases: 50/50 passed
+
+Runtime Percentile: 8.974299999999996%
+Memory Percentile: 1.282100000000007%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "23 ms",
+  "memory": 12728000,
+  "display_runtime": "23",
+  "question_id": "1210",
+  "elapsed_time": 52,
+  "compare_result": "11111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356191137,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 50,
+  "total_testcases": 50,
+  "runtime_percentile": 8.974299999999996,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 1.282100000000007,
+  "pretty_lang": "Python",
+  "submission_id": "1695679908",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

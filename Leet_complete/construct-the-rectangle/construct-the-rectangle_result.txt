@@ -1,0 +1,47 @@
+Problem: construct-the-rectangle
+Submission ID: 1695589295
+Submission Time: 2025-07-12 12:10:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.48 MB
+
+Test Cases: 52/52 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 65.59479999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12480000,
+  "display_runtime": "0",
+  "question_id": "492",
+  "elapsed_time": 33,
+  "compare_result": "1111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347406122,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 52,
+  "total_testcases": 52,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 65.59479999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695589295",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

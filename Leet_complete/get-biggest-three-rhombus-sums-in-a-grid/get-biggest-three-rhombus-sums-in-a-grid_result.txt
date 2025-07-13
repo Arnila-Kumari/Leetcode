@@ -1,0 +1,47 @@
+Problem: get-biggest-three-rhombus-sums-in-a-grid
+Submission ID: 1695553151
+Submission Time: 2025-07-12 11:29:20
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 694 ms
+Memory: 12.89 MB
+
+Test Cases: 117/117 passed
+
+Runtime Percentile: 89.4736%
+Memory Percentile: 68.421%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "694 ms",
+  "memory": 12892000,
+  "display_runtime": "694",
+  "question_id": "1990",
+  "elapsed_time": 734,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344957818,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 117,
+  "total_testcases": 117,
+  "runtime_percentile": 89.4736,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 68.421,
+  "pretty_lang": "Python",
+  "submission_id": "1695553151",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

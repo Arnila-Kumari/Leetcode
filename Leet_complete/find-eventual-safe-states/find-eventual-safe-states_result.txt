@@ -1,0 +1,47 @@
+Problem: find-eventual-safe-states
+Submission ID: 1695688299
+Submission Time: 2025-07-12 14:53:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 83 ms
+Memory: 18.06 MB
+
+Test Cases: 113/113 passed
+
+Runtime Percentile: 42.68350000000001%
+Memory Percentile: 44.634100000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "83 ms",
+  "memory": 18060000,
+  "display_runtime": "83",
+  "question_id": "820",
+  "elapsed_time": 158,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357225790,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 113,
+  "total_testcases": 113,
+  "runtime_percentile": 42.68350000000001,
+  "status_memory": "18.1 MB",
+  "memory_percentile": 44.634100000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695688299",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: reachable-nodes-in-subdivided-graph
+Submission ID: 1695594435
+Submission Time: 2025-07-12 12:16:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 127 ms
+Memory: 19.88 MB
+
+Test Cases: 50/50 passed
+
+Runtime Percentile: 73.33319999999998%
+Memory Percentile: 46.6666%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "127 ms",
+  "memory": 19876000,
+  "display_runtime": "127",
+  "question_id": "918",
+  "elapsed_time": 192,
+  "compare_result": "11111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347790646,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 50,
+  "total_testcases": 50,
+  "runtime_percentile": 73.33319999999998,
+  "status_memory": "19.9 MB",
+  "memory_percentile": 46.6666,
+  "pretty_lang": "Python",
+  "submission_id": "1695594435",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

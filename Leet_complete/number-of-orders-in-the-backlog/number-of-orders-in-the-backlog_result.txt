@@ -1,0 +1,46 @@
+Problem: number-of-orders-in-the-backlog
+Submission ID: 1695563825
+Submission Time: 2025-07-12 11:40:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 834 ms ms
+Memory: 54.95 MB
+
+Test Cases: 69/69 passed
+
+Runtime Percentile: 6.06070000000005%
+Memory Percentile: 96.9697%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "834 ms",
+  "memory": 54952000,
+  "question_id": "1928",
+  "elapsed_time": 920,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345629315,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 69,
+  "total_testcases": 69,
+  "runtime_percentile": 6.06070000000005,
+  "status_memory": "55 MB",
+  "memory_percentile": 96.9697,
+  "pretty_lang": "Python",
+  "submission_id": "1695563825",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

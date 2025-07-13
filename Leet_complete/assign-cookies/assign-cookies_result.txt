@@ -1,0 +1,47 @@
+Problem: assign-cookies
+Submission ID: 1695556705
+Submission Time: 2025-07-12 11:32:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 27 ms
+Memory: 14.02 MB
+
+Test Cases: 25/25 passed
+
+Runtime Percentile: 88.69030000000001%
+Memory Percentile: 75.07220000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "27 ms",
+  "memory": 14016000,
+  "display_runtime": "27",
+  "question_id": "455",
+  "elapsed_time": 74,
+  "compare_result": "1111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345168280,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 25,
+  "total_testcases": 25,
+  "runtime_percentile": 88.69030000000001,
+  "status_memory": "14 MB",
+  "memory_percentile": 75.07220000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695556705",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

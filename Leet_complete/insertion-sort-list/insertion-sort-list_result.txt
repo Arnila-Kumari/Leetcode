@@ -1,0 +1,47 @@
+Problem: insertion-sort-list
+Submission ID: 1695563303
+Submission Time: 2025-07-12 11:39:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 101 ms
+Memory: 15.72 MB
+
+Test Cases: 19/19 passed
+
+Runtime Percentile: 77.77799999999993%
+Memory Percentile: 72.70959999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "101 ms",
+  "memory": 15724000,
+  "display_runtime": "101",
+  "question_id": "147",
+  "elapsed_time": 151,
+  "compare_result": "1111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345593412,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 19,
+  "total_testcases": 19,
+  "runtime_percentile": 77.77799999999993,
+  "status_memory": "15.7 MB",
+  "memory_percentile": 72.70959999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695563303",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: shortest-path-to-get-all-keys
+Submission ID: 1695686701
+Submission Time: 2025-07-12 14:50:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 85 ms
+Memory: 12.64 MB
+
+Test Cases: 36/36 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 89.74360000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "85 ms",
+  "memory": 12644000,
+  "display_runtime": "85",
+  "question_id": "895",
+  "elapsed_time": 132,
+  "compare_result": "111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357025440,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 36,
+  "total_testcases": 36,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 89.74360000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695686701",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

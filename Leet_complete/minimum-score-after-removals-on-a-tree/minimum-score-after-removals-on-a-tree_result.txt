@@ -1,0 +1,47 @@
+Problem: minimum-score-after-removals-on-a-tree
+Submission ID: 1695739181
+Submission Time: 2025-07-12 17:05:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2018 ms
+Memory: 13.01 MB
+
+Test Cases: 65/65 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2018 ms",
+  "memory": 13008000,
+  "display_runtime": "2018",
+  "question_id": "2400",
+  "elapsed_time": 2073,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365123726,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 65,
+  "total_testcases": 65,
+  "runtime_percentile": 100,
+  "status_memory": "13 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695739181",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

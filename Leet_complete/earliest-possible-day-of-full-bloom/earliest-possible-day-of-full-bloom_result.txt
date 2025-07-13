@@ -1,0 +1,47 @@
+Problem: earliest-possible-day-of-full-bloom
+Submission ID: 1695695821
+Submission Time: 2025-07-12 15:10:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 191 ms
+Memory: 26.14 MB
+
+Test Cases: 185/185 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "191 ms",
+  "memory": 26136000,
+  "display_runtime": "191",
+  "question_id": "2257",
+  "elapsed_time": 293,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358207914,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 185,
+  "total_testcases": 185,
+  "runtime_percentile": 100,
+  "status_memory": "26.1 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695695821",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

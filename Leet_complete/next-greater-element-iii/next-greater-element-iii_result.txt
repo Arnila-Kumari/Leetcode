@@ -1,0 +1,52 @@
+Problem: next-greater-element-iii
+Submission ID: 1695555460
+Submission Time: 2025-07-12 11:31:28
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.41 MB
+
+Test Cases: 38/39 passed
+
+Last Test Case:
+Input: 2147483476
+Expected: 2147483647
+
+Code Output: -1
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12408000,
+  "display_runtime": "0",
+  "question_id": "556",
+  "elapsed_time": 44,
+  "compare_result": "111111111111111111110111111111111111111",
+  "code_output": "-1",
+  "std_output": "",
+  "last_testcase": "2147483476",
+  "expected_output": "2147483647",
+  "task_finish_time": 1752345087848,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 39,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695555460",
+  "input_formatted": "2147483476",
+  "input": "2147483476",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

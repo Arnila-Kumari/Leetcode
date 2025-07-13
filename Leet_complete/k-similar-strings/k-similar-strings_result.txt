@@ -1,0 +1,47 @@
+Problem: k-similar-strings
+Submission ID: 1695569055
+Submission Time: 2025-07-12 11:46:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 553 ms
+Memory: 19.57 MB
+
+Test Cases: 66/66 passed
+
+Runtime Percentile: 46.666399999999975%
+Memory Percentile: 26.666600000000003%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "553 ms",
+  "memory": 19568000,
+  "display_runtime": "553",
+  "question_id": "884",
+  "elapsed_time": 603,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345975799,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 66,
+  "total_testcases": 66,
+  "runtime_percentile": 46.666399999999975,
+  "status_memory": "19.6 MB",
+  "memory_percentile": 26.666600000000003,
+  "pretty_lang": "Python",
+  "submission_id": "1695569055",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

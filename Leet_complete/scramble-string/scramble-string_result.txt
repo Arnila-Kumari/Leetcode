@@ -1,0 +1,47 @@
+Problem: scramble-string
+Submission ID: 1695711574
+Submission Time: 2025-07-12 15:47:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 211 ms
+Memory: 12.60 MB
+
+Test Cases: 290/290 passed
+
+Runtime Percentile: 6.938800000000037%
+Memory Percentile: 89.5899%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "211 ms",
+  "memory": 12604000,
+  "display_runtime": "211",
+  "question_id": "87",
+  "elapsed_time": 247,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360424847,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 290,
+  "total_testcases": 290,
+  "runtime_percentile": 6.938800000000037,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 89.5899,
+  "pretty_lang": "Python",
+  "submission_id": "1695711574",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

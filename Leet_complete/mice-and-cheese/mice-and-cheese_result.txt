@@ -1,0 +1,47 @@
+Problem: mice-and-cheese
+Submission ID: 1695695914
+Submission Time: 2025-07-12 15:10:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 151 ms
+Memory: 19.76 MB
+
+Test Cases: 564/564 passed
+
+Runtime Percentile: 59.259300000000025%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "151 ms",
+  "memory": 19760000,
+  "display_runtime": "151",
+  "question_id": "2725",
+  "elapsed_time": 222,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358221581,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 564,
+  "total_testcases": 564,
+  "runtime_percentile": 59.259300000000025,
+  "status_memory": "19.8 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695695914",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

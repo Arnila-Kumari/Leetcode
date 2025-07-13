@@ -1,0 +1,47 @@
+Problem: stock-price-fluctuation
+Submission ID: 1695698681
+Submission Time: 2025-07-12 15:16:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 338 ms
+Memory: 52.24 MB
+
+Test Cases: 18/18 passed
+
+Runtime Percentile: 57.142199999999924%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "338 ms",
+  "memory": 52244000,
+  "display_runtime": "338",
+  "question_id": "2161",
+  "elapsed_time": 2523,
+  "compare_result": "111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358584996,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 18,
+  "total_testcases": 18,
+  "runtime_percentile": 57.142199999999924,
+  "status_memory": "52.2 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695698681",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

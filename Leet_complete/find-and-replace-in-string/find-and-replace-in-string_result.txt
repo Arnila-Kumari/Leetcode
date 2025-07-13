@@ -1,0 +1,47 @@
+Problem: find-and-replace-in-string
+Submission ID: 1695695162
+Submission Time: 2025-07-12 15:08:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.46 MB
+
+Test Cases: 59/59 passed
+
+Runtime Percentile: 16.666600000000003%
+Memory Percentile: 61.458299999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12464000,
+  "display_runtime": "4",
+  "question_id": "862",
+  "elapsed_time": 41,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358116180,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 59,
+  "total_testcases": 59,
+  "runtime_percentile": 16.666600000000003,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 61.458299999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1695695162",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: prime-number-of-set-bits-in-binary-representation
+Submission ID: 1695587998
+Submission Time: 2025-07-12 12:08:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 283 ms
+Memory: 12.51 MB
+
+Test Cases: 202/202 passed
+
+Runtime Percentile: 41.24250000000004%
+Memory Percentile: 94.9152%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "283 ms",
+  "memory": 12508000,
+  "display_runtime": "283",
+  "question_id": "767",
+  "elapsed_time": 312,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347308471,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 202,
+  "total_testcases": 202,
+  "runtime_percentile": 41.24250000000004,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 94.9152,
+  "pretty_lang": "Python",
+  "submission_id": "1695587998",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

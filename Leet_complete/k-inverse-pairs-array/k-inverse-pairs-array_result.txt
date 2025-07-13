@@ -1,0 +1,47 @@
+Problem: k-inverse-pairs-array
+Submission ID: 1695568597
+Submission Time: 2025-07-12 11:45:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 473 ms
+Memory: 12.71 MB
+
+Test Cases: 81/81 passed
+
+Runtime Percentile: 16.666000000000025%
+Memory Percentile: 66.66670000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "473 ms",
+  "memory": 12712000,
+  "display_runtime": "473",
+  "question_id": "629",
+  "elapsed_time": 522,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345945668,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 81,
+  "total_testcases": 81,
+  "runtime_percentile": 16.666000000000025,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 66.66670000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695568597",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: uncrossed-lines
+Submission ID: 1695698840
+Submission Time: 2025-07-12 15:16:44
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 149 ms
+Memory: 12.36 MB
+
+Test Cases: 74/74 passed
+
+Runtime Percentile: 25.953399999999952%
+Memory Percentile: 99.2366%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "149 ms",
+  "memory": 12364000,
+  "display_runtime": "149",
+  "question_id": "1105",
+  "elapsed_time": 213,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358603630,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 74,
+  "total_testcases": 74,
+  "runtime_percentile": 25.953399999999952,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 99.2366,
+  "pretty_lang": "Python",
+  "submission_id": "1695698840",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

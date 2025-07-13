@@ -1,0 +1,47 @@
+Problem: partition-array-into-three-parts-with-equal-sum
+Submission ID: 1695578988
+Submission Time: 2025-07-12 11:57:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 16.28 MB
+
+Test Cases: 72/72 passed
+
+Runtime Percentile: 38.79320000000001%
+Memory Percentile: 59.48270000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 16276000,
+  "display_runtime": "11",
+  "question_id": "1062",
+  "elapsed_time": 60,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346669667,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 72,
+  "total_testcases": 72,
+  "runtime_percentile": 38.79320000000001,
+  "status_memory": "16.3 MB",
+  "memory_percentile": 59.48270000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695578988",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

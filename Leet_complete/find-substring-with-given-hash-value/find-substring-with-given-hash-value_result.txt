@@ -1,0 +1,47 @@
+Problem: find-substring-with-given-hash-value
+Submission ID: 1695691659
+Submission Time: 2025-07-12 15:01:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 139 ms
+Memory: 12.74 MB
+
+Test Cases: 90/90 passed
+
+Runtime Percentile: 75.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "139 ms",
+  "memory": 12740000,
+  "display_runtime": "139",
+  "question_id": "2275",
+  "elapsed_time": 177,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357673425,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 90,
+  "total_testcases": 90,
+  "runtime_percentile": 75.0,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695691659",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

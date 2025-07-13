@@ -1,0 +1,47 @@
+Problem: design-underground-system
+Submission ID: 1695710045
+Submission Time: 2025-07-12 15:43:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 45 ms
+Memory: 23.23 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 43.902900000000024%
+Memory Percentile: 75.6098%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "45 ms",
+  "memory": 23228000,
+  "display_runtime": "45",
+  "question_id": "1512",
+  "elapsed_time": 759,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360197074,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 43.902900000000024,
+  "status_memory": "23.2 MB",
+  "memory_percentile": 75.6098,
+  "pretty_lang": "Python",
+  "submission_id": "1695710045",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

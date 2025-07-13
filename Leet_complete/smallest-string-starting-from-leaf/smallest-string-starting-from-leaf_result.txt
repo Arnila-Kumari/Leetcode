@@ -1,0 +1,47 @@
+Problem: smallest-string-starting-from-leaf
+Submission ID: 1695689275
+Submission Time: 2025-07-12 14:56:00
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 19 ms
+Memory: 15.56 MB
+
+Test Cases: 78/78 passed
+
+Runtime Percentile: 16.666600000000017%
+Memory Percentile: 60.1852%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "19 ms",
+  "memory": 15564000,
+  "display_runtime": "19",
+  "question_id": "1030",
+  "elapsed_time": 63,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357357446,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 78,
+  "total_testcases": 78,
+  "runtime_percentile": 16.666600000000017,
+  "status_memory": "15.6 MB",
+  "memory_percentile": 60.1852,
+  "pretty_lang": "Python",
+  "submission_id": "1695689275",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

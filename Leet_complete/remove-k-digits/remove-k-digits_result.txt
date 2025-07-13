@@ -1,0 +1,47 @@
+Problem: remove-k-digits
+Submission ID: 1695677455
+Submission Time: 2025-07-12 14:31:23
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 31 ms
+Memory: 13.52 MB
+
+Test Cases: 44/44 passed
+
+Runtime Percentile: 85.59579999999997%
+Memory Percentile: 61.754999999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "31 ms",
+  "memory": 13520000,
+  "display_runtime": "31",
+  "question_id": "402",
+  "elapsed_time": 63,
+  "compare_result": "11111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355882609,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 44,
+  "total_testcases": 44,
+  "runtime_percentile": 85.59579999999997,
+  "status_memory": "13.5 MB",
+  "memory_percentile": 61.754999999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1695677455",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

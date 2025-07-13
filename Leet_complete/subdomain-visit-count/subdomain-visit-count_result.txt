@@ -1,0 +1,47 @@
+Problem: subdomain-visit-count
+Submission ID: 1695695536
+Submission Time: 2025-07-12 15:09:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 17 ms
+Memory: 12.53 MB
+
+Test Cases: 52/52 passed
+
+Runtime Percentile: 13.138499999999983%
+Memory Percentile: 29.9271%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "17 ms",
+  "memory": 12528000,
+  "display_runtime": "17",
+  "question_id": "829",
+  "elapsed_time": 52,
+  "compare_result": "1111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358168479,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 52,
+  "total_testcases": 52,
+  "runtime_percentile": 13.138499999999983,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 29.9271,
+  "pretty_lang": "Python",
+  "submission_id": "1695695536",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

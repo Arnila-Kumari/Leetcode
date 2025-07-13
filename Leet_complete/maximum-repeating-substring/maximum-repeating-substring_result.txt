@@ -1,0 +1,53 @@
+Problem: maximum-repeating-substring
+Submission ID: 1695691527
+Submission Time: 2025-07-12 15:00:55
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.57 MB
+
+Test Cases: 211/212 passed
+
+Last Test Case:
+Input: "aaabaaaabaaabaaaabaaaabaaaabaaaaba"
+"aaaba"
+Expected: 5
+
+Code Output: 4
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12572000,
+  "display_runtime": "0",
+  "question_id": "1764",
+  "elapsed_time": 41,
+  "compare_result": "11111111011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "4",
+  "std_output": "",
+  "last_testcase": "\"aaabaaaabaaabaaaabaaaabaaaabaaaaba\"\n\"aaaba\"",
+  "expected_output": "5",
+  "task_finish_time": 1752357654711,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 211,
+  "total_testcases": 212,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695691527",
+  "input_formatted": "\"aaabaaaabaaabaaaabaaaabaaaabaaaaba\", \"aaaba\"",
+  "input": "\"aaabaaaabaaabaaaabaaaabaaaabaaaaba\"\n\"aaaba\"",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

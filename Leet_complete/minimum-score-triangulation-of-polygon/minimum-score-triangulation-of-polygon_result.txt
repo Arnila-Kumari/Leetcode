@@ -1,0 +1,47 @@
+Problem: minimum-score-triangulation-of-polygon
+Submission ID: 1695693351
+Submission Time: 2025-07-12 15:04:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 47 ms
+Memory: 12.54 MB
+
+Test Cases: 94/94 passed
+
+Runtime Percentile: 68.4209%
+Memory Percentile: 36.842200000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "47 ms",
+  "memory": 12536000,
+  "display_runtime": "47",
+  "question_id": "1111",
+  "elapsed_time": 90,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357897067,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 94,
+  "total_testcases": 94,
+  "runtime_percentile": 68.4209,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 36.842200000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695693351",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

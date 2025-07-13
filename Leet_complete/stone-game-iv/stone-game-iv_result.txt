@@ -1,0 +1,47 @@
+Problem: stone-game-iv
+Submission ID: 1695678120
+Submission Time: 2025-07-12 14:32:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 673 ms
+Memory: 13.12 MB
+
+Test Cases: 72/72 passed
+
+Runtime Percentile: 82.35279999999999%
+Memory Percentile: 94.1176%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "673 ms",
+  "memory": 13120000,
+  "display_runtime": "673",
+  "question_id": "1617",
+  "elapsed_time": 707,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355967583,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 72,
+  "total_testcases": 72,
+  "runtime_percentile": 82.35279999999999,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 94.1176,
+  "pretty_lang": "Python",
+  "submission_id": "1695678120",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

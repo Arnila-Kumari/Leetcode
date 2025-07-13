@@ -1,0 +1,46 @@
+Problem: number-of-islands
+Submission ID: 1695562652
+Submission Time: 2025-07-12 11:39:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 257 ms ms
+Memory: 30.80 MB
+
+Test Cases: 49/49 passed
+
+Runtime Percentile: 29.308799999999973%
+Memory Percentile: 30.041999999999973%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "257 ms",
+  "memory": 30800000,
+  "question_id": "200",
+  "elapsed_time": 298,
+  "compare_result": "1111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345548026,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 49,
+  "total_testcases": 49,
+  "runtime_percentile": 29.308799999999973,
+  "status_memory": "30.8 MB",
+  "memory_percentile": 30.041999999999973,
+  "pretty_lang": "Python",
+  "submission_id": "1695562652",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: four-divisors
+Submission ID: 1695548634
+Submission Time: 2025-07-12 11:25:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 240 ms
+Memory: 12.80 MB
+
+Test Cases: 18/18 passed
+
+Runtime Percentile: 86.6668%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "240 ms",
+  "memory": 12800000,
+  "display_runtime": "240",
+  "question_id": "1284",
+  "elapsed_time": 350,
+  "compare_result": "111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344717851,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 18,
+  "total_testcases": 18,
+  "runtime_percentile": 86.6668,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695548634",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

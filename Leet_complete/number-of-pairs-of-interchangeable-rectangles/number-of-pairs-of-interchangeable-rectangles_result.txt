@@ -1,0 +1,47 @@
+Problem: number-of-pairs-of-interchangeable-rectangles
+Submission ID: 1695563986
+Submission Time: 2025-07-12 11:40:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 299 ms
+Memory: 57.00 MB
+
+Test Cases: 46/46 passed
+
+Runtime Percentile: 29.786299999999972%
+Memory Percentile: 23.404100000000014%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "299 ms",
+  "memory": 57000000,
+  "display_runtime": "299",
+  "question_id": "2129",
+  "elapsed_time": 465,
+  "compare_result": "1111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345639260,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 46,
+  "total_testcases": 46,
+  "runtime_percentile": 29.786299999999972,
+  "status_memory": "57 MB",
+  "memory_percentile": 23.404100000000014,
+  "pretty_lang": "Python",
+  "submission_id": "1695563986",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

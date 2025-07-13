@@ -1,0 +1,47 @@
+Problem: minimum-recolors-to-get-k-consecutive-black-blocks
+Submission ID: 1695689635
+Submission Time: 2025-07-12 14:56:44
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1 ms
+Memory: 12.27 MB
+
+Test Cases: 122/122 passed
+
+Runtime Percentile: 50.3676%
+Memory Percentile: 98.8971%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1 ms",
+  "memory": 12268000,
+  "display_runtime": "1",
+  "question_id": "2463",
+  "elapsed_time": 48,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357404044,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 122,
+  "total_testcases": 122,
+  "runtime_percentile": 50.3676,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 98.8971,
+  "pretty_lang": "Python",
+  "submission_id": "1695689635",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

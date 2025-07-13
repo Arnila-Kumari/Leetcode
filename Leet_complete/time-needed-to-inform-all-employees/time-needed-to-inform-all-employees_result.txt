@@ -1,0 +1,47 @@
+Problem: time-needed-to-inform-all-employees
+Submission ID: 1695681174
+Submission Time: 2025-07-12 14:39:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 321 ms
+Memory: 32.95 MB
+
+Test Cases: 39/39 passed
+
+Runtime Percentile: 80.70159999999996%
+Memory Percentile: 90.35079999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "321 ms",
+  "memory": 32952000,
+  "display_runtime": "321",
+  "question_id": "1492",
+  "elapsed_time": 419,
+  "compare_result": "111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356346211,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 39,
+  "total_testcases": 39,
+  "runtime_percentile": 80.70159999999996,
+  "status_memory": "33 MB",
+  "memory_percentile": 90.35079999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695681174",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

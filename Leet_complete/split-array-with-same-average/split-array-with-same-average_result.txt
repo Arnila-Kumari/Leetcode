@@ -1,0 +1,52 @@
+Problem: split-array-with-same-average
+Submission ID: 1695676479
+Submission Time: 2025-07-12 14:29:25
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 1319 ms
+Memory: 53.67 MB
+
+Test Cases: 110/111 passed
+
+Last Test Case:
+Input: [0,0,0,0,0]
+Expected: true
+
+Code Output: false
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 53672000,
+  "display_runtime": "1319",
+  "question_id": "823",
+  "elapsed_time": 1366,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111011111111111111",
+  "code_output": "false",
+  "std_output": "",
+  "last_testcase": "[0,0,0,0,0]",
+  "expected_output": "true",
+  "task_finish_time": 1752355764228,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 110,
+  "total_testcases": 111,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695676479",
+  "input_formatted": "[0,0,0,0,0]",
+  "input": "[0,0,0,0,0]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

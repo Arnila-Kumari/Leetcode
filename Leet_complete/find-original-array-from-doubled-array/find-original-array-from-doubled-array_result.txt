@@ -1,0 +1,47 @@
+Problem: find-original-array-from-doubled-array
+Submission ID: 1695697310
+Submission Time: 2025-07-12 15:13:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 224 ms
+Memory: 27.41 MB
+
+Test Cases: 180/180 passed
+
+Runtime Percentile: 80.5554%
+Memory Percentile: 16.666500000000013%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "224 ms",
+  "memory": 27408000,
+  "display_runtime": "224",
+  "question_id": "2117",
+  "elapsed_time": 348,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358403441,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 180,
+  "total_testcases": 180,
+  "runtime_percentile": 80.5554,
+  "status_memory": "27.4 MB",
+  "memory_percentile": 16.666500000000013,
+  "pretty_lang": "Python",
+  "submission_id": "1695697310",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: number-of-good-paths
+Submission ID: 1695562065
+Submission Time: 2025-07-12 11:38:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1725 ms
+Memory: 32.55 MB
+
+Test Cases: 134/134 passed
+
+Runtime Percentile: 12.5%
+Memory Percentile: 50.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1725 ms",
+  "memory": 32552000,
+  "display_runtime": "1725",
+  "question_id": "2505",
+  "elapsed_time": 1886,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345509755,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 134,
+  "total_testcases": 134,
+  "runtime_percentile": 12.5,
+  "status_memory": "32.6 MB",
+  "memory_percentile": 50.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695562065",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

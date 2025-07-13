@@ -1,0 +1,47 @@
+Problem: maximum-ice-cream-bars
+Submission ID: 1695626564
+Submission Time: 2025-07-12 13:00:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 120 ms
+Memory: 20.91 MB
+
+Test Cases: 63/63 passed
+
+Runtime Percentile: 70.19279999999998%
+Memory Percentile: 44.23079999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "120 ms",
+  "memory": 20912000,
+  "display_runtime": "120",
+  "question_id": "1961",
+  "elapsed_time": 228,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350454912,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 63,
+  "total_testcases": 63,
+  "runtime_percentile": 70.19279999999998,
+  "status_memory": "20.9 MB",
+  "memory_percentile": 44.23079999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695626564",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: find-subsequence-of-length-k-with-the-largest-sum
+Submission ID: 1695699564
+Submission Time: 2025-07-12 15:18:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 12.55 MB
+
+Test Cases: 49/49 passed
+
+Runtime Percentile: 27.18119999999999%
+Memory Percentile: 79.7208%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 12552000,
+  "display_runtime": "11",
+  "question_id": "2204",
+  "elapsed_time": 44,
+  "compare_result": "1111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358707865,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 49,
+  "total_testcases": 49,
+  "runtime_percentile": 27.18119999999999,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 79.7208,
+  "pretty_lang": "Python",
+  "submission_id": "1695699564",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

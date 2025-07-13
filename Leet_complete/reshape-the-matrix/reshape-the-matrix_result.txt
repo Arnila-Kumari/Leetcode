@@ -1,0 +1,47 @@
+Problem: reshape-the-matrix
+Submission ID: 1695709207
+Submission Time: 2025-07-12 15:41:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 13.08 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 43.2549%
+Memory Percentile: 39.614599999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 13080000,
+  "display_runtime": "3",
+  "question_id": "566",
+  "elapsed_time": 38,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360073715,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 43.2549,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 39.614599999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695709207",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

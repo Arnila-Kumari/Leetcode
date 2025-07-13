@@ -1,0 +1,46 @@
+Problem: concatenation-of-consecutive-binary-numbers
+Submission ID: 1695586442
+Submission Time: 2025-07-12 12:06:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 532 ms ms
+Memory: 12.44 MB
+
+Test Cases: 403/403 passed
+
+Runtime Percentile: 61.90480000000002%
+Memory Percentile: 95.2381%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "532 ms",
+  "memory": 12444000,
+  "question_id": "1800",
+  "elapsed_time": 577,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347199095,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 403,
+  "total_testcases": 403,
+  "runtime_percentile": 61.90480000000002,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 95.2381,
+  "pretty_lang": "Python",
+  "submission_id": "1695586442",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

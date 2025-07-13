@@ -1,0 +1,47 @@
+Problem: lexicographically-smallest-string-after-applying-operations
+Submission ID: 1695581403
+Submission Time: 2025-07-12 12:00:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 87 ms
+Memory: 12.58 MB
+
+Test Cases: 80/80 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "87 ms",
+  "memory": 12580000,
+  "display_runtime": "87",
+  "question_id": "1747",
+  "elapsed_time": 119,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346844261,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 80,
+  "total_testcases": 80,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695581403",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

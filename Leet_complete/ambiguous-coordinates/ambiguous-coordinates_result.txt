@@ -1,0 +1,47 @@
+Problem: ambiguous-coordinates
+Submission ID: 1695552228
+Submission Time: 2025-07-12 11:28:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 13 ms
+Memory: 12.56 MB
+
+Test Cases: 346/346 passed
+
+Runtime Percentile: 22.22230000000002%
+Memory Percentile: 33.333400000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "13 ms",
+  "memory": 12556000,
+  "display_runtime": "13",
+  "question_id": "834",
+  "elapsed_time": 53,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344908736,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 346,
+  "total_testcases": 346,
+  "runtime_percentile": 22.22230000000002,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 33.333400000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695552228",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

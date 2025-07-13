@@ -1,0 +1,47 @@
+Problem: largest-palindromic-number
+Submission ID: 1695575293
+Submission Time: 2025-07-12 11:53:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 143 ms
+Memory: 14.26 MB
+
+Test Cases: 67/67 passed
+
+Runtime Percentile: 37.930699999999966%
+Memory Percentile: 31.034299999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "143 ms",
+  "memory": 14264000,
+  "display_runtime": "143",
+  "question_id": "2475",
+  "elapsed_time": 187,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346407178,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 67,
+  "total_testcases": 67,
+  "runtime_percentile": 37.930699999999966,
+  "status_memory": "14.3 MB",
+  "memory_percentile": 31.034299999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695575293",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

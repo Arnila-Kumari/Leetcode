@@ -1,0 +1,47 @@
+Problem: increment-submatrices-by-one
+Submission ID: 1695562334
+Submission Time: 2025-07-12 11:38:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 210 ms
+Memory: 47.71 MB
+
+Test Cases: 31/31 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 25.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "210 ms",
+  "memory": 47708000,
+  "display_runtime": "210",
+  "question_id": "2625",
+  "elapsed_time": 380,
+  "compare_result": "1111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345526360,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 31,
+  "total_testcases": 31,
+  "runtime_percentile": 100,
+  "status_memory": "47.7 MB",
+  "memory_percentile": 25.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695562334",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

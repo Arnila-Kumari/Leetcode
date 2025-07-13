@@ -1,0 +1,47 @@
+Problem: minimum-area-rectangle-ii
+Submission ID: 1695691016
+Submission Time: 2025-07-12 14:59:51
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 29 ms
+Memory: 12.63 MB
+
+Test Cases: 110/110 passed
+
+Runtime Percentile: 78.57130000000001%
+Memory Percentile: 57.14280000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "29 ms",
+  "memory": 12628000,
+  "display_runtime": "29",
+  "question_id": "1003",
+  "elapsed_time": 68,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357588687,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 110,
+  "total_testcases": 110,
+  "runtime_percentile": 78.57130000000001,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 57.14280000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695691016",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

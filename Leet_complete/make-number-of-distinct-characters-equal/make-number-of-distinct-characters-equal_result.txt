@@ -1,0 +1,47 @@
+Problem: make-number-of-distinct-characters-equal
+Submission ID: 1695594648
+Submission Time: 2025-07-12 12:16:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 286 ms
+Memory: 13.22 MB
+
+Test Cases: 99/99 passed
+
+Runtime Percentile: 41.66690000000002%
+Memory Percentile: 49.99999999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "286 ms",
+  "memory": 13216000,
+  "display_runtime": "286",
+  "question_id": "2615",
+  "elapsed_time": 339,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347806917,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 99,
+  "total_testcases": 99,
+  "runtime_percentile": 41.66690000000002,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 49.99999999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695594648",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

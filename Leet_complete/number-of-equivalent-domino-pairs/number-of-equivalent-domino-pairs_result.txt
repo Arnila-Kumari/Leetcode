@@ -1,0 +1,47 @@
+Problem: number-of-equivalent-domino-pairs
+Submission ID: 1695561126
+Submission Time: 2025-07-12 11:37:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 19.05 MB
+
+Test Cases: 19/19 passed
+
+Runtime Percentile: 62.0785%
+Memory Percentile: 53.3708%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 19052000,
+  "display_runtime": "15",
+  "question_id": "1227",
+  "elapsed_time": 62,
+  "compare_result": "1111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345448172,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 19,
+  "total_testcases": 19,
+  "runtime_percentile": 62.0785,
+  "status_memory": "19.1 MB",
+  "memory_percentile": 53.3708,
+  "pretty_lang": "Python",
+  "submission_id": "1695561126",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

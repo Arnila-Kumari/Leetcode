@@ -1,0 +1,47 @@
+Problem: dota2-senate
+Submission ID: 1695680990
+Submission Time: 2025-07-12 14:38:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 27 ms
+Memory: 12.72 MB
+
+Test Cases: 83/83 passed
+
+Runtime Percentile: 40.85110000000002%
+Memory Percentile: 67.8014%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "27 ms",
+  "memory": 12720000,
+  "display_runtime": "27",
+  "question_id": "649",
+  "elapsed_time": 73,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356325939,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 83,
+  "total_testcases": 83,
+  "runtime_percentile": 40.85110000000002,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 67.8014,
+  "pretty_lang": "Python",
+  "submission_id": "1695680990",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: complete-binary-tree-inserter
+Submission ID: 1695585656
+Submission Time: 2025-07-12 12:05:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 13.64 MB
+
+Test Cases: 84/84 passed
+
+Runtime Percentile: 78.26089999999999%
+Memory Percentile: 65.2174%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 13640000,
+  "display_runtime": "3",
+  "question_id": "955",
+  "elapsed_time": 107,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347144558,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 84,
+  "total_testcases": 84,
+  "runtime_percentile": 78.26089999999999,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 65.2174,
+  "pretty_lang": "Python",
+  "submission_id": "1695585656",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

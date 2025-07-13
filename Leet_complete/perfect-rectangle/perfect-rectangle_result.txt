@@ -1,0 +1,47 @@
+Problem: perfect-rectangle
+Submission ID: 1695583699
+Submission Time: 2025-07-12 12:03:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 85 ms
+Memory: 21.20 MB
+
+Test Cases: 49/49 passed
+
+Runtime Percentile: 5.454299999999998%
+Memory Percentile: 10.909100000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "85 ms",
+  "memory": 21196000,
+  "display_runtime": "85",
+  "question_id": "391",
+  "elapsed_time": 183,
+  "compare_result": "1111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347008512,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 49,
+  "total_testcases": 49,
+  "runtime_percentile": 5.454299999999998,
+  "status_memory": "21.2 MB",
+  "memory_percentile": 10.909100000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695583699",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

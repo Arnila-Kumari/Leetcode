@@ -1,0 +1,47 @@
+Problem: occurrences-after-bigram
+Submission ID: 1695573739
+Submission Time: 2025-07-12 11:51:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.54 MB
+
+Test Cases: 30/30 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 11.111200000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12540000,
+  "display_runtime": "0",
+  "question_id": "1156",
+  "elapsed_time": 32,
+  "compare_result": "111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346297452,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 30,
+  "total_testcases": 30,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 11.111200000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695573739",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

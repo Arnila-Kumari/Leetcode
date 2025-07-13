@@ -1,0 +1,47 @@
+Problem: candy
+Submission ID: 1695571132
+Submission Time: 2025-07-12 11:48:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 14.02 MB
+
+Test Cases: 49/49 passed
+
+Runtime Percentile: 94.49520000000001%
+Memory Percentile: 95.6196%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 14024000,
+  "display_runtime": "11",
+  "question_id": "135",
+  "elapsed_time": 80,
+  "compare_result": "1111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346115665,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 49,
+  "total_testcases": 49,
+  "runtime_percentile": 94.49520000000001,
+  "status_memory": "14 MB",
+  "memory_percentile": 95.6196,
+  "pretty_lang": "Python",
+  "submission_id": "1695571132",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: regions-cut-by-slashes
+Submission ID: 1695677717
+Submission Time: 2025-07-12 14:31:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 171 ms
+Memory: 12.48 MB
+
+Test Cases: 137/137 passed
+
+Runtime Percentile: 15.625%
+Memory Percentile: 96.875%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "171 ms",
+  "memory": 12480000,
+  "display_runtime": "171",
+  "question_id": "999",
+  "elapsed_time": 201,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355915632,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 137,
+  "total_testcases": 137,
+  "runtime_percentile": 15.625,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 96.875,
+  "pretty_lang": "Python",
+  "submission_id": "1695677717",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

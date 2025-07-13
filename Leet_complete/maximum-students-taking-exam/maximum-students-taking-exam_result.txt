@@ -1,0 +1,47 @@
+Problem: maximum-students-taking-exam
+Submission ID: 1695741502
+Submission Time: 2025-07-12 17:11:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.66 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 14.285799999999991%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12664000,
+  "display_runtime": "3",
+  "question_id": "1471",
+  "elapsed_time": 33,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365478239,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 100,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 14.285799999999991,
+  "pretty_lang": "Python",
+  "submission_id": "1695741502",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

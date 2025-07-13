@@ -1,0 +1,47 @@
+Problem: letter-tile-possibilities
+Submission ID: 1695580160
+Submission Time: 2025-07-12 11:59:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.35 MB
+
+Test Cases: 86/86 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 88.8889%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12348000,
+  "display_runtime": "0",
+  "question_id": "1160",
+  "elapsed_time": 33,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346755435,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 86,
+  "total_testcases": 86,
+  "runtime_percentile": 100,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 88.8889,
+  "pretty_lang": "Python",
+  "submission_id": "1695580160",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

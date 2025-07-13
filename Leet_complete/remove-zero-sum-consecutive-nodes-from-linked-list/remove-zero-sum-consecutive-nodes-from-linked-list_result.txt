@@ -1,0 +1,47 @@
+Problem: remove-zero-sum-consecutive-nodes-from-linked-list
+Submission ID: 1695699389
+Submission Time: 2025-07-12 15:18:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 33 ms
+Memory: 13.02 MB
+
+Test Cases: 105/105 passed
+
+Runtime Percentile: 23.37669999999999%
+Memory Percentile: 24.675400000000007%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "33 ms",
+  "memory": 13016000,
+  "display_runtime": "33",
+  "question_id": "1267",
+  "elapsed_time": 101,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358680168,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 105,
+  "total_testcases": 105,
+  "runtime_percentile": 23.37669999999999,
+  "status_memory": "13 MB",
+  "memory_percentile": 24.675400000000007,
+  "pretty_lang": "Python",
+  "submission_id": "1695699389",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

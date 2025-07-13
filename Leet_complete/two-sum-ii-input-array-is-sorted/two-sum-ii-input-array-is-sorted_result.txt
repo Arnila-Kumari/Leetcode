@@ -1,0 +1,47 @@
+Problem: two-sum-ii-input-array-is-sorted
+Submission ID: 1695697563
+Submission Time: 2025-07-12 15:13:53
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.83 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 74.80579999999999%
+Memory Percentile: 68.90660000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12828000,
+  "display_runtime": "4",
+  "question_id": "167",
+  "elapsed_time": 40,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358433377,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 74.80579999999999,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 68.90660000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695697563",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

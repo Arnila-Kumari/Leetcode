@@ -1,0 +1,47 @@
+Problem: reformat-the-string
+Submission ID: 1695682327
+Submission Time: 2025-07-12 14:41:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 12.56 MB
+
+Test Cases: 302/302 passed
+
+Runtime Percentile: 43.10339999999999%
+Memory Percentile: 60.3448%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 12560000,
+  "display_runtime": "15",
+  "question_id": "1532",
+  "elapsed_time": 55,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356484040,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 302,
+  "total_testcases": 302,
+  "runtime_percentile": 43.10339999999999,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 60.3448,
+  "pretty_lang": "Python",
+  "submission_id": "1695682327",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

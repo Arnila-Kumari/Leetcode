@@ -1,0 +1,47 @@
+Problem: max-chunks-to-make-sorted-ii
+Submission ID: 1695597345
+Submission Time: 2025-07-12 12:20:04
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 12.74 MB
+
+Test Cases: 139/139 passed
+
+Runtime Percentile: 90.196%
+Memory Percentile: 39.2157%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 12744000,
+  "display_runtime": "6",
+  "question_id": "779",
+  "elapsed_time": 57,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752348004100,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 139,
+  "total_testcases": 139,
+  "runtime_percentile": 90.196,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 39.2157,
+  "pretty_lang": "Python",
+  "submission_id": "1695597345",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

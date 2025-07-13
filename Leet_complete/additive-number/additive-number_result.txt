@@ -1,0 +1,47 @@
+Problem: additive-number
+Submission ID: 1695548441
+Submission Time: 2025-07-12 11:25:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 13 ms
+Memory: 12.55 MB
+
+Test Cases: 47/47 passed
+
+Runtime Percentile: 5.426400000000001%
+Memory Percentile: 13.953400000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "13 ms",
+  "memory": 12552000,
+  "display_runtime": "13",
+  "question_id": "306",
+  "elapsed_time": 54,
+  "compare_result": "11111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344705634,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 47,
+  "total_testcases": 47,
+  "runtime_percentile": 5.426400000000001,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 13.953400000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695548441",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

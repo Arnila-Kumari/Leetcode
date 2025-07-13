@@ -1,0 +1,47 @@
+Problem: reduce-array-size-to-the-half
+Submission ID: 1695597170
+Submission Time: 2025-07-12 12:19:53
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 89 ms
+Memory: 24.24 MB
+
+Test Cases: 33/33 passed
+
+Runtime Percentile: 52.257699999999915%
+Memory Percentile: 42.58039999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "89 ms",
+  "memory": 24236000,
+  "display_runtime": "89",
+  "question_id": "1464",
+  "elapsed_time": 148,
+  "compare_result": "111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347992409,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 33,
+  "total_testcases": 33,
+  "runtime_percentile": 52.257699999999915,
+  "status_memory": "24.2 MB",
+  "memory_percentile": 42.58039999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695597170",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: greatest-common-divisor-of-strings
+Submission ID: 1695554895
+Submission Time: 2025-07-12 11:30:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.40 MB
+
+Test Cases: 125/125 passed
+
+Runtime Percentile: 31.968799999999998%
+Memory Percentile: 87.7193%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12396000,
+  "display_runtime": "3",
+  "question_id": "1146",
+  "elapsed_time": 43,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345055322,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 125,
+  "total_testcases": 125,
+  "runtime_percentile": 31.968799999999998,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 87.7193,
+  "pretty_lang": "Python",
+  "submission_id": "1695554895",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

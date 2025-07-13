@@ -1,0 +1,47 @@
+Problem: count-cells-in-overlapping-horizontal-and-vertical-substrings
+Submission ID: 1695594408
+Submission Time: 2025-07-12 12:16:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1043 ms
+Memory: 33.42 MB
+
+Test Cases: 573/573 passed
+
+Runtime Percentile: 9.99999999891088e-05%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1043 ms",
+  "memory": 33416000,
+  "display_runtime": "1043",
+  "question_id": "3821",
+  "elapsed_time": 1253,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347788782,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 573,
+  "total_testcases": 573,
+  "runtime_percentile": 9.99999999891088e-05,
+  "status_memory": "33.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695594408",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

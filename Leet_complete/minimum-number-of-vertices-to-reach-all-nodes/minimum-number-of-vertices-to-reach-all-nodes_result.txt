@@ -1,0 +1,47 @@
+Problem: minimum-number-of-vertices-to-reach-all-nodes
+Submission ID: 1695680096
+Submission Time: 2025-07-12 14:36:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 28 ms
+Memory: 37.68 MB
+
+Test Cases: 66/66 passed
+
+Runtime Percentile: 54.375%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "28 ms",
+  "memory": 37684000,
+  "display_runtime": "28",
+  "question_id": "1661",
+  "elapsed_time": 142,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356214758,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 66,
+  "total_testcases": 66,
+  "runtime_percentile": 54.375,
+  "status_memory": "37.7 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695680096",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

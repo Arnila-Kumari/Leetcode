@@ -1,0 +1,47 @@
+Problem: partition-labels
+Submission ID: 1695579783
+Submission Time: 2025-07-12 11:58:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.46 MB
+
+Test Cases: 118/118 passed
+
+Runtime Percentile: 56.2602%
+Memory Percentile: 51.8699%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12456000,
+  "display_runtime": "7",
+  "question_id": "768",
+  "elapsed_time": 43,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346729026,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 118,
+  "total_testcases": 118,
+  "runtime_percentile": 56.2602,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 51.8699,
+  "pretty_lang": "Python",
+  "submission_id": "1695579783",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

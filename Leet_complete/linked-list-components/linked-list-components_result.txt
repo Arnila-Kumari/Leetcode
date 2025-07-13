@@ -1,0 +1,47 @@
+Problem: linked-list-components
+Submission ID: 1695582107
+Submission Time: 2025-07-12 12:01:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 8 ms
+Memory: 20.65 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 64.8438%
+Memory Percentile: 53.12520000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "8 ms",
+  "memory": 20648000,
+  "display_runtime": "8",
+  "question_id": "835",
+  "elapsed_time": 87,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346894421,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 64.8438,
+  "status_memory": "20.6 MB",
+  "memory_percentile": 53.12520000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695582107",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

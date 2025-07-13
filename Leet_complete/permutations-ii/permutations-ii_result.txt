@@ -1,0 +1,47 @@
+Problem: permutations-ii
+Submission ID: 1695584425
+Submission Time: 2025-07-12 12:04:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 12.79 MB
+
+Test Cases: 33/33 passed
+
+Runtime Percentile: 85.77279999999999%
+Memory Percentile: 75.99180000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 12788000,
+  "display_runtime": "6",
+  "question_id": "47",
+  "elapsed_time": 47,
+  "compare_result": "111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347061331,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 33,
+  "total_testcases": 33,
+  "runtime_percentile": 85.77279999999999,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 75.99180000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695584425",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

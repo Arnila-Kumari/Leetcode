@@ -1,0 +1,47 @@
+Problem: find-duplicate-file-in-system
+Submission ID: 1695686640
+Submission Time: 2025-07-12 14:50:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 43 ms
+Memory: 20.39 MB
+
+Test Cases: 162/162 passed
+
+Runtime Percentile: 27.18470000000002%
+Memory Percentile: 82.52420000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "43 ms",
+  "memory": 20388000,
+  "display_runtime": "43",
+  "question_id": "609",
+  "elapsed_time": 86,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357016979,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 162,
+  "total_testcases": 162,
+  "runtime_percentile": 27.18470000000002,
+  "status_memory": "20.4 MB",
+  "memory_percentile": 82.52420000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695686640",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

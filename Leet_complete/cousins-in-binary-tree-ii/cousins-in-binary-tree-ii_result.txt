@@ -1,0 +1,47 @@
+Problem: cousins-in-binary-tree-ii
+Submission ID: 1695629518
+Submission Time: 2025-07-12 13:05:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 220 ms
+Memory: 98.86 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 97.5%
+Memory Percentile: 55.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "220 ms",
+  "memory": 98860000,
+  "display_runtime": "220",
+  "question_id": "2677",
+  "elapsed_time": 1005,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350715535,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 97.5,
+  "status_memory": "98.9 MB",
+  "memory_percentile": 55.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695629518",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

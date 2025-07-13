@@ -1,0 +1,47 @@
+Problem: length-of-the-longest-alphabetical-continuous-substring
+Submission ID: 1695579351
+Submission Time: 2025-07-12 11:58:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 378 ms
+Memory: 12.90 MB
+
+Test Cases: 123/123 passed
+
+Runtime Percentile: 37.03710000000003%
+Memory Percentile: 92.5926%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "378 ms",
+  "memory": 12900000,
+  "display_runtime": "378",
+  "question_id": "2492",
+  "elapsed_time": 464,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346696997,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 123,
+  "total_testcases": 123,
+  "runtime_percentile": 37.03710000000003,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 92.5926,
+  "pretty_lang": "Python",
+  "submission_id": "1695579351",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

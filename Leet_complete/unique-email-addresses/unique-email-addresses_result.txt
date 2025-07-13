@@ -1,0 +1,49 @@
+Problem: unique-email-addresses
+Submission ID: 1695684463
+Submission Time: 2025-07-12 14:45:31
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.37 MB
+
+Test Cases: 1/188 passed
+
+Last Test Case:
+Input: ["a@leetcode.com","b@leetcode.com","c@leetcode.com"]
+Expected: 3
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 12: ValueError: substring not found",
+  "full_runtime_error": "ValueError: substring not found\n    name = name[:name.index('+')]\nLine 12 in convert (Solution.py)\n    lookup.add(convert(email))\nLine 17 in numUniqueEmails (Solution.py)\n    ret = Solution().numUniqueEmails(param_1)\nLine 45 in _driver (Solution.py)\n    _driver()\nLine 59 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12368000,
+  "question_id": "965",
+  "elapsed_time": 39,
+  "compare_result": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[\"a@leetcode.com\",\"b@leetcode.com\",\"c@leetcode.com\"]",
+  "expected_output": "3",
+  "task_finish_time": 1752356731124,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 1,
+  "total_testcases": 188,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695684463",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

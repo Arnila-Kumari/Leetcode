@@ -1,0 +1,47 @@
+Problem: minimum-number-of-operations-to-make-arrays-similar
+Submission ID: 1695675382
+Submission Time: 2025-07-12 14:27:13
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 486 ms
+Memory: 34.80 MB
+
+Test Cases: 32/32 passed
+
+Runtime Percentile: 12.5%
+Memory Percentile: 12.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "486 ms",
+  "memory": 34804000,
+  "display_runtime": "486",
+  "question_id": "2539",
+  "elapsed_time": 584,
+  "compare_result": "11111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355625377,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 32,
+  "runtime_percentile": 12.5,
+  "status_memory": "34.8 MB",
+  "memory_percentile": 12.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695675382",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

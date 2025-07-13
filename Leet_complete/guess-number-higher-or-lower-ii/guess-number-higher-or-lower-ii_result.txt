@@ -1,0 +1,47 @@
+Problem: guess-number-higher-or-lower-ii
+Submission ID: 1695556797
+Submission Time: 2025-07-12 11:32:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1246 ms
+Memory: 13.28 MB
+
+Test Cases: 27/27 passed
+
+Runtime Percentile: 94.18599999999998%
+Memory Percentile: 60.46509999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1246 ms",
+  "memory": 13276000,
+  "display_runtime": "1246",
+  "question_id": "375",
+  "elapsed_time": 1282,
+  "compare_result": "111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345176258,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 27,
+  "total_testcases": 27,
+  "runtime_percentile": 94.18599999999998,
+  "status_memory": "13.3 MB",
+  "memory_percentile": 60.46509999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695556797",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

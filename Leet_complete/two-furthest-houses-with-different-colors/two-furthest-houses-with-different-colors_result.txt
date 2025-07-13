@@ -1,0 +1,47 @@
+Problem: two-furthest-houses-with-different-colors
+Submission ID: 1695688879
+Submission Time: 2025-07-12 14:55:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.40 MB
+
+Test Cases: 126/126 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 80.59710000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12400000,
+  "display_runtime": "0",
+  "question_id": "2199",
+  "elapsed_time": 56,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357304017,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 126,
+  "total_testcases": 126,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 80.59710000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695688879",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: sort-integers-by-the-power-value
+Submission ID: 1695708448
+Submission Time: 2025-07-12 15:39:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 64 ms
+Memory: 12.71 MB
+
+Test Cases: 333/333 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 61.363499999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "64 ms",
+  "memory": 12712000,
+  "display_runtime": "64",
+  "question_id": "1488",
+  "elapsed_time": 109,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752359965054,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 333,
+  "total_testcases": 333,
+  "runtime_percentile": 100,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 61.363499999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1695708448",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

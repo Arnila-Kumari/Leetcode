@@ -1,0 +1,47 @@
+Problem: min-stack
+Submission ID: 1695741375
+Submission Time: 2025-07-12 17:10:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 15.96 MB
+
+Test Cases: 31/31 passed
+
+Runtime Percentile: 51.836700000000015%
+Memory Percentile: 28.513199999999983%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 15956000,
+  "display_runtime": "11",
+  "question_id": "155",
+  "elapsed_time": 146,
+  "compare_result": "1111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365458132,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 31,
+  "total_testcases": 31,
+  "runtime_percentile": 51.836700000000015,
+  "status_memory": "16 MB",
+  "memory_percentile": 28.513199999999983,
+  "pretty_lang": "Python",
+  "submission_id": "1695741375",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

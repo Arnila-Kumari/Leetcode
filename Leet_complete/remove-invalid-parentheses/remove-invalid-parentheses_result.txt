@@ -1,0 +1,47 @@
+Problem: remove-invalid-parentheses
+Submission ID: 1695675171
+Submission Time: 2025-07-12 14:26:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.44 MB
+
+Test Cases: 129/129 passed
+
+Runtime Percentile: 99.4924%
+Memory Percentile: 91.8781%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12444000,
+  "display_runtime": "4",
+  "question_id": "301",
+  "elapsed_time": 41,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355599293,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 129,
+  "total_testcases": 129,
+  "runtime_percentile": 99.4924,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 91.8781,
+  "pretty_lang": "Python",
+  "submission_id": "1695675171",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

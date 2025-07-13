@@ -1,0 +1,47 @@
+Problem: boats-to-save-people
+Submission ID: 1695566160
+Submission Time: 2025-07-12 11:43:12
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 68 ms
+Memory: 16.66 MB
+
+Test Cases: 78/78 passed
+
+Runtime Percentile: 77.86900000000001%
+Memory Percentile: 13.115000000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "68 ms",
+  "memory": 16660000,
+  "display_runtime": "68",
+  "question_id": "917",
+  "elapsed_time": 138,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345790947,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 78,
+  "total_testcases": 78,
+  "runtime_percentile": 77.86900000000001,
+  "status_memory": "16.7 MB",
+  "memory_percentile": 13.115000000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695566160",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

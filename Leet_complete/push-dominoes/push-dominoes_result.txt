@@ -1,0 +1,47 @@
+Problem: push-dominoes
+Submission ID: 1695590373
+Submission Time: 2025-07-12 12:11:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 421 ms
+Memory: 16.88 MB
+
+Test Cases: 45/45 passed
+
+Runtime Percentile: 58.70839999999988%
+Memory Percentile: 90.96759999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "421 ms",
+  "memory": 16880000,
+  "display_runtime": "421",
+  "question_id": "868",
+  "elapsed_time": 486,
+  "compare_result": "111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347490071,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 45,
+  "total_testcases": 45,
+  "runtime_percentile": 58.70839999999988,
+  "status_memory": "16.9 MB",
+  "memory_percentile": 90.96759999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695590373",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

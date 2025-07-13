@@ -1,0 +1,47 @@
+Problem: all-oone-data-structure
+Submission ID: 1695550449
+Submission Time: 2025-07-12 11:26:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 186 ms
+Memory: 30.44 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 38.63570000000007%
+Memory Percentile: 34.09090000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "186 ms",
+  "memory": 30436000,
+  "display_runtime": "186",
+  "question_id": "432",
+  "elapsed_time": 883,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344817852,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 38.63570000000007,
+  "status_memory": "30.4 MB",
+  "memory_percentile": 34.09090000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695550449",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

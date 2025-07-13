@@ -1,0 +1,47 @@
+Problem: number-of-sub-arrays-with-odd-sum
+Submission ID: 1695567040
+Submission Time: 2025-07-12 11:44:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 107 ms
+Memory: 16.22 MB
+
+Test Cases: 151/151 passed
+
+Runtime Percentile: 20.689599999999995%
+Memory Percentile: 31.89660000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "107 ms",
+  "memory": 16224000,
+  "display_runtime": "107",
+  "question_id": "1631",
+  "elapsed_time": 187,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345847914,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 151,
+  "total_testcases": 151,
+  "runtime_percentile": 20.689599999999995,
+  "status_memory": "16.2 MB",
+  "memory_percentile": 31.89660000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695567040",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

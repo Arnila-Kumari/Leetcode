@@ -1,0 +1,47 @@
+Problem: valid-sudoku
+Submission ID: 1695738758
+Submission Time: 2025-07-12 17:04:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 27 ms
+Memory: 12.37 MB
+
+Test Cases: 507/507 passed
+
+Runtime Percentile: 6.5104999999999915%
+Memory Percentile: 85.5397%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "27 ms",
+  "memory": 12368000,
+  "display_runtime": "27",
+  "question_id": "36",
+  "elapsed_time": 56,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365059837,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 507,
+  "total_testcases": 507,
+  "runtime_percentile": 6.5104999999999915,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 85.5397,
+  "pretty_lang": "Python",
+  "submission_id": "1695738758",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

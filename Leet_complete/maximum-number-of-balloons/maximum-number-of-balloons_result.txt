@@ -1,0 +1,47 @@
+Problem: maximum-number-of-balloons
+Submission ID: 1695628416
+Submission Time: 2025-07-12 13:03:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 12.42 MB
+
+Test Cases: 28/28 passed
+
+Runtime Percentile: 18.37209999999999%
+Memory Percentile: 72.5582%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 12416000,
+  "display_runtime": "11",
+  "question_id": "1297",
+  "elapsed_time": 109,
+  "compare_result": "1111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350616765,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 28,
+  "total_testcases": 28,
+  "runtime_percentile": 18.37209999999999,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 72.5582,
+  "pretty_lang": "Python",
+  "submission_id": "1695628416",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: append-characters-to-string-to-make-subsequence
+Submission ID: 1695552960
+Submission Time: 2025-07-12 11:29:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 28 ms
+Memory: 12.98 MB
+
+Test Cases: 86/86 passed
+
+Runtime Percentile: 83.88870000000003%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "28 ms",
+  "memory": 12984000,
+  "display_runtime": "28",
+  "question_id": "2572",
+  "elapsed_time": 134,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344948015,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 86,
+  "total_testcases": 86,
+  "runtime_percentile": 83.88870000000003,
+  "status_memory": "13 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695552960",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

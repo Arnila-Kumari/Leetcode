@@ -1,0 +1,47 @@
+Problem: all-elements-in-two-binary-search-trees
+Submission ID: 1695550058
+Submission Time: 2025-07-12 11:26:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 113 ms
+Memory: 18.78 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 24.560799999999976%
+Memory Percentile: 98.2456%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "113 ms",
+  "memory": 18784000,
+  "display_runtime": "113",
+  "question_id": "1427",
+  "elapsed_time": 339,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344795259,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 24.560799999999976,
+  "status_memory": "18.8 MB",
+  "memory_percentile": 98.2456,
+  "pretty_lang": "Python",
+  "submission_id": "1695550058",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

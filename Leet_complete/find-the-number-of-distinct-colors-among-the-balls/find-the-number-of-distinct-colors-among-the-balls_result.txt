@@ -1,0 +1,47 @@
+Problem: find-the-number-of-distinct-colors-among-the-balls
+Submission ID: 1695675872
+Submission Time: 2025-07-12 14:28:12
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 163 ms
+Memory: 63.45 MB
+
+Test Cases: 551/551 passed
+
+Runtime Percentile: 10.58899999999997%
+Memory Percentile: 13.529399999999978%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "163 ms",
+  "memory": 63448000,
+  "display_runtime": "163",
+  "question_id": "3434",
+  "elapsed_time": 309,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355688664,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 551,
+  "total_testcases": 551,
+  "runtime_percentile": 10.58899999999997,
+  "status_memory": "63.4 MB",
+  "memory_percentile": 13.529399999999978,
+  "pretty_lang": "Python",
+  "submission_id": "1695675872",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

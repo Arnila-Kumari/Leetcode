@@ -1,0 +1,47 @@
+Problem: count-artifacts-that-can-be-extracted
+Submission ID: 1695593471
+Submission Time: 2025-07-12 12:15:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 184 ms
+Memory: 65.39 MB
+
+Test Cases: 97/97 passed
+
+Runtime Percentile: 40.0%
+Memory Percentile: 20.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "184 ms",
+  "memory": 65392000,
+  "display_runtime": "184",
+  "question_id": "1312",
+  "elapsed_time": 354,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347718148,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 97,
+  "total_testcases": 97,
+  "runtime_percentile": 40.0,
+  "status_memory": "65.4 MB",
+  "memory_percentile": 20.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695593471",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

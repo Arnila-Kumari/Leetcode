@@ -1,0 +1,47 @@
+Problem: contain-virus
+Submission ID: 1695589412
+Submission Time: 2025-07-12 12:10:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 62 ms
+Memory: 14.37 MB
+
+Test Cases: 32/32 passed
+
+Runtime Percentile: 31.5787%
+Memory Percentile: 36.841899999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "62 ms",
+  "memory": 14368000,
+  "display_runtime": "62",
+  "question_id": "750",
+  "elapsed_time": 131,
+  "compare_result": "11111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347416105,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 32,
+  "runtime_percentile": 31.5787,
+  "status_memory": "14.4 MB",
+  "memory_percentile": 36.841899999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1695589412",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

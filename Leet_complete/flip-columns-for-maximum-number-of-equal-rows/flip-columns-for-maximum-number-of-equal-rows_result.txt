@@ -1,0 +1,47 @@
+Problem: flip-columns-for-maximum-number-of-equal-rows
+Submission ID: 1695546787
+Submission Time: 2025-07-12 11:23:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 84 ms
+Memory: 14.44 MB
+
+Test Cases: 90/90 passed
+
+Runtime Percentile: 26.315500000000018%
+Memory Percentile: 21.052500000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "84 ms",
+  "memory": 14444000,
+  "display_runtime": "84",
+  "question_id": "1147",
+  "elapsed_time": 175,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344614570,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 90,
+  "total_testcases": 90,
+  "runtime_percentile": 26.315500000000018,
+  "status_memory": "14.4 MB",
+  "memory_percentile": 21.052500000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695546787",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

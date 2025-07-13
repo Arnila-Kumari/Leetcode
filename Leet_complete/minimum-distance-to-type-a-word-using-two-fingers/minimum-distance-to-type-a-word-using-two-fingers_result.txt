@@ -1,0 +1,47 @@
+Problem: minimum-distance-to-type-a-word-using-two-fingers
+Submission ID: 1695693911
+Submission Time: 2025-07-12 15:06:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 67 ms
+Memory: 12.51 MB
+
+Test Cases: 55/55 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 77.7778%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "67 ms",
+  "memory": 12508000,
+  "display_runtime": "67",
+  "question_id": "1443",
+  "elapsed_time": 97,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357965781,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 55,
+  "total_testcases": 55,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 77.7778,
+  "pretty_lang": "Python",
+  "submission_id": "1695693911",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

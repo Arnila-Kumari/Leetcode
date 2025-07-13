@@ -1,0 +1,47 @@
+Problem: sum-of-prefix-scores-of-strings
+Submission ID: 1695700576
+Submission Time: 2025-07-12 15:20:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2451 ms
+Memory: 304.62 MB
+
+Test Cases: 38/38 passed
+
+Runtime Percentile: 95.2381%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2451 ms",
+  "memory": 304624000,
+  "display_runtime": "2451",
+  "question_id": "2494",
+  "elapsed_time": 2521,
+  "compare_result": "11111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358853462,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 38,
+  "runtime_percentile": 95.2381,
+  "status_memory": "304.6 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695700576",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

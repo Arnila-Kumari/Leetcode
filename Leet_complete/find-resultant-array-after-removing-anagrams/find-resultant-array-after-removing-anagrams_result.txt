@@ -1,0 +1,47 @@
+Problem: find-resultant-array-after-removing-anagrams
+Submission ID: 1695739308
+Submission Time: 2025-07-12 17:05:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 34 ms
+Memory: 12.59 MB
+
+Test Cases: 201/201 passed
+
+Runtime Percentile: 7.5%
+Memory Percentile: 22.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "34 ms",
+  "memory": 12592000,
+  "display_runtime": "34",
+  "question_id": "1353",
+  "elapsed_time": 77,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365144116,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 201,
+  "total_testcases": 201,
+  "runtime_percentile": 7.5,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 22.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695739308",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

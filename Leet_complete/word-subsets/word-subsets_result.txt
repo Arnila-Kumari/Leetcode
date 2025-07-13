@@ -1,0 +1,53 @@
+Problem: word-subsets
+Submission ID: 1695739511
+Submission Time: 2025-07-12 17:06:18
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 959 ms
+Memory: 16.24 MB
+
+Test Cases: 3/56 passed
+
+Last Test Case:
+Input: ["amazon","apple","facebook","google","leetcode"]
+["e","o"]
+Expected: ["facebook","google","leetcode"]
+
+Code Output: ["amazon","apple","facebook","google","leetcode"]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 16240000,
+  "display_runtime": "959",
+  "question_id": "952",
+  "elapsed_time": 1050,
+  "compare_result": "00000000001000010000000000000000000000000000000000000001",
+  "code_output": "[\"amazon\",\"apple\",\"facebook\",\"google\",\"leetcode\"]",
+  "std_output": "",
+  "last_testcase": "[\"amazon\",\"apple\",\"facebook\",\"google\",\"leetcode\"]\n[\"e\",\"o\"]",
+  "expected_output": "[\"facebook\",\"google\",\"leetcode\"]",
+  "task_finish_time": 1752365176609,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 3,
+  "total_testcases": 56,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695739511",
+  "input_formatted": "[\"amazon\",\"apple\",\"facebook\",\"google\",\"leetcode\"], [\"e\",\"o\"]",
+  "input": "[\"amazon\",\"apple\",\"facebook\",\"google\",\"leetcode\"]\n[\"e\",\"o\"]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

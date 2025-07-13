@@ -1,0 +1,47 @@
+Problem: longer-contiguous-segments-of-ones-than-zeros
+Submission ID: 1695583074
+Submission Time: 2025-07-12 12:02:44
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.57 MB
+
+Test Cases: 141/141 passed
+
+Runtime Percentile: 7.5%
+Memory Percentile: 7.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12568000,
+  "display_runtime": "7",
+  "question_id": "1999",
+  "elapsed_time": 40,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346963373,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 141,
+  "total_testcases": 141,
+  "runtime_percentile": 7.5,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 7.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695583074",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

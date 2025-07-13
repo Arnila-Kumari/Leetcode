@@ -1,0 +1,47 @@
+Problem: house-robber-iii
+Submission ID: 1695559703
+Submission Time: 2025-07-12 11:35:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 16.29 MB
+
+Test Cases: 124/124 passed
+
+Runtime Percentile: 81.1966%
+Memory Percentile: 99.7151%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 16292000,
+  "display_runtime": "4",
+  "question_id": "337",
+  "elapsed_time": 49,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345357306,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 124,
+  "total_testcases": 124,
+  "runtime_percentile": 81.1966,
+  "status_memory": "16.3 MB",
+  "memory_percentile": 99.7151,
+  "pretty_lang": "Python",
+  "submission_id": "1695559703",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

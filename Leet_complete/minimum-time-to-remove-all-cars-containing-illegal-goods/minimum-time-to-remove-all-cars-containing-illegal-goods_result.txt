@@ -1,0 +1,47 @@
+Problem: minimum-time-to-remove-all-cars-containing-illegal-goods
+Submission ID: 1695544332
+Submission Time: 2025-07-12 11:21:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1299 ms
+Memory: 13.70 MB
+
+Test Cases: 89/89 passed
+
+Runtime Percentile: 50.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1299 ms",
+  "memory": 13704000,
+  "display_runtime": "1299",
+  "question_id": "2286",
+  "elapsed_time": 1380,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344479715,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 89,
+  "total_testcases": 89,
+  "runtime_percentile": 50.0,
+  "status_memory": "13.7 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695544332",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

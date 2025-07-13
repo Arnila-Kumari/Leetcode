@@ -1,0 +1,50 @@
+Problem: longest-unequal-adjacent-groups-subsequence-ii
+Submission ID: 1695590829
+Submission Time: 2025-07-12 12:12:07
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.42 MB
+
+Test Cases: 0/443 passed
+
+Last Test Case:
+Input: ["bab","dab","cab"]
+[1,2,2]
+Expected: ["bab","cab"]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 117: TypeError: getWordsInLongestSubsequence() takes exactly 4 arguments (3 given)",
+  "full_runtime_error": "TypeError: getWordsInLongestSubsequence() takes exactly 4 arguments (3 given)\n    ret = Solution().getWordsInLongestSubsequence(param_1, param_2)\nLine 117 in _driver (Solution.py)\n    _driver()\nLine 131 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12420000,
+  "question_id": "3142",
+  "elapsed_time": 30,
+  "compare_result": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[\"bab\",\"dab\",\"cab\"]\n[1,2,2]",
+  "expected_output": "[\"bab\",\"cab\"]",
+  "task_finish_time": 1752347525513,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 443,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695590829",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

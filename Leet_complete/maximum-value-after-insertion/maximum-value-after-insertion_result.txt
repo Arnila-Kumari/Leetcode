@@ -1,0 +1,47 @@
+Problem: maximum-value-after-insertion
+Submission ID: 1695686850
+Submission Time: 2025-07-12 14:50:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 95 ms
+Memory: 13.23 MB
+
+Test Cases: 97/97 passed
+
+Runtime Percentile: 71.42860000000002%
+Memory Percentile: 90.4762%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "95 ms",
+  "memory": 13228000,
+  "display_runtime": "95",
+  "question_id": "2011",
+  "elapsed_time": 147,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357042632,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 97,
+  "total_testcases": 97,
+  "runtime_percentile": 71.42860000000002,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 90.4762,
+  "pretty_lang": "Python",
+  "submission_id": "1695686850",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

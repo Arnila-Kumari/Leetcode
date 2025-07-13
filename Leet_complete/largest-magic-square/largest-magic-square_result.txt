@@ -1,0 +1,47 @@
+Problem: largest-magic-square
+Submission ID: 1695573994
+Submission Time: 2025-07-12 11:51:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 360 ms
+Memory: 12.67 MB
+
+Test Cases: 80/80 passed
+
+Runtime Percentile: 62.5%
+Memory Percentile: 25.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "360 ms",
+  "memory": 12672000,
+  "display_runtime": "360",
+  "question_id": "1311",
+  "elapsed_time": 409,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346317077,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 80,
+  "total_testcases": 80,
+  "runtime_percentile": 62.5,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 25.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695573994",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

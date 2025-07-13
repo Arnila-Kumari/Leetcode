@@ -1,0 +1,47 @@
+Problem: most-popular-video-creator
+Submission ID: 1695550294
+Submission Time: 2025-07-12 11:26:51
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 211 ms
+Memory: 68.20 MB
+
+Test Cases: 86/86 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "211 ms",
+  "memory": 68196000,
+  "display_runtime": "211",
+  "question_id": "2543",
+  "elapsed_time": 332,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344809354,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 86,
+  "total_testcases": 86,
+  "runtime_percentile": 100,
+  "status_memory": "68.2 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695550294",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: set-mismatch
+Submission ID: 1695693744
+Submission Time: 2025-07-12 15:05:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 41 ms
+Memory: 13.27 MB
+
+Test Cases: 49/49 passed
+
+Runtime Percentile: 20.958400000000026%
+Memory Percentile: 95.2096%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "41 ms",
+  "memory": 13272000,
+  "display_runtime": "41",
+  "question_id": "645",
+  "elapsed_time": 83,
+  "compare_result": "1111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357944698,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 49,
+  "total_testcases": 49,
+  "runtime_percentile": 20.958400000000026,
+  "status_memory": "13.3 MB",
+  "memory_percentile": 95.2096,
+  "pretty_lang": "Python",
+  "submission_id": "1695693744",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

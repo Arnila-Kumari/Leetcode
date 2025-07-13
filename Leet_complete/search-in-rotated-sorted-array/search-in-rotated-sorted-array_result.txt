@@ -1,0 +1,47 @@
+Problem: search-in-rotated-sorted-array
+Submission ID: 1695709700
+Submission Time: 2025-07-12 15:42:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.70 MB
+
+Test Cases: 196/196 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 42.320899999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12696000,
+  "display_runtime": "0",
+  "question_id": "33",
+  "elapsed_time": 35,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360144099,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 196,
+  "total_testcases": 196,
+  "runtime_percentile": 100,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 42.320899999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1695709700",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

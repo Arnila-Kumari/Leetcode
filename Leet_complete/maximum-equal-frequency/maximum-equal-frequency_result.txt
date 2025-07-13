@@ -1,0 +1,47 @@
+Problem: maximum-equal-frequency
+Submission ID: 1695625098
+Submission Time: 2025-07-12 12:58:34
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 188 ms
+Memory: 16.68 MB
+
+Test Cases: 45/45 passed
+
+Runtime Percentile: 66.66660000000002%
+Memory Percentile: 33.33339999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "188 ms",
+  "memory": 16680000,
+  "display_runtime": "188",
+  "question_id": "1344",
+  "elapsed_time": 258,
+  "compare_result": "111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350313622,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 45,
+  "total_testcases": 45,
+  "runtime_percentile": 66.66660000000002,
+  "status_memory": "16.7 MB",
+  "memory_percentile": 33.33339999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695625098",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

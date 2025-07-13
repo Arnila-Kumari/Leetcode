@@ -1,0 +1,47 @@
+Problem: minimum-time-to-collect-all-apples-in-a-tree
+Submission ID: 1695614435
+Submission Time: 2025-07-12 12:43:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 163 ms
+Memory: 47.50 MB
+
+Test Cases: 63/63 passed
+
+Runtime Percentile: 12.726799999999988%
+Memory Percentile: 78.1818%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "163 ms",
+  "memory": 47500000,
+  "display_runtime": "163",
+  "question_id": "1554",
+  "elapsed_time": 233,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349379865,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 63,
+  "total_testcases": 63,
+  "runtime_percentile": 12.726799999999988,
+  "status_memory": "47.5 MB",
+  "memory_percentile": 78.1818,
+  "pretty_lang": "Python",
+  "submission_id": "1695614435",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

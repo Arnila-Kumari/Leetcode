@@ -1,0 +1,47 @@
+Problem: binary-tree-coloring-game
+Submission ID: 1695563474
+Submission Time: 2025-07-12 11:40:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.48 MB
+
+Test Cases: 64/64 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 94.4444%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12480000,
+  "display_runtime": "0",
+  "question_id": "1248",
+  "elapsed_time": 34,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345604575,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 64,
+  "total_testcases": 64,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 94.4444,
+  "pretty_lang": "Python",
+  "submission_id": "1695563474",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

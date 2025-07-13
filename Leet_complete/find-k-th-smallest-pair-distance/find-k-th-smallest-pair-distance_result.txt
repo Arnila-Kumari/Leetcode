@@ -1,0 +1,47 @@
+Problem: find-k-th-smallest-pair-distance
+Submission ID: 1695692936
+Submission Time: 2025-07-12 15:04:03
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 28 ms
+Memory: 13.04 MB
+
+Test Cases: 20/20 passed
+
+Runtime Percentile: 93.13719999999999%
+Memory Percentile: 57.84309999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "28 ms",
+  "memory": 13040000,
+  "display_runtime": "28",
+  "question_id": "719",
+  "elapsed_time": 68,
+  "compare_result": "11111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357842598,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 20,
+  "total_testcases": 20,
+  "runtime_percentile": 93.13719999999999,
+  "status_memory": "13 MB",
+  "memory_percentile": 57.84309999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695692936",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: allocate-mailboxes
+Submission ID: 1695551056
+Submission Time: 2025-07-12 11:27:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 301 ms
+Memory: 12.36 MB
+
+Test Cases: 69/69 passed
+
+Runtime Percentile: 81.25%
+Memory Percentile: 87.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "301 ms",
+  "memory": 12356000,
+  "display_runtime": "301",
+  "question_id": "1571",
+  "elapsed_time": 355,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344848020,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 69,
+  "total_testcases": 69,
+  "runtime_percentile": 81.25,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 87.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695551056",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

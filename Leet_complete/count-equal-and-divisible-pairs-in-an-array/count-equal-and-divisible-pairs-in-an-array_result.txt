@@ -1,0 +1,47 @@
+Problem: count-equal-and-divisible-pairs-in-an-array
+Submission ID: 1695596467
+Submission Time: 2025-07-12 12:18:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 18 ms
+Memory: 12.37 MB
+
+Test Cases: 238/238 passed
+
+Runtime Percentile: 91.82999999999998%
+Memory Percentile: 83.0065%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "18 ms",
+  "memory": 12368000,
+  "display_runtime": "18",
+  "question_id": "2277",
+  "elapsed_time": 82,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347937116,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 238,
+  "total_testcases": 238,
+  "runtime_percentile": 91.82999999999998,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 83.0065,
+  "pretty_lang": "Python",
+  "submission_id": "1695596467",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

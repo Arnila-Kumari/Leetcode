@@ -1,0 +1,47 @@
+Problem: valid-permutations-for-di-sequence
+Submission ID: 1695693811
+Submission Time: 2025-07-12 15:05:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.41 MB
+
+Test Cases: 83/83 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 83.33330000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12412000,
+  "display_runtime": "7",
+  "question_id": "939",
+  "elapsed_time": 41,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357953897,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 83,
+  "total_testcases": 83,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 83.33330000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695693811",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

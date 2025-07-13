@@ -1,0 +1,46 @@
+Problem: the-dining-philosophers
+Submission ID: 1695679408
+Submission Time: 2025-07-12 14:35:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 65 ms ms
+Memory: 13.83 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 86.9566%
+Memory Percentile: 80.43479999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "65 ms",
+  "memory": 13828000,
+  "question_id": "1340",
+  "elapsed_time": 1513,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356122636,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 86.9566,
+  "status_memory": "13.8 MB",
+  "memory_percentile": 80.43479999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695679408",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: flip-binary-tree-to-match-preorder-traversal
+Submission ID: 1695546644
+Submission Time: 2025-07-12 11:23:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.56 MB
+
+Test Cases: 104/104 passed
+
+Runtime Percentile: 6.25%
+Memory Percentile: 68.75%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12560000,
+  "display_runtime": "4",
+  "question_id": "1011",
+  "elapsed_time": 51,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344607005,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 104,
+  "total_testcases": 104,
+  "runtime_percentile": 6.25,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 68.75,
+  "pretty_lang": "Python",
+  "submission_id": "1695546644",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

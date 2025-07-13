@@ -1,0 +1,46 @@
+Problem: intersection-of-two-linked-lists
+Submission ID: 1695564793
+Submission Time: 2025-07-12 11:41:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 138 ms ms
+Memory: 42.32 MB
+
+Test Cases: 39/39 passed
+
+Runtime Percentile: 57.01240000000006%
+Memory Percentile: 67.4214%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "138 ms",
+  "memory": 42320000,
+  "question_id": "160",
+  "elapsed_time": 171,
+  "compare_result": "111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345693932,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 39,
+  "total_testcases": 39,
+  "runtime_percentile": 57.01240000000006,
+  "status_memory": "42.3 MB",
+  "memory_percentile": 67.4214,
+  "pretty_lang": "Python",
+  "submission_id": "1695564793",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

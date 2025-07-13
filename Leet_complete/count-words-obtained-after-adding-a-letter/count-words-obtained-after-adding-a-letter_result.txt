@@ -1,0 +1,47 @@
+Problem: count-words-obtained-after-adding-a-letter
+Submission ID: 1695628431
+Submission Time: 2025-07-12 13:03:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 980 ms
+Memory: 28.56 MB
+
+Test Cases: 93/93 passed
+
+Runtime Percentile: 39.13079999999995%
+Memory Percentile: 56.521699999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "980 ms",
+  "memory": 28564000,
+  "display_runtime": "980",
+  "question_id": "2256",
+  "elapsed_time": 1170,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350619016,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 93,
+  "total_testcases": 93,
+  "runtime_percentile": 39.13079999999995,
+  "status_memory": "28.6 MB",
+  "memory_percentile": 56.521699999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695628431",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit
+Submission ID: 1695585096
+Submission Time: 2025-07-12 12:05:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 213 ms
+Memory: 18.40 MB
+
+Test Cases: 63/63 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 71.3615%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "213 ms",
+  "memory": 18404000,
+  "display_runtime": "213",
+  "question_id": "1549",
+  "elapsed_time": 324,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347106601,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 63,
+  "total_testcases": 63,
+  "runtime_percentile": 100,
+  "status_memory": "18.4 MB",
+  "memory_percentile": 71.3615,
+  "pretty_lang": "Python",
+  "submission_id": "1695585096",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: avoid-flood-in-the-city
+Submission ID: 1695557972
+Submission Time: 2025-07-12 11:34:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 303 ms
+Memory: 33.49 MB
+
+Test Cases: 82/82 passed
+
+Runtime Percentile: 40.0%
+Memory Percentile: 30.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "303 ms",
+  "memory": 33492000,
+  "display_runtime": "303",
+  "question_id": "1612",
+  "elapsed_time": 392,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345248974,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 82,
+  "total_testcases": 82,
+  "runtime_percentile": 40.0,
+  "status_memory": "33.5 MB",
+  "memory_percentile": 30.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695557972",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

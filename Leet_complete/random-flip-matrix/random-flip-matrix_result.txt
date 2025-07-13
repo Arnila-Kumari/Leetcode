@@ -1,0 +1,47 @@
+Problem: random-flip-matrix
+Submission ID: 1695591738
+Submission Time: 2025-07-12 12:13:11
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 12.88 MB
+
+Test Cases: 20/20 passed
+
+Runtime Percentile: 45.946000000000005%
+Memory Percentile: 67.5676%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 12884000,
+  "display_runtime": "15",
+  "question_id": "913",
+  "elapsed_time": 84,
+  "compare_result": "11111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347590509,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 20,
+  "total_testcases": 20,
+  "runtime_percentile": 45.946000000000005,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 67.5676,
+  "pretty_lang": "Python",
+  "submission_id": "1695591738",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

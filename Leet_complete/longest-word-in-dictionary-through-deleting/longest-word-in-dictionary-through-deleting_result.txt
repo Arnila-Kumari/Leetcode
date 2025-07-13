@@ -1,0 +1,47 @@
+Problem: longest-word-in-dictionary-through-deleting
+Submission ID: 1695591541
+Submission Time: 2025-07-12 12:12:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 223 ms
+Memory: 14.26 MB
+
+Test Cases: 31/31 passed
+
+Runtime Percentile: 65.57310000000005%
+Memory Percentile: 41.8033%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "223 ms",
+  "memory": 14260000,
+  "display_runtime": "223",
+  "question_id": "524",
+  "elapsed_time": 258,
+  "compare_result": "1111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347575573,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 31,
+  "total_testcases": 31,
+  "runtime_percentile": 65.57310000000005,
+  "status_memory": "14.3 MB",
+  "memory_percentile": 41.8033,
+  "pretty_lang": "Python",
+  "submission_id": "1695591541",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

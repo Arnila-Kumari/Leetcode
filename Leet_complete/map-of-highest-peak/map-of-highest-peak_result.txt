@@ -1,0 +1,47 @@
+Problem: map-of-highest-peak
+Submission ID: 1695595867
+Submission Time: 2025-07-12 12:18:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1214 ms
+Memory: 172.18 MB
+
+Test Cases: 59/59 passed
+
+Runtime Percentile: 27.10139999999982%
+Memory Percentile: 10.279799999999934%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1214 ms",
+  "memory": 172176000,
+  "display_runtime": "1214",
+  "question_id": "1876",
+  "elapsed_time": 1494,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347897508,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 59,
+  "total_testcases": 59,
+  "runtime_percentile": 27.10139999999982,
+  "status_memory": "172.2 MB",
+  "memory_percentile": 10.279799999999934,
+  "pretty_lang": "Python",
+  "submission_id": "1695595867",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

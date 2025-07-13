@@ -1,0 +1,47 @@
+Problem: simple-bank-system
+Submission ID: 1695695035
+Submission Time: 2025-07-12 15:08:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 48 ms
+Memory: 42.40 MB
+
+Test Cases: 23/23 passed
+
+Runtime Percentile: 64.51599999999993%
+Memory Percentile: 53.5483%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "48 ms",
+  "memory": 42404000,
+  "display_runtime": "48",
+  "question_id": "2169",
+  "elapsed_time": 1452,
+  "compare_result": "11111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358099939,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 23,
+  "total_testcases": 23,
+  "runtime_percentile": 64.51599999999993,
+  "status_memory": "42.4 MB",
+  "memory_percentile": 53.5483,
+  "pretty_lang": "Python",
+  "submission_id": "1695695035",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

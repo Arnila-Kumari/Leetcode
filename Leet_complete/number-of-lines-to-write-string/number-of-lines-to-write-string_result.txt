@@ -1,0 +1,46 @@
+Problem: number-of-lines-to-write-string
+Submission ID: 1695562960
+Submission Time: 2025-07-12 11:39:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms ms
+Memory: 12.39 MB
+
+Test Cases: 27/27 passed
+
+Runtime Percentile: 74.19360000000002%
+Memory Percentile: 80.1075%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 12388000,
+  "question_id": "824",
+  "elapsed_time": 36,
+  "compare_result": "111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345568529,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 27,
+  "total_testcases": 27,
+  "runtime_percentile": 74.19360000000002,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 80.1075,
+  "pretty_lang": "Python",
+  "submission_id": "1695562960",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

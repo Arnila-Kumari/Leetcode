@@ -1,0 +1,47 @@
+Problem: find-the-punishment-number-of-an-integer
+Submission ID: 1695677229
+Submission Time: 2025-07-12 14:30:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 877 ms
+Memory: 12.38 MB
+
+Test Cases: 216/216 passed
+
+Runtime Percentile: 88.8887%
+Memory Percentile: 88.8889%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "877 ms",
+  "memory": 12376000,
+  "display_runtime": "877",
+  "question_id": "2802",
+  "elapsed_time": 939,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355856151,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 216,
+  "total_testcases": 216,
+  "runtime_percentile": 88.8887,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 88.8889,
+  "pretty_lang": "Python",
+  "submission_id": "1695677229",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

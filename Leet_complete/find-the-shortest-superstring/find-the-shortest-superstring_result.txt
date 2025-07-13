@@ -1,0 +1,47 @@
+Problem: find-the-shortest-superstring
+Submission ID: 1695709550
+Submission Time: 2025-07-12 15:42:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 394 ms
+Memory: 13.63 MB
+
+Test Cases: 85/85 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 94.1176%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "394 ms",
+  "memory": 13632000,
+  "display_runtime": "394",
+  "question_id": "980",
+  "elapsed_time": 511,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360124918,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 85,
+  "total_testcases": 85,
+  "runtime_percentile": 100,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 94.1176,
+  "pretty_lang": "Python",
+  "submission_id": "1695709550",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

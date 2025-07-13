@@ -1,0 +1,47 @@
+Problem: make-two-arrays-equal-by-reversing-subarrays
+Submission ID: 1696125654
+Submission Time: 2025-07-13 00:39:41
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 10 ms
+Memory: 12.80 MB
+
+Test Cases: 109/109 passed
+
+Runtime Percentile: 16.75679999999999%
+Memory Percentile: 12.972900000000003%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "10 ms",
+  "memory": 12800000,
+  "display_runtime": "10",
+  "question_id": "1556",
+  "elapsed_time": 48,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752392380077,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 109,
+  "total_testcases": 109,
+  "runtime_percentile": 16.75679999999999,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 12.972900000000003,
+  "pretty_lang": "Python",
+  "submission_id": "1696125654",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

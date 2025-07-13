@@ -1,0 +1,47 @@
+Problem: count-common-words-with-one-occurrence
+Submission ID: 1695594780
+Submission Time: 2025-07-12 12:16:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 12.75 MB
+
+Test Cases: 61/61 passed
+
+Runtime Percentile: 46.42859999999998%
+Memory Percentile: 50.4464%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 12752000,
+  "display_runtime": "11",
+  "question_id": "2190",
+  "elapsed_time": 54,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347815010,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 61,
+  "total_testcases": 61,
+  "runtime_percentile": 46.42859999999998,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 50.4464,
+  "pretty_lang": "Python",
+  "submission_id": "1695594780",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: longest-subarray-with-maximum-bitwise-and
+Submission ID: 1695589281
+Submission Time: 2025-07-12 12:10:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 83 ms
+Memory: 21.09 MB
+
+Test Cases: 52/52 passed
+
+Runtime Percentile: 53.84580000000002%
+Memory Percentile: 96.1538%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "83 ms",
+  "memory": 21088000,
+  "display_runtime": "83",
+  "question_id": "2503",
+  "elapsed_time": 150,
+  "compare_result": "1111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347404987,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 52,
+  "total_testcases": 52,
+  "runtime_percentile": 53.84580000000002,
+  "status_memory": "21.1 MB",
+  "memory_percentile": 96.1538,
+  "pretty_lang": "Python",
+  "submission_id": "1695589281",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

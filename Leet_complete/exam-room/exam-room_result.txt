@@ -1,0 +1,47 @@
+Problem: exam-room
+Submission ID: 1695701657
+Submission Time: 2025-07-12 15:23:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 61 ms
+Memory: 17.76 MB
+
+Test Cases: 127/127 passed
+
+Runtime Percentile: 82.14299999999996%
+Memory Percentile: 12.500299999999989%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "61 ms",
+  "memory": 17760000,
+  "display_runtime": "61",
+  "question_id": "885",
+  "elapsed_time": 214,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752359000809,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 127,
+  "total_testcases": 127,
+  "runtime_percentile": 82.14299999999996,
+  "status_memory": "17.8 MB",
+  "memory_percentile": 12.500299999999989,
+  "pretty_lang": "Python",
+  "submission_id": "1695701657",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

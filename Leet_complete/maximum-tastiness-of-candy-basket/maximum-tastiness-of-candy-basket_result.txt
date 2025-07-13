@@ -1,0 +1,47 @@
+Problem: maximum-tastiness-of-candy-basket
+Submission ID: 1695680302
+Submission Time: 2025-07-12 14:37:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 768 ms
+Memory: 20.28 MB
+
+Test Cases: 40/40 passed
+
+Runtime Percentile: 71.875%
+Memory Percentile: 57.8125%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "768 ms",
+  "memory": 20284000,
+  "display_runtime": "768",
+  "question_id": "2600",
+  "elapsed_time": 837,
+  "compare_result": "1111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356244973,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 40,
+  "total_testcases": 40,
+  "runtime_percentile": 71.875,
+  "status_memory": "20.3 MB",
+  "memory_percentile": 57.8125,
+  "pretty_lang": "Python",
+  "submission_id": "1695680302",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

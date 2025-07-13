@@ -1,0 +1,47 @@
+Problem: kth-ancestor-of-a-tree-node
+Submission ID: 1695570985
+Submission Time: 2025-07-12 11:48:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 531 ms
+Memory: 47.81 MB
+
+Test Cases: 17/17 passed
+
+Runtime Percentile: 75.0%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "531 ms",
+  "memory": 47808000,
+  "display_runtime": "531",
+  "question_id": "1296",
+  "elapsed_time": 2134,
+  "compare_result": "11111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346107516,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 17,
+  "total_testcases": 17,
+  "runtime_percentile": 75.0,
+  "status_memory": "47.8 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695570985",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

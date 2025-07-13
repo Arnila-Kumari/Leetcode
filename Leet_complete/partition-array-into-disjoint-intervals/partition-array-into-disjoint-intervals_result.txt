@@ -1,0 +1,47 @@
+Problem: partition-array-into-disjoint-intervals
+Submission ID: 1695578830
+Submission Time: 2025-07-12 11:57:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 139 ms
+Memory: 20.14 MB
+
+Test Cases: 66/66 passed
+
+Runtime Percentile: 46.66710000000003%
+Memory Percentile: 86.6667%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "139 ms",
+  "memory": 20144000,
+  "display_runtime": "139",
+  "question_id": "951",
+  "elapsed_time": 229,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346658133,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 66,
+  "total_testcases": 66,
+  "runtime_percentile": 46.66710000000003,
+  "status_memory": "20.1 MB",
+  "memory_percentile": 86.6667,
+  "pretty_lang": "Python",
+  "submission_id": "1695578830",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

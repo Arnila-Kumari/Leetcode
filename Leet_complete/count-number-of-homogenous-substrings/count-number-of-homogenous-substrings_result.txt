@@ -1,0 +1,47 @@
+Problem: count-number-of-homogenous-substrings
+Submission ID: 1695616167
+Submission Time: 2025-07-12 12:45:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 102 ms
+Memory: 12.72 MB
+
+Test Cases: 85/85 passed
+
+Runtime Percentile: 54.16629999999994%
+Memory Percentile: 98.6111%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "102 ms",
+  "memory": 12716000,
+  "display_runtime": "102",
+  "question_id": "1885",
+  "elapsed_time": 164,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349525052,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 85,
+  "total_testcases": 85,
+  "runtime_percentile": 54.16629999999994,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 98.6111,
+  "pretty_lang": "Python",
+  "submission_id": "1695616167",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: couples-holding-hands
+Submission ID: 1695628822
+Submission Time: 2025-07-12 13:04:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.51 MB
+
+Test Cases: 56/56 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 23.076999999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12508000,
+  "display_runtime": "0",
+  "question_id": "770",
+  "elapsed_time": 49,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350657123,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 56,
+  "total_testcases": 56,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 23.076999999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1695628822",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

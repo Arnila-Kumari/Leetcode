@@ -1,0 +1,47 @@
+Problem: prime-in-diagonal
+Submission ID: 1695587844
+Submission Time: 2025-07-12 12:08:20
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 52.22 MB
+
+Test Cases: 82/82 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 8.955199999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 52216000,
+  "display_runtime": "0",
+  "question_id": "2722",
+  "elapsed_time": 811,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347299524,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 82,
+  "total_testcases": 82,
+  "runtime_percentile": 100,
+  "status_memory": "52.2 MB",
+  "memory_percentile": 8.955199999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695587844",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

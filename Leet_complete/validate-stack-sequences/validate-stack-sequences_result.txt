@@ -1,0 +1,47 @@
+Problem: validate-stack-sequences
+Submission ID: 1695701907
+Submission Time: 2025-07-12 15:23:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2 ms
+Memory: 12.51 MB
+
+Test Cases: 152/152 passed
+
+Runtime Percentile: 64.3275%
+Memory Percentile: 58.4796%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2 ms",
+  "memory": 12508000,
+  "display_runtime": "2",
+  "question_id": "983",
+  "elapsed_time": 39,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752359035835,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 152,
+  "total_testcases": 152,
+  "runtime_percentile": 64.3275,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 58.4796,
+  "pretty_lang": "Python",
+  "submission_id": "1695701907",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: longest-absolute-file-path
+Submission ID: 1695583246
+Submission Time: 2025-07-12 12:02:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.31 MB
+
+Test Cases: 26/26 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 84.1584%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12312000,
+  "display_runtime": "0",
+  "question_id": "388",
+  "elapsed_time": 31,
+  "compare_result": "11111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346975083,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 26,
+  "total_testcases": 26,
+  "runtime_percentile": 100,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 84.1584,
+  "pretty_lang": "Python",
+  "submission_id": "1695583246",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

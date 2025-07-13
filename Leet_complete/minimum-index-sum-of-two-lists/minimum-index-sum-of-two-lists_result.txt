@@ -1,0 +1,47 @@
+Problem: minimum-index-sum-of-two-lists
+Submission ID: 1695676160
+Submission Time: 2025-07-12 14:28:44
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.75 MB
+
+Test Cases: 137/137 passed
+
+Runtime Percentile: 79.53840000000001%
+Memory Percentile: 31.538400000000003%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12748000,
+  "display_runtime": "7",
+  "question_id": "599",
+  "elapsed_time": 60,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355724168,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 137,
+  "total_testcases": 137,
+  "runtime_percentile": 79.53840000000001,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 31.538400000000003,
+  "pretty_lang": "Python",
+  "submission_id": "1695676160",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

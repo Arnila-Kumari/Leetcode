@@ -1,0 +1,47 @@
+Problem: word-break-ii
+Submission ID: 1695700021
+Submission Time: 2025-07-12 15:19:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.56 MB
+
+Test Cases: 28/28 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 15.268699999999988%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12560000,
+  "display_runtime": "0",
+  "question_id": "140",
+  "elapsed_time": 37,
+  "compare_result": "1111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358774578,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 28,
+  "total_testcases": 28,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 15.268699999999988,
+  "pretty_lang": "Python",
+  "submission_id": "1695700021",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

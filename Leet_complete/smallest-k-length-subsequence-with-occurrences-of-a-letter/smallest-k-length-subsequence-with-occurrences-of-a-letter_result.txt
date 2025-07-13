@@ -1,0 +1,47 @@
+Problem: smallest-k-length-subsequence-with-occurrences-of-a-letter
+Submission ID: 1695685863
+Submission Time: 2025-07-12 14:48:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1154 ms
+Memory: 15.10 MB
+
+Test Cases: 152/152 passed
+
+Runtime Percentile: 0.0%
+Memory Percentile: 0.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1154 ms",
+  "memory": 15096000,
+  "display_runtime": "1154",
+  "question_id": "2157",
+  "elapsed_time": 1195,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356916920,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 152,
+  "total_testcases": 152,
+  "runtime_percentile": 0.0,
+  "status_memory": "15.1 MB",
+  "memory_percentile": 0.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695685863",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

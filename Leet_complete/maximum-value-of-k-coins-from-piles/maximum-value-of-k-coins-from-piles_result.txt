@@ -1,0 +1,47 @@
+Problem: maximum-value-of-k-coins-from-piles
+Submission ID: 1695687466
+Submission Time: 2025-07-12 14:52:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2913 ms
+Memory: 12.76 MB
+
+Test Cases: 123/123 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 61.5385%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2913 ms",
+  "memory": 12756000,
+  "display_runtime": "2913",
+  "question_id": "1393",
+  "elapsed_time": 3013,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357120454,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 123,
+  "total_testcases": 123,
+  "runtime_percentile": 100,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 61.5385,
+  "pretty_lang": "Python",
+  "submission_id": "1695687466",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

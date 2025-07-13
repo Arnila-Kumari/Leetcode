@@ -1,0 +1,47 @@
+Problem: find-the-divisibility-array-of-a-string
+Submission ID: 1695678859
+Submission Time: 2025-07-12 14:34:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 143 ms
+Memory: 18.03 MB
+
+Test Cases: 51/51 passed
+
+Runtime Percentile: 96.0%
+Memory Percentile: 60.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "143 ms",
+  "memory": 18028000,
+  "display_runtime": "143",
+  "question_id": "2713",
+  "elapsed_time": 207,
+  "compare_result": "111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356056584,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 51,
+  "total_testcases": 51,
+  "runtime_percentile": 96.0,
+  "status_memory": "18 MB",
+  "memory_percentile": 60.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695678859",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,50 @@
+Problem: walking-robot-simulation-ii
+Submission ID: 1695702629
+Submission Time: 2025-07-12 15:25:35
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.54 MB
+
+Test Cases: 0/142 passed
+
+Last Test Case:
+Input: ["Robot","step","step","getPos","getDir","step","step","step","getPos","getDir"]
+[[6,3],[2],[2],[],[],[2],[1],[4],[],[]]
+Expected: [null,null,null,[4,0],"East",null,null,null,[1,2],"West"]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 113: AttributeError: 'Robot' object has no attribute 'step'",
+  "full_runtime_error": "AttributeError: 'Robot' object has no attribute 'step'\n    result = obj.step(\nLine 113 in __helper_select_method__ (Solution.py)\n    ctime, ans = __DriverSolution__().__helper_select_method__(method, params[index], obj)\nLine 180 in _driver (Solution.py)\n    _driver()\nLine 192 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12540000,
+  "question_id": "2178",
+  "elapsed_time": 33,
+  "compare_result": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[\"Robot\",\"step\",\"step\",\"getPos\",\"getDir\",\"step\",\"step\",\"step\",\"getPos\",\"getDir\"]\n[[6,3],[2],[2],[],[],[2],[1],[4],[],[]]",
+  "expected_output": "[null,null,null,[4,0],\"East\",null,null,null,[1,2],\"West\"]",
+  "task_finish_time": 1752359133335,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 142,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695702629",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

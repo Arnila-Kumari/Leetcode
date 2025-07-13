@@ -1,0 +1,47 @@
+Problem: longest-duplicate-substring
+Submission ID: 1695585351
+Submission Time: 2025-07-12 12:05:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1799 ms
+Memory: 21.55 MB
+
+Test Cases: 68/68 passed
+
+Runtime Percentile: 48.64870000000009%
+Memory Percentile: 37.83790000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1799 ms",
+  "memory": 21552000,
+  "display_runtime": "1799",
+  "question_id": "1122",
+  "elapsed_time": 1916,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347126281,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 68,
+  "total_testcases": 68,
+  "runtime_percentile": 48.64870000000009,
+  "status_memory": "21.6 MB",
+  "memory_percentile": 37.83790000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695585351",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: sum-of-digits-in-base-k
+Submission ID: 1695693626
+Submission Time: 2025-07-12 15:05:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.35 MB
+
+Test Cases: 65/65 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 78.26089999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12348000,
+  "display_runtime": "0",
+  "question_id": "1965",
+  "elapsed_time": 31,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357928590,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 65,
+  "total_testcases": 65,
+  "runtime_percentile": 100,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 78.26089999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695693626",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

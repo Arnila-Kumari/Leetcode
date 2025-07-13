@@ -1,0 +1,47 @@
+Problem: determine-if-string-halves-are-alike
+Submission ID: 1695681076
+Submission Time: 2025-07-12 14:38:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.54 MB
+
+Test Cases: 113/113 passed
+
+Runtime Percentile: 80.0%
+Memory Percentile: 26.8422%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12536000,
+  "display_runtime": "3",
+  "question_id": "1823",
+  "elapsed_time": 41,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356335480,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 113,
+  "total_testcases": 113,
+  "runtime_percentile": 80.0,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 26.8422,
+  "pretty_lang": "Python",
+  "submission_id": "1695681076",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

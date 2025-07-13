@@ -1,0 +1,47 @@
+Problem: snakes-and-ladders
+Submission ID: 1695681337
+Submission Time: 2025-07-12 14:39:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 55 ms
+Memory: 12.56 MB
+
+Test Cases: 217/217 passed
+
+Runtime Percentile: 11.948600000000022%
+Memory Percentile: 31.5764%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "55 ms",
+  "memory": 12556000,
+  "display_runtime": "55",
+  "question_id": "945",
+  "elapsed_time": 89,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356367536,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 217,
+  "total_testcases": 217,
+  "runtime_percentile": 11.948600000000022,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 31.5764,
+  "pretty_lang": "Python",
+  "submission_id": "1695681337",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

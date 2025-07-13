@@ -1,0 +1,47 @@
+Problem: range-frequency-queries
+Submission ID: 1695592538
+Submission Time: 2025-07-12 12:14:14
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 208 ms
+Memory: 52.82 MB
+
+Test Cases: 20/20 passed
+
+Runtime Percentile: 96.5517%
+Memory Percentile: 58.620499999999986%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "208 ms",
+  "memory": 52816000,
+  "display_runtime": "208",
+  "question_id": "1294",
+  "elapsed_time": 4002,
+  "compare_result": "11111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347652896,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 20,
+  "total_testcases": 20,
+  "runtime_percentile": 96.5517,
+  "status_memory": "52.8 MB",
+  "memory_percentile": 58.620499999999986,
+  "pretty_lang": "Python",
+  "submission_id": "1695592538",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

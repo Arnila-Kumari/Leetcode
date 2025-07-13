@@ -1,0 +1,47 @@
+Problem: reduction-operations-to-make-the-array-elements-equal
+Submission ID: 1695597439
+Submission Time: 2025-07-12 12:20:11
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 153 ms
+Memory: 16.38 MB
+
+Test Cases: 78/78 passed
+
+Runtime Percentile: 88.4615%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "153 ms",
+  "memory": 16376000,
+  "display_runtime": "153",
+  "question_id": "2016",
+  "elapsed_time": 241,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752348010721,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 78,
+  "total_testcases": 78,
+  "runtime_percentile": 88.4615,
+  "status_memory": "16.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695597439",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

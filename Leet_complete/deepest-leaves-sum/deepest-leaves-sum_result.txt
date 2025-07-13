@@ -1,0 +1,47 @@
+Problem: deepest-leaves-sum
+Submission ID: 1695691442
+Submission Time: 2025-07-12 15:00:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 23 ms
+Memory: 19.98 MB
+
+Test Cases: 39/39 passed
+
+Runtime Percentile: 91.66680000000001%
+Memory Percentile: 69.2307%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "23 ms",
+  "memory": 19984000,
+  "display_runtime": "23",
+  "question_id": "1254",
+  "elapsed_time": 202,
+  "compare_result": "111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357643851,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 39,
+  "total_testcases": 39,
+  "runtime_percentile": 91.66680000000001,
+  "status_memory": "20 MB",
+  "memory_percentile": 69.2307,
+  "pretty_lang": "Python",
+  "submission_id": "1695691442",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

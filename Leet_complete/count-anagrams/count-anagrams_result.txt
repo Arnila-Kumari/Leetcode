@@ -1,0 +1,47 @@
+Problem: count-anagrams
+Submission ID: 1695593012
+Submission Time: 2025-07-12 12:14:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 551 ms
+Memory: 25.02 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 60.00030000000004%
+Memory Percentile: 10.000300000000012%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "551 ms",
+  "memory": 25024000,
+  "display_runtime": "551",
+  "question_id": "2605",
+  "elapsed_time": 588,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347685594,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 60.00030000000004,
+  "status_memory": "25 MB",
+  "memory_percentile": 10.000300000000012,
+  "pretty_lang": "Python",
+  "submission_id": "1695593012",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

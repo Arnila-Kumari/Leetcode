@@ -1,0 +1,47 @@
+Problem: task-scheduler-ii
+Submission ID: 1695681255
+Submission Time: 2025-07-12 14:39:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 128 ms
+Memory: 22.63 MB
+
+Test Cases: 61/61 passed
+
+Runtime Percentile: 13.636299999999988%
+Memory Percentile: 13.636400000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "128 ms",
+  "memory": 22632000,
+  "display_runtime": "128",
+  "question_id": "2483",
+  "elapsed_time": 209,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356357326,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 61,
+  "total_testcases": 61,
+  "runtime_percentile": 13.636299999999988,
+  "status_memory": "22.6 MB",
+  "memory_percentile": 13.636400000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695681255",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

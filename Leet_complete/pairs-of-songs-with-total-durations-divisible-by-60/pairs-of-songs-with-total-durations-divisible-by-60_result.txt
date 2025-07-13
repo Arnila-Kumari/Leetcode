@@ -1,0 +1,47 @@
+Problem: pairs-of-songs-with-total-durations-divisible-by-60
+Submission ID: 1695576431
+Submission Time: 2025-07-12 11:54:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 59 ms
+Memory: 14.98 MB
+
+Test Cases: 35/35 passed
+
+Runtime Percentile: 6.621399999999969%
+Memory Percentile: 88.0795%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "59 ms",
+  "memory": 14984000,
+  "display_runtime": "59",
+  "question_id": "1055",
+  "elapsed_time": 96,
+  "compare_result": "11111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346487500,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 35,
+  "total_testcases": 35,
+  "runtime_percentile": 6.621399999999969,
+  "status_memory": "15 MB",
+  "memory_percentile": 88.0795,
+  "pretty_lang": "Python",
+  "submission_id": "1695576431",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

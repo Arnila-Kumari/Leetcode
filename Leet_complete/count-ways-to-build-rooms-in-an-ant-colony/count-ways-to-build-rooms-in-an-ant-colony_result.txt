@@ -1,0 +1,46 @@
+Problem: count-ways-to-build-rooms-in-an-ant-colony
+Submission ID: 1695628055
+Submission Time: 2025-07-12 13:03:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1939 ms ms
+Memory: 143.78 MB
+
+Test Cases: 66/66 passed
+
+Runtime Percentile: 0.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1939 ms",
+  "memory": 143784000,
+  "question_id": "1313",
+  "elapsed_time": 2020,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350586968,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 66,
+  "total_testcases": 66,
+  "runtime_percentile": 0.0,
+  "status_memory": "143.8 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695628055",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

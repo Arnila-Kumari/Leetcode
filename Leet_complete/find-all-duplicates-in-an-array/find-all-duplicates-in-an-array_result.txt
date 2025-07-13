@@ -1,0 +1,47 @@
+Problem: find-all-duplicates-in-an-array
+Submission ID: 1695699591
+Submission Time: 2025-07-12 15:18:34
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 39 ms
+Memory: 18.50 MB
+
+Test Cases: 29/29 passed
+
+Runtime Percentile: 66.0536%
+Memory Percentile: 85.17400000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "39 ms",
+  "memory": 18504000,
+  "display_runtime": "39",
+  "question_id": "442",
+  "elapsed_time": 100,
+  "compare_result": "11111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358713205,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 29,
+  "total_testcases": 29,
+  "runtime_percentile": 66.0536,
+  "status_memory": "18.5 MB",
+  "memory_percentile": 85.17400000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695699591",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

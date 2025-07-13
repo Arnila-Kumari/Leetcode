@@ -1,0 +1,47 @@
+Problem: largest-component-size-by-common-factor
+Submission ID: 1695573439
+Submission Time: 2025-07-12 11:51:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1446 ms
+Memory: 15.48 MB
+
+Test Cases: 108/108 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1446 ms",
+  "memory": 15476000,
+  "display_runtime": "1446",
+  "question_id": "989",
+  "elapsed_time": 1538,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346278110,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 108,
+  "total_testcases": 108,
+  "runtime_percentile": 100,
+  "status_memory": "15.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695573439",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

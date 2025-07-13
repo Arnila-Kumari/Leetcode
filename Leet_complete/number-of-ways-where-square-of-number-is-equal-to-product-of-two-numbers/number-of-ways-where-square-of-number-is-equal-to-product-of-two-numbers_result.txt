@@ -1,0 +1,47 @@
+Problem: number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers
+Submission ID: 1695572925
+Submission Time: 2025-07-12 11:50:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 408 ms
+Memory: 12.61 MB
+
+Test Cases: 93/93 passed
+
+Runtime Percentile: 61.11080000000001%
+Memory Percentile: 83.3332%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "408 ms",
+  "memory": 12608000,
+  "display_runtime": "408",
+  "question_id": "1699",
+  "elapsed_time": 458,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346239005,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 93,
+  "total_testcases": 93,
+  "runtime_percentile": 61.11080000000001,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 83.3332,
+  "pretty_lang": "Python",
+  "submission_id": "1695572925",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

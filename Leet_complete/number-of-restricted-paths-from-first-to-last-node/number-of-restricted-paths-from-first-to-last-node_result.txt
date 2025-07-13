@@ -1,0 +1,47 @@
+Problem: number-of-restricted-paths-from-first-to-last-node
+Submission ID: 1695565163
+Submission Time: 2025-07-12 11:42:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 261 ms
+Memory: 35.93 MB
+
+Test Cases: 77/77 passed
+
+Runtime Percentile: 71.42840000000001%
+Memory Percentile: 71.42840000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "261 ms",
+  "memory": 35928000,
+  "display_runtime": "261",
+  "question_id": "1912",
+  "elapsed_time": 384,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345718853,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 77,
+  "total_testcases": 77,
+  "runtime_percentile": 71.42840000000001,
+  "status_memory": "35.9 MB",
+  "memory_percentile": 71.42840000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695565163",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

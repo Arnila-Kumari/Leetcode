@@ -1,0 +1,47 @@
+Problem: odd-even-jump
+Submission ID: 1695573896
+Submission Time: 2025-07-12 11:51:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 101 ms
+Memory: 15.34 MB
+
+Test Cases: 65/65 passed
+
+Runtime Percentile: 94.11760000000001%
+Memory Percentile: 88.23530000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "101 ms",
+  "memory": 15344000,
+  "display_runtime": "101",
+  "question_id": "1017",
+  "elapsed_time": 137,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346309395,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 65,
+  "total_testcases": 65,
+  "runtime_percentile": 94.11760000000001,
+  "status_memory": "15.3 MB",
+  "memory_percentile": 88.23530000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695573896",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

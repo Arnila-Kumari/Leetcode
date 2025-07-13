@@ -1,0 +1,47 @@
+Problem: remove-nodes-from-linked-list
+Submission ID: 1695697879
+Submission Time: 2025-07-12 15:14:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 303 ms
+Memory: 91.89 MB
+
+Test Cases: 32/32 passed
+
+Runtime Percentile: 36.07479999999998%
+Memory Percentile: 95.89050000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "303 ms",
+  "memory": 91888000,
+  "display_runtime": "303",
+  "question_id": "2573",
+  "elapsed_time": 1466,
+  "compare_result": "11111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358477147,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 32,
+  "runtime_percentile": 36.07479999999998,
+  "status_memory": "91.9 MB",
+  "memory_percentile": 95.89050000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695697879",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: put-marbles-in-bags
+Submission ID: 1695590495
+Submission Time: 2025-07-12 12:11:42
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 582 ms
+Memory: 20.22 MB
+
+Test Cases: 103/103 passed
+
+Runtime Percentile: 17.64649999999996%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "582 ms",
+  "memory": 20220000,
+  "display_runtime": "582",
+  "question_id": "2681",
+  "elapsed_time": 801,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347500930,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 103,
+  "total_testcases": 103,
+  "runtime_percentile": 17.64649999999996,
+  "status_memory": "20.2 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695590495",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

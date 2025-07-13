@@ -1,0 +1,47 @@
+Problem: check-if-there-is-a-valid-partition-for-the-array
+Submission ID: 1695579912
+Submission Time: 2025-07-12 11:59:00
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 239 ms
+Memory: 21.39 MB
+
+Test Cases: 118/118 passed
+
+Runtime Percentile: 40.00040000000005%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "239 ms",
+  "memory": 21392000,
+  "display_runtime": "239",
+  "question_id": "2443",
+  "elapsed_time": 334,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346738600,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 118,
+  "total_testcases": 118,
+  "runtime_percentile": 40.00040000000005,
+  "status_memory": "21.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695579912",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

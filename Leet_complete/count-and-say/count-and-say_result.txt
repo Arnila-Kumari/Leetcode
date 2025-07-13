@@ -1,0 +1,47 @@
+Problem: count-and-say
+Submission ID: 1695593209
+Submission Time: 2025-07-12 12:15:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 12.44 MB
+
+Test Cases: 30/30 passed
+
+Runtime Percentile: 59.0963%
+Memory Percentile: 81.22820000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 12436000,
+  "display_runtime": "11",
+  "question_id": "38",
+  "elapsed_time": 42,
+  "compare_result": "111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347699781,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 30,
+  "total_testcases": 30,
+  "runtime_percentile": 59.0963,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 81.22820000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695593209",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

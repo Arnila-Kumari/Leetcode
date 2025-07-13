@@ -1,0 +1,47 @@
+Problem: first-day-where-you-have-been-in-all-the-rooms
+Submission ID: 1695544946
+Submission Time: 2025-07-12 11:21:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 134 ms
+Memory: 20.43 MB
+
+Test Cases: 239/239 passed
+
+Runtime Percentile: 16.666600000000017%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "134 ms",
+  "memory": 20432000,
+  "display_runtime": "134",
+  "question_id": "2124",
+  "elapsed_time": 201,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344513766,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 239,
+  "total_testcases": 239,
+  "runtime_percentile": 16.666600000000017,
+  "status_memory": "20.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695544946",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

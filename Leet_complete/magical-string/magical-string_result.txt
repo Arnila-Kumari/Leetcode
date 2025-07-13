@@ -1,0 +1,47 @@
+Problem: magical-string
+Submission ID: 1695592858
+Submission Time: 2025-07-12 12:14:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 225 ms
+Memory: 12.35 MB
+
+Test Cases: 64/64 passed
+
+Runtime Percentile: 5.660100000000016%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "225 ms",
+  "memory": 12348000,
+  "display_runtime": "225",
+  "question_id": "481",
+  "elapsed_time": 330,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347675044,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 64,
+  "total_testcases": 64,
+  "runtime_percentile": 5.660100000000016,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695592858",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

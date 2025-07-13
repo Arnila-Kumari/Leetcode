@@ -1,0 +1,47 @@
+Problem: n-th-tribonacci-number
+Submission ID: 1695554113
+Submission Time: 2025-07-12 11:30:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.32 MB
+
+Test Cases: 38/38 passed
+
+Runtime Percentile: 3.898100000000004%
+Memory Percentile: 81.934%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12316000,
+  "display_runtime": "3",
+  "question_id": "1236",
+  "elapsed_time": 33,
+  "compare_result": "11111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345008827,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 38,
+  "runtime_percentile": 3.898100000000004,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 81.934,
+  "pretty_lang": "Python",
+  "submission_id": "1695554113",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

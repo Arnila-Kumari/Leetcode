@@ -1,0 +1,47 @@
+Problem: redistribute-characters-to-make-all-strings-equal
+Submission ID: 1695597003
+Submission Time: 2025-07-12 12:19:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 12.43 MB
+
+Test Cases: 179/179 passed
+
+Runtime Percentile: 81.96739999999997%
+Memory Percentile: 78.6885%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 12428000,
+  "display_runtime": "15",
+  "question_id": "2025",
+  "elapsed_time": 72,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347978471,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 179,
+  "total_testcases": 179,
+  "runtime_percentile": 81.96739999999997,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 78.6885,
+  "pretty_lang": "Python",
+  "submission_id": "1695597003",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

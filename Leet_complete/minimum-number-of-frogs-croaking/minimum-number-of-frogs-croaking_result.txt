@@ -1,0 +1,47 @@
+Problem: minimum-number-of-frogs-croaking
+Submission ID: 1695739010
+Submission Time: 2025-07-12 17:04:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 101 ms
+Memory: 12.92 MB
+
+Test Cases: 61/61 passed
+
+Runtime Percentile: 94.11760000000001%
+Memory Percentile: 52.94120000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "101 ms",
+  "memory": 12920000,
+  "display_runtime": "101",
+  "question_id": "1534",
+  "elapsed_time": 135,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365095398,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 61,
+  "total_testcases": 61,
+  "runtime_percentile": 94.11760000000001,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 52.94120000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695739010",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

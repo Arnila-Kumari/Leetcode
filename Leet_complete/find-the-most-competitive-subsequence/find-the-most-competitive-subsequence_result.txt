@@ -1,0 +1,47 @@
+Problem: find-the-most-competitive-subsequence
+Submission ID: 1695699511
+Submission Time: 2025-07-12 15:18:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 154 ms
+Memory: 22.49 MB
+
+Test Cases: 88/88 passed
+
+Runtime Percentile: 47.16960000000004%
+Memory Percentile: 86.7924%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "154 ms",
+  "memory": 22488000,
+  "display_runtime": "154",
+  "question_id": "1792",
+  "elapsed_time": 258,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358699789,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 88,
+  "total_testcases": 88,
+  "runtime_percentile": 47.16960000000004,
+  "status_memory": "22.5 MB",
+  "memory_percentile": 86.7924,
+  "pretty_lang": "Python",
+  "submission_id": "1695699511",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

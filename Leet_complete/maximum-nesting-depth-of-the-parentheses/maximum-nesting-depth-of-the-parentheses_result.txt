@@ -1,0 +1,47 @@
+Problem: maximum-nesting-depth-of-the-parentheses
+Submission ID: 1695627843
+Submission Time: 2025-07-12 13:02:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.31 MB
+
+Test Cases: 168/168 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 80.9285%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12308000,
+  "display_runtime": "0",
+  "question_id": "1737",
+  "elapsed_time": 41,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350565941,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 168,
+  "total_testcases": 168,
+  "runtime_percentile": 100,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 80.9285,
+  "pretty_lang": "Python",
+  "submission_id": "1695627843",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

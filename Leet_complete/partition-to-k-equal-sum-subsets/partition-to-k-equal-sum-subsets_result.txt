@@ -1,0 +1,47 @@
+Problem: partition-to-k-equal-sum-subsets
+Submission ID: 1695580495
+Submission Time: 2025-07-12 11:59:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 508 ms
+Memory: 12.97 MB
+
+Test Cases: 164/164 passed
+
+Runtime Percentile: 18.422400000000017%
+Memory Percentile: 22.631599999999988%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "508 ms",
+  "memory": 12968000,
+  "display_runtime": "508",
+  "question_id": "698",
+  "elapsed_time": 600,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346778624,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 164,
+  "total_testcases": 164,
+  "runtime_percentile": 18.422400000000017,
+  "status_memory": "13 MB",
+  "memory_percentile": 22.631599999999988,
+  "pretty_lang": "Python",
+  "submission_id": "1695580495",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: intersection-of-two-arrays-ii
+Submission ID: 1695564517
+Submission Time: 2025-07-12 11:41:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.41 MB
+
+Test Cases: 61/61 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 87.0601%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12408000,
+  "display_runtime": "0",
+  "question_id": "350",
+  "elapsed_time": 35,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345673870,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 61,
+  "total_testcases": 61,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 87.0601,
+  "pretty_lang": "Python",
+  "submission_id": "1695564517",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

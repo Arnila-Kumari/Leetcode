@@ -1,0 +1,47 @@
+Problem: random-pick-index
+Submission ID: 1695591873
+Submission Time: 2025-07-12 12:13:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 76 ms
+Memory: 23.34 MB
+
+Test Cases: 17/17 passed
+
+Runtime Percentile: 37.43860000000002%
+Memory Percentile: 40.394399999999976%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "76 ms",
+  "memory": 23340000,
+  "display_runtime": "76",
+  "question_id": "398",
+  "elapsed_time": 346,
+  "compare_result": "11111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347600759,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 17,
+  "total_testcases": 17,
+  "runtime_percentile": 37.43860000000002,
+  "status_memory": "23.3 MB",
+  "memory_percentile": 40.394399999999976,
+  "pretty_lang": "Python",
+  "submission_id": "1695591873",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

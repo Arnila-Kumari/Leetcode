@@ -1,0 +1,46 @@
+Problem: count-good-nodes-in-binary-tree
+Submission ID: 1695596830
+Submission Time: 2025-07-12 12:19:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 261 ms ms
+Memory: 48.22 MB
+
+Test Cases: 63/63 passed
+
+Runtime Percentile: 8.595000000000018%
+Memory Percentile: 76.01100000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "261 ms",
+  "memory": 48220000,
+  "question_id": "1544",
+  "elapsed_time": 317,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347965455,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 63,
+  "total_testcases": 63,
+  "runtime_percentile": 8.595000000000018,
+  "status_memory": "48.2 MB",
+  "memory_percentile": 76.01100000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695596830",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

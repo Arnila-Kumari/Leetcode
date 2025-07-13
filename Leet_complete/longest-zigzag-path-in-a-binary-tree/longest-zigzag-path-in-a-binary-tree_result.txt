@@ -1,0 +1,47 @@
+Problem: longest-zigzag-path-in-a-binary-tree
+Submission ID: 1695591801
+Submission Time: 2025-07-12 12:13:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 206 ms
+Memory: 67.66 MB
+
+Test Cases: 58/58 passed
+
+Runtime Percentile: 23.74270000000004%
+Memory Percentile: 14.47800000000003%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "206 ms",
+  "memory": 67656000,
+  "display_runtime": "206",
+  "question_id": "1474",
+  "elapsed_time": 557,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347595435,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 58,
+  "total_testcases": 58,
+  "runtime_percentile": 23.74270000000004,
+  "status_memory": "67.7 MB",
+  "memory_percentile": 14.47800000000003,
+  "pretty_lang": "Python",
+  "submission_id": "1695591801",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

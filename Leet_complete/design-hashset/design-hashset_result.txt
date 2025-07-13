@@ -1,0 +1,47 @@
+Problem: design-hashset
+Submission ID: 1695682151
+Submission Time: 2025-07-12 14:41:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 154 ms
+Memory: 26.43 MB
+
+Test Cases: 33/33 passed
+
+Runtime Percentile: 31.295699999999993%
+Memory Percentile: 26.353299999999983%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "154 ms",
+  "memory": 26432000,
+  "display_runtime": "154",
+  "question_id": "816",
+  "elapsed_time": 633,
+  "compare_result": "111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356464144,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 33,
+  "total_testcases": 33,
+  "runtime_percentile": 31.295699999999993,
+  "status_memory": "26.4 MB",
+  "memory_percentile": 26.353299999999983,
+  "pretty_lang": "Python",
+  "submission_id": "1695682151",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

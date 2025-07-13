@@ -1,0 +1,47 @@
+Problem: check-if-it-is-a-good-array
+Submission ID: 1695577104
+Submission Time: 2025-07-12 11:55:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 31 ms
+Memory: 18.56 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 56.0%
+Memory Percentile: 76.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "31 ms",
+  "memory": 18560000,
+  "display_runtime": "31",
+  "question_id": "1372",
+  "elapsed_time": 90,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346535711,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 56.0,
+  "status_memory": "18.6 MB",
+  "memory_percentile": 76.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695577104",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

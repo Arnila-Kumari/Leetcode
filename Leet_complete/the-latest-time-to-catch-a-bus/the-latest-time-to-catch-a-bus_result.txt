@@ -1,0 +1,47 @@
+Problem: the-latest-time-to-catch-a-bus
+Submission ID: 1695677145
+Submission Time: 2025-07-12 14:30:44
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 159 ms
+Memory: 24.48 MB
+
+Test Cases: 65/65 passed
+
+Runtime Percentile: 30.769300000000033%
+Memory Percentile: 92.3077%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "159 ms",
+  "memory": 24480000,
+  "display_runtime": "159",
+  "question_id": "2417",
+  "elapsed_time": 224,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355844052,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 65,
+  "total_testcases": 65,
+  "runtime_percentile": 30.769300000000033,
+  "status_memory": "24.5 MB",
+  "memory_percentile": 92.3077,
+  "pretty_lang": "Python",
+  "submission_id": "1695677145",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

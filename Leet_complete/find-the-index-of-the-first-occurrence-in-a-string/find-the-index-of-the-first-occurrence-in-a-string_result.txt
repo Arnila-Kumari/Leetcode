@@ -1,0 +1,47 @@
+Problem: find-the-index-of-the-first-occurrence-in-a-string
+Submission ID: 1695738728
+Submission Time: 2025-07-12 17:04:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.39 MB
+
+Test Cases: 83/83 passed
+
+Runtime Percentile: 12.270899999999997%
+Memory Percentile: 80.43709999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12388000,
+  "display_runtime": "3",
+  "question_id": "28",
+  "elapsed_time": 44,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365054682,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 83,
+  "total_testcases": 83,
+  "runtime_percentile": 12.270899999999997,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 80.43709999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695738728",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

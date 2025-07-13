@@ -1,0 +1,47 @@
+Problem: minimum-swaps-to-make-sequences-increasing
+Submission ID: 1695613735
+Submission Time: 2025-07-12 12:42:04
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 279 ms
+Memory: 23.76 MB
+
+Test Cases: 117/117 passed
+
+Runtime Percentile: 24.0%
+Memory Percentile: 96.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "279 ms",
+  "memory": 23764000,
+  "display_runtime": "279",
+  "question_id": "819",
+  "elapsed_time": 452,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349322639,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 117,
+  "total_testcases": 117,
+  "runtime_percentile": 24.0,
+  "status_memory": "23.8 MB",
+  "memory_percentile": 96.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695613735",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

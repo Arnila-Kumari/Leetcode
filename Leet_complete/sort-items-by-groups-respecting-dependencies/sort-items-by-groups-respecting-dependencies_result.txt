@@ -1,0 +1,47 @@
+Problem: sort-items-by-groups-respecting-dependencies
+Submission ID: 1695711096
+Submission Time: 2025-07-12 15:45:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 279 ms
+Memory: 73.16 MB
+
+Test Cases: 18/18 passed
+
+Runtime Percentile: 19.22999999999999%
+Memory Percentile: 7.691700000000019%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "279 ms",
+  "memory": 73164000,
+  "display_runtime": "279",
+  "question_id": "1309",
+  "elapsed_time": 342,
+  "compare_result": "111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360355049,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 18,
+  "total_testcases": 18,
+  "runtime_percentile": 19.22999999999999,
+  "status_memory": "73.2 MB",
+  "memory_percentile": 7.691700000000019,
+  "pretty_lang": "Python",
+  "submission_id": "1695711096",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: insert-delete-getrandom-o1-duplicates-allowed
+Submission ID: 1695562601
+Submission Time: 2025-07-12 11:39:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 319 ms
+Memory: 67.57 MB
+
+Test Cases: 32/32 passed
+
+Runtime Percentile: 6.8619999999999255%
+Memory Percentile: 24.509699999999963%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "319 ms",
+  "memory": 67572000,
+  "display_runtime": "319",
+  "question_id": "381",
+  "elapsed_time": 1649,
+  "compare_result": "11111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345548556,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 32,
+  "runtime_percentile": 6.8619999999999255,
+  "status_memory": "67.6 MB",
+  "memory_percentile": 24.509699999999963,
+  "pretty_lang": "Python",
+  "submission_id": "1695562601",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

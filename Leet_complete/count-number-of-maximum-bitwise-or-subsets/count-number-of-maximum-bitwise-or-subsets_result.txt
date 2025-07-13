@@ -1,0 +1,47 @@
+Problem: count-number-of-maximum-bitwise-or-subsets
+Submission ID: 1695616311
+Submission Time: 2025-07-12 12:45:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 9 ms
+Memory: 12.65 MB
+
+Test Cases: 111/111 passed
+
+Runtime Percentile: 97.6744%
+Memory Percentile: 48.8372%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "9 ms",
+  "memory": 12648000,
+  "display_runtime": "9",
+  "question_id": "2170",
+  "elapsed_time": 44,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349537369,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 111,
+  "total_testcases": 111,
+  "runtime_percentile": 97.6744,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 48.8372,
+  "pretty_lang": "Python",
+  "submission_id": "1695616311",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

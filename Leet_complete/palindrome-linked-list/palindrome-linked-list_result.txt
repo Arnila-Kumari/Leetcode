@@ -1,0 +1,47 @@
+Problem: palindrome-linked-list
+Submission ID: 1695576596
+Submission Time: 2025-07-12 11:55:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 133 ms
+Memory: 83.76 MB
+
+Test Cases: 93/93 passed
+
+Runtime Percentile: 46.70030000000004%
+Memory Percentile: 35.65140000000007%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "133 ms",
+  "memory": 83756000,
+  "display_runtime": "133",
+  "question_id": "234",
+  "elapsed_time": 942,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346500023,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 93,
+  "total_testcases": 93,
+  "runtime_percentile": 46.70030000000004,
+  "status_memory": "83.8 MB",
+  "memory_percentile": 35.65140000000007,
+  "pretty_lang": "Python",
+  "submission_id": "1695576596",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

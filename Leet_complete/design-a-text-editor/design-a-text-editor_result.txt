@@ -1,0 +1,47 @@
+Problem: design-a-text-editor
+Submission ID: 1695680538
+Submission Time: 2025-07-12 14:37:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 420 ms
+Memory: 33.16 MB
+
+Test Cases: 45/45 passed
+
+Runtime Percentile: 62.318200000000104%
+Memory Percentile: 46.37650000000003%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "420 ms",
+  "memory": 33160000,
+  "display_runtime": "420",
+  "question_id": "2389",
+  "elapsed_time": 1287,
+  "compare_result": "111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356275023,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 45,
+  "total_testcases": 45,
+  "runtime_percentile": 62.318200000000104,
+  "status_memory": "33.2 MB",
+  "memory_percentile": 46.37650000000003,
+  "pretty_lang": "Python",
+  "submission_id": "1695680538",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

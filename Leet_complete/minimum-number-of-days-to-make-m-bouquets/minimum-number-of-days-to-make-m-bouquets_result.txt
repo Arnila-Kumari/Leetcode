@@ -1,0 +1,47 @@
+Problem: minimum-number-of-days-to-make-m-bouquets
+Submission ID: 1695689352
+Submission Time: 2025-07-12 14:56:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 432 ms
+Memory: 21.48 MB
+
+Test Cases: 93/93 passed
+
+Runtime Percentile: 89.7774%
+Memory Percentile: 60.13630000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "432 ms",
+  "memory": 21476000,
+  "display_runtime": "432",
+  "question_id": "1605",
+  "elapsed_time": 500,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357368388,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 93,
+  "total_testcases": 93,
+  "runtime_percentile": 89.7774,
+  "status_memory": "21.5 MB",
+  "memory_percentile": 60.13630000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695689352",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

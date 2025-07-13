@@ -1,0 +1,47 @@
+Problem: trapping-rain-water
+Submission ID: 1695696641
+Submission Time: 2025-07-12 15:11:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 13.40 MB
+
+Test Cases: 324/324 passed
+
+Runtime Percentile: 70.09619999999998%
+Memory Percentile: 97.43230000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 13400000,
+  "display_runtime": "11",
+  "question_id": "42",
+  "elapsed_time": 77,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358317493,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 324,
+  "total_testcases": 324,
+  "runtime_percentile": 70.09619999999998,
+  "status_memory": "13.4 MB",
+  "memory_percentile": 97.43230000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695696641",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: di-string-match
+Submission ID: 1695689552
+Submission Time: 2025-07-12 14:56:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 13.67 MB
+
+Test Cases: 95/95 passed
+
+Runtime Percentile: 41.99999999999998%
+Memory Percentile: 55.60000000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 13668000,
+  "display_runtime": "7",
+  "question_id": "979",
+  "elapsed_time": 51,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357395322,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 95,
+  "total_testcases": 95,
+  "runtime_percentile": 41.99999999999998,
+  "status_memory": "13.7 MB",
+  "memory_percentile": 55.60000000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695689552",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: sequential-digits
+Submission ID: 1695693789
+Submission Time: 2025-07-12 15:05:51
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.54 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 12.962899999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12540000,
+  "display_runtime": "0",
+  "question_id": "1212",
+  "elapsed_time": 31,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357950660,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 12.962899999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695693789",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

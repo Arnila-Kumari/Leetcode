@@ -1,0 +1,47 @@
+Problem: russian-doll-envelopes
+Submission ID: 1695692789
+Submission Time: 2025-07-12 15:03:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 480 ms
+Memory: 48.27 MB
+
+Test Cases: 87/87 passed
+
+Runtime Percentile: 10.256399999999957%
+Memory Percentile: 99.359%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "480 ms",
+  "memory": 48268000,
+  "display_runtime": "480",
+  "question_id": "354",
+  "elapsed_time": 605,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357825029,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 87,
+  "total_testcases": 87,
+  "runtime_percentile": 10.256399999999957,
+  "status_memory": "48.3 MB",
+  "memory_percentile": 99.359,
+  "pretty_lang": "Python",
+  "submission_id": "1695692789",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

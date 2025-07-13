@@ -1,0 +1,47 @@
+Problem: find-bottom-left-tree-value
+Submission ID: 1695702677
+Submission Time: 2025-07-12 15:25:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 26.93 MB
+
+Test Cases: 79/79 passed
+
+Runtime Percentile: 26.623300000000004%
+Memory Percentile: 6.493300000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 26932000,
+  "display_runtime": "11",
+  "question_id": "513",
+  "elapsed_time": 65,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752359139066,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 79,
+  "total_testcases": 79,
+  "runtime_percentile": 26.623300000000004,
+  "status_memory": "26.9 MB",
+  "memory_percentile": 6.493300000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695702677",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

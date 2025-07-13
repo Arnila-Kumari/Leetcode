@@ -1,0 +1,47 @@
+Problem: reorder-routes-to-make-all-paths-lead-to-the-city-zero
+Submission ID: 1695701030
+Submission Time: 2025-07-12 15:22:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 212 ms
+Memory: 37.33 MB
+
+Test Cases: 77/77 passed
+
+Runtime Percentile: 91.7415999999999%
+Memory Percentile: 95.08949999999993%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "212 ms",
+  "memory": 37332000,
+  "display_runtime": "212",
+  "question_id": "1576",
+  "elapsed_time": 306,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358918437,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 77,
+  "total_testcases": 77,
+  "runtime_percentile": 91.7415999999999,
+  "status_memory": "37.3 MB",
+  "memory_percentile": 95.08949999999993,
+  "pretty_lang": "Python",
+  "submission_id": "1695701030",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

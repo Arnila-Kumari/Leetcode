@@ -1,0 +1,47 @@
+Problem: find-all-anagrams-in-a-string
+Submission ID: 1695697265
+Submission Time: 2025-07-12 15:13:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 55 ms
+Memory: 13.27 MB
+
+Test Cases: 65/65 passed
+
+Runtime Percentile: 64.23089999999998%
+Memory Percentile: 80.8462%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "55 ms",
+  "memory": 13272000,
+  "display_runtime": "55",
+  "question_id": "438",
+  "elapsed_time": 95,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358397314,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 65,
+  "total_testcases": 65,
+  "runtime_percentile": 64.23089999999998,
+  "status_memory": "13.3 MB",
+  "memory_percentile": 80.8462,
+  "pretty_lang": "Python",
+  "submission_id": "1695697265",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: minimum-operations-to-make-a-uni-value-grid
+Submission ID: 1695683037
+Submission Time: 2025-07-12 14:42:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 404 ms
+Memory: 32.60 MB
+
+Test Cases: 64/64 passed
+
+Runtime Percentile: 9.229200000000048%
+Memory Percentile: 53.8461%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "404 ms",
+  "memory": 32600000,
+  "display_runtime": "404",
+  "question_id": "2160",
+  "elapsed_time": 581,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356564582,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 64,
+  "total_testcases": 64,
+  "runtime_percentile": 9.229200000000048,
+  "status_memory": "32.6 MB",
+  "memory_percentile": 53.8461,
+  "pretty_lang": "Python",
+  "submission_id": "1695683037",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

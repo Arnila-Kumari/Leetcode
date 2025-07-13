@@ -1,0 +1,46 @@
+Problem: max-number-of-k-sum-pairs
+Submission ID: 1695614886
+Submission Time: 2025-07-12 12:43:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 595 ms ms
+Memory: 22.52 MB
+
+Test Cases: 51/51 passed
+
+Runtime Percentile: 11.19999999999988%
+Memory Percentile: 24.69849999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "595 ms",
+  "memory": 22520000,
+  "question_id": "1798",
+  "elapsed_time": 682,
+  "compare_result": "111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349418475,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 51,
+  "total_testcases": 51,
+  "runtime_percentile": 11.19999999999988,
+  "status_memory": "22.5 MB",
+  "memory_percentile": 24.69849999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695614886",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

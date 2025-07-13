@@ -1,0 +1,47 @@
+Problem: reverse-nodes-in-k-group
+Submission ID: 1695694171
+Submission Time: 2025-07-12 15:06:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1 ms
+Memory: 14.24 MB
+
+Test Cases: 62/62 passed
+
+Runtime Percentile: 59.6811%
+Memory Percentile: 46.24140000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1 ms",
+  "memory": 14236000,
+  "display_runtime": "1",
+  "question_id": "25",
+  "elapsed_time": 46,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357994994,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 62,
+  "total_testcases": 62,
+  "runtime_percentile": 59.6811,
+  "status_memory": "14.2 MB",
+  "memory_percentile": 46.24140000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695694171",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

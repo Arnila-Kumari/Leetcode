@@ -1,0 +1,47 @@
+Problem: design-add-and-search-words-data-structure
+Submission ID: 1696125895
+Submission Time: 2025-07-13 00:40:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2700 ms
+Memory: 114.76 MB
+
+Test Cases: 29/29 passed
+
+Runtime Percentile: 67.61319999999957%
+Memory Percentile: 78.96019999999992%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2700 ms",
+  "memory": 114760000,
+  "display_runtime": "2700",
+  "question_id": "211",
+  "elapsed_time": 4563,
+  "compare_result": "11111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752392401419,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 29,
+  "total_testcases": 29,
+  "runtime_percentile": 67.61319999999957,
+  "status_memory": "114.8 MB",
+  "memory_percentile": 78.96019999999992,
+  "pretty_lang": "Python",
+  "submission_id": "1696125895",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

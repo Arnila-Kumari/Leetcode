@@ -1,0 +1,47 @@
+Problem: repeated-dna-sequences
+Submission ID: 1695710770
+Submission Time: 2025-07-12 15:45:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 27 ms
+Memory: 23.78 MB
+
+Test Cases: 31/31 passed
+
+Runtime Percentile: 80.10089999999997%
+Memory Percentile: 98.7406%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "27 ms",
+  "memory": 23776000,
+  "display_runtime": "27",
+  "question_id": "187",
+  "elapsed_time": 59,
+  "compare_result": "1111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360304824,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 31,
+  "total_testcases": 31,
+  "runtime_percentile": 80.10089999999997,
+  "status_memory": "23.8 MB",
+  "memory_percentile": 98.7406,
+  "pretty_lang": "Python",
+  "submission_id": "1695710770",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

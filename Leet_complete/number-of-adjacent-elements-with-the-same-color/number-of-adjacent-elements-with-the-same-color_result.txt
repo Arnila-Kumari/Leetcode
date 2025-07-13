@@ -1,0 +1,47 @@
+Problem: number-of-adjacent-elements-with-the-same-color
+Submission ID: 1695557666
+Submission Time: 2025-07-12 11:33:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 207 ms
+Memory: 45.12 MB
+
+Test Cases: 183/183 passed
+
+Runtime Percentile: 5.768399999999968%
+Memory Percentile: 19.2306%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "207 ms",
+  "memory": 45124000,
+  "display_runtime": "207",
+  "question_id": "2779",
+  "elapsed_time": 430,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345229437,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 183,
+  "total_testcases": 183,
+  "runtime_percentile": 5.768399999999968,
+  "status_memory": "45.1 MB",
+  "memory_percentile": 19.2306,
+  "pretty_lang": "Python",
+  "submission_id": "1695557666",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

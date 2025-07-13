@@ -1,0 +1,46 @@
+Problem: merge-bsts-to-create-single-bst
+Submission ID: 1695690581
+Submission Time: 2025-07-12 14:59:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2116 ms ms
+Memory: 69.04 MB
+
+Test Cases: 475/475 passed
+
+Runtime Percentile: 33.33320000000002%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2116 ms",
+  "memory": 69036000,
+  "question_id": "2060",
+  "elapsed_time": 2277,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357535490,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 475,
+  "total_testcases": 475,
+  "runtime_percentile": 33.33320000000002,
+  "status_memory": "69 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695690581",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

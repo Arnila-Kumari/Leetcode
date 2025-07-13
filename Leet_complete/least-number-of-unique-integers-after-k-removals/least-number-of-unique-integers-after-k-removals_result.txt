@@ -1,0 +1,46 @@
+Problem: least-number-of-unique-integers-after-k-removals
+Submission ID: 1695578155
+Submission Time: 2025-07-12 11:56:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 392 ms ms
+Memory: 28.74 MB
+
+Test Cases: 43/43 passed
+
+Runtime Percentile: 53.22440000000002%
+Memory Percentile: 51.612899999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "392 ms",
+  "memory": 28744000,
+  "question_id": "1604",
+  "elapsed_time": 434,
+  "compare_result": "1111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346606968,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 43,
+  "total_testcases": 43,
+  "runtime_percentile": 53.22440000000002,
+  "status_memory": "28.7 MB",
+  "memory_percentile": 51.612899999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695578155",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

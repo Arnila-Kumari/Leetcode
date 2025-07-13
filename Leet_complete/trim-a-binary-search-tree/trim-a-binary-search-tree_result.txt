@@ -1,0 +1,47 @@
+Problem: trim-a-binary-search-tree
+Submission ID: 1695684360
+Submission Time: 2025-07-12 14:45:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 20.32 MB
+
+Test Cases: 78/78 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 20.709999999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 20324000,
+  "display_runtime": "0",
+  "question_id": "669",
+  "elapsed_time": 51,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356717612,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 78,
+  "total_testcases": 78,
+  "runtime_percentile": 100,
+  "status_memory": "20.3 MB",
+  "memory_percentile": 20.709999999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1695684360",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

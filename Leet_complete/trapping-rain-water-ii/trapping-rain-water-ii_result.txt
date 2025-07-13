@@ -1,0 +1,47 @@
+Problem: trapping-rain-water-ii
+Submission ID: 1695675633
+Submission Time: 2025-07-12 14:27:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 213 ms
+Memory: 13.92 MB
+
+Test Cases: 42/42 passed
+
+Runtime Percentile: 37.99999999999998%
+Memory Percentile: 70.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "213 ms",
+  "memory": 13920000,
+  "display_runtime": "213",
+  "question_id": "407",
+  "elapsed_time": 253,
+  "compare_result": "111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355657864,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 42,
+  "total_testcases": 42,
+  "runtime_percentile": 37.99999999999998,
+  "status_memory": "13.9 MB",
+  "memory_percentile": 70.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695675633",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

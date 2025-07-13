@@ -1,0 +1,47 @@
+Problem: append-k-integers-with-minimal-sum
+Submission ID: 1695553129
+Submission Time: 2025-07-12 11:29:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 62 ms
+Memory: 27.43 MB
+
+Test Cases: 108/108 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 22.727199999999986%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "62 ms",
+  "memory": 27428000,
+  "display_runtime": "62",
+  "question_id": "2305",
+  "elapsed_time": 142,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344956617,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 108,
+  "total_testcases": 108,
+  "runtime_percentile": 100,
+  "status_memory": "27.4 MB",
+  "memory_percentile": 22.727199999999986,
+  "pretty_lang": "Python",
+  "submission_id": "1695553129",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

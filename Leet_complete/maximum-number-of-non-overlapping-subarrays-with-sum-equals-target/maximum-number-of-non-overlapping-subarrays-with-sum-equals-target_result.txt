@@ -1,0 +1,47 @@
+Problem: maximum-number-of-non-overlapping-subarrays-with-sum-equals-target
+Submission ID: 1695679981
+Submission Time: 2025-07-12 14:36:41
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 67 ms
+Memory: 30.04 MB
+
+Test Cases: 69/69 passed
+
+Runtime Percentile: 16.666400000000017%
+Memory Percentile: 11.110900000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "67 ms",
+  "memory": 30044000,
+  "display_runtime": "67",
+  "question_id": "1649",
+  "elapsed_time": 137,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356200680,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 69,
+  "total_testcases": 69,
+  "runtime_percentile": 16.666400000000017,
+  "status_memory": "30 MB",
+  "memory_percentile": 11.110900000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695679981",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

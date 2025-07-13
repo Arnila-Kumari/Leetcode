@@ -1,0 +1,47 @@
+Problem: find-the-closest-palindrome
+Submission ID: 1695680506
+Submission Time: 2025-07-12 14:37:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.34 MB
+
+Test Cases: 232/232 passed
+
+Runtime Percentile: 32.183899999999994%
+Memory Percentile: 78.1609%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12344000,
+  "display_runtime": "3",
+  "question_id": "564",
+  "elapsed_time": 35,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356269370,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 232,
+  "total_testcases": 232,
+  "runtime_percentile": 32.183899999999994,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 78.1609,
+  "pretty_lang": "Python",
+  "submission_id": "1695680506",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

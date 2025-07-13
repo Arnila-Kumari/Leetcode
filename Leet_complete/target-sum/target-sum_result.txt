@@ -1,0 +1,47 @@
+Problem: target-sum
+Submission ID: 1695700388
+Submission Time: 2025-07-12 15:20:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 31 ms
+Memory: 12.58 MB
+
+Test Cases: 142/142 passed
+
+Runtime Percentile: 83.731%
+Memory Percentile: 74.83729999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "31 ms",
+  "memory": 12584000,
+  "display_runtime": "31",
+  "question_id": "494",
+  "elapsed_time": 65,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358822561,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 142,
+  "total_testcases": 142,
+  "runtime_percentile": 83.731,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 74.83729999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695700388",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

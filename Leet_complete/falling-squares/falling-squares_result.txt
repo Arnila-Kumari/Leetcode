@@ -1,0 +1,47 @@
+Problem: falling-squares
+Submission ID: 1695699418
+Submission Time: 2025-07-12 15:18:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 13 ms
+Memory: 13.18 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 92.8571%
+Memory Percentile: 0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "13 ms",
+  "memory": 13176000,
+  "display_runtime": "13",
+  "question_id": "699",
+  "elapsed_time": 46,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358684480,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 92.8571,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 0,
+  "pretty_lang": "Python",
+  "submission_id": "1695699418",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

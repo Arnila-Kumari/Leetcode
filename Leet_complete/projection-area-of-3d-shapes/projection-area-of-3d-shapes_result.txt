@@ -1,0 +1,47 @@
+Problem: projection-area-of-3d-shapes
+Submission ID: 1695589945
+Submission Time: 2025-07-12 12:10:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 12.38 MB
+
+Test Cases: 90/90 passed
+
+Runtime Percentile: 42.156800000000004%
+Memory Percentile: 94.1176%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 12376000,
+  "display_runtime": "6",
+  "question_id": "919",
+  "elapsed_time": 216,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347457935,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 90,
+  "total_testcases": 90,
+  "runtime_percentile": 42.156800000000004,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 94.1176,
+  "pretty_lang": "Python",
+  "submission_id": "1695589945",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

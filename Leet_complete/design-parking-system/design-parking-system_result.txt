@@ -1,0 +1,47 @@
+Problem: design-parking-system
+Submission ID: 1695682938
+Submission Time: 2025-07-12 14:42:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 25 ms
+Memory: 13.02 MB
+
+Test Cases: 102/102 passed
+
+Runtime Percentile: 39.00619999999994%
+Memory Percentile: 14.006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "25 ms",
+  "memory": 13024000,
+  "display_runtime": "25",
+  "question_id": "1708",
+  "elapsed_time": 481,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356554375,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 102,
+  "total_testcases": 102,
+  "runtime_percentile": 39.00619999999994,
+  "status_memory": "13 MB",
+  "memory_percentile": 14.006,
+  "pretty_lang": "Python",
+  "submission_id": "1695682938",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: length-of-longest-fibonacci-subsequence
+Submission ID: 1695578826
+Submission Time: 2025-07-12 11:57:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1914 ms
+Memory: 12.48 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 38.46369999999993%
+Memory Percentile: 99.0385%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1914 ms",
+  "memory": 12480000,
+  "display_runtime": "1914",
+  "question_id": "905",
+  "elapsed_time": 1967,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346659324,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 38.46369999999993,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 99.0385,
+  "pretty_lang": "Python",
+  "submission_id": "1695578826",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: minimum-cost-to-set-cooking-time
+Submission ID: 1695687550
+Submission Time: 2025-07-12 14:52:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.51 MB
+
+Test Cases: 239/239 passed
+
+Runtime Percentile: 55.5556%
+Memory Percentile: 33.333400000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12508000,
+  "display_runtime": "3",
+  "question_id": "2266",
+  "elapsed_time": 38,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357128010,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 239,
+  "total_testcases": 239,
+  "runtime_percentile": 55.5556,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 33.333400000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695687550",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: my-calendar-ii
+Submission ID: 1695552626
+Submission Time: 2025-07-12 11:28:52
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 208 ms
+Memory: 13.05 MB
+
+Test Cases: 97/97 passed
+
+Runtime Percentile: 82.8125%
+Memory Percentile: 26.5625%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "208 ms",
+  "memory": 13052000,
+  "display_runtime": "208",
+  "question_id": "731",
+  "elapsed_time": 976,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344931507,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 97,
+  "total_testcases": 97,
+  "runtime_percentile": 82.8125,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 26.5625,
+  "pretty_lang": "Python",
+  "submission_id": "1695552626",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

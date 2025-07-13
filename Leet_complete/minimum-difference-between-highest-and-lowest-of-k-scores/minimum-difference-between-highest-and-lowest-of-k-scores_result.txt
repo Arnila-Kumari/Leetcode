@@ -1,0 +1,47 @@
+Problem: minimum-difference-between-highest-and-lowest-of-k-scores
+Submission ID: 1695695613
+Submission Time: 2025-07-12 15:09:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.42 MB
+
+Test Cases: 118/118 passed
+
+Runtime Percentile: 97.5461%
+Memory Percentile: 90.7976%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12420000,
+  "display_runtime": "4",
+  "question_id": "2112",
+  "elapsed_time": 44,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358178857,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 118,
+  "total_testcases": 118,
+  "runtime_percentile": 97.5461,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 90.7976,
+  "pretty_lang": "Python",
+  "submission_id": "1695695613",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

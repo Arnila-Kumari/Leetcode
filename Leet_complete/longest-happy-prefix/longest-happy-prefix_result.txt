@@ -1,0 +1,47 @@
+Problem: longest-happy-prefix
+Submission ID: 1695585644
+Submission Time: 2025-07-12 12:05:44
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 164 ms
+Memory: 16.64 MB
+
+Test Cases: 83/83 passed
+
+Runtime Percentile: 35.922000000000025%
+Memory Percentile: 84.46600000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "164 ms",
+  "memory": 16640000,
+  "display_runtime": "164",
+  "question_id": "1508",
+  "elapsed_time": 262,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347144071,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 83,
+  "total_testcases": 83,
+  "runtime_percentile": 35.922000000000025,
+  "status_memory": "16.6 MB",
+  "memory_percentile": 84.46600000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695585644",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

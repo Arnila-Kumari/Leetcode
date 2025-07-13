@@ -1,0 +1,46 @@
+Problem: building-h2o
+Submission ID: 1695568128
+Submission Time: 2025-07-12 11:45:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 25 ms ms
+Memory: 12.72 MB
+
+Test Cases: 11/11 passed
+
+Runtime Percentile: 95.0%
+Memory Percentile: 87.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "25 ms",
+  "memory": 12724000,
+  "question_id": "1186",
+  "elapsed_time": 46,
+  "compare_result": "11111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345916057,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 11,
+  "total_testcases": 11,
+  "runtime_percentile": 95.0,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 87.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695568128",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

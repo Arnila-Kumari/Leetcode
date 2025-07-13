@@ -1,0 +1,47 @@
+Problem: number-of-unique-good-subsequences
+Submission ID: 1695568950
+Submission Time: 2025-07-12 11:46:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 82 ms
+Memory: 13.16 MB
+
+Test Cases: 69/69 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 88.8889%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "82 ms",
+  "memory": 13156000,
+  "display_runtime": "82",
+  "question_id": "2115",
+  "elapsed_time": 122,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345968222,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 69,
+  "total_testcases": 69,
+  "runtime_percentile": 100,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 88.8889,
+  "pretty_lang": "Python",
+  "submission_id": "1695568950",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

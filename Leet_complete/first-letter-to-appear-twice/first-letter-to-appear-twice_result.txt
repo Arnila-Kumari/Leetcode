@@ -1,0 +1,47 @@
+Problem: first-letter-to-appear-twice
+Submission ID: 1695545149
+Submission Time: 2025-07-12 11:22:14
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.26 MB
+
+Test Cases: 92/92 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 99.2228%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12264000,
+  "display_runtime": "0",
+  "question_id": "2427",
+  "elapsed_time": 65,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344525781,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 92,
+  "total_testcases": 92,
+  "runtime_percentile": 100,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 99.2228,
+  "pretty_lang": "Python",
+  "submission_id": "1695545149",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

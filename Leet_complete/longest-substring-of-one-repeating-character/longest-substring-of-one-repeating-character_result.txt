@@ -1,0 +1,47 @@
+Problem: longest-substring-of-one-repeating-character
+Submission ID: 1695589937
+Submission Time: 2025-07-12 12:11:04
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 5067 ms
+Memory: 50.78 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 50.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "5067 ms",
+  "memory": 50780000,
+  "display_runtime": "5067",
+  "question_id": "2319",
+  "elapsed_time": 5303,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347462526,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 50.0,
+  "status_memory": "50.8 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695589937",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

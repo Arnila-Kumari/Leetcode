@@ -1,0 +1,47 @@
+Problem: palindrome-partitioning-iii
+Submission ID: 1695577137
+Submission Time: 2025-07-12 11:55:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 86 ms
+Memory: 12.52 MB
+
+Test Cases: 32/32 passed
+
+Runtime Percentile: 66.66660000000002%
+Memory Percentile: 66.66660000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "86 ms",
+  "memory": 12520000,
+  "display_runtime": "86",
+  "question_id": "1403",
+  "elapsed_time": 143,
+  "compare_result": "11111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346538698,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 32,
+  "runtime_percentile": 66.66660000000002,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 66.66660000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695577137",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

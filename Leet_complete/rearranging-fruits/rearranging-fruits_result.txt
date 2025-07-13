@@ -1,0 +1,47 @@
+Problem: rearranging-fruits
+Submission ID: 1695595688
+Submission Time: 2025-07-12 12:18:03
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 240 ms
+Memory: 29.39 MB
+
+Test Cases: 40/40 passed
+
+Runtime Percentile: 50.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "240 ms",
+  "memory": 29392000,
+  "display_runtime": "240",
+  "question_id": "2689",
+  "elapsed_time": 316,
+  "compare_result": "1111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347881270,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 40,
+  "total_testcases": 40,
+  "runtime_percentile": 50.0,
+  "status_memory": "29.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695595688",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

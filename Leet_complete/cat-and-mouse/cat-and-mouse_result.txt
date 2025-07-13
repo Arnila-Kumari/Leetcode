@@ -1,0 +1,47 @@
+Problem: cat-and-mouse
+Submission ID: 1695572291
+Submission Time: 2025-07-12 11:49:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 506 ms
+Memory: 13.66 MB
+
+Test Cases: 92/92 passed
+
+Runtime Percentile: 9.090999999999998%
+Memory Percentile: 18.181900000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "506 ms",
+  "memory": 13664000,
+  "display_runtime": "506",
+  "question_id": "949",
+  "elapsed_time": 580,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346195976,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 92,
+  "total_testcases": 92,
+  "runtime_percentile": 9.090999999999998,
+  "status_memory": "13.7 MB",
+  "memory_percentile": 18.181900000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695572291",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

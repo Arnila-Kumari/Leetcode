@@ -1,0 +1,47 @@
+Problem: second-largest-digit-in-a-string
+Submission ID: 1695738830
+Submission Time: 2025-07-12 17:04:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 10 ms
+Memory: 12.29 MB
+
+Test Cases: 301/301 passed
+
+Runtime Percentile: 65.8088%
+Memory Percentile: 99.2647%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "10 ms",
+  "memory": 12292000,
+  "display_runtime": "10",
+  "question_id": "1904",
+  "elapsed_time": 50,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365070470,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 301,
+  "total_testcases": 301,
+  "runtime_percentile": 65.8088,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 99.2647,
+  "pretty_lang": "Python",
+  "submission_id": "1695738830",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: find-the-kth-largest-integer-in-the-array
+Submission ID: 1695677163
+Submission Time: 2025-07-12 14:30:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 64 ms
+Memory: 19.66 MB
+
+Test Cases: 219/219 passed
+
+Runtime Percentile: 61.84190000000003%
+Memory Percentile: 92.10520000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "64 ms",
+  "memory": 19660000,
+  "display_runtime": "64",
+  "question_id": "2113",
+  "elapsed_time": 133,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355847449,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 219,
+  "total_testcases": 219,
+  "runtime_percentile": 61.84190000000003,
+  "status_memory": "19.7 MB",
+  "memory_percentile": 92.10520000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695677163",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

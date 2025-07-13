@@ -1,0 +1,47 @@
+Problem: maximum-value-of-a-string-in-an-array
+Submission ID: 1695677018
+Submission Time: 2025-07-12 14:30:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.42 MB
+
+Test Cases: 64/64 passed
+
+Runtime Percentile: 13.333400000000005%
+Memory Percentile: 52.00000000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12424000,
+  "display_runtime": "3",
+  "question_id": "2589",
+  "elapsed_time": 33,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355827676,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 64,
+  "total_testcases": 64,
+  "runtime_percentile": 13.333400000000005,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 52.00000000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695677018",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

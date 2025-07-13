@@ -1,0 +1,47 @@
+Problem: longest-chunked-palindrome-decomposition
+Submission ID: 1695583781
+Submission Time: 2025-07-12 12:03:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 12.35 MB
+
+Test Cases: 84/84 passed
+
+Runtime Percentile: 9.091000000000015%
+Memory Percentile: 90.9091%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 12352000,
+  "display_runtime": "6",
+  "question_id": "1251",
+  "elapsed_time": 81,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347016833,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 84,
+  "total_testcases": 84,
+  "runtime_percentile": 9.091000000000015,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 90.9091,
+  "pretty_lang": "Python",
+  "submission_id": "1695583781",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

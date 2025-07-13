@@ -1,0 +1,47 @@
+Problem: maximum-distance-in-arrays
+Submission ID: 1695624311
+Submission Time: 2025-07-12 12:57:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 79 ms
+Memory: 29.43 MB
+
+Test Cases: 136/136 passed
+
+Runtime Percentile: 26.666900000000062%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "79 ms",
+  "memory": 29432000,
+  "display_runtime": "79",
+  "question_id": "624",
+  "elapsed_time": 209,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350236595,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 136,
+  "total_testcases": 136,
+  "runtime_percentile": 26.666900000000062,
+  "status_memory": "29.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695624311",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

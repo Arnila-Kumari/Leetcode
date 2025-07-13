@@ -1,0 +1,53 @@
+Problem: find-the-lexicographically-largest-string-from-the-box-i
+Submission ID: 1695688400
+Submission Time: 2025-07-12 14:53:59
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 8 ms
+Memory: 12.56 MB
+
+Test Cases: 785/787 passed
+
+Last Test Case:
+Input: "nananand"
+2
+Expected: "nd"
+
+Code Output: "nanand"
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12560000,
+  "display_runtime": "8",
+  "question_id": "3683",
+  "elapsed_time": 53,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "\"nanand\"",
+  "std_output": "",
+  "last_testcase": "\"nananand\"\n2",
+  "expected_output": "\"nd\"",
+  "task_finish_time": 1752357238356,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 785,
+  "total_testcases": 787,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695688400",
+  "input_formatted": "\"nananand\", 2",
+  "input": "\"nananand\"\n2",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

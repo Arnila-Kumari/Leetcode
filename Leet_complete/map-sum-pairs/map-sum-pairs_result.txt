@@ -1,0 +1,47 @@
+Problem: map-sum-pairs
+Submission ID: 1695596035
+Submission Time: 2025-07-12 12:18:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.60 MB
+
+Test Cases: 35/35 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 21.4285%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12600000,
+  "display_runtime": "0",
+  "question_id": "677",
+  "elapsed_time": 38,
+  "compare_result": "11111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347905972,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 35,
+  "total_testcases": 35,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 21.4285,
+  "pretty_lang": "Python",
+  "submission_id": "1695596035",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,46 @@
+Problem: minimum-flips-to-make-a-or-b-equal-to-c
+Submission ID: 1695694904
+Submission Time: 2025-07-12 15:08:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 10 ms ms
+Memory: 12.47 MB
+
+Test Cases: 64/64 passed
+
+Runtime Percentile: 90.00009999999999%
+Memory Percentile: 52.30760000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "10 ms",
+  "memory": 12468000,
+  "question_id": "1441",
+  "elapsed_time": 33,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358083139,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 64,
+  "total_testcases": 64,
+  "runtime_percentile": 90.00009999999999,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 52.30760000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695694904",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

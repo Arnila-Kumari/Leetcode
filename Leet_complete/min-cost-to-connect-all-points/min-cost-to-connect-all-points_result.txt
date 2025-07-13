@@ -1,0 +1,47 @@
+Problem: min-cost-to-connect-all-points
+Submission ID: 1695700476
+Submission Time: 2025-07-12 15:20:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 700 ms
+Memory: 12.92 MB
+
+Test Cases: 72/72 passed
+
+Runtime Percentile: 88.84669999999981%
+Memory Percentile: 91.8216%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "700 ms",
+  "memory": 12916000,
+  "display_runtime": "700",
+  "question_id": "1706",
+  "elapsed_time": 749,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358836336,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 72,
+  "total_testcases": 72,
+  "runtime_percentile": 88.84669999999981,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 91.8216,
+  "pretty_lang": "Python",
+  "submission_id": "1695700476",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: count-substrings-that-differ-by-one-character
+Submission ID: 1695623154
+Submission Time: 2025-07-12 12:55:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 12 ms
+Memory: 12.32 MB
+
+Test Cases: 63/63 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "12 ms",
+  "memory": 12316000,
+  "display_runtime": "12",
+  "question_id": "1743",
+  "elapsed_time": 99,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350139128,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 63,
+  "total_testcases": 63,
+  "runtime_percentile": 100,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695623154",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

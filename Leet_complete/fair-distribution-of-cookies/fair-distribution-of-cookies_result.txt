@@ -1,0 +1,47 @@
+Problem: fair-distribution-of-cookies
+Submission ID: 1695684563
+Submission Time: 2025-07-12 14:45:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 102 ms
+Memory: 12.50 MB
+
+Test Cases: 38/38 passed
+
+Runtime Percentile: 57.40700000000001%
+Memory Percentile: 62.962999999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "102 ms",
+  "memory": 12496000,
+  "display_runtime": "102",
+  "question_id": "1418",
+  "elapsed_time": 140,
+  "compare_result": "11111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356747462,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 38,
+  "runtime_percentile": 57.40700000000001,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 62.962999999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1695684563",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

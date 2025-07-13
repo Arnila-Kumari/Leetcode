@@ -1,0 +1,47 @@
+Problem: max-value-of-equation
+Submission ID: 1695615342
+Submission Time: 2025-07-12 12:44:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 115 ms
+Memory: 48.40 MB
+
+Test Cases: 66/66 passed
+
+Runtime Percentile: 61.53850000000001%
+Memory Percentile: 25.641099999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "115 ms",
+  "memory": 48404000,
+  "display_runtime": "115",
+  "question_id": "1622",
+  "elapsed_time": 283,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752349454951,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 66,
+  "total_testcases": 66,
+  "runtime_percentile": 61.53850000000001,
+  "status_memory": "48.4 MB",
+  "memory_percentile": 25.641099999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695615342",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: random-pick-with-blacklist
+Submission ID: 1695591996
+Submission Time: 2025-07-12 12:13:30
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 143 ms
+Memory: 21.73 MB
+
+Test Cases: 68/68 passed
+
+Runtime Percentile: 88.46140000000001%
+Memory Percentile: 49.999900000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "143 ms",
+  "memory": 21728000,
+  "display_runtime": "143",
+  "question_id": "894",
+  "elapsed_time": 766,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347610274,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 68,
+  "total_testcases": 68,
+  "runtime_percentile": 88.46140000000001,
+  "status_memory": "21.7 MB",
+  "memory_percentile": 49.999900000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1695591996",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: validate-binary-search-tree
+Submission ID: 1695688757
+Submission Time: 2025-07-12 14:54:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 17.76 MB
+
+Test Cases: 86/86 passed
+
+Runtime Percentile: 67.95509999999999%
+Memory Percentile: 6.848000000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 17764000,
+  "display_runtime": "3",
+  "question_id": "98",
+  "elapsed_time": 46,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357283935,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 86,
+  "total_testcases": 86,
+  "runtime_percentile": 67.95509999999999,
+  "status_memory": "17.8 MB",
+  "memory_percentile": 6.848000000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695688757",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

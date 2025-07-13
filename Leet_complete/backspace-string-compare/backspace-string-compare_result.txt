@@ -1,0 +1,47 @@
+Problem: backspace-string-compare
+Submission ID: 1695558069
+Submission Time: 2025-07-12 11:34:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2 ms
+Memory: 12.41 MB
+
+Test Cases: 115/115 passed
+
+Runtime Percentile: 38.125%
+Memory Percentile: 55.0893%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2 ms",
+  "memory": 12412000,
+  "display_runtime": "2",
+  "question_id": "874",
+  "elapsed_time": 34,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345254626,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 115,
+  "total_testcases": 115,
+  "runtime_percentile": 38.125,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 55.0893,
+  "pretty_lang": "Python",
+  "submission_id": "1695558069",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

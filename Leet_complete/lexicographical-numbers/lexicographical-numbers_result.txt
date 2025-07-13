@@ -1,0 +1,47 @@
+Problem: lexicographical-numbers
+Submission ID: 1695580285
+Submission Time: 2025-07-12 11:59:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 19 ms
+Memory: 18.51 MB
+
+Test Cases: 27/27 passed
+
+Runtime Percentile: 59.409800000000004%
+Memory Percentile: 84.9017%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "19 ms",
+  "memory": 18508000,
+  "display_runtime": "19",
+  "question_id": "386",
+  "elapsed_time": 53,
+  "compare_result": "111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752346763799,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 27,
+  "total_testcases": 27,
+  "runtime_percentile": 59.409800000000004,
+  "status_memory": "18.5 MB",
+  "memory_percentile": 84.9017,
+  "pretty_lang": "Python",
+  "submission_id": "1695580285",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: widest-vertical-area-between-two-points-containing-no-points
+Submission ID: 1695692510
+Submission Time: 2025-07-12 15:03:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 67 ms
+Memory: 45.67 MB
+
+Test Cases: 55/55 passed
+
+Runtime Percentile: 69.65489999999997%
+Memory Percentile: 6.896299999999992%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "67 ms",
+  "memory": 45672000,
+  "display_runtime": "67",
+  "question_id": "1742",
+  "elapsed_time": 155,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357785143,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 55,
+  "total_testcases": 55,
+  "runtime_percentile": 69.65489999999997,
+  "status_memory": "45.7 MB",
+  "memory_percentile": 6.896299999999992,
+  "pretty_lang": "Python",
+  "submission_id": "1695692510",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

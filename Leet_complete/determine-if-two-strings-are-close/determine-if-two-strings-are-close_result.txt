@@ -1,0 +1,47 @@
+Problem: determine-if-two-strings-are-close
+Submission ID: 1695709001
+Submission Time: 2025-07-12 15:40:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 355 ms
+Memory: 13.12 MB
+
+Test Cases: 169/169 passed
+
+Runtime Percentile: 30.867699999999942%
+Memory Percentile: 68.37729999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "355 ms",
+  "memory": 13124000,
+  "display_runtime": "355",
+  "question_id": "1777",
+  "elapsed_time": 417,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360044664,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 169,
+  "total_testcases": 169,
+  "runtime_percentile": 30.867699999999942,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 68.37729999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695709001",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: maximum-number-of-darts-inside-of-a-circular-dartboard
+Submission ID: 1695628789
+Submission Time: 2025-07-12 13:04:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 55 ms
+Memory: 12.68 MB
+
+Test Cases: 65/65 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 0.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "55 ms",
+  "memory": 12680000,
+  "display_runtime": "55",
+  "question_id": "1563",
+  "elapsed_time": 92,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350654042,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 65,
+  "total_testcases": 65,
+  "runtime_percentile": 100,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 0.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695628789",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

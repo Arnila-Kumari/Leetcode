@@ -1,0 +1,52 @@
+Problem: minimum-number-of-removals-to-make-mountain-array
+Submission ID: 1695679928
+Submission Time: 2025-07-12 14:36:34
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 31 ms
+Memory: 12.58 MB
+
+Test Cases: 87/91 passed
+
+Last Test Case:
+Input: [100,92,89,77,74,66,64,66,64]
+Expected: 6
+
+Code Output: 3
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12584000,
+  "display_runtime": "31",
+  "question_id": "1766",
+  "elapsed_time": 60,
+  "compare_result": "1111111111110110001111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "3",
+  "std_output": "",
+  "last_testcase": "[100,92,89,77,74,66,64,66,64]",
+  "expected_output": "6",
+  "task_finish_time": 1752356193381,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 87,
+  "total_testcases": 91,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695679928",
+  "input_formatted": "[100,92,89,77,74,66,64,66,64]",
+  "input": "[100,92,89,77,74,66,64,66,64]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

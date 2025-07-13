@@ -1,0 +1,47 @@
+Problem: minimum-time-to-visit-a-cell-in-a-grid
+Submission ID: 1695545346
+Submission Time: 2025-07-12 11:22:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1836 ms
+Memory: 24.16 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 16.666000000000025%
+Memory Percentile: 66.6666%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1836 ms",
+  "memory": 24160000,
+  "display_runtime": "1836",
+  "question_id": "2711",
+  "elapsed_time": 1999,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344539480,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 16.666000000000025,
+  "status_memory": "24.2 MB",
+  "memory_percentile": 66.6666,
+  "pretty_lang": "Python",
+  "submission_id": "1695545346",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

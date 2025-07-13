@@ -1,0 +1,47 @@
+Problem: number-of-times-binary-string-is-prefix-aligned
+Submission ID: 1696125855
+Submission Time: 2025-07-13 00:39:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 50 ms
+Memory: 16.06 MB
+
+Test Cases: 63/63 passed
+
+Runtime Percentile: 18.75%
+Memory Percentile: 93.75%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "50 ms",
+  "memory": 16064000,
+  "display_runtime": "50",
+  "question_id": "1491",
+  "elapsed_time": 92,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752392393831,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 63,
+  "total_testcases": 63,
+  "runtime_percentile": 18.75,
+  "status_memory": "16.1 MB",
+  "memory_percentile": 93.75,
+  "pretty_lang": "Python",
+  "submission_id": "1696125855",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

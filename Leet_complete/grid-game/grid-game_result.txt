@@ -1,0 +1,47 @@
+Problem: grid-game
+Submission ID: 1695555612
+Submission Time: 2025-07-12 11:31:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 81 ms
+Memory: 20.79 MB
+
+Test Cases: 109/109 passed
+
+Runtime Percentile: 94.20280000000002%
+Memory Percentile: 69.5652%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "81 ms",
+  "memory": 20788000,
+  "display_runtime": "81",
+  "question_id": "2145",
+  "elapsed_time": 175,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345097663,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 109,
+  "total_testcases": 109,
+  "runtime_percentile": 94.20280000000002,
+  "status_memory": "20.8 MB",
+  "memory_percentile": 69.5652,
+  "pretty_lang": "Python",
+  "submission_id": "1695555612",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

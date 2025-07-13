@@ -1,0 +1,47 @@
+Problem: arithmetic-slices
+Submission ID: 1695555568
+Submission Time: 2025-07-12 11:31:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.48 MB
+
+Test Cases: 16/16 passed
+
+Runtime Percentile: 26.00729999999999%
+Memory Percentile: 99.2674%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12480000,
+  "display_runtime": "3",
+  "question_id": "413",
+  "elapsed_time": 41,
+  "compare_result": "1111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345094350,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 16,
+  "total_testcases": 16,
+  "runtime_percentile": 26.00729999999999,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 99.2674,
+  "pretty_lang": "Python",
+  "submission_id": "1695555568",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

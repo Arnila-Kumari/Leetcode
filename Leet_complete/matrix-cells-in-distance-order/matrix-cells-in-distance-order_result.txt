@@ -1,0 +1,47 @@
+Problem: matrix-cells-in-distance-order
+Submission ID: 1695596840
+Submission Time: 2025-07-12 12:19:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 107 ms
+Memory: 15.66 MB
+
+Test Cases: 66/66 passed
+
+Runtime Percentile: 5.5563000000000216%
+Memory Percentile: 68.8889%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "107 ms",
+  "memory": 15664000,
+  "display_runtime": "107",
+  "question_id": "1094",
+  "elapsed_time": 194,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347966720,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 66,
+  "total_testcases": 66,
+  "runtime_percentile": 5.5563000000000216,
+  "status_memory": "15.7 MB",
+  "memory_percentile": 68.8889,
+  "pretty_lang": "Python",
+  "submission_id": "1695596840",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

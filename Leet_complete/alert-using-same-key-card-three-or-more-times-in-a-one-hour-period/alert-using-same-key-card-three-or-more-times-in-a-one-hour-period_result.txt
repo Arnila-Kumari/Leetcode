@@ -1,0 +1,47 @@
+Problem: alert-using-same-key-card-three-or-more-times-in-a-one-hour-period
+Submission ID: 1695549332
+Submission Time: 2025-07-12 11:25:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 243 ms
+Memory: 36.15 MB
+
+Test Cases: 78/78 passed
+
+Runtime Percentile: 71.69800000000006%
+Memory Percentile: 98.1132%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "243 ms",
+  "memory": 36148000,
+  "display_runtime": "243",
+  "question_id": "1709",
+  "elapsed_time": 332,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344755925,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 78,
+  "total_testcases": 78,
+  "runtime_percentile": 71.69800000000006,
+  "status_memory": "36.1 MB",
+  "memory_percentile": 98.1132,
+  "pretty_lang": "Python",
+  "submission_id": "1695549332",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

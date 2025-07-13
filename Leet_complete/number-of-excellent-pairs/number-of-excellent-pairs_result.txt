@@ -1,0 +1,47 @@
+Problem: number-of-excellent-pairs
+Submission ID: 1695561456
+Submission Time: 2025-07-12 11:37:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 247 ms
+Memory: 27.82 MB
+
+Test Cases: 56/56 passed
+
+Runtime Percentile: 83.33340000000001%
+Memory Percentile: 50.00000000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "247 ms",
+  "memory": 27824000,
+  "display_runtime": "247",
+  "question_id": "2430",
+  "elapsed_time": 314,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345469532,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 56,
+  "total_testcases": 56,
+  "runtime_percentile": 83.33340000000001,
+  "status_memory": "27.8 MB",
+  "memory_percentile": 50.00000000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695561456",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

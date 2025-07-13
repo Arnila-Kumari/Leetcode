@@ -1,0 +1,47 @@
+Problem: most-frequent-subtree-sum
+Submission ID: 1695550107
+Submission Time: 2025-07-12 11:26:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 6 ms
+Memory: 18.38 MB
+
+Test Cases: 58/58 passed
+
+Runtime Percentile: 80.85109999999999%
+Memory Percentile: 88.29789999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "6 ms",
+  "memory": 18384000,
+  "display_runtime": "6",
+  "question_id": "508",
+  "elapsed_time": 56,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344797635,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 58,
+  "total_testcases": 58,
+  "runtime_percentile": 80.85109999999999,
+  "status_memory": "18.4 MB",
+  "memory_percentile": 88.29789999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695550107",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

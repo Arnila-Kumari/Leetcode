@@ -1,0 +1,47 @@
+Problem: lucky-numbers-in-a-matrix
+Submission ID: 1695592615
+Submission Time: 2025-07-12 12:14:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.68 MB
+
+Test Cases: 105/105 passed
+
+Runtime Percentile: 61.11109999999999%
+Memory Percentile: 53.472199999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12676000,
+  "display_runtime": "7",
+  "question_id": "1496",
+  "elapsed_time": 47,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347655385,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 105,
+  "total_testcases": 105,
+  "runtime_percentile": 61.11109999999999,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 53.472199999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1695592615",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

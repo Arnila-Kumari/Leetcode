@@ -1,0 +1,47 @@
+Problem: search-in-a-binary-search-tree
+Submission ID: 1695677064
+Submission Time: 2025-07-12 14:30:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 16.52 MB
+
+Test Cases: 36/36 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 24.749699999999976%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 16524000,
+  "display_runtime": "0",
+  "question_id": "783",
+  "elapsed_time": 75,
+  "compare_result": "111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355834427,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 36,
+  "total_testcases": 36,
+  "runtime_percentile": 100,
+  "status_memory": "16.5 MB",
+  "memory_percentile": 24.749699999999976,
+  "pretty_lang": "Python",
+  "submission_id": "1695677064",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

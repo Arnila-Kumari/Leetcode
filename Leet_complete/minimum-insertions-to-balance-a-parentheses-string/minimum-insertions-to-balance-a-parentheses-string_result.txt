@@ -1,0 +1,47 @@
+Problem: minimum-insertions-to-balance-a-parentheses-string
+Submission ID: 1695683803
+Submission Time: 2025-07-12 14:44:13
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 93 ms
+Memory: 12.86 MB
+
+Test Cases: 102/102 passed
+
+Runtime Percentile: 77.77780000000001%
+Memory Percentile: 96.2963%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "93 ms",
+  "memory": 12856000,
+  "display_runtime": "93",
+  "question_id": "1648",
+  "elapsed_time": 132,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356652414,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 102,
+  "total_testcases": 102,
+  "runtime_percentile": 77.77780000000001,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 96.2963,
+  "pretty_lang": "Python",
+  "submission_id": "1695683803",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

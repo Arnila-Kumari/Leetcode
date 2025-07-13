@@ -1,0 +1,47 @@
+Problem: n-queens-ii
+Submission ID: 1695553586
+Submission Time: 2025-07-12 11:29:41
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.35 MB
+
+Test Cases: 9/9 passed
+
+Runtime Percentile: 93.125%
+Memory Percentile: 85.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12348000,
+  "display_runtime": "7",
+  "question_id": "52",
+  "elapsed_time": 43,
+  "compare_result": "111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344979529,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 9,
+  "total_testcases": 9,
+  "runtime_percentile": 93.125,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 85.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695553586",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

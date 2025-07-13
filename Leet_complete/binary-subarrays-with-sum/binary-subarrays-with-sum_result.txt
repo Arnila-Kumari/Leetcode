@@ -1,0 +1,47 @@
+Problem: binary-subarrays-with-sum
+Submission ID: 1695563222
+Submission Time: 2025-07-12 11:39:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 51 ms
+Memory: 12.96 MB
+
+Test Cases: 61/61 passed
+
+Runtime Percentile: 15.384899999999988%
+Memory Percentile: 79.3163%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "51 ms",
+  "memory": 12964000,
+  "display_runtime": "51",
+  "question_id": "966",
+  "elapsed_time": 84,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345588352,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 61,
+  "total_testcases": 61,
+  "runtime_percentile": 15.384899999999988,
+  "status_memory": "13 MB",
+  "memory_percentile": 79.3163,
+  "pretty_lang": "Python",
+  "submission_id": "1695563222",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

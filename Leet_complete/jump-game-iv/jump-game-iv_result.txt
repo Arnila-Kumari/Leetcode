@@ -1,0 +1,47 @@
+Problem: jump-game-iv
+Submission ID: 1695567013
+Submission Time: 2025-07-12 11:44:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 383 ms
+Memory: 28.01 MB
+
+Test Cases: 33/33 passed
+
+Runtime Percentile: 7.692399999999977%
+Memory Percentile: 30.76929999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "383 ms",
+  "memory": 28012000,
+  "display_runtime": "383",
+  "question_id": "1447",
+  "elapsed_time": 433,
+  "compare_result": "111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345846843,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 33,
+  "total_testcases": 33,
+  "runtime_percentile": 7.692399999999977,
+  "status_memory": "28 MB",
+  "memory_percentile": 30.76929999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695567013",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

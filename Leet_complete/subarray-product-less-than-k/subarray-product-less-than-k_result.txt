@@ -1,0 +1,47 @@
+Problem: subarray-product-less-than-k
+Submission ID: 1695676948
+Submission Time: 2025-07-12 14:30:20
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 54 ms
+Memory: 13.76 MB
+
+Test Cases: 98/98 passed
+
+Runtime Percentile: 86.12730000000002%
+Memory Percentile: 98.8439%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "54 ms",
+  "memory": 13756000,
+  "display_runtime": "54",
+  "question_id": "713",
+  "elapsed_time": 118,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355819756,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 98,
+  "total_testcases": 98,
+  "runtime_percentile": 86.12730000000002,
+  "status_memory": "13.8 MB",
+  "memory_percentile": 98.8439,
+  "pretty_lang": "Python",
+  "submission_id": "1695676948",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

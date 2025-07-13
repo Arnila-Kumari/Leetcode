@@ -1,0 +1,47 @@
+Problem: range-sum-query-2d-immutable
+Submission ID: 1695593202
+Submission Time: 2025-07-12 12:15:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 175 ms
+Memory: 24.96 MB
+
+Test Cases: 22/22 passed
+
+Runtime Percentile: 62.3994000000001%
+Memory Percentile: 24.79990000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "175 ms",
+  "memory": 24960000,
+  "display_runtime": "175",
+  "question_id": "304",
+  "elapsed_time": 2871,
+  "compare_result": "1111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347700503,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 22,
+  "total_testcases": 22,
+  "runtime_percentile": 62.3994000000001,
+  "status_memory": "25 MB",
+  "memory_percentile": 24.79990000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1695593202",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

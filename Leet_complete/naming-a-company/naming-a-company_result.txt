@@ -1,0 +1,47 @@
+Problem: naming-a-company
+Submission ID: 1695554278
+Submission Time: 2025-07-12 11:30:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 178 ms
+Memory: 25.46 MB
+
+Test Cases: 89/89 passed
+
+Runtime Percentile: 61.538499999999985%
+Memory Percentile: 38.46159999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "178 ms",
+  "memory": 25464000,
+  "display_runtime": "178",
+  "question_id": "2390",
+  "elapsed_time": 393,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345017734,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 89,
+  "total_testcases": 89,
+  "runtime_percentile": 61.538499999999985,
+  "status_memory": "25.5 MB",
+  "memory_percentile": 38.46159999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695554278",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,46 @@
+Problem: valid-mountain-array
+Submission ID: 1695700310
+Submission Time: 2025-07-12 15:20:12
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 148 ms ms
+Memory: 13.76 MB
+
+Test Cases: 53/53 passed
+
+Runtime Percentile: 86.50790000000002%
+Memory Percentile: 57.9365%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "148 ms",
+  "memory": 13760000,
+  "question_id": "978",
+  "elapsed_time": 168,
+  "compare_result": "11111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358811265,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 53,
+  "total_testcases": 53,
+  "runtime_percentile": 86.50790000000002,
+  "status_memory": "13.8 MB",
+  "memory_percentile": 57.9365,
+  "pretty_lang": "Python",
+  "submission_id": "1695700310",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

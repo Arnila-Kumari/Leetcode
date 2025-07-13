@@ -1,0 +1,47 @@
+Problem: minimum-cost-to-cut-a-stick
+Submission ID: 1695691664
+Submission Time: 2025-07-12 15:01:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 281 ms
+Memory: 12.58 MB
+
+Test Cases: 101/101 passed
+
+Runtime Percentile: 98.26079999999999%
+Memory Percentile: 99.1304%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "281 ms",
+  "memory": 12580000,
+  "display_runtime": "281",
+  "question_id": "1669",
+  "elapsed_time": 335,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357673694,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 101,
+  "total_testcases": 101,
+  "runtime_percentile": 98.26079999999999,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 99.1304,
+  "pretty_lang": "Python",
+  "submission_id": "1695691664",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

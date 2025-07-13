@@ -1,0 +1,47 @@
+Problem: earliest-second-to-mark-indices-ii
+Submission ID: 1695685770
+Submission Time: 2025-07-12 14:48:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 23 ms
+Memory: 12.96 MB
+
+Test Cases: 510/510 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "23 ms",
+  "memory": 12964000,
+  "display_runtime": "23",
+  "question_id": "3289",
+  "elapsed_time": 58,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356903889,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 510,
+  "total_testcases": 510,
+  "runtime_percentile": 100,
+  "status_memory": "13 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695685770",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

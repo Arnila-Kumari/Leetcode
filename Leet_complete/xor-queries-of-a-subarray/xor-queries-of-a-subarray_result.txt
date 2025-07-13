@@ -1,0 +1,47 @@
+Problem: xor-queries-of-a-subarray
+Submission ID: 1695677399
+Submission Time: 2025-07-12 14:31:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 19 ms
+Memory: 26.09 MB
+
+Test Cases: 46/46 passed
+
+Runtime Percentile: 98.4127%
+Memory Percentile: 80.95240000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "19 ms",
+  "memory": 26088000,
+  "display_runtime": "19",
+  "question_id": "1435",
+  "elapsed_time": 126,
+  "compare_result": "1111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355876796,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 46,
+  "total_testcases": 46,
+  "runtime_percentile": 98.4127,
+  "status_memory": "26.1 MB",
+  "memory_percentile": 80.95240000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695677399",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

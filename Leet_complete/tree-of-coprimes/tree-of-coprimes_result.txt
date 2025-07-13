@@ -1,0 +1,47 @@
+Problem: tree-of-coprimes
+Submission ID: 1695711841
+Submission Time: 2025-07-12 15:47:52
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2029 ms
+Memory: 63.76 MB
+
+Test Cases: 37/37 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2029 ms",
+  "memory": 63764000,
+  "display_runtime": "2029",
+  "question_id": "1875",
+  "elapsed_time": 2238,
+  "compare_result": "1111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360464985,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 37,
+  "total_testcases": 37,
+  "runtime_percentile": 100,
+  "status_memory": "63.8 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695711841",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

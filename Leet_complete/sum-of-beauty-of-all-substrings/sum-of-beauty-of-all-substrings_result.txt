@@ -1,0 +1,47 @@
+Problem: sum-of-beauty-of-all-substrings
+Submission ID: 1695679509
+Submission Time: 2025-07-12 14:35:41
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3011 ms
+Memory: 12.54 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 58.353299999999905%
+Memory Percentile: 22.191699999999997%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3011 ms",
+  "memory": 12536000,
+  "display_runtime": "3011",
+  "question_id": "1890",
+  "elapsed_time": 3250,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356140411,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 58.353299999999905,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 22.191699999999997,
+  "pretty_lang": "Python",
+  "submission_id": "1695679509",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

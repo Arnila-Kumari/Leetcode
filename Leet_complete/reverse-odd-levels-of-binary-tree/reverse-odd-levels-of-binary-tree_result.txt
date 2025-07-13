@@ -1,0 +1,47 @@
+Problem: reverse-odd-levels-of-binary-tree
+Submission ID: 1695740541
+Submission Time: 2025-07-12 17:08:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 32 ms
+Memory: 22.28 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 92.71509999999999%
+Memory Percentile: 97.3509%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "32 ms",
+  "memory": 22280000,
+  "display_runtime": "32",
+  "question_id": "2493",
+  "elapsed_time": 273,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365324663,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 92.71509999999999,
+  "status_memory": "22.3 MB",
+  "memory_percentile": 97.3509,
+  "pretty_lang": "Python",
+  "submission_id": "1695740541",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: minimum-deletions-to-make-array-divisible
+Submission ID: 1695712000
+Submission Time: 2025-07-12 15:48:04
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 58 ms
+Memory: 19.28 MB
+
+Test Cases: 49/49 passed
+
+Runtime Percentile: 95.8333%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "58 ms",
+  "memory": 19284000,
+  "display_runtime": "58",
+  "question_id": "2423",
+  "elapsed_time": 128,
+  "compare_result": "1111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360483679,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 49,
+  "total_testcases": 49,
+  "runtime_percentile": 95.8333,
+  "status_memory": "19.3 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695712000",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

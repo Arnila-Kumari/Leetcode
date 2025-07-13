@@ -1,0 +1,47 @@
+Problem: image-overlap
+Submission ID: 1695560568
+Submission Time: 2025-07-12 11:36:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 305 ms
+Memory: 12.28 MB
+
+Test Cases: 60/60 passed
+
+Runtime Percentile: 95.74459999999999%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "305 ms",
+  "memory": 12280000,
+  "display_runtime": "305",
+  "question_id": "864",
+  "elapsed_time": 439,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345414205,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 60,
+  "total_testcases": 60,
+  "runtime_percentile": 95.74459999999999,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695560568",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

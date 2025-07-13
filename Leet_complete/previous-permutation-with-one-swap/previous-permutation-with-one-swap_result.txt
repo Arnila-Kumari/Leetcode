@@ -1,0 +1,47 @@
+Problem: previous-permutation-with-one-swap
+Submission ID: 1695587606
+Submission Time: 2025-07-12 12:08:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 13.64 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 77.4194%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 13640000,
+  "display_runtime": "0",
+  "question_id": "1139",
+  "elapsed_time": 47,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347280915,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 100,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 77.4194,
+  "pretty_lang": "Python",
+  "submission_id": "1695587606",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: sort-the-jumbled-numbers
+Submission ID: 1695690758
+Submission Time: 2025-07-12 14:59:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 586 ms
+Memory: 22.32 MB
+
+Test Cases: 68/68 passed
+
+Runtime Percentile: 66.66670000000002%
+Memory Percentile: 23.80960000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "586 ms",
+  "memory": 22316000,
+  "display_runtime": "586",
+  "question_id": "1333",
+  "elapsed_time": 715,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357555929,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 68,
+  "total_testcases": 68,
+  "runtime_percentile": 66.66670000000002,
+  "status_memory": "22.3 MB",
+  "memory_percentile": 23.80960000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695690758",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

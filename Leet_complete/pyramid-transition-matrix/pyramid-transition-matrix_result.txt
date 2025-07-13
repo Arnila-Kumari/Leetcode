@@ -1,0 +1,47 @@
+Problem: pyramid-transition-matrix
+Submission ID: 1695590624
+Submission Time: 2025-07-12 12:11:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 459 ms
+Memory: 13.18 MB
+
+Test Cases: 63/63 passed
+
+Runtime Percentile: 44.444500000000005%
+Memory Percentile: 88.8889%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "459 ms",
+  "memory": 13180000,
+  "display_runtime": "459",
+  "question_id": "757",
+  "elapsed_time": 494,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347507976,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 63,
+  "total_testcases": 63,
+  "runtime_percentile": 44.444500000000005,
+  "status_memory": "13.2 MB",
+  "memory_percentile": 88.8889,
+  "pretty_lang": "Python",
+  "submission_id": "1695590624",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: truncate-sentence
+Submission ID: 1695709127
+Submission Time: 2025-07-12 15:41:03
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.22 MB
+
+Test Cases: 72/72 passed
+
+Runtime Percentile: 11.834300000000004%
+Memory Percentile: 99.4083%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12220000,
+  "display_runtime": "3",
+  "question_id": "1944",
+  "elapsed_time": 32,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360062021,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 72,
+  "total_testcases": 72,
+  "runtime_percentile": 11.834300000000004,
+  "status_memory": "12.2 MB",
+  "memory_percentile": 99.4083,
+  "pretty_lang": "Python",
+  "submission_id": "1695709127",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

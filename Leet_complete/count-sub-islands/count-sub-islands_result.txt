@@ -1,0 +1,47 @@
+Problem: count-sub-islands
+Submission ID: 1695621544
+Submission Time: 2025-07-12 12:53:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 815 ms
+Memory: 83.65 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 28.75%
+Memory Percentile: 42.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "815 ms",
+  "memory": 83648000,
+  "display_runtime": "815",
+  "question_id": "2035",
+  "elapsed_time": 1027,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350005763,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 28.75,
+  "status_memory": "83.6 MB",
+  "memory_percentile": 42.5,
+  "pretty_lang": "Python",
+  "submission_id": "1695621544",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

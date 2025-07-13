@@ -1,0 +1,47 @@
+Problem: friends-of-appropriate-ages
+Submission ID: 1695549851
+Submission Time: 2025-07-12 11:26:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 204 ms
+Memory: 13.01 MB
+
+Test Cases: 89/89 passed
+
+Runtime Percentile: 9.522700000000015%
+Memory Percentile: 10.714200000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "204 ms",
+  "memory": 13008000,
+  "display_runtime": "204",
+  "question_id": "852",
+  "elapsed_time": 284,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344784091,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 89,
+  "total_testcases": 89,
+  "runtime_percentile": 9.522700000000015,
+  "status_memory": "13 MB",
+  "memory_percentile": 10.714200000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1695549851",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: find-the-town-judge
+Submission ID: 1695676907
+Submission Time: 2025-07-12 14:30:14
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 19 ms
+Memory: 16.03 MB
+
+Test Cases: 92/92 passed
+
+Runtime Percentile: 53.59150000000001%
+Memory Percentile: 62.827799999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "19 ms",
+  "memory": 16032000,
+  "display_runtime": "19",
+  "question_id": "1039",
+  "elapsed_time": 95,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355814216,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 92,
+  "total_testcases": 92,
+  "runtime_percentile": 53.59150000000001,
+  "status_memory": "16 MB",
+  "memory_percentile": 62.827799999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695676907",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

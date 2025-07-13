@@ -1,0 +1,47 @@
+Problem: concatenation-of-array
+Submission ID: 1695586244
+Submission Time: 2025-07-12 12:06:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.60 MB
+
+Test Cases: 92/92 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 60.5021%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12604000,
+  "display_runtime": "0",
+  "question_id": "2058",
+  "elapsed_time": 40,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347184704,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 92,
+  "total_testcases": 92,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 60.5021,
+  "pretty_lang": "Python",
+  "submission_id": "1695586244",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

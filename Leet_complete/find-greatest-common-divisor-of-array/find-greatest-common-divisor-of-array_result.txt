@@ -1,0 +1,47 @@
+Problem: find-greatest-common-divisor-of-array
+Submission ID: 1695700667
+Submission Time: 2025-07-12 15:21:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.73 MB
+
+Test Cases: 215/215 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 0.9091000000000147%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12728000,
+  "display_runtime": "0",
+  "question_id": "2106",
+  "elapsed_time": 75,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358863922,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 215,
+  "total_testcases": 215,
+  "runtime_percentile": 100,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 0.9091000000000147,
+  "pretty_lang": "Python",
+  "submission_id": "1695700667",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

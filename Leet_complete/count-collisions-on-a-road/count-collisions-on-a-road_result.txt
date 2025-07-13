@@ -1,0 +1,47 @@
+Problem: count-collisions-on-a-road
+Submission ID: 1695594671
+Submission Time: 2025-07-12 12:16:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 291 ms
+Memory: 12.97 MB
+
+Test Cases: 119/119 passed
+
+Runtime Percentile: 41.17599999999999%
+Memory Percentile: 88.23519999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "291 ms",
+  "memory": 12968000,
+  "display_runtime": "291",
+  "question_id": "2317",
+  "elapsed_time": 324,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347807326,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 119,
+  "total_testcases": 119,
+  "runtime_percentile": 41.17599999999999,
+  "status_memory": "13 MB",
+  "memory_percentile": 88.23519999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695594671",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

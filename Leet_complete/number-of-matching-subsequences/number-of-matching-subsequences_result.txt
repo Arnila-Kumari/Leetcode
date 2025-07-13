@@ -1,0 +1,47 @@
+Problem: number-of-matching-subsequences
+Submission ID: 1695563238
+Submission Time: 2025-07-12 11:39:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 287 ms
+Memory: 14.32 MB
+
+Test Cases: 53/53 passed
+
+Runtime Percentile: 81.24939999999995%
+Memory Percentile: 56.2499%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "287 ms",
+  "memory": 14324000,
+  "display_runtime": "287",
+  "question_id": "808",
+  "elapsed_time": 377,
+  "compare_result": "11111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345589437,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 53,
+  "total_testcases": 53,
+  "runtime_percentile": 81.24939999999995,
+  "status_memory": "14.3 MB",
+  "memory_percentile": 56.2499,
+  "pretty_lang": "Python",
+  "submission_id": "1695563238",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

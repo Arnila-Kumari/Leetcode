@@ -1,0 +1,47 @@
+Problem: find-the-original-array-of-prefix-xor
+Submission ID: 1695741149
+Submission Time: 2025-07-12 17:10:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 20 ms
+Memory: 27.43 MB
+
+Test Cases: 46/46 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "20 ms",
+  "memory": 27428000,
+  "display_runtime": "20",
+  "question_id": "2519",
+  "elapsed_time": 119,
+  "compare_result": "1111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365421871,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 46,
+  "total_testcases": 46,
+  "runtime_percentile": 100,
+  "status_memory": "27.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695741149",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

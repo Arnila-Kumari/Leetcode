@@ -1,0 +1,47 @@
+Problem: find-the-k-sum-of-an-array
+Submission ID: 1695676117
+Submission Time: 2025-07-12 14:28:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 235 ms
+Memory: 21.74 MB
+
+Test Cases: 111/111 passed
+
+Runtime Percentile: 73.68400000000001%
+Memory Percentile: 89.4736%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "235 ms",
+  "memory": 21744000,
+  "display_runtime": "235",
+  "question_id": "2462",
+  "elapsed_time": 314,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752355718371,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 111,
+  "total_testcases": 111,
+  "runtime_percentile": 73.68400000000001,
+  "status_memory": "21.7 MB",
+  "memory_percentile": 89.4736,
+  "pretty_lang": "Python",
+  "submission_id": "1695676117",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

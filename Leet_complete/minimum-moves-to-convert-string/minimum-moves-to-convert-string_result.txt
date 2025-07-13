@@ -1,0 +1,47 @@
+Problem: minimum-moves-to-convert-string
+Submission ID: 1695695217
+Submission Time: 2025-07-12 15:08:44
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.48 MB
+
+Test Cases: 55/55 passed
+
+Runtime Percentile: 32.142900000000004%
+Memory Percentile: 53.5714%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12476000,
+  "display_runtime": "3",
+  "question_id": "2154",
+  "elapsed_time": 63,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358123513,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 55,
+  "total_testcases": 55,
+  "runtime_percentile": 32.142900000000004,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 53.5714,
+  "pretty_lang": "Python",
+  "submission_id": "1695695217",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

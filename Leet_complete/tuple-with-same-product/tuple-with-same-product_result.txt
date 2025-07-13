@@ -1,0 +1,47 @@
+Problem: tuple-with-same-product
+Submission ID: 1695691376
+Submission Time: 2025-07-12 15:00:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 955 ms
+Memory: 41.60 MB
+
+Test Cases: 37/37 passed
+
+Runtime Percentile: 21.339799999999883%
+Memory Percentile: 94.4664%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "955 ms",
+  "memory": 41600000,
+  "display_runtime": "955",
+  "question_id": "1364",
+  "elapsed_time": 1020,
+  "compare_result": "1111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357635148,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 37,
+  "total_testcases": 37,
+  "runtime_percentile": 21.339799999999883,
+  "status_memory": "41.6 MB",
+  "memory_percentile": 94.4664,
+  "pretty_lang": "Python",
+  "submission_id": "1695691376",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

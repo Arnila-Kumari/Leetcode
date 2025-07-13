@@ -1,0 +1,46 @@
+Problem: flatten-a-multilevel-doubly-linked-list
+Submission ID: 1695546079
+Submission Time: 2025-07-12 11:23:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 22 ms ms
+Memory: 12.68 MB
+
+Test Cases: 26/26 passed
+
+Runtime Percentile: 78.49820000000003%
+Memory Percentile: 98.2935%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "22 ms",
+  "memory": 12684000,
+  "question_id": "766",
+  "elapsed_time": 43,
+  "compare_result": "11111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752344577304,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 26,
+  "total_testcases": 26,
+  "runtime_percentile": 78.49820000000003,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 98.2935,
+  "pretty_lang": "Python",
+  "submission_id": "1695546079",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,50 @@
+Problem: insert-into-a-binary-search-tree
+Submission ID: 1695563179
+Submission Time: 2025-07-12 11:39:48
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.34 MB
+
+Test Cases: 8/35 passed
+
+Last Test Case:
+Input: []
+5
+Expected: [5]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 88: TypeError: <__main__.TreeNode object at 0x7fd2fa139fd0> is not valid value for the expected return type TreeNode",
+  "full_runtime_error": "TypeError: <__main__.TreeNode object at 0x7fd2fa139fd0> is not valid value for the expected return type TreeNode\n    raise TypeError(str(ret) + \" is not valid value for the expected return type TreeNode\");\nLine 88 in _driver (Solution.py)\n    _driver()\nLine 96 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12336000,
+  "question_id": "784",
+  "elapsed_time": 35,
+  "compare_result": "11111111000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[]\n5",
+  "expected_output": "[5]",
+  "task_finish_time": 1752345585766,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 8,
+  "total_testcases": 35,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695563179",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

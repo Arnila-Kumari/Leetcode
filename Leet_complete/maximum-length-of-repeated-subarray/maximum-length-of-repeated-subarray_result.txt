@@ -1,0 +1,47 @@
+Problem: maximum-length-of-repeated-subarray
+Submission ID: 1695626904
+Submission Time: 2025-07-12 13:01:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1393 ms
+Memory: 12.55 MB
+
+Test Cases: 55/55 passed
+
+Runtime Percentile: 85.36479999999983%
+Memory Percentile: 96.9512%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1393 ms",
+  "memory": 12552000,
+  "display_runtime": "1393",
+  "question_id": "718",
+  "elapsed_time": 1487,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350485515,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 55,
+  "total_testcases": 55,
+  "runtime_percentile": 85.36479999999983,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 96.9512,
+  "pretty_lang": "Python",
+  "submission_id": "1695626904",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: simplify-path
+Submission ID: 1695678634
+Submission Time: 2025-07-12 14:33:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.69 MB
+
+Test Cases: 263/263 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 10.020100000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12688000,
+  "display_runtime": "0",
+  "question_id": "71",
+  "elapsed_time": 40,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356027237,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 263,
+  "total_testcases": 263,
+  "runtime_percentile": 100,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 10.020100000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695678634",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

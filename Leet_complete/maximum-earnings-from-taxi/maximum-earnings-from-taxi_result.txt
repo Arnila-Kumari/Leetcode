@@ -1,0 +1,47 @@
+Problem: maximum-earnings-from-taxi
+Submission ID: 1695624372
+Submission Time: 2025-07-12 12:57:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 408 ms
+Memory: 27.33 MB
+
+Test Cases: 84/84 passed
+
+Runtime Percentile: 42.42430000000006%
+Memory Percentile: 36.363700000000044%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "408 ms",
+  "memory": 27332000,
+  "display_runtime": "408",
+  "question_id": "2118",
+  "elapsed_time": 633,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350244712,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 84,
+  "total_testcases": 84,
+  "runtime_percentile": 42.42430000000006,
+  "status_memory": "27.3 MB",
+  "memory_percentile": 36.363700000000044,
+  "pretty_lang": "Python",
+  "submission_id": "1695624372",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

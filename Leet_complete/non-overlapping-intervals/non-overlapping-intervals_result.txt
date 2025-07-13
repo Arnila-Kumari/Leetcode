@@ -1,0 +1,47 @@
+Problem: non-overlapping-intervals
+Submission ID: 1695556849
+Submission Time: 2025-07-12 11:33:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 160 ms
+Memory: 45.19 MB
+
+Test Cases: 59/59 passed
+
+Runtime Percentile: 54.011400000000044%
+Memory Percentile: 82.37520000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "160 ms",
+  "memory": 45192000,
+  "display_runtime": "160",
+  "question_id": "435",
+  "elapsed_time": 429,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345179929,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 59,
+  "total_testcases": 59,
+  "runtime_percentile": 54.011400000000044,
+  "status_memory": "45.2 MB",
+  "memory_percentile": 82.37520000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695556849",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

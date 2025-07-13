@@ -1,0 +1,47 @@
+Problem: min-cost-climbing-stairs
+Submission ID: 1695685443
+Submission Time: 2025-07-12 14:47:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.63 MB
+
+Test Cases: 285/285 passed
+
+Runtime Percentile: 23.347599999999996%
+Memory Percentile: 25.9657%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12632000,
+  "display_runtime": "7",
+  "question_id": "747",
+  "elapsed_time": 40,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356862747,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 285,
+  "total_testcases": 285,
+  "runtime_percentile": 23.347599999999996,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 25.9657,
+  "pretty_lang": "Python",
+  "submission_id": "1695685443",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

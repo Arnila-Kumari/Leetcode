@@ -1,0 +1,47 @@
+Problem: construct-the-lexicographically-largest-valid-sequence
+Submission ID: 1695588787
+Submission Time: 2025-07-12 12:09:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 9 ms
+Memory: 12.50 MB
+
+Test Cases: 20/20 passed
+
+Runtime Percentile: 33.33350000000003%
+Memory Percentile: 33.33330000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "9 ms",
+  "memory": 12504000,
+  "display_runtime": "9",
+  "question_id": "1819",
+  "elapsed_time": 41,
+  "compare_result": "11111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752347366822,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 20,
+  "total_testcases": 20,
+  "runtime_percentile": 33.33350000000003,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 33.33330000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695588787",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

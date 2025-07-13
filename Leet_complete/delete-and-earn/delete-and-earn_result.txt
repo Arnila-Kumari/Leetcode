@@ -1,0 +1,47 @@
+Problem: delete-and-earn
+Submission ID: 1695700866
+Submission Time: 2025-07-12 15:21:35
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 53 ms
+Memory: 13.50 MB
+
+Test Cases: 51/51 passed
+
+Runtime Percentile: 9.060400000000019%
+Memory Percentile: 93.2885%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "53 ms",
+  "memory": 13504000,
+  "display_runtime": "53",
+  "question_id": "740",
+  "elapsed_time": 94,
+  "compare_result": "111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358894815,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 51,
+  "total_testcases": 51,
+  "runtime_percentile": 9.060400000000019,
+  "status_memory": "13.5 MB",
+  "memory_percentile": 93.2885,
+  "pretty_lang": "Python",
+  "submission_id": "1695700866",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

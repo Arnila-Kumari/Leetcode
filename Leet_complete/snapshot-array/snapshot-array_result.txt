@@ -1,0 +1,47 @@
+Problem: snapshot-array
+Submission ID: 1695692101
+Submission Time: 2025-07-12 15:02:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 223 ms
+Memory: 38.84 MB
+
+Test Cases: 76/76 passed
+
+Runtime Percentile: 92.26229999999994%
+Memory Percentile: 94.04769999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "223 ms",
+  "memory": 38836000,
+  "display_runtime": "223",
+  "question_id": "1249",
+  "elapsed_time": 2892,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357736899,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 76,
+  "total_testcases": 76,
+  "runtime_percentile": 92.26229999999994,
+  "status_memory": "38.8 MB",
+  "memory_percentile": 94.04769999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1695692101",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

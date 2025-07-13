@@ -1,0 +1,47 @@
+Problem: split-message-based-on-limit
+Submission ID: 1695682079
+Submission Time: 2025-07-12 14:40:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 103 ms
+Memory: 14.37 MB
+
+Test Cases: 94/94 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 84.6154%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "103 ms",
+  "memory": 14368000,
+  "display_runtime": "103",
+  "question_id": "2563",
+  "elapsed_time": 213,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752356455757,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 94,
+  "total_testcases": 94,
+  "runtime_percentile": 100,
+  "status_memory": "14.4 MB",
+  "memory_percentile": 84.6154,
+  "pretty_lang": "Python",
+  "submission_id": "1695682079",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

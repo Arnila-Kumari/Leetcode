@@ -1,0 +1,47 @@
+Problem: find-largest-value-in-each-tree-row
+Submission ID: 1695741284
+Submission Time: 2025-07-12 17:10:44
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 17.63 MB
+
+Test Cases: 78/78 passed
+
+Runtime Percentile: 26.686200000000007%
+Memory Percentile: 7.6247000000000025%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 17632000,
+  "display_runtime": "7",
+  "question_id": "515",
+  "elapsed_time": 48,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752365442481,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 78,
+  "total_testcases": 78,
+  "runtime_percentile": 26.686200000000007,
+  "status_memory": "17.6 MB",
+  "memory_percentile": 7.6247000000000025,
+  "pretty_lang": "Python",
+  "submission_id": "1695741284",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: maximum-difference-between-increasing-elements
+Submission ID: 1695623696
+Submission Time: 2025-07-12 12:56:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.46 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 45.109100000000005%
+Memory Percentile: 78.67339999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12456000,
+  "display_runtime": "4",
+  "question_id": "2144",
+  "elapsed_time": 34,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752350183821,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 45.109100000000005,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 78.67339999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695623696",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

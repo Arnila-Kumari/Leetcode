@@ -1,0 +1,47 @@
+Problem: image-smoother
+Submission ID: 1695560736
+Submission Time: 2025-07-12 11:37:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 408 ms
+Memory: 13.56 MB
+
+Test Cases: 203/203 passed
+
+Runtime Percentile: 5.662199999999893%
+Memory Percentile: 35.22009999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "408 ms",
+  "memory": 13564000,
+  "display_runtime": "408",
+  "question_id": "661",
+  "elapsed_time": 510,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345424868,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 203,
+  "total_testcases": 203,
+  "runtime_percentile": 5.662199999999893,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 35.22009999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1695560736",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

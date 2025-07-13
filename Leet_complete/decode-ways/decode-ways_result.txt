@@ -1,0 +1,47 @@
+Problem: decode-ways
+Submission ID: 1695692761
+Submission Time: 2025-07-12 15:03:41
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.34 MB
+
+Test Cases: 269/269 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 88.44560000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12344000,
+  "display_runtime": "0",
+  "question_id": "91",
+  "elapsed_time": 36,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357820542,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 269,
+  "total_testcases": 269,
+  "runtime_percentile": 100,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 88.44560000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695692761",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: split-a-string-in-balanced-strings
+Submission ID: 1695690083
+Submission Time: 2025-07-12 14:57:44
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.49 MB
+
+Test Cases: 40/40 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 51.44500000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12492000,
+  "display_runtime": "0",
+  "question_id": "1341",
+  "elapsed_time": 31,
+  "compare_result": "1111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752357463439,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 40,
+  "total_testcases": 40,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 51.44500000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695690083",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: redundant-connection
+Submission ID: 1695710024
+Submission Time: 2025-07-12 15:43:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.74 MB
+
+Test Cases: 39/39 passed
+
+Runtime Percentile: 67.62480000000001%
+Memory Percentile: 47.50380000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12744000,
+  "display_runtime": "3",
+  "question_id": "684",
+  "elapsed_time": 36,
+  "compare_result": "111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752360192873,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 39,
+  "total_testcases": 39,
+  "runtime_percentile": 67.62480000000001,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 47.50380000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695710024",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

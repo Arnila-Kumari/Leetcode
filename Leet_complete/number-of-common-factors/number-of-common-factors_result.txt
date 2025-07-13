@@ -1,0 +1,47 @@
+Problem: number-of-common-factors
+Submission ID: 1695559568
+Submission Time: 2025-07-12 11:35:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.31 MB
+
+Test Cases: 76/76 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 80.9651%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12312000,
+  "display_runtime": "0",
+  "question_id": "2507",
+  "elapsed_time": 36,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752345349170,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 76,
+  "total_testcases": 76,
+  "runtime_percentile": 100,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 80.9651,
+  "pretty_lang": "Python",
+  "submission_id": "1695559568",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

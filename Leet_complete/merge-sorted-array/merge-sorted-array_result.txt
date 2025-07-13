@@ -1,0 +1,47 @@
+Problem: merge-sorted-array
+Submission ID: 1695694503
+Submission Time: 2025-07-12 15:07:16
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.32 MB
+
+Test Cases: 59/59 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 83.3935%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12324000,
+  "display_runtime": "0",
+  "question_id": "88",
+  "elapsed_time": 33,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752358034904,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 59,
+  "total_testcases": 59,
+  "runtime_percentile": 100,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 83.3935,
+  "pretty_lang": "Python",
+  "submission_id": "1695694503",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}
