@@ -1,0 +1,52 @@
+Problem: decode-ways-ii
+Submission ID: 1695451804
+Submission Time: 2025-07-12 22:24:32
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 398 ms
+Memory: 12.86 MB
+
+Test Cases: 213/218 passed
+
+Last Test Case:
+Input: "7*9*3*6*3*0*5*4*9*7*3*7*1*8*3*2*0*0*6*"
+Expected: 196465252
+
+Code Output: 4196465280
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12856000,
+  "display_runtime": "398",
+  "question_id": "639",
+  "elapsed_time": 478,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111011111101111100111111111110111111111111111111",
+  "code_output": "4196465280",
+  "std_output": "",
+  "last_testcase": "\"7*9*3*6*3*0*5*4*9*7*3*7*1*8*3*2*0*0*6*\"",
+  "expected_output": "196465252",
+  "task_finish_time": 1752339265802,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 213,
+  "total_testcases": 218,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695451804",
+  "input_formatted": "\"7*9*3*6*3*0*5*4*9*7*3*7*1*8*3*2*0*0*6*\"",
+  "input": "\"7*9*3*6*3*0*5*4*9*7*3*7*1*8*3*2*0*0*6*\"",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

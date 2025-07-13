@@ -1,0 +1,47 @@
+Problem: destroy-sequential-targets
+Submission ID: 1695469113
+Submission Time: 2025-07-12 22:41:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 153 ms
+Memory: 29.58 MB
+
+Test Cases: 45/45 passed
+
+Runtime Percentile: 11.111200000000018%
+Memory Percentile: 55.5556%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "153 ms",
+  "memory": 29580000,
+  "display_runtime": "153",
+  "question_id": "2548",
+  "elapsed_time": 222,
+  "compare_result": "111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752340273007,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 45,
+  "total_testcases": 45,
+  "runtime_percentile": 11.111200000000018,
+  "status_memory": "29.6 MB",
+  "memory_percentile": 55.5556,
+  "pretty_lang": "Python",
+  "submission_id": "1695469113",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

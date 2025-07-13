@@ -1,0 +1,53 @@
+Problem: can-i-win
+Submission ID: 1695357598
+Submission Time: 2025-07-12 20:44:20
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 1739 ms
+Memory: 67.80 MB
+
+Test Cases: 57/58 passed
+
+Last Test Case:
+Input: 19
+190
+Expected: true
+
+Code Output: false
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 67796000,
+  "display_runtime": "1739",
+  "question_id": "464",
+  "elapsed_time": 1776,
+  "compare_result": "1111111111111111111111111111111111111111111111111111011111",
+  "code_output": "false",
+  "std_output": "",
+  "last_testcase": "19\n190",
+  "expected_output": "true",
+  "task_finish_time": 1752333254634,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 58,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1695357598",
+  "input_formatted": "19, 190",
+  "input": "19\n190",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

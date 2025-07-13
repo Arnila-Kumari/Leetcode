@@ -1,0 +1,47 @@
+Problem: course-schedule-ii
+Submission ID: 1695444779
+Submission Time: 2025-07-12 22:17:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 9 ms
+Memory: 13.53 MB
+
+Test Cases: 46/46 passed
+
+Runtime Percentile: 31.213400000000004%
+Memory Percentile: 54.256400000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "9 ms",
+  "memory": 13528000,
+  "display_runtime": "9",
+  "question_id": "210",
+  "elapsed_time": 46,
+  "compare_result": "1111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752338846586,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 46,
+  "total_testcases": 46,
+  "runtime_percentile": 31.213400000000004,
+  "status_memory": "13.5 MB",
+  "memory_percentile": 54.256400000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695444779",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

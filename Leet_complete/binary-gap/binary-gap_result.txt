@@ -1,0 +1,47 @@
+Problem: binary-gap
+Submission ID: 1695342379
+Submission Time: 2025-07-12 20:26:51
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.49 MB
+
+Test Cases: 261/261 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 50.000099999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12488000,
+  "display_runtime": "0",
+  "question_id": "899",
+  "elapsed_time": 33,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752332206336,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 261,
+  "total_testcases": 261,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 50.000099999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695342379",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

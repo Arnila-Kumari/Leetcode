@@ -1,0 +1,47 @@
+Problem: build-a-matrix-with-conditions
+Submission ID: 1695352144
+Submission Time: 2025-07-12 20:38:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 21 ms
+Memory: 22.46 MB
+
+Test Cases: 53/53 passed
+
+Runtime Percentile: 83.3332%
+Memory Percentile: 2.7778000000000063%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "21 ms",
+  "memory": 22460000,
+  "display_runtime": "21",
+  "question_id": "2472",
+  "elapsed_time": 132,
+  "compare_result": "11111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752332883959,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 53,
+  "total_testcases": 53,
+  "runtime_percentile": 83.3332,
+  "status_memory": "22.5 MB",
+  "memory_percentile": 2.7778000000000063,
+  "pretty_lang": "Python",
+  "submission_id": "1695352144",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

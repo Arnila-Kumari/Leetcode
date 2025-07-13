@@ -1,0 +1,47 @@
+Problem: best-team-with-no-conflicts
+Submission ID: 1695340707
+Submission Time: 2025-07-12 20:24:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 391 ms
+Memory: 12.82 MB
+
+Test Cases: 150/150 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 26.66660000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "391 ms",
+  "memory": 12816000,
+  "display_runtime": "391",
+  "question_id": "1748",
+  "elapsed_time": 427,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752332087975,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 150,
+  "total_testcases": 150,
+  "runtime_percentile": 100,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 26.66660000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1695340707",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

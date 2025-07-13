@@ -1,0 +1,47 @@
+Problem: critical-connections-in-a-network
+Submission ID: 1695448591
+Submission Time: 2025-07-12 22:21:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 355 ms
+Memory: 73.76 MB
+
+Test Cases: 18/18 passed
+
+Runtime Percentile: 90.37069999999997%
+Memory Percentile: 88.889%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "355 ms",
+  "memory": 73760000,
+  "display_runtime": "355",
+  "question_id": "1300",
+  "elapsed_time": 526,
+  "compare_result": "111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752339080062,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 18,
+  "total_testcases": 18,
+  "runtime_percentile": 90.37069999999997,
+  "status_memory": "73.8 MB",
+  "memory_percentile": 88.889,
+  "pretty_lang": "Python",
+  "submission_id": "1695448591",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

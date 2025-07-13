@@ -1,0 +1,47 @@
+Problem: best-time-to-buy-and-sell-stock-with-cooldown
+Submission ID: 1695341632
+Submission Time: 2025-07-12 20:26:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.50 MB
+
+Test Cases: 210/210 passed
+
+Runtime Percentile: 58.36119999999998%
+Memory Percentile: 98.495%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12496000,
+  "display_runtime": "4",
+  "question_id": "309",
+  "elapsed_time": 35,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752332155796,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 210,
+  "total_testcases": 210,
+  "runtime_percentile": 58.36119999999998,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 98.495,
+  "pretty_lang": "Python",
+  "submission_id": "1695341632",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

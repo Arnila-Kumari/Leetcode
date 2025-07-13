@@ -1,0 +1,47 @@
+Problem: difference-between-element-sum-and-digit-sum-of-an-array
+Submission ID: 1695474285
+Submission Time: 2025-07-12 22:46:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 22 ms
+Memory: 12.74 MB
+
+Test Cases: 142/142 passed
+
+Runtime Percentile: 72.99409999999999%
+Memory Percentile: 19.960699999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "22 ms",
+  "memory": 12736000,
+  "display_runtime": "22",
+  "question_id": "2624",
+  "elapsed_time": 110,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752340576806,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 142,
+  "total_testcases": 142,
+  "runtime_percentile": 72.99409999999999,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 19.960699999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1695474285",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

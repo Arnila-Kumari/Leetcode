@@ -1,0 +1,47 @@
+Problem: combination-sum-ii
+Submission ID: 1695381315
+Submission Time: 2025-07-12 21:11:06
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.52 MB
+
+Test Cases: 176/176 passed
+
+Runtime Percentile: 97.2695%
+Memory Percentile: 36.3474%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12516000,
+  "display_runtime": "3",
+  "question_id": "40",
+  "elapsed_time": 40,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752334860498,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 176,
+  "total_testcases": 176,
+  "runtime_percentile": 97.2695,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 36.3474,
+  "pretty_lang": "Python",
+  "submission_id": "1695381315",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

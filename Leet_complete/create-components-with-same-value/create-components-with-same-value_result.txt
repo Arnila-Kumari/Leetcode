@@ -1,0 +1,47 @@
+Problem: create-components-with-same-value
+Submission ID: 1695447366
+Submission Time: 2025-07-12 22:20:12
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 427 ms
+Memory: 21.65 MB
+
+Test Cases: 43/43 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "427 ms",
+  "memory": 21648000,
+  "display_runtime": "427",
+  "question_id": "2531",
+  "elapsed_time": 623,
+  "compare_result": "1111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752339005988,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 43,
+  "total_testcases": 43,
+  "runtime_percentile": 100,
+  "status_memory": "21.6 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695447366",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

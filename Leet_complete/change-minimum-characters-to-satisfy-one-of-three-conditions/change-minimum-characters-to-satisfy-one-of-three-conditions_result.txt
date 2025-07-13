@@ -1,0 +1,47 @@
+Problem: change-minimum-characters-to-satisfy-one-of-three-conditions
+Submission ID: 1695361938
+Submission Time: 2025-07-12 20:49:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 348 ms
+Memory: 12.96 MB
+
+Test Cases: 72/72 passed
+
+Runtime Percentile: 20.0%
+Memory Percentile: 70.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "348 ms",
+  "memory": 12956000,
+  "display_runtime": "348",
+  "question_id": "1859",
+  "elapsed_time": 399,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752333543090,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 72,
+  "total_testcases": 72,
+  "runtime_percentile": 20.0,
+  "status_memory": "13 MB",
+  "memory_percentile": 70.0,
+  "pretty_lang": "Python",
+  "submission_id": "1695361938",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

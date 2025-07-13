@@ -1,0 +1,47 @@
+Problem: construct-string-from-binary-tree
+Submission ID: 1695387328
+Submission Time: 2025-07-12 21:17:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 15.28 MB
+
+Test Cases: 160/160 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 57.4074%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 15284000,
+  "display_runtime": "0",
+  "question_id": "606",
+  "elapsed_time": 52,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752335257521,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 160,
+  "total_testcases": 160,
+  "runtime_percentile": 100,
+  "status_memory": "15.3 MB",
+  "memory_percentile": 57.4074,
+  "pretty_lang": "Python",
+  "submission_id": "1695387328",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

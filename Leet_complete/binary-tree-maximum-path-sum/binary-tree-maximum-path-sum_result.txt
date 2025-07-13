@@ -1,0 +1,47 @@
+Problem: binary-tree-maximum-path-sum
+Submission ID: 1695346106
+Submission Time: 2025-07-12 20:31:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 47 ms
+Memory: 24.46 MB
+
+Test Cases: 96/96 passed
+
+Runtime Percentile: 5.425300000000001%
+Memory Percentile: 99.8957%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "47 ms",
+  "memory": 24464000,
+  "display_runtime": "47",
+  "question_id": "124",
+  "elapsed_time": 111,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752332462841,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 96,
+  "total_testcases": 96,
+  "runtime_percentile": 5.425300000000001,
+  "status_memory": "24.5 MB",
+  "memory_percentile": 99.8957,
+  "pretty_lang": "Python",
+  "submission_id": "1695346106",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

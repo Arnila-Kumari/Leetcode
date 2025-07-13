@@ -1,0 +1,47 @@
+Problem: count-the-hidden-sequences
+Submission ID: 1695431238
+Submission Time: 2025-07-12 22:03:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 169 ms
+Memory: 22.33 MB
+
+Test Cases: 86/86 passed
+
+Runtime Percentile: 42.856500000000004%
+Memory Percentile: 33.3332%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "169 ms",
+  "memory": 22328000,
+  "display_runtime": "169",
+  "question_id": "2249",
+  "elapsed_time": 251,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752338023559,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 86,
+  "total_testcases": 86,
+  "runtime_percentile": 42.856500000000004,
+  "status_memory": "22.3 MB",
+  "memory_percentile": 33.3332,
+  "pretty_lang": "Python",
+  "submission_id": "1695431238",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: dice-roll-simulation
+Submission ID: 1695473849
+Submission Time: 2025-07-12 22:45:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 743 ms
+Memory: 12.51 MB
+
+Test Cases: 32/32 passed
+
+Runtime Percentile: 41.66690000000002%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "743 ms",
+  "memory": 12508000,
+  "display_runtime": "743",
+  "question_id": "1343",
+  "elapsed_time": 785,
+  "compare_result": "11111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752340549917,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 32,
+  "total_testcases": 32,
+  "runtime_percentile": 41.66690000000002,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1695473849",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

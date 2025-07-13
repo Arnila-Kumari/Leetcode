@@ -1,0 +1,47 @@
+Problem: count-partitions-with-even-sum-difference
+Submission ID: 1695420009
+Submission Time: 2025-07-12 21:52:12
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.56 MB
+
+Test Cases: 616/616 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 6.400000000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12564000,
+  "display_runtime": "0",
+  "question_id": "3704",
+  "elapsed_time": 43,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752337325354,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 616,
+  "total_testcases": 616,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 6.400000000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1695420009",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

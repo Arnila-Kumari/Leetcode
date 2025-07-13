@@ -1,0 +1,46 @@
+Problem: construct-quad-tree
+Submission ID: 1695386800
+Submission Time: 2025-07-12 21:17:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 106 ms ms
+Memory: 14.35 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 30.448600000000027%
+Memory Percentile: 93.5897%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "106 ms",
+  "memory": 14352000,
+  "question_id": "772",
+  "elapsed_time": 121,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752335220740,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 30.448600000000027,
+  "status_memory": "14.4 MB",
+  "memory_percentile": 93.5897,
+  "pretty_lang": "Python",
+  "submission_id": "1695386800",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}
