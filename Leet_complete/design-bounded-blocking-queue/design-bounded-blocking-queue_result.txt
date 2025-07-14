@@ -1,0 +1,54 @@
+Problem: design-bounded-blocking-queue
+Submission ID: 1697872427
+Submission Time: 2025-07-14 11:06:17
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: N/A ms
+Memory: 13.89 MB
+
+Test Cases: 14/18 passed
+
+Last Test Case:
+Input: 1
+1
+["BoundedBlockingQueue","dequeue","dequeue","dequeue","enqueue","enqueue","enqueue"]
+[[3],[],[],[],[1],[0],[2]]
+Expected: [1,0,2]
+
+Code Output: [0,1,2]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 13888000,
+  "question_id": "1209",
+  "elapsed_time": 128,
+  "compare_result": "111011111001011111",
+  "code_output": "[0,1,2]",
+  "std_output": "",
+  "last_testcase": "1\n1\n[\"BoundedBlockingQueue\",\"dequeue\",\"dequeue\",\"dequeue\",\"enqueue\",\"enqueue\",\"enqueue\"]\n[[3],[],[],[],[1],[0],[2]]",
+  "expected_output": "[1,0,2]",
+  "task_finish_time": 1752516375311,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 14,
+  "total_testcases": 18,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1697872427",
+  "input_formatted": "1, 1, [\"BoundedBlockingQueue\",\"dequeue\",\"dequeue\",\"dequeue\",\"enqueue\",\"enqueue\",\"enqueue\"], [[3],[],[],[],[1],[0],[2]]",
+  "input": "1\n1\n[\"BoundedBlockingQueue\",\"dequeue\",\"dequeue\",\"dequeue\",\"enqueue\",\"enqueue\",\"enqueue\"]\n[[3],[],[],[],[1],[0],[2]]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

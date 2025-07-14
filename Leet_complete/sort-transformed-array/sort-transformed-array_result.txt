@@ -1,0 +1,47 @@
+Problem: sort-transformed-array
+Submission ID: 1697864653
+Submission Time: 2025-07-14 11:00:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.57 MB
+
+Test Cases: 110/110 passed
+
+Runtime Percentile: 48.9796%
+Memory Percentile: 20.4082%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12572000,
+  "display_runtime": "3",
+  "question_id": "360",
+  "elapsed_time": 36,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516016986,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 110,
+  "total_testcases": 110,
+  "runtime_percentile": 48.9796,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 20.4082,
+  "pretty_lang": "Python",
+  "submission_id": "1697864653",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

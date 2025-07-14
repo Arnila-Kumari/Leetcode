@@ -1,0 +1,46 @@
+Problem: check-if-two-expression-trees-are-equivalent
+Submission ID: 1697880943
+Submission Time: 2025-07-14 11:13:03
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 569 ms ms
+Memory: 17.92 MB
+
+Test Cases: 84/84 passed
+
+Runtime Percentile: 0.0%
+Memory Percentile: 40.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "569 ms",
+  "memory": 17920000,
+  "question_id": "1750",
+  "elapsed_time": 596,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516781051,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 84,
+  "total_testcases": 84,
+  "runtime_percentile": 0.0,
+  "status_memory": "17.9 MB",
+  "memory_percentile": 40.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697880943",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

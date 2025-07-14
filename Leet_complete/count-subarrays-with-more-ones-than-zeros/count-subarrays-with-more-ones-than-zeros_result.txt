@@ -1,0 +1,47 @@
+Problem: count-subarrays-with-more-ones-than-zeros
+Submission ID: 1697892619
+Submission Time: 2025-07-14 11:22:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 140 ms
+Memory: 23.61 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 0.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "140 ms",
+  "memory": 23608000,
+  "display_runtime": "140",
+  "question_id": "510",
+  "elapsed_time": 212,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517345343,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 100,
+  "status_memory": "23.6 MB",
+  "memory_percentile": 0.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697892619",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

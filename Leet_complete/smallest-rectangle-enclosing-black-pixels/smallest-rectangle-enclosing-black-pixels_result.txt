@@ -1,0 +1,47 @@
+Problem: smallest-rectangle-enclosing-black-pixels
+Submission ID: 1697871147
+Submission Time: 2025-07-14 11:05:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 13.68 MB
+
+Test Cases: 111/111 passed
+
+Runtime Percentile: 66.66680000000002%
+Memory Percentile: 91.6667%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 13684000,
+  "display_runtime": "11",
+  "question_id": "302",
+  "elapsed_time": 80,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516316147,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 111,
+  "total_testcases": 111,
+  "runtime_percentile": 66.66680000000002,
+  "status_memory": "13.7 MB",
+  "memory_percentile": 91.6667,
+  "pretty_lang": "Python",
+  "submission_id": "1697871147",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: minimum-cost-to-reach-city-with-discounts
+Submission ID: 1697834400
+Submission Time: 2025-07-14 10:37:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 744 ms
+Memory: 62.84 MB
+
+Test Cases: 79/79 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 50.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "744 ms",
+  "memory": 62836000,
+  "display_runtime": "744",
+  "question_id": "2230",
+  "elapsed_time": 863,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514642729,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 79,
+  "total_testcases": 79,
+  "runtime_percentile": 100,
+  "status_memory": "62.8 MB",
+  "memory_percentile": 50.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697834400",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

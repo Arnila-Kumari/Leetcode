@@ -1,0 +1,47 @@
+Problem: design-in-memory-file-system
+Submission ID: 1697838115
+Submission Time: 2025-07-14 10:40:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1 ms
+Memory: 12.91 MB
+
+Test Cases: 63/63 passed
+
+Runtime Percentile: 88.1481%
+Memory Percentile: 61.4816%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1 ms",
+  "memory": 12908000,
+  "display_runtime": "1",
+  "question_id": "588",
+  "elapsed_time": 87,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514801834,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 63,
+  "total_testcases": 63,
+  "runtime_percentile": 88.1481,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 61.4816,
+  "pretty_lang": "Python",
+  "submission_id": "1697838115",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

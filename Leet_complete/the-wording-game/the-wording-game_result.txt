@@ -1,0 +1,47 @@
+Problem: the-wording-game
+Submission ID: 1697897256
+Submission Time: 2025-07-14 11:26:13
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 109 ms
+Memory: 36.11 MB
+
+Test Cases: 73/73 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "109 ms",
+  "memory": 36112000,
+  "display_runtime": "109",
+  "question_id": "3173",
+  "elapsed_time": 242,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517571661,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 73,
+  "total_testcases": 73,
+  "runtime_percentile": 100,
+  "status_memory": "36.1 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697897256",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

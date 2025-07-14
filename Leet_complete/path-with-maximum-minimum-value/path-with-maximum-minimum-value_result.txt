@@ -1,0 +1,47 @@
+Problem: path-with-maximum-minimum-value
+Submission ID: 1697834562
+Submission Time: 2025-07-14 10:37:32
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 485 ms
+Memory: 22.85 MB
+
+Test Cases: 85/85 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 11.111499999999971%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "485 ms",
+  "memory": 22848000,
+  "display_runtime": "485",
+  "question_id": "1099",
+  "elapsed_time": 586,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514649022,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 85,
+  "total_testcases": 85,
+  "runtime_percentile": 100,
+  "status_memory": "22.8 MB",
+  "memory_percentile": 11.111499999999971,
+  "pretty_lang": "Python",
+  "submission_id": "1697834562",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

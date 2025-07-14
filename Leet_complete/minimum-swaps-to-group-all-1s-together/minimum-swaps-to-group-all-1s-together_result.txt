@@ -1,0 +1,47 @@
+Problem: minimum-swaps-to-group-all-1s-together
+Submission ID: 1697830618
+Submission Time: 2025-07-14 10:34:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 92 ms
+Memory: 14.82 MB
+
+Test Cases: 36/36 passed
+
+Runtime Percentile: 24.242500000000046%
+Memory Percentile: 75.7576%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "92 ms",
+  "memory": 14816000,
+  "display_runtime": "92",
+  "question_id": "1107",
+  "elapsed_time": 165,
+  "compare_result": "111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514474866,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 36,
+  "total_testcases": 36,
+  "runtime_percentile": 24.242500000000046,
+  "status_memory": "14.8 MB",
+  "memory_percentile": 75.7576,
+  "pretty_lang": "Python",
+  "submission_id": "1697830618",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

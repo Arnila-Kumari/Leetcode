@@ -1,0 +1,47 @@
+Problem: find-the-index-of-permutation
+Submission ID: 1697872708
+Submission Time: 2025-07-14 11:06:34
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2171 ms
+Memory: 21.30 MB
+
+Test Cases: 513/513 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2171 ms",
+  "memory": 21296000,
+  "display_runtime": "2171",
+  "question_id": "3417",
+  "elapsed_time": 2315,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516393466,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 513,
+  "total_testcases": 513,
+  "runtime_percentile": 100,
+  "status_memory": "21.3 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697872708",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

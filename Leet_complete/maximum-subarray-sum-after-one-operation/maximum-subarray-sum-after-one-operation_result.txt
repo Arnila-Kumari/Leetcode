@@ -1,0 +1,46 @@
+Problem: maximum-subarray-sum-after-one-operation
+Submission ID: 1697874777
+Submission Time: 2025-07-14 11:08:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 719 ms ms
+Memory: 23.19 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 75.0%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "719 ms",
+  "memory": 23188000,
+  "question_id": "1893",
+  "elapsed_time": 762,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516488878,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 75.0,
+  "status_memory": "23.2 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697874777",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

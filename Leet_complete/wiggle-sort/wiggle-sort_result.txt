@@ -1,0 +1,47 @@
+Problem: wiggle-sort
+Submission ID: 1697883352
+Submission Time: 2025-07-14 11:14:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 2 ms
+Memory: 13.11 MB
+
+Test Cases: 125/125 passed
+
+Runtime Percentile: 95.3846%
+Memory Percentile: 93.8462%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "2 ms",
+  "memory": 13112000,
+  "display_runtime": "2",
+  "question_id": "280",
+  "elapsed_time": 47,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516895424,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 125,
+  "total_testcases": 125,
+  "runtime_percentile": 95.3846,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 93.8462,
+  "pretty_lang": "Python",
+  "submission_id": "1697883352",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

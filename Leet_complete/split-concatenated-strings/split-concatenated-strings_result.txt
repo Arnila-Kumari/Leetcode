@@ -1,0 +1,47 @@
+Problem: split-concatenated-strings
+Submission ID: 1697883084
+Submission Time: 2025-07-14 11:14:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 21 ms
+Memory: 12.61 MB
+
+Test Cases: 50/50 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "21 ms",
+  "memory": 12608000,
+  "display_runtime": "21",
+  "question_id": "555",
+  "elapsed_time": 59,
+  "compare_result": "11111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516882125,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 50,
+  "total_testcases": 50,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697883084",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

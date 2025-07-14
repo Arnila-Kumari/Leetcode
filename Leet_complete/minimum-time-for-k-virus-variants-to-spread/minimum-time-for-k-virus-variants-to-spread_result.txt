@@ -1,0 +1,53 @@
+Problem: minimum-time-for-k-virus-variants-to-spread
+Submission ID: 1697868773
+Submission Time: 2025-07-14 11:03:27
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 106 ms
+Memory: 12.70 MB
+
+Test Cases: 68/70 passed
+
+Last Test Case:
+Input: [[1,1],[1,2],[2,2],[2,1]]
+4
+Expected: 2
+
+Code Output: 1
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12704000,
+  "display_runtime": "106",
+  "question_id": "2073",
+  "elapsed_time": 165,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111100",
+  "code_output": "1",
+  "std_output": "",
+  "last_testcase": "[[1,1],[1,2],[2,2],[2,1]]\n4",
+  "expected_output": "2",
+  "task_finish_time": 1752516204459,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 68,
+  "total_testcases": 70,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1697868773",
+  "input_formatted": "[[1,1],[1,2],[2,2],[2,1]], 4",
+  "input": "[[1,1],[1,2],[2,2],[2,1]]\n4",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

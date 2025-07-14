@@ -1,0 +1,47 @@
+Problem: find-k-length-substrings-with-no-repeated-characters
+Submission ID: 1697890607
+Submission Time: 2025-07-14 11:20:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 12 ms
+Memory: 12.54 MB
+
+Test Cases: 46/46 passed
+
+Runtime Percentile: 85.29400000000001%
+Memory Percentile: 88.2352%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "12 ms",
+  "memory": 12544000,
+  "display_runtime": "12",
+  "question_id": "1084",
+  "elapsed_time": 64,
+  "compare_result": "1111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517247670,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 46,
+  "total_testcases": 46,
+  "runtime_percentile": 85.29400000000001,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 88.2352,
+  "pretty_lang": "Python",
+  "submission_id": "1697890607",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

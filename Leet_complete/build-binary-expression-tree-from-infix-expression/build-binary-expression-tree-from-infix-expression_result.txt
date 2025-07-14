@@ -1,0 +1,46 @@
+Problem: build-binary-expression-tree-from-infix-expression
+Submission ID: 1697882533
+Submission Time: 2025-07-14 11:14:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms ms
+Memory: 12.44 MB
+
+Test Cases: 64/64 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 33.333299999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 12436000,
+  "question_id": "1736",
+  "elapsed_time": 38,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516856259,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 64,
+  "total_testcases": 64,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 33.333299999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1697882533",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

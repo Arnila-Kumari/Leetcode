@@ -1,0 +1,46 @@
+Problem: design-snake-game
+Submission ID: 1697889501
+Submission Time: 2025-07-14 11:19:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 234 ms ms
+Memory: 14.24 MB
+
+Test Cases: 446/446 passed
+
+Runtime Percentile: 18.517300000000002%
+Memory Percentile: 14.814799999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "234 ms",
+  "memory": 14244000,
+  "question_id": "353",
+  "elapsed_time": 273,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517194211,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 446,
+  "total_testcases": 446,
+  "runtime_percentile": 18.517300000000002,
+  "status_memory": "14.2 MB",
+  "memory_percentile": 14.814799999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1697889501",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

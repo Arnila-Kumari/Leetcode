@@ -1,0 +1,47 @@
+Problem: remove-all-ones-with-row-and-column-flips
+Submission ID: 1697885452
+Submission Time: 2025-07-14 11:16:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 13.95 MB
+
+Test Cases: 140/140 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 13952000,
+  "display_runtime": "0",
+  "question_id": "2268",
+  "elapsed_time": 72,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516995925,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 140,
+  "total_testcases": 140,
+  "runtime_percentile": 100,
+  "status_memory": "14 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697885452",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

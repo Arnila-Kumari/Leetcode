@@ -1,0 +1,46 @@
+Problem: convert-binary-search-tree-to-sorted-doubly-linked-list
+Submission ID: 1697872177
+Submission Time: 2025-07-14 11:06:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 27 ms ms
+Memory: 13.44 MB
+
+Test Cases: 50/50 passed
+
+Runtime Percentile: 94.71159999999999%
+Memory Percentile: 77.8845%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "27 ms",
+  "memory": 13440000,
+  "question_id": "758",
+  "elapsed_time": 55,
+  "compare_result": "11111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516363976,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 50,
+  "total_testcases": 50,
+  "runtime_percentile": 94.71159999999999,
+  "status_memory": "13.4 MB",
+  "memory_percentile": 77.8845,
+  "pretty_lang": "Python",
+  "submission_id": "1697872177",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: word-squares
+Submission ID: 1697877165
+Submission Time: 2025-07-14 11:09:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 216 ms
+Memory: 55.65 MB
+
+Test Cases: 17/17 passed
+
+Runtime Percentile: 62.5%
+Memory Percentile: 37.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "216 ms",
+  "memory": 55648000,
+  "display_runtime": "216",
+  "question_id": "425",
+  "elapsed_time": 355,
+  "compare_result": "11111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516598565,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 17,
+  "total_testcases": 17,
+  "runtime_percentile": 62.5,
+  "status_memory": "55.6 MB",
+  "memory_percentile": 37.5,
+  "pretty_lang": "Python",
+  "submission_id": "1697877165",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: count-odd-letters-from-number
+Submission ID: 1697882442
+Submission Time: 2025-07-14 11:14:12
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.50 MB
+
+Test Cases: 513/513 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 37.5%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12500000,
+  "display_runtime": "0",
+  "question_id": "3924",
+  "elapsed_time": 59,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516851550,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 513,
+  "total_testcases": 513,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 37.5,
+  "pretty_lang": "Python",
+  "submission_id": "1697882442",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

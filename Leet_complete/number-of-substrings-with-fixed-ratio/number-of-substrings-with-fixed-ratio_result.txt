@@ -1,0 +1,47 @@
+Problem: number-of-substrings-with-fixed-ratio
+Submission ID: 1697885805
+Submission Time: 2025-07-14 11:16:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 523 ms
+Memory: 25.50 MB
+
+Test Cases: 57/57 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "523 ms",
+  "memory": 25500000,
+  "display_runtime": "523",
+  "question_id": "2629",
+  "elapsed_time": 632,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517012457,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 57,
+  "total_testcases": 57,
+  "runtime_percentile": 100,
+  "status_memory": "25.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697885805",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

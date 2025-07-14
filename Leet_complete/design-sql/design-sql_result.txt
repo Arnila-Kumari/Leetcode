@@ -1,0 +1,50 @@
+Problem: design-sql
+Submission ID: 1697863070
+Submission Time: 2025-07-14 10:59:03
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.53 MB
+
+Test Cases: 0/63 passed
+
+Last Test Case:
+Input: ["SQL","ins","sel","ins","exp","rmv","sel","exp"]
+[[["one","two","three"],[2,3,1]],["two",["first","second","third"]],["two",1,3],["two",["fourth","fifth","sixth"]],["two"],["two",1],["two",2,2],["two"]]
+Expected: [null,true,"third",true,["1,first,second,third","2,fourth,fifth,sixth"],null,"fifth",["2,fourth,fifth,sixth"]]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 53: AttributeError: 'SQL' object has no attribute 'ins'",
+  "full_runtime_error": "AttributeError: 'SQL' object has no attribute 'ins'\n    result = obj.ins(\nLine 53 in __helper_select_method__ (Solution.py)\n    ret.append(__DriverSolution__().__helper_select_method__(method, params[index], obj))\nLine 116 in _driver (Solution.py)\n    _driver()\nLine 124 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12532000,
+  "question_id": "2555",
+  "elapsed_time": 32,
+  "compare_result": "000000000000000000000000000000000000000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[\"SQL\",\"ins\",\"sel\",\"ins\",\"exp\",\"rmv\",\"sel\",\"exp\"]\n[[[\"one\",\"two\",\"three\"],[2,3,1]],[\"two\",[\"first\",\"second\",\"third\"]],[\"two\",1,3],[\"two\",[\"fourth\",\"fifth\",\"sixth\"]],[\"two\"],[\"two\",1],[\"two\",2,2],[\"two\"]]",
+  "expected_output": "[null,true,\"third\",true,[\"1,first,second,third\",\"2,fourth,fifth,sixth\"],null,\"fifth\",[\"2,fourth,fifth,sixth\"]]",
+  "task_finish_time": 1752515942195,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 63,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1697863070",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

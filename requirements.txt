@@ -1,0 +1,7 @@
+# Project dependencies
+selenium>=4.0.0
+webdriver-manager>=3.8.0
+undetected-chromedriver
+setuptools  # Required for undetected-chromedriver with Python 3.13+
+requests
+bs4

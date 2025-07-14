@@ -1,0 +1,47 @@
+Problem: shortest-distance-from-all-buildings
+Submission ID: 1697875262
+Submission Time: 2025-07-14 11:08:34
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4611 ms
+Memory: 12.58 MB
+
+Test Cases: 85/85 passed
+
+Runtime Percentile: 60.0014000000001%
+Memory Percentile: 91.5385%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4611 ms",
+  "memory": 12584000,
+  "display_runtime": "4611",
+  "question_id": "317",
+  "elapsed_time": 4833,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516512695,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 85,
+  "total_testcases": 85,
+  "runtime_percentile": 60.0014000000001,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 91.5385,
+  "pretty_lang": "Python",
+  "submission_id": "1697875262",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

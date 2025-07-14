@@ -1,0 +1,54 @@
+Problem: missing-ranges
+Submission ID: 1697874592
+Submission Time: 2025-07-14 11:07:57
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.53 MB
+
+Test Cases: 3/39 passed
+
+Last Test Case:
+Input: [0,1,3,50,75]
+0
+99
+Expected: [[2,2],[4,49],[51,74],[76,99]]
+
+Code Output: ["2","4->49","51->74","76->99"]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12528000,
+  "display_runtime": "0",
+  "question_id": "163",
+  "elapsed_time": 31,
+  "compare_result": "010000000000001000000000000000000000010",
+  "code_output": "[\"2\",\"4->49\",\"51->74\",\"76->99\"]",
+  "std_output": "",
+  "last_testcase": "[0,1,3,50,75]\n0\n99",
+  "expected_output": "[[2,2],[4,49],[51,74],[76,99]]",
+  "task_finish_time": 1752516476382,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 3,
+  "total_testcases": 39,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1697874592",
+  "input_formatted": "[0,1,3,50,75], 0, 99",
+  "input": "[0,1,3,50,75]\n0\n99",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

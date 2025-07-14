@@ -1,0 +1,47 @@
+Problem: longest-word-with-all-prefixes
+Submission ID: 1697934826
+Submission Time: 2025-07-14 12:02:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 308 ms
+Memory: 42.36 MB
+
+Test Cases: 68/68 passed
+
+Runtime Percentile: 0.0%
+Memory Percentile: 0.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "308 ms",
+  "memory": 42364000,
+  "display_runtime": "308",
+  "question_id": "2009",
+  "elapsed_time": 352,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752519767766,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 68,
+  "total_testcases": 68,
+  "runtime_percentile": 0.0,
+  "status_memory": "42.4 MB",
+  "memory_percentile": 0.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697934826",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

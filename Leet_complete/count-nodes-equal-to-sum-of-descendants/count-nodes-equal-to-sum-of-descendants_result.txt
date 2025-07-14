@@ -1,0 +1,47 @@
+Problem: count-nodes-equal-to-sum-of-descendants
+Submission ID: 1697872540
+Submission Time: 2025-07-14 11:06:24
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 884 ms
+Memory: 112.98 MB
+
+Test Cases: 101/101 passed
+
+Runtime Percentile: 14.285800000000007%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "884 ms",
+  "memory": 112976000,
+  "display_runtime": "884",
+  "question_id": "2126",
+  "elapsed_time": 1731,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516382154,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 101,
+  "total_testcases": 101,
+  "runtime_percentile": 14.285800000000007,
+  "status_memory": "113 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697872540",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

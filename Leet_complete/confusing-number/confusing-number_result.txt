@@ -1,0 +1,47 @@
+Problem: confusing-number
+Submission ID: 1697893207
+Submission Time: 2025-07-14 11:22:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.37 MB
+
+Test Cases: 82/82 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 73.8095%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12368000,
+  "display_runtime": "0",
+  "question_id": "1069",
+  "elapsed_time": 32,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517374516,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 82,
+  "total_testcases": 82,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 73.8095,
+  "pretty_lang": "Python",
+  "submission_id": "1697893207",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

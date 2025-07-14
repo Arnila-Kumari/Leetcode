@@ -1,0 +1,47 @@
+Problem: make-array-non-decreasing-or-non-increasing
+Submission ID: 1697869728
+Submission Time: 2025-07-14 11:04:12
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 44 ms
+Memory: 12.56 MB
+
+Test Cases: 110/110 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 66.66669999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "44 ms",
+  "memory": 12560000,
+  "display_runtime": "44",
+  "question_id": "1419",
+  "elapsed_time": 84,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516249876,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 110,
+  "total_testcases": 110,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 66.66669999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1697869728",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

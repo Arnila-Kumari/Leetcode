@@ -1,0 +1,46 @@
+Problem: inorder-successor-in-bst-ii
+Submission ID: 1697874497
+Submission Time: 2025-07-14 11:07:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 73 ms ms
+Memory: 28.41 MB
+
+Test Cases: 26/26 passed
+
+Runtime Percentile: 9.375%
+Memory Percentile: 81.25%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "73 ms",
+  "memory": 28408000,
+  "question_id": "509",
+  "elapsed_time": 108,
+  "compare_result": "11111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516471931,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 26,
+  "total_testcases": 26,
+  "runtime_percentile": 9.375,
+  "status_memory": "28.4 MB",
+  "memory_percentile": 81.25,
+  "pretty_lang": "Python",
+  "submission_id": "1697874497",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

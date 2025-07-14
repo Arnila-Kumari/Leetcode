@@ -1,0 +1,47 @@
+Problem: range-sum-query-2d-mutable
+Submission ID: 1697874416
+Submission Time: 2025-07-14 11:07:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 130 ms
+Memory: 22.46 MB
+
+Test Cases: 19/19 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 28.571299999999997%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "130 ms",
+  "memory": 22464000,
+  "display_runtime": "130",
+  "question_id": "308",
+  "elapsed_time": 511,
+  "compare_result": "1111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516468313,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 19,
+  "total_testcases": 19,
+  "runtime_percentile": 100,
+  "status_memory": "22.5 MB",
+  "memory_percentile": 28.571299999999997,
+  "pretty_lang": "Python",
+  "submission_id": "1697874416",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

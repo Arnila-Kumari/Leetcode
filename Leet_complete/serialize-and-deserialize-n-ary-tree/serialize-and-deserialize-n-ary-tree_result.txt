@@ -1,0 +1,46 @@
+Problem: serialize-and-deserialize-n-ary-tree
+Submission ID: 1697896164
+Submission Time: 2025-07-14 11:25:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 79 ms ms
+Memory: 18.03 MB
+
+Test Cases: 38/38 passed
+
+Runtime Percentile: 9.523900000000015%
+Memory Percentile: 85.7143%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "79 ms",
+  "memory": 18032000,
+  "question_id": "765",
+  "elapsed_time": 90,
+  "compare_result": "11111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517515955,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 38,
+  "runtime_percentile": 9.523900000000015,
+  "status_memory": "18 MB",
+  "memory_percentile": 85.7143,
+  "pretty_lang": "Python",
+  "submission_id": "1697896164",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

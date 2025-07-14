@@ -1,0 +1,46 @@
+Problem: read-n-characters-given-read4-ii-call-multiple-times
+Submission ID: 1697895564
+Submission Time: 2025-07-14 11:24:47
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 18 ms ms
+Memory: 12.53 MB
+
+Test Cases: 72/72 passed
+
+Runtime Percentile: 52.94099999999999%
+Memory Percentile: 17.647%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "18 ms",
+  "memory": 12532000,
+  "question_id": "158",
+  "elapsed_time": 37,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517486583,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 72,
+  "total_testcases": 72,
+  "runtime_percentile": 52.94099999999999,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 17.647,
+  "pretty_lang": "Python",
+  "submission_id": "1697895564",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

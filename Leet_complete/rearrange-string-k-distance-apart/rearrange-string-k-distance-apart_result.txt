@@ -1,0 +1,47 @@
+Problem: rearrange-string-k-distance-apart
+Submission ID: 1697891285
+Submission Time: 2025-07-14 11:21:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 27 ms
+Memory: 14.00 MB
+
+Test Cases: 64/64 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 53.333400000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "27 ms",
+  "memory": 14004000,
+  "display_runtime": "27",
+  "question_id": "358",
+  "elapsed_time": 60,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517281188,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 64,
+  "total_testcases": 64,
+  "runtime_percentile": 100,
+  "status_memory": "14 MB",
+  "memory_percentile": 53.333400000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1697891285",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

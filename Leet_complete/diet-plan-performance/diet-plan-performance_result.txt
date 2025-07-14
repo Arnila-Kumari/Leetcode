@@ -1,0 +1,47 @@
+Problem: diet-plan-performance
+Submission ID: 1697829375
+Submission Time: 2025-07-14 10:33:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 18 ms
+Memory: 16.56 MB
+
+Test Cases: 27/27 passed
+
+Runtime Percentile: 15.789500000000002%
+Memory Percentile: 81.57889999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "18 ms",
+  "memory": 16556000,
+  "display_runtime": "18",
+  "question_id": "1280",
+  "elapsed_time": 85,
+  "compare_result": "111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514420190,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 27,
+  "total_testcases": 27,
+  "runtime_percentile": 15.789500000000002,
+  "status_memory": "16.6 MB",
+  "memory_percentile": 81.57889999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1697829375",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

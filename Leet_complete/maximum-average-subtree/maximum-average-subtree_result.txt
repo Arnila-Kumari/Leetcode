@@ -1,0 +1,47 @@
+Problem: maximum-average-subtree
+Submission ID: 1697897048
+Submission Time: 2025-07-14 11:26:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 9 ms
+Memory: 18.16 MB
+
+Test Cases: 33/33 passed
+
+Runtime Percentile: 39.130299999999984%
+Memory Percentile: 69.5652%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "9 ms",
+  "memory": 18164000,
+  "display_runtime": "9",
+  "question_id": "1091",
+  "elapsed_time": 77,
+  "compare_result": "111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517561999,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 33,
+  "total_testcases": 33,
+  "runtime_percentile": 39.130299999999984,
+  "status_memory": "18.2 MB",
+  "memory_percentile": 69.5652,
+  "pretty_lang": "Python",
+  "submission_id": "1697897048",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

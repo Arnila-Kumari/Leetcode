@@ -1,0 +1,47 @@
+Problem: output-contest-matches
+Submission ID: 1697892907
+Submission Time: 2025-07-14 11:22:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.61 MB
+
+Test Cases: 12/12 passed
+
+Runtime Percentile: 0.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12612000,
+  "display_runtime": "4",
+  "question_id": "544",
+  "elapsed_time": 44,
+  "compare_result": "111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517359234,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 12,
+  "total_testcases": 12,
+  "runtime_percentile": 0.0,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697892907",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

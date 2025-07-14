@@ -1,0 +1,47 @@
+Problem: pour-water-between-buckets-to-make-water-levels-equal
+Submission ID: 1697866968
+Submission Time: 2025-07-14 11:02:04
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 911 ms
+Memory: 18.10 MB
+
+Test Cases: 83/83 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "911 ms",
+  "memory": 18096000,
+  "display_runtime": "911",
+  "question_id": "2273",
+  "elapsed_time": 969,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516123996,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 83,
+  "total_testcases": 83,
+  "runtime_percentile": 100,
+  "status_memory": "18.1 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697866968",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

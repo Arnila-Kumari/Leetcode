@@ -1,0 +1,47 @@
+Problem: how-many-apples-can-you-put-into-the-basket
+Submission ID: 1697882167
+Submission Time: 2025-07-14 11:13:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.60 MB
+
+Test Cases: 127/127 passed
+
+Runtime Percentile: 97.6471%
+Memory Percentile: 72.94109999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12600000,
+  "display_runtime": "3",
+  "question_id": "1141",
+  "elapsed_time": 47,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516837527,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 127,
+  "total_testcases": 127,
+  "runtime_percentile": 97.6471,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 72.94109999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1697882167",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

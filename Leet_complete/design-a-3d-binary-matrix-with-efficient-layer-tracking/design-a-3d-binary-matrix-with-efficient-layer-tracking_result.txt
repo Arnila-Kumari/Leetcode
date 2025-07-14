@@ -1,0 +1,47 @@
+Problem: design-a-3d-binary-matrix-with-efficient-layer-tracking
+Submission ID: 1697896661
+Submission Time: 2025-07-14 11:25:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1130 ms
+Memory: 45.47 MB
+
+Test Cases: 608/608 passed
+
+Runtime Percentile: 9.99999999891088e-05%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1130 ms",
+  "memory": 45472000,
+  "display_runtime": "1130",
+  "question_id": "3735",
+  "elapsed_time": 6604,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517547291,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 608,
+  "total_testcases": 608,
+  "runtime_percentile": 9.99999999891088e-05,
+  "status_memory": "45.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697896661",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: shortest-way-to-form-string
+Submission ID: 1697866754
+Submission Time: 2025-07-14 11:01:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 13 ms
+Memory: 12.67 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 71.18650000000001%
+Memory Percentile: 5.0846999999999944%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "13 ms",
+  "memory": 12668000,
+  "display_runtime": "13",
+  "question_id": "1051",
+  "elapsed_time": 49,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516113937,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 71.18650000000001,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 5.0846999999999944,
+  "pretty_lang": "Python",
+  "submission_id": "1697866754",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

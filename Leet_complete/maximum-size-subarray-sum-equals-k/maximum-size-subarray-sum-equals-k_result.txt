@@ -1,0 +1,47 @@
+Problem: maximum-size-subarray-sum-equals-k
+Submission ID: 1697825113
+Submission Time: 2025-07-14 10:30:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 237 ms
+Memory: 52.91 MB
+
+Test Cases: 37/37 passed
+
+Runtime Percentile: 39.99920000000003%
+Memory Percentile: 87.6922%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "237 ms",
+  "memory": 52912000,
+  "display_runtime": "237",
+  "question_id": "325",
+  "elapsed_time": 334,
+  "compare_result": "1111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514229475,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 37,
+  "total_testcases": 37,
+  "runtime_percentile": 39.99920000000003,
+  "status_memory": "52.9 MB",
+  "memory_percentile": 87.6922,
+  "pretty_lang": "Python",
+  "submission_id": "1697825113",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

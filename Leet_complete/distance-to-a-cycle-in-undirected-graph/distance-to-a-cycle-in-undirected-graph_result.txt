@@ -1,0 +1,47 @@
+Problem: distance-to-a-cycle-in-undirected-graph
+Submission ID: 1697835491
+Submission Time: 2025-07-14 10:38:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 131 ms
+Memory: 49.92 MB
+
+Test Cases: 84/84 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "131 ms",
+  "memory": 49924000,
+  "display_runtime": "131",
+  "question_id": "1347",
+  "elapsed_time": 278,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514686745,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 84,
+  "total_testcases": 84,
+  "runtime_percentile": 100,
+  "status_memory": "49.9 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697835491",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

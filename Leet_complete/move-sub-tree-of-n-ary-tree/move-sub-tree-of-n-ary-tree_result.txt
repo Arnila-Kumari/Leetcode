@@ -1,0 +1,46 @@
+Problem: move-sub-tree-of-n-ary-tree
+Submission ID: 1697885654
+Submission Time: 2025-07-14 11:16:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 95 ms ms
+Memory: 13.50 MB
+
+Test Cases: 131/131 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "95 ms",
+  "memory": 13500000,
+  "question_id": "1655",
+  "elapsed_time": 157,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517005016,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 131,
+  "total_testcases": 131,
+  "runtime_percentile": 100,
+  "status_memory": "13.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697885654",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

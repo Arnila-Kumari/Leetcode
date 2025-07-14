@@ -1,0 +1,46 @@
+Problem: add-two-polynomials-represented-as-linked-lists
+Submission ID: 1697831341
+Submission Time: 2025-07-14 10:35:12
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 364 ms ms
+Memory: 29.74 MB
+
+Test Cases: 52/52 passed
+
+Runtime Percentile: 0.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "364 ms",
+  "memory": 29744000,
+  "question_id": "1774",
+  "elapsed_time": 414,
+  "compare_result": "1111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514509621,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 52,
+  "total_testcases": 52,
+  "runtime_percentile": 0.0,
+  "status_memory": "29.7 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697831341",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

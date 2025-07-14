@@ -1,0 +1,47 @@
+Problem: two-sum-less-than-k
+Submission ID: 1697826244
+Submission Time: 2025-07-14 10:31:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1 ms
+Memory: 12.50 MB
+
+Test Cases: 125/125 passed
+
+Runtime Percentile: 66.0377%
+Memory Percentile: 18.867999999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1 ms",
+  "memory": 12504000,
+  "display_runtime": "1",
+  "question_id": "1083",
+  "elapsed_time": 50,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514279125,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 125,
+  "total_testcases": 125,
+  "runtime_percentile": 66.0377,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 18.867999999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1697826244",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

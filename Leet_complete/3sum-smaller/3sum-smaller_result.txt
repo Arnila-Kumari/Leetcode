@@ -1,0 +1,47 @@
+Problem: 3sum-smaller
+Submission ID: 1697888462
+Submission Time: 2025-07-14 11:19:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 728 ms
+Memory: 12.37 MB
+
+Test Cases: 316/316 passed
+
+Runtime Percentile: 78.1612%
+Memory Percentile: 96.5517%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "728 ms",
+  "memory": 12368000,
+  "display_runtime": "728",
+  "question_id": "259",
+  "elapsed_time": 785,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517140745,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 316,
+  "total_testcases": 316,
+  "runtime_percentile": 78.1612,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 96.5517,
+  "pretty_lang": "Python",
+  "submission_id": "1697888462",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: cutting-ribbons
+Submission ID: 1697831060
+Submission Time: 2025-07-14 10:34:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 446 ms
+Memory: 20.65 MB
+
+Test Cases: 51/51 passed
+
+Runtime Percentile: 90.24400000000003%
+Memory Percentile: 18.292600000000007%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "446 ms",
+  "memory": 20652000,
+  "display_runtime": "446",
+  "question_id": "2045",
+  "elapsed_time": 522,
+  "compare_result": "111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514495866,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 51,
+  "total_testcases": 51,
+  "runtime_percentile": 90.24400000000003,
+  "status_memory": "20.7 MB",
+  "memory_percentile": 18.292600000000007,
+  "pretty_lang": "Python",
+  "submission_id": "1697831060",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

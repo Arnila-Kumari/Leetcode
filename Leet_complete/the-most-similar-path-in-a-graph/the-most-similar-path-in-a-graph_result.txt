@@ -1,0 +1,47 @@
+Problem: the-most-similar-path-in-a-graph
+Submission ID: 1697830754
+Submission Time: 2025-07-14 10:34:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 668 ms
+Memory: 13.74 MB
+
+Test Cases: 258/258 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "668 ms",
+  "memory": 13736000,
+  "display_runtime": "668",
+  "question_id": "1687",
+  "elapsed_time": 804,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514482308,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 258,
+  "total_testcases": 258,
+  "runtime_percentile": 100,
+  "status_memory": "13.7 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697830754",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

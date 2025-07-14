@@ -1,0 +1,47 @@
+Problem: finding-the-number-of-visible-mountains
+Submission ID: 1697890653
+Submission Time: 2025-07-14 11:20:52
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 290 ms
+Memory: 51.55 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 80.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "290 ms",
+  "memory": 51552000,
+  "display_runtime": "290",
+  "question_id": "2485",
+  "elapsed_time": 512,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517250495,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 80.0,
+  "status_memory": "51.6 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697890653",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

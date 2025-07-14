@@ -1,0 +1,46 @@
+Problem: smallest-common-region
+Submission ID: 1697880459
+Submission Time: 2025-07-14 11:12:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 179 ms ms
+Memory: 18.14 MB
+
+Test Cases: 20/20 passed
+
+Runtime Percentile: 39.13049999999997%
+Memory Percentile: 56.52179999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "179 ms",
+  "memory": 18144000,
+  "question_id": "1190",
+  "elapsed_time": 212,
+  "compare_result": "11111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516758804,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 20,
+  "total_testcases": 20,
+  "runtime_percentile": 39.13049999999997,
+  "status_memory": "18.1 MB",
+  "memory_percentile": 56.52179999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1697880459",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

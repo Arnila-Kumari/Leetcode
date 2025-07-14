@@ -1,0 +1,47 @@
+Problem: perform-string-shifts
+Submission ID: 1697862857
+Submission Time: 2025-07-14 10:58:52
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.35 MB
+
+Test Cases: 43/43 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 78.9474%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12352000,
+  "display_runtime": "0",
+  "question_id": "1345",
+  "elapsed_time": 40,
+  "compare_result": "1111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752515931767,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 43,
+  "total_testcases": 43,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 78.9474,
+  "pretty_lang": "Python",
+  "submission_id": "1697862857",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

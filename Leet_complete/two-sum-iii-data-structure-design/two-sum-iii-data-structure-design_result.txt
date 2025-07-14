@@ -1,0 +1,47 @@
+Problem: two-sum-iii-data-structure-design
+Submission ID: 1697826105
+Submission Time: 2025-07-14 10:31:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 163 ms
+Memory: 16.88 MB
+
+Test Cases: 20/20 passed
+
+Runtime Percentile: 93.4066%
+Memory Percentile: 64.83519999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "163 ms",
+  "memory": 16884000,
+  "display_runtime": "163",
+  "question_id": "170",
+  "elapsed_time": 476,
+  "compare_result": "11111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514273532,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 20,
+  "total_testcases": 20,
+  "runtime_percentile": 93.4066,
+  "status_memory": "16.9 MB",
+  "memory_percentile": 64.83519999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1697826105",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

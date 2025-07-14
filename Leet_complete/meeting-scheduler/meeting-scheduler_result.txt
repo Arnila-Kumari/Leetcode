@@ -1,0 +1,47 @@
+Problem: meeting-scheduler
+Submission ID: 1697826551
+Submission Time: 2025-07-14 10:31:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 18.79 MB
+
+Test Cases: 26/26 passed
+
+Runtime Percentile: 98.9011%
+Memory Percentile: 50.549499999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 18788000,
+  "display_runtime": "4",
+  "question_id": "1165",
+  "elapsed_time": 136,
+  "compare_result": "11111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514293484,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 26,
+  "total_testcases": 26,
+  "runtime_percentile": 98.9011,
+  "status_memory": "18.8 MB",
+  "memory_percentile": 50.549499999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1697826551",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

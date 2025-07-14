@@ -1,0 +1,47 @@
+Problem: bold-words-in-string
+Submission ID: 1697892562
+Submission Time: 2025-07-14 11:22:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 12.58 MB
+
+Test Cases: 72/72 passed
+
+Runtime Percentile: 75.0%
+Memory Percentile: 25.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 12580000,
+  "display_runtime": "15",
+  "question_id": "760",
+  "elapsed_time": 48,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517342243,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 72,
+  "total_testcases": 72,
+  "runtime_percentile": 75.0,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 25.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697892562",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

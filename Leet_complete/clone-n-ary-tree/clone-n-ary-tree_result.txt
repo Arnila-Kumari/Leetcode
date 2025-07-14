@@ -1,0 +1,46 @@
+Problem: clone-n-ary-tree
+Submission ID: 1697897138
+Submission Time: 2025-07-14 11:26:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 103 ms ms
+Memory: 19.11 MB
+
+Test Cases: 38/38 passed
+
+Runtime Percentile: 22.22190000000002%
+Memory Percentile: 83.33330000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "103 ms",
+  "memory": 19108000,
+  "question_id": "1634",
+  "elapsed_time": 125,
+  "compare_result": "11111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517566236,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 38,
+  "runtime_percentile": 22.22190000000002,
+  "status_memory": "19.1 MB",
+  "memory_percentile": 83.33330000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1697897138",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

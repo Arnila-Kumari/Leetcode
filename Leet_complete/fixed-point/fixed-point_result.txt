@@ -1,0 +1,49 @@
+Problem: fixed-point
+Submission ID: 1697873832
+Submission Time: 2025-07-14 11:07:21
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.36 MB
+
+Test Cases: 3/51 passed
+
+Last Test Case:
+Input: [-10]
+Expected: -1
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 17: IndexError: list index out of range",
+  "full_runtime_error": "IndexError: list index out of range\n    return left if A[left] == left else -1\nLine 17 in fixedPoint (Solution.py)\n    ret = Solution().fixedPoint(param_1)\nLine 43 in _driver (Solution.py)\n    _driver()\nLine 57 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12360000,
+  "question_id": "1066",
+  "elapsed_time": 34,
+  "compare_result": "111000000000000000000000000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[-10]",
+  "expected_output": "-1",
+  "task_finish_time": 1752516440609,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 3,
+  "total_testcases": 51,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1697873832",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

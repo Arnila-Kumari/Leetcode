@@ -1,0 +1,47 @@
+Problem: candy-crush
+Submission ID: 1697862436
+Submission Time: 2025-07-14 10:58:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 85 ms
+Memory: 12.63 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 41.30459999999994%
+Memory Percentile: 36.956399999999995%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "85 ms",
+  "memory": 12628000,
+  "display_runtime": "85",
+  "question_id": "723",
+  "elapsed_time": 122,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752515911779,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 41.30459999999994,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 36.956399999999995,
+  "pretty_lang": "Python",
+  "submission_id": "1697862436",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

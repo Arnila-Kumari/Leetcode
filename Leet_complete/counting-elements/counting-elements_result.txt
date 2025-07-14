@@ -1,0 +1,47 @@
+Problem: counting-elements
+Submission ID: 1697897645
+Submission Time: 2025-07-14 11:26:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.42 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 27.165399999999998%
+Memory Percentile: 72.8346%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12416000,
+  "display_runtime": "3",
+  "question_id": "1391",
+  "elapsed_time": 32,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517590567,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 27.165399999999998,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 72.8346,
+  "pretty_lang": "Python",
+  "submission_id": "1697897645",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

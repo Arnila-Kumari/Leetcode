@@ -1,0 +1,47 @@
+Problem: max-consecutive-ones-ii
+Submission ID: 1697871465
+Submission Time: 2025-07-14 11:05:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 13 ms
+Memory: 12.50 MB
+
+Test Cases: 44/44 passed
+
+Runtime Percentile: 99.0385%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "13 ms",
+  "memory": 12496000,
+  "display_runtime": "13",
+  "question_id": "487",
+  "elapsed_time": 61,
+  "compare_result": "11111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516330966,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 44,
+  "total_testcases": 44,
+  "runtime_percentile": 99.0385,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697871465",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

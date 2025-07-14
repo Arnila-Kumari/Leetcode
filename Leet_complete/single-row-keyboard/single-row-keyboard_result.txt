@@ -1,0 +1,47 @@
+Problem: single-row-keyboard
+Submission ID: 1697866661
+Submission Time: 2025-07-14 11:01:51
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.56 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 97.1429%
+Memory Percentile: 65.7143%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12564000,
+  "display_runtime": "7",
+  "question_id": "1123",
+  "elapsed_time": 92,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516109343,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 97.1429,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 65.7143,
+  "pretty_lang": "Python",
+  "submission_id": "1697866661",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

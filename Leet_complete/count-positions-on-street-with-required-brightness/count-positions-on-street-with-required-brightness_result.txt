@@ -1,0 +1,47 @@
+Problem: count-positions-on-street-with-required-brightness
+Submission ID: 1697874028
+Submission Time: 2025-07-14 11:07:32
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 135 ms
+Memory: 38.61 MB
+
+Test Cases: 87/87 passed
+
+Runtime Percentile: 50.0%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "135 ms",
+  "memory": 38608000,
+  "display_runtime": "135",
+  "question_id": "2385",
+  "elapsed_time": 247,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516450315,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 87,
+  "total_testcases": 87,
+  "runtime_percentile": 50.0,
+  "status_memory": "38.6 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697874028",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

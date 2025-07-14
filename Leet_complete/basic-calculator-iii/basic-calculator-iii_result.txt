@@ -1,0 +1,52 @@
+Problem: basic-calculator-iii
+Submission ID: 1697886386
+Submission Time: 2025-07-14 11:17:21
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.66 MB
+
+Test Cases: 77/79 passed
+
+Last Test Case:
+Input: "(0-3)/4"
+Expected: 0
+
+Code Output: -1
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12660000,
+  "display_runtime": "7",
+  "question_id": "785",
+  "elapsed_time": 43,
+  "compare_result": "1111111111111111111111111111111111101111111111111111111111111111111111111111101",
+  "code_output": "-1",
+  "std_output": "",
+  "last_testcase": "\"(0-3)/4\"",
+  "expected_output": "0",
+  "task_finish_time": 1752517040576,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 77,
+  "total_testcases": 79,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1697886386",
+  "input_formatted": "\"(0-3)/4\"",
+  "input": "\"(0-3)/4\"",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: count-univalue-subtrees
+Submission ID: 1697882766
+Submission Time: 2025-07-14 11:14:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.81 MB
+
+Test Cases: 201/201 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 16.39349999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12808000,
+  "display_runtime": "0",
+  "question_id": "250",
+  "elapsed_time": 52,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516867034,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 201,
+  "total_testcases": 201,
+  "runtime_percentile": 100,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 16.39349999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1697882766",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

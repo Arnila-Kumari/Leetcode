@@ -1,0 +1,47 @@
+Problem: maximum-price-to-fill-a-bag
+Submission ID: 1697860788
+Submission Time: 2025-07-14 10:57:18
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 431 ms
+Memory: 50.90 MB
+
+Test Cases: 37/37 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "431 ms",
+  "memory": 50904000,
+  "display_runtime": "431",
+  "question_id": "2693",
+  "elapsed_time": 708,
+  "compare_result": "1111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752515836750,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 37,
+  "total_testcases": 37,
+  "runtime_percentile": 100,
+  "status_memory": "50.9 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697860788",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

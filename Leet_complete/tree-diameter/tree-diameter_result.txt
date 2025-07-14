@@ -1,0 +1,47 @@
+Problem: tree-diameter
+Submission ID: 1697888260
+Submission Time: 2025-07-14 11:18:53
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 34 ms
+Memory: 15.92 MB
+
+Test Cases: 33/33 passed
+
+Runtime Percentile: 43.75%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "34 ms",
+  "memory": 15916000,
+  "display_runtime": "34",
+  "question_id": "1177",
+  "elapsed_time": 80,
+  "compare_result": "111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517129869,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 33,
+  "total_testcases": 33,
+  "runtime_percentile": 43.75,
+  "status_memory": "15.9 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697888260",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

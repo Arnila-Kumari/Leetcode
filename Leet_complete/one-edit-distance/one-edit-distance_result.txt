@@ -1,0 +1,47 @@
+Problem: one-edit-distance
+Submission ID: 1697883765
+Submission Time: 2025-07-14 11:15:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.63 MB
+
+Test Cases: 136/136 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 21.590899999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12628000,
+  "display_runtime": "0",
+  "question_id": "161",
+  "elapsed_time": 41,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516916000,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 136,
+  "total_testcases": 136,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 21.590899999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1697883765",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

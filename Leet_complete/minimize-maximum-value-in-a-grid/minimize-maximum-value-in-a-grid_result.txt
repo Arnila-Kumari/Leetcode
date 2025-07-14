@@ -1,0 +1,47 @@
+Problem: minimize-maximum-value-in-a-grid
+Submission ID: 1697890385
+Submission Time: 2025-07-14 11:20:39
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 259 ms
+Memory: 32.17 MB
+
+Test Cases: 39/39 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "259 ms",
+  "memory": 32168000,
+  "display_runtime": "259",
+  "question_id": "2506",
+  "elapsed_time": 348,
+  "compare_result": "111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517237478,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 39,
+  "total_testcases": 39,
+  "runtime_percentile": 100,
+  "status_memory": "32.2 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697890385",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: find-leaves-of-binary-tree
+Submission ID: 1697837628
+Submission Time: 2025-07-14 10:39:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.42 MB
+
+Test Cases: 68/68 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 67.0732%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12416000,
+  "display_runtime": "0",
+  "question_id": "366",
+  "elapsed_time": 59,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514781865,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 68,
+  "total_testcases": 68,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 67.0732,
+  "pretty_lang": "Python",
+  "submission_id": "1697837628",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

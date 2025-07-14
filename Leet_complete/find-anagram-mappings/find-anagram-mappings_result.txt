@@ -1,0 +1,47 @@
+Problem: find-anagram-mappings
+Submission ID: 1697829237
+Submission Time: 2025-07-14 10:33:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.55 MB
+
+Test Cases: 52/52 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 7.317099999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12548000,
+  "display_runtime": "0",
+  "question_id": "762",
+  "elapsed_time": 35,
+  "compare_result": "1111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514414330,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 52,
+  "total_testcases": 52,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 7.317099999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1697829237",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

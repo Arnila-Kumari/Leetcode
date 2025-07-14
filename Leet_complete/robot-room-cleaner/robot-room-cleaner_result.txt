@@ -1,0 +1,46 @@
+Problem: robot-room-cleaner
+Submission ID: 1697875916
+Submission Time: 2025-07-14 11:09:00
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 47 ms ms
+Memory: 13.35 MB
+
+Test Cases: 29/29 passed
+
+Runtime Percentile: 65.00000000000001%
+Memory Percentile: 80.71430000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "47 ms",
+  "memory": 13352000,
+  "question_id": "865",
+  "elapsed_time": 69,
+  "compare_result": "11111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516538549,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 29,
+  "total_testcases": 29,
+  "runtime_percentile": 65.00000000000001,
+  "status_memory": "13.4 MB",
+  "memory_percentile": 80.71430000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1697875916",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

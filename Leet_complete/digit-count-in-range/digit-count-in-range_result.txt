@@ -1,0 +1,47 @@
+Problem: digit-count-in-range
+Submission ID: 1697895369
+Submission Time: 2025-07-14 11:24:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.56 MB
+
+Test Cases: 132/132 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12560000,
+  "display_runtime": "0",
+  "question_id": "1068",
+  "elapsed_time": 36,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517476885,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 132,
+  "total_testcases": 132,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697895369",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

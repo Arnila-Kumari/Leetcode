@@ -1,0 +1,46 @@
+Problem: read-n-characters-given-read4
+Submission ID: 1697891572
+Submission Time: 2025-07-14 11:21:37
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 19 ms ms
+Memory: 12.57 MB
+
+Test Cases: 46/46 passed
+
+Runtime Percentile: 38.09480000000001%
+Memory Percentile: 16.666600000000003%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "19 ms",
+  "memory": 12572000,
+  "question_id": "157",
+  "elapsed_time": 65,
+  "compare_result": "1111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517294836,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 46,
+  "total_testcases": 46,
+  "runtime_percentile": 38.09480000000001,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 16.666600000000003,
+  "pretty_lang": "Python",
+  "submission_id": "1697891572",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

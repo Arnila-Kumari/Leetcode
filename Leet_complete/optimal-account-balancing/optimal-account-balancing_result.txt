@@ -1,0 +1,47 @@
+Problem: optimal-account-balancing
+Submission ID: 1697869467
+Submission Time: 2025-07-14 11:03:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 12.44 MB
+
+Test Cases: 36/36 passed
+
+Runtime Percentile: 88.88890000000002%
+Memory Percentile: 55.5556%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 12444000,
+  "display_runtime": "15",
+  "question_id": "465",
+  "elapsed_time": 51,
+  "compare_result": "111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516237892,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 36,
+  "total_testcases": 36,
+  "runtime_percentile": 88.88890000000002,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 55.5556,
+  "pretty_lang": "Python",
+  "submission_id": "1697869467",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

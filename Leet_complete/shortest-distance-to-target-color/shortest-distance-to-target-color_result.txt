@@ -1,0 +1,47 @@
+Problem: shortest-distance-to-target-color
+Submission ID: 1697868688
+Submission Time: 2025-07-14 11:03:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 320 ms
+Memory: 31.46 MB
+
+Test Cases: 20/20 passed
+
+Runtime Percentile: 80.0%
+Memory Percentile: 40.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "320 ms",
+  "memory": 31456000,
+  "display_runtime": "320",
+  "question_id": "1134",
+  "elapsed_time": 451,
+  "compare_result": "11111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516200871,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 20,
+  "total_testcases": 20,
+  "runtime_percentile": 80.0,
+  "status_memory": "31.5 MB",
+  "memory_percentile": 40.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697868688",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

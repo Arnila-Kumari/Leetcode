@@ -1,0 +1,47 @@
+Problem: android-unlock-patterns
+Submission ID: 1697863623
+Submission Time: 2025-07-14 10:59:32
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 117 ms
+Memory: 12.51 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 48.0%
+Memory Percentile: 60.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "117 ms",
+  "memory": 12508000,
+  "display_runtime": "117",
+  "question_id": "351",
+  "elapsed_time": 168,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752515970160,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 48.0,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 60.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697863623",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: analyze-user-website-visit-pattern
+Submission ID: 1697889612
+Submission Time: 2025-07-14 11:19:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 23 ms
+Memory: 13.59 MB
+
+Test Cases: 61/61 passed
+
+Runtime Percentile: 14.788599999999992%
+Memory Percentile: 37.3238%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "23 ms",
+  "memory": 13592000,
+  "display_runtime": "23",
+  "question_id": "1108",
+  "elapsed_time": 148,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517198858,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 61,
+  "total_testcases": 61,
+  "runtime_percentile": 14.788599999999992,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 37.3238,
+  "pretty_lang": "Python",
+  "submission_id": "1697889612",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

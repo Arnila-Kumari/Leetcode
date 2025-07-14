@@ -1,0 +1,47 @@
+Problem: next-palindrome-using-same-digits
+Submission ID: 1697879414
+Submission Time: 2025-07-14 11:11:49
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 20 ms
+Memory: 14.42 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "20 ms",
+  "memory": 14420000,
+  "display_runtime": "20",
+  "question_id": "1997",
+  "elapsed_time": 79,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516707414,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 0,
+  "status_memory": "14.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697879414",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

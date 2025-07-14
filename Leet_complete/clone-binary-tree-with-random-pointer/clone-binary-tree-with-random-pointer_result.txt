@@ -1,0 +1,46 @@
+Problem: clone-binary-tree-with-random-pointer
+Submission ID: 1697875686
+Submission Time: 2025-07-14 11:08:51
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 214 ms ms
+Memory: 22.82 MB
+
+Test Cases: 100/100 passed
+
+Runtime Percentile: 6.818099999999994%
+Memory Percentile: 27.27269999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "214 ms",
+  "memory": 22824000,
+  "question_id": "1624",
+  "elapsed_time": 232,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516527520,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 100,
+  "total_testcases": 100,
+  "runtime_percentile": 6.818099999999994,
+  "status_memory": "22.8 MB",
+  "memory_percentile": 27.27269999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1697875686",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

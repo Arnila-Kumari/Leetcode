@@ -1,0 +1,47 @@
+Problem: word-pattern-ii
+Submission ID: 1697887737
+Submission Time: 2025-07-14 11:18:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.52 MB
+
+Test Cases: 20/20 passed
+
+Runtime Percentile: 15.3846%
+Memory Percentile: 15.384700000000006%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 12524000,
+  "display_runtime": "4",
+  "question_id": "291",
+  "elapsed_time": 36,
+  "compare_result": "11111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517104790,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 20,
+  "total_testcases": 20,
+  "runtime_percentile": 15.3846,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 15.384700000000006,
+  "pretty_lang": "Python",
+  "submission_id": "1697887737",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

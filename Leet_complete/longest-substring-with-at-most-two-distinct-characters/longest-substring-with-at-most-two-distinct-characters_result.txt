@@ -1,0 +1,47 @@
+Problem: longest-substring-with-at-most-two-distinct-characters
+Submission ID: 1697830142
+Submission Time: 2025-07-14 10:34:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 274 ms
+Memory: 12.89 MB
+
+Test Cases: 124/124 passed
+
+Runtime Percentile: 57.406600000000104%
+Memory Percentile: 84.7222%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "274 ms",
+  "memory": 12888000,
+  "display_runtime": "274",
+  "question_id": "159",
+  "elapsed_time": 333,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514455092,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 124,
+  "total_testcases": 124,
+  "runtime_percentile": 57.406600000000104,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 84.7222,
+  "pretty_lang": "Python",
+  "submission_id": "1697830142",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

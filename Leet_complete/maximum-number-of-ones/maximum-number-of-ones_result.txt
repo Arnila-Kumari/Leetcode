@@ -1,0 +1,47 @@
+Problem: maximum-number-of-ones
+Submission ID: 1697828676
+Submission Time: 2025-07-14 10:33:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.32 MB
+
+Test Cases: 105/105 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12320000,
+  "display_runtime": "0",
+  "question_id": "1152",
+  "elapsed_time": 38,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514384881,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 105,
+  "total_testcases": 105,
+  "runtime_percentile": 100,
+  "status_memory": "12.3 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697828676",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

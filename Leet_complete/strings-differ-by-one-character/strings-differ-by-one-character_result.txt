@@ -1,0 +1,47 @@
+Problem: strings-differ-by-one-character
+Submission ID: 1697875594
+Submission Time: 2025-07-14 11:08:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 232 ms
+Memory: 16.47 MB
+
+Test Cases: 81/81 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "232 ms",
+  "memory": 16468000,
+  "display_runtime": "232",
+  "question_id": "1697",
+  "elapsed_time": 287,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516523471,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 81,
+  "total_testcases": 81,
+  "runtime_percentile": 100,
+  "status_memory": "16.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697875594",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

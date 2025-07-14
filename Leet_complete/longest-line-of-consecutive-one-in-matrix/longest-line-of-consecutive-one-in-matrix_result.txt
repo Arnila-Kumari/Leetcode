@@ -1,0 +1,47 @@
+Problem: longest-line-of-consecutive-one-in-matrix
+Submission ID: 1697897709
+Submission Time: 2025-07-14 11:26:36
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 126 ms
+Memory: 14.88 MB
+
+Test Cases: 56/56 passed
+
+Runtime Percentile: 50.0%
+Memory Percentile: 80.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "126 ms",
+  "memory": 14876000,
+  "display_runtime": "126",
+  "question_id": "562",
+  "elapsed_time": 248,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517594015,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 56,
+  "total_testcases": 56,
+  "runtime_percentile": 50.0,
+  "status_memory": "14.9 MB",
+  "memory_percentile": 80.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697897709",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

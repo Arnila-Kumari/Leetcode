@@ -1,0 +1,53 @@
+Problem: design-a-file-sharing-system
+Submission ID: 1697898139
+Submission Time: 2025-07-14 11:26:58
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 98 ms
+Memory: 19.31 MB
+
+Test Cases: 14/35 passed
+
+Last Test Case:
+Input: ["FileSharing","join","join","join","request","request","leave","request","leave","join"]
+[[4],[[1,2]],[[2,3]],[[4]],[1,3],[2,2],[1],[2,1],[2],[[]]]
+Expected: [null,1,2,3,[2],[1,2],null,[],null,1]
+
+Code Output: [null,1,2,3,[2],[1,2],null,null,null,1]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 19308000,
+  "display_runtime": "98",
+  "question_id": "1640",
+  "elapsed_time": 940,
+  "compare_result": "00110110100100100100100101001010010",
+  "code_output": "[null,1,2,3,[2],[1,2],null,null,null,1]",
+  "std_output": "",
+  "last_testcase": "[\"FileSharing\",\"join\",\"join\",\"join\",\"request\",\"request\",\"leave\",\"request\",\"leave\",\"join\"]\n[[4],[[1,2]],[[2,3]],[[4]],[1,3],[2,2],[1],[2,1],[2],[[]]]",
+  "expected_output": "[null,1,2,3,[2],[1,2],null,[],null,1]",
+  "task_finish_time": 1752517617661,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 14,
+  "total_testcases": 35,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1697898139",
+  "input_formatted": "[\"FileSharing\",\"join\",\"join\",\"join\",\"request\",\"request\",\"leave\",\"request\",\"leave\",\"join\"], [[4],[[1,2]],[[2,3]],[[4]],[1,3],[2,2],[1],[2,1],[2],[[]]]",
+  "input": "[\"FileSharing\",\"join\",\"join\",\"join\",\"request\",\"request\",\"leave\",\"request\",\"leave\",\"join\"]\n[[4],[[1,2]],[[2,3]],[[4]],[1,3],[2,2],[1],[2,1],[2],[[]]]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

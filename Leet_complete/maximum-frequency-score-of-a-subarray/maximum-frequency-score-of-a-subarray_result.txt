@@ -1,0 +1,47 @@
+Problem: maximum-frequency-score-of-a-subarray
+Submission ID: 1697829162
+Submission Time: 2025-07-14 10:33:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 757 ms
+Memory: 39.44 MB
+
+Test Cases: 66/66 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "757 ms",
+  "memory": 39440000,
+  "display_runtime": "757",
+  "question_id": "2667",
+  "elapsed_time": 867,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514410471,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 66,
+  "total_testcases": 66,
+  "runtime_percentile": 100,
+  "status_memory": "39.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697829162",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

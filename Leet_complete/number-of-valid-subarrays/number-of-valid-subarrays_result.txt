@@ -1,0 +1,47 @@
+Problem: number-of-valid-subarrays
+Submission ID: 1697873967
+Submission Time: 2025-07-14 11:07:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 67 ms
+Memory: 14.49 MB
+
+Test Cases: 40/40 passed
+
+Runtime Percentile: 90.9091%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "67 ms",
+  "memory": 14488000,
+  "display_runtime": "67",
+  "question_id": "1061",
+  "elapsed_time": 116,
+  "compare_result": "1111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516446716,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 40,
+  "total_testcases": 40,
+  "runtime_percentile": 90.9091,
+  "status_memory": "14.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697873967",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

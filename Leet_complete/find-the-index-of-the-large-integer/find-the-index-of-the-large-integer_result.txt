@@ -1,0 +1,46 @@
+Problem: find-the-index-of-the-large-integer
+Submission ID: 1697934894
+Submission Time: 2025-07-14 12:02:54
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1253 ms ms
+Memory: 59.71 MB
+
+Test Cases: 112/112 passed
+
+Runtime Percentile: 62.5%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1253 ms",
+  "memory": 59712000,
+  "question_id": "1672",
+  "elapsed_time": 1331,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752519772336,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 112,
+  "total_testcases": 112,
+  "runtime_percentile": 62.5,
+  "status_memory": "59.7 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697934894",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

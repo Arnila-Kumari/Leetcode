@@ -1,0 +1,47 @@
+Problem: average-height-of-buildings-in-each-segment
+Submission ID: 1697835764
+Submission Time: 2025-07-14 10:38:23
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 288 ms
+Memory: 99.76 MB
+
+Test Cases: 81/81 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "288 ms",
+  "memory": 99764000,
+  "display_runtime": "288",
+  "question_id": "2142",
+  "elapsed_time": 454,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514701241,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 81,
+  "total_testcases": 81,
+  "runtime_percentile": 100,
+  "status_memory": "99.8 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697835764",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

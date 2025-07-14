@@ -1,0 +1,47 @@
+Problem: flip-game-ii
+Submission ID: 1697871095
+Submission Time: 2025-07-14 11:05:14
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.57 MB
+
+Test Cases: 34/34 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 50.00010000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12568000,
+  "display_runtime": "0",
+  "question_id": "294",
+  "elapsed_time": 33,
+  "compare_result": "1111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516313487,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 34,
+  "total_testcases": 34,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 50.00010000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1697871095",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

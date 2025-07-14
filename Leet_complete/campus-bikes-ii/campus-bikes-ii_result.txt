@@ -1,0 +1,47 @@
+Problem: campus-bikes-ii
+Submission ID: 1697863139
+Submission Time: 2025-07-14 10:59:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 332 ms
+Memory: 12.51 MB
+
+Test Cases: 44/44 passed
+
+Runtime Percentile: 39.999699999999976%
+Memory Percentile: 80.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "332 ms",
+  "memory": 12512000,
+  "display_runtime": "332",
+  "question_id": "1067",
+  "elapsed_time": 369,
+  "compare_result": "11111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752515945882,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 44,
+  "total_testcases": 44,
+  "runtime_percentile": 39.999699999999976,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 80.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697863139",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

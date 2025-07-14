@@ -1,0 +1,47 @@
+Problem: design-search-autocomplete-system
+Submission ID: 1697870573
+Submission Time: 2025-07-14 11:04:52
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 283 ms
+Memory: 22.59 MB
+
+Test Cases: 43/43 passed
+
+Runtime Percentile: 72.72640000000013%
+Memory Percentile: 54.545100000000055%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "283 ms",
+  "memory": 22592000,
+  "display_runtime": "283",
+  "question_id": "642",
+  "elapsed_time": 1217,
+  "compare_result": "1111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516290425,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 43,
+  "total_testcases": 43,
+  "runtime_percentile": 72.72640000000013,
+  "status_memory": "22.6 MB",
+  "memory_percentile": 54.545100000000055,
+  "pretty_lang": "Python",
+  "submission_id": "1697870573",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

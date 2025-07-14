@@ -1,0 +1,46 @@
+Problem: diameter-of-n-ary-tree
+Submission ID: 1697864701
+Submission Time: 2025-07-14 11:00:21
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 41 ms ms
+Memory: 15.58 MB
+
+Test Cases: 38/38 passed
+
+Runtime Percentile: 24.657299999999992%
+Memory Percentile: 47.9452%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "41 ms",
+  "memory": 15584000,
+  "question_id": "1665",
+  "elapsed_time": 117,
+  "compare_result": "11111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516019021,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 38,
+  "runtime_percentile": 24.657299999999992,
+  "status_memory": "15.6 MB",
+  "memory_percentile": 47.9452,
+  "pretty_lang": "Python",
+  "submission_id": "1697864701",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

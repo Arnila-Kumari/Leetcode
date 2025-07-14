@@ -1,0 +1,47 @@
+Problem: check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree
+Submission ID: 1697865317
+Submission Time: 2025-07-14 11:00:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 15.79 MB
+
+Test Cases: 63/63 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 0.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 15792000,
+  "display_runtime": "0",
+  "question_id": "1432",
+  "elapsed_time": 99,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516047373,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 63,
+  "total_testcases": 63,
+  "runtime_percentile": 100,
+  "status_memory": "15.8 MB",
+  "memory_percentile": 0.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697865317",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

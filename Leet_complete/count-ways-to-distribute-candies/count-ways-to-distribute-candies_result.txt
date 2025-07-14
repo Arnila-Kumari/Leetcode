@@ -1,0 +1,47 @@
+Problem: count-ways-to-distribute-candies
+Submission ID: 1697874331
+Submission Time: 2025-07-14 11:07:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 944 ms
+Memory: 12.52 MB
+
+Test Cases: 105/105 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "944 ms",
+  "memory": 12520000,
+  "display_runtime": "944",
+  "question_id": "1828",
+  "elapsed_time": 1007,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516464600,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 105,
+  "total_testcases": 105,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697874331",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

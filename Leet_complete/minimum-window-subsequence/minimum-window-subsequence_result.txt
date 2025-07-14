@@ -1,0 +1,47 @@
+Problem: minimum-window-subsequence
+Submission ID: 1697887856
+Submission Time: 2025-07-14 11:18:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 393 ms
+Memory: 20.23 MB
+
+Test Cases: 68/68 passed
+
+Runtime Percentile: 66.66660000000002%
+Memory Percentile: 33.33320000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "393 ms",
+  "memory": 20228000,
+  "display_runtime": "393",
+  "question_id": "727",
+  "elapsed_time": 451,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517111953,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 68,
+  "total_testcases": 68,
+  "runtime_percentile": 66.66660000000002,
+  "status_memory": "20.2 MB",
+  "memory_percentile": 33.33320000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1697887856",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

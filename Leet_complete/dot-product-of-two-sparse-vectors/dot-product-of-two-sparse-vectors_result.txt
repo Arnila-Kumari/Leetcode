@@ -1,0 +1,46 @@
+Problem: dot-product-of-two-sparse-vectors
+Submission ID: 1697884059
+Submission Time: 2025-07-14 11:15:32
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1407 ms ms
+Memory: 15.92 MB
+
+Test Cases: 99/99 passed
+
+Runtime Percentile: 57.11320000000003%
+Memory Percentile: 96.28869999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1407 ms",
+  "memory": 15924000,
+  "question_id": "1713",
+  "elapsed_time": 1548,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516930894,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 99,
+  "total_testcases": 99,
+  "runtime_percentile": 57.11320000000003,
+  "status_memory": "15.9 MB",
+  "memory_percentile": 96.28869999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1697884059",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

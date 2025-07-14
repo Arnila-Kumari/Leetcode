@@ -1,0 +1,47 @@
+Problem: design-most-recently-used-queue
+Submission ID: 1697895720
+Submission Time: 2025-07-14 11:24:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 156 ms
+Memory: 13.59 MB
+
+Test Cases: 95/95 passed
+
+Runtime Percentile: 76.92309999999999%
+Memory Percentile: 53.846199999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "156 ms",
+  "memory": 13592000,
+  "display_runtime": "156",
+  "question_id": "1903",
+  "elapsed_time": 803,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517494675,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 95,
+  "total_testcases": 95,
+  "runtime_percentile": 76.92309999999999,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 53.846199999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1697895720",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

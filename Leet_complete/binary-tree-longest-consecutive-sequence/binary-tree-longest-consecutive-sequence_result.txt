@@ -1,0 +1,47 @@
+Problem: binary-tree-longest-consecutive-sequence
+Submission ID: 1697886294
+Submission Time: 2025-07-14 11:17:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 34 ms
+Memory: 23.52 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 25.31660000000003%
+Memory Percentile: 10.126800000000015%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "34 ms",
+  "memory": 23520000,
+  "display_runtime": "34",
+  "question_id": "298",
+  "elapsed_time": 121,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517036645,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 25.31660000000003,
+  "status_memory": "23.5 MB",
+  "memory_percentile": 10.126800000000015,
+  "pretty_lang": "Python",
+  "submission_id": "1697886294",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

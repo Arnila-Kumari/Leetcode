@@ -1,0 +1,46 @@
+Problem: first-unique-number
+Submission ID: 1697883439
+Submission Time: 2025-07-14 11:15:01
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 874 ms ms
+Memory: 78.04 MB
+
+Test Cases: 21/21 passed
+
+Runtime Percentile: 26.25%
+Memory Percentile: 15.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "874 ms",
+  "memory": 78044000,
+  "question_id": "1366",
+  "elapsed_time": 916,
+  "compare_result": "111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516900054,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 21,
+  "total_testcases": 21,
+  "runtime_percentile": 26.25,
+  "status_memory": "78 MB",
+  "memory_percentile": 15.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697883439",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

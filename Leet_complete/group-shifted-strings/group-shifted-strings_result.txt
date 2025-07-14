@@ -1,0 +1,47 @@
+Problem: group-shifted-strings
+Submission ID: 1697896998
+Submission Time: 2025-07-14 11:25:59
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.39 MB
+
+Test Cases: 26/26 passed
+
+Runtime Percentile: 72.8395%
+Memory Percentile: 92.1811%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12392000,
+  "display_runtime": "3",
+  "question_id": "249",
+  "elapsed_time": 39,
+  "compare_result": "11111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517558791,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 26,
+  "total_testcases": 26,
+  "runtime_percentile": 72.8395,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 92.1811,
+  "pretty_lang": "Python",
+  "submission_id": "1697896998",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

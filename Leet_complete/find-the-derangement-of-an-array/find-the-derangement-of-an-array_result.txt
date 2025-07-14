@@ -1,0 +1,47 @@
+Problem: find-the-derangement-of-an-array
+Submission ID: 1697891364
+Submission Time: 2025-07-14 11:21:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 159 ms
+Memory: 12.39 MB
+
+Test Cases: 69/69 passed
+
+Runtime Percentile: 50.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "159 ms",
+  "memory": 12388000,
+  "display_runtime": "159",
+  "question_id": "634",
+  "elapsed_time": 192,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517284706,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 69,
+  "total_testcases": 69,
+  "runtime_percentile": 50.0,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697891364",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

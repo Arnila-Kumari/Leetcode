@@ -1,0 +1,47 @@
+Problem: flatten-2d-vector
+Submission ID: 1697878751
+Submission Time: 2025-07-14 11:11:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 24 ms
+Memory: 17.79 MB
+
+Test Cases: 18/18 passed
+
+Runtime Percentile: 15.51720000000002%
+Memory Percentile: 18.96560000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "24 ms",
+  "memory": 17788000,
+  "display_runtime": "24",
+  "question_id": "251",
+  "elapsed_time": 173,
+  "compare_result": "111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516674886,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 18,
+  "total_testcases": 18,
+  "runtime_percentile": 15.51720000000002,
+  "status_memory": "17.8 MB",
+  "memory_percentile": 18.96560000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1697878751",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

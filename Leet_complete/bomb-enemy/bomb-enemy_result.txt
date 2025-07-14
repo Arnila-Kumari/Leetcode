@@ -1,0 +1,47 @@
+Problem: bomb-enemy
+Submission ID: 1697861933
+Submission Time: 2025-07-14 10:58:10
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 199 ms
+Memory: 36.08 MB
+
+Test Cases: 40/40 passed
+
+Runtime Percentile: 74.0%
+Memory Percentile: 22.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "199 ms",
+  "memory": 36084000,
+  "display_runtime": "199",
+  "question_id": "361",
+  "elapsed_time": 279,
+  "compare_result": "1111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752515887995,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 40,
+  "total_testcases": 40,
+  "runtime_percentile": 74.0,
+  "status_memory": "36.1 MB",
+  "memory_percentile": 22.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697861933",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

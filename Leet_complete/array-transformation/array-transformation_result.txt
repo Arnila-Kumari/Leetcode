@@ -1,0 +1,46 @@
+Problem: array-transformation
+Submission ID: 1697867178
+Submission Time: 2025-07-14 11:02:13
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 21 ms ms
+Memory: 12.53 MB
+
+Test Cases: 30/30 passed
+
+Runtime Percentile: 35.7141%
+Memory Percentile: 7.142899999999997%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "21 ms",
+  "memory": 12532000,
+  "question_id": "1175",
+  "elapsed_time": 37,
+  "compare_result": "111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516132758,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 30,
+  "total_testcases": 30,
+  "runtime_percentile": 35.7141,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 7.142899999999997,
+  "pretty_lang": "Python",
+  "submission_id": "1697867178",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

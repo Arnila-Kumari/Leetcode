@@ -1,0 +1,47 @@
+Problem: put-boxes-into-the-warehouse-i
+Submission ID: 1697934723
+Submission Time: 2025-07-14 12:02:44
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 64 ms
+Memory: 24.76 MB
+
+Test Cases: 98/98 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "64 ms",
+  "memory": 24756000,
+  "display_runtime": "64",
+  "question_id": "1703",
+  "elapsed_time": 129,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752519760722,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 98,
+  "total_testcases": 98,
+  "runtime_percentile": 100,
+  "status_memory": "24.8 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697934723",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

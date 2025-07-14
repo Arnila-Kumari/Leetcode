@@ -1,0 +1,47 @@
+Problem: find-permutation
+Submission ID: 1697890759
+Submission Time: 2025-07-14 11:20:56
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 14 ms
+Memory: 13.66 MB
+
+Test Cases: 26/26 passed
+
+Runtime Percentile: 76.9231%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "14 ms",
+  "memory": 13660000,
+  "display_runtime": "14",
+  "question_id": "484",
+  "elapsed_time": 63,
+  "compare_result": "11111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517254934,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 26,
+  "total_testcases": 26,
+  "runtime_percentile": 76.9231,
+  "status_memory": "13.7 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697890759",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

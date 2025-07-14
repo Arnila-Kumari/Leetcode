@@ -1,0 +1,47 @@
+Problem: number-of-corner-rectangles
+Submission ID: 1697869593
+Submission Time: 2025-07-14 11:04:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 261 ms
+Memory: 13.48 MB
+
+Test Cases: 94/94 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "261 ms",
+  "memory": 13480000,
+  "display_runtime": "261",
+  "question_id": "751",
+  "elapsed_time": 361,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516243963,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 94,
+  "total_testcases": 94,
+  "runtime_percentile": 100,
+  "status_memory": "13.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697869593",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

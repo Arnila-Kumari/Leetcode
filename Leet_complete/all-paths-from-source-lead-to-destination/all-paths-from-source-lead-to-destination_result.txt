@@ -1,0 +1,47 @@
+Problem: all-paths-from-source-lead-to-destination
+Submission ID: 1697888376
+Submission Time: 2025-07-14 11:18:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 10 ms
+Memory: 16.15 MB
+
+Test Cases: 59/59 passed
+
+Runtime Percentile: 92.3076%
+Memory Percentile: 57.692299999999996%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "10 ms",
+  "memory": 16148000,
+  "display_runtime": "10",
+  "question_id": "511",
+  "elapsed_time": 72,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517135255,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 59,
+  "total_testcases": 59,
+  "runtime_percentile": 92.3076,
+  "status_memory": "16.1 MB",
+  "memory_percentile": 57.692299999999996,
+  "pretty_lang": "Python",
+  "submission_id": "1697888376",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: maximum-average-subarray-ii
+Submission ID: 1697883982
+Submission Time: 2025-07-14 11:15:26
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 227 ms
+Memory: 13.71 MB
+
+Test Cases: 77/77 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 0.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "227 ms",
+  "memory": 13712000,
+  "display_runtime": "227",
+  "question_id": "644",
+  "elapsed_time": 279,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516925487,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 77,
+  "total_testcases": 77,
+  "runtime_percentile": 100,
+  "status_memory": "13.7 MB",
+  "memory_percentile": 0.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697883982",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

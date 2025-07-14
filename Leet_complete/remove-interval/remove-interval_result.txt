@@ -1,0 +1,47 @@
+Problem: remove-interval
+Submission ID: 1697831573
+Submission Time: 2025-07-14 10:35:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 19 ms
+Memory: 18.08 MB
+
+Test Cases: 24/24 passed
+
+Runtime Percentile: 38.461599999999976%
+Memory Percentile: 23.077%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "19 ms",
+  "memory": 18076000,
+  "display_runtime": "19",
+  "question_id": "1200",
+  "elapsed_time": 85,
+  "compare_result": "111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514519992,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 24,
+  "total_testcases": 24,
+  "runtime_percentile": 38.461599999999976,
+  "status_memory": "18.1 MB",
+  "memory_percentile": 23.077,
+  "pretty_lang": "Python",
+  "submission_id": "1697831573",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: stepping-numbers
+Submission ID: 1697828793
+Submission Time: 2025-07-14 10:33:12
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.86 MB
+
+Test Cases: 105/105 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 60.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12856000,
+  "display_runtime": "0",
+  "question_id": "1151",
+  "elapsed_time": 44,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514391262,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 105,
+  "total_testcases": 105,
+  "runtime_percentile": 100,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 60.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697828793",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

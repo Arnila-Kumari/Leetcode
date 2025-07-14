@@ -1,0 +1,47 @@
+Problem: divide-chocolate
+Submission ID: 1697887640
+Submission Time: 2025-07-14 11:18:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 62 ms
+Memory: 13.36 MB
+
+Test Cases: 23/23 passed
+
+Runtime Percentile: 80.0%
+Memory Percentile: 46.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "62 ms",
+  "memory": 13356000,
+  "display_runtime": "62",
+  "question_id": "1192",
+  "elapsed_time": 108,
+  "compare_result": "11111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517099976,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 23,
+  "total_testcases": 23,
+  "runtime_percentile": 80.0,
+  "status_memory": "13.4 MB",
+  "memory_percentile": 46.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697887640",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

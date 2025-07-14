@@ -1,0 +1,46 @@
+Problem: distinct-numbers-in-each-subarray
+Submission ID: 1697836326
+Submission Time: 2025-07-14 10:38:48
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1279 ms ms
+Memory: 32.71 MB
+
+Test Cases: 69/69 passed
+
+Runtime Percentile: 14.285799999999993%
+Memory Percentile: 14.285800000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1279 ms",
+  "memory": 32712000,
+  "question_id": "2003",
+  "elapsed_time": 1315,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514726507,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 69,
+  "total_testcases": 69,
+  "runtime_percentile": 14.285799999999993,
+  "status_memory": "32.7 MB",
+  "memory_percentile": 14.285800000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1697836326",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

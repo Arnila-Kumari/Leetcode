@@ -1,0 +1,46 @@
+Problem: web-crawler-multithreaded
+Submission ID: 1697884237
+Submission Time: 2025-07-14 11:15:40
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 229 ms ms
+Memory: 20.59 MB
+
+Test Cases: 20/20 passed
+
+Runtime Percentile: 58.461300000000044%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "229 ms",
+  "memory": 20588000,
+  "question_id": "1368",
+  "elapsed_time": 1322,
+  "compare_result": "11111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516939026,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 20,
+  "total_testcases": 20,
+  "runtime_percentile": 58.461300000000044,
+  "status_memory": "20.6 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697884237",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

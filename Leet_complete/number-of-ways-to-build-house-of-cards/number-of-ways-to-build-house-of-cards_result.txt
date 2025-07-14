@@ -1,0 +1,47 @@
+Problem: number-of-ways-to-build-house-of-cards
+Submission ID: 1697892055
+Submission Time: 2025-07-14 11:22:00
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 263 ms
+Memory: 12.57 MB
+
+Test Cases: 289/289 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "263 ms",
+  "memory": 12568000,
+  "display_runtime": "263",
+  "question_id": "1385",
+  "elapsed_time": 326,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517317096,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 289,
+  "total_testcases": 289,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697892055",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

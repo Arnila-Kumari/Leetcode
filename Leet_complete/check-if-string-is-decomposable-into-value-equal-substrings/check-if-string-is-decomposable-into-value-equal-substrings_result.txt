@@ -1,0 +1,52 @@
+Problem: check-if-string-is-decomposable-into-value-equal-substrings
+Submission ID: 1697836793
+Submission Time: 2025-07-14 10:39:06
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 4 ms
+Memory: 12.56 MB
+
+Test Cases: 121/122 passed
+
+Last Test Case:
+Input: "21"
+Expected: false
+
+Code Output: true
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12560000,
+  "display_runtime": "4",
+  "question_id": "2070",
+  "elapsed_time": 38,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110111111",
+  "code_output": "true",
+  "std_output": "",
+  "last_testcase": "\"21\"",
+  "expected_output": "false",
+  "task_finish_time": 1752514744731,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 121,
+  "total_testcases": 122,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1697836793",
+  "input_formatted": "\"21\"",
+  "input": "\"21\"",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

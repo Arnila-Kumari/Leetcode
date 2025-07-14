@@ -1,0 +1,47 @@
+Problem: minimum-costs-using-the-train-line
+Submission ID: 1697868894
+Submission Time: 2025-07-14 11:03:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 156 ms
+Memory: 32.48 MB
+
+Test Cases: 54/54 passed
+
+Runtime Percentile: 60.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "156 ms",
+  "memory": 32484000,
+  "display_runtime": "156",
+  "question_id": "2500",
+  "elapsed_time": 547,
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516210579,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 54,
+  "total_testcases": 54,
+  "runtime_percentile": 60.0,
+  "status_memory": "32.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697868894",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

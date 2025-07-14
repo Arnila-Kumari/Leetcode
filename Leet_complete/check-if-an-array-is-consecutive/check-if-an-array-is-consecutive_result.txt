@@ -1,0 +1,47 @@
+Problem: check-if-an-array-is-consecutive
+Submission ID: 1697833691
+Submission Time: 2025-07-14 10:36:53
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 17 ms
+Memory: 26.89 MB
+
+Test Cases: 140/140 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 60.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "17 ms",
+  "memory": 26888000,
+  "display_runtime": "17",
+  "question_id": "1416",
+  "elapsed_time": 93,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514611560,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 140,
+  "total_testcases": 140,
+  "runtime_percentile": 100,
+  "status_memory": "26.9 MB",
+  "memory_percentile": 60.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697833691",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: find-minimum-time-to-finish-all-jobs-ii
+Submission ID: 1697897839
+Submission Time: 2025-07-14 11:26:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 151 ms
+Memory: 24.06 MB
+
+Test Cases: 141/141 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 80.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "151 ms",
+  "memory": 24064000,
+  "display_runtime": "151",
+  "question_id": "2458",
+  "elapsed_time": 219,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517600661,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 141,
+  "total_testcases": 141,
+  "runtime_percentile": 100,
+  "status_memory": "24.1 MB",
+  "memory_percentile": 80.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697897839",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

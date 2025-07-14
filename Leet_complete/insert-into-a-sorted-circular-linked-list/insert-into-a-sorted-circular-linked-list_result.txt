@@ -1,0 +1,46 @@
+Problem: insert-into-a-sorted-circular-linked-list
+Submission ID: 1697893689
+Submission Time: 2025-07-14 11:23:20
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 31 ms ms
+Memory: 13.07 MB
+
+Test Cases: 113/113 passed
+
+Runtime Percentile: 6.250200000000013%
+Memory Percentile: 64.0625%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "31 ms",
+  "memory": 13072000,
+  "question_id": "850",
+  "elapsed_time": 43,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517397326,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 113,
+  "total_testcases": 113,
+  "runtime_percentile": 6.250200000000013,
+  "status_memory": "13.1 MB",
+  "memory_percentile": 64.0625,
+  "pretty_lang": "Python",
+  "submission_id": "1697893689",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

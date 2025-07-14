@@ -1,0 +1,47 @@
+Problem: product-of-two-run-length-encoded-arrays
+Submission ID: 1697838537
+Submission Time: 2025-07-14 10:40:25
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 239 ms
+Memory: 78.37 MB
+
+Test Cases: 52/52 passed
+
+Runtime Percentile: 24.242500000000053%
+Memory Percentile: 36.363699999999994%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "239 ms",
+  "memory": 78368000,
+  "display_runtime": "239",
+  "question_id": "2019",
+  "elapsed_time": 492,
+  "compare_result": "1111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514823666,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 52,
+  "total_testcases": 52,
+  "runtime_percentile": 24.242500000000053,
+  "status_memory": "78.4 MB",
+  "memory_percentile": 36.363699999999994,
+  "pretty_lang": "Python",
+  "submission_id": "1697838537",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

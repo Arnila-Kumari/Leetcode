@@ -1,0 +1,47 @@
+Problem: the-knights-tour
+Submission ID: 1697879321
+Submission Time: 2025-07-14 11:11:45
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 12.48 MB
+
+Test Cases: 46/46 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 83.33330000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 12476000,
+  "display_runtime": "11",
+  "question_id": "2823",
+  "elapsed_time": 47,
+  "compare_result": "1111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516703549,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 46,
+  "total_testcases": 46,
+  "runtime_percentile": 100,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 83.33330000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1697879321",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

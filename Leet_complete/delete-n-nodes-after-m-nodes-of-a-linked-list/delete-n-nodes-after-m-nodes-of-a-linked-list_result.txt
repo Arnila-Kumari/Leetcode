@@ -1,0 +1,47 @@
+Problem: delete-n-nodes-after-m-nodes-of-a-linked-list
+Submission ID: 1697895262
+Submission Time: 2025-07-14 11:24:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 17.00 MB
+
+Test Cases: 48/48 passed
+
+Runtime Percentile: 49.99999999999999%
+Memory Percentile: 19.35479999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 17000000,
+  "display_runtime": "4",
+  "question_id": "1618",
+  "elapsed_time": 64,
+  "compare_result": "111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517470205,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 48,
+  "total_testcases": 48,
+  "runtime_percentile": 49.99999999999999,
+  "status_memory": "17 MB",
+  "memory_percentile": 19.35479999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1697895262",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

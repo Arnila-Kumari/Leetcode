@@ -1,0 +1,47 @@
+Problem: design-video-sharing-platform
+Submission ID: 1697839081
+Submission Time: 2025-07-14 10:40:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 142 ms
+Memory: 61.33 MB
+
+Test Cases: 141/141 passed
+
+Runtime Percentile: 50.0%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "142 ms",
+  "memory": 61332000,
+  "display_runtime": "142",
+  "question_id": "2396",
+  "elapsed_time": 1849,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514848662,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 141,
+  "total_testcases": 141,
+  "runtime_percentile": 50.0,
+  "status_memory": "61.3 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697839081",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

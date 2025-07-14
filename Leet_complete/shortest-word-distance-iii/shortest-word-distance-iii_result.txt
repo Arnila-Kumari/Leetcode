@@ -1,0 +1,47 @@
+Problem: shortest-word-distance-iii
+Submission ID: 1697883908
+Submission Time: 2025-07-14 11:15:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 91 ms
+Memory: 29.24 MB
+
+Test Cases: 47/47 passed
+
+Runtime Percentile: 25.454199999999965%
+Memory Percentile: 52.72720000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "91 ms",
+  "memory": 29240000,
+  "display_runtime": "91",
+  "question_id": "245",
+  "elapsed_time": 202,
+  "compare_result": "11111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516921657,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 47,
+  "total_testcases": 47,
+  "runtime_percentile": 25.454199999999965,
+  "status_memory": "29.2 MB",
+  "memory_percentile": 52.72720000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1697883908",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

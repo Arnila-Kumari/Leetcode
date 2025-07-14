@@ -1,0 +1,47 @@
+Problem: valid-palindrome-iii
+Submission ID: 1697829971
+Submission Time: 2025-07-14 10:34:08
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 194 ms
+Memory: 12.54 MB
+
+Test Cases: 52/52 passed
+
+Runtime Percentile: 78.31359999999995%
+Memory Percentile: 96.3856%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "194 ms",
+  "memory": 12540000,
+  "display_runtime": "194",
+  "question_id": "1178",
+  "elapsed_time": 302,
+  "compare_result": "1111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514446791,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 52,
+  "total_testcases": 52,
+  "runtime_percentile": 78.31359999999995,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 96.3856,
+  "pretty_lang": "Python",
+  "submission_id": "1697829971",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

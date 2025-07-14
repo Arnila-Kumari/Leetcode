@@ -1,0 +1,47 @@
+Problem: the-maze
+Submission ID: 1697893094
+Submission Time: 2025-07-14 11:22:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 40 ms
+Memory: 12.50 MB
+
+Test Cases: 78/78 passed
+
+Runtime Percentile: 45.86459999999999%
+Memory Percentile: 99.2481%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "40 ms",
+  "memory": 12504000,
+  "display_runtime": "40",
+  "question_id": "490",
+  "elapsed_time": 104,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517366757,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 78,
+  "total_testcases": 78,
+  "runtime_percentile": 45.86459999999999,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 99.2481,
+  "pretty_lang": "Python",
+  "submission_id": "1697893094",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

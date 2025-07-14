@@ -1,0 +1,47 @@
+Problem: maximum-total-area-occupied-by-pistons
+Submission ID: 1697873366
+Submission Time: 2025-07-14 11:07:04
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3883 ms
+Memory: 38.54 MB
+
+Test Cases: 536/536 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3883 ms",
+  "memory": 38540000,
+  "display_runtime": "3883",
+  "question_id": "3590",
+  "elapsed_time": 4133,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516423525,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 536,
+  "total_testcases": 536,
+  "runtime_percentile": 100,
+  "status_memory": "38.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697873366",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

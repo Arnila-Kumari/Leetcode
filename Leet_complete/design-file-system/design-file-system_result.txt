@@ -1,0 +1,50 @@
+Problem: design-file-system
+Submission ID: 1697895318
+Submission Time: 2025-07-14 11:24:34
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.37 MB
+
+Test Cases: 0/18 passed
+
+Last Test Case:
+Input: ["FileSystem","createPath","get"]
+[[],["/a",1],["/a"]]
+Expected: [null,true,1]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 45: AttributeError: 'FileSystem' object has no attribute 'createPath'",
+  "full_runtime_error": "AttributeError: 'FileSystem' object has no attribute 'createPath'\n    result = obj.createPath(\nLine 45 in __helper_select_method__ (Solution.py)\n    ctime, ans = __DriverSolution__().__helper_select_method__(method, params[index], obj)\nLine 103 in _driver (Solution.py)\n    _driver()\nLine 115 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12368000,
+  "question_id": "1125",
+  "elapsed_time": 34,
+  "compare_result": "000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[\"FileSystem\",\"createPath\",\"get\"]\n[[],[\"/a\",1],[\"/a\"]]",
+  "expected_output": "[null,true,1]",
+  "task_finish_time": 1752517473958,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 18,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1697895318",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

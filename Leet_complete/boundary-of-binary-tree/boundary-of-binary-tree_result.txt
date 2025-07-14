@@ -1,0 +1,47 @@
+Problem: boundary-of-binary-tree
+Submission ID: 1697874104
+Submission Time: 2025-07-14 11:07:34
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 4 ms
+Memory: 15.36 MB
+
+Test Cases: 116/116 passed
+
+Runtime Percentile: 52.41930000000001%
+Memory Percentile: 50.806400000000004%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "4 ms",
+  "memory": 15364000,
+  "display_runtime": "4",
+  "question_id": "545",
+  "elapsed_time": 53,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516453427,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 116,
+  "total_testcases": 116,
+  "runtime_percentile": 52.41930000000001,
+  "status_memory": "15.4 MB",
+  "memory_percentile": 50.806400000000004,
+  "pretty_lang": "Python",
+  "submission_id": "1697874104",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

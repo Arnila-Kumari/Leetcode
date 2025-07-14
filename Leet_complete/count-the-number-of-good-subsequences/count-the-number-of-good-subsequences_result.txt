@@ -1,0 +1,47 @@
+Problem: count-the-number-of-good-subsequences
+Submission ID: 1697831282
+Submission Time: 2025-07-14 10:35:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 91 ms
+Memory: 13.61 MB
+
+Test Cases: 73/73 passed
+
+Runtime Percentile: 75.0%
+Memory Percentile: 50.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "91 ms",
+  "memory": 13612000,
+  "display_runtime": "91",
+  "question_id": "2683",
+  "elapsed_time": 125,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514506851,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 73,
+  "total_testcases": 73,
+  "runtime_percentile": 75.0,
+  "status_memory": "13.6 MB",
+  "memory_percentile": 50.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697831282",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

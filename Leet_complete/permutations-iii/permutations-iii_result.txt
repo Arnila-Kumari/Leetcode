@@ -1,0 +1,47 @@
+Problem: permutations-iii
+Submission ID: 1697830368
+Submission Time: 2025-07-14 10:34:27
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 111 ms
+Memory: 25.32 MB
+
+Test Cases: 10/10 passed
+
+Runtime Percentile: 62.5%
+Memory Percentile: 50.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "111 ms",
+  "memory": 25316000,
+  "display_runtime": "111",
+  "question_id": "3780",
+  "elapsed_time": 163,
+  "compare_result": "1111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514464793,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 10,
+  "total_testcases": 10,
+  "runtime_percentile": 62.5,
+  "status_memory": "25.3 MB",
+  "memory_percentile": 50.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697830368",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

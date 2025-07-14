@@ -1,0 +1,47 @@
+Problem: number-of-single-divisor-triplets
+Submission ID: 1697825277
+Submission Time: 2025-07-14 10:30:43
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1692 ms
+Memory: 14.76 MB
+
+Test Cases: 108/108 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1692 ms",
+  "memory": 14764000,
+  "display_runtime": "1692",
+  "question_id": "1383",
+  "elapsed_time": 1769,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514238327,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 108,
+  "total_testcases": 108,
+  "runtime_percentile": 100,
+  "status_memory": "14.8 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697825277",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,46 @@
+Problem: web-crawler
+Submission ID: 1697875980
+Submission Time: 2025-07-14 11:09:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 153 ms ms
+Memory: 20.37 MB
+
+Test Cases: 21/21 passed
+
+Runtime Percentile: 92.5925%
+Memory Percentile: 77.7777%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "153 ms",
+  "memory": 20368000,
+  "question_id": "1271",
+  "elapsed_time": 203,
+  "compare_result": "111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516542079,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 21,
+  "total_testcases": 21,
+  "runtime_percentile": 92.5925,
+  "status_memory": "20.4 MB",
+  "memory_percentile": 77.7777,
+  "pretty_lang": "Python",
+  "submission_id": "1697875980",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

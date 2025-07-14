@@ -1,0 +1,47 @@
+Problem: design-compressed-string-iterator
+Submission ID: 1697865707
+Submission Time: 2025-07-14 11:01:05
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 12 ms
+Memory: 12.43 MB
+
+Test Cases: 165/165 passed
+
+Runtime Percentile: 37.49990000000001%
+Memory Percentile: 70.83330000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "12 ms",
+  "memory": 12428000,
+  "display_runtime": "12",
+  "question_id": "604",
+  "elapsed_time": 81,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516065190,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 165,
+  "total_testcases": 165,
+  "runtime_percentile": 37.49990000000001,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 70.83330000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1697865707",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

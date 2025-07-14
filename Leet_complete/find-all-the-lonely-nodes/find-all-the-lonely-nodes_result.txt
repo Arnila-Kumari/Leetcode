@@ -1,0 +1,47 @@
+Problem: find-all-the-lonely-nodes
+Submission ID: 1697862159
+Submission Time: 2025-07-14 10:58:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 12.90 MB
+
+Test Cases: 69/69 passed
+
+Runtime Percentile: 80.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 12896000,
+  "display_runtime": "3",
+  "question_id": "1609",
+  "elapsed_time": 60,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752515898890,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 69,
+  "total_testcases": 69,
+  "runtime_percentile": 80.0,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697862159",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

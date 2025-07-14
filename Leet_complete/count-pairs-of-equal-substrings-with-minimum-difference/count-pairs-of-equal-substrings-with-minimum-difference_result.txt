@@ -1,0 +1,47 @@
+Problem: count-pairs-of-equal-substrings-with-minimum-difference
+Submission ID: 1697890307
+Submission Time: 2025-07-14 11:20:33
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 155 ms
+Memory: 14.13 MB
+
+Test Cases: 96/96 passed
+
+Runtime Percentile: 0.0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "155 ms",
+  "memory": 14132000,
+  "display_runtime": "155",
+  "question_id": "1943",
+  "elapsed_time": 215,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517232382,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 96,
+  "total_testcases": 96,
+  "runtime_percentile": 0.0,
+  "status_memory": "14.1 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697890307",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: beautiful-pairs
+Submission ID: 1697878843
+Submission Time: 2025-07-14 11:11:19
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 139 ms
+Memory: 31.72 MB
+
+Test Cases: 105/105 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "139 ms",
+  "memory": 31716000,
+  "display_runtime": "139",
+  "question_id": "2719",
+  "elapsed_time": 193,
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516678853,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 105,
+  "total_testcases": 105,
+  "runtime_percentile": 100,
+  "status_memory": "31.7 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697878843",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

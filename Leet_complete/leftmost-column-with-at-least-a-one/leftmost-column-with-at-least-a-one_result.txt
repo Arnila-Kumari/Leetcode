@@ -1,0 +1,46 @@
+Problem: leftmost-column-with-at-least-a-one
+Submission ID: 1697868448
+Submission Time: 2025-07-14 11:03:13
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 80 ms ms
+Memory: 12.80 MB
+
+Test Cases: 37/37 passed
+
+Runtime Percentile: 43.90260000000005%
+Memory Percentile: 34.1464%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "80 ms",
+  "memory": 12796000,
+  "question_id": "1374",
+  "elapsed_time": 97,
+  "compare_result": "1111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516190292,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 37,
+  "total_testcases": 37,
+  "runtime_percentile": 43.90260000000005,
+  "status_memory": "12.8 MB",
+  "memory_percentile": 34.1464,
+  "pretty_lang": "Python",
+  "submission_id": "1697868448",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

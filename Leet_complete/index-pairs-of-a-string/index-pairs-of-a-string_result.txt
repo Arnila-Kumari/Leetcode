@@ -1,0 +1,47 @@
+Problem: index-pairs-of-a-string
+Submission ID: 1697838260
+Submission Time: 2025-07-14 10:40:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 13.73 MB
+
+Test Cases: 58/58 passed
+
+Runtime Percentile: 23.076999999999995%
+Memory Percentile: 0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 13728000,
+  "display_runtime": "15",
+  "question_id": "1075",
+  "elapsed_time": 48,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514809299,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 58,
+  "total_testcases": 58,
+  "runtime_percentile": 23.076999999999995,
+  "status_memory": "13.7 MB",
+  "memory_percentile": 0,
+  "pretty_lang": "Python",
+  "submission_id": "1697838260",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

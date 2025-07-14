@@ -1,0 +1,47 @@
+Problem: minimize-max-distance-to-gas-station
+Submission ID: 1697869013
+Submission Time: 2025-07-14 11:03:38
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 559 ms
+Memory: 12.71 MB
+
+Test Cases: 61/61 passed
+
+Runtime Percentile: 11.111200000000018%
+Memory Percentile: 22.22230000000002%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "559 ms",
+  "memory": 12708000,
+  "display_runtime": "559",
+  "question_id": "788",
+  "elapsed_time": 648,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516216321,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 61,
+  "total_testcases": 61,
+  "runtime_percentile": 11.111200000000018,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 22.22230000000002,
+  "pretty_lang": "Python",
+  "submission_id": "1697869013",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: strobogrammatic-number-iii
+Submission ID: 1697864278
+Submission Time: 2025-07-14 11:00:00
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.38 MB
+
+Test Cases: 15/15 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12380000,
+  "display_runtime": "0",
+  "question_id": "248",
+  "elapsed_time": 34,
+  "compare_result": "111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752515999666,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 15,
+  "total_testcases": 15,
+  "runtime_percentile": 100,
+  "status_memory": "12.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697864278",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

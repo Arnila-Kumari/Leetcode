@@ -1,0 +1,47 @@
+Problem: unique-word-abbreviation
+Submission ID: 1697827809
+Submission Time: 2025-07-14 10:32:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 63 ms
+Memory: 26.68 MB
+
+Test Cases: 50/50 passed
+
+Runtime Percentile: 47.058399999999985%
+Memory Percentile: 23.52909999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "63 ms",
+  "memory": 26684000,
+  "display_runtime": "63",
+  "question_id": "288",
+  "elapsed_time": 182,
+  "compare_result": "11111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514347094,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 50,
+  "total_testcases": 50,
+  "runtime_percentile": 47.058399999999985,
+  "status_memory": "26.7 MB",
+  "memory_percentile": 23.52909999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1697827809",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

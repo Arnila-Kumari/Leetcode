@@ -1,0 +1,47 @@
+Problem: minimum-cost-to-connect-sticks
+Submission ID: 1697870204
+Submission Time: 2025-07-14 11:04:34
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 487 ms
+Memory: 13.04 MB
+
+Test Cases: 29/29 passed
+
+Runtime Percentile: 6.25%
+Memory Percentile: 71.25%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "487 ms",
+  "memory": 13044000,
+  "display_runtime": "487",
+  "question_id": "1126",
+  "elapsed_time": 561,
+  "compare_result": "11111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516273165,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 29,
+  "total_testcases": 29,
+  "runtime_percentile": 6.25,
+  "status_memory": "13 MB",
+  "memory_percentile": 71.25,
+  "pretty_lang": "Python",
+  "submission_id": "1697870204",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

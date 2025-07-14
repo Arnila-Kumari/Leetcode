@@ -1,0 +1,52 @@
+Problem: game-of-nim
+Submission ID: 1697827657
+Submission Time: 2025-07-14 10:32:22
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.40 MB
+
+Test Cases: 0/64 passed
+
+Last Test Case:
+Input: [1]
+Expected: true
+
+Code Output: 1
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12400000,
+  "display_runtime": "0",
+  "question_id": "2062",
+  "elapsed_time": 36,
+  "compare_result": "0000000000000000000000000000000000000000000000000000000000000000",
+  "code_output": "1",
+  "std_output": "",
+  "last_testcase": "[1]",
+  "expected_output": "true",
+  "task_finish_time": 1752514340829,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 64,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1697827657",
+  "input_formatted": "[1]",
+  "input": "[1]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

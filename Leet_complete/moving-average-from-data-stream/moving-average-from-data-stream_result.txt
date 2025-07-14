@@ -1,0 +1,47 @@
+Problem: moving-average-from-data-stream
+Submission ID: 1697825724
+Submission Time: 2025-07-14 10:30:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 8 ms
+Memory: 15.76 MB
+
+Test Cases: 11/11 passed
+
+Runtime Percentile: 77.98519999999998%
+Memory Percentile: 17.91040000000001%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "8 ms",
+  "memory": 15756000,
+  "display_runtime": "8",
+  "question_id": "346",
+  "elapsed_time": 141,
+  "compare_result": "11111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514255532,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 11,
+  "total_testcases": 11,
+  "runtime_percentile": 77.98519999999998,
+  "status_memory": "15.8 MB",
+  "memory_percentile": 17.91040000000001,
+  "pretty_lang": "Python",
+  "submission_id": "1697825724",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

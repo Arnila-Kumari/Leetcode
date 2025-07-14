@@ -1,0 +1,47 @@
+Problem: palindrome-permutation-ii
+Submission ID: 1697877825
+Submission Time: 2025-07-14 11:10:31
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 83 ms
+Memory: 20.72 MB
+
+Test Cases: 26/26 passed
+
+Runtime Percentile: 52.174099999999946%
+Memory Percentile: 43.47829999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "83 ms",
+  "memory": 20720000,
+  "display_runtime": "83",
+  "question_id": "267",
+  "elapsed_time": 124,
+  "compare_result": "11111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516629225,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 26,
+  "total_testcases": 26,
+  "runtime_percentile": 52.174099999999946,
+  "status_memory": "20.7 MB",
+  "memory_percentile": 43.47829999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1697877825",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

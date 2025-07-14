@@ -1,0 +1,47 @@
+Problem: reverse-words-in-a-string-ii
+Submission ID: 1697877426
+Submission Time: 2025-07-14 11:10:11
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 18 ms
+Memory: 19.00 MB
+
+Test Cases: 17/17 passed
+
+Runtime Percentile: 16.901100000000014%
+Memory Percentile: 80.28139999999998%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "18 ms",
+  "memory": 19000000,
+  "display_runtime": "18",
+  "question_id": "186",
+  "elapsed_time": 80,
+  "compare_result": "11111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516609909,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 17,
+  "total_testcases": 17,
+  "runtime_percentile": 16.901100000000014,
+  "status_memory": "19 MB",
+  "memory_percentile": 80.28139999999998,
+  "pretty_lang": "Python",
+  "submission_id": "1697877426",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

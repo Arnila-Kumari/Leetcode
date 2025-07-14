@@ -1,0 +1,50 @@
+Problem: design-tic-tac-toe
+Submission ID: 1697896390
+Submission Time: 2025-07-14 11:25:27
+============================================================
+
+State: SUCCESS
+Status: Runtime Error
+Language: Python
+
+Runtime: N/A ms
+Memory: 12.46 MB
+
+Test Cases: 0/33 passed
+
+Last Test Case:
+Input: ["TicTacToe","move","move","move","move","move","move","move"]
+[[3],[0,0,1],[0,2,2],[2,2,1],[1,1,2],[2,0,1],[1,0,2],[2,1,1]]
+Expected: [null,0,0,0,0,0,0,1]
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 15,
+  "lang": "python",
+  "run_success": false,
+  "runtime_error": "Line 43: TypeError: any() takes exactly one argument (4 given)",
+  "full_runtime_error": "TypeError: any() takes exactly one argument (4 given)\n    self.__anti_diagonal[i] == self.__size):\nLine 43 in move (Solution.py)\n    __Deserializer__()._deserialize(json.dumps(p[2], escape_forward_slashes=False), \"integer\"))\nLine 61 in __helper_select_method__ (Solution.py)\n    ret.append(__DriverSolution__().__helper_select_method__(method, params[index], obj))\nLine 98 in _driver (Solution.py)\n    _driver()\nLine 106 in <module> (Solution.py)",
+  "status_runtime": "N/A",
+  "memory": 12456000,
+  "question_id": "348",
+  "elapsed_time": 33,
+  "compare_result": "000000000000000000000000000000000",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "[\"TicTacToe\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\"]\n[[3],[0,0,1],[0,2,2],[2,2,1],[1,1,2],[2,0,1],[1,0,2],[2,1,1]]",
+  "expected_output": "[null,0,0,0,0,0,0,1]",
+  "task_finish_time": 1752517526589,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 0,
+  "total_testcases": 33,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1697896390",
+  "status_msg": "Runtime Error",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: minimum-relative-loss-after-buying-chocolates
+Submission ID: 1697832355
+Submission Time: 2025-07-14 10:35:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 822 ms
+Memory: 55.38 MB
+
+Test Cases: 15/15 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "822 ms",
+  "memory": 55380000,
+  "display_runtime": "822",
+  "question_id": "3077",
+  "elapsed_time": 1089,
+  "compare_result": "111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514556655,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 15,
+  "total_testcases": 15,
+  "runtime_percentile": 100,
+  "status_memory": "55.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697832355",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: synonymous-sentences
+Submission ID: 1697887587
+Submission Time: 2025-07-14 11:18:17
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.59 MB
+
+Test Cases: 38/38 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 22.222200000000015%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "0 ms",
+  "memory": 12588000,
+  "display_runtime": "0",
+  "question_id": "1191",
+  "elapsed_time": 45,
+  "compare_result": "11111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517096945,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 38,
+  "runtime_percentile": 100,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 22.222200000000015,
+  "pretty_lang": "Python",
+  "submission_id": "1697887587",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

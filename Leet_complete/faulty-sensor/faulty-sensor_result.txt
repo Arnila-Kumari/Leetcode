@@ -1,0 +1,53 @@
+Problem: faulty-sensor
+Submission ID: 1697893330
+Submission Time: 2025-07-14 11:23:00
+============================================================
+
+State: SUCCESS
+Status: Wrong Answer
+Language: Python
+
+Runtime: 0 ms
+Memory: 12.37 MB
+
+Test Cases: 96/98 passed
+
+Last Test Case:
+Input: [1,2,3,2,3,2]
+[1,2,3,3,2,3]
+Expected: -1
+
+Code Output: 1
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 11,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "N/A",
+  "memory": 12368000,
+  "display_runtime": "0",
+  "question_id": "1980",
+  "elapsed_time": 48,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111001111111",
+  "code_output": "1",
+  "std_output": "",
+  "last_testcase": "[1,2,3,2,3,2]\n[1,2,3,3,2,3]",
+  "expected_output": "-1",
+  "task_finish_time": 1752517379999,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 96,
+  "total_testcases": 98,
+  "runtime_percentile": null,
+  "status_memory": "N/A",
+  "memory_percentile": null,
+  "pretty_lang": "Python",
+  "submission_id": "1697893330",
+  "input_formatted": "[1,2,3,2,3,2], [1,2,3,3,2,3]",
+  "input": "[1,2,3,2,3,2]\n[1,2,3,3,2,3]",
+  "status_msg": "Wrong Answer",
+  "state": "SUCCESS"
+}

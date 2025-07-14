@@ -1,0 +1,46 @@
+Problem: traffic-light-controlled-intersection
+Submission ID: 1697895809
+Submission Time: 2025-07-14 11:25:02
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 33 ms ms
+Memory: 13.86 MB
+
+Test Cases: 14/14 passed
+
+Runtime Percentile: 83.33340000000001%
+Memory Percentile: 75.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "33 ms",
+  "memory": 13860000,
+  "question_id": "1410",
+  "elapsed_time": 2222,
+  "compare_result": "11111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517500446,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 14,
+  "total_testcases": 14,
+  "runtime_percentile": 83.33340000000001,
+  "status_memory": "13.9 MB",
+  "memory_percentile": 75.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697895809",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

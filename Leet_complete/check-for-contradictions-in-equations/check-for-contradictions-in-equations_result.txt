@@ -1,0 +1,47 @@
+Problem: check-for-contradictions-in-equations
+Submission ID: 1697838333
+Submission Time: 2025-07-14 10:40:15
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 9 ms
+Memory: 12.51 MB
+
+Test Cases: 68/68 passed
+
+Runtime Percentile: 0%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "9 ms",
+  "memory": 12508000,
+  "display_runtime": "9",
+  "question_id": "2065",
+  "elapsed_time": 90,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514813013,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 68,
+  "total_testcases": 68,
+  "runtime_percentile": 0,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697838333",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

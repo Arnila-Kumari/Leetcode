@@ -1,0 +1,47 @@
+Problem: largest-subarray-length-k
+Submission ID: 1697838454
+Submission Time: 2025-07-14 10:40:20
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 49 ms
+Memory: 21.33 MB
+
+Test Cases: 92/92 passed
+
+Runtime Percentile: 50.0%
+Memory Percentile: 50.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "49 ms",
+  "memory": 21332000,
+  "display_runtime": "49",
+  "question_id": "1847",
+  "elapsed_time": 147,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514818915,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 92,
+  "total_testcases": 92,
+  "runtime_percentile": 50.0,
+  "status_memory": "21.3 MB",
+  "memory_percentile": 50.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697838454",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

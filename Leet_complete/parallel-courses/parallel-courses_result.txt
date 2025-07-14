@@ -1,0 +1,47 @@
+Problem: parallel-courses
+Submission ID: 1697837268
+Submission Time: 2025-07-14 10:39:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 18 ms
+Memory: 14.47 MB
+
+Test Cases: 42/42 passed
+
+Runtime Percentile: 60.9375%
+Memory Percentile: 73.4375%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "18 ms",
+  "memory": 14468000,
+  "display_runtime": "18",
+  "question_id": "1101",
+  "elapsed_time": 83,
+  "compare_result": "111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514765971,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 42,
+  "total_testcases": 42,
+  "runtime_percentile": 60.9375,
+  "status_memory": "14.5 MB",
+  "memory_percentile": 73.4375,
+  "pretty_lang": "Python",
+  "submission_id": "1697837268",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

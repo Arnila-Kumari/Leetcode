@@ -1,0 +1,46 @@
+Problem: number-of-ships-in-a-rectangle
+Submission ID: 1697878936
+Submission Time: 2025-07-14 11:11:23
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 36 ms ms
+Memory: 12.53 MB
+
+Test Cases: 59/59 passed
+
+Runtime Percentile: 0.0%
+Memory Percentile: 0.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "36 ms",
+  "memory": 12528000,
+  "question_id": "1233",
+  "elapsed_time": 44,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516683156,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 59,
+  "total_testcases": 59,
+  "runtime_percentile": 0.0,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 0.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697878936",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

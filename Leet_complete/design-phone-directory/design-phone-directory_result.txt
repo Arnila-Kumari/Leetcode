@@ -1,0 +1,47 @@
+Problem: design-phone-directory
+Submission ID: 1697886880
+Submission Time: 2025-07-14 11:17:46
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 18 ms
+Memory: 16.60 MB
+
+Test Cases: 18/18 passed
+
+Runtime Percentile: 40.00029999999998%
+Memory Percentile: 2.857099999999992%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "18 ms",
+  "memory": 16604000,
+  "display_runtime": "18",
+  "question_id": "379",
+  "elapsed_time": 291,
+  "compare_result": "111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517064721,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 18,
+  "total_testcases": 18,
+  "runtime_percentile": 40.00029999999998,
+  "status_memory": "16.6 MB",
+  "memory_percentile": 2.857099999999992,
+  "pretty_lang": "Python",
+  "submission_id": "1697886880",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

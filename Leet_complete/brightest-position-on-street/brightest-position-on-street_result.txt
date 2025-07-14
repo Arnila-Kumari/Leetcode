@@ -1,0 +1,47 @@
+Problem: brightest-position-on-street
+Submission ID: 1697886066
+Submission Time: 2025-07-14 11:17:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 629 ms
+Memory: 73.29 MB
+
+Test Cases: 74/74 passed
+
+Runtime Percentile: 33.333099999999995%
+Memory Percentile: 6.666399999999974%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "629 ms",
+  "memory": 73292000,
+  "display_runtime": "629",
+  "question_id": "2075",
+  "elapsed_time": 773,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517025305,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 74,
+  "total_testcases": 74,
+  "runtime_percentile": 33.333099999999995,
+  "status_memory": "73.3 MB",
+  "memory_percentile": 6.666399999999974,
+  "pretty_lang": "Python",
+  "submission_id": "1697886066",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: number-of-connected-components-in-an-undirected-graph
+Submission ID: 1697873257
+Submission Time: 2025-07-14 11:06:55
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 11 ms
+Memory: 13.38 MB
+
+Test Cases: 41/41 passed
+
+Runtime Percentile: 56.63710000000002%
+Memory Percentile: 75.6636%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "11 ms",
+  "memory": 13384000,
+  "display_runtime": "11",
+  "question_id": "323",
+  "elapsed_time": 54,
+  "compare_result": "11111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516413982,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 41,
+  "total_testcases": 41,
+  "runtime_percentile": 56.63710000000002,
+  "status_memory": "13.4 MB",
+  "memory_percentile": 75.6636,
+  "pretty_lang": "Python",
+  "submission_id": "1697873257",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

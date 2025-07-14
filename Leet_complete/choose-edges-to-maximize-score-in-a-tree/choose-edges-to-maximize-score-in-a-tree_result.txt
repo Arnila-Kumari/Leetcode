@@ -1,0 +1,47 @@
+Problem: choose-edges-to-maximize-score-in-a-tree
+Submission ID: 1697873523
+Submission Time: 2025-07-14 11:07:09
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 691 ms
+Memory: 68.41 MB
+
+Test Cases: 44/44 passed
+
+Runtime Percentile: 100%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "691 ms",
+  "memory": 68412000,
+  "display_runtime": "691",
+  "question_id": "2517",
+  "elapsed_time": 892,
+  "compare_result": "11111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516427106,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 44,
+  "total_testcases": 44,
+  "runtime_percentile": 100,
+  "status_memory": "68.4 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697873523",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

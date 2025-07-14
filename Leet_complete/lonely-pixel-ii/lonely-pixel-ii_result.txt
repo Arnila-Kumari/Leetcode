@@ -1,0 +1,47 @@
+Problem: lonely-pixel-ii
+Submission ID: 1697894533
+Submission Time: 2025-07-14 11:23:58
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 51 ms
+Memory: 15.09 MB
+
+Test Cases: 119/119 passed
+
+Runtime Percentile: 33.33339999999999%
+Memory Percentile: 100%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "51 ms",
+  "memory": 15088000,
+  "display_runtime": "51",
+  "question_id": "533",
+  "elapsed_time": 138,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752517435230,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 119,
+  "total_testcases": 119,
+  "runtime_percentile": 33.33339999999999,
+  "status_memory": "15.1 MB",
+  "memory_percentile": 100,
+  "pretty_lang": "Python",
+  "submission_id": "1697894533",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

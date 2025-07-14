@@ -1,0 +1,47 @@
+Problem: ternary-expression-parser
+Submission ID: 1697864926
+Submission Time: 2025-07-14 11:00:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 15 ms
+Memory: 12.52 MB
+
+Test Cases: 49/49 passed
+
+Runtime Percentile: 92.3077%
+Memory Percentile: 84.6154%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "15 ms",
+  "memory": 12516000,
+  "display_runtime": "15",
+  "question_id": "439",
+  "elapsed_time": 52,
+  "compare_result": "1111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516028393,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 49,
+  "total_testcases": 49,
+  "runtime_percentile": 92.3077,
+  "status_memory": "12.5 MB",
+  "memory_percentile": 84.6154,
+  "pretty_lang": "Python",
+  "submission_id": "1697864926",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

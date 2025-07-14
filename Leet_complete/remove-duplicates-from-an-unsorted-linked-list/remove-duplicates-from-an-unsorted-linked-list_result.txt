@@ -1,0 +1,46 @@
+Problem: remove-duplicates-from-an-unsorted-linked-list
+Submission ID: 1697863500
+Submission Time: 2025-07-14 10:59:28
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 1367 ms ms
+Memory: 88.78 MB
+
+Test Cases: 38/38 passed
+
+Runtime Percentile: 80.0%
+Memory Percentile: 90.0%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "1367 ms",
+  "memory": 88784000,
+  "question_id": "1982",
+  "elapsed_time": 1429,
+  "compare_result": "11111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752515965300,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 38,
+  "total_testcases": 38,
+  "runtime_percentile": 80.0,
+  "status_memory": "88.8 MB",
+  "memory_percentile": 90.0,
+  "pretty_lang": "Python",
+  "submission_id": "1697863500",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

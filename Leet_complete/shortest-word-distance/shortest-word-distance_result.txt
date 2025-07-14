@@ -1,0 +1,47 @@
+Problem: shortest-word-distance
+Submission ID: 1697881360
+Submission Time: 2025-07-14 11:13:20
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 3 ms
+Memory: 14.54 MB
+
+Test Cases: 27/27 passed
+
+Runtime Percentile: 72.9032%
+Memory Percentile: 69.6775%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "3 ms",
+  "memory": 14536000,
+  "display_runtime": "3",
+  "question_id": "243",
+  "elapsed_time": 41,
+  "compare_result": "111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516799343,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 27,
+  "total_testcases": 27,
+  "runtime_percentile": 72.9032,
+  "status_memory": "14.5 MB",
+  "memory_percentile": 69.6775,
+  "pretty_lang": "Python",
+  "submission_id": "1697881360",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

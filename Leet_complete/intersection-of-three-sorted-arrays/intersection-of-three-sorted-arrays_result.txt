@@ -1,0 +1,47 @@
+Problem: intersection-of-three-sorted-arrays
+Submission ID: 1697833024
+Submission Time: 2025-07-14 10:36:22
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 7 ms
+Memory: 12.63 MB
+
+Test Cases: 25/25 passed
+
+Runtime Percentile: 56.25%
+Memory Percentile: 56.25%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "7 ms",
+  "memory": 12632000,
+  "display_runtime": "7",
+  "question_id": "1149",
+  "elapsed_time": 42,
+  "compare_result": "1111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514582200,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 25,
+  "total_testcases": 25,
+  "runtime_percentile": 56.25,
+  "status_memory": "12.6 MB",
+  "memory_percentile": 56.25,
+  "pretty_lang": "Python",
+  "submission_id": "1697833024",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

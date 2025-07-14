@@ -1,0 +1,46 @@
+Problem: encode-and-decode-strings
+Submission ID: 1697878358
+Submission Time: 2025-07-14 11:10:57
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 46 ms ms
+Memory: 12.73 MB
+
+Test Cases: 316/316 passed
+
+Runtime Percentile: 87.444%
+Memory Percentile: 44.394700000000014%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "46 ms",
+  "memory": 12728000,
+  "question_id": "271",
+  "elapsed_time": 70,
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516655276,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 316,
+  "total_testcases": 316,
+  "runtime_percentile": 87.444,
+  "status_memory": "12.7 MB",
+  "memory_percentile": 44.394700000000014,
+  "pretty_lang": "Python",
+  "submission_id": "1697878358",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

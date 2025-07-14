@@ -1,0 +1,47 @@
+Problem: design-a-leaderboard
+Submission ID: 1697838621
+Submission Time: 2025-07-14 10:40:29
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 69 ms
+Memory: 12.91 MB
+
+Test Cases: 19/19 passed
+
+Runtime Percentile: 33.87109999999998%
+Memory Percentile: 11.290400000000005%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "69 ms",
+  "memory": 12912000,
+  "display_runtime": "69",
+  "question_id": "1176",
+  "elapsed_time": 179,
+  "compare_result": "1111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752514827046,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 19,
+  "total_testcases": 19,
+  "runtime_percentile": 33.87109999999998,
+  "status_memory": "12.9 MB",
+  "memory_percentile": 11.290400000000005,
+  "pretty_lang": "Python",
+  "submission_id": "1697838621",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

@@ -1,0 +1,47 @@
+Problem: logger-rate-limiter
+Submission ID: 1697878225
+Submission Time: 2025-07-14 11:10:50
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 16 ms
+Memory: 18.50 MB
+
+Test Cases: 20/20 passed
+
+Runtime Percentile: 59.27599999999998%
+Memory Percentile: 98.19%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "16 ms",
+  "memory": 18496000,
+  "display_runtime": "16",
+  "question_id": "359",
+  "elapsed_time": 463,
+  "compare_result": "11111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516648819,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 20,
+  "total_testcases": 20,
+  "runtime_percentile": 59.27599999999998,
+  "status_memory": "18.5 MB",
+  "memory_percentile": 98.19,
+  "pretty_lang": "Python",
+  "submission_id": "1697878225",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

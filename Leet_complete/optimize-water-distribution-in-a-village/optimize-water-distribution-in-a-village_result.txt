@@ -1,0 +1,47 @@
+Problem: optimize-water-distribution-in-a-village
+Submission ID: 1697877329
+Submission Time: 2025-07-14 11:10:07
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 125 ms
+Memory: 17.68 MB
+
+Test Cases: 40/40 passed
+
+Runtime Percentile: 47.05849999999999%
+Memory Percentile: 76.47049999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "125 ms",
+  "memory": 17676000,
+  "display_runtime": "125",
+  "question_id": "1144",
+  "elapsed_time": 184,
+  "compare_result": "1111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516605275,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 40,
+  "total_testcases": 40,
+  "runtime_percentile": 47.05849999999999,
+  "status_memory": "17.7 MB",
+  "memory_percentile": 76.47049999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1697877329",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}

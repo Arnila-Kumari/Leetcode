@@ -1,0 +1,47 @@
+Problem: walls-and-gates
+Submission ID: 1697880272
+Submission Time: 2025-07-14 11:12:32
+============================================================
+
+State: SUCCESS
+Status: Accepted
+Language: Python
+
+Runtime: 49 ms
+Memory: 16.30 MB
+
+Test Cases: 62/62 passed
+
+Runtime Percentile: 67.0075%
+Memory Percentile: 65.47309999999999%
+
+============================================================
+RAW SUBMISSION DATA
+============================================================
+{
+  "status_code": 10,
+  "lang": "python",
+  "run_success": true,
+  "status_runtime": "49 ms",
+  "memory": 16304000,
+  "display_runtime": "49",
+  "question_id": "286",
+  "elapsed_time": 108,
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111",
+  "code_output": "",
+  "std_output": "",
+  "last_testcase": "",
+  "expected_output": "",
+  "task_finish_time": 1752516750251,
+  "task_name": "judger.judgetask.Judge",
+  "finished": true,
+  "total_correct": 62,
+  "total_testcases": 62,
+  "runtime_percentile": 67.0075,
+  "status_memory": "16.3 MB",
+  "memory_percentile": 65.47309999999999,
+  "pretty_lang": "Python",
+  "submission_id": "1697880272",
+  "status_msg": "Accepted",
+  "state": "SUCCESS"
+}
