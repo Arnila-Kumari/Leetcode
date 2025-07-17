@@ -1,0 +1,32 @@
+{
+  "problem_name": "course-schedule-iii",
+  "data_structures": [
+    [
+      "max heap (priority queue)",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: sort courses by end day, iterate, add to heap. If current time exceeds end day, remove longest duration course from heap."
+  ],
+  "problem_summary_simple": "Maximize the number of courses taken by scheduling them within their deadlines.",
+  "problem_summary_technical": "Greedy strategy: sort by deadline, use a max-heap to track durations, and backtrack by removing the longest course if a deadline is missed.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Sorting by the last day is a crucial greedy step, as it prioritizes courses that need to be finished sooner.",
+      "A max-heap is used to efficiently find and remove the course with the longest duration when a conflict arises.",
+      "The strategy is to greedily take courses and, if a conflict occurs, remove the course that frees up the most time (the one with the longest duration)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:38:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

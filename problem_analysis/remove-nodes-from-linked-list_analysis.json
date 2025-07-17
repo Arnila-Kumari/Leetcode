@@ -1,0 +1,32 @@
+{
+  "problem_name": "remove-nodes-from-linked-list",
+  "data_structures": [
+    [
+      "Stack",
+      "Linked List"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Monotonic Stack: Iterate through the list, maintaining a decreasing stack of nodes. Remove nodes smaller than the current node."
+  ],
+  "problem_summary_simple": "Remove nodes from a linked list that have a greater value anywhere to their right.",
+  "problem_summary_technical": "Use a monotonic decreasing stack to keep track of nodes that should be kept. When a larger node is encountered, pop smaller nodes from the stack.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating from right to left conceptually, or by using a stack to simulate this.",
+      "A monotonic decreasing stack ensures that for any node, all nodes to its right that are kept are greater than or equal to it.",
+      "The final list is constructed by linking the nodes remaining in the stack."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

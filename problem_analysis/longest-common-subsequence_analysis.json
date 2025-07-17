@@ -1,0 +1,35 @@
+{
+  "problem_name": "longest-common-subsequence",
+  "data_structures": [
+    [
+      "2D DP array",
+      "1D DP array (space optimized)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming: dp[i][j] stores LCS of text1[:i] and text2[:j].",
+    "Space-optimized DP using only two rows to reduce space complexity."
+  ],
+  "problem_summary_simple": "Find the length of the longest sequence of characters common to both strings, maintaining relative order.",
+  "problem_summary_technical": "Dynamic programming approach where dp[i][j] is the LCS of prefixes. Space optimization uses O(min(m, n)) space.",
+  "time_complexity": [
+    "O(m*n) where m and n are lengths of text1 and text2",
+    "O(m*n)"
+  ],
+  "space_complexity": [
+    "O(m*n)",
+    "O(min(m, n))"
+  ],
+  "key_insights": [
+    [
+      "The problem exhibits optimal substructure and overlapping subproblems, making DP suitable.",
+      "The recurrence relation is: if text1[i-1] == text2[j-1], dp[i][j] = dp[i-1][j-1] + 1; otherwise, dp[i][j] = max(dp[i-1][j], dp[i][j-1]).",
+      "Space optimization is achieved by noticing that dp[i][j] only depends on the previous row (i-1) and current row (i)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

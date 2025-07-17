@@ -1,0 +1,44 @@
+{
+  "problem_name": "pseudo-palindromic-paths-in-a-binary-tree",
+  "data_structures": [
+    [
+      "stack",
+      "integer (bitmask)"
+    ],
+    [
+      "recursion stack",
+      "integer (bitmask)"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterative DFS with bitmask: Traverse tree, use bitmask to track odd counts of digits, check palindrome property at leaves.",
+    "Recursive DFS with bitmask: Traverse tree, use bitmask to track odd counts of digits, check palindrome property at leaves."
+  ],
+  "problem_summary_simple": "Count root-to-leaf paths in a binary tree that can form a palindrome.",
+  "problem_summary_technical": "Use DFS and a bitmask to track digit frequencies. A path is pseudo-palindromic if at most one digit has an odd count.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h) where h is tree height (worst case O(n))",
+    "O(h) where h is tree height (worst case O(n))"
+  ],
+  "key_insights": [
+    [
+      "A path is pseudo-palindromic if at most one digit appears an odd number of times.",
+      "A bitmask can efficiently track the parity of digit counts (1-9).",
+      "The condition `count & (count - 1) == 0` checks if at most one bit is set in the mask."
+    ],
+    [
+      "The recursive approach naturally handles the tree traversal.",
+      "The bitmask is passed down the recursion to maintain the current path's digit parity.",
+      "Base cases for recursion are null nodes or leaf nodes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-arrows-to-burst-balloons",
+  "data_structures": [
+    [
+      "list of lists (input)",
+      "sorted list (implicit)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort by start point, then iterate greedily to find overlapping intervals and shoot an arrow."
+  ],
+  "problem_summary_simple": "Find the minimum arrows to burst all balloons, where an arrow hits balloons within its horizontal range.",
+  "problem_summary_technical": "Greedy approach: sort balloons by start coordinate, then iterate, extending the current arrow's reach to the minimum end coordinate of overlapping balloons.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting by the start coordinate is crucial for the greedy approach.",
+      "The greedy choice is to extend the current arrow's reach as far as possible to cover subsequent balloons.",
+      "The key is to track the minimum end coordinate of the current group of overlapping balloons."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

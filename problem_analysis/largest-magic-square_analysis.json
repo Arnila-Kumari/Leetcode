@@ -1,0 +1,35 @@
+{
+  "problem_name": "largest-magic-square",
+  "data_structures": [
+    [
+      "list",
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Brute-force check of all possible square sizes and positions, using prefix sums for efficient sum calculation.",
+    "Iterate through possible square sizes from largest to smallest, checking for magic squares."
+  ],
+  "problem_summary_simple": "Find the largest square subgrid where all row, column, and diagonal sums are equal.",
+  "problem_summary_technical": "Uses prefix sums for rows and columns to efficiently check sums of subgrids of varying sizes.",
+  "time_complexity": [
+    "O(max(m, n) * min(m, n)^3)"
+  ],
+  "space_complexity": [
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "Prefix sums are essential for optimizing the sum calculations of subgrids.",
+      "Checking from the largest possible square size downwards allows for an early exit.",
+      "A magic square requires equal sums for all rows, columns, and both diagonals."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:48:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

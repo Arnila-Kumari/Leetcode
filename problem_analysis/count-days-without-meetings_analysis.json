@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-days-without-meetings",
+  "data_structures": [
+    [
+      "List of lists (for meetings)"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sort meetings by start day and merge overlapping intervals to find busy periods."
+  ],
+  "problem_summary_simple": "Count days within a total range that have no scheduled meetings.",
+  "problem_summary_technical": "Sorts meetings and merges overlapping intervals to determine contiguous blocks of busy days, then calculates free days.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the meetings by start time is crucial for efficient merging.",
+      "Merging overlapping intervals simplifies the problem into finding gaps between busy periods.",
+      "The total number of days can be very large, so an approach that doesn't iterate through all days is necessary."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

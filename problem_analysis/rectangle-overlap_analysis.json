@@ -1,0 +1,29 @@
+{
+  "problem_name": "rectangle-overlap",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Check for overlap by ensuring the intersection of x-intervals and y-intervals is positive."
+  ],
+  "problem_summary_simple": "Determine if two rectangles intersect, meaning they share a positive area.",
+  "problem_summary_technical": "Rectangles overlap if their x-intervals and y-intervals both have a positive intersection length.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Two rectangles do not overlap if one is entirely to the left, right, above, or below the other.",
+      "Overlap occurs if the right edge of one is to the right of the left edge of the other, and vice-versa for both axes.",
+      "The condition `max(p_left, q_left) < min(p_right, q_right)` efficiently checks for positive interval overlap."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

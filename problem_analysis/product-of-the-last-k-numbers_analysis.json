@@ -1,0 +1,31 @@
+{
+  "problem_name": "product-of-the-last-k-numbers",
+  "data_structures": [
+    [
+      "List (for prefix products)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix product accumulation with special handling for zeros."
+  ],
+  "problem_summary_simple": "Calculate the product of the last k numbers in a dynamically growing stream.",
+  "problem_summary_technical": "Maintains a list of prefix products. Handles zeros by resetting the prefix product list to [1].",
+  "time_complexity": [
+    "ctor: O(1), add: O(1), getProduct: O(1)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The presence of zero significantly impacts the product. A zero resets the product of any subsequent sequence.",
+      "Storing prefix products allows for O(1) retrieval of the product of the last k numbers by division.",
+      "When a zero is encountered, the prefix product list must be reset to [1] to correctly handle future calculations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

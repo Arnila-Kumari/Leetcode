@@ -1,0 +1,32 @@
+{
+  "problem_name": "design-skiplist",
+  "data_structures": [
+    [
+      "SkipNode",
+      "list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Implement a Skip List with multiple levels of sorted linked lists for efficient operations."
+  ],
+  "problem_summary_simple": "Design a Skip List data structure for fast search, add, and erase operations.",
+  "problem_summary_technical": "A probabilistic data structure with multiple sorted linked lists, allowing O(log n) average time for operations by skipping elements.",
+  "time_complexity": [
+    "O(log n) on average for search, add, erase"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The probabilistic nature of level assignment is key to achieving O(log n) average complexity.",
+      "Maintaining pointers at multiple levels allows for efficient traversal and updates.",
+      "Handling duplicates requires careful pointer manipulation during add and erase operations."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:40:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

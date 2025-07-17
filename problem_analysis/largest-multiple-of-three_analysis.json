@@ -1,0 +1,44 @@
+{
+  "problem_name": "largest-multiple-of-three",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list"
+    ],
+    [
+      "collections.Counter",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Count digit frequencies, calculate sum remainder, remove smallest digits to satisfy remainder.",
+    "Count digit frequencies, calculate sum remainder, generate potential digit removals to satisfy remainder."
+  ],
+  "problem_summary_simple": "Find the largest number formed by digits that is divisible by three.",
+  "problem_summary_technical": "Greedy approach using digit counts and modulo arithmetic to remove minimal digits to achieve divisibility by three.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maintain the sum of digits modulo 3. If the sum is not divisible by 3, we need to remove digits whose sum modulo 3 matches the remainder.",
+      "To get the largest number, we should prioritize removing the smallest digits that satisfy the modulo condition.",
+      "The lookup table in the first solution pre-computes the minimal sets of digits to remove for remainders 1 and 2."
+    ],
+    [
+      "The second solution is more general by generating candidates for removal, but less efficient than the pre-computed lookup.",
+      "Sorting digits in descending order is crucial for constructing the largest number after removals.",
+      "Handling leading zeros is important for the final output."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,46 @@
+{
+  "problem_name": "find-minimum-time-to-finish-all-jobs",
+  "data_structures": [
+    [
+      "list",
+      "list of integers (worker capacities)"
+    ],
+    [
+      "list",
+      "list of integers (worker capacities)"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Binary search on the answer (maximum time) combined with backtracking to check feasibility.",
+    "Backtracking to explore all assignments and find the minimum maximum workload."
+  ],
+  "problem_summary_simple": "Assign jobs to workers to minimize the longest working time for any single worker.",
+  "problem_summary_technical": "Find the minimum possible maximum workload among k workers by assigning jobs. Uses binary search on the answer and backtracking for feasibility checks.",
+  "time_complexity": [
+    "O(k^n * log(sum(jobs))) - The backtracking part is exponential in n (number of jobs).",
+    "O(k * k^n) - The backtracking explores assignments, and the outer loop iterates k times for each worker."
+  ],
+  "space_complexity": [
+    "O(n + k) - For recursion stack and worker capacity array.",
+    "O(n + k) - For recursion stack and worker capacity array."
+  ],
+  "key_insights": [
+    [
+      "This is a classic optimization problem that can be solved using binary search on the answer.",
+      "The `backtracking` function checks if it's possible to assign all jobs such that no worker exceeds the `cap` (midpoint of binary search).",
+      "Sorting jobs in descending order can help prune the search space faster in backtracking.",
+      "The `if counts[j] == 0: break` optimization is crucial: if a worker has 0 load, trying to assign the current job to another worker with 0 load is redundant due to symmetry."
+    ],
+    [
+      "This approach directly tries to find the minimum maximum workload without binary search.",
+      "It explores all possible assignments of jobs to workers using recursion.",
+      "The `result` array stores the minimum maximum workload found so far.",
+      "Similar pruning optimizations apply here, like assigning to an empty worker only once."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:43:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

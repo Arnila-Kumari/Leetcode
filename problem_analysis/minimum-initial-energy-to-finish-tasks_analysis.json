@@ -1,0 +1,40 @@
+{
+  "problem_name": "minimum-initial-energy-to-finish-tasks",
+  "data_structures": [
+    [
+      "array",
+      "variable"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort tasks by the difference (minimum - actual) in ascending order and greedily calculate minimum initial energy.",
+    "Sort tasks by the difference (actual - minimum) in descending order and greedily calculate minimum initial energy."
+  ],
+  "problem_summary_simple": "Determine the least starting energy needed to complete all tasks, considering each task's minimum requirement and actual cost.",
+  "problem_summary_technical": "Tasks are sorted based on energy 'waste' (minimum - actual). The minimum initial energy is the maximum of (current energy + actual cost) and minimum requirement for each task.",
+  "time_complexity": [
+    "O(nlogn)",
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that tasks with a larger difference between minimum and actual energy should be performed later.",
+      "Sorting by `minimum - actual` (ascending) ensures that we address tasks that are 'easier' to start with later, minimizing the peak energy requirement.",
+      "The greedy approach works because performing tasks with less 'waste' first allows us to build up energy more efficiently for tasks with higher minimum requirements."
+    ],
+    [
+      "Alternatively, sorting by `actual - minimum` (descending) focuses on tasks that 'save' more energy.",
+      "This approach tracks the current energy and adds the necessary energy to meet the minimum requirement for the next task.",
+      "The logic `result += max(m-curr, 0)` ensures we only add energy if the current energy is insufficient for the minimum requirement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-jumps-to-reach-home",
+  "data_structures": [
+    [
+      "set (for forbidden positions and visited states)",
+      "queue (for BFS)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) on states (position, can_jump_backward) to find the shortest path."
+  ],
+  "problem_summary_simple": "Find the minimum jumps for a bug to reach home, avoiding forbidden spots and consecutive backward jumps.",
+  "problem_summary_technical": "BFS explores reachable states (position, last_jump_was_backward). Use a set to track visited states to avoid cycles and redundant computations.",
+  "time_complexity": [
+    "O(max(x, max(forbidden)) + a + b)"
+  ],
+  "space_complexity": [
+    "O(max(x, max(forbidden)) + a + b)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a graph where nodes are (position, can_jump_backward) states.",
+      "BFS guarantees finding the shortest path (minimum jumps).",
+      "The state must include whether the last jump was backward to enforce the constraint."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "check-if-it-is-a-straight-line",
+  "data_structures": [
+    [
+      "list of lists"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate the slope between the first two points and check if all other points maintain the same slope.",
+    "Cross-product for collinearity check."
+  ],
+  "problem_summary_simple": "Verify if a set of 2D points lie on the same straight line.",
+  "problem_summary_technical": "Check if the cross-product of vectors formed by consecutive points is zero.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Points are collinear if the slope between any two pairs of points is the same.",
+      "To avoid division by zero (vertical lines), use the cross-product method: (y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1).",
+      "The provided solution uses a rearranged form of the cross-product for collinearity: `i[0] * j[1] - j[0] * i[1] + j[0] * k[1] - k[0] * j[1] + k[0] * i[1] - i[0] * k[1] == 0` which checks if points i, j, and k are collinear."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

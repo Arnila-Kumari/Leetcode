@@ -1,0 +1,31 @@
+{
+  "problem_name": "sentence-similarity-iii",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Use two pointers to find the longest common prefix and suffix between the two sentences."
+  ],
+  "problem_summary_simple": "Check if one sentence can be made equal to another by inserting a sentence into it.",
+  "problem_summary_technical": "Find the longest common prefix and suffix of the two sentences to determine if a valid insertion is possible.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by finding the longest common prefix and suffix.",
+      "If the remaining middle parts can be formed by inserting into one of the sentences, they are similar.",
+      "The two-pointer approach efficiently checks for matching prefixes and suffixes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

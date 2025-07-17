@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-good-people-based-on-statements",
+  "data_structures": [
+    [
+      "integer (for bitmask)"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Brute force with bitmasking to iterate through all possible assignments of good/bad people."
+  ],
+  "problem_summary_simple": "Find the maximum number of good people given statements about others being good or bad.",
+  "problem_summary_technical": "Iterate through all 2^n subsets of people using bitmasks, checking consistency of statements for each subset.",
+  "time_complexity": [
+    "O(n^2 * 2^n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The constraint n <= 15 strongly suggests an exponential time complexity solution, likely involving bitmasking.",
+      "A bitmask can represent the state of each person (good or bad).",
+      "For each bitmask, verify if all statements are consistent with the assumed good/bad assignments."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

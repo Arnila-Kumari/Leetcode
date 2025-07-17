@@ -1,0 +1,42 @@
+{
+  "problem_name": "count-numbers-with-unique-digits",
+  "data_structures": [
+    [
+      "variables"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorics and iterative calculation",
+    "Combinatorics using permutations and summation"
+  ],
+  "problem_summary_simple": "Count numbers with unique digits in the range [0, 10^n).",
+  "problem_summary_technical": "Calculates counts for numbers of length 1 to n using permutations and sums them up.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down by the number of digits.",
+      "For a k-digit number with unique digits, the first digit has 9 choices (1-9), and subsequent digits have decreasing choices (9, 8, ...).",
+      "The total count is the sum of counts for numbers with 1 digit, 2 digits, ..., up to n digits."
+    ],
+    [
+      "The problem can be broken down by the number of digits.",
+      "The count of k-digit numbers with unique digits can be calculated using permutations: P(9, k-1) * 9.",
+      "The total count is 1 (for 0) plus the sum of unique digit counts for numbers with 1 to n digits."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

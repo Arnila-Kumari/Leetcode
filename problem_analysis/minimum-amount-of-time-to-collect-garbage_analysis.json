@@ -1,0 +1,41 @@
+{
+  "problem_name": "minimum-amount-of-time-to-collect-garbage",
+  "data_structures": [
+    [
+      "list",
+      "hashmap",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate prefix sums of travel times. For each garbage type, find the last house it appears in and add travel time up to that house.",
+    "Iterate through each garbage type, summing up collection time and travel time to the last house of that type."
+  ],
+  "problem_summary_simple": "Calculate the minimum time for three trucks to collect all garbage, considering travel between houses.",
+  "problem_summary_technical": "Sum garbage collection time. For each truck type, add travel time to the last house containing that garbage.",
+  "time_complexity": [
+    "O(n * l)",
+    "O(n * l)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The total time is the sum of collection time for all garbage and travel time for each truck.",
+      "Each truck operates independently for its specific garbage type.",
+      "The travel time for a truck is determined by the furthest house it needs to visit for its garbage type."
+    ],
+    [
+      "The problem can be solved by considering each garbage type ('M', 'P', 'G') separately.",
+      "For each type, we need to sum the garbage count at each house and the travel time to reach the last house with that garbage.",
+      "Prefix sums of travel times can optimize the calculation of travel distances."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

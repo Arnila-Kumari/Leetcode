@@ -1,0 +1,46 @@
+{
+  "problem_name": "convert-an-array-into-a-2d-array-with-conditions",
+  "data_structures": [
+    [
+      "list of lists",
+      "hashmap"
+    ],
+    [
+      "list of lists",
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "frequency counting and constructive approach",
+    "frequency counting and iterative row creation"
+  ],
+  "problem_summary_simple": "Group array elements into rows with distinct numbers, minimizing the number of rows.",
+  "problem_summary_technical": "Counts element frequencies and constructs rows by distributing elements greedily to satisfy the distinctness condition with minimal rows.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The minimum number of rows required is determined by the maximum frequency of any element in the input array.",
+      "A frequency map (Counter) is used to track how many times each number appears.",
+      "As we iterate through the input array, we place each number into the next available row that doesn't already contain it. This is managed by checking the current count of the number against the number of rows created so far.",
+      "If a number's count equals the current number of rows, a new row is created for it."
+    ],
+    [
+      "This approach also uses a frequency map. It iteratively builds the result by taking all unique elements present in the current frequency map for a new row.",
+      "After creating a row, the counts of the elements in that row are decremented. Elements with a count of zero are removed from the map.",
+      "This continues until the frequency map is empty.",
+      "This method is conceptually similar to the first one but structures the row creation differently."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

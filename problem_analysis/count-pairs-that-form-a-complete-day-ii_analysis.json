@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-pairs-that-form-a-complete-day-ii",
+  "data_structures": [
+    [
+      "list (frequency array of size 24)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a frequency array of size 24 to store counts of hours modulo 24. For each hour x, check the count of (24 - x % 24) % 24 in the frequency array and add it to the result. Then, increment the count for x % 24."
+  ],
+  "problem_summary_simple": "Count pairs of hours that sum up to a multiple of 24.",
+  "problem_summary_technical": "Uses a frequency array (size 24) for hours modulo 24. For each hour, it looks up the complement (24 - x % 24) % 24 in the frequency array to count valid pairs.",
+  "time_complexity": [
+    "O(n + 24)"
+  ],
+  "space_complexity": [
+    "O(24)"
+  ],
+  "key_insights": [
+    [
+      "The problem is identical to 'count-pairs-that-form-a-complete-day-i' in terms of logic, but with larger constraints on `hours[i]`.",
+      "The modulo arithmetic (x % 24) is essential to handle large hour values efficiently.",
+      "A frequency array of size 24 is sufficient to store counts of remainders, making the solution efficient."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

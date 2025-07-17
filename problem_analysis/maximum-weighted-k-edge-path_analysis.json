@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-weighted-k-edge-path",
+  "data_structures": [
+    [
+      "adjacency list",
+      "list of sets",
+      "variable"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming on paths with weight constraints"
+  ],
+  "problem_summary_simple": "Find the max weight path with exactly k edges and total weight less than t.",
+  "problem_summary_technical": "DP state `dp[i]` stores possible path sums to node `i`. Iterate k times, updating reachable sums for neighbors within weight limit t.",
+  "time_complexity": [
+    "O(k * e * t)"
+  ],
+  "space_complexity": [
+    "O(n * t)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming where the state represents the maximum path sum to a node using a certain number of edges.",
+      "The DP state needs to track not just the node, but also the number of edges used and the total weight accumulated.",
+      "Since the weight limit `t` is relatively small, we can use `t` as part of the DP state or as a bound for reachable sums."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

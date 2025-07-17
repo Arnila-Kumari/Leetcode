@@ -1,0 +1,44 @@
+{
+  "problem_name": "intersection-of-three-sorted-arrays",
+  "data_structures": [
+    [
+      "three pointers",
+      "list"
+    ],
+    [
+      "hash set",
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Three pointers",
+    "Set intersection"
+  ],
+  "problem_summary_simple": "Find common elements present in three sorted integer arrays.",
+  "problem_summary_technical": "Use three pointers to iterate through sorted arrays, advancing pointers to find common elements efficiently.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Since arrays are sorted, a three-pointer approach is optimal.",
+      "Advance the pointer of the smallest element among the three current elements.",
+      "If all three pointers point to the same element, add it to the result and advance all pointers."
+    ],
+    [
+      "Convert arrays to sets for efficient intersection operations.",
+      "Find the intersection of the second and third arrays first.",
+      "Then, iterate through the first array and check for membership in the pre-computed intersection set."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

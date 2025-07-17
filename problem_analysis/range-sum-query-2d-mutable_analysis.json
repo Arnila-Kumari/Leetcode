@@ -1,0 +1,32 @@
+{
+  "problem_name": "range-sum-query-2d-mutable",
+  "data_structures": [
+    [
+      "2D array",
+      "2D Binary Indexed Tree (Fenwick Tree)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "2D Binary Indexed Tree (Fenwick Tree) for O(log m * log n) updates and queries."
+  ],
+  "problem_summary_simple": "Update elements and calculate rectangular sums in a 2D matrix efficiently.",
+  "problem_summary_technical": "Utilizes a 2D Binary Indexed Tree (Fenwick Tree) to support point updates and range sum queries in logarithmic time.",
+  "time_complexity": [
+    "Constructor: O(m*n), update: O(log m * log n), sumRegion: O(log m * log n)"
+  ],
+  "space_complexity": [
+    "O(m*n)"
+  ],
+  "key_insights": [
+    [
+      "A 2D Fenwick Tree (BIT) is an extension of the 1D BIT to handle 2D data.",
+      "Each update or query involves traversing paths in the BIT structure, leading to logarithmic complexity.",
+      "The BIT allows efficient calculation of prefix sums in 2D, which are then used for range sums via inclusion-exclusion."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:05:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

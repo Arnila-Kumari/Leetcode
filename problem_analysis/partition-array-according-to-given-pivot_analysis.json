@@ -1,0 +1,32 @@
+{
+  "problem_name": "partition-array-according-to-given-pivot",
+  "data_structures": [
+    [
+      "array",
+      "two pointers"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Three-way partitioning using two pointers to maintain relative order"
+  ],
+  "problem_summary_simple": "Rearrange an array so elements less than pivot are first, then equal, then greater, maintaining relative order.",
+  "problem_summary_technical": "Uses two pointers to place elements less than pivot at the beginning and greater than pivot at the end, preserving relative order.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The requirement to maintain relative order for elements less than and greater than the pivot is key.",
+      "A single pass with two pointers (one for the start of 'less than' section, one for the end of 'greater than' section) is efficient.",
+      "A temporary result array is used to build the partitioned array without in-place swaps that would disrupt relative order."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

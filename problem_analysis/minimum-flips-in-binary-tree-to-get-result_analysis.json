@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-flips-in-binary-tree-to-get-result",
+  "data_structures": [
+    [
+      "Binary Tree",
+      "Hash Map (defaultdict)"
+    ],
+    [
+      "Binary Tree",
+      "Hash Map (defaultdict)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Tree DP with iterative DFS using a stack to manage states.",
+    "Tree DP with recursive DFS to compute minimum flips for subtrees."
+  ],
+  "problem_summary_simple": "Find the minimum flips in leaf nodes to make the entire binary tree evaluate to a target boolean result.",
+  "problem_summary_technical": "Tree DP where each node stores a map of {boolean_value: min_flips}. Computes results bottom-up using boolean operations.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as Tree DP, where each node's state depends on its children's states.",
+      "The state for each node should capture the minimum flips to achieve both 'true' and 'false' outcomes.",
+      "Handling the 'NOT' operation requires special care for its single child."
+    ],
+    [
+      "The base cases are leaf nodes, which directly map their value to flips.",
+      "The recursive structure naturally handles the bottom-up computation of results."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:57:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

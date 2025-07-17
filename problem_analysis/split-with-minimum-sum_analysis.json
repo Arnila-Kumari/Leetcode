@@ -1,0 +1,32 @@
+{
+  "problem_name": "split-with-minimum-sum",
+  "data_structures": [
+    [
+      "string",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "sorting and greedy assignment"
+  ],
+  "problem_summary_simple": "Split digits of a number into two new numbers to minimize their sum.",
+  "problem_summary_technical": "Sort the digits of the number and greedily assign them to two new numbers to minimize their sum.",
+  "time_complexity": [
+    "O(m log m)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "To minimize the sum of two numbers formed by a set of digits, the numbers should be as close in magnitude as possible.",
+      "Sorting the digits and then alternating their assignment to the two numbers achieves this.",
+      "Leading zeros are allowed, simplifying the construction of the two numbers."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:10:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,35 @@
+{
+  "problem_name": "reverse-bits",
+  "data_structures": [
+    [
+      "integer",
+      "bit manipulation"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bitwise operations to swap groups of bits efficiently.",
+    "Iterative bit shifting and checking to build the reversed integer."
+  ],
+  "problem_summary_simple": "Reverse the bits of a 32-bit unsigned integer.",
+  "problem_summary_technical": "Use bitwise shifts and masks to swap bits in stages (16, 8, 4, 2, 1 bits) or iterate through bits.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires manipulating the binary representation of an integer.",
+      "The first solution uses a clever bit manipulation technique to reverse bits in a constant number of operations by swapping larger chunks of bits first.",
+      "The second solution iterates 32 times, extracting the least significant bit of the input and appending it to the most significant end of the result."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "design-log-storage-system",
+  "data_structures": [
+    [
+      "list of tuples",
+      "dictionary"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Store logs in a list and filter based on timestamp prefix matching the granularity."
+  ],
+  "problem_summary_simple": "Store and retrieve logs based on timestamp ranges and granularity.",
+  "problem_summary_technical": "Store logs as (id, timestamp) pairs. Retrieve logs by filtering based on substring matching of start and end timestamps according to specified granularity.",
+  "time_complexity": [
+    "put: O(1), retrieve: O(N*L) where N is number of logs and L is timestamp length"
+  ],
+  "space_complexity": [
+    "O(N*L) where N is number of logs and L is timestamp length"
+  ],
+  "key_insights": [
+    [
+      "The granularity dictates how much of the timestamp string to compare.",
+      "Storing logs in a simple list is sufficient given the constraints, but sorting might be needed for performance if N is very large.",
+      "The problem leverages string slicing for efficient range checking based on different time units."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:03",
+  "batch_processed": true,
+  "batch_size": 4
+}

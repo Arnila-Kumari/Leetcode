@@ -1,0 +1,33 @@
+{
+  "problem_name": "count-the-number-of-beautiful-subarrays",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Prefix XOR sums and a frequency map (hash map) to count subarrays with a specific XOR sum.",
+    "Leveraging the property that a subarray is beautiful if the XOR sum of its elements is 0."
+  ],
+  "problem_summary_simple": "Count subarrays where elements can be made zero by pairing and subtracting powers of 2.",
+  "problem_summary_technical": "A subarray is beautiful if the XOR sum of its elements is 0. Use prefix XOR sums and a hash map to count subarrays with XOR sum 0.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The operation of subtracting 2^k from two numbers with the k-th bit set is equivalent to XORing those numbers with 2^k.",
+      "A subarray can be made all zeros if and only if the XOR sum of its elements is zero.",
+      "This problem reduces to finding the number of subarrays with a XOR sum of 0, which can be efficiently solved using prefix XOR sums and a hash map."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

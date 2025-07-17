@@ -1,0 +1,32 @@
+{
+  "problem_name": "delete-nodes-and-return-forest",
+  "data_structures": [
+    [
+      "Binary Tree",
+      "Set"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive traversal with set lookup and conditional node return"
+  ],
+  "problem_summary_simple": "Delete nodes with specified values from a tree, returning the roots of the remaining subtrees.",
+  "problem_summary_technical": "Recursively traverse the tree, removing nodes in `to_delete` and returning subtrees as roots of new trees in the forest.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h + d)"
+  ],
+  "key_insights": [
+    [
+      "A set is used for efficient O(1) lookup of nodes to delete.",
+      "The recursive helper function needs to know if the current node is a root of a potential tree in the forest.",
+      "If a node is deleted, its children become potential roots of new trees, provided they are not also deleted."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-prefix-common-array-of-two-arrays",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through arrays, use a frequency map to track seen elements, and count common elements."
+  ],
+  "problem_summary_simple": "Count common elements in prefixes of two given arrays.",
+  "problem_summary_technical": "Uses a frequency map (Counter) and a running count to track common elements encountered in prefixes of two arrays.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A frequency map (collections.Counter) is used to efficiently track the occurrences of numbers from both arrays.",
+      "An element is considered 'common' for a prefix if it appears in both arrays up to that index. This is detected when its count in the frequency map becomes 2.",
+      "The `curr` variable maintains the running count of common elements, which is then stored in the result array for each prefix."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

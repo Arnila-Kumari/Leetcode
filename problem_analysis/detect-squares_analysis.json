@@ -1,0 +1,44 @@
+{
+  "problem_name": "detect-squares",
+  "data_structures": [
+    [
+      "defaultdict(set) to store y-coordinates for each x",
+      "defaultdict(int) to store counts of each point"
+    ],
+    [
+      "list to store all points",
+      "defaultdict(int) to store counts of each point"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "For a query point, iterate through points with the same x or y coordinate, calculate potential square corners, and check counts.",
+    "Store all points and iterate through them to find potential squares with the query point, checking for necessary corner points."
+  ],
+  "problem_summary_simple": "Count squares formed by existing points and a query point.",
+  "problem_summary_technical": "Use hash maps to store point frequencies and efficiently find potential square corners for a given query point.",
+  "time_complexity": [
+    "ctor: O(1), add: O(1), count: O(N) where N is the number of unique y-coordinates for a given x.",
+    "ctor: O(1), add: O(1), count: O(P) where P is the total number of points added."
+  ],
+  "space_complexity": [
+    "O(N) where N is the total number of points.",
+    "O(P) where P is the total number of points."
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating and storing point frequencies is key for efficient counting.",
+      "When considering a query point `(qx, qy)`, potential square corners can be found by looking at points `(qx, y)` and `(x, qy)`.",
+      "The fourth corner `(qx + dx, qy + dy)` can be deduced, and its count multiplied with the other three points."
+    ],
+    [
+      "Storing all points allows direct iteration but can be less efficient for `count` if many points are added.",
+      "The logic for finding the fourth point requires checking for `abs(p1.x - p2.x) == abs(p1.y - p2.y)` and then looking up the counts of the other two corners.",
+      "Duplicate points are handled by storing their counts, which is crucial for accurate square counting."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

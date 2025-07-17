@@ -1,0 +1,54 @@
+{
+  "problem_name": "find-numbers-with-even-number-of-digits",
+  "data_structures": [
+    [
+      "array",
+      "lookup table for digit counts"
+    ],
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Precompute digit counts using a lookup table and binary search for efficient counting.",
+    "Iterate through numbers, count digits by repeated division by 10.",
+    "Convert numbers to strings and check the length of the string."
+  ],
+  "problem_summary_simple": "Count how many numbers in an array have an even number of digits.",
+  "problem_summary_technical": "Iterates through an array, counting digits of each number using string conversion or division.",
+  "time_complexity": [
+    "O(n log(log m))",
+    "O(n log m)",
+    "O(n log m)"
+  ],
+  "space_complexity": [
+    "O(log m)",
+    "O(log m)",
+    "O(log m)"
+  ],
+  "key_insights": [
+    [
+      "The number of digits can be efficiently determined by string conversion or logarithmic operations.",
+      "Pre-calculating digit boundaries can optimize lookups.",
+      "The problem is a straightforward application of counting and conditional checks."
+    ],
+    [
+      "Repeated integer division by 10 is a common way to count digits.",
+      "The modulo operator (%) can be used to check for evenness.",
+      "This approach avoids string conversions, which might be slightly more performant."
+    ],
+    [
+      "Converting to string is often the most readable and concise way to get digit count.",
+      "Python's `len(str(n))` is very efficient for this task.",
+      "This is a simple and direct solution."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

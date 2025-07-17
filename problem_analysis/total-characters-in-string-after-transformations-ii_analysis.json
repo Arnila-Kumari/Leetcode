@@ -1,0 +1,31 @@
+{
+  "problem_name": "total-characters-in-string-after-transformations-ii",
+  "data_structures": [
+    [
+      "matrix",
+      "array"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "matrix exponentiation for linear recurrence"
+  ],
+  "problem_summary_simple": "Calculate the total length of a string after `t` transformations, where each character expands based on `nums` array.",
+  "problem_summary_technical": "Model transformations as a state transition matrix, solved using matrix exponentiation for large `t`.",
+  "time_complexity": [
+    "O(26^3 * logt + n)"
+  ],
+  "space_complexity": [
+    "O(26^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as a system of linear recurrences, where the count of each character at step `k+1` depends on counts at step `k`.",
+      "This system can be represented by a transition matrix, and `t` transformations correspond to raising this matrix to the power of `t`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:12:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

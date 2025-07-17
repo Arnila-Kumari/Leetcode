@@ -1,0 +1,32 @@
+{
+  "problem_name": "flatten-nested-list-iterator",
+  "data_structures": [
+    [
+      "list",
+      "stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth-first search (DFS) using a stack to manage nested lists and indices."
+  ],
+  "problem_summary_simple": "Create an iterator to flatten a list that can contain integers or other nested lists.",
+  "problem_summary_technical": "Implements an iterator for a nested list structure using a stack to manage traversal state and flatten elements.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is managing the state of nested lists and their current indices.",
+      "A stack is ideal for simulating recursion and keeping track of the traversal path.",
+      "The `hasNext` method needs to proactively find the next integer, not just check the current state."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

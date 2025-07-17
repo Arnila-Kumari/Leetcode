@@ -1,0 +1,46 @@
+{
+  "problem_name": "lexicographically-smallest-generated-string",
+  "data_structures": [
+    [
+      "list of characters",
+      "deque",
+      "list of integers"
+    ],
+    [
+      "list of characters",
+      "deque",
+      "list of integers"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "KMP prefix function and greedy filling to construct the smallest string satisfying 'T' and 'F' constraints.",
+    "Z-function and greedy filling to construct the smallest string satisfying 'T' and 'F' constraints."
+  ],
+  "problem_summary_simple": "Generate the lexicographically smallest string based on substring matching rules.",
+  "problem_summary_technical": "Use KMP/Z-function to check substring matches and greedy filling to satisfy 'T'/'F' conditions for the smallest output.",
+  "time_complexity": [
+    "O(n + m)",
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n + m)",
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires careful handling of overlapping substrings dictated by 'T' in str1.",
+      "KMP's prefix function (or Z-function) is crucial for efficiently checking if a substring matches str2.",
+      "Greedy filling with 'a' and then 'b' is used to ensure the lexicographically smallest result, especially for 'F' constraints."
+    ],
+    [
+      "The Z-function provides an alternative to KMP's prefix function for substring matching.",
+      "The core logic involves identifying potential conflicts with 'F' constraints and resolving them by changing characters to 'b'.",
+      "A deque is used to efficiently manage the positions of characters that might need to be changed to 'b' to satisfy 'F' constraints."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:49:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

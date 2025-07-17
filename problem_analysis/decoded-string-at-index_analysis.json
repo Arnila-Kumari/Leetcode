@@ -1,0 +1,31 @@
+{
+  "problem_name": "decoded-string-at-index",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Two-pass approach: first pass to calculate total decoded length, second pass to find the character at index k."
+  ],
+  "problem_summary_simple": "Find the k-th character of a decoded string where digits repeat previous string segments.",
+  "problem_summary_technical": "Calculate the total length of the decoded string by iterating through the encoded string, then backtrack to find the k-th character.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The decoded string can be extremely long, so direct decoding is not feasible.",
+      "The problem can be solved by first calculating the total length of the decoded string.",
+      "Then, by iterating backward through the encoded string, we can determine which segment the k-th character belongs to and find it."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "points-that-intersect-with-cars",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sort intervals by start point, then merge overlapping intervals and sum their lengths."
+  ],
+  "problem_summary_simple": "Count the total number of unique integer points covered by any car's parking interval.",
+  "problem_summary_technical": "Sort car intervals by start point, then merge overlapping intervals to find total covered length.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding the total length of the union of intervals.",
+      "Sorting the intervals by their start points is crucial for an efficient merging process.",
+      "When merging, we extend the current interval's end point to the maximum of the current end and the next interval's end."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:34:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "destroying-asteroids",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the asteroids by mass. Iterate through them, destroying each if the planet's mass is sufficient. Update planet's mass."
+  ],
+  "problem_summary_simple": "Determine if a planet can destroy all asteroids by colliding with them in some order, gaining mass from destroyed asteroids.",
+  "problem_summary_technical": "Sort asteroids by mass. Greedily destroy smaller asteroids first, accumulating mass. If at any point planet mass is less than asteroid mass, return false.",
+  "time_complexity": [
+    "O(N log N) due to sorting, where N is the number of asteroids."
+  ],
+  "space_complexity": [
+    "O(1) if sorting is done in-place, or O(N) if a copy is made for sorting."
+  ],
+  "key_insights": [
+    [
+      "The optimal strategy is to destroy asteroids in increasing order of mass.",
+      "If the planet's mass is ever less than an asteroid's mass, it cannot be destroyed.",
+      "The planet's mass increases by the mass of each destroyed asteroid."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,40 @@
+{
+  "problem_name": "maximum-array-hopping-score-i",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate backwards, maintain max element seen so far, add it to result. This greedy approach works because the score is (j-i)*nums[j].",
+    "Dynamic programming: dp[i] = max score to reach index i. dp[i] = max(dp[j] + (i-j)*nums[i]) for j < i."
+  ],
+  "problem_summary_simple": "Find the maximum score by hopping from index 0 to the last index, scoring (j-i)*nums[j] per hop.",
+  "problem_summary_technical": "Greedy: Iterate backwards, accumulating max(nums[j]) for j > i. DP: dp[i] = max(dp[j] + (i-j)*nums[i]).",
+  "time_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The greedy approach works because to maximize the score at index `i`, we want to jump from the index `j` that has the largest `nums[j]` value among all `j < i`.",
+      "By iterating backward, we can efficiently find the maximum `nums[j]` for all preceding indices."
+    ],
+    [
+      "The DP approach explores all possible previous jumps to find the optimal score for each index.",
+      "The O(n^2) complexity arises from the nested loops checking all previous states."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

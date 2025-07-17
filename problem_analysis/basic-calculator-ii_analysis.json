@@ -1,0 +1,44 @@
+{
+  "problem_name": "basic-calculator-ii",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Shunting-yard algorithm variant using two stacks (operands and operators) with precedence handling.",
+    "Reverse iteration with stack for operands and operators, processing multiplication/division first."
+  ],
+  "problem_summary_simple": "Evaluate a mathematical expression string with addition, subtraction, multiplication, and division, respecting operator precedence.",
+  "problem_summary_technical": "Parses the expression, using stacks to manage operands and operators, prioritizing multiplication and division before addition and subtraction.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key is to handle multiplication and division before addition and subtraction.",
+      "A stack can store intermediate results and operators to maintain correct order of operations.",
+      "The expression can be processed left-to-right, performing higher-precedence operations immediately."
+    ],
+    [
+      "Processing in reverse can simplify handling of operator precedence, especially for multiplication/division.",
+      "The `compute` helper function encapsulates the logic for applying an operator.",
+      "Careful parsing of numbers and operators, including spaces, is crucial."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

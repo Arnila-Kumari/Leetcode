@@ -1,0 +1,32 @@
+{
+  "problem_name": "special-positions-in-a-binary-matrix",
+  "data_structures": [
+    [
+      "array",
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sums (row and column counts) and iteration"
+  ],
+  "problem_summary_simple": "Count cells with value 1 that are the only 1 in their row and column.",
+  "problem_summary_technical": "Precompute row and column sums. Iterate through the matrix, counting cells where mat[i][j] is 1 and row/column sums are also 1.",
+  "time_complexity": [
+    "O(M * N)"
+  ],
+  "space_complexity": [
+    "O(M + N)"
+  ],
+  "key_insights": [
+    [
+      "A 'special position' requires a 1 in the cell and zeros everywhere else in its row and column.",
+      "Pre-calculating the number of 1s in each row and column allows for efficient checking.",
+      "A cell (i, j) is special if mat[i][j] == 1 and row_sums[i] == 1 and col_sums[j] == 1."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:10:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

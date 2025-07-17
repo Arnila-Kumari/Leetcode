@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximize-the-minimum-game-score",
+  "data_structures": [
+    [
+      "array",
+      "binary search helper"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "binary search on the minimum score with a greedy check"
+  ],
+  "problem_summary_simple": "Maximize the minimum score across all games by distributing at most m moves among n games with given points.",
+  "problem_summary_technical": "Binary search for the maximum minimum score. The check function greedily determines if 'm' moves are sufficient to achieve a minimum score 'x'.",
+  "time_complexity": [
+    "O(n * log(m * r))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks to maximize a minimum value, which is a strong indicator for binary search on the answer.",
+      "The 'check' function needs to determine if a given minimum score 'x' is achievable with at most 'm' moves.",
+      "The greedy strategy in the check function involves prioritizing games with higher point values to reach the target score 'x' with fewer moves."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

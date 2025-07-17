@@ -1,0 +1,32 @@
+{
+  "problem_name": "first-completely-painted-row-or-column",
+  "data_structures": [
+    [
+      "hash map",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash map for value-to-coordinate lookup and counters for rows/columns"
+  ],
+  "problem_summary_simple": "Find the earliest move to completely paint a row or column in a matrix.",
+  "problem_summary_technical": "Uses a hash map to store value-to-coordinate mappings and arrays to count painted cells per row/column, returning the index of the first number that completes a row/column.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires efficiently tracking which cells are painted and checking if any row or column becomes fully painted after each move.",
+      "A hash map (`lookup`) is used to quickly find the row and column index for any given number from `arr`.",
+      "Two arrays, `row` and `col`, are used to maintain counts of painted cells for each row and column, respectively."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,38 @@
+{
+  "problem_name": "strobogrammatic-number-ii",
+  "data_structures": [
+    [
+      "list",
+      "hashmap"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Recursive construction of strobogrammatic numbers by building from the center outwards.",
+    "Iterative construction by expanding from smaller strobogrammatic numbers."
+  ],
+  "problem_summary_simple": "Find all strobogrammatic numbers of a given length.",
+  "problem_summary_technical": "Recursively or iteratively builds strobogrammatic numbers by adding valid pairs of digits around existing strobogrammatic numbers.",
+  "time_complexity": [
+    "O(n * 5^(n/2))",
+    "O(n * 5^(n/2))"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "For even length, start with an empty string and add pairs. For odd length, start with single middle digits (0, 1, 8).",
+      "When adding pairs, ensure the leading digit is not '0' for lengths greater than 1."
+    ],
+    [
+      "The recursive approach naturally handles the center-out construction.",
+      "The iterative approach builds up solutions for length k from solutions for length k-2."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

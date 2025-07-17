@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-ways-to-reach-a-position-after-exactly-k-steps",
+  "data_structures": [
+    [
+      "array for factorials",
+      "array for inverse factorials"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "combinatorics using combinations (nCr)"
+  ],
+  "problem_summary_simple": "Find ways to reach endPos from startPos in exactly k steps on a number line.",
+  "problem_summary_technical": "Calculates combinations C(k, (k - diff)/2) where diff is the absolute distance, using precomputed factorials.",
+  "time_complexity": [
+    "O(k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The problem reduces to choosing the number of right steps.",
+      "Let R be right steps and L be left steps. R + L = k and startPos + R - L = endPos.",
+      "Solving these gives R = (k + endPos - startPos)/2 and L = (k - endPos + startPos)/2. The number of ways is C(k, R)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

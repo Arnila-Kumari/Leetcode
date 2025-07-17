@@ -1,0 +1,54 @@
+{
+  "problem_name": "check-if-all-the-integers-in-a-range-are-covered",
+  "data_structures": [
+    [
+      "array",
+      "integer variable"
+    ],
+    [
+      "sorted array",
+      "integer variable"
+    ],
+    [
+      "generator expression",
+      "any function"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Difference array/prefix sum approach to mark covered intervals, then check coverage for the target range.",
+    "Sort intervals and greedily extend the covered range. Check if the entire target range is covered.",
+    "Brute-force check: iterate through each number in the target range and see if any interval covers it."
+  ],
+  "problem_summary_simple": "Check if all numbers in a given range [left, right] are covered by any of the provided intervals.",
+  "problem_summary_technical": "Verify coverage of [left, right] by intervals. Solutions involve difference arrays, greedy interval merging, or direct iteration.",
+  "time_complexity": [
+    "O(n + r)",
+    "O(n log n)",
+    "O(n * r)"
+  ],
+  "space_complexity": [
+    "O(r)",
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Solution 1 (Difference Array): Efficient for fixed, small ranges. Marks start/end of intervals to calculate coverage.",
+      "Solution 2 (Sorting): Good for larger ranges where sorting is amortized. Greedy approach works by extending coverage.",
+      "Solution 3 (Brute Force): Simple to understand but less efficient for large ranges or many intervals."
+    ],
+    [
+      "The constraints on `left`, `right`, and `endi` (<= 50) make the difference array approach very viable.",
+      "The greedy approach for Solution 2 relies on the fact that we only care about covering the `left` boundary and extending it."
+    ],
+    [
+      "The problem can be rephrased as finding if the union of intervals covers the target range.",
+      "Consider the maximum possible value of `right` when choosing an approach."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

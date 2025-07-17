@@ -1,0 +1,43 @@
+{
+  "problem_name": "lemonade-change",
+  "data_structures": [
+    [
+      "list",
+      "defaultdict"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedily use available bills to make change, prioritizing larger bills for change.",
+    "Maintain counts of $5 and $10 bills to satisfy customer payments."
+  ],
+  "problem_summary_simple": "Determine if you can provide correct change for customers paying with $5, $10, or $20 bills.",
+  "problem_summary_technical": "A greedy approach tracks available $5 and $10 bills to fulfill change requirements for each transaction.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Prioritize using $10 and $5 bills for $10 change, and $10 and $5 bills for $20 change.",
+      "If multiple options exist for change, using larger denominations first is generally better.",
+      "The order of bills matters; process customers sequentially."
+    ],
+    [
+      "Maintain counts of $5 and $10 bills.",
+      "When a $10 is received, use a $5 for change.",
+      "When a $20 is received, prioritize using a $10 and a $5, otherwise three $5s."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

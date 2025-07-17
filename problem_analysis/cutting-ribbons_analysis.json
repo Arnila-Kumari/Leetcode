@@ -1,0 +1,31 @@
+{
+  "problem_name": "cutting-ribbons",
+  "data_structures": [
+    [
+      "None"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the possible ribbon length, with a check function to count obtainable ribbons"
+  ],
+  "problem_summary_simple": "Find the maximum length 'x' such that you can cut at least 'k' ribbons of length 'x'.",
+  "problem_summary_technical": "Binary search for the maximum length 'x'. The check function counts how many ribbons of length 'x' can be obtained from the given ribbons.",
+  "time_complexity": [
+    "O(N * log(S/K))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem has a monotonic property: if you can cut 'k' ribbons of length 'x', you can also cut 'k' ribbons of any length less than 'x'.",
+      "Binary search is an efficient approach to find the maximum 'x'.",
+      "The `check` function efficiently calculates the total number of ribbons of a given length 's' that can be obtained."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

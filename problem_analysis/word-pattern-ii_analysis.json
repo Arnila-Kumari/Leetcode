@@ -1,0 +1,32 @@
+{
+  "problem_name": "word-pattern-ii",
+  "data_structures": [
+    [
+      "dictionary",
+      "set"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with hash maps to explore all possible word mappings."
+  ],
+  "problem_summary_simple": "Determine if a string can be formed by mapping pattern characters to substrings.",
+  "problem_summary_technical": "Uses backtracking to explore all possible substring assignments for pattern characters, ensuring bijective mapping.",
+  "time_complexity": [
+    "O(n * C(n - 1, c - 1))"
+  ],
+  "space_complexity": [
+    "O(n + c)"
+  ],
+  "key_insights": [
+    [
+      "This problem requires a recursive backtracking approach to explore all valid mappings.",
+      "The key is to maintain bijective mappings (using two dictionaries) and prune invalid paths early.",
+      "The complexity arises from trying all possible substring lengths for each pattern character."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

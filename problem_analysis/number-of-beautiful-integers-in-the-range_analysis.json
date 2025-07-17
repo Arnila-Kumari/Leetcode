@@ -1,0 +1,64 @@
+{
+  "problem_name": "number-of-beautiful-integers-in-the-range",
+  "data_structures": [
+    [
+      "memoization table (multi-dimensional array)"
+    ],
+    [
+      "DP table (multi-dimensional array)"
+    ],
+    [
+      "memoization table (multi-dimensional array)"
+    ],
+    [
+      "DP table (multi-dimensional array)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Digit DP with memoization, state includes index, tight constraint, even/odd diff, and modulo k.",
+    "Digit DP with tabulation, state includes index, tight constraint, even/odd diff, and modulo k.",
+    "Digit DP with memoization, state includes index, leading zeros, tight constraint, even/odd diff, and modulo k.",
+    "Digit DP with tabulation, state includes index, leading zeros, tight constraint, even/odd diff, and modulo k."
+  ],
+  "problem_summary_simple": "Count numbers in a range where even and odd digit counts are equal and the number is divisible by k.",
+  "problem_summary_technical": "Digit DP to count numbers satisfying even/odd digit balance and divisibility by k within a range [low, high].",
+  "time_complexity": [
+    "O(N^2 * K)",
+    "O(N^2 * K)",
+    "O(N^2 * K)",
+    "O(N^2 * K)"
+  ],
+  "space_complexity": [
+    "O(N^2 * K)",
+    "O(N * K)",
+    "O(N^2 * K)",
+    "O(N * K)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using Digit DP by building numbers digit by digit.",
+      "State needs to track the current digit position, whether the number is strictly less than the upper bound (tight constraint), the difference between even and odd digit counts, and the number's value modulo k.",
+      "The range [low, high] is handled by calculating count(high) - count(low-1)."
+    ],
+    [
+      "The problem can be solved using Digit DP by building numbers digit by digit.",
+      "State needs to track the current digit position, whether the number is strictly less than the upper bound (tight constraint), the difference between even and odd digit counts, and the number's value modulo k.",
+      "The range [low, high] is handled by calculating count(high) - count(low-1)."
+    ],
+    [
+      "The problem can be solved using Digit DP by building numbers digit by digit.",
+      "State needs to track the current digit position, leading zeros, whether the number is strictly less than the upper bound (tight constraint), the difference between even and odd digit counts, and the number's value modulo k.",
+      "The range [low, high] is handled by calculating count(high) - count(low-1)."
+    ],
+    [
+      "The problem can be solved using Digit DP by building numbers digit by digit.",
+      "State needs to track the current digit position, leading zeros, whether the number is strictly less than the upper bound (tight constraint), the difference between even and odd digit counts, and the number's value modulo k.",
+      "The range [low, high] is handled by calculating count(high) - count(low-1)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:01:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

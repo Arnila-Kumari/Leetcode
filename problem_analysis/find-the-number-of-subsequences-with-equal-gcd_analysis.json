@@ -1,0 +1,57 @@
+{
+  "problem_name": "find-the-number-of-subsequences-with-equal-gcd",
+  "data_structures": [
+    [
+      "array",
+      "hashmap",
+      "precomputed powers",
+      "precomputed LCM",
+      "precomputed Mobius function"
+    ],
+    [
+      "hashmap (DP table)"
+    ],
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Inclusion-Exclusion principle with Mobius inversion and precomputation.",
+    "Dynamic programming on GCD states.",
+    "Dynamic programming on GCD states with explicit table."
+  ],
+  "problem_summary_simple": "Count pairs of disjoint subsequences with the same GCD.",
+  "problem_summary_technical": "DP on GCD pairs, or Mobius inversion on counts of elements divisible by GCDs.",
+  "time_complexity": [
+    "O(n + r^2)",
+    "O(n * r^2 * logr)",
+    "O(n * r^2 * logr)"
+  ],
+  "space_complexity": [
+    "O(max_r^2)",
+    "O(r^2)",
+    "O(r^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves GCDs and disjoint subsequences, suggesting number theory and DP.",
+      "The Mobius inversion approach leverages counts of numbers divisible by a GCD to find exact GCD counts.",
+      "The DP approach tracks pairs of GCDs for two subsequences, which can become complex."
+    ],
+    [
+      "The DP state `dp[(g1, g2)]` represents the number of ways to form two disjoint subsequences with GCDs `g1` and `g2` respectively.",
+      "When considering a new number `x`, update states by taking GCD with `x` for both subsequences.",
+      "The final answer sums `dp[(g, g)]` for all `g > 0`."
+    ],
+    [
+      "The DP state `dp[g1][g2]` is similar to the hashmap approach but uses a 2D array.",
+      "Careful handling of state updates and modulo arithmetic is crucial.",
+      "The time complexity arises from iterating through all possible GCD pairs for each number."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:44:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

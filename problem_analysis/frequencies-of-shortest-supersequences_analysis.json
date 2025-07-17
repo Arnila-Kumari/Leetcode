@@ -1,0 +1,33 @@
+{
+  "problem_name": "frequencies-of-shortest-supersequences",
+  "data_structures": [
+    [
+      "adjacency list",
+      "hash map",
+      "array (for counts and indegree)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Topological sort with bitmasking and backtracking"
+  ],
+  "problem_summary_simple": "Find unique shortest common supersequences for given two-character words and return their letter frequencies.",
+  "problem_summary_technical": "Builds a directed graph representing character dependencies. Uses topological sort with bitmasks to explore valid SCS orderings and counts.",
+  "time_complexity": [
+    "O(N + K^2 * 2^K), where N is total length of words, K is number of unique characters"
+  ],
+  "space_complexity": [
+    "O(K^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding valid topological sorts of a directed graph where edges represent required character orderings.",
+      "Bitmasking is used to represent the counts of each character (whether it appears once or twice in the SCS).",
+      "The core logic involves iterating through all possible bitmasks, performing a modified topological sort, and checking for valid SCS constructions."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:46:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

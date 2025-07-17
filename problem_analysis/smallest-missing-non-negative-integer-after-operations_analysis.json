@@ -1,0 +1,44 @@
+{
+  "problem_name": "smallest-missing-non-negative-integer-after-operations",
+  "data_structures": [
+    [
+      "list",
+      "Counter (hash map)"
+    ],
+    [
+      "list",
+      "Counter (hash map)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a frequency map of numbers modulo 'value' to find the smallest missing non-negative integer by checking remainders.",
+    "Iterate through potential MEX values, checking if their remainder modulo 'value' is available in the frequency map."
+  ],
+  "problem_summary_simple": "Find the maximum possible MEX (smallest missing non-negative) after changing array elements by adding/subtracting 'value'.",
+  "problem_summary_technical": "Group numbers by their remainder modulo 'value'. Find the remainder with the fewest occurrences to maximize the MEX. The MEX is value * count + remainder.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that any number `x` can be transformed into `x % value` by adding/subtracting `value` multiple times.",
+      "We want to find the smallest non-negative integer `i` such that no number in `nums` can be transformed into `i`.",
+      "This means `i % value` must not be present in the remainders of `nums`."
+    ],
+    [
+      "The first solution calculates the minimum frequency remainder and constructs the MEX directly.",
+      "The second solution iterates through potential MEX values and decrements counts in the frequency map, returning the first one that cannot be formed.",
+      "Both solutions leverage the modulo property effectively."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

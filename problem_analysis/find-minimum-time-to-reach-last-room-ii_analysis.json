@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-minimum-time-to-reach-last-room-ii",
+  "data_structures": [
+    [
+      "2D array (grid)",
+      "min-heap (priority queue)",
+      "2D array (distance matrix)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm on a grid with alternating movement costs"
+  ],
+  "problem_summary_simple": "Find minimum time to traverse a grid with alternating 1s and 2s movement costs between adjacent rooms.",
+  "problem_summary_technical": "Dijkstra's algorithm on a grid where movement cost alternates between 1 and 2 based on the sum of coordinates.",
+  "time_complexity": [
+    "O(N * M * log(N * M))"
+  ],
+  "space_complexity": [
+    "O(N * M)"
+  ],
+  "key_insights": [
+    [
+      "This is a variation of Dijkstra's algorithm where edge weights are dynamic.",
+      "The movement cost depends on the parity of the sum of the current cell's coordinates.",
+      "The cost to enter a room is the maximum of the room's opening time and the current time, plus the movement cost."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

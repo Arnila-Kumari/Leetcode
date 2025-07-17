@@ -1,0 +1,31 @@
+{
+  "problem_name": "student-attendance-record-ii",
+  "data_structures": [
+    [
+      "none"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with state compression to count valid attendance records."
+  ],
+  "problem_summary_simple": "Count attendance records of length n that are eligible for an award.",
+  "problem_summary_technical": "Uses DP states representing (absences, consecutive lates) to count valid records modulo 10^9 + 7.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a classic DP problem where states represent counts of specific conditions.",
+      "The states can be compressed to O(1) space by only keeping track of the previous day's counts.",
+      "The transitions involve considering adding 'P', 'L', or 'A' to valid previous states."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

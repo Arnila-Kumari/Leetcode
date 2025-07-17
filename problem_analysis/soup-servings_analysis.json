@@ -1,0 +1,32 @@
+{
+  "problem_name": "soup-servings",
+  "data_structures": [
+    [
+      "hashmap",
+      "recursion"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Memoized recursion (top-down DP) to calculate probabilities of different soup states."
+  ],
+  "problem_summary_simple": "Calculate the probability that soup A empties first or simultaneously with soup B, given four serving operations.",
+  "problem_summary_technical": "Use memoized recursion to compute probabilities. States are (ml_A, ml_B). Base cases handle empty soups. Scale N by 25 for manageable states.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a probabilistic state transition system.",
+      "For large N, the probability of A emptying first or simultaneously approaches 1.0 due to the nature of operations.",
+      "Memoization is crucial to avoid recomputing probabilities for the same (A, B) states."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

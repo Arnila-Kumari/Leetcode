@@ -1,0 +1,33 @@
+{
+  "problem_name": "gcd-sort-of-an-array",
+  "data_structures": [
+    [
+      "UnionFind data structure",
+      "set",
+      "boolean array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find with prime factorization and sieve"
+  ],
+  "problem_summary_simple": "Determine if an array can be sorted by swapping elements with a GCD greater than 1.",
+  "problem_summary_technical": "Use Union-Find to group numbers sharing prime factors. Check if elements in the original array belong to the same group as their sorted counterparts.",
+  "time_complexity": [
+    "O(N log N + M log log M)"
+  ],
+  "space_complexity": [
+    "O(M)"
+  ],
+  "key_insights": [
+    [
+      "Numbers can be swapped if they share a common prime factor.",
+      "The problem can be modeled as finding connected components in a graph where edges exist between numbers with GCD > 1.",
+      "Union-Find is efficient for managing these connected components."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:46:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

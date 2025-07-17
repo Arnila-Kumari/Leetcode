@@ -1,0 +1,31 @@
+{
+  "problem_name": "check-if-array-pairs-are-divisible-by-k",
+  "data_structures": [
+    [
+      "dictionary (for remainder counts)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Remainder counting and pairing"
+  ],
+  "problem_summary_simple": "Determine if an array can be divided into pairs whose sums are divisible by k.",
+  "problem_summary_technical": "Count remainders modulo k. For each remainder `r`, its complement `k-r` must have the same count.",
+  "time_complexity": [
+    "O(n + k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "For a pair (a, b) to have a sum divisible by k, (a % k + b % k) % k must be 0.",
+      "This means if a % k = r, then b % k must be (k - r) % k.",
+      "We need to count the frequencies of remainders. The count of remainder `r` must equal the count of remainder `k-r` (for r != 0 and r != k/2). Remainder 0 must have an even count."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:17:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

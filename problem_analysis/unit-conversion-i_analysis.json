@@ -1,0 +1,32 @@
+{
+  "problem_name": "unit-conversion-i",
+  "data_structures": [
+    [
+      "list of lists",
+      "queue"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Build an adjacency list representing unit conversions and perform a Breadth-First Search (BFS) starting from unit 0."
+  ],
+  "problem_summary_simple": "Calculate how many units of type 0 are equivalent to one unit of each other type.",
+  "problem_summary_technical": "Models conversions as a graph, using BFS from unit 0 to compute cumulative conversion factors to all other units modulo 10^9 + 7.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding paths in a directed graph where edge weights are conversion factors.",
+      "BFS is suitable for finding the shortest path in terms of conversion steps, and accumulating factors along the way.",
+      "Modulo arithmetic is essential to prevent overflow for large conversion factors."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-deletions-to-make-array-beautiful",
+  "data_structures": [
+    [
+      "no explicit data structures beyond input array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the array, keeping track of the effective index and deleting elements that violate the beauty condition."
+  ],
+  "problem_summary_simple": "Delete minimum elements to make an array beautiful (even length, alternating elements).",
+  "problem_summary_technical": "Greedily iterates through the array, maintaining an effective index, and counts deletions needed to satisfy the even-length and alternating element conditions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The 'beautiful' condition applies to pairs of elements at even indices.",
+      "A greedy approach works by iterating and fixing violations as they occur.",
+      "The final length of the array must be even, so an extra deletion might be needed if the remaining count is odd."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

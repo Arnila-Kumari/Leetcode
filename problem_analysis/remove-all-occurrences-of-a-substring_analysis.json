@@ -1,0 +1,33 @@
+{
+  "problem_name": "remove-all-occurrences-of-a-substring",
+  "data_structures": [
+    [
+      "string",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "String",
+  "algorithm_technique": [
+    "KMP algorithm for efficient substring searching and removal"
+  ],
+  "problem_summary_simple": "Repeatedly remove the leftmost occurrence of a substring from a string until no more occurrences exist.",
+  "problem_summary_technical": "Utilizes KMP's prefix function to efficiently find and remove occurrences of 'part' from 's' in a single pass.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "The KMP algorithm's prefix function is crucial for optimizing substring matching.",
+      "A stack-like approach (using `result` and `lookup` lists) helps manage the string modifications efficiently.",
+      "The `lookup` array stores the KMP state, allowing quick backtracking when a match is found and removed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

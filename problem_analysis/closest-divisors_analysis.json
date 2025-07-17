@@ -1,0 +1,40 @@
+{
+  "problem_name": "closest-divisors",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through potential divisors up to sqrt(n) for num+1 and num+2, finding the pair with minimum difference.",
+    "Iterate through potential divisors up to sqrt(n) for num+1 and num+2, updating the best pair found so far."
+  ],
+  "problem_summary_simple": "Find two integers whose product is num+1 or num+2 and are closest to each other.",
+  "problem_summary_technical": "Find closest divisors for num+1 and num+2. Iterate up to sqrt(n) to find divisor pairs and minimize their difference.",
+  "time_complexity": [
+    "O(sqrt(n))",
+    "O(sqrt(n))"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking two numbers: num+1 and num+2.",
+      "For each number, finding the closest divisors involves iterating up to its square root."
+    ],
+    [
+      "The `min` function with a `key` lambda is used to compare divisor pairs based on their difference.",
+      "The loop condition `d*d <= num+2` ensures we check all relevant divisors."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

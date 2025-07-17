@@ -1,0 +1,33 @@
+{
+  "problem_name": "sequential-grid-path-cover",
+  "data_structures": [
+    [
+      "2D array (grid)",
+      "list of lists (result)",
+      "tuple (directions)"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with DFS to explore paths, marking visited cells and checking number sequence."
+  ],
+  "problem_summary_simple": "Find a path visiting all grid cells exactly once, in order of numbered cells.",
+  "problem_summary_technical": "Backtracking algorithm explores paths in a grid, ensuring sequential visits to numbered cells and covering all cells.",
+  "time_complexity": [
+    "O(m * n * 3^(m * n))"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to use Depth First Search (DFS) with backtracking.",
+      "The state in the recursion needs to track the current cell and the next expected number.",
+      "Marking visited cells temporarily (e.g., with -1) is crucial to avoid cycles and re-visits."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

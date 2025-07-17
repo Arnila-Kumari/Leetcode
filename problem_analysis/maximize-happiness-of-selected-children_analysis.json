@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximize-happiness-of-selected-children",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the happiness array in descending order and greedily pick the child with the highest current happiness, decrementing others."
+  ],
+  "problem_summary_simple": "Select k children to maximize total happiness, considering that unselected children's happiness decreases each turn.",
+  "problem_summary_technical": "Greedy approach: sort happiness descending, pick top k, subtracting turn index from happiness to account for decrements.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that to maximize the sum, we should always pick the child with the highest available happiness at each step.",
+      "The happiness of unselected children decreases by 1 in each turn. This means the i-th child picked (after sorting) will have their happiness reduced by i.",
+      "We must ensure that the happiness value never goes below zero, so we take max(happiness[i] - i, 0)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

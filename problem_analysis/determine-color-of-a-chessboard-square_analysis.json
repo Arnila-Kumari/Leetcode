@@ -1,0 +1,31 @@
+{
+  "problem_name": "determine-color-of-a-chessboard-square",
+  "data_structures": [
+    [
+      "String (input)"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Check the parity of the character's position and the digit's position to determine the square's color."
+  ],
+  "problem_summary_simple": "Determine if a chessboard square at given coordinates is white or black.",
+  "problem_summary_technical": "Calculate color based on the parity of the column (letter) and row (number) indices.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Chessboard coloring follows a pattern based on the sum of row and column indices.",
+      "If the sum of the 0-indexed row and column is even, the square is one color; if odd, it's the other.",
+      "The parity check `(ord(coordinates[0])-ord('a'))%2 != (ord(coordinates[1])-ord('1'))%2` efficiently determines if the parities of column and row differ, indicating a white square."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

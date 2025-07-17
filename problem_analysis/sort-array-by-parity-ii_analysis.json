@@ -1,0 +1,31 @@
+{
+  "problem_name": "sort-array-by-parity-ii",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers: one for even indices, one for odd indices, swapping misplaced elements."
+  ],
+  "problem_summary_simple": "Sort an array so even numbers are at even indices and odd numbers at odd indices.",
+  "problem_summary_technical": "In-place sort an array with equal even/odd numbers, ensuring nums[i] parity matches index i parity.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem guarantees an equal number of even and odd integers.",
+      "We need to find misplaced elements: an odd number at an even index or vice-versa.",
+      "A two-pointer approach can efficiently find these misplaced pairs and swap them."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

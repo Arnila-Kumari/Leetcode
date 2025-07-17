@@ -1,0 +1,31 @@
+{
+  "problem_name": "valid-mountain-array",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to find ascending and descending slopes"
+  ],
+  "problem_summary_simple": "Check if an array strictly increases then strictly decreases, with at least 3 elements.",
+  "problem_summary_technical": "Verify array strictly increases to a peak, then strictly decreases, requiring at least 3 elements and a valid peak.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find the peak by iterating from the start and end.",
+      "The peak must not be at the beginning or end of the array.",
+      "The array must strictly increase and then strictly decrease."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

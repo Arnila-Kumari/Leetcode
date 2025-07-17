@@ -1,0 +1,39 @@
+{
+  "problem_name": "combination-sum-iv",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with tabulation",
+    "Recursion with memoization (implicit in DP)"
+  ],
+  "problem_summary_simple": "Count the number of ordered combinations that sum to a target.",
+  "problem_summary_technical": "Dynamic programming to count ordered combinations summing to target. `dp[i]` stores ways to sum to `i`.",
+  "time_complexity": [
+    "O(n * t)",
+    "O(n * t)"
+  ],
+  "space_complexity": [
+    "O(t)",
+    "O(t)"
+  ],
+  "key_insights": [
+    [
+      "This problem counts permutations, not combinations, meaning order matters.",
+      "The DP state `dp[i]` represents the number of ways to form sum `i`.",
+      "The transition `dp[i] += dp[i - num]` sums up possibilities from previous states."
+    ],
+    [
+      "The follow-up question about negative numbers would require careful handling of cycles to avoid infinite loops.",
+      "A limitation like 'each number can be used at most once' or a bound on the number of times a number can be used would be necessary for negative numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

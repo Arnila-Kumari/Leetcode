@@ -1,0 +1,40 @@
+{
+  "problem_name": "maximum-possible-number-by-binary-concatenation",
+  "data_structures": [
+    [
+      "list of strings",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Custom sorting based on concatenation comparison",
+    "Brute force permutation check"
+  ],
+  "problem_summary_simple": "Concatenate binary representations of three numbers to form the largest possible number.",
+  "problem_summary_technical": "Sorts binary strings using a custom comparator that checks which concatenation yields a larger number, then converts to integer.",
+  "time_complexity": [
+    "O(n * logr * logn)",
+    "O(n! * nlogr)"
+  ],
+  "space_complexity": [
+    "O(nlogr)",
+    "O(nlogr)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to determine the optimal order of concatenation.",
+      "A custom comparison function is needed to decide the order of two numbers: `a` followed by `b` vs. `b` followed by `a`.",
+      "The comparison `x+y > y+x` correctly orders numbers for maximum concatenated value."
+    ],
+    [
+      "Brute-forcing all permutations is a valid but less efficient approach for small N.",
+      "This approach directly checks every possible ordering.",
+      "The complexity grows rapidly with the number of elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

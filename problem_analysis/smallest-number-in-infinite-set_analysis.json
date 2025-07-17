@@ -1,0 +1,32 @@
+{
+  "problem_name": "smallest-number-in-infinite-set",
+  "data_structures": [
+    [
+      "min-heap",
+      "set"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a min-heap to store available numbers and a set for quick lookups to manage the smallest available positive integers."
+  ],
+  "problem_summary_simple": "Manage an infinite set of positive integers, allowing popping the smallest and adding numbers back.",
+  "problem_summary_technical": "Maintain a min-heap for smallest elements and a set for tracking elements in the heap or already popped. `popSmallest` uses heap or increments a counter. `addBack` adds to heap if not present and not already accounted for.",
+  "time_complexity": [
+    "ctor: O(1), popSmallest: O(log n), addBack: O(log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A min-heap is the natural choice for efficiently retrieving the smallest element.",
+      "A set is needed to prevent duplicates when adding numbers back and to quickly check if a number is already in the heap or accounted for.",
+      "The `__n` variable acts as a pointer to the next sequential integer if the heap is empty, ensuring we always have a smallest element."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

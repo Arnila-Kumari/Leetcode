@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-unique-xor-triplets-i",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Leverage properties of XOR and permutations to determine the range of possible XOR sums."
+  ],
+  "problem_summary_simple": "Find the number of unique XOR sums of triplets (i, j, k) from a permutation.",
+  "problem_summary_technical": "For n >= 3, all values from 0 to 2^n - 1 can be formed as XOR sums of triplets.",
+  "time_complexity": [
+    "O(logn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem statement guarantees `nums` is a permutation of `[1, n]`.",
+      "For `n >= 3`, it's a known property that any value from 0 up to `2^n - 1` can be represented as an XOR sum of three elements from a permutation of `[1, n]`.",
+      "The `bit_length()` of `n` gives the number of bits required to represent `n`. `1 << n.bit_length()` effectively calculates `2^k` where `k` is the smallest integer such that `2^k >= n`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:03:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

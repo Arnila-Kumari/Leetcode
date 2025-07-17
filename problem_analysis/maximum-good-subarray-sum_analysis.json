@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-good-subarray-sum",
+  "data_structures": [
+    [
+      "hashmap (defaultdict)",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Prefix sums combined with a hashmap to efficiently find previous subarray sums."
+  ],
+  "problem_summary_simple": "Find the maximum sum of a subarray where the absolute difference between its first and last element is k.",
+  "problem_summary_technical": "Use prefix sums and a hashmap to store minimum prefix sums for each number, enabling O(1) lookup for potential subarray starts.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding `max(current_prefix_sum - prefix_sum_at_start)` where `nums[start] = nums[end] +/- k`.",
+      "A hashmap storing `value -> minimum_prefix_sum_ending_before_value` is crucial for efficient lookups.",
+      "Initialize the hashmap with `prefix[0] = 0` to handle subarrays starting from the beginning."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

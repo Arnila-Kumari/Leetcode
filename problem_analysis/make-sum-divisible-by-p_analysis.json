@@ -1,0 +1,33 @@
+{
+  "problem_name": "make-sum-divisible-by-p",
+  "data_structures": [
+    [
+      "array",
+      "hashmap",
+      "integer"
+    ]
+  ],
+  "category": "Hash Map",
+  "algorithm_technique": [
+    "Prefix sums with a hashmap to find subarray sum with target residue."
+  ],
+  "problem_summary_simple": "Find the smallest subarray to remove so the remaining sum is divisible by p.",
+  "problem_summary_technical": "Uses prefix sums modulo p and a hashmap to find subarray sums equal to the target residue.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(p)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding a subarray whose sum modulo p equals the total sum modulo p.",
+      "Prefix sums modulo p are crucial for efficiently calculating subarray sums.",
+      "A hashmap stores prefix sums and their indices for quick lookups."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

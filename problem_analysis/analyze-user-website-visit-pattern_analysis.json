@@ -1,0 +1,35 @@
+{
+  "problem_name": "analyze-user-website-visit-pattern",
+  "data_structures": [
+    [
+      "defaultdict",
+      "list",
+      "Counter",
+      "tuple"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Group visits by user, generate all 3-website visit patterns for each user, and count frequencies."
+  ],
+  "problem_summary_simple": "Find the most frequent 3-website visit pattern across all users.",
+  "problem_summary_technical": "Groups user visits, generates all 3-website combinations for each user, and counts pattern frequencies to find the lexicographically smallest highest-scoring pattern.",
+  "time_complexity": [
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n^3)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires identifying sequences of website visits for each user, not just individual visits.",
+      "Generating all combinations of 3 websites for each user is necessary to cover all possible patterns.",
+      "A frequency map (Counter) is essential to tally the scores of different patterns.",
+      "Lexicographical comparison is needed to break ties when multiple patterns have the same highest score."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:31:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

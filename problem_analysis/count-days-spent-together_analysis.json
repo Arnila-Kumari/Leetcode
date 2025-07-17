@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-days-spent-together",
+  "data_structures": [
+    [
+      "Array (for days in months)",
+      "Array (for prefix sums of days)"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Convert dates to day-of-year and find the intersection of two date ranges."
+  ],
+  "problem_summary_simple": "Calculate the number of overlapping days Alice and Bob are in Rome.",
+  "problem_summary_technical": "Converts MM-DD dates to day-of-year using prefix sums of days in months, then finds the intersection of the two intervals.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem simplifies to finding the intersection of two intervals on a timeline.",
+      "Converting dates to a single numerical representation (day of year) is essential.",
+      "Prefix sums are an efficient way to calculate cumulative days up to a certain month."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:36:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

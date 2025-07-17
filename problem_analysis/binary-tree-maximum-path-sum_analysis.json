@@ -1,0 +1,42 @@
+{
+  "problem_name": "binary-tree-maximum-path-sum",
+  "data_structures": [
+    [
+      "recursive function calls (implicit stack)",
+      "variable",
+      "list (for mutable return in iterative)",
+      "stack (for iterative)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive DFS returning max path sum starting from node",
+    "Iterative DFS using a stack to simulate recursion"
+  ],
+  "problem_summary_simple": "Find the maximum sum of any path in a binary tree.",
+  "problem_summary_technical": "DFS calculates max path sum through a node (including children) and max path sum extending upwards.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "A path can start and end at any node, not necessarily the root.",
+      "For each node, we need to consider paths that pass through it, potentially using both left and right children.",
+      "The recursive function should return the maximum path sum that *starts* at the current node and goes down one branch, to allow parent nodes to extend it."
+    ],
+    [
+      "The iterative approach simulates the recursive calls using a stack.",
+      "State management on the stack is crucial to correctly process node values and their children's results.",
+      "This avoids potential recursion depth limits for very deep trees."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

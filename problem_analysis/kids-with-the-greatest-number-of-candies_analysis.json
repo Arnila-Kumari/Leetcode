@@ -1,0 +1,31 @@
+{
+  "problem_name": "kids-with-the-greatest-number-of-candies",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Find the maximum number of candies, then compare each kid's potential candies to it."
+  ],
+  "problem_summary_simple": "Determine if each kid can have the most candies after receiving extra candies.",
+  "problem_summary_technical": "Iterate to find the maximum in the `candies` array. Then, for each element, check if `element + extraCandies` is greater than or equal to the maximum.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find the maximum number of candies any kid currently has.",
+      "Once the maximum is known, each kid's potential candy count (current + extra) can be directly compared.",
+      "A list comprehension provides a concise way to generate the boolean result array."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

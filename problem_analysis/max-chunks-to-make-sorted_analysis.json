@@ -1,0 +1,44 @@
+{
+  "problem_name": "max-chunks-to-make-sorted",
+  "data_structures": [
+    [
+      "list (array)",
+      "integer"
+    ],
+    [
+      "list (array)",
+      "list (stack)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array, maintaining the maximum element seen so far. A chunk can end when the maximum element equals the current index.",
+    "Use a monotonic stack to store the maximum element of each potential chunk, ensuring that elements in a chunk are less than or equal to the maximum of subsequent chunks."
+  ],
+  "problem_summary_simple": "Find the maximum number of contiguous subarrays (chunks) you can split an array into so that sorting each chunk individually sorts the whole array.",
+  "problem_summary_technical": "Identify split points where the maximum element to the left of the split equals the index of the split point, or use a monotonic stack to manage chunk maximums.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A chunk can be formed at index `i` if all elements from index 0 to `i` are less than or equal to all elements from `i+1` to `n-1`.",
+      "This condition is equivalent to checking if the maximum element in `arr[0...i]` is equal to `i`.",
+      "The monotonic stack approach ensures that for each chunk, its maximum element is correctly tracked and compared with subsequent elements."
+    ],
+    [
+      "The monotonic stack approach maintains the maximum value of each valid chunk encountered so far.",
+      "When a new number `num` is processed, if it's smaller than the top of the stack, it means `num` must belong to a previous chunk (or start a new one that merges with a previous one).",
+      "The stack effectively stores the maximum value of each chunk that can be formed to maintain the sorted property."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:58",
+  "batch_processed": true,
+  "batch_size": 4
+}

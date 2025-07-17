@@ -1,0 +1,32 @@
+{
+  "problem_name": "relative-sort-array",
+  "data_structures": [
+    [
+      "dictionary",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Custom sorting using a lookup dictionary"
+  ],
+  "problem_summary_simple": "Sort arr1 based on the order of elements in arr2, with remaining elements sorted at the end.",
+  "problem_summary_technical": "Use a dictionary to store the order of elements in arr2. Sort arr1 using a custom key based on this dictionary.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(m + k)"
+  ],
+  "key_insights": [
+    [
+      "A hash map (dictionary) is perfect for quickly looking up the desired order of elements from arr2.",
+      "The `sorted` function's `key` argument allows for custom sorting logic.",
+      "Elements not present in arr2 are handled by assigning them a higher sort priority (e.g., `len(arr2) + i`)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

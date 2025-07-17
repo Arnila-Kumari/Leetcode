@@ -1,0 +1,46 @@
+{
+  "problem_name": "n-queens",
+  "data_structures": [
+    [
+      "boolean arrays for column, diagonal tracking",
+      "list for current placement",
+      "list of lists for results"
+    ],
+    [
+      "list for column placement per row",
+      "list for diagonal sums/differences",
+      "list of lists for results"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with optimized conflict detection using boolean arrays for columns and diagonals.",
+    "Backtracking using sets to track occupied columns and diagonals (sum/difference of coordinates)."
+  ],
+  "problem_summary_simple": "Place N queens on an NxN board so none attack each other, return all valid configurations.",
+  "problem_summary_technical": "Use backtracking to explore queen placements, pruning invalid branches using sets or boolean arrays to track occupied columns and diagonals.",
+  "time_complexity": [
+    "O(N^2 * N!) - N! permutations, N^2 to check validity for each placement.",
+    "O(N^2 * N!) - N! permutations, N^2 to check validity for each placement."
+  ],
+  "space_complexity": [
+    "O(N) for recursion depth and auxiliary arrays.",
+    "O(N) for recursion depth and auxiliary lists."
+  ],
+  "key_insights": [
+    [
+      "The key to efficiency is quickly checking for conflicts. Instead of iterating through previous queens, use auxiliary data structures.",
+      "Boolean arrays for columns, main diagonals (row + col), and anti-diagonals (row - col) provide O(1) conflict checks.",
+      "The board representation can be built only when a valid solution is found."
+    ],
+    [
+      "Tracking occupied columns and diagonals using sets (or lists as shown) is an alternative to boolean arrays.",
+      "The sum of row and column indices (r+c) is constant for one diagonal, and the difference (r-c) is constant for the other.",
+      "This approach also achieves O(1) conflict checks."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:01:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

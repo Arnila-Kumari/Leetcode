@@ -1,0 +1,33 @@
+{
+  "problem_name": "the-maze-iii",
+  "data_structures": [
+    [
+      "2D array (maze)",
+      "min-heap (priority queue)",
+      "set (visited nodes)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Modified Dijkstra's algorithm considering path and lexicographical order."
+  ],
+  "problem_summary_simple": "Find the shortest and lexicographically smallest path for a ball to fall into a hole in a maze.",
+  "problem_summary_technical": "Dijkstra's algorithm where states are (distance, path_string, current_position). Prioritize shorter paths, then lexicographically smaller paths.",
+  "time_complexity": [
+    "O(R * C * log(R * C))"
+  ],
+  "space_complexity": [
+    "O((R * C)^2)"
+  ],
+  "key_insights": [
+    [
+      "The priority queue needs to store distance, path string, and current position.",
+      "The comparison in the priority queue must consider both distance and lexicographical order of the path.",
+      "The 'neighbors' function needs to return the stopping point, the direction taken, and the distance traveled."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:12:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

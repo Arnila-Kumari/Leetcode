@@ -1,0 +1,32 @@
+{
+  "problem_name": "make-number-of-distinct-characters-equal",
+  "data_structures": [
+    [
+      "hashmap",
+      "counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency Counting and Brute-force Swapping Check"
+  ],
+  "problem_summary_simple": "Check if one swap between two strings can make their distinct character counts equal.",
+  "problem_summary_technical": "Count character frequencies. Iterate through all possible character swaps between strings and check if distinct counts become equal after the swap.",
+  "time_complexity": [
+    "O(m + n + 26^2)"
+  ],
+  "space_complexity": [
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to simulate a single swap and check the resulting distinct character counts.",
+      "We need to consider swaps where characters are the same and where they are different.",
+      "Frequency maps (Counters) are efficient for tracking distinct characters and their counts."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

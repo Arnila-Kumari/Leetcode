@@ -1,0 +1,42 @@
+{
+  "problem_name": "find-the-index-of-the-first-occurrence-in-a-string",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "string slicing"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Knuth-Morris-Pratt (KMP) algorithm for string matching",
+    "Brute-force string matching with slicing"
+  ],
+  "problem_summary_simple": "Find the starting index of the first occurrence of a smaller string (needle) within a larger string (haystack).",
+  "problem_summary_technical": "KMP algorithm uses a prefix function to efficiently skip comparisons, while brute-force checks all possible starting positions.",
+  "time_complexity": [
+    "O(n + k)",
+    "O(n * k)"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "KMP algorithm preprocesses the pattern to build a prefix function, enabling efficient pattern matching.",
+      "The prefix function helps avoid redundant comparisons by identifying overlapping sub-patterns.",
+      "This leads to a linear time complexity for string searching."
+    ],
+    [
+      "A straightforward approach is to iterate through all possible starting positions in the haystack.",
+      "For each position, compare the substring of haystack with the needle.",
+      "This can be inefficient if the needle is long or appears late in the haystack."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

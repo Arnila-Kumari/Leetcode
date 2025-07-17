@@ -1,0 +1,32 @@
+{
+  "problem_name": "permutations-iii",
+  "data_structures": [
+    [
+      "list",
+      "integer (bitmask)"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with bitmask to track used numbers and parity check for alternating property"
+  ],
+  "problem_summary_simple": "Find all permutations of 1 to n where adjacent numbers have different parity.",
+  "problem_summary_technical": "Backtracking with a bitmask to manage used numbers and a parity check for adjacent elements.",
+  "time_complexity": [
+    "O(n * n!)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires generating permutations with an alternating parity constraint.",
+      "A bitmask is an efficient way to keep track of which numbers from 1 to n have been used.",
+      "The core logic involves checking the parity of the current number against the last added number in the permutation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

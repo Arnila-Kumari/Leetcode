@@ -1,0 +1,32 @@
+{
+  "problem_name": "check-if-strings-can-be-made-equal-with-operations-ii",
+  "data_structures": [
+    [
+      "Counter (for frequency mapping)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting of characters at even and odd indices separately.",
+    "The swap operation (i, j) with j-i even allows arbitrary rearrangement within even-indexed positions and odd-indexed positions."
+  ],
+  "problem_summary_simple": "Can two strings be made equal by swapping characters at indices i and j if their difference is even?",
+  "problem_summary_technical": "Checks if character counts at even indices and odd indices are the same for both strings, as swaps preserve parity.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that swapping characters at indices `i` and `j` where `j - i` is even means that characters at even positions can be arbitrarily permuted among themselves, and similarly for odd positions.",
+      "Therefore, to make two strings equal, they must have the same count of each character at even indices and the same count of each character at odd indices.",
+      "Using `collections.Counter` on slices of strings with a step of 2 efficiently checks these counts."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

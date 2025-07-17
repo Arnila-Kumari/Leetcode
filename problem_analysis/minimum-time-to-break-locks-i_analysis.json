@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimum-time-to-break-locks-i",
+  "data_structures": [
+    [
+      "2D array (cost matrix)",
+      "arrays (for Hungarian algorithm)"
+    ],
+    [
+      "array (DP table)",
+      "integer (bitmask)"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Hungarian algorithm for minimum weight perfect matching.",
+    "Dynamic programming with bitmasking to explore all permutations."
+  ],
+  "problem_summary_simple": "Find the minimum time to break all locks by assigning them to workers with increasing energy factors.",
+  "problem_summary_technical": "Minimum weight bipartite matching (Hungarian algorithm) or DP with bitmasking to find optimal lock-to-worker assignment.",
+  "time_complexity": [
+    "O(n^3)",
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(n^2)",
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as assigning locks to 'slots' defined by the order of breaking.",
+      "The cost of breaking a lock depends on its strength and the current energy factor, which is determined by the number of previously broken locks.",
+      "The Hungarian algorithm finds the minimum cost assignment in a bipartite graph, which fits this problem's structure."
+    ],
+    [
+      "The state of the DP can be represented by a bitmask indicating which locks have been broken.",
+      "The transitions involve trying to break an unbroken lock next, updating the time and the energy factor.",
+      "This approach explores all possible orders of breaking locks."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

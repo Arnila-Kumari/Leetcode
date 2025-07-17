@@ -1,0 +1,33 @@
+{
+  "problem_name": "smallest-subsequence-of-distinct-characters",
+  "data_structures": [
+    [
+      "stack",
+      "hash set",
+      "hash map (Counter)"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack with character counts and seen set"
+  ],
+  "problem_summary_simple": "Find the lexicographically smallest subsequence containing all unique characters of the string exactly once.",
+  "problem_summary_technical": "Use a monotonic stack to build the subsequence, greedily adding characters while ensuring lexicographical order and distinctness.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maintain a monotonically increasing subsequence in the stack.",
+      "When considering a new character, if it's smaller than the stack top and the stack top character appears later, pop the stack top.",
+      "A `seen` set prevents duplicate characters in the subsequence, and `count` ensures we don't remove characters that are needed later."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

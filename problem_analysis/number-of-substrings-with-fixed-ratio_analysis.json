@@ -1,0 +1,37 @@
+{
+  "problem_name": "number-of-substrings-with-fixed-ratio",
+  "data_structures": [
+    [
+      "hashmap",
+      "collections.Counter"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Prefix sum with hashmap to count occurrences of specific prefix differences."
+  ],
+  "problem_summary_simple": "Count substrings where the ratio of 0s to 1s matches a given ratio.",
+  "problem_summary_technical": "Uses prefix sums of (num1 * count('1') - num2 * count('0')) and a hashmap to find matching differences.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased: count substrings where `num1 * count('1') == num2 * count('0')`.",
+      "Rearranging: `num1 * count('1') - num2 * count('0') == 0`.",
+      "Let `val(c)` be `num1` if `c == '1'` and `-num2` if `c == '0'`. We want substrings where `sum(val(c))` over the substring is 0."
+    ],
+    [
+      "This is equivalent to finding pairs of indices `i, j` such that `prefix_sum[j] - prefix_sum[i-1] == 0`.",
+      "Using a hashmap to store frequencies of prefix sums allows us to count these pairs efficiently.",
+      "The key insight is transforming the ratio condition into a prefix sum problem."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

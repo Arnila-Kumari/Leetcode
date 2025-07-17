@@ -1,0 +1,48 @@
+{
+  "problem_name": "maximum-score-of-non-overlapping-intervals",
+  "data_structures": [
+    [
+      "dictionary",
+      "list of tuples",
+      "list of lists",
+      "list of integers"
+    ],
+    [
+      "dictionary",
+      "list of tuples",
+      "list of lists",
+      "list of integers"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sort intervals by end time. Use DP where dp[i][k] stores the max score and indices using first i intervals with k non-overlapping intervals.",
+    "Sort intervals by start time. Use DP where dp[i][k] stores the max score and indices using intervals from i onwards with k non-overlapping intervals."
+  ],
+  "problem_summary_simple": "Select up to 4 non-overlapping intervals to maximize total weight, returning the lexicographically smallest indices.",
+  "problem_summary_technical": "Sort intervals by end/start time. Use dynamic programming with state dp[i][k] for max score and indices using first/last i intervals with k selections.",
+  "time_complexity": [
+    "O(n log n + n * k^2)",
+    "O(n log n + n * k^2)"
+  ],
+  "space_complexity": [
+    "O(n * k^2)",
+    "O(n * k^2)"
+  ],
+  "key_insights": [
+    [
+      "Sorting intervals by their end times is a common strategy for interval problems, enabling a DP approach.",
+      "The DP state needs to track both the maximum score and the indices to ensure lexicographical order.",
+      "Binary search is used to efficiently find the latest non-overlapping interval for the DP transition."
+    ],
+    [
+      "Sorting intervals by start times also allows for a DP solution, but the transitions might be structured differently.",
+      "The DP state needs to consider intervals from the current one onwards.",
+      "The requirement for lexicographically smallest indices adds complexity to the DP state and transitions."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:54:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

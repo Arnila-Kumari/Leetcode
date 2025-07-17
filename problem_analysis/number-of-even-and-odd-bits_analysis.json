@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-even-and-odd-bits",
+  "data_structures": [
+    [
+      "None"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bitwise AND with masks to isolate even/odd positioned bits"
+  ],
+  "problem_summary_simple": "Count set bits at even and odd positions in a number's binary representation.",
+  "problem_summary_technical": "Employs bitwise AND operations with specific masks (0101... for even, 1010... for odd) to isolate bits, then counts set bits.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Bitwise AND with a mask is an efficient way to check specific bit positions.",
+      "The masks 0b0101010101 and 0b1010101010 effectively isolate bits at even and odd indices respectively.",
+      "The `bin(x)[2:].count('1')` is a concise way to count set bits in Python."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

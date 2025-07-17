@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximal-score-after-applying-k-operations",
+  "data_structures": [
+    [
+      "heap",
+      "array"
+    ],
+    [
+      "heap",
+      "array"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach using a max-heap to always pick the largest number.",
+    "Greedy approach using a max-heap to always pick the largest number."
+  ],
+  "problem_summary_simple": "Maximize score by repeatedly picking the largest number and replacing it with its ceiling divided by 3.",
+  "problem_summary_technical": "Use a max-heap to greedily select the largest element, update it, and re-insert until k operations are done.",
+  "time_complexity": [
+    "O(n + k log n)",
+    "O(n + k log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is greedy: always pick the largest available number to maximize the immediate score.",
+      "A max-heap is the ideal data structure to efficiently retrieve the largest element.",
+      "The ceiling division needs to be handled correctly, and 0 values should not be re-inserted."
+    ],
+    [
+      "The greedy strategy of picking the largest number at each step is optimal.",
+      "A max-heap allows for efficient retrieval of the maximum element and insertion of updated values.",
+      "The ceiling division `(a + b - 1) // b` is a standard way to compute ceil(a/b)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:04",
+  "batch_processed": true,
+  "batch_size": 4
+}

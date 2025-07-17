@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-integer-added-to-array-i",
+  "data_structures": [
+    [
+      "variable"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Difference between maximum elements"
+  ],
+  "problem_summary_simple": "Find the constant integer added to each element of nums1 to make it equal to nums2.",
+  "problem_summary_technical": "The difference between the maximum elements of nums2 and nums1 will reveal the added integer.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Since the same integer 'x' is added to every element of nums1, the difference between corresponding elements will always be 'x'.",
+      "Therefore, the difference between the maximum element of nums2 and the maximum element of nums1 will also be 'x'.",
+      "This approach is efficient as it only requires finding the maximum element in each array."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

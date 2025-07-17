@@ -1,0 +1,56 @@
+{
+  "problem_name": "palindrome-pairs",
+  "data_structures": [
+    [
+      "hashmap",
+      "list"
+    ],
+    [
+      "hashmap",
+      "list"
+    ],
+    [
+      "TrieNode",
+      "list"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Iterate through all possible splits of each word, check palindrome, and use a hashmap for reverse lookup.",
+    "Utilize Manacher's algorithm to find all palindromic substrings and then combine with reversed word lookups.",
+    "Build a Trie of reversed words and traverse it with each word to find palindrome pairs."
+  ],
+  "problem_summary_simple": "Find pairs of words that form a palindrome when concatenated.",
+  "problem_summary_technical": "Checks all word concatenations for palindromes, optimizing with hash maps, Manacher's algorithm, or Tries for efficient lookups.",
+  "time_complexity": [
+    "O(n * k^2)",
+    "O(n * k^2)",
+    "O(n * k^2)"
+  ],
+  "space_complexity": [
+    "O(n * k)",
+    "O(n * k^2)",
+    "O(n * k)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into checking prefixes and suffixes of words.",
+      "A hash map is essential for efficient lookup of reversed word parts.",
+      "Handling empty strings and self-palindrome words requires special attention."
+    ],
+    [
+      "Manacher's algorithm efficiently finds all palindromic substrings.",
+      "Combining Manacher's output with word reversals helps identify potential pairs.",
+      "This approach can be complex to implement correctly."
+    ],
+    [
+      "Tries are well-suited for prefix-based string matching.",
+      "Storing reversed words in the Trie allows for efficient searching of complementary palindromic parts.",
+      "The Trie solution can be more intuitive for this problem."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

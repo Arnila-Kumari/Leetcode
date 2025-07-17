@@ -1,0 +1,32 @@
+{
+  "problem_name": "traffic-light-controlled-intersection",
+  "data_structures": [
+    [
+      "threading.Lock",
+      "integer"
+    ]
+  ],
+  "category": "Concurrency",
+  "algorithm_technique": [
+    "Use a lock to ensure only one thread accesses the shared traffic light state."
+  ],
+  "problem_summary_simple": "Manage traffic lights at an intersection to allow cars to pass safely without deadlock.",
+  "problem_summary_technical": "Synchronizes car arrivals using a lock, ensuring only one road has a green light at a time.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is managing concurrent access to the shared traffic light state.",
+      "A mutex (lock) is essential to prevent race conditions when multiple cars arrive.",
+      "The logic ensures that if a car arrives on a road with a red light, the light is switched to green for that road."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

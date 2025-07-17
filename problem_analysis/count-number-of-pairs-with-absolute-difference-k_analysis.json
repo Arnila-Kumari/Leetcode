@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-number-of-pairs-with-absolute-difference-k",
+  "data_structures": [
+    [
+      "hashmap",
+      "defaultdict"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hashmap to store counts and check for complements"
+  ],
+  "problem_summary_simple": "Find pairs in an array with a specific absolute difference.",
+  "problem_summary_technical": "Iterate through the array, using a hashmap to count occurrences of numbers that satisfy the absolute difference condition.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A hashmap (or defaultdict) is efficient for storing and retrieving counts of numbers.",
+      "For each number `x`, we check for `x-k` and `x+k` in the hashmap to find valid pairs.",
+      "The order of operations (checking before updating the hashmap) is crucial to avoid counting a pair with itself."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:36:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

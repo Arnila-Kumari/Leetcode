@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-threshold-for-inversion-pairs-count",
+  "data_structures": [
+    [
+      "list",
+      "SortedList"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the threshold value, using a sorted list to count inversions efficiently."
+  ],
+  "problem_summary_simple": "Find the smallest threshold 'x' such that there are at least 'k' inversion pairs with a difference of at most 'x'.",
+  "problem_summary_technical": "Binary search for the minimum threshold. For a given threshold, use a SortedList to count inversions efficiently by querying ranges.",
+  "time_complexity": [
+    "O(nlogn * logr)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the minimum value satisfying a condition, suggesting binary search on the answer.",
+      "For a fixed threshold 'x', counting inversions (nums[i] > nums[j] and nums[i] - nums[j] <= x) can be done efficiently using a data structure like SortedList.",
+      "Iterating through the array and using SortedList's `bisect_left` to count elements within the range `[i-x, i)` allows for O(n log n) counting per threshold."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

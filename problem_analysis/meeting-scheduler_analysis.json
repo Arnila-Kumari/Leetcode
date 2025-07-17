@@ -1,0 +1,42 @@
+{
+  "problem_name": "meeting-scheduler",
+  "data_structures": [
+    [
+      "heap",
+      "list"
+    ],
+    [
+      "sorted arrays",
+      "pointers"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Heap-based approach to find common slots",
+    "Two-pointer approach on sorted slots to find overlap"
+  ],
+  "problem_summary_simple": "Find the earliest common time slot of a given duration for two people's availability.",
+  "problem_summary_technical": "Given two lists of time intervals and a duration, find the earliest overlapping interval of at least that duration.",
+  "time_complexity": [
+    "O(N log N) where N is the total number of slots",
+    "O(N log N) where N is the total number of slots"
+  ],
+  "space_complexity": [
+    "O(N) for the heap",
+    "O(1) if sorting in-place, O(N) otherwise"
+  ],
+  "key_insights": [
+    [
+      "Sorting is crucial for efficient comparison.",
+      "The two-pointer approach is generally more space-efficient."
+    ],
+    [
+      "Filtering slots shorter than duration upfront can optimize.",
+      "The earliest common slot is found by advancing pointers based on end times."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

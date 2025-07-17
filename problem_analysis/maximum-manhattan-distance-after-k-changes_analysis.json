@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-manhattan-distance-after-k-changes",
+  "data_structures": [
+    [
+      "variables for tracking coordinates and max distance"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Simulate movements, track current position, and greedily use k changes to maximize Manhattan distance at each step."
+  ],
+  "problem_summary_simple": "Find the maximum Manhattan distance from origin after changing up to k moves.",
+  "problem_summary_technical": "Track (x, y) position. At each step, consider the maximum possible Manhattan distance |x| + |y| + 2*k, capped by the number of steps taken.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The Manhattan distance is |x| + |y|. To maximize this, we want to move as far as possible in any cardinal direction.",
+      "Each change of a character allows us to flip a move. For example, changing 'S' to 'N' effectively adds 2 units to the y-coordinate.",
+      "The maximum distance at any point `i` is limited by the total number of steps `i` and the potential distance gained by using `k` changes. The formula `min(abs(x)+abs(y)+2*k, i)` captures this."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

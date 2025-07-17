@@ -1,0 +1,33 @@
+{
+  "problem_name": "zero-array-transformation-ii",
+  "data_structures": [
+    [
+      "array",
+      "binary search"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the number of queries, with line sweep check.",
+    "Line sweep (difference array) within a check function."
+  ],
+  "problem_summary_simple": "Find the minimum number of initial queries to make an array zero, allowing partial decrements.",
+  "problem_summary_technical": "Binary search for the minimum 'k' queries. For each 'k', use line sweep to check if `nums` can be zeroed by the first 'k' queries.",
+  "time_complexity": [
+    "O(q * (n + q) * log q)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the minimum 'k' such that the first 'k' queries can transform `nums` to zero. This suggests a binary search on 'k'.",
+      "The `check(k)` function needs to verify if the first `k` queries are sufficient. This involves simulating the decrements. Since we can choose *how much* to decrement (up to `vali`), we want to maximize decrements to satisfy the largest `nums[i]` values first.",
+      "A line sweep (difference array) is used within `check(k)`. For each query `[l, r, val]`, we add `val` to `events[l]` and subtract `val` from `events[r+1]`. The cumulative sum `curr` at index `i` represents the maximum possible decrement applied to `nums[i]` by the first `k` queries. We must ensure `nums[i] <= curr` for all `i`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:14:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

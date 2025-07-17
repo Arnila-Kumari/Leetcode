@@ -1,0 +1,32 @@
+{
+  "problem_name": "delete-nodes-from-linked-list-present-in-array",
+  "data_structures": [
+    [
+      "hash set",
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterate through linked list, use hash set for O(1) value lookup to remove nodes."
+  ],
+  "problem_summary_simple": "Remove nodes from a linked list if their values are in a given array.",
+  "problem_summary_technical": "Traverse linked list, using a hash set for efficient lookup of values to be deleted.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "Using a hash set (lookup) for the array elements allows for O(1) average time complexity for checking if a node's value needs to be deleted.",
+      "A dummy node simplifies handling the head of the linked list, especially when the head itself needs to be removed.",
+      "The `curr` pointer always points to the node *before* the one being checked, allowing for easy modification of `curr.next`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "closest-leaf-in-a-binary-tree",
+  "data_structures": [
+    [
+      "hash map",
+      "set",
+      "queue"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Graph traversal (BFS) on an implicit graph representing the tree, including parent pointers."
+  ],
+  "problem_summary_simple": "Find the leaf node closest to a given node with value k in a binary tree.",
+  "problem_summary_technical": "Builds an adjacency list for the tree (including parent links) and performs BFS from k to find the nearest leaf.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Treat the tree as an undirected graph where edges connect parent-child relationships.",
+      "BFS is suitable for finding the shortest path in an unweighted graph.",
+      "Need to identify all leaf nodes beforehand or during traversal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

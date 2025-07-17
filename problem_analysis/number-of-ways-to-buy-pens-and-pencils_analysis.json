@@ -1,0 +1,38 @@
+{
+  "problem_name": "number-of-ways-to-buy-pens-and-pencils",
+  "data_structures": [
+    [],
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through possible quantities of one item, calculate remaining budget for the other, and sum up possibilities. Uses arithmetic progression sums.",
+    "Iterate through possible quantities of one item, calculate remaining budget for the other, and sum up possibilities."
+  ],
+  "problem_summary_simple": "Find how many ways you can buy pens and pencils given their costs and a total budget.",
+  "problem_summary_technical": "Iterate through the number of one item, calculate how many of the other can be bought with remaining budget, and sum up.",
+  "time_complexity": [
+    "O(min(total / cost1, cost2 / gcd(cost1, cost2)))",
+    "O(total / max(cost1, cost2))"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through the number of one item and calculating the possibilities for the other.",
+      "The number of ways to buy the second item forms an arithmetic progression for each fixed quantity of the first item.",
+      "Optimizing the iteration range and using arithmetic progression sum formula improves efficiency."
+    ],
+    [
+      "A straightforward approach is to iterate through all possible counts of one item (e.g., pens).",
+      "For each count of pens, calculate the maximum number of pencils that can be bought with the remaining money.",
+      "Summing up the counts of pencils for each pen count gives the total number of ways."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

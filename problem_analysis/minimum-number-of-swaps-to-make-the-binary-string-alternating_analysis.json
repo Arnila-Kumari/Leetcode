@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-number-of-swaps-to-make-the-binary-string-alternating",
+  "data_structures": [
+    [
+      "none"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Count character frequencies and calculate mismatches for target alternating patterns"
+  ],
+  "problem_summary_simple": "Find minimum swaps to make a binary string alternating (e.g., 0101 or 1010).",
+  "problem_summary_technical": "Calculate mismatches between the string and target alternating patterns ('0101...' or '1010...'), considering counts of '0's and '1's.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "An alternating string must have counts of '0's and '1's differing by at most 1.",
+      "If counts are valid, there are at most two possible target alternating strings.",
+      "The minimum swaps needed is half the number of misplaced characters for the best target pattern."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,59 @@
+{
+  "problem_name": "query-kth-smallest-trimmed-number",
+  "data_structures": [
+    [
+      "List of strings",
+      "List of lists (for queries)",
+      "List of integers (for indices)"
+    ],
+    [
+      "List of strings",
+      "List of lists (for queries)",
+      "List of integers (for indices)"
+    ],
+    [
+      "List of strings",
+      "List of lists (for queries)",
+      "List of integers (for indices)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Radix Sort: Sorts numbers digit by digit, efficiently handling trimmed values.",
+    "Quickselect: Finds the k-th smallest element in an unsorted list using partitioning.",
+    "Sorting: Sorts the trimmed numbers for each query and picks the k-th element."
+  ],
+  "problem_summary_simple": "Find the index of the k-th smallest number after trimming digits from the right.",
+  "problem_summary_technical": "For each query, trim numbers, sort them (or use selection), and find the k-th smallest's original index. Radix sort is an efficient sorting method.",
+  "time_complexity": [
+    "O(q + n * t_max)",
+    "O(q * n) on average",
+    "O(q * n log n * t_max)"
+  ],
+  "space_complexity": [
+    "O(n + q + t_max)",
+    "O(n + q)",
+    "O(n + q + t_max)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires repeated sorting or selection based on trimmed values.",
+      "Radix sort is well-suited for sorting numbers (strings of digits) and can be adapted for trimmed numbers by considering digits from right to left.",
+      "The comparison logic for sorting needs to handle leading zeros and the original index for tie-breaking."
+    ],
+    [
+      "Quickselect offers an average O(n) solution for finding the k-th element, but the custom comparison function based on trimmed numbers adds complexity.",
+      "The comparison function needs to iterate through the relevant digits for trimming and handle lexicographical comparison.",
+      "Random pivot selection is key to achieving average O(n) performance for Quickselect."
+    ],
+    [
+      "A straightforward approach is to sort the indices based on the trimmed numbers for each query.",
+      "The sorting key must incorporate the trimming length and the original index for tie-breaking.",
+      "Pre-calculating the maximum trim length can help optimize by grouping queries with the same trim length."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:05:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

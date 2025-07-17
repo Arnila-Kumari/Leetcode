@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-cost-to-reach-every-position",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Prefix minimum calculation."
+  ],
+  "problem_summary_simple": "Calculate the minimum cost to reach each position from the end of a line, given swap costs.",
+  "problem_summary_technical": "The cost to reach position `i` is the minimum of `cost[i]` and the cost to reach `i-1`.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that if you can reach position `i-1` with a certain minimum cost, you can also reach position `i` with at most that same cost.",
+      "This is because you can always choose to swap with person `i-1` (if `cost[i-1]` is cheaper than `cost[i]`) and then effectively be at position `i-1`, from which you can reach `i` for free (or with the same cost as reaching `i-1`).",
+      "The problem can be solved by iterating from left to right and maintaining the minimum cost seen so far."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:57:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

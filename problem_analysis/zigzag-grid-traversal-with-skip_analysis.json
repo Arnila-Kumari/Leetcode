@@ -1,0 +1,32 @@
+{
+  "problem_name": "zigzag-grid-traversal-with-skip",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through rows, applying the zigzag pattern and skipping alternate cells based on row parity."
+  ],
+  "problem_summary_simple": "Traverse a grid in a zigzag pattern, skipping every other cell.",
+  "problem_summary_technical": "Row-by-row traversal, alternating direction and skipping cells based on row index parity and column index parity.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The traversal direction alternates for each row.",
+      "The skipping logic depends on the row index (even/odd) and the column index.",
+      "Even rows traverse right, skipping odd columns. Odd rows traverse left, skipping even columns (relative to the start of the row traversal)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:14:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

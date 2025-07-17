@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-pattern-in-infinite-stream-i",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Knuth-Morris-Pratt (KMP) algorithm for pattern matching"
+  ],
+  "problem_summary_simple": "Find the first index where a given pattern matches in an infinite stream of bits.",
+  "problem_summary_technical": "Utilizes KMP's prefix function to efficiently match a pattern against an unbounded stream of bits, reading one bit at a time.",
+  "time_complexity": [
+    "O(p + n)"
+  ],
+  "space_complexity": [
+    "O(p)"
+  ],
+  "key_insights": [
+    [
+      "KMP's prefix function (LPS array) is crucial for avoiding redundant comparisons.",
+      "The algorithm processes the stream character by character, maintaining state for pattern matching.",
+      "The infinite nature of the stream means the search continues until a match is found."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

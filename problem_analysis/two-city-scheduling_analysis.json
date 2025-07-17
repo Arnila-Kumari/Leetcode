@@ -1,0 +1,32 @@
+{
+  "problem_name": "two-city-scheduling",
+  "data_structures": [
+    [
+      "list",
+      "random module"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Use QuickSelect to find the n-th element based on the cost difference (costA - costB). Assign first n elements to city A and the rest to city B based on this ordering."
+  ],
+  "problem_summary_simple": "Minimize cost by flying n people to city A and n to city B.",
+  "problem_summary_technical": "Sorts based on the difference in costs (costA - costB) using QuickSelect. Assigns the first n people to city A and the remaining n to city B to minimize total cost.",
+  "time_complexity": [
+    "O(n) on average, O(n^2) worst-case"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as selecting n people for city A and n for city B.",
+      "The key insight is that sending a person to city A instead of city B incurs a cost difference of `costA - costB`.",
+      "By sorting based on this difference, we greedily pick those with the smallest `costA - costB` to go to city A."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

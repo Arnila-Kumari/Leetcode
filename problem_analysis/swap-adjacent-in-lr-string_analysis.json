@@ -1,0 +1,33 @@
+{
+  "problem_name": "swap-adjacent-in-lr-string",
+  "data_structures": [
+    [
+      "string",
+      "integer pointers"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to track 'L' and 'R' characters, checking relative positions."
+  ],
+  "problem_summary_simple": "Check if one string can be transformed into another by swapping adjacent 'XL' to 'LX' or 'RX' to 'XR'.",
+  "problem_summary_technical": "Verify that the non-'X' characters match in order and that 'L's only move left and 'R's only move right relative to their original positions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of 'X's must be the same in both strings for a transformation to be possible.",
+      "The relative order of 'L's and 'R's must be preserved.",
+      "An 'L' character can only move to the left (i.e., its index in `result` must be less than or equal to its index in `start`).",
+      "An 'R' character can only move to the right (i.e., its index in `result` must be greater than or equal to its index in `start`)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

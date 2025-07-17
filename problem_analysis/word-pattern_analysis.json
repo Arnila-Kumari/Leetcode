@@ -1,0 +1,44 @@
+{
+  "problem_name": "word-pattern",
+  "data_structures": [
+    [
+      "dictionary",
+      "generator"
+    ],
+    [
+      "list",
+      "dictionary"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Bijection mapping using two dictionaries, custom word splitting.",
+    "Bijection mapping using two dictionaries, built-in split."
+  ],
+  "problem_summary_simple": "Check if a string of words follows a given pattern with a one-to-one mapping.",
+  "problem_summary_technical": "Verifies bijective mapping between pattern characters and words using hash maps, handling word splitting efficiently.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(c)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to establish a bijection between pattern characters and words.",
+      "Using two dictionaries (word to pattern, pattern to word) ensures the bijective property.",
+      "Efficient word splitting (generator vs. split) impacts space complexity."
+    ],
+    [
+      "The core idea is to establish a bijection between pattern characters and words.",
+      "Using two dictionaries (word to pattern, pattern to word) ensures the bijective property.",
+      "Built-in string split is convenient but might use more memory than a generator."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:14:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

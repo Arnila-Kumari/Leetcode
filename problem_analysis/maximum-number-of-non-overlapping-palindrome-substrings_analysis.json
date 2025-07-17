@@ -1,0 +1,38 @@
+{
+  "problem_name": "maximum-number-of-non-overlapping-palindrome-substrings",
+  "data_structures": [
+    [
+      "integer",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Expand around center for palindrome detection, greedy selection of non-overlapping palindromes.",
+    "Two pointers to efficiently find palindromes and track the end of the last selected palindrome."
+  ],
+  "problem_summary_simple": "Find the maximum number of non-overlapping palindrome substrings of at least length k in a given string.",
+  "problem_summary_technical": "Iterate through all possible palindrome centers, expand to find palindromes, and greedily select the earliest ending valid palindrome.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by always picking the earliest possible valid palindrome.",
+      "Expanding around each character and between characters efficiently finds all palindromes.",
+      "A `prev` pointer tracks the end of the last selected palindrome to ensure non-overlap."
+    ],
+    [
+      "The 'expand around center' approach covers all possible palindromes.",
+      "The condition `right - left + 1 >= k` ensures the minimum length requirement.",
+      "Updating `prev = right + 1` after selecting a palindrome is key to the greedy strategy."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

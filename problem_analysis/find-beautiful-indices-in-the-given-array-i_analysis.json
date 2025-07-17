@@ -1,0 +1,44 @@
+{
+  "problem_name": "find-beautiful-indices-in-the-given-array-i",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "String Matching",
+  "algorithm_technique": [
+    "KMP algorithm to find all occurrences of `a` and `b`, then use two pointers to check the distance constraint.",
+    "KMP algorithm to find all occurrences of `a` and `b`, then use binary search to check the distance constraint."
+  ],
+  "problem_summary_simple": "Find indices in a string `s` where pattern `a` occurs, and `a`'s occurrence is close to an occurrence of pattern `b`.",
+  "problem_summary_technical": "Use KMP to find all occurrences of `a` and `b`. Then, for each occurrence of `a`, check if there's an occurrence of `b` within distance `k` using two pointers or binary search.",
+  "time_complexity": [
+    "O(n + x + y)",
+    "O(n + x log y)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding occurrences of two patterns (`a` and `b`) in a text (`s`) and checking a distance constraint between them.",
+      "The Knuth-Morris-Pratt (KMP) algorithm is efficient for finding all occurrences of a pattern in a text.",
+      "After finding all indices for `a` and `b`, a two-pointer approach or binary search can efficiently check the `|j - i| <= k` condition."
+    ],
+    [
+      "KMP is used to find all starting indices of pattern `a` and pattern `b` in string `s`.",
+      "For each index `i` where `a` is found, we need to efficiently find if there exists an index `j` where `b` is found such that `|i - j| <= k`.",
+      "Binary search on the sorted list of `b`'s indices allows for efficient checking of this condition."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:17:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

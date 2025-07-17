@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-subarrays-in-a-valid-split",
+  "data_structures": [
+    [
+      "1-D DP array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to find the minimum number of subarrays."
+  ],
+  "problem_summary_simple": "Split an array into minimum subarrays where the GCD of the first and last element of each subarray is greater than 1.",
+  "problem_summary_technical": "DP state dp[i] = min subarrays for nums[:i]. Transition: dp[i] = min(dp[j] + 1) if gcd(nums[j], nums[i-1]) > 1.",
+  "time_complexity": [
+    "O(n^2 * log r)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic minimum partitioning problem solvable with dynamic programming.",
+      "The state dp[i] represents the minimum number of valid subarrays to cover the first i elements.",
+      "The transition involves checking all possible split points j and the GCD condition between nums[j] and nums[i-1]."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

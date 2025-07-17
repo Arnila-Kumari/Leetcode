@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-polygon-with-the-largest-perimeter",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "sort array, use prefix sum, iterate from largest side greedily"
+  ],
+  "problem_summary_simple": "Find the largest perimeter of a polygon using given side lengths.",
+  "problem_summary_technical": "Sorts the array, calculates prefix sums, and greedily checks if the sum of smaller sides is greater than the largest side.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting is crucial to easily check the polygon inequality condition.",
+      "A prefix sum array (or running sum) optimizes checking the sum of smaller sides.",
+      "Iterating from the largest potential side downwards ensures finding the maximum perimeter."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-number-of-operations-with-the-same-score-i",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: fix the first operation's score and check subsequent pairs."
+  ],
+  "problem_summary_simple": "Find max operations by pairing first two elements, then checking subsequent pairs for the same sum.",
+  "problem_summary_technical": "Calculates the target score from the first pair and greedily checks subsequent pairs at fixed intervals for the same sum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The score is determined by the first operation (nums[0] + nums[1]).",
+      "Subsequent operations must also sum to this target score.",
+      "We only need to check pairs at fixed intervals (i, i+1) starting from index 2."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:53:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

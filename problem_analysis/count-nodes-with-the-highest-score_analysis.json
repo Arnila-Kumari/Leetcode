@@ -1,0 +1,44 @@
+{
+  "problem_name": "count-nodes-with-the-highest-score",
+  "data_structures": [
+    [
+      "adjacency list",
+      "list"
+    ],
+    [
+      "adjacency list",
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS on an adjacency list to calculate subtree sizes and scores.",
+    "Recursive DFS on an adjacency list to calculate subtree sizes and scores."
+  ],
+  "problem_summary_simple": "Count nodes that have the highest score, where score is the product of subtree sizes after removing the node.",
+  "problem_summary_technical": "Build an adjacency list, then use DFS to compute subtree sizes and node scores, tracking the maximum score and its count.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires calculating subtree sizes, which is a classic DFS application.",
+      "The score calculation involves the size of the node's own subtree and the sizes of subtrees formed by removing the node and its parent edge.",
+      "An iterative DFS can manage the state of subtree size calculation and score computation."
+    ],
+    [
+      "A recursive DFS naturally computes subtree sizes in a post-order fashion.",
+      "The score for a node is its value (1 + sum of children's subtree sizes) multiplied by the sizes of its children's subtrees.",
+      "The parent's subtree size is `n - current_node_subtree_size`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-mountain-in-array",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Single Pass with State Tracking (Up/Down Length)"
+  ],
+  "problem_summary_simple": "Find the length of the longest subarray that forms a mountain shape (strictly increasing then strictly decreasing).",
+  "problem_summary_technical": "A single pass tracks the length of the uphill and downhill slopes, updating the max mountain length when both are non-zero.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A mountain requires both an uphill and a downhill section, with at least one element in each.",
+      "The solution iterates through the array, tracking the current length of the uphill (`up_len`) and downhill (`down_len`) slopes.",
+      "When the pattern breaks (flat or decreasing after increasing, or increasing after decreasing), the respective lengths are reset."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

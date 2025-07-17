@@ -1,0 +1,69 @@
+{
+  "problem_name": "distinct-echo-substrings",
+  "data_structures": [
+    [
+      "set",
+      "prefix array"
+    ],
+    [
+      "set",
+      "hash map (Counter)"
+    ],
+    [
+      "set",
+      "rolling hash"
+    ],
+    [
+      "set",
+      "rolling hash",
+      "string comparison"
+    ]
+  ],
+  "category": "Strings",
+  "algorithm_technique": [
+    "KMP preprocessing to find repeating patterns within substrings.",
+    "Sliding window with character counts to check for `a+a` patterns.",
+    "Rolling hash to efficiently compare substrings for equality.",
+    "Rolling hash with explicit string comparison to handle hash collisions."
+  ],
+  "problem_summary_simple": "Count distinct substrings that are formed by repeating a smaller string twice.",
+  "problem_summary_technical": "Iterates through all possible substring lengths and starting points, using KMP or rolling hash to identify `a+a` patterns.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)",
+    "O(n^2)",
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n^2) in worst case for set",
+    "O(n^2) in worst case for set",
+    "O(n^2) in worst case for set",
+    "O(n^2) in worst case for set"
+  ],
+  "key_insights": [
+    [
+      "KMP's prefix function can detect periods in strings, which is useful for finding `a+a`.",
+      "The condition `(i+1) % ((i+1) - (j+1)) == 0` checks if the substring length is a multiple of its smallest period.",
+      "The condition `(i+1) // ((i+1) - (j+1)) % 2 == 0` checks if the substring is exactly twice the period."
+    ],
+    [
+      "A sliding window approach can efficiently check for `a+a` by maintaining character counts.",
+      "The core idea is to check if `text[i:i+l] == text[i+l:i+2*l]`.",
+      "Optimizing the character count update within the sliding window is key."
+    ],
+    [
+      "Rolling hash allows O(1) comparison of substrings after O(n) preprocessing.",
+      "This approach avoids explicit string comparisons, making it faster than naive O(n^3) methods.",
+      "Care must be taken with hash collisions, though for this problem, it's often assumed they are rare enough."
+    ],
+    [
+      "The naive O(n^3) approach involves checking every substring and then comparing its two halves.",
+      "Rolling hash significantly speeds up the comparison part.",
+      "Explicit string comparison after a hash match is necessary to guarantee correctness due to potential hash collisions."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:40:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

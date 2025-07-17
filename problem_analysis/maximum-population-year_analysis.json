@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-population-year",
+  "data_structures": [
+    [
+      "array",
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Difference array / prefix sum for population changes"
+  ],
+  "problem_summary_simple": "Find the earliest year with the highest population based on birth and death logs.",
+  "problem_summary_technical": "Uses a difference array to track population changes at birth and death years, then computes prefix sums to find yearly populations.",
+  "time_complexity": [
+    "O(n + R)"
+  ],
+  "space_complexity": [
+    "O(R)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved efficiently by tracking population increments and decrements.",
+      "A difference array (or frequency array) is suitable for this.",
+      "Prefix sums then reveal the actual population for each year."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:54:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

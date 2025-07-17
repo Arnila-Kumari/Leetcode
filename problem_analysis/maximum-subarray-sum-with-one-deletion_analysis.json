@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-subarray-sum-with-one-deletion",
+  "data_structures": [
+    [
+      "variables for tracking sums"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with two states: max subarray sum ending at current index with no deletion, and with one deletion."
+  ],
+  "problem_summary_simple": "Find the max subarray sum allowing at most one element deletion.",
+  "problem_summary_technical": "DP approach tracking max subarray sum ending at current index, with and without one deletion.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using Kadane's algorithm variations. We need to track two states: max sum ending here with no deletion, and max sum ending here with one deletion.",
+      "The state for 'with one deletion' can be formed by either extending a previous subarray with one deletion, or by deleting the current element from a subarray that had no deletion.",
+      "The overall maximum is the maximum of all these states encountered."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

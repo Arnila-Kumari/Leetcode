@@ -1,0 +1,32 @@
+{
+  "problem_name": "unique-length-3-palindromic-subsequences",
+  "data_structures": [
+    [
+      "arrays for first and last occurrences",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterating through characters and finding unique middle characters"
+  ],
+  "problem_summary_simple": "Count unique palindromic subsequences of length 3 within a given string.",
+  "problem_summary_technical": "For each character, find its first and last occurrences. Count unique characters between them to form palindromes.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A length-3 palindrome has the form `c1 c2 c1`.",
+      "We iterate through all possible outer characters ('a' through 'z').",
+      "For each outer character, we find its first and last occurrences in the string and count the number of unique characters that appear *between* these occurrences."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

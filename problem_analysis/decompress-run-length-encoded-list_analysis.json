@@ -1,0 +1,31 @@
+{
+  "problem_name": "decompress-run-length-encoded-list",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "List comprehension with nested loops for expansion"
+  ],
+  "problem_summary_simple": "Expand a list compressed with run-length encoding by repeating values based on frequencies.",
+  "problem_summary_technical": "Iterate through pairs of frequency and value in the input list, expanding each pair into a sublist and concatenating them.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The input list is structured as [freq1, val1, freq2, val2, ...].",
+      "A list comprehension provides a concise way to generate the expanded list.",
+      "The space complexity is O(1) if we consider the output list not part of the auxiliary space."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

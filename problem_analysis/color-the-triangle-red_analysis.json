@@ -1,0 +1,31 @@
+{
+  "problem_name": "color-the-triangle-red",
+  "data_structures": [
+    [
+      "list of lists"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Constructive algorithm based on parity and pattern"
+  ],
+  "problem_summary_simple": "Color unit triangles in a larger triangle red to fill it using a propagation rule.",
+  "problem_summary_technical": "Selects initial red triangles greedily based on row parity and position to ensure propagation covers all triangles.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by identifying a pattern of initial red triangles that guarantees full coverage.",
+      "The parity of the row number and its position within the row are crucial for determining the propagation.",
+      "The solution focuses on coloring triangles that are essential for initiating the spread to other parts of the triangle."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "modify-the-matrix",
+  "data_structures": [
+    [
+      "2D array (matrix)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through columns, find max, and replace -1 values"
+  ],
+  "problem_summary_simple": "Replace all -1s in a matrix with the maximum value in their respective columns.",
+  "problem_summary_technical": "Iterate through each column of the matrix, find the maximum non-negative value, and then replace all -1s in that column with the found maximum.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The modification for each column is independent of other columns.",
+      "Pre-calculating the maximum for each column before modification simplifies the process.",
+      "The constraint that each column has at least one non-negative integer guarantees a valid replacement value."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:00:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

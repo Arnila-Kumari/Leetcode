@@ -1,0 +1,69 @@
+{
+  "problem_name": "evaluate-division",
+  "data_structures": [
+    [
+      "Union-Find (Disjoint Set Union) with path compression and union by rank",
+      "Hash Map"
+    ],
+    [
+      "Adjacency List (Graph)",
+      "Hash Map",
+      "Queue"
+    ],
+    [
+      "Adjacency Matrix (Graph)",
+      "Hash Map"
+    ],
+    [
+      "Hash Map",
+      "Set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find with weighted union and path compression",
+    "Breadth-First Search (BFS) on a graph",
+    "Floyd-Warshall algorithm variant",
+    "Depth-First Search (DFS) on a graph"
+  ],
+  "problem_summary_simple": "Calculate division results for given variable equations and queries.",
+  "problem_summary_technical": "Model equations as a graph, use Union-Find or BFS/DFS to find path products for query evaluations.",
+  "time_complexity": [
+    "O((E + Q) * α(N)) where E is equations, Q is queries, N is variables, α is inverse Ackermann function",
+    "O(E + Q * N) where N is number of variables",
+    "O(N^3 + Q) where N is number of variables",
+    "O(E + Q * N) where E is equations, Q is queries, N is variables"
+  ],
+  "space_complexity": [
+    "O(N) where N is number of variables",
+    "O(E + N) where E is equations, N is variables",
+    "O(N^2) where N is number of variables",
+    "O(E) where E is equations"
+  ],
+  "key_insights": [
+    [
+      "Representing divisions as edges in a graph allows finding relationships through path products.",
+      "Union-Find is efficient for maintaining connected components and their relationships.",
+      "Path compression and union by rank optimize Union-Find operations."
+    ],
+    [
+      "Building an adjacency list for the graph allows traversal to find query results.",
+      "BFS can find the shortest path in terms of edges, but here we need path product.",
+      "Memoization (lookup table) can optimize repeated queries."
+    ],
+    [
+      "The Floyd-Warshall approach computes all-pairs shortest paths, adapted here for path products.",
+      "Initializing the adjacency matrix with direct values and then iterating through intermediate nodes finds all possible path products.",
+      "Self-loops (a/a) are initialized to 1.0."
+    ],
+    [
+      "A recursive DFS approach can explore paths to find the quotient.",
+      "Keeping track of visited nodes prevents infinite loops in cyclic graphs.",
+      "The lookup table stores computed results to avoid redundant computations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

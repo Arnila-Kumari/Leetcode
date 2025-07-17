@@ -1,0 +1,32 @@
+{
+  "problem_name": "prime-number-of-set-bits-in-binary-representation",
+  "data_structures": [
+    [
+      "set",
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate through the range, count set bits for each number, and check if the count is in a pre-defined set of primes."
+  ],
+  "problem_summary_simple": "Count numbers in a range that have a prime number of set bits in their binary form.",
+  "problem_summary_technical": "For each number in [L, R], count its set bits using Brian Kernighan's algorithm. Check if the count is in a small, pre-defined set of primes.",
+  "time_complexity": [
+    "O(R - L)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The maximum number of set bits for numbers up to 10^6 is relatively small (around 20).",
+      "Pre-defining a set of small prime numbers is more efficient than checking primality for each bit count.",
+      "Brian Kernighan's algorithm (n &= n-1) is an efficient way to count set bits."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:05:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

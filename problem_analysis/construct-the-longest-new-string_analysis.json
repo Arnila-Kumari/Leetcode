@@ -1,0 +1,36 @@
+{
+  "problem_name": "construct-the-longest-new-string",
+  "data_structures": [
+    [
+      "integer arithmetic"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Constructive algorithm based on mathematical observation"
+  ],
+  "problem_summary_simple": "Find the maximum length of a string formed by 'AA', 'BB', 'AB' without 'AAA' or 'BBB' substrings.",
+  "problem_summary_technical": "Maximize string length by alternating 'AA'/'BB' with 'AB' strings, considering the counts of 'AA' and 'BB' and the 'AB' strings.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The constraint is to avoid 'AAA' and 'BBB'. This means we can use at most two consecutive 'A's or 'B's.",
+      "The 'AB' strings are crucial for breaking up sequences of 'A's and 'B's.",
+      "The optimal strategy involves maximizing the use of 'AA' and 'BB' pairs, interspersed with 'AB' strings."
+    ],
+    [
+      "Consider the counts of 'AA' (x) and 'BB' (y). We can use `min(x, y)` pairs of 'AA' and 'BB' to form `min(x, y) * 2` 'A's and `min(x, y) * 2` 'B's, alternating them.",
+      "If `x` and `y` are different, we can use one extra 'AA' or 'BB' (the one with the higher count) once.",
+      "Then, we can append all `z` 'AB' strings, each contributing 2 characters, to further extend the string."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

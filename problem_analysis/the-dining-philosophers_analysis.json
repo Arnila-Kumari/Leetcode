@@ -1,0 +1,32 @@
+{
+  "problem_name": "the-dining-philosophers",
+  "data_structures": [
+    [
+      "list",
+      "threading.Lock"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Concurrent programming with locks to prevent deadlock and starvation."
+  ],
+  "problem_summary_simple": "Design a concurrent solution for philosophers to eat without deadlock or starvation.",
+  "problem_summary_technical": "Uses locks for forks and an ordered acquisition strategy (even/odd philosopher) to prevent deadlock.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Deadlock can occur if all philosophers pick up their left fork simultaneously.",
+      "An asymmetric solution (e.g., one philosopher picks right first) or ordering forks prevents deadlock.",
+      "The provided solution uses an ordering based on philosopher ID to break symmetry."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

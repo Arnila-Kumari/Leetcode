@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-tested-devices-after-test-operations",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Simulation with a single pass and a counter for tested devices."
+  ],
+  "problem_summary_simple": "Count devices tested, where testing a device reduces battery of subsequent devices.",
+  "problem_summary_technical": "Iterate through battery percentages, incrementing a counter if the current percentage is greater than the count of already tested devices.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by simulating the process directly.",
+      "The key observation is that the number of tested devices acts as a global 'drain' on subsequent devices.",
+      "A device is tested only if its battery is greater than the number of devices already tested."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:38:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

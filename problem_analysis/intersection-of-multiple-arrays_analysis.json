@@ -1,0 +1,56 @@
+{
+  "problem_name": "intersection-of-multiple-arrays",
+  "data_structures": [
+    [
+      "frequency array (counting sort)",
+      "list"
+    ],
+    [
+      "hash set",
+      "list"
+    ],
+    [
+      "hash set",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting (counting sort)",
+    "Set intersection",
+    "Set intersection and sorting"
+  ],
+  "problem_summary_simple": "Find common elements present in all sub-arrays of a 2D array.",
+  "problem_summary_technical": "Iterate through arrays, count element frequencies, or use set intersections to find elements common to all.",
+  "time_complexity": [
+    "O(N * L + R)",
+    "O(N * L)",
+    "O(N * L + K log K)"
+  ],
+  "space_complexity": [
+    "O(R)",
+    "O(L)",
+    "O(L)"
+  ],
+  "key_insights": [
+    [
+      "Using a frequency array (like counting sort) is efficient given the constraint on the maximum value of elements.",
+      "An element is in the intersection if its count equals the number of arrays.",
+      "The result needs to be sorted, which is naturally handled by iterating through the frequency array in order."
+    ],
+    [
+      "Initialize the result set with the first array's elements.",
+      "Iteratively compute the intersection of the current result set with each subsequent array.",
+      "The final result set contains elements present in all arrays."
+    ],
+    [
+      "Similar to the set intersection approach, but explicitly sorts the final result.",
+      "Leverages Python's set operations for efficient intersection.",
+      "The time complexity is dominated by the set operations and the final sort."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

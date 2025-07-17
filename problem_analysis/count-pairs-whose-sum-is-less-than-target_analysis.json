@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-pairs-whose-sum-is-less-than-target",
+  "data_structures": [
+    [
+      "list",
+      "two pointers"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sort the input array. Use two pointers, one at the beginning (left) and one at the end (right). If nums[left] + nums[right] < target, all elements from left to right-1 will also form a valid pair with nums[left], so add (right - left) to the count and increment left. Otherwise, decrement right."
+  ],
+  "problem_summary_simple": "Count pairs of numbers in an array whose sum is strictly less than a given target.",
+  "problem_summary_technical": "Sorts the array and uses two pointers. For each element at `left`, it counts valid pairs with elements to its right up to `right` if their sum is less than `target`.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is crucial for the two-pointer approach to work efficiently.",
+      "The two-pointer technique allows us to avoid a nested loop, reducing time complexity.",
+      "When `nums[left] + nums[right] < target`, all elements between `left` and `right` (exclusive of `right`) will also satisfy the condition with `nums[left]`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

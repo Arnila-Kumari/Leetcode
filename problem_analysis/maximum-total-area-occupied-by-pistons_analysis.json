@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-total-area-occupied-by-pistons",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ],
+    [
+      "dictionary",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Line sweep with difference array to track changes in total area.",
+    "Line sweep with difference array and sorted events for efficient processing."
+  ],
+  "problem_summary_simple": "Calculate the maximum area under pistons that move up and down, reversing direction at boundaries.",
+  "problem_summary_technical": "Simulate piston movement using a difference array to track area changes over time, optimizing with line sweep.",
+  "time_complexity": [
+    "O(h)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as tracking the total sum of positions over time.",
+      "A difference array is effective for calculating cumulative changes at specific time points.",
+      "The direction changes at boundaries (0 and height) are key events."
+    ],
+    [
+      "Sorting the change points (events) allows for a more efficient line sweep.",
+      "Using a dictionary for the difference array handles sparse changes effectively.",
+      "The core idea is to find the maximum sum of positions across all possible time points."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

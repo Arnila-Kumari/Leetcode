@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-subsequence-of-length-k-with-the-largest-sum",
+  "data_structures": [
+    [
+      "array",
+      "random number generator"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "QuickSelect algorithm to find the k-th largest element, then reconstruct the subsequence."
+  ],
+  "problem_summary_simple": "Find a subsequence of length k with the largest possible sum from a given array.",
+  "problem_summary_technical": "Utilizes QuickSelect to find the k-th largest element, then filters the original array to include elements greater than or equal to this threshold, maintaining original order.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "QuickSelect provides an average O(n) solution for finding the k-th element.",
+      "The problem requires maintaining the relative order of elements, necessitating a second pass.",
+      "Handling duplicate values equal to the k-th largest element requires careful counting."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

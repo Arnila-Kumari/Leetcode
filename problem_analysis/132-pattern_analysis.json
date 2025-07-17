@@ -1,0 +1,41 @@
+{
+  "data_structures": [
+    [
+      "stack",
+      "variable"
+    ],
+    [
+      "no explicit data structures beyond input array"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack with reverse iteration",
+    "Brute force with nested loops"
+  ],
+  "problem_summary_simple": "Find if there's a subsequence nums[i] < nums[k] < nums[j] where i < j < k.",
+  "problem_summary_technical": "Identify a 132 pattern (nums[i] < nums[k] < nums[j] with i < j < k) using a monotonic stack and reverse iteration for O(n) time.",
+  "time_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The O(n) solution cleverly uses a monotonic decreasing stack to find the '3' (nums[j]) and '2' (nums[k]) elements efficiently.",
+      "By iterating in reverse, we maintain a candidate for '2' (ak) and use the stack to find a suitable '3' that is greater than the current '1' (nums[i]).",
+      "The key is that 'ak' stores the largest possible '2' found so far for a given '3' candidate on the stack."
+    ],
+    [
+      "The O(n^2) solution is a straightforward brute-force approach.",
+      "It iterates through all possible combinations of (j, k) and checks for the existence of a valid 'i'.",
+      "This approach is too slow for the given constraints."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "problem_name": "132-pattern",
+  "analysis_timestamp": "2025-07-16 21:06:07"
+}

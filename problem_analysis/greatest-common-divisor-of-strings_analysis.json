@@ -1,0 +1,38 @@
+{
+  "problem_name": "greatest-common-divisor-of-strings",
+  "data_structures": [
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Euclidean algorithm for GCD, string slicing and checking divisibility.",
+    "String concatenation and comparison."
+  ],
+  "problem_summary_simple": "Find the largest string that divides both input strings, meaning it can be repeated to form them.",
+  "problem_summary_technical": "Finds GCD of lengths, checks if the prefix of that length divides both strings by repetition.",
+  "time_complexity": [
+    "O(M + N), where M and N are lengths of strings, due to GCD and checks.",
+    "O((M+N) * min(M,N)) in worst case for naive check."
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(min(M,N)) for substring."
+  ],
+  "key_insights": [
+    [
+      "If a string `x` divides both `str1` and `str2`, then `str1 + str2` must equal `str2 + str1`.",
+      "The length of the greatest common divisor string must be the GCD of the lengths of `str1` and `str2`."
+    ],
+    [
+      "The property `str1 + str2 == str2 + str1` is a necessary and sufficient condition for a common divisor string to exist.",
+      "The Euclidean algorithm is fundamental for finding the greatest common divisor of lengths."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

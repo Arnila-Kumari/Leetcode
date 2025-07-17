@@ -1,0 +1,31 @@
+{
+  "problem_name": "string-compression-iii",
+  "data_structures": [
+    [
+      "list of strings (for result)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: iterate through the string, count consecutive characters, and append count and character when limit (9) is reached or character changes."
+  ],
+  "problem_summary_simple": "Compress a string by grouping consecutive identical characters up to 9 times.",
+  "problem_summary_technical": "Iterate through the string, maintaining a count of consecutive characters. Append count and character when count reaches 9 or the next character differs.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy choice of taking the longest possible prefix (up to 9) is optimal.",
+      "A single pass through the string is sufficient.",
+      "Careful handling of the end of the string is needed."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:10:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

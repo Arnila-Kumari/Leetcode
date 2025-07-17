@@ -1,0 +1,41 @@
+{
+  "problem_name": "most-expensive-item-that-can-not-be-bought",
+  "data_structures": [
+    [
+      "integer"
+    ],
+    [
+      "boolean array",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Chicken McNugget Theorem (Frobenius Coin Problem)",
+    "Dynamic Programming (reachability)"
+  ],
+  "problem_summary_simple": "Find the largest price that cannot be formed using two prime coin denominations.",
+  "problem_summary_technical": "Applies Frobenius Coin Problem for two primes; DP checks reachability up to a limit.",
+  "time_complexity": [
+    "O(1)",
+    "O(p1 * p2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(p1 + p2)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a direct application of the Frobenius Coin Problem for two coins.",
+      "The formula for two distinct primes p1, p2 is p1*p2 - p1 - p2."
+    ],
+    [
+      "DP can determine which amounts are reachable.",
+      "Modulo arithmetic optimizes DP state for large amounts."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

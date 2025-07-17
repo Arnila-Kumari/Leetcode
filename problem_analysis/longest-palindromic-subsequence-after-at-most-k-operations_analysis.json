@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-palindromic-subsequence-after-at-most-k-operations",
+  "data_structures": [
+    [
+      "3D DP table"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with an additional dimension for operations. dp[i][j][k] for LPS of s[i...j] with k operations."
+  ],
+  "problem_summary_simple": "Find the longest palindromic subsequence after changing characters at most k times.",
+  "problem_summary_technical": "3D DP: dp[i][j][k] = LPS length of s[i...j] using at most k operations. Transitions consider matching, skipping, or transforming characters.",
+  "time_complexity": [
+    "O(n^2 * k)"
+  ],
+  "space_complexity": [
+    "O(n^2 * k)"
+  ],
+  "key_insights": [
+    [
+      "The state needs to include the number of operations used.",
+      "When characters don't match, we can either skip them or use operations to make them match.",
+      "The cost of transforming characters is the minimum difference in their alphabetical positions (considering wrap-around)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:49:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

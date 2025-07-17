@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimum-ascii-delete-sum-for-two-strings",
+  "data_structures": [
+    [
+      "2D array",
+      "dynamic programming table"
+    ],
+    [
+      "2D array",
+      "dynamic programming table"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with space optimization (rolling array).",
+    "Standard dynamic programming approach."
+  ],
+  "problem_summary_simple": "Find the minimum ASCII sum of deleted characters to make two strings equal.",
+  "problem_summary_technical": "Dynamic programming calculates the minimum deletion sum by considering character matches and mismatches between two strings.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "This is a variation of the Longest Common Subsequence problem.",
+      "The DP state `dp[i][j]` represents the minimum deletion sum for `s1[:i]` and `s2[:j]`.",
+      "Space optimization reduces space from O(m*n) to O(n) using only two rows."
+    ],
+    [
+      "The DP state `dp[i][j]` stores the minimum deletion sum for `s1[:i]` and `s2[:j]`.",
+      "If `s1[i-1] == s2[j-1]`, no deletion is needed for these characters.",
+      "If characters differ, choose the minimum of deleting from `s1` or `s2`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

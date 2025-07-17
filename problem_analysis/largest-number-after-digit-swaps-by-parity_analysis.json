@@ -1,0 +1,32 @@
+{
+  "problem_name": "largest-number-after-digit-swaps-by-parity",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Separate digits by parity, sort them, and then reconstruct the number by placing sorted digits back."
+  ],
+  "problem_summary_simple": "Rearrange digits of a number to make it as large as possible by swapping same-parity digits.",
+  "problem_summary_technical": "Use counting sort to sort even and odd digits separately, then merge them back into the original number's structure.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that digits of the same parity can be rearranged freely among themselves to maximize the number.",
+      "We can treat even and odd digits independently. To maximize the number, we should place the largest available even digit in the next even position, and similarly for odd digits.",
+      "The provided solution uses a clever in-place modification by iterating through the number and picking the largest available digit of the correct parity from a pre-sorted list (implicitly via counting sort)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

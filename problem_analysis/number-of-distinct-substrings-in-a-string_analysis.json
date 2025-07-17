@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-distinct-substrings-in-a-string",
+  "data_structures": [
+    [
+      "Trie",
+      "hashmap"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Iterate through all possible substrings and insert them into a Trie, counting new nodes created."
+  ],
+  "problem_summary_simple": "Count the total number of unique substrings in a given string.",
+  "problem_summary_technical": "A Trie is used to store all substrings. Each new node added to the Trie represents a distinct substring, and the total count is returned.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(t), where t is the number of trie nodes (at most O(n^2))"
+  ],
+  "key_insights": [
+    [
+      "A Trie is an efficient data structure for storing and searching strings, particularly for prefix-based operations.",
+      "By inserting all substrings into a Trie, each new node encountered signifies a unique substring not seen before.",
+      "The follow-up question about O(n) complexity suggests using suffix arrays or suffix trees, which are more advanced string algorithms."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

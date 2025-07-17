@@ -1,0 +1,44 @@
+{
+  "problem_name": "find-the-number-of-ways-to-place-people-ii",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sort points by x, then descending y. Iterate through pairs, maintaining max y seen for valid pairs.",
+    "Sort points by x, then descending y. Brute-force check all triplets for emptiness within rectangles."
+  ],
+  "problem_summary_simple": "Count pairs of points (Alice, Bob) where Alice is upper-left, Bob is lower-right, and no other points are inside.",
+  "problem_summary_technical": "Sort points by x, then descending y. Iterate through pairs, checking for empty rectangles using a max-y tracking approach.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting by x-coordinate and then by descending y-coordinate is key to efficiently identifying potential Alice-Bob pairs.",
+      "For a chosen Alice (point i), we iterate through potential Bob points (point j) to her right and below.",
+      "The condition of no other points within the rectangle is checked by ensuring that no point k between i and j has a y-coordinate within the range of Alice's and Bob's y-coordinates."
+    ],
+    [
+      "The problem is a variation of finding empty rectangles, requiring careful consideration of point ordering.",
+      "The O(n^2) solution is more efficient by optimizing the check for intermediate points.",
+      "The constraints on coordinates are large, suggesting that coordinate compression or sorting is necessary."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:17:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "palindrome-number",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Reverse the integer and compare it with the original."
+  ],
+  "problem_summary_simple": "Determine if an integer is a palindrome.",
+  "problem_summary_technical": "Reconstructs the reversed integer digit by digit and compares it with the original input integer.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Negative numbers are never palindromes.",
+      "Reversing the entire number can lead to overflow for large inputs.",
+      "Comparing the first half with the reversed second half is an alternative to avoid overflow."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:03:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

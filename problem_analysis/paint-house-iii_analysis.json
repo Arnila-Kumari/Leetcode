@@ -1,0 +1,42 @@
+{
+  "problem_name": "paint-house-iii",
+  "data_structures": [
+    [
+      "3D DP array (space optimized to 2D)"
+    ],
+    [
+      "Hash map for DP states"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with state compression",
+    "Dynamic Programming with memoization (hash map)"
+  ],
+  "problem_summary_simple": "Find the minimum cost to paint houses to achieve a target number of neighborhoods.",
+  "problem_summary_technical": "DP state: dp[i][j][k] = min cost for first i houses, j neighborhoods, ending with color k. Optimized to O(t*n) space.",
+  "time_complexity": [
+    "O(m * target * n^2)",
+    "O(m * target * n^2)"
+  ],
+  "space_complexity": [
+    "O(target * n)",
+    "O(target * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a DP problem where the state depends on the current house, number of neighborhoods, and the color of the current house.",
+      "Transitions involve considering the previous house's color to determine if a new neighborhood is formed.",
+      "Space optimization is possible by only keeping track of the previous row's DP states."
+    ],
+    [
+      "Using a hash map for DP states can be more intuitive for sparse DP tables.",
+      "The state can be represented as (neighborhood_count, last_color).",
+      "Iterating through houses and updating DP states based on previous states."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

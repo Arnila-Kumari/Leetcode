@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-score-of-all-prefixes-of-an-array",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Prefix Sum",
+  "algorithm_technique": [
+    "Iterate through the array, maintaining a running maximum and updating the current element with its score."
+  ],
+  "problem_summary_simple": "Calculate the score of each prefix of an array based on element value and prefix maximum.",
+  "problem_summary_technical": "Calculates prefix scores by iterating, tracking the maximum element seen so far, and updating the current element with its score.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires calculating a 'score' for each prefix, which depends on the current element and the maximum element encountered in that prefix.",
+      "A single pass through the array is sufficient. We maintain `curr` which stores the maximum value seen up to the current index `i`.",
+      "The score for the prefix ending at `i` is calculated by adding the current element `nums[i]` to the score of the previous prefix (`nums[i-1]` after its update) and the current maximum `curr`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

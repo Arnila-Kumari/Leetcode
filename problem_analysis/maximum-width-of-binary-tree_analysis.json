@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-width-of-binary-tree",
+  "data_structures": [
+    [
+      "list",
+      "binary tree"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) with index tracking"
+  ],
+  "problem_summary_simple": "Find the widest level of a binary tree, counting null nodes between endpoints.",
+  "problem_summary_technical": "Uses DFS to assign indices to nodes, tracking the leftmost node at each depth to calculate level width.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "Assigning unique indices to nodes based on their position in a complete binary tree is key.",
+      "The width of a level is the difference between the maximum and minimum index at that level plus one.",
+      "DFS or BFS can be used to traverse the tree and track these indices."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

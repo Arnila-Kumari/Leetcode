@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-height-trees",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Topological sort-like approach by iteratively removing leaves."
+  ],
+  "problem_summary_simple": "Find the roots of trees that have the minimum possible height.",
+  "problem_summary_technical": "Iteratively remove leaf nodes layer by layer until 1 or 2 nodes remain, which are the roots of Minimum Height Trees.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The roots of Minimum Height Trees are the center(s) of the tree.",
+      "Leaves of a tree can be iteratively pruned to find the center.",
+      "The process stops when 1 or 2 nodes are left, as these will be the MHT roots."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

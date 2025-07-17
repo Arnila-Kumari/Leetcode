@@ -1,0 +1,43 @@
+{
+  "problem_name": "number-of-subsequences-with-odd-sum",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Combinatorics: If there's at least one odd number, the count is 2^(n-1). Otherwise, it's 0.",
+    "DP: Track counts of subsequences with even and odd sums as we iterate through the array."
+  ],
+  "problem_summary_simple": "Count subsequences of an array that have an odd sum.",
+  "problem_summary_technical": "Combinatorics: 2^(n-1) if odd numbers exist, else 0. DP: maintain counts of even/odd sum subsequences.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A subsequence has an odd sum if and only if it contains an odd number of odd elements.",
+      "If there are no odd numbers, no subsequence can have an odd sum.",
+      "If there is at least one odd number, we can form `2^(n-1)` subsequences with odd sums by pairing each subsequence of even numbers with one odd number."
+    ],
+    [
+      "Let `dp[0]` be the count of subsequences with an even sum, and `dp[1]` be the count of subsequences with an odd sum.",
+      "When considering a new number `x`:",
+      "If `x` is even: `new_dp[0] = dp[0] + dp[0]` (add `x` to even sum subsequences), `new_dp[1] = dp[1] + dp[1]` (add `x` to odd sum subsequences).",
+      "If `x` is odd: `new_dp[0] = dp[0] + dp[1]` (add `x` to odd sum subsequences to make them even), `new_dp[1] = dp[1] + dp[0]` (add `x` to even sum subsequences to make them odd)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

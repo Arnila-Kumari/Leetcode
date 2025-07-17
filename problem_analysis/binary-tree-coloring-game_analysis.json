@@ -1,0 +1,33 @@
+{
+  "problem_name": "binary-tree-coloring-game",
+  "data_structures": [
+    [
+      "binary tree",
+      "integer variables for node counts",
+      "recursive call stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Tree traversal to count nodes in subtrees and compare partition sizes."
+  ],
+  "problem_summary_simple": "Determine if the second player can win a tree coloring game by choosing a node to color.",
+  "problem_summary_technical": "Calculates subtree sizes to find optimal moves for the second player to gain majority coloring.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The game outcome depends on partitioning the tree around the first player's chosen node (x).",
+      "The second player wins if they can color more than half the nodes.",
+      "This is achieved by choosing a node 'y' such that the subtree rooted at 'y' (or the remaining part of the tree if 'y' is not the root) is larger than the rest of the tree."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "convert-bst-to-greater-tree",
+  "data_structures": [
+    [
+      "Binary Search Tree"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Reverse in-order traversal with sum accumulation"
+  ],
+  "problem_summary_simple": "Modify a BST so each node's value is the sum of its original value and all greater values.",
+  "problem_summary_technical": "Perform a reverse in-order traversal (right, root, left) to accumulate sums and update node values in place.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "A reverse in-order traversal (right-root-left) visits nodes in descending order, which is crucial for accumulating sums of greater values.",
+      "A global or passed-down sum variable is needed to keep track of the sum of visited nodes.",
+      "The BST property ensures that all nodes in the right subtree are greater than the current node."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

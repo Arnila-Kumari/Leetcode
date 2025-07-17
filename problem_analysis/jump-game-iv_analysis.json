@@ -1,0 +1,33 @@
+{
+  "problem_name": "jump-game-iv",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "collections.deque",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) with graph optimization using value-based grouping"
+  ],
+  "problem_summary_simple": "Find the minimum steps to reach the last index from the first, with jumps to adjacent or same-value indices.",
+  "problem_summary_technical": "BFS on an implicit graph, optimizing by grouping indices with the same value to reduce redundant exploration.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This is a shortest path problem on an unweighted graph, making BFS ideal.",
+      "Grouping indices by value significantly optimizes the search by allowing jumps to multiple same-value indices efficiently.",
+      "Clearing the group after processing prevents re-adding the same value-based jumps, ensuring O(n) complexity."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "shortest-word-distance",
+  "data_structures": [
+    [
+      "Array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Single pass through the array, keeping track of the last seen indices of word1 and word2.",
+    "Update minimum distance whenever both words have been seen."
+  ],
+  "problem_summary_simple": "Find the shortest distance between two different words in a list.",
+  "problem_summary_technical": "Iterate through the word list, maintaining the indices of the last seen occurrences of word1 and word2, and calculating the minimum absolute difference.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A single pass is sufficient to find the shortest distance.",
+      "Keeping track of the most recent indices of both words is key.",
+      "The minimum distance is updated whenever both words have been encountered."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

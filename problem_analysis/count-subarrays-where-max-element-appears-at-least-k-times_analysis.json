@@ -1,0 +1,42 @@
+{
+  "problem_name": "count-subarrays-where-max-element-appears-at-least-k-times",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window approach to count subarrays containing the maximum element at least k times.",
+    "Two-pointer sliding window to find valid subarrays and count them."
+  ],
+  "problem_summary_simple": "Count subarrays where the maximum element appears at least k times.",
+  "problem_summary_technical": "Uses a sliding window to maintain a count of the maximum element. When count reaches k, it expands the window from the left to count valid subarrays.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Identify the global maximum element first.",
+      "The sliding window expands to the right, incrementing the count of the maximum element.",
+      "When the count reaches `k`, all subarrays starting from `left` up to the current `right` are valid. The number of such subarrays is `left`."
+    ],
+    [
+      "This solution calculates the total possible subarrays and subtracts invalid ones.",
+      "Invalid subarrays are those where the maximum element appears less than `k` times.",
+      "The logic is similar to the first solution but framed as subtraction."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

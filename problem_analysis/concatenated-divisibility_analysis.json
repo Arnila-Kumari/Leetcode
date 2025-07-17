@@ -1,0 +1,33 @@
+{
+  "problem_name": "concatenated-divisibility",
+  "data_structures": [
+    [
+      "list",
+      "dictionary",
+      "list of lists"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Dynamic Programming with bitmasking and backtracking for permutation generation"
+  ],
+  "problem_summary_simple": "Find the lexicographically smallest permutation of numbers whose concatenation is divisible by k.",
+  "problem_summary_technical": "Uses DP with bitmasking to track divisibility states and backtracking to reconstruct the lexicographically smallest permutation.",
+  "time_complexity": [
+    "O(nlogr + k * n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(logr + k * 2^n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to use dynamic programming with a bitmask to represent the subset of numbers already used.",
+      "The state `dp[mask][remainder]` stores whether a valid concatenation can be formed using numbers represented by `mask` with a given `remainder` modulo k.",
+      "To find the lexicographically smallest permutation, we iterate through sorted numbers and greedily pick the next number that maintains a valid path in the DP table."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:35:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

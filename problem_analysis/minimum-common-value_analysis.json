@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-common-value",
+  "data_structures": [
+    [
+      "two pointers"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Use two pointers to iterate through both sorted arrays simultaneously, advancing the pointer of the smaller element."
+  ],
+  "problem_summary_simple": "Find the smallest number that appears in both sorted arrays.",
+  "problem_summary_technical": "Utilize two pointers on sorted arrays to find the first common element efficiently.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Since both arrays are sorted, a two-pointer approach is highly efficient.",
+      "By comparing elements at the current pointers, we can determine which pointer to advance to find a common element.",
+      "If `nums1[i] < nums2[j]`, we increment `i` because `nums1[i]` cannot be the common element, and we need a larger value from `nums1`.",
+      "If `nums1[i] > nums2[j]`, we increment `j` for the same reason."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

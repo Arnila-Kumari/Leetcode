@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-palindromic-subsequence-ii",
+  "data_structures": [
+    [
+      "3D DP table (optimized to 2 rows for space)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming. dp[i][j][char_idx] stores LPS length ending with char_idx for s[i...j]."
+  ],
+  "problem_summary_simple": "Find the longest palindromic subsequence with even length and no adjacent equal characters (except middle).",
+  "problem_summary_technical": "DP state dp[i][j][char_idx] for LPS of s[i...j] ending with char_idx. Transitions consider matching outer characters and inner LPS.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The constraint of no consecutive equal characters (except middle) requires tracking the last character of the subsequence.",
+      "The DP state needs to store the length of the longest palindromic subsequence ending with a specific character.",
+      "The problem can be viewed as finding the longest palindromic subsequence of even length, with an additional constraint on adjacent characters."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:49:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

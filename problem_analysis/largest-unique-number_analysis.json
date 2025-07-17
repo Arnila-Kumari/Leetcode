@@ -1,0 +1,32 @@
+{
+  "problem_name": "largest-unique-number",
+  "data_structures": [
+    [
+      "list",
+      "hashmap (Counter)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting with a hashmap"
+  ],
+  "problem_summary_simple": "Find the largest number that appears only once in an array.",
+  "problem_summary_technical": "Uses a hashmap (Counter) to store the frequency of each number. Then, it iterates through the counts to find the largest number with a frequency of 1.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A hashmap (like Python's Counter) is ideal for efficiently tracking element frequencies.",
+      "The problem can be solved by iterating through the array once to build the frequency map and then iterating through the map's items.",
+      "Appending -1 to the list before counting ensures that if no unique number exists, the max of an empty set of unique numbers will correctly return -1."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

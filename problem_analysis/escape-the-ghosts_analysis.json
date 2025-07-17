@@ -1,0 +1,31 @@
+{
+  "problem_name": "escape-the-ghosts",
+  "data_structures": [
+    [
+      "list of lists"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Manhattan distance comparison."
+  ],
+  "problem_summary_simple": "Can you reach the target before any ghost catches you?",
+  "problem_summary_technical": "Compare the Manhattan distance from the player to the target with the Manhattan distance from each ghost to the target.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem relies on the Manhattan distance, as movement is restricted to cardinal directions.",
+      "The player escapes if their shortest path to the target is strictly shorter than any ghost's shortest path to the target.",
+      "If any ghost can reach the target at the same time or earlier than the player, escape is impossible."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

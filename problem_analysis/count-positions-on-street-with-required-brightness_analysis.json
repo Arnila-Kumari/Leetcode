@@ -1,0 +1,39 @@
+{
+  "problem_name": "count-positions-on-street-with-required-brightness",
+  "data_structures": [
+    [
+      "Hash map (for difference array/event points)",
+      "Array (for requirements)"
+    ]
+  ],
+  "category": "Line Sweep",
+  "algorithm_technique": [
+    "Line sweep with difference array",
+    "Brute force (less efficient)"
+  ],
+  "problem_summary_simple": "Count street positions meeting minimum brightness requirements based on overlapping light ranges.",
+  "problem_summary_technical": "Uses a difference array (or hash map) to track light coverage changes at interval endpoints, then a line sweep to calculate brightness.",
+  "time_complexity": [
+    "O(n + l)",
+    "O(n * l)"
+  ],
+  "space_complexity": [
+    "O(min(n, l))",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as interval updates on a line.",
+      "A difference array or event-based approach efficiently calculates the net change in brightness at each point.",
+      "Iterating through the street positions and accumulating brightness allows checking requirements."
+    ],
+    [
+      "Directly checking each light for each position is too slow.",
+      "The constraints suggest a more efficient approach than O(N*L)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "apply-operations-to-maximize-score",
+  "data_structures": [
+    [
+      "hash map for memoization of prime factor counts",
+      "list for prime numbers",
+      "max heap for elements",
+      "arrays for monotonic stack results"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Number theory for prime factorization, monotonic stack for subarray bounds, greedy selection with max heap.",
+    "Memoization for prime factor counts, recursive substitution with memoization."
+  ],
+  "problem_summary_simple": "Maximize score by multiplying by elements with highest prime scores from chosen subarrays, at most k times.",
+  "problem_summary_technical": "Maximize score by greedily picking elements with highest prime scores from subarrays using monotonic stack for bounds and max heap for selection.",
+  "time_complexity": [
+    "O(sqrt(max(nums)) + n * (log(max(nums)) + sqrt(max(nums))/log(sqrt(max(nums)))) + k log n)",
+    "O(r * 2^r) where r is number of replacements"
+  ],
+  "space_complexity": [
+    "O(sqrt(max(nums)) + n)",
+    "O(r * 2^r)"
+  ],
+  "key_insights": [
+    [
+      "The problem combines number theory (prime factors) with array manipulation.",
+      "Monotonic stack is used to efficiently find the range of subarrays where an element is the maximum prime score element.",
+      "A max heap prioritizes elements for multiplication, and a greedy approach selects the best elements first."
+    ],
+    [
+      "The problem involves recursive substitution of placeholders.",
+      "Memoization is essential to avoid redundant computations for repeated placeholders.",
+      "The constraints on replacement string length and number of replacements suggest exponential complexity without memoization."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,39 @@
+{
+  "problem_name": "lowest-common-ancestor-of-a-binary-tree-ii",
+  "data_structures": [
+    [
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive DFS: return count of p/q found in subtree. If count is 2 and node is not yet LCA, update LCA.",
+    "Iterative DFS with stack: simulate recursion to find LCA, handling node existence implicitly."
+  ],
+  "problem_summary_simple": "Find LCA in a binary tree, returning null if either node is missing.",
+  "problem_summary_technical": "Modified recursive DFS to count occurrences of p/q. LCA is the first node where count reaches 2.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The core logic is similar to LCA of a binary tree, but we need to track if both nodes are found.",
+      "A helper function returning the count of target nodes found in a subtree is effective.",
+      "The LCA is the first node encountered where the sum of (current node is p/q) + (count from left) + (count from right) equals 2."
+    ],
+    [
+      "The iterative DFS approach uses a stack to manage the traversal state.",
+      "It simulates the recursive calls and returns values to determine the LCA.",
+      "The logic for identifying the LCA remains the same: when a node and its subtrees collectively contain both p and q."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

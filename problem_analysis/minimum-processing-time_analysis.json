@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-processing-time",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sorting and greedy assignment of tasks to processors"
+  ],
+  "problem_summary_simple": "Minimize total time by assigning tasks to processors with 4 cores each.",
+  "problem_summary_technical": "Sort processors by availability and tasks by duration (descending), then greedily assign the longest tasks to the earliest available processors.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To minimize the maximum completion time, we should pair the slowest processors with the shortest tasks and the fastest processors with the longest tasks.",
+      "Sorting both processor times and task times is key to a greedy approach.",
+      "The problem can be simplified by realizing that each processor will handle 4 tasks, and we want to minimize the maximum of (processor_time + task_time) across all processors."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

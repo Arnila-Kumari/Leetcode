@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-power-of-k-size-subarrays-ii",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sliding window with two pointers to check consecutive and sorted property."
+  ],
+  "problem_summary_simple": "Find the maximum element of k-sized subarrays if they are consecutive and sorted, otherwise -1.",
+  "problem_summary_technical": "Uses a sliding window and two pointers to efficiently check the consecutive and sorted property of subarrays of size k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The condition `nums[right] - nums[left] == right - left` efficiently checks if the elements in the current window are consecutive and sorted.",
+      "When the condition fails, the `left` pointer is reset to `right` to start a new potential valid window.",
+      "The `result` array is populated only when a window of size `k` is formed and meets the criteria."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "time-taken-to-cross-the-door",
+  "data_structures": [
+    [
+      "list",
+      "deque",
+      "list"
+    ]
+  ],
+  "category": "Simulation",
+  "algorithm_technique": [
+    "Simulate the process second by second, using queues to manage people waiting to enter/exit and applying priority rules."
+  ],
+  "problem_summary_simple": "Determine when each person crosses a door based on arrival time and entry/exit preferences.",
+  "problem_summary_technical": "Simulate time progression, manage entry/exit queues, and apply priority rules (exit first if idle, previous action, or index) to decide who crosses.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires a careful simulation of events over time.",
+      "Maintaining separate queues for people wanting to enter and exit is essential.",
+      "The state of the door (idle, previous entry, previous exit) dictates the priority when multiple people are waiting."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

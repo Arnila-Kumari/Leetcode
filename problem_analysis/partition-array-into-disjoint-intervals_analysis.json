@@ -1,0 +1,32 @@
+{
+  "problem_name": "partition-array-into-disjoint-intervals",
+  "data_structures": [
+    [
+      "array",
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Precompute suffix minimums, then iterate to find partition point."
+  ],
+  "problem_summary_simple": "Split an array into two parts where all left elements are <= all right elements, minimizing the left part's size.",
+  "problem_summary_technical": "Partition array `nums` into `left` and `right` such that max(left) <= min(right) and `left` is minimized. Precompute suffix minimums.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating suffix minimums allows for efficient checking of the partition condition.",
+      "The problem guarantees a solution exists, simplifying the search.",
+      "The first index `i` where `max(nums[0...i-1]) <= suffix_min[i]` is the answer."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

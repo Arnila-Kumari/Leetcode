@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-the-number-of-good-subarrays",
+  "data_structures": [
+    [
+      "hash map (Counter)",
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a frequency map to count pairs. Expand window, update pair count, shrink when condition met."
+  ],
+  "problem_summary_simple": "Count subarrays with at least k pairs of identical elements.",
+  "problem_summary_technical": "Uses a sliding window and a frequency map. The number of pairs is accumulated. When pairs >= k, the window shrinks, and valid subarrays ending at the current right pointer are counted.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The number of pairs of identical elements in a subarray with frequency `f` for an element is `f * (f - 1) / 2`.",
+      "The sliding window approach efficiently maintains the count of pairs as the window expands and contracts.",
+      "When `curr` (number of pairs) reaches `k`, all subarrays ending at the current `right` pointer and starting from `left` up to the current `left` are good."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

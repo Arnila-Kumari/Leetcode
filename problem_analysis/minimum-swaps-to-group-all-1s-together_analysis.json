@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-swaps-to-group-all-1s-together",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window to find the maximum number of 1s in a window of size equal to the total count of 1s."
+  ],
+  "problem_summary_simple": "Find the minimum swaps to group all 1s together in a binary array.",
+  "problem_summary_technical": "Use a sliding window of size equal to the total number of 1s to find the window with the maximum number of 1s.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding a subarray of length equal to the total count of 1s that contains the maximum number of 1s.",
+      "The minimum number of swaps is the total count of 1s minus the maximum number of 1s found in any such subarray.",
+      "A sliding window approach efficiently calculates the number of 1s in all possible contiguous subarrays of the required length."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

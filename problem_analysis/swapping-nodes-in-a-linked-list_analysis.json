@@ -1,0 +1,31 @@
+{
+  "problem_name": "swapping-nodes-in-a-linked-list",
+  "data_structures": [
+    [
+      "ListNode"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Two-pass approach to find kth node from start and end, then swap values."
+  ],
+  "problem_summary_simple": "Swap the values of the kth node from the beginning and kth node from the end of a linked list.",
+  "problem_summary_technical": "Finds the kth node from the start and end of a linked list in a single pass, then swaps their values.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A single pass can identify both the kth node from the beginning and the kth node from the end.",
+      "The 'right' pointer effectively tracks the kth node from the end by starting at the head and moving 'k' steps behind the 'current' pointer.",
+      "Swapping values is more efficient than swapping nodes themselves when only values need to be changed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

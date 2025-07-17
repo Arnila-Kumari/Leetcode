@@ -1,0 +1,42 @@
+{
+  "problem_name": "check-if-a-string-contains-all-binary-codes-of-size-k",
+  "data_structures": [
+    [
+      "set"
+    ],
+    [
+      "set"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Substring extraction and set storage",
+    "Rolling hash (integer representation) and set storage"
+  ],
+  "problem_summary_simple": "Determine if all possible binary strings of length k are present as substrings in a given binary string.",
+  "problem_summary_technical": "Extracts all substrings of length k, stores them in a set, and checks if the set size equals 2^k.",
+  "time_complexity": [
+    "O(n * k)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k * 2^k)",
+    "O(2^k)"
+  ],
+  "key_insights": [
+    [
+      "The total number of unique binary codes of length k is 2^k.",
+      "We need to find all substrings of length k and check if they cover all possible 2^k combinations.",
+      "Using a set efficiently stores unique substrings and allows for quick size checking."
+    ],
+    [
+      "A rolling hash (represented by an integer) can efficiently generate and track binary codes of length k.",
+      "By maintaining a sliding window of size k, we can update the integer representation in O(1) time.",
+      "The maximum number of unique codes is 2^k, so the set size will not exceed this."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

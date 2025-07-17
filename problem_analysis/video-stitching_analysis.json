@@ -1,0 +1,32 @@
+{
+  "problem_name": "video-stitching",
+  "data_structures": [
+    [
+      "list of lists",
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort clips by start time, then greedily extend the reachable range."
+  ],
+  "problem_summary_simple": "Find the minimum number of video clips to cover a given time duration.",
+  "problem_summary_technical": "Greedy approach: sort clips, maintain current and maximum reachable time, increment count when current reach is extended.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the clips by their start times is crucial for the greedy approach.",
+      "The greedy strategy involves always picking the clip that extends the furthest from the current reachable point.",
+      "If at any point the next clip starts after the current reachable point, it's impossible to cover the duration."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

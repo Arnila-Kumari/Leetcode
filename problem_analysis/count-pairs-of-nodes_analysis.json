@@ -1,0 +1,49 @@
+{
+  "problem_name": "count-pairs-of-nodes",
+  "data_structures": [
+    [
+      "array",
+      "hash map",
+      "prefix sum array"
+    ],
+    [
+      "array",
+      "sorted array",
+      "hash map"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Degree calculation, prefix sums, and two pointers on degrees",
+    "Degree calculation, sorting, and two pointers with adjustments for shared edges"
+  ],
+  "problem_summary_simple": "Count pairs of nodes (a, b) with a < b where the total incident edges to a or b exceed a query value.",
+  "problem_summary_technical": "Calculates node degrees, uses prefix sums of degrees, and applies two pointers to count pairs satisfying the query threshold.",
+  "time_complexity": [
+    "O(n + e + q * d^2)"
+  ],
+  "space_complexity": [
+    "O(n + e)"
+  ],
+  "key_insights": [
+    [
+      "The condition `incident(a, b) > queries[j]` can be rewritten as `degree[a] + degree[b] - shared_edges(a, b) > queries[j]`. ",
+      "The core challenge is efficiently counting pairs (a, b) that satisfy this for multiple queries.",
+      "Calculating degrees and then using prefix sums on sorted degrees allows for a fast two-pointer approach to count pairs where `degree[a] + degree[b]` exceeds a threshold."
+    ],
+    [
+      "The provided 'pure counting' solution pre-calculates counts of pairs based on the sum of degrees and then adjusts for shared edges.",
+      "The 'two pointers' solution directly uses two pointers on the sorted degrees for each query, and then subtracts pairs that don't meet the criteria due to shared edges.",
+      "Both solutions leverage the fact that the number of queries is small compared to n, allowing for some per-query processing."
+    ],
+    [
+      "The `shared` counter is crucial for handling multiple edges between the same pair of nodes, as it correctly adjusts the `incident(a, b)` count.",
+      "The prefix sum optimization in the first solution allows answering queries in O(1) after an O(n log n) or O(d^2) pre-processing step (where d is max degree).",
+      "The second solution's approach of iterating through queries and using two pointers is also efficient, especially given the small number of queries."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:37:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "reformat-the-string",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Character counting and interleaving using generators"
+  ],
+  "problem_summary_simple": "Rearrange a string so letters and digits alternate, or return empty if impossible.",
+  "problem_summary_technical": "Count character and digit frequencies. Interleave them based on counts, ensuring no adjacent same types.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to separate letters and digits and then interleave them.",
+      "The difference in counts of letters and digits must be at most 1 for a valid reformatting.",
+      "Generators are used to efficiently yield characters from the sorted lists."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

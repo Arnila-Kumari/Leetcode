@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k",
+  "data_structures": [
+    [
+      "Array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: repeatedly subtract the largest possible Fibonacci number less than or equal to the remaining sum.",
+    "Generate Fibonacci numbers up to k, then greedily pick the largest ones."
+  ],
+  "problem_summary_simple": "Find the minimum number of Fibonacci numbers that sum up to a given integer k.",
+  "problem_summary_technical": "Generate Fibonacci numbers, then greedily subtract the largest Fibonacci number less than or equal to the remaining sum until it reaches zero.",
+  "time_complexity": [
+    "O(logk)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Zeckendorf's theorem guarantees that any positive integer can be uniquely represented as a sum of non-consecutive Fibonacci numbers.",
+      "A greedy approach works: always pick the largest Fibonacci number less than or equal to the current sum.",
+      "The Fibonacci sequence grows exponentially, so the number of Fibonacci numbers needed is logarithmic with respect to k."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

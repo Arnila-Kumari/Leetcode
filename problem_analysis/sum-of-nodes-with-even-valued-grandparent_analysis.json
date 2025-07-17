@@ -1,0 +1,31 @@
+{
+  "problem_name": "sum-of-nodes-with-even-valued-grandparent",
+  "data_structures": [
+    [
+      "binary tree"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive Depth First Search (DFS) passing parent and grandparent values."
+  ],
+  "problem_summary_simple": "Sum values of nodes whose grandparent has an even value.",
+  "problem_summary_technical": "Perform a DFS traversal, passing parent and grandparent node values to check the grandparent's parity and sum accordingly.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "A recursive DFS approach is natural for tree problems.",
+      "Passing parent and grandparent information down the recursion is key to checking the condition.",
+      "Base case for recursion is when a node is None."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

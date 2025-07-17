@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-all-valid-pickup-and-delivery-options",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "combinatorial counting",
+    "pattern recognition for valid sequences"
+  ],
+  "problem_summary_simple": "Count valid sequences of picking up and delivering n orders, ensuring delivery is after pickup for each order.",
+  "problem_summary_technical": "For each pair of pickup and delivery, there are i*(i-1)/2 valid arrangements, multiplied cumulatively.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "the problem can be solved by considering pairs of pickup and delivery",
+      "for the i-th order, there are 2i positions to place P_i and D_i",
+      "P_i must come before D_i, leading to (2i choose 1) / 2 = i choices for P_i, then D_i is fixed"
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:44:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

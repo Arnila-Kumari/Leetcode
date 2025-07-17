@@ -1,0 +1,56 @@
+{
+  "problem_name": "maximum-students-taking-exam",
+  "data_structures": [
+    [
+      "Graph",
+      "Array"
+    ],
+    [
+      "Array",
+      "Array"
+    ],
+    [
+      "Hash Map",
+      "Array"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Bipartite matching using Hopcroft-Karp algorithm to find maximum independent set.",
+    "Bipartite matching using Hungarian algorithm (DFS-based) to find maximum independent set.",
+    "Dynamic programming with bitmasking to represent student placements in rows."
+  ],
+  "problem_summary_simple": "Maximize students in a classroom without cheating, considering broken seats and neighbor visibility rules.",
+  "problem_summary_technical": "Models the problem as finding the maximum independent set on a graph, solvable with bipartite matching or DP with bitmasking.",
+  "time_complexity": [
+    "O(E * sqrt(V)) which is roughly O(m*n * sqrt(m*n))",
+    "O(|V| * |E|) which is roughly O(m*n * m*n)",
+    "O(m * 4^n)"
+  ],
+  "space_complexity": [
+    "O(V + E) which is roughly O(m*n)",
+    "O(V + E) which is roughly O(m*n)",
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be transformed into finding the maximum independent set on a graph where nodes are valid seats and edges represent conflicts.",
+      "By coloring the seats like a chessboard, the problem becomes a bipartite graph matching problem.",
+      "The number of students is the total valid seats minus the size of the maximum matching (which equals the minimum vertex cover). Hopcroft-Karp finds this efficiently."
+    ],
+    [
+      "Similar to Hopcroft-Karp, this uses bipartite matching but with a simpler DFS-based approach for finding augmenting paths.",
+      "The graph construction and the concept of maximum independent set remain the same.",
+      "The time complexity is generally higher than Hopcroft-Karp for dense graphs."
+    ],
+    [
+      "Dynamic programming can be used row by row, where the state represents the valid student placements in the current row.",
+      "Bitmasking is crucial to represent the configuration of students in a row and check for cheating conflicts with adjacent seats and previous row's students.",
+      "The transitions involve iterating through all valid placements in the current row based on the previous row's state."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:54:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

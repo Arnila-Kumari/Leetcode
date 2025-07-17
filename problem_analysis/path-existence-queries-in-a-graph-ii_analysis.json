@@ -1,0 +1,33 @@
+{
+  "problem_name": "path-existence-queries-in-a-graph-ii",
+  "data_structures": [
+    [
+      "sorted array",
+      "prefix sum array",
+      "binary lifting table (2D array)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Sorting, prefix sums, and binary lifting for efficient path queries on a dynamically defined graph."
+  ],
+  "problem_summary_simple": "Find the minimum distance between two nodes in a graph where edges depend on the difference between node values.",
+  "problem_summary_technical": "Builds a graph implicitly based on value differences, then uses sorting and binary lifting to answer path existence and distance queries efficiently.",
+  "time_complexity": [
+    "O((n + q) * logn)"
+  ],
+  "space_complexity": [
+    "O(nlogn)"
+  ],
+  "key_insights": [
+    [
+      "Sorting nodes by value is crucial to efficiently determine connectivity based on maxDiff.",
+      "Prefix sums on sorted nodes help quickly identify connected components.",
+      "Binary lifting is used to quickly jump across multiple edges, enabling O(log n) path queries."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:04:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

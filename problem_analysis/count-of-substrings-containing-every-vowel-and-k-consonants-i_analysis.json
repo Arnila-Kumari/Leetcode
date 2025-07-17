@@ -1,0 +1,46 @@
+{
+  "problem_name": "count-of-substrings-containing-every-vowel-and-k-consonants-i",
+  "data_structures": [
+    [
+      "frequency arrays for vowels and consonants",
+      "count variables",
+      "left and mid pointers"
+    ],
+    [
+      "frequency arrays for vowels and consonants",
+      "count variables",
+      "left pointer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding Window with two pointers and frequency tracking",
+    "Sliding Window using inclusion-exclusion principle (count(k) - count(k+1))"
+  ],
+  "problem_summary_simple": "Count substrings with all 5 vowels and exactly k consonants.",
+  "problem_summary_technical": "Uses a sliding window to maintain vowel and consonant counts. Solution 1 uses a three-pointer approach; Solution 2 uses inclusion-exclusion on a helper function.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires a sliding window to efficiently check all substrings.",
+      "Maintaining counts of vowels and consonants within the window is key.",
+      "The three-pointer approach (left, mid, right) helps to find valid start points for substrings once the window satisfies the conditions."
+    ],
+    [
+      "The problem can be reframed as finding substrings with at least k consonants and subtracting those with at least k+1 consonants.",
+      "A helper function `count(k)` counts substrings with at least k consonants and all vowels.",
+      "This inclusion-exclusion approach simplifies the logic by focusing on a 'at least' condition."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

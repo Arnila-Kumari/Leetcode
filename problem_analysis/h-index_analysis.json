@@ -1,0 +1,51 @@
+{
+  "problem_name": "h-index",
+  "data_structures": [
+    [
+      "array",
+      "list"
+    ],
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Counting sort approach: use a count array to store frequencies of citations, then iterate backwards to find h-index.",
+    "Sorting and linear scan: sort citations in descending order and iterate to find the first index `i` where `citations[i] < i+1`.",
+    "Sorting and summation: sort citations descending and sum up papers that meet the h-index criteria."
+  ],
+  "problem_summary_simple": "Find the maximum number 'h' such that a researcher has 'h' papers cited at least 'h' times.",
+  "problem_summary_technical": "Calculates the h-index by analyzing citation counts, either through frequency distribution or by sorting and iterating through papers.",
+  "time_complexity": [
+    "O(N)",
+    "O(N log N)",
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(1)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The counting sort approach efficiently groups citations, allowing for an O(N) solution.",
+      "The key is to iterate from the maximum possible h-index downwards and accumulate counts."
+    ],
+    [
+      "Sorting the citations in descending order simplifies the process of finding the h-index.",
+      "The h-index is the largest `h` such that the `h`-th paper (after sorting) has at least `h` citations."
+    ],
+    [
+      "This solution directly counts how many papers satisfy the condition for each potential h-index.",
+      "It leverages Python's concise syntax for sorting and conditional summation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-substring-of-all-vowels-in-order",
+  "data_structures": [
+    [
+      "string iteration"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with state tracking for vowel order and count"
+  ],
+  "problem_summary_simple": "Find the longest substring containing all vowels in alphabetical order ('a', 'e', 'i', 'o', 'u').",
+  "problem_summary_technical": "Iterate through the string, maintaining a window. Track the current vowel sequence and length, resetting when order is broken or a new vowel appears.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A 'beautiful' substring must have vowels in strictly increasing alphabetical order.",
+      "We can use a sliding window approach, expanding it as long as the vowel order is maintained.",
+      "When the order is broken (e.g., 'aei' followed by 'a'), the window needs to be reset or adjusted based on the new starting vowel."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "sort-matrix-by-diagonals",
+  "data_structures": [
+    [
+      "list of lists",
+      "dictionary (defaultdict)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Diagonal Traversal with Sorting"
+  ],
+  "problem_summary_simple": "Sort diagonals of a matrix based on their position (bottom-left non-increasing, top-right non-decreasing).",
+  "problem_summary_technical": "Group matrix elements by diagonal (i-j), sort each diagonal group, and then place them back into the matrix.",
+  "time_complexity": [
+    "O(N*M*log(min(N,M)))"
+  ],
+  "space_complexity": [
+    "O(N*M)"
+  ],
+  "key_insights": [
+    [
+      "Elements on the same diagonal share a constant difference between their row and column indices (i-j).",
+      "A dictionary (or hash map) is ideal for grouping elements by their diagonal identifier.",
+      "Sorting each diagonal independently and then reconstructing the matrix is the core strategy."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

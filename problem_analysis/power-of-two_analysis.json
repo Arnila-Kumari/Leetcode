@@ -1,0 +1,36 @@
+{
+  "problem_name": "power-of-two",
+  "data_structures": [
+    [],
+    []
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Use bitwise AND to check if n and n-1 are zero.",
+    "Use bitwise AND with bitwise NOT to isolate the least significant bit."
+  ],
+  "problem_summary_simple": "Check if an integer is a power of two.",
+  "problem_summary_technical": "A power of two has only one bit set. n & (n-1) clears the least significant bit.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Powers of two in binary have a single '1' bit (e.g., 1, 10, 100, 1000).",
+      "Subtracting 1 from a power of two flips all bits from the rightmost '1' onwards."
+    ],
+    [
+      "The expression `~-n` isolates the least significant bit.",
+      "For a power of two, this isolated bit will be the only bit set in `n`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:05:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

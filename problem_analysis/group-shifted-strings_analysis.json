@@ -1,0 +1,33 @@
+{
+  "problem_name": "group-shifted-strings",
+  "data_structures": [
+    [
+      "collections.defaultdict(list)",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hashing by character difference",
+    "Grouping using a hash map"
+  ],
+  "problem_summary_simple": "Group strings that can be obtained from each other by shifting letters cyclically.",
+  "problem_summary_technical": "Groups strings by a 'hash' representing the pattern of character differences, using a hash map for grouping.",
+  "time_complexity": [
+    "O(N * L), where N is the number of strings and L is the length of each string."
+  ],
+  "space_complexity": [
+    "O(N * L) in the worst case, to store all strings in the hash map."
+  ],
+  "key_insights": [
+    [
+      "Strings in the same shifting sequence have the same pattern of differences between consecutive characters, modulo 26.",
+      "A canonical representation (hash) can be created by normalizing the string based on the first character's shift.",
+      "This allows grouping similar strings efficiently using a hash map."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

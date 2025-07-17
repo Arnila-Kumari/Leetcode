@@ -1,0 +1,33 @@
+{
+  "problem_name": "word-search",
+  "data_structures": [
+    [
+      "2D array",
+      "2D boolean array",
+      "recursion stack"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) with backtracking and visited tracking."
+  ],
+  "problem_summary_simple": "Find if a word exists in a grid by connecting adjacent letters.",
+  "problem_summary_technical": "Employs DFS with backtracking to search for the word, marking visited cells to avoid reuse.",
+  "time_complexity": [
+    "O(m * n * 4 * 3^(l - 1))"
+  ],
+  "space_complexity": [
+    "O(l)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a classic grid traversal problem solvable with DFS.",
+      "Backtracking is crucial: unmarking visited cells after exploring a path allows for alternative routes.",
+      "The time complexity is exponential due to exploring multiple paths for each character."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

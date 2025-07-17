@@ -1,0 +1,34 @@
+{
+  "problem_name": "count-beautiful-substrings-ii",
+  "data_structures": [
+    [
+      "prefix sum array",
+      "frequency map (Counter)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "prefix sums",
+    "number theory (prime factorization)",
+    "hashing"
+  ],
+  "problem_summary_simple": "Count substrings where vowel count equals consonant count and their product is divisible by k.",
+  "problem_summary_technical": "Uses prefix sums for vowel/consonant difference and number theory to reduce modulo for hashing.",
+  "time_complexity": [
+    "O(n * sqrt(k))"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "prefix sums to track vowel-consonant difference",
+      "number theory to simplify the modulo condition",
+      "hashing to count pairs with specific difference and modulo"
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:44:56",
+  "batch_processed": true,
+  "batch_size": 4
+}

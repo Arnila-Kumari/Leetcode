@@ -1,0 +1,32 @@
+{
+  "problem_name": "binary-tree-zigzag-level-order-traversal",
+  "data_structures": [
+    [
+      "TreeNode",
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Level-order traversal (BFS) with alternating reversal of node values per level"
+  ],
+  "problem_summary_simple": "Traverse a binary tree level by level, alternating direction (left-to-right, then right-to-left).",
+  "problem_summary_technical": "Performs BFS, collecting node values per level and reversing the list of values for odd-numbered levels.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Standard BFS is used to process nodes level by level.",
+      "The key is to reverse the collected values for every other level.",
+      "The `len(result) % 2` condition efficiently determines whether to reverse the current level's values."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

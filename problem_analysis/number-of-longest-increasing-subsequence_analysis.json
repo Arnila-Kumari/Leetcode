@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-longest-increasing-subsequence",
+  "data_structures": [
+    [
+      "2D array for DP table (length, count)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to track length and count of LIS ending at each element."
+  ],
+  "problem_summary_simple": "Find the total count of subsequences that are strictly increasing and have the maximum possible length.",
+  "problem_summary_technical": "DP approach: `dp[i]` stores `{length, count}` of LIS ending at `nums[i]`. Iterate and update based on previous elements.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maintain two pieces of information for each element: the length of the longest increasing subsequence ending at that element, and the number of such subsequences.",
+      "When considering `nums[i]`, iterate through all `nums[j]` where `j < i`. If `nums[i] > nums[j]`, it means `nums[i]` can extend an increasing subsequence ending at `nums[j]`.",
+      "If extending the subsequence from `nums[j]` results in a longer subsequence for `nums[i]`, update `nums[i]`'s length and set its count to `nums[j]`'s count. If it results in the same length, add `nums[j]`'s count to `nums[i]`'s count."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,46 @@
+{
+  "problem_name": "select-k-disjoint-special-substrings",
+  "data_structures": [
+    [
+      "array for counts",
+      "arrays for first/last occurrences",
+      "list of intervals"
+    ],
+    [
+      "array for counts",
+      "arrays for first/last occurrences",
+      "list of intervals"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Identify potential special substrings by checking character uniqueness within bounds, then use interval scheduling to maximize disjoint selections.",
+    "Iterate through string, identify candidate special substrings based on character occurrences, then apply interval scheduling."
+  ],
+  "problem_summary_simple": "Determine if k disjoint substrings exist where characters within are unique to that substring.",
+  "problem_summary_technical": "Find all special substrings by checking character frequency and bounds, then use greedy interval scheduling to count maximum disjoint ones.",
+  "time_complexity": [
+    "O(n + 26^3)",
+    "O(26 * n + 26 * log(26))"
+  ],
+  "space_complexity": [
+    "O(26)",
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "A special substring must not contain characters that appear outside its boundaries.",
+      "The problem can be solved by finding all valid special substrings and then applying a greedy approach (interval scheduling) to find the maximum number of disjoint ones.",
+      "The `erase_overlap_intervals` function is a standard greedy algorithm for finding the maximum number of non-overlapping intervals."
+    ],
+    [
+      "The second solution optimizes the identification of potential special substrings by iterating through the string and using precomputed first/last occurrences.",
+      "The core idea remains to find valid intervals and then greedily select the maximum number of non-overlapping ones.",
+      "The constraint `total < len(s)` ensures the substring is not the entire string."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

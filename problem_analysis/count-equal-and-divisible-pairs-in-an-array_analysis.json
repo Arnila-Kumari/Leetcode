@@ -1,0 +1,58 @@
+{
+  "problem_name": "count-equal-and-divisible-pairs-in-an-array",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "collections.Counter",
+      "list"
+    ],
+    [
+      "collections.defaultdict",
+      "collections.Counter",
+      "list"
+    ],
+    [
+      "collections.defaultdict",
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Optimized approach using GCD to group indices by their GCD with k, then checking pairs.",
+    "Alternative optimized approach storing counts of GCDs for each number, then checking pairs of GCDs.",
+    "Brute-force approach iterating through all pairs of indices and checking conditions."
+  ],
+  "problem_summary_simple": "Find pairs of indices (i, j) where values are equal and the product of indices is divisible by k.",
+  "problem_summary_technical": "Groups indices by value, then uses GCD properties to efficiently count pairs (i, j) where nums[i] == nums[j] and (i*j)%k == 0.",
+  "time_complexity": [
+    "O(n*sqrt(k))",
+    "O(n*k)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n + sqrt(k))",
+    "O(n * sqrt(k))",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The condition `(i * j) % k == 0` can be analyzed using the greatest common divisor (GCD). Specifically, `(i*j)/gcd(i*j, k)` must be divisible by `k/gcd(i*j, k)`.",
+      "Pre-calculating GCDs of indices with `k` can optimize the pair checking. If `gcd(i, k) = g1` and `gcd(j, k) = g2`, then `(i*j)%k == 0` is related to `(g1*g2)%k == 0`.",
+      "The number of factors of `k` is relatively small (at most `2*sqrt(k)`), which is key to the optimized solutions."
+    ],
+    [
+      "Storing counts of `gcd(index, k)` for each number allows for checking pairs of GCDs efficiently.",
+      "The condition `(g1 * g2) % k == 0` is the core check after grouping indices by their GCD with `k`.",
+      "This approach avoids iterating through all index pairs directly, significantly improving performance for larger `n`."
+    ],
+    [
+      "The brute-force approach is straightforward but inefficient, checking every possible pair `(i, j)` where `i < j`.",
+      "It first groups indices by their values to only consider pairs with equal numbers.",
+      "The time complexity is dominated by the nested loops over indices for each unique number."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "pacific-atlantic-water-flow",
+  "data_structures": [
+    [
+      "2D array (visited status)",
+      "List of tuples (result coordinates)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Depth First Search (DFS) starting from ocean borders."
+  ],
+  "problem_summary_simple": "Find cells from which water can flow to both Pacific and Atlantic oceans.",
+  "problem_summary_technical": "Uses DFS from Pacific and Atlantic borders to mark reachable cells, then finds intersection.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "Instead of checking flow from each cell to both oceans, it's more efficient to check flow from oceans to cells.",
+      "Perform DFS/BFS from cells adjacent to the Pacific Ocean and then from cells adjacent to the Atlantic Ocean.",
+      "A cell is a valid result if it's reachable from both oceans."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

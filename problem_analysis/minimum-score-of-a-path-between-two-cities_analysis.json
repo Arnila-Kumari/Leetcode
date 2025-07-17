@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-score-of-a-path-between-two-cities",
+  "data_structures": [
+    [
+      "adjacency list",
+      "boolean array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) to find connected component and minimum edge weight"
+  ],
+  "problem_summary_simple": "Find the minimum road distance on any path between city 1 and city n.",
+  "problem_summary_technical": "Find the minimum edge weight within the connected component containing cities 1 and n using BFS.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the minimum edge weight in the connected component that includes cities 1 and n.",
+      "Any path between city 1 and city n will traverse roads within this connected component.",
+      "BFS or DFS can efficiently find all reachable nodes and thus the relevant connected component."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

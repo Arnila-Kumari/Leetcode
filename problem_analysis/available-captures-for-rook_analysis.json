@@ -1,0 +1,32 @@
+{
+  "problem_name": "available-captures-for-rook",
+  "data_structures": [
+    [
+      "2D array",
+      "variables for rook position"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Find the rook, then scan in four directions (up, down, left, right) until a piece or boundary is hit."
+  ],
+  "problem_summary_simple": "Count how many pawns a white rook can capture on a chessboard, avoiding blocking pieces.",
+  "problem_summary_technical": "Locate the rook on the 8x8 board. Iterate in four cardinal directions, counting pawns until a bishop, pawn, or board edge is encountered.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The board size is fixed at 8x8, making the complexity constant.",
+      "The key is to correctly implement the scanning logic in each of the four directions, stopping at the first obstruction.",
+      "Bishops and pawns act as blockers, so the scan must terminate upon encountering them, regardless of whether they are captured."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

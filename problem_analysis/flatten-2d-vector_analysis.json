@@ -1,0 +1,32 @@
+{
+  "problem_name": "flatten-2d-vector",
+  "data_structures": [
+    [
+      "collections.deque",
+      "iterator"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterator design pattern using a deque to manage nested iterators"
+  ],
+  "problem_summary_simple": "Design an iterator to traverse elements of a 2D vector sequentially, supporting next and hasNext operations.",
+  "problem_summary_technical": "Implement an iterator using a deque to store (length, iterator) pairs of inner lists, efficiently managing nested iteration for flattening.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "A deque is used to efficiently manage the heads of the inner iterators.",
+      "The `hasNext` operation checks if the deque is empty.",
+      "The `next` operation pops from the deque, returns the next element, and re-appends if the inner iterator has more elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

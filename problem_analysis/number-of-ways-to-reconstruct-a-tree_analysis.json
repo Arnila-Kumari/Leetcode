@@ -1,0 +1,38 @@
+{
+  "problem_name": "number-of-ways-to-reconstruct-a-tree",
+  "data_structures": [
+    [
+      "hash map for adjacency list",
+      "set for visited nodes"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "graph traversal and validation",
+    "checking tree properties and parent relationships"
+  ],
+  "problem_summary_simple": "Determine if a set of pairs can form a valid rooted tree and count the ways.",
+  "problem_summary_technical": "Builds an adjacency list, identifies potential roots, and validates parent-child relationships based on degree and shared neighbors.",
+  "time_complexity": [
+    "O(N log N) where N is the number of unique nodes"
+  ],
+  "space_complexity": [
+    "O(N + E) where N is nodes and E is edges"
+  ],
+  "key_insights": [
+    [
+      "A valid rooted tree must have a single root with degree N-1 (if all nodes are connected).",
+      "For any node, its parent must be its neighbor with the smallest degree.",
+      "All other neighbors of a node must be descendants of its parent (i.e., also neighbors of the parent)."
+    ],
+    [
+      "The number of ways is 0 if any condition is violated.",
+      "It's 1 if there's a unique valid parent for each node.",
+      "It's 2 if there are multiple valid parent choices for some nodes (specifically, when a node and its parent have the same degree)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

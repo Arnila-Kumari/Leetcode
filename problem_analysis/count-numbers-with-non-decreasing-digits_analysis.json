@@ -1,0 +1,44 @@
+{
+  "problem_name": "count-numbers-with-non-decreasing-digits",
+  "data_structures": [
+    [
+      "array",
+      "array"
+    ],
+    [
+      "array",
+      "array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorics (stars and bars) with digit DP",
+    "Combinatorics (stars and bars) with digit DP and base conversion"
+  ],
+  "problem_summary_simple": "Count numbers in a range [l, r] whose digits are non-decreasing in a given base b.",
+  "problem_summary_technical": "Uses combinatorics (nHr) to count non-decreasing sequences and digit DP to handle range constraints.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to count numbers with non-decreasing digits up to a certain value.",
+      "Combinatorics (specifically, stars and bars, or nHr) is used to count sequences of digits.",
+      "Digit DP is applied to handle the upper bound (r) and lower bound (l-1) by iterating through digits and calculating valid combinations."
+    ],
+    [
+      "The core idea is to count numbers with non-decreasing digits up to a certain value.",
+      "Combinatorics (specifically, stars and bars, or nHr) is used to count sequences of digits.",
+      "Numbers are converted to the target base `b` before applying the combinatorics and digit DP logic."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:37:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

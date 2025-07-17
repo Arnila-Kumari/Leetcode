@@ -1,0 +1,32 @@
+{
+  "problem_name": "strictly-palindromic-number",
+  "data_structures": [
+    [
+      "None"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical observation and proof"
+  ],
+  "problem_summary_simple": "Check if a number's representation is palindromic in all bases from 2 to n-2.",
+  "problem_summary_technical": "No integer greater than 3 can be strictly palindromic in all bases from 2 to n-2.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Consider the number `n` in base `b`. If `n` is strictly palindromic, its representation in base `b` must be a palindrome for all `2 <= b <= n-2`.",
+      "For `n > 3`, consider base `n-1`. `n` in base `n-1` is `11` (base `n-1`). This is always a palindrome.",
+      "However, consider base `n-2`. `n` in base `n-2` is `12` (base `n-2`). This is not a palindrome.",
+      "Therefore, no integer `n > 3` can be strictly palindromic."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:10:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

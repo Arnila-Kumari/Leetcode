@@ -1,0 +1,30 @@
+{
+  "problem_name": "check-if-point-is-reachable",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Reverse the operations using GCD and bit manipulation."
+  ],
+  "problem_summary_simple": "Check if a target point can be reached from (1,1) using specific grid moves.",
+  "problem_summary_technical": "Analyze reverse moves: (x, y-x), (x-y, y), (x/2, y), (x, y/2). Reachable if gcd(x,y) is a power of 2.",
+  "time_complexity": [
+    "O(log(min(targetX, targetY)))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The allowed moves can be reversed: (x, y) -> (x, y+x), (x+y, y), (x/2, y) if x is even, (x, y/2) if y is even.",
+      "The operations (x, y) -> (x, y+x) and (x+y, y) are related to the Euclidean algorithm for GCD.",
+      "Any reachable point (x, y) must have gcd(x, y) as a power of 2, because the initial point (1,1) has gcd(1,1)=1, and the operations preserve the gcd's prime factors other than 2.",
+      "The condition `g == (g & ~(g-1))` checks if `g` is a power of 2."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "watering-plants-ii",
+  "data_structures": [
+    [
+      "integer variables for current water for Alice/Bob, refill count, left/right pointers"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers moving inwards, simulating Alice and Bob watering simultaneously, refilling when necessary."
+  ],
+  "problem_summary_simple": "Find minimum refills for Alice and Bob watering plants from opposite ends.",
+  "problem_summary_technical": "Two pointers approach simulating simultaneous watering from ends. Refill if current water is less than plant requirement, prioritizing the person with more water for the middle plant.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The two-pointer approach efficiently simulates simultaneous watering from both ends.",
+      "The middle plant (if `n` is odd) is handled by the person with more water.",
+      "Refills are counted only when a can's current water is insufficient for the next plant."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

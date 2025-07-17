@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-alternating-subarrays",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterative approach using a single pass to count alternating subarrays based on adjacent element comparison."
+  ],
+  "problem_summary_simple": "Count all subarrays where adjacent elements are different.",
+  "problem_summary_technical": "Uses a single pass and a counter to track the length of the current alternating subarray, summing up contributions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "An alternating subarray is broken when two adjacent elements are the same.",
+      "The number of alternating subarrays ending at index `i` is `current_length`.",
+      "The total count is the sum of `current_length` for all `i`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:36:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

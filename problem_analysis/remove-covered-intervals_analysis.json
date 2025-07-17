@@ -1,0 +1,34 @@
+{
+  "problem_name": "remove-covered-intervals",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sort intervals by start point, then by descending end point. Iterate and keep track of the maximum right boundary."
+  ],
+  "problem_summary_simple": "Remove intervals that are completely contained within another interval in the list.",
+  "problem_summary_technical": "Sort intervals by start, then by reverse end. Use a greedy approach to count non-covered intervals by tracking the maximum right endpoint.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting by start point and then by descending end point is crucial for the greedy approach.",
+      "The key is to identify intervals that extend beyond the current maximum right boundary."
+    ],
+    [
+      "An interval [a, b) is covered by [c, d) if c <= a and b <= d. The sorting strategy ensures we consider potential covering intervals first."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

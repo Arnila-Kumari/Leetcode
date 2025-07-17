@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-number-of-words-found-in-sentences",
+  "data_structures": [
+    [
+      "string",
+      "count"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through sentences, count spaces in each to determine word count, find the maximum."
+  ],
+  "problem_summary_simple": "Find the sentence with the most words.",
+  "problem_summary_technical": "Iterate through each sentence, count the number of spaces, and return the maximum count plus one (for the last word).",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of words in a sentence is one more than the number of spaces.",
+      "The problem can be solved by iterating through each sentence and counting spaces.",
+      "The `max()` function efficiently finds the largest value in an iterable."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:53:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

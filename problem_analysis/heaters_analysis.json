@@ -1,0 +1,33 @@
+{
+  "problem_name": "heaters",
+  "data_structures": [
+    [
+      "sorted array",
+      "integer"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on sorted heaters to find nearest for each house",
+    "Greedy approach with binary search"
+  ],
+  "problem_summary_simple": "Find the minimum radius for heaters to cover all houses.",
+  "problem_summary_technical": "For each house, find the closest heater using binary search and determine the required radius.",
+  "time_complexity": [
+    "O((m + n) * log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding the maximum of the minimum distances from each house to its nearest heater.",
+      "Sorting the heaters array is essential for efficient searching.",
+      "Binary search (`bisect_left`) helps find the closest heaters quickly for each house."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-cost-to-separate-sentence-into-rows",
+  "data_structures": [
+    [
+      "array",
+      "dynamic programming array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with word lengths and row cost calculation."
+  ],
+  "problem_summary_simple": "Split a sentence into rows, each at most k characters, to minimize the total cost based on row length.",
+  "problem_summary_technical": "DP state `dp[i]` is min cost for suffix of words. Transition considers placing `j` to `i` in the last row.",
+  "time_complexity": [
+    "O(s + n*k) where s is sentence length and n is number of words."
+  ],
+  "space_complexity": [
+    "O(n) or O(k) depending on implementation details."
+  ],
+  "key_insights": [
+    [
+      "This is a classic dynamic programming problem where the state represents the minimum cost to format a suffix of the words.",
+      "The cost function (k - n)^2 penalizes rows that are much shorter than k.",
+      "The transitions involve iterating through possible split points for the current row, calculating the cost, and taking the minimum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

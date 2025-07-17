@@ -1,0 +1,32 @@
+{
+  "problem_name": "split-array-largest-sum",
+  "data_structures": [
+    [
+      "variable"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer (the largest sum).",
+    "A helper function checks if the array can be split into 'm' subarrays with a given maximum sum."
+  ],
+  "problem_summary_simple": "Split an array into k subarrays to minimize the largest subarray sum.",
+  "problem_summary_technical": "Binary search for the minimum possible largest subarray sum, using a greedy check function to validate splits.",
+  "time_complexity": [
+    "O(n * log(sum(nums)))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks to minimize a maximum value, which is a classic indicator for binary search on the answer.",
+      "The search space for the largest sum is between the maximum element in the array and the total sum of the array.",
+      "The `check` function uses a greedy approach: fill subarrays as much as possible without exceeding the target sum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

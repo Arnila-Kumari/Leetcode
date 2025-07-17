@@ -1,0 +1,33 @@
+{
+  "problem_name": "grid-illumination",
+  "data_structures": [
+    [
+      "hash set",
+      "hash map",
+      "array"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Use hash maps to count lamps in rows, columns, and diagonals. Process queries and turn off lamps."
+  ],
+  "problem_summary_simple": "Determine if a cell is illuminated by any lamp, then turn off nearby lamps.",
+  "problem_summary_technical": "Track lamp counts in rows, columns, and diagonals using hash maps. For each query, check illumination and update counts for adjacent lamps.",
+  "time_complexity": [
+    "O(L + Q * 9)"
+  ],
+  "space_complexity": [
+    "O(L)"
+  ],
+  "key_insights": [
+    [
+      "Efficiently tracking illuminated cells requires counting lamps along rows, columns, and diagonals.",
+      "Hash maps are suitable for storing these counts, keyed by row, column, or diagonal identifier.",
+      "When a lamp is turned off, its contribution to all affected lines (row, col, diagonals) must be decremented."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:46:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "implement-trie-ii-prefix-tree",
+  "data_structures": [
+    [
+      "Trie (prefix tree)",
+      "custom Node class with counts"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Augment Trie nodes with counts for words ending at that node and words passing through it.",
+    "Erase operation decrements counts and prunes unused nodes."
+  ],
+  "problem_summary_simple": "Implement a Trie that supports counting word occurrences and prefixes, and erasing words.",
+  "problem_summary_technical": "Enhance Trie nodes with prefix counts and word counts to support efficient insertion, deletion, and counting operations.",
+  "time_complexity": [
+    "insert: O(L), countWordsEqualTo: O(L), countWordsStartingWith: O(L), erase: O(L), where L is word length."
+  ],
+  "space_complexity": [
+    "O(T) where T is the total number of characters in all inserted words."
+  ],
+  "key_insights": [
+    [
+      "Storing prefix counts (`pcnt`) at each node is key for `countWordsStartingWith`.",
+      "Storing exact word counts (`cnt`) at the end node is key for `countWordsEqualTo`.",
+      "The `erase` operation must correctly decrement both `pcnt` and `cnt` and prune nodes if `pcnt` becomes zero."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "house-robber-iii",
+  "data_structures": [
+    [
+      "TreeNode",
+      "tuple"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive post-order traversal with memoization or returning two values (robbed, not robbed)."
+  ],
+  "problem_summary_simple": "Rob houses in a binary tree to maximize money without robbing adjacent ones.",
+  "problem_summary_technical": "Use recursion to return (max_rob_current, max_skip_current) for each node.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using recursion with a helper function that returns two values: the maximum amount robbed if the current node is robbed, and the maximum amount robbed if the current node is not robbed.",
+      "The base case is when the node is null, returning (0, 0).",
+      "For a non-null node, the maximum amount robbed if the current node is robbed is `node.val + left[1] + right[1]` (where left[1] and right[1] are the amounts robbed when children are skipped). The maximum amount robbed if the current node is skipped is `max(left) + max(right)`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

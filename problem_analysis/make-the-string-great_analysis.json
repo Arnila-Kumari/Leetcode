@@ -1,0 +1,32 @@
+{
+  "problem_name": "make-the-string-great",
+  "data_structures": [
+    [
+      "stack",
+      "string"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Using a stack to process characters and remove adjacent conflicting pairs."
+  ],
+  "problem_summary_simple": "Remove adjacent characters that are the same letter but different cases until the string is 'great'.",
+  "problem_summary_technical": "A stack is used to build the 'great' string by pushing characters and popping if the current character conflicts with the top.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through the string and using a stack.",
+      "If the current character and the top of the stack form a 'bad' pair, pop the stack.",
+      "Otherwise, push the current character onto the stack."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

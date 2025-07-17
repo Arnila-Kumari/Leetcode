@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-difference-between-highest-and-lowest-of-k-scores",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sorting the array and then using a sliding window of size k to find the minimum difference."
+  ],
+  "problem_summary_simple": "Pick k scores to minimize the difference between the highest and lowest picked score.",
+  "problem_summary_technical": "Sort the scores. Iterate through all contiguous subarrays of size k and find the minimum difference between the last and first element.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To minimize the difference between the highest and lowest of k scores, these k scores should be as close to each other as possible.",
+      "Sorting the array brings similar scores together, making it easier to find the optimal group of k scores.",
+      "After sorting, the minimum difference will always be found within a contiguous subarray of length k."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:57:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

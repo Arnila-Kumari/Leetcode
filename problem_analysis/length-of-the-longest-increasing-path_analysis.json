@@ -1,0 +1,34 @@
+{
+  "problem_name": "length-of-the-longest-increasing-path",
+  "data_structures": [
+    [
+      "list of lists",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Sort coordinates, then use LIS on y-coordinates of points before and after the target point."
+  ],
+  "problem_summary_simple": "Find the longest increasing path through given 2D points that must include a specific point.",
+  "problem_summary_technical": "Sort points by x-coordinate, then find LIS of y-coordinates for points before and after the target point.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a variation of the Longest Increasing Subsequence (LIS) problem.",
+      "Sorting the coordinates by x-coordinate is essential to process points in the correct order.",
+      "The path must be increasing in both x and y coordinates, so we only consider points satisfying this.",
+      "The LIS algorithm using binary search (patience sorting) is efficient for finding the longest subsequence."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

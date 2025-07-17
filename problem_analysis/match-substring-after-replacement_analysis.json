@@ -1,0 +1,44 @@
+{
+  "problem_name": "match-substring-after-replacement",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ],
+    [
+      "2D array",
+      "list"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Brute force substring check with mapping lookup",
+    "Optimized substring check using precomputed mapping"
+  ],
+  "problem_summary_simple": "Check if a modified substring can be found within a larger string using given character replacements.",
+  "problem_summary_technical": "Iterate through all possible starting positions in 's', check if 'sub' matches using allowed character transformations via mappings.",
+  "time_complexity": [
+    "O(N * K)",
+    "O(N * K)"
+  ],
+  "space_complexity": [
+    "O(M)",
+    "O(M)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves checking for a substring match with flexible character replacements.",
+      "A mapping structure (set or 2D array) is efficient for checking valid transformations.",
+      "The core logic is to slide a window of 'sub's length across 's' and verify matches."
+    ],
+    [
+      "Pre-processing the mappings into a more accessible structure (like a set of tuples or a 2D array) is key.",
+      "The `transform` function helps normalize characters for easier comparison, especially when dealing with digits and letters.",
+      "The `check` function efficiently verifies if a substring in `s` can be formed from `sub` using the mappings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

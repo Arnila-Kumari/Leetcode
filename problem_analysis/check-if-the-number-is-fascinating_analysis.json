@@ -1,0 +1,44 @@
+{
+  "problem_name": "check-if-the-number-is-fascinating",
+  "data_structures": [
+    [
+      "list (for bitmask)",
+      "integer"
+    ],
+    [
+      "string",
+      "set"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Concatenate n, 2*n, 3*n, then use a bitmask to track seen digits 1-9.",
+    "Concatenate n, 2*n, 3*n into a string and check length and unique characters."
+  ],
+  "problem_summary_simple": "Is a 3-digit number fascinating if concatenating it with 2*n and 3*n results in digits 1-9 exactly once?",
+  "problem_summary_technical": "Concatenates n, 2*n, 3*n and verifies the resulting string contains digits 1-9 exactly once, without zeros.",
+  "time_complexity": [
+    "O(log n)",
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(log n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking for the presence of digits 1-9 exactly once. A bitmask is an efficient way to track seen digits.",
+      "The constraint that the number must not contain any zeros is crucial.",
+      "The time complexity is dominated by converting numbers to strings or processing digits, which is logarithmic to the value of the numbers."
+    ],
+    [
+      "Concatenating the numbers into a single string simplifies the check for digit presence and uniqueness.",
+      "Checking the length of the concatenated string (must be 9) and the size of the set of its characters (must be 9) ensures all digits 1-9 are present exactly once.",
+      "The presence of '0' must be explicitly checked."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

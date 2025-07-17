@@ -1,0 +1,32 @@
+{
+  "problem_name": "change-minimum-characters-to-satisfy-one-of-three-conditions",
+  "data_structures": [
+    [
+      "hashmap",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Prefix sums and frequency counts to minimize changes for conditions 1 and 2, and direct count for condition 3."
+  ],
+  "problem_summary_simple": "Find the minimum character changes in two strings to make one string's letters strictly smaller than the other's, or make both strings have only one distinct character.",
+  "problem_summary_technical": "Uses frequency counts (Counter) and prefix sums on character frequencies to efficiently calculate minimum operations for two conditions, and a direct count for the third.",
+  "time_complexity": [
+    "O(N + M)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into three distinct conditions, each solvable independently.",
+      "Prefix sums on character counts allow for O(1) calculation of changes needed to satisfy alphabetical ordering.",
+      "The third condition (single distinct character) can be solved by finding the most frequent character and changing others."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

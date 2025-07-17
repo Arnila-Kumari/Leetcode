@@ -1,0 +1,32 @@
+{
+  "problem_name": "combination-sum-ii",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with recursion, handling duplicates"
+  ],
+  "problem_summary_simple": "Find unique combinations summing to target, using each number at most once.",
+  "problem_summary_technical": "Backtracking to find unique combinations summing to target, with duplicate handling via sorting and skipping identical adjacent elements.",
+  "time_complexity": [
+    "O(k * C(n, k))"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the candidates is essential for efficiently handling duplicates.",
+      "The `prev != candidates[start]` check prevents duplicate combinations when identical numbers are present.",
+      "Each number can be used only once, so the recursive call increments the `start` index."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,39 @@
+{
+  "problem_name": "minimum-falling-path-sum",
+  "data_structures": [
+    [
+      "2D array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming: update each cell with its value plus the minimum of its top-left, top, and top-right neighbors.",
+    "Dynamic programming: update each cell with its value plus the minimum of its top-left, top, and top-right neighbors."
+  ],
+  "problem_summary_simple": "Find the path with the smallest sum from the top row to the bottom row of a matrix.",
+  "problem_summary_technical": "Use DP to calculate the minimum falling path sum to each cell. The state `dp[i][j]` represents the minimum sum to reach `matrix[i][j]`.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming by building up solutions from the top row.",
+      "The state transition involves considering the three possible preceding cells in the row above.",
+      "The base case is the first row itself."
+    ],
+    [
+      "The solution modifies the input matrix in-place to store intermediate DP results, achieving O(1) space.",
+      "The minimum falling path sum for any cell is its own value plus the minimum falling path sum of its valid predecessors.",
+      "The final answer is the minimum value in the last row of the modified matrix."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

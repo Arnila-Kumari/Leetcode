@@ -1,0 +1,46 @@
+{
+  "problem_name": "diameter-of-binary-tree",
+  "data_structures": [
+    [
+      "TreeNode",
+      "list",
+      "tuple"
+    ],
+    [
+      "TreeNode",
+      "list",
+      "tuple"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS using a stack to simulate recursion",
+    "Recursive DFS to calculate diameter and height"
+  ],
+  "problem_summary_simple": "Find the longest path between any two nodes in a binary tree.",
+  "problem_summary_technical": "Calculate the longest path in a binary tree by finding the maximum of (left_height + right_height) at each node.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The diameter can pass through the root or be entirely within a subtree.",
+      "The longest path through a node is the sum of the heights of its left and right subtrees.",
+      "An iterative DFS can be implemented using a stack to manage states."
+    ],
+    [
+      "A recursive DFS naturally computes subtree heights.",
+      "The diameter at a node is the max of diameters in its subtrees or the path through the node itself.",
+      "The function returns both the diameter and the height of the subtree."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

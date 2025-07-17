@@ -1,0 +1,44 @@
+{
+  "problem_name": "clear-digits",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ],
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Two pointers to build the result string in-place, skipping digits and overwriting characters.",
+    "Stack-based approach: push non-digits, pop on encountering digits."
+  ],
+  "problem_summary_simple": "Remove all digits from a string by repeatedly deleting a digit and its closest left non-digit character.",
+  "problem_summary_technical": "Uses a two-pointer approach or a stack to process the string, effectively removing digits and their preceding non-digit characters.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The operation implies that a digit cancels out the most recent non-digit character.",
+      "A stack naturally models this 'cancellation' behavior.",
+      "The two-pointer approach simulates this by overwriting characters in place."
+    ],
+    [
+      "The stack-based solution is intuitive for this 'cancellation' pattern.",
+      "The two-pointer solution is more space-efficient by modifying the list in-place.",
+      "Both solutions correctly handle the problem's core logic of pairing digits with their left non-digit counterparts."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "fruit-into-baskets",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window approach using a hash map to keep track of fruit types and their counts within the window."
+  ],
+  "problem_summary_simple": "Find the maximum number of fruits you can pick with two baskets, each holding only one type of fruit.",
+  "problem_summary_technical": "Employs a sliding window where the window expands to the right and shrinks from the left to maintain at most two distinct fruit types.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding the longest subarray with at most two distinct elements.",
+      "A sliding window with a frequency map (dictionary) is ideal for this.",
+      "When the window violates the condition (more than two fruit types), shrink the window from the left."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

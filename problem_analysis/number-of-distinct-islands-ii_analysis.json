@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-distinct-islands-ii",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "DFS to find islands, then generate all 8 rotations/reflections and normalize to a canonical form for comparison."
+  ],
+  "problem_summary_simple": "Count unique island shapes considering rotations and reflections.",
+  "problem_summary_technical": "DFS finds islands; 8 transformations (rotations/reflections) are applied, normalized by sorting and shifting to a common origin, then stored in a set.",
+  "time_complexity": [
+    "O((m * n) * log(m * n))"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "To handle rotations and reflections, generate all 8 possible transformations of an island's coordinates.",
+      "Normalize each transformed shape by sorting its points and then shifting them so the top-leftmost point is at (0,0).",
+      "Storing the string representation of the normalized shape in a set efficiently counts distinct islands."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:01:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-and-replace-pattern",
+  "data_structures": [
+    [
+      "List for storing matching words",
+      "Dictionary (hash map) for pattern mapping",
+      "Set for checking permutation uniqueness"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Pattern matching using a dictionary to map pattern characters to word characters, ensuring bijection."
+  ],
+  "problem_summary_simple": "Find words in a list that match a given pattern by permuting letters.",
+  "problem_summary_technical": "For each word, check if a bijective mapping exists between pattern characters and word characters. Use hash maps to track mappings and ensure uniqueness.",
+  "time_complexity": [
+    "O(N * L) where N is the number of words and L is the length of the pattern."
+  ],
+  "space_complexity": [
+    "O(L) for the lookup dictionary and set within the match function."
+  ],
+  "key_insights": [
+    [
+      "A pattern match requires a one-to-one and onto mapping (bijection) between pattern characters and word characters.",
+      "Two hash maps (one for pattern->word, one for word->pattern) or one hash map and a set can verify the bijection.",
+      "The problem can be solved by iterating through words and applying a matching function."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

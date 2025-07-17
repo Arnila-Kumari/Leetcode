@@ -1,0 +1,32 @@
+{
+  "problem_name": "validate-stack-sequences",
+  "data_structures": [
+    [
+      "stack",
+      "list"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Simulate stack operations using a stack and two pointers to track pushed and popped elements."
+  ],
+  "problem_summary_simple": "Check if a sequence of pop operations is valid given a sequence of push operations.",
+  "problem_summary_technical": "Simulate push and pop operations using a stack. Iterate through pushed elements, push onto stack, and pop if top matches popped sequence.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to simulate the process. If the top of the stack matches the current element in the popped array, we can pop it.",
+      "The `i` pointer tracks the current element in the `popped` array that we expect to pop.",
+      "If after processing all pushed elements, the `popped` array has been fully consumed (i.e., `i` reaches the end), the sequence is valid."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

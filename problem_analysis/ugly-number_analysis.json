@@ -1,0 +1,31 @@
+{
+  "problem_name": "ugly-number",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Repeatedly divide the number by 2, 3, and 5 until it's no longer divisible by them."
+  ],
+  "problem_summary_simple": "Check if a positive integer's only prime factors are 2, 3, or 5.",
+  "problem_summary_technical": "Determine if a given integer `n` has prime factors exclusively from the set {2, 3, 5}.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to eliminate all allowed prime factors.",
+      "If the remaining number is 1, it's an ugly number.",
+      "Handle the edge case of n=0."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

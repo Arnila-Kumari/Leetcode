@@ -1,0 +1,31 @@
+{
+  "problem_name": "range-product-queries-of-powers",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Prefix sums on bit positions to calculate product of powers."
+  ],
+  "problem_summary_simple": "Calculate product of powers of 2 within given ranges, modulo a large number.",
+  "problem_summary_technical": "Uses prefix sums of bit indices to efficiently compute range products of powers of 2, leveraging binary representation.",
+  "time_complexity": [
+    "O(log n + q * log MOD)"
+  ],
+  "space_complexity": [
+    "O(log n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding the sum of exponents of 2 within a range.",
+      "Prefix sums on the exponents of 2 allow for O(1) range sum queries after O(log n) preprocessing.",
+      "Modular exponentiation is crucial for handling large products."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

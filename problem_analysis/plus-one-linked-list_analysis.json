@@ -1,0 +1,44 @@
+{
+  "problem_name": "plus-one-linked-list",
+  "data_structures": [
+    [
+      "ListNode",
+      "ListNode"
+    ],
+    [
+      "ListNode",
+      "ListNode"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Two pointers to find the rightmost non-9 digit and handle carry.",
+    "Reverse the list, add one with carry, then reverse back."
+  ],
+  "problem_summary_simple": "Add one to a number represented as a linked list, where the most significant digit is at the head.",
+  "problem_summary_technical": "Iterate to find the rightmost non-9 digit, increment it, and reset subsequent 9s to 0, or reverse, add, and reverse back.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is handling the carry-over when a digit is 9. The rightmost non-9 digit is the key to propagating the increment.",
+      "A dummy node simplifies handling the case where the most significant digit needs to be incremented (e.g., 999 + 1 = 1000).",
+      "The two-pointer approach efficiently finds the pivot point for the increment without needing to reverse the list."
+    ],
+    [
+      "Reversing the linked list allows treating the problem like adding one to an integer, where the least significant digit is at the head.",
+      "A carry variable is used to propagate the addition across the reversed list.",
+      "After the addition, the list needs to be reversed again to restore the original order."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

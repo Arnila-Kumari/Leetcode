@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-lexicographically-largest-string-from-the-box-ii",
+  "data_structures": [
+    [
+      "string manipulation"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach to find the optimal split points based on character comparisons."
+  ],
+  "problem_summary_simple": "Find the lexicographically largest string after splitting a word multiple times.",
+  "problem_summary_technical": "Greedy algorithm iterates through the string, identifying split points to maximize the lexicographically largest substring, considering remaining splits.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding the lexicographically largest substring after partitioning. This suggests a greedy approach.",
+      "The core idea is to find the starting point of the substring that, when combined with the remaining characters (after accounting for `numFriends - 1` other splits), yields the largest string.",
+      "The logic `word[i-l] >= word[i]` helps decide if extending the current potential substring is better than starting a new one at `i`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:44:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

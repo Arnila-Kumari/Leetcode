@@ -1,0 +1,33 @@
+{
+  "problem_name": "design-bitset",
+  "data_structures": [
+    [
+      "list",
+      "boolean flag",
+      "integer counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Boolean array for bit storage, flip flag for efficient flip operation"
+  ],
+  "problem_summary_simple": "Design a data structure to efficiently store and manipulate a sequence of bits.",
+  "problem_summary_technical": "Implement a Bitset with O(1) fix, unfix, flip, all, one, count operations using a boolean array and a flip flag.",
+  "time_complexity": [
+    "ctor: O(n), fix: O(1), unfix: O(1), flip: O(1), all: O(1), one: O(1), count: O(1), toString: O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The `__flip` flag is crucial for achieving O(1) `flip` operation by deferring the actual bit flipping.",
+      "The `__cnt` variable is maintained to provide O(1) `count`, `all`, and `one` operations.",
+      "The `toString` method needs to consider the `__flip` flag when generating the string representation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

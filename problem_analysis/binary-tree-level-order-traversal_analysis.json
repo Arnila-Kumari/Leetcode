@@ -1,0 +1,33 @@
+{
+  "problem_name": "binary-tree-level-order-traversal",
+  "data_structures": [
+    [
+      "binary tree",
+      "list of lists for result",
+      "queue (implicitly via list acting as queue)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) using a queue to process nodes level by level."
+  ],
+  "problem_summary_simple": "Traverse a binary tree level by level, from left to right, and return node values.",
+  "problem_summary_technical": "Performs a BFS traversal, using a queue to store nodes at the current level and collect their children for the next level.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "BFS is the natural algorithm for level-order traversal.",
+      "A queue is essential to maintain the order of nodes at each level.",
+      "The algorithm processes nodes level by level, ensuring all nodes at depth k are visited before depth k+1."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

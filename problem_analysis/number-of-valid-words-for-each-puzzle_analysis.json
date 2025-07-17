@@ -1,0 +1,44 @@
+{
+  "problem_name": "number-of-valid-words-for-each-puzzle",
+  "data_structures": [
+    [
+      "Trie",
+      "Set"
+    ],
+    [
+      "Hash Map (defaultdict)",
+      "List"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Trie construction and traversal to match words against puzzle constraints.",
+    "Bit manipulation and hash map for efficient lookup of word patterns against puzzle patterns."
+  ],
+  "problem_summary_simple": "Count words that match a puzzle's rules: must contain the first letter and only use letters from the puzzle.",
+  "problem_summary_technical": "Uses Tries to store words and then traverses them based on puzzle constraints, or uses bitmasks for efficient pattern matching.",
+  "time_complexity": [
+    "O(n*l + m*L*2^L)",
+    "O(m*2^L + n*l)"
+  ],
+  "space_complexity": [
+    "O(n*l)",
+    "O(m*2^L)"
+  ],
+  "key_insights": [
+    [
+      "The constraint that a word must contain the first letter of the puzzle is critical.",
+      "For each puzzle, we need to check all words. Efficiently checking word validity is key.",
+      "Bitmasks can represent the character sets of words and puzzles, enabling fast subset checks."
+    ],
+    [
+      "The Trie approach organizes words by their character sets, allowing efficient searching for words matching puzzle subsets.",
+      "The bit manipulation approach pre-processes puzzles into bitmasks and then checks word bitmasks against these.",
+      "The second solution (bit manipulation) is generally more efficient due to the fixed small size of puzzles (7 characters)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

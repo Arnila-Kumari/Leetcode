@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-non-zero-product-of-the-array-elements",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Bit manipulation and modular arithmetic to pair numbers and minimize product.",
+    "Using Fermat's Little Theorem for modular exponentiation."
+  ],
+  "problem_summary_simple": "Minimize the product of numbers from 1 to 2^p-1 by swapping bits, modulo 10^9+7.",
+  "problem_summary_technical": "Pair numbers (x, 2^p-1-x) to minimize product. Use modular exponentiation for large powers.",
+  "time_complexity": [
+    "O(log p)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that to minimize the product, we should pair numbers such that their sum is constant (2^p - 1).",
+      "Specifically, pair `x` with `(2^p - 1) - x`.",
+      "The operation allows us to effectively achieve this pairing by swapping bits.",
+      "Modular arithmetic and modular exponentiation are crucial for handling large numbers and the modulo operation."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:58:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

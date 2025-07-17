@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximize-the-number-of-partitions-after-operations",
+  "data_structures": [
+    [
+      "list",
+      "integer array",
+      "bitmask"
+    ]
+  ],
+  "category": "Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with bitmasking to track distinct characters, combined with prefix sums for efficient calculation."
+  ],
+  "problem_summary_simple": "Maximize partitions by changing at most one character in a string, using a greedy prefix selection.",
+  "problem_summary_technical": "DP state tracks partitions and distinct characters. Prefix sums optimize distinct character counts. Bitmasks represent character sets.",
+  "time_complexity": [
+    "O(n * 26)"
+  ],
+  "space_complexity": [
+    "O(n * 26)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as finding the optimal split point for the single character change.",
+      "Prefix sums (or similar precomputation) are crucial for efficiently calculating the number of distinct characters in prefixes/suffixes.",
+      "Bitmasks are ideal for representing sets of lowercase English letters and performing set operations (union, count)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

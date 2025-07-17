@@ -1,0 +1,31 @@
+{
+  "problem_name": "k-th-nearest-obstacle-queries",
+  "data_structures": [
+    [
+      "heap (max-heap)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Maintain a max-heap of size k to store the k smallest distances encountered so far."
+  ],
+  "problem_summary_simple": "Find the distance of the k-th nearest obstacle from the origin after each obstacle placement.",
+  "problem_summary_technical": "Uses a max-heap to efficiently track the k smallest Manhattan distances from the origin as obstacles are added.",
+  "time_complexity": [
+    "O(q log k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "A max-heap is used to keep track of the k smallest elements. When a new element is added, if the heap size exceeds k, the largest element (root of max-heap) is removed.",
+      "The negative of the distance is stored in the max-heap to simulate a min-heap behavior for distances.",
+      "If the heap size is less than k, the result is -1, indicating not enough obstacles."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

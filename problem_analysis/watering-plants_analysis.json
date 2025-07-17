@@ -1,0 +1,31 @@
+{
+  "problem_name": "watering-plants",
+  "data_structures": [
+    [
+      "integer variables for current water, total steps, and capacity"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through plants, track current water, refill when insufficient, sum steps."
+  ],
+  "problem_summary_simple": "Calculate steps to water plants, returning to river to refill when needed.",
+  "problem_summary_technical": "Greedy approach simulating watering process, tracking current water and steps, refilling at river when capacity is insufficient for the next plant.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy of watering as much as possible before refilling is optimal.",
+      "The number of steps to reach plant `i` is `i+1`.",
+      "Refilling adds `2*i` steps (back to river and to plant `i`)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

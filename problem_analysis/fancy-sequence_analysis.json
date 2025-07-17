@@ -1,0 +1,44 @@
+{
+  "problem_name": "fancy-sequence",
+  "data_structures": [
+    [
+      "list of integers",
+      "list of pairs (operations)"
+    ],
+    [
+      "list of integers",
+      "list of pairs (current operations)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Store operations and apply them lazily during getIndex queries",
+    "Store transformed values and current operations, applying them lazily"
+  ],
+  "problem_summary_simple": "Implement a sequence that supports appending, adding to all, multiplying all, and getting values by index.",
+  "problem_summary_technical": "Uses lazy propagation of operations (add/multiply) to maintain sequence state efficiently for O(1) getIndex.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key challenge is to handle `addAll` and `multAll` operations efficiently without recomputing the entire sequence.",
+      "Lazy propagation of operations is crucial: store the operations and apply them only when a specific element is accessed.",
+      "Modular arithmetic is required due to the modulo constraint, and modular inverse is used for division (multiplication by inverse)."
+    ],
+    [
+      "The first solution stores the sequence elements and a list of operations applied up to each point.",
+      "When `getIndex` is called, it reconstructs the value by applying the operations from the `idx`-th state to the current state.",
+      "The second solution stores the transformed values and the current cumulative operations, making `getIndex` simpler by applying the current operations to the stored transformed value."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

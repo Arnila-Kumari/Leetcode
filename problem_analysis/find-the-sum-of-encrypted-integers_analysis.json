@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-sum-of-encrypted-integers",
+  "data_structures": [
+    [
+      "list of integers",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through numbers, find max digit, construct encrypted number, sum up."
+  ],
+  "problem_summary_simple": "Encrypt each number by replacing its digits with its largest digit, then sum the encrypted numbers.",
+  "problem_summary_technical": "For each number, find its maximum digit and the number of digits. Construct the encrypted number by repeating the maximum digit. Sum these encrypted numbers.",
+  "time_complexity": [
+    "O(n * log r)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core operation is transforming each number based on its largest digit.",
+      "To construct the encrypted number, we need to know the magnitude (number of digits) of the original number.",
+      "The base for constructing the encrypted number is a sequence of ones (e.g., 1, 11, 111) corresponding to the number of digits."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,34 @@
+{
+  "problem_name": "design-twitter",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "set",
+      "heapq",
+      "random"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use hash maps and sets to store user followings and tweets, and a min-heap to efficiently retrieve the latest tweets for the news feed."
+  ],
+  "problem_summary_simple": "Design a Twitter-like system for posting tweets, following/unfollowing users, and retrieving a user's news feed.",
+  "problem_summary_technical": "Store tweets with timestamps, user followings in sets, and use a min-heap to merge and retrieve the top K recent tweets from followed users.",
+  "time_complexity": [
+    "postTweet: O(1), follow/unfollow: O(1), getNewsFeed: O(F log F + K log F) where F is number of followings and K is number of tweets to retrieve (10)"
+  ],
+  "space_complexity": [
+    "O(T + F), where T is total tweets and F is total followings"
+  ],
+  "key_insights": [
+    [
+      "A timestamp or counter is crucial for ordering tweets chronologically.",
+      "A min-heap (priority queue) is effective for merging sorted lists of tweets from multiple users to find the top K.",
+      "The `nth_element` approach can optimize finding the Kth element before fully sorting, potentially improving `getNewsFeed` performance."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

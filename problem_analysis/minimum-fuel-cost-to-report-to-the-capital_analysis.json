@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-fuel-cost-to-report-to-the-capital",
+  "data_structures": [
+    [
+      "Adjacency List",
+      "Stack"
+    ],
+    [
+      "Adjacency List",
+      "Array (for result storage)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Iterative DFS on a tree to calculate representatives and fuel cost.",
+    "Recursive DFS on a tree to calculate representatives and fuel cost."
+  ],
+  "problem_summary_simple": "Find the minimum fuel cost for all city representatives to reach the capital (city 0).",
+  "problem_summary_technical": "Tree traversal (DFS) to count representatives in each subtree. Fuel cost is ceil(representatives / seats) for each edge.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using a graph traversal (DFS) on the tree structure.",
+      "The key is to calculate the number of representatives in each subtree.",
+      "The fuel cost for an edge is determined by how many cars are needed to transport the representatives from the subtree connected by that edge to the parent node."
+    ],
+    [
+      "The DFS function should return the number of representatives in the subtree rooted at the current node.",
+      "The total fuel cost is accumulated during the traversal, specifically when returning from a child to its parent."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

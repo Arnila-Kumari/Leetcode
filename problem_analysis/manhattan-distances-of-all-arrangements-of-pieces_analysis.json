@@ -1,0 +1,33 @@
+{
+  "problem_name": "manhattan-distances-of-all-arrangements-of-pieces",
+  "data_structures": [
+    [
+      "precomputed factorials",
+      "precomputed inverse factorials",
+      "precomputed modular inverses"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorics for counting arrangements and sum of distances"
+  ],
+  "problem_summary_simple": "Calculate the total Manhattan distance between all pairs of k pieces on an m x n grid across all possible arrangements.",
+  "problem_summary_technical": "Uses combinatorics to calculate the sum of distances by considering contributions of horizontal and vertical distances independently, leveraging precomputed factorials and modular inverses.",
+  "time_complexity": [
+    "O(max(m*n)) for precomputation, O(1) for runtime"
+  ],
+  "space_complexity": [
+    "O(max(m*n))"
+  ],
+  "key_insights": [
+    [
+      "The problem can be decomposed into calculating sums of horizontal and vertical distances separately.",
+      "The sum of distances for a single dimension can be expressed using sums of consecutive integers and squares.",
+      "Combinations (nCr) are used to count the number of ways to place the remaining pieces."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:50:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

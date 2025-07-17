@@ -1,0 +1,46 @@
+{
+  "problem_name": "find-number-of-coins-to-place-in-tree-nodes",
+  "data_structures": [
+    [
+      "list",
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS to traverse tree, collect subtree costs, sort, and calculate max product for nodes.",
+    "Recursive DFS to traverse tree, collect subtree costs, sort, and calculate max product for nodes."
+  ],
+  "problem_summary_simple": "Calculate coins for each tree node based on subtree size and cost products.",
+  "problem_summary_technical": "Uses DFS to gather subtree costs, then calculates coins based on subtree size or max/min product of 3 costs.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "For subtrees smaller than 3, 1 coin is placed.",
+      "For larger subtrees, the maximum product of three distinct costs is considered, with negative products yielding 0 coins.",
+      "To find the maximum product, we need to consider the three largest positive numbers and the two smallest negative numbers along with the largest positive number."
+    ],
+    [
+      "The problem requires finding the maximum product of three numbers within each subtree.",
+      "This involves keeping track of the largest positive and smallest negative numbers within each subtree's cost values.",
+      "The recursive DFS approach naturally builds up the necessary information from the leaves upwards."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:43:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-product-of-two-digits",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Count the frequency of each digit and greedily pick the two largest digits to maximize their product."
+  ],
+  "problem_summary_simple": "Find the largest product of any two digits within a given positive integer.",
+  "problem_summary_technical": "Counts digit frequencies and greedily selects the two largest digits (allowing repetition) to compute the maximum product.",
+  "time_complexity": [
+    "O(d + 10)"
+  ],
+  "space_complexity": [
+    "O(10)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by focusing on the digits themselves, not their positional value.",
+      "A greedy approach works because multiplying larger digits yields a larger product.",
+      "The constraint allows using the same digit twice if it appears multiple times, which is handled by frequency counting."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:54:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "count-strictly-increasing-subarrays",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Iterate through the array, maintaining the length of the current strictly increasing subarray.",
+    "Use two pointers (left and right) to define the window of the current increasing subarray."
+  ],
+  "problem_summary_simple": "Count all contiguous subarrays that are strictly increasing.",
+  "problem_summary_technical": "Employs a sliding window/two-pointer approach to efficiently count strictly increasing subarrays by extending valid segments.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "For an increasing subarray of length `k`, it contributes `k * (k + 1) / 2` subarrays.",
+      "The key is to identify contiguous increasing sequences and sum their contributions.",
+      "Resetting the count/length when the increasing property breaks is essential."
+    ],
+    [
+      "The second solution is a more direct implementation of the two-pointer logic.",
+      "It calculates the number of valid subarrays ending at the current `right` pointer.",
+      "The `left` pointer marks the start of the current valid increasing subarray."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

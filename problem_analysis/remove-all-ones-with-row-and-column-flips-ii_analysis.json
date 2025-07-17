@@ -1,0 +1,34 @@
+{
+  "problem_name": "remove-all-ones-with-row-and-column-flips-ii",
+  "data_structures": [
+    [
+      "2D list",
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Dynamic programming with bitmasking to represent grid states and operations"
+  ],
+  "problem_summary_simple": "Find the minimum operations to turn all 1s to 0s in a binary matrix by clearing a row and column containing a 1.",
+  "problem_summary_technical": "Uses DP with bitmasks to explore states, where each state represents the remaining 1s, and transitions are row/column clears.",
+  "time_complexity": [
+    "O(m * n * 2^(m * n))"
+  ],
+  "space_complexity": [
+    "O(2^(m * n))"
+  ],
+  "key_insights": [
+    [
+      "The small constraints (m*n <= 15) strongly suggest a bitmasking approach.",
+      "Each bit in the mask can represent a cell in the grid.",
+      "The DP state `dp[mask]` stores the minimum operations to clear the 1s represented by `mask`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:06:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-make-binary-array-elements-equal-to-one-ii",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the array, keeping track of the current flip state. If an element's value differs from the target (1) considering the flip state, perform an operation."
+  ],
+  "problem_summary_simple": "Flip suffix of array to make all elements 1.",
+  "problem_summary_technical": "Greedy strategy: track current flip state. If element `nums[i]` differs from target (1) considering flips, perform an operation starting at `i`.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Flipping a suffix `nums[i:]` affects all subsequent elements. This implies a greedy approach from left to right.",
+      "We only need to know the net effect of previous flips on the current element. This can be tracked by a single variable (parity of operations).",
+      "If `nums[i]` is 0 and the current effective state is not flipped (or `nums[i]` is 1 and the effective state is flipped), we need an operation starting at `i`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

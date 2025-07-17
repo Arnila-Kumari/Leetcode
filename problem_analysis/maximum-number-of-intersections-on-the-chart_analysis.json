@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-number-of-intersections-on-the-chart",
+  "data_structures": [
+    [
+      "hashmap",
+      "array",
+      "line sweep"
+    ],
+    [
+      "list of tuples",
+      "sorting",
+      "line sweep"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Coordinate compression and line sweep on transformed intervals to count overlapping segments.",
+    "Line sweep on transformed intervals derived from consecutive y-coordinates to find maximum overlap."
+  ],
+  "problem_summary_simple": "Find the maximum number of intersections a horizontal line can have with a line chart.",
+  "problem_summary_technical": "Transform line segments into intervals and use line sweep with coordinate compression or direct interval mapping to find maximum overlap.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding the maximum depth of overlapping intervals.",
+      "Transforming y-coordinates to a discrete space (e.g., doubling) simplifies interval handling."
+    ],
+    [
+      "Each segment (y[i], y[i+1]) can be represented as an interval.",
+      "A horizontal line at value `v` intersects a segment if `min(y[i], y[i+1]) < v < max(y[i], y[i+1])`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

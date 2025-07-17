@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-lines-to-represent-a-line-chart",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Sorting and slope calculation using GCD"
+  ],
+  "problem_summary_simple": "Find the minimum number of lines to connect all stock price points.",
+  "problem_summary_technical": "Sort stock prices by day, then iterate and count new lines by checking if the slope between consecutive points changes, using GCD to normalize slopes.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is about finding segments of points that lie on the same line.",
+      "Sorting the stock prices by day is essential to process them in chronological order.",
+      "The key is to identify when a new line segment begins. This happens when the slope between the current point and the previous point differs from the slope of the previous segment.",
+      "To compare slopes accurately and avoid floating-point precision issues, we represent slopes as irreducible fractions (dy/dx) using the greatest common divisor (GCD)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

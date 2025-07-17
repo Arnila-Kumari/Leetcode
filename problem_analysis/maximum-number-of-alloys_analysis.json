@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-number-of-alloys",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Custom sorting and greedy approach to calculate maximum alloys per machine.",
+    "Binary search on the number of alloys, with a check function to verify feasibility."
+  ],
+  "problem_summary_simple": "Find the maximum number of alloys that can be made within a budget, using one of several machines with different metal compositions.",
+  "problem_summary_technical": "Maximize alloys by iterating through machines, using binary search on the number of alloys, and checking budget feasibility with metal costs and stock.",
+  "time_complexity": [
+    "O(k * n log n)",
+    "O(k * n * log(budget + max_stock))"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The first solution uses a clever sorting strategy based on the ratio of stock to composition to optimize calculations.",
+      "It handles the cost of buying metals by considering available stock and then purchasing the deficit.",
+      "The logic for calculating `mn` is crucial for determining how many more alloys can be made with remaining budget."
+    ],
+    [
+      "The second solution frames the problem as a decision problem: 'Can we make `x` alloys?'",
+      "Binary searching on the number of alloys allows for an efficient search for the maximum possible value.",
+      "The `check` function efficiently calculates the minimum cost to produce `x` alloys for each machine."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

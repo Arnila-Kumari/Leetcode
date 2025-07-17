@@ -1,0 +1,39 @@
+{
+  "problem_name": "minimum-factorization",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedily divide the number by digits 9 down to 2, constructing the result by appending digits.",
+    "Greedily divide the number by digits 9 down to 2, constructing the result by appending digits."
+  ],
+  "problem_summary_simple": "Find the smallest number formed by digits whose product equals a given number.",
+  "problem_summary_technical": "Factorize the input number using digits 9 down to 2. Construct the result by placing these digits in increasing order to minimize the number.",
+  "time_complexity": [
+    "O(log a)",
+    "O(log a)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To minimize the resulting number, we should use larger digits first (e.g., 9 before 3).",
+      "The process is essentially finding the prime factorization using digits 2-9.",
+      "The order of digits matters for the final number's value."
+    ],
+    [
+      "The greedy approach of using largest possible factors first works because it leads to fewer digits overall.",
+      "The resulting number is constructed by appending digits in reverse order of their discovery.",
+      "Edge cases like input < 2 and overflow need to be handled."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

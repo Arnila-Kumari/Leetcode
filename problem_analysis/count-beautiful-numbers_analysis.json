@@ -1,0 +1,40 @@
+{
+  "problem_name": "count-beautiful-numbers",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "list of defaultdicts"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Digit DP: Count numbers up to R and subtract count up to L-1. DP state tracks prefix, product, sum, and tight constraint.",
+    "Digit DP: Count numbers up to R and subtract count up to L-1. DP state tracks prefix, product, sum, and tight constraint."
+  ],
+  "problem_summary_simple": "Count numbers where the product of digits is divisible by the sum of digits.",
+  "problem_summary_technical": "Digit DP approach. State includes prefix, product of digits, sum of digits, and a tight constraint flag.",
+  "time_complexity": [
+    "O(logr * 10 * 10 * 10 * 10 * 10 * 10) = O(logr * 10^6) approximately, but state space is smaller.",
+    "O(logr * 10 * 10 * 10 * 10 * 10 * 10) = O(logr * 10^6) approximately, but state space is smaller."
+  ],
+  "space_complexity": [
+    "O(logr * 10 * 10 * 10 * 10 * 10 * 10) = O(logr * 10^6) approximately, but state space is smaller.",
+    "O(logr * 10 * 10 * 10 * 10 * 10 * 10) = O(logr * 10^6) approximately, but state space is smaller."
+  ],
+  "key_insights": [
+    [
+      "The problem requires counting numbers with a specific property within a range, suggesting a digit DP approach.",
+      "The core idea is to build numbers digit by digit and maintain the product and sum of digits.",
+      "The divisibility condition `product % sum == 0` is checked at the end of number construction."
+    ],
+    [
+      "The state space for the DP is roughly `(number of digits) * (max product) * (max sum) * (tight constraint)`. Max product can be large, but the sum of digits is limited.",
+      "The provided solution's state `dp[b][(mul, total)]` implies `b` is the tight constraint, `mul` is the product, and `total` is the sum.",
+      "The time complexity is dominated by the number of states and transitions. The number of digits is `log10(r)`, and the sum of digits is at most `9 * log10(r)`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:36:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

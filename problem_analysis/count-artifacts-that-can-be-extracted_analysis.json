@@ -1,0 +1,43 @@
+{
+  "problem_name": "count-artifacts-that-can-be-extracted",
+  "data_structures": [
+    [
+      "set"
+    ],
+    [
+      "dict",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Store dug cells in a set for O(1) lookup. For each artifact, check if all its cells are in the set.",
+    "Map each cell to its artifact index. Decrement artifact cell counts as they are dug. Extract when count reaches zero."
+  ],
+  "problem_summary_simple": "Count how many artifacts are fully uncovered by digging specific cells.",
+  "problem_summary_technical": "Uses a hash set for efficient lookup of dug cells (Solution 1) or a hash map to track artifact cell counts (Solution 2).",
+  "time_complexity": [
+    "O(a + d)",
+    "O(a + d)"
+  ],
+  "space_complexity": [
+    "O(d)",
+    "O(a)"
+  ],
+  "key_insights": [
+    [
+      "The constraint that artifacts cover at most 4 cells is important for the brute-force check in Solution 1.",
+      "Using a set for `dig` allows for O(1) average time complexity for checking if a cell has been dug.",
+      "The total number of cells covered by artifacts (`a`) can be up to `n*n`, but the problem constraints imply it's manageable."
+    ],
+    [
+      "Solution 2 is more efficient if the number of artifacts (`a`) is much smaller than the total cells covered by artifacts.",
+      "It avoids iterating through all cells of an artifact multiple times if they are dug in separate `dig` operations.",
+      "The `lookup` dictionary maps each cell to its artifact, and `cnt` tracks remaining uncovered cells for each artifact."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:36:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

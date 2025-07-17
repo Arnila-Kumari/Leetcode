@@ -1,0 +1,34 @@
+{
+  "problem_name": "count-anagrams",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorics using factorials and modular inverse to count permutations of characters within each word."
+  ],
+  "problem_summary_simple": "Count distinct anagrams of a sentence by considering permutations of each word independently.",
+  "problem_summary_technical": "Calculates permutations for each word using factorials and modular inverses, then multiplies results modulo 10^9 + 7.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem decomposes into counting anagrams for each word separately.",
+      "The number of anagrams for a word is `length! / (count1! * count2! * ...)`.",
+      "Modular arithmetic is essential to handle large results, requiring precomputed factorials and modular inverses."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

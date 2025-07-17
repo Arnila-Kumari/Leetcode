@@ -1,0 +1,44 @@
+{
+  "problem_name": "repeated-dna-sequences",
+  "data_structures": [
+    [
+      "Hash Map (dictionary)",
+      "List"
+    ],
+    [
+      "List",
+      "Counter (hash map)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Rolling hash to efficiently compute hashes of 10-letter substrings and detect duplicates.",
+    "Brute-force substring generation and counting using a hash map."
+  ],
+  "problem_summary_simple": "Find all 10-letter DNA sequences that appear more than once.",
+  "problem_summary_technical": "Identify repeated 10-letter substrings using rolling hash or by counting all substrings.",
+  "time_complexity": [
+    "O(n)",
+    "O(n*k)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n*k)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding substrings of a fixed length (10) that repeat.",
+      "A rolling hash is an efficient way to compute hashes of sliding windows (substrings) in O(1) time after initial computation.",
+      "Using a hash map to store seen hashes and their counts helps detect repetitions."
+    ],
+    [
+      "The problem requires finding substrings of a fixed length (10) that repeat.",
+      "A straightforward approach is to generate all 10-letter substrings and count their occurrences.",
+      "A hash map (like `collections.Counter`) is suitable for storing and counting these substrings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

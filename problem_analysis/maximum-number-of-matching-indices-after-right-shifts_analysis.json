@@ -1,0 +1,35 @@
+{
+  "problem_name": "maximum-number-of-matching-indices-after-right-shifts",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Brute force: iterate through all possible right shifts of nums1 and count matches.",
+    "Sliding window or pattern matching could be considered for optimization, but brute force is simple."
+  ],
+  "problem_summary_simple": "Find the maximum number of matching elements between two arrays after cyclically shifting one array.",
+  "problem_summary_technical": "Iterate through all possible shifts of nums1 and for each shift, count the number of indices i where nums1[i] == nums2[i].",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A right shift by `s` positions means `nums1[i]` aligns with `nums2[(i+s)%n]`.",
+      "The problem is equivalent to finding the shift `s` that maximizes `sum(nums1[(i+s)%n] == nums2[i] for i in range(n))`."
+    ],
+    [
+      "The brute-force approach is straightforward due to the small constraint on `n`.",
+      "No complex data structures are strictly necessary for this brute-force solution."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:53:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

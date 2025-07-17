@@ -1,0 +1,31 @@
+{
+  "problem_name": "water-bottles",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterative simulation of drinking and exchanging bottles"
+  ],
+  "problem_summary_simple": "Calculate the total water bottles drunk by repeatedly exchanging empty bottles for full ones.",
+  "problem_summary_technical": "Simulate the process: drink bottles, get empty ones, exchange for new full bottles, and sum up.",
+  "time_complexity": [
+    "O(log_numExchange(numBottles))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The process is greedy: always exchange as many empty bottles as possible.",
+      "Keep track of total drunk bottles and current empty bottles.",
+      "The number of new full bottles obtained decreases with each exchange round."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:14:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

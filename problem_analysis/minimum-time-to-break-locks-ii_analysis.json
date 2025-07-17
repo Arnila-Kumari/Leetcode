@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-time-to-break-locks-ii",
+  "data_structures": [
+    [
+      "2D array (cost matrix)",
+      "arrays (for Hungarian algorithm)"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Hungarian algorithm for minimum weight perfect matching."
+  ],
+  "problem_summary_simple": "Find the minimum time to break all locks, where breaking a lock increases the energy factor for subsequent locks.",
+  "problem_summary_technical": "Minimum weight bipartite matching (Hungarian algorithm) to find the optimal order of breaking locks based on strength and factor.",
+  "time_complexity": [
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "This problem is similar to 'minimum-time-to-break-locks-i' but the energy factor increases by a fixed amount (1) after each lock, not by K.",
+      "The cost matrix for the Hungarian algorithm needs to be constructed carefully, where `cost[i][j]` is the time to break lock `i` if it's the `j`-th lock broken.",
+      "The time to break the `j`-th lock (0-indexed) is `ceil(strength[i] / (1 + j))`. The Hungarian algorithm then finds the minimum total time."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

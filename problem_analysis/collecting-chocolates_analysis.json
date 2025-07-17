@@ -1,0 +1,57 @@
+{
+  "problem_name": "collecting-chocolates",
+  "data_structures": [
+    [
+      "array",
+      "stack",
+      "difference array"
+    ],
+    [
+      "array",
+      "deque",
+      "binary search"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Difference array and prefix sums with monotonic stack",
+    "Binary search on operations with monotonic deque",
+    "Brute force with simulation"
+  ],
+  "problem_summary_simple": "Find the minimum cost to collect all chocolate types, considering rotation costs.",
+  "problem_summary_technical": "Analyzes costs for each rotation count, optimizing with difference arrays or binary search on operations.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The cost for `k` operations can be calculated by considering the minimum cost for each chocolate type after `k` rotations.",
+      "Difference arrays can efficiently track changes in costs across different rotation counts.",
+      "Monotonic stack helps find the range of operations where a specific chocolate's cost is minimal."
+    ],
+    [
+      "The cost function (cost vs. number of operations) is often convex, allowing binary search.",
+      "A sliding window (monotonic deque) can efficiently find the minimum cost for a fixed window size (number of operations).",
+      "The problem can be reframed as finding the optimal number of operations `k`."
+    ],
+    [
+      "Simulate all possible numbers of operations (0 to n-1).",
+      "For each number of operations, calculate the total cost by finding the minimum cost for each chocolate type.",
+      "This approach is straightforward but less efficient for larger inputs."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:35:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

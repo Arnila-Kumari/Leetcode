@@ -1,0 +1,68 @@
+{
+  "problem_name": "maximum-number-of-tasks-you-can-assign",
+  "data_structures": [
+    [
+      "SortedList",
+      "list"
+    ],
+    [
+      "SortedList",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the number of tasks, with a greedy check using SortedList for worker assignment.",
+    "Binary search on the number of tasks, with a greedy check using SortedList for task assignment.",
+    "Binary search on the number of tasks, with a greedy check using bisect for worker assignment.",
+    "Binary search on the number of tasks, with a greedy check using bisect for task assignment."
+  ],
+  "problem_summary_simple": "Find the maximum number of tasks that can be completed by workers, with optional strength upgrades using pills.",
+  "problem_summary_technical": "Binary search on the number of tasks. The check function greedily assigns workers to tasks, using SortedList or bisect for efficient lookups.",
+  "time_complexity": [
+    "O(k * (n log n + m log m))",
+    "O(k * (n log n + m log m))",
+    "O(k * (n log n + m log m))",
+    "O(k * (n log n + m log m))"
+  ],
+  "space_complexity": [
+    "O(m)",
+    "O(m)",
+    "O(m)",
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "The problem has a monotonic property: if `x` tasks can be assigned, then `x-1` tasks can also be assigned.",
+      "This allows for binary search on the number of tasks to assign.",
+      "The `check` function needs to greedily assign the weakest workers (with or without pills) to the hardest possible tasks they can complete."
+    ],
+    [
+      "Sorting both tasks and workers is essential for the greedy assignment strategy.",
+      "Using `SortedList` or `bisect` on sorted lists allows for efficient searching and removal of assigned workers/tasks.",
+      "The two main greedy strategies are: weakest worker to hardest task vs. hardest task to weakest worker."
+    ],
+    [
+      "The `check` function's complexity is dominated by the sorting and the operations within the loop.",
+      "The `bisect_right` and `pop` operations on `SortedList` are O(log m) and O(m) respectively, leading to O(m log m) or O(m^2) for the check.",
+      "The provided solutions use `SortedList` or `bisect` which are efficient for this greedy assignment."
+    ],
+    [
+      "The choice of which array to iterate over (tasks or workers) and which to search within (the other) affects the implementation details of the greedy assignment.",
+      "The `check` function must correctly manage the available pills.",
+      "The binary search range is from 0 (or 1) to `min(len(tasks), len(workers))`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

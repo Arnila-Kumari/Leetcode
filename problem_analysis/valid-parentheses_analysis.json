@@ -1,0 +1,32 @@
+{
+  "problem_name": "valid-parentheses",
+  "data_structures": [
+    [
+      "stack",
+      "hashmap"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Use a stack to store opening brackets and a hashmap for matching pairs. Pop and compare on closing brackets."
+  ],
+  "problem_summary_simple": "Check if parentheses, brackets, and braces are correctly matched and ordered.",
+  "problem_summary_technical": "Employ a stack to track opening brackets. Match closing brackets against the stack top using a hashmap for O(1) lookups.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The Last-In, First-Out (LIFO) nature of a stack perfectly models the nesting of parentheses.",
+      "A hashmap provides efficient O(1) lookup for corresponding closing brackets.",
+      "An empty stack at the end signifies all opening brackets were correctly closed."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,55 @@
+{
+  "problem_name": "maximum-number-of-moves-in-a-grid",
+  "data_structures": [
+    [
+      "list",
+      "boolean list"
+    ],
+    [
+      "list",
+      "integer list"
+    ],
+    [
+      "set"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming (forward pass)",
+    "Dynamic Programming (backward pass)",
+    "Breadth-First Search (BFS)"
+  ],
+  "problem_summary_simple": "Find the longest path in a grid where each move goes to a cell with a strictly larger value in the next column.",
+  "problem_summary_technical": "DP or BFS on a grid, tracking reachable cells per column, optimizing for maximum moves by considering valid transitions.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m)",
+    "O(m)",
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating column by column.",
+      "DP state can represent reachability or max moves to a cell in the current column.",
+      "The constraint of moving to the next column simplifies state transitions."
+    ],
+    [
+      "A backward DP approach can also be used, starting from the last column.",
+      "This approach might be more intuitive for calculating maximum path lengths.",
+      "The state `dp[r]` stores the maximum moves ending at row `r` in the current column."
+    ],
+    [
+      "BFS can explore reachable cells level by level (column by column).",
+      "A set can efficiently store the rows reachable in the current column.",
+      "The number of BFS levels corresponds to the number of moves."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-student-that-will-replace-the-chalk",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate total chalk needed per round. Use modulo to find remaining chalk after full rounds, then simulate."
+  ],
+  "problem_summary_simple": "Find which student needs to replace the chalk when it runs out, given chalk usage per student and initial chalk.",
+  "problem_summary_technical": "Calculate the total chalk used per round. Use modulo arithmetic to find the remaining chalk and simulate the process.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The process is cyclical. We can determine how many full rounds of students can complete their turns.",
+      "The total chalk used in one full round can be pre-calculated.",
+      "Using the modulo operator with the total chalk per round and the initial chalk `k` efficiently determines the state after many rounds."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:17:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

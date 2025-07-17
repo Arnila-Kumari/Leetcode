@@ -1,0 +1,31 @@
+{
+  "problem_name": "take-gifts-from-the-richest-pile",
+  "data_structures": [
+    [
+      "max heap (priority queue)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Max heap to efficiently find and update the largest pile."
+  ],
+  "problem_summary_simple": "Repeatedly take the square root of the largest pile of gifts for k seconds.",
+  "problem_summary_technical": "Employs a max heap to repeatedly extract the maximum element, apply the square root operation, and re-insert.",
+  "time_complexity": [
+    "O(n + k log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A max heap is ideal for repeatedly finding the maximum element.",
+      "The operation involves modifying the element and re-inserting it into the heap.",
+      "Negating values allows using Python's min-heap as a max-heap."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

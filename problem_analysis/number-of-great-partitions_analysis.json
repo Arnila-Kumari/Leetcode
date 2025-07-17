@@ -1,0 +1,33 @@
+{
+  "problem_name": "number-of-great-partitions",
+  "data_structures": [
+    [
+      "list",
+      "1-D Dynamic Programming array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming (knapsack-like) to count subsets summing to a target, then derive partition counts.",
+    "Calculate total partitions (2^n) and subtract invalid ones (where one group sum is < k)."
+  ],
+  "problem_summary_simple": "Partition an array into two groups where each group's sum is at least k.",
+  "problem_summary_technical": "Uses DP to find subsets summing to less than k, then calculates total partitions (2^n) minus invalid ones.",
+  "time_complexity": [
+    "O(n * k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding subsets whose sum is less than k.",
+      "A knapsack-like DP approach can count the number of ways to achieve sums up to k-1.",
+      "The total number of partitions is 2^n. Invalid partitions are those where at least one group sum is less than k."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:02:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

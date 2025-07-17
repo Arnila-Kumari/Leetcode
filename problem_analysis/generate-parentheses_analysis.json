@@ -1,0 +1,43 @@
+{
+  "problem_name": "generate-parentheses",
+  "data_structures": [
+    [
+      "list",
+      "stack"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Iterative backtracking using a stack to manage states",
+    "Recursive backtracking with state parameters for open and close parentheses"
+  ],
+  "problem_summary_simple": "Generate all valid combinations of n pairs of parentheses.",
+  "problem_summary_technical": "Backtracking algorithm to explore valid parenthesis placements, ensuring open count never exceeds close count.",
+  "time_complexity": [
+    "O(4^n / n^(3/2))",
+    "O(4^n / n^(3/2))"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as building a string by adding '(' or ')' at each step.",
+      "Maintain counts of open and closed parentheses to ensure validity: open <= n, closed <= open.",
+      "The iterative solution uses a stack to simulate recursion, managing (step, arguments) tuples."
+    ],
+    [
+      "The recursive solution naturally explores the decision tree of adding '(' or ')'.",
+      "Base case: when both open and closed counts reach zero, a valid combination is found.",
+      "Pruning: only add '(' if open < n, and only add ')' if closed < open."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

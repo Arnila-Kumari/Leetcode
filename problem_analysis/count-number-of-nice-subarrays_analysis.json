@@ -1,0 +1,45 @@
+{
+  "problem_name": "count-number-of-nice-subarrays",
+  "data_structures": [
+    [
+      "variable",
+      "list"
+    ],
+    [
+      "deque",
+      "variable"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window using 'at most k' helper function to count subarrays with exactly k odd numbers.",
+    "Sliding window with a deque to track indices of odd numbers and calculate valid subarray counts."
+  ],
+  "problem_summary_simple": "Count subarrays containing exactly k odd numbers.",
+  "problem_summary_technical": "Uses a sliding window approach, either by calculating 'at most k' minus 'at most k-1' or by tracking odd number indices with a deque.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The 'exactly k' problem can be solved by 'at most k' minus 'at most k-1'.",
+      "The 'at most k' sliding window expands the window and shrinks it when the odd count exceeds k.",
+      "The number of valid subarrays ending at `right` is `right - left + 1`."
+    ],
+    [
+      "A deque stores the indices of odd numbers encountered.",
+      "When the deque size exceeds k+1, the oldest odd number's index is removed.",
+      "The number of nice subarrays ending at the current index is the difference between the current odd index and the previous odd index (before the k-th one).",
+      "The deque stores `k+1` indices to calculate the start of the valid window."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

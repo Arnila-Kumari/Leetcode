@@ -1,0 +1,34 @@
+{
+  "problem_name": "design-compressed-string-iterator",
+  "data_structures": [
+    [
+      "list of tuples",
+      "integer pointers",
+      "character variable",
+      "integer count variable"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Parse compressed string into character-count pairs, iterate through them, yielding characters one by one."
+  ],
+  "problem_summary_simple": "Create an iterator that expands a compressed string on demand.",
+  "problem_summary_technical": "Parse compressed string into (char, count) pairs, use state variables to track current char and remaining count for O(1) next/hasNext.",
+  "time_complexity": [
+    "O(1) for next and hasNext"
+  ],
+  "space_complexity": [
+    "O(1) (excluding input string storage)"
+  ],
+  "key_insights": [
+    [
+      "Regular expressions are used for efficient parsing of the compressed string into character-count pairs.",
+      "The iterator maintains state (`__index`, `__num`, `__ch`) to track progress through the uncompressed sequence.",
+      "The `hasNext` method checks if there are more characters to yield from the current pair or if there are more pairs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

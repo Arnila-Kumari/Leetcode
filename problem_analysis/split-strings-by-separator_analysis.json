@@ -1,0 +1,32 @@
+{
+  "problem_name": "split-strings-by-separator",
+  "data_structures": [
+    [
+      "list of strings",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "String splitting and filtering"
+  ],
+  "problem_summary_simple": "Split each string in a list by a separator and return non-empty resulting substrings.",
+  "problem_summary_technical": "Iterate through words, split each by the separator, and collect non-empty substrings into a new list.",
+  "time_complexity": [
+    "O(n * l)"
+  ],
+  "space_complexity": [
+    "O(l)"
+  ],
+  "key_insights": [
+    [
+      "Python's built-in `split()` method is efficient for this task.",
+      "A list comprehension provides a concise way to perform the split and filter.",
+      "Ensure empty strings resulting from consecutive separators are excluded."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:10:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

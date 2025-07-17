@@ -1,0 +1,43 @@
+{
+  "problem_name": "maximum-product-of-word-lengths",
+  "data_structures": [
+    [
+      "list",
+      "list of lists (buckets)"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Counting sort, bit manipulation, nested loops with pruning",
+    "Sorting by length, bit manipulation, nested loops with pruning"
+  ],
+  "problem_summary_simple": "Find the maximum product of lengths of two words that share no common letters.",
+  "problem_summary_technical": "Uses bitmasks to represent character sets of words, enabling efficient checking for common letters. Sorting and pruning optimize the search for word pairs.",
+  "time_complexity": [
+    "O(N^2 * L) where N is number of words, L is max word length (for bitmask creation)",
+    "O(N log N + N^2 * L) where N is number of words, L is max word length (for sorting and bitmask creation)"
+  ],
+  "space_complexity": [
+    "O(N * L) for storing bitmasks and buckets",
+    "O(N * L) for storing bitmasks"
+  ],
+  "key_insights": [
+    [
+      "Bitmasks are an efficient way to represent the presence of characters in a word.",
+      "Sorting words by length (descending) and pruning the search space can significantly improve performance.",
+      "The `break` statements in the inner loops are crucial for optimization."
+    ],
+    [
+      "Sorting by length allows for early termination of the outer loop if the potential product is already less than the current maximum.",
+      "Bitwise AND operation (`&`) is a fast way to check if two bitmasks have any common set bits (common characters).",
+      "The `len(words[i]) ** 2 <= max_product` pruning is a strong optimization when words are sorted by length."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

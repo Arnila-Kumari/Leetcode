@@ -1,0 +1,47 @@
+{
+  "problem_name": "count-the-number-of-square-free-subsets",
+  "data_structures": [
+    [
+      "list",
+      "hashmap",
+      "array"
+    ],
+    [
+      "list",
+      "hashmap",
+      "array",
+      "2D array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Number theory, combinatorics, bitmasks, DP",
+    "Number theory, combinatorics, bitmasks, memoization"
+  ],
+  "problem_summary_simple": "Count non-empty subsets whose product is square-free, modulo 10^9 + 7.",
+  "problem_summary_technical": "Uses prime factorization and bitmasks to represent square-free properties, with DP to count valid subsets.",
+  "time_complexity": [
+    "O(n + m * 2^p)",
+    "O(n + m * 2^p)"
+  ],
+  "space_complexity": [
+    "O(m * 2^p)",
+    "O(m * 2^p)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to represent the square-free property using bitmasks based on prime factors.",
+      "Dynamic programming state can track the current mask of prime factors encountered.",
+      "Handling the number 1 and its effect on subsets is crucial."
+    ],
+    [
+      "Memoization can be used instead of iterative DP for a top-down approach.",
+      "The state for memoization includes the current index and the accumulated prime factor mask.",
+      "The constraints on numbers (<= 30) limit the number of primes needed for bitmasks."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:38:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

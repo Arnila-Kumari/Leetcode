@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-cost-to-reach-destination-in-time",
+  "data_structures": [
+    [
+      "adjacency list",
+      "priority queue",
+      "hash map (defaultdict)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Modified Dijkstra's algorithm considering both time and cost."
+  ],
+  "problem_summary_simple": "Find the minimum cost to reach a destination city within a given time limit, paying fees at each city.",
+  "problem_summary_technical": "Dijkstra's algorithm where state is (total_cost, current_city, current_time). Prioritize lower cost and check time constraint.",
+  "time_complexity": [
+    "O((E + V) * log V) where V is number of cities and E is number of edges."
+  ],
+  "space_complexity": [
+    "O(E + V)"
+  ],
+  "key_insights": [
+    [
+      "This is a shortest path problem with an additional constraint (maxTime).",
+      "Dijkstra's algorithm is suitable, but the state needs to track both accumulated cost and time.",
+      "When exploring neighbors, we only push to the heap if the new path's time is within maxTime and potentially better than existing paths to that city."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

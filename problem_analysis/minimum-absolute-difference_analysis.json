@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-absolute-difference",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sort the array and iterate to find minimum difference and corresponding pairs."
+  ],
+  "problem_summary_simple": "Find pairs with the smallest difference between any two numbers in an array.",
+  "problem_summary_technical": "Sort the array to efficiently find adjacent elements with the minimum absolute difference, then collect all such pairs.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting is crucial to bring elements with small differences together.",
+      "Iterating through sorted adjacent elements is sufficient to find the minimum difference.",
+      "A second pass or careful single pass can collect all pairs with that minimum difference."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

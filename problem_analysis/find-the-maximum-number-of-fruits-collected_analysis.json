@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-maximum-number-of-fruits-collected",
+  "data_structures": [
+    [
+      "2D array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming on a grid with modified movement rules for three children."
+  ],
+  "problem_summary_simple": "Maximize fruit collection by three children moving from corners to the opposite corner.",
+  "problem_summary_technical": "DP state represents max fruits collected by children reaching a cell, considering their unique movement constraints.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a variation of finding the longest path in a DAG, but with three agents.",
+      "The key is to realize that the paths of the three children can be thought of as layers or stages.",
+      "The provided solution seems to be an attempt at a DP approach but has issues with correctly modeling the three children's paths simultaneously and handling overlaps.",
+      "A more standard approach would involve a 3D DP state (child1_row, child1_col, child2_row, child2_col, child3_row, child3_col) or a state based on the total number of steps taken by each child."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:44:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

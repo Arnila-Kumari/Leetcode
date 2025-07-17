@@ -1,0 +1,46 @@
+{
+  "problem_name": "longest-special-path",
+  "data_structures": [
+    [
+      "adjacency list",
+      "hashmap (defaultdict)",
+      "list (for prefix sums)"
+    ],
+    [
+      "adjacency list",
+      "hashmap (defaultdict)",
+      "list (for prefix sums)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "iterative DFS with prefix sums and path tracking",
+    "recursive DFS with prefix sums and path tracking"
+  ],
+  "problem_summary_simple": "Find the longest downward path in a tree where all node values are unique.",
+  "problem_summary_technical": "DFS on a tree, tracking node values seen. Use prefix sums for path lengths and a hashmap to find previous occurrences of node values.",
+  "time_complexity": [
+    "O(n + e)",
+    "O(n + e)"
+  ],
+  "space_complexity": [
+    "O(n + e)",
+    "O(n + e)"
+  ],
+  "key_insights": [
+    [
+      "A 'special path' implies no repeated node values. This can be tracked using a hashmap (or set) during traversal.",
+      "The problem asks for the longest path and the minimum number of nodes for such paths. This suggests a need to track both length and node count.",
+      "Prefix sums on edge weights are used to quickly calculate path lengths between any two nodes in the DFS traversal."
+    ],
+    [
+      "The DFS explores downward paths, maintaining the set of visited node values and the current path length.",
+      "When a node value is encountered that has already been seen in the current path, the path is no longer 'special' from that point onwards.",
+      "The `lookup` map stores the depth at which a node value was last seen, enabling efficient calculation of the longest valid path segment ending at the current node."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:49:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

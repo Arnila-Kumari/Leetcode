@@ -1,0 +1,44 @@
+{
+  "problem_name": "keyboard-row",
+  "data_structures": [
+    [
+      "list of sets",
+      "list of strings"
+    ],
+    [
+      "list of strings",
+      "list of strings"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Map each character to its keyboard row. Iterate through words, checking if all characters belong to the same row.",
+    "Iterate through words and check if all characters of the word (case-insensitive) are present in any single keyboard row string."
+  ],
+  "problem_summary_simple": "Return words from a list that can be typed using letters from only one row of a keyboard.",
+  "problem_summary_technical": "Groups keyboard keys by row using sets for efficient lookups. Checks if all letters in a word belong to a single row.",
+  "time_complexity": [
+    "O(N*L)",
+    "O(N*L)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Pre-processing the keyboard rows into sets allows for O(1) average time complexity for character lookups.",
+      "Case-insensitivity is handled by converting characters to lowercase before checking against the row sets.",
+      "The `else` clause of the `for` loop is crucial for appending the word only if the inner loop completes without a `break`."
+    ],
+    [
+      "This approach avoids explicit set creation for each row by directly checking membership in row strings.",
+      "The `all()` function provides a concise way to verify if all characters in a word belong to a specific row.",
+      "The outer loop iterates through words, and the inner loop iterates through keyboard rows."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-points-inside-the-square",
+  "data_structures": [
+    [
+      "hash map (implicitly via array)",
+      "array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterating through potential square boundaries and checking points."
+  ],
+  "problem_summary_simple": "Find the largest square centered at the origin that contains points without duplicate tags.",
+  "problem_summary_technical": "For each tag, find the minimum square boundary that encloses all points with that tag. Then, find the largest square that avoids duplicate tags.",
+  "time_complexity": [
+    "O(N + C), where N is the number of points and C is the alphabet size (26)."
+  ],
+  "space_complexity": [
+    "O(C), where C is the alphabet size (26)."
+  ],
+  "key_insights": [
+    [
+      "A square centered at the origin with side length `2s` covers points `(x, y)` where `max(abs(x), abs(y)) <= s`.",
+      "The constraint is that no two points with the same tag can be within the square.",
+      "For each tag, we need to find the smallest square that *would* contain two points with that tag. The maximum side length for a valid square is limited by the minimum of these 'forbidden' side lengths."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "print-words-vertically",
+  "data_structures": [
+    [
+      "list of strings",
+      "itertools.izip_longest"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "String splitting, transposing using zip_longest with padding, and stripping trailing spaces."
+  ],
+  "problem_summary_simple": "Arrange characters from words in a string to form new words vertically.",
+  "problem_summary_technical": "Transposes words by padding shorter words and then joining characters column-wise to form vertical strings.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "itertools.izip_longest is ideal for transposing sequences of unequal lengths.",
+      "Padding with spaces is necessary to maintain alignment for shorter words.",
+      "rstrip() is essential to remove trailing spaces as per the problem requirement."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:05:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "most-frequent-number-following-key-in-an-array",
+  "data_structures": [
+    [
+      "hashmap",
+      "iterator"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array, count occurrences of numbers following the key using a hashmap."
+  ],
+  "problem_summary_simple": "Find the number that most frequently appears immediately after a given key in an array.",
+  "problem_summary_technical": "Iterates through the array, using a hashmap to count occurrences of elements following the key.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking adjacent elements.",
+      "A frequency map (Counter) is ideal for counting occurrences.",
+      "The `most_common(1)` method of Counter efficiently retrieves the most frequent element."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:00:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

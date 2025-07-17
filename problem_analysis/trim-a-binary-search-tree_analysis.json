@@ -1,0 +1,32 @@
+{
+  "problem_name": "trim-a-binary-search-tree",
+  "data_structures": [
+    [
+      "binary tree node"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive traversal and pruning based on BST properties"
+  ],
+  "problem_summary_simple": "Remove nodes from a BST that are outside a given range [low, high].",
+  "problem_summary_technical": "Recursively traverse the BST, pruning branches that fall outside the [low, high] bounds.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "Leverage the Binary Search Tree property: values less than `low` are in the left subtree, and values greater than `high` are in the right subtree.",
+      "If a node's value is within the range, recursively trim its left and right subtrees.",
+      "If a node's value is less than `low`, the trimmed subtree must come from its right child.",
+      "If a node's value is greater than `high`, the trimmed subtree must come from its left child."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

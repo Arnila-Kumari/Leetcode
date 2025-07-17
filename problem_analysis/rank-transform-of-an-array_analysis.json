@@ -1,0 +1,33 @@
+{
+  "problem_name": "rank-transform-of-an-array",
+  "data_structures": [
+    [
+      "hash map",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sorting unique elements to establish rank order.",
+    "Using a hash map to store the rank of each unique element."
+  ],
+  "problem_summary_simple": "Replace each element in an array with its rank, where equal elements have the same rank.",
+  "problem_summary_technical": "Sort unique elements, map them to ranks, and then transform the original array using the map.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key is to handle duplicate elements correctly by assigning them the same rank.",
+      "Sorting the unique elements of the array provides the basis for ranking.",
+      "A hash map (dictionary) is an efficient way to store and retrieve the rank for each unique number."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:05:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

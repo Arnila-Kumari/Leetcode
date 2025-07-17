@@ -1,0 +1,49 @@
+{
+  "problem_name": "amount-of-new-area-painted-each-day",
+  "data_structures": [
+    [
+      "defaultdict",
+      "heapq",
+      "list"
+    ],
+    [
+      "defaultdict",
+      "SortedList",
+      "list"
+    ],
+    [
+      "SegmentTree",
+      "list"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Line sweep with a min-heap to track active intervals and their painting order.",
+    "Line sweep with a SortedList to track active intervals and their painting order.",
+    "Segment Tree to mark painted intervals and query for newly painted areas."
+  ],
+  "problem_summary_simple": "Calculate the new area painted each day given a sequence of painting intervals.",
+  "problem_summary_technical": "Uses line sweep with data structures (heap/SortedList) or a Segment Tree to efficiently track painted segments and calculate new areas.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(r)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves managing overlapping intervals and calculating the unique portion of each new interval.",
+      "Line sweep is a natural fit for interval problems, processing events (start/end of paints) in order.",
+      "A min-heap or SortedList can efficiently track the currently active (uncompleted) painting intervals.",
+      "A Segment Tree can directly represent the painted intervals and query for the length of unpainted segments."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-uploaded-prefix",
+  "data_structures": [
+    [
+      "hash set",
+      "integer"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Maintain a set of uploaded videos and a pointer to the current longest prefix."
+  ],
+  "problem_summary_simple": "Track the longest contiguous prefix of uploaded videos from 1 to N.",
+  "problem_summary_technical": "Use a hash set to store uploaded videos. A pointer `curr` tracks the next expected video. Increment `curr` as long as `curr` is in the set.",
+  "time_complexity": [
+    "ctor: O(1), upload: O(1) amortized, longest: O(1)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to efficiently check if video `i` has been uploaded. A hash set provides O(1) average time complexity for this check.",
+      "We maintain a `curr` variable that represents the length of the current longest uploaded prefix. When a video is uploaded, we check if it completes the prefix. If `curr` is uploaded, we increment `curr` and repeat the check.",
+      "The `upload` operation needs to handle cases where uploading a video might extend the prefix beyond the previously known longest prefix."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

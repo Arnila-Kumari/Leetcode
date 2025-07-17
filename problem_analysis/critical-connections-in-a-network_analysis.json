@@ -1,0 +1,42 @@
+{
+  "problem_name": "critical-connections-in-a-network",
+  "data_structures": [
+    [
+      "adjacency list",
+      "array",
+      "boolean array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Tarjan's Bridge-Finding Algorithm (DFS-based)",
+    "Kosaraju's Algorithm (for SCCs, not directly applicable here but related)",
+    "Gabow's Algorithm (for SCCs)"
+  ],
+  "problem_summary_simple": "Find all connections in a network that, if removed, disconnect the network.",
+  "problem_summary_technical": "Identify bridges in an undirected graph using DFS, discovery times, and low-link values.",
+  "time_complexity": [
+    "O(|V| + |E|)",
+    "O(|V| + |E|)"
+  ],
+  "space_complexity": [
+    "O(|V| + |E|)",
+    "O(|V| + |E|)"
+  ],
+  "key_insights": [
+    [
+      "A critical connection (bridge) is an edge whose removal increases the number of connected components.",
+      "Tarjan's bridge-finding algorithm uses DFS to compute discovery times (`idx`) and low-link values (`lowlinks`).",
+      "An edge (u, v) is a bridge if `lowlinks[v] > idx[u]` (where v is a child of u in DFS tree)."
+    ],
+    [
+      "The problem is equivalent to finding bridges in an undirected graph.",
+      "A DFS traversal is used to compute discovery times and the lowest discovery time reachable from a node (low-link value).",
+      "An edge is a bridge if the low-link value of the child node is greater than the discovery time of the parent node."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "handling-sum-queries-after-update",
+  "data_structures": [
+    [
+      "Segment Tree",
+      "Array"
+    ]
+  ],
+  "category": "Segment Tree",
+  "algorithm_technique": [
+    "Utilize a segment tree to efficiently handle range updates (flipping bits in nums1) and range queries (sum of nums2)."
+  ],
+  "problem_summary_simple": "Process queries to flip bits in one array and update another array based on the first, then sum the second array.",
+  "problem_summary_technical": "Employ a segment tree to manage range flips in nums1 and calculate cumulative updates to nums2, answering sum queries efficiently.",
+  "time_complexity": [
+    "O(N log N + M log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Segment trees are ideal for range updates and range queries.",
+      "The segment tree nodes can store pairs of (count of 0s, count of 1s) to facilitate flips.",
+      "A lazy propagation mechanism is implicitly handled by the segment tree's update logic for range operations."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:46:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

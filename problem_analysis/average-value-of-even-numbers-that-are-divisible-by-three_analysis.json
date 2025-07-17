@@ -1,0 +1,31 @@
+{
+  "problem_name": "average-value-of-even-numbers-that-are-divisible-by-three",
+  "data_structures": [
+    [
+      "integer variables (total, count)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through array, check divisibility by 6, accumulate sum and count, then calculate average."
+  ],
+  "problem_summary_simple": "Find the average of numbers in an array that are both even and divisible by three.",
+  "problem_summary_technical": "Iterate through an array, filter elements divisible by 6, sum them, count them, and compute the average.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A number divisible by both 2 (even) and 3 is also divisible by 6.",
+      "Handle the case where no such numbers exist to avoid division by zero.",
+      "Integer division `//` is used for rounding down as per problem statement."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

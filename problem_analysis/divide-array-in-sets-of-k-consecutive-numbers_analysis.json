@@ -1,0 +1,39 @@
+{
+  "problem_name": "divide-array-in-sets-of-k-consecutive-numbers",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using a frequency map and sorting keys to form consecutive sets."
+  ],
+  "problem_summary_simple": "Check if an array can be divided into sets of k consecutive numbers.",
+  "problem_summary_technical": "Use a frequency map to count elements, then greedily form k-sized consecutive sets starting from the smallest available number.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by starting with the smallest number in the array.",
+      "A frequency map (Counter) is essential to track available numbers and their counts.",
+      "If a number `x` is used to start a set, we must have `x+1`, `x+2`, ..., `x+k-1` available."
+    ],
+    [
+      "Sorting the unique numbers allows us to process them in increasing order, which is key for the greedy strategy.",
+      "When we form a set starting with `num`, we decrement the counts of `num` through `num + k - 1`."
+    ],
+    [
+      "If at any point we cannot form a complete set of k consecutive numbers, it's impossible to divide the array."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:17:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

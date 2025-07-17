@@ -1,0 +1,80 @@
+{
+  "problem_name": "maximum-profitable-triplets-with-increasing-prices-ii",
+  "data_structures": [
+    [
+      "SortedList"
+    ],
+    [
+      "SortedList",
+      "array"
+    ],
+    [
+      "BIT (Fenwick Tree)",
+      "dictionary"
+    ],
+    [
+      "SegmentTree",
+      "dictionary"
+    ],
+    [
+      "SegmentTree",
+      "array",
+      "dictionary"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy with SortedList for prefix max profit",
+    "Greedy with SortedList and precomputed right max profit",
+    "Greedy with Fenwick Tree for prefix max profit",
+    "Greedy with Segment Tree for prefix max profit",
+    "Greedy with Segment Tree and precomputed right max profit"
+  ],
+  "problem_summary_simple": "Find three items with increasing prices and indices to maximize total profit.",
+  "problem_summary_technical": "Maximize profits[i] + profits[j] + profits[k] where prices[i] < prices[j] < prices[k] and i < j < k.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through the middle element (j) and finding the maximum profit from elements before it (i) and after it (k).",
+      "SortedList (or similar data structure like Fenwick Tree/Segment Tree) is crucial for efficiently querying maximum profits in a price range.",
+      "The solutions use a greedy approach by maintaining prefix/suffix maximums."
+    ],
+    [
+      "The problem can be solved by iterating through the middle element (j) and finding the maximum profit from elements before it (i) and after it (k).",
+      "SortedList (or similar data structure like Fenwick Tree/Segment Tree) is crucial for efficiently querying maximum profits in a price range.",
+      "The solutions use a greedy approach by maintaining prefix/suffix maximums."
+    ],
+    [
+      "The problem can be solved by iterating through the middle element (j) and finding the maximum profit from elements before it (i) and after it (k).",
+      "SortedList (or similar data structure like Fenwick Tree/Segment Tree) is crucial for efficiently querying maximum profits in a price range.",
+      "The solutions use a greedy approach by maintaining prefix/suffix maximums."
+    ],
+    [
+      "The problem can be solved by iterating through the middle element (j) and finding the maximum profit from elements before it (i) and after it (k).",
+      "SortedList (or similar data structure like Fenwick Tree/Segment Tree) is crucial for efficiently querying maximum profits in a price range.",
+      "The solutions use a greedy approach by maintaining prefix/suffix maximums."
+    ],
+    [
+      "The problem can be solved by iterating through the middle element (j) and finding the maximum profit from elements before it (i) and after it (k).",
+      "SortedList (or similar data structure like Fenwick Tree/Segment Tree) is crucial for efficiently querying maximum profits in a price range.",
+      "The solutions use a greedy approach by maintaining prefix/suffix maximums."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

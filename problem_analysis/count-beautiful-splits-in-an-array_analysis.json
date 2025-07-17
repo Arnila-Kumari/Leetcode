@@ -1,0 +1,57 @@
+{
+  "problem_name": "count-beautiful-splits-in-an-array",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "String",
+  "algorithm_technique": [
+    "Uses Z-function to find longest common prefixes. Checks conditions for splits based on Z-values.",
+    "Uses dynamic programming to precompute longest common prefixes between suffixes and prefixes of the array.",
+    "Uses Z-function to find longest common prefixes. Checks conditions for splits based on Z-values."
+  ],
+  "problem_summary_simple": "Count ways to split an array into three parts where the first two or last two parts are identical.",
+  "problem_summary_technical": "Leverages Z-function or DP to find common prefixes/suffixes. Checks split conditions based on these commonalities.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n^2)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding indices `i` and `j` such that `nums[0...i-1] == nums[i...j-1]` or `nums[i...j-1] == nums[j...n-1]`.",
+      "The Z-function is a powerful tool for finding occurrences of a pattern (prefix) within a text (array).",
+      "The condition `z0[i] >= i` checks if the prefix of `nums` matches `nums[i:]` for at least `i` elements.",
+      "The condition `zi[j-i] >= j-i` checks if `nums[i:]` has a prefix of length `j-i` that matches `nums[j:]`."
+    ],
+    [
+      "The DP approach precomputes the length of the longest common prefix between `nums[i:]` and `nums[j:]`.",
+      "The DP state `dp[i][j]` stores the length of the longest common prefix starting at `nums[i]` and `nums[j]`.",
+      "This DP table allows for O(1) lookup of common prefix lengths, but the table construction is O(n^2)."
+    ],
+    [
+      "The `Solution_TLE` indicates that the naive application of Z-function within nested loops might be too slow.",
+      "The provided Z-function implementations are correct, but the overall complexity of iterating through all possible split points `i` and `j` and calling Z-function repeatedly leads to O(n^2).",
+      "A more optimized solution would likely involve precomputing Z-values or using a different approach to avoid repeated Z-function calculations."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:36:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

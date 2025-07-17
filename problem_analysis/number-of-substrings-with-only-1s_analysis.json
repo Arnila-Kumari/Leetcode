@@ -1,0 +1,41 @@
+{
+  "problem_name": "number-of-substrings-with-only-1s",
+  "data_structures": [
+    [
+      "variable"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Iterate through the string, maintaining a count of consecutive '1's. Add this count to the total result."
+  ],
+  "problem_summary_simple": "Count all substrings consisting only of '1's in a binary string.",
+  "problem_summary_technical": "Iterate through the string, accumulating consecutive '1's. Each new '1' extends existing substrings and starts a new one.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "If we have `k` consecutive '1's, they form `k * (k + 1) / 2` substrings of only '1's.",
+      "The solution cleverly avoids explicitly calculating this sum for each block.",
+      "Instead, it adds the current count of consecutive '1's to the total result at each step."
+    ],
+    [
+      "For example, '111':",
+      "At first '1': count=1, result=1 ('1')",
+      "At second '1': count=2, result=1+2=3 ('1', '1', '11')",
+      "At third '1': count=3, result=3+3=6 ('1', '1', '1', '11', '11', '111')"
+    ],
+    [
+      "The modulo operation is crucial for handling large results.",
+      "This approach is efficient because it processes each character once and uses constant extra space."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

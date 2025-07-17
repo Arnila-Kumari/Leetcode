@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-average-pass-ratio",
+  "data_structures": [
+    [
+      "heap (priority queue)",
+      "array"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a max-heap to store the potential gain in pass ratio for each class. Greedily assign extra students to classes with the highest potential gain."
+  ],
+  "problem_summary_simple": "Distribute extra students to classes to maximize the overall average pass ratio.",
+  "problem_summary_technical": "Employ a max-heap to prioritize classes by the marginal increase in pass ratio. Iteratively assign students and update heap.",
+  "time_complexity": [
+    "O(n + m log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as a greedy selection process.",
+      "The 'profit' function calculates the marginal gain of adding one student to a class.",
+      "A max-heap is crucial for efficiently selecting the class that yields the greatest improvement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

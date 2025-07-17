@@ -1,0 +1,33 @@
+{
+  "problem_name": "design-circular-deque",
+  "data_structures": [
+    [
+      "array",
+      "integer pointers",
+      "integer size"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Circular array implementation with front and rear pointers and size tracking for O(1) operations."
+  ],
+  "problem_summary_simple": "Design a double-ended queue that wraps around within a fixed-size array.",
+  "problem_summary_technical": "Implement a circular deque using a fixed-size array, start pointer, and size counter for O(1) insertions and deletions.",
+  "time_complexity": [
+    "O(1) for all operations"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The modulo operator (%) is key to implementing the circular behavior of the array.",
+      "Maintaining `__start` and `__size` allows for efficient calculation of front and rear indices.",
+      "Careful handling of empty and full conditions is necessary for correct operation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

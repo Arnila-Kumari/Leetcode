@@ -1,0 +1,32 @@
+{
+  "problem_name": "ways-to-make-a-fair-array",
+  "data_structures": [
+    [
+      "prefix sum array",
+      "suffix sum array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix and suffix sums to efficiently calculate sums of odd/even indexed elements after removal."
+  ],
+  "problem_summary_simple": "Find how many elements can be removed to make odd/even index sums equal.",
+  "problem_summary_technical": "Calculate prefix sums for even/odd indices and suffix sums. For each removal, check if prefix_even + suffix_odd == prefix_odd + suffix_even.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key is to efficiently calculate the sums of remaining elements after removal.",
+      "Prefix and suffix sums allow O(1) calculation of sums for subarrays.",
+      "When an element at index `i` is removed, the parity of indices for elements after `i` flips."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

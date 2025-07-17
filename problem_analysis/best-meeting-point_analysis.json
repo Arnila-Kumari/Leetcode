@@ -1,0 +1,33 @@
+{
+  "problem_name": "best-meeting-point",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Find median of x and y coordinates separately, then sum Manhattan distances.",
+    "Quickselect (modified quicksort) to find median efficiently."
+  ],
+  "problem_summary_simple": "Find a meeting point in a grid to minimize total travel distance for friends.",
+  "problem_summary_technical": "The optimal meeting point's coordinates are the medians of the friends' x and y coordinates, minimizing Manhattan distance.",
+  "time_complexity": [
+    "O(m*n) for grid traversal + O(N) for median finding (N = number of friends)"
+  ],
+  "space_complexity": [
+    "O(N) to store coordinates"
+  ],
+  "key_insights": [
+    [
+      "The problem decomposes into two independent 1D problems: finding the optimal meeting point for x-coordinates and y-coordinates separately.",
+      "The median minimizes the sum of absolute differences in a 1D set of points.",
+      "Manhattan distance allows for this separation; Euclidean distance would not."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

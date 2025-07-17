@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate through all possible masks for subsequences, check for palindromes, and find max product of disjoint ones."
+  ],
+  "problem_summary_simple": "Find two disjoint palindromic subsequences in a string to maximize the product of their lengths.",
+  "problem_summary_technical": "Uses bitmasks to represent subsequences, checks for palindromes, and iterates through submasks to find disjoint pairs for maximum product.",
+  "time_complexity": [
+    "O(3^n)"
+  ],
+  "space_complexity": [
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "Bitmasks are an efficient way to represent all possible subsequences.",
+      "The submask iteration technique (submask = (submask - 1) & inverse_mask) is crucial for exploring disjoint pairs.",
+      "Pre-calculating palindromic subsequence lengths for all masks optimizes the main loop."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:54:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

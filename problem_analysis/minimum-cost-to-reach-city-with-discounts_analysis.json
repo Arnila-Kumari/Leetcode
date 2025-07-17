@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-cost-to-reach-city-with-discounts",
+  "data_structures": [
+    [
+      "adjacency list",
+      "priority queue",
+      "hash map (defaultdict)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Modified Dijkstra's algorithm with state including remaining discounts."
+  ],
+  "problem_summary_simple": "Find the cheapest way to travel between cities using a limited number of half-price toll discounts.",
+  "problem_summary_technical": "Dijkstra's algorithm where state is (cost, city, remaining_discounts). Explore paths with and without discounts.",
+  "time_complexity": [
+    "O((E + V) * log V) where V is number of cities and E is number of highways."
+  ],
+  "space_complexity": [
+    "O(E + V)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a shortest path problem on a graph.",
+      "The state in Dijkstra's needs to include the number of discounts used to differentiate paths.",
+      "When considering an edge, we have two options: use a discount (if available) or pay the full price."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

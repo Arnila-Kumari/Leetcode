@@ -1,0 +1,76 @@
+{
+  "problem_name": "find-the-difference",
+  "data_structures": [
+    [
+      "string",
+      "integer variables",
+      "map/counter"
+    ],
+    [
+      "string",
+      "integer variables"
+    ],
+    [
+      "string",
+      "integer variables"
+    ],
+    [
+      "string",
+      "integer variables"
+    ],
+    [
+      "string",
+      "integer variables"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "XOR operation to find the unique character by canceling out common characters.",
+    "Iterative removal of characters from t that are present in s.",
+    "Concatenating strings and XORing all character codes.",
+    "Using frequency maps (Counters) to find the character with a different count.",
+    "Sorting strings and comparing elements or finding the first differing element."
+  ],
+  "problem_summary_simple": "Find the single extra character added to a shuffled string.",
+  "problem_summary_technical": "Identify the character present in t but not in s, or with a higher frequency, using XOR, sorting, or frequency maps.",
+  "time_complexity": [
+    "O(n)",
+    "O(n*m) where n is len(s) and m is len(t) due to list.remove",
+    "O(n)",
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)",
+    "O(n)",
+    "O(k) where k is alphabet size",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The XOR approach is highly efficient as XORing a number with itself results in 0, effectively canceling out common characters.",
+      "Frequency counting (using Counter) is a robust way to handle character differences, especially if multiple characters could be added.",
+      "Sorting and comparing is intuitive but less efficient than XOR or frequency counting."
+    ],
+    [
+      "The XOR approach is elegant and efficient for finding a single differing element.",
+      "The `reduce` function with `operator.xor` provides a concise way to apply XOR across an iterable.",
+      "The `map(ord, ...)` converts characters to their ASCII values for numerical operations."
+    ],
+    [
+      "Using `collections.Counter` is a Pythonic and efficient way to count character frequencies.",
+      "The difference between two Counters directly reveals the added character.",
+      "This method handles potential duplicates gracefully."
+    ],
+    [
+      "Sorting both strings and comparing them element by element is a straightforward approach.",
+      "The last element of the sorted `t` is a candidate if `s` is a prefix of `t`.",
+      "The `zip` function is useful for pairwise comparison of sorted strings."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

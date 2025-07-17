@@ -1,0 +1,31 @@
+{
+  "problem_name": "search-in-rotated-sorted-array",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Modified Binary Search to handle rotated array by checking which half is sorted."
+  ],
+  "problem_summary_simple": "Find a target in a sorted array that has been rotated at an unknown pivot.",
+  "problem_summary_technical": "Apply binary search on a rotated sorted array by identifying the sorted subarray to narrow down the search space.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to determine which half of the array (left or right of mid) is sorted.",
+      "Based on the sorted half, decide whether the target lies within that half or the other.",
+      "Handle edge cases where the target might be in the unsorted portion."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

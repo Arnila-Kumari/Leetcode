@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-flips-to-make-binary-grid-palindromic-i",
+  "data_structures": [
+    [
+      "list of lists (grid)",
+      "lambda function"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through half of rows/columns, count mismatches, take minimum."
+  ],
+  "problem_summary_simple": "Flip minimum cells to make all rows or all columns palindromic.",
+  "problem_summary_technical": "Calculates flips for row palindromes and column palindromes independently, then returns the minimum.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering rows and columns separately.",
+      "For each row/column, the minimum flips to make it palindromic is the count of differing pairs of elements.",
+      "The lambda function is used to abstract the access pattern for rows and columns."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

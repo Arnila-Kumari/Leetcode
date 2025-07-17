@@ -1,0 +1,31 @@
+{
+  "problem_name": "partition-equal-subset-sum",
+  "data_structures": [
+    [
+      "boolean array (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to solve the subset sum problem for half of the total sum."
+  ],
+  "problem_summary_simple": "Determine if an array can be split into two subsets with equal sums.",
+  "problem_summary_technical": "Uses DP where dp[i] is true if sum i can be formed using a subset of numbers.",
+  "time_complexity": [
+    "O(n * s)"
+  ],
+  "space_complexity": [
+    "O(s)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding a subset that sums to half of the total sum.",
+      "If the total sum is odd, it's impossible to partition into two equal sums.",
+      "The DP approach efficiently checks for the existence of a subset with the target sum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

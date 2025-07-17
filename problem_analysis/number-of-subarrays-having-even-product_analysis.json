@@ -1,0 +1,40 @@
+{
+  "problem_name": "number-of-subarrays-having-even-product",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Dynamic programming and mathematical observation",
+    "Prefix sum-like approach counting even numbers"
+  ],
+  "problem_summary_simple": "Count subarrays whose elements multiply to an even number.",
+  "problem_summary_technical": "Total subarrays minus subarrays with odd products. Odd products only occur if all elements are odd. Count consecutive odds.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A product is even if at least one factor is even. Conversely, a product is odd only if all factors are odd.",
+      "The total number of subarrays is n*(n+1)/2. We can subtract the number of subarrays with odd products.",
+      "To count subarrays with odd products, we can count consecutive sequences of odd numbers. For a sequence of length `c`, it contributes `c*(c+1)/2` odd-product subarrays."
+    ],
+    [
+      "An alternative approach is to count subarrays ending at each position that have an even product.",
+      "If the current number is even, all subarrays ending at this position will have an even product. The count is `i+1`.",
+      "If the current number is odd, the even product subarrays ending here are those that already had an even product ending at the previous position."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:18:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

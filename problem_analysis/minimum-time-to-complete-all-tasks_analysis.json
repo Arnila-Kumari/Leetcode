@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-time-to-complete-all-tasks",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort tasks by end time, then greedily assign time slots from the end."
+  ],
+  "problem_summary_simple": "Find the minimum total time the computer needs to be on to complete all tasks within their specified time ranges.",
+  "problem_summary_technical": "Greedy approach sorting tasks by end time. Uses a set to track occupied time slots and assigns tasks from latest possible times.",
+  "time_complexity": [
+    "O(N log N + N * R)"
+  ],
+  "space_complexity": [
+    "O(R)"
+  ],
+  "key_insights": [
+    [
+      "Sorting by end time is crucial for the greedy strategy to work.",
+      "Iterating backward from the end time allows for optimal placement of task durations.",
+      "A set efficiently checks for and marks occupied time slots."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

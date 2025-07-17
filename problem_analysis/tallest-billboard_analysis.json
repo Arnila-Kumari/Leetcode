@@ -1,0 +1,32 @@
+{
+  "problem_name": "tallest-billboard",
+  "data_structures": [
+    [
+      "hashmap (defaultdict)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Meet-in-the-middle with dynamic programming to find subset sums.",
+    "DP state represents (difference, max_height_of_smaller_set)."
+  ],
+  "problem_summary_simple": "Find the largest height of a billboard supported by two equal-height steel supports made from given rods.",
+  "problem_summary_technical": "Uses DP to find all possible differences between subset sums and the corresponding maximum height of the smaller subset.",
+  "time_complexity": [
+    "O(n * 3^(n/2))"
+  ],
+  "space_complexity": [
+    "O(3^(n/2))"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding two disjoint subsets of rods with equal sums.",
+      "The 'meet-in-the-middle' approach splits the rods and combines results from both halves.",
+      "The DP state `lookup[diff] = height` stores the maximum height of the smaller subset that results in a difference `diff` between the two subsets."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:12:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

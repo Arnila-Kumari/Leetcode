@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-substrings-with-k-frequency-characters-i",
+  "data_structures": [
+    [
+      "frequency array (size 26)",
+      "two pointers (left, right)"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window to count substrings where NO character appears k times, then subtract from total substrings."
+  ],
+  "problem_summary_simple": "Count substrings where at least one character appears k or more times.",
+  "problem_summary_technical": "Uses a sliding window to count substrings where NO character appears k times, then subtracts this from the total number of substrings.",
+  "time_complexity": [
+    "O(N * 26)"
+  ],
+  "space_complexity": [
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "The problem is solved using the principle of inclusion-exclusion or by counting the complement.",
+      "The `count` function finds substrings where *no* character appears `k` times.",
+      "The sliding window expands, and when the current character reaches frequency `k`, the left pointer moves to shrink the window until that character's frequency drops below `k`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

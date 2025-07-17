@@ -1,0 +1,33 @@
+{
+  "problem_name": "swim-in-rising-water",
+  "data_structures": [
+    [
+      "UnionFind",
+      "grid (2D array)",
+      "position mapping (list of tuples)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find with Kruskal's-like approach, processing cells by elevation."
+  ],
+  "problem_summary_simple": "Find the minimum time to swim from the top-left to the bottom-right of a grid with varying elevations.",
+  "problem_summary_technical": "Uses Union-Find to connect adjacent cells with elevations less than or equal to the current time 't', finding the minimum 't' for connectivity.",
+  "time_complexity": [
+    "O(n^2 * alpha(n^2)) where alpha is the inverse Ackermann function, effectively O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding the minimum 'maximum elevation' on a path from start to end.",
+      "Processing cells in increasing order of elevation allows us to build connectivity incrementally.",
+      "Union-Find is efficient for tracking connected components as we consider cells with increasing water levels."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:12:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

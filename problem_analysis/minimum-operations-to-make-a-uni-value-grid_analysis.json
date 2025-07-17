@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-operations-to-make-a-uni-value-grid",
+  "data_structures": [
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Flatten grid, check divisibility by x, find median, calculate operations."
+  ],
+  "problem_summary_simple": "Make all grid elements equal by adding/subtracting x, find minimum operations.",
+  "problem_summary_technical": "Check if all elements have the same remainder modulo x. If so, find the median of flattened grid and sum absolute differences divided by x.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The target value must be achievable from all elements by adding/subtracting x. This implies all elements must have the same remainder when divided by x.",
+      "The optimal target value to minimize operations is the median of all elements.",
+      "The `nth_element` (or quickselect) algorithm is used to efficiently find the median in O(N) average time."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

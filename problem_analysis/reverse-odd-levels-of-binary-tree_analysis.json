@@ -1,0 +1,32 @@
+{
+  "problem_name": "reverse-odd-levels-of-binary-tree",
+  "data_structures": [
+    [
+      "Binary Tree",
+      "Queue"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Level-order traversal (BFS) to identify nodes at odd levels and swap their values."
+  ],
+  "problem_summary_simple": "Reverse the values of nodes at odd levels in a perfect binary tree.",
+  "problem_summary_technical": "Perform BFS, collecting nodes level by level. For odd levels, reverse the values of nodes in the collected list.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "BFS is suitable for processing nodes level by level.",
+      "A parity flag or level counter helps distinguish odd and even levels.",
+      "Swapping values in-place on the odd levels avoids complex node restructuring."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:19:02",
+  "batch_processed": true,
+  "batch_size": 4
+}

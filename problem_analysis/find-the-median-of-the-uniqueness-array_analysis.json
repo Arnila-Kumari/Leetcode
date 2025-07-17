@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-median-of-the-uniqueness-array",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer combined with a sliding window to count subarrays with k distinct elements."
+  ],
+  "problem_summary_simple": "Find the median of distinct element counts for all subarrays of a given array.",
+  "problem_summary_technical": "Binary search for the median number of distinct elements, using a sliding window to count subarrays with at most k distinct elements.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the median of a derived array, suggesting binary search on the possible median values.",
+      "A sliding window approach is efficient for counting subarrays that satisfy a condition (e.g., having at most k distinct elements).",
+      "The check function for binary search needs to efficiently determine if there are at least half the total subarrays with at most 'mid' distinct elements."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:44:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

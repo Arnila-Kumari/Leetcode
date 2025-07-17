@@ -1,0 +1,34 @@
+{
+  "problem_name": "find-eventual-safe-states",
+  "data_structures": [
+    [
+      "array (for graph representation)",
+      "array (for node states: WHITE, GRAY, BLACK)",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) with cycle detection using node coloring (WHITE, GRAY, BLACK).",
+    "DFS traversal to identify nodes from which all paths lead to terminal nodes (no cycles)."
+  ],
+  "problem_summary_simple": "Find all nodes in a directed graph from which every path leads to a terminal node.",
+  "problem_summary_technical": "Use DFS with three states (unvisited, visiting, visited) to detect cycles. Nodes not part of a cycle and leading only to terminal nodes are safe.",
+  "time_complexity": [
+    "O(|V| + |E|), where |V| is the number of nodes and |E| is the number of edges."
+  ],
+  "space_complexity": [
+    "O(|V|) for the recursion stack and the state lookup array."
+  ],
+  "key_insights": [
+    [
+      "A node is safe if all paths starting from it end in a terminal node.",
+      "This is equivalent to saying that no path starting from a safe node can enter a cycle.",
+      "The three-color DFS approach (WHITE: unvisited, GRAY: visiting, BLACK: visited/safe) is standard for cycle detection in directed graphs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

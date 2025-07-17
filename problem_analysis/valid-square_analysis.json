@@ -1,0 +1,31 @@
+{
+  "problem_name": "valid-square",
+  "data_structures": [
+    [
+      "set"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate all pairwise distances, check for two unique positive distances (side and diagonal)."
+  ],
+  "problem_summary_simple": "Check if four given points form a valid square.",
+  "problem_summary_technical": "Calculate squared Euclidean distances between all pairs of points. A valid square has exactly two unique positive distances: side length squared and diagonal length squared (twice the side length squared).",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that in a square, there are only two distinct distances between any pair of points: the side length and the diagonal length.",
+      "Calculating squared distances avoids the need for square roots, simplifying calculations and preventing floating-point precision issues.",
+      "A valid square must have a non-zero side length, so the distance 0 should not be present in the set of calculated distances."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "hand-of-straights",
+  "data_structures": [
+    [
+      "Counter",
+      "Min-Heap"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a frequency map (Counter) and a min-heap to greedily form consecutive groups of size W."
+  ],
+  "problem_summary_simple": "Check if cards can be arranged into groups of consecutive numbers of a specific size.",
+  "problem_summary_technical": "Verify if a hand of cards can be partitioned into groups of size W, using a frequency map and a min-heap to manage card availability.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The total number of cards must be divisible by groupSize.",
+      "A min-heap helps in efficiently picking the smallest available card to start a new group.",
+      "A frequency map (Counter) is crucial for tracking card counts and ensuring no card is overused."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "squares-of-a-sorted-array",
+  "data_structures": [
+    [
+      "list for result array",
+      "integer pointers for left and right"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers approach to merge squared elements from both ends of the sorted input array."
+  ],
+  "problem_summary_simple": "Square each number in a sorted array and return the new array, also sorted.",
+  "problem_summary_technical": "Use two pointers, one at the start and one at the end, to build the sorted squared array from largest to smallest.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The largest squared values will come from the numbers with the largest absolute values, found at the ends of the sorted input array.",
+      "A two-pointer approach allows building the result array in O(n) time by comparing the squares of elements from both ends.",
+      "The `bisect_left` function helps efficiently find the split point between negative and non-negative numbers."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:10:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

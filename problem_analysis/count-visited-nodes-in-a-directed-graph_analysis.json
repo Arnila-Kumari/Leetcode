@@ -1,0 +1,33 @@
+{
+  "problem_name": "count-visited-nodes-in-a-directed-graph",
+  "data_structures": [
+    [
+      "array",
+      "hash table",
+      "stack"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Cycle detection using DFS with path tracking and memoization"
+  ],
+  "problem_summary_simple": "Count distinct nodes visited starting from each node until a cycle is detected.",
+  "problem_summary_technical": "Detect cycles in a functional graph (each node has out-degree 1) using DFS, tracking visited nodes and cycle lengths.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The graph structure is a collection of components, each consisting of a cycle with trees rooted at cycle nodes.",
+      "A DFS-based approach can efficiently detect cycles and calculate path lengths by tracking visited states (unvisited, visiting, visited).",
+      "Memoizing results for nodes already processed avoids redundant computations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

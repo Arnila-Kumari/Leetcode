@@ -1,0 +1,44 @@
+{
+  "problem_name": "height-of-special-binary-tree",
+  "data_structures": [
+    [
+      "stack",
+      "list"
+    ],
+    [
+      "queue",
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "DFS with custom leaf child check",
+    "BFS with custom leaf child check"
+  ],
+  "problem_summary_simple": "Calculate the height of a special binary tree where leaves form a cycle.",
+  "problem_summary_technical": "Traverse the tree using DFS or BFS, identifying valid child nodes by checking the special leaf connection property.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(w)"
+  ],
+  "key_insights": [
+    [
+      "The 'special' property of leaves means a leaf's left child is the previous leaf (or last leaf if it's the first), and right child is the next leaf (or first leaf if it's the last).",
+      "The condition `u.right.left != u` (or `u.left.right != u`) effectively checks if a child is a 'normal' child or part of the leaf cycle connection.",
+      "The height is the maximum depth reached during traversal."
+    ],
+    [
+      "BFS naturally explores the tree level by level, making it suitable for height calculation.",
+      "The key is to correctly identify which nodes to add to the next level's queue based on the special leaf property.",
+      "The height is incremented for each level processed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

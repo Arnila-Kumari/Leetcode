@@ -1,0 +1,32 @@
+{
+  "problem_name": "buddy-strings",
+  "data_structures": [
+    [
+      "list (to store differences)",
+      "set (to check for duplicate characters)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "String comparison and character difference tracking"
+  ],
+  "problem_summary_simple": "Check if two strings can become equal by swapping exactly two characters in one string.",
+  "problem_summary_technical": "Compares strings character by character, identifying differences. Returns true if exactly two differences exist and are swappable, or if there are duplicate characters and no differences.",
+  "time_complexity": [
+    "O(N) where N is the length of the strings"
+  ],
+  "space_complexity": [
+    "O(1) (or O(alphabet size) if considering the set for duplicates)"
+  ],
+  "key_insights": [
+    [
+      "If strings have different lengths, they can never be buddy strings.",
+      "If strings are identical, a swap is only valid if there are duplicate characters in the string.",
+      "If strings differ, there must be exactly two differing characters, and they must be swappable to match."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

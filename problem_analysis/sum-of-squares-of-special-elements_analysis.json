@@ -1,0 +1,31 @@
+{
+  "problem_name": "sum-of-squares-of-special-elements",
+  "data_structures": [
+    [
+      "list of integers"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through divisors of the array length 'n' to find special indices, then sum their squares."
+  ],
+  "problem_summary_simple": "Sum the squares of elements at indices that divide the array's length.",
+  "problem_summary_technical": "For a 1-indexed array nums of length n, sum nums[i]^2 where i divides n.",
+  "time_complexity": [
+    "O(sqrt(n))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem defines 'special' elements based on index divisibility.",
+      "Iterating up to the square root of 'n' efficiently finds all divisors.",
+      "Handle the case where a divisor 'i' and 'n/i' are the same to avoid double counting."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

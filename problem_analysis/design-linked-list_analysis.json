@@ -1,0 +1,32 @@
+{
+  "problem_name": "design-linked-list",
+  "data_structures": [
+    [
+      "Node class",
+      "Doubly Linked List"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Implement a doubly linked list with sentinel head and tail nodes for efficient edge case handling."
+  ],
+  "problem_summary_simple": "Design and implement a doubly linked list with common operations.",
+  "problem_summary_technical": "Create a MyLinkedList class using a doubly linked list with sentinel nodes, optimizing add/delete operations by traversing from the nearest end.",
+  "time_complexity": [
+    "O(n) for get, addAtIndex, deleteAtIndex; O(1) for addAtHead, addAtTail"
+  ],
+  "space_complexity": [
+    "O(n) for storing n nodes"
+  ],
+  "key_insights": [
+    [
+      "Sentinel nodes (head and tail) simplify boundary conditions for insertions and deletions.",
+      "Traversing from the nearest end (head or tail) optimizes `get`, `addAtIndex`, and `deleteAtIndex` to O(n/2) which is O(n).",
+      "Maintaining a `__size` variable is crucial for validating indices and optimizing traversal decisions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:03",
+  "batch_processed": true,
+  "batch_size": 4
+}

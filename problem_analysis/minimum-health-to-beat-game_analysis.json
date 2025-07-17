@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-health-to-beat-game",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach to minimize health loss by using armor optimally."
+  ],
+  "problem_summary_simple": "Calculate the minimum starting health needed to complete game levels, considering armor can be used once.",
+  "problem_summary_technical": "Determine minimum health by summing all damage, subtracting the maximum damage mitigated by armor (capped by armor value), and adding 1.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The armor should be used on the level with the maximum damage to maximize its benefit.",
+      "The total health needed is the sum of all damage, minus the damage saved by armor, plus one.",
+      "The armor's effectiveness is capped by its value; it can't negate more damage than it provides."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:57:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

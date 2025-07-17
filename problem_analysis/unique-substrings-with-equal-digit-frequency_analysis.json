@@ -1,0 +1,33 @@
+{
+  "problem_name": "unique-substrings-with-equal-digit-frequency",
+  "data_structures": [
+    [
+      "set",
+      "collections.Counter",
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through all substrings, count digit frequencies, use rolling hash for uniqueness."
+  ],
+  "problem_summary_simple": "Count unique substrings where all digits appear the same number of times.",
+  "problem_summary_technical": "Uses rolling hash to identify unique substrings satisfying equal digit frequency criteria by iterating through all possible start and end points.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to check every possible substring.",
+      "A rolling hash is crucial for efficiently storing and comparing unique substrings.",
+      "The condition `len(cnt)*max_cnt == j-i+1` efficiently checks for equal digit frequency."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

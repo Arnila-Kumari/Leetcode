@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-increasing-triplet-value",
+  "data_structures": [
+    [
+      "SortedList",
+      "list"
+    ],
+    [
+      "SortedList",
+      "SortedList"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Use SortedList to maintain left elements and precompute right maximums to find triplet efficiently.",
+    "Use SortedList for both left and right elements, removing elements as we iterate."
+  ],
+  "problem_summary_simple": "Find the maximum value of (nums[i] - nums[j] + nums[k]) for an increasing triplet (i < j < k).",
+  "problem_summary_technical": "Iterate through potential middle elements `j`, using SortedLists to find min `nums[i]` and max `nums[k]` efficiently.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to fix the middle element `nums[j]` and find the smallest `nums[i]` to its left and largest `nums[k]` to its right.",
+      "SortedList provides efficient `O(log n)` insertion and lookup for finding `nums[i]` and `nums[k]`.",
+      "Precomputing right maximums optimizes the search for `nums[k]`."
+    ],
+    [
+      "Maintaining two SortedLists, one for elements to the left and one for elements to the right of the current `nums[j]`, is key.",
+      "Removing elements from the right SortedList as we move `j` ensures we only consider elements to the right.",
+      "The `bisect_left` operation helps find the correct `nums[i]` efficiently."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

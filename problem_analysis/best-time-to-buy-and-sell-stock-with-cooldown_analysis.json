@@ -1,0 +1,31 @@
+{
+  "problem_name": "best-time-to-buy-and-sell-stock-with-cooldown",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with three states: buy, sell, and cooldown."
+  ],
+  "problem_summary_simple": "Maximize stock profit with a one-day cooldown after selling.",
+  "problem_summary_technical": "DP states track max profit holding stock (buy), not holding stock after selling (sell), and not holding stock after cooldown.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The cooldown period introduces a third state, preventing immediate buying after selling.",
+      "The DP states can be optimized to use only two previous states (current and previous day) due to the linear dependency.",
+      "The final answer is the maximum of the 'sell' state (meaning we sold on the last day) and the 'cooldown' state (meaning we didn't hold stock on the last day)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

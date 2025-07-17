@@ -1,0 +1,31 @@
+{
+  "problem_name": "average-waiting-time",
+  "data_structures": [
+    [
+      "float variables (current available time, total wait time)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through customers, track chef's availability, calculate finish time and waiting time for each."
+  ],
+  "problem_summary_simple": "Calculate the average waiting time for customers at a restaurant with one chef.",
+  "problem_summary_technical": "Simulate customer service by tracking chef's availability, calculating order finish times, and summing waiting times.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The chef's availability is determined by the maximum of their current availability and the customer's arrival time.",
+      "The waiting time for a customer is their order's finish time minus their arrival time.",
+      "The problem can be solved greedily by processing customers in arrival order."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

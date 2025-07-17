@@ -1,0 +1,32 @@
+{
+  "problem_name": "unique-word-abbreviation",
+  "data_structures": [
+    [
+      "collections.defaultdict(set)",
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Store word abbreviations in a hashmap, mapping abbreviations to sets of original words."
+  ],
+  "problem_summary_simple": "Check if a word's abbreviation is unique or matches itself in a dictionary.",
+  "problem_summary_technical": "Uses a hashmap to store word abbreviations and their corresponding original words, allowing O(1) lookup for uniqueness checks.",
+  "time_complexity": [
+    "ctor: O(n), lookup: O(1)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The abbreviation logic needs to handle short words (<= 2 chars) as a special case.",
+      "A defaultdict of sets is ideal for storing multiple words that might share the same abbreviation.",
+      "The `isUnique` check simplifies to verifying if the set of words for an abbreviation contains only the input word itself."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

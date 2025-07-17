@@ -1,0 +1,35 @@
+{
+  "problem_name": "find-the-count-of-good-integers",
+  "data_structures": [
+    [
+      "list",
+      "tuple",
+      "set",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Generate palindromes, check divisibility by k, and use frequency counts for uniqueness.",
+    "Combinatorics to count permutations of digits for valid palindromes."
+  ],
+  "problem_summary_simple": "Count numbers whose digits can form a palindrome divisible by k.",
+  "problem_summary_technical": "Iterates through half-palindromes, constructs full palindromes, checks divisibility by k, and uses frequency counts to avoid duplicates.",
+  "time_complexity": [
+    "O(10^((n+1)/2) * n)"
+  ],
+  "space_complexity": [
+    "O(10^((n+1)/2) * n)"
+  ],
+  "key_insights": [
+    [
+      "A number is 'good' if its digit counts allow forming a k-palindromic number.",
+      "The core idea is to construct palindromes and check their properties.",
+      "Frequency counts (as tuples) are used to identify unique digit compositions."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:43:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

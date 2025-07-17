@@ -1,0 +1,46 @@
+{
+  "problem_name": "diameter-of-n-ary-tree",
+  "data_structures": [
+    [
+      "Node",
+      "list",
+      "tuple"
+    ],
+    [
+      "Node",
+      "list",
+      "tuple"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS using a stack to simulate recursion",
+    "Recursive DFS to calculate diameter and depth"
+  ],
+  "problem_summary_simple": "Find the longest path between any two nodes in an N-ary tree.",
+  "problem_summary_technical": "Calculate the longest path in an N-ary tree by finding the max of (depth of two deepest children + 2) at each node.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The diameter can pass through the root or be entirely within a subtree.",
+      "The longest path through a node is the sum of the depths of its two deepest children plus two edges.",
+      "Iterative DFS requires careful state management for multiple children."
+    ],
+    [
+      "A recursive DFS is natural for N-ary trees.",
+      "The diameter at a node is the max of diameters in its children's subtrees or the path through the node.",
+      "The function returns both the diameter and the maximum depth of the subtree."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

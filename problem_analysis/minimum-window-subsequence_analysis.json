@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-window-subsequence",
+  "data_structures": [
+    [
+      "2D array (lookup table)",
+      "array"
+    ],
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Precomputing next character occurrences using a lookup table and then iterating through s1.",
+    "Dynamic programming to find the start index of s2 in s1 for each character of s1."
+  ],
+  "problem_summary_simple": "Find the shortest substring of s1 that contains s2 as a subsequence.",
+  "problem_summary_technical": "Precomputes next character positions in s1 to efficiently find subsequence matches and minimum window.",
+  "time_complexity": [
+    "O(s * t)",
+    "O(s * t)"
+  ],
+  "space_complexity": [
+    "O(s)",
+    "O(s)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to efficiently find the next occurrence of a character from s2 within s1.",
+      "Pre-calculating the next position of each character in s1 for every index of s1 significantly speeds up the search.",
+      "This allows for a linear scan through s1 to find potential start points and then quickly determine the end of the subsequence match."
+    ],
+    [
+      "A DP approach can track the earliest starting index in s1 for a prefix of s2.",
+      "dp[i][j] could represent the starting index in s1 for the first i characters of s2 ending at index j of s1.",
+      "This DP formulation helps in systematically building up solutions for longer prefixes of s2."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "optimize-water-distribution-in-a-village",
+  "data_structures": [
+    [
+      "UnionFind",
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Model the problem as a Minimum Spanning Tree (MST) problem. Create a virtual node for wells and connect it to each house with the well cost. Then, run Kruskal's algorithm."
+  ],
+  "problem_summary_simple": "Find the cheapest way to supply water to all houses by building wells or laying pipes.",
+  "problem_summary_technical": "Transform into an MST problem by adding a virtual node for wells. Use Kruskal's algorithm with Union-Find to find the minimum cost to connect all houses.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding an MST on a graph where houses are nodes.",
+      "Building a well in a house is equivalent to connecting that house to a virtual 'water source' node.",
+      "Kruskal's algorithm is suitable for finding the MST given the edge weights (pipe costs and well costs)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

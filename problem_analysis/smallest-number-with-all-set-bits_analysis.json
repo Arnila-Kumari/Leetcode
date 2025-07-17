@@ -1,0 +1,31 @@
+{
+  "problem_name": "smallest-number-with-all-set-bits",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Calculate the smallest number with all set bits by finding the bit length of n and creating a mask of that length."
+  ],
+  "problem_summary_simple": "Find the smallest number greater than or equal to n that has only '1's in its binary representation.",
+  "problem_summary_technical": "Determine the number of bits required for `n` (`n.bit_length()`). Construct a number with that many set bits using `(1 << bit_length) - 1`.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A number with all set bits is of the form `2^k - 1`.",
+      "The smallest such number greater than or equal to `n` will have at least as many bits as `n`.",
+      "The `bit_length()` method efficiently gives us the number of bits needed for `n`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

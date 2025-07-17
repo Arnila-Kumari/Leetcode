@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-alternating-subarray",
+  "data_structures": [
+    [
+      "array",
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array, maintaining a current alternating subarray length and updating the maximum found."
+  ],
+  "problem_summary_simple": "Find the longest subarray where elements alternate by +1 and -1, starting with +1.",
+  "problem_summary_technical": "Iterates through the array, tracking the current length of an alternating subarray. If the pattern breaks, it resets or starts a new potential subarray.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The definition of an alternating subarray is crucial: `s[i+1] - s[i]` must alternate between 1 and -1.",
+      "A variable `l` can track the current length of the alternating subarray. It's initialized to -1 (or 0) and incremented when the pattern continues.",
+      "When the pattern breaks, `l` is reset based on whether the next pair starts a new alternating sequence (length 2) or not."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

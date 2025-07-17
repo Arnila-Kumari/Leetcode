@@ -1,0 +1,42 @@
+{
+  "problem_name": "min-max-game",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "In-place simulation of the min-max game process.",
+    "Simulation using a new list in each iteration."
+  ],
+  "problem_summary_simple": "Repeatedly apply min/max operations on pairs of numbers until one remains.",
+  "problem_summary_technical": "Apply alternating min/max operations on adjacent pairs, reducing array size by half each step.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem describes a recursive process that can be simulated iteratively.",
+      "The array length is always a power of 2, ensuring clean halving.",
+      "The in-place solution is more space-efficient by overwriting the original array."
+    ],
+    [
+      "The core logic involves iterating through the array, applying min for even indices and max for odd indices.",
+      "A new array is created in each step to store the results of the current round.",
+      "The process continues until only one element remains."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

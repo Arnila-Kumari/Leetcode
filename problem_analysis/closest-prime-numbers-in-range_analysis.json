@@ -1,0 +1,41 @@
+{
+  "problem_name": "closest-prime-numbers-in-range",
+  "data_structures": [
+    [
+      "segment tree",
+      "list",
+      "sieve of Eratosthenes"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Sieve of Eratosthenes for precomputation, Segment Tree for range queries on prime differences.",
+    "Sieve of Eratosthenes for precomputation, binary search on prime list for range queries."
+  ],
+  "problem_summary_simple": "Find two prime numbers in a range with the minimum difference, prioritizing the smallest first prime.",
+  "problem_summary_technical": "Precomputes primes using Sieve, then uses a Segment Tree to find the minimum difference between adjacent primes within the query range.",
+  "time_complexity": [
+    "precompute: O(MAX_N * log(log MAX_N)), runtime: O(log(number of primes))",
+    "precompute: O(MAX_N * log(log MAX_N)), runtime: O(log(number of primes))"
+  ],
+  "space_complexity": [
+    "O(MAX_N)",
+    "O(MAX_N)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding the minimum gap between primes within a given range.",
+      "Precomputing primes up to the maximum limit is essential.",
+      "A Segment Tree is an efficient data structure for range minimum queries, here applied to prime differences."
+    ],
+    [
+      "An alternative to the Segment Tree is to directly use binary search on the precomputed list of primes.",
+      "This involves finding the indices of the `left` and `right` bounds in the prime list and then iterating through adjacent primes.",
+      "The Segment Tree approach is more generalized for range queries but might be overkill if only adjacent prime differences are needed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

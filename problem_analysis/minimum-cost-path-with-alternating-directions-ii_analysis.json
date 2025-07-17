@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-cost-path-with-alternating-directions-ii",
+  "data_structures": [
+    [
+      "2D array",
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming on the grid, considering waiting costs.",
+    "Space-optimized dynamic programming using a 1D array."
+  ],
+  "problem_summary_simple": "Find the minimum cost path in a grid with alternating moves and waiting costs.",
+  "problem_summary_technical": "DP approach where dp[i][j] is min cost to reach (i,j). Transitions consider moves and waits.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The state needs to capture the minimum cost to reach a cell.",
+      "Transitions depend on the previous cell and whether it was a move or a wait.",
+      "The problem can be solved by iterating through the grid and calculating minimum costs."
+    ],
+    [
+      "The DP state only depends on the previous row and the current row's previous column.",
+      "This allows for space optimization by using only a 1D DP array.",
+      "Careful initialization and boundary condition handling are important."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

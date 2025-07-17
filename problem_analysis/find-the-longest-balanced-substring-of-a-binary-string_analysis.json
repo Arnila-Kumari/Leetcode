@@ -1,0 +1,38 @@
+{
+  "problem_name": "find-the-longest-balanced-substring-of-a-binary-string",
+  "data_structures": [
+    [
+      "string manipulation"
+    ],
+    [
+      "array",
+      "integer variables"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Two pointers to expand around potential centers of balanced substrings.",
+    "Sliding window with count tracking for zeros and ones."
+  ],
+  "problem_summary_simple": "Find the longest substring with equal numbers of 0s and 1s, where all 0s come before all 1s.",
+  "problem_summary_technical": "Two-pointer approach expands from potential centers. An alternative uses counts of consecutive 0s and 1s to find the longest balanced substring.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A balanced substring must have the form '0...01...1' with an equal count of 0s and 1s.",
+      "The first solution iterates through each character as a potential start of a '0' block and expands outwards to find matching '1's.",
+      "The second solution efficiently tracks consecutive counts of '0's and '1's, using previous counts to determine the longest balanced substring ending at the current position."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

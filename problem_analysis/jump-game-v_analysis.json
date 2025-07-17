@@ -1,0 +1,56 @@
+{
+  "problem_name": "jump-game-v",
+  "data_structures": [
+    [
+      "collections.deque",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ],
+    [
+      "SegmentTree",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Top-down DP with monotonic queue for finding valid jumps",
+    "Bottom-up DP with monotonic stack for finding valid jumps",
+    "Bottom-up DP with Segment Tree for efficient range maximum queries"
+  ],
+  "problem_summary_simple": "Find the maximum number of indices visited by jumping between indices with smaller values within a distance 'd'.",
+  "problem_summary_technical": "Dynamic programming where DP state is max jumps from an index. Uses monotonic structures (queue/stack) or Segment Tree to find valid previous states.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem has optimal substructure and overlapping subproblems, suitable for DP.",
+      "The constraint `arr[i] > arr[j]` and the intermediate elements being smaller suggests using monotonic structures to efficiently find valid jumps.",
+      "Sorting by value allows processing in an order that ensures DP states are computed before they are needed."
+    ],
+    [
+      "The monotonic queue/stack helps identify the nearest valid previous jump candidates within distance 'd' that satisfy the value condition.",
+      "A Segment Tree can optimize the query for the maximum DP value within the valid jump range.",
+      "The key is to efficiently find `max(dp[j])` for valid `j` such that `i-d <= j < i` and `arr[i] < arr[j]`."
+    ],
+    [
+      "The condition `arr[i] > arr[j] and arr[i] > arr[k] for all indices k between i and j` is crucial and simplifies to finding the nearest smaller element to the left/right within distance `d`.",
+      "The DP state `dp[i]` represents the maximum number of visited indices starting from index `i`.",
+      "The transitions involve looking at valid previous indices `j` and taking `dp[i] = 1 + max(dp[j])`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:47:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

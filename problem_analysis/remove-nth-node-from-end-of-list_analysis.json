@@ -1,0 +1,32 @@
+{
+  "problem_name": "remove-nth-node-from-end-of-list",
+  "data_structures": [
+    [
+      "Linked List",
+      "Dummy Node"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Two Pointers (Fast and Slow): Use a fast pointer to advance 'n' steps ahead, then move both pointers until the fast pointer reaches the end."
+  ],
+  "problem_summary_simple": "Remove the nth node from the end of a singly linked list and return its head.",
+  "problem_summary_technical": "Employ two pointers, one 'fast' and one 'slow'. Advance 'fast' by 'n' nodes, then move both simultaneously. The 'slow' pointer will be at the node before the one to be removed.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The 'dummy' node simplifies edge cases, especially removing the head of the list.",
+      "The gap of 'n' nodes between the fast and slow pointers is key to identifying the nth node from the end.",
+      "The slow pointer stops at the node *before* the one to be removed, allowing for easy deletion."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

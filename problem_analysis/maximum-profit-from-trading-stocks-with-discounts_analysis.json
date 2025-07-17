@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-profit-from-trading-stocks-with-discounts",
+  "data_structures": [
+    [
+      "adjacency list",
+      "list of dictionaries (DP tables)"
+    ],
+    [
+      "adjacency list",
+      "list of dictionaries (DP tables)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Tree DP with iterative DFS and state compression",
+    "Tree DP with recursive DFS and state compression"
+  ],
+  "problem_summary_simple": "Maximize stock trading profit with discounts based on hierarchy and budget.",
+  "problem_summary_technical": "Tree DP approach where each node computes max profit for different budget allocations and discount usages, merging results from children.",
+  "time_complexity": [
+    "O(n * budget^2)",
+    "O(n * budget^2)"
+  ],
+  "space_complexity": [
+    "O(n + budget)",
+    "O(n + budget)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a Tree DP problem because of the hierarchical structure.",
+      "Each node's DP state needs to capture the maximum profit for a given budget, considering whether the employee uses a discount (if available).",
+      "The iterative DFS approach uses a stack to manage the traversal and DP table merging."
+    ],
+    [
+      "The DP state `dp[i][j]` for a node `u` represents the maximum profit achievable with budget `j`, where `i` indicates if the discount is applied (0 for no discount, 1 for discount).",
+      "The merging step involves combining DP tables of children with the parent's decision (buy with or without discount).",
+      "The base case is a leaf node, and the results are propagated upwards."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:54:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

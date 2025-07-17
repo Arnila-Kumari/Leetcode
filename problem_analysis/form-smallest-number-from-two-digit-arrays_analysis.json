@@ -1,0 +1,33 @@
+{
+  "problem_name": "form-smallest-number-from-two-digit-arrays",
+  "data_structures": [
+    [
+      "set",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash set intersection to find common digits, then construct smallest number."
+  ],
+  "problem_summary_simple": "Find the smallest number using at least one digit from each of two unique digit arrays.",
+  "problem_summary_technical": "Check for common digits; if none, form the smallest two-digit number from the minimums of each array.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "The most efficient way to find common elements is by using hash sets.",
+      "If common digits exist, the smallest common digit forms the smallest single-digit number.",
+      "If no common digits, the smallest number is formed by taking the minimum of each array and creating a two-digit number with the smaller digit in the tens place."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

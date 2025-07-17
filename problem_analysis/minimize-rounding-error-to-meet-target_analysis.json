@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimize-rounding-error-to-meet-target",
+  "data_structures": [
+    [
+      "list",
+      "float",
+      "random"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "QuickSelect (kthElement) to find the pivot for rounding errors, then calculate total error."
+  ],
+  "problem_summary_simple": "Round numbers to meet a target sum while minimizing the total rounding error.",
+  "problem_summary_technical": "Uses QuickSelect on rounding errors to determine which fractional parts to round up to meet target sum, minimizing total absolute difference.",
+  "time_complexity": [
+    "O(n) on average"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as deciding which numbers to round up (ceil) and which to round down (floor).",
+      "The total sum of floors provides a lower bound, and the total sum of ceils provides an upper bound for the target.",
+      "The difference between ceil and floor for a number `p` is `p - floor(p)` if rounded up, and `floor(p) - p` if rounded down. The error is `p - floor(p)` for rounding up and `0` for rounding down. The key is to select `k` numbers to round up to minimize the total error."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

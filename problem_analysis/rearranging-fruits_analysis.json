@@ -1,0 +1,33 @@
+{
+  "problem_name": "rearranging-fruits",
+  "data_structures": [
+    [
+      "Counter (hash map)",
+      "list",
+      "random number generator"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting, greedy swapping, and quickselect (nth_element) to find optimal swap costs."
+  ],
+  "problem_summary_simple": "Find the minimum cost to make two fruit baskets equal by swapping fruits, with swap cost being the minimum of swapped fruits.",
+  "problem_summary_technical": "Count fruit frequencies, identify mismatches, and use quickselect to find the cheapest swaps for balancing baskets.",
+  "time_complexity": [
+    "O(n) on average"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as balancing the counts of each fruit across the two baskets.",
+      "Any fruit that appears an odd number of times in the combined count of both baskets makes the task impossible.",
+      "The cheapest way to resolve mismatches is to swap the smallest differing fruits, and quickselect helps find these efficiently."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:34:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "spiral-matrix",
+  "data_structures": [
+    [
+      "array",
+      "variables for boundaries"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Boundary traversal (simulating spiral movement)"
+  ],
+  "problem_summary_simple": "Traverse a matrix in a spiral order, from outermost layer inwards.",
+  "problem_summary_technical": "Use four boundary pointers (left, right, top, bottom) to simulate the spiral traversal, shrinking the boundaries after each layer.",
+  "time_complexity": [
+    "O(M * N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to simulate the movement of a pointer along the matrix boundaries.",
+      "Maintain four variables representing the current boundaries of the unvisited part of the matrix.",
+      "After traversing one side (e.g., top row), shrink the corresponding boundary (e.g., increment top) and repeat for other sides."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

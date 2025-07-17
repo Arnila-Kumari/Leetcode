@@ -1,0 +1,33 @@
+{
+  "problem_name": "bitwise-ors-of-subarrays",
+  "data_structures": [
+    [
+      "set",
+      "set"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Maintain a set of current OR values and update it with new ORs from each element.",
+    "Iterate through subarrays, compute OR, and store distinct values in a set."
+  ],
+  "problem_summary_simple": "Count the number of unique bitwise OR values from all contiguous subarrays.",
+  "problem_summary_technical": "Uses dynamic programming with sets to efficiently track distinct bitwise ORs of all subarrays.",
+  "time_complexity": [
+    "O(n * log(max_val))"
+  ],
+  "space_complexity": [
+    "O(n * log(max_val))"
+  ],
+  "key_insights": [
+    [
+      "The number of distinct OR values for subarrays ending at a given index is limited (at most 32).",
+      "This is because ORing with a new number can only set more bits, and there are a finite number of bits.",
+      "Using a set efficiently handles the distinctness requirement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

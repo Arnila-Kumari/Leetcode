@@ -1,0 +1,55 @@
+{
+  "problem_name": "next-greater-numerically-balanced-number",
+  "data_structures": [
+    [
+      "list",
+      "set"
+    ],
+    [
+      "list"
+    ],
+    [
+      "list",
+      "tuple"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Precomputed candidates and binary search",
+    "Generate permutations and find next lexicographically",
+    "Generate all permutations and find next lexicographically"
+  ],
+  "problem_summary_simple": "Find the smallest numerically balanced number strictly greater than a given number n.",
+  "problem_summary_technical": "Generate or use precomputed numerically balanced numbers and find the smallest one greater than n using binary search or permutation logic.",
+  "time_complexity": [
+    "O(1)",
+    "O(L * C)",
+    "O(L * C)"
+  ],
+  "space_complexity": [
+    "O(C)",
+    "O(L)",
+    "O(L)"
+  ],
+  "key_insights": [
+    [
+      "The number of numerically balanced numbers is small and can be precomputed.",
+      "Binary search on precomputed candidates is highly efficient.",
+      "The constraints on n (up to 10^6) suggest a solution that doesn't involve iterating through all numbers."
+    ],
+    [
+      "The core idea is to find the next lexicographically greater permutation of digits that form a balanced number.",
+      "A custom next_permutation function is needed to handle distinct permutations.",
+      "Iterating through balanced numbers of increasing length and then their permutations is a systematic approach."
+    ],
+    [
+      "Similar to Solution 2, but uses `itertools.permutations` which generates all permutations, not just distinct ones.",
+      "This can lead to redundant checks but is conceptually simpler if distinct permutations are not explicitly handled.",
+      "The precomputed list of balanced numbers is crucial for efficiency."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

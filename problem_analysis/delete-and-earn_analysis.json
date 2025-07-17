@@ -1,0 +1,32 @@
+{
+  "problem_name": "delete-and-earn",
+  "data_structures": [
+    [
+      "list",
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "dynamic programming with house robber pattern"
+  ],
+  "problem_summary_simple": "Maximize points by deleting numbers, removing adjacent ones, and summing points.",
+  "problem_summary_technical": "Transform the problem into a House Robber variant by summing points for each number and applying DP.",
+  "time_complexity": [
+    "O(n + max_val)"
+  ],
+  "space_complexity": [
+    "O(max_val)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be mapped to the 'House Robber' problem.",
+      "First, aggregate points for each number. Then, apply DP to choose non-adjacent numbers (in terms of value).",
+      "The state `dp[i]` represents the maximum points earned considering numbers up to `i`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

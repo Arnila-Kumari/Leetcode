@@ -1,0 +1,40 @@
+{
+  "problem_name": "dice-roll-simulation",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with state compression",
+    "Dynamic programming with state compression"
+  ],
+  "problem_summary_simple": "Count valid dice roll sequences of length n with constraints on consecutive rolls.",
+  "problem_summary_technical": "DP state: dp[i][j] = number of sequences of length i ending with j consecutive rolls of the same number.",
+  "time_complexity": [
+    "O(n * m)",
+    "O(n * m)"
+  ],
+  "space_complexity": [
+    "O(m)",
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using dynamic programming where the state depends on the previous roll and the number of consecutive rolls.",
+      "The DP state can be optimized by only keeping track of the counts for the previous roll.",
+      "The modulo operation is crucial to prevent integer overflow."
+    ],
+    [
+      "The DP state can be defined as dp[i][j] representing the number of ways to roll i dice such that the last roll was a specific number and it was the j-th consecutive occurrence of that number.",
+      "Transitions involve considering all possible previous rolls and their consecutive counts.",
+      "The base case is for n=1, where each face has 1 way."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

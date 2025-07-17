@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-time-to-reach-destination-in-directed-graph",
+  "data_structures": [
+    [
+      "list",
+      "heap"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm adapted for time-dependent edge availability."
+  ],
+  "problem_summary_simple": "Find the minimum time to reach the last node from the first, considering time-windowed edges.",
+  "problem_summary_technical": "Dijkstra's algorithm where edge traversal time depends on current time and edge availability windows.",
+  "time_complexity": [
+    "O(E log V)"
+  ],
+  "space_complexity": [
+    "O(V + E)"
+  ],
+  "key_insights": [
+    [
+      "This is a shortest path problem on a graph with time-dependent edge weights.",
+      "Dijkstra's algorithm is suitable, but the 'distance' is the arrival time.",
+      "The key is to correctly calculate the earliest possible arrival time at a node, considering waiting for edge availability."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

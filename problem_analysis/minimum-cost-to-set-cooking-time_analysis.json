@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-cost-to-set-cooking-time",
+  "data_structures": [
+    [
+      "integer arithmetic",
+      "string conversion"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Simulation with careful calculation of possible minute/second combinations."
+  ],
+  "problem_summary_simple": "Find the cheapest way to input a cooking time into a microwave, considering finger movement and push costs.",
+  "problem_summary_technical": "Simulate inputting target seconds by considering two primary minute/second splits, calculating cost based on startAt, moveCost, and pushCost.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reduced to checking only two main ways to represent the target seconds: (m, s) and (m-1, s+60).",
+      "The cost calculation involves iterating through the digits of the time, accounting for moves and pushes.",
+      "Edge cases like single-digit inputs are handled by the microwave's normalization."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "number-of-ways-to-earn-points",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Knapsack-like DP: dp[i] stores ways to get i points. Iterate through question types and update dp.",
+    "Knapsack DP with state transition: dp[i][j] ways to get j points using first i types. Optimized to O(target) space."
+  ],
+  "problem_summary_simple": "Find the number of ways to achieve a target score by answering questions of different types with given counts and points.",
+  "problem_summary_technical": "Use dynamic programming where dp[i] is the number of ways to achieve score i. Iterate through question types and update dp states.",
+  "time_complexity": [
+    "O(n * target * max_count), where n is number of types, target is score, max_count is max questions of a type.",
+    "O(n * target * max_count)"
+  ],
+  "space_complexity": [
+    "O(target)",
+    "O(target)"
+  ],
+  "key_insights": [
+    [
+      "This is a variation of the unbounded knapsack or coin change problem, but with limited quantities of each item (question type).",
+      "The DP state `dp[i]` represents the number of ways to achieve a score of `i`.",
+      "When considering a question type `(count, mark)`, we iterate backwards to avoid using the same question multiple times within the same type's update."
+    ],
+    [
+      "The problem can be solved using dynamic programming, similar to the coin change problem.",
+      "The state `dp[i][j]` can represent the number of ways to achieve score `j` using the first `i` question types.",
+      "The transition involves considering how many questions of the current type are used to reach the target score."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

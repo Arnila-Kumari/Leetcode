@@ -1,0 +1,32 @@
+{
+  "problem_name": "snake-in-matrix",
+  "data_structures": [
+    [
+      "hashmap",
+      "tuple"
+    ]
+  ],
+  "category": "Simulation",
+  "algorithm_technique": [
+    "simulation"
+  ],
+  "problem_summary_simple": "Track the snake's final position on an n x n grid after following movement commands.",
+  "problem_summary_technical": "Simulates the snake's movement by maintaining its current row and column, updating them based on commands and grid boundaries.",
+  "time_complexity": [
+    "O(c)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The grid cell indexing `r*n + c` is a common way to map 2D coordinates to 1D.",
+      "A lookup table for command directions simplifies movement logic.",
+      "The problem guarantees the snake stays within bounds, simplifying boundary checks."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

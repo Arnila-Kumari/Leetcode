@@ -1,0 +1,32 @@
+{
+  "problem_name": "balanced-binary-tree",
+  "data_structures": [
+    [
+      "TreeNode",
+      "recursion stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive Depth-First Search (DFS) with height calculation and early exit"
+  ],
+  "problem_summary_simple": "Check if a binary tree is height-balanced, meaning the height difference of left and right subtrees is at most 1 for all nodes.",
+  "problem_summary_technical": "Uses a recursive DFS approach to calculate subtree heights, returning -1 for unbalanced subtrees to prune further checks.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to check balance at each node while calculating its height.",
+      "Returning -1 for unbalanced subtrees allows for efficient pruning of the search.",
+      "The base case for an empty tree is a height of 0."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

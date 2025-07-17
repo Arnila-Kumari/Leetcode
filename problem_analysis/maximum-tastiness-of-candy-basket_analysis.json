@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-tastiness-of-candy-basket",
+  "data_structures": [
+    [
+      "list",
+      "variable"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the possible tastiness values, checking if k candies can be selected with at least that tastiness."
+  ],
+  "problem_summary_simple": "Find the maximum possible minimum difference between any two candy prices in a basket of k candies.",
+  "problem_summary_technical": "Binary search for the maximum tastiness (minimum difference). For a given tastiness, greedily select candies.",
+  "time_complexity": [
+    "O(nlogr)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the maximum minimum difference, which suggests binary search on the answer.",
+      "After sorting the prices, we can greedily select candies to check if a certain tastiness is achievable.",
+      "The `check` function counts how many candies can be selected with a minimum difference of `x`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

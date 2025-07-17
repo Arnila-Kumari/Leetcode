@@ -1,0 +1,33 @@
+{
+  "problem_name": "set-intersection-size-at-least-two",
+  "data_structures": [
+    [
+      "list of lists (intervals)",
+      "list of integers (counts)",
+      "list of lists (sorted intervals)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: Sort intervals by start point, then by end point descending. Iterate and pick points to satisfy intervals."
+  ],
+  "problem_summary_simple": "Find the smallest set of numbers that intersects each interval at least twice.",
+  "problem_summary_technical": "Greedy strategy sorts intervals and iteratively selects points to cover intervals, prioritizing those ending earliest.",
+  "time_complexity": [
+    "O(n log n) due to sorting"
+  ],
+  "space_complexity": [
+    "O(n) for storing sorted intervals and counts"
+  ],
+  "key_insights": [
+    [
+      "Sorting intervals by their start points is crucial for a greedy approach.",
+      "When considering an interval, it's best to pick points that also cover subsequent intervals.",
+      "The greedy choice involves picking the two largest possible numbers within an interval that haven't been picked yet, to maximize their utility for future intervals."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

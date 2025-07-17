@@ -1,0 +1,39 @@
+{
+  "problem_name": "the-number-of-the-smallest-unoccupied-chair",
+  "data_structures": [
+    [
+      "list",
+      "heapq (min-heap)",
+      "dictionary"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Event-driven simulation using a sorted list of arrival/departure events and min-heaps for available/occupied chairs.",
+    "Process arrival and departure events chronologically, managing available chairs with a min-heap."
+  ],
+  "problem_summary_simple": "Find the chair number assigned to a specific friend based on arrival and departure times.",
+  "problem_summary_technical": "Simulates friend arrivals and departures using events, managing chair availability with min-heaps.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Treating arrivals and departures as events and sorting them chronologically is key.",
+      "A min-heap is ideal for tracking available chairs, always providing the smallest unoccupied one.",
+      "Another min-heap can track occupied chairs to efficiently free them up upon departure."
+    ],
+    [
+      "The problem can be modeled as a discrete event simulation.",
+      "A min-heap for available chairs ensures the smallest available chair is always picked.",
+      "When a friend leaves, their chair is returned to the pool of available chairs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

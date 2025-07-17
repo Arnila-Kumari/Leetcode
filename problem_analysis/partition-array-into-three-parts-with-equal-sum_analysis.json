@@ -1,0 +1,31 @@
+{
+  "problem_name": "partition-array-into-three-parts-with-equal-sum",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Calculate total sum, check divisibility by 3, then find two partition points."
+  ],
+  "problem_summary_simple": "Can an array be split into three contiguous parts with equal sums?",
+  "problem_summary_technical": "Partition array into three non-empty contiguous subarrays with equal sums. Check if total sum is divisible by 3.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The total sum of the array must be divisible by 3 for a valid partition.",
+      "Iterate through the array, accumulating sums and counting parts that equal `total_sum / 3`.",
+      "Ensure at least 3 such parts are found to satisfy the non-empty subarray condition."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:04:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

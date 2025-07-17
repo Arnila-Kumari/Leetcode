@@ -1,0 +1,39 @@
+{
+  "problem_name": "numbers-with-same-consecutive-differences",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) or Iterative Construction: Build numbers digit by digit.",
+    "Depth-First Search (DFS) or Recursive Construction: Explore possibilities recursively."
+  ],
+  "problem_summary_simple": "Find all N-digit numbers where consecutive digits differ by K.",
+  "problem_summary_technical": "Iteratively build numbers of length N by appending valid digits based on the previous digit and difference K, avoiding leading zeros.",
+  "time_complexity": [
+    "O(2^N)",
+    "O(2^N)"
+  ],
+  "space_complexity": [
+    "O(2^N)",
+    "O(2^N)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by building numbers digit by digit.",
+      "Start with single digits (1-9) and iteratively append valid next digits (prev_digit + K or prev_digit - K).",
+      "Ensure that the appended digit is within the range [0, 9] and that leading zeros are not introduced."
+    ],
+    [
+      "The iterative approach using a list to store current numbers is efficient.",
+      "The `set` in the list comprehension handles duplicate next digits (e.g., if prev_digit + K == prev_digit - K).",
+      "The condition `x and 0 <= y < 10` correctly filters out invalid next digits and prevents leading zeros for subsequent digits."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

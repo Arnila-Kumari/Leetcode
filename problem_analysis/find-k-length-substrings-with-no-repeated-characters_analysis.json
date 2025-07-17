@@ -1,0 +1,36 @@
+{
+  "problem_name": "find-k-length-substrings-with-no-repeated-characters",
+  "data_structures": [
+    [
+      "string",
+      "set",
+      "integer variables for pointers"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Use a sliding window with a set to track characters within the window. Expand the window and shrink it if duplicates are found."
+  ],
+  "problem_summary_simple": "Count substrings of length k with unique characters.",
+  "problem_summary_technical": "Sliding window with a set to track unique characters. Expand window, shrink if duplicate found, count valid windows of size k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The sliding window approach efficiently checks all substrings of length k.",
+      "A set is used for O(1) average time complexity for checking character existence and removal."
+    ],
+    [
+      "The `while S[j] in lookup` loop ensures that the window always contains unique characters.",
+      "The condition `j-i+1 >= K` correctly identifies when a valid substring of length K has been formed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

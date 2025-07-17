@@ -1,0 +1,48 @@
+{
+  "problem_name": "minimum-reverse-operations",
+  "data_structures": [
+    [
+      "list",
+      "UnionFind",
+      "queue"
+    ],
+    [
+      "list",
+      "SortedList",
+      "queue"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "BFS with Union-Find to track reachable positions and avoid banned ones.",
+    "BFS with SortedList to efficiently find valid positions within the reversal range."
+  ],
+  "problem_summary_simple": "Find minimum reverse operations to move a '1' to each position, avoiding banned spots.",
+  "problem_summary_technical": "BFS from the initial '1' position. Use Union-Find or SortedList to manage reachable, non-banned positions within reversal constraints.",
+  "time_complexity": [
+    "O(n * alpha(n))",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as a shortest path problem on an implicit graph where nodes are positions and edges are valid reversals.",
+      "BFS guarantees finding the minimum number of operations.",
+      "Union-Find is efficient for managing connected components and finding the next available position after a reversal.",
+      "SortedList provides efficient range queries and removals, useful for managing available positions."
+    ],
+    [
+      "This problem can be modeled as a shortest path problem on an implicit graph where nodes are positions and edges are valid reversals.",
+      "BFS guarantees finding the minimum number of operations.",
+      "SortedList provides efficient range queries and removals, useful for managing available positions.",
+      "The parity of the position matters for which SortedList to use."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

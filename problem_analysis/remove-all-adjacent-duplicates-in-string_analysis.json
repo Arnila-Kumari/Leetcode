@@ -1,0 +1,32 @@
+{
+  "problem_name": "remove-all-adjacent-duplicates-in-string",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Using a stack to keep track of characters and pop when a duplicate is found."
+  ],
+  "problem_summary_simple": "Remove all adjacent identical characters from a string until no more removals are possible.",
+  "problem_summary_technical": "Process the string using a stack: push if stack is empty or top differs, pop if top matches current char.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A stack naturally handles the 'last in, first out' nature of adjacent duplicate removal.",
+      "When a character matches the top of the stack, it signifies an adjacent duplicate pair that should be removed.",
+      "The final string is formed by joining the characters remaining in the stack."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

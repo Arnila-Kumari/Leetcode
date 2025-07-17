@@ -1,0 +1,31 @@
+{
+  "problem_name": "insert-greatest-common-divisors-in-linked-list",
+  "data_structures": [
+    [
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterate through the linked list, calculate GCD of adjacent nodes, and insert a new node with the GCD."
+  ],
+  "problem_summary_simple": "Insert GCD of adjacent nodes into a linked list between them.",
+  "problem_summary_technical": "Traverse a linked list, compute GCD of adjacent node values, and insert a new node with the GCD between them.",
+  "time_complexity": [
+    "O(n * log(max_val))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires modifying the linked list in-place by inserting new nodes.",
+      "A helper function for calculating the Greatest Common Divisor (GCD) is essential. The Euclidean algorithm is efficient for this.",
+      "Careful pointer manipulation is needed to correctly insert the new nodes without losing track of the list's structure."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

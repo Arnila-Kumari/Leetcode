@@ -1,0 +1,32 @@
+{
+  "problem_name": "sentence-similarity",
+  "data_structures": [
+    [
+      "set",
+      "tuple"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Check sentence lengths, then use a set for efficient O(1) lookup of similar word pairs."
+  ],
+  "problem_summary_simple": "Determine if two sentences are similar based on word-by-word similarity and equal length.",
+  "problem_summary_technical": "Verify sentence length equality and then check word similarity using a hash set for O(1) pair lookups.",
+  "time_complexity": [
+    "O(n + p)"
+  ],
+  "space_complexity": [
+    "O(p)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to quickly check if a pair of words is considered similar.",
+      "A set of tuples is efficient for storing and querying similar word pairs.",
+      "The problem explicitly states similarity is not transitive, simplifying the check."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

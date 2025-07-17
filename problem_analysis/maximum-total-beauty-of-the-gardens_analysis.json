@@ -1,0 +1,72 @@
+{
+  "problem_name": "maximum-total-beauty-of-the-gardens",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ],
+    [
+      "list",
+      "integer"
+    ],
+    [
+      "list",
+      "integer"
+    ],
+    [
+      "list",
+      "integer"
+    ],
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort flowers, use prefix sums and two pointers to greedily maximize full and partial beauty.",
+    "Sort flowers, use prefix sums and two pointers (reversed) for a similar greedy approach.",
+    "Sort flowers, use prefix sums and binary search to find optimal partial garden minimum.",
+    "Sort flowers, use prefix sums and binary search (reversed) for optimal partial garden minimum."
+  ],
+  "problem_summary_simple": "Maximize garden beauty by planting new flowers to complete gardens and improve incomplete ones.",
+  "problem_summary_technical": "Greedily complete gardens and then use remaining flowers to maximize the minimum in incomplete gardens via sorting and prefix sums.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting is crucial to efficiently decide which gardens to complete and how to distribute flowers.",
+      "The problem can be broken down into deciding how many gardens to make 'full' and then optimizing the 'partial' part.",
+      "Prefix sums help in quickly calculating the cost to make gardens complete."
+    ],
+    [
+      "Iterating from the 'fullest' gardens backwards can simplify the logic for calculating remaining flowers.",
+      "The two-pointer approach efficiently explores the trade-off between full and partial gardens.",
+      "Careful handling of edge cases (e.g., no incomplete gardens) is important."
+    ],
+    [
+      "Binary search can efficiently find the maximum possible minimum value for incomplete gardens given a fixed number of full gardens.",
+      "The `check` function for binary search needs to determine if a certain minimum value is achievable with available flowers.",
+      "The `bisect_left` helps in quickly identifying gardens that are already complete or close to completion."
+    ],
+    [
+      "The reversed binary search (`binary_search_right`) is used to find the largest valid number of incomplete gardens.",
+      "The logic for calculating `total` flowers needed for full gardens needs to be precise.",
+      "The constraint `target-1` for the minimum in incomplete gardens is important."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

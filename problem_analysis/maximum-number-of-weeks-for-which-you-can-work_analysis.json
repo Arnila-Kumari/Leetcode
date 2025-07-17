@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-number-of-weeks-for-which-you-can-work",
+  "data_structures": [
+    [
+      "sum",
+      "max"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: always pick the largest milestone project, then alternate with other projects."
+  ],
+  "problem_summary_simple": "Maximize work weeks by completing milestones, avoiding consecutive work on the same project.",
+  "problem_summary_technical": "The maximum weeks are limited by the sum of all milestones, or by the largest milestone plus the sum of others if the largest is too dominant.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The constraint is not working on the same project for two consecutive weeks.",
+      "If the largest milestone is less than or equal to the sum of all other milestones, all milestones can be completed.",
+      "If the largest milestone is greater than the sum of all other milestones, we can only complete `2 * sum_of_others + 1` weeks."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

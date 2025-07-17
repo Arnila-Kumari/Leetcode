@@ -1,0 +1,33 @@
+{
+  "problem_name": "word-abbreviation",
+  "data_structures": [
+    [
+      "hash map",
+      "set"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Generate initial abbreviations, then iteratively resolve conflicts by increasing prefix length until unique.",
+    "Use a hash map to group words by their abbreviations and a set to track unique prefixes."
+  ],
+  "problem_summary_simple": "Create unique abbreviations for words, shortening them as much as possible while avoiding collisions.",
+  "problem_summary_technical": "Generate abbreviations (first char, count, last char). Resolve collisions by increasing prefix length until each word has a unique abbreviation or remains unchanged.",
+  "time_complexity": [
+    "O(n^2 * l^2)"
+  ],
+  "space_complexity": [
+    "O(n * l)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is handling abbreviation collisions, which requires an iterative refinement process.",
+      "A hash map is crucial for efficiently grouping words that share the same abbreviation.",
+      "The problem can be viewed as finding the shortest unique prefix for each word that results in a valid abbreviation."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:14:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

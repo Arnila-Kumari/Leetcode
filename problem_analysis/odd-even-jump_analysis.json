@@ -1,0 +1,41 @@
+{
+  "problem_name": "odd-even-jump",
+  "data_structures": [
+    [
+      "list",
+      "stack",
+      "dictionary"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with Monotonic Stack: Precompute next valid jumps.",
+    "Greedy Approach with Sorted Indices: Find next greater/smaller elements efficiently."
+  ],
+  "problem_summary_simple": "Count starting indices from which you can reach the end by alternating odd/even jumps.",
+  "problem_summary_technical": "Use DP to determine reachability. Precompute next odd/even jumps using monotonic stacks on sorted indices.",
+  "time_complexity": [
+    "O(N log N)",
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "This problem is best solved with dynamic programming, working backward from the end of the array.",
+      "We need to determine for each index `i`, whether it's possible to reach the end with an odd jump from `i`, and similarly for an even jump.",
+      "The core challenge is efficiently finding the next valid jump index (smallest index `j > i` with `A[j] >= A[i]` for odd, and `A[j] <= A[i]` for even)."
+    ],
+    [
+      "The efficient way to find the next valid jump indices is by using a monotonic stack on sorted versions of the array indices.",
+      "Sort indices by value for odd jumps (ascending) and by value in reverse for even jumps (descending).",
+      "The DP state `odd[i]` and `even[i]` represents whether index `i` can reach the end starting with an odd or even jump, respectively."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

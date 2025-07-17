@@ -1,0 +1,32 @@
+{
+  "problem_name": "prime-subtraction-operation",
+  "data_structures": [
+    [
+      "list",
+      "list of primes"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: For each element, subtract the largest possible prime less than the difference to the previous element."
+  ],
+  "problem_summary_simple": "Determine if an array can be made strictly increasing by subtracting primes from its elements.",
+  "problem_summary_technical": "Iterate through the array, greedily subtracting the largest valid prime to satisfy the strictly increasing condition.",
+  "time_complexity": [
+    "O(N * logP)"
+  ],
+  "space_complexity": [
+    "O(P)"
+  ],
+  "key_insights": [
+    [
+      "A greedy strategy works because we want to make the current number as small as possible while satisfying the condition.",
+      "Pre-computing primes using a sieve is efficient for repeated lookups.",
+      "Binary search (bisect_left) helps find the appropriate prime quickly."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

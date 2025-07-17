@@ -1,0 +1,31 @@
+{
+  "problem_name": "reorder-data-in-log-files",
+  "data_structures": [
+    [
+      "List"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Custom sorting function that prioritizes letter-logs, then sorts them lexicographically by content and identifier, while maintaining digit-log relative order."
+  ],
+  "problem_summary_simple": "Reorder log files: letter logs first (sorted), then digit logs (original order).",
+  "problem_summary_technical": "Implement a custom sort key that distinguishes letter-logs from digit-logs, sorts letter-logs by content then identifier, and preserves digit-log order.",
+  "time_complexity": [
+    "O(nlogn * l)"
+  ],
+  "space_complexity": [
+    "O(l)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires a custom sorting logic based on log type and content.",
+      "Letter-logs need to be sorted lexicographically by their content, and then by their identifier if content is the same.",
+      "Digit-logs must maintain their original relative order, which is achieved by assigning them a lower priority in the sort key."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

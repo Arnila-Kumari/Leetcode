@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-candies-you-can-get-from-boxes",
+  "data_structures": [
+    [
+      "list",
+      "deque",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) or iterative simulation using a queue."
+  ],
+  "problem_summary_simple": "Collect candies from open boxes, using keys and found boxes to open more.",
+  "problem_summary_technical": "Simulate box opening using a queue, processing open boxes, collecting candies, and adding new keys/boxes to the queue.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as a graph traversal where boxes are nodes and keys/contained boxes represent edges.",
+      "A BFS-like approach is suitable to explore reachable boxes and collect candies.",
+      "The `status` array needs to be updated dynamically as keys are found."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,45 @@
+{
+  "problem_name": "maximum-square-area-by-removing-fences-from-a-field",
+  "data_structures": [
+    [
+      "hash table",
+      "list"
+    ],
+    [
+      "hash table",
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate all possible horizontal and vertical distances and find common ones to form squares.",
+    "Optimize by storing smaller set of differences in a hash set for faster lookups."
+  ],
+  "problem_summary_simple": "Find the largest square area by removing horizontal and vertical fences.",
+  "problem_summary_technical": "Maximize side length of a square formed by two horizontal and two vertical fences, considering boundary fences.",
+  "time_complexity": [
+    "O(h^2 + v^2)",
+    "O(h^2 + v^2)"
+  ],
+  "space_complexity": [
+    "O(h^2 + v^2)",
+    "O(min(h, v)^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem boils down to finding the largest common difference between adjacent fences (including boundaries) in both horizontal and vertical directions.",
+      "Using a hash set to store differences from one set of fences allows for efficient lookup of common differences from the other set.",
+      "The modulo operation is important for the final result."
+    ],
+    [
+      "The problem boils down to finding the largest common difference between adjacent fences (including boundaries) in both horizontal and vertical directions.",
+      "Using a hash set to store differences from one set of fences allows for efficient lookup of common differences from the other set.",
+      "The modulo operation is important for the final result."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

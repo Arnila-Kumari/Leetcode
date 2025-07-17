@@ -1,0 +1,33 @@
+{
+  "problem_name": "leaf-similar-trees",
+  "data_structures": [
+    [
+      "binary tree",
+      "generator",
+      "iterator"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "In-order traversal (or pre-order/post-order) to collect leaf node values and compare sequences."
+  ],
+  "problem_summary_simple": "Check if two binary trees have the same sequence of leaf node values.",
+  "problem_summary_technical": "Perform DFS on both trees to collect leaf sequences and compare them for equality.",
+  "time_complexity": [
+    "O(N1 + N2)"
+  ],
+  "space_complexity": [
+    "O(H1 + H2)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to extract the leaf node sequences from both trees.",
+      "A Depth First Search (DFS) is a natural way to traverse the tree and find leaves.",
+      "Using generators or iterators can be memory-efficient for large trees, avoiding storing full lists."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

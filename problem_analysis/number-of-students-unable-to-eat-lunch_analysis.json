@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-students-unable-to-eat-lunch",
+  "data_structures": [
+    [
+      "list",
+      "counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count student preferences and sandwich types. Simulate the process by decrementing counts as students take sandwiches."
+  ],
+  "problem_summary_simple": "Find how many students can't eat lunch because no one wants the top sandwich.",
+  "problem_summary_technical": "Use a counter for student preferences. Iterate through sandwiches, decrementing counts if a student wants the top sandwich.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The order of students in the queue matters, but their preferences can be aggregated.",
+      "The key is to know if the current top sandwich has a matching preference among available students.",
+      "If the count of students wanting the current sandwich is zero, the process stops."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

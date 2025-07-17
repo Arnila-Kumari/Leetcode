@@ -1,0 +1,41 @@
+{
+  "problem_name": "subtract-the-product-and-sum-of-digits-of-an-integer",
+  "data_structures": [
+    [
+      "integer variables"
+    ],
+    [
+      "list of integers",
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterative digit extraction using divmod",
+    "String conversion and functional programming (map, reduce)"
+  ],
+  "problem_summary_simple": "Calculate the difference between the product and sum of an integer's digits.",
+  "problem_summary_technical": "Iterate through digits to compute product and sum, or convert to string and use functional operations.",
+  "time_complexity": [
+    "O(log10(n))",
+    "O(log10(n))"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(log10(n))"
+  ],
+  "key_insights": [
+    [
+      "The number of digits determines the time complexity, which is logarithmic.",
+      "`divmod` is an efficient way to extract digits and update the number simultaneously."
+    ],
+    [
+      "Converting to a string simplifies digit access.",
+      "`map` and `reduce` offer a concise functional approach."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-halve-array-sum",
+  "data_structures": [
+    [
+      "heap (max-heap)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach using a max-heap to repeatedly reduce the largest element until the sum is halved."
+  ],
+  "problem_summary_simple": "Reduce the total sum of the array by at least half by repeatedly halving the largest number.",
+  "problem_summary_technical": "Use a max-heap to efficiently find and reduce the largest element. Track the cumulative reduction until it reaches at least half of the initial sum.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "To reduce the sum most effectively, we should always target the largest number in the array.",
+      "A max-heap is the ideal data structure to efficiently retrieve and update the largest element.",
+      "The process continues until the total reduction is at least half of the original sum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-the-k-beauty-of-a-number",
+  "data_structures": [
+    [
+      "List",
+      "int"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window on the string representation of the number to extract substrings",
+    "Integer arithmetic to maintain the sliding window value efficiently"
+  ],
+  "problem_summary_simple": "Count substrings of length k that divide the original number.",
+  "problem_summary_technical": "Use a sliding window on the number's string representation to extract k-length substrings and check divisibility.",
+  "time_complexity": [
+    "O(logn)"
+  ],
+  "space_complexity": [
+    "O(logn)"
+  ],
+  "key_insights": [
+    [
+      "Converting the number to a string is necessary to easily extract substrings.",
+      "A sliding window approach is efficient for generating all substrings of length k.",
+      "Careful handling of leading zeros and the divisor '0' is crucial."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:17:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

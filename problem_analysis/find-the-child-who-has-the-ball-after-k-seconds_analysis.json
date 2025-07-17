@@ -1,0 +1,38 @@
+{
+  "problem_name": "find-the-child-who-has-the-ball-after-k-seconds",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Modulo arithmetic and pattern recognition"
+  ],
+  "problem_summary_simple": "Determine which child has the ball after k seconds, given a bouncing ball movement pattern.",
+  "problem_summary_technical": "Simulates ball movement with direction changes at ends. Uses modulo arithmetic to find the final position efficiently.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The ball's movement is cyclical with a period of 2 * (n - 1) seconds.",
+      "The direction of movement depends on how many full cycles (n-1 steps) have been completed.",
+      "Modulo operation simplifies finding the position within a cycle."
+    ],
+    [
+      "The movement pattern repeats every 2*(n-1) seconds.",
+      "The position after k seconds can be found by considering k modulo 2*(n-1).",
+      "The direction of movement depends on the quotient of k divided by (n-1)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

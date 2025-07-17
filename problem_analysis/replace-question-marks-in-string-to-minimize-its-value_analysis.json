@@ -1,0 +1,57 @@
+{
+  "problem_name": "replace-question-marks-in-string-to-minimize-its-value",
+  "data_structures": [
+    [
+      "array",
+      "heap",
+      "counting sort"
+    ],
+    [
+      "array",
+      "counting sort"
+    ],
+    [
+      "array",
+      "counting sort"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: assign characters to '?' to minimize counts of preceding identical characters.",
+    "Greedy approach with heap: assign characters to '?' by prioritizing those with the lowest current counts.",
+    "Greedy approach: assign characters to '?' by iterating through available characters and assigning to the one with the minimum current count."
+  ],
+  "problem_summary_simple": "Replace '?' in a string with lowercase letters to minimize the total count of preceding identical characters.",
+  "problem_summary_technical": "Greedily assign characters to '?' to minimize character repetition, prioritizing lexicographically smallest.",
+  "time_complexity": [
+    "O(n + 26 * log(26))",
+    "O(n + n * log(26))",
+    "O(n + n * 26)"
+  ],
+  "space_complexity": [
+    "O(26)",
+    "O(26)",
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "The goal is to distribute characters as evenly as possible to minimize repetitions.",
+      "A greedy strategy of assigning the least frequent character to '?' works.",
+      "Lexicographical order is a tie-breaker when multiple characters yield the same minimum cost."
+    ],
+    [
+      "Using a min-heap to track character counts allows efficient selection of the least frequent character.",
+      "The heap-based approach ensures the greedy choice is always optimal.",
+      "The final assignment of characters to '?' needs to maintain lexicographical order."
+    ],
+    [
+      "A simple linear scan to find the minimum count character for each '?' is also effective.",
+      "This approach avoids the overhead of a heap but might be slightly less efficient for very large alphabets.",
+      "The key is to always pick the character that currently has the fewest occurrences."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

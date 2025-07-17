@@ -1,0 +1,32 @@
+{
+  "problem_name": "calculate-delayed-arrival-time",
+  "data_structures": [
+    [
+      "integer",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Modular arithmetic: Use the modulo operator to handle the 24-hour clock wrap-around."
+  ],
+  "problem_summary_simple": "Calculate the train's arrival time after a given delay, considering a 24-hour clock.",
+  "problem_summary_technical": "Add arrival time and delayed time, then use the modulo 24 operator to find the final arrival time.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core of the problem is handling the 24-hour clock cycle.",
+      "The modulo operator (%) is the perfect tool for this, as `(x + y) % 24` correctly calculates the time after a delay.",
+      "The constraints ensure that `arrivalTime` and `delayedTime` are positive and within reasonable bounds for this calculation."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

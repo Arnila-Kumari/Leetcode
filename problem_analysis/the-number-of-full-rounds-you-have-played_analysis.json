@@ -1,0 +1,39 @@
+{
+  "problem_name": "the-number-of-full-rounds-you-have-played",
+  "data_structures": [
+    [
+      "integer arithmetic"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Convert times to minutes, handle day rollover, and calculate full 15-minute intervals.",
+    "Convert times to minutes, adjust logout time if earlier, and calculate interval difference."
+  ],
+  "problem_summary_simple": "Calculate how many full 15-minute rounds are played between login and logout times.",
+  "problem_summary_technical": "Converts times to minutes, handles day rollovers, and uses integer division to count 15-minute intervals.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Representing time in minutes simplifies calculations.",
+      "Handling the case where logout time is on the next day is crucial.",
+      "The number of full rounds is the difference between the number of rounds started by logout and the number of rounds started by login."
+    ],
+    [
+      "Adjusting logout minutes and hours simplifies the day rollover logic.",
+      "The formula `(start + 15 - 1) // 15` correctly finds the first round start time that is fully contained.",
+      "The formula `finish // 15` finds the last round start time that is fully contained."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:12:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

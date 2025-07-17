@@ -1,0 +1,55 @@
+{
+  "problem_name": "combinations",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Iterative approach using index manipulation",
+    "Iterative approach using stack-like behavior",
+    "Backtracking with recursion"
+  ],
+  "problem_summary_simple": "Generate all unique combinations of k numbers from the range [1, n].",
+  "problem_summary_technical": "Generate combinations of k numbers from 1 to n. Approaches include iterative index manipulation, stack-like iteration, and recursive backtracking.",
+  "time_complexity": [
+    "O(k * C(n, k))",
+    "O(k * C(n, k))",
+    "O(k * C(n, k))"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(k)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The iterative solutions cleverly manipulate indices to generate combinations in lexicographical order.",
+      "The `while True` loop with `break` conditions manages the generation process.",
+      "The `else` clause in the `for` loop handles the case where all combinations have been generated."
+    ],
+    [
+      "The second iterative solution uses `combination.pop()` and `i = combination.pop()+1` to backtrack and explore new branches.",
+      "The condition `len(combination)+(n-i+1) < k` is a pruning step to avoid unnecessary exploration."
+    ],
+    [
+      "The recursive backtracking solution is intuitive for combination problems.",
+      "The `start` parameter ensures that numbers are chosen in increasing order, preventing duplicate combinations.",
+      "The base case `k == 0` signifies a complete combination."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

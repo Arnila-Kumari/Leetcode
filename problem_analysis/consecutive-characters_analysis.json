@@ -1,0 +1,43 @@
+{
+  "problem_name": "consecutive-characters",
+  "data_structures": [
+    [
+      "string"
+    ],
+    [
+      "string",
+      "iterator"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Iterate through the string, maintaining a count of consecutive identical characters.",
+    "Use itertools.groupby to group consecutive identical characters and find the max group length."
+  ],
+  "problem_summary_simple": "Find the longest substring with only one unique character.",
+  "problem_summary_technical": "Track the current consecutive character count, updating the maximum power as we iterate through the string.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n) in worst case for groupby iterator"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding the maximum run of identical characters.",
+      "A single pass with a counter is sufficient for an O(1) space solution.",
+      "Python's `itertools.groupby` offers a concise alternative for this type of grouping problem."
+    ],
+    [
+      "The `itertools.groupby` function is highly efficient for this task.",
+      "It groups consecutive identical elements, and we can then find the length of the longest group.",
+      "This approach is more declarative and often more readable for grouping tasks."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

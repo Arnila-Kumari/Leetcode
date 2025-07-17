@@ -1,0 +1,32 @@
+{
+  "problem_name": "largest-divisible-subset",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with sorting and backtracking to reconstruct the subset."
+  ],
+  "problem_summary_simple": "Find the largest subset where each pair of numbers is divisible by each other.",
+  "problem_summary_technical": "Uses DP to find the longest chain of divisible numbers after sorting, then backtracks to build the subset.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the input array is crucial for the DP approach.",
+      "The DP state `dp[i]` stores the size of the largest divisible subset ending with `nums[i]`.",
+      "A `prev` array is used to reconstruct the actual subset."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

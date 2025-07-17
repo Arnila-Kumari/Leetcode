@@ -1,0 +1,30 @@
+{
+  "problem_name": "rotate-list",
+  "data_structures": [
+    [
+      "Linked List"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Convert the linked list to a circular list, find the new tail, and break the circle."
+  ],
+  "problem_summary_simple": "Rotate a linked list to the right by k places.",
+  "problem_summary_technical": "Modify the linked list structure by making it circular and then breaking it at the correct position.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to handle the rotation amount `k` by taking it modulo the list length `n` to avoid unnecessary full rotations.",
+      "Making the list circular simplifies the process of moving the tail to the head and finding the new tail."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

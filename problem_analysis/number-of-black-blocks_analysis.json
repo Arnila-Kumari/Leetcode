@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-black-blocks",
+  "data_structures": [
+    [
+      "collections.Counter (hash map)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through black cells, and for each black cell, increment counts for all 2x2 blocks it belongs to. Then, count blocks by the number of black cells they contain."
+  ],
+  "problem_summary_simple": "Count 2x2 blocks with 0, 1, 2, 3, or 4 black cells, given the coordinates of black cells.",
+  "problem_summary_technical": "Use a hash map to store counts of black cells per 2x2 block. Iterate through black cells and update counts for relevant blocks.",
+  "time_complexity": [
+    "O(C)"
+  ],
+  "space_complexity": [
+    "O(C)"
+  ],
+  "key_insights": [
+    [
+      "Instead of iterating through all possible 2x2 blocks, it's more efficient to iterate through the given black cell coordinates.",
+      "Each black cell `(x, y)` can be the top-left corner of at most four 2x2 blocks: `(x, y)`, `(x-1, y)`, `(x, y-1)`, `(x-1, y-1)`.",
+      "A `collections.Counter` (or hash map) is ideal for storing the counts of black cells for each unique 2x2 block, keyed by its top-left coordinate."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,35 @@
+{
+  "problem_name": "design-video-sharing-platform",
+  "data_structures": [
+    [
+      "heap",
+      "list",
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a min-heap for available video IDs, lists for video content, likes, dislikes, and views. Manage ID reuse efficiently."
+  ],
+  "problem_summary_simple": "Design a video sharing platform to upload, watch, like, dislike, and manage videos with unique IDs.",
+  "problem_summary_technical": "Implement a video sharing platform using a min-heap for available IDs and lists to store video data, likes, dislikes, and views.",
+  "time_complexity": [
+    "ctor: O(1), upload: O(logN + L), remove: O(logN), like/dislike/getLikesAndDislikes/getViews: O(1), watch: O(L)"
+  ],
+  "space_complexity": [
+    "O(N*L) where N is the number of videos and L is the max video length."
+  ],
+  "key_insights": [
+    [
+      "A min-heap is crucial for efficiently managing and reusing deleted video IDs.",
+      "Separate lists for video content, likes, dislikes, and views allow for direct access via videoId.",
+      "The `watch` operation needs to handle `endMinute` bounds correctly."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

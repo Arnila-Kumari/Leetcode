@@ -1,0 +1,32 @@
+{
+  "problem_name": "moving-stones-until-consecutive-ii",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sort stones, use a sliding window to find the maximum number of stones that can fit in a consecutive block of size `n`. Calculate moves based on stones outside this block."
+  ],
+  "problem_summary_simple": "Find min/max moves to make stones consecutive, allowing moves to any unoccupied spot.",
+  "problem_summary_technical": "Sort stones. Use a sliding window to find the largest group of stones that can be made consecutive. Calculate min/max moves based on stones outside this group.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find the largest possible contiguous subarray of stones that can be made consecutive with minimal moves.",
+      "The minimum moves are determined by the largest gap that needs to be filled, considering the possibility of filling it in two moves if the gap is large.",
+      "The maximum moves are calculated by considering the two extreme cases: moving the smallest stone to be adjacent to the second smallest, or moving the largest stone to be adjacent to the second largest."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

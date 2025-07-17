@@ -1,0 +1,31 @@
+{
+  "problem_name": "total-hamming-distance",
+  "data_structures": [
+    [
+      "integer array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate through each bit position and count zeros/ones."
+  ],
+  "problem_summary_simple": "Calculate the sum of Hamming distances between all pairs of numbers in an array.",
+  "problem_summary_technical": "Calculates total Hamming distance by summing bit differences across all numbers for each bit position.",
+  "time_complexity": [
+    "O(n*k)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Instead of comparing pairs, consider each bit position independently.",
+      "For each bit position, the number of differing bits is count(0) * count(1).",
+      "The maximum number of bits to check is 32 for standard integers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,43 @@
+{
+  "problem_name": "sum-of-k-mirror-numbers",
+  "data_structures": [
+    [
+      "generator",
+      "integer"
+    ],
+    [
+      "generator",
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Number generation based on palindromic structure in a given base, then checking base-10 palindrome",
+    "Number generation based on palindromic structure in base-k, then checking base-10 palindrome"
+  ],
+  "problem_summary_simple": "Find the sum of the n smallest numbers that are palindromic in both base-10 and base-k.",
+  "problem_summary_technical": "Generates palindromic numbers in base-k and checks if they are also palindromic in base-10, summing the first n.",
+  "time_complexity": [
+    "O(10^6)",
+    "O(10^6)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to generate palindromes efficiently in base-k and then verify them in base-10.",
+      "The `mirror` function constructs palindromes by mirroring a prefix, handling odd/even lengths."
+    ],
+    [
+      "This solution generates palindromes by manipulating digits in base-k directly, building them from the center outwards.",
+      "It converts the base-k palindrome to base-10 and checks for base-10 palindromic property."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

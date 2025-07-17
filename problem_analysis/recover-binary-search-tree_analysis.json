@@ -1,0 +1,32 @@
+{
+  "problem_name": "recover-binary-search-tree",
+  "data_structures": [
+    [
+      "TreeNode",
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Morris Traversal for in-order traversal with O(1) space"
+  ],
+  "problem_summary_simple": "Fix a Binary Search Tree where two nodes have been swapped.",
+  "problem_summary_technical": "Employs Morris Traversal to find two swapped nodes in a BST by detecting inorder violations without extra space.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Morris Traversal allows in-order traversal without recursion or a stack, achieving O(1) space.",
+      "The core idea is to find two nodes that violate the BST's in-order property (pre.val > cur.val).",
+      "The first violation identifies the first swapped node (pre), and the second violation identifies the second swapped node (cur)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:34:51",
+  "batch_processed": true,
+  "batch_size": 4
+}

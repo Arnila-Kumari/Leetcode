@@ -1,0 +1,31 @@
+{
+  "problem_name": "toss-strange-coins",
+  "data_structures": [
+    [
+      "list (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to calculate probabilities of achieving a certain number of heads."
+  ],
+  "problem_summary_simple": "Calculate the probability of getting exactly 'target' heads from tossing coins with given probabilities.",
+  "problem_summary_technical": "Use DP where dp[i] is the probability of getting i heads. Update dp for each coin's probability.",
+  "time_complexity": [
+    "O(n * target)"
+  ],
+  "space_complexity": [
+    "O(target)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as a binomial probability distribution.",
+      "The DP state `dp[i]` represents the probability of getting exactly `i` heads after considering some coins.",
+      "The transition `dp[i] = dp[i-1] * p + dp[i] * (1-p)` correctly accounts for the current coin being heads or tails."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

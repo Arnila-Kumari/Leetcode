@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-total-space-wasted-with-k-resizing-operations",
+  "data_structures": [
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with state (index, k_resizes)"
+  ],
+  "problem_summary_simple": "Minimize wasted space in a dynamic array by resizing at most k times.",
+  "problem_summary_technical": "Uses DP to find minimum wasted space, where dp[i][j] is min waste for first i elements with j resizes.",
+  "time_complexity": [
+    "O(k * n^2)"
+  ],
+  "space_complexity": [
+    "O(k * n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as a dynamic programming problem.",
+      "The state `dp[i][j]` represents the minimum space wasted considering the first `i` elements of `nums` using `j` resizing operations.",
+      "The transition involves iterating through all possible previous cut points `p` for the current segment and calculating the wasted space for that segment."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

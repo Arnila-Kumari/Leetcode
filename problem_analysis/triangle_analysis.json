@@ -1,0 +1,32 @@
+{
+  "problem_name": "triangle",
+  "data_structures": [
+    [
+      "list",
+      "float('inf')"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Bottom-up dynamic programming with space optimization"
+  ],
+  "problem_summary_simple": "Find the minimum path sum from the top to the bottom of a triangle.",
+  "problem_summary_technical": "Apply bottom-up DP, optimizing space by using only the previous row's minimum sums.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using dynamic programming.",
+      "The key insight for O(n) space is to realize that to compute the current row's minimums, only the previous row's minimums are needed.",
+      "Padding with infinity simplifies boundary conditions for calculating minimums."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

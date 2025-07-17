@@ -1,0 +1,43 @@
+{
+  "problem_name": "find-smallest-common-element-in-all-rows",
+  "data_structures": [
+    [
+      "set",
+      "set"
+    ],
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iteratively find the intersection of sets of elements from each row.",
+    "Use a counter to tally occurrences of each element across all rows."
+  ],
+  "problem_summary_simple": "Find the smallest number that appears in every sorted row of a matrix.",
+  "problem_summary_technical": "Find the smallest common element by computing row intersections using sets or by counting element frequencies across all sorted rows.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Leveraging sets for intersection is efficient because each row is sorted, allowing for quick set creation.",
+      "The first row's elements form the initial set, and subsequent rows' elements are intersected with it.",
+      "If at any point the intersection becomes empty, there's no common element."
+    ],
+    [
+      "A hash map (Counter) can efficiently track the frequency of each number across all rows.",
+      "As soon as an element's count equals the number of rows, it's a common element. Since rows are sorted, the first such element found is the smallest.",
+      "This approach avoids explicit set operations but requires iterating through all elements if no common element is found early."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

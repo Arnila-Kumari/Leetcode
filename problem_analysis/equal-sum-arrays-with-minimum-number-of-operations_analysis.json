@@ -1,0 +1,32 @@
+{
+  "problem_name": "equal-sum-arrays-with-minimum-number-of-operations",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach by maximizing changes per operation"
+  ],
+  "problem_summary_simple": "Make sums of two arrays equal with minimum operations by changing values (1-6).",
+  "problem_summary_technical": "Greedy strategy to equalize array sums by prioritizing largest possible increments/decrements using frequency counts.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to make the largest possible change in each step.",
+      "Calculate the difference and then greedily apply operations to reduce it.",
+      "Handle the case where sums cannot be made equal by checking array length constraints."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

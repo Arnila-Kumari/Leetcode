@@ -1,0 +1,31 @@
+{
+  "problem_name": "harshad-number",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Digit sum calculation and divisibility check"
+  ],
+  "problem_summary_simple": "Check if a number is divisible by the sum of its digits. Return sum if true, else -1.",
+  "problem_summary_technical": "Calculate the sum of digits of `x` and check if `x` is divisible by this sum.",
+  "time_complexity": [
+    "O(log x)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core of the problem is calculating the sum of digits.",
+      "A simple loop with modulo and division can achieve this.",
+      "The final check is a straightforward divisibility test."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

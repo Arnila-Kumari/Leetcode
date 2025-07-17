@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-peak-element",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary Search"
+  ],
+  "problem_summary_simple": "Find the index of any peak element in an array where neighbors are strictly smaller.",
+  "problem_summary_technical": "Applies binary search by comparing the middle element with its right neighbor to narrow down the search space for a peak.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem guarantees a peak exists due to the implicit -infinity boundaries.",
+      "Binary search works because if nums[mid] < nums[mid+1], a peak must exist to the right.",
+      "If nums[mid] > nums[mid+1], a peak must exist at or to the left of mid."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

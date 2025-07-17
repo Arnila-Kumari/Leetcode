@@ -1,0 +1,31 @@
+{
+  "problem_name": "insufficient-nodes-in-root-to-leaf-paths",
+  "data_structures": [
+    [
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive Depth-First Search with pruning"
+  ],
+  "problem_summary_simple": "Remove nodes from a binary tree if all paths through them to a leaf sum to less than a limit.",
+  "problem_summary_technical": "Recursively traverse the tree, passing down the remaining limit. Prune nodes if their subtrees become empty after recursive calls.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved with a post-order traversal implicitly.",
+      "The limit is adjusted by subtracting the current node's value at each recursive step.",
+      "A node is removed if both its left and right children become None after pruning."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

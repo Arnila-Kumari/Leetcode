@@ -1,0 +1,32 @@
+{
+  "problem_name": "max-pair-sum-in-an-array",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Group numbers by their largest digit and track the two largest for each group."
+  ],
+  "problem_summary_simple": "Find the max sum of two numbers with the same largest digit.",
+  "problem_summary_technical": "Group numbers by their max digit. For each group, maintain the two largest numbers to find the max pair sum.",
+  "time_complexity": [
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by grouping numbers based on their largest digit.",
+      "For each group, we only need to keep track of the two largest numbers to find the maximum pair sum within that group.",
+      "The `max_digit` helper function is crucial for categorizing numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

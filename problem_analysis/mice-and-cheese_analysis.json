@@ -1,0 +1,31 @@
+{
+  "problem_name": "mice-and-cheese",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach with QuickSelect (nth_element) to find optimal cheese assignments."
+  ],
+  "problem_summary_simple": "Maximize mouse cheese rewards by assigning k cheeses to mouse 1.",
+  "problem_summary_technical": "Maximize sum of rewards by assigning k items to mouse 1, using difference array and QuickSelect.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maximize the difference (reward1[i] - reward2[i]) for the k cheeses mouse 1 eats.",
+      "By calculating the difference, we transform the problem into selecting the k largest differences.",
+      "QuickSelect (nth_element) efficiently finds the k-th largest difference in linear time."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "lexicographically-smallest-equivalent-string",
+  "data_structures": [
+    [
+      "UnionFind data structure",
+      "list of characters"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find to group equivalent characters, then map baseStr characters to their group's smallest representative."
+  ],
+  "problem_summary_simple": "Find the lexicographically smallest equivalent string based on character equivalences.",
+  "problem_summary_technical": "Utilize Union-Find to manage equivalence classes, then map baseStr characters to the smallest char in their class.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Union-Find is ideal for managing equivalence relations and efficiently finding connected components (groups of equivalent characters).",
+      "The key is to always union the larger character's set to the smaller character's set to maintain the lexicographically smallest representative.",
+      "After establishing equivalence groups, iterate through baseStr and replace each character with the smallest character in its respective group."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

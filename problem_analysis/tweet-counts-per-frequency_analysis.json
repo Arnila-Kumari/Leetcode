@@ -1,0 +1,57 @@
+{
+  "problem_name": "tweet-counts-per-frequency",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "SkipList"
+    ],
+    [
+      "collections.defaultdict",
+      "list",
+      "bisect module"
+    ],
+    [
+      "collections.defaultdict",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a SkipList for efficient insertion and range queries of timestamps.",
+    "Use a sorted list with bisect for insertion and range counting.",
+    "Use a simple list and linear scan for counting within ranges."
+  ],
+  "problem_summary_simple": "Track tweet counts within specified time intervals and frequencies.",
+  "problem_summary_technical": "Stores tweet timestamps per name. Queries aggregate counts in time buckets defined by frequency, using SkipLists or sorted lists for efficient retrieval.",
+  "time_complexity": [
+    "add: O(log n), query: O(c) where c is count of matching records",
+    "add: O(n), query: O(r log n) where r is size of result",
+    "add: O(1), query: O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "SkipLists provide logarithmic time complexity for add and range queries, suitable for large datasets.",
+      "Sorted lists with `bisect` offer a good balance for insertion and range counting.",
+      "A simple list with linear scan is easiest but less efficient for queries on large datasets."
+    ],
+    [
+      "The problem requires efficient storage and retrieval of time-series data.",
+      "The `getTweetCountsPerFrequency` method involves partitioning the time range and counting within each partition.",
+      "The choice of data structure significantly impacts performance, especially for `recordTweet` and `getTweetCountsPerFrequency`."
+    ],
+    [
+      "The `freq` parameter dictates the size of the time buckets.",
+      "The `endTime` might not align perfectly with a bucket boundary, requiring careful handling of the last bucket.",
+      "The constraints on `endTime - startTime` are relatively small, which can influence the choice of approach."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:13:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

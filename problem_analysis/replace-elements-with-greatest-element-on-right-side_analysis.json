@@ -1,0 +1,31 @@
+{
+  "problem_name": "replace-elements-with-greatest-element-on-right-side",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate from right to left, maintaining the maximum element seen so far."
+  ],
+  "problem_summary_simple": "Replace each array element with the greatest element to its right, and the last element with -1.",
+  "problem_summary_technical": "Iterate array in reverse, tracking max element to the right to replace current element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Processing the array from right to left is crucial for efficiency.",
+      "A single pass is sufficient by keeping track of the maximum element encountered so far.",
+      "The last element is a base case, always replaced by -1."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

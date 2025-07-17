@@ -1,0 +1,31 @@
+{
+  "problem_name": "n-repeated-element-in-size-2n-array",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array and check adjacent elements or elements two positions apart for the repeated element."
+  ],
+  "problem_summary_simple": "Find the element that appears N times in an array of size 2N.",
+  "problem_summary_technical": "Leverages the property that the repeated element must appear adjacently or with one element in between due to its high frequency.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem guarantees that exactly one element is repeated N times in an array of size 2N, with N+1 unique elements.",
+      "The repeated element must appear at least once in any pair of adjacent elements or elements separated by one element.",
+      "This observation allows for a simple O(n) time and O(1) space solution by checking these specific pairs."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

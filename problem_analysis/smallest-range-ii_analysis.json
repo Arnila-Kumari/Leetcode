@@ -1,0 +1,32 @@
+{
+  "problem_name": "smallest-range-ii",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sorting, iterating through partitions, and calculating potential ranges"
+  ],
+  "problem_summary_simple": "Minimize the difference between max and min elements by adding or subtracting k from each element.",
+  "problem_summary_technical": "Sort the array, then iterate through possible split points to find the minimum range after applying +/- k.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "After sorting, any split point divides the array into two groups: one where k is added, and one where k is subtracted.",
+      "The minimum range will occur when the maximum of one group and the minimum of the other are considered.",
+      "The initial range (before any operations) is a baseline for comparison."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

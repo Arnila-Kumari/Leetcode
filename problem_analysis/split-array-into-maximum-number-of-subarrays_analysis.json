@@ -1,0 +1,32 @@
+{
+  "problem_name": "split-array-into-maximum-number-of-subarrays",
+  "data_structures": [
+    [
+      "variable"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: iterate and maintain a running bitwise AND. Reset when AND becomes 0.",
+    "The minimum possible score is 0, achieved by splitting whenever the running AND is 0."
+  ],
+  "problem_summary_simple": "Split an array into subarrays with the minimum possible sum of bitwise AND scores.",
+  "problem_summary_technical": "Greedily split the array whenever the running bitwise AND of a subarray becomes zero to maximize the number of subarrays.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The goal is to minimize the sum of subarray scores, and the minimum possible score is 0.",
+      "A subarray's score is its bitwise AND. The bitwise AND operation can only decrease or stay the same.",
+      "If the bitwise AND of a subarray becomes 0, we can start a new subarray from the next element to potentially achieve a score of 0 again."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:10:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

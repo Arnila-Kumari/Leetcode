@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximize-profit-from-task-assignment",
+  "data_structures": [
+    [
+      "hash map (defaultdict)",
+      "sorted list of tasks"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort tasks by profit descending. Iterate through sorted tasks, assigning to workers with matching skill or using the additional worker if available."
+  ],
+  "problem_summary_simple": "Assign tasks to workers based on skill level to maximize profit, with one worker who can do any task.",
+  "problem_summary_technical": "Greedy approach: sort tasks by profit. Assign to matching skilled workers first, then use the flexible worker for remaining high-profit tasks.",
+  "time_complexity": [
+    "O(n + t log t)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by prioritizing tasks with higher profits.",
+      "Sorting tasks by profit ensures that we consider the most lucrative opportunities first.",
+      "The additional worker acts as a wildcard, allowing us to take any remaining high-profit task if no specific worker is available."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

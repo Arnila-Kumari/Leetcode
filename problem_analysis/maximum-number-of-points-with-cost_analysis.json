@@ -1,0 +1,36 @@
+{
+  "problem_name": "maximum-number-of-points-with-cost",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with prefix and suffix maximum calculations to optimize row transitions"
+  ],
+  "problem_summary_simple": "Maximize points by picking one cell per row, minimizing column distance penalties between rows.",
+  "problem_summary_technical": "DP state represents max points ending at a cell; optimized transitions use prefix/suffix max.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The cost depends on the column difference between adjacent rows.",
+      "DP state `dp[i][j]` can be max points ending at `(i, j)`.",
+      "Optimizing the transition `dp[i][j] = points[i][j] + max(dp[i-1][k] - abs(j-k))` is key."
+    ],
+    [
+      "The transition can be rewritten as `points[i][j] + max(dp[i-1][k] - k) + j` or `points[i][j] + max(dp[i-1][k] + k) - j`.",
+      "Prefix and suffix maximums can compute these `max(dp[i-1][k] +/- k)` terms in O(n).",
+      "This reduces the time complexity from O(m*n^2) to O(m*n)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

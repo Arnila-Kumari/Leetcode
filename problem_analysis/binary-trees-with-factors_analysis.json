@@ -1,0 +1,32 @@
+{
+  "problem_name": "binary-trees-with-factors",
+  "data_structures": [
+    [
+      "list",
+      "dictionary"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with sorting and hash map for factor checking"
+  ],
+  "problem_summary_simple": "Count the number of binary trees where each node's value is the product of its children's values.",
+  "problem_summary_technical": "Uses DP where dp[x] is the count of trees rooted at x. Iterates through sorted array, checking for factors.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is crucial for the DP approach to ensure factors are processed before their multiples.",
+      "A hash map (dp) stores the number of ways to form a tree for each number encountered so far.",
+      "The recurrence relation `dp[A[i]] += dp[A[j]] * dp[A[i] // A[j]]` captures the combinations of children."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

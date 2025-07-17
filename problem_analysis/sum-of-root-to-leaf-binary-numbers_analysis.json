@@ -1,0 +1,33 @@
+{
+  "problem_name": "sum-of-root-to-leaf-binary-numbers",
+  "data_structures": [
+    [
+      "Binary Tree",
+      "Recursion Stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) traversal",
+    "Recursive helper function to build binary numbers"
+  ],
+  "problem_summary_simple": "Sum the binary numbers formed by root-to-leaf paths in a binary tree.",
+  "problem_summary_technical": "Perform a DFS traversal. For each path, build the binary number by shifting and adding node values, summing them up at leaf nodes.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(H)"
+  ],
+  "key_insights": [
+    [
+      "A recursive DFS approach naturally explores all root-to-leaf paths.",
+      "Passing the current binary number down the recursion simplifies state management.",
+      "Modulo arithmetic is used to prevent integer overflow for large sums."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

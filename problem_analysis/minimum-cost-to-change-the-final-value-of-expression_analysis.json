@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-cost-to-change-the-final-value-of-expression",
+  "data_structures": [
+    [
+      "stack",
+      "hashmap"
+    ],
+    [
+      "stack"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Stack-based evaluation with dynamic programming states for min/max cost",
+    "Stack-based evaluation with dynamic programming states for min/max cost"
+  ],
+  "problem_summary_simple": "Find the minimum operations to change a boolean expression's final value.",
+  "problem_summary_technical": "Uses stack-based parsing to evaluate subexpressions, storing min costs to achieve 0 and 1 for each subexpression.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to track the minimum cost to achieve both a '0' and a '1' for each subexpression.",
+      "The operations on '&' and '|' have specific cost implications for achieving '0' and '1'.",
+      "A stack is crucial for handling parentheses and operator precedence."
+    ],
+    [
+      "This solution uses a stack to process the expression, maintaining DP states for each subexpression.",
+      "The DP state `[dp0, dp1, operator]` efficiently captures the minimum cost to achieve 0 and 1.",
+      "The logic correctly handles the cost of changing operators and operands."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

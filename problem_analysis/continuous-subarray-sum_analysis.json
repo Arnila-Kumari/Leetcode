@@ -1,0 +1,31 @@
+{
+  "problem_name": "continuous-subarray-sum",
+  "data_structures": [
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "prefix sum with modulo arithmetic and hashmap"
+  ],
+  "problem_summary_simple": "Find if a subarray of at least length two sums to a multiple of k.",
+  "problem_summary_technical": "Uses prefix sums and modulo k to detect repeating remainders in a hashmap to find subarrays summing to a multiple of k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that if the prefix sum up to index i and the prefix sum up to index j (where i < j) have the same remainder when divided by k, then the sum of the subarray between i+1 and j is a multiple of k.",
+      "A hashmap stores the first occurrence of each remainder to efficiently check for previous occurrences.",
+      "The condition `i - lookup[count] > 1` ensures the subarray length is at least two."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

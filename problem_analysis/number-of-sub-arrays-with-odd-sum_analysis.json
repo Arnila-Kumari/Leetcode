@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-sub-arrays-with-odd-sum",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterate through the array, maintaining prefix sums parity and counts of even/odd prefix sums."
+  ],
+  "problem_summary_simple": "Count subarrays whose elements sum to an odd number.",
+  "problem_summary_technical": "Use prefix sums parity. An odd sum subarray is formed by an odd prefix sum minus an even prefix sum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The parity of a sum is determined by the parity of its elements.",
+      "An odd sum subarray can be formed by (prefix_sum_odd - prefix_sum_even) or (prefix_sum_even - prefix_sum_odd).",
+      "We only need to track the counts of prefix sums that are even or odd."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

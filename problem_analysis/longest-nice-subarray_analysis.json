@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-nice-subarray",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding Window with Bitwise Operations"
+  ],
+  "problem_summary_simple": "Find the longest contiguous subarray where the bitwise AND of any two distinct elements is zero.",
+  "problem_summary_technical": "Uses a sliding window and a bitmask (`curr`) to track the OR of elements in the window, ensuring no overlapping bits.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The condition 'bitwise AND of every pair of elements is 0' means no two numbers in the subarray share a set bit.",
+      "A sliding window approach is efficient. The window expands to the right.",
+      "A bitmask (`curr`) stores the OR of all numbers currently in the window. If `curr & nums[right]` is non-zero, it means `nums[right]` shares a bit with at least one element in the window, so the window's left boundary must be advanced until the conflict is resolved using XOR."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

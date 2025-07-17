@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-cost-to-make-arrays-identical",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort both arrays. Calculate cost of direct element-wise changes. Compare with cost of sorting + element-wise changes."
+  ],
+  "problem_summary_simple": "Find the minimum cost to make two arrays identical using element changes and subarray rearrangements.",
+  "problem_summary_technical": "Compare cost of direct element-wise changes with cost of sorting + element-wise changes, considering rearrangement cost.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The optimal strategy involves either direct element-wise transformation or sorting and then transforming.",
+      "The cost of rearranging subarrays is a fixed cost 'k'.",
+      "Sorting the arrays allows us to match elements optimally if rearrangement is used."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

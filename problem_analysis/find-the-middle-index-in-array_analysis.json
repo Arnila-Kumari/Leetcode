@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-middle-index-in-array",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sum calculation to efficiently find left and right sums."
+  ],
+  "problem_summary_simple": "Find the leftmost index where the sum of elements to its left equals the sum of elements to its right.",
+  "problem_summary_technical": "Iterate through the array, maintaining a running left sum and calculating the right sum using the total sum, to find the middle index.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to efficiently calculate the sum of elements to the left and right of each index.",
+      "Using a prefix sum (or running sum) allows for O(1) calculation of the left sum for any index.",
+      "The right sum can be derived from the total sum of the array and the current index's value and left sum."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

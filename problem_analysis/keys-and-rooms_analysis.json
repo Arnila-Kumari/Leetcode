@@ -1,0 +1,32 @@
+{
+  "problem_name": "keys-and-rooms",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Depth First Search (DFS) or Breadth First Search (BFS) to traverse rooms"
+  ],
+  "problem_summary_simple": "Can you visit all rooms starting from room 0, given keys found in each room?",
+  "problem_summary_technical": "Graph traversal problem where rooms are nodes and keys are directed edges. Use DFS/BFS to check reachability of all nodes.",
+  "time_complexity": [
+    "O(N + E)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as a graph traversal where rooms are nodes and keys are edges.",
+      "A set is efficient for keeping track of visited rooms to avoid cycles and redundant processing.",
+      "The goal is to determine if all nodes in the graph are reachable from the starting node (room 0)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

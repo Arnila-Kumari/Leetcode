@@ -1,0 +1,42 @@
+{
+  "problem_name": "matrix-cells-in-distance-order",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Manhattan distance calculation and sorting",
+    "Spiral traversal based on distance"
+  ],
+  "problem_summary_simple": "Return all matrix cell coordinates sorted by their Manhattan distance from a given center cell.",
+  "problem_summary_technical": "Generate cells by expanding outwards in layers based on Manhattan distance, ensuring valid coordinates are added.",
+  "time_complexity": [
+    "O(R * C * log(R*C))",
+    "O(R * C)"
+  ],
+  "space_complexity": [
+    "O(R * C)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires sorting cells based on Manhattan distance (|r1 - r2| + |c1 - c2|).",
+      "A naive approach would be to calculate the distance for all cells and then sort them.",
+      "An optimized approach generates cells in increasing order of distance, avoiding a full sort.",
+      "The spiral-like generation pattern ensures cells are visited in distance order."
+    ],
+    [
+      "The provided solution cleverly generates cells by expanding outwards in 'diamond' shapes.",
+      "It starts with the center cell (distance 0) and then iterates through increasing distances `d`.",
+      "For each distance `d`, it checks cells at `(r0-d, c0)`, `(r0+d, c0)`, and points along the diagonals `(r0+x, c0 +/- (d - |x|))`.",
+      "Boundary checks (`0 <= r < R` and `0 <= c < C`) are essential to only include valid cells."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

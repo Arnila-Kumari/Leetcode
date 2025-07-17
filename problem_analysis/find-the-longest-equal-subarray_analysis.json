@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-longest-equal-subarray",
+  "data_structures": [
+    [
+      "hash table",
+      "integer variables"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a frequency map to track counts of elements within the window."
+  ],
+  "problem_summary_simple": "Find the longest subarray of equal elements after deleting at most k elements.",
+  "problem_summary_technical": "Uses a sliding window and a frequency map. The window expands, and if the number of elements to delete (window size - max frequency) exceeds k, the window shrinks.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the longest subarray where the count of the most frequent element is `subarray_length - k` or more.",
+      "A sliding window approach is efficient. The window expands to the right, and the frequency map is updated.",
+      "If `window_size - max_frequency > k`, it means we need to delete more than `k` elements to make the subarray equal. Thus, the left pointer of the window must advance, and the frequency map updated."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

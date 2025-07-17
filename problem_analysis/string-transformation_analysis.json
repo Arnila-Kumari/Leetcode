@@ -1,0 +1,46 @@
+{
+  "problem_name": "string-transformation",
+  "data_structures": [
+    [
+      "arrays (for DP states)",
+      "arrays (for KMP prefix function)"
+    ],
+    [
+      "2x2 matrices (for DP states)",
+      "arrays (for KMP prefix function)"
+    ],
+    [
+      "arrays (for DP states)",
+      "arrays (for Z-function)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with KMP for counting shifts, combined with closed-form solution for transitions.",
+    "Matrix exponentiation for DP transitions, combined with KMP for counting shifts.",
+    "Matrix exponentiation for DP transitions, combined with Z-function for counting shifts."
+  ],
+  "problem_summary_simple": "Count ways to transform string s to t using cyclic shifts in exactly k operations.",
+  "problem_summary_technical": "Model as DP: dp[i][0] = ways to get s after i ops, dp[i][1] = ways to get s' (one shift away). Use KMP/Z-func to count shifts.",
+  "time_complexity": [
+    "O(n + log k)",
+    "O(n + log k)",
+    "O(n + log k)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as transitions between states representing whether the current string is equal to 's' or a cyclic shift of 's'.",
+      "KMP's prefix function or Z-function can efficiently count how many cyclic shifts of 's' result in 't'.",
+      "Matrix exponentiation is used to quickly compute the DP states for a large number of operations 'k'."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

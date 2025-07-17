@@ -1,0 +1,44 @@
+{
+  "problem_name": "find-the-power-of-k-size-subarrays-i",
+  "data_structures": [
+    [
+      "array",
+      "two pointers",
+      "sliding window"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Use a sliding window and two pointers to check for consecutive sorted elements.",
+    "Brute-force check each subarray for the consecutive sorted property."
+  ],
+  "problem_summary_simple": "Find the 'power' (max element if consecutive & sorted) of all subarrays of size k.",
+  "problem_summary_technical": "Slide a window of size k. Check if elements within the window are consecutive and sorted.",
+  "time_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The 'power' is the maximum element if the subarray is consecutive and sorted.",
+      "A sliding window approach can efficiently check this property.",
+      "Maintain `left` pointer. If `nums[right] - nums[left] == right - left`, the window is potentially consecutive."
+    ],
+    [
+      "Iterate through all possible start indices `i` for subarrays of size `k`.",
+      "For each subarray `nums[i:i+k]`, check if `nums[j] + 1 == nums[j+1]` for all `j` from `i` to `i+k-2`.",
+      "If the condition holds, the power is `nums[i+k-1]`, otherwise it's -1."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "excel-sheet-column-number",
+  "data_structures": [
+    [
+      "integer",
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Base-26 conversion using character arithmetic"
+  ],
+  "problem_summary_simple": "Convert an Excel column title string (like 'A', 'AA') to its corresponding number.",
+  "problem_summary_technical": "Treats the column title as a base-26 number system, converting characters to their numerical values and summing them with appropriate powers of 26.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is analogous to converting a number from a different base (base-26) to base-10.",
+      "Each character's value is its position in the alphabet (A=1, B=2, ... Z=26).",
+      "The calculation involves multiplying the current result by 26 before adding the new character's value."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

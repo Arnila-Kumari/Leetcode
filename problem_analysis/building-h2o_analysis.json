@@ -1,0 +1,44 @@
+{
+  "problem_name": "building-h2o",
+  "data_structures": [
+    [
+      "Lock",
+      "Integer counters"
+    ],
+    [
+      "Condition variable",
+      "Integer counters"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Synchronization with locks and counters to manage thread counts and release.",
+    "Synchronization with condition variables and counters for thread coordination."
+  ],
+  "problem_summary_simple": "Synchronize hydrogen and oxygen threads to form water molecules (2 H + 1 O).",
+  "problem_summary_technical": "Coordinate threads using locks or condition variables to ensure 2 H and 1 O threads are released together.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is ensuring the correct ratio of H and O threads are released simultaneously.",
+      "A single lock can protect shared counters, and a helper method can manage the release logic.",
+      "The `notifyAll` in the condition variable approach ensures all waiting threads are re-evaluated."
+    ],
+    [
+      "Condition variables are suitable for complex waiting conditions where threads need to be woken up based on state changes.",
+      "The `while` loop for checking conditions before `wait()` is crucial to handle spurious wakeups.",
+      "The logic `(self.__nH+1) - 2*self.__nO > 2` and `2*(self.__nO+1) - self.__nH > 2` ensures that we don't over-request threads."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "reverse-only-letters",
+  "data_structures": [
+    [
+      "String",
+      "Generator/Iterator"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to swap letters from both ends, skipping non-letters."
+  ],
+  "problem_summary_simple": "Reverse only the English letters in a string, keeping non-letters in their original positions.",
+  "problem_summary_technical": "Use two pointers, one from the start and one from the end, to swap English letters while preserving non-letter positions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A two-pointer approach is efficient for in-place reversal.",
+      "Helper function or check to identify English letters is necessary.",
+      "Building a new string or modifying a list of characters is required as strings are immutable."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:19:02",
+  "batch_processed": true,
+  "batch_size": 4
+}

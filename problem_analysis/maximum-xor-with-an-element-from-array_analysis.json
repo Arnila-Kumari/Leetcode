@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-xor-with-an-element-from-array",
+  "data_structures": [
+    [
+      "Trie",
+      "Sorted Array",
+      "List of Tuples"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Trie insertion and query with sorted queries and array"
+  ],
+  "problem_summary_simple": "For each query, find the maximum XOR of a number from the array that is less than or equal to a given limit.",
+  "problem_summary_technical": "Sorts queries by limit, uses a Trie to store numbers <= limit, and queries for max XOR with xi.",
+  "time_complexity": [
+    "O((n + q) * log(max_val) + n log n)"
+  ],
+  "space_complexity": [
+    "O(n * log(max_val))"
+  ],
+  "key_insights": [
+    [
+      "Sorting queries by their `m` (limit) allows for efficient processing.",
+      "As we iterate through sorted queries, we can incrementally add elements from `nums` to the Trie that satisfy the current `m`.",
+      "The Trie stores numbers in a way that allows finding the number that maximizes XOR with `xi` by greedily picking complementary bits."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,40 @@
+{
+  "problem_name": "longest-valid-parentheses",
+  "data_structures": [
+    [
+      "string",
+      "stack",
+      "integer"
+    ],
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Two-pass scan using two counters (left-to-right and right-to-left).",
+    "Stack-based approach to track indices of unmatched opening parentheses."
+  ],
+  "problem_summary_simple": "Find the length of the longest substring of validly matched parentheses.",
+  "problem_summary_technical": "Use a stack to store indices of '('; pop on ')' to find valid pairs. Calculate length based on stack state and last invalid index.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The two-pass approach handles cases where the longest valid substring might not start from the beginning or end at the end of the string.",
+      "The stack-based approach keeps track of the indices of opening parentheses. When a closing parenthesis is encountered, if the stack is not empty, it means a valid pair is found. The length is calculated based on the current index and the index of the previous unmatched opening parenthesis (or the last invalid closing parenthesis).",
+      "The `last` variable in the stack solution marks the boundary of the current valid substring. If the stack becomes empty after popping, it means the current valid substring extends from `last` to the current index."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

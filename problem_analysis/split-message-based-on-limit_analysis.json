@@ -1,0 +1,32 @@
+{
+  "problem_name": "split-message-based-on-limit",
+  "data_structures": [
+    [
+      "list of strings",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterative search for optimal number of parts"
+  ],
+  "problem_summary_simple": "Split a message into parts, each with a numbered suffix, fitting a character limit.",
+  "problem_summary_technical": "Find the minimum number of parts such that message + suffixes fit within the limit, then construct the parts.",
+  "time_complexity": [
+    "O(n + rlogr)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of parts is the primary variable to optimize.",
+      "The length of the suffix increases with the number of digits in the part count.",
+      "A greedy approach to find the minimum number of parts is effective."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "xor-queries-of-a-subarray",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix XOR array."
+  ],
+  "problem_summary_simple": "Compute XOR sum of subarrays based on given start and end indices.",
+  "problem_summary_technical": "Utilize a prefix XOR array to answer range XOR queries in O(1) time after O(n) preprocessing.",
+  "time_complexity": [
+    "O(n + q)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The XOR operation has a useful property: A ^ B ^ B = A. This means XORing a prefix XOR sum with itself cancels out the common part.",
+      "A prefix XOR array `prefix_xor` where `prefix_xor[i]` is the XOR sum of `arr[0]` to `arr[i]` allows efficient range XOR queries.",
+      "The XOR sum of `arr[left]` to `arr[right]` is `prefix_xor[right] ^ prefix_xor[left-1]` (with `prefix_xor[-1]` being 0)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

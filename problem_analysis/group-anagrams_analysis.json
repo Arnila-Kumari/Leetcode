@@ -1,0 +1,33 @@
+{
+  "problem_name": "group-anagrams",
+  "data_structures": [
+    [
+      "collections.defaultdict(list)",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hashing by sorting strings",
+    "Grouping using a hash map"
+  ],
+  "problem_summary_simple": "Group strings that are anagrams of each other.",
+  "problem_summary_technical": "Uses a hash map where keys are sorted strings (representing anagram groups) and values are lists of original strings.",
+  "time_complexity": [
+    "O(N * K log K), where N is the number of strings and K is the max length of a string."
+  ],
+  "space_complexity": [
+    "O(N * K) in the worst case, to store all strings in the hash map."
+  ],
+  "key_insights": [
+    [
+      "Anagrams have the same characters, just in a different order. Sorting a string provides a canonical representation for anagrams.",
+      "A hash map (dictionary) is ideal for grouping items based on a key.",
+      "The time complexity is dominated by sorting each string."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

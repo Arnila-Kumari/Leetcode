@@ -1,0 +1,46 @@
+{
+  "problem_name": "minimize-hamming-distance-after-swap-operations",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "collections.Counter"
+    ],
+    [
+      "UnionFind",
+      "collections.defaultdict",
+      "collections.Counter"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Graph traversal (flood fill/DFS) to identify connected components and count elements.",
+    "Union-Find data structure to efficiently group swappable indices and count elements."
+  ],
+  "problem_summary_simple": "Minimize Hamming distance by swapping elements in source array based on allowed swaps.",
+  "problem_summary_technical": "Use graph traversal or Union-Find to find swappable index groups, then compare element counts between source and target within each group.",
+  "time_complexity": [
+    "O(n)",
+    "O(n * α(n))"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Allowed swaps define connected components in a graph where indices are nodes.",
+      "Elements within a connected component can be rearranged freely.",
+      "The minimum Hamming distance is achieved by matching the counts of elements in source and target within each component."
+    ],
+    [
+      "Union-Find is highly efficient for managing connected components.",
+      "After building components, compare element frequencies (using Counters) for source and target within each component.",
+      "The difference in counts represents mismatches that cannot be resolved by swaps."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

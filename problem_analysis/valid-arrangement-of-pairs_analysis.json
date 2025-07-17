@@ -1,0 +1,34 @@
+{
+  "problem_name": "valid-arrangement-of-pairs",
+  "data_structures": [
+    [
+      "collections.defaultdict (adjacency list)",
+      "collections.defaultdict (degree map)",
+      "list (stack)",
+      "list (result)"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Hierholzer's algorithm for finding an Eulerian path/circuit in a directed graph."
+  ],
+  "problem_summary_simple": "Arrange pairs of numbers so that the end of one pair matches the start of the next.",
+  "problem_summary_technical": "Models pairs as a directed graph and finds an Eulerian path using Hierholzer's algorithm to connect sequential pairs.",
+  "time_complexity": [
+    "O(|V| + |E|)"
+  ],
+  "space_complexity": [
+    "O(|V| + |E|)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as finding an Eulerian path in a directed graph.",
+      "Each unique number is a node, and each pair [u, v] is a directed edge from u to v.",
+      "Hierholzer's algorithm efficiently finds such a path by traversing edges and backtracking."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:13:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

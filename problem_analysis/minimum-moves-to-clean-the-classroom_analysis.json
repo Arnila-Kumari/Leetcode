@@ -1,0 +1,34 @@
+{
+  "problem_name": "minimum-moves-to-clean-the-classroom",
+  "data_structures": [
+    [
+      "2D grid (list of strings)",
+      "Dictionary (for litter lookup)",
+      "3D array (for visited states: row, col, mask)",
+      "Queue (for BFS)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) with state represented by (row, col, mask, energy)."
+  ],
+  "problem_summary_simple": "Find the minimum moves to collect all litter on a grid with obstacles, reset points, and limited energy.",
+  "problem_summary_technical": "BFS on a state space (row, col, bitmask of collected litter, current energy) to find the shortest path to collect all litter.",
+  "time_complexity": [
+    "O(m * n * 2^l)"
+  ],
+  "space_complexity": [
+    "O(m * n * 2^l)"
+  ],
+  "key_insights": [
+    [
+      "The state must include the bitmask of collected litter to track progress.",
+      "Energy management is crucial; reset areas ('R') replenish energy.",
+      "BFS guarantees finding the minimum number of moves."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:58:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-xor-of-two-non-overlapping-subtrees",
+  "data_structures": [
+    [
+      "list",
+      "Trie"
+    ],
+    [
+      "list",
+      "Trie"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS for subtree sums, Trie for XOR maximization",
+    "Recursive DFS for subtree sums, Trie for XOR maximization"
+  ],
+  "problem_summary_simple": "Find the maximum XOR sum of values from two non-overlapping subtrees in a given tree.",
+  "problem_summary_technical": "Calculates subtree sums using DFS, then uses a Trie to efficiently find the maximum XOR pair of subtree sums.",
+  "time_complexity": [
+    "O(n log r)",
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding subtree sums first, which can be done with DFS.",
+      "To find the maximum XOR of two numbers from a set, a Trie data structure is highly effective.",
+      "The key is to iterate through possible root nodes for the first subtree, calculate its sum, and then query the Trie for the best matching second subtree sum."
+    ],
+    [
+      "The problem requires finding subtree sums first, which can be done with DFS.",
+      "To find the maximum XOR of two numbers from a set, a Trie data structure is highly effective.",
+      "The key is to iterate through possible root nodes for the first subtree, calculate its sum, and then query the Trie for the best matching second subtree sum."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,55 @@
+{
+  "problem_name": "maximum-product-after-k-increments",
+  "data_structures": [
+    [
+      "list",
+      "heap"
+    ],
+    [
+      "list",
+      "hashmap"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "sorting and greedy distribution",
+    "frequency map and greedy updates",
+    "min-heap to always increment smallest element"
+  ],
+  "problem_summary_simple": "Maximize array product by incrementing elements k times.",
+  "problem_summary_technical": "Greedily increment smallest elements using sorting, frequency map, or min-heap to maximize product modulo 10^9 + 7.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n + k)",
+    "O(n + k log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Incrementing the smallest numbers yields the largest product increase.",
+      "The modulo operation should be applied at the end of calculations.",
+      "Sorting helps identify the smallest elements efficiently."
+    ],
+    [
+      "Using a frequency map (Counter) efficiently tracks element counts.",
+      "Iteratively updating the map by moving counts from smaller to larger numbers is key.",
+      "The `min_num` variable helps track the smallest element for updates."
+    ],
+    [
+      "A min-heap naturally provides the smallest element in O(log n) time.",
+      "Repeatedly popping the minimum, incrementing, and pushing back is the core logic.",
+      "This approach is intuitive for maximizing product by always targeting the smallest value."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "collect-coins-in-a-tree",
+  "data_structures": [
+    [
+      "adjacency list (set)",
+      "queue"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Tree traversal (BFS-like) with pruning and distance calculation"
+  ],
+  "problem_summary_simple": "Collect all coins in a tree by moving and collecting within a distance of 2.",
+  "problem_summary_technical": "Prunes leaf nodes without coins, then uses BFS-like layers to find the minimum edges for collection.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be simplified by removing leaf nodes that don't have coins.",
+      "Collecting coins within a distance of 2 means we can cover nodes up to 2 edges away.",
+      "The total edges traversed is twice the number of edges in the minimal subtree connecting all coin locations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

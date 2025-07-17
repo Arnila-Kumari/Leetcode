@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-pushes-to-type-word-ii",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting and sorting, then greedy assignment to keys."
+  ],
+  "problem_summary_simple": "Find the minimum key pushes to type a word by remapping phone keys.",
+  "problem_summary_technical": "Greedily assign most frequent characters to keys with fewer pushes by sorting character frequencies.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by assigning the most frequent characters to the keys that require the fewest pushes.",
+      "The number of pushes for a character depends on its position in the sorted frequency list and the number of available keys (9 in this case).",
+      "The formula `x * (i // 9 + 1)` calculates the total pushes for a character with frequency `x` at sorted index `i`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

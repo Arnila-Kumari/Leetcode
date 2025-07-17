@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-make-numbers-non-positive",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the number of operations, with a greedy check function."
+  ],
+  "problem_summary_simple": "Make all numbers in an array non-positive using a specific operation.",
+  "problem_summary_technical": "Binary searches for the minimum operations. The check function greedily determines if a given number of operations is sufficient.",
+  "time_complexity": [
+    "O(nlogr)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem has a monotonic property: if `m` operations are sufficient, then `m+1` operations are also sufficient.",
+      "This allows for binary search on the number of operations.",
+      "The `check` function needs to be greedy: for a given total number of operations, it tries to satisfy the condition by prioritizing operations that reduce the most positive numbers with the least cost."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

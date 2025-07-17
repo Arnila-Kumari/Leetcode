@@ -1,0 +1,31 @@
+{
+  "problem_name": "remove-interval",
+  "data_structures": [
+    [
+      "list of lists"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Iterate through intervals, calculate overlapping parts with toBeRemoved, and construct new intervals."
+  ],
+  "problem_summary_simple": "Remove a given interval from a list of sorted, disjoint intervals.",
+  "problem_summary_technical": "Given sorted disjoint intervals and an interval to remove, return remaining intervals by splitting or truncating existing ones.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to consider how the `toBeRemoved` interval intersects with each existing interval.",
+      "For each interval `[a, b)` and `toBeRemoved = [A, B)`, the remaining parts are `[a, min(A, b))` and `[max(a, B), b)`.",
+      "Only include resulting intervals where the start is strictly less than the end."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

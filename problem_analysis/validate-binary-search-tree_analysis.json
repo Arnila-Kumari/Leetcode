@@ -1,0 +1,44 @@
+{
+  "problem_name": "validate-binary-search-tree",
+  "data_structures": [
+    [
+      "TreeNode",
+      "integer variables for bounds"
+    ],
+    [
+      "TreeNode",
+      "integer variables for bounds"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Morris Traversal for in-order traversal without recursion/stack",
+    "Recursive inorder traversal with bounds checking"
+  ],
+  "problem_summary_simple": "Check if a binary tree adheres to Binary Search Tree properties.",
+  "problem_summary_technical": "Verify BST property: left < node < right. Use Morris traversal or recursion with bounds for validation.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "Morris Traversal offers O(1) space by temporarily modifying tree structure.",
+      "Recursive approach is more intuitive but uses O(h) stack space.",
+      "Crucially, bounds must be passed down recursively, not just immediate children."
+    ],
+    [
+      "The recursive solution elegantly enforces the BST property by passing valid ranges.",
+      "Base case: an empty tree is a valid BST.",
+      "The key is that a node's value must be within the range defined by its ancestors."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

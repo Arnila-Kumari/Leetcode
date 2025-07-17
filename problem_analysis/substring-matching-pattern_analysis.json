@@ -1,0 +1,32 @@
+{
+  "problem_name": "substring-matching-pattern",
+  "data_structures": [
+    [
+      "list",
+      "integer variables"
+    ]
+  ],
+  "category": "String Matching",
+  "algorithm_technique": [
+    "KMP algorithm for pattern matching"
+  ],
+  "problem_summary_simple": "Check if a pattern with a single wildcard '*' can be a substring of a given string.",
+  "problem_summary_technical": "Splits the pattern by '*' and uses KMP to find occurrences of the prefix and suffix in the string.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into matching the parts of the pattern before and after the '*'.",
+      "The KMP algorithm is efficient for finding occurrences of a pattern within a text.",
+      "The '*' can match zero or more characters, so the KMP search for the suffix must start after the found prefix."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

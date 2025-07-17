@@ -1,0 +1,31 @@
+{
+  "problem_name": "design-a-text-editor",
+  "data_structures": [
+    [
+      "two lists (acting as stacks for left and right of cursor)"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Two stacks for cursor management and text manipulation"
+  ],
+  "problem_summary_simple": "Create a text editor with cursor movement, text addition, and deletion.",
+  "problem_summary_technical": "Uses two stacks (left and right of cursor) to simulate text and cursor position, enabling O(k) operations for cursor movement and deletion.",
+  "time_complexity": [
+    "ctor: O(1), addText: O(L), deleteText: O(k), cursorLeft: O(k), cursorRight: O(k)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Representing the text as two stacks (left and right of the cursor) is an elegant way to handle cursor movement and modifications.",
+      "Adding text appends to the left stack. Deleting text pops from the left stack.",
+      "Cursor movement involves popping from one stack and pushing to the other, ensuring the cursor stays within bounds."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

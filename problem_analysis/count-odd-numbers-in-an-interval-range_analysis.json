@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-odd-numbers-in-an-interval-range",
+  "data_structures": [
+    [
+      "integer arithmetic"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical formula to count odd numbers in a range using integer division."
+  ],
+  "problem_summary_simple": "Count how many odd numbers are there between two given numbers, inclusive.",
+  "problem_summary_technical": "Calculate the count of odd numbers up to 'high' and subtract the count up to 'low-1' using integer division.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of odd integers up to N is (N+1)//2.",
+      "The problem can be solved by finding the count of odd numbers up to 'high' and subtracting those up to 'low-1'.",
+      "This approach avoids iterating through the range, making it O(1)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

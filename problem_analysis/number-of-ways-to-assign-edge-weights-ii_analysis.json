@@ -1,0 +1,46 @@
+{
+  "problem_name": "number-of-ways-to-assign-edge-weights-ii",
+  "data_structures": [
+    [
+      "list",
+      "UnionFind",
+      "array"
+    ],
+    [
+      "list",
+      "UnionFind",
+      "array"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Tarjan's Offline LCA Algorithm with Union-Find and combinatorics for edge weight parity.",
+    "DFS with Union-Find, tracking distances and ancestor for LCA, then applying combinatorics."
+  ],
+  "problem_summary_simple": "Count ways to assign edge weights (1 or 2) in a tree so path costs between query pairs are odd.",
+  "problem_summary_technical": "Use Tarjan's Offline LCA with Union-Find to find path parities, then combinatorics (powers of 2) for valid assignments.",
+  "time_complexity": [
+    "O(n + q * alpha(n))",
+    "O(n + q * alpha(n))"
+  ],
+  "space_complexity": [
+    "O(n + q)",
+    "O(n + q)"
+  ],
+  "key_insights": [
+    [
+      "The parity of a path's cost depends on the number of edges with weight 1. An odd path cost means an odd number of edges have weight 1.",
+      "Tarjan's Offline LCA algorithm is suitable for processing queries efficiently on a tree. It uses Union-Find to group nodes in subtrees.",
+      "For a path between u and v, the number of ways to assign weights such that the path cost is odd is 2^(L-1) if L is the path length, and 0 if L is 0."
+    ],
+    [
+      "The parity of a path's cost depends on the number of edges with weight 1. An odd path cost means an odd number of edges have weight 1.",
+      "Tarjan's Offline LCA algorithm is suitable for processing queries efficiently on a tree. It uses Union-Find to group nodes in subtrees.",
+      "For a path between u and v, the number of ways to assign weights such that the path cost is odd is 2^(L-1) if L is the path length, and 0 if L is 0."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:34:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "print-zero-even-odd",
+  "data_structures": [
+    [
+      "threading.Condition",
+      "integer counter"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Thread synchronization using Condition variables and a shared counter to manage printing order."
+  ],
+  "problem_summary_simple": "Print numbers 0, 1, 2, 3... in order using three threads: zero, even, and odd.",
+  "problem_summary_technical": "Employs threading.Condition and a modulo-based counter to ensure threads print 0, odd, even, 0, odd, even sequentially.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The shared counter's modulo arithmetic dictates which thread can proceed.",
+      "Condition variables are used for threads to wait for their turn.",
+      "notifyAll() is used to signal other waiting threads after a print operation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

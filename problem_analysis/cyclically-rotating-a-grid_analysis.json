@@ -1,0 +1,43 @@
+{
+  "problem_name": "cyclically-rotating-a-grid",
+  "data_structures": [
+    [
+      "None"
+    ],
+    [
+      "None"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Layer-by-layer rotation using GCD to handle multiple rotations efficiently",
+    "Layer-by-layer rotation using reversal technique for efficient cyclic shift"
+  ],
+  "problem_summary_simple": "Cyclically rotate each layer of a grid counter-clockwise by 'k' steps.",
+  "problem_summary_technical": "Decompose the grid into layers. For each layer, calculate effective rotations using modulo and apply cyclic shifts efficiently.",
+  "time_complexity": [
+    "O(M*N)",
+    "O(M*N)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The grid can be viewed as concentric layers that rotate independently.",
+      "The number of rotations for each layer can be reduced modulo the layer's perimeter length.",
+      "Using GCD to find the number of cycles and cycle length optimizes the rotation process for large 'k'.",
+      "The `get_index` helper function is crucial for mapping linear indices to 2D grid coordinates for each layer."
+    ],
+    [
+      "The reversal algorithm (reverse all, reverse first k, reverse rest) is a common and efficient way to perform cyclic shifts in-place.",
+      "This approach avoids explicit element-by-element shifting for each rotation step.",
+      "Similar to the GCD approach, it operates on a layer-by-layer basis."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,34 @@
+{
+  "problem_name": "count-the-number-of-infection-sequences",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorics: calculating combinations for segments and powers of 2 for choices.",
+    "Precomputation of factorials and inverse factorials for efficient nCr calculation."
+  ],
+  "problem_summary_simple": "Count ways uninfected people can get infected by neighbors, given initial infections.",
+  "problem_summary_technical": "Combinatorics on segments between infected people, multiplied by choices for infection spread direction.",
+  "time_complexity": [
+    "O(s + log(n)) where s is the number of sick people, after O(max_n) precomputation."
+  ],
+  "space_complexity": [
+    "O(max_n) for precomputed factorials and inverses."
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into independent segments between initially infected people.",
+      "Within each segment, the infection spreads from both ends towards the middle.",
+      "The number of ways to infect a segment of length L is C(L, L/2) if L is even, or C(L, (L-1)/2) if L is odd, multiplied by 2^(L-1) for choices.",
+      "The total number of sequences is the product of ways for each segment, adjusted for initial sick people."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:38:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

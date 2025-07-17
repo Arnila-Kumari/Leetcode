@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-spending-after-buying-items",
+  "data_structures": [
+    [
+      "min-heap",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach using a min-heap to pick the cheapest available item each day."
+  ],
+  "problem_summary_simple": "Maximize spending by buying items from different shops over 'm*n' days, with prices increasing daily.",
+  "problem_summary_technical": "A min-heap stores the rightmost available item from each shop, allowing daily selection of the cheapest item to maximize total spending.",
+  "time_complexity": [
+    "O(m * n * logm)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "The problem is greedy: to maximize total spending, we want to multiply the largest values by the largest day multipliers.",
+      "A min-heap is used to efficiently track the smallest available item value from each shop, ensuring we always pick the best option for the current day's multiplier."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

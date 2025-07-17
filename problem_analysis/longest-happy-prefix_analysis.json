@@ -1,0 +1,40 @@
+{
+  "problem_name": "longest-happy-prefix",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Knuth-Morris-Pratt (KMP) algorithm for prefix function calculation",
+    "Rolling hash for efficient prefix/suffix comparison"
+  ],
+  "problem_summary_simple": "Find the longest prefix of a string that is also a suffix, excluding the string itself.",
+  "problem_summary_technical": "Utilizes KMP's prefix function or rolling hash to identify the longest proper prefix that matches a suffix.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The KMP prefix function (LPS array) directly stores the length of the longest proper prefix that is also a suffix for each prefix of the string.",
+      "The last element of the LPS array for the entire string gives the length of the longest happy prefix."
+    ],
+    [
+      "Rolling hash allows for O(1) comparison of prefixes and suffixes after initial O(n) precomputation.",
+      "Careful handling of modulo arithmetic and prime bases is crucial to minimize hash collisions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

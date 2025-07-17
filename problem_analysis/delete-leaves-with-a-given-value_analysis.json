@@ -1,0 +1,31 @@
+{
+  "problem_name": "delete-leaves-with-a-given-value",
+  "data_structures": [
+    [
+      "Binary Tree"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive post-order traversal"
+  ],
+  "problem_summary_simple": "Remove all leaf nodes with a specific value, and continue removing if parents become leaves with that value.",
+  "problem_summary_technical": "Recursively traverse a binary tree, deleting leaf nodes matching the target value, propagating deletions upwards.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "Post-order traversal is crucial because a node's children must be processed before the node itself.",
+      "The base case for recursion is an empty node, returning None.",
+      "A node is deleted if it becomes a leaf (both children are None) and its value matches the target."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

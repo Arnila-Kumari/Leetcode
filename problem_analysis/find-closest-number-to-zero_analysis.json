@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-closest-number-to-zero",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Custom sorting key with max function"
+  ],
+  "problem_summary_simple": "Find the number in an array closest to zero. If tied, return the larger number.",
+  "problem_summary_technical": "Use a custom key for the max function: first by absolute value (ascending), then by the number itself (descending).",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding the minimum absolute value, with a tie-breaking rule.",
+      "A lambda function can be used as a key for the `max` function to handle custom sorting criteria.",
+      "The key `(-abs(x), x)` prioritizes smaller absolute values (due to negation) and then larger actual values for ties."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

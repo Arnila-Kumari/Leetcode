@@ -1,0 +1,33 @@
+{
+  "problem_name": "make-the-prefix-sum-non-negative",
+  "data_structures": [
+    [
+      "heap",
+      "integer",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Prefix sum calculation with a min-heap to track and remove negative contributions."
+  ],
+  "problem_summary_simple": "Minimize operations (moving elements to end) to make all prefix sums non-negative.",
+  "problem_summary_technical": "Iterates through nums, maintaining prefix sum and a min-heap of encountered numbers to fix negative prefix sums.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "When a prefix sum becomes negative, we need to remove the smallest negative number encountered so far.",
+      "A min-heap efficiently stores and retrieves the smallest element.",
+      "Moving the smallest negative number to the end effectively 'removes' its negative impact on future prefix sums."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-absolute-sum-of-any-subarray",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Kadane's algorithm variation to find max and min subarray sums"
+  ],
+  "problem_summary_simple": "Find the subarray with the largest absolute sum.",
+  "problem_summary_technical": "Uses a modified Kadane's algorithm to track both the maximum and minimum subarray sums encountered so far.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The maximum absolute sum is either the maximum positive subarray sum or the absolute value of the minimum negative subarray sum.",
+      "Kadane's algorithm can be adapted to find both the maximum and minimum subarray sums in a single pass.",
+      "The difference between the maximum and minimum prefix sums gives the maximum subarray sum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

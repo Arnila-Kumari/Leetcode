@@ -1,0 +1,35 @@
+{
+  "problem_name": "find-indices-with-index-and-value-difference-ii",
+  "data_structures": [
+    [
+      "integer array",
+      "integer variables for tracking min/max indices"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array, maintaining the index of the minimum and maximum values encountered so far within the index difference window."
+  ],
+  "problem_summary_simple": "Find two indices with a minimum index and value difference.",
+  "problem_summary_technical": "Iterate through nums, tracking min/max indices. Check conditions abs(i-j) >= indexDiff and abs(nums[i]-nums[j]) >= valueDiff.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating once and keeping track of the minimum and maximum values seen so far within the required index difference.",
+      "The absolute value checks for differences can be simplified by considering the relative order of values and indices."
+    ],
+    [
+      "The solution efficiently checks potential pairs by maintaining the best candidates (min/max values) seen up to a certain point.",
+      "The loop structure ensures that for each potential `j`, we are comparing it against the best `i` candidates that satisfy the index difference."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

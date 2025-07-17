@@ -1,0 +1,34 @@
+{
+  "problem_name": "max-consecutive-ones",
+  "data_structures": [
+    [
+      "integer variables for tracking counts"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "single pass iteration to count consecutive ones"
+  ],
+  "problem_summary_simple": "Find the longest sequence of consecutive 1s in a binary array.",
+  "problem_summary_technical": "Iterate through a binary array, maintaining a current count of consecutive ones and a global maximum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A single pass is sufficient to solve this problem.",
+      "Keep track of the current consecutive count and the overall maximum."
+    ],
+    [
+      "Resetting the current count to 0 when a 0 is encountered is crucial.",
+      "The `max` function ensures we always store the highest consecutive count found so far."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:51:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

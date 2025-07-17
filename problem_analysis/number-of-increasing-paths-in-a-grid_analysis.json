@@ -1,0 +1,44 @@
+{
+  "problem_name": "number-of-increasing-paths-in-a-grid",
+  "data_structures": [
+    [
+      "2D array for in-degree",
+      "queue for topological sort",
+      "2D array for DP table"
+    ],
+    [
+      "2D array for memoization lookup table"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Topological sort with DP (bottom-up)",
+    "Memoization with DFS (top-down DP)"
+  ],
+  "problem_summary_simple": "Count strictly increasing paths in a grid, starting and ending anywhere.",
+  "problem_summary_technical": "Dynamic programming on a grid, using topological sort or memoization to count paths based on adjacent cells with greater values.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding paths in a Directed Acyclic Graph (DAG) where edges go from smaller to larger numbers.",
+      "Topological sort is suitable for DAGs, processing nodes in an order that respects dependencies.",
+      "Modulo arithmetic is crucial due to potentially large path counts."
+    ],
+    [
+      "Memoization avoids redundant calculations by storing results of subproblems.",
+      "The state for memoization is the cell (i, j), representing the number of increasing paths starting from that cell.",
+      "The base case for recursion is a cell with no valid next moves, contributing 1 path (itself)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

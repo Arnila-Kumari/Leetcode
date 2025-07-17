@@ -1,0 +1,33 @@
+{
+  "problem_name": "sorting-the-sentence",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "String splitting, in-place sorting (cycle sort variant), and string joining"
+  ],
+  "problem_summary_simple": "Reconstruct an original sentence from a shuffled version where each word has its position appended.",
+  "problem_summary_technical": "Split the shuffled sentence, sort words based on their appended digit, and then remove the digits to form the original sentence.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Each word in the shuffled sentence contains its original 1-indexed position as the last character.",
+      "The problem can be solved by sorting the words based on these appended numbers.",
+      "An in-place sorting approach (similar to cycle sort) can be used to rearrange the words efficiently.",
+      "After sorting, the numbers need to be removed from each word before joining them back into a sentence."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

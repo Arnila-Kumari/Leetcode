@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-remove-to-make-valid-parentheses",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Use a stack to track open parentheses and mark invalid ones for removal."
+  ],
+  "problem_summary_simple": "Remove the minimum number of parentheses to make a string of parentheses and letters valid.",
+  "problem_summary_technical": "Iterate through the string, using a counter for open parentheses to identify and mark invalid closing parentheses.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A single pass can identify invalid closing parentheses.",
+      "A second pass (or reversed pass) is needed to remove unmatched open parentheses.",
+      "Using a list to represent the string allows for efficient in-place modification by replacing characters with empty strings."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:59:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

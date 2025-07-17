@@ -1,0 +1,32 @@
+{
+  "problem_name": "third-maximum-number",
+  "data_structures": [
+    [
+      "array of integers",
+      "fixed-size array for top 3"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array, maintaining the top three distinct maximums encountered so far."
+  ],
+  "problem_summary_simple": "Find the third largest distinct number in an array. If it doesn't exist, return the largest number.",
+  "problem_summary_technical": "Iterate through the input array, keeping track of the top three distinct maximums using a fixed-size array, updating it as larger or distinct numbers are found.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to track distinct maximums, not just any maximum.",
+      "A fixed-size array (or three variables) is sufficient to store the top three candidates.",
+      "Handle the edge case where fewer than three distinct numbers exist by returning the overall maximum."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:12:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

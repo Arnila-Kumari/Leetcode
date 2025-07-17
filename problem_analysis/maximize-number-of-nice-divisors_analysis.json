@@ -1,0 +1,29 @@
+{
+  "problem_name": "maximize-number-of-nice-divisors",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Apply integer break logic: maximize product of numbers summing to primeFactors, favoring 3s."
+  ],
+  "problem_summary_simple": "Find the maximum number of nice divisors for a number constructed with a given number of prime factors.",
+  "problem_summary_technical": "Maximize product of integers summing to primeFactors, using powers of 3 and 2, modulo 10^9 + 7.",
+  "time_complexity": [
+    "O(log(primeFactors))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem reduces to maximizing the product of integers that sum up to `primeFactors`.",
+      "The optimal strategy is to use as many 3s as possible, then 2s for the remainder.",
+      "Modular exponentiation is crucial for handling large results."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

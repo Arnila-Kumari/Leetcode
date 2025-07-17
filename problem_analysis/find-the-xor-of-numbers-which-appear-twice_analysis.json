@@ -1,0 +1,38 @@
+{
+  "problem_name": "find-the-xor-of-numbers-which-appear-twice",
+  "data_structures": [
+    [
+      "hash table (implicit in set)",
+      "set"
+    ],
+    [
+      "frequency table (collections.Counter)"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "XOR property: a^a = 0, a^0 = a. XOR all numbers, then XOR unique numbers to isolate duplicates.",
+    "Frequency counting to identify numbers appearing exactly twice, then XOR them."
+  ],
+  "problem_summary_simple": "Find the XOR sum of all numbers that appear exactly twice in an array.",
+  "problem_summary_technical": "Leverage XOR properties or frequency maps to identify and XOR numbers with a count of two.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The XOR operation cancels out numbers appearing an even number of times.",
+      "XORing all elements and then XORing unique elements isolates the duplicates.",
+      "Frequency maps provide a direct way to count occurrences."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:34:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "total-appeal-of-a-string",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ],
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "combinatorics with prefix sums",
+    "prefix sums and counting"
+  ],
+  "problem_summary_simple": "Calculate the sum of appeals of all substrings, where appeal is the count of distinct characters.",
+  "problem_summary_technical": "Iterate through the string, using a lookup array to track last seen indices and calculate contributions to total appeal.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(26)",
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "The contribution of a character at index `i` to substrings ending at `j` (where `j >= i`) depends on its previous occurrence.",
+      "The formula `(i - lookup[c]) * (n - i)` efficiently calculates the total appeal contribution of character `c` at index `i`."
+    ],
+    [
+      "Maintain a running count of distinct characters encountered up to the current position.",
+      "The total appeal can be accumulated by adding the current distinct character count to the result in each iteration."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

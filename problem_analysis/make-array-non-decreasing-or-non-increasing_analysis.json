@@ -1,0 +1,45 @@
+{
+  "problem_name": "make-array-non-decreasing-or-non-increasing",
+  "data_structures": [
+    [
+      "array",
+      "heap"
+    ],
+    [
+      "array",
+      "hashmap",
+      "sorted array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy with a max-heap to minimize operations for non-decreasing or non-increasing sequences.",
+    "Dynamic programming with sorted unique values to find minimum operations for non-decreasing or non-increasing sequences."
+  ],
+  "problem_summary_simple": "Find the minimum operations to make an array non-decreasing or non-increasing.",
+  "problem_summary_technical": "Calculate minimum operations for non-decreasing and non-increasing sequences using a heap-based greedy approach or DP on sorted unique values.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into two subproblems: making it non-decreasing and making it non-increasing.",
+      "For non-decreasing, we can use a greedy approach with a max-heap. When an element is smaller than the top of the heap, we 'fix' it by adding the difference to the result and pushing the current element.",
+      "The same logic applies for non-increasing by reversing the array or negating values."
+    ],
+    [
+      "This DP approach considers all unique values as potential target values for each element.",
+      "The state `dp[i]` represents the minimum operations to make the prefix ending at the current element non-decreasing (or non-increasing) with the last element being `vals[i]`.",
+      "The transition involves considering the cost of changing the current number to `vals[i]` and adding the minimum cost from the previous state."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:50:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

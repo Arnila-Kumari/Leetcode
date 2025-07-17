@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-all-lonely-numbers-in-the-array",
+  "data_structures": [
+    [
+      "collections.Counter (hash map)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting using a hash map to check counts and adjacent elements."
+  ],
+  "problem_summary_simple": "Find numbers that appear once and have no adjacent numbers in the array.",
+  "problem_summary_technical": "Utilize a frequency map (Counter) to identify numbers with a count of 1 and check for the absence of their neighbors.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A frequency map is efficient for counting occurrences.",
+      "Checking for adjacent elements requires lookups in the frequency map.",
+      "The constraints allow for an O(n) space solution."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

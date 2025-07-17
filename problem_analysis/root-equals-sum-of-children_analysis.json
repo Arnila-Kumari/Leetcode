@@ -1,0 +1,31 @@
+{
+  "problem_name": "root-equals-sum-of-children",
+  "data_structures": [
+    [
+      "binary tree node"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Directly access and sum the values of the root's children."
+  ],
+  "problem_summary_simple": "Check if a binary tree's root value equals the sum of its two children's values.",
+  "problem_summary_technical": "Access root.left.val and root.right.val and compare their sum to root.val.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem statement guarantees a tree with exactly three nodes.",
+      "Direct access to `root.left` and `root.right` is possible.",
+      "The core logic is a simple arithmetic comparison."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

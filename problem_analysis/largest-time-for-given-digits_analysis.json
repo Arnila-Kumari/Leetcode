@@ -1,0 +1,32 @@
+{
+  "problem_name": "largest-time-for-given-digits",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Permutations and validation"
+  ],
+  "problem_summary_simple": "Find the latest valid 24-hour time using four given digits exactly once.",
+  "problem_summary_technical": "Generates all permutations of the four digits, forms HH:MM, validates against 24-hour format, and returns the lexicographically largest valid time.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is constrained to 4 digits, making brute-force permutations feasible.",
+      "Sorting the digits in descending order and checking permutations from largest to smallest ensures the first valid time found is the maximum.",
+      "Careful validation of hours (0-23) and minutes (0-59) is essential."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

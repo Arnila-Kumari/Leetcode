@@ -1,0 +1,32 @@
+{
+  "problem_name": "design-an-ordered-stream",
+  "data_structures": [
+    [
+      "list",
+      "integer pointer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a list to store values and a pointer to track the next expected ID for chunk retrieval."
+  ],
+  "problem_summary_simple": "Insert key-value pairs into a stream and retrieve ordered chunks of values.",
+  "problem_summary_technical": "Stores values in a list indexed by ID, using a pointer to efficiently return contiguous ordered chunks upon insertion.",
+  "time_complexity": [
+    "O(1), amortized"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to only return a chunk when the inserted ID matches the next expected ID in the sorted sequence.",
+      "A single pointer (`self.__i`) is sufficient to keep track of the start of the next contiguous chunk.",
+      "The `idKey` is 1-based, so it needs to be decremented to be used as a 0-based index."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

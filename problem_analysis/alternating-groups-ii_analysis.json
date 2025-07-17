@@ -1,0 +1,31 @@
+{
+  "problem_name": "alternating-groups-ii",
+  "data_structures": [
+    [
+      "list of integers"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window of size k to check for alternating colors."
+  ],
+  "problem_summary_simple": "Count groups of k adjacent tiles with alternating colors in a circular arrangement.",
+  "problem_summary_technical": "Employs a sliding window of size k. It efficiently counts alternating color segments and checks if they meet the k-length requirement.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem generalizes the 'alternating groups I' to a window of size k.",
+      "A sliding window approach is efficient. The window expands and contracts, maintaining a count of alternating adjacent pairs within the window.",
+      "The circular nature requires careful handling of indices using the modulo operator, especially when extending the array conceptually."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

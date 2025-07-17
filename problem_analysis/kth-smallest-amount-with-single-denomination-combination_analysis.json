@@ -1,0 +1,43 @@
+{
+  "problem_name": "kth-smallest-amount-with-single-denomination-combination",
+  "data_structures": [
+    [
+      "list",
+      "itertools.combinations"
+    ],
+    [
+      "list",
+      "bitmask iteration"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Binary search on the answer combined with the Principle of Inclusion-Exclusion to count multiples of LCMs of coin subsets.",
+    "Binary search on the answer combined with the Principle of Inclusion-Exclusion using bitmasks to generate subsets and their LCMs."
+  ],
+  "problem_summary_simple": "Find the kth smallest amount using multiples of given coin denominations, without mixing denominations.",
+  "problem_summary_technical": "Uses binary search for the target amount. Inclusion-Exclusion with LCMs of coin subsets counts achievable amounts up to a target.",
+  "time_complexity": [
+    "O(n * 2^n * log(k * min(coins)))"
+  ],
+  "space_complexity": [
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the kth number that is a multiple of at least one coin denomination.",
+      "The Principle of Inclusion-Exclusion is crucial for accurately counting numbers divisible by at least one coin, avoiding double-counting.",
+      "Calculating LCMs of subsets of coins is key to applying Inclusion-Exclusion.",
+      "Binary search on the possible range of amounts is efficient for finding the kth smallest."
+    ],
+    [
+      "Bitmasks provide a systematic way to iterate through all possible subsets of coins.",
+      "The `popcount` of a bitmask directly corresponds to the size of the subset, simplifying the Inclusion-Exclusion logic.",
+      "The rest of the logic (LCM calculation, binary search, and check function) remains similar to the combination-based approach."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:48:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "perfect-rectangle",
+  "data_structures": [
+    [
+      "hashmap",
+      "set"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Check if the total area of all rectangles equals the area of the bounding rectangle and if all corner points (except the bounding box corners) appear an even number of times.",
+    "Use a set to track corner points and their parity. Overlapping points cancel out. Check for exact cover conditions."
+  ],
+  "problem_summary_simple": "Verify if a set of rectangles perfectly covers a larger rectangular area without gaps or overlaps.",
+  "problem_summary_technical": "Ensure the union of given rectangles forms a single, non-overlapping rectangle by checking total area and corner point counts.",
+  "time_complexity": [
+    "O(n) where n is the number of rectangles"
+  ],
+  "space_complexity": [
+    "O(n) for storing corner points"
+  ],
+  "key_insights": [
+    [
+      "The sum of the areas of individual rectangles must equal the area of the bounding rectangle.",
+      "All internal corner points must appear an even number of times (they are shared by 2 or 4 rectangles).",
+      "The four corner points of the overall bounding rectangle must appear exactly once."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:04:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

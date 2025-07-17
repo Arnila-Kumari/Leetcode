@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-seconds-to-equalize-a-circular-array",
+  "data_structures": [
+    [
+      "hash map (defaultdict)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash map to track last seen index and calculate maximum distance between identical elements"
+  ],
+  "problem_summary_simple": "Find the minimum time to make all elements in a circular array equal.",
+  "problem_summary_technical": "Calculate max distance between consecutive identical elements in a doubled array, then divide by 2.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The operation allows elements to propagate their values to neighbors.",
+      "To equalize the array to a specific value `x`, we need to consider the maximum gap between occurrences of `x`.",
+      "Doubling the array simplifies handling the circular nature and finding maximum gaps."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

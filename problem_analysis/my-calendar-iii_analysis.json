@@ -1,0 +1,42 @@
+{
+  "problem_name": "my-calendar-iii",
+  "data_structures": [
+    [
+      "list of lists (sorted by start time)"
+    ],
+    [
+      "list of tuples (event points with delta)"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sweep line algorithm using a sorted list of events and updating counts.",
+    "Sweep line algorithm using a sorted list of event points (start/end) with deltas."
+  ],
+  "problem_summary_simple": "Find the maximum number of overlapping events at any point in time.",
+  "problem_summary_technical": "Maintain a timeline of events, incrementing counts at start times and decrementing at end times, tracking the maximum concurrent count.",
+  "time_complexity": [
+    "O(N log N) for bisect_right, O(N) for loop, total O(N^2) in worst case for insertions",
+    "O(N log N) for bisect_left, O(N) for iteration, total O(N^2) in worst case for insertions"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to track the change in the number of active events at each time point.",
+      "A sorted list of [time, count_change] pairs (or similar) is crucial for efficient processing.",
+      "The maximum overlap is the maximum value of the cumulative sum of these changes."
+    ],
+    [
+      "Representing start and end times as distinct points with +1 and -1 changes simplifies tracking.",
+      "Sorting these points allows for a single pass to calculate the maximum overlap.",
+      "Using a dictionary or map to store counts at specific time points can also work."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

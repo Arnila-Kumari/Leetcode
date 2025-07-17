@@ -1,0 +1,56 @@
+{
+  "problem_name": "number-of-people-that-can-be-seen-in-a-grid",
+  "data_structures": [
+    [
+      "2D array",
+      "stack"
+    ],
+    [
+      "2D array",
+      "stack"
+    ],
+    [
+      "2D array",
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to count visible people to the right and below for each person.",
+    "Monotonic stack with lambda functions to abstract height access for rows and columns.",
+    "Monotonic stack with helper functions to manage result updates and height access."
+  ],
+  "problem_summary_simple": "Count how many people each person in a grid can see to their right or below, considering obstructions.",
+  "problem_summary_technical": "Uses monotonic stacks on rows and columns to efficiently find visible people, handling height-based visibility rules.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m + n)",
+    "O(m + n)",
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "A monotonic decreasing stack is ideal for finding the next greater element to the right/below.",
+      "The problem can be broken down into two independent passes: one for rows and one for columns.",
+      "Careful handling of equal heights and the 'everyone in between' condition is necessary."
+    ],
+    [
+      "Using lambda functions for height access makes the monotonic stack logic reusable for both row and column traversals.",
+      "The logic for updating the count and managing the stack needs to correctly handle cases where the current person is taller, shorter, or equal to the stack top.",
+      "The problem requires careful indexing and state management within the stack operations."
+    ],
+    [
+      "The `count` function can be refactored to take an `add` function, allowing for more flexible result updates.",
+      "The logic for popping elements from the stack and incrementing counts needs to precisely match the visibility rules.",
+      "The solution processes each row and column independently, ensuring all visibility conditions are met."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

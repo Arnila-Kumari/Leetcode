@@ -1,0 +1,26 @@
+{
+  "problem_name": "3sum-smaller",
+  "data_structures": [
+    [
+      "sorted array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sort the array, then use two pointers for each element to count triplets with sums less than target."
+  ],
+  "problem_summary_simple": "Count triplets in an array whose sum is less than a target value.",
+  "problem_summary_technical": "Sort array, iterate with one pointer, use two pointers to count valid triplets efficiently.",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)",
+  "key_insights": [
+    [
+      "The key insight is that if nums[i] + nums[j] + nums[k] < target, then for a fixed i and k, all elements between j and k (inclusive) will also satisfy the condition with nums[i] and nums[k].",
+      "This allows for a count of `j - i` for each valid pair (i, k), significantly optimizing the counting process."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-15 20:21:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

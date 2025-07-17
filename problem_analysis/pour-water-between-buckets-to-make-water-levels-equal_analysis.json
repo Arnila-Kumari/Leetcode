@@ -1,0 +1,32 @@
+{
+  "problem_name": "pour-water-between-buckets-to-make-water-levels-equal",
+  "data_structures": [
+    [
+      "array",
+      "float"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the target water level, with a check function"
+  ],
+  "problem_summary_simple": "Equalize water levels in buckets by pouring, accounting for spillage.",
+  "problem_summary_technical": "Binary search for the target equal water level. Check function verifies if total water available (after loss) can reach the target level.",
+  "time_complexity": [
+    "O(N log R)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as finding a target water level.",
+      "Binary search is suitable because the feasibility of a water level is monotonic.",
+      "The `check` function is crucial: it calculates if the total water that can be poured (considering loss) is sufficient to raise lower buckets."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

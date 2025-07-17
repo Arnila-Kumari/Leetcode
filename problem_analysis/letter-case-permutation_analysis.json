@@ -1,0 +1,30 @@
+{
+  "problem_name": "letter-case-permutation",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Iterative approach building permutations by extending existing ones."
+  ],
+  "problem_summary_simple": "Generate all possible strings by changing letter cases.",
+  "problem_summary_technical": "Iteratively builds permutations by appending lower/upper case letters for alphabetic characters.",
+  "time_complexity": [
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(n * 2^n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering each character and branching if it's a letter.",
+      "An iterative approach can maintain a list of current permutations and expand them."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

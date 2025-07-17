@@ -1,0 +1,37 @@
+{
+  "problem_name": "stone-game-vii",
+  "data_structures": [
+    [
+      "prefix sum array",
+      "2D DP table (space optimized)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with prefix sums and space optimization using modulo for turns."
+  ],
+  "problem_summary_simple": "Alice and Bob take turns removing stones, scoring sum of remaining. Maximize score difference.",
+  "problem_summary_technical": "2D DP on stone ranges, optimized to 1D. Score is sum of remaining stones after removal.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This is a zero-sum game where Alice maximizes and Bob minimizes the score difference.",
+      "The score obtained by removing a stone is the sum of the remaining stones.",
+      "Prefix sums are essential for calculating the sum of remaining stones efficiently."
+    ],
+    [
+      "The DP state `dp[i][j]` represents the maximum score difference for stones from `i` to `j`.",
+      "The DP transition considers removing either the left or right stone and recursively solving the subproblem.",
+      "Space optimization is achieved by noticing that the current DP row only depends on the previous row."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

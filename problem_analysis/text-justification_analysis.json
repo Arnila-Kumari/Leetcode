@@ -1,0 +1,32 @@
+{
+  "problem_name": "text-justification",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy word packing with custom space distribution logic."
+  ],
+  "problem_summary_simple": "Format text into lines of fixed width, justifying each line with even spaces.",
+  "problem_summary_technical": "Greedy approach to pack words per line, distributing spaces evenly, with special handling for the last line.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is distributing spaces evenly, prioritizing left side for extra spaces.",
+      "The last line is a special case, requiring left justification.",
+      "A greedy approach of packing as many words as possible per line is optimal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "binary-watch",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Brute-force iteration through all possible hours and minutes, checking bit counts",
+    "Iterating through all possible hour and minute combinations and counting set bits in their binary representations"
+  ],
+  "problem_summary_simple": "Find all possible times on a binary watch given a certain number of LEDs are turned on.",
+  "problem_summary_technical": "Iterates through all 12 hours and 60 minutes, checking if the sum of set bits in hour and minute equals the target.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through all possible hour (0-11) and minute (0-59) combinations.",
+      "A helper function to count set bits (e.g., `bit_count`) is needed.",
+      "The total number of set bits for the hour and minute must equal `num`."
+    ],
+    [
+      "This solution uses Python's built-in `bin()` and `count('1')` for bit counting.",
+      "String formatting (`zfill(2)`) ensures minutes are displayed with leading zeros.",
+      "The constraint on the number of LEDs (`num`) limits the search space effectively."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "spiral-matrix-ii",
+  "data_structures": [
+    [
+      "2D array (matrix)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Boundary traversal with four pointers"
+  ],
+  "problem_summary_simple": "Generate an n x n matrix filled with numbers 1 to n^2 in a clockwise spiral pattern.",
+  "problem_summary_technical": "Utilizes four boundary pointers (left, right, top, bottom) to fill a 2D matrix iteratively in a spiral fashion.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to simulate the spiral movement by shrinking the boundaries.",
+      "Maintain four pointers to track the current layer's boundaries.",
+      "Carefully handle the loop conditions to avoid overwriting or missing elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

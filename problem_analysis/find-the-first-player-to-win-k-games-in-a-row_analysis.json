@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-first-player-to-win-k-games-in-a-row",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Simulate the game process, tracking the current winner and their consecutive wins."
+  ],
+  "problem_summary_simple": "Find the player who wins k consecutive games in a competition.",
+  "problem_summary_technical": "Simulate the queue-based competition, updating the winner and their streak based on skill comparisons.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The player with the highest skill will eventually reach the front and stay there if k is large enough.",
+      "We only need to track the current 'champion' and their consecutive wins.",
+      "The simulation can stop as soon as a player achieves k consecutive wins."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

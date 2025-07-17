@@ -1,0 +1,31 @@
+{
+  "problem_name": "array-transformation",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "simulation with iterative updates until convergence"
+  ],
+  "problem_summary_simple": "Transform an array by changing inner elements based on neighbors until it stabilizes.",
+  "problem_summary_technical": "Simulates array transformations iteratively, updating inner elements based on local neighbor comparisons until no further changes occur.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The process is guaranteed to converge because elements either increase or decrease, and the values are bounded.",
+      "A helper function to check for any changable elements simplifies the main loop condition.",
+      "Creating a new array for each day's transformation prevents in-place modification issues."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "design-a-food-rating-system",
+  "data_structures": [
+    [
+      "dict",
+      "defaultdict(SortedList)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use dictionaries to map food to cuisine/rating and a defaultdict of SortedLists to store (negative rating, food name) for each cuisine, enabling O(1) highest rated retrieval."
+  ],
+  "problem_summary_simple": "Design a system to rate foods, change ratings, and find the highest-rated food for a cuisine.",
+  "problem_summary_technical": "Utilize hash maps for food-cuisine/rating mapping and a `SortedList` per cuisine to maintain ratings and lexicographical order for O(1) highest rated queries.",
+  "time_complexity": [
+    "ctor: O(n log n), changeRating: O(log n), highestRated: O(1)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key is to efficiently retrieve the highest-rated food for a given cuisine, considering lexicographical order for ties.",
+      "A `SortedList` (or a balanced BST) per cuisine is ideal, storing tuples of `(-rating, food_name)` to handle both rating and lexicographical sorting.",
+      "Updating a rating involves removing the old entry and adding the new one to the respective cuisine's `SortedList`, which takes O(log n) time."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "ways-to-split-array-into-good-subarrays",
+  "data_structures": [
+    [
+      "integer variables for result, previous '1' index"
+    ]
+  ],
+  "category": "Combinatorics",
+  "algorithm_technique": [
+    "Iterate through the array, find indices of '1's. The number of ways to split is the product of distances between consecutive '1's."
+  ],
+  "problem_summary_simple": "Count ways to split a binary array into subarrays, each with exactly one '1'.",
+  "problem_summary_technical": "Iterate through the binary array. For each '1', calculate the distance to the previous '1'. Multiply these distances modulo 10^9 + 7 to get the number of splits.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A 'good' subarray must contain exactly one '1'.",
+      "The problem reduces to finding the number of ways to place splits between consecutive '1's.",
+      "The number of ways to split between two '1's at indices `prev` and `curr` is `curr - prev`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

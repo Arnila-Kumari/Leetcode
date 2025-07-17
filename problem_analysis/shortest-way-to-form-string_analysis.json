@@ -1,0 +1,33 @@
+{
+  "problem_name": "shortest-way-to-form-string",
+  "data_structures": [
+    [
+      "2D array (lookup table)",
+      "Array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Precompute next occurrence of each character in source for efficient subsequence matching.",
+    "Greedily match longest possible subsequences from source to target."
+  ],
+  "problem_summary_simple": "Find the minimum number of subsequences of 'source' that concatenate to form 'target'.",
+  "problem_summary_technical": "Use a precomputed lookup table to find the next occurrence of a character in 'source' to greedily form subsequences of 'target'.",
+  "time_complexity": [
+    "O(M + N)"
+  ],
+  "space_complexity": [
+    "O(M)"
+  ],
+  "key_insights": [
+    [
+      "A greedy approach works by taking the longest possible subsequence from 'source' at each step.",
+      "Precomputing character positions in 'source' significantly speeds up subsequence matching.",
+      "If a character in 'target' is not present in 'source', it's impossible to form the string."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

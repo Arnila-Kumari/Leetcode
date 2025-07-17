@@ -1,0 +1,32 @@
+{
+  "problem_name": "sentence-similarity-ii",
+  "data_structures": [
+    [
+      "hashmap",
+      "UnionFind data structure"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Use Union-Find to group similar words, then check if corresponding words belong to the same group."
+  ],
+  "problem_summary_simple": "Check sentence similarity where word similarity is transitive.",
+  "problem_summary_technical": "Model word similarity as a graph and use Union-Find to determine connectivity between words.",
+  "time_complexity": [
+    "O(n + p)"
+  ],
+  "space_complexity": [
+    "O(p)"
+  ],
+  "key_insights": [
+    [
+      "Transitive similarity implies grouping words into connected components.",
+      "Union-Find is the ideal data structure for managing these connected components efficiently.",
+      "Mapping words to integer indices is necessary for the Union-Find implementation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

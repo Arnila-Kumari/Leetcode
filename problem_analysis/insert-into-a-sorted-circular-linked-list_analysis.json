@@ -1,0 +1,31 @@
+{
+  "problem_name": "insert-into-a-sorted-circular-linked-list",
+  "data_structures": [
+    [
+      "circular linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Traverse the circular list to find the correct insertion point based on value comparisons and wrap-around cases."
+  ],
+  "problem_summary_simple": "Insert a value into a sorted circular linked list while maintaining sorted order.",
+  "problem_summary_technical": "Insert a value into a sorted circular linked list by finding the correct position considering value order and list wrap-around.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Handle the edge case of an empty list by creating a new circular list.",
+      "The insertion logic needs to consider three main scenarios: inserting between two nodes with increasing values, inserting at the wrap-around point (max to min), and inserting when all values are the same.",
+      "The traversal must eventually return to the starting node to ensure all possibilities are checked."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

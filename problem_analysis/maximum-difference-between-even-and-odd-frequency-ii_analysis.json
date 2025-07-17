@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-difference-between-even-and-odd-frequency-ii",
+  "data_structures": [
+    [
+      "string",
+      "prefix sum arrays",
+      "lookup set"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with prefix sums and parity tracking"
+  ],
+  "problem_summary_simple": "Find max freq[a] - freq[b] in a substring of size >= k, where a has odd freq, b has even freq.",
+  "problem_summary_technical": "Uses prefix sums to calculate character counts and their parity within sliding windows of size k, optimizing difference calculation.",
+  "time_complexity": [
+    "O(d^2 * n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking all possible pairs of characters (d^2).",
+      "Prefix sums are used to efficiently calculate character counts within any substring.",
+      "The sliding window approach, combined with parity tracking (mn[i][j]), optimizes finding the best substring for each character pair."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

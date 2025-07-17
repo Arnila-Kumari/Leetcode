@@ -1,0 +1,41 @@
+{
+  "problem_name": "count-primes",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Optimized Sieve of Eratosthenes by only considering odd numbers.",
+    "Linear Sieve of Eratosthenes for prime generation."
+  ],
+  "problem_summary_simple": "Count the number of prime numbers strictly less than a given integer n.",
+  "problem_summary_technical": "Applies the Sieve of Eratosthenes, optimizing by only checking odd numbers and using a boolean array to mark non-primes.",
+  "time_complexity": [
+    "O(n log log n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The Sieve of Eratosthenes is the standard efficient algorithm for prime counting.",
+      "Optimization by skipping even numbers (except 2) significantly reduces computations.",
+      "The constraint `i * i >= n` is a key optimization for the sieve."
+    ],
+    [
+      "Linear sieve ensures each composite number is marked by its smallest prime factor.",
+      "This approach is more complex but achieves linear time complexity."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

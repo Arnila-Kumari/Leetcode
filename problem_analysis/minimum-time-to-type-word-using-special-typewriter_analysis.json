@@ -1,0 +1,36 @@
+{
+  "problem_name": "minimum-time-to-type-word-using-special-typewriter",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach calculating minimum moves between characters"
+  ],
+  "problem_summary_simple": "Calculate the minimum time to type a word on a circular typewriter, considering pointer movement and typing time.",
+  "problem_summary_technical": "Greedily calculate the shortest distance (clockwise or counterclockwise) between consecutive characters and add typing time.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by always choosing the shortest path between consecutive characters on the circular keyboard.",
+      "The time to type a character is always 1 second.",
+      "The distance between two characters on a circular keyboard of 26 letters is `min(abs(char1 - char2), 26 - abs(char1 - char2))`."
+    ],
+    [
+      "The initial movement from 'a' to the first character is a separate calculation.",
+      "The modulo operator `% 26` is essential for handling circular distances correctly.",
+      "The solution iterates through the word once, making it linear in time complexity."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:00:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

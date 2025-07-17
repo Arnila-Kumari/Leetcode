@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-increment-to-make-array-unique",
+  "data_structures": [
+    [
+      "list",
+      "float('inf')"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the array and iterate, keeping track of duplicates and required increments."
+  ],
+  "problem_summary_simple": "Increment array elements to make them all unique with minimum total increments.",
+  "problem_summary_technical": "Sort array, use a counter for duplicates, and calculate increments greedily based on gaps.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting is crucial to efficiently identify consecutive duplicates.",
+      "A greedy approach works by filling gaps and handling duplicates sequentially.",
+      "The `float('inf')` sentinel simplifies boundary condition handling."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

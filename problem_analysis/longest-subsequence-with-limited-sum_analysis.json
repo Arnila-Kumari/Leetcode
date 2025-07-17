@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-subsequence-with-limited-sum",
+  "data_structures": [
+    [
+      "sorted array",
+      "binary search (bisect_right)"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Greedy approach with sorting and binary search"
+  ],
+  "problem_summary_simple": "For each query, find the maximum size of a subsequence from nums whose sum is less than or equal to the query value.",
+  "problem_summary_technical": "Sort `nums`, compute prefix sums, and use binary search (bisect_right) to find the largest prefix sum less than or equal to each query.",
+  "time_complexity": [
+    "O(nlogn + qlogn), where n is length of nums and q is length of queries"
+  ],
+  "space_complexity": [
+    "O(1) if modifying nums in-place, O(n) if creating a new prefix sum array"
+  ],
+  "key_insights": [
+    [
+      "To maximize the size of the subsequence for a given sum limit, we should always pick the smallest elements first (greedy approach).",
+      "Sorting `nums` allows us to efficiently calculate prefix sums, representing the minimum sum for a subsequence of a given size.",
+      "Binary search on the prefix sums array allows for efficient lookup of the maximum subsequence size for each query."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

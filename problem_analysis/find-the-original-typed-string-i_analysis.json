@@ -1,0 +1,41 @@
+{
+  "problem_name": "find-the-original-typed-string-i",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate and count consecutive identical characters, sum differences.",
+    "Iterate and count consecutive identical characters, sum (count-1)."
+  ],
+  "problem_summary_simple": "Count possible original strings Alice could have typed, allowing at most one character to be repeated.",
+  "problem_summary_technical": "Count contiguous blocks of identical characters. For each block of size `c`, `c-1` additional strings are possible. Sum these.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of possible strings is `n` minus the number of adjacent character changes.",
+      "This can be solved by counting the number of times `word[i] != word[i+1]`."
+    ],
+    [
+      "Iterate through the string, maintaining a count of consecutive identical characters.",
+      "When a character changes or the string ends, add `count - 1` to the total.",
+      "The initial string itself is always one possibility."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

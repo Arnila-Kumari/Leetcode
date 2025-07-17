@@ -1,0 +1,34 @@
+{
+  "problem_name": "number-of-good-paths",
+  "data_structures": [
+    [
+      "UnionFind",
+      "collections.Counter",
+      "adjacency list (implicit)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Sort edges by maximum node value, then use Union-Find to merge components and count good paths.",
+    "Iterate through nodes by value, using Union-Find to connect nodes with smaller or equal values."
+  ],
+  "problem_summary_simple": "Count paths in a tree where start/end nodes have the same value, and intermediate nodes have smaller or equal values.",
+  "problem_summary_technical": "Sorts edges by max node value, then uses Union-Find to merge connected components of nodes with equal values, counting paths.",
+  "time_complexity": [
+    "O(n log n) due to sorting edges"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The condition that intermediate nodes must have values less than or equal to the start/end nodes suggests processing nodes in increasing order of their values.",
+      "Union-Find is a suitable data structure to manage connected components of nodes with the same value.",
+      "When merging two components, if they share nodes of the maximum value, new good paths are formed."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:02:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

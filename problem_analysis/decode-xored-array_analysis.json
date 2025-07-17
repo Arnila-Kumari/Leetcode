@@ -1,0 +1,32 @@
+{
+  "problem_name": "decode-xored-array",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterative reconstruction using XOR properties: a ^ b = c implies a ^ c = b."
+  ],
+  "problem_summary_simple": "Reconstruct an original array given its XOR-encoded version and the first element.",
+  "problem_summary_technical": "Use the property that arr[i+1] = encoded[i] XOR arr[i] to iteratively reconstruct the original array from the first element and encoded array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea relies on the property of XOR: if `a XOR b = c`, then `a XOR c = b`.",
+      "Given `encoded[i] = arr[i] XOR arr[i+1]`, we can find `arr[i+1]` by `arr[i+1] = encoded[i] XOR arr[i]`.",
+      "Starting with `arr[0]` (the `first` element), we can iteratively compute all subsequent elements of `arr`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

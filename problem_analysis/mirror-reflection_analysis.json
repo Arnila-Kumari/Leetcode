@@ -1,0 +1,38 @@
+{
+  "problem_name": "mirror-reflection",
+  "data_structures": [
+    [],
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Bitwise operations to detect parity of powers of 2",
+    "Greatest Common Divisor (GCD) and Least Common Multiple (LCM) to find the first intersection point"
+  ],
+  "problem_summary_simple": "Determine which receptor a laser hits first in a square room with mirrors.",
+  "problem_summary_technical": "Analyze the laser's path by unfolding the reflections; determine receptor based on parity of path segments and relative positions.",
+  "time_complexity": [
+    "O(1)",
+    "O(log(max(p, q)))"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be simplified by 'unfolding' the room and tracking the laser's straight path.",
+      "The key is to find the smallest common multiple of p and q to determine the first return to a corner.",
+      "Parity of the number of reflections determines which wall the laser hits."
+    ],
+    [
+      "The laser's path can be visualized as a straight line on an infinite grid formed by unfolding the room.",
+      "The first time the laser hits a receptor corresponds to the smallest multiple of p and q where the path aligns with a receptor.",
+      "GCD and LCM are crucial for finding this alignment point."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "earliest-second-to-mark-indices-ii",
+  "data_structures": [
+    [
+      "array",
+      "hashmap/lookup table",
+      "min-heap"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "binary search on time, greedy check with heap"
+  ],
+  "problem_summary_simple": "Find the earliest time all indices are marked, with options to set to zero, decrement, or mark.",
+  "problem_summary_technical": "Binary search on time; check function uses a heap to greedily assign 'set to zero' operations to minimize remaining decrements.",
+  "time_complexity": [
+    "O((m + n log n) * log m)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Similar to the first version, binary search on the answer (time) is applicable due to monotonicity.",
+      "The `check` function is more complex: it uses a min-heap to track the `nums` values that need to be decremented.",
+      "The greedy strategy in `check` is to use the 'set to zero' operation (from `changeIndices`) on the largest `nums` values first, minimizing the total decrements needed."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:41:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

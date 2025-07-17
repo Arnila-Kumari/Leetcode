@@ -1,0 +1,35 @@
+{
+  "problem_name": "maximum-number-of-words-you-can-type",
+  "data_structures": [
+    [
+      "set",
+      "boolean flag"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through text, track broken words using a set for broken letters."
+  ],
+  "problem_summary_simple": "Count words in a text that can be typed with a keyboard missing some letters.",
+  "problem_summary_technical": "Iterate through text, using a set for broken letters to identify and count typeable words.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Using a set for brokenLetters provides O(1) average time complexity for lookups.",
+      "A boolean flag efficiently tracks if the current word is broken."
+    ],
+    [
+      "The solution processes the text character by character, making it linear.",
+      "Edge cases like the last word are handled by checking the flag after the loop."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:53:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

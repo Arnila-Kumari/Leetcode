@@ -1,0 +1,32 @@
+{
+  "problem_name": "widest-vertical-area-between-two-points-containing-no-points",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sort x-coordinates and find max difference between adjacent elements."
+  ],
+  "problem_summary_simple": "Find the widest vertical strip between points that doesn't contain any other points.",
+  "problem_summary_technical": "Sort unique x-coordinates and compute the maximum difference between consecutive sorted x-values.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The y-coordinates are irrelevant for determining the width of vertical areas.",
+      "Sorting the x-coordinates allows for a simple linear scan to find the maximum gap.",
+      "Using a set to store x-coordinates automatically handles duplicates."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:14:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-products-of-elements-of-big-array",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "binary search, combinatorics, bit manipulation, modular exponentiation"
+  ],
+  "problem_summary_simple": "Calculate the product of elements in a range of a special array modulo a given number.",
+  "problem_summary_technical": "Involves calculating the count of set bits and their positions in numbers up to a certain value, then using modular exponentiation for the product.",
+  "time_complexity": [
+    "O(q * (log R)^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Understanding the 'powerful array' construction based on binary representation is essential.",
+      "The problem reduces to counting powers of 2 within ranges, which can be done combinatorially.",
+      "Binary search is used to find the number of elements up to a certain value, and modular exponentiation for the final product."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:43:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

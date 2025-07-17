@@ -1,0 +1,32 @@
+{
+  "problem_name": "shortest-distance-to-a-character",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two-pass approach: first pass from left to right, second pass from right to left, tracking the closest character."
+  ],
+  "problem_summary_simple": "Find the distance from each character in a string to the nearest occurrence of a target character.",
+  "problem_summary_technical": "Two passes over the string. Left-to-right pass finds distances to the nearest preceding target character. Right-to-left pass updates with the nearest succeeding character.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The shortest distance to a character 'c' for any index 'i' is the minimum of the distance to the nearest 'c' on its left and the nearest 'c' on its right.",
+      "A single pass from left to right can find the distance to the nearest 'c' on the left.",
+      "A second pass from right to left can find the distance to the nearest 'c' on the right, and the minimum of the two passes gives the final answer."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

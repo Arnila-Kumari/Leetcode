@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-all-k-distant-indices-in-an-array",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Iterate through array, find key occurrences, and mark k-distant indices",
+    "Two pointers to manage the range of k-distant indices"
+  ],
+  "problem_summary_simple": "Find indices that are within distance k of any index containing the 'key' value.",
+  "problem_summary_technical": "Iterate through the array, find occurrences of 'key', and mark all indices within k distance.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding indices `i` such that `|i - j| <= k` for some `j` where `nums[j] == key`.",
+      "Iterate through the array to find all indices `j` where `nums[j] == key`.",
+      "For each such `j`, all indices from `max(0, j-k)` to `min(n-1, j+k)` are k-distant indices.",
+      "A two-pointer approach can efficiently manage the output range to avoid duplicates and maintain sorted order."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

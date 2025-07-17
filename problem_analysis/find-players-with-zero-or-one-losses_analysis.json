@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-players-with-zero-or-one-losses",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "hash map to count losses, set to track all players, then filter"
+  ],
+  "problem_summary_simple": "Find players with no losses and players with exactly one loss from match results.",
+  "problem_summary_technical": "Uses a hash map to count losses per player and a set to store all unique players, then filters based on loss counts.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "A hash map (defaultdict) is efficient for counting occurrences (losses).",
+      "A set is useful for storing unique players encountered.",
+      "Sorting the final lists is required by the problem statement."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

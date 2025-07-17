@@ -1,0 +1,31 @@
+{
+  "problem_name": "guess-number-higher-or-lower",
+  "data_structures": [
+    [
+      "binary search"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search to efficiently find the target number within a given range."
+  ],
+  "problem_summary_simple": "Find a hidden number between 1 and n by making guesses and receiving higher/lower feedback.",
+  "problem_summary_technical": "Applies binary search on the range [1, n] to find the picked number, using the `guess` API for feedback.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a classic application of binary search due to the ordered nature of the search space and the feedback provided.",
+      "The `guess` API's return values (-1, 1, 0) directly map to adjusting the search range in binary search.",
+      "Careful handling of `left` and `right` pointers is crucial to avoid infinite loops and ensure correctness."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-relative-loss-after-buying-chocolates",
+  "data_structures": [
+    [
+      "list",
+      "prefix sum array",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort prices. For each query, use binary search to find the optimal split point for Bob's payment."
+  ],
+  "problem_summary_simple": "Minimize Bob's loss (Bob's payment - Alice's payment) by selecting chocolates for each query.",
+  "problem_summary_technical": "Sort prices. For each query (k, m), binary search for the count of chocolates Bob pays full price for.",
+  "time_complexity": [
+    "O((n + q) * log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the prices is essential to apply a greedy strategy.",
+      "The problem can be reframed as finding the optimal number of chocolates Bob pays the full price for.",
+      "Prefix sums help efficiently calculate the total cost for Bob and Alice."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

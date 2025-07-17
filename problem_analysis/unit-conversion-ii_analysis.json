@@ -1,0 +1,33 @@
+{
+  "problem_name": "unit-conversion-ii",
+  "data_structures": [
+    [
+      "list of lists",
+      "queue",
+      "hashmap"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Precompute conversion factors from unit 0 to all other units using BFS, then use modular inverse for division in queries."
+  ],
+  "problem_summary_simple": "Calculate unit conversions between any two types, returning results as modular multiplicative inverses.",
+  "problem_summary_technical": "Uses BFS to establish base conversions from unit 0, then modular inverse and division for arbitrary query conversions.",
+  "time_complexity": [
+    "O(n + qlogm)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires handling both forward and inverse conversions, which can be achieved using modular multiplicative inverse.",
+      "Pre-calculating conversions from a base unit (unit 0) simplifies query processing.",
+      "Fermat's Little Theorem is used for efficient modular inverse calculation (pow(b, MOD-2, MOD))."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

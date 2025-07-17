@@ -1,0 +1,33 @@
+{
+  "problem_name": "incremental-memory-leak",
+  "data_structures": [
+    [
+      "integer",
+      "integer",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Mathematical derivation to find crash time and remaining memory using arithmetic series formulas."
+  ],
+  "problem_summary_simple": "Simulate memory allocation until a crash, returning crash time and remaining memory.",
+  "problem_summary_technical": "Simulate memory allocation with increasing consumption, using arithmetic series formulas to optimize calculation of memory used and crash time.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved mathematically by analyzing the memory consumption as an arithmetic progression.",
+      "The core idea is to find the point where the cumulative memory allocation exceeds available memory.",
+      "Formulas for sum of arithmetic series are crucial for an O(1) solution."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "guess-the-majority-in-a-hidden-array",
+  "data_structures": [
+    [
+      "API (ArrayReader)"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Strategic querying of the ArrayReader API to deduce element values and majority.",
+    "Bit manipulation to represent query results and infer element values."
+  ],
+  "problem_summary_simple": "Find the majority element (0 or 1) in a hidden array using a query API, returning -1 for ties.",
+  "problem_summary_technical": "Uses `query` API calls to deduce element values and counts, employing bit manipulation for efficient comparison and majority determination.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The `query` API's return values (0, 2, 4) provide information about the distribution of 0s and 1s within a group of four.",
+      "By strategically querying overlapping groups, we can infer the value of individual elements.",
+      "The problem can be solved by first identifying the value of a few elements and then counting occurrences of that value."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "smallest-value-after-replacing-with-sum-of-prime-factors",
+  "data_structures": [
+    [
+      "list",
+      "array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "number theory, simulation, sieve of Eratosthenes"
+  ],
+  "problem_summary_simple": "Repeatedly replace a number with the sum of its prime factors until it stops changing.",
+  "problem_summary_technical": "Simulates the process by repeatedly finding prime factors and summing them. Uses a precomputed sieve for efficient prime factorization.",
+  "time_complexity": [
+    "O(s * sqrt(n))"
+  ],
+  "space_complexity": [
+    "O(sqrt(MAX_N))"
+  ],
+  "key_insights": [
+    [
+      "The process is guaranteed to converge because the sum of prime factors is generally smaller than the number itself.",
+      "Pre-computing primes up to sqrt(MAX_N) using a sieve optimizes factorization.",
+      "Handle the case where the remaining number after division is a prime factor itself."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

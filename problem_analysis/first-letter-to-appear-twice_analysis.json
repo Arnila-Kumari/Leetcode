@@ -1,0 +1,32 @@
+{
+  "problem_name": "first-letter-to-appear-twice",
+  "data_structures": [
+    [
+      "set",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the string, using a hash set to track seen characters. Return the first character found again."
+  ],
+  "problem_summary_simple": "Find the first character that appears for the second time in a string.",
+  "problem_summary_technical": "Utilizes a hash set for O(1) average time lookups to detect the first repeated character in a string.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A hash set (or frequency map) is efficient for tracking seen characters.",
+      "The problem asks for the *first* character to appear twice, so early exit is key.",
+      "The constraint of lowercase English letters means the set size is bounded."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

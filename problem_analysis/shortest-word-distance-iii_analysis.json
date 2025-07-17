@@ -1,0 +1,32 @@
+{
+  "problem_name": "shortest-word-distance-iii",
+  "data_structures": [
+    [
+      "Array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Single pass, similar to shortest word distance I, but handles cases where word1 and word2 are the same.",
+    "When words are the same, track the previous occurrence and update distance."
+  ],
+  "problem_summary_simple": "Find the shortest distance between two words, which can be the same word.",
+  "problem_summary_technical": "Single pass through the array, tracking indices of word1 and word2. Special handling for identical words to find distance between consecutive occurrences.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core logic is similar to the previous problem, but needs to account for identical words.",
+      "When `word1 == word2`, the distance is between consecutive occurrences of that word.",
+      "A flag `is_same` simplifies the conditional logic for handling identical words."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

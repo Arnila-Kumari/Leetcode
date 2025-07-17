@@ -1,0 +1,47 @@
+{
+  "problem_name": "sort-vowels-in-a-string",
+  "data_structures": [
+    [
+      "string",
+      "set",
+      "list"
+    ],
+    [
+      "string",
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Counting sort for vowels and in-place modification",
+    "Standard sorting for vowels and string reconstruction"
+  ],
+  "problem_summary_simple": "Sort only the vowels in a string alphabetically, keeping consonants in place.",
+  "problem_summary_technical": "Extract vowels, sort them by ASCII value, and reinsert them into their original positions while preserving consonants.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires preserving consonant positions and sorting only vowels.",
+      "A two-pass approach is natural: first collect vowels, then place them back.",
+      "Counting sort is optimal for sorting vowels due to their limited character set.",
+      "The provided counting sort implementation is in-place but unstable, which is acceptable here as vowel order is determined by ASCII value."
+    ],
+    [
+      "A simpler approach uses standard sorting for vowels.",
+      "This involves extracting vowels, sorting them, and then iterating through the original string to reconstruct it.",
+      "While O(n log n) due to sorting, it's often easier to implement than custom counting sort."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

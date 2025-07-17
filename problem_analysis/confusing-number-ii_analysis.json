@@ -1,0 +1,32 @@
+{
+  "problem_name": "confusing-number-ii",
+  "data_structures": [
+    [
+      "dictionary",
+      "set"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Digit DP with precomputed counts and careful boundary handling"
+  ],
+  "problem_summary_simple": "Count numbers up to n that look different when rotated 180 degrees.",
+  "problem_summary_technical": "Digit DP to count numbers with valid digits, subtracting unconfusing numbers based on length and prefix.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(log n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to count all numbers formed by valid digits and subtract those that are not confusing.",
+      "Digit DP is suitable for counting numbers within a range based on digit properties.",
+      "Careful handling of leading zeros and the middle digit for odd-length numbers is crucial."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:35:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

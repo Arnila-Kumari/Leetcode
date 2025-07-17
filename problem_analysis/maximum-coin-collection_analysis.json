@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-coin-collection",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with state representing current lane and number of switches."
+  ],
+  "problem_summary_simple": "Maximize coins by driving on two lanes with at most two lane switches.",
+  "problem_summary_technical": "DP states track max coins ending in lane 1, lane 2 after 1 switch, and lane 1 after 2 switches.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The constraint on lane switches (at most 2) suggests a DP approach where states track the number of switches.",
+      "The DP states can be simplified to track the maximum coins ending in lane 1, lane 2 (after 1 switch), and lane 1 (after 2 switches).",
+      "The base case for DP should consider starting with 0 coins and then accumulating based on lane choices."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

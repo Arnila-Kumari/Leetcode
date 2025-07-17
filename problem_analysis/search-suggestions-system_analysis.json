@@ -1,0 +1,56 @@
+{
+  "problem_name": "search-suggestions-system",
+  "data_structures": [
+    [
+      "Trie",
+      "list"
+    ],
+    [
+      "Trie",
+      "list"
+    ],
+    [
+      "list",
+      "bisect module"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Trie construction and traversal to find matching prefixes and their top 3 lexicographically smallest products.",
+    "Trie construction with sorted product indices and traversal. Sorting products initially is key.",
+    "Sorting products and using binary search (bisect) to find prefixes, then filtering subsequent products."
+  ],
+  "problem_summary_simple": "Suggest up to three products with a common prefix as a user types a search word.",
+  "problem_summary_technical": "Utilize Tries or sorted lists with binary search to efficiently find and rank product suggestions based on prefixes.",
+  "time_complexity": [
+    "ctor: O(N*L), suggest: O(L^2) where N is products count, L is avg product length.",
+    "ctor: O(N*L*log(N*L)), suggest: O(L^2) where N is products count, L is avg product length.",
+    "ctor: O(N*L*log(N*L)), suggest: O(L^2 * N) in worst case filtering."
+  ],
+  "space_complexity": [
+    "O(T) where T is total characters in products for Trie.",
+    "O(T) where T is total characters in products for Trie.",
+    "O(N*L) for storing products and intermediate results."
+  ],
+  "key_insights": [
+    [
+      "Tries are ideal for prefix-based searches. Storing indices and sorting them within Trie nodes helps maintain order.",
+      "The `add_info` method in the Trie node efficiently keeps track of the top 3 relevant product indices.",
+      "The `map` function is used to convert indices back to product strings."
+    ],
+    [
+      "Sorting products upfront simplifies the Trie insertion and retrieval process.",
+      "The `TrieNode2` approach directly stores indices and relies on the pre-sorted nature of `products`.",
+      "This solution is cleaner if the initial sort is acceptable."
+    ],
+    [
+      "Sorting the `products` array is a prerequisite for efficient prefix matching using `bisect`.",
+      "The `bisect_left` function finds the starting point for potential matches.",
+      "The inner loop iterates through potential matches, filtering based on the current character of `searchWord`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

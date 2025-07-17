@@ -1,0 +1,38 @@
+{
+  "problem_name": "minimum-time-to-remove-all-cars-containing-illegal-goods",
+  "data_structures": [
+    [
+      "string"
+    ],
+    [
+      "string",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP approach considering removing from left, right, or middle.",
+    "Two DP passes: one from left, one from right, then combine."
+  ],
+  "problem_summary_simple": "Find the minimum time to remove all '1's from a binary string using three operations.",
+  "problem_summary_technical": "DP or greedy approach considering operations: remove from left (1 cost), right (1 cost), or middle (2 cost).",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down by considering the first and last '1' encountered.",
+      "The optimal strategy involves removing '1's from the ends or the middle.",
+      "The DP state can represent the minimum cost to clear a prefix or suffix, or the minimum cost to clear up to a certain point considering operations from both ends."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

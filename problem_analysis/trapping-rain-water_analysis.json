@@ -1,0 +1,66 @@
+{
+  "problem_name": "trapping-rain-water",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ],
+    [
+      "array",
+      "array"
+    ],
+    [
+      "array",
+      "stack"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers moving inwards, tracking the maximum height encountered from each side.",
+    "Find the global maximum, then two separate passes from the ends towards the maximum.",
+    "Precompute maximum heights from the left and right for each position.",
+    "Use a monotonic stack to keep track of potential boundaries for trapping water."
+  ],
+  "problem_summary_simple": "Calculate the amount of water trapped between bars of varying heights.",
+  "problem_summary_technical": "Water trapped at an index is determined by the minimum of the maximum height to its left and right, minus its own height.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The two-pointer approach is optimal for space complexity by avoiding extra storage.",
+      "The amount of water at any point is limited by the shorter of the two surrounding walls.",
+      "The stack-based approach efficiently identifies the boundaries of water-trapping depressions."
+    ],
+    [
+      "The two-pointer approach is optimal for space complexity by avoiding extra storage.",
+      "The amount of water at any point is limited by the shorter of the two surrounding walls.",
+      "The stack-based approach efficiently identifies the boundaries of water-trapping depressions."
+    ],
+    [
+      "Pre-calculating left and right maximums allows for a single pass to compute trapped water.",
+      "This approach uses O(n) space but simplifies the logic compared to some O(1) space methods.",
+      "The `max(min(left, right[i])-height[i], 0)` formula is key."
+    ],
+    [
+      "The monotonic stack stores indices of bars in increasing order of height.",
+      "When a taller bar is encountered, it can form a 'container' with a previous bar on the stack.",
+      "The width of the trapped water is determined by the distance between the current bar and the next bar on the stack."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

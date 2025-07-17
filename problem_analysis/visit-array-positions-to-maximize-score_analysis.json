@@ -1,0 +1,31 @@
+{
+  "problem_name": "visit-array-positions-to-maximize-score",
+  "data_structures": [
+    [
+      "array (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to track max score ending with even/odd parity."
+  ],
+  "problem_summary_simple": "Maximize score by visiting array positions, losing points for parity changes between adjacent visited elements.",
+  "problem_summary_technical": "DP state `dp[parity]` stores max score ending with that parity. Transition considers previous parity and penalty `x`.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved with DP by considering the parity of the last visited number.",
+      "The state transition depends on the current number's parity and the previous state's parity, with a penalty for differing parities.",
+      "The initial state is set based on the first element's value and parity."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

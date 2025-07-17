@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-matrix-sum",
+  "data_structures": [
+    [
+      "variables for sum, min absolute value, and negative count"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate the sum of absolute values of all elements. Determine if the number of negative elements is even or odd. Adjust sum based on the smallest absolute value if odd."
+  ],
+  "problem_summary_simple": "Maximize the sum of matrix elements by flipping signs of adjacent elements.",
+  "problem_summary_technical": "The operation allows flipping signs of adjacent elements. This means we can flip the sign of any element an even number of times. The goal is to make all elements positive.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core insight is that any pair of adjacent flips can be thought of as moving a sign flip across the matrix. Effectively, we can flip the sign of any element.",
+      "To maximize the sum, we want all elements to be positive. The sum of absolute values is the maximum possible if we can achieve this.",
+      "If the total number of negative elements is even, we can pair them up and flip their signs to positive, achieving the sum of absolute values. If odd, we must leave one element negative. To maximize the sum, we leave the element with the smallest absolute value negative."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

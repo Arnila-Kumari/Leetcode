@@ -1,0 +1,44 @@
+{
+  "problem_name": "bold-words-in-string",
+  "data_structures": [
+    [
+      "Array",
+      "Trie"
+    ],
+    [
+      "Array",
+      "String Searching"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Use a Trie to efficiently find all occurrences of keywords and mark them for bolding.",
+    "Iterate through the string and use string searching (e.g., find) to mark keyword occurrences."
+  ],
+  "problem_summary_simple": "Bold all occurrences of keywords in a string, merging overlapping bolded sections.",
+  "problem_summary_technical": "Uses a Trie or string searching to identify all substrings matching keywords, then merges overlapping intervals to apply bold tags minimally.",
+  "time_complexity": [
+    "O(n * l)",
+    "O(n * d * l)"
+  ],
+  "space_complexity": [
+    "O(t)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires identifying all substrings that match any of the given words.",
+      "A Trie is an efficient data structure for searching multiple patterns simultaneously.",
+      "After marking all occurrences, merging overlapping intervals is key to minimizing tags."
+    ],
+    [
+      "A simpler approach involves iterating through each word and finding its occurrences in the string.",
+      "A boolean array can track which characters should be bolded.",
+      "Merging consecutive bolded segments is necessary to produce the minimal tag output."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

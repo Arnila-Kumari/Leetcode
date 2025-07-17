@@ -1,0 +1,92 @@
+{
+  "problem_name": "minimum-incompatibility",
+  "data_structures": [
+    [
+      "array",
+      "list",
+      "hashmap",
+      "set",
+      "tuple"
+    ],
+    [
+      "array",
+      "list",
+      "hashmap",
+      "set",
+      "tuple"
+    ],
+    [
+      "array",
+      "list",
+      "hashmap",
+      "set",
+      "tuple"
+    ],
+    [
+      "array",
+      "list",
+      "hashmap",
+      "set",
+      "tuple"
+    ],
+    [
+      "array",
+      "list",
+      "hashmap",
+      "set",
+      "tuple"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with memoization",
+    "Dynamic programming with bitmask",
+    "Greedy (incorrect)",
+    "Greedy with SkipList (incorrect)",
+    "Greedy with SkipList (incorrect)"
+  ],
+  "problem_summary_simple": "Distribute an array into k equal subsets with no duplicates in a subset, minimizing total subset incompatibility.",
+  "problem_summary_technical": "Uses backtracking with memoization or bitmask DP to explore subset combinations, calculating incompatibility (max-min) for each valid subset.",
+  "time_complexity": [
+    "O(n * 3^n)",
+    "O(max(n * 2^n, 3^n))",
+    "O(nlogn + k * n)",
+    "O(nlogn)",
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n * k)",
+    "O(2^n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The constraints (n <= 16) suggest an exponential time complexity solution, likely involving subsets or permutations.",
+      "The problem can be framed as finding valid subsets and then using DP or backtracking to combine them optimally.",
+      "The incompatibility of a subset is simply the difference between its maximum and minimum elements."
+    ],
+    [
+      "Bitmask DP is suitable for problems involving subsets of a small set.",
+      "The state `dp[mask]` can represent the minimum incompatibility for the elements represented by the `mask`.",
+      "Transitions involve iterating through submasks to form valid subsets."
+    ],
+    [
+      "Greedy approaches often fail for this type of combinatorial optimization problem.",
+      "The provided greedy solutions are incorrect and do not guarantee the optimal result."
+    ],
+    [
+      "SkipList or SortedList can optimize the greedy approach by maintaining sorted elements efficiently.",
+      "However, the fundamental greedy strategy itself is flawed for this problem."
+    ],
+    [
+      "The problem requires exploring combinations of subsets, which is inherently complex.",
+      "Backtracking or bitmask DP are the standard approaches for such problems with small constraints."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:18:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

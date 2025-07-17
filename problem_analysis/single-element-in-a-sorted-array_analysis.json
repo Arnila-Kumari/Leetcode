@@ -1,0 +1,31 @@
+{
+  "problem_name": "single-element-in-a-sorted-array",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the array, checking parity of mid and its neighbors to locate the single element."
+  ],
+  "problem_summary_simple": "Find the single unique element in a sorted array where all others appear twice.",
+  "problem_summary_technical": "Employ binary search to find the single element in O(log n) time by exploiting the paired nature of other elements.",
+  "time_complexity": [
+    "O(logn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The sorted nature and paired elements allow for binary search.",
+      "The key is to observe how the index parity relates to element pairing.",
+      "The single element breaks the pattern of pairs at even/odd indices."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

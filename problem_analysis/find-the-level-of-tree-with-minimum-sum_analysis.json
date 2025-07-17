@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-level-of-tree-with-minimum-sum",
+  "data_structures": [
+    [
+      "queue",
+      "tuple"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) to traverse levels and calculate sums."
+  ],
+  "problem_summary_simple": "Find the tree level with the smallest sum of node values.",
+  "problem_summary_technical": "Uses BFS to iterate through tree levels, calculating sum per level and tracking minimum sum with its corresponding level.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(w)"
+  ],
+  "key_insights": [
+    [
+      "BFS is ideal for level-order traversal and processing nodes level by level.",
+      "A tuple (sum, level) is used to easily find the minimum sum and its associated level, prioritizing lower levels in case of ties.",
+      "The queue stores nodes for the current level, and a new queue is built for the next level."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

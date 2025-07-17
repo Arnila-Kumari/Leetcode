@@ -1,0 +1,42 @@
+{
+  "problem_name": "time-needed-to-inform-all-employees",
+  "data_structures": [
+    [
+      "hashmap",
+      "list"
+    ],
+    [
+      "hashmap",
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Build adjacency list, then iterative DFS to find max path sum.",
+    "Build adjacency list, then recursive DFS to find max path sum."
+  ],
+  "problem_summary_simple": "Find the maximum time it takes for news to reach all employees in a company hierarchy.",
+  "problem_summary_technical": "Model company hierarchy as a tree, use DFS to find the longest path from head to any leaf, considering inform time at each node.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the longest path in a tree where edge weights are determined by parent's informTime.",
+      "Both iterative DFS (using a stack) and recursive DFS are suitable for traversing the tree and calculating path sums."
+    ],
+    [
+      "The maximum time is determined by the path from the head to the furthest employee in terms of cumulative inform time.",
+      "Building an adjacency list (children map) is crucial for efficient traversal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

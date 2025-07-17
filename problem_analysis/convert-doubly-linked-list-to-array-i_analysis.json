@@ -1,0 +1,32 @@
+{
+  "problem_name": "convert-doubly-linked-list-to-array-i",
+  "data_structures": [
+    [
+      "Doubly Linked List",
+      "Array"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterative traversal"
+  ],
+  "problem_summary_simple": "Convert a doubly linked list into an array containing its elements in order.",
+  "problem_summary_technical": "Traverse the doubly linked list from head to tail, appending each node's value to an array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a straightforward traversal of a linked list.",
+      "The `next` pointer is sufficient to iterate through the list in the correct order.",
+      "The doubly linked nature is not strictly necessary for this specific conversion, but the `next` pointer is used."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

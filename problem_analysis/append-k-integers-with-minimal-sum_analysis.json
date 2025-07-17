@@ -1,0 +1,46 @@
+{
+  "problem_name": "append-k-integers-with-minimal-sum",
+  "data_structures": [
+    [
+      "set (for unique numbers)",
+      "integer (current sum)",
+      "integer (next candidate number)"
+    ],
+    [
+      "set (for unique numbers)",
+      "integer (current sum)",
+      "integer (previous number processed)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: sort unique numbers, iterate, and append smallest missing positive integers.",
+    "Greedy approach: sort unique numbers, iterate, and append smallest missing positive integers, handling gaps."
+  ],
+  "problem_summary_simple": "Append k unique positive integers to 'nums' to minimize the total sum, and return the sum of appended integers.",
+  "problem_summary_technical": "Greedily append smallest missing positive integers, considering existing numbers and the count 'k' needed.",
+  "time_complexity": [
+    "O(N log N) due to sorting unique elements of nums",
+    "O(N log N) due to sorting unique elements of nums"
+  ],
+  "space_complexity": [
+    "O(N) for storing unique elements of nums",
+    "O(N) for storing unique elements of nums"
+  ],
+  "key_insights": [
+    [
+      "To minimize the sum, we should append the smallest available positive integers that are not already in 'nums'.",
+      "Sorting the unique elements of 'nums' allows us to efficiently find these missing integers.",
+      "We need to keep track of how many integers we still need to append ('k') and the next potential integer to append."
+    ],
+    [
+      "The strategy is to fill the gaps between existing numbers and the target 'k' with the smallest possible integers.",
+      "The sum of an arithmetic progression is used to efficiently calculate the sum of appended numbers in a contiguous block.",
+      "Handling the case where 'k' is exhausted before processing all numbers in 'nums' is crucial."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

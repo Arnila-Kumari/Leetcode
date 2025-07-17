@@ -1,0 +1,56 @@
+{
+  "problem_name": "merge-k-sorted-lists",
+  "data_structures": [
+    [
+      "linked list",
+      "heap",
+      "dummy node"
+    ],
+    [
+      "linked list",
+      "recursion",
+      "dummy node"
+    ],
+    [
+      "linked list",
+      "iterative merging",
+      "dummy node"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a min-heap to efficiently pick the smallest element from k lists.",
+    "Divide and conquer approach: recursively merge pairs of lists.",
+    "Iteratively merge lists two by two until only one remains."
+  ],
+  "problem_summary_simple": "Merge k sorted linked lists into a single sorted linked list.",
+  "problem_summary_technical": "Combine k sorted linked lists into one sorted list using a min-heap, divide and conquer, or iterative pairwise merging.",
+  "time_complexity": [
+    "O(N log k) where N is total nodes and k is number of lists.",
+    "O(N log k) where N is total nodes and k is number of lists.",
+    "O(N log k) where N is total nodes and k is number of lists."
+  ],
+  "space_complexity": [
+    "O(k) for the heap.",
+    "O(log k) for recursion stack.",
+    "O(1) if lists are modified in-place, O(k) for intermediate lists."
+  ],
+  "key_insights": [
+    [
+      "A min-heap is ideal for repeatedly finding the minimum element across multiple sorted sources.",
+      "The heap stores tuples of (value, node) to maintain order."
+    ],
+    [
+      "The divide and conquer approach breaks the problem into smaller, manageable subproblems.",
+      "Pairwise merging is a fundamental building block."
+    ],
+    [
+      "Iterative merging reduces the number of lists by half in each pass.",
+      "This approach avoids the overhead of recursion but might require more passes."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

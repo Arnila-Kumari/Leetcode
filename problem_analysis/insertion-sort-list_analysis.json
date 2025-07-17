@@ -1,0 +1,31 @@
+{
+  "problem_name": "insertion-sort-list",
+  "data_structures": [
+    [
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iteratively take nodes from the unsorted part and insert them into their correct sorted position in a new sorted list."
+  ],
+  "problem_summary_simple": "Sort a linked list using the insertion sort algorithm.",
+  "problem_summary_technical": "Implement insertion sort for a linked list by building a sorted list and inserting each node from the original list.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Insertion sort on a linked list typically involves creating a new sorted list and inserting nodes one by one.",
+      "A dummy node at the beginning of the sorted list simplifies the insertion process, especially for inserting at the head.",
+      "The algorithm requires careful pointer manipulation to detach a node from the original list and insert it into the sorted list."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

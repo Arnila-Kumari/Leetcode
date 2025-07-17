@@ -1,0 +1,31 @@
+{
+  "problem_name": "paint-house-iv",
+  "data_structures": [
+    [
+      "2D DP array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming on pairs of equidistant houses"
+  ],
+  "problem_summary_simple": "Paint houses with minimum cost such that adjacent and equidistant houses have different colors.",
+  "problem_summary_technical": "DP state: dp[i][j] = min cost for first i pairs of houses, with colors i and j for the equidistant pair.",
+  "time_complexity": [
+    "O(n * l^4)"
+  ],
+  "space_complexity": [
+    "O(l^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem constraints on equidistant houses suggest processing houses in pairs from the ends inwards.",
+      "The DP state needs to capture the colors of the two houses in the current equidistant pair.",
+      "Transitions consider all valid color combinations for the current pair based on the previous pair's colors and the problem constraints."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

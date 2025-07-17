@@ -1,0 +1,33 @@
+{
+  "problem_name": "two-sum-iv-input-is-a-bst",
+  "data_structures": [
+    [
+      "BST Iterator",
+      "two pointers",
+      "binary search tree"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Use two BST iterators (one for in-order, one for reverse in-order traversal) to simulate two pointers on a sorted sequence of BST elements."
+  ],
+  "problem_summary_simple": "Check if two nodes in a BST sum up to a given target value.",
+  "problem_summary_technical": "Employ two custom BST iterators (forward and backward) to traverse the BST like a sorted array, using a two-pointer approach.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The BST property allows for efficient traversal, similar to a sorted array.",
+      "The custom BSTIterator class enables O(1) amortized time for `next()` and `val()` operations.",
+      "The space complexity is O(h) where h is the height of the BST, due to the stack used by the iterator."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

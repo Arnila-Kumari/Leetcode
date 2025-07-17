@@ -1,0 +1,53 @@
+{
+  "problem_name": "set-mismatch",
+  "data_structures": [
+    [
+      "integer array"
+    ],
+    [
+      "integer array"
+    ],
+    [
+      "integer array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "XOR manipulation to find duplicate and missing numbers",
+    "In-place modification of array using negative signs",
+    "Sum and sum of squares to derive duplicate and missing numbers"
+  ],
+  "problem_summary_simple": "Find the duplicated and missing number in a set that originally contained 1 to n.",
+  "problem_summary_technical": "Identify duplicate and missing elements in an array by leveraging properties of XOR, in-place marking, or arithmetic series.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "XORing numbers with their expected indices cancels out correct elements, leaving XOR of duplicate and missing.",
+      "A single bit difference between the duplicate and missing number can be used to partition the array.",
+      "The bitwise AND of a number and its negation isolates the rightmost set bit."
+    ],
+    [
+      "Use the array itself as a hash map by negating values at indices corresponding to numbers.",
+      "A negative value at an index indicates the number corresponding to that index has been seen.",
+      "The index with a positive value after marking is the missing number."
+    ],
+    [
+      "The difference between the actual sum and the expected sum (n*(n+1)/2) gives (duplicate - missing).",
+      "The difference between the sum of squares and the expected sum of squares gives (duplicate^2 - missing^2).",
+      "Solving these two equations allows direct calculation of the duplicate and missing numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "expressive-words",
+  "data_structures": [
+    [
+      "list",
+      "tuple",
+      "iterator"
+    ]
+  ],
+  "category": "Strings",
+  "algorithm_technique": [
+    "Run-length encoding (RLE) to group consecutive characters and their counts."
+  ],
+  "problem_summary_simple": "Count words that can be stretched to match a target string by extending character groups.",
+  "problem_summary_technical": "RLE compresses strings into character-count pairs; words are stretchy if RLE matches and counts satisfy extension rules.",
+  "time_complexity": [
+    "O(N + S), where N is total length of words, S is length of S"
+  ],
+  "space_complexity": [
+    "O(L + S), where L is max word length"
+  ],
+  "key_insights": [
+    [
+      "Run-length encoding is crucial for efficiently comparing character groups.",
+      "The condition for stretchy words involves matching character sequences and count constraints (>=3 for extension).",
+      "Itertools.groupby is a Pythonic way to implement RLE."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

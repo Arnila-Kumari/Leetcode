@@ -1,0 +1,46 @@
+{
+  "problem_name": "course-schedule-iv",
+  "data_structures": [
+    [
+      "set (for reachable pairs)",
+      "list"
+    ],
+    [
+      "adjacency list (defaultdict)",
+      "stack (list)",
+      "set (lookup)",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Floyd-Warshall algorithm to compute all-pairs reachability in the prerequisite graph.",
+    "For each query, perform a DFS/BFS starting from the prerequisite course to check if the dependent course is reachable."
+  ],
+  "problem_summary_simple": "Determine if one course is a prerequisite for another, considering indirect dependencies.",
+  "problem_summary_technical": "Compute all-pairs reachability using Floyd-Warshall or perform DFS/BFS for each query on the prerequisite graph.",
+  "time_complexity": [
+    "O(N^3 + Q)",
+    "O(Q * (V + E))"
+  ],
+  "space_complexity": [
+    "O(N^2)",
+    "O(V + E)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding reachability in a directed acyclic graph (DAG).",
+      "Floyd-Warshall is a straightforward but potentially less efficient approach for dense graphs or when N is small.",
+      "Representing reachability as a set of `i*n+j` pairs allows for quick lookups."
+    ],
+    [
+      "This approach avoids pre-computing all pairs, making it more efficient if the number of queries (Q) is significantly smaller than N^2.",
+      "Each query involves a graph traversal (DFS or BFS) starting from the potential prerequisite.",
+      "The `lookup` set in DFS/BFS helps avoid redundant processing of nodes within a single query's traversal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

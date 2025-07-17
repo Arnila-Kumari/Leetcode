@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-paths-with-max-score",
+  "data_structures": [
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Use dynamic programming. `dp[r][c]` stores `[max_score, num_paths]` to reach `(r, c)` from 'S'. Iterate from 'S' to 'E', considering up, left, and diagonal moves."
+  ],
+  "problem_summary_simple": "Find the maximum score and the number of paths to reach 'E' from 'S' on a board, collecting scores and avoiding obstacles.",
+  "problem_summary_technical": "Employ 2D DP. `dp[r][c]` stores `[max_score, count]` to reach `(r, c)`. Iterate backwards from 'S', calculating `dp` values based on valid moves from adjacent cells.",
+  "time_complexity": [
+    "O(N^2)"
+  ],
+  "space_complexity": [
+    "O(N^2)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a variation of pathfinding on a grid with an added objective: maximizing a sum and counting paths. Dynamic programming is a natural fit.",
+      "The state `dp[r][c]` should store two values: the maximum score achievable to reach cell `(r, c)` and the number of distinct paths that yield this maximum score.",
+      "The transitions involve considering the three possible previous cells: `(r+1, c)` (move up), `(r, c+1)` (move left), and `(r+1, c+1)` (move diagonally up-left). The DP should be computed in reverse order, starting from the destination 'E' and moving towards 'S'."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

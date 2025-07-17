@@ -1,0 +1,42 @@
+{
+  "problem_name": "array-with-elements-not-equal-to-average-of-neighbors",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "quickselect (nth_element) and custom Dutch National Flag partition with virtual indexing",
+    "sorting and interleaving elements"
+  ],
+  "problem_summary_simple": "Rearrange array elements so no element equals the average of its neighbors.",
+  "problem_summary_technical": "Uses quickselect to find the median, then a modified Dutch National Flag partition with virtual indexing to arrange elements.",
+  "time_complexity": [
+    "O(n) on average",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to separate smaller and larger elements around the median.",
+      "Virtual indexing allows in-place rearrangement without explicit index calculations for odd/even positions.",
+      "Sorting and interleaving is a simpler approach that guarantees the condition."
+    ],
+    [
+      "Sorting the array allows for a predictable arrangement.",
+      "Interleaving the sorted halves (smallest with largest, second smallest with second largest) often satisfies the condition.",
+      "The median element is crucial for the interleaving strategy."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "count-k-reducible-numbers-less-than-n",
+  "data_structures": [
+    [
+      "Array (for DP)",
+      "Array (for combinations)"
+    ],
+    [
+      "Array (for DP)",
+      "Array (for combinations)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Digit DP with precomputed popcount reducibility and combinations",
+    "Digit DP with precomputed popcount reducibility and combinations"
+  ],
+  "problem_summary_simple": "Count numbers less than N that become 1 after at most K steps of replacing with their set bit count.",
+  "problem_summary_technical": "Employs digit DP to count numbers. Precomputes k-reducibility using popcount and uses combinations to handle choices for unset bits.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to count numbers less than N that satisfy the k-reducibility property.",
+      "Precomputing the k-reducibility of numbers up to N is essential. This can be done iteratively: `cnt[i] = cnt[popcount(i)] + 1`.",
+      "Digit DP is used to count numbers less than N. For each '1' in the binary string `s`, we consider placing it at different positions, contributing to the count based on precomputed reducibility and combinations."
+    ],
+    [
+      "This solution also precomputes k-reducibility using popcount.",
+      "It utilizes a combinatorics approach (nCr) to count valid numbers.",
+      "The DP state `dp[i]` represents the count of numbers with `i` set bits that are k-reducible. The final result sums `dp[i]` for `i < k`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:34:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

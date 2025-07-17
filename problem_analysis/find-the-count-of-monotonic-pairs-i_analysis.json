@@ -1,0 +1,51 @@
+{
+  "problem_name": "find-the-count-of-monotonic-pairs-i",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ],
+    [
+      "list",
+      "integer"
+    ],
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Combinatorics using stars and bars to count non-decreasing sequences.",
+    "Dynamic programming to count valid arr1 elements at each position.",
+    "Dynamic programming with prefix sums for efficient calculation."
+  ],
+  "problem_summary_simple": "Count pairs of arrays (non-decreasing, non-increasing) that sum to a given array.",
+  "problem_summary_technical": "Solves using combinatorics (stars and bars) or DP by relating arr1[i] and arr1[i-1] based on nums[i] and nums[i-1].",
+  "time_complexity": [
+    "O(n + r)",
+    "O(n * r)",
+    "O(n * r^2)"
+  ],
+  "space_complexity": [
+    "O(n + r)",
+    "O(r)",
+    "O(r)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed by analyzing the difference between consecutive elements of arr1.",
+      "The constraints arr1[i] <= arr1[i+1] and arr2[i] >= arr2[i+1] translate to arr1[i+1] - arr1[i] >= max(0, nums[i+1] - nums[i]).",
+      "DP state can represent the count of valid arr1 prefixes ending with a certain value."
+    ],
+    [
+      "The combinatorics approach leverages the fact that the differences between consecutive arr1 elements must be non-negative and satisfy a lower bound.",
+      "The DP with prefix sums optimizes the calculation of valid arr1[i] values based on previous states.",
+      "The most complex DP approach iterates through all possible previous values, leading to O(r^2) per step."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,43 @@
+{
+  "problem_name": "path-existence-queries-in-a-graph-i",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Prefix sums on differences to identify connected components based on maxDiff.",
+    "Disjoint Set Union (DSU) to efficiently manage connected components and answer queries."
+  ],
+  "problem_summary_simple": "Determine if a path exists between nodes in a graph where edges depend on value differences.",
+  "problem_summary_technical": "Model graph connectivity based on `|nums[i] - nums[j]| <= maxDiff` and answer path queries using prefix sums or DSU.",
+  "time_complexity": [
+    "O(n + q)",
+    "O(n * alpha(n) + q * alpha(n))"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding if two nodes belong to the same connected component.",
+      "An edge exists between `i` and `j` if `nums[i]` and `nums[j]` are 'close enough' (within `maxDiff`).",
+      "Since `nums` is sorted, we only need to consider adjacent elements or elements within a certain range for potential edges."
+    ],
+    [
+      "The provided solution uses a clever prefix sum approach. It counts the number of 'breaks' (where `nums[i+1] - nums[i] > maxDiff`).",
+      "If the count of breaks between two indices `i` and `j` is the same, it implies they are in the same connected component.",
+      "This works because a break signifies a point where connectivity is lost, and if the number of such breaks is the same, the connectivity pattern is preserved."
+    ],
+    [
+      "A Disjoint Set Union (DSU) data structure is a more direct way to solve this. We would iterate through `nums`, and if `nums[i+1] - nums[i] <= maxDiff`, we union `i` and `i+1`.",
+      "Then, for each query `(u, v)`, we check if `find(u) == find(v)`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

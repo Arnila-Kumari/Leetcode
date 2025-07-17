@@ -1,0 +1,33 @@
+{
+  "problem_name": "numbers-at-most-n-given-digit-set",
+  "data_structures": [
+    [
+      "string",
+      "set",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Digit DP: Count numbers by length, then by prefix matching N."
+  ],
+  "problem_summary_simple": "Count positive integers <= N using a given set of digits.",
+  "problem_summary_technical": "Digit DP to count numbers of length less than N's length, then count numbers with same length as N by matching digits from left to right.",
+  "time_complexity": [
+    "O(log N * D)"
+  ],
+  "space_complexity": [
+    "O(log N)"
+  ],
+  "key_insights": [
+    [
+      "Break down the problem into counting numbers with fewer digits than N and then numbers with the same number of digits as N.",
+      "For numbers with the same number of digits, use a digit-by-digit comparison with N, leveraging the sorted digit set.",
+      "The core idea is to count valid prefixes and then multiply by the number of ways to complete the suffix."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

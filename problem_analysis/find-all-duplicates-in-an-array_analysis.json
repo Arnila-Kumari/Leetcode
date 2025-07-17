@@ -1,0 +1,54 @@
+{
+  "problem_name": "find-all-duplicates-in-an-array",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ],
+    [
+      "list",
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "In-place modification using negation",
+    "Cycle sort for in-place rearrangement",
+    "Frequency counting using Counter"
+  ],
+  "problem_summary_simple": "Find all numbers that appear twice in an array where numbers are in range [1, n].",
+  "problem_summary_technical": "Identify duplicates in an array with elements in [1, n] using in-place marking or cycle sort.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Leverage the constraint that numbers are in [1, n] to use array indices as a hash.",
+      "Negating elements at specific indices marks visited numbers.",
+      "A negative value at `nums[abs(i)-1]` indicates `abs(i)` has been seen before."
+    ],
+    [
+      "Cycle sort can place each number at its correct index `nums[i] = i+1`.",
+      "When a number is already at its correct position, move to the next.",
+      "Duplicates will be found when `nums[i] != nums[nums[i]-1]`."
+    ],
+    [
+      "Python's `Counter` provides a concise way to count frequencies.",
+      "Filter elements with a count of 2.",
+      "This approach is simple but uses extra space."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

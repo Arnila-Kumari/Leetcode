@@ -1,0 +1,44 @@
+{
+  "problem_name": "words-within-two-edits-of-dictionary",
+  "data_structures": [
+    [
+      "hash set",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hashing with polynomial rolling hash for efficient edit distance check.",
+    "Brute-force comparison of edit distances between query and dictionary words."
+  ],
+  "problem_summary_simple": "Find query words that are at most two edits away from any dictionary word.",
+  "problem_summary_technical": "Uses rolling hashes to quickly check for words within two edits, or brute-forces edit distance calculation.",
+  "time_complexity": [
+    "O(25 * l * (n + q))",
+    "O(q * n * l)"
+  ],
+  "space_complexity": [
+    "O(25 * l * n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The hashing approach pre-calculates hashes for all possible one- and two-edit variations of dictionary words.",
+      "This allows for O(1) average time lookup for query words against the pre-computed hash set.",
+      "The constant factor 25 comes from iterating through all possible character substitutions."
+    ],
+    [
+      "The brute-force approach directly calculates the Levenshtein distance (edit distance) between each query word and every dictionary word.",
+      "It iterates through all pairs and checks if the edit distance is less than or equal to 2.",
+      "This is simpler to implement but less efficient for larger inputs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

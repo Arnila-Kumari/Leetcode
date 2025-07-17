@@ -1,0 +1,30 @@
+{
+  "problem_name": "minimum-operations-to-make-columns-strictly-increasing",
+  "data_structures": [
+    [
+      "2D array (grid)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through columns and greedily increment elements to satisfy the strictly increasing condition."
+  ],
+  "problem_summary_simple": "Make each column in a grid strictly increasing by incrementing elements.",
+  "problem_summary_technical": "Greedily iterates through grid columns, incrementing elements to ensure `grid[i+1][j] > grid[i][j]`.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved column by column independently.",
+      "For each column, a greedy approach works: ensure each element is strictly greater than the previous one by the minimum necessary increments."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:59:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

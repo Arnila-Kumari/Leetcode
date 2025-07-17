@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-ideal-subsequence",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming where dp[i] stores the length of the longest ideal subsequence ending with character i."
+  ],
+  "problem_summary_simple": "Find the longest subsequence where adjacent characters' alphabet difference is at most k.",
+  "problem_summary_technical": "Uses DP where dp[char_code] stores the max length of an ideal subsequence ending with that character, considering the k constraint.",
+  "time_complexity": [
+    "O(n * k)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The DP state `dp[x]` represents the length of the longest ideal subsequence ending with the character corresponding to `x` (0-25).",
+      "To calculate `dp[x]`, we look at all previous characters `i` such that `abs(x - i) <= k` and take the maximum `dp[i]` plus 1.",
+      "The space complexity is O(1) because the alphabet size (26) is constant."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-make-array-sum-divisible-by-k",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate the sum of the array and find its remainder when divided by k."
+  ],
+  "problem_summary_simple": "Make the array sum divisible by k by decreasing elements.",
+  "problem_summary_technical": "The problem asks for minimum operations to make sum(nums) % k == 0. Decreasing elements affects the sum. The minimum operations is simply the current sum modulo k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operation allows decreasing any element, which directly reduces the total sum.",
+      "To make the sum divisible by k, we need to adjust the sum by a value that makes it a multiple of k.",
+      "The minimum number of operations is achieved by reducing the sum by the smallest possible amount, which is `sum(nums) % k`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:59:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

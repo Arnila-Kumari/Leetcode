@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-moves-to-reach-target-in-grid",
+  "data_structures": [
+    [
+      "integer",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Backward simulation and greedy approach to reverse the allowed moves and reach the target."
+  ],
+  "problem_summary_simple": "Reach a target coordinate from a start coordinate using specific diagonal moves.",
+  "problem_summary_technical": "Simulate the process in reverse, greedily reducing the larger coordinate by the smaller one or half if they are equal.",
+  "time_complexity": [
+    "O(logtx + logty)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The allowed moves increase either the x or y coordinate by `max(x, y)`. This suggests a greedy approach.",
+      "Simulating backward from the target `(tx, ty)` to the start `(sx, sy)` is more efficient.",
+      "If `tx > ty`, the optimal backward move is to reduce `tx` by `ty` (if `ty` is not too small) or by `tx/2` if `tx == ty`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

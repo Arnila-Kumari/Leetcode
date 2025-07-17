@@ -1,0 +1,31 @@
+{
+  "problem_name": "sign-of-the-product-of-an-array",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterative sign tracking"
+  ],
+  "problem_summary_simple": "Determine the sign of the product of all numbers in an array.",
+  "problem_summary_technical": "Iterates through the array, tracking the count of negative numbers and returning 0 immediately if a zero is found.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The sign of a product is determined by the parity of negative numbers.",
+      "Encountering a zero immediately makes the product zero, short-circuiting the calculation.",
+      "XORing a flag with 1 efficiently toggles between positive and negative sign states."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

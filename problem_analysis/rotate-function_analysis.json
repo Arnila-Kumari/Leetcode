@@ -1,0 +1,30 @@
+{
+  "problem_name": "rotate-function",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Calculate initial F(0), then iteratively update F(k) using the sum and previous F value."
+  ],
+  "problem_summary_simple": "Find the maximum value of a rotation function applied to an array by rotating it.",
+  "problem_summary_technical": "Maximize F(k) = sum(i * arrk[i]) by observing the relationship between F(k) and F(k+1).",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find a mathematical relationship between F(k) and F(k+1) to avoid recomputing the entire sum for each rotation.",
+      "The relationship F(k+1) = F(k) + sum(nums) - n * nums[n-k] allows for O(1) updates."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

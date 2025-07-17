@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-kth-largest-integer-in-the-array",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a modified QuickSelect (nth_element) algorithm to find the k-th largest element based on string length and lexicographical order."
+  ],
+  "problem_summary_simple": "Find the k-th largest integer represented as strings in an array.",
+  "problem_summary_technical": "Employ QuickSelect with a custom comparison function that prioritizes length, then lexicographical order for strings representing numbers.",
+  "time_complexity": [
+    "O(n) on average, O(n^2) worst case"
+  ],
+  "space_complexity": [
+    "O(1) (in-place modification)"
+  ],
+  "key_insights": [
+    [
+      "The comparison of numbers represented as strings needs to consider both length and lexicographical order.",
+      "QuickSelect (or `nth_element`) is an efficient algorithm for finding the k-th element without full sorting.",
+      "A randomized pivot selection helps to achieve the average O(n) time complexity."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

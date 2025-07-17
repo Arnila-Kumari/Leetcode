@@ -1,0 +1,33 @@
+{
+  "problem_name": "average-of-levels-in-binary-tree",
+  "data_structures": [
+    [
+      "queue",
+      "list for results"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) using a queue to traverse the tree level by level.",
+    "Level-order traversal to calculate sum and count for each level."
+  ],
+  "problem_summary_simple": "Calculate the average value of nodes at each level of a binary tree.",
+  "problem_summary_technical": "Perform a level-order traversal (BFS) of the binary tree. For each level, sum node values and divide by the count of nodes on that level.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "BFS is the most natural approach for level-based problems as it explores the tree layer by layer.",
+      "A queue is essential for BFS to maintain the order of nodes to visit at each level.",
+      "The key is to process all nodes at the current level before moving to the next, which can be achieved by using a temporary list or by knowing the size of the current level."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

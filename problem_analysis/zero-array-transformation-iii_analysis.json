@@ -1,0 +1,32 @@
+{
+  "problem_name": "zero-array-transformation-iii",
+  "data_structures": [
+    [
+      "heap",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort queries by end index, use max-heap to track available decrements, and min-heap to track active decrements."
+  ],
+  "problem_summary_simple": "Find the maximum number of queries to remove while still being able to zero out the array.",
+  "problem_summary_technical": "Greedy approach using sorted queries and heaps to manage available decrements against required decrements for each element.",
+  "time_complexity": [
+    "O(q log q + n)"
+  ],
+  "space_complexity": [
+    "O(q)"
+  ],
+  "key_insights": [
+    [
+      "Sorting queries in reverse order of their end points is crucial for the greedy strategy.",
+      "A max-heap helps efficiently find the largest available decrement from past queries.",
+      "A min-heap tracks the decrements currently being applied to elements, ensuring we don't over-decrement."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:14:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

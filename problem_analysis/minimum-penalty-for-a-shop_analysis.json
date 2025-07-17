@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-penalty-for-a-shop",
+  "data_structures": [
+    [
+      "string",
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through possible closing times, calculate penalty, and track minimum."
+  ],
+  "problem_summary_simple": "Find the earliest hour to close a shop to minimize penalty based on customer visits.",
+  "problem_summary_technical": "Calculate penalty for each closing hour by summing penalties for 'N' when open and 'Y' when closed.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The penalty can be calculated by considering the number of 'Y's encountered so far and the number of 'N's remaining.",
+      "An efficient way is to maintain a running count of the current penalty and update it as we iterate through the hours.",
+      "The goal is to find the closing hour that minimizes the total penalty."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:18:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

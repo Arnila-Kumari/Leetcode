@@ -1,0 +1,31 @@
+{
+  "problem_name": "ant-on-the-boundary",
+  "data_structures": [
+    [
+      "integer (current position)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sum to track the ant's position relative to the boundary."
+  ],
+  "problem_summary_simple": "Count how many times an ant returns to the starting boundary after moving left or right.",
+  "problem_summary_technical": "Use prefix sums to track the ant's displacement; count occurrences where the cumulative sum is zero.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by simulating the ant's movement and keeping track of its position.",
+      "A prefix sum approach efficiently calculates the ant's position after each step.",
+      "The ant returns to the boundary when its cumulative displacement from the start is zero."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

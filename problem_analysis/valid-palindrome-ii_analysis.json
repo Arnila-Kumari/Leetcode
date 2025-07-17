@@ -1,0 +1,32 @@
+{
+  "problem_name": "valid-palindrome-ii",
+  "data_structures": [
+    [
+      "string",
+      "pointers"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers with recursive calls for character deletion"
+  ],
+  "problem_summary_simple": "Determine if a string can become a palindrome by deleting at most one character.",
+  "problem_summary_technical": "Use two pointers; if mismatch, recursively check palindromes after deleting one of the mismatched characters.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n) due to recursion depth in worst case"
+  ],
+  "key_insights": [
+    [
+      "When a mismatch is found, we explore two possibilities: deleting the left or the right character.",
+      "A helper function is used to check if a substring is a palindrome.",
+      "The problem is solved if either of the two deletion scenarios results in a palindrome."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

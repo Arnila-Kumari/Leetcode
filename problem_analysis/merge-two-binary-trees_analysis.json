@@ -1,0 +1,32 @@
+{
+  "problem_name": "merge-two-binary-trees",
+  "data_structures": [
+    [
+      "binary tree",
+      "recursive function"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive traversal and merging of nodes based on overlap."
+  ],
+  "problem_summary_simple": "Combine two binary trees by summing overlapping nodes and keeping unique ones.",
+  "problem_summary_technical": "Recursively merge two binary trees, summing values of overlapping nodes.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(H)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved recursively by considering the current nodes of both trees.",
+      "Base cases are when one of the nodes is null; in that case, return the other node.",
+      "If both nodes exist, sum their values and recursively merge their left and right children."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:55:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

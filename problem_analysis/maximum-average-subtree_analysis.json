@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-average-subtree",
+  "data_structures": [
+    [
+      "binary tree",
+      "array"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Perform a post-order traversal of the binary tree. For each node, calculate the sum and count of its subtree, then compute the average and update the maximum."
+  ],
+  "problem_summary_simple": "Find the subtree with the highest average value in a binary tree.",
+  "problem_summary_technical": "Utilize a recursive post-order traversal. Each node returns its subtree sum and node count to its parent.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "A post-order traversal is suitable because we need subtree information from children before processing the parent.",
+      "The helper function returns both the sum and count of nodes in the subtree.",
+      "The maximum average is tracked globally as we traverse the tree."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

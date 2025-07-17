@@ -1,0 +1,46 @@
+{
+  "problem_name": "maximum-number-of-events-that-can-be-attended-ii",
+  "data_structures": [
+    [
+      "list",
+      "2D DP table",
+      "list of sorted end days"
+    ],
+    [
+      "list",
+      "2D DP table",
+      "list of sorted start days"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Sort by end day, DP with binary search for previous non-overlapping event",
+    "Sort by start day, DP with binary search for next non-overlapping event"
+  ],
+  "problem_summary_simple": "Find the maximum value by attending at most k events without overlaps.",
+  "problem_summary_technical": "Dynamic programming with sorting and binary search to find the maximum value from non-overlapping intervals, limited by k events.",
+  "time_complexity": [
+    "O(n log n + n * k)",
+    "O(n log n + n * k)"
+  ],
+  "space_complexity": [
+    "O(n * k)",
+    "O(n * k)"
+  ],
+  "key_insights": [
+    [
+      "Sorting events by end day allows efficient lookup of the last compatible event.",
+      "DP state `dp[i][j]` represents max value using first `i` events with `j` attendances.",
+      "Binary search (`bisect_left`) is crucial for finding the preceding non-overlapping event."
+    ],
+    [
+      "Sorting events by start day also works, requiring a different DP state definition.",
+      "DP state `dp[i][j]` represents max value considering events from `i` onwards with `j` attendances.",
+      "Binary search (`bisect_right`) finds the first event that starts after the current one ends."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

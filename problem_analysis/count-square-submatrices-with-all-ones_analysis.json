@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-square-submatrices-with-all-ones",
+  "data_structures": [
+    [
+      "matrix (modified in-place)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming using the matrix itself for memoization"
+  ],
+  "problem_summary_simple": "Count all square submatrices within a given matrix that contain only ones.",
+  "problem_summary_technical": "Utilize dynamic programming on the matrix to count squares. Each cell stores the size of the largest square ending at that cell.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that a square of side `k` ending at `(i, j)` can only exist if there are squares of side `k-1` ending at `(i-1, j)`, `(i, j-1)`, and `(i-1, j-1)`.",
+      "The value at `matrix[i][j]` is updated to be `min(matrix[i-1][j], matrix[i][j-1], matrix[i-1][j-1]) + 1` if `matrix[i][j]` is 1, effectively storing the size of the largest square ending at that cell.",
+      "The total count is the sum of all values in the modified matrix, as each value `k` at `(i, j)` represents `k` squares of different sizes ending at that cell."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

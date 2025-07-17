@@ -1,0 +1,58 @@
+{
+  "problem_name": "ugly-number-ii",
+  "data_structures": [
+    [
+      "list",
+      "heap",
+      "pointers"
+    ],
+    [
+      "list",
+      "pointers"
+    ],
+    [
+      "list",
+      "heap",
+      "pointers"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a min-heap to generate ugly numbers by multiplying existing ones by 2, 3, and 5.",
+    "Maintain three pointers to the last used ugly numbers for generating the next ones.",
+    "Merge sorted lists of multiples of 2, 3, and 5."
+  ],
+  "problem_summary_simple": "Find the nth number in the sequence of ugly numbers (divisible by 2, 3, or 5).",
+  "problem_summary_technical": "Generate the nth ugly number by systematically producing multiples of 2, 3, and 5 from previous ugly numbers.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires generating numbers in increasing order.",
+      "A heap is suitable for maintaining the smallest next ugly number.",
+      "Avoid duplicates by only adding new multiples."
+    ],
+    [
+      "This DP approach efficiently builds the sequence.",
+      "Pointers track the next multiple to consider for each prime factor.",
+      "The minimum of the next multiples is the next ugly number."
+    ],
+    [
+      "Heap merging is an elegant way to combine sorted sequences.",
+      "The `heapq.merge` function handles the sorting and de-duplication implicitly.",
+      "Careful handling of `n` and the current `ugly` number is needed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

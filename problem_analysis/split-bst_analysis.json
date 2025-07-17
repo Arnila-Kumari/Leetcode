@@ -1,0 +1,31 @@
+{
+  "problem_name": "split-bst",
+  "data_structures": [
+    [
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive BST traversal and modification"
+  ],
+  "problem_summary_simple": "Split a BST into two subtrees based on a target value, preserving structure.",
+  "problem_summary_technical": "Recursively traverse BST, re-parenting nodes based on value comparison with target.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The recursive approach naturally handles the BST property.",
+      "The key is to correctly re-assign the child pointers when splitting.",
+      "The height of the tree (h) determines the recursion depth."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

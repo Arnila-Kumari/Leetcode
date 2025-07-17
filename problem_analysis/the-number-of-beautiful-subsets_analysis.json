@@ -1,0 +1,32 @@
+{
+  "problem_name": "the-number-of-beautiful-subsets",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "dictionary"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Combinatorics with DP on counts, iterating through numbers grouped by k difference."
+  ],
+  "problem_summary_simple": "Count non-empty subsets where no two elements have an absolute difference of k.",
+  "problem_summary_technical": "Uses a frequency map and dynamic programming on counts grouped by modulo k to count valid subsets.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering numbers based on their remainder when divided by k.",
+      "Dynamic programming can be applied to count subsets within each remainder group.",
+      "The final count is derived by multiplying counts from independent groups and subtracting the empty set."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

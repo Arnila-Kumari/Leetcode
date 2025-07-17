@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-valid-subarrays",
+  "data_structures": [
+    [
+      "Stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to find the next smaller element for each element."
+  ],
+  "problem_summary_simple": "Count subarrays where the first element is the smallest or equal to all other elements.",
+  "problem_summary_technical": "Employs a monotonic increasing stack to efficiently count subarrays where the leftmost element is not larger than others.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A subarray is valid if its first element is less than or equal to all subsequent elements.",
+      "A monotonic stack (increasing) helps find, for each element, how many elements to its right are greater than or equal to it.",
+      "Each element `nums[i]` contributes `k` valid subarrays where `k` is the number of elements from `nums[i]` to `nums[j]` (inclusive) such that `nums[i]` is the minimum in `nums[i...j]`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

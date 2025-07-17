@@ -1,0 +1,43 @@
+{
+  "problem_name": "maximum-number-of-pairs-in-array",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ],
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting with XOR for parity check",
+    "Frequency counting with integer division for pairs"
+  ],
+  "problem_summary_simple": "Count pairs of identical numbers and remaining single numbers in an array.",
+  "problem_summary_technical": "Utilizes frequency maps or XOR properties to count pairs and leftovers efficiently.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(max(nums))",
+    "O(unique_elements)"
+  ],
+  "key_insights": [
+    [
+      "XORing a count toggles its parity, useful for tracking odd/even occurrences.",
+      "The number of pairs is the count of elements with even occurrences.",
+      "Leftovers are elements with odd occurrences."
+    ],
+    [
+      "A frequency map directly stores counts of each number.",
+      "Integer division by 2 on counts gives the number of pairs.",
+      "Total elements minus twice the pair count gives leftovers."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:53:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

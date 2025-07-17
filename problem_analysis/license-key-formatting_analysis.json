@@ -1,0 +1,32 @@
+{
+  "problem_name": "license-key-formatting",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Strings",
+  "algorithm_technique": [
+    "Iterate backwards, build result, insert dashes at intervals."
+  ],
+  "problem_summary_simple": "Reformat a license key by grouping characters and adding dashes, converting to uppercase.",
+  "problem_summary_technical": "Format string by grouping characters into k-length segments, separated by dashes, processing in reverse.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Processing the string in reverse simplifies dash placement.",
+      "The modulo operator `len(result) % (K + 1) == K` correctly identifies positions for dashes.",
+      "Converting to uppercase can be done character by character."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

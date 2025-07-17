@@ -1,0 +1,32 @@
+{
+  "problem_name": "merge-two-2d-arrays-by-summing-values",
+  "data_structures": [
+    [
+      "list",
+      "list of lists"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Use two pointers to iterate through sorted 2D arrays, merging based on IDs."
+  ],
+  "problem_summary_simple": "Combine two sorted lists of [id, value] pairs, summing values for common IDs.",
+  "problem_summary_technical": "Merge two sorted 2D arrays by ID using two pointers, summing values for matching IDs.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "The input arrays are already sorted by ID, which is key for a two-pointer approach.",
+      "When IDs match, sum the values; otherwise, append the entry with the smaller ID.",
+      "The result array needs to maintain the sorted order of IDs."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:55:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

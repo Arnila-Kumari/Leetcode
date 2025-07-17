@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+  "data_structures": [
+    [
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Single pass through the linked list to identify critical points and calculate distances."
+  ],
+  "problem_summary_simple": "Find the min and max distance between critical points (local max/min) in a linked list.",
+  "problem_summary_technical": "Traverse the linked list, identify local extrema (critical points), and track the first, last, and minimum distances between them.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A critical point requires a node to have both a previous and a next node to compare values.",
+      "The solution involves a single pass through the linked list, keeping track of the index of the previous node and the most recently found critical point.",
+      "Edge cases include lists with fewer than two critical points, where the result should be [-1, -1]."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

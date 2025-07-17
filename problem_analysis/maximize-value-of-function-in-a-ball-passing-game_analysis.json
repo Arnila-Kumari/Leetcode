@@ -1,0 +1,45 @@
+{
+  "problem_name": "maximize-value-of-function-in-a-ball-passing-game",
+  "data_structures": [
+    [
+      "array",
+      "array",
+      "array"
+    ],
+    [
+      "array",
+      "array"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Graph traversal with cycle detection and prefix sums for efficient sum calculation over k steps.",
+    "Binary lifting (sparse table) to quickly jump k steps in the graph and sum values."
+  ],
+  "problem_summary_simple": "Find the maximum sum of player indices visited in a ball-passing game over k passes.",
+  "problem_summary_technical": "Graph problem: model passes as edges. Use cycle detection/prefix sums or binary lifting to calculate sums for k passes efficiently.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log k)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n log k)"
+  ],
+  "key_insights": [
+    [
+      "The receiver array defines a functional graph where each node has an out-degree of 1.",
+      "This structure guarantees that each connected component consists of a path leading into a cycle.",
+      "To handle large k, techniques like cycle detection with prefix sums or binary lifting are necessary."
+    ],
+    [
+      "Binary lifting allows pre-calculating sums for powers of 2 steps, enabling O(log k) calculation for any k.",
+      "The state for binary lifting needs to store both the next node and the sum of nodes visited up to that step.",
+      "The final answer is the maximum sum obtained by starting from any player and taking k steps."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,48 @@
+{
+  "problem_name": "permutations-iv",
+  "data_structures": [
+    [
+      "list",
+      "boolean array",
+      "integer array (counts)"
+    ],
+    [
+      "list",
+      "boolean array",
+      "integer array (factorials)"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Combinatorics and backtracking to construct the k-th alternating permutation by counting valid prefixes",
+    "Combinatorics using factorials to determine counts of alternating permutations and construct the k-th one"
+  ],
+  "problem_summary_simple": "Find the k-th lexicographically smallest alternating permutation of numbers 1 to n.",
+  "problem_summary_technical": "Uses combinatorics to count valid alternating permutations and then constructs the k-th one by selecting numbers greedily.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by determining how many valid alternating permutations start with each possible number.",
+      "This involves calculating counts of alternating permutations for smaller subproblems.",
+      "The `cnt` array stores the number of valid alternating permutations of length `i+1` starting with an even/odd number.",
+      "The logic `(i == 0 and n%2 == 0) or (j+1)%2 == (1 if not result else (result[-1]%2)^1)` handles the alternating parity constraint based on the first element and subsequent elements."
+    ],
+    [
+      "This solution leverages factorials to calculate the number of ways to complete an alternating permutation once a prefix is chosen.",
+      "The `fact` array stores factorials needed for combinations.",
+      "The logic for `cnt` calculation `fact[(n-1-i)//2]*fact[((n-1-i)+1)//2]` represents the number of ways to arrange the remaining numbers with alternating parity.",
+      "Similar to Solution 1, it greedily selects numbers based on `k` and the calculated counts."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:04:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

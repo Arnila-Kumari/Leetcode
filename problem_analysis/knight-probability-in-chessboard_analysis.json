@@ -1,0 +1,32 @@
+{
+  "problem_name": "knight-probability-in-chessboard",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to calculate the probability of the knight staying on the board after each move."
+  ],
+  "problem_summary_simple": "Calculate the probability a knight stays on the board after k random moves.",
+  "problem_summary_technical": "Use 2D DP where dp[k][r][c] stores the probability of being at (r, c) after k moves. Sum probabilities of valid moves from previous states.",
+  "time_complexity": [
+    "O(K * N^2)"
+  ],
+  "space_complexity": [
+    "O(N^2)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming, where the state represents the probability of being at a certain cell after a given number of moves.",
+      "The transitions involve considering all 8 possible knight moves from a cell and summing the probabilities of reaching valid cells on the board.",
+      "The base case is the initial probability of 1 at the starting cell for 0 moves."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

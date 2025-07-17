@@ -1,0 +1,39 @@
+{
+  "problem_name": "average-salary-excluding-the-minimum-and-maximum-salary",
+  "data_structures": [
+    [
+      "variables for sum, min, max"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Single pass: iterate through the array, keeping track of the total sum, minimum, and maximum salary.",
+    "Built-in functions: use sum(), min(), and max() for a concise solution."
+  ],
+  "problem_summary_simple": "Calculate the average salary after removing the highest and lowest salaries.",
+  "problem_summary_technical": "Iterate through the salary array once to find the sum, minimum, and maximum. Subtract min and max from sum, then divide by (n-2).",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A single pass is sufficient to gather all necessary information (sum, min, max).",
+      "The constraints guarantee at least 3 salaries, so `len(salary) - 2` will always be at least 1, avoiding division by zero.",
+      "Floating-point division is required for the average."
+    ],
+    [
+      "Leveraging built-in Python functions like `sum`, `min`, and `max` leads to a very compact and readable solution.",
+      "This approach is efficient as these built-in functions are typically implemented in C and highly optimized.",
+      "The core logic remains the same: sum all, subtract extremes, divide by count minus two."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

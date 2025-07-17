@@ -1,0 +1,34 @@
+{
+  "problem_name": "robot-collisions",
+  "data_structures": [
+    [
+      "list",
+      "list",
+      "string",
+      "list"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Sort robots by position, use a stack to simulate collisions between right-moving and left-moving robots."
+  ],
+  "problem_summary_simple": "Simulate robot collisions on a line and return the health of surviving robots.",
+  "problem_summary_technical": "Sort robots by position, use a stack to manage right-moving robots and resolve collisions with left-moving robots.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Robots moving in the same direction will never collide. Collisions only happen between robots moving towards each other ('R' followed by 'L').",
+      "Sorting robots by position allows us to process potential collisions sequentially. A stack is ideal for managing robots moving right, as they are the ones that will encounter left-moving robots.",
+      "When a right-moving robot (on stack) encounters a left-moving robot (current iteration), compare their healths. The weaker one is eliminated, and the stronger one's health decreases. If healths are equal, both are eliminated."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:07:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

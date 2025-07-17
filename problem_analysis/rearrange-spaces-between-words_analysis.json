@@ -1,0 +1,32 @@
+{
+  "problem_name": "rearrange-spaces-between-words",
+  "data_structures": [
+    [
+      "list (for in-place modification)",
+      "integer variables for counts"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Counting spaces and words, then distributing spaces evenly and placing extras at the end."
+  ],
+  "problem_summary_simple": "Evenly distribute spaces between words in a sentence, maximizing spaces between adjacent words.",
+  "problem_summary_technical": "Count total spaces and words. Calculate max spaces per gap and remaining extra spaces. Rearrange string in-place or build new string.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of gaps between words is `word_count - 1`.",
+      "The optimal distribution of spaces is `total_spaces / (word_count - 1)`.",
+      "Any remainder spaces are appended to the end of the string."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

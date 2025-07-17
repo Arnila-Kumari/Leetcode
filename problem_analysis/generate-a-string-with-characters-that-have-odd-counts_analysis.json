@@ -1,0 +1,32 @@
+{
+  "problem_name": "generate-a-string-with-characters-that-have-odd-counts",
+  "data_structures": [
+    [
+      "list of characters",
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Construct string by repeating 'a' and using 'b' if n is even"
+  ],
+  "problem_summary_simple": "Create a string of length n where every character appears an odd number of times.",
+  "problem_summary_technical": "Fill n-1 positions with 'a'. If n is odd, the last 'a' makes its count odd. If n is even, use 'b' for the last position.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To ensure all characters have odd counts, we can use pairs of characters with odd counts (e.g., 'aa', 'bb').",
+      "If n is odd, we can use n 'a's. If n is even, we can use n-1 'a's and one 'b'.",
+      "The problem allows any valid string, simplifying the construction."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

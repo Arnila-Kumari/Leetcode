@@ -1,0 +1,55 @@
+{
+  "problem_name": "number-of-nodes-with-value-one",
+  "data_structures": [
+    [
+      "queue",
+      "collections.Counter"
+    ],
+    [
+      "stack",
+      "collections.Counter"
+    ],
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) on an implicit tree structure.",
+    "Iterative Depth-First Search (DFS) on an implicit tree structure.",
+    "Recursive Depth-First Search (DFS) on an implicit tree structure."
+  ],
+  "problem_summary_simple": "Count nodes with value 1 after flipping subtrees based on queries in a binary tree.",
+  "problem_summary_technical": "Traverse the implicit binary tree, XORing the flip count at each node to determine its final value.",
+  "time_complexity": [
+    "O(Q + N)",
+    "O(Q + N)",
+    "O(Q + N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(Q + logN)",
+    "O(Q + logN)"
+  ],
+  "key_insights": [
+    [
+      "The tree structure is implicit: node `i` has children `2*i` and `2*i+1`.",
+      "The effect of a query on a node is XORed down its subtree.",
+      "A node's final value depends on the parity of flips applied to it or its ancestors."
+    ],
+    [
+      "The tree structure is implicit: node `i` has children `2*i` and `2*i+1`.",
+      "The effect of a query on a node is XORed down its subtree.",
+      "A node's final value depends on the parity of flips applied to it or its ancestors."
+    ],
+    [
+      "The tree structure is implicit: node `i` has children `2*i` and `2*i+1`.",
+      "The effect of a query on a node is XORed down its subtree.",
+      "A node's final value depends on the parity of flips applied to it or its ancestors."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

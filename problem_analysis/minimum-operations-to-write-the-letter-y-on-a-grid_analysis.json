@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-operations-to-write-the-letter-y-on-a-grid",
+  "data_structures": [
+    [
+      "2D array",
+      "frequency count array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterate through all possible target values for Y and non-Y cells, count operations."
+  ],
+  "problem_summary_simple": "Find minimum operations to make grid cells form a 'Y' shape with uniform values inside and outside.",
+  "problem_summary_technical": "Count frequencies of values in Y and non-Y regions, then find the minimum operations by trying all value combinations.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through all possible values (0, 1, 2) for the 'Y' cells and the non-'Y' cells.",
+      "For each combination, calculate the number of operations needed to transform the grid.",
+      "The minimum among these operations is the answer. The constraints on 'n' are small enough for this approach."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

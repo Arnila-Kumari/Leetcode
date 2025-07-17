@@ -1,0 +1,31 @@
+{
+  "problem_name": "unique-substrings-in-wraparound-string",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "1D DP: track the length of the current contiguous wraparound substring ending at each character."
+  ],
+  "problem_summary_simple": "Count unique substrings of a given string that appear in an infinite wraparound alphabet string.",
+  "problem_summary_technical": "1D DP to count unique substrings by tracking the length of valid consecutive character sequences ending at each position.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to identify consecutive sequences of characters that follow the alphabetical order (with wraparound).",
+      "For each character, we maintain the maximum length of a valid substring ending at that character.",
+      "The total count is the sum of these maximum lengths, ensuring uniqueness by only adding new substrings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

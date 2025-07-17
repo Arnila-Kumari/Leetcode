@@ -1,0 +1,38 @@
+{
+  "problem_name": "single-threaded-cpu",
+  "data_structures": [
+    [
+      "min-heap",
+      "list",
+      "integer variables"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Simulation with a min-heap to manage available tasks and a sorted list for task arrival"
+  ],
+  "problem_summary_simple": "Determine the order tasks are processed by a CPU, prioritizing shorter processing times and smaller indices when available.",
+  "problem_summary_technical": "Simulates CPU execution by maintaining available tasks in a min-heap (sorted by processing time, then index) and processing them as time advances.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires simulating the CPU's behavior over time.",
+      "A min-heap is essential for efficiently selecting the next task based on processing time and index.",
+      "Tasks need to be sorted by enqueue time to correctly manage their availability."
+    ],
+    [
+      "The simulation involves advancing a 'current time' variable.",
+      "At each time step, new tasks become available and are added to the min-heap.",
+      "The CPU picks the best task from the heap when it's free, updating the current time by the task's processing time."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:19:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

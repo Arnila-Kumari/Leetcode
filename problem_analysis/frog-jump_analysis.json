@@ -1,0 +1,32 @@
+{
+  "problem_name": "frog-jump",
+  "data_structures": [
+    [
+      "dictionary",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dynamic programming with memoization using a dictionary to store possible jump units for each stone."
+  ],
+  "problem_summary_simple": "Determine if a frog can cross a river by jumping on stones with specific jump rules.",
+  "problem_summary_technical": "Uses a dictionary where keys are stone positions and values are sets of possible last jump units to reach that stone.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The state can be defined by (current_stone_position, last_jump_unit).",
+      "A dictionary mapping stone positions to sets of possible jump units is efficient.",
+      "The initial jump must be 1 unit, and subsequent jumps are k-1, k, or k+1."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

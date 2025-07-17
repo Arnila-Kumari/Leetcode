@@ -1,0 +1,42 @@
+{
+  "problem_name": "find-minimum-in-rotated-sorted-array-ii",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search, handling duplicates by shrinking right pointer",
+    "Binary search, handling duplicates by shrinking left pointer"
+  ],
+  "problem_summary_simple": "Find the smallest number in a sorted array that has been rotated and might contain duplicates.",
+  "problem_summary_technical": "Apply binary search to a rotated sorted array with duplicates. Adjust search space based on mid vs. right/left element comparisons, especially when duplicates exist.",
+  "time_complexity": [
+    "O(log n) on average, O(n) in worst case (all duplicates)",
+    "O(log n) on average, O(n) in worst case (all duplicates)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The presence of duplicates can degrade binary search performance to O(n) in the worst case (e.g., [2,2,2,2,2]).",
+      "When nums[mid] == nums[right], we can safely discard nums[right] by decrementing `right` because it cannot be the minimum if it's equal to `mid` and `mid` is not the minimum.",
+      "The goal is to find the pivot point where the rotation occurs."
+    ],
+    [
+      "An alternative approach is to shrink the left pointer when nums[mid] == nums[left].",
+      "This strategy also aims to eliminate duplicate elements that don't help in narrowing down the search space.",
+      "The core idea remains finding the point where the ascending order is broken."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

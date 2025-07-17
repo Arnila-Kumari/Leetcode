@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-difference-between-even-and-odd-frequency-i",
+  "data_structures": [
+    [
+      "array",
+      "frequency table"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting and iteration"
+  ],
+  "problem_summary_simple": "Find the max difference between a character with odd frequency and one with even frequency.",
+  "problem_summary_technical": "Count character frequencies, then find the maximum odd frequency and minimum even frequency to calculate the difference.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A frequency map (or array for fixed alphabet size) is efficient for counting.",
+      "The problem guarantees at least one odd and one even frequency character.",
+      "Iterate through frequencies to find the maximum odd and minimum even values."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:52:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

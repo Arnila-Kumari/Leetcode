@@ -1,0 +1,29 @@
+{
+  "problem_name": "minimum-moves-to-capture-the-queen",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Direct calculation based on piece positions and attack lines."
+  ],
+  "problem_summary_simple": "Find the minimum moves for a white rook and bishop to capture a black queen on an 8x8 board.",
+  "problem_summary_technical": "Analyze rook and bishop attack patterns (horizontal, vertical, diagonal) to determine if the queen is one move away or requires two moves.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by checking if the queen is on the same row, column, or diagonal as either the rook or the bishop.",
+      "If the queen is attacked by either piece, the answer is 1. Otherwise, it's always 2 moves.",
+      "Care must be taken to ensure the attacking piece is not blocked by the other piece."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:58:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "the-kth-factor-of-n",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate up to sqrt(n) to find factors, storing them and counting. Handle the kth factor based on counts.",
+    "Iterate up to sqrt(n) to find factors, storing them in a list. Return the kth factor or its complement."
+  ],
+  "problem_summary_simple": "Find the k-th smallest factor of a given number n.",
+  "problem_summary_technical": "Find factors by iterating up to sqrt(n). Store factors and their complements, then determine the kth factor based on counts.",
+  "time_complexity": [
+    "O(sqrt(n))",
+    "O(sqrt(n))"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(sqrt(n)) for storing factors"
+  ],
+  "key_insights": [
+    [
+      "Factors come in pairs (i, n/i). Iterating up to sqrt(n) finds all such pairs efficiently.",
+      "A special case is when n is a perfect square, where sqrt(n) is a factor paired with itself.",
+      "The logic needs to correctly count factors and handle the case where k is larger than the total number of factors."
+    ],
+    [
+      "Storing factors in a list allows for easy retrieval of the kth factor.",
+      "The second solution is more straightforward to implement by storing all factors first.",
+      "The time complexity is dominated by the loop up to sqrt(n)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:12:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

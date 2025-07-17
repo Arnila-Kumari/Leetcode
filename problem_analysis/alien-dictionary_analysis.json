@@ -1,0 +1,46 @@
+{
+  "problem_name": "alien-dictionary",
+  "data_structures": [
+    [
+      "hashmap",
+      "set",
+      "queue"
+    ],
+    [
+      "hashmap",
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Topological Sort (BFS): Build a graph of character dependencies and find a valid ordering.",
+    "Topological Sort (DFS): Build a graph of character dependencies and find a valid ordering using DFS."
+  ],
+  "problem_summary_simple": "Determine the alien alphabet order from a sorted list of words. Return the order or empty if invalid.",
+  "problem_summary_technical": "Construct a directed graph representing character precedence from word comparisons. Perform topological sort to find a valid alien alphabet order.",
+  "time_complexity": [
+    "O(N*L) where N is number of words, L is max word length",
+    "O(N*L) where N is number of words, L is max word length"
+  ],
+  "space_complexity": [
+    "O(C + P) where C is unique chars, P is precedence pairs",
+    "O(C + P) where C is unique chars, P is precedence pairs"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding a topological sort of characters.",
+      "Edges in the graph represent direct precedence (e.g., 'a' comes before 'b').",
+      "A cycle in the graph indicates an invalid ordering."
+    ],
+    [
+      "The problem can be modeled as finding a topological sort of characters.",
+      "Edges in the graph represent direct precedence (e.g., 'a' comes before 'b').",
+      "A cycle in the graph indicates an invalid ordering."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

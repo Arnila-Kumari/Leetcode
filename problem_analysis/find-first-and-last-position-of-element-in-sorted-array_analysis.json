@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-first-and-last-position-of-element-in-sorted-array",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "modified binary search to find first occurrence, then another to find end"
+  ],
+  "problem_summary_simple": "Find the start and end indices of a target in a sorted array.",
+  "problem_summary_technical": "Utilizes binary search twice to locate the leftmost and rightmost occurrences of a target in a sorted array with O(log n) complexity.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to adapt binary search to find the boundaries of the target element.",
+      "Two separate binary searches are needed: one for the first occurrence and one for the last.",
+      "Careful handling of edge cases (target not found, empty array) is crucial."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

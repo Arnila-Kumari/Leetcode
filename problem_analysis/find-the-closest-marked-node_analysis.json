@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-the-closest-marked-node",
+  "data_structures": [
+    [
+      "adjacency list",
+      "min-heap",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm"
+  ],
+  "problem_summary_simple": "Find the shortest distance from a source node to any of the marked nodes in a directed weighted graph.",
+  "problem_summary_technical": "Applies Dijkstra's algorithm starting from the source node 's' to find the shortest path to any node in the 'marked' set.",
+  "time_complexity": [
+    "O((|E| + |V|) * log|V|)"
+  ],
+  "space_complexity": [
+    "O(|E| + |V|)"
+  ],
+  "key_insights": [
+    [
+      "Dijkstra's algorithm is the standard approach for finding shortest paths in graphs with non-negative edge weights.",
+      "The problem asks for the minimum distance to *any* marked node, so we can stop Dijkstra's once the first marked node is reached.",
+      "An adjacency list is an efficient representation for sparse graphs, and a min-heap is crucial for Dijkstra's performance."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

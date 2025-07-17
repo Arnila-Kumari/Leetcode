@@ -1,0 +1,32 @@
+{
+  "problem_name": "move-pieces-to-obtain-a-string",
+  "data_structures": [
+    [
+      "string",
+      "integer pointers"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to track current positions of non-underscore characters in both strings."
+  ],
+  "problem_summary_simple": "Check if pieces ('L', 'R') can be moved from a start string to a target string using blank spaces.",
+  "problem_summary_technical": "Utilizes two pointers to iterate through start and target strings, verifying character matches and movement constraints for 'L' and 'R' pieces.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The relative order of non-underscore characters must be the same in both strings.",
+      "An 'L' piece can only move left, so its index in `start` must be greater than or equal to its index in `target`.",
+      "An 'R' piece can only move right, so its index in `start` must be less than or equal to its index in `target`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,56 @@
+{
+  "problem_name": "count-the-number-of-substrings-with-dominant-ones",
+  "data_structures": [
+    [
+      "list",
+      "array"
+    ],
+    [
+      "list",
+      "array"
+    ],
+    [
+      "list",
+      "array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Two pointers, sliding window, precomputed zero indices",
+    "Two pointers, sliding window, precomputed zero indices",
+    "Two pointers, sliding window, brute force inner loop"
+  ],
+  "problem_summary_simple": "Count substrings where the number of ones is at least the square of the number of zeros.",
+  "problem_summary_technical": "Iterates through possible zero counts, using precomputed zero indices and sliding windows to count valid substrings.",
+  "time_complexity": [
+    "O(n * sqrt(n))",
+    "O(n * sqrt(n))",
+    "O(n * sqrt(n))"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating indices of '0's significantly speeds up window adjustments.",
+      "The maximum number of zeros in a valid substring is bounded by sqrt(n).",
+      "The condition `c^2 <= (i-idxs[(curr-c)-1])-c` helps prune search space."
+    ],
+    [
+      "The outer loop iterates over the number of zeros `c`.",
+      "Inner loops use two pointers (`left`, `right`) to maintain a window with `c` zeros.",
+      "The calculation `min(min(idxs[left], i)-idxs[left-1], ((i-idxs[left-1])-c)-c**2+1)` efficiently counts valid start points."
+    ],
+    [
+      "This solution is likely to TLE due to the nested loop structure and repeated calculations.",
+      "The logic attempts to optimize by finding the first '0' from the left within the window.",
+      "The core idea of iterating through zero counts and using sliding windows is sound, but implementation details matter for performance."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

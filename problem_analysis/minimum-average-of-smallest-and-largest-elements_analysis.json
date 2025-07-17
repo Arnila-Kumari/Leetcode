@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-average-of-smallest-and-largest-elements",
+  "data_structures": [
+    [
+      "array",
+      "sorted array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sorting the array and pairing smallest with largest elements."
+  ],
+  "problem_summary_simple": "Find the minimum average formed by pairing the smallest and largest remaining elements repeatedly.",
+  "problem_summary_technical": "Sort the array and greedily pair the smallest with the largest element, then find the minimum of these averages.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting is essential to easily identify the smallest and largest elements.",
+      "The greedy strategy of pairing the absolute smallest with the absolute largest at each step guarantees the minimum average.",
+      "The problem asks for the minimum of the calculated averages, not the average of all averages."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

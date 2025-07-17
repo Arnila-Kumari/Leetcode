@@ -1,0 +1,33 @@
+{
+  "problem_name": "sort-features-by-popularity",
+  "data_structures": [
+    [
+      "set",
+      "dictionary",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hashing for frequency counting, custom sort with lambda function"
+  ],
+  "problem_summary_simple": "Sort features by how many user responses mention them, breaking ties by original order.",
+  "problem_summary_technical": "Count feature occurrences in responses using hashing, then sort features by count (desc) and original index (asc).",
+  "time_complexity": [
+    "O(N*L + R*W*log(N)) where N is features length, L is max feature length, R is responses length, W is max words per response."
+  ],
+  "space_complexity": [
+    "O(N + R*W)"
+  ],
+  "key_insights": [
+    [
+      "Using a set for features allows for O(1) average time lookups.",
+      "A dictionary (defaultdict) is efficient for storing feature frequencies.",
+      "The custom sort key `lambda x: (-freq[x], order[x])` elegantly handles both popularity and original index sorting."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

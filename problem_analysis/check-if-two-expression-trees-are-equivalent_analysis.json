@@ -1,0 +1,45 @@
+{
+  "problem_name": "check-if-two-expression-trees-are-equivalent",
+  "data_structures": [
+    [
+      "Hash map (for counting variable occurrences)",
+      "Stack (for iterative inorder traversal)"
+    ],
+    [
+      "Hash map (for counting variable occurrences)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Morris Inorder Traversal to count variable contributions",
+    "Iterative Inorder Traversal to count variable contributions"
+  ],
+  "problem_summary_simple": "Check if two expression trees with only '+' and variables evaluate to the same result for any variable values.",
+  "problem_summary_technical": "Compares the net count of each variable (positive for tree1, negative for tree2) using inorder traversal.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "Since only addition is involved, the order of operands doesn't matter (associativity and commutativity).",
+      "The problem reduces to checking if both trees have the same count of each variable.",
+      "Morris traversal is an O(1) space inorder traversal, while standard iterative inorder uses O(h) space.",
+      "For subtraction, the sign of the variable's contribution would depend on its position relative to '-' operators."
+    ],
+    [
+      "The problem leverages the properties of addition: commutativity and associativity.",
+      "We can represent each tree by a count of each variable, considering the sign based on operators.",
+      "A hash map (defaultdict) is suitable for storing these counts.",
+      "Iterative inorder traversal is a standard way to visit tree nodes in order."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

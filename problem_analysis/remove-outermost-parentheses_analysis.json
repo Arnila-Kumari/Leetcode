@@ -1,0 +1,32 @@
+{
+  "problem_name": "remove-outermost-parentheses",
+  "data_structures": [
+    [
+      "String Builder",
+      "Counter"
+    ]
+  ],
+  "category": "Strings",
+  "algorithm_technique": [
+    "String Traversal with Balance Counter: Iterate through the string, maintaining a balance counter. Append characters only when they are not the outermost parentheses of a primitive substring."
+  ],
+  "problem_summary_simple": "Remove the outermost parentheses from each primitive valid parentheses substring in a given string.",
+  "problem_summary_technical": "Traverse the string, tracking the balance of parentheses. Append characters to the result only if they are not the first '(' or last ')' of a primitive component.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A primitive valid parentheses string starts with '(' and ends with ')', and its balance never drops to zero in between.",
+      "The balance counter helps identify the start and end of primitive components.",
+      "Characters are appended to the result if the balance is greater than 1 for '(' and greater than 2 for ')' (after decrementing for ')')."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,34 @@
+{
+  "problem_name": "find-shortest-path-with-k-hops",
+  "data_structures": [
+    [
+      "adjacency list",
+      "2D array",
+      "min-heap"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Modified Dijkstra's algorithm where state includes (current_node, hops_used) to find shortest path with edge weight reduction."
+  ],
+  "problem_summary_simple": "Find the shortest path between two nodes, allowing up to k edges to have zero weight.",
+  "problem_summary_technical": "Apply Dijkstra's algorithm on an expanded state space (node, hops_used) to find the shortest path by zeroing out edge weights.",
+  "time_complexity": [
+    "O(n * k + (e * k) * log(n * k))"
+  ],
+  "space_complexity": [
+    "O(n * k + e)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the shortest path in a graph where each node represents a state (current_node, hops_used).",
+      "Dijkstra's algorithm is suitable here. When exploring an edge (u, v) with weight w:",
+      "  - If we don't use a hop: the cost to reach v is current_cost + w, with the same number of hops used.",
+      "  - If we use a hop: the cost to reach v is current_cost, with one more hop used (if hops_used < k)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:43:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

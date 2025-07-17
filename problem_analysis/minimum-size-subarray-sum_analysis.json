@@ -1,0 +1,45 @@
+{
+  "problem_name": "minimum-size-subarray-sum",
+  "data_structures": [
+    [
+      "integer",
+      "integer"
+    ],
+    [
+      "list",
+      "integer",
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with two pointers",
+    "Prefix sums and binary search"
+  ],
+  "problem_summary_simple": "Find the shortest contiguous subarray whose sum meets a target value.",
+  "problem_summary_technical": "Uses a sliding window to find the minimum length subarray with sum >= target. An alternative uses prefix sums and binary search.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The sliding window approach efficiently expands and shrinks the window to maintain the sum.",
+      "The `start` pointer only moves forward, ensuring O(n) time complexity.",
+      "Initialize `min_size` to infinity to correctly capture the minimum."
+    ],
+    [
+      "Prefix sums allow for O(1) calculation of subarray sums.",
+      "Binary search on prefix sums helps find the required end index efficiently.",
+      "The lambda function in binary search is a concise way to define the comparison."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

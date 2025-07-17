@@ -1,0 +1,43 @@
+{
+  "problem_name": "find-and-replace-in-string",
+  "data_structures": [
+    [
+      "Array (bucket) to store replacement information",
+      "List to build the result string"
+    ],
+    [
+      "String (modified in place)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Pre-processing replacements into a bucket array based on start index, then iterating through the string.",
+    "Iterating through sorted replacements and modifying the string directly."
+  ],
+  "problem_summary_simple": "Perform multiple string replacements simultaneously based on given indices, sources, and targets.",
+  "problem_summary_technical": "Store valid replacements in a bucket array indexed by the start position. Iterate through the string, applying replacements from the bucket.",
+  "time_complexity": [
+    "O(n + k*L) where n is string length, k is number of replacements, L is max source length",
+    "O(k log k + k * L) where k is number of replacements, L is max source length"
+  ],
+  "space_complexity": [
+    "O(n + k*L) for bucket and result",
+    "O(n) for string modification (depending on language implementation)"
+  ],
+  "key_insights": [
+    [
+      "Replacements must be applied simultaneously, meaning they don't affect each other's indices.",
+      "A bucket array or similar structure can help manage replacements efficiently.",
+      "The constraint that replacements do not overlap simplifies the logic."
+    ],
+    [
+      "Sorting replacements by index in reverse order allows for in-place string modification without index issues.",
+      "Direct string slicing and concatenation can be used for replacements.",
+      "The non-overlapping constraint is key to this approach's simplicity."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

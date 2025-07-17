@@ -1,0 +1,37 @@
+{
+  "problem_name": "best-time-to-buy-and-sell-stock-ii",
+  "data_structures": [
+    [
+      "variable"
+    ],
+    [
+      "variable"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sum up all positive price differences between consecutive days.",
+    "Sum up all positive price differences between consecutive days using map and lambda."
+  ],
+  "problem_summary_simple": "Maximize profit by buying and selling a stock multiple times, with no cooldown period.",
+  "problem_summary_technical": "Sum of all positive differences between adjacent prices. This captures all upward trends, effectively buying low and selling high whenever possible.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that we can buy and sell on the same day, which means we can capture every upward price movement.",
+      "If the price increases from day `i` to day `i+1`, we can buy on day `i` and sell on day `i+1` to gain `prices[i+1] - prices[i]` profit.",
+      "Summing all such positive differences gives the maximum possible profit."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

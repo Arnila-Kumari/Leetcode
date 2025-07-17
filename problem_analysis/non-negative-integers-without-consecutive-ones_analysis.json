@@ -1,0 +1,31 @@
+{
+  "problem_name": "non-negative-integers-without-consecutive-ones",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Dynamic programming to precompute counts, then bitwise iteration."
+  ],
+  "problem_summary_simple": "Count numbers from 0 to n whose binary form has no consecutive ones.",
+  "problem_summary_technical": "Precompute Fibonacci-like DP values for binary strings without consecutive ones. Iterate through the bits of n, summing DP values for valid prefixes.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by counting numbers with no consecutive ones up to n.",
+      "The number of binary strings of length k without consecutive ones follows a Fibonacci-like pattern (dp[k] = dp[k-1] + dp[k-2]).",
+      "Iterate through the bits of n from most significant to least significant. If a bit is 1, add the count of valid numbers with fewer bits and a prefix matching n's prefix up to that point. Handle consecutive ones by breaking early."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:01:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

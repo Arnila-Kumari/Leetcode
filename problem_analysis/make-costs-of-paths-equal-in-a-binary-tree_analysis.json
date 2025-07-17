@@ -1,0 +1,31 @@
+{
+  "problem_name": "make-costs-of-paths-equal-in-a-binary-tree",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Greedy approach processing from leaves up"
+  ],
+  "problem_summary_simple": "Make all root-to-leaf path costs equal in a perfect binary tree by incrementing node costs.",
+  "problem_summary_technical": "Iterate from the last non-leaf node upwards, equalizing child path sums by adding the difference to the parent and accumulating increments.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by working from the bottom up.",
+      "For each parent node, the goal is to make the costs of its left and right subtrees equal.",
+      "The minimum increments for a subtree are achieved by making both children's paths equal to the maximum of their current path sums."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

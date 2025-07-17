@@ -1,0 +1,32 @@
+{
+  "problem_name": "merge-two-sorted-lists",
+  "data_structures": [
+    [
+      "linked list",
+      "dummy node"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterative merging using a dummy head and two pointers."
+  ],
+  "problem_summary_simple": "Combine two sorted linked lists into a single sorted linked list.",
+  "problem_summary_technical": "Iteratively merge two sorted linked lists by comparing node values and appending.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A dummy node simplifies the process of building the new merged list, avoiding edge cases for the head.",
+      "Two pointers iterate through the input lists, comparing values to decide which node to append next.",
+      "After one list is exhausted, append the remaining part of the other list."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:55:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

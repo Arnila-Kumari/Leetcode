@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-adjacent-swaps-to-reach-the-kth-smallest-number",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Generate the k-th next permutation of the input string. Then, calculate swaps to transform the original string to the k-th permutation."
+  ],
+  "problem_summary_simple": "Find minimum swaps to transform a number string into its k-th lexicographically larger permutation.",
+  "problem_summary_technical": "Utilize next permutation algorithm to find the k-th permutation, then greedily count swaps to match original digits.",
+  "time_complexity": [
+    "O((k + n) * n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding the k-th lexicographically next permutation.",
+      "After finding the target permutation, the minimum swaps to reach it can be calculated by greedily moving digits to their correct positions.",
+      "The cost of moving a digit is the number of elements it has to 'jump' over."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:56:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

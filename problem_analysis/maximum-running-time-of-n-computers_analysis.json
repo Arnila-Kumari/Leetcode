@@ -1,0 +1,40 @@
+{
+  "problem_name": "maximum-running-time-of-n-computers",
+  "data_structures": [
+    [
+      "heap (priority queue)"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using a max-heap to iteratively assign the largest remaining battery capacity.",
+    "Binary search on the possible running time, checking feasibility with a greedy assignment."
+  ],
+  "problem_summary_simple": "Find the maximum time all computers can run simultaneously by optimally distributing battery power.",
+  "problem_summary_technical": "Maximize simultaneous runtime for N computers using batteries. Greedy or binary search on time, checking total capacity.",
+  "time_complexity": [
+    "O(N log N) where N is the number of batteries",
+    "O(N log R) where R is the range of possible running times"
+  ],
+  "space_complexity": [
+    "O(N) for the heap",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy of always using the largest available battery capacity for the 'cheapest' computer (one that needs power soonest) is optimal.",
+      "The problem can be reframed as finding the maximum 'x' such that the sum of min(battery_capacity, x) for all batteries is at least N*x."
+    ],
+    [
+      "Binary search is applicable because the feasibility of a given running time is monotonic: if time 't' is possible, any time less than 't' is also possible.",
+      "The check function efficiently determines if a given time 'x' is achievable by summing up the contribution of each battery, capped by 'x'."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "convert-a-number-to-hexadecimal",
+  "data_structures": [
+    [
+      "list of characters"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "bitwise operations and character mapping"
+  ],
+  "problem_summary_simple": "Convert an integer to its hexadecimal string representation.",
+  "problem_summary_technical": "Uses bitwise AND with 15 (0xF) to extract hex digits and right shift to process the number, handling negative numbers via two's complement.",
+  "time_complexity": [
+    "O(logn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Hexadecimal conversion involves grouping bits into nibbles (4 bits). Each nibble corresponds to a hex digit (0-9, a-f).",
+      "The bitwise AND operation `num & 15` isolates the last 4 bits, which represent the current hex digit.",
+      "The right shift `num >>= 4` moves the next 4 bits to the least significant position for the next iteration.",
+      "For negative numbers, the two's complement representation is handled naturally by the bitwise operations in Python, effectively processing all 32 bits."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

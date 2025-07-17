@@ -1,0 +1,33 @@
+{
+  "problem_name": "reachable-nodes-in-subdivided-graph",
+  "data_structures": [
+    [
+      "adjacency list",
+      "min-heap",
+      "hashmap"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm variant to find shortest paths in a graph with subdivided edges"
+  ],
+  "problem_summary_simple": "Count reachable nodes within a move limit in a graph where edges are subdivided with new nodes.",
+  "problem_summary_technical": "Use Dijkstra's to find shortest distances to original nodes, then count reachable nodes on subdivided edges.",
+  "time_complexity": [
+    "O(|E| * log|V|)"
+  ],
+  "space_complexity": [
+    "O(|E| + |V|)"
+  ],
+  "key_insights": [
+    [
+      "This problem combines graph traversal with edge subdivision.",
+      "Dijkstra's algorithm is suitable for finding shortest paths with non-negative edge weights.",
+      "The key is to correctly calculate reachable nodes on the subdivided edges based on remaining moves."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:05:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

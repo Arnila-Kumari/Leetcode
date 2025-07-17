@@ -1,0 +1,70 @@
+{
+  "problem_name": "k-inverse-pairs-array",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ],
+    [
+      "array"
+    ],
+    [
+      "array"
+    ],
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with sliding window optimization.",
+    "Dynamic programming with prefix sums.",
+    "Dynamic programming with a running sum.",
+    "Brute force DP (likely TLE).",
+    "Permutation construction (conceptual, not efficient for counting).",
+    "Permutation construction (conceptual, not efficient for counting)."
+  ],
+  "problem_summary_simple": "Count arrays with numbers 1 to n having exactly k inverse pairs.",
+  "problem_summary_technical": "Uses DP where dp[i][j] is the count of permutations of length i with j inverse pairs, optimized with prefix sums or sliding window.",
+  "time_complexity": [
+    "O(n*k)",
+    "O(n*k)",
+    "O(n*k)",
+    "O(n^2*k)",
+    "O(n * n!/(c_a!*...*c_z!))",
+    "O(n * n!/(c_a!*...*c_z!))"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(k)",
+    "O(k)",
+    "O(k)",
+    "O(k)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using dynamic programming by considering how adding a new number to a permutation affects the number of inverse pairs.",
+      "When inserting the i-th number (from 1 to n), it can create 0 to i-1 new inverse pairs depending on its position.",
+      "The recurrence relation can be optimized using prefix sums or a sliding window approach to reduce the O(n*k^2) complexity to O(n*k)."
+    ],
+    [
+      "The provided solutions `Solution`, `Solution2`, and `Solution3` all implement the O(n*k) DP approach with different ways of handling the sliding window/prefix sum calculation.",
+      "`Solution3` is often considered the cleanest implementation of the optimized DP.",
+      "The `Solution_TLE` demonstrates a naive DP that would time out due to its higher complexity."
+    ],
+    [
+      "The `Solution_ConstructPermutation` and `Solution_ConstructPermutation2` are illustrative of how one might think about constructing permutations, but are not practical for counting due to their combinatorial explosion.",
+      "The core challenge is efficiently counting, not constructing."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:34:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

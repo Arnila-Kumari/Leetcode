@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-score-triangulation-of-polygon",
+  "data_structures": [
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming to find optimal triangulation by considering subproblems"
+  ],
+  "problem_summary_simple": "Divide a polygon into triangles to minimize the sum of triangle vertex products.",
+  "problem_summary_technical": "Use DP to find the minimum score triangulation of a convex polygon by breaking it into smaller polygons.",
+  "time_complexity": [
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic dynamic programming problem on intervals.",
+      "The state `dp[i][j]` represents the minimum score to triangulate the polygon formed by vertices i to j.",
+      "The recurrence relation considers all possible third vertices `k` for the triangle formed by `i`, `j`, and `k`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

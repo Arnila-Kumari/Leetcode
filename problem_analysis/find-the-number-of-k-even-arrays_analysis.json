@@ -1,0 +1,45 @@
+{
+  "problem_name": "find-the-number-of-k-even-arrays",
+  "data_structures": [
+    [
+      "array",
+      "hashmap",
+      "combinatorics functions (nCr, nHr)",
+      "memoization table"
+    ],
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Combinatorics and stars and bars for counting arrangements.",
+    "Dynamic programming to build up solutions for array prefixes."
+  ],
+  "problem_summary_simple": "Count arrays of size n with elements [1, m] having exactly k adjacent pairs satisfying a condition.",
+  "problem_summary_technical": "DP state tracks counts of even/odd numbers and required k-even pairs. Combinatorics used for initial states.",
+  "time_complexity": [
+    "O(N * K)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(K)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The condition (arr[i] * arr[i+1]) - arr[i] - arr[i+1] is even simplifies to checking parity of arr[i] and arr[i+1].",
+      "The problem can be reframed as counting sequences with specific adjacent parity patterns.",
+      "DP approach efficiently handles overlapping subproblems by building solutions incrementally."
+    ],
+    [
+      "The combinatorics approach uses stars and bars to count ways to place 'even' and 'odd' numbers.",
+      "The DP approach is more direct and avoids complex combinatorial formulas for transitions.",
+      "The DP state needs to capture the number of k-even pairs formed so far."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:44:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "number-of-lines-to-write-string",
+  "data_structures": [
+    [
+      "list of integers for widths",
+      "string for input text",
+      "list of 2 integers for result"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the string, accumulating width per line and starting a new line when 100 is exceeded."
+  ],
+  "problem_summary_simple": "Determine the number of lines and the width of the last line to write a string within a 100-pixel width limit per line.",
+  "problem_summary_technical": "Greedy simulation: iterate through characters, add width to current line, increment line count and reset width if limit is exceeded.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires simulating the writing process line by line.",
+      "Maintain a running width for the current line.",
+      "When the current line's width exceeds 100, increment the line count and reset the current line's width to the width of the current character."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

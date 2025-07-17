@@ -1,0 +1,32 @@
+{
+  "problem_name": "furthest-building-you-can-reach",
+  "data_structures": [
+    [
+      "Min-Heap",
+      "Array"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach using a Min-Heap to track the largest height differences covered by ladders."
+  ],
+  "problem_summary_simple": "Find the furthest building reachable using a limited number of bricks and ladders.",
+  "problem_summary_technical": "Use a Min-Heap to store height differences, prioritizing ladders for the largest differences and bricks for smaller ones.",
+  "time_complexity": [
+    "O(n log k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to use ladders for the largest height differences encountered.",
+      "A Min-Heap is ideal for keeping track of the 'k' largest differences (where k is the number of ladders).",
+      "When the heap size exceeds the number of ladders, the smallest difference in the heap is covered by bricks."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

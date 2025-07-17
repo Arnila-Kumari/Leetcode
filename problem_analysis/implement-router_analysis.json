@@ -1,0 +1,33 @@
+{
+  "problem_name": "implement-router",
+  "data_structures": [
+    [
+      "Deque (for FIFO queue)",
+      "defaultdict of SortedLists (for efficient range queries)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Maintain a deque for packet order and a sorted list for each destination to track packets by timestamp.",
+    "Use SortedList for O(log n) insertion, deletion, and range queries."
+  ],
+  "problem_summary_simple": "Manage network packets with a memory limit, handling duplicates and forwarding.",
+  "problem_summary_technical": "Use a deque for FIFO and SortedLists per destination for efficient duplicate checks and time-based queries.",
+  "time_complexity": [
+    "addPacket: O(log n), forwardPacket: O(log n), getCount: O(log n)"
+  ],
+  "space_complexity": [
+    "O(n) where n is the number of stored packets."
+  ],
+  "key_insights": [
+    [
+      "The memory limit requires a mechanism to remove the oldest packet when full (deque handles this).",
+      "Duplicate detection needs to be efficient, hence the use of SortedLists keyed by destination.",
+      "SortedLists provide logarithmic time complexity for adding, removing, and querying ranges of timestamps."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

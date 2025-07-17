@@ -1,0 +1,28 @@
+{
+  "problem_name": "maximum-containers-on-a-ship",
+  "data_structures": [],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Direct mathematical calculation based on constraints."
+  ],
+  "problem_summary_simple": "Calculate the maximum number of containers that fit on a ship's deck within weight limits.",
+  "problem_summary_technical": "Determine max containers by the minimum of available deck cells and weight capacity divided by container weight.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is constrained by two factors: the total number of cells on the deck and the ship's maximum weight capacity.",
+      "The total number of cells is n*n.",
+      "The maximum number of containers limited by weight is maxWeight // w.",
+      "The final answer is the minimum of these two constraints."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:52:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

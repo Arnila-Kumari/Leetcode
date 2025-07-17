@@ -1,0 +1,32 @@
+{
+  "problem_name": "richest-customer-wealth",
+  "data_structures": [
+    [
+      "list of lists",
+      "iterator"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through each customer's accounts, sum their wealth, and find the maximum sum."
+  ],
+  "problem_summary_simple": "Find the maximum total money any customer has across all their bank accounts.",
+  "problem_summary_technical": "Iterate through a 2D grid, sum rows (customer wealth), and find the maximum row sum.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves iterating through a 2D array (grid).",
+      "Each row represents a customer, and summing the elements of a row gives their total wealth.",
+      "The `itertools.imap(sum, accounts)` is a concise Pythonic way to sum each inner list."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

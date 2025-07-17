@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-right-shifts-to-sort-the-array",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Linear scan to find the pivot point and check for sorted segments."
+  ],
+  "problem_summary_simple": "Find the minimum right shifts to sort an array, or -1 if impossible.",
+  "problem_summary_technical": "Identify the single 'dip' in an otherwise increasing sequence; the number of shifts is the distance from the end to the dip's start.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A sorted array after right shifts will have at most one point where nums[i] > nums[i+1].",
+      "The number of shifts is determined by the position of this 'dip' element.",
+      "If there's more than one such dip, or no dip in a non-sorted array, it's impossible."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold",
+  "data_structures": [
+    [
+      "2D list",
+      "2D list"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "2D prefix sums combined with binary search on the side length",
+    "Sliding window 2D prefix sums"
+  ],
+  "problem_summary_simple": "Find the largest square in a matrix whose elements sum up to a given threshold.",
+  "problem_summary_technical": "Use 2D prefix sums to quickly calculate square sums, then binary search for the maximum side length.",
+  "time_complexity": [
+    "O(m * n * log(min(m, n)))"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "A 2D prefix sum array allows for O(1) calculation of any rectangular submatrix sum.",
+      "The problem asks for the maximum side length, which suggests binary search on the possible side lengths.",
+      "For a fixed side length, we iterate through all possible top-left corners of squares and check their sums using the prefix sum array."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

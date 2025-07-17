@@ -1,0 +1,48 @@
+{
+  "problem_name": "checking-existence-of-edge-length-limited-paths-ii",
+  "data_structures": [
+    [
+      "UnionFind",
+      "TreeInfos",
+      "List of lists",
+      "SnapshotArray",
+      "VersionedUnionFind"
+    ],
+    [
+      "UnionFind",
+      "TreeInfos",
+      "List of lists"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Build a Minimum Spanning Tree (MST) and use binary lifting on the tree to find max edge weight on path.",
+    "Sort edges by weight, build MST, and use binary lifting for path queries."
+  ],
+  "problem_summary_simple": "Check if a path exists between two nodes with all edge weights below a limit, with multiple queries.",
+  "problem_summary_technical": "Builds an MST, then uses binary lifting on the tree to answer path queries efficiently.",
+  "time_complexity": [
+    "ctor: O(M log M + N log N), query: O(α(N) + log N)",
+    "ctor: O(M log M + N log N), query: O(α(N) + log N)"
+  ],
+  "space_complexity": [
+    "O(N log N + M)",
+    "O(N log N + M)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the maximum edge weight on the path between two nodes in the MST.",
+      "Binary lifting on the MST allows for O(log N) path queries.",
+      "The initial Union-Find step ensures we only consider edges that form a connected component."
+    ],
+    [
+      "The problem can be reframed as finding the maximum edge weight on the path between two nodes in the MST.",
+      "Binary lifting on the MST allows for O(log N) path queries.",
+      "The initial Union-Find step ensures we only consider edges that form a connected component."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:34:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

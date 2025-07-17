@@ -1,0 +1,33 @@
+{
+  "problem_name": "reachable-nodes-with-restrictions",
+  "data_structures": [
+    [
+      "adjacency list",
+      "boolean array",
+      "queue"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) starting from node 0, avoiding restricted nodes"
+  ],
+  "problem_summary_simple": "Count reachable nodes from node 0 in a tree, avoiding specific restricted nodes.",
+  "problem_summary_technical": "Perform BFS from node 0, marking visited nodes and skipping restricted nodes and their subtrees.",
+  "time_complexity": [
+    "O(n + E)"
+  ],
+  "space_complexity": [
+    "O(n + E)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a standard graph traversal on a tree with node restrictions.",
+      "BFS is an efficient way to explore reachable nodes level by level.",
+      "A boolean array or set can efficiently track visited and restricted nodes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

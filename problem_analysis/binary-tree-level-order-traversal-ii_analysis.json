@@ -1,0 +1,32 @@
+{
+  "problem_name": "binary-tree-level-order-traversal-ii",
+  "data_structures": [
+    [
+      "queue",
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) with level tracking and result reversal"
+  ],
+  "problem_summary_simple": "Traverse a binary tree level by level, starting from the bottom.",
+  "problem_summary_technical": "Performs a level-order traversal using a queue, storing nodes level by level, then reverses the result.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "BFS is a natural fit for level-order traversals.",
+      "Storing levels and then reversing is a common pattern for bottom-up traversals.",
+      "The queue efficiently manages nodes at the current level."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

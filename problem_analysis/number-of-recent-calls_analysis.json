@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-recent-calls",
+  "data_structures": [
+    [
+      "deque"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Using a deque (double-ended queue) to maintain requests within the last 3000 milliseconds."
+  ],
+  "problem_summary_simple": "Count recent requests within a 3000ms window, adding new requests and removing old ones.",
+  "problem_summary_technical": "A deque acts as a sliding window, storing timestamps. New pings are added, and old ones outside the window are removed.",
+  "time_complexity": [
+    "O(1) on average"
+  ],
+  "space_complexity": [
+    "O(w), where w is the maximum number of requests within the 3000ms window."
+  ],
+  "key_insights": [
+    [
+      "A deque is a suitable data structure for a sliding window where elements are added to one end and removed from the other.",
+      "The key is to efficiently remove requests that fall outside the `[t - 3000, t]` range.",
+      "Since `t` is strictly increasing, we only need to check the front of the deque for removal."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

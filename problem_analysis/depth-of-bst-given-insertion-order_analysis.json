@@ -1,0 +1,32 @@
+{
+  "problem_name": "depth-of-bst-given-insertion-order",
+  "data_structures": [
+    [
+      "SortedDict",
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Simulate BST insertion, track depths using SortedDict for efficient range queries."
+  ],
+  "problem_summary_simple": "Find the depth of a Binary Search Tree built from a given insertion order.",
+  "problem_summary_technical": "Simulate BST insertion using a SortedDict to maintain parent depths for O(log n) updates and O(log n) depth calculations.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The SortedDict efficiently stores depths of nodes based on their values, allowing quick retrieval of parent depths.",
+      "Using negative infinity and positive infinity as sentinels simplifies boundary conditions for depth calculations.",
+      "The core idea is to find the closest existing nodes to the current insertion point to determine the new node's depth."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

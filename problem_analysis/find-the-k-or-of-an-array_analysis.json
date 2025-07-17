@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-the-k-or-of-an-array",
+  "data_structures": [
+    [
+      "List",
+      "int"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate through each bit position and count occurrences across all numbers",
+    "Bitwise operations to check if a bit is set in a number"
+  ],
+  "problem_summary_simple": "Find the bitwise OR where a bit is set only if at least k numbers have that bit set.",
+  "problem_summary_technical": "For each bit position, count numbers with that bit set; if count >= k, set the bit in the result.",
+  "time_complexity": [
+    "O(nlogr)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem defines a new operation 'K-or' based on bitwise OR and a count threshold.",
+      "Iterating through bit positions (up to the maximum possible bit in the numbers) is a direct approach.",
+      "For each bit, a simple count of numbers having that bit set is sufficient."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:17:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

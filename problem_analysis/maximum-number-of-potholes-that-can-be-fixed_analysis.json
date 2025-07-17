@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-number-of-potholes-that-can-be-fixed",
+  "data_structures": [
+    [
+      "array",
+      "sorting"
+    ],
+    [
+      "array",
+      "sorting"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Counting sort to sort pothole group lengths, then greedy selection",
+    "Standard sort to sort pothole group lengths, then greedy selection"
+  ],
+  "problem_summary_simple": "Fix as many potholes as possible within a budget, where fixing n potholes costs n+1.",
+  "problem_summary_technical": "Identify consecutive pothole groups, sort their lengths, and greedily fix cheapest groups first.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The cost function (n+1 for n potholes) implies fixing shorter groups is more cost-effective per pothole.",
+      "Counting sort is efficient for sorting pothole group lengths given constraints.",
+      "Greedily pick the cheapest fixes (smallest n+1) until budget is exhausted."
+    ],
+    [
+      "The core idea is to fix the smallest groups of potholes first.",
+      "This greedy strategy ensures maximum potholes are fixed for a given budget.",
+      "Sorting the lengths of consecutive pothole groups is essential for the greedy approach."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

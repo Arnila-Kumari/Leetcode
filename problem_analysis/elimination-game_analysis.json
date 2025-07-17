@@ -1,0 +1,31 @@
+{
+  "problem_name": "elimination-game",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical simulation tracking start, step, and direction."
+  ],
+  "problem_summary_simple": "Find the last remaining number after repeatedly removing elements from a sorted list.",
+  "problem_summary_technical": "Simulates the elimination process by tracking the start, step size, and direction of removal to find the final element.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by observing the pattern of how the remaining number changes with each elimination step.",
+      "The key is to track the starting number and the step size, which doubles in each round.",
+      "The direction of elimination (left-to-right or right-to-left) affects how the starting number is updated."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

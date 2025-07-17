@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-frequency-score-of-a-subarray",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "dict"
+    ],
+    [
+      "collections.Counter",
+      "dict"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a frequency map to maintain counts and calculate score incrementally.",
+    "Sliding window with a frequency map and using `pow` for modular exponentiation."
+  ],
+  "problem_summary_simple": "Find the maximum frequency score of any subarray of a given size k.",
+  "problem_summary_technical": "Sliding window of size k. Maintain frequency counts and update score incrementally using modular exponentiation.",
+  "time_complexity": [
+    "O(N)",
+    "O(N log K)"
+  ],
+  "space_complexity": [
+    "O(U)",
+    "O(U)"
+  ],
+  "key_insights": [
+    [
+      "A sliding window is ideal for processing contiguous subarrays of a fixed size.",
+      "Efficiently updating the frequency score as the window slides is key.",
+      "Modular arithmetic is essential for handling large score values."
+    ],
+    [
+      "The `pow` function with three arguments handles modular exponentiation efficiently.",
+      "Careful handling of count decrements and increments is needed to correctly update the score.",
+      "The lookup table in Solution 1 is an optimization for repeated power calculations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

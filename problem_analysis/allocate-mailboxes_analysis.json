@@ -1,0 +1,34 @@
+{
+  "problem_name": "allocate-mailboxes",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with pre-calculated costs for placing a single mailbox between any two houses."
+  ],
+  "problem_summary_simple": "Minimize the total distance to place k mailboxes for a given set of houses.",
+  "problem_summary_technical": "Uses dynamic programming where dp[i][j] is the min cost to place j mailboxes for the first i houses. Pre-calculates costs for single mailbox placement.",
+  "time_complexity": [
+    "O(m * n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The optimal placement of a mailbox for a contiguous set of houses is at their median location.",
+      "Pre-calculating the cost of placing one mailbox for any subarray of houses is crucial."
+    ],
+    [
+      "The DP state `dp[j][i]` represents the minimum cost to place `j` mailboxes for the first `i` houses.",
+      "The transition involves trying all possible split points for the last mailbox."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:31:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

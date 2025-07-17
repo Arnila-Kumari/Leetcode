@@ -1,0 +1,45 @@
+{
+  "problem_name": "delete-tree-nodes",
+  "data_structures": [
+    [
+      "adjacency list (children)",
+      "array (value)",
+      "array (parent)"
+    ],
+    [
+      "array (value)",
+      "array (result)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) to calculate subtree sums and prune zero-sum subtrees.",
+    "Post-order traversal (bottom-up) to aggregate sums and count remaining nodes."
+  ],
+  "problem_summary_simple": "Remove subtrees with a sum of zero and count remaining nodes.",
+  "problem_summary_technical": "Use DFS or post-order traversal to compute subtree sums and prune nodes recursively.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires processing subtrees. DFS is a natural fit for tree traversals.",
+      "The first solution uses a top-down DFS, building the children list first, then recursively calculating sums and counts. It prunes by returning 0 count if sum is 0.",
+      "The second solution is more efficient. It processes the tree bottom-up (implicitly via reversed iteration over nodes), accumulating sums and counts. If a node's value (after adding children's sums) becomes zero, its contribution to its parent's count is zero."
+    ],
+    [
+      "The second solution leverages the fact that `parent[i] < i` for `i > 0` to process nodes in an order that ensures children are processed before parents.",
+      "By iterating from `nodes-1` down to `1`, we ensure that `value[i]` already contains the sum of its subtree when we add it to `value[parent[i]]`.",
+      "The `result` array tracks the number of nodes in the valid subtree rooted at each node. If `value[i]` becomes 0, `result[i]` is set to 0, effectively pruning that subtree."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

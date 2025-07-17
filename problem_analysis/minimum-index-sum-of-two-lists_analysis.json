@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-index-sum-of-two-lists",
+  "data_structures": [
+    [
+      "hashmap",
+      "list",
+      "variable"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a hashmap to store list1 elements and their indices, then iterate through list2 to find common elements with minimum index sum."
+  ],
+  "problem_summary_simple": "Find common strings between two lists that have the smallest sum of their indices.",
+  "problem_summary_technical": "Store list1 elements in a hashmap for O(1) average lookup. Iterate list2, calculate index sums for common elements, and track the minimum sum and corresponding strings.",
+  "time_complexity": [
+    "O((m + n) * l)"
+  ],
+  "space_complexity": [
+    "O(m * l)"
+  ],
+  "key_insights": [
+    [
+      "A hashmap (dictionary in Python) is ideal for quickly checking the presence of strings from list1 and retrieving their indices.",
+      "Iterating through list2 and checking against the hashmap allows for efficient identification of common elements.",
+      "Maintaining a `min_sum` variable and updating the result list dynamically handles cases with multiple common strings having the same minimum index sum."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:57:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

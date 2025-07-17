@@ -1,0 +1,31 @@
+{
+  "problem_name": "make-three-strings-equal",
+  "data_structures": [
+    [
+      "iterator"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Iterate through strings simultaneously, finding the longest common prefix from the left."
+  ],
+  "problem_summary_simple": "Find minimum deletions to make three strings equal by removing from the right.",
+  "problem_summary_technical": "Find the longest common prefix of the three strings; deletions are based on lengths minus prefix length.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operation only allows removing from the right, so the common part must be a prefix.",
+      "The problem reduces to finding the longest common prefix among the three strings.",
+      "If no common prefix exists (i=0), it's impossible to make them equal."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

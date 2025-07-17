@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-sum-of-subsequence-with-non-adjacent-elements",
+  "data_structures": [
+    [
+      "segment tree",
+      "array"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Segment tree to efficiently handle point updates and range queries for non-adjacent subsequence sums.",
+    "Dynamic programming approach to calculate max sum for non-adjacent elements."
+  ],
+  "problem_summary_simple": "After updating array elements, find the max sum of non-adjacent elements and sum these results for all queries.",
+  "problem_summary_technical": "Utilize a segment tree where each node stores DP states (max sum including/excluding current element) to handle updates and queries efficiently.",
+  "time_complexity": [
+    "O(n + q * log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires re-calculating the maximum non-adjacent subsequence sum after each update.",
+      "A segment tree is a suitable data structure for handling point updates and range queries on an array.",
+      "Each segment tree node needs to store information to combine results from its children, specifically related to including or excluding elements at boundaries."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

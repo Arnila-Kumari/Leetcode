@@ -1,0 +1,32 @@
+{
+  "problem_name": "bomb-enemy",
+  "data_structures": [
+    [
+      "2D Array",
+      "Dynamic Programming"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Precompute enemy counts in each row and column, considering walls, and sum them for each empty cell."
+  ],
+  "problem_summary_simple": "Find the empty cell that kills the maximum number of enemies when a bomb is placed there.",
+  "problem_summary_technical": "Uses dynamic programming to precompute enemy counts in all four directions (up, down, left, right) from each cell, considering walls.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The bomb's effect is limited by walls in each row and column.",
+      "Pre-calculating enemy counts in each direction for each cell is crucial for efficiency.",
+      "Dynamic programming can be used to compute these counts by iterating from the boundaries inwards."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

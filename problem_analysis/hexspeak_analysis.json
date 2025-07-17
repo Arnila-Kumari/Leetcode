@@ -1,0 +1,44 @@
+{
+  "problem_name": "hexspeak",
+  "data_structures": [
+    [
+      "dictionary",
+      "list",
+      "string"
+    ],
+    [
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Base conversion with character mapping and validation",
+    "Built-in hex conversion with string manipulation and validation"
+  ],
+  "problem_summary_simple": "Convert a decimal number to Hexspeak (hexadecimal with 0->O, 1->I) or return ERROR.",
+  "problem_summary_technical": "Convert decimal to hex, then map '0' to 'O' and '1' to 'I', validating the result contains only allowed characters.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The conversion to hexadecimal is the first step, followed by character replacements.",
+      "A lookup table or direct mapping is efficient for character substitutions.",
+      "Validation is crucial to ensure the final string adheres to the Hexspeak rules."
+    ],
+    [
+      "Python's built-in `hex()` function simplifies the initial conversion.",
+      "String methods like `.upper()`, `.replace()`, and `.all()` are powerful for manipulation and validation.",
+      "The constraint on the input number size (up to 10^12) means the hexadecimal representation won't be excessively long."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

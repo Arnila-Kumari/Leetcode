@@ -1,0 +1,32 @@
+{
+  "problem_name": "beautiful-towers-ii",
+  "data_structures": [
+    [
+      "array",
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to calculate prefix and suffix sums for potential peaks."
+  ],
+  "problem_summary_simple": "Find the maximum sum of heights for towers forming a mountain shape, respecting max height constraints.",
+  "problem_summary_technical": "Uses two passes with a monotonic stack to compute prefix and suffix sums, enabling O(n) calculation of maximum mountain sum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A monotonic stack is crucial for efficiently calculating the sum of heights to the left and right of each potential peak.",
+      "The problem can be broken down by considering each element as a potential peak and calculating the maximum sum achievable with that peak.",
+      "The sum calculation for each side of the peak involves a geometric progression-like sum, which the monotonic stack approach optimizes."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

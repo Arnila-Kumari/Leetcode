@@ -1,0 +1,43 @@
+{
+  "problem_name": "reverse-substrings-between-each-pair-of-parentheses",
+  "data_structures": [
+    [
+      "stack",
+      "dictionary"
+    ],
+    [
+      "stack (list of lists)"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Use a stack to store indices of opening parentheses and a lookup map for pairing. Traverse with direction changes.",
+    "Use a stack of lists to build reversed substrings as parentheses are encountered."
+  ],
+  "problem_summary_simple": "Reverse substrings within matching parentheses, starting from the innermost ones, and remove parentheses.",
+  "problem_summary_technical": "Solution 1: Stack and lookup map to track pairs, then traverse with direction changes. Solution 2: Stack of lists to build and reverse segments.",
+  "time_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The nested structure of parentheses suggests a stack-based approach.",
+      "Solution 1 efficiently handles reversals by changing traversal direction based on matched parentheses.",
+      "Solution 2 builds the result incrementally, reversing segments as closing parentheses are found."
+    ],
+    [
+      "The key challenge is managing the order of reversals for nested parentheses.",
+      "The first solution uses a clever traversal with direction changes to achieve O(n) time.",
+      "The second solution is more intuitive but less efficient due to repeated list extensions and reversals."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

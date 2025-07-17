@@ -1,0 +1,28 @@
+{
+  "problem_name": "guess-the-number-using-bitwise-questions-i",
+  "data_structures": [
+    []
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate through bits, query API to check if bit is set in the secret number."
+  ],
+  "problem_summary_simple": "Find a hidden number by asking how many common set bits exist between the hidden number and a given number.",
+  "problem_summary_technical": "Utilizes the `commonSetBits(num)` API to determine which bits are set in the secret number `n` by querying with powers of 2.",
+  "time_complexity": [
+    "O(log N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The `commonSetBits(1 << i)` call effectively checks if the i-th bit of the secret number is 1.",
+      "The `reduce` function with bitwise OR (`|`) reconstructs the number by setting bits that were found to be 1."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-make-array-equal-to-target",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate differences, then sum positive differences of adjacent elements."
+  ],
+  "problem_summary_simple": "Change subarrays by adding/subtracting 1 to make nums equal to target.",
+  "problem_summary_technical": "Transforming nums to target by subarray increments/decrements. Key is difference array and summing positive adjacent differences.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to realize that operations on subarrays can be thought of as point updates on the difference array.",
+      "An operation on a subarray `nums[i..j]` by `+1` is equivalent to `diff[i] += 1` and `diff[j+1] -= 1`.",
+      "The minimum operations correspond to the sum of positive differences between adjacent elements in the transformed `target - nums` array."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

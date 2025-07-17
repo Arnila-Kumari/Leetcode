@@ -1,0 +1,40 @@
+{
+  "problem_name": "minimum-sum-of-squared-difference",
+  "data_structures": [
+    [
+      "array",
+      "heap (implicit in sorting)"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the target difference, combined with greedy reduction of differences",
+    "Binary search on the target difference, combined with prefix sums of differences"
+  ],
+  "problem_summary_simple": "Minimize the sum of squared differences between two arrays by reducing differences using a total budget of operations.",
+  "problem_summary_technical": "Binary search for the maximum allowed difference, then greedily reduce larger differences within the total operation budget.",
+  "time_complexity": [
+    "O(n log n + n log R)",
+    "O(n log n + n log R)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the maximum possible value `x` such that we can reduce all differences `d > x` to `x` using at most `k1 + k2` operations.",
+      "Binary search is suitable for finding this optimal `x` because the feasibility of a given `x` is monotonic.",
+      "Once `x` is found, we greedily reduce differences greater than `x` until the budget is exhausted, then square and sum the remaining differences."
+    ],
+    [
+      "The `check` function efficiently calculates the operations needed to reduce all differences greater than `x` to `x`.",
+      "Sorting the differences initially helps in efficiently calculating the sum of reductions.",
+      "The final step involves adjusting the remaining `k` operations to reduce the largest differences by one, and then squaring and summing."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

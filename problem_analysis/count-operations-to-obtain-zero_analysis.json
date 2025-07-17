@@ -1,0 +1,30 @@
+{
+  "problem_name": "count-operations-to-obtain-zero",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Euclidean algorithm variant for subtraction"
+  ],
+  "problem_summary_simple": "Count operations to make either number zero by repeatedly subtracting the smaller from the larger.",
+  "problem_summary_technical": "Simulates subtraction operations similar to the Euclidean algorithm to find the number of steps to reach zero.",
+  "time_complexity": [
+    "O(log(min(num1, num2)))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operation is analogous to the steps in the Euclidean algorithm for finding the GCD.",
+      "Integer division and modulo operations can efficiently simulate multiple subtractions."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

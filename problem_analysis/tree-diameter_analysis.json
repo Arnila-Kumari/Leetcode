@@ -1,0 +1,69 @@
+{
+  "problem_name": "tree-diameter",
+  "data_structures": [
+    [
+      "adjacency list",
+      "stack"
+    ],
+    [
+      "adjacency list",
+      "recursion stack"
+    ],
+    [
+      "adjacency list",
+      "queue",
+      "array"
+    ],
+    [
+      "adjacency list",
+      "queue"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS to find the longest path by tracking heights from subtrees.",
+    "Recursive DFS to calculate the longest path by combining subtree heights.",
+    "BFS-based approach using topological sort (or leaf removal) to find the longest path.",
+    "Two BFS traversals: first from an arbitrary node to find a farthest node, then from that farthest node to find the diameter."
+  ],
+  "problem_summary_simple": "Find the longest path (number of edges) between any two nodes in a tree.",
+  "problem_summary_technical": "Utilize graph traversal algorithms (DFS/BFS) to find the two farthest nodes in the tree, whose path length is the diameter.",
+  "time_complexity": [
+    "O(|V| + |E|)",
+    "O(|V| + |E|)",
+    "O(|V| + |E|)",
+    "O(|V| + |E|)"
+  ],
+  "space_complexity": [
+    "O(|E|)",
+    "O(|V|)",
+    "O(|V|)",
+    "O(|V|)"
+  ],
+  "key_insights": [
+    [
+      "The iterative DFS approach avoids potential stack overflow issues with deep trees.",
+      "It requires careful management of state to simulate recursion.",
+      "The diameter can pass through any node, not necessarily the root."
+    ],
+    [
+      "The recursive DFS approach is often more intuitive for tree problems.",
+      "The diameter is the maximum of (longest path from left child + longest path from right child + 2) for any node.",
+      "The base case for recursion is a leaf node, returning 0."
+    ],
+    [
+      "This BFS approach is similar to finding the center of a tree.",
+      "It effectively removes leaves layer by layer until the center(s) are found.",
+      "The diameter is related to the number of layers removed."
+    ],
+    [
+      "This is a standard and efficient algorithm for finding the tree diameter.",
+      "The first BFS finds one endpoint of a longest path.",
+      "The second BFS from that endpoint guarantees finding the other endpoint and thus the diameter."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

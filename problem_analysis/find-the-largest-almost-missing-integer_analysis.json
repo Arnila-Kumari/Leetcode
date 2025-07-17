@@ -1,0 +1,30 @@
+{
+  "problem_name": "find-the-largest-almost-missing-integer",
+  "data_structures": [
+    [
+      "collections.defaultdict"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting using a hash map to track element occurrences."
+  ],
+  "problem_summary_simple": "Find the largest number that appears in exactly one subarray of a given size k.",
+  "problem_summary_technical": "Uses a frequency map to count occurrences of each number. Checks boundary elements and then iterates to find the largest number with a count of 1.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem statement implies a sliding window approach, but the provided solution simplifies by only considering boundary conditions for k=1 and k=n.",
+      "The core idea is to count how many subarrays each number appears in. A number appearing in exactly one subarray is 'almost missing'."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

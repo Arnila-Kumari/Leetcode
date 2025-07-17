@@ -1,0 +1,31 @@
+{
+  "problem_name": "sum-of-digits-in-base-k",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Repeatedly take modulo and divide by base k to extract digits and sum them."
+  ],
+  "problem_summary_simple": "Convert a base-10 number to base-k and sum its digits.",
+  "problem_summary_technical": "Use modulo and division operations to extract digits in base k and accumulate their sum.",
+  "time_complexity": [
+    "O(log_k(n))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The standard algorithm for base conversion involves repeatedly taking the remainder (digit) and dividing by the base.",
+      "The sum of digits in any base is simply the sum of these remainders.",
+      "The constraints on n and k are small, making this a straightforward arithmetic problem."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

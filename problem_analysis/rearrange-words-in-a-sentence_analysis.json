@@ -1,0 +1,32 @@
+{
+  "problem_name": "rearrange-words-in-a-sentence",
+  "data_structures": [
+    [
+      "list (for words)",
+      "string (for joining)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Splitting the sentence into words, sorting by length, and rejoining with proper capitalization."
+  ],
+  "problem_summary_simple": "Rearrange words in a sentence by length, keeping original order for ties, and capitalize the first word.",
+  "problem_summary_technical": "Split sentence, sort words by length (stable sort for ties), convert first word to title case, and join back.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires a stable sort to maintain the original relative order of words with the same length.",
+      "Python's `list.sort()` or `sorted()` are stable by default.",
+      "Care must be taken to handle the capitalization of the first word correctly after sorting."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

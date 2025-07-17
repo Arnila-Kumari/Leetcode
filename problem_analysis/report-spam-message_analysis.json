@@ -1,0 +1,32 @@
+{
+  "problem_name": "report-spam-message",
+  "data_structures": [
+    [
+      "set",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "hash set for efficient lookup, count matching words"
+  ],
+  "problem_summary_simple": "Check if at least two words in a message are present in a banned words list.",
+  "problem_summary_technical": "Uses a hash set to store banned words for O(1) average time lookups, then iterates through the message to count matches.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "Using a set for banned words provides efficient O(1) average time complexity for checking word existence.",
+      "The problem requires counting occurrences, so a simple boolean check is insufficient; a counter is needed.",
+      "The threshold of 2 is crucial for determining spam."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

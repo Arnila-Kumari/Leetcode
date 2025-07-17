@@ -1,0 +1,31 @@
+{
+  "problem_name": "smallest-index-with-digit-sum-equal-to-index",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through array, calculate digit sum for each element, compare with index."
+  ],
+  "problem_summary_simple": "Find the smallest index where the number at that index has a digit sum equal to the index itself.",
+  "problem_summary_technical": "Iterate through the array, compute digit sum of nums[i] using modulo and division, compare with index i.",
+  "time_complexity": [
+    "O(n*logr)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The digit sum calculation can be done efficiently with a helper function.",
+      "A generator expression with `next()` provides a concise way to find the first matching index.",
+      "The time complexity is dominated by the digit sum calculation for each number."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

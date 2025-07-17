@@ -1,0 +1,42 @@
+{
+  "problem_name": "reach-a-number",
+  "data_structures": [
+    [
+      "math"
+    ],
+    [
+      "loop"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical formula derivation using quadratic equation for sum of arithmetic series",
+    "Iterative simulation of moves, adjusting direction and sum"
+  ],
+  "problem_summary_simple": "Find the minimum moves to reach a target position on an infinite line, taking i steps on the i-th move.",
+  "problem_summary_technical": "Calculate minimum moves by finding k such that sum of 1 to k is close to target, then adjust for parity.",
+  "time_complexity": [
+    "O(1)",
+    "O(sqrt(target))"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The sum of the first k integers is k*(k+1)/2.",
+      "The problem reduces to finding k such that k*(k+1)/2 >= abs(target).",
+      "Parity of the difference between the sum and target determines the final adjustment."
+    ],
+    [
+      "Simulating the moves iteratively can find the required number of steps.",
+      "The key is to realize that we can always adjust the direction of moves to reach the target.",
+      "The parity of the difference between the total steps and the target is crucial."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

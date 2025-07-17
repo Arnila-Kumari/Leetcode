@@ -1,0 +1,34 @@
+{
+  "problem_name": "russian-doll-envelopes",
+  "data_structures": [
+    [
+      "list of lists (envelopes)",
+      "list (for storing LIS lengths)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sort envelopes by width, then find the Longest Increasing Subsequence (LIS) of heights.",
+    "Binary search (Patience Sorting variant) for LIS."
+  ],
+  "problem_summary_simple": "Find the maximum number of envelopes that can be nested inside each other.",
+  "problem_summary_technical": "Sort envelopes by width (descending for same width), then find LIS of heights using binary search.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem is equivalent to finding the Longest Increasing Subsequence (LIS) on heights after a specific sort.",
+      "Sorting by width (ascending) and then finding LIS of heights works. If widths are equal, heights must be strictly decreasing to prevent nesting.",
+      "The provided solution sorts by width ascending, and height descending for ties, then finds LIS of heights. This ensures that envelopes with the same width are not considered nested.",
+      "The `insert` function implements the binary search part of the O(n log n) LIS algorithm."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:07:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

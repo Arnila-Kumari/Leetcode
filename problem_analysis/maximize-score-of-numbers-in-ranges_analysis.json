@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximize-score-of-numbers-in-ranges",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "binary search on the answer, greedy selection within intervals"
+  ],
+  "problem_summary_simple": "Find the maximum minimum difference between chosen numbers from given intervals.",
+  "problem_summary_technical": "Binary search for the maximum score, using a greedy approach to check feasibility by selecting the earliest possible number in each interval.",
+  "time_complexity": [
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the largest possible minimum difference (score).",
+      "Binary search on the answer (the score) is a viable approach.",
+      "For a given score `x`, a greedy strategy can check if it's possible to select numbers such that the minimum difference is at least `x`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

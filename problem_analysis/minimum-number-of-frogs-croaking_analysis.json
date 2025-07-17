@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-number-of-frogs-croaking",
+  "data_structures": [
+    [
+      "list of integers (lookup)",
+      "string",
+      "integer variable"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Track counts of each croak character, ensuring sequential order and that no frog starts a new croak without finishing the previous one."
+  ],
+  "problem_summary_simple": "Find the minimum number of frogs needed to produce a given sequence of croaks.",
+  "problem_summary_technical": "Uses a frequency array to track active croaks, ensuring sequential character completion and valid frog usage.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by tracking the counts of each character in the 'croak' sequence.",
+      "A frog can only start a new 'croak' if it has completed the previous one.",
+      "The maximum number of active 'croak' sequences at any point determines the minimum number of frogs required."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,60 @@
+{
+  "problem_name": "find-if-path-exists-in-graph",
+  "data_structures": [
+    [
+      "adjacency list (defaultdict)",
+      "queue (list)",
+      "set (lookup)"
+    ],
+    [
+      "adjacency list (defaultdict)",
+      "stack (list)",
+      "set (lookup)"
+    ],
+    [
+      "adjacency list (defaultdict)",
+      "set (left)",
+      "set (right)",
+      "set (lookup)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) on graph",
+    "Depth-First Search (DFS) on graph",
+    "Bidirectional Breadth-First Search (Bi-BFS) on graph"
+  ],
+  "problem_summary_simple": "Determine if a path exists between a source and destination node in an undirected graph.",
+  "problem_summary_technical": "Build an adjacency list for the graph and perform BFS or DFS from the source to find the destination.",
+  "time_complexity": [
+    "O(|V| + |E|)",
+    "O(|V| + |E|)",
+    "O(|V| + |E|)"
+  ],
+  "space_complexity": [
+    "O(|V| + |E|)",
+    "O(|V| + |E|)",
+    "O(|V| + |E|)"
+  ],
+  "key_insights": [
+    [
+      "Graph traversal algorithms like BFS and DFS are standard for pathfinding.",
+      "An adjacency list is an efficient way to represent the graph for traversal.",
+      "Bidirectional BFS can be faster in practice by searching from both ends simultaneously."
+    ],
+    [
+      "BFS explores layer by layer, guaranteeing the shortest path if needed (though not required here).",
+      "DFS uses a stack (explicit or implicit via recursion) to explore as deeply as possible.",
+      "A 'visited' set is crucial to prevent infinite loops in graphs with cycles."
+    ],
+    [
+      "Bidirectional BFS can significantly reduce the search space by meeting in the middle.",
+      "The key is to maintain separate visited sets for each search direction.",
+      "The algorithm terminates when the two search frontiers intersect."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

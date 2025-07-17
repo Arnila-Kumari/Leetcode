@@ -1,0 +1,40 @@
+{
+  "problem_name": "count-submatrices-with-equal-frequency-of-x-and-y",
+  "data_structures": [
+    [
+      "2D prefix sum arrays"
+    ],
+    [
+      "2D prefix sum arrays"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "2D prefix sums to efficiently calculate counts in submatrices.",
+    "2D prefix sums to efficiently calculate counts in submatrices."
+  ],
+  "problem_summary_simple": "Count submatrices containing grid[0][0] with equal 'X' and 'Y' counts and at least one 'X'.",
+  "problem_summary_technical": "Utilize 2D prefix sum arrays to compute 'X' and 'Y' counts in submatrices in O(1) time.",
+  "time_complexity": [
+    "O(n*m)",
+    "O(n*m)"
+  ],
+  "space_complexity": [
+    "O(n*m)",
+    "O(n*m)"
+  ],
+  "key_insights": [
+    [
+      "2D prefix sums are crucial for efficient submatrix sum calculations.",
+      "The condition 'at least one X' is implicitly handled by checking for non-zero counts."
+    ],
+    [
+      "The DP state can be defined as the count of 'X's and 'Y's up to a cell.",
+      "Iterating through all possible bottom-right corners of submatrices is a common pattern."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

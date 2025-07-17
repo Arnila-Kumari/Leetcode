@@ -1,0 +1,44 @@
+{
+  "problem_name": "shuffle-string",
+  "data_structures": [
+    [
+      "array",
+      "string"
+    ],
+    [
+      "array",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "In-place cycle sort for string shuffling",
+    "Auxiliary array for direct placement"
+  ],
+  "problem_summary_simple": "Rearrange a string based on a given index mapping.",
+  "problem_summary_technical": "Uses cycle sort to place characters in their correct positions in-place or an auxiliary array for direct mapping.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The in-place solution cleverly uses the `indices` array to track visited elements and perform swaps.",
+      "The auxiliary array approach is simpler to understand and implement, trading space for clarity.",
+      "Both solutions ensure each character is placed exactly once in its final position."
+    ],
+    [
+      "The auxiliary array approach is simpler to understand and implement, trading space for clarity.",
+      "The `itertools.izip` (or `zip` in Python 3) efficiently pairs characters with their target indices.",
+      "This method directly constructs the result without complex in-place manipulations."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

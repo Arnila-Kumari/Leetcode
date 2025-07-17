@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-number-of-removal-queries-that-can-be-processed-i",
+  "data_structures": [
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to find the maximum number of queries processed by considering subsequences."
+  ],
+  "problem_summary_simple": "Find the maximum number of queries that can be processed by optimally choosing a subsequence of the initial array.",
+  "problem_summary_technical": "DP state `dp[i][j]` represents the max queries processed from `nums[i...j]`. Transitions consider removing from ends.",
+  "time_complexity": [
+    "O(n^2 * q)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as finding the longest subsequence of queries that can be satisfied.",
+      "The DP approach considers all possible contiguous subarrays of `nums` and the maximum queries they can satisfy.",
+      "The state transition needs to carefully consider the current query index and the remaining `nums` subarray."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

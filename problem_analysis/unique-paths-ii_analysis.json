@@ -1,0 +1,31 @@
+{
+  "problem_name": "unique-paths-ii",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "1-D DP: iterate through grid, updating path counts considering obstacles."
+  ],
+  "problem_summary_simple": "Find unique paths in a grid with obstacles, moving only right or down.",
+  "problem_summary_technical": "1D DP approach to count paths on an m x n grid with obstacles, updating counts based on previous cells and obstacles.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Obstacles block paths, setting the number of ways to reach that cell to 0.",
+      "The DP state `ways[j]` represents the number of ways to reach cell `(i, j)`.",
+      "If `obstacleGrid[i][j]` is 1, `ways[j]` becomes 0, and subsequent calculations for `ways[j]` will be affected."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

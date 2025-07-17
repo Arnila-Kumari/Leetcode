@@ -1,0 +1,64 @@
+{
+  "problem_name": "top-k-frequent-words",
+  "data_structures": [
+    [
+      "list of tuples",
+      "list (partitioned)"
+    ],
+    [
+      "hashmap",
+      "min-heap"
+    ],
+    [
+      "hashmap",
+      "list (buckets)"
+    ],
+    [
+      "hashmap",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Frequency counting and Quick Select with custom sorting for ties.",
+    "Frequency counting and min-heap to maintain top k elements with custom comparator.",
+    "Frequency counting and bucket sort with custom sorting for ties.",
+    "Frequency counting and sorting based on frequency and lexicographical order."
+  ],
+  "problem_summary_simple": "Find the k most frequent words, sorting by frequency then alphabetically.",
+  "problem_summary_technical": "Count word frequencies, then use Quick Select or a min-heap to find top k, handling ties lexicographically.",
+  "time_complexity": [
+    "O(n + k log k) on average",
+    "O(n log k)",
+    "O(n + k log k) ~ O(n + n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Quick Select can be adapted for custom sorting criteria, including tie-breaking.",
+      "The final sort of the top k elements is crucial for lexicographical order."
+    ],
+    [
+      "A min-heap is ideal for maintaining the top k elements efficiently.",
+      "The custom comparator for the heap is key to handling frequency and lexicographical order."
+    ],
+    [
+      "Bucket sort can group words by frequency, then sorting within buckets handles ties.",
+      "The final sorting of the top k candidates is necessary."
+    ],
+    [
+      "Directly sorting the unique words based on a custom key (frequency, then word) is straightforward.",
+      "This is the simplest approach if O(n log n) time complexity is acceptable."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

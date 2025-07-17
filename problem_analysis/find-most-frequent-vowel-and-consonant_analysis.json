@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-most-frequent-vowel-and-consonant",
+  "data_structures": [
+    [
+      "array",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting using an array, then iterating to find max vowel and consonant frequencies."
+  ],
+  "problem_summary_simple": "Find the most frequent vowel and consonant in a string and return the sum of their frequencies.",
+  "problem_summary_technical": "Uses a frequency array for all letters and a set for vowels to find max frequencies of each type.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A fixed-size array (26 for lowercase English letters) is efficient for frequency counting.",
+      "A set provides O(1) average time complexity for checking if a character is a vowel.",
+      "The problem statement allows choosing any character if multiple have the same max frequency."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

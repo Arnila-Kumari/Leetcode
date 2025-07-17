@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-good-triplets",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Brute-force iteration through all possible triplets with conditional checks."
+  ],
+  "problem_summary_simple": "Count triplets in an array that satisfy specific absolute difference conditions between elements.",
+  "problem_summary_technical": "Iterate through all combinations of three indices (i < j < k) and check if the absolute differences meet the given thresholds.",
+  "time_complexity": [
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The constraints on n (up to 100) allow for an O(n^3) solution.",
+      "Carefully check all three absolute difference conditions for each triplet.",
+      "The order of indices (i < j < k) is important."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:36:31",
+  "batch_processed": true,
+  "batch_size": 4
+}

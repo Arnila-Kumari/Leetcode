@@ -1,0 +1,32 @@
+{
+  "problem_name": "insert-delete-getrandom-o1",
+  "data_structures": [
+    [
+      "List",
+      "Hash Map"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Using a list for storage and a hash map for O(1) lookups and index tracking."
+  ],
+  "problem_summary_simple": "Implement a set that supports insert, delete, and random element retrieval in O(1) time.",
+  "problem_summary_technical": "Combine a list for O(1) random access and a hash map to store element-to-index mappings for O(1) insert/delete operations.",
+  "time_complexity": [
+    "O(1) on average for all operations."
+  ],
+  "space_complexity": [
+    "O(n), where n is the number of elements in the set."
+  ],
+  "key_insights": [
+    [
+      "To achieve O(1) deletion, swap the element to be deleted with the last element in the list and then pop the last element.",
+      "A hash map is essential to quickly find the index of an element for deletion and update its index when swapped.",
+      "Random element retrieval is O(1) if using a list (or array) and picking a random index."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

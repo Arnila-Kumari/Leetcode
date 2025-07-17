@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimum-number-of-moves-to-make-palindrome",
+  "data_structures": [
+    [
+      "list",
+      "array",
+      "Fenwick tree (BIT)"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach with Fenwick tree to count inversions for optimal swaps.",
+    "Greedy approach by iteratively moving the last character to its matching pair."
+  ],
+  "problem_summary_simple": "Find the minimum swaps of adjacent characters to make a string a palindrome.",
+  "problem_summary_technical": "Solution 1 uses a Fenwick tree to count inversions needed to place characters correctly. Solution 2 greedily moves the last character to its match.",
+  "time_complexity": [
+    "O(nlogn)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by pairing characters from the ends inwards.",
+      "The number of swaps is related to the inversions needed to bring characters to their target positions.",
+      "A Fenwick tree efficiently calculates the number of elements to the left of a target position."
+    ],
+    [
+      "Greedily matching the last character with its closest counterpart minimizes moves.",
+      "Each move of a character to its correct position contributes to the total swaps.",
+      "The middle character (if any) doesn't require pairing."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

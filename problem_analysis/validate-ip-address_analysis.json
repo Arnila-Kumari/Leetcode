@@ -1,0 +1,33 @@
+{
+  "problem_name": "validate-ip-address",
+  "data_structures": [
+    [
+      "string splitting",
+      "integer conversion",
+      "character validation"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "String parsing and validation based on IPv4 and IPv6 rules"
+  ],
+  "problem_summary_simple": "Determine if a string is a valid IPv4 or IPv6 address.",
+  "problem_summary_technical": "Split by '.' for IPv4, check segment count, range, and leading zeros. Split by ':' for IPv6, check segment count, length, and hex characters.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Distinguish clearly between IPv4 and IPv6 parsing rules.",
+      "IPv4: segments are decimal, 0-255, no leading zeros (except for '0').",
+      "IPv6: segments are hexadecimal, 1-4 chars, leading zeros allowed."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

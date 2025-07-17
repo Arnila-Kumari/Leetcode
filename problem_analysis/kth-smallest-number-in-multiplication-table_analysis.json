@@ -1,0 +1,31 @@
+{
+  "problem_name": "kth-smallest-number-in-multiplication-table",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer combined with a counting function"
+  ],
+  "problem_summary_simple": "Find the kth smallest number in an m x n multiplication table.",
+  "problem_summary_technical": "Uses binary search on the possible product values, with a helper function to count elements less than or equal to a target.",
+  "time_complexity": [
+    "O(m * log(m * n))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The range of possible products is from 1 to m*n.",
+      "The `count` function efficiently determines how many numbers in the multiplication table are less than or equal to a given `target`.",
+      "Binary search is applicable because the `count` function is monotonic."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

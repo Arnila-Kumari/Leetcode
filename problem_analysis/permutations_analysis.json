@@ -1,0 +1,43 @@
+{
+  "problem_name": "permutations",
+  "data_structures": [
+    [
+      "list",
+      "boolean array"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Recursive backtracking with a used array to explore all possible permutations.",
+    "Recursive backtracking by building permutations and removing elements from the remaining list."
+  ],
+  "problem_summary_simple": "Generate all possible permutations of a given array of distinct integers.",
+  "problem_summary_technical": "Backtracking algorithms explore all combinations by recursively building permutations and managing used elements.",
+  "time_complexity": [
+    "O(n * n!)",
+    "O(n^2 * n!)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "Backtracking is a natural fit for permutation problems, exploring all possibilities systematically.",
+      "A 'used' array or similar mechanism is crucial to avoid reusing elements within a single permutation.",
+      "Copying the current permutation when a full permutation is formed is necessary to avoid modification issues."
+    ],
+    [
+      "This approach avoids an explicit 'used' array by passing modified sub-lists.",
+      "The recursive calls effectively explore different branches of the permutation tree.",
+      "The space complexity is higher due to the creation of new lists in each recursive call."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

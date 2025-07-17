@@ -1,0 +1,34 @@
+{
+  "problem_name": "coloring-a-border",
+  "data_structures": [
+    [
+      "2D array",
+      "set",
+      "deque",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) to identify connected component and border cells"
+  ],
+  "problem_summary_simple": "Color the border of a connected component in a grid with a new color.",
+  "problem_summary_technical": "Uses BFS to find the connected component and identify cells adjacent to different colors or grid boundaries.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "A Breadth-First Search (BFS) is suitable for exploring the connected component.",
+      "A cell is part of the border if it's on the grid boundary or adjacent to a cell of a different color.",
+      "Keep track of visited cells to avoid redundant processing and infinite loops."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

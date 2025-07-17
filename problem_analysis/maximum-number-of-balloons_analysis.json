@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-number-of-balloons",
+  "data_structures": [
+    [
+      "hashmap",
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count character frequencies in the input string and the target word, then find the limiting character."
+  ],
+  "problem_summary_simple": "Determine how many times the word 'balloon' can be formed using the characters from a given text.",
+  "problem_summary_technical": "Count character frequencies in the input string and compare with the required frequencies for 'balloon' to find the minimum ratio.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem boils down to finding the bottleneck character, which is the one that limits the number of 'balloon' words that can be formed.",
+      "Using a Counter (hashmap) is an efficient way to tally character frequencies.",
+      "The minimum of the ratios (available_count / required_count) for each character in 'balloon' gives the answer."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:53:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

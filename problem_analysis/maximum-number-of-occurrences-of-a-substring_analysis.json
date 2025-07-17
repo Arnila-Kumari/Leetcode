@@ -1,0 +1,43 @@
+{
+  "problem_name": "maximum-number-of-occurrences-of-a-substring",
+  "data_structures": [
+    [
+      "collections.defaultdict"
+    ],
+    [
+      "dict",
+      "collections.Counter"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Rolling hash (Rabin-Karp) with sliding window and frequency map",
+    "Brute force substring check with sliding window and frequency map"
+  ],
+  "problem_summary_simple": "Find the most frequent substring that meets unique character and size constraints.",
+  "problem_summary_technical": "Uses rolling hash or direct substring checking within a sliding window to count valid substrings meeting letter and size criteria.",
+  "time_complexity": [
+    "O(n)",
+    "O(n * m)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n * m)"
+  ],
+  "key_insights": [
+    [
+      "Rolling hash efficiently checks substring equality in O(1) on average.",
+      "The constraint on `minSize` is key; `maxSize` doesn't require a larger window.",
+      "Frequency map is essential to track valid substrings."
+    ],
+    [
+      "Direct substring creation and Counter can be less efficient for large strings.",
+      "The problem can be solved by iterating through all possible `minSize` substrings.",
+      "The `maxSize` constraint is implicitly handled by only considering `minSize` substrings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

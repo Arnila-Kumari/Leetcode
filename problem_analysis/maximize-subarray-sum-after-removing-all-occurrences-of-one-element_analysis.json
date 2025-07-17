@@ -1,0 +1,53 @@
+{
+  "problem_name": "maximize-subarray-sum-after-removing-all-occurrences-of-one-element",
+  "data_structures": [
+    [
+      "list",
+      "dictionary",
+      "integer"
+    ],
+    [
+      "list",
+      "dictionary",
+      "integer"
+    ],
+    [
+      "list",
+      "segment tree"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Kadane's algorithm variation with prefix sums and tracking minimum prefix sums",
+    "Kadane's algorithm variation with prefix sums and tracking minimum prefix sums (optimized for negative numbers)",
+    "Segment tree for efficient range maximum subarray sum queries after element removal"
+  ],
+  "problem_summary_simple": "Find the max subarray sum after removing all occurrences of one element at most once.",
+  "problem_summary_technical": "Iterate through possible elements to remove. For each removal, calculate max subarray sum using Kadane's or a segment tree.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering each unique element as a candidate for removal.",
+      "For each candidate removal, the problem reduces to finding the maximum subarray sum in the modified array.",
+      "Kadane's algorithm is a standard approach for maximum subarray sum. This problem requires adapting it to handle element removals."
+    ],
+    [
+      "The segment tree approach precomputes information about subarrays.",
+      "When an element is removed, the segment tree can be updated efficiently.",
+      "The segment tree nodes store information to calculate the maximum subarray sum across merged segments."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

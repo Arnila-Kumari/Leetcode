@@ -1,0 +1,31 @@
+{
+  "problem_name": "subdomain-visit-count",
+  "data_structures": [
+    [
+      "collections.defaultdict"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through domains, split, and count subdomains using a hash map."
+  ],
+  "problem_summary_simple": "Count visits for all subdomains of given domains.",
+  "problem_summary_technical": "Parses count-paired domains, extracts subdomains, and aggregates counts in a hash map.",
+  "time_complexity": [
+    "O(N*L), where N is number of cpdomains and L is max length of a domain"
+  ],
+  "space_complexity": [
+    "O(N*L)"
+  ],
+  "key_insights": [
+    [
+      "The key is to correctly parse the domain string and identify all its subdomains.",
+      "A hash map (defaultdict) is ideal for aggregating counts of subdomains.",
+      "Processing domains in reverse order of their components simplifies subdomain generation."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

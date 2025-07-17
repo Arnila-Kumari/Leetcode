@@ -1,0 +1,31 @@
+{
+  "problem_name": "uncrossed-lines",
+  "data_structures": [
+    [
+      "2D array (optimized to 2 rows)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming (Longest Common Subsequence variation)"
+  ],
+  "problem_summary_simple": "Find the maximum number of non-intersecting lines connecting equal numbers between two arrays.",
+  "problem_summary_technical": "Applies DP to find the Longest Common Subsequence between two arrays, treating it as a variation of the LCS problem.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(min(m, n))"
+  ],
+  "key_insights": [
+    [
+      "This problem is a direct application of the Longest Common Subsequence (LCS) problem.",
+      "The constraint of non-intersecting lines is naturally handled by the LCS recurrence relation.",
+      "Space optimization to O(min(m, n)) is possible by only keeping track of the previous row's DP states."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

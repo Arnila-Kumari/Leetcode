@@ -1,0 +1,34 @@
+{
+  "problem_name": "shortest-bridge",
+  "data_structures": [
+    [
+      "2D array",
+      "Set",
+      "Queue",
+      "List"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "BFS to find one island, then BFS from all its cells to find the shortest path to the other island."
+  ],
+  "problem_summary_simple": "Find the minimum number of water cells to flip to connect two islands.",
+  "problem_summary_technical": "Identify one island using DFS/BFS, then perform a multi-source BFS from its cells to find the nearest cell of the second island.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into two main phases: finding one island and then finding the shortest path to the other.",
+      "BFS is a natural fit for finding the shortest path in an unweighted graph (grid).",
+      "Using a set to keep track of visited cells (`done` and `lookup`) prevents redundant processing and cycles."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:19:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

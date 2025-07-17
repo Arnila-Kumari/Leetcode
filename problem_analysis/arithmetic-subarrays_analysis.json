@@ -1,0 +1,32 @@
+{
+  "problem_name": "arithmetic-subarrays",
+  "data_structures": [
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through queries, extract subarray, sort, and check for arithmetic progression."
+  ],
+  "problem_summary_simple": "Check if subarrays, when rearranged, form arithmetic sequences.",
+  "problem_summary_technical": "For each query range, extract the subarray, sort it, and verify if the difference between consecutive elements is constant.",
+  "time_complexity": [
+    "O(m * n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting is crucial to check for arithmetic progression after rearrangement.",
+      "Using a set for checking element existence can optimize the arithmetic check.",
+      "The difference must be an integer, so check for divisibility."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

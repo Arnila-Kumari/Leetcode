@@ -1,0 +1,31 @@
+{
+  "problem_name": "sliding-subarray-beauty",
+  "data_structures": [
+    [
+      "SortedList"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a sorted list to maintain order and find xth smallest negative."
+  ],
+  "problem_summary_simple": "Find the xth smallest negative number in all subarrays of size k, or 0 if not enough negatives.",
+  "problem_summary_technical": "Uses a sliding window and a SortedList to efficiently track elements and find the xth smallest negative in O(log k) per window.",
+  "time_complexity": [
+    "O(n log k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "A SortedList (from sortedcontainers) is crucial for efficient insertion, deletion, and retrieval of the xth element.",
+      "The problem requires finding the xth smallest *negative* number, so the result is capped at 0.",
+      "The sliding window approach efficiently updates the data structure as elements enter and leave the window."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

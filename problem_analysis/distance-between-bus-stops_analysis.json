@@ -1,0 +1,32 @@
+{
+  "problem_name": "distance-between-bus-stops",
+  "data_structures": [
+    [
+      "list",
+      "itertools.islice"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Calculate the sum of distances in both clockwise and counter-clockwise directions and return the minimum."
+  ],
+  "problem_summary_simple": "Find the shortest distance between two bus stops on a circular route with given distances between adjacent stops.",
+  "problem_summary_technical": "Calculates the sum of distances for both directions (clockwise and counter-clockwise) and returns the minimum.",
+  "time_complexity": [
+    "O(n), where n is the number of stops"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves a circular arrangement, meaning there are two possible paths between any two stops.",
+      "Calculate the total distance of the circle first.",
+      "Then, calculate the distance of one path and subtract it from the total to get the other path's distance."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

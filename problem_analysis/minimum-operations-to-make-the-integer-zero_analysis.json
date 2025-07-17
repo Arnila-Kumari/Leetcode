@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-make-the-integer-zero",
+  "data_structures": [
+    [
+      "None"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Linear search for the number of operations, checking bit counts and value constraints."
+  ],
+  "problem_summary_simple": "Find minimum operations to make num1 zero by subtracting 2^i + num2.",
+  "problem_summary_technical": "Iterates through possible operation counts (i), checks if num1 - i*num2 is non-negative and its bit count is <= i and equals num1 - i*num2.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Each operation subtracts `2^i + num2` from `num1`. Let `x` be the number of operations.",
+      "The total subtracted amount is `sum(2^i_j + num2)` for `j=1 to x`, which simplifies to `sum(2^i_j) + x * num2`.",
+      "We need `num1 = sum(2^i_j) + x * num2`. Rearranging: `num1 - x * num2 = sum(2^i_j)`. The right side is a sum of distinct powers of 2, meaning its bit count must be less than or equal to `x` and the value itself must be at least the sum of powers of 2."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "distribute-money-to-maximum-children",
+  "data_structures": [
+    [
+      "integer"
+    ],
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy distribution with edge case handling for remaining money.",
+    "Greedy distribution with explicit conditional checks for edge cases."
+  ],
+  "problem_summary_simple": "Maximize children getting $8, given money, children, and rules.",
+  "problem_summary_technical": "Greedily assign $1 to each child, then distribute remaining $7 chunks to maximize $8 recipients, handling edge cases.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by first giving each child $1.",
+      "The remaining money should be distributed in chunks of $7 to maximize $8 recipients.",
+      "Special cases arise when the remaining money is not perfectly divisible by 7 or when the last child gets $3."
+    ],
+    [
+      "Start by ensuring each child gets at least $1.",
+      "Distribute the remaining money in $7 increments to maximize the number of children receiving $8.",
+      "Carefully handle the boundary conditions where the number of $8 recipients is close to the total number of children."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:17:37",
+  "batch_processed": true,
+  "batch_size": 4
+}

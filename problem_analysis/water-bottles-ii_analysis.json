@@ -1,0 +1,31 @@
+{
+  "problem_name": "water-bottles-ii",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterative simulation with increasing exchange cost"
+  ],
+  "problem_summary_simple": "Maximize drunk bottles by drinking some and exchanging empty ones, with exchange cost increasing.",
+  "problem_summary_technical": "Simulate drinking, exchanging empty bottles for full ones, and incrementing the exchange cost each time.",
+  "time_complexity": [
+    "O(sqrt(numBottles))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key difference from the previous problem is that `numExchange` increases.",
+      "This makes the greedy strategy of drinking as many as possible first, then exchanging, optimal.",
+      "The loop terminates when the number of available empty bottles is less than the current `numExchange` requirement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

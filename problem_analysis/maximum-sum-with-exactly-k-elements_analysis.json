@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-sum-with-exactly-k-elements",
+  "data_structures": [
+    [
+      "variable"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Identify the largest element, repeatedly increment it and add to the sum."
+  ],
+  "problem_summary_simple": "Maximize score by repeatedly picking the largest element, removing it, and adding its incremented value.",
+  "problem_summary_technical": "The optimal strategy is to always pick the maximum element, increment it, and add it to the score.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy approach of always picking the maximum element is optimal.",
+      "The sequence of picked numbers will be `max(nums), max(nums)+1, ..., max(nums)+k-1`.",
+      "The sum can be calculated using an arithmetic progression formula."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:55:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

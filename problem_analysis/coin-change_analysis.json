@@ -1,0 +1,31 @@
+{
+  "problem_name": "coin-change",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming: dp[i] stores the minimum coins to make amount i. Iterate through amounts and coins to fill the dp table."
+  ],
+  "problem_summary_simple": "Find the minimum number of coins to make a target amount.",
+  "problem_summary_technical": "Use dynamic programming where dp[i] is the minimum coins for amount i. Iterate through amounts and coins, updating dp[i + coin].",
+  "time_complexity": [
+    "O(amount * num_coins)"
+  ],
+  "space_complexity": [
+    "O(amount)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic unbounded knapsack type problem solvable with DP.",
+      "Initialize dp array with a value representing infinity (or a value larger than any possible answer).",
+      "The order of loops matters: iterating through amounts first and then coins ensures each coin can be used multiple times."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

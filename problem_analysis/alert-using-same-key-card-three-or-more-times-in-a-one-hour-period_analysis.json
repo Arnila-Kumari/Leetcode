@@ -1,0 +1,33 @@
+{
+  "problem_name": "alert-using-same-key-card-three-or-more-times-in-a-one-hour-period",
+  "data_structures": [
+    [
+      "hashmap",
+      "list",
+      "sorted list"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Group access times by employee. For each employee, sort their access times and use a sliding window to check for three or more within an hour."
+  ],
+  "problem_summary_simple": "Identify workers who used their keycard 3+ times within any one-hour window.",
+  "problem_summary_technical": "Use a hashmap to store times per employee. Sort times and apply a sliding window of size 3 to detect violations.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Convert time strings to a numerical representation (minutes since midnight) for easier comparison.",
+      "A hashmap is ideal for grouping access times by employee.",
+      "Sorting the times for each employee and then using a sliding window (or two pointers) is efficient for checking the one-hour constraint."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

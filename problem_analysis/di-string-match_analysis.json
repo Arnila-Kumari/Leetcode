@@ -1,0 +1,31 @@
+{
+  "problem_name": "di-string-match",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Use two pointers, `left` and `right`, initialized to 0 and n. Greedily append `left` for 'I' and `right` for 'D', adjusting pointers accordingly."
+  ],
+  "problem_summary_simple": "Construct a permutation based on a string of 'I' (increasing) and 'D' (decreasing) instructions.",
+  "problem_summary_technical": "Employs two pointers to greedily construct the permutation by picking from the smallest available (left) or largest available (right) numbers.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy approach works because we want to maintain the increasing/decreasing property at each step.",
+      "Using `left` and `right` pointers ensures we use all numbers from 0 to n exactly once.",
+      "The final element is determined by the remaining pointer value."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

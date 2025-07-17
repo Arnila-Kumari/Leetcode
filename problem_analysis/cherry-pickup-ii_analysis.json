@@ -1,0 +1,42 @@
+{
+  "problem_name": "cherry-pickup-ii",
+  "data_structures": [
+    [
+      "3D array"
+    ],
+    [
+      "3D array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming where state tracks positions of two robots in the grid.",
+    "DP state tracks positions of two robots, considering their moves to the next row."
+  ],
+  "problem_summary_simple": "Two robots start at top corners and move down, collecting max cherries.",
+  "problem_summary_technical": "DP state dp[row][robot1_col][robot2_col] stores max cherries collected by two robots.",
+  "time_complexity": [
+    "O(rows * cols^2)",
+    "O(rows * cols^2)"
+  ],
+  "space_complexity": [
+    "O(cols^2)",
+    "O(cols^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using dynamic programming by considering the state of both robots at each row.",
+      "The DP state should capture the column positions of both robots in the current row.",
+      "Transitions involve considering all possible moves of both robots to the next row."
+    ],
+    [
+      "The problem can be solved using dynamic programming by considering the state of both robots at each row.",
+      "The DP state should capture the column positions of both robots in the current row.",
+      "Transitions involve considering all possible moves of both robots to the next row."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:34:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-distance-to-the-target-element",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Iterate outwards from the 'start' index in both directions to find the nearest target element."
+  ],
+  "problem_summary_simple": "Find the minimum absolute difference between 'start' index and any index 'i' where nums[i] equals 'target'.",
+  "problem_summary_technical": "Search outwards from 'start' index. Check nums[start-i] and nums[start+i] for target, return the first 'i' found.",
+  "time_complexity": [
+    "O(n) in the worst case"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the minimum distance, which implies searching outwards from the 'start' index.",
+      "We can check elements at `start - i` and `start + i` simultaneously for increasing values of `i`.",
+      "The first time we find the `target` element at either `start - i` or `start + i`, `i` will be the minimum distance."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:57:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,34 @@
+{
+  "problem_name": "number-of-different-integers-in-a-string",
+  "data_structures": [
+    [
+      "set",
+      "integer variable"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through string, replace non-digits with spaces, parse numbers, store unique numbers in a set."
+  ],
+  "problem_summary_simple": "Count how many unique integers are in a string after replacing letters with spaces.",
+  "problem_summary_technical": "Process string, replacing non-digits with spaces, then extract and count unique integers using a set.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Using a set automatically handles uniqueness and ignores leading zeros implicitly when storing integers.",
+      "Iterating one past the end of the string simplifies handling the last number."
+    ],
+    [
+      "The problem requires careful parsing of numbers, especially handling consecutive digits and the end of the string."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

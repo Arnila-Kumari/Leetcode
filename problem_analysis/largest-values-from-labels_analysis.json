@@ -1,0 +1,32 @@
+{
+  "problem_name": "largest-values-from-labels",
+  "data_structures": [
+    [
+      "list of tuples",
+      "hashmap (defaultdict)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy selection with frequency tracking"
+  ],
+  "problem_summary_simple": "Select items to maximize total value, subject to limits on the number of items and items per label.",
+  "problem_summary_technical": "Pairs values with labels, sorts them by value descending, and greedily picks items, respecting `numWanted` and `useLimit` for each label using a frequency map.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A greedy approach works because we want to maximize the sum, so picking the highest value items first is optimal.",
+      "Sorting items by value in descending order is key to the greedy strategy.",
+      "A hashmap is used to keep track of the count of items selected for each label to enforce the `useLimit` constraint."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

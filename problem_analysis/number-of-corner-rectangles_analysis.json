@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-corner-rectangles",
+  "data_structures": [
+    [
+      "List of lists (for rows containing 1s)",
+      "Set (for efficient lookup of columns)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterate through pairs of rows, count common columns, and use combinations formula."
+  ],
+  "problem_summary_simple": "Find the number of rectangles formed by four '1's in a binary grid.",
+  "problem_summary_technical": "Pre-processes rows to store column indices of '1's, then counts common columns between row pairs to form rectangles.",
+  "time_complexity": [
+    "O(R^2 * C) where R is number of rows and C is number of columns (or O(R^2 * avg_cols_with_1s))"
+  ],
+  "space_complexity": [
+    "O(R * C) in worst case for storing row indices of 1s"
+  ],
+  "key_insights": [
+    [
+      "Focusing on pairs of rows and their common columns simplifies the problem.",
+      "Using a set for column lookups within a row provides O(1) average time complexity.",
+      "The formula `count * (count - 1) / 2` correctly counts pairs of columns that can form a rectangle with the current row pair."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

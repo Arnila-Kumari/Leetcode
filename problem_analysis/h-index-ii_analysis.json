@@ -1,0 +1,30 @@
+{
+  "problem_name": "h-index-ii",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the possible h-index values, leveraging the sorted nature of citations."
+  ],
+  "problem_summary_simple": "Find the h-index of a researcher given their papers' citations, sorted in ascending order, in logarithmic time.",
+  "problem_summary_technical": "Applies binary search on the sorted citation array to find the maximum `h` such that `citations[n-h] >= h`.",
+  "time_complexity": [
+    "O(log N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The sorted input array is crucial for applying binary search.",
+      "The condition `citations[mid] >= n - mid` checks if there are at least `n - mid` papers with at least `n - mid` citations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

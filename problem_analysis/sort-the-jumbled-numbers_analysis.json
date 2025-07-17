@@ -1,0 +1,32 @@
+{
+  "problem_name": "sort-the-jumbled-numbers",
+  "data_structures": [
+    [
+      "list",
+      "tuple"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Custom Sorting with Mapping Transformation"
+  ],
+  "problem_summary_simple": "Sort numbers based on a custom digit mapping rule.",
+  "problem_summary_technical": "Transform each number using the provided mapping, then sort the original numbers based on their transformed values, maintaining relative order for ties.",
+  "time_complexity": [
+    "O(N * log(max_num_digits) + N log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "A helper function is needed to transform a number according to the mapping rule.",
+      "When sorting, store pairs of (mapped_value, original_index) to preserve original numbers and relative order.",
+      "Leading zeros in mapped values should be handled correctly (e.g., 007 becomes 7)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

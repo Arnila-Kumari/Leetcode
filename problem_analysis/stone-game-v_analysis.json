@@ -1,0 +1,47 @@
+{
+  "problem_name": "stone-game-v",
+  "data_structures": [
+    [
+      "prefix sum array",
+      "2D DP table",
+      "array for midpoints"
+    ],
+    [
+      "prefix sum array",
+      "2D DP table",
+      "2D array for midpoints",
+      "2D RMQ table"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with prefix sums and optimized midpoint search",
+    "DP with prefix sums, precomputed midpoints, and RMQ"
+  ],
+  "problem_summary_simple": "Alice maximizes her score by splitting stones, Bob removes the larger sum, game continues until one stone remains.",
+  "problem_summary_technical": "Maximize Alice's score using 2D DP on stone ranges, optimizing split points with prefix sums and potentially RMQ.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a minimax game on intervals.",
+      "Prefix sums are crucial for efficient sum calculation of sub-arrays.",
+      "The optimal split point for a range can be found efficiently by observing monotonicity."
+    ],
+    [
+      "Pre-calculating optimal split points (midpoints) can optimize the DP transition.",
+      "A Range Maximum Query (RMQ) structure can further optimize finding the best previous state.",
+      "The DP state `dp[i][j]` represents the max score for stones from index `i` to `j`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

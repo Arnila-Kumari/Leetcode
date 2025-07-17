@@ -1,0 +1,41 @@
+{
+  "problem_name": "minimum-flips-to-make-a-or-b-equal-to-c",
+  "data_structures": [
+    [
+      "Integer"
+    ],
+    [
+      "Integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bitwise operations and counting set bits (Brian Kernighan's algorithm).",
+    "Iterating through bits and applying bitwise logic to count flips."
+  ],
+  "problem_summary_simple": "Calculate the minimum bit flips in 'a' and 'b' so that their bitwise OR equals 'c'.",
+  "problem_summary_technical": "Iterate through bits. If (a_i | b_i) != c_i, count flips: 2 if a_i=b_i=1, else 1. Sum up flips.",
+  "time_complexity": [
+    "O(31)",
+    "O(31)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by examining each bit position independently.",
+      "The condition (a | b) == c means for each bit: if c_i is 0, both a_i and b_i must be 0; if c_i is 1, at least one of a_i or b_i must be 1.",
+      "The number of flips needed for a bit position can be determined by comparing the bits of a, b, and c."
+    ],
+    [
+      "The expression `(a|b)^c` identifies bits where the OR result is incorrect.",
+      "The expression `a&b&~c` identifies bits where both a and b are 1 but c is 0, requiring two flips for those bits."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:57:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

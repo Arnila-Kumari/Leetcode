@@ -1,0 +1,35 @@
+{
+  "problem_name": "merge-in-between-linked-lists",
+  "data_structures": [
+    [
+      "linked list",
+      "pointers"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Traverse list1 to find nodes before 'a' and after 'b', then splice list2 in between."
+  ],
+  "problem_summary_simple": "Remove a range of nodes from list1 and insert list2 in their place.",
+  "problem_summary_technical": "Remove nodes from index 'a' to 'b' in list1 and connect the node before 'a' to list2's head, and list2's tail to the node after 'b'.",
+  "time_complexity": [
+    "O(N + M) where N is list1 length and M is list2 length."
+  ],
+  "space_complexity": [
+    "O(1) as modifications are in-place."
+  ],
+  "key_insights": [
+    [
+      "Need to find the node *before* the start of the removal range (a-1).",
+      "Need to find the *last* node of list2 to connect it to the rest of list1."
+    ],
+    [
+      "Careful pointer manipulation is key to avoid losing list segments.",
+      "The node at index 'b' in list1 is effectively removed by overwriting its successor."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

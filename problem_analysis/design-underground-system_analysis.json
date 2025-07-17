@@ -1,0 +1,32 @@
+{
+  "problem_name": "design-underground-system",
+  "data_structures": [
+    [
+      "dictionary",
+      "collections.defaultdict"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use two hash maps: one to track active check-ins and another to store aggregated travel times and counts between stations."
+  ],
+  "problem_summary_simple": "Design a system to track customer travel times between train stations and calculate average travel times.",
+  "problem_summary_technical": "Maintain active check-ins in a hash map and aggregate travel statistics (total time, count) in another hash map keyed by station pairs.",
+  "time_complexity": [
+    "checkIn: O(1), checkOut: O(1), getAverageTime: O(1)"
+  ],
+  "space_complexity": [
+    "O(N), where N is the number of unique station pairs and active check-ins"
+  ],
+  "key_insights": [
+    [
+      "A hash map (`self.__live`) is used to store ongoing check-ins, mapping customer ID to their station and check-in time.",
+      "Another hash map (`self.__statistics`) stores the total travel time and the count of trips for each (startStation, endStation) pair.",
+      "The average time is calculated by dividing the total time by the count for a given station pair."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

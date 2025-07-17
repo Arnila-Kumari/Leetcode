@@ -1,0 +1,36 @@
+{
+  "problem_name": "find-k-th-smallest-pair-distance",
+  "data_structures": [
+    [
+      "sorted integer array",
+      "integer variables for counts and pointers"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the possible distances. For each guess, count pairs with distance less than or equal to the guess using a sliding window."
+  ],
+  "problem_summary_simple": "Find the k-th smallest distance between any two numbers in an array.",
+  "problem_summary_technical": "Binary search on distance. Use a sliding window to count pairs with distance <= guess. Adjust binary search range based on count.",
+  "time_complexity": [
+    "O(nlogn + nlogw)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding a distance `d` such that there are exactly `k` pairs with distance less than or equal to `d`.",
+      "Binary search on the answer (the distance) is a powerful technique when the property (number of pairs <= distance) is monotonic.",
+      "The `possible` function efficiently counts pairs using a sliding window after sorting the array."
+    ],
+    [
+      "Sorting the array is a prerequisite for the sliding window counting method.",
+      "The range for binary search is from 0 to the maximum possible difference between any two elements."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:42:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

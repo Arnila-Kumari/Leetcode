@@ -1,0 +1,31 @@
+{
+  "problem_name": "search-a-2d-matrix",
+  "data_structures": [
+    [
+      "2D array (matrix)"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on a flattened 1D representation of the matrix"
+  ],
+  "problem_summary_simple": "Find a target value in a matrix where rows and columns are sorted, and rows are ordered sequentially.",
+  "problem_summary_technical": "Treats the m x n matrix as a single sorted array of size m*n and applies binary search.",
+  "time_complexity": [
+    "O(log(m*n))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The matrix's properties allow it to be treated as a single sorted array.",
+      "Mapping 1D index `mid` to 2D coordinates `(mid/n, mid%n)` is crucial.",
+      "The binary search efficiently narrows down the search space."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

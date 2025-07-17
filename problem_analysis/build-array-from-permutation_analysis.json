@@ -1,0 +1,43 @@
+{
+  "problem_name": "build-array-from-permutation",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "In-place modification using bit manipulation.",
+    "Direct construction using list comprehension."
+  ],
+  "problem_summary_simple": "Build a new array where each element is derived from the input array based on its indices.",
+  "problem_summary_technical": "Construct ans[i] = nums[nums[i]]. The in-place solution uses bit manipulation to store two values per element.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires building a new array based on a mapping defined by the input array.",
+      "The in-place solution cleverly uses the fact that numbers are within the range [0, n-1] to encode original and new values.",
+      "The non-in-place solution is straightforward and uses O(n) extra space."
+    ],
+    [
+      "The problem requires building a new array based on a mapping defined by the input array.",
+      "The in-place solution cleverly uses the fact that numbers are within the range [0, n-1] to encode original and new values.",
+      "The non-in-place solution is straightforward and uses O(n) extra space."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

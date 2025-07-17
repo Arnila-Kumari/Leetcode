@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-subarrays-with-fixed-bounds",
+  "data_structures": [
+    [
+      "integer array",
+      "integer variables"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to track the boundaries of valid subarrays and the last seen min/max values."
+  ],
+  "problem_summary_simple": "Count subarrays where the minimum element is minK and the maximum is maxK.",
+  "problem_summary_technical": "Uses two pointers and tracks the last seen indices of minK and maxK to efficiently count valid subarrays.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maintain a 'left' boundary that is outside any invalid element (element < minK or > maxK).",
+      "For each element, if it's within the valid range, update the last seen indices of minK and maxK.",
+      "The number of valid subarrays ending at the current position is determined by the minimum of the last seen minK and maxK indices, minus the left boundary."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

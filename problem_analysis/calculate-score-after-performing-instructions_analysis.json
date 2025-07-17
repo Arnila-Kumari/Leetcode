@@ -1,0 +1,32 @@
+{
+  "problem_name": "calculate-score-after-performing-instructions",
+  "data_structures": [
+    [
+      "list",
+      "boolean array"
+    ]
+  ],
+  "category": "Simulation",
+  "algorithm_technique": [
+    "Simulation with Visited Tracking: iterate through instructions, update score or jump, and track visited indices to detect cycles."
+  ],
+  "problem_summary_simple": "Follow instructions to add to score or jump, stopping if out of bounds or an instruction is repeated.",
+  "problem_summary_technical": "Simulates instruction execution, updating score or index, using a boolean array to detect revisits and terminate.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core of the problem is a direct simulation of the process.",
+      "A mechanism to detect cycles (revisiting an instruction) is crucial for termination.",
+      "A boolean array or a set can be used to keep track of visited indices."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

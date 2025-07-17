@@ -1,0 +1,55 @@
+{
+  "problem_name": "subarrays-distinct-element-sum-of-squares-i",
+  "data_structures": [
+    [
+      "hashmap",
+      "sorted list",
+      "binary indexed tree",
+      "integer"
+    ],
+    [
+      "segment tree",
+      "hashmap",
+      "integer"
+    ],
+    [
+      "hashmap",
+      "set",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Monotonic stack-like approach with SortedList and BIT for efficient updates and queries.",
+    "Segment tree for range updates and queries on counts.",
+    "Brute force with hashset to count distinct elements for each subarray."
+  ],
+  "problem_summary_simple": "Calculate the sum of squares of the number of distinct elements in all possible contiguous subarrays.",
+  "problem_summary_technical": "Efficient solutions use data structures like BIT or Segment Trees to track distinct counts and their contributions to the sum of squares across subarrays.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves iterating through all subarrays and calculating distinct counts, which can be optimized.",
+      "The O(n log n) solutions often involve processing elements from right to left or left to right and using data structures to maintain information about previous subarrays.",
+      "The BIT/Segment Tree approaches cleverly update the sum of squares based on the contribution of newly added elements and the removal of old ones."
+    ],
+    [
+      "The O(n^2) brute force iterates through all start and end points of subarrays, using a set to count distinct elements for each.",
+      "This approach is simple to understand but too slow for larger constraints.",
+      "The optimized solutions aim to avoid recomputing distinct counts from scratch for overlapping subarrays."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

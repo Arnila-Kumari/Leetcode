@@ -1,0 +1,31 @@
+{
+  "problem_name": "delete-n-nodes-after-m-nodes-of-a-linked-list",
+  "data_structures": [
+    [
+      "Linked List"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterative traversal with pointer manipulation"
+  ],
+  "problem_summary_simple": "Keep M nodes, delete N nodes, and repeat this pattern through the linked list.",
+  "problem_summary_technical": "Iterate through the linked list, maintaining pointers to keep M nodes and skip N nodes, modifying next pointers.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A dummy node simplifies handling edge cases, especially when the head might be modified.",
+      "Careful pointer manipulation is needed to correctly link the kept nodes after deletion.",
+      "The loop must handle cases where the list ends before completing a full M-N cycle."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

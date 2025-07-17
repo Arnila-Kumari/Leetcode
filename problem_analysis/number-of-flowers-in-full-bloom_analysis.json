@@ -1,0 +1,45 @@
+{
+  "problem_name": "number-of-flowers-in-full-bloom",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list",
+      "bisect"
+    ],
+    [
+      "list",
+      "bisect"
+    ]
+  ],
+  "category": "Line Sweep",
+  "algorithm_technique": [
+    "Line sweep with event points and prefix sums",
+    "Binary search on sorted start and end times"
+  ],
+  "problem_summary_simple": "Count how many flowers are blooming at specific arrival times for people.",
+  "problem_summary_technical": "Uses line sweep by marking flower start/end+1 times as events, then prefix sums to count active flowers. Alternatively, binary search on sorted start/end times.",
+  "time_complexity": [
+    "O(N log N + M log N)",
+    "O(N log N + M log N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the number of active intervals at specific points.",
+      "Line sweep is effective: increment count at start, decrement at end+1. Prefix sums give counts at any point.",
+      "`bisect_right` is crucial for finding the correct position in sorted event times to get the count."
+    ],
+    [
+      "The number of flowers blooming at time `t` is the count of flowers that started by `t` minus those that ended by `t`.",
+      "Sorting start and end times separately allows for efficient counting using binary search.",
+      "`bisect_right(starts, t)` counts flowers that started by time `t`. `bisect_right(ends, t)` counts flowers that ended by time `t`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "odd-even-linked-list",
+  "data_structures": [
+    [
+      "ListNode"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Two pointers to rearrange nodes in-place"
+  ],
+  "problem_summary_simple": "Rearrange a linked list so odd-indexed nodes come before even-indexed nodes.",
+  "problem_summary_technical": "Reorders a singly linked list by manipulating next pointers to group odd-indexed nodes before even-indexed nodes.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maintain two pointers, one for the tail of the odd list and one for the current node being processed.",
+      "Careful manipulation of `next` pointers is crucial to avoid losing nodes and to correctly link the even list to the end of the odd list.",
+      "The solution iterates through the list once, making it O(n) time complexity."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

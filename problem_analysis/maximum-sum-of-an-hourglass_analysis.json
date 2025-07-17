@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-sum-of-an-hourglass",
+  "data_structures": [
+    [
+      "2D array (matrix)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Brute force iteration over all possible hourglass top-left corners."
+  ],
+  "problem_summary_simple": "Find the hourglass shape in a matrix with the largest sum of its elements.",
+  "problem_summary_technical": "Iterate through all possible top-left corners of a 3x3 hourglass shape in a given m x n matrix to find the maximum sum.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The hourglass shape is fixed and has a specific 3x3 pattern with a center element.",
+      "The constraints on matrix dimensions (m, n >= 3) ensure at least one hourglass can always be formed.",
+      "A simple nested loop iterating through valid top-left corners is sufficient."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:55:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

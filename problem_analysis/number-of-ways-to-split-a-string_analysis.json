@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-ways-to-split-a-string",
+  "data_structures": [
+    [
+      "string (input)",
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Counting and combinatorics based on prefix sums of ones."
+  ],
+  "problem_summary_simple": "Split a binary string into three non-empty parts with an equal number of ones in each.",
+  "problem_summary_technical": "Calculate total ones. If not divisible by 3, return 0. Count ways to place two dividers based on the positions of ones.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that the total number of ones must be divisible by 3.",
+      "Once the target number of ones per segment is known, we need to find valid positions for the two split points.",
+      "The number of ways to place the first split is the count of zeros after the first segment's ones, and similarly for the second split."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

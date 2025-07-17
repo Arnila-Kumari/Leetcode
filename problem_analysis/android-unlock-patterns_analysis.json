@@ -1,0 +1,57 @@
+{
+  "problem_name": "android-unlock-patterns",
+  "data_structures": [
+    [
+      "2D array (DP table)",
+      "integer (bitmask for visited states)"
+    ],
+    [
+      "2D array (DP table)",
+      "integer (bitmask for visited states)"
+    ],
+    [
+      "integer (bitmask for visited states)",
+      "integer (current path length)",
+      "integer (last visited node)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with bitmasking to track visited nodes",
+    "Dynamic Programming with bitmasking and careful state transitions",
+    "Backtracking with bitmasking to explore all valid patterns (TLE)"
+  ],
+  "problem_summary_simple": "Count valid Android unlock patterns of length m to n on a 3x3 grid, respecting jump rules.",
+  "problem_summary_technical": "DP with bitmasking to count paths of length k on a 3x3 grid, considering intermediate node constraints.",
+  "time_complexity": [
+    "O(9^2 * 2^9)",
+    "O(9^2 * 2^9)",
+    "O(9!)"
+  ],
+  "space_complexity": [
+    "O(9 * 2^9)",
+    "O(9 * 2^9)",
+    "O(9)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to use dynamic programming where the state includes the set of visited nodes (using a bitmask) and the last visited node.",
+      "The constraint about jumping over intermediate nodes needs to be explicitly checked and handled by pre-calculating or dynamically checking which intermediate nodes are required.",
+      "The problem can be broken down by length, and the total count is the sum of counts for lengths from m to n."
+    ],
+    [
+      "This DP approach builds up solutions for longer patterns from shorter ones.",
+      "The bitmask efficiently represents the set of visited keys, allowing for O(1) checks.",
+      "The transitions consider all possible next moves from a current state, ensuring all valid patterns are counted."
+    ],
+    [
+      "A recursive backtracking approach explores all possible paths.",
+      "The time complexity is high due to the factorial nature of permutations, leading to Time Limit Exceeded.",
+      "Memoization could potentially optimize backtracking, but the state space (visited mask and last node) is still large."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:31:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

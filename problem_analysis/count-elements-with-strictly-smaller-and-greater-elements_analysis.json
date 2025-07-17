@@ -1,0 +1,29 @@
+{
+  "problem_name": "count-elements-with-strictly-smaller-and-greater-elements",
+  "data_structures": [
+    []
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Finding the minimum and maximum elements, then counting elements strictly between them."
+  ],
+  "problem_summary_simple": "Count numbers in an array that are not the smallest or largest.",
+  "problem_summary_technical": "Identifies the minimum and maximum values in the array and counts elements strictly between them.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "An element `x` has a strictly smaller and strictly greater element if and only if `min(nums) < x < max(nums)`.",
+      "Finding the minimum and maximum elements can be done in a single pass or using built-in functions.",
+      "Duplicate minimum or maximum values do not affect the count of elements strictly between them."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:36:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

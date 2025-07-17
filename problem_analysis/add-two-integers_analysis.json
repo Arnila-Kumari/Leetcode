@@ -1,0 +1,29 @@
+{
+  "problem_name": "add-two-integers",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Direct arithmetic addition"
+  ],
+  "problem_summary_simple": "Add two given integers and return their sum.",
+  "problem_summary_technical": "Performs direct arithmetic addition on two integer inputs, leveraging built-in language operators.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a fundamental arithmetic operation.",
+      "No complex data structures or algorithms are required.",
+      "Constraints are well within standard integer limits."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

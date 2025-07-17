@@ -1,0 +1,42 @@
+{
+  "problem_name": "largest-3-same-digit-number-in-string",
+  "data_structures": [
+    [
+      "string"
+    ],
+    [
+      "string"
+    ]
+  ],
+  "category": "String",
+  "algorithm_technique": [
+    "Iterate through the string, keeping track of consecutive identical characters and updating the maximum good integer found.",
+    "Use a generator expression with `max` to find the largest good integer in a single pass."
+  ],
+  "problem_summary_simple": "Find the largest substring of three identical digits.",
+  "problem_summary_technical": "Scan string for three consecutive identical characters, track max digit, and return it repeated thrice.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by a single pass through the string.",
+      "Keeping track of the count of consecutive identical characters is key.",
+      "The second solution is more concise and Pythonic, leveraging generator expressions."
+    ],
+    [
+      "The second solution is more concise and Pythonic, leveraging generator expressions.",
+      "The `max` function on strings naturally handles lexicographical comparison for finding the largest digit.",
+      "Multiplying the result by 3 at the end efficiently constructs the output string."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

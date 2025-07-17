@@ -1,0 +1,32 @@
+{
+  "problem_name": "reconstruct-original-digits-from-english",
+  "data_structures": [
+    [
+      "Counter",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using unique character counts for digit identification"
+  ],
+  "problem_summary_simple": "Reconstruct original digits from their English word representations in a jumbled string.",
+  "problem_summary_technical": "Uses character counts and a greedy strategy based on unique characters in digit spellings to identify and reconstruct digits.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to identify digits with unique characters (e.g., 'z' for zero, 'w' for two, 'u' for four, 'x' for six, 'g' for eight).",
+      "Once these are identified and removed, other digits can be identified based on remaining unique characters.",
+      "Sorting the final result ensures the ascending order requirement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:51",
+  "batch_processed": true,
+  "batch_size": 4
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-time-to-build-blocks",
+  "data_structures": [
+    [
+      "min-heap (priority queue)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach using a min-heap to simulate worker allocation and splitting.",
+    "Huffman coding-like strategy for merging tasks."
+  ],
+  "problem_summary_simple": "Find the minimum time to build all blocks, where workers can build blocks or split into two.",
+  "problem_summary_technical": "Greedy strategy using a min-heap. Workers are represented by block times. Merging involves splitting (cost + max of two workers).",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be viewed as merging tasks (blocks) where merging can be done by building directly or by splitting a worker.",
+      "The greedy strategy is to always merge the two smallest current tasks (either blocks or combined worker times).",
+      "When two workers are merged (effectively, two tasks are combined), the cost is `split + max(task1_time, task2_time)`. This is because one worker splits, incurring `split` cost, and then the two resulting workers take `max(task1_time, task2_time)` to complete their respective tasks."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

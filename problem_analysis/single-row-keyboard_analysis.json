@@ -1,0 +1,32 @@
+{
+  "problem_name": "single-row-keyboard",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hashmap for character-to-index mapping and iterative calculation"
+  ],
+  "problem_summary_simple": "Calculate the time to type a word on a single-row keyboard, given the layout and starting position.",
+  "problem_summary_technical": "Uses a hashmap to store character positions for O(1) lookup, then iterates through the word, summing absolute differences in indices.",
+  "time_complexity": [
+    "O(L + K)"
+  ],
+  "space_complexity": [
+    "O(C)"
+  ],
+  "key_insights": [
+    [
+      "A hashmap (dictionary) is ideal for quickly mapping characters to their positions on the keyboard.",
+      "Iterating through the word and keeping track of the previous character's position allows for incremental time calculation.",
+      "The absolute difference between consecutive character positions represents the movement time."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:19:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

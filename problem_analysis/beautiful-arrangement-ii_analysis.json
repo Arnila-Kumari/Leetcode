@@ -1,0 +1,31 @@
+{
+  "problem_name": "beautiful-arrangement-ii",
+  "data_structures": [
+    [
+      "list (to store the result)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy construction: alternate adding smallest and largest available numbers to create large differences, then fill remaining with sequential numbers."
+  ],
+  "problem_summary_simple": "Construct a list of numbers from 1 to n such that the differences between adjacent elements have exactly k distinct values.",
+  "problem_summary_technical": "Construct the array by alternating between the smallest and largest available numbers to maximize distinct differences, then fill the rest sequentially.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To create k distinct differences, we need to make k large jumps.",
+      "Alternating between the smallest and largest available numbers (e.g., 1, n, 2, n-1, ...) creates the largest possible differences initially.",
+      "Once k differences are established, the remaining numbers can be added sequentially to maintain the existing differences or create duplicates of them."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

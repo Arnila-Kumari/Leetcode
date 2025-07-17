@@ -1,0 +1,62 @@
+{
+  "problem_name": "minimum-number-of-days-to-disconnect-island",
+  "data_structures": [
+    [
+      "list",
+      "dictionary",
+      "set"
+    ],
+    [
+      "list",
+      "dictionary",
+      "set"
+    ],
+    [
+      "list",
+      "dictionary",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Check 0 days (already disconnected), 1 day (remove one land cell), or 2 days (always possible). Uses Tarjan's algorithm for articulation points.",
+    "Check 0 days (already disconnected), 1 day (remove one land cell), or 2 days (always possible). Uses Persistent Union-Find for connectivity checks.",
+    "Check 0 days (already disconnected), 1 day (remove one land cell), or 2 days (always possible). Brute-force removal of land cells and flood fill."
+  ],
+  "problem_summary_simple": "Find minimum days to disconnect a single island by changing land to water.",
+  "problem_summary_technical": "Check initial connectivity. If 1 island, try removing 1 cell. If still connected, 2 days are sufficient.",
+  "time_complexity": [
+    "O(m * n)",
+    "O((m * n) * log(m * n))",
+    "O(m^2 * n^2)"
+  ],
+  "space_complexity": [
+    "O(m * n)",
+    "O((m * n) * log(m * n))",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by checking 0, 1, or 2 days.",
+      "0 days: If the grid is already disconnected (0 or >1 islands).",
+      "1 day: If removing any single land cell disconnects the island.",
+      "2 days: If removing any single cell doesn't disconnect, 2 removals are always sufficient."
+    ],
+    [
+      "The problem can be solved by checking 0, 1, or 2 days.",
+      "0 days: If the grid is already disconnected (0 or >1 islands).",
+      "1 day: If removing any single land cell disconnects the island.",
+      "2 days: If removing any single cell doesn't disconnect, 2 removals are always sufficient."
+    ],
+    [
+      "The problem can be solved by checking 0, 1, or 2 days.",
+      "0 days: If the grid is already disconnected (0 or >1 islands).",
+      "1 day: If removing any single land cell disconnects the island.",
+      "2 days: If removing any single cell doesn't disconnect, 2 removals are always sufficient."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:18:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

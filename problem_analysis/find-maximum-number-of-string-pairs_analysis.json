@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-maximum-number-of-string-pairs",
+  "data_structures": [
+    [
+      "hash table"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a hash map (Counter) to store frequencies of strings. Iterate through words, check if the reverse exists in the map, and increment count."
+  ],
+  "problem_summary_simple": "Count pairs of strings where one string is the reverse of the other.",
+  "problem_summary_technical": "Uses a frequency map (Counter) to store string counts. Iterates through words, checks for reversed counterparts, and increments pair count.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved efficiently by using a hash map to store the counts of each string.",
+      "For each word, we check if its reverse exists in the hash map.",
+      "The constraint that each string can belong to at most one pair is handled by decrementing counts or by the nature of the iteration."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

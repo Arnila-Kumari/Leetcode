@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-swaps-to-arrange-a-binary-grid",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach by finding the rightmost row satisfying the condition and swapping it to the correct position."
+  ],
+  "problem_summary_simple": "Rearrange rows of a binary grid by swapping adjacent rows to make the upper triangle zero, minimizing swaps.",
+  "problem_summary_technical": "Greedy strategy to satisfy the upper triangle zero condition by finding suitable rows and performing bubble sort-like swaps.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The target state requires each row `i` to have at least `n-1-i` trailing zeros.",
+      "It's optimal to satisfy the condition for rows from bottom to top (or top to bottom).",
+      "If at any point a suitable row cannot be found, the grid is impossible to validate."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

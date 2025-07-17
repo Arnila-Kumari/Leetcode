@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-subarray-with-maximum-bitwise-and",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Find the maximum element in the array. Then, find the longest contiguous subarray consisting only of this maximum element."
+  ],
+  "problem_summary_simple": "Find the longest subarray whose bitwise AND equals the maximum possible bitwise AND of any subarray.",
+  "problem_summary_technical": "The maximum bitwise AND is simply the maximum element. Find the longest contiguous subarray of this maximum element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The maximum bitwise AND of any subarray cannot exceed the maximum element in the array.",
+      "If a subarray contains only the maximum element, its bitwise AND will be that maximum element.",
+      "Therefore, the problem simplifies to finding the longest contiguous subarray of the maximum element."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

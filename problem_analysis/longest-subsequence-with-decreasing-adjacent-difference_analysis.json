@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-subsequence-with-decreasing-adjacent-difference",
+  "data_structures": [
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with state representing (last_element, difference)"
+  ],
+  "problem_summary_simple": "Find the longest subsequence where the absolute differences between adjacent elements are non-increasing.",
+  "problem_summary_technical": "DP state `dp[x][d]` stores the length of the longest subsequence ending with `x` and having an adjacent difference of `d`.",
+  "time_complexity": [
+    "O(r^2 + n * r), where r is the maximum value in nums"
+  ],
+  "space_complexity": [
+    "O(r^2), where r is the maximum value in nums"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to build subsequences by considering the last element and the difference to the previous element.",
+      "The DP state needs to capture enough information to extend subsequences while maintaining the decreasing difference property.",
+      "The constraint on the values in `nums` (up to 300) makes a DP approach based on values feasible."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:50:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

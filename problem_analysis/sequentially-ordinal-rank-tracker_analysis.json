@@ -1,0 +1,32 @@
+{
+  "problem_name": "sequentially-ordinal-rank-tracker",
+  "data_structures": [
+    [
+      "SortedList (from sortedcontainers)",
+      "integer (query counter)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Maintain a sorted list of (negative_score, name) tuples to handle ranking by score and then lexicographically."
+  ],
+  "problem_summary_simple": "Track locations by score and name, returning the i-th best location on the i-th query.",
+  "problem_summary_technical": "Uses a SortedList to maintain locations ordered by score (desc) and name (asc), enabling efficient retrieval of the i-th best.",
+  "time_complexity": [
+    "add: O(log n), get: O(1) (amortized, due to internal SortedList indexing)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The ranking criteria (score descending, name ascending) can be achieved by storing (-score, name).",
+      "A data structure that maintains sorted order efficiently is needed, like a balanced binary search tree or SortedList.",
+      "The `get` operation simply needs to access the element at the index corresponding to the number of `get` calls made so far."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

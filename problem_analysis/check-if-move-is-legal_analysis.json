@@ -1,0 +1,31 @@
+{
+  "problem_name": "check-if-move-is-legal",
+  "data_structures": [
+    [
+      "2D array (board)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through all 8 directions, checking for a valid 'good line' formation."
+  ],
+  "problem_summary_simple": "Is placing a piece of a certain color on an empty cell a legal move in a board game?",
+  "problem_summary_technical": "Check if a move creates a 'good line' (3+ same-colored endpoints, opposite colors in between) on an 8x8 board.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A move is legal if it forms a 'good line' with the new piece as an endpoint.",
+      "A 'good line' requires at least three cells: the new piece, at least one opposite-colored piece, and then the same color piece at the end.",
+      "We need to check all 8 directions from the move's position to see if any form a valid line."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

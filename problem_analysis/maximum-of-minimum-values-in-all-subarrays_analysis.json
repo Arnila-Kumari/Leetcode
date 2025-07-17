@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-of-minimum-values-in-all-subarrays",
+  "data_structures": [
+    [
+      "stack",
+      "array"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to find nearest smaller elements, then calculate range lengths and populate results."
+  ],
+  "problem_summary_simple": "Find the maximum of minimums for all subarray sizes, returning an array of these maximums.",
+  "problem_summary_technical": "Uses a monotonic stack to find previous and next smaller elements, determining the range each element is the minimum in.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that if `nums[i]` is the minimum in a subarray of length `L`, it contributes to the answer for subarrays of size `L`.",
+      "A monotonic stack (increasing) helps efficiently find the nearest smaller element to the left and right for each element.",
+      "The length of the range where `nums[i]` is the minimum is `right_smaller[i] - left_smaller[i] - 1`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

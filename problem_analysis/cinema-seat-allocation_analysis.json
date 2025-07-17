@@ -1,0 +1,43 @@
+{
+  "problem_name": "cinema-seat-allocation",
+  "data_structures": [
+    [
+      "hashmap (collections.defaultdict)",
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Process reservations row by row. For each row, determine the maximum number of 4-person groups that can fit, considering reserved seats.",
+    "Sort reservations by row. Iterate through sorted reservations, processing all seats for a given row at once to determine group placements."
+  ],
+  "problem_summary_simple": "Maximize 4-person groups in a cinema with reserved seats, considering aisle constraints.",
+  "problem_summary_technical": "Greedy approach: for each row, check possible 4-seat arrangements (left, middle, right) based on reserved seats to maximize groups.",
+  "time_complexity": [
+    "O(n)",
+    "O(R log R)"
+  ],
+  "space_complexity": [
+    "O(R)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering each row independently.",
+      "The key is to identify the available contiguous blocks of 4 seats.",
+      "The three possible 4-seat arrangements in a row are seats 2-5, 4-7, and 6-9."
+    ],
+    [
+      "Sorting reservations allows efficient processing of seats per row.",
+      "The number of fully available rows contributes 2 groups each.",
+      "Rows with partial availability need careful checking of the three possible group configurations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

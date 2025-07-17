@@ -1,0 +1,33 @@
+{
+  "problem_name": "graph-connectivity-with-threshold",
+  "data_structures": [
+    [
+      "UnionFind (Disjoint Set Union)",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find (Disjoint Set Union) to manage connected components.",
+    "Iterate through potential common divisors greater than threshold to build graph edges."
+  ],
+  "problem_summary_simple": "Determine if two cities are connected (directly or indirectly) based on shared divisors greater than a threshold.",
+  "problem_summary_technical": "Uses Union-Find to group cities connected by common divisors > threshold, then checks connectivity for queries.",
+  "time_complexity": [
+    "O((N log N + Q) * α(N)), where N is number of cities, Q is number of queries, α is inverse Ackermann function."
+  ],
+  "space_complexity": [
+    "O(N) for the Union-Find data structure."
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding connected components in a graph.",
+      "Union-Find is highly efficient for managing and querying connected components.",
+      "Pre-calculating connections based on divisors greater than the threshold is key."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

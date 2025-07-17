@@ -1,0 +1,32 @@
+{
+  "problem_name": "read-n-characters-given-read4",
+  "data_structures": [
+    [
+      "list of characters (buffer)",
+      "global variable (file_content)"
+    ]
+  ],
+  "category": "Implementation",
+  "algorithm_technique": [
+    "Simulating file reading with a helper function and iterative buffer management"
+  ],
+  "problem_summary_simple": "Read 'n' characters from a file using a 'read4' API that reads 4 characters at a time.",
+  "problem_summary_technical": "Simulates file reading by repeatedly calling read4, managing an internal buffer and tracking read characters to fulfill the 'n' character request.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is handling partial reads from read4 and ensuring exactly 'n' characters are returned.",
+      "A temporary buffer of size 4 is needed to store results from read4.",
+      "The loop iterates to read chunks of up to 4 characters, taking the minimum of remaining characters needed and characters available from read4."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

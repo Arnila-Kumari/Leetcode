@@ -1,0 +1,22 @@
+{
+  "problem_name": "3sum",
+  "data_structures": [
+    "list",
+    "two pointers"
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": "Sort the array and use two pointers to find pairs that sum to the negative of the current element.",
+  "problem_summary_simple": "Find all unique triplets in an array that sum up to zero.",
+  "problem_summary_technical": "Iterate through sorted array, fix one element, and use two pointers to find the remaining two elements summing to the negative of the fixed element.",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)",
+  "key_insights": [
+    "Sorting is crucial for efficient duplicate handling and two-pointer approach.",
+    "Skipping duplicate elements at each step prevents duplicate triplets in the output.",
+    "The two-pointer approach efficiently searches for the remaining two numbers."
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-15 16:22:20",
+  "batch_processed": true,
+  "batch_size": 3
+}

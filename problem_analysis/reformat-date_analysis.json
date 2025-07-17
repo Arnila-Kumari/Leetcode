@@ -1,0 +1,31 @@
+{
+  "problem_name": "reformat-date",
+  "data_structures": [
+    [
+      "Hash Map (for month lookup)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "String manipulation and lookup for date reformatting"
+  ],
+  "problem_summary_simple": "Convert a date string from 'Day Month Year' to 'YYYY-MM-DD' format.",
+  "problem_summary_technical": "Parses the date string, uses a hash map for month conversion, and formats the day, month, and year into the target format.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to correctly extract the day, month, and year components from the input string.",
+      "A hash map is efficient for mapping month abbreviations to their numerical representations.",
+      "String formatting with padding (e.g., {:02d}) is crucial for ensuring the MM and DD formats."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:15",
+  "batch_processed": true,
+  "batch_size": 4
+}

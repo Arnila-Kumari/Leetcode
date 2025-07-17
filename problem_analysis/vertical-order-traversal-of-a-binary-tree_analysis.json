@@ -1,0 +1,42 @@
+{
+  "problem_name": "vertical-order-traversal-of-a-binary-tree",
+  "data_structures": [
+    [
+      "hashmap",
+      "list",
+      "tree node"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Perform a Breadth-First Search (BFS) or Depth-First Search (DFS) to traverse the tree, storing nodes by their column and row indices.",
+    "Use a dictionary to map column indices to lists of (row, value) pairs, then sort and group."
+  ],
+  "problem_summary_simple": "Traverse a binary tree vertically, grouping nodes by column and sorting by row and value.",
+  "problem_summary_technical": "Traverse tree, assigning (column, row) coordinates. Store nodes in a map keyed by column, then sort by row and value within each column.",
+  "time_complexity": [
+    "O(N log N) due to sorting nodes within columns, where N is the number of nodes.",
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N) to store the nodes in the lookup structure.",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires grouping nodes by their vertical column. The column index changes by -1 for the left child and +1 for the right child.",
+      "The row index increases by 1 for each level down the tree.",
+      "When multiple nodes fall into the same column and row, they must be sorted by their values.",
+      "A `defaultdict` of `defaultdict`s can be used to store nodes, where the outer key is the column and the inner key is the row."
+    ],
+    [
+      "This approach uses DFS to populate a structure that maps column indices to lists of nodes at specific row indices.",
+      "The `lookup` structure `collections.defaultdict(lambda: collections.defaultdict(list))` is key for organizing nodes by column and then by row.",
+      "Sorting the columns and then sorting the nodes within each column (first by row, then by value) is essential for the final output."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

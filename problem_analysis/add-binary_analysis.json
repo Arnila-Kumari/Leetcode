@@ -1,0 +1,33 @@
+{
+  "problem_name": "add-binary",
+  "data_structures": [
+    [
+      "string",
+      "integer (for carry)"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Simulate binary addition from right to left, handling carry.",
+    "Iterate through reversed strings with padding for unequal lengths."
+  ],
+  "problem_summary_simple": "Add two binary strings and return their sum as a binary string.",
+  "problem_summary_technical": "Performs binary addition bit by bit, managing a carry-over, and constructs the result string from right to left.",
+  "time_complexity": [
+    "O(max(len(a), len(b)))"
+  ],
+  "space_complexity": [
+    "O(1) (excluding output string)"
+  ],
+  "key_insights": [
+    [
+      "Binary addition involves summing bits and a carry, with results modulo 2.",
+      "Processing from the least significant bit (rightmost) simplifies carry management.",
+      "Handling unequal string lengths requires padding or careful indexing."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,40 @@
+{
+  "problem_name": "largest-number-after-mutating-substring",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the number, find the first digit that can be improved by mutation, and mutate a substring starting there.",
+    "Iterate through the number, find the first digit that can be improved by mutation, and mutate a substring starting there."
+  ],
+  "problem_summary_simple": "Find the largest number by changing one contiguous part of the number using a given mapping.",
+  "problem_summary_technical": "Greedy approach: find the first digit that can be increased by mutation. Mutate a substring starting from there until the digits decrease or the end is reached.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the largest number after mutating *a single* substring. This implies we should look for the first opportunity to increase the number.",
+      "Once we find a digit `d` where `change[d] > d`, we should mutate this digit and continue mutating subsequent digits as long as `change[digit] >= digit`.",
+      "If we encounter a digit where `change[digit] < digit` after starting a mutation, we should stop the mutation at the previous digit to ensure the number remains as large as possible."
+    ],
+    [
+      "The greedy strategy works because changing a more significant digit to a larger value has a greater impact than changing less significant digits.",
+      "The `mutated` flag is crucial to ensure we only perform one contiguous mutation.",
+      "If no digit can be improved, the original number is the largest."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

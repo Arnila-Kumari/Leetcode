@@ -1,0 +1,33 @@
+{
+  "problem_name": "degree-of-an-array",
+  "data_structures": [
+    [
+      "list",
+      "hashmap",
+      "counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "frequency counting and tracking first/last occurrences"
+  ],
+  "problem_summary_simple": "Find the shortest subarray with the same maximum frequency of any element.",
+  "problem_summary_technical": "Use a hashmap to store counts, first, and last indices of elements to find the shortest subarray.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The degree of the array is the maximum frequency of any element.",
+      "To find the shortest subarray, we need to track the first and last occurrences of elements with the maximum frequency.",
+      "A single pass can collect all necessary information (counts, first/last indices)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

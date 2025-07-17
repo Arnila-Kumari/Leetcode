@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-average-subarray-i",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Use a sliding window of size k. Calculate the sum of the first window, then slide the window by subtracting the outgoing element and adding the incoming element."
+  ],
+  "problem_summary_simple": "Find the contiguous subarray of length k with the highest average value.",
+  "problem_summary_technical": "Apply a sliding window of fixed size k. Maintain the sum of the current window and update the maximum sum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic sliding window problem.",
+      "Efficiently updating the window sum avoids re-calculating the sum for each subarray.",
+      "The key is to maintain the sum of the current window and compare it with the maximum sum found so far."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:51:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,34 @@
+{
+  "problem_name": "distinct-prime-factors-of-product-of-array",
+  "data_structures": [
+    [
+      "set",
+      "precomputed primes list",
+      "smallest prime factor array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Prime factorization of each number using precomputed primes and a sieve.",
+    "Iterate through numbers, find prime factors using trial division up to sqrt(n)."
+  ],
+  "problem_summary_simple": "Find the total count of unique prime factors across all numbers in the array.",
+  "problem_summary_technical": "Leverages prime factorization of each number, using a sieve for efficiency, and stores unique prime factors in a set.",
+  "time_complexity": [
+    "O(m + nlog(logn)) where m=len(nums), n=max(nums)"
+  ],
+  "space_complexity": [
+    "O(sqrt(MAX_N)) for sieve"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for distinct prime factors of the *product*, which means we need the union of prime factors of individual numbers.",
+      "Precomputing primes using a sieve (like Sieve of Eratosthenes) is efficient for factorization.",
+      "Iterating through numbers and performing trial division with precomputed primes up to sqrt(num) is a standard factorization technique."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

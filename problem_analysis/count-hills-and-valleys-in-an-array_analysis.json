@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-hills-and-valleys-in-an-array",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Simulation of state transitions based on adjacent element comparisons."
+  ],
+  "problem_summary_simple": "Count points in an array that are higher or lower than their closest different neighbors.",
+  "problem_summary_technical": "Iterate through the array, tracking the trend (increasing/decreasing) to identify hills and valleys based on adjacent non-equal elements.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to detect changes in the trend of the array.",
+      "Consecutive equal elements should be treated as a single block for trend detection.",
+      "A state variable can track the current trend (increasing or decreasing)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:36:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

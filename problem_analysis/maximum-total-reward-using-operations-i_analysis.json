@@ -1,0 +1,73 @@
+{
+  "problem_name": "maximum-total-reward-using-operations-i",
+  "data_structures": [
+    [
+      "integer",
+      "list",
+      "integer"
+    ],
+    [
+      "integer",
+      "list",
+      "integer"
+    ],
+    [
+      "list",
+      "boolean",
+      "integer"
+    ],
+    [
+      "list",
+      "boolean",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Sort unique rewards, use bit manipulation (bitset DP) to track achievable sums, considering the constraint.",
+    "Sort unique rewards, use bit manipulation (bitset DP) to track achievable sums.",
+    "Sort unique rewards, use boolean array DP to track achievable sums, considering the constraint.",
+    "Sort unique rewards, use boolean array DP to track achievable sums."
+  ],
+  "problem_summary_simple": "Collect rewards by adding them to your total if they are greater than the current total.",
+  "problem_summary_technical": "Dynamic programming with bitsets or boolean arrays to find the maximum sum achievable by selecting rewards in increasing order.",
+  "time_complexity": [
+    "O(n log n + r^2)",
+    "O(n log n + r^2)",
+    "O(n log n + r^2)",
+    "O(n log n + r^2)"
+  ],
+  "space_complexity": [
+    "O(r)",
+    "O(r)",
+    "O(r)",
+    "O(r)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires selecting rewards in an order such that each selected reward is greater than the current sum.",
+      "Sorting the rewards is essential for a DP approach.",
+      "Bit manipulation (bitset) is an efficient way to represent and update the set of achievable sums.",
+      "The constraint `rewardValues[i] > x` is key; we can only add a reward if it's strictly larger than the current total."
+    ],
+    [
+      "The DP state `dp` represents the set of achievable sums.",
+      "When considering a reward `v`, we can form new sums by adding `v` to existing sums `x` such that `x < v`.",
+      "The maximum possible sum is related to the highest bit set in the final DP state."
+    ],
+    [
+      "A boolean array `dp[s]` indicates if sum `s` is achievable.",
+      "When processing reward `v`, we iterate through achievable sums `x` and mark `x + v` as achievable if `x < v`.",
+      "The maximum reward is `max(x)` such that `dp[x]` is true and `x` is less than or equal to the maximum possible sum."
+    ],
+    [
+      "The DP array size needs to accommodate the maximum possible sum, which can be up to `2 * max(rewardValues)`.",
+      "The iteration `for x in xrange(v)` ensures that we only add `v` to sums `x` that are strictly less than `v`.",
+      "The final result is the largest index `x` for which `dp[x]` is true."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

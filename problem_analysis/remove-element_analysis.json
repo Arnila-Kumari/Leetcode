@@ -1,0 +1,31 @@
+{
+  "problem_name": "remove-element",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers: one for current element, one for the end to swap unwanted elements"
+  ],
+  "problem_summary_simple": "Remove all occurrences of a specific value from an array in-place.",
+  "problem_summary_technical": "Modify an array in-place by swapping elements equal to 'val' with elements from the end of the array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The order of the remaining elements does not matter, allowing for swaps with the end of the array.",
+      "The 'last' pointer effectively shrinks the considered portion of the array.",
+      "When an element to be removed is found at index 'i', it's swapped with the element at 'last', and 'last' is decremented."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

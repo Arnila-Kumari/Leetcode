@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-replacements-to-sort-the-array",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate from right to left, greedily splitting larger numbers to satisfy the non-decreasing order."
+  ],
+  "problem_summary_simple": "Minimize operations to sort an array by splitting elements into smaller ones.",
+  "problem_summary_technical": "Process the array from right to left. Greedily split the current element into parts to be less than or equal to the next element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Processing from right to left is key to making locally optimal decisions that lead to a global optimum.",
+      "The number of operations to split a number `x` into `cnt` parts, each at most `curr`, is `cnt - 1`.",
+      "The new `curr` value for the next iteration is `x // cnt`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

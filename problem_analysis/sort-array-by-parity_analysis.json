@@ -1,0 +1,31 @@
+{
+  "problem_name": "sort-array-by-parity",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers: one for the next even position, iterating through the array."
+  ],
+  "problem_summary_simple": "Move all even numbers to the beginning and odd numbers to the end of an array.",
+  "problem_summary_technical": "Partition an array in-place such that all even numbers precede all odd numbers using two pointers.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A two-pointer approach is efficient for in-place partitioning.",
+      "One pointer tracks the boundary between even and odd sections.",
+      "When an even number is found, swap it with the element at the even pointer's position."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

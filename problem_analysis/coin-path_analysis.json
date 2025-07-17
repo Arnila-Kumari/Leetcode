@@ -1,0 +1,32 @@
+{
+  "problem_name": "coin-path",
+  "data_structures": [
+    [
+      "array",
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with path reconstruction"
+  ],
+  "problem_summary_simple": "Find the cheapest path from start to end in an array with jump constraints and costs.",
+  "problem_summary_technical": "Uses DP to find minimum cost to reach each index, storing next positions for path reconstruction.",
+  "time_complexity": [
+    "O(n * B)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "DP state `dp[i]` stores the minimum cost to reach index `n-1` from index `i`.",
+      "The `next_pos` array helps reconstruct the lexicographically smallest path.",
+      "Iterating backwards simplifies the DP transitions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

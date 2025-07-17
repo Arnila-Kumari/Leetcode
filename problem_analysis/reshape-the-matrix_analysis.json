@@ -1,0 +1,32 @@
+{
+  "problem_name": "reshape-the-matrix",
+  "data_structures": [
+    [
+      "2d array",
+      "2d array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "flattening the matrix and then reshaping it into the new dimensions"
+  ],
+  "problem_summary_simple": "Reshape a matrix into new dimensions if possible, otherwise return the original.",
+  "problem_summary_technical": "Checks if the total number of elements matches, then iterates through the original matrix to fill the new matrix row by row.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The fundamental constraint for reshaping is that the total number of elements must remain the same.",
+      "Iterating through the matrix elements sequentially and mapping them to the new row-column indices is an efficient approach.",
+      "A simple check `r*c != len(nums) * len(nums[0])` is sufficient to determine if reshaping is possible."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

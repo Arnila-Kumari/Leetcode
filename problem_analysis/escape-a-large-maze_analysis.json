@@ -1,0 +1,33 @@
+{
+  "problem_name": "escape-a-large-maze",
+  "data_structures": [
+    [
+      "set of tuples",
+      "deque",
+      "set of tuples"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) with a bounded exploration area."
+  ],
+  "problem_summary_simple": "Determine if a path exists between source and target in a large grid with obstacles.",
+  "problem_summary_technical": "Use BFS to check reachability from source to target and vice-versa, limiting search to a maximum area defined by blocked cells.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The grid is too large for a standard BFS on the entire grid.",
+      "The key insight is that if the number of blocked cells is small (<= 200), they can only block a limited area.",
+      "If both source and target can reach a large enough area (more than what the blocks can enclose), they can reach each other."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

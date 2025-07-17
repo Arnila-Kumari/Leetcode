@@ -1,0 +1,32 @@
+{
+  "problem_name": "equal-tree-partition",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Post-order traversal to calculate subtree sums and store them in a hash map."
+  ],
+  "problem_summary_simple": "Can a binary tree be split into two equal sum trees by removing one edge?",
+  "problem_summary_technical": "Calculate all subtree sums using DFS. Check if half of the total sum exists as a subtree sum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Removing an edge effectively splits the tree into two subtrees.",
+      "The sum of one subtree must be exactly half of the total tree sum.",
+      "A hash map (or dictionary) is efficient for storing and looking up subtree sums."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

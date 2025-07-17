@@ -1,0 +1,32 @@
+{
+  "problem_name": "the-two-sneaky-numbers-of-digitville",
+  "data_structures": [
+    [
+      "integer",
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "XOR property to find unique elements, then partition based on a differing bit"
+  ],
+  "problem_summary_simple": "Find two numbers that appear twice in a list that should contain numbers from 0 to n-1 exactly once.",
+  "problem_summary_technical": "Utilize XOR properties to find the XOR sum of the two duplicate numbers. Partition numbers based on a differing bit to isolate each duplicate.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The XOR operation cancels out numbers that appear an even number of times.",
+      "By XORing all numbers in `nums` and all numbers from `0` to `n-1`, we get the XOR of the two duplicate numbers.",
+      "Finding the rightmost set bit in the XOR sum allows us to partition the numbers into two groups, where each group contains one of the duplicate numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:19:29",
+  "batch_processed": true,
+  "batch_size": 1
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "largest-palindrome-product",
+  "data_structures": [
+    [
+      "integer",
+      "string"
+    ],
+    [
+      "integer",
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Construct palindromes from the left half and check for divisibility by two n-digit numbers.",
+    "Iterate through possible sums of two n-digit numbers and derive palindrome structure."
+  ],
+  "problem_summary_simple": "Find the largest palindrome that is a product of two n-digit numbers, return modulo 1337.",
+  "problem_summary_technical": "Generate palindromes and check if they are products of two n-digit numbers, optimizing by considering divisibility properties.",
+  "time_complexity": [
+    "O(10^(2n))",
+    "O(n * 10^n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Palindromes can be constructed by mirroring their first half.",
+      "The problem constraints (n <= 8) suggest that brute-forcing palindromes is feasible.",
+      "Modulo arithmetic is applied at the end to avoid overflow."
+    ],
+    [
+      "The solution leverages the property that palindromes with an even number of digits are divisible by 11.",
+      "The search space for the first factor can be optimized.",
+      "The modulo 1337 is a common constraint in competitive programming to manage large numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

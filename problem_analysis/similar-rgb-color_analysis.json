@@ -1,0 +1,31 @@
+{
+  "problem_name": "similar-rgb-color",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Hexadecimal to decimal conversion and rounding"
+  ],
+  "problem_summary_simple": "Find the closest shorthand RGB color to a given RGB color.",
+  "problem_summary_technical": "Converts RGB hex pairs to decimal, rounds them to the nearest multiple of 17 (shorthand step), and converts back to hex.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Shorthand RGB colors (#XYZ) correspond to hex values where each pair is a repetition (e.g., #112233).",
+      "The step size for shorthand hex values is 17 (0x11), as 0xAA becomes 0x11*A.",
+      "Rounding to the nearest multiple of 17 minimizes the squared difference for each color component."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "most-beautiful-item-for-each-query",
+  "data_structures": [
+    [
+      "sorted list of pairs",
+      "binary search"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Sort items by price, precompute max beauty for prices up to a point, then binary search queries"
+  ],
+  "problem_summary_simple": "For each query price, find the maximum beauty of an item with a price less than or equal to the query.",
+  "problem_summary_technical": "Sort items by price. Preprocess to store the maximum beauty for each price point. Use binary search on queries to find the relevant precomputed maximum beauty.",
+  "time_complexity": [
+    "O(N log N + Q log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the items by price is crucial for efficient querying.",
+      "The preprocessing step of calculating the cumulative maximum beauty allows for O(log N) query time.",
+      "Binary search (`bisect_left`) is used to find the first item whose price is strictly greater than the query price, enabling us to find the maximum beauty among items with prices less than or equal to the query."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

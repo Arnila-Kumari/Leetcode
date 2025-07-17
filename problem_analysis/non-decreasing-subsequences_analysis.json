@@ -1,0 +1,32 @@
+{
+  "problem_name": "non-decreasing-subsequences",
+  "data_structures": [
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with a set to handle duplicates at each level."
+  ],
+  "problem_summary_simple": "Find all unique non-decreasing subsequences of length at least two.",
+  "problem_summary_technical": "Use backtracking to explore all subsequences. A set at each recursion level prevents duplicate subsequences with the same elements but different indices.",
+  "time_complexity": [
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a classic application of backtracking to generate combinations/subsequences.",
+      "The constraint of 'non-decreasing' is handled by only appending an element if it's greater than or equal to the last element in the current subsequence.",
+      "Using a `set` at each recursive call level is crucial to avoid generating duplicate subsequences when the input array has duplicate numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-number-of-flips-to-make-binary-grid-palindromic-ii",
+  "data_structures": [
+    [
+      "list of lists (grid)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through quadrants, count flips for palindromic pairs, adjust for center row/column and total 1s count."
+  ],
+  "problem_summary_simple": "Flip minimum cells to make all rows/columns palindromic and total 1s divisible by 4.",
+  "problem_summary_technical": "Greedily minimizes flips for 2x2 subgrids, then handles center row/column and divisibility by 4 constraint.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to make 2x2 subgrids palindromic by flipping the minimum number of cells.",
+      "The middle row and column need special handling if dimensions are odd.",
+      "The constraint of total 1s divisible by 4 is handled by adjusting flips based on the parity of existing 1s."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:58:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

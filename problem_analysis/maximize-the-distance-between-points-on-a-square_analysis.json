@@ -1,0 +1,72 @@
+{
+  "problem_name": "maximize-the-distance-between-points-on-a-square",
+  "data_structures": [
+    [
+      "sorted array",
+      "binary search helper",
+      "list of lists"
+    ],
+    [
+      "sorted array",
+      "binary search helper",
+      "list of lists"
+    ],
+    [
+      "sorted array",
+      "binary search helper",
+      "list"
+    ],
+    [
+      "sorted array",
+      "binary search helper",
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "binary search on answer with greedy check (1D mapping)",
+    "binary search on answer with greedy check (2D coordinates)",
+    "binary search on answer with greedy check (1D mapping, optimized)",
+    "binary search on answer with greedy check (1D mapping, extended)"
+  ],
+  "problem_summary_simple": "Select k points on a square's boundary to maximize the minimum Manhattan distance between any two selected points.",
+  "problem_summary_technical": "Binary search for the maximum minimum distance, with a greedy check function using sorted points on the boundary.",
+  "time_complexity": [
+    "O(n log n + n log s)",
+    "O(n log n + n log s)",
+    "O(n log n + n * k * log n * log s)",
+    "O(n log n + n * k * log n * log s)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks to maximize a minimum value, suggesting binary search on the answer.",
+      "Points on the square boundary can be mapped to a 1D line for easier processing.",
+      "The check function greedily selects points to see if k points can be placed with at least distance 'd'."
+    ],
+    [
+      "Similar to Solution 1, but directly uses 2D coordinates in the check function.",
+      "Sorting points along each side of the square is necessary.",
+      "The check function needs to handle Manhattan distance between points in 2D."
+    ],
+    [
+      "Optimization of the check function by iterating through starting points and using binary search (bisect_left) to find subsequent points.",
+      "The `p += [x+4*side for x in p]` trick handles wrap-around cases for distance calculations.",
+      "The `p[-1]-p[i] <= result*(k-1)` is a pruning step to avoid unnecessary binary searches."
+    ],
+    [
+      "Further optimization of the check function by extending the sorted points array to handle wrap-around cases more directly.",
+      "The `bisect_left` is used with a limited `hi` parameter to search within a relevant portion of the extended array.",
+      "This approach aims to simplify the logic for checking distances across the square's perimeter."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

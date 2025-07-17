@@ -1,0 +1,41 @@
+{
+  "problem_name": "find-kth-largest-xor-coordinate-value",
+  "data_structures": [
+    [
+      "2D array",
+      "list",
+      "heap (implicitly via nth_element)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "2D prefix XOR calculation and QuickSelect (nth_element) for kth largest element",
+    "2D prefix XOR calculation and sorting for kth largest element"
+  ],
+  "problem_summary_simple": "Find the k-th largest XOR sum of all submatrices ending at each coordinate.",
+  "problem_summary_technical": "Uses 2D prefix XOR sums to efficiently calculate coordinate values, then applies QuickSelect to find the k-th largest.",
+  "time_complexity": [
+    "O(m * n) on average",
+    "O(m * n * log(m*n))"
+  ],
+  "space_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The XOR sum of a submatrix can be calculated efficiently using 2D prefix XOR sums.",
+      "The problem reduces to finding the k-th largest element in a list of computed XOR sums.",
+      "QuickSelect provides an average O(N) solution for finding the k-th element, outperforming sorting."
+    ],
+    [
+      "The XOR sum of a submatrix can be calculated efficiently using 2D prefix XOR sums.",
+      "The problem reduces to finding the k-th largest element in a list of computed XOR sums.",
+      "Sorting the computed XOR sums is a straightforward but less efficient approach than QuickSelect."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

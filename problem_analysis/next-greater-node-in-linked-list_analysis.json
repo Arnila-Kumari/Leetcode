@@ -1,0 +1,33 @@
+{
+  "problem_name": "next-greater-node-in-linked-list",
+  "data_structures": [
+    [
+      "stack",
+      "array",
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Monotonic stack applied to linked list traversal"
+  ],
+  "problem_summary_simple": "Find the next greater node value for each node in a linked list.",
+  "problem_summary_technical": "Traverses the linked list, using a monotonic decreasing stack to store (index, value) pairs, and updates results when a greater value is found.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through the linked list and using a monotonic stack.",
+      "The stack stores pairs of (index, value) for nodes that are waiting for their next greater node.",
+      "When a node with a larger value is encountered, it becomes the next greater node for all preceding nodes in the stack with smaller values."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

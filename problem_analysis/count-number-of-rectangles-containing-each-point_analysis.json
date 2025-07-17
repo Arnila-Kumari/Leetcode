@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-number-of-rectangles-containing-each-point",
+  "data_structures": [
+    [
+      "list of lists",
+      "sorted lists within buckets"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Bucket sort by height, then binary search within buckets for x-coordinates."
+  ],
+  "problem_summary_simple": "For each point, count how many rectangles contain it.",
+  "problem_summary_technical": "Group rectangles by height, sort x-coordinates within each height bucket, then use binary search for each point's y-coordinate to sum relevant counts.",
+  "time_complexity": [
+    "O(n log n + m * max_y * log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The constraint `1 <= hi, yj <= 100` is key, allowing bucketing by height.",
+      "For a given point `(x, y)`, we only need to consider rectangles with height `h >= y`.",
+      "Within each relevant height bucket, we need to count rectangles whose length `l >= x`. Sorting the x-coordinates allows efficient counting using binary search (bisect_left)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "lexicographical-numbers",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Simulates lexicographical traversal by prioritizing smaller numbers and then appending zeros."
+  ],
+  "problem_summary_simple": "Return numbers from 1 to n in lexicographical order.",
+  "problem_summary_technical": "Generates numbers by following a path similar to a pre-order traversal of a conceptual tree.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be viewed as traversing a conceptual tree where nodes are numbers.",
+      "The traversal order is similar to a pre-order traversal, prioritizing smaller prefixes.",
+      "The O(1) space constraint suggests an iterative approach that directly generates the next number."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-cycle-in-a-graph",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "graph traversal with visited tracking and cycle detection"
+  ],
+  "problem_summary_simple": "Find the length of the longest cycle in a directed graph where each node has at most one outgoing edge.",
+  "problem_summary_technical": "Perform DFS/traversal from each unvisited node, tracking visited nodes and their visit order to detect cycles and their lengths.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Each node having at most one outgoing edge simplifies the graph structure, making it a collection of paths and cycles.",
+      "A lookup array can store the 'time' or 'step' at which a node was visited during the current traversal.",
+      "If a node is encountered again during the same traversal, a cycle is detected, and its length can be calculated."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

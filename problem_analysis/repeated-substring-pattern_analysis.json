@@ -1,0 +1,43 @@
+{
+  "problem_name": "repeated-substring-pattern",
+  "data_structures": [
+    [
+      "string",
+      "array"
+    ],
+    [
+      "string"
+    ]
+  ],
+  "category": "String",
+  "algorithm_technique": [
+    "KMP algorithm's prefix function to find the longest proper prefix that is also a suffix.",
+    "String concatenation and searching for a clever pattern."
+  ],
+  "problem_summary_simple": "Check if a string is formed by repeating a substring.",
+  "problem_summary_technical": "Leverages KMP's prefix function or a string manipulation trick to detect repeating patterns.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The KMP prefix function's last element `prefix[-1]` indicates the length of the longest proper prefix that is also a suffix.",
+      "If `len(s) % (len(s) - prefix[-1] - 1) == 0`, it means the string can be formed by repeating the substring of length `len(s) - prefix[-1] - 1`.",
+      "The `(s+s)[1:-1].find(s)` trick works because if `s` is a repeating pattern, concatenating `s` with itself and removing the first and last characters will still contain `s`."
+    ],
+    [
+      "The `(s+s)[1:-1].find(s)` trick is a concise and elegant way to solve this problem.",
+      "This method implicitly checks for all possible substring lengths that could form the original string.",
+      "If `s` is composed of repeating `sub`, then `s+s` will be `sub+sub+sub+sub`. Removing the first and last characters leaves `sub+sub+sub`, which still contains `s`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,45 @@
+{
+  "problem_name": "range-sum-of-sorted-subarray-sums",
+  "data_structures": [
+    [
+      "list",
+      "heap",
+      "prefix sum array"
+    ],
+    [
+      "list",
+      "prefix sum array"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Min-heap to generate subarray sums in increasing order and sum the required range.",
+    "Binary search on the possible sum values combined with prefix sums and sliding window to count/sum."
+  ],
+  "problem_summary_simple": "Sum a range of elements from a sorted list of all subarray sums.",
+  "problem_summary_technical": "Generate and sort all subarray sums, then sum elements in the specified range. Heap or binary search optimization is needed.",
+  "time_complexity": [
+    "O(N^2 log N) for naive generation and sort, O(N^2 + K log N) with heap where K is right index.",
+    "O(N log(Sum) log(Sum)) or O(N log(Sum)) with optimized binary search approach."
+  ],
+  "space_complexity": [
+    "O(N^2) for storing all sums, O(N) for heap.",
+    "O(N) for prefix sums."
+  ],
+  "key_insights": [
+    [
+      "The number of subarray sums is O(N^2). Generating all and sorting is too slow for larger N.",
+      "A min-heap can efficiently yield the smallest subarray sums one by one.",
+      "The binary search approach relies on efficiently counting how many subarray sums are less than or equal to a target value."
+    ],
+    [
+      "The problem can be solved by finding the k-th smallest subarray sum.",
+      "Binary search on the answer (the sum value) is a viable strategy.",
+      "A sliding window with prefix sums helps count subarray sums efficiently within the binary search."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:05:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

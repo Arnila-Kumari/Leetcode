@@ -1,0 +1,42 @@
+{
+  "problem_name": "moving-stones-until-consecutive",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ],
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort stones, check gaps for min moves, calculate max moves based on total span.",
+    "Sliding window to find the largest contiguous block of stones, calculate moves based on stones outside the window."
+  ],
+  "problem_summary_simple": "Find min/max moves to make three stones consecutive on an X-axis.",
+  "problem_summary_technical": "Sort stones, analyze gaps for minimum moves. Maximum moves are total span minus stones needed for consecutive positions.",
+  "time_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The minimum moves depend on the gaps between stones. If a gap is 1 or 2, one move is sufficient. Otherwise, two moves are needed.",
+      "The maximum moves are always the total span between the outermost stones minus the number of stones (which is 2 in this case, for the two gaps)."
+    ],
+    [
+      "The sliding window approach efficiently finds the maximum number of stones that can be placed within a contiguous range of size `n` (number of stones).",
+      "The number of moves is the total number of stones minus the size of the largest contiguous block found by the sliding window."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "subarrays-with-k-different-integers",
+  "data_structures": [
+    [
+      "collections.defaultdict"
+    ],
+    [
+      "collections.defaultdict"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with 'at most K' helper function",
+    "Two sliding windows to maintain exact K distinct elements"
+  ],
+  "problem_summary_simple": "Count subarrays with exactly K distinct integers.",
+  "problem_summary_technical": "Uses sliding window to count subarrays with at most K distinct elements, then applies inclusion-exclusion principle.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to transform the problem of 'exactly K' into 'at most K'.",
+      "The 'at most K' function uses a sliding window and a frequency map.",
+      "The difference between `atMostK(K)` and `atMostK(K-1)` gives exactly K."
+    ],
+    [
+      "This approach uses two sliding windows simultaneously.",
+      "The first window (`window1`) expands until it has more than K distinct elements.",
+      "The second window (`window2`) expands until it has at least K distinct elements, and the difference in their left pointers gives the count."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

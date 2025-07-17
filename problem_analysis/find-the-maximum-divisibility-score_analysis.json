@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-maximum-divisibility-score",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Brute force iteration with modulo checks and custom key for max."
+  ],
+  "problem_summary_simple": "Find the divisor that divides the most numbers in another array, returning the smallest if tied.",
+  "problem_summary_technical": "Iterate through divisors, count divisibility in nums using modulo. Return divisor with max count, smallest on tie using lambda key.",
+  "time_complexity": [
+    "O(n * d)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires iterating through each divisor and checking divisibility against all numbers in nums.",
+      "A lambda function with a tuple key `(score, -divisor)` elegantly handles both maximizing the score and minimizing the divisor in case of ties.",
+      "The constraints (n, d <= 1000) suggest that an O(n*d) solution is acceptable."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

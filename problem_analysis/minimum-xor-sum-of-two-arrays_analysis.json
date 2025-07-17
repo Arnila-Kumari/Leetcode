@@ -1,0 +1,42 @@
+{
+  "problem_name": "minimum-xor-sum-of-two-arrays",
+  "data_structures": [
+    [
+      "2D array (adjacency matrix)"
+    ],
+    [
+      "1D array (DP table)"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Hungarian algorithm for minimum weight perfect matching in bipartite graphs",
+    "Dynamic programming with bitmasking to explore permutations"
+  ],
+  "problem_summary_simple": "Find the best pairing between two arrays to minimize the sum of XORs.",
+  "problem_summary_technical": "Solve minimum weight perfect matching on a bipartite graph where edge weights are XOR values, or use DP with bitmask to track used elements.",
+  "time_complexity": [
+    "O(n^3)",
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(n^2)",
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a minimum weight perfect matching problem.",
+      "The Hungarian algorithm is a standard approach for this type of matching.",
+      "The constraints (n <= 14) suggest exponential solutions like DP with bitmask are feasible."
+    ],
+    [
+      "DP state can represent the subset of nums2 elements used.",
+      "The transition involves picking the next available element from nums2 for the current element in nums1.",
+      "Bitmasking efficiently represents the subset of used elements."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

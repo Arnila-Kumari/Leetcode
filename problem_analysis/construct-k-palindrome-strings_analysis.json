@@ -1,0 +1,31 @@
+{
+  "problem_name": "construct-k-palindrome-strings",
+  "data_structures": [
+    [
+      "hash map (Counter)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Count character frequencies. Palindromes can have at most one character with an odd count."
+  ],
+  "problem_summary_simple": "Can we form k palindromes using all characters from a string?",
+  "problem_summary_technical": "Determine if k non-empty palindromes can be formed from a string by analyzing character frequency parity.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A palindrome can have at most one character with an odd frequency.",
+      "The number of characters with odd frequencies limits the minimum number of palindromes.",
+      "The total number of characters must be at least k."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "closest-nodes-queries-in-a-binary-search-tree",
+  "data_structures": [
+    [
+      "list",
+      "binary search tree"
+    ],
+    [
+      "list",
+      "binary search tree"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "In-order traversal to get sorted list, then binary search for each query.",
+    "In-order traversal (recursive) to get sorted list, then binary search for each query."
+  ],
+  "problem_summary_simple": "For each query, find the largest value <= query and smallest value >= query in a BST.",
+  "problem_summary_technical": "Performs an in-order traversal of the BST to get a sorted list, then uses binary search (bisect_left) for each query.",
+  "time_complexity": [
+    "O(n + q log n)",
+    "O(n + q log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The in-order traversal of a BST yields a sorted list of its elements.",
+      "Binary search is efficient for finding elements or their closest neighbors in a sorted list.",
+      "Handling edge cases where no smaller or larger element exists is important."
+    ],
+    [
+      "Both iterative and recursive in-order traversals achieve the same result.",
+      "The choice between them is often a matter of preference or stack depth considerations.",
+      "The core logic of using `bisect_left` remains the same."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

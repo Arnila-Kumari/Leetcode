@@ -1,0 +1,31 @@
+{
+  "problem_name": "add-edges-to-make-degrees-of-all-nodes-even",
+  "data_structures": [
+    [
+      "adjacency list (list of sets)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Graph traversal and degree calculation, checking parity of node degrees."
+  ],
+  "problem_summary_simple": "Determine if a graph can have all node degrees made even by adding at most two edges.",
+  "problem_summary_technical": "Calculates node degrees, identifies nodes with odd degrees. Analyzes cases based on the count of odd-degree nodes (0, 2, or 4) and connectivity.",
+  "time_complexity": [
+    "O(n + E)"
+  ],
+  "space_complexity": [
+    "O(n + E)"
+  ],
+  "key_insights": [
+    [
+      "The sum of degrees in any graph is always even (Handshaking Lemma).",
+      "Adding an edge increases the degree of two nodes by one. This means adding an edge flips the parity of two nodes' degrees.",
+      "If there are 0 odd-degree nodes, the graph is already valid. If there are 2 odd-degree nodes, one edge can connect them. If there are 4 odd-degree nodes, two edges are needed, and their placement depends on connectivity."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

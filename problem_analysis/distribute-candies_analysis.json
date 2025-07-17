@@ -1,0 +1,32 @@
+{
+  "problem_name": "distribute-candies",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Using a set to find unique types and comparing with half the total candies"
+  ],
+  "problem_summary_simple": "Maximize distinct candy types Alice eats, given she eats half her candies.",
+  "problem_summary_technical": "Determine max distinct candy types by taking the minimum of unique candy types and half the total number of candies.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Alice wants to maximize the number of *different types* of candies.",
+      "She can eat at most `len(candies) / 2` candies.",
+      "The maximum number of distinct types is limited by either the total number of unique types available or the number of candies she can eat."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

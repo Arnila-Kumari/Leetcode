@@ -1,0 +1,42 @@
+{
+  "problem_name": "integer-replacement",
+  "data_structures": [
+    [
+      "integer"
+    ],
+    [
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Greedy approach based on bitwise operations",
+    "Recursive approach with bitwise analysis"
+  ],
+  "problem_summary_simple": "Find the minimum operations to convert a positive integer to 1 using division by 2 or adding/subtracting 1.",
+  "problem_summary_technical": "Iteratively reduce n to 1. For odd numbers, choose n+1 or n-1 based on the next two bits to minimize steps.",
+  "time_complexity": [
+    "O(log n)",
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(log n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to eliminate as many trailing ones in the binary representation as possible.",
+      "If n is even, divide by 2. If n is odd, check n % 4. If n % 4 == 1, subtract 1. If n % 4 == 3, add 1 (except for n=3, where subtracting 1 is better).",
+      "The bitwise check `n & 3` efficiently determines the last two bits."
+    ],
+    [
+      "The recursive solution leverages the observation that if n is divisible by 4, we can directly divide by 2.",
+      "If n % 4 == 1, (n-1)/2 is even, so we can do (n-1)/2 -> (n-1)/4. This takes 2 steps (n-1, then divide by 2). Total 3 steps: n -> n-1 -> (n-1)/2 -> (n-1)/4.",
+      "If n % 4 == 3, (n+1)/2 is even, so we can do (n+1)/2 -> (n+1)/4. This takes 2 steps (n+1, then divide by 2). Total 3 steps: n -> n+1 -> (n+1)/2 -> (n+1)/4."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

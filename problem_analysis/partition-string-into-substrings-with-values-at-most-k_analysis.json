@@ -1,0 +1,31 @@
+{
+  "problem_name": "partition-string-into-substrings-with-values-at-most-k",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: iterate through the string, forming the longest possible valid substring at each step."
+  ],
+  "problem_summary_simple": "Partition a digit string into the fewest substrings, each representing a number less than or equal to k.",
+  "problem_summary_technical": "A greedy strategy is employed. Iterate through the string, extending the current substring as long as its value does not exceed k. If it exceeds k, start a new substring.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy approach works because taking the largest possible valid substring at each step leads to the minimum number of partitions.",
+      "If any single digit is greater than k, no partition is possible.",
+      "The current substring's value is maintained incrementally to avoid repeated conversions."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:04:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

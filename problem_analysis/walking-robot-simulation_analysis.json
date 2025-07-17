@@ -1,0 +1,33 @@
+{
+  "problem_name": "walking-robot-simulation",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "tuple"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Simulation with direction tracking and obstacle checking"
+  ],
+  "problem_summary_simple": "Simulate a robot's movement on a grid, avoiding obstacles, and find the furthest point reached.",
+  "problem_summary_technical": "Simulate robot movement using direction vectors and a set for efficient obstacle lookup, tracking max squared distance.",
+  "time_complexity": [
+    "O(N + K)"
+  ],
+  "space_complexity": [
+    "O(K)"
+  ],
+  "key_insights": [
+    [
+      "Represent directions using a list of tuples for easy rotation.",
+      "Use a set for O(1) average time complexity obstacle lookups.",
+      "Track the maximum squared Euclidean distance incrementally."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

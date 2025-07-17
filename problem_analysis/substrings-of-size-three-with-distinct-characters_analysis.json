@@ -1,0 +1,31 @@
+{
+  "problem_name": "substrings-of-size-three-with-distinct-characters",
+  "data_structures": [
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window of size 3, using a frequency counter to check for distinct characters."
+  ],
+  "problem_summary_simple": "Count substrings of length three that have no repeated characters.",
+  "problem_summary_technical": "Uses a sliding window of size 3 and a frequency counter to efficiently track distinct characters within the window.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A sliding window of fixed size (3) is ideal for this problem.",
+      "A frequency map (like `collections.Counter`) allows for efficient checking of distinct characters within the window.",
+      "As the window slides, only the entering and leaving characters need to be updated in the counter."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

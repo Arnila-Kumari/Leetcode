@@ -1,0 +1,34 @@
+{
+  "problem_name": "extra-characters-in-a-string",
+  "data_structures": [
+    [
+      "Trie",
+      "list",
+      "defaultdict"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Dynamic Programming with Trie for efficient dictionary lookups.",
+    "Iterative DP approach to find minimum extra characters."
+  ],
+  "problem_summary_simple": "Find the minimum extra characters left after breaking a string into dictionary words.",
+  "problem_summary_technical": "DP state `dp[i]` stores min extra chars for `s[:i]`. Trie optimizes checking if `s[j:i]` is in the dictionary.",
+  "time_complexity": [
+    "O((N + M) * L), N=len(s), M=len(dictionary), L=max_word_len"
+  ],
+  "space_complexity": [
+    "O(N + T), N=len(s), T=size of Trie"
+  ],
+  "key_insights": [
+    [
+      "A Trie is ideal for fast prefix matching against the dictionary.",
+      "Dynamic programming helps build the solution from subproblems.",
+      "The DP transition considers either skipping a character or matching a dictionary word."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

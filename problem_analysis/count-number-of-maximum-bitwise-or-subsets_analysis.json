@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-number-of-maximum-bitwise-or-subsets",
+  "data_structures": [
+    [
+      "dictionary",
+      "counter"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Dynamic programming using a counter to store OR sums and their frequencies."
+  ],
+  "problem_summary_simple": "Find the maximum bitwise OR of any subset and count how many subsets achieve it.",
+  "problem_summary_technical": "Uses a DP approach where `dp[or_sum]` stores the count of subsets yielding `or_sum` by iterating through numbers.",
+  "time_complexity": [
+    "O(min(2^N, M*N))"
+  ],
+  "space_complexity": [
+    "O(min(2^N, M))"
+  ],
+  "key_insights": [
+    [
+      "The maximum OR value is the OR of all elements in the input array.",
+      "A DP approach can build up the possible OR sums and their counts iteratively.",
+      "The state `dp[or_sum]` represents the number of subsets that result in `or_sum`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

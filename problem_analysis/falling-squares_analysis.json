@@ -1,0 +1,75 @@
+{
+  "problem_name": "falling-squares",
+  "data_structures": [
+    [
+      "list of integers",
+      "hash set",
+      "sorted list"
+    ],
+    [
+      "Segment Tree",
+      "list of integers"
+    ],
+    [
+      "Segment Tree (optimized)",
+      "list of integers"
+    ],
+    [
+      "block-based data structures",
+      "list of integers"
+    ],
+    [
+      "list of integers"
+    ]
+  ],
+  "category": "Segment Tree",
+  "algorithm_technique": [
+    "Coordinate compression with segment tree for range maximum queries and updates",
+    "Segment Tree for range maximum queries and updates",
+    "Segment Tree with lazy propagation for range updates",
+    "Square root decomposition for range queries and updates",
+    "Brute force checking for overlaps and updating heights"
+  ],
+  "problem_summary_simple": "Track the maximum height of stacked squares after each square falls.",
+  "problem_summary_technical": "Uses segment trees or coordinate compression to efficiently query max height below a square and update its landing height.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)",
+    "O(n * sqrt(n))",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires efficiently querying the maximum height of existing squares in the horizontal range where a new square will land.",
+      "Coordinate compression is useful to map potentially large coordinates to a smaller, contiguous range for data structures like segment trees.",
+      "A segment tree is ideal for range maximum queries and point/range updates."
+    ],
+    [
+      "The provided SegmentTree and SegmentTree2 classes implement range maximum queries and range updates.",
+      "The `fallingSquares` method in `Solution2` uses coordinate compression to map the square intervals to indices in the segment tree.",
+      "The `max` function is used as the query and update function for the segment tree to find the maximum height."
+    ],
+    [
+      "The square root decomposition approach (Solution3) divides the coordinate space into blocks to optimize queries and updates.",
+      "It balances the overhead of block processing with the efficiency of direct array access.",
+      "This can be an alternative when segment trees might be too complex or have higher constant factors."
+    ],
+    [
+      "The brute-force approach (Solution4) iterates through all previously fallen squares to determine the landing height of the current square.",
+      "This leads to an O(n^2) time complexity due to nested loops.",
+      "It's simpler to implement but less efficient for larger inputs."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:41:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-number-of-robots-within-budget",
+  "data_structures": [
+    [
+      "deque",
+      "integer"
+    ],
+    [
+      "deque",
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a monotonic deque to track maximum charge time and sum of running costs.",
+    "Sliding window with a monotonic deque to track maximum charge time and sum of running costs."
+  ],
+  "problem_summary_simple": "Find the maximum number of consecutive robots that can be run within a given budget, considering charge and running costs.",
+  "problem_summary_technical": "Sliding window approach. A monotonic deque efficiently finds the max charge time within the window. Sum of running costs is maintained.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The cost function `max(chargeTimes) + k * sum(runningCosts)` suggests a sliding window approach.",
+      "A monotonic deque is crucial for efficiently finding the maximum `chargeTimes` within the current window.",
+      "The window expands to the right, and shrinks from the left when the budget is exceeded."
+    ],
+    [
+      "The condition `chargeTimes[dq[0]] + (right - left + 1) * curr > budget` is the core check for budget violation.",
+      "The deque stores indices, maintaining them in increasing order of `chargeTimes` to quickly access the maximum.",
+      "The `curr` variable accumulates `runningCosts` within the window."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-occurrences-of-an-element-in-an-array",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Pre-process the array to store indices of the target element 'x' in a list, then use binary search or direct indexing for queries."
+  ],
+  "problem_summary_simple": "Find the index of the k-th occurrence of a number 'x' in an array.",
+  "problem_summary_technical": "Stores indices of 'x' in a lookup array, then answers queries by indexing into this lookup.",
+  "time_complexity": [
+    "O(n + q)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Pre-computation is key for efficient query answering.",
+      "Storing all occurrences of 'x' allows for O(1) lookup per query after initial processing.",
+      "Edge cases include when the requested occurrence count exceeds the actual occurrences."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

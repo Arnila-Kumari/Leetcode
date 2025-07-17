@@ -1,0 +1,40 @@
+{
+  "problem_name": "minimum-division-operations-to-make-array-non-decreasing",
+  "data_structures": [
+    [
+      "array",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach with precomputed smallest prime factors",
+    "Greedy approach with precomputed smallest prime factors"
+  ],
+  "problem_summary_simple": "Minimize divisions to make an array non-decreasing by dividing by the greatest proper divisor.",
+  "problem_summary_technical": "Greedy strategy: iterate from right to left, dividing elements by their smallest prime factor if they violate the non-decreasing property.",
+  "time_complexity": [
+    "O(MAX_N + N)",
+    "O(MAX_N + N)"
+  ],
+  "space_complexity": [
+    "O(MAX_N)",
+    "O(MAX_N)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that to reduce a number `x` as much as possible with one operation, we should divide it by its greatest proper divisor.",
+      "The greatest proper divisor of a number `x` is `x / smallest_prime_factor(x)`.",
+      "A greedy approach works by processing the array from right to left. If `nums[i] > nums[i+1]`, we must reduce `nums[i]`. The optimal way to reduce `nums[i]` to satisfy the condition with minimal operations is to divide it by its smallest prime factor until it's less than or equal to `nums[i+1]`."
+    ],
+    [
+      "Pre-computing the smallest prime factor (SPF) for all numbers up to the maximum possible value in `nums` is crucial for efficient calculation.",
+      "The condition `SPF[nums[i]] > nums[i+1]` implies that even after dividing `nums[i]` by its smallest prime factor, it will still be greater than `nums[i+1]`, making it impossible to satisfy the non-decreasing property.",
+      "The problem statement guarantees that if a solution exists, the greedy approach will find it because each operation aims to make the number as small as possible with a single step."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

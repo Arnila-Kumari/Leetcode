@@ -1,0 +1,34 @@
+{
+  "problem_name": "shortest-path-to-get-all-keys",
+  "data_structures": [
+    [
+      "collections.deque",
+      "heapq",
+      "defaultdict",
+      "list of lists"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "BFS for initial reachability, Dijkstra's for state-space search with keys"
+  ],
+  "problem_summary_simple": "Find the shortest path to collect all keys in a grid with walls, locks, and keys.",
+  "problem_summary_technical": "State-space search (BFS/Dijkstra) where state includes current position and collected keys (bitmask).",
+  "time_complexity": [
+    "O(k*r*c + k^3*2^k)"
+  ],
+  "space_complexity": [
+    "O(k*2^k)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires tracking not just position but also collected keys, forming a state.",
+      "Dijkstra's algorithm is suitable for finding the shortest path in this state space.",
+      "A bitmask is an efficient way to represent the set of collected keys."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

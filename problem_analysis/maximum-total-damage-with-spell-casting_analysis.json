@@ -1,0 +1,41 @@
+{
+  "problem_name": "maximum-total-damage-with-spell-casting",
+  "data_structures": [
+    [
+      "deque",
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Sort spells, use a deque-based DP to track maximum damage, considering the exclusion rule.",
+    "Sort spells, use a deque-based DP to track maximum damage, considering the exclusion rule."
+  ],
+  "problem_summary_simple": "Maximize total damage by casting spells, avoiding spells with similar damage values.",
+  "problem_summary_technical": "Dynamic programming with a deque to efficiently manage state transitions based on spell damage and exclusion rules.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the spells is essential to process them in an order that respects the exclusion rule.",
+      "The problem has optimal substructure and overlapping subproblems, making DP suitable.",
+      "A deque helps maintain the maximum damage achievable ending at or before a certain spell value, considering the distance constraint."
+    ],
+    [
+      "The `mx` variable efficiently stores the maximum damage from previous valid states.",
+      "When a spell `x` is considered, we look for the maximum damage achievable from spells `y` where `y + 2 < x`.",
+      "The deque stores pairs of `(spell_value, max_damage_ending_at_or_before_this_value)`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

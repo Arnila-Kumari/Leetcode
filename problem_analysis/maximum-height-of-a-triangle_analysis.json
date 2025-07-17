@@ -1,0 +1,38 @@
+{
+  "problem_name": "maximum-height-of-a-triangle",
+  "data_structures": [
+    [],
+    []
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Mathematical approach: derive formulas for maximum height based on ball counts and row parity.",
+    "Simulation approach: iteratively build the triangle, switching colors when a row cannot be formed."
+  ],
+  "problem_summary_simple": "Build the tallest possible triangle with alternating colored rows using given red and blue balls.",
+  "problem_summary_technical": "Maximize triangle height by greedily assigning balls to rows, considering two starting color possibilities.",
+  "time_complexity": [
+    "O(1)",
+    "O(sqrt(red + blue))"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of balls needed for `h` rows of one color is `h*(h+1)/2`.",
+      "The problem can be solved by considering two cases: starting with red or starting with blue.",
+      "The mathematical solution uses quadratic formula to find maximum `h`."
+    ],
+    [
+      "The simulation approach directly models the triangle construction.",
+      "It's important to switch the available ball count and the target color for the next row.",
+      "The greedy choice at each step leads to the optimal solution."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

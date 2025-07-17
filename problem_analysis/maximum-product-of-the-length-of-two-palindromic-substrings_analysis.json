@@ -1,0 +1,46 @@
+{
+  "problem_name": "maximum-product-of-the-length-of-two-palindromic-substrings",
+  "data_structures": [
+    [
+      "list",
+      "deque",
+      "list"
+    ],
+    [
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Manacher's algorithm to find all palindromic substrings, then DP to find max odd-length palindromes ending/starting at each index.",
+    "Manacher's algorithm to find all palindromic substrings, then DP to find max odd-length palindromes ending/starting at each index."
+  ],
+  "problem_summary_simple": "Find two non-intersecting odd-length palindromic substrings to maximize the product of their lengths.",
+  "problem_summary_technical": "Leverages Manacher's algorithm for palindrome detection and dynamic programming to compute maximum odd-length palindromes from left and right.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Manacher's algorithm is essential for efficiently finding all palindromic substrings.",
+      "The problem can be broken down into finding the longest odd-length palindrome ending at index `i` and starting at index `j` where `i < j`.",
+      "DP arrays storing maximum palindrome lengths from left and right simplify the final product calculation."
+    ],
+    [
+      "Manacher's algorithm is key for palindrome detection.",
+      "The problem can be solved by finding the longest odd-length palindrome ending at `i` and starting at `j` (i < j).",
+      "DP arrays storing maximum palindrome lengths from left and right simplify the final product calculation."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:54:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

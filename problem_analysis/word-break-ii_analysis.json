@@ -1,0 +1,34 @@
+{
+  "problem_name": "word-break-ii",
+  "data_structures": [
+    [
+      "array",
+      "2D array",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Dynamic programming to pre-compute valid word breaks, followed by backtracking to generate sentences.",
+    "Use a helper function with recursion and memoization (implicitly via `valid` array) to explore all segmentation possibilities."
+  ],
+  "problem_summary_simple": "Find all possible ways to segment a string into dictionary words and form sentences.",
+  "problem_summary_technical": "Pre-compute valid word break points using DP, then use backtracking to construct all valid sentences by joining dictionary words.",
+  "time_complexity": [
+    "O(n * l^2 + n * r)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "This problem extends Word Break I by requiring the generation of all valid segmentations, not just a boolean result.",
+      "A two-phase approach (DP for validity, then backtracking for generation) is efficient.",
+      "The `valid` 2D array acts as a memoization table to store whether a substring `s[i:j+1]` is a valid dictionary word."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:14:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

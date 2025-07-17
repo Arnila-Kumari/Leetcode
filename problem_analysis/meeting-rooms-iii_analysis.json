@@ -1,0 +1,41 @@
+{
+  "problem_name": "meeting-rooms-iii",
+  "data_structures": [
+    [
+      "list",
+      "heapq module (min-heap for unused rooms)",
+      "heapq module (min-heap for used rooms)"
+    ],
+    [
+      "list",
+      "heapq module (min-heap for unused rooms)",
+      "heapq module (min-heap for used rooms)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Two min-heaps: one for available rooms (by room number) and one for occupied rooms (by end time).",
+    "Two min-heaps: one for available rooms (by room number) and one for occupied rooms (by end time and room number)."
+  ],
+  "problem_summary_simple": "Find the room that hosts the most meetings, prioritizing lower room numbers for ties and delayed meetings.",
+  "problem_summary_technical": "Use two heaps to manage room availability and meeting assignments, prioritizing earliest start times and lowest room numbers.",
+  "time_complexity": [
+    "O(m log m + n log n)",
+    "O(m log m + n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires careful management of room availability and meeting scheduling, considering delays.",
+      "Two heaps are essential: one to track available rooms (prioritizing lower numbers) and one for occupied rooms (prioritizing earlier end times).",
+      "When a meeting is delayed, its new end time is calculated based on the room's availability time plus the original meeting duration."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

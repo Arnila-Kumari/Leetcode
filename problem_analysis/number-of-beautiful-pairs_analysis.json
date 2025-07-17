@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-beautiful-pairs",
+  "data_structures": [
+    [
+      "frequency array (size 10)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through numbers, use a frequency array to store counts of first digits encountered so far, and check coprimality with the last digit."
+  ],
+  "problem_summary_simple": "Count pairs where the first digit of the first number and the last digit of the second number are coprime.",
+  "problem_summary_technical": "Iterate through nums, maintain counts of first digits, and for each number, sum counts of first digits coprime to its last digit.",
+  "time_complexity": [
+    "O(N * logR)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be optimized by iterating through the array once and maintaining counts of the first digits seen so far.",
+      "For each number, we check its last digit against all possible first digits (1-9) and add the count of coprime first digits to the result.",
+      "The first digit of a number can be efficiently obtained by repeatedly dividing by 10 until it's a single digit."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "k-similar-strings",
+  "data_structures": [
+    [
+      "deque",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) on the state space of strings, where states are strings and edges are valid swaps."
+  ],
+  "problem_summary_simple": "Find the minimum swaps to transform one string into another anagram.",
+  "problem_summary_technical": "Performs BFS on strings, treating each string as a node and swaps as edges, to find the shortest path (minimum swaps) to the target string.",
+  "time_complexity": [
+    "O(n * n!/(c_a!*...*c_z!))"
+  ],
+  "space_complexity": [
+    "O(n * n!/(c_a!*...*c_z!))"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as finding the shortest path in a graph where nodes are permutations of the string and edges represent a single swap.",
+      "Breadth-First Search (BFS) is the appropriate algorithm to find the minimum number of swaps (shortest path).",
+      "The state space can be large, but we can optimize by only considering swaps that move characters closer to their target positions in `B`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:34:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

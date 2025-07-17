@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-zero-filled-subarrays",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers and combinatorics for counting consecutive zeros."
+  ],
+  "problem_summary_simple": "Count all subarrays that consist entirely of zeros.",
+  "problem_summary_technical": "Iterate through the array, identifying contiguous blocks of zeros. For a block of length k, it contributes k*(k+1)/2 subarrays.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Consecutive zeros form subarrays. A block of k zeros has k*(k+1)/2 zero-filled subarrays.",
+      "The problem can be solved by iterating and keeping track of the current consecutive count of zeros.",
+      "The provided solution uses a clever two-pointer approach to calculate this sum efficiently without explicit combinatorics formula."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:03:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "insert-delete-getrandom-o1-duplicates-allowed",
+  "data_structures": [
+    [
+      "list",
+      "hashmap (defaultdict)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash map to store value to index mapping, list for storage. Swap-and-pop for O(1) removal."
+  ],
+  "problem_summary_simple": "Manage a collection with duplicates, allowing O(1) insertion, deletion, and random element retrieval.",
+  "problem_summary_technical": "Implement a multiset with O(1) average time for insert, remove, and getRandom using a list and a hash map.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is O(1) removal from a list. This is achieved by swapping the element to be removed with the last element and then popping the last element.",
+      "A hash map is crucial to quickly find the index of an element to be removed, especially when duplicates exist. The map stores the value and a list of its indices.",
+      "When an element is swapped, its index in the hash map needs to be updated to reflect its new position in the list."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

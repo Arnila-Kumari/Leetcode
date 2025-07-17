@@ -1,0 +1,32 @@
+{
+  "problem_name": "design-add-and-search-words-data-structure",
+  "data_structures": [
+    [
+      "Trie (prefix tree)",
+      "TrieNode (custom node structure)"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Trie (Prefix Tree) with recursive search for wildcard characters"
+  ],
+  "problem_summary_simple": "Build a data structure to add words and search for them, supporting wildcard characters ('.').",
+  "problem_summary_technical": "Utilizes a Trie data structure. The search function uses recursion to handle wildcard characters, exploring all possible paths in the Trie.",
+  "time_complexity": [
+    "addWord: O(L), search: O(L) in average case, O(2^L) in worst case with many dots, but problem constraints limit dots to at most 2, making it closer to O(L * alphabet_size^num_dots)"
+  ],
+  "space_complexity": [
+    "O(N * L), where N is the number of words and L is the average length of a word"
+  ],
+  "key_insights": [
+    [
+      "A Trie is the natural choice for prefix-based searching and handling wildcard characters.",
+      "Each node in the Trie represents a character, and a path from the root to a node represents a prefix.",
+      "The `search` function needs to be recursive to handle the '.' wildcard, exploring all possible character matches at each wildcard position."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

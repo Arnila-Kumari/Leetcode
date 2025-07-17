@@ -1,0 +1,40 @@
+{
+  "problem_name": "diet-plan-performance",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with prefix sums (implicit)",
+    "Sliding window with prefix sums (implicit)"
+  ],
+  "problem_summary_simple": "Calculate diet performance points based on daily calorie sums over k days.",
+  "problem_summary_technical": "Use a sliding window to efficiently calculate the sum of calories over k-day intervals and update points.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A sliding window approach is efficient for calculating sums of contiguous subarrays.",
+      "The sum of the current window can be updated by subtracting the outgoing element and adding the incoming element.",
+      "The initial window sum needs to be calculated separately."
+    ],
+    [
+      "The problem can be viewed as calculating the sum of subarrays of size k.",
+      "The performance points are accumulated based on comparisons of these sums with lower and upper bounds.",
+      "The use of `itertools.islice` is a concise way to get the initial window."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

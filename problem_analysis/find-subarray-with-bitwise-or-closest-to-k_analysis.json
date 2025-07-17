@@ -1,0 +1,44 @@
+{
+  "problem_name": "find-subarray-with-bitwise-or-closest-to-k",
+  "data_structures": [
+    [
+      "list",
+      "custom class (BitCount)"
+    ],
+    [
+      "list",
+      "set (for DP states)"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Sliding window with a bit count tracker to maintain bitwise OR of subarrays.",
+    "Dynamic programming approach where DP states represent possible bitwise OR values of subarrays ending at current element."
+  ],
+  "problem_summary_simple": "Find a subarray whose bitwise OR is closest to a given value k.",
+  "problem_summary_technical": "Uses sliding window or DP to efficiently compute bitwise OR of subarrays and find the minimum absolute difference with k.",
+  "time_complexity": [
+    "O(n log r)",
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(log r)",
+    "O(log r)"
+  ],
+  "key_insights": [
+    [
+      "The bitwise OR operation has a property that ORing with a new number can only set more bits or keep them the same.",
+      "A sliding window can efficiently track the OR sum, but needs careful management of the window's start.",
+      "The `BitCount` class helps manage the bitwise OR sum efficiently."
+    ],
+    [
+      "The number of distinct bitwise OR values for subarrays ending at a given position is limited (at most log r).",
+      "This property allows for an efficient DP solution where the state space is small.",
+      "The DP state `dp` stores all possible bitwise OR values of subarrays ending at the current element."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,35 @@
+{
+  "problem_name": "merge-intervals",
+  "data_structures": [
+    [
+      "sorted array",
+      "list"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sort intervals by start time, then iterate and merge overlapping intervals."
+  ],
+  "problem_summary_simple": "Combine overlapping time intervals into a single set of non-overlapping intervals.",
+  "problem_summary_technical": "Sort intervals by start time and merge overlapping intervals by extending the end time of the current merged interval.",
+  "time_complexity": [
+    "O(N log N) due to sorting, where N is the number of intervals."
+  ],
+  "space_complexity": [
+    "O(1) if sorting in-place, O(N) for the result list."
+  ],
+  "key_insights": [
+    [
+      "Sorting by the start time is the critical first step.",
+      "The greedy approach of merging the current interval with the last merged interval works."
+    ],
+    [
+      "An interval overlaps if its start is less than or equal to the end of the previous merged interval.",
+      "The end of the merged interval is the maximum of the current interval's end and the previous merged interval's end."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "unique-number-of-occurrences",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "set"
+    ],
+    [
+      "collections.Counter",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count occurrences using Counter, then check for unique counts using a set.",
+    "Count occurrences using Counter, then compare the number of unique elements to the number of unique counts."
+  ],
+  "problem_summary_simple": "Check if the frequency of each number in an array is unique.",
+  "problem_summary_technical": "Count element frequencies using a hash map (Counter), then verify uniqueness of frequencies using a set.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Using `collections.Counter` simplifies frequency counting.",
+      "A `set` is efficient for checking uniqueness of occurrence counts."
+    ],
+    [
+      "Comparing the length of the Counter's values (unique counts) with the length of the set of its values is a concise check.",
+      "Both solutions leverage hash maps for efficient frequency counting."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

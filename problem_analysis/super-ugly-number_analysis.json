@@ -1,0 +1,84 @@
+{
+  "problem_name": "super-ugly-number",
+  "data_structures": [
+    [
+      "heap (priority queue)",
+      "list",
+      "list"
+    ],
+    [
+      "heap (priority queue)",
+      "list",
+      "set"
+    ],
+    [
+      "heap (priority queue)",
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list",
+      "list"
+    ],
+    [
+      "heap (priority queue)",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Heap-based generation using indices for primes",
+    "Heap-based generation with a set for duplicate checking",
+    "Heap-based generation with efficient duplicate handling",
+    "Iterative generation using a list to track next multiples",
+    "Heap-based generation with conditional pushing"
+  ],
+  "problem_summary_simple": "Find the nth number whose prime factors are only from a given list of primes.",
+  "problem_summary_technical": "Generate super ugly numbers by multiplying existing ones with primes, using a min-heap to efficiently find the next smallest.",
+  "time_complexity": [
+    "O(n * k)",
+    "O(n * k)",
+    "O(n * k log k)",
+    "O(n * k)",
+    "O(n * k log k)"
+  ],
+  "space_complexity": [
+    "O(n + k)",
+    "O(n + k)",
+    "O(n + k)",
+    "O(n + k)",
+    "O(k^2)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to generate super ugly numbers by multiplying previously found super ugly numbers with the given primes.",
+      "A min-heap is crucial for efficiently retrieving the smallest next super ugly number.",
+      "Maintaining pointers (indices) for each prime helps avoid redundant calculations and duplicate numbers."
+    ],
+    [
+      "Using a set to store generated ugly numbers helps in quickly checking for duplicates before adding to the heap.",
+      "This approach is conceptually similar to generating ugly numbers (problem 264), but generalized for multiple primes.",
+      "The heap stores tuples of (next_ugly_number, prime_index) to track which prime generated it."
+    ],
+    [
+      "The optimization of processing all equal minimum values from the heap at once reduces redundant heap operations.",
+      "This approach ensures that for each step, we extract the smallest possible next super ugly number.",
+      "The `while heap[0][0] == min_val:` loop is key to handling cases where multiple primes produce the same next ugly number."
+    ],
+    [
+      "This solution avoids a heap by maintaining a list `ugly_by_prime` which always holds the next candidate number for each prime.",
+      "The minimum of `ugly_by_prime` is the next super ugly number.",
+      "After finding the minimum, the corresponding prime's candidate is updated by multiplying it with the next super ugly number it generated."
+    ],
+    [
+      "This solution has a flaw in its logic: it pushes multiples of primes based on divisibility, which can lead to incorrect results and TLE.",
+      "The condition `ugly_number % primes[i] == 0` is not sufficient to guarantee correct generation of super ugly numbers.",
+      "The inner loop `for j in xrange(i + 1): heapq.heappush(heap, ugly_number * primes[j])` is problematic as it pushes too many numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

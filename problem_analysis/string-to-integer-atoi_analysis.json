@@ -1,0 +1,31 @@
+{
+  "problem_name": "string-to-integer-atoi",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Linear scan with state management for whitespace, sign, digits, and overflow checks."
+  ],
+  "problem_summary_simple": "Convert a string to a 32-bit signed integer, handling whitespace, signs, non-digit characters, and overflow.",
+  "problem_summary_technical": "Process string character by character: skip whitespace, determine sign, accumulate digits, and clamp to 32-bit integer limits.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Careful handling of edge cases like empty strings, only whitespace, or no digits is crucial.",
+      "Overflow detection must be done *before* the multiplication to avoid incorrect intermediate values.",
+      "The problem requires strict adherence to the specified parsing rules."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "permutation-in-string",
+  "data_structures": [
+    [
+      "hashmap",
+      "sliding window"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Use a sliding window of s1's length and compare character counts with s1's counts."
+  ],
+  "problem_summary_simple": "Check if any permutation of s1 is a substring of s2.",
+  "problem_summary_technical": "Sliding window approach with character frequency maps to detect permutations of s1 within s2.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A sliding window of the same length as s1 is used to check for permutations.",
+      "Character frequency maps (like Counter) are essential for efficient comparison.",
+      "Maintaining a count of characters that match the required frequency helps track valid windows."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

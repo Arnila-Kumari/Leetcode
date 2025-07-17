@@ -1,0 +1,46 @@
+{
+  "problem_name": "last-substring-in-lexicographical-order",
+  "data_structures": [
+    [
+      "two pointers",
+      "integer (length counter)"
+    ],
+    [
+      "hashmap (defaultdict)",
+      "set",
+      "hashmap (next_starts)"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Optimized two-pointer approach to compare substrings efficiently.",
+    "Iterative comparison of potential starting characters and their subsequent substrings."
+  ],
+  "problem_summary_simple": "Find the lexicographically largest substring within a given string.",
+  "problem_summary_technical": "Uses a two-pointer approach to compare candidate substrings, skipping ahead when characters match or a clear winner is found.",
+  "time_complexity": [
+    "O(N) where N is the length of the string",
+    "O(N) where N is the length of the string"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(N) in the worst case for the hashmap"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find the starting index of the lexicographically largest substring.",
+      "When comparing `s[i:]` and `s[j:]`, if `s[i+k] == s[j+k]`, we can advance `k` to skip identical prefixes.",
+      "If `s[i+k] > s[j+k]`, then `s[j:]` cannot be the largest, and we can advance `j` past the mismatch point (`j += k + 1`).",
+      "If `s[i+k] < s[j+k]`, then `s[i:]` cannot be the largest, and we can advance `i` past the mismatch point (`i = max(j, i + k + 1)`)."
+    ],
+    [
+      "This approach groups starting indices by the character they begin with.",
+      "It iteratively refines the set of potential starting indices by comparing subsequent characters.",
+      "The use of `lookup` set handles overlapping comparisons efficiently."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "process-tasks-using-servers",
+  "data_structures": [
+    [
+      "Min-Heap (Priority Queue) for idle servers",
+      "Min-Heap (Priority Queue) for working servers"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Simulation using two priority queues to manage server availability and task assignments."
+  ],
+  "problem_summary_simple": "Assign tasks to servers based on availability, server weight, and index, considering task arrival times.",
+  "problem_summary_technical": "Simulates time progression, using min-heaps to track idle servers (by weight then index) and busy servers (by finish time).",
+  "time_complexity": [
+    "O(m log n + n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires careful simulation of events over time.",
+      "Two priority queues are essential: one for available servers (prioritizing weight then index) and one for busy servers (prioritizing finish time).",
+      "The simulation needs to handle server availability and task arrivals concurrently, advancing time as needed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

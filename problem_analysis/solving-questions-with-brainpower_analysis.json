@@ -1,0 +1,32 @@
+{
+  "problem_name": "solving-questions-with-brainpower",
+  "data_structures": [
+    [
+      "array",
+      "dynamic programming table"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming: Iterate backwards, deciding at each question whether to solve it (earning points and skipping subsequent questions) or skip it."
+  ],
+  "problem_summary_simple": "Maximize points by solving questions in order, where solving a question prevents solving subsequent ones based on its brainpower.",
+  "problem_summary_technical": "Use DP where dp[i] is the max points from question i onwards. dp[i] = max(dp[i+1], questions[i][0] + dp[i + questions[i][1] + 1]).",
+  "time_complexity": [
+    "O(n) where n is the number of questions."
+  ],
+  "space_complexity": [
+    "O(n) for the DP table."
+  ],
+  "key_insights": [
+    [
+      "This problem exhibits optimal substructure and overlapping subproblems, making it suitable for dynamic programming.",
+      "Processing the questions in reverse order simplifies the DP state transitions.",
+      "The decision at each step is a local choice (solve or skip) that contributes to the global maximum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

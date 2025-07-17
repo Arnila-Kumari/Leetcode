@@ -1,0 +1,31 @@
+{
+  "problem_name": "construct-the-minimum-bitwise-array-ii",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "bitwise operations to find the smallest number satisfying the OR condition"
+  ],
+  "problem_summary_simple": "Find the smallest number for each element such that its bitwise OR with the next number equals the given number.",
+  "problem_summary_technical": "Analyze the bitwise properties of x OR (x+1) to derive a direct formula for x based on the target number.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "the condition x | (x+1) = num implies specific bit patterns",
+      "if num is odd, num-1 is a candidate for x",
+      "if num is even, no solution exists"
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:44:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

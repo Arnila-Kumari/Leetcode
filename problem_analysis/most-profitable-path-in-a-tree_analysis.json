@@ -1,0 +1,46 @@
+{
+  "problem_name": "most-profitable-path-in-a-tree",
+  "data_structures": [
+    [
+      "adjacency list",
+      "hashmap",
+      "boolean array"
+    ],
+    [
+      "adjacency list",
+      "hashmap",
+      "boolean array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Iterative DFS to calculate Bob's path and Alice's optimal path, handling simultaneous arrivals and gate costs/rewards.",
+    "Recursive DFS to calculate Bob's path and Alice's optimal path, handling simultaneous arrivals and gate costs/rewards."
+  ],
+  "problem_summary_simple": "Find Alice's maximum net income by choosing an optimal leaf node path, considering Bob's movement.",
+  "problem_summary_technical": "Uses DFS to determine Bob's path and Alice's potential paths. Calculates net income by considering shared gate costs/rewards when paths intersect.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "Bob's path is fixed towards the root (node 0). Alice's path is towards a leaf.",
+      "The key is to identify the intersection points and how Alice and Bob's movements affect gate costs/rewards.",
+      "When Alice and Bob meet, the amount is split. If Bob passes a node before Alice, Alice gets the full amount/cost."
+    ],
+    [
+      "Bob's path is fixed towards the root (node 0). Alice's path is towards a leaf.",
+      "The key is to identify the intersection points and how Alice and Bob's movements affect gate costs/rewards.",
+      "When Alice and Bob meet, the amount is split. If Bob passes a node before Alice, Alice gets the full amount/cost."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

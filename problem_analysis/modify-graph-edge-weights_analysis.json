@@ -1,0 +1,32 @@
+{
+  "problem_name": "modify-graph-edge-weights",
+  "data_structures": [
+    [
+      "adjacency list",
+      "min-heap"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm with modifications for unknown edge weights"
+  ],
+  "problem_summary_simple": "Modify edges with weight -1 to achieve a specific shortest path distance between source and destination.",
+  "problem_summary_technical": "Utilize Dijkstra's algorithm twice to find shortest paths from source and destination, then adjust unknown edge weights to meet the target distance.",
+  "time_complexity": [
+    "O(|E| * log|V|)"
+  ],
+  "space_complexity": [
+    "O(|E| + |V|)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding a balance for the unknown edge weights.",
+      "Running Dijkstra from both source and destination helps constrain the possible values for the unknown edges.",
+      "The minimum possible value for an unknown edge is 1, and the maximum is derived from the target distance and known path segments."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "avoid-flood-in-the-city",
+  "data_structures": [
+    [
+      "dictionary (defaultdict)",
+      "min-heap",
+      "list (result)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Process rains from right to left to find future rain dates for each lake, then use a min-heap to schedule dry days."
+  ],
+  "problem_summary_simple": "Prevent floods by drying lakes on days with no rain, avoiding rain on already full lakes.",
+  "problem_summary_technical": "Use a hashmap to store future rain dates for each lake and a min-heap to schedule dry days greedily to prevent floods.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Processing from right to left helps determine the *next* time a lake will rain, crucial for scheduling dry days.",
+      "A min-heap stores the indices of future dry days (days with 0 rain) that can be used to dry a lake that will rain soon.",
+      "If a lake is scheduled to rain again before a dry day can be used for it, a flood is unavoidable."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

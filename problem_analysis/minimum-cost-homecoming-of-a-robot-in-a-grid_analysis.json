@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-cost-homecoming-of-a-robot-in-a-grid",
+  "data_structures": [
+    [
+      "array",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Summation of costs along the path"
+  ],
+  "problem_summary_simple": "Calculate the minimum cost for a robot to move from a start to a home position in a grid.",
+  "problem_summary_technical": "The minimum cost is the sum of row costs for all rows between start and home (exclusive of start row) and column costs for all columns between start and home (exclusive of start column).",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The robot can move freely between any two cells in the same row or column, as long as it eventually reaches the home row and column.",
+      "The optimal path will only move towards the home row and home column, without unnecessary detours.",
+      "The cost is determined by the sum of costs of all rows and columns that the robot must pass through, excluding the starting cell's costs."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:18:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

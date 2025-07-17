@@ -1,0 +1,44 @@
+{
+  "problem_name": "find-all-the-lonely-nodes",
+  "data_structures": [
+    [
+      "List for results",
+      "Stack for iterative DFS"
+    ],
+    [
+      "List for results",
+      "Implicit call stack for recursive DFS"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative Depth First Search (DFS) to traverse the tree and identify lonely nodes.",
+    "Recursive Depth First Search (DFS) to traverse the tree and identify lonely nodes."
+  ],
+  "problem_summary_simple": "Find nodes in a binary tree that are the only child of their parent.",
+  "problem_summary_technical": "Traverse the binary tree. For each node, check if it has exactly one child. If so, add the child's value to the result list.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h) where h is the height of the tree (for the stack)",
+    "O(h) where h is the height of the tree (for the call stack)"
+  ],
+  "key_insights": [
+    [
+      "A lonely node is defined by its parent having only one child.",
+      "The root node is never lonely as it has no parent.",
+      "Both iterative and recursive DFS are suitable for tree traversal."
+    ],
+    [
+      "A lonely node is defined by its parent having only one child.",
+      "The root node is never lonely as it has no parent.",
+      "Both iterative and recursive DFS are suitable for tree traversal."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

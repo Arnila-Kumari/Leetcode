@@ -1,0 +1,31 @@
+{
+  "problem_name": "encode-number",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Convert integer to binary, then map 0s to '1' and 1s to '0', reverse."
+  ],
+  "problem_summary_simple": "Convert a non-negative integer into a specific encoded string based on a pattern.",
+  "problem_summary_technical": "Encodes an integer by repeatedly taking modulo 2 and dividing by 2, mapping remainders to characters.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The encoding pattern resembles a binary representation, but with a twist.",
+      "The operation `(num-1)//2` is key to reversing the encoding process.",
+      "The mapping of 0 to '1' and 1 to '0' is a direct inversion of standard binary."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

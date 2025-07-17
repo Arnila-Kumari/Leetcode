@@ -1,0 +1,32 @@
+{
+  "problem_name": "filter-restaurants-by-vegan-friendly-price-and-distance",
+  "data_structures": [
+    [
+      "list",
+      "dictionary (hash map)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Filter restaurants based on criteria, then sort the filtered results by rating and ID."
+  ],
+  "problem_summary_simple": "Filter restaurants by vegan-friendly, price, and distance, then sort them.",
+  "problem_summary_technical": "Filter restaurants based on given criteria and sort by rating (desc) then ID (desc).",
+  "time_complexity": [
+    "O(rlogr), where r is the number of resulting restaurants"
+  ],
+  "space_complexity": [
+    "O(r)"
+  ],
+  "key_insights": [
+    [
+      "A two-pass approach (filter then sort) is efficient.",
+      "Using a dictionary to map restaurant IDs to their original index helps in sorting.",
+      "Custom sorting key is crucial for handling multiple sorting criteria."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

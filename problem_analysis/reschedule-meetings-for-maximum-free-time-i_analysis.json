@@ -1,0 +1,32 @@
+{
+  "problem_name": "reschedule-meetings-for-maximum-free-time-i",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "two pointers and sliding window to find maximum free time by adjusting meetings"
+  ],
+  "problem_summary_simple": "Maximize free time by rescheduling up to k meetings while keeping their relative order.",
+  "problem_summary_technical": "Calculates differences between end and start times, then uses a sliding window of size k to find the maximum cumulative free time.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the maximum gap between meetings after rescheduling.",
+      "Adding eventTime to startTime and 0 to endTime simplifies boundary calculations.",
+      "A sliding window of size k allows efficient calculation of free time after rescheduling k meetings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

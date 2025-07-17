@@ -1,0 +1,42 @@
+{
+  "problem_name": "find-all-possible-stable-binary-arrays-i",
+  "data_structures": [
+    [
+      "3D DP array"
+    ],
+    [
+      "3D DP array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to count stable arrays by building them incrementally, considering the limit.",
+    "Dynamic programming with state compression or optimized transitions for counting stable arrays."
+  ],
+  "problem_summary_simple": "Count binary arrays with specific counts of 0s and 1s, and no long consecutive runs of the same digit.",
+  "problem_summary_technical": "DP state `dp[i][j][k]` represents counts of arrays with `i` zeros, `j` ones, ending with digit `k`, respecting the `limit` constraint.",
+  "time_complexity": [
+    "O(zero * one * limit)",
+    "O(zero * one * limit)"
+  ],
+  "space_complexity": [
+    "O(zero * one)",
+    "O(zero * one)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires counting combinations under constraints, suggesting DP.",
+      "The state must capture the number of zeros, ones, and the last digit to enforce the limit.",
+      "Transitions involve adding a 0 or a 1, ensuring the limit is not violated."
+    ],
+    [
+      "The DP state `dp[i][j][k]` tracks the number of ways to form a stable array using `i` zeros and `j` ones, ending with digit `k`.",
+      "The `limit` constraint is handled by summing up valid previous states within the limit.",
+      "Modulo arithmetic is essential due to the large potential answer."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:42:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

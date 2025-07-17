@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-distinct-islands",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Depth First Search (DFS) to traverse islands and record shapes as strings."
+  ],
+  "problem_summary_simple": "Count unique island shapes in a grid, ignoring translation.",
+  "problem_summary_technical": "Uses DFS to explore connected components (islands) and normalizes their shapes by recording relative movements to identify distinct island patterns.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "Representing island shapes as strings of directional movements (e.g., 'l', 'r', 'u', 'd') allows for easy comparison and storage in a set.",
+      "Modifying the grid in-place (e.g., by multiplying by -1) is a common technique to mark visited cells during DFS.",
+      "The starting point of DFS for an island doesn't affect its shape representation if relative movements are consistently recorded."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

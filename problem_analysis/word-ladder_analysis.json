@@ -1,0 +1,39 @@
+{
+  "problem_name": "word-ladder",
+  "data_structures": [
+    [
+      "set",
+      "queue"
+    ],
+    [
+      "set",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) to find the shortest path in a graph where words are nodes and edges connect words differing by one letter.",
+    "Two-ended BFS to optimize search by expanding from both start and end words simultaneously."
+  ],
+  "problem_summary_simple": "Find the shortest sequence of word transformations, changing one letter at a time, between two words.",
+  "problem_summary_technical": "Model as a graph problem. Use BFS (or two-ended BFS) to find the shortest path from `beginWord` to `endWord` in the word graph.",
+  "time_complexity": [
+    "O(b^d)",
+    "O(b^(d/2))"
+  ],
+  "space_complexity": [
+    "O(w * l)",
+    "O(w * l)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be effectively solved using Breadth-First Search (BFS) because BFS naturally finds the shortest path in an unweighted graph.",
+      "The graph's nodes are words, and an edge exists between two words if they differ by exactly one character.",
+      "Two-ended BFS can significantly reduce the search space by meeting in the middle, especially for longer transformation sequences."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

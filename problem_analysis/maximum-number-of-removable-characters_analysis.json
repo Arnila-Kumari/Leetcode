@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-number-of-removable-characters",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on k, check subsequence with set for removals",
+    "Binary search on k, precomputed lookup array for removals"
+  ],
+  "problem_summary_simple": "Find the maximum number of characters to remove from a string such that a given string remains a subsequence.",
+  "problem_summary_technical": "Binary search for the maximum k. Check function verifies if p is a subsequence after removing k characters using a set or precomputed lookup.",
+  "time_complexity": [
+    "O(r * log r * n)",
+    "O(r * log r * n)"
+  ],
+  "space_complexity": [
+    "O(r)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem exhibits monotonicity: if k removals are valid, any k' < k are also valid.",
+      "Binary search on the number of removals (k) is an efficient approach.",
+      "The `check` function's efficiency is crucial; using a set for O(1) average lookup is better than linear scan."
+    ],
+    [
+      "Pre-calculating the removal index to its order in `removable` allows for O(1) check for whether an index is removed.",
+      "This pre-calculation optimizes the `check` function's performance.",
+      "The core logic remains binary search on the number of removals."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

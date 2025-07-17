@@ -1,0 +1,32 @@
+{
+  "problem_name": "constrained-subsequence-sum",
+  "data_structures": [
+    [
+      "deque",
+      "float"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Dynamic Programming with a sliding window maximum (using a deque) to optimize previous sums."
+  ],
+  "problem_summary_simple": "Find the maximum sum of a subsequence where consecutive elements are at most k indices apart.",
+  "problem_summary_technical": "Use DP where dp[i] is max sum ending at i. Optimize finding max(dp[j]) for j in [i-k, i-1] using a deque.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming: `dp[i] = nums[i] + max(0, dp[j])` for `i-k <= j < i`.",
+      "The bottleneck is finding `max(dp[j])` efficiently. A sliding window maximum approach using a deque is ideal.",
+      "The deque stores pairs `(index, dp_value)` and maintains them in decreasing order of `dp_value`, while also removing elements outside the `k` window."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:35:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

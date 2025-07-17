@@ -1,0 +1,31 @@
+{
+  "problem_name": "partition-array-such-that-maximum-difference-is-k",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the array and greedily form subsequences."
+  ],
+  "problem_summary_simple": "Partition an array into the minimum number of subsequences where the difference between max and min in each subsequence is at most k.",
+  "problem_summary_technical": "Partition `nums` into minimum subsequences such that max(subsequence) - min(subsequence) <= k. Sort and use a greedy approach.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is crucial for the greedy approach to work efficiently.",
+      "Start a new subsequence only when the current element exceeds the allowed difference `k` from the start of the current subsequence.",
+      "This greedy strategy ensures that each subsequence covers as many elements as possible, minimizing the total number of subsequences."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:04:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

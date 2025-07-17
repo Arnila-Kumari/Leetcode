@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimize-xor",
+  "data_structures": [
+    [
+      "no explicit data structures used beyond function arguments"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Greedy bit manipulation based on bit counts"
+  ],
+  "problem_summary_simple": "Find a number 'x' with the same bit count as 'num2' that minimizes 'x XOR num1'.",
+  "problem_summary_technical": "Greedily construct 'x' by matching 'num1' bits where possible, then filling remaining bits to match 'num2's count.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The goal is to minimize `x XOR num1`. This is achieved by making `x` as similar to `num1` as possible in their binary representations.",
+      "We are constrained by `x` having the same number of set bits as `num2`.",
+      "A greedy approach works: iterate through bits. If `num1` has a 1 at a position and we still need set bits for `x`, try to keep it 1. If `num1` has a 0 and we need set bits, place a 1 there. If we have excess set bits in `num1` compared to `num2`, flip `num1`'s set bits to 0 in `x`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

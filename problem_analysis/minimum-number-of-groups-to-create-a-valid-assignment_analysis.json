@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-groups-to-create-a-valid-assignment",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "dictionary"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Count frequencies, iterate through possible group sizes, check validity with ceiling division."
+  ],
+  "problem_summary_simple": "Sort balls into boxes such that balls in a box have the same value and box sizes differ by at most 1.",
+  "problem_summary_technical": "Count ball frequencies, iterate potential group sizes, use ceiling division to check box distribution feasibility.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find the smallest possible box size that satisfies the conditions.",
+      "The constraint on box size difference (at most 1) is crucial for the greedy approach.",
+      "Ceiling division is used to calculate the number of boxes needed for a given group size."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

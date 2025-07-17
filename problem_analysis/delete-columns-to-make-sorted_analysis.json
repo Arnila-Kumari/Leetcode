@@ -1,0 +1,42 @@
+{
+  "problem_name": "delete-columns-to-make-sorted",
+  "data_structures": [
+    [
+      "list of strings"
+    ],
+    [
+      "list of strings"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through columns, then rows, checking for lexicographical order.",
+    "Transpose strings and check each new row for lexicographical order."
+  ],
+  "problem_summary_simple": "Delete columns from a grid of strings if they are not sorted lexicographically.",
+  "problem_summary_technical": "Iterate through columns of a string grid, counting columns where characters are not in non-decreasing order.",
+  "time_complexity": [
+    "O(n * l)",
+    "O(n * l)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to check each column independently for sorted order.",
+      "A nested loop structure is natural for column-wise traversal.",
+      "Breaking early within a column check optimizes performance."
+    ],
+    [
+      "Transposing the grid simplifies column-wise checks into row-wise checks.",
+      "`itertools.izip` (or `zip`) is efficient for transposing.",
+      "Checking for any unsorted pair within a transposed row is concise."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

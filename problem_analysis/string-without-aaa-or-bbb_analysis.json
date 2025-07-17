@@ -1,0 +1,31 @@
+{
+  "problem_name": "string-without-aaa-or-bbb",
+  "data_structures": [
+    [
+      "list",
+      "string builder"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach to append characters based on remaining counts and previous characters."
+  ],
+  "problem_summary_simple": "Create a string with a given number of 'a's and 'b's, avoiding 'aaa' and 'bbb'.",
+  "problem_summary_technical": "Greedily appends 'a' or 'b' to avoid consecutive triplets, prioritizing the character with a higher remaining count.",
+  "time_complexity": [
+    "O(a + b)"
+  ],
+  "space_complexity": [
+    "O(a + b)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy is to always append the character that has more remaining count, unless doing so would create 'aaa' or 'bbb'.",
+      "If the last two characters are the same, append the other character to break the sequence."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

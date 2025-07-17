@@ -1,0 +1,46 @@
+{
+  "problem_name": "most-frequent-ids",
+  "data_structures": [
+    [
+      "hashmap",
+      "max heap",
+      "iterator"
+    ],
+    [
+      "hashmap",
+      "sorted list",
+      "iterator"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Maintain counts in a hashmap and use a max-heap to track the highest frequency.",
+    "Use a hashmap for counts and a sorted list for efficient tracking of frequencies."
+  ],
+  "problem_summary_simple": "Track the most frequent ID in a collection that changes over time with additions/removals.",
+  "problem_summary_technical": "Uses a hashmap for counts and a max-heap (or sorted list) to efficiently find the max frequency after each update.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is efficiently querying the maximum frequency after each update.",
+      "A max-heap stores (frequency, ID) pairs, allowing O(log n) updates and O(1) peek for max.",
+      "Need to handle stale entries in the heap by checking against current counts."
+    ],
+    [
+      "A sorted list (like `SortedList`) can maintain frequencies in order.",
+      "Requires careful handling of duplicate frequencies and their associated IDs.",
+      "Updates involve removing old frequency entries and adding new ones."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

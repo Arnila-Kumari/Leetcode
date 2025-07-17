@@ -1,0 +1,32 @@
+{
+  "problem_name": "checking-existence-of-edge-length-limited-paths",
+  "data_structures": [
+    [
+      "UnionFind",
+      "List of lists"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Sort edges and queries by weight, use Union-Find to connect components."
+  ],
+  "problem_summary_simple": "Check if a path exists between two nodes with all edge weights below a limit.",
+  "problem_summary_technical": "Uses Union-Find and sorts edges/queries by weight to efficiently check connectivity under a limit.",
+  "time_complexity": [
+    "O(N log N + M log M + (N + M) * α(N))"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Sorting queries and edges by limit/weight is crucial for an efficient offline solution.",
+      "Union-Find is ideal for tracking connected components as edges are added.",
+      "The offline processing allows us to answer queries incrementally."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

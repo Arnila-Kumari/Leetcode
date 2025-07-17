@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-the-number-of-special-characters-i",
+  "data_structures": [
+    [
+      "array",
+      "hash table"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Using two boolean arrays (or sets) to track presence of lowercase and uppercase letters.",
+    "Iterate through the word, marking presence of lowercase and uppercase letters in separate lookups."
+  ],
+  "problem_summary_simple": "Count letters that appear in both lowercase and uppercase in a string.",
+  "problem_summary_technical": "Use two boolean arrays of size 26 to track lowercase and uppercase letter occurrences and find common ones.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking for the existence of both cases of a letter.",
+      "A simple approach is to use two frequency maps or boolean arrays, one for lowercase and one for uppercase."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:38:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-equal-frequency",
+  "data_structures": [
+    [
+      "hash map",
+      "frequency array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting and analyzing prefix properties after removing one element."
+  ],
+  "problem_summary_simple": "Find the longest prefix where removing one element makes all remaining numbers appear an equal number of times.",
+  "problem_summary_technical": "Track counts of numbers and counts of frequencies. Analyze prefix properties based on these counts.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking prefixes and determining if removing one element satisfies the equal frequency condition.",
+      "We need to efficiently track the frequency of each number and the frequency of those frequencies.",
+      "Several conditions must be met for a prefix to be valid: all numbers appear once, or all but one number appear `k` times and one appears `k+1` times, or all numbers appear `k` times and one appears once."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

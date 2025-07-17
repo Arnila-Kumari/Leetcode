@@ -1,0 +1,43 @@
+{
+  "problem_name": "count-fertile-pyramids-in-a-land",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to count pyramids by checking for a 2x2 fertile pattern and extending downwards.",
+    "Dynamic programming on a reversed grid to count inverse pyramids, then summing both."
+  ],
+  "problem_summary_simple": "Count pyramid and inverse pyramid shapes made of fertile cells in a grid.",
+  "problem_summary_technical": "Uses dynamic programming to count pyramidal and inverse pyramidal shapes by checking for fertile cells in specific patterns.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "A pyramid of height `h` at `(r, c)` requires cells `(i, j)` where `r <= i <= r+h-1` and `c-(i-r) <= j <= c+(i-r)` to be fertile.",
+      "This can be solved with DP. `dp[i][j]` can store the height of the pyramid ending at `(i, j)` as its base.",
+      "The condition for extending a pyramid from `(i-1, j)` to `(i, j)` involves checking `grid[i][j]`, `grid[i-1][j-1]`, `grid[i-1][j]`, and `grid[i-1][j+1]`."
+    ],
+    [
+      "Inverse pyramids can be counted by reversing the grid (or iterating rows in reverse) and applying the same logic.",
+      "The DP state `dp[i][j]` for inverse pyramids would represent the height of the inverse pyramid with apex at `(i, j)`.",
+      "The condition for extending an inverse pyramid involves checking `grid[i][j]`, `grid[i+1][j-1]`, `grid[i+1][j]`, and `grid[i+1][j+1]`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

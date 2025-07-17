@@ -1,0 +1,47 @@
+{
+  "problem_name": "decrypt-string-from-alphabet-to-integer-mapping",
+  "data_structures": [
+    [
+      "list of characters",
+      "string manipulation"
+    ],
+    [
+      "list of characters",
+      "string manipulation"
+    ],
+    [
+      "list of characters",
+      "regex"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Forward iteration, checking for '#' to parse two-digit mappings.",
+    "Backward iteration, prioritizing '#' to parse two-digit mappings.",
+    "Regular expressions to find all digit or digit-digit-# patterns."
+  ],
+  "problem_summary_simple": "Convert a string of digits and '#' into an alphabet string based on a specific mapping.",
+  "problem_summary_technical": "Parse the string by identifying single digits or two digits followed by '#', mapping them to alphabet characters.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The mapping is unique, meaning we don't need to worry about ambiguous interpretations.",
+      "Forward iteration requires looking ahead for the '#' character.",
+      "Backward iteration simplifies parsing by always processing the '#' first if present.",
+      "Regex offers a concise way to extract the relevant number sequences."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

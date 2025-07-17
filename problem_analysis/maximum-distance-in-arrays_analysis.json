@@ -1,0 +1,30 @@
+{
+  "problem_name": "maximum-distance-in-arrays",
+  "data_structures": [
+    [
+      "variables for min/max tracking"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through arrays, maintaining global min and max, calculating max difference"
+  ],
+  "problem_summary_simple": "Find the largest absolute difference between numbers from two different sorted arrays.",
+  "problem_summary_technical": "Iterate through sorted arrays, tracking global min/max to find max difference between current array's ends and global extremes.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The maximum distance will always involve the overall minimum and overall maximum values across all arrays.",
+      "We only need to track the minimum and maximum values encountered so far to efficiently calculate potential maximum distances."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

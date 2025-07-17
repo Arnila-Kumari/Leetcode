@@ -1,0 +1,31 @@
+{
+  "problem_name": "put-marbles-in-bags",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate adjacent sums. Use QuickSelect (or sorting) to find the k-1 smallest and k-1 largest sums to determine min/max score difference."
+  ],
+  "problem_summary_simple": "Find the difference between max and min scores when dividing marbles into k bags.",
+  "problem_summary_technical": "Calculate adjacent sums of weights, then find the difference between the sum of the k-1 smallest and k-1 largest adjacent sums.",
+  "time_complexity": [
+    "O(N log N) if sorting, O(N) on average if using QuickSelect"
+  ],
+  "space_complexity": [
+    "O(N) for storing adjacent sums, O(1) if modifying input array in-place"
+  ],
+  "key_insights": [
+    [
+      "The cost of a bag is determined by the first and last marble's weight in that bag.",
+      "This means the intermediate marbles within a bag don't affect the bag's cost, only the split points matter.",
+      "The problem reduces to selecting k-1 split points, and the minimum/maximum scores are achieved by picking the smallest/largest sums of adjacent elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

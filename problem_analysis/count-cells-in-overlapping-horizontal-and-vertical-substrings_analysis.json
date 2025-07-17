@@ -1,0 +1,36 @@
+{
+  "problem_name": "count-cells-in-overlapping-horizontal-and-vertical-substrings",
+  "data_structures": [
+    [
+      "2D array (grid)",
+      "2D boolean array (lookup)",
+      "string",
+      "list"
+    ]
+  ],
+  "category": "Strings",
+  "algorithm_technique": [
+    "Z-function",
+    "string matching",
+    "grid traversal"
+  ],
+  "problem_summary_simple": "Count cells that are part of both a horizontal and vertical pattern match in a grid.",
+  "problem_summary_technical": "Use Z-function to find pattern occurrences horizontally and vertically, then check for cell intersections.",
+  "time_complexity": [
+    "O(m*n)"
+  ],
+  "space_complexity": [
+    "O(m*n)"
+  ],
+  "key_insights": [
+    [
+      "Z-function for efficient pattern matching",
+      "transform grid to strings for Z-function",
+      "track matches in separate lookup tables"
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:44:56",
+  "batch_processed": true,
+  "batch_size": 4
+}

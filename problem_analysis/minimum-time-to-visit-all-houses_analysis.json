@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-time-to-visit-all-houses",
+  "data_structures": [
+    [
+      "prefix sum array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sums to efficiently calculate path distances in a circular array."
+  ],
+  "problem_summary_simple": "Calculate the minimum time to visit houses in a circular arrangement based on given queries.",
+  "problem_summary_technical": "Uses prefix sums on forward and backward paths to calculate minimum travel time between houses in a circular arrangement.",
+  "time_complexity": [
+    "O(n + q)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The circular nature of the houses requires careful handling of indices when calculating distances.",
+      "Prefix sums are crucial for optimizing the calculation of distances between any two points on the circle.",
+      "The problem can be viewed as finding the shortest path on an unrolled circle, considering both directions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

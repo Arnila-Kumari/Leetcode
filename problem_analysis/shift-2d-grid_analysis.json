@@ -1,0 +1,31 @@
+{
+  "problem_name": "shift-2d-grid",
+  "data_structures": [
+    [
+      "2D list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Treating the 2D grid as a 1D array and performing cyclic shifts using reversals"
+  ],
+  "problem_summary_simple": "Shift elements of a 2D grid k times according to specific rules.",
+  "problem_summary_technical": "Simulate grid shifts by flattening to 1D, applying cyclic shift using three reversals, and reshaping.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The shift operation can be visualized as a cyclic shift on a flattened 1D representation of the grid.",
+      "A k-shift on an m x n grid is equivalent to a (k % (m*n))-shift.",
+      "The three-reversal technique is an efficient way to perform a cyclic shift on an array in-place."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

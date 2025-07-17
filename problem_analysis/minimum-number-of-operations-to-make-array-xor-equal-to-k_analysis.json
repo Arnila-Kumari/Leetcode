@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-operations-to-make-array-xor-equal-to-k",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bitwise XOR and population count"
+  ],
+  "problem_summary_simple": "Change bits in array elements to make their XOR sum equal to k.",
+  "problem_summary_technical": "Calculate the XOR sum of all elements in `nums`. XOR this sum with `k`. The number of set bits in the result is the minimum operations.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Flipping a bit in an element changes its contribution to the total XOR sum.",
+      "The XOR sum of the array can be thought of as the XOR of all individual bits at each position.",
+      "To change the final XOR sum from `current_xor` to `k`, we need to flip bits such that the XOR difference `current_xor ^ k` is achieved.",
+      "Each bit flip operation corresponds to changing a bit in the `current_xor ^ k` value."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:58:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,43 @@
+{
+  "problem_name": "permutations-ii",
+  "data_structures": [
+    [
+      "list",
+      "boolean array"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with sorting and used array to handle duplicates",
+    "Iterative permutation generation with duplicate checking"
+  ],
+  "problem_summary_simple": "Find all unique permutations of a list that may contain duplicates.",
+  "problem_summary_technical": "Generate unique permutations using backtracking with duplicate pruning or iterative construction with set-like checks.",
+  "time_complexity": [
+    "O(n * n!)",
+    "O(n * n!)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the input array is crucial for efficiently skipping duplicate permutations.",
+      "The condition `(i > 0 and nums[i-1] == nums[i] and not used[i-1])` is key to avoiding duplicate branches in the recursion.",
+      "The `used` array tracks elements already included in the current permutation."
+    ],
+    [
+      "This iterative approach builds permutations by inserting the current number into all possible positions of existing permutations.",
+      "Checking `if candidate not in next` prevents duplicate permutations from being added.",
+      "This method can be less efficient due to repeated list creations and `in` checks."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,37 @@
+{
+  "problem_name": "number-of-equal-count-substrings",
+  "data_structures": [
+    [
+      "string",
+      "collections.Counter"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a frequency map to check substring properties for varying lengths and number of unique characters."
+  ],
+  "problem_summary_simple": "Count substrings where each unique character appears exactly 'count' times.",
+  "problem_summary_technical": "Uses a sliding window approach with a frequency counter to check substrings for the equal count property of characters.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking substrings for a specific character count property.",
+      "The number of unique characters in a valid substring is limited by `len(s) // count`.",
+      "A sliding window approach can efficiently check substrings of a fixed length and number of unique characters."
+    ],
+    [
+      "The solution iterates through possible numbers of unique characters (`l`) in a valid substring.",
+      "For each `l`, it uses a sliding window of size `l * count`.",
+      "A counter tracks character frequencies within the window, and `equal_cnt` tracks characters that have reached the `count` frequency."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

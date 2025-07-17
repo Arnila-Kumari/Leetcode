@@ -1,0 +1,45 @@
+{
+  "problem_name": "divide-nodes-into-the-maximum-number-of-groups",
+  "data_structures": [
+    [
+      "adjacency list",
+      "lookup array"
+    ],
+    [
+      "adjacency list",
+      "lookup array",
+      "queue (set)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Iterative DFS for bipartite check, BFS for distance calculation",
+    "BFS for connected components and distance calculation"
+  ],
+  "problem_summary_simple": "Divide graph nodes into maximum groups where adjacent nodes have group difference of 1.",
+  "problem_summary_technical": "Graph problem requiring bipartite coloring and BFS to find maximum distance within connected components.",
+  "time_complexity": [
+    "O(N^2)",
+    "O(N^2)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding the diameter of each connected component in a bipartite graph.",
+      "An odd-length cycle makes the graph non-bipartite, returning -1.",
+      "Iterative DFS is used to check for bipartiteness and assign initial group assignments."
+    ],
+    [
+      "The core idea is to find the maximum distance from a starting node within each connected component.",
+      "BFS is used to determine these maximum distances (diameters).",
+      "The graph must be bipartite; if not, return -1."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

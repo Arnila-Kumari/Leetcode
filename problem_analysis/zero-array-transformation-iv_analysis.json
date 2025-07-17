@@ -1,0 +1,39 @@
+{
+  "problem_name": "zero-array-transformation-iv",
+  "data_structures": [
+    [
+      "array",
+      "set"
+    ],
+    [
+      "array",
+      "set"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Binary search on the number of queries (k). For each k, check if the first k queries can zero out the array using DP.",
+    "Iterative DP approach where each state represents possible values for an element after processing queries."
+  ],
+  "problem_summary_simple": "Find the minimum number of queries needed to make the array all zeros.",
+  "problem_summary_technical": "Binary search combined with DP to check feasibility. DP state tracks achievable values for each array element.",
+  "time_complexity": [
+    "O(log q * n * q * max(val))",
+    "O(q * n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(max(val))",
+    "O(n * 2^n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as finding the smallest k such that a subset of queries can reduce each element to zero.",
+      "The constraint on n (<= 10) suggests exponential complexity might be acceptable for one approach.",
+      "The first solution's DP state is about subset sum for each element, while the second is more direct state propagation."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:14:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

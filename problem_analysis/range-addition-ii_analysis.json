@@ -1,0 +1,31 @@
+{
+  "problem_name": "range-addition-ii",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Finding the minimum dimensions affected by all operations."
+  ],
+  "problem_summary_simple": "Count the number of maximum values in a matrix after applying range increments.",
+  "problem_summary_technical": "The maximum value will be in the top-left submatrix defined by the minimum `ai` and `bi` from all operations.",
+  "time_complexity": [
+    "O(p), where p is the number of operations"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Each operation `[ai, bi]` increments all elements `M[x][y]` where `0 <= x < ai` and `0 <= y < bi`.",
+      "The cells that are incremented by *all* operations will have the maximum value.",
+      "These cells are precisely those within the intersection of all specified submatrices, which is determined by the minimum `ai` and minimum `bi`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:05:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

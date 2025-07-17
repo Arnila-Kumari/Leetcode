@@ -1,0 +1,67 @@
+{
+  "problem_name": "regular-expression-matching",
+  "data_structures": [
+    [
+      "2D list (DP table)",
+      "list"
+    ],
+    [
+      "2D list (DP table)",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ],
+    [
+      "recursion stack"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with space optimization (rolling array)",
+    "Dynamic Programming (2D table)",
+    "Iterative approach with backtracking pointers",
+    "Recursive approach with memoization (implicit)"
+  ],
+  "problem_summary_simple": "Match a string against a pattern with '.' (any char) and '*' (zero or more of preceding).",
+  "problem_summary_technical": "Use DP to build a table where dp[i][j] is true if s[:i] matches p[:j]. Handle '.' and '*' cases.",
+  "time_complexity": [
+    "O(m*n)",
+    "O(m*n)",
+    "O(m*n)",
+    "O(m*n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(m*n)",
+    "O(m)",
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using dynamic programming by considering subproblems.",
+      "The '*' character introduces complexity, requiring consideration of zero or multiple matches of the preceding character.",
+      "Space optimization for DP is possible by using only the previous row/state."
+    ],
+    [
+      "The DP state `dp[i][j]` represents whether the first `i` characters of `s` match the first `j` characters of `p`.",
+      "Transitions depend on whether the current pattern character is a literal, '.', or '*'.",
+      "Base cases are crucial: empty string matching empty pattern, and handling '*' at the beginning of the pattern."
+    ],
+    [
+      "The iterative approach uses pointers to track current positions in `s` and `p`.",
+      "When a '*' is encountered, it stores the last matching position in `s` and `p` to allow backtracking.",
+      "This approach avoids explicit DP table construction but simulates the logic."
+    ],
+    [
+      "The recursive solution breaks down the problem into smaller subproblems.",
+      "Base cases handle empty patterns or strings.",
+      "The '*' case involves two possibilities: matching zero of the preceding character or matching one or more."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:06:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

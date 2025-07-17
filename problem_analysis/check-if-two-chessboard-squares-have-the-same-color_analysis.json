@@ -1,0 +1,27 @@
+{
+  "problem_name": "check-if-two-chessboard-squares-have-the-same-color",
+  "data_structures": [],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Parity check based on coordinate values"
+  ],
+  "problem_summary_simple": "Determine if two chessboard squares, given by coordinates, have the same color.",
+  "problem_summary_technical": "Calculates the parity of the sum of ASCII values of the coordinate characters.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Chessboard coloring follows a pattern based on the parity of the sum of row and column indices.",
+      "The sum of the ASCII values of the coordinate characters (e.g., 'a1') captures this parity.",
+      "If the parity of the sum of character ASCII values is the same for two coordinates, they have the same color."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

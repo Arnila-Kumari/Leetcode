@@ -1,0 +1,32 @@
+{
+  "problem_name": "subtree-of-another-tree",
+  "data_structures": [
+    [
+      "binary tree nodes",
+      "recursive call stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Tree traversal (pre-order) and recursive subtree comparison"
+  ],
+  "problem_summary_simple": "Check if one binary tree is a subtree of another.",
+  "problem_summary_technical": "Traverse the larger tree, and for each node, recursively check if its subtree matches the smaller tree.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires two main components: a way to check if two trees are identical, and a way to traverse the larger tree.",
+      "The `isSame` function performs a structural and value-based comparison of two trees.",
+      "The `preOrderTraverse` function iterates through all possible starting nodes in the larger tree (`s`) and calls `isSame`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

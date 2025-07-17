@@ -1,0 +1,33 @@
+{
+  "problem_name": "longest-common-prefix-between-adjacent-strings-after-removals",
+  "data_structures": [
+    [
+      "array",
+      "prefix sum array",
+      "suffix max array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Calculate adjacent LCPs, then use prefix/suffix max arrays to find max LCP after removal."
+  ],
+  "problem_summary_simple": "Find the longest common prefix of adjacent strings after removing each string one by one.",
+  "problem_summary_technical": "Compute pairwise LCPs, then use prefix and suffix maximum arrays to efficiently query LCPs in modified arrays.",
+  "time_complexity": [
+    "O(N*L) where N is number of words and L is max word length"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating LCPs between all adjacent pairs is crucial.",
+      "Prefix and suffix maximum arrays allow O(1) lookup for maximum LCPs in ranges.",
+      "The core idea is to efficiently combine pre-calculated LCPs considering the removed element."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "sum-of-scores-of-built-strings",
+  "data_structures": [
+    [
+      "String",
+      "Array (for Z-function)"
+    ]
+  ],
+  "category": "String",
+  "algorithm_technique": [
+    "Z-function algorithm",
+    "Calculating longest common prefixes efficiently"
+  ],
+  "problem_summary_simple": "Sum the lengths of the longest common prefixes between each suffix and the original string.",
+  "problem_summary_technical": "Compute the Z-function for the given string. The Z-value at index `i` directly corresponds to the score of the suffix starting at `i`.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The Z-function is a powerful tool for finding occurrences of a pattern within a text, and also for self-comparison.",
+      "The Z-value `z[i]` represents the length of the longest common prefix between the string `s` and the suffix of `s` starting at index `i`.",
+      "The problem cleverly reuses the Z-function's definition to solve the scoring requirement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

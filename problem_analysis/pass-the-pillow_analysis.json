@@ -1,0 +1,29 @@
+{
+  "problem_name": "pass-the-pillow",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical calculation using modulo arithmetic to determine the position in the back-and-forth movement."
+  ],
+  "problem_summary_simple": "Find who has the pillow after a certain time, given people in a line passing it back and forth.",
+  "problem_summary_technical": "Calculate the final position of the pillow by modeling its movement as a cycle and using modulo arithmetic.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The pillow's movement is cyclical: it goes from 1 to n, then n to 1. This cycle length is 2 * (n - 1).",
+      "The modulo operator is key to finding the effective time within a single cycle.",
+      "The absolute difference from the 'peak' position (n) can determine the final position."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:04:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

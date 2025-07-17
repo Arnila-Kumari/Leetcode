@@ -1,0 +1,45 @@
+{
+  "problem_name": "maximum-number-of-achievable-transfer-requests",
+  "data_structures": [
+    [
+      "array to track net change in employees per building",
+      "itertools for combinations"
+    ],
+    [
+      "array to track net change in employees per building",
+      "bitmask for iterating through subsets"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Iterate through all possible subsets of requests, checking for balance.",
+    "Brute-force check of all 2^r subsets of requests using bit manipulation."
+  ],
+  "problem_summary_simple": "Find the maximum number of employee transfer requests that can be fulfilled simultaneously.",
+  "problem_summary_technical": "Check all subsets of requests to find the largest subset where net employee change per building is zero.",
+  "time_complexity": [
+    "O(r * C(r, k) * n) where k is the number of requests, optimized by starting from largest k",
+    "O(2^r * r * n)"
+  ],
+  "space_complexity": [
+    "O(n + r)",
+    "O(n + r)"
+  ],
+  "key_insights": [
+    [
+      "The core constraint is that for each building, the number of employees leaving must equal the number arriving.",
+      "This translates to a net change of zero for each building."
+    ],
+    [
+      "The problem can be solved by iterating through all possible combinations of requests and checking the balance condition.",
+      "Starting the check from the largest possible number of requests (r) down to 1 allows for an early exit upon finding a valid set."
+    ],
+    [
+      "Bit manipulation is an efficient way to represent and iterate through all subsets of requests."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

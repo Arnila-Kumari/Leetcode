@@ -1,0 +1,31 @@
+{
+  "problem_name": "design-browser-history",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Use a list to store history and a pointer to the current page, clearing forward history on visit."
+  ],
+  "problem_summary_simple": "Simulate a browser's back and forward navigation with history management.",
+  "problem_summary_technical": "Implement browser history using a list and current index, clearing forward history on visit and capping back/forward steps.",
+  "time_complexity": [
+    "ctor: O(1), visit: O(n) (due to clearing forward history), back: O(1), forward: O(1)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The `visit` operation requires clearing forward history, which can be done efficiently by popping from the list.",
+      "The `back` and `forward` operations involve adjusting the current index, ensuring it stays within bounds.",
+      "The use of a list and an index simulates a doubly linked list behavior for history traversal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

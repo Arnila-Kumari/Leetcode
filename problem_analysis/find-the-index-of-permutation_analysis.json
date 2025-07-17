@@ -1,0 +1,43 @@
+{
+  "problem_name": "find-the-index-of-permutation",
+  "data_structures": [
+    [
+      "Fenwick Tree (BIT)",
+      "array"
+    ],
+    [
+      "Fenwick Tree (BIT)",
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Combinatorics with Fenwick Tree for counting smaller elements",
+    "Combinatorics with Fenwick Tree for counting smaller elements (lazy factorial)"
+  ],
+  "problem_summary_simple": "Find the lexicographical index of a given permutation within all possible permutations of numbers 1 to n.",
+  "problem_summary_technical": "Use combinatorics and a Fenwick Tree to count preceding permutations by summing factorials of available smaller numbers.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The index of a permutation can be calculated by considering each element from left to right.",
+      "For each element, count how many smaller available numbers could have been placed at that position.",
+      "Multiply this count by the factorial of the remaining positions and sum these values."
+    ],
+    [
+      "The index of a permutation can be calculated by considering each element from left to right.",
+      "For each element, count how many smaller available numbers could have been placed at that position.",
+      "Multiply this count by the factorial of the remaining positions and sum these values.",
+      "Lazy initialization of factorials can optimize memory usage."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "strings-differ-by-one-character",
+  "data_structures": [
+    [
+      "hashmap",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hashing substrings with a rolling hash to detect differences efficiently."
+  ],
+  "problem_summary_simple": "Check if any two strings in a list differ by exactly one character at the same position.",
+  "problem_summary_technical": "Uses rolling hash to efficiently compare substrings by removing one character at a time and checking for hash collisions.",
+  "time_complexity": [
+    "O(n * m)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A rolling hash allows for O(1) computation of hashes for substrings when one character is removed.",
+      "By iterating through each character position and calculating hashes of strings with that character removed, we can detect differences."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

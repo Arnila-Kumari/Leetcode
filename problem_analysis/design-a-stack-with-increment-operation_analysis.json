@@ -1,0 +1,32 @@
+{
+  "problem_name": "design-a-stack-with-increment-operation",
+  "data_structures": [
+    [
+      "list (acting as a stack)",
+      "list of lists (to store value and increment value)"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Stack with lazy increment propagation"
+  ],
+  "problem_summary_simple": "Design a stack that supports pushing, popping, and incrementing the bottom k elements.",
+  "problem_summary_technical": "Employs a stack where each element stores its value and an associated increment value. Increments are applied lazily during pop operations.",
+  "time_complexity": [
+    "ctor: O(1), push: O(1), pop: O(1), increment: O(1)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The key to efficient increment is to avoid iterating through the bottom k elements every time.",
+      "Store an 'increment' value with each element. When incrementing, only update the increment value of the k-th element.",
+      "During pop, add the element's own increment value to its base value, and then propagate its increment value to the element below it."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

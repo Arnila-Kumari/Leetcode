@@ -1,0 +1,31 @@
+{
+  "problem_name": "crawler-log-folder",
+  "data_structures": [
+    [
+      "integer (for depth)"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Iterative traversal simulating folder navigation using a counter."
+  ],
+  "problem_summary_simple": "Calculate the minimum operations to return to the main folder after a series of directory changes.",
+  "problem_summary_technical": "Simulate folder navigation using a counter, incrementing for child directories and decrementing for parent directories, capping at zero.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as tracking the current depth from the root.",
+      "The operations '../', './', and 'x/' directly translate to changes in this depth.",
+      "The key is to handle the '..' operation correctly when already at the root (depth 0)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:38:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

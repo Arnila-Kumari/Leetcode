@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximize-sum-of-weights-after-edge-removals",
+  "data_structures": [
+    [
+      "adjacency list",
+      "array of arrays"
+    ],
+    [
+      "adjacency list",
+      "array of arrays"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "iterative DFS with quick select",
+    "recursive DFS with quick select"
+  ],
+  "problem_summary_simple": "Maximize sum of edge weights in a tree by removing edges so no node exceeds k connections.",
+  "problem_summary_technical": "Tree DP with quickselect to find k largest edge weight differences for node degree constraints.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a tree DP problem.",
+      "Quickselect is used to efficiently find the k largest differences in subtree sums.",
+      "Iterative DFS avoids potential recursion depth issues."
+    ],
+    [
+      "The core idea is to calculate the maximum sum achievable for each subtree.",
+      "The difference in sums when an edge is kept versus removed is crucial.",
+      "Quickselect optimizes the selection of edges to keep based on the k constraint."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

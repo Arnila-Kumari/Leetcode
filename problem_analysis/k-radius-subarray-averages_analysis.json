@@ -1,0 +1,31 @@
+{
+  "problem_name": "k-radius-subarray-averages",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window sum calculation to efficiently compute averages for each center."
+  ],
+  "problem_summary_simple": "Calculate the average of subarrays of a fixed radius around each element.",
+  "problem_summary_technical": "Uses a sliding window to maintain the sum of elements within the k-radius window, calculating averages efficiently.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires calculating the average of a subarray of size `2*k + 1` centered at each index `i`.",
+      "A naive approach would re-calculate the sum for each center, leading to O(n*k) complexity.",
+      "A sliding window approach is optimal: maintain a running sum of the window. As the window slides, add the new element and subtract the element leaving the window."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

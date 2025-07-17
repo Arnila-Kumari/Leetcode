@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-ways-to-wear-different-hats-to-each-other",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Bitmask DP: DP state represents which people have been assigned hats."
+  ],
+  "problem_summary_simple": "Count ways to assign unique hats to people based on their preferences.",
+  "problem_summary_technical": "Bitmask DP where dp[mask] is ways to assign hats to people represented by the mask. Iterate through hats, updating DP states.",
+  "time_complexity": [
+    "O(H * 2^N)"
+  ],
+  "space_complexity": [
+    "O(2^N)"
+  ],
+  "key_insights": [
+    [
+      "The constraint N <= 10 makes bitmask DP feasible.",
+      "Pre-processing hats to people mapping optimizes iteration.",
+      "The DP state transition considers assigning a hat to a person not yet assigned a hat."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

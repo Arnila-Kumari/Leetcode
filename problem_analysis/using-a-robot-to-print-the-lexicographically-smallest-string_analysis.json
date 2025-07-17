@@ -1,0 +1,33 @@
+{
+  "problem_name": "using-a-robot-to-print-the-lexicographically-smallest-string",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list (stack)",
+      "list (result)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach with a frequency counter and a stack"
+  ],
+  "problem_summary_simple": "Arrange characters from a string using a robot to get the lexicographically smallest output.",
+  "problem_summary_technical": "Uses a frequency counter to track available characters and a stack to build the output greedily, prioritizing smaller characters.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to always try to append the smallest available character to the result.",
+      "A frequency map helps determine the smallest character that can still be formed.",
+      "The stack stores characters temporarily, allowing us to defer printing larger characters until smaller ones are exhausted."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

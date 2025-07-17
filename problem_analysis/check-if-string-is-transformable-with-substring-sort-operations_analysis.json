@@ -1,0 +1,31 @@
+{
+  "problem_name": "check-if-string-is-transformable-with-substring-sort-operations",
+  "data_structures": [
+    [
+      "list of lists (for storing indices of digits)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using indices and checking smaller digits' positions"
+  ],
+  "problem_summary_simple": "Can string s be transformed into string t by sorting any substrings of s?",
+  "problem_summary_technical": "Checks if characters in t can be formed from s by sorting substrings, ensuring smaller characters don't block larger ones.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that a character in `t` must be available in `s` and must not be blocked by a smaller character that appears later in `s` but earlier in `t`.",
+      "Processing digits from right to left (or using reversed indices) simplifies the check for blocking smaller characters.",
+      "A list of lists (or queues) to store indices of each digit is efficient for tracking availability and relative positions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

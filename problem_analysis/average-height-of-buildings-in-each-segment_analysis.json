@@ -1,0 +1,44 @@
+{
+  "problem_name": "average-height-of-buildings-in-each-segment",
+  "data_structures": [
+    [
+      "list of tuples/events",
+      "list of segments"
+    ],
+    [
+      "dictionary/map",
+      "list of segments"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sweep line algorithm: process start and end points of buildings, maintaining current total height and count.",
+    "Event-based processing: use a map to store changes in height and count at critical points, then iterate through sorted points."
+  ],
+  "problem_summary_simple": "Divide a street into segments with constant average building height, merging adjacent segments with the same average.",
+  "problem_summary_technical": "Use a sweep-line approach by creating events for building start/end points. Track active buildings and their total height to calculate average height for segments.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering all start and end points of buildings as critical events on the number line.",
+      "A sweep-line approach allows us to efficiently track the number of active buildings and their total height as we move along the street.",
+      "Merging adjacent segments with the same average height is a post-processing step after determining the average height for all elementary segments."
+    ],
+    [
+      "Using a dictionary (or map) to store the net change in building count and total height at each coordinate simplifies the event aggregation.",
+      "Sorting the keys of the dictionary provides the ordered critical points for processing.",
+      "The logic for merging segments with identical averages is crucial for producing the minimal set of segments."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

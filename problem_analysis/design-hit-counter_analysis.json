@@ -1,0 +1,31 @@
+{
+  "problem_name": "design-hit-counter",
+  "data_structures": [
+    [
+      "collections.deque"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Use a deque to store (timestamp, count) pairs, expiring old entries."
+  ],
+  "problem_summary_simple": "Design a counter to track hits in the last 5 minutes.",
+  "problem_summary_technical": "Implement a HitCounter class using a deque to efficiently store and retrieve hits within a sliding time window of 300 seconds.",
+  "time_complexity": [
+    "O(1) amortized"
+  ],
+  "space_complexity": [
+    "O(k), where k is the number of distinct seconds with hits in the window"
+  ],
+  "key_insights": [
+    [
+      "The deque efficiently handles chronological hits and allows O(1) removal of expired entries.",
+      "Storing counts per timestamp optimizes space when multiple hits occur at the same time.",
+      "The `getHits` call proactively cleans up old entries, ensuring `hit` is amortized O(1)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:03",
+  "batch_processed": true,
+  "batch_size": 4
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-operations-to-make-a-special-number",
+  "data_structures": [
+    [
+      "array (lookup/boolean)",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: find the rightmost '0' or '5', then the rightmost '0' or '2'/'7' before it to form '00', '25', '50', '75'."
+  ],
+  "problem_summary_simple": "Find the minimum deletions to make a number divisible by 25.",
+  "problem_summary_technical": "Iterate from right to left. Find the rightmost '0' or '5'. Then find the rightmost '0' or '2'/'7' before it to form a suffix divisible by 25.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A number is divisible by 25 if its last two digits form '00', '25', '50', or '75'.",
+      "The greedy strategy is to find the required suffix ('00', '25', '50', '75') by looking from right to left.",
+      "The number of deletions is the total length minus the length of the found special suffix."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:59:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-pairs-of-interchangeable-rectangles",
+  "data_structures": [
+    [
+      "collections.defaultdict (hash map)",
+      "fractions.gcd"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Group rectangles by their simplified width-to-height ratio using a hash map. Calculate pairs within each group using the combination formula n*(n-1)/2."
+  ],
+  "problem_summary_simple": "Count pairs of rectangles that have the same width-to-height ratio.",
+  "problem_summary_technical": "Normalize rectangle ratios by dividing by their greatest common divisor (GCD). Use a hash map to count occurrences of each normalized ratio and calculate pairs.",
+  "time_complexity": [
+    "O(N log M)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Rectangles are interchangeable if their width/height ratio is the same. To avoid floating-point precision issues, represent the ratio as a simplified fraction (w/gcd, h/gcd).",
+      "A hash map (like `collections.defaultdict`) is ideal for grouping rectangles by their simplified ratio. The key would be the tuple (simplified_width, simplified_height).",
+      "Once counts for each ratio are obtained, the number of pairs for a ratio with count 'c' is c*(c-1)/2. Summing these up gives the total."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

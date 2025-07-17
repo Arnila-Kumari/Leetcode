@@ -1,0 +1,56 @@
+{
+  "problem_name": "longest-path-with-different-adjacent-characters",
+  "data_structures": [
+    [
+      "adjacency list",
+      "hashmap (defaultdict)"
+    ],
+    [
+      "adjacency list",
+      "stack"
+    ],
+    [
+      "adjacency list",
+      "list (for result storage)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "topological sort (BFS-based)",
+    "iterative DFS",
+    "recursive DFS"
+  ],
+  "problem_summary_simple": "Find the longest path in a tree where adjacent nodes have different characters.",
+  "problem_summary_technical": "Tree traversal (DFS/BFS) to find longest path with distinct adjacent node characters, using adjacency list and tracking path lengths.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(w) where w is max width",
+    "O(h) where h is tree height",
+    "O(h) where h is tree height"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the longest path in a DAG derived from the tree, where edges exist only between nodes with different characters.",
+      "A DFS approach naturally explores paths, and keeping track of the two longest valid paths from a child to its parent is key.",
+      "The topological sort approach leverages the tree structure to process nodes in an order that allows for efficient calculation of path lengths."
+    ],
+    [
+      "The iterative DFS solution simulates recursion using a stack, managing state for each node's traversal.",
+      "It correctly identifies the two longest valid paths extending from a node's children to maintain the longest path property.",
+      "The `top2` array efficiently stores the lengths of the two longest valid paths from children."
+    ],
+    [
+      "The recursive DFS solution is more intuitive for tree problems, directly calculating the longest valid path extending downwards from each node.",
+      "It returns the length of the longest valid path starting at the current node and going down, while updating a global maximum.",
+      "The `top2` array stores the two longest valid path lengths from children, used to compute the longest path passing through the current node."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

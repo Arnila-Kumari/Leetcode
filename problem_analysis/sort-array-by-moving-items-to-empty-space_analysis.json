@@ -1,0 +1,44 @@
+{
+  "problem_name": "sort-array-by-moving-items-to-empty-space",
+  "data_structures": [
+    [
+      "array",
+      "lookup array (boolean)"
+    ],
+    [
+      "array",
+      "copy of array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach simulating moves, tracking visited elements to find cycles.",
+    "Greedy simulation of moves, swapping elements to form cycles and count operations."
+  ],
+  "problem_summary_simple": "Sort an array containing 0 to n-1 by moving items to the empty space (0).",
+  "problem_summary_technical": "Find minimum operations to sort array with 0 as empty space by moving items into it, considering two target positions for 0.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be viewed as finding cycles in permutations.",
+      "The empty space (0) can end up at either the beginning or the end.",
+      "The minimum moves often involve breaking and reforming cycles."
+    ],
+    [
+      "Simulating the moves directly can be complex; understanding cycle decomposition is key.",
+      "The two provided solutions explore slightly different ways to manage the state and count moves.",
+      "The core idea is to identify misplaced elements and efficiently move them."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:09:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

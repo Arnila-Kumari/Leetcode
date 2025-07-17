@@ -1,0 +1,32 @@
+{
+  "problem_name": "fruits-into-baskets-iii",
+  "data_structures": [
+    [
+      "Segment Tree",
+      "Array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Segment Tree with Binary Search to find the leftmost available basket"
+  ],
+  "problem_summary_simple": "Place fruits into baskets with capacity constraints, minimizing unplaced fruit types.",
+  "problem_summary_technical": "Greedily assign fruits to the leftmost valid basket using a Segment Tree for efficient searching and updates.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem is identical to 'fruits-into-baskets-ii' in terms of logic and solution approach.",
+      "The constraints are larger, emphasizing the need for an efficient O(n log n) solution.",
+      "The Segment Tree's ability to perform range maximum queries and point updates is key."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "encrypt-and-decrypt-strings",
+  "data_structures": [
+    [
+      "hash map",
+      "hash map (counter)"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Use a hash map for key-value encryption mapping and a counter for decrypted word frequencies.",
+    "Pre-compute encrypted dictionary words for efficient decryption lookup."
+  ],
+  "problem_summary_simple": "Encrypt strings using a key-value mapping and count valid decrypted strings from a dictionary.",
+  "problem_summary_technical": "Maps characters to 2-char strings for encryption; decrypts by counting pre-encrypted dictionary words.",
+  "time_complexity": [
+    "ctor: O(m + d), encrypt: O(n), decrypt: O(n)"
+  ],
+  "space_complexity": [
+    "O(m + d)"
+  ],
+  "key_insights": [
+    [
+      "The encryption is a direct character-to-string substitution.",
+      "Decryption involves checking if an encrypted string matches any pre-encrypted dictionary words.",
+      "Using a counter for dictionary words significantly speeds up decryption."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

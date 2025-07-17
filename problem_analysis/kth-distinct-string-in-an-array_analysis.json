@@ -1,0 +1,32 @@
+{
+  "problem_name": "kth-distinct-string-in-an-array",
+  "data_structures": [
+    [
+      "list",
+      "hashmap (Counter)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting and filtering"
+  ],
+  "problem_summary_simple": "Find the k-th string that appears exactly once in the array.",
+  "problem_summary_technical": "Use a hashmap (Counter) to count frequencies, then filter the original array for distinct strings, and return the k-th one.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires identifying unique elements and their order of appearance.",
+      "A hashmap (like `collections.Counter`) is ideal for efficiently counting element frequencies.",
+      "After counting, iterate through the original array to maintain order and pick the k-th distinct element."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

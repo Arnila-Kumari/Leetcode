@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-swaps-to-make-sequences-increasing",
+  "data_structures": [
+    [
+      "list",
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with two states: minimum swaps without swapping at current index, and minimum swaps with swapping at current index."
+  ],
+  "problem_summary_simple": "Find the minimum swaps between two arrays at corresponding indices to make both arrays strictly increasing.",
+  "problem_summary_technical": "Dynamic programming approach to calculate minimum swaps, considering two states (swapped/not swapped) at each index based on previous states.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming where the state depends on the previous index's swap status.",
+      "Two DP states are needed: `dp_no_swap[i]` (min swaps for first `i` elements without swapping `i`) and `dp_swap[i]` (min swaps for first `i` elements with swapping `i`).",
+      "Transitions depend on whether the current elements `A[i], B[i]` can maintain the increasing property with `A[i-1], B[i-1]` (no swap at `i`) or `B[i-1], A[i-1]` (swap at `i`)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

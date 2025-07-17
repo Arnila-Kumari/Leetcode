@@ -1,0 +1,31 @@
+{
+  "problem_name": "naming-a-company",
+  "data_structures": [
+    [
+      "list of sets"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Group strings by their first character, then iterate through pairs of groups to count valid swaps using set intersections."
+  ],
+  "problem_summary_simple": "Count valid company names formed by swapping first letters of two distinct ideas.",
+  "problem_summary_technical": "Group suffixes by first letter. For each pair of first letters, calculate valid swaps using set intersection and difference.",
+  "time_complexity": [
+    "O(26 * n * l)"
+  ],
+  "space_complexity": [
+    "O(n * l)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be optimized by grouping the suffixes of the ideas based on their first character.",
+      "For any two distinct first characters 'a' and 'b', we need to find how many suffixes in group 'a' are not in group 'b' and vice-versa.",
+      "The number of valid swaps between group 'a' and group 'b' is (count_a - common) * (count_b - common), where common is the number of shared suffixes."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:01:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

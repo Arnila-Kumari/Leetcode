@@ -1,0 +1,33 @@
+{
+  "problem_name": "bricks-falling-when-hit",
+  "data_structures": [
+    [
+      "UnionFind",
+      "2D array (grid)",
+      "list of lists (hits)"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Union-Find with reverse processing of hits"
+  ],
+  "problem_summary_simple": "Count bricks that fall after removing bricks in a sequence, considering stability.",
+  "problem_summary_technical": "Uses Union-Find to track connected components of stable bricks, processing hits in reverse to count falling bricks.",
+  "time_complexity": [
+    "O(R*C + H*alpha(R*C)) where R, C are grid dimensions and H is number of hits, alpha is inverse Ackermann function"
+  ],
+  "space_complexity": [
+    "O(R*C)"
+  ],
+  "key_insights": [
+    [
+      "Processing hits in reverse simplifies the problem by adding bricks back, making stability checks easier.",
+      "Union-Find is ideal for managing connected components and efficiently merging them.",
+      "The 'roof' (top row) acts as a virtual stable anchor for bricks."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:33:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

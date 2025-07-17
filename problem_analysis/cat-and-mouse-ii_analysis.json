@@ -1,0 +1,48 @@
+{
+  "problem_name": "cat-and-mouse-ii",
+  "data_structures": [
+    [
+      "dictionary",
+      "set",
+      "deque"
+    ],
+    [
+      "dictionary",
+      "set",
+      "deque"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "State-space search with memoization (dynamic programming on graph states) using BFS.",
+    "State-space search with memoization (dynamic programming on graph states) using BFS with two queues."
+  ],
+  "problem_summary_simple": "Determine if the mouse can reach the food before the cat catches it or reaches the food first.",
+  "problem_summary_technical": "Uses BFS on states (mouse_pos, cat_pos, turn, turns_taken) to determine win/loss/draw outcomes, considering jump lengths and grid constraints.",
+  "time_complexity": [
+    "O((R*C)^2 * (R+C)), where R*C is the number of cells, due to state space and transitions.",
+    "O((R*C)^2 * (R+C)), where R*C is the number of cells, due to state space and transitions."
+  ],
+  "space_complexity": [
+    "O((R*C)^2), for storing the game state results (color) and degrees.",
+    "O((R*C)^2), for storing the game state results (color) and degrees."
+  ],
+  "key_insights": [
+    [
+      "This is a game theory problem on a grid, solvable with BFS on states.",
+      "The state must include mouse position, cat position, and whose turn it is.",
+      "The maximum number of turns (1000) acts as a limit, after which the cat wins if the mouse hasn't won.",
+      "The solution uses a degree-based BFS to propagate known outcomes (win/loss) backwards from terminal states."
+    ],
+    [
+      "This is a game theory problem on a grid, solvable with BFS on states.",
+      "The state must include mouse position, cat position, and whose turn it is.",
+      "The maximum number of turns (1000) acts as a limit, after which the cat wins if the mouse hasn't won.",
+      "The solution uses a degree-based BFS to propagate known outcomes (win/loss) backwards from terminal states."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:33:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

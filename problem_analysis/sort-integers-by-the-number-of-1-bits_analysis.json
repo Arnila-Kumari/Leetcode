@@ -1,0 +1,31 @@
+{
+  "problem_name": "sort-integers-by-the-number-of-1-bits",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bit manipulation for counting set bits, custom sort with lambda function"
+  ],
+  "problem_summary_simple": "Sort numbers first by their count of 1s in binary, then by their value.",
+  "problem_summary_technical": "Sort an array of integers based on the number of set bits (popcount) in their binary representation, then by the integer value itself.",
+  "time_complexity": [
+    "O(N log N * log M) where N is array length and M is max value in array (for popcount)"
+  ],
+  "space_complexity": [
+    "O(1) or O(log N) depending on sort implementation"
+  ],
+  "key_insights": [
+    [
+      "The `n &= n - 1` trick efficiently counts set bits (Brian Kernighan's algorithm).",
+      "Python's `sort` with a `key` function is a concise way to implement multi-criteria sorting.",
+      "The problem requires a stable sort or a sort that handles ties correctly, which Python's `sort` does."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

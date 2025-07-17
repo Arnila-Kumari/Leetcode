@@ -1,0 +1,32 @@
+{
+  "problem_name": "connecting-cities-with-minimum-cost",
+  "data_structures": [
+    [
+      "Union-Find data structure",
+      "List (for connections)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Kruskal's algorithm using Union-Find to find Minimum Spanning Tree"
+  ],
+  "problem_summary_simple": "Find the minimum cost to connect all cities, forming a single network.",
+  "problem_summary_technical": "Sort edges by cost and use Union-Find to build a Minimum Spanning Tree, ensuring all cities are connected.",
+  "time_complexity": [
+    "O(E log E) or O(E log V) where E is connections and V is cities"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a classic Minimum Spanning Tree (MST) problem.",
+      "Kruskal's algorithm is efficient for finding MSTs when edges are sorted by weight.",
+      "Union-Find is essential for efficiently detecting cycles and merging connected components."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

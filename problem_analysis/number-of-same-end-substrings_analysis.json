@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-same-end-substrings",
+  "data_structures": [
+    [
+      "2D prefix sum array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sums to efficiently count character occurrences within query ranges, then combinatorial formula for same-end substrings"
+  ],
+  "problem_summary_simple": "Count substrings within given ranges that start and end with the same character.",
+  "problem_summary_technical": "Use a 2D prefix sum array to count occurrences of each character within any substring. For each query, calculate same-end substrings using a combinatorial approach based on character counts.",
+  "time_complexity": [
+    "O(26 * (n + q))"
+  ],
+  "space_complexity": [
+    "O(26 * n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to count pairs of identical characters within a given range.",
+      "A prefix sum array (or frequency map) for each character allows O(1) retrieval of character counts within any substring.",
+      "For a character appearing `k` times in a substring, it contributes `k * (k + 1) / 2` same-end substrings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

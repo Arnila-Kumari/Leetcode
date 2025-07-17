@@ -1,0 +1,76 @@
+{
+  "problem_name": "minimum-cost-to-convert-string-ii",
+  "data_structures": [
+    [
+      "trie",
+      "hash map",
+      "priority queue",
+      "dynamic programming array"
+    ],
+    [
+      "trie",
+      "hash map",
+      "2D array",
+      "dynamic programming array"
+    ],
+    [
+      "trie",
+      "hash map",
+      "priority queue",
+      "dynamic programming array"
+    ],
+    [
+      "trie",
+      "hash map",
+      "2D array",
+      "dynamic programming array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with Trie and Dijkstra for substring transformations, memoizing costs.",
+    "DP with Trie and Floyd-Warshall for substring transformations, precomputing costs.",
+    "DP with Trie and Dijkstra for substring transformations, memoizing costs.",
+    "DP with Trie and Floyd-Warshall for substring transformations, precomputing costs."
+  ],
+  "problem_summary_simple": "Convert source to target string using substring transformations with minimum cost.",
+  "problem_summary_technical": "DP state `dp[i]` is min cost to convert `source[0...i-1]` to `target[0...i-1]`. Transitions use Trie and shortest path algorithms for substring matches.",
+  "time_complexity": [
+    "O(o * l + k * eloge + n * c * l)",
+    "O(o * l + k^3 + n * c * l)",
+    "O(o * l + k * eloge + n * l)",
+    "O(o * l + k^3 + n * l)"
+  ],
+  "space_complexity": [
+    "O(t + k * v + c + l)",
+    "O(o * l + k^2 + c + l)",
+    "O(t + k * v + l)",
+    "O(t + k^2 + l)"
+  ],
+  "key_insights": [
+    [
+      "The problem combines substring matching (Trie) with shortest path algorithms (Dijkstra) for transformation costs.",
+      "Dynamic programming is used to build up the solution from prefixes of the strings.",
+      "The constraint on operations (disjoint or identical substrings) is implicitly handled by the DP transitions."
+    ],
+    [
+      "Similar to Problem 4, Floyd-Warshall can precompute all substring transformation costs for efficiency.",
+      "The Trie helps in quickly finding all possible substring transformations.",
+      "The DP state `dp[i]` represents the minimum cost to convert the prefix of length `i`."
+    ],
+    [
+      "This solution leverages a Trie to efficiently find matching substrings and Dijkstra to compute minimum transformation costs between them.",
+      "The DP approach iterates through the string, considering all possible substring transformations at each step.",
+      "Memoization of Dijkstra results is crucial for performance."
+    ],
+    [
+      "This approach uses a Trie for substring matching and Floyd-Warshall for precomputing all-pairs shortest paths between substrings of the same length.",
+      "The DP state `dp[i]` tracks the minimum cost to convert the prefix `source[0...i-1]` to `target[0...i-1]`.",
+      "The transitions consider all valid substring transformations ending at index `i`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:57:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

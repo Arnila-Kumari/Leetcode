@@ -1,0 +1,31 @@
+{
+  "problem_name": "alternating-digit-sum",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterative digit extraction and summation with alternating signs."
+  ],
+  "problem_summary_simple": "Calculate the sum of digits of a number, alternating signs from most significant digit.",
+  "problem_summary_technical": "Iterates through digits from least significant, applying alternating signs. The final sign is adjusted to match the most significant digit's sign.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The most significant digit has a positive sign. Processing digits from right-to-left requires careful sign management.",
+      "The provided solution processes digits from right to left. The final result needs to be multiplied by the sign of the most significant digit.",
+      "An alternative would be to convert the number to a string and iterate from left to right."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

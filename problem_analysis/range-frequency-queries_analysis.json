@@ -1,0 +1,33 @@
+{
+  "problem_name": "range-frequency-queries",
+  "data_structures": [
+    [
+      "hashmap",
+      "list",
+      "binary search"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Store indices for each value in a hashmap, use binary search for range queries."
+  ],
+  "problem_summary_simple": "Find the frequency of a value within a specified subarray.",
+  "problem_summary_technical": "Pre-process array into a hashmap mapping values to sorted lists of their indices; use binary search for queries.",
+  "time_complexity": [
+    "ctor: O(n), query: O(logn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key is to efficiently find occurrences of a `value` within the `[left, right]` range.",
+      "Storing all indices for each unique value in a hashmap allows quick access to relevant positions.",
+      "Binary search (`bisect_left` and `bisect_right`) on the sorted index lists enables O(logn) query time."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

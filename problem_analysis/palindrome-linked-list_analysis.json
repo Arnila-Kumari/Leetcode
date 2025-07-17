@@ -1,0 +1,32 @@
+{
+  "problem_name": "palindrome-linked-list",
+  "data_structures": [
+    [
+      "ListNode",
+      "ListNode"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Reverse first half, then compare with second half using two pointers."
+  ],
+  "problem_summary_simple": "Check if a singly linked list reads the same forwards and backward.",
+  "problem_summary_technical": "Reverses the first half of a linked list in-place and compares it with the second half to determine palindrome property.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Reversing the first half allows for O(1) space comparison.",
+      "Careful handling of odd/even list lengths is crucial.",
+      "The solution modifies the original list temporarily."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

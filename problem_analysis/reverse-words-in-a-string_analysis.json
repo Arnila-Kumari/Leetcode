@@ -1,0 +1,32 @@
+{
+  "problem_name": "reverse-words-in-a-string",
+  "data_structures": [
+    [
+      "string",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Split string by spaces, reverse the resulting list, and join back with single spaces."
+  ],
+  "problem_summary_simple": "Reverse the order of words in a given string, handling extra spaces.",
+  "problem_summary_technical": "String manipulation: split, reverse list, join. Handles leading/trailing/multiple spaces.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Python's split() method conveniently handles multiple spaces and leading/trailing spaces.",
+      "The reversed() iterator is efficient for reversing sequences.",
+      "join() reconstructs the string with the desired single space separator."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

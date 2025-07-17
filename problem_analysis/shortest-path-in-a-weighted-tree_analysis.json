@@ -1,0 +1,46 @@
+{
+  "problem_name": "shortest-path-in-a-weighted-tree",
+  "data_structures": [
+    [
+      "Adjacency list (for tree)",
+      "Fenwick tree (BIT)",
+      "Arrays (for DFS traversal times, distances, edge weights)"
+    ],
+    [
+      "Adjacency list (for tree)",
+      "Fenwick tree (BIT)",
+      "Arrays (for DFS traversal times, distances, edge weights)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS to linearize the tree (Euler tour/flattening) and use a Fenwick tree for range updates/queries on edge weights.",
+    "Recursive DFS to linearize the tree (Euler tour/flattening) and use a Fenwick tree for range updates/queries on edge weights."
+  ],
+  "problem_summary_simple": "Calculate shortest path distances from the root in a weighted tree, with support for edge weight updates.",
+  "problem_summary_technical": "Linearize the tree using DFS. Use a Fenwick tree to manage edge weight updates and query path sums efficiently.",
+  "time_complexity": [
+    "O(N log N + Q log N)",
+    "O(N log N + Q log N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires efficient handling of point updates (edge weights) and path queries (distance from root).",
+      "Linearizing the tree using an Euler tour (or similar DFS traversal) transforms path queries into range queries on an array.",
+      "A Fenwick tree (BIT) is ideal for supporting point updates and prefix sum queries on this linearized array."
+    ],
+    [
+      "Both iterative and recursive DFS can be used to linearize the tree and establish the necessary mappings (entry/exit times).",
+      "The key is to map edge updates to range updates on the BIT and root-to-node distance queries to prefix sum queries.",
+      "The `lookup` array stores the current weight of the edge connecting a child to its parent, facilitating difference calculations for BIT updates."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

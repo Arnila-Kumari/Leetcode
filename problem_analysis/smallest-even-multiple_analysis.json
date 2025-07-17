@@ -1,0 +1,30 @@
+{
+  "problem_name": "smallest-even-multiple",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Bit manipulation for checking evenness and multiplication."
+  ],
+  "problem_summary_simple": "Find the smallest number that is a multiple of both 2 and n.",
+  "problem_summary_technical": "Returns n if n is even, otherwise returns 2*n. Achieved efficiently using bitwise operations.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The smallest common multiple (LCM) of 2 and n is the answer.",
+      "If n is even, n is already a multiple of 2, so n is the answer.",
+      "If n is odd, 2*n is the smallest multiple of both 2 and n.",
+      "Bitwise AND with 1 (`n & 1`) efficiently checks for oddness (result is 1) or evenness (result is 0)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

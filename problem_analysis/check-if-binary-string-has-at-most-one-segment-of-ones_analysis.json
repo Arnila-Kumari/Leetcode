@@ -1,0 +1,30 @@
+{
+  "problem_name": "check-if-binary-string-has-at-most-one-segment-of-ones",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "String searching for '01' substring"
+  ],
+  "problem_summary_simple": "Check if a binary string has at most one contiguous block of '1's.",
+  "problem_summary_technical": "Verifies if the substring '01' exists in the binary string, indicating more than one segment of ones.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The presence of '01' as a substring directly implies two separate segments of ones.",
+      "A single segment of ones (or no ones) will not contain '01'."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

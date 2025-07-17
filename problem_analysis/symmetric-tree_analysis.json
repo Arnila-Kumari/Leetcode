@@ -1,0 +1,36 @@
+{
+  "problem_name": "symmetric-tree",
+  "data_structures": [
+    [
+      "TreeNode",
+      "stack (for iterative)",
+      "queue (implicit in recursion)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative approach using a stack to compare symmetric nodes.",
+    "Recursive approach comparing left subtree's left child with right subtree's right child, and vice-versa."
+  ],
+  "problem_summary_simple": "Check if a binary tree is a mirror image of itself around its center.",
+  "problem_summary_technical": "Compares symmetric nodes of a binary tree using either iterative (stack) or recursive methods to ensure mirror symmetry.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h) where h is the height of the tree (for iterative stack)",
+    "O(h) where h is the height of the tree (for recursive call stack)"
+  ],
+  "key_insights": [
+    [
+      "Symmetry requires comparing the left child of one subtree with the right child of the other, and vice-versa.",
+      "The iterative solution uses a stack to manage pairs of nodes to compare, mimicking the recursive calls.",
+      "The base cases for recursion are crucial: both null nodes are symmetric, one null and one non-null are not, and differing values mean asymmetry."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:12:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

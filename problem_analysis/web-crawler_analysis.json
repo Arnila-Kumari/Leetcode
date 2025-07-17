@@ -1,0 +1,35 @@
+{
+  "problem_name": "web-crawler",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "string manipulation for hostname extraction"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) or Depth-First Search (DFS) traversal",
+    "hostname extraction and comparison",
+    "set for visited URLs to prevent cycles and redundant work"
+  ],
+  "problem_summary_simple": "Crawl web pages starting from a URL, collecting links from the same hostname.",
+  "problem_summary_technical": "Performs a graph traversal (BFS/DFS) on URLs, filtering by hostname and using a set for visited nodes.",
+  "time_complexity": [
+    "O(|V| + |E|)"
+  ],
+  "space_complexity": [
+    "O(|V|)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a graph traversal where URLs are nodes and links are edges.",
+      "Hostname extraction is a key preprocessing step for filtering.",
+      "Using a set to track visited URLs is essential for efficiency and correctness."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

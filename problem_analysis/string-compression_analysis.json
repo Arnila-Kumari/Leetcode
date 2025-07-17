@@ -1,0 +1,31 @@
+{
+  "problem_name": "string-compression",
+  "data_structures": [
+    [
+      "list (in-place modification)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Two pointers for in-place modification"
+  ],
+  "problem_summary_simple": "Compress a character array by replacing consecutive duplicates with the character and count.",
+  "problem_summary_technical": "Uses two pointers (anchor and write) to modify the array in-place, handling counts greater than 9.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires in-place modification with constant extra space.",
+      "Two pointers are used: `read` to iterate through the original array and `write` to place the compressed characters.",
+      "When a group of repeating characters ends, the character is written, followed by its count (converted to characters if > 9)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-positive-integer-solution-for-a-given-equation",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "two pointers with monotonic function property"
+  ],
+  "problem_summary_simple": "Find pairs (x, y) such that f(x, y) equals a target value z.",
+  "problem_summary_technical": "Utilizes the monotonic property of f(x, y) to employ a two-pointer approach, starting from (1, 1) and adjusting pointers based on function output.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The monotonic nature of f(x, y) is key to the two-pointer approach.",
+      "When f(x, y) > z, decreasing y is optimal. When f(x, y) < z, increasing x is optimal.",
+      "This avoids a brute-force O(N^2) check."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

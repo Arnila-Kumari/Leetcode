@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-the-grid-of-region-average",
+  "data_structures": [
+    [
+      "2D array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterate through all possible 3x3 subgrids, check region validity, calculate average, and update pixel contributions.",
+    "Pre-compute prefix sums for efficient subgrid sum calculation (though not used in the provided solution)."
+  ],
+  "problem_summary_simple": "Calculate the average intensity of valid 3x3 regions for each pixel.",
+  "problem_summary_technical": "Identify valid 3x3 regions based on pixel intensity differences, compute their averages, and then average these region averages for each pixel.",
+  "time_complexity": [
+    "O(m * n * 81)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is efficiently checking the validity of each 3x3 subgrid.",
+      "A pixel can belong to multiple regions, so we need to accumulate averages and counts for each pixel.",
+      "The `check` function iterates through adjacent pixels within a 3x3 window, which is a constant factor (81 checks per subgrid).",
+      "The final result for a pixel is its accumulated sum of region averages divided by the number of regions it belongs to, or its original value if it belongs to no regions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

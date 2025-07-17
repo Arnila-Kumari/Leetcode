@@ -1,0 +1,58 @@
+{
+  "problem_name": "minimum-sum-of-values-by-dividing-array",
+  "data_structures": [
+    [
+      "list",
+      "deque",
+      "array"
+    ],
+    [
+      "list",
+      "SparseTable"
+    ],
+    [
+      "list",
+      "dictionary",
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with monotonic deque and two pointers",
+    "Dynamic programming with sparse table for range minimum queries",
+    "Memoization (Top-Down DP) with bitmasking"
+  ],
+  "problem_summary_simple": "Divide an array into subarrays where each subarray's bitwise AND matches a target value, minimizing the sum of subarray last elements.",
+  "problem_summary_technical": "Dynamic programming approach to find minimum sum of subarray last elements, satisfying bitwise AND conditions using monotonic deque or sparse table.",
+  "time_complexity": [
+    "O(n * m * logr)",
+    "O(n * m * (log n + log r))",
+    "O(n * m * 2^L)"
+  ],
+  "space_complexity": [
+    "O(n + logr)",
+    "O(n log n + logr)",
+    "O(n * m * 2^L)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a DP where dp[i] is the minimum sum to partition the first i elements.",
+      "A monotonic deque is crucial for efficiently finding the minimum dp value within a valid range.",
+      "The bitwise AND property allows for pruning and optimization."
+    ],
+    [
+      "Sparse tables can optimize range minimum queries for DP states.",
+      "Pre-calculating masks for contiguous subarrays helps in identifying valid partitions.",
+      "The problem requires careful handling of subarray boundaries and their AND values."
+    ],
+    [
+      "A recursive approach with memoization can solve this, tracking current index, target index, and current AND mask.",
+      "The state space can be large due to the mask, potentially leading to TLE if not optimized.",
+      "The constraints on 'm' (up to 10) suggest that an exponential factor related to 'm' might be acceptable."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

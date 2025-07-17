@@ -1,0 +1,43 @@
+{
+  "problem_name": "maximum-subtree-of-the-same-color",
+  "data_structures": [
+    [
+      "adjacency list",
+      "stack"
+    ],
+    [
+      "adjacency list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Iterative DFS with explicit stack management",
+    "Recursive DFS with post-order traversal logic"
+  ],
+  "problem_summary_simple": "Find the largest subtree where all nodes have the same color.",
+  "problem_summary_technical": "Traverse a tree using DFS to check subtree color consistency and size, returning the maximum size.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking subtree properties, making DFS a natural fit.",
+      "An iterative DFS can be implemented using a stack to manage states.",
+      "The key is to propagate color consistency and subtree size upwards."
+    ],
+    [
+      "A recursive DFS elegantly handles subtree computations.",
+      "The base case for recursion is a leaf node.",
+      "The return value of DFS should indicate subtree validity (all same color) and its size."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

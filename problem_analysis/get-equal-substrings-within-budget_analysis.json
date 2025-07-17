@@ -1,0 +1,31 @@
+{
+  "problem_name": "get-equal-substrings-within-budget",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window approach to find the longest substring with a cumulative cost within the budget."
+  ],
+  "problem_summary_simple": "Find the longest substring of s that can be transformed into the corresponding substring of t within a cost budget.",
+  "problem_summary_technical": "Uses a sliding window: expand window by adding characters, shrink window if cost exceeds maxCost by removing from the left.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a classic application of the sliding window technique.",
+      "Maintain a `current_cost` and a `left` pointer for the window start.",
+      "When `current_cost` exceeds `maxCost`, shrink the window from the left by removing the cost of the leftmost character."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

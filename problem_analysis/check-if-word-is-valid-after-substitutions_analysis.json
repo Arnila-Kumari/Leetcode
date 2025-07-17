@@ -1,0 +1,32 @@
+{
+  "problem_name": "check-if-word-is-valid-after-substitutions",
+  "data_structures": [
+    [
+      "stack",
+      "character"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Use a stack to simulate the insertion and removal of 'abc' substrings."
+  ],
+  "problem_summary_simple": "Determine if a string can be formed by repeatedly inserting 'abc' into an empty string.",
+  "problem_summary_technical": "Process the string using a stack; when 'c' is encountered, check if the top two elements are 'a' and 'b' to pop.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The operation of inserting 'abc' is equivalent to finding and removing 'abc' substrings.",
+      "A stack is a natural data structure to track the characters that are not yet part of a valid 'abc' sequence.",
+      "If at any point 'c' is encountered and the preceding characters on the stack are not 'a' and 'b', the string is invalid."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

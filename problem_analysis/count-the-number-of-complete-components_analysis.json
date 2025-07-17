@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-the-number-of-complete-components",
+  "data_structures": [
+    [
+      "adjacency list",
+      "boolean array (lookup)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) to traverse connected components and check completeness"
+  ],
+  "problem_summary_simple": "Count connected components where every pair of nodes has an edge.",
+  "problem_summary_technical": "Uses BFS to find connected components and verifies if each component is a clique by comparing edge counts to expected values.",
+  "time_complexity": [
+    "O(n + E)"
+  ],
+  "space_complexity": [
+    "O(n + E)"
+  ],
+  "key_insights": [
+    [
+      "A complete component of size k must have k*(k-1)/2 edges.",
+      "BFS is suitable for exploring connected components.",
+      "The lookup array prevents re-processing visited nodes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

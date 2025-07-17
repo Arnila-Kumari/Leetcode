@@ -1,0 +1,41 @@
+{
+  "problem_name": "minimum-area-rectangle",
+  "data_structures": [
+    [
+      "defaultdict",
+      "set"
+    ],
+    [
+      "set"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Group points by x-coordinate, then iterate through pairs of y-coordinates to find matching x-coordinates.",
+    "Iterate through all pairs of points, checking for the existence of the other two corner points."
+  ],
+  "problem_summary_simple": "Find the smallest rectangle area formed by four points with sides parallel to the axes.",
+  "problem_summary_technical": "Identify rectangles by finding pairs of points sharing a y-coordinate and then checking for other pairs with the same y-coordinates at different x-coordinates.",
+  "time_complexity": [
+    "O(n^1.5) on average, O(n^2) on worst",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting points by x-coordinate and grouping by y-coordinate (or vice-versa) helps in efficiently finding potential rectangle corners.",
+      "A hash map (lookup) storing the last seen x-coordinate for a pair of y-coordinates allows for O(1) checking of the fourth corner."
+    ],
+    [
+      "A brute-force approach checking all combinations of four points is too slow (O(n^4)).",
+      "Using a set to store seen points allows for O(1) average time lookups to check for the existence of the other two corners of a potential rectangle."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

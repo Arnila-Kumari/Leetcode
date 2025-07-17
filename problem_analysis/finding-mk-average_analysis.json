@@ -1,0 +1,38 @@
+{
+  "problem_name": "finding-mk-average",
+  "data_structures": [
+    [
+      "collections.deque",
+      "sortedcontainers.SortedList",
+      "Integer"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Using a deque for the sliding window and a SortedList for efficient min/max removal and sum tracking"
+  ],
+  "problem_summary_simple": "Calculate the average of the middle elements of the last m numbers in a stream after removing k smallest and k largest.",
+  "problem_summary_technical": "Maintains a sliding window of size m using a deque and a SortedList to track elements, their sum, and the k smallest/largest.",
+  "time_complexity": [
+    "ctor: O(1), addElement: O(log m), calculateMKAverage: O(1)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires maintaining a sliding window of the last 'm' elements.",
+      "Efficiently finding and removing the k smallest and k largest elements from this window is key.",
+      "A `SortedList` (from `sortedcontainers`) is ideal for this as it provides O(log n) insertion, deletion, and access to elements by index, along with efficient sum tracking."
+    ],
+    [
+      "The `__add` and `__remove` helper methods are crucial for updating the `SortedList` and the running sums (`__first_k`, `__last_k`, `__total`).",
+      "When adding an element, its position in the `SortedList` determines if it affects the `__first_k` or `__last_k` sums.",
+      "When removing an element, its original position needs to be considered to correctly adjust the sums."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

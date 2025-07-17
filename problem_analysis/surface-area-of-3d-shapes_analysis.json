@@ -1,0 +1,33 @@
+{
+  "problem_name": "surface-area-of-3d-shapes",
+  "data_structures": [
+    [
+      "2D list (grid)",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through grid, sum exposed faces, subtract shared faces."
+  ],
+  "problem_summary_simple": "Calculate the total surface area of 3D shapes formed by stacked cubes on a grid.",
+  "problem_summary_technical": "Sum the surface area of individual cubes and subtract the areas of adjacent faces that are glued together.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Each cube contributes 6 faces to the surface area initially.",
+      "When cubes are adjacent, their touching faces are not part of the surface area.",
+      "The formula `2 + grid[i][j]*4` accounts for the top/bottom faces (2) and the four side faces (4 * height) of a tower.",
+      "Subtracting `min(grid[i][j], grid[i-1][j])*2` and `min(grid[i][j], grid[i][j-1])*2` correctly removes the shared surface area between adjacent towers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

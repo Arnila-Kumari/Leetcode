@@ -1,0 +1,32 @@
+{
+  "problem_name": "shortest-path-in-binary-matrix",
+  "data_structures": [
+    [
+      "collections.deque",
+      "list of lists"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) with level-order traversal"
+  ],
+  "problem_summary_simple": "Find the shortest path of 0s from top-left to bottom-right in a binary matrix.",
+  "problem_summary_technical": "BFS on a grid, treating cells as nodes, to find the shortest path with 8-directional connectivity.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "BFS is ideal for finding the shortest path in an unweighted graph.",
+      "Level-order traversal naturally gives the shortest path length.",
+      "Modifying the grid in-place (marking visited cells as 1) avoids a separate visited set."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

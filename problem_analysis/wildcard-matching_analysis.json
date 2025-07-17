@@ -1,0 +1,68 @@
+{
+  "problem_name": "wildcard-matching",
+  "data_structures": [
+    [
+      "string",
+      "integer pointers"
+    ],
+    [
+      "2D array"
+    ],
+    [
+      "2D array"
+    ],
+    [
+      "string",
+      "integer pointers"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterative greedy approach using pointers to track string and pattern positions, with backtracking for '*'.",
+    "Dynamic programming with a rolling window (2 rows) to optimize space.",
+    "Standard dynamic programming approach using a 2D table.",
+    "Recursive solution with memoization (implicitly handled by Python's call stack, but can lead to TLE)."
+  ],
+  "problem_summary_simple": "Check if a pattern with '?' and '*' matches an entire input string.",
+  "problem_summary_technical": "Use greedy pointer-based matching with backtracking for '*', or dynamic programming (O(mn) time, O(n) or O(mn) space).",
+  "time_complexity": [
+    "O(m*n) in worst case (e.g., s='aaaa', p='*a*a*a*a')",
+    "O(m*n)",
+    "O(m*n)",
+    "O(m*n) (with memoization, but can be worse without)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)",
+    "O(m*n)",
+    "O(m*n) (recursion depth)"
+  ],
+  "key_insights": [
+    [
+      "The greedy approach with backtracking handles '*' efficiently by trying to match it with zero or more characters.",
+      "Keeping track of the last '*' position and the corresponding string position is key for backtracking.",
+      "The complexity arises from the '*' character's ability to match variable-length sequences."
+    ],
+    [
+      "DP state `dp[i][j]` represents whether the first `i` characters of `s` match the first `j` characters of `p`.",
+      "The rolling window optimization reduces space by only keeping the previous row's results.",
+      "Transitions depend on whether the current pattern character is '*' or a literal/ '?'.",
+      "'*' can either match an empty string (dp[i][j-1]) or match one or more characters (dp[i-1][j])."
+    ],
+    [
+      "The DP table `result[i][j]` stores if `s[:i]` matches `p[:j]`.",
+      "Base case: `result[0][0]` is true (empty string matches empty pattern).",
+      "If `p[j-1]` is '*', `result[i][j]` is true if `p[:j-1]` matches `s[:i]` (empty match) or if `p[:j]` matches `s[:i-1]` (match one or more chars).",
+      "If `p[j-1]` is '?' or `s[i-1] == p[j-1]`, `result[i][j]` depends on `result[i-1][j-1]`."
+    ],
+    [
+      "The recursive approach naturally explores all possibilities for '*'.",
+      "Without memoization, many subproblems are recomputed, leading to exponential time complexity.",
+      "The base cases are crucial: empty string/pattern matching, and handling '*' at the end of the pattern."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:14:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

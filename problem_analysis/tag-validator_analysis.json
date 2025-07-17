@@ -1,0 +1,31 @@
+{
+  "problem_name": "tag-validator",
+  "data_structures": [
+    [
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Stack-based parsing to validate tag nesting and content."
+  ],
+  "problem_summary_simple": "Validate if a given code snippet string follows specific XML-like tag rules.",
+  "problem_summary_technical": "Uses a stack to parse tags, validating tag names, content, and CDATA sections according to strict rules.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A stack is crucial for managing nested tags and ensuring proper opening/closing.",
+      "Handling CDATA sections requires special logic to ignore tag-like content within them.",
+      "The problem involves careful state management and character-by-character parsing."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

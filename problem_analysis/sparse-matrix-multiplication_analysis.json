@@ -1,0 +1,31 @@
+{
+  "problem_name": "sparse-matrix-multiplication",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterative matrix multiplication with optimization for sparse matrices."
+  ],
+  "problem_summary_simple": "Multiply two matrices, where many elements are zero, and return the resulting matrix.",
+  "problem_summary_technical": "Perform standard matrix multiplication, but skip calculations if an element in the first matrix is zero to leverage sparsity.",
+  "time_complexity": [
+    "O(m * n * l)"
+  ],
+  "space_complexity": [
+    "O(m * l)"
+  ],
+  "key_insights": [
+    [
+      "The naive matrix multiplication algorithm has a time complexity of O(m*n*l).",
+      "For sparse matrices, checking if `A[i][k]` is non-zero before the inner loop significantly improves performance in practice.",
+      "The result matrix has dimensions m x l."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

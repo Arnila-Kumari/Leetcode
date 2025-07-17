@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-moves-to-reach-target-score",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Work backward from target, prioritizing division by 2 when possible."
+  ],
+  "problem_summary_simple": "Reach a target score from 1 using increments and at most k doublings, minimizing moves.",
+  "problem_summary_technical": "Greedy approach working backward from target. Prioritize doubling if maxDoubles > 0 and target is even.",
+  "time_complexity": [
+    "O(log(target))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by working backward from the target.",
+      "If maxDoubles is available and the target is even, dividing by 2 is always optimal.",
+      "If the target is odd, an increment is necessary before a potential division."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

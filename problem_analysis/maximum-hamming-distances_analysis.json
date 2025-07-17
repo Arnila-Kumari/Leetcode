@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-hamming-distances",
+  "data_structures": [
+    [
+      "array (for DP table)",
+      "array (for result)"
+    ],
+    [
+      "array (for distance tracking)",
+      "queue (for BFS)"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Dynamic programming on subsets (knapsack-like) to compute maximum Hamming distances.",
+    "Breadth-First Search (BFS) on the bitmask space to find shortest distances to existing numbers."
+  ],
+  "problem_summary_simple": "For each number in an array, find the maximum Hamming distance to any other number in the same array.",
+  "problem_summary_technical": "DP computes max distance by flipping bits, while BFS finds min distance to any number in the input set.",
+  "time_complexity": [
+    "O(m * 2^m)",
+    "O(m * 2^m)"
+  ],
+  "space_complexity": [
+    "O(2^m)",
+    "O(2^m)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves bitwise operations and distances, pointing towards bitmasking.",
+      "The DP approach builds up the maximum distance by considering adding one bit at a time.",
+      "The BFS approach finds the minimum number of bit flips (Hamming distance) to reach any number present in the input array."
+    ],
+    [
+      "The maximum Hamming distance between `x` and any `y` in `nums` is `m - min_hamming_distance(x, y)` where `y` is in `nums`.",
+      "BFS starting from all numbers in `nums` simultaneously can find the minimum Hamming distance from any number in `nums` to all other possible numbers.",
+      "The target for BFS is to find the minimum distance to any number in `nums`. The maximum distance is then derived from `m` and this minimum."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

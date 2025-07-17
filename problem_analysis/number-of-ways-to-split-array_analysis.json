@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-ways-to-split-array",
+  "data_structures": [
+    [
+      "integer array (input)",
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix Sums"
+  ],
+  "problem_summary_simple": "Find splits where the left part's sum is greater than or equal to the right part's sum.",
+  "problem_summary_technical": "Use prefix sums to efficiently calculate left and right sums. Iterate through possible split points and check the condition.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved efficiently by using prefix sums to calculate subarray sums in O(1) time.",
+      "We need to iterate through all possible split points (excluding the last element) and check the condition.",
+      "The total sum of the array is needed to calculate the right subarray sum from the left subarray sum."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:03:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

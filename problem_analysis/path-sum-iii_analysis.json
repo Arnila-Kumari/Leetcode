@@ -1,0 +1,36 @@
+{
+  "problem_name": "path-sum-iii",
+  "data_structures": [
+    [
+      "binary tree",
+      "hash map (defaultdict)",
+      "recursion stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Prefix sum with hash map for counting paths, and DFS for traversal.",
+    "Brute-force DFS from each node to count paths."
+  ],
+  "problem_summary_simple": "Count all downward paths in a binary tree that sum to a target value.",
+  "problem_summary_technical": "Uses prefix sums and a hash map to count paths efficiently in O(n) time, or a brute-force O(n^2) DFS approach.",
+  "time_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The key insight for the O(n) solution is using prefix sums to count paths ending at the current node.",
+      "A hash map stores the frequency of prefix sums encountered so far.",
+      "The brute-force O(n^2) solution involves starting a new DFS from every node to find paths originating there."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

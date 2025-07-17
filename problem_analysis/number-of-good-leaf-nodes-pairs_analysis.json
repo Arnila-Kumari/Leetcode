@@ -1,0 +1,44 @@
+{
+  "problem_name": "number-of-good-leaf-nodes-pairs",
+  "data_structures": [
+    [
+      "TreeNode",
+      "collections.Counter"
+    ],
+    [
+      "TreeNode",
+      "collections.Counter"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS with a stack to track distances from leaves.",
+    "Recursive DFS to compute distances and count pairs."
+  ],
+  "problem_summary_simple": "Count pairs of leaf nodes in a binary tree whose path length is within a given distance.",
+  "problem_summary_technical": "Utilizes DFS to traverse the tree, calculating distances from leaves to parent nodes and aggregating good pairs.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h) where h is the height of the tree",
+    "O(h) where h is the height of the tree"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to count leaf nodes at each distance from a given node.",
+      "For each node, combine the distance counts from its left and right children.",
+      "Pairs are formed when the sum of distances from a node to two leaves (one in left subtree, one in right) plus 2 (for the edges connecting to the current node) is <= distance."
+    ],
+    [
+      "The recursive approach naturally builds up distance counts from the bottom up.",
+      "A Counter object is used to store the frequency of distances from the current node to leaves in its subtree.",
+      "The base case for a leaf node returns a count of 0 pairs and a Counter with {0: 1} representing a leaf at distance 0 from itself."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

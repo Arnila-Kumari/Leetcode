@@ -1,0 +1,32 @@
+{
+  "problem_name": "custom-sort-string",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting and string building based on custom order"
+  ],
+  "problem_summary_simple": "Rearrange string 's' based on the character order defined in string 'order'.",
+  "problem_summary_technical": "Uses a frequency counter for string 's' and iterates through 'order' to build the result, appending remaining characters.",
+  "time_complexity": [
+    "O(N + M)"
+  ],
+  "space_complexity": [
+    "O(M)"
+  ],
+  "key_insights": [
+    [
+      "Using a Counter (hash map) is efficient for tracking character frequencies in 's'.",
+      "Iterating through 'order' first ensures the custom sorting requirement.",
+      "Characters not present in 'order' can be appended at the end in any order."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "most-frequent-even-element",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting using Counter, then finding max with custom key."
+  ],
+  "problem_summary_simple": "Find the even number that appears most often in an array, returning the smallest if tied.",
+  "problem_summary_technical": "Uses a hashmap (Counter) to store frequencies of even numbers, then finds max frequency and smallest value.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Filter for even numbers first.",
+      "Use `collections.Counter` for efficient frequency counting.",
+      "The `max` function with a `key` lambda can handle tie-breaking based on frequency and value."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:00:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

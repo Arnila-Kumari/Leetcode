@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-cost-to-equalize-array",
+  "data_structures": [
+    [
+      "array (for input)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Mathematical analysis and greedy approach based on cost comparison"
+  ],
+  "problem_summary_simple": "Find the minimum cost to make all elements in an array equal using two types of operations.",
+  "problem_summary_technical": "Analyze operations: cost1 (increment one element), cost2 (increment two elements). Optimal strategy depends on cost1 vs cost2 and array distribution.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The target value must be at least the maximum element in the array.",
+      "Compare 2*cost1 with cost2 to determine the preferred operation.",
+      "The solution involves considering different target values and calculating the minimum cost to reach them."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximize-active-section-with-trade-ii",
+  "data_structures": [
+    [
+      "Sparse Table",
+      "Array",
+      "Hash Map"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sparse Table for Range Maximum Query, prefix sums for counts"
+  ],
+  "problem_summary_simple": "Maximize active sections in a binary string by flipping a '1' block to '0' and a '0' block to '1' within a query range.",
+  "problem_summary_technical": "Uses a Sparse Table to efficiently query maximum '0' block lengths between '1' blocks within substrings, combined with prefix sums.",
+  "time_complexity": [
+    "O(n log n + q)"
+  ],
+  "space_complexity": [
+    "O(n log n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find the longest contiguous block of zeros that can be flipped to ones, surrounded by ones.",
+      "A Sparse Table is crucial for efficiently querying the maximum length of such zero blocks within arbitrary ranges.",
+      "Careful handling of edge cases and the augmented string ('1' + s[li...ri] + '1') is necessary."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

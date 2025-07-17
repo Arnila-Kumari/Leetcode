@@ -1,0 +1,33 @@
+{
+  "problem_name": "count-k-subsequences-of-a-string-with-maximum-beauty",
+  "data_structures": [
+    [
+      "Hash Map (collections.Counter)",
+      "Array (for frequencies)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting, Quickselect (nth_element), Combinatorics (nCr)"
+  ],
+  "problem_summary_simple": "Count k-length subsequences with unique characters that have the maximum possible beauty (sum of character frequencies).",
+  "problem_summary_technical": "Calculates character frequencies, finds the k-th largest frequency using Quickselect, and uses combinations to count subsequences with maximum beauty.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The beauty of a k-subsequence is maximized by picking characters with the highest frequencies.",
+      "First, count the frequency of each character in the string `s`.",
+      "Use Quickselect (or sorting) to find the k-th largest frequency. All characters with frequencies greater than or equal to this k-th frequency are candidates for the maximum beauty subsequence.",
+      "The number of ways to form such a subsequence is calculated using combinations: choose `r` characters from those with the k-th frequency, and `k-r` characters from those with frequencies strictly greater than the k-th frequency."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:34:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

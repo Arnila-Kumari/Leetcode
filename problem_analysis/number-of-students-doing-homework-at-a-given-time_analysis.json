@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-students-doing-homework-at-a-given-time",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through students' start and end times, checking if queryTime falls within their interval."
+  ],
+  "problem_summary_simple": "Count students doing homework at a specific time.",
+  "problem_summary_technical": "Iterate through start and end times, checking if queryTime is within [startTime[i], endTime[i]] for each student.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a direct check of intervals.",
+      "No complex data structures are needed; a simple loop suffices.",
+      "Constraints are small, so a linear scan is efficient."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

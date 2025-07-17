@@ -1,0 +1,34 @@
+{
+  "problem_name": "partition-array-into-two-arrays-to-minimize-sum-difference",
+  "data_structures": [
+    [
+      "array",
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Meet-in-the-middle: Split array, generate sums for combinations, use binary search for optimal pairing."
+  ],
+  "problem_summary_simple": "Divide an array into two halves, then partition each half to minimize the sum difference between the two final arrays.",
+  "problem_summary_technical": "Partition `nums` (length 2n) into two arrays of length n to minimize sum difference. Use meet-in-the-middle on halves.",
+  "time_complexity": [
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding two subsets of size n/2 from each half whose sums are as close as possible.",
+      "Meet-in-the-middle approach is suitable due to the constraint n <= 15.",
+      "Generating all subset sums for each half and then using binary search to find complementary sums is efficient."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:04:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,55 @@
+{
+  "problem_name": "invert-binary-tree",
+  "data_structures": [
+    [
+      "binary tree",
+      "queue"
+    ],
+    [
+      "binary tree",
+      "stack"
+    ],
+    [
+      "binary tree"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "iterative BFS with queue",
+    "iterative DFS with stack",
+    "recursive DFS"
+  ],
+  "problem_summary_simple": "Swap the left and right children of every node in a binary tree.",
+  "problem_summary_technical": "Traverses the tree (BFS or DFS) and swaps the left and right children of each node.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(w)",
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The operation is local to each node: swap its children.",
+      "Any traversal (BFS or DFS) can be used to visit all nodes.",
+      "The recursive DFS solution is often the most concise."
+    ],
+    [
+      "The operation is local to each node: swap its children.",
+      "Any traversal (BFS or DFS) can be used to visit all nodes.",
+      "The iterative DFS solution uses a stack to manage the traversal order."
+    ],
+    [
+      "The operation is local to each node: swap its children.",
+      "Any traversal (BFS or DFS) can be used to visit all nodes.",
+      "The recursive DFS solution naturally handles the tree structure and call stack."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

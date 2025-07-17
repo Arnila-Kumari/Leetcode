@@ -1,0 +1,31 @@
+{
+  "problem_name": "best-sightseeing-pair",
+  "data_structures": [
+    [
+      "variable"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate and maintain best previous score (values[i] + i)"
+  ],
+  "problem_summary_simple": "Find the pair of sightseeing spots with the maximum score, considering their values and distance.",
+  "problem_summary_technical": "Maximize values[i] + values[j] + i - j for i < j. Rewrite as (values[i] + i) + (values[j] - j). Iterate, keeping track of max (values[i] + i) seen so far.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased to maximize (values[i] + i) + (values[j] - j).",
+      "By iterating through the array, we can keep track of the maximum `values[i] + i` encountered so far.",
+      "This allows us to find the best `values[j] - j` for each `j` in a single pass."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

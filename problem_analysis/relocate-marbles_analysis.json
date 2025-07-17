@@ -1,0 +1,31 @@
+{
+  "problem_name": "relocate-marbles",
+  "data_structures": [
+    [
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Using a set to track occupied positions and performing removals/additions."
+  ],
+  "problem_summary_simple": "Move marbles between positions and return the final occupied positions.",
+  "problem_summary_technical": "Simulate marble movements by updating a set of occupied positions, then sort the final set.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "A set is ideal for tracking unique occupied positions due to efficient add/remove operations.",
+      "The problem guarantees that a marble exists at moveFrom[i], simplifying logic.",
+      "Sorting the final set is required for the output format."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

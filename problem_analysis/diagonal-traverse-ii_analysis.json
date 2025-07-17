@@ -1,0 +1,44 @@
+{
+  "problem_name": "diagonal-traverse-ii",
+  "data_structures": [
+    [
+      "deque",
+      "list"
+    ],
+    [
+      "list",
+      "list of lists"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Uses a deque to manage elements for traversal, processing diagonals by iterating through rows and adding elements to the deque.",
+    "Groups elements by the sum of their row and column indices, then reverses each group to achieve the correct diagonal order."
+  ],
+  "problem_summary_simple": "Traverse a 2D array diagonally, collecting elements in the specified order.",
+  "problem_summary_technical": "Groups elements by diagonal (sum of indices) and then reverses each group to produce the final diagonal traversal order.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(M)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The first solution uses a deque to manage elements that are part of the current and next diagonals.",
+      "The loop structure and deque manipulation are key to processing diagonals efficiently.",
+      "The `max(itertools.imap(len, nums))` helps determine the total number of diagonals to process."
+    ],
+    [
+      "The second solution leverages the property that elements on the same diagonal have the same sum of row and column indices.",
+      "Storing elements in lists indexed by `r+c` simplifies grouping.",
+      "Reversing each inner list is crucial because diagonals are processed from bottom-left to top-right in the intermediate grouping."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

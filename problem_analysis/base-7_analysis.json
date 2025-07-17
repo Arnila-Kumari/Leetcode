@@ -1,0 +1,42 @@
+{
+  "problem_name": "base-7",
+  "data_structures": [
+    [
+      "string"
+    ],
+    [
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterative conversion using modulo and division by 7, building the result string in reverse.",
+    "Recursive conversion using modulo and division by 7, concatenating results."
+  ],
+  "problem_summary_simple": "Convert a given integer to its base 7 string representation.",
+  "problem_summary_technical": "Employs repeated division and modulo operations by 7 to extract digits, handling negative numbers and the zero case.",
+  "time_complexity": [
+    "O(log_7(num))",
+    "O(log_7(num))"
+  ],
+  "space_complexity": [
+    "O(log_7(num))",
+    "O(log_7(num))"
+  ],
+  "key_insights": [
+    [
+      "The conversion process is analogous to converting to any other base.",
+      "Handle negative numbers by converting the absolute value and prepending a '-' sign.",
+      "The case where num is 0 should return '0'."
+    ],
+    [
+      "The recursive approach can be more concise but might have higher overhead.",
+      "Ensure the base case for recursion is handled correctly (num < 7).",
+      "String concatenation in recursion can be less efficient than building a string iteratively."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-difference-between-increasing-elements",
+  "data_structures": [
+    [
+      "variable"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the array, keeping track of the minimum element seen so far and the maximum difference."
+  ],
+  "problem_summary_simple": "Find the largest difference between two numbers in an array where the second number appears after the first and is larger.",
+  "problem_summary_technical": "Iterate through the array, maintaining the minimum element encountered. Calculate the difference between the current element and the minimum, updating the maximum difference found.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved in a single pass by keeping track of the minimum element seen so far.",
+      "The maximum difference is `current_element - min_element_so_far`.",
+      "Initialize the minimum to infinity and the result to 0 (or -1 if no valid pair exists)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:52:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

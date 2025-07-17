@@ -1,0 +1,81 @@
+{
+  "problem_name": "rotate-array",
+  "data_structures": [
+    [
+      "array",
+      "helper function for reversal"
+    ],
+    [
+      "array",
+      "helper function for cycle permutation",
+      "gcd function"
+    ],
+    [
+      "array",
+      "integer variables"
+    ],
+    [
+      "array",
+      "temporary array"
+    ],
+    [
+      "array",
+      "list manipulation (pop, insert)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Reverse the entire array, then reverse the first k elements, then reverse the remaining n-k elements.",
+    "Use cyclic replacements based on GCD to move elements to their correct positions.",
+    "Iteratively move elements in cycles until all elements are placed.",
+    "Create a new array with rotated elements and copy it back.",
+    "Repeatedly move the last element to the front k times."
+  ],
+  "problem_summary_simple": "Rotate an array to the right by k steps.",
+  "problem_summary_technical": "Shift array elements to the right by k positions, modifying the array in-place.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(k * n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(1)",
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The reversal method is an elegant in-place solution.",
+      "It breaks down the rotation into three manageable reversal operations.",
+      "The key is understanding how reversals achieve the desired rotation."
+    ],
+    [
+      "This method leverages the concept of cycles in permutations.",
+      "The number of cycles is determined by the GCD of array length and k.",
+      "Each cycle can be processed independently to place elements correctly."
+    ],
+    [
+      "This approach directly simulates the movement of elements.",
+      "It's an in-place method that avoids extra space but can be less intuitive.",
+      "Care must be taken to ensure all elements are moved exactly once."
+    ],
+    [
+      "This is a straightforward but not in-place solution.",
+      "It involves creating a new array and copying elements to their rotated positions.",
+      "Slicing and concatenation in Python provide a concise implementation."
+    ],
+    [
+      "This is a brute-force, in-place approach.",
+      "It's simple to understand but inefficient for large k or n.",
+      "Each rotation step involves moving one element at a time."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,48 @@
+{
+  "problem_name": "minimum-obstacle-removal-to-reach-corner",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "deque"
+    ],
+    [
+      "list",
+      "set",
+      "deque"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "0-1 BFS (Dijkstra-like with deque) to find the shortest path with edge weights 0 (empty) and 1 (obstacle).",
+    "A* search (without explicit heap) where cost is number of obstacles removed."
+  ],
+  "problem_summary_simple": "Find the minimum number of obstacles to remove to create a path from the top-left to the bottom-right of a grid.",
+  "problem_summary_technical": "0-1 BFS or Dijkstra on a grid where moving to an empty cell has cost 0 and an obstacle has cost 1.",
+  "time_complexity": [
+    "O(M * N)",
+    "O(M * N)"
+  ],
+  "space_complexity": [
+    "O(M * N)",
+    "O(M * N)"
+  ],
+  "key_insights": [
+    [
+      "This is a shortest path problem on a grid where edge weights are either 0 or 1.",
+      "A 0-1 BFS (using a deque) is highly efficient for such problems.",
+      "Empty cells (0) are added to the front of the deque (cost 0), and obstacles (1) are added to the back (cost 1).",
+      "This ensures that cells reachable with fewer obstacle removals are explored first."
+    ],
+    [
+      "The problem can be viewed as finding a path that minimizes the sum of obstacle values (1s) along the path.",
+      "This is a classic shortest path problem on a weighted graph.",
+      "Dijkstra's algorithm is suitable, and the provided A* implementation without an explicit heap is a variation that prioritizes lower-cost paths.",
+      "The 'closer' list acts like a priority queue for cost 0 moves, and 'detour' for cost 1 moves."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

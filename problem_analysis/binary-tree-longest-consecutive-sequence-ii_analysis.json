@@ -1,0 +1,33 @@
+{
+  "problem_name": "binary-tree-longest-consecutive-sequence-ii",
+  "data_structures": [
+    [
+      "recursive function calls (implicit stack)",
+      "tuple",
+      "variable"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive DFS returning both increasing and decreasing consecutive lengths"
+  ],
+  "problem_summary_simple": "Find the longest path where node values increase or decrease by one consecutively.",
+  "problem_summary_technical": "DFS returns (longest_increasing, longest_decreasing) from each node, combining them for the overall max.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem allows both increasing and decreasing consecutive paths.",
+      "A DFS function needs to return two values: the longest increasing and decreasing sequences ending at the current node.",
+      "The longest path can span across a parent node, connecting its left and right child's sequences."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

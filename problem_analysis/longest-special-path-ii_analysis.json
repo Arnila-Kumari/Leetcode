@@ -1,0 +1,46 @@
+{
+  "problem_name": "longest-special-path-ii",
+  "data_structures": [
+    [
+      "adjacency list",
+      "hashmap (defaultdict)",
+      "list (for prefix sums)"
+    ],
+    [
+      "adjacency list",
+      "hashmap (defaultdict)",
+      "list (for prefix sums)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "iterative DFS with prefix sums and path tracking (allowing one duplicate)",
+    "recursive DFS with prefix sums and path tracking (allowing one duplicate)"
+  ],
+  "problem_summary_simple": "Find the longest downward path in a tree with at most one repeated node value.",
+  "problem_summary_technical": "DFS on a tree, tracking node values. Use prefix sums for path lengths and a hashmap to find previous occurrences, allowing one duplicate.",
+  "time_complexity": [
+    "O(n + e)",
+    "O(n + e)"
+  ],
+  "space_complexity": [
+    "O(n + e)",
+    "O(h) where h is tree height"
+  ],
+  "key_insights": [
+    [
+      "This problem extends the 'longest special path' by allowing at most one node value to appear twice in a path.",
+      "The DFS needs to track the two longest valid path segments ending at a node, considering the allowance for one duplicate.",
+      "Prefix sums are used to calculate path lengths efficiently, and the `lookup` map helps find previous occurrences of node values."
+    ],
+    [
+      "The DFS explores downward paths, maintaining the set of visited node values and the current path length.",
+      "The `left` array stores the depths of the two most recent occurrences of distinct node values encountered on the path from the root.",
+      "When a node value is encountered that has already been seen, it can extend one of the two longest paths if it's the first duplicate allowed."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:49:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

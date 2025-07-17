@@ -1,0 +1,33 @@
+{
+  "problem_name": "the-maze-ii",
+  "data_structures": [
+    [
+      "2D array (maze)",
+      "min-heap (priority queue)",
+      "set (visited nodes)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Dijkstra's algorithm to find the shortest path in terms of distance."
+  ],
+  "problem_summary_simple": "Find the shortest distance for a ball to stop at a destination in a maze by rolling.",
+  "problem_summary_technical": "Dijkstra's algorithm where states are (distance, current_position). Neighbors are determined by rolling until a wall is hit.",
+  "time_complexity": [
+    "O(R * C * log(R * C))"
+  ],
+  "space_complexity": [
+    "O(R * C)"
+  ],
+  "key_insights": [
+    [
+      "Dijkstra's algorithm is appropriate for finding the shortest path in a graph with non-negative edge weights (distances).",
+      "The 'distance' in the heap should represent the total distance traveled.",
+      "The 'neighbors' function must calculate the distance traveled in each direction."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

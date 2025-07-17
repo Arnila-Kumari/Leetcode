@@ -1,0 +1,34 @@
+{
+  "problem_name": "minimum-moves-to-move-a-box-to-their-target-location",
+  "data_structures": [
+    [
+      "grid",
+      "queue",
+      "set",
+      "tuple"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "A* search algorithm to find the shortest path for the box, considering player reachability."
+  ],
+  "problem_summary_simple": "Move a box to a target location in a grid by pushing it, minimizing pushes.",
+  "problem_summary_technical": "Employ A* search on states (box position, player position) to find minimum pushes, using BFS for player reachability.",
+  "time_complexity": [
+    "O(m^2 * n^2)"
+  ],
+  "space_complexity": [
+    "O(m^2 * n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a shortest path problem on a state space where states are (box_position, player_position).",
+      "A* search is suitable because it uses a heuristic (Manhattan distance) to guide the search towards the target.",
+      "A helper BFS function is needed to check if the player can reach a specific position to push the box."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:58:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

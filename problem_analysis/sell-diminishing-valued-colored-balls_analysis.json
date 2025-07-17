@@ -1,0 +1,41 @@
+{
+  "problem_name": "sell-diminishing-valued-colored-balls",
+  "data_structures": [
+    [
+      "list",
+      "heap (implicitly via sorting/max)",
+      "binary search range"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Binary search on the value of balls sold, then calculate total value greedily.",
+    "Use a max-heap to always pick the highest value ball, simulating the process."
+  ],
+  "problem_summary_simple": "Maximize profit by selling balls, where value decreases with each sale of a color.",
+  "problem_summary_technical": "Binary search for the minimum value sold. Calculate total value by summing arithmetic series for balls above this value and remaining orders.",
+  "time_complexity": [
+    "O(N log M + log M * N) where M is max inventory, N is inventory size",
+    "O(K log N + (N-K) log N) where K is number of distinct values sold"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding a threshold value for balls sold.",
+      "Selling balls in decreasing order of value is optimal.",
+      "Arithmetic series summation is key for efficient calculation."
+    ],
+    [
+      "A max-heap naturally prioritizes selling the most valuable balls.",
+      "When multiple colors have the same highest value, they can be sold in batches.",
+      "The modulo operation is crucial for handling large results."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

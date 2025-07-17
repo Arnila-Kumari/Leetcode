@@ -1,0 +1,46 @@
+{
+  "problem_name": "maximum-value-sum-by-placing-three-rooks-i",
+  "data_structures": [
+    [
+      "heap",
+      "list of lists",
+      "set",
+      "iterator"
+    ],
+    [
+      "heap",
+      "list of lists",
+      "set",
+      "iterator"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Heap-based selection and brute-force combinations",
+    "Heap-based selection and brute-force combinations"
+  ],
+  "problem_summary_simple": "Place three non-attacking rooks on a board to maximize the sum of cell values.",
+  "problem_summary_technical": "Find top k values per row/column, then combine valid combinations using heaps and brute-force checking for non-attacking placements.",
+  "time_complexity": [
+    "O(m * n * logk)"
+  ],
+  "space_complexity": [
+    "O(k * (m + n))"
+  ],
+  "key_insights": [
+    [
+      "The constraint of non-attacking rooks means each rook must be in a unique row and unique column.",
+      "The problem can be framed as finding the best k cells such that no two share a row or column.",
+      "A common approach is to find the top k candidates per row and column, then combine them, ensuring uniqueness of rows and columns."
+    ],
+    [
+      "The second solution is a more concise implementation of the first, using `heapq.nlargest` and set intersection for candidate selection.",
+      "The logic of selecting `(k-1)*(2*k-1)+1` candidates is to ensure enough valid combinations are considered, as each choice might eliminate up to `2k-1` other candidates.",
+      "The final step involves iterating through combinations of these candidates and checking for unique rows and columns."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

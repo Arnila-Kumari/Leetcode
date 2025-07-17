@@ -1,0 +1,46 @@
+{
+  "problem_name": "lfu-cache",
+  "data_structures": [
+    [
+      "defaultdict(OrderedDict)",
+      "dictionary (key to freq)",
+      "dictionary (freq to nodes)"
+    ],
+    [
+      "defaultdict(LinkedList)",
+      "dictionary (key to node)",
+      "LinkedList class"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Using a combination of hash maps and ordered dictionaries to track frequencies and recency for O(1) operations.",
+    "Using hash maps and doubly linked lists to manage frequency groups and recency for O(1) operations."
+  ],
+  "problem_summary_simple": "Implement a cache that evicts the least frequently used item, then the least recently used if frequencies tie.",
+  "problem_summary_technical": "Maintains frequency counts and uses linked lists (or ordered dicts) per frequency to achieve O(1) get/put by managing key-frequency mappings.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is to efficiently track both frequency and recency for O(1) operations.",
+      "A `min_freq` variable is crucial for quickly identifying the frequency group to evict from.",
+      "Using `OrderedDict` for each frequency group naturally handles the LRU tie-breaking within a frequency."
+    ],
+    [
+      "The core challenge is to efficiently track both frequency and recency for O(1) operations.",
+      "A `min_freq` variable is crucial for quickly identifying the frequency group to evict from.",
+      "Doubly linked lists for each frequency group allow O(1) insertion and deletion, essential for moving nodes between frequency lists."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:49:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

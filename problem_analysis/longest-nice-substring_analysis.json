@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-nice-substring",
+  "data_structures": [
+    [
+      "set"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Recursive divide and conquer: split string at invalid characters, check subproblems."
+  ],
+  "problem_summary_simple": "Find the longest substring where every character has its uppercase/lowercase pair.",
+  "problem_summary_technical": "Recursive approach to find the longest substring where for each character present, its case-swapped counterpart also exists.",
+  "time_complexity": [
+    "O(N^2)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that if a character is missing its pair, it cannot be part of a nice substring.",
+      "Recursively break down the problem at these 'bad' characters.",
+      "The base case is an empty string or a string that is already nice."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

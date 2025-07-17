@@ -1,0 +1,31 @@
+{
+  "problem_name": "divisible-and-non-divisible-sums-difference",
+  "data_structures": [
+    [
+      "no explicit data structures, uses mathematical formulas"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Arithmetic progression sum formula"
+  ],
+  "problem_summary_simple": "Calculate the difference between sums of numbers not divisible by m and numbers divisible by m up to n.",
+  "problem_summary_technical": "Utilize arithmetic progression sum formulas to efficiently calculate sums of divisible and non-divisible numbers.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The sum of all numbers from 1 to n can be calculated using the arithmetic progression formula: n*(n+1)/2.",
+      "The sum of numbers divisible by m can be found by summing multiples of m up to n.",
+      "The problem can be solved by calculating the total sum and subtracting twice the sum of numbers divisible by m."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

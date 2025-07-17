@@ -1,0 +1,32 @@
+{
+  "problem_name": "check-if-number-has-equal-digit-count-and-digit-value",
+  "data_structures": [
+    [
+      "string",
+      "hashmap (collections.Counter)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count digit frequencies and compare with the digit's value at its index."
+  ],
+  "problem_summary_simple": "Does each digit's count in a number string match its value at that index?",
+  "problem_summary_technical": "Verify if the frequency of digit `i` in the string `num` equals the integer value of `num[i]` for all indices.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking a condition for every index of the input string.",
+      "A frequency map (like `collections.Counter`) is useful to quickly get the count of each digit.",
+      "The core logic is to iterate through the string, and for each index `i`, check if the count of digit `str(i)` matches the integer value of `num[i]`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

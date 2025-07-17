@@ -1,0 +1,44 @@
+{
+  "problem_name": "line-reflection",
+  "data_structures": [
+    [
+      "hash map",
+      "set"
+    ],
+    [
+      "list",
+      "sorting"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Group points by y-coordinate, find min/max x, check for symmetric x-values using a hash set.",
+    "Sort points, use two pointers, check for symmetry based on x and y coordinates."
+  ],
+  "problem_summary_simple": "Check if a set of 2D points can be reflected across a vertical line to match themselves.",
+  "problem_summary_technical": "Determine if points are symmetric about a vertical line by grouping by y and checking x-coordinate reflections.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Grouping points by their y-coordinate is crucial for efficient checking.",
+      "The reflection line's x-coordinate is the average of the minimum and maximum x-coordinates.",
+      "A hash set allows for O(1) average time lookup of reflected points."
+    ],
+    [
+      "Sorting the points can enable a two-pointer approach.",
+      "Careful handling of points on the reflection line is needed.",
+      "The sorting key needs to consider both x and y coordinates for correct pairing."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

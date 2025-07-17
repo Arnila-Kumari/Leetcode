@@ -1,0 +1,42 @@
+{
+  "problem_name": "non-overlapping-intervals",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort by end time and greedily select non-overlapping intervals.",
+    "Sort by start time and greedily remove overlapping intervals."
+  ],
+  "problem_summary_simple": "Find the minimum number of intervals to remove to make the rest non-overlapping.",
+  "problem_summary_technical": "Greedily select intervals by sorting by end times to maximize the number of non-overlapping intervals, thus minimizing removals. Alternatively, sort by start times and resolve overlaps.",
+  "time_complexity": [
+    "O(nlogn)",
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy approach of sorting by end times is optimal. By picking the interval that finishes earliest, we leave the maximum room for subsequent intervals.",
+      "When intervals overlap, if we sort by end times, we simply discard the current interval if its start is before the previous interval's end.",
+      "The alternative approach (sorting by start times) requires more careful handling of which overlapping interval to discard to ensure the minimum removals."
+    ],
+    [
+      "Sorting by start times requires a more complex greedy choice: if an overlap occurs, we must remove the interval that ends *later* to maximize the chance of fitting more intervals later.",
+      "This approach also involves tracking the 'previous' non-overlapping interval's end time.",
+      "Both greedy strategies achieve the same result but the end-time sort is generally considered more intuitive and simpler to implement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

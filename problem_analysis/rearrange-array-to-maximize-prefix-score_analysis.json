@@ -1,0 +1,32 @@
+{
+  "problem_name": "rearrange-array-to-maximize-prefix-score",
+  "data_structures": [
+    [
+      "list of integers (input array)",
+      "integer variable (current sum)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sorting and greedy selection"
+  ],
+  "problem_summary_simple": "Rearrange an array to maximize the count of positive prefix sums.",
+  "problem_summary_technical": "Sorts the array in descending order and greedily adds elements to maximize positive prefix sums.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To maximize the number of positive prefix sums, we should place the largest positive numbers at the beginning of the array.",
+      "Sorting the array in descending order ensures that we are always adding the largest available number to the current sum.",
+      "If at any point the current sum becomes non-positive, adding any subsequent smaller (or negative) numbers will not make it positive again, so we stop."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

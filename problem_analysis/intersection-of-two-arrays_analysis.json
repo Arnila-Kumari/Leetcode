@@ -1,0 +1,68 @@
+{
+  "problem_name": "intersection-of-two-arrays",
+  "data_structures": [
+    [
+      "hash set",
+      "list"
+    ],
+    [
+      "hash set",
+      "list"
+    ],
+    [
+      "sorted array",
+      "list"
+    ],
+    [
+      "sorted array",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash set intersection",
+    "Hash set with removal",
+    "Binary search on sorted arrays",
+    "Two pointers on sorted arrays"
+  ],
+  "problem_summary_simple": "Find unique common elements between two integer arrays.",
+  "problem_summary_technical": "Use hash sets for O(1) lookups or sort arrays and use two pointers/binary search for intersection.",
+  "time_complexity": [
+    "O(m + n)",
+    "O(m + n)",
+    "O(max(m, n) * log(max(m, n)))",
+    "O(max(m, n) * log(max(m, n)))"
+  ],
+  "space_complexity": [
+    "O(min(m, n))",
+    "O(min(m, n))",
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Leverage Python's set intersection operator '&' for a concise solution.",
+      "Convert both lists to sets and then find their intersection.",
+      "Convert the resulting set back to a list."
+    ],
+    [
+      "Use a hash set for efficient lookups of elements from the smaller array.",
+      "Iterate through the larger array, and if an element is found in the hash set, add it to the result and remove it from the hash set to ensure uniqueness.",
+      "This approach handles duplicates by only adding an element once."
+    ],
+    [
+      "Sort both arrays first.",
+      "For each element in the smaller array, perform a binary search in the larger array.",
+      "If found, add to result and advance the search pointer in the larger array to avoid duplicates."
+    ],
+    [
+      "Sort both arrays.",
+      "Use two pointers, one for each array.",
+      "Advance pointers based on element comparison to find common elements, ensuring uniqueness in the result."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "smallest-subarray-to-sort-in-every-sliding-window",
+  "data_structures": [
+    [
+      "array",
+      "stack"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Monotonic stack for finding unsorted elements and two pointers for window management",
+    "Two passes with modified array and monotonic stack"
+  ],
+  "problem_summary_simple": "For each sliding window of size k, find the minimum length of a subarray that needs sorting to make the window non-decreasing.",
+  "problem_summary_technical": "Uses a monotonic stack to identify the leftmost and rightmost unsorted elements in each window, then calculates the required sort length.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into finding the minimum length subarray that needs sorting for each window.",
+      "A monotonic stack is effective for finding the nearest smaller/larger elements, which helps identify the boundaries of unsorted segments.",
+      "The solution cleverly uses two passes with a modified array (negated values) to capture both left-to-right and right-to-left unsorted segments efficiently."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:09:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

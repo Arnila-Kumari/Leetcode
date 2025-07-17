@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-time-to-eat-all-grains",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the time. For a given time `x`, check if all grains can be eaten by hens."
+  ],
+  "problem_summary_simple": "Determine the minimum time required for hens to eat all grains, considering their movement and optimal assignment.",
+  "problem_summary_technical": "Binary search on time. The check function greedily assigns hens to grains, considering movement left and right within time `x`.",
+  "time_complexity": [
+    "O(M log M + N log N + (M + N) log R)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting both hens and grains is essential for the greedy assignment within the check function.",
+      "The check function needs to consider that a hen can move left or right to cover grains.",
+      "The optimal strategy for a hen is to cover the leftmost unassigned grain and then extend its reach to the right."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "reverse-integer",
+  "data_structures": [
+    [
+      "integer"
+    ],
+    [
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iteratively extract digits using modulo and division, build reversed integer.",
+    "Convert to string, reverse, convert back to integer, handle sign and overflow."
+  ],
+  "problem_summary_simple": "Reverse the digits of a signed integer, handling potential overflow.",
+  "problem_summary_technical": "Reverse digits using modulo/division or string manipulation, check against 32-bit integer limits.",
+  "time_complexity": [
+    "O(log n)",
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(log n)"
+  ],
+  "key_insights": [
+    [
+      "The iterative approach avoids string conversion and is generally more efficient.",
+      "Careful handling of negative numbers is required.",
+      "The primary challenge is detecting and handling integer overflow within the 32-bit signed integer range."
+    ],
+    [
+      "String conversion offers a concise way to reverse digits.",
+      "The `[::-1]` slicing is a Pythonic way to reverse strings.",
+      "Overflow check needs to be performed after conversion and before returning."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

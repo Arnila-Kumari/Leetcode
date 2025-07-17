@@ -1,0 +1,42 @@
+{
+  "problem_name": "count-number-of-distinct-integers-after-reverse-operations",
+  "data_structures": [
+    [
+      "set"
+    ],
+    [
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through numbers, reverse them, and add to a set for distinct count.",
+    "Iterate through numbers, convert to string, reverse, convert back, add to set."
+  ],
+  "problem_summary_simple": "Count distinct integers after adding the reverse of each number in the input array.",
+  "problem_summary_technical": "Utilizes a hash set to store unique integers, including original and reversed versions of each number.",
+  "time_complexity": [
+    "O(N log R)",
+    "O(N log R)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "A set is the ideal data structure to automatically handle distinctness.",
+      "Reversing digits can be done arithmetically or by string manipulation.",
+      "Leading zeros after reversal (e.g., 10 -> 01) are handled correctly by integer conversion."
+    ],
+    [
+      "A set is the ideal data structure to automatically handle distinctness.",
+      "Reversing digits can be done arithmetically or by string manipulation.",
+      "Leading zeros after reversal (e.g., 10 -> 01) are handled correctly by integer conversion."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:36:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

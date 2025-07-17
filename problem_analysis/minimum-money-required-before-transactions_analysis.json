@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-money-required-before-transactions",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach with sorting and tracking minimum balance"
+  ],
+  "problem_summary_simple": "Find minimum starting money to complete all transactions in any order.",
+  "problem_summary_technical": "Sort transactions by cost. Iterate, maintaining current money and tracking the maximum deficit encountered. The minimum starting money is the maximum deficit plus the final balance.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding a starting amount that guarantees completion regardless of transaction order.",
+      "A greedy approach works: sort transactions by cost. This ensures that when we need to spend money, we prioritize transactions that require less upfront.",
+      "We need to track the minimum balance required at any point. If `cost > cashback`, we need `cost - cashback` more money to cover the net loss. The maximum such deficit across all transactions determines the minimum starting capital.",
+      "The provided solution `sum(max(a-b, 0) for a, b in transactions)+max(a-max(a-b, 0) for a, b in transactions)` is a clever shortcut. `sum(max(a-b, 0))` calculates the total net cost (sum of positive differences between cost and cashback). `max(a-max(a-b, 0))` simplifies to `min(a, b)` for each transaction, and then `max` of these `min(a,b)` values represents the peak requirement. The sum of these two components gives the minimum starting money."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

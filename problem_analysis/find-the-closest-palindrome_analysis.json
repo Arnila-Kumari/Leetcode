@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-the-closest-palindrome",
+  "data_structures": [
+    [
+      "set",
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Generate candidate palindromes by modifying the prefix and compare with the input."
+  ],
+  "problem_summary_simple": "Find the palindrome closest to a given number, excluding the number itself.",
+  "problem_summary_technical": "Generates palindromes from prefix variations (prefix-1, prefix, prefix+1) and finds the closest to the input number.",
+  "time_complexity": [
+    "O(L)"
+  ],
+  "space_complexity": [
+    "O(L)"
+  ],
+  "key_insights": [
+    [
+      "The closest palindrome is likely formed by modifying the first half of the input number.",
+      "Consider edge cases like powers of 10 and numbers with all 9s.",
+      "The absolute difference and the value itself are used for tie-breaking."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

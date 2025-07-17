@@ -1,0 +1,35 @@
+{
+  "problem_name": "generate-binary-strings-without-adjacent-zeros",
+  "data_structures": [
+    [
+      "list of strings",
+      "list of characters"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking to build strings, ensuring no adjacent zeros",
+    "BFS to build strings level by level"
+  ],
+  "problem_summary_simple": "Generate all binary strings of length n that do not have consecutive zeros.",
+  "problem_summary_technical": "Backtracking or BFS can build strings. At each step, if the last character was '1', append '0' or '1'. If it was '0', only append '1'.",
+  "time_complexity": [
+    "O(n * 2^n)",
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n * 2^n)"
+  ],
+  "key_insights": [
+    [
+      "The constraint is that '00' is not allowed as a substring.",
+      "This means a '0' can only be followed by a '1'. A '1' can be followed by either '0' or '1'.",
+      "Both backtracking and BFS are suitable for generating all valid combinations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

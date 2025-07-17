@@ -1,0 +1,31 @@
+{
+  "problem_name": "sort-colors",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Dutch National Flag algorithm (three-way partitioning) using three pointers."
+  ],
+  "problem_summary_simple": "Sort an array containing only 0s, 1s, and 2s in-place.",
+  "problem_summary_technical": "Sort an array of 0s, 1s, and 2s in-place using a single pass and constant extra space.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic partitioning problem, often solved with the Dutch National Flag algorithm.",
+      "Three pointers (low, mid, high) manage the boundaries of 0s, 1s, and 2s.",
+      "The algorithm processes elements in a single pass, ensuring in-place sorting."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

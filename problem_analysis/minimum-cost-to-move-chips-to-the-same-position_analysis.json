@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-cost-to-move-chips-to-the-same-position",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count parity of positions and move all to the majority parity."
+  ],
+  "problem_summary_simple": "Move chips to the same position with minimum cost, where moving by 2 is free and by 1 costs 1.",
+  "problem_summary_technical": "Calculate the count of chips at even and odd positions. The minimum cost is the count of the minority parity.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Moves of +2 or -2 have zero cost, meaning chips can freely move between positions of the same parity.",
+      "The problem reduces to moving all chips to either an even or an odd position.",
+      "The minimum cost is achieved by moving the smaller group of chips to the position of the larger group."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:57:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

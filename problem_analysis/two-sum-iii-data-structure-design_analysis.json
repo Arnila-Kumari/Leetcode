@@ -1,0 +1,32 @@
+{
+  "problem_name": "two-sum-iii-data-structure-design",
+  "data_structures": [
+    [
+      "hashmap",
+      "defaultdict"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Maintain a hashmap (or frequency map) of numbers added. For `find`, iterate through the map and check for the complement, handling duplicates."
+  ],
+  "problem_summary_simple": "Design a data structure to add numbers and check if any pair sums to a given value.",
+  "problem_summary_technical": "Use a hashmap to store number frequencies. `find` iterates through keys, checking for complements, ensuring distinct elements or sufficient counts.",
+  "time_complexity": [
+    "add: O(1) average, find: O(n) average"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The `add` operation is efficient (O(1) on average) due to hashmap properties.",
+      "The `find` operation requires iterating through the stored numbers, leading to O(n) complexity.",
+      "The condition `(num != key or self.lookup[key] > 1)` correctly handles cases where the complement is the same number (e.g., finding 6 with [3, 3])."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

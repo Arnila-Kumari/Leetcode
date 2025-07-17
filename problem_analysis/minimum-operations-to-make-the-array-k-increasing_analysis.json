@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-operations-to-make-the-array-k-increasing",
+  "data_structures": [
+    [
+      "list",
+      "bisect"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Decompose into k subsequences and find the Longest Non-Decreasing Subsequence (LNDS) for each."
+  ],
+  "problem_summary_simple": "Make array K-increasing (arr[i-k] <= arr[i]) with minimum operations.",
+  "problem_summary_technical": "Splits array into k subsequences, finds LNDS for each using patience sorting (bisect), and calculates operations as total length minus sum of LNDS lengths.",
+  "time_complexity": [
+    "O(n log(n/k))"
+  ],
+  "space_complexity": [
+    "O(n/k)"
+  ],
+  "key_insights": [
+    [
+      "The K-increasing property means we only need to consider elements that are k positions apart.",
+      "This breaks the problem into k independent subproblems, each involving making a subsequence non-decreasing.",
+      "The minimum operations to make a subsequence non-decreasing is its length minus the length of its Longest Non-Decreasing Subsequence (LNDS)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

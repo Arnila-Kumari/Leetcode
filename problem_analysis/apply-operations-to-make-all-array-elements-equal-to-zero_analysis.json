@@ -1,0 +1,31 @@
+{
+  "problem_name": "apply-operations-to-make-all-array-elements-equal-to-zero",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using a running difference to track required operations for each element."
+  ],
+  "problem_summary_simple": "Determine if an array can be made all zeros by repeatedly subtracting 1 from subarrays of size k.",
+  "problem_summary_technical": "Uses a greedy strategy with a running count of active subtractions to check if each element can be reduced to zero by k-sized subarray operations.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that the order of operations on overlapping subarrays matters, but a greedy approach works.",
+      "We only need to track the net effect of operations ending at the current index.",
+      "If at any point an element needs to be reduced by more than what's currently available from previous operations, it's impossible."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,43 @@
+{
+  "problem_name": "verify-preorder-sequence-in-binary-search-tree",
+  "data_structures": [
+    [
+      "array",
+      "stack"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Use a stack to keep track of the path from the root to the current node, maintaining the lower bound for subsequent nodes.",
+    "In-place modification of the input array to simulate a stack, using a pointer to track the stack top and a variable for the lower bound."
+  ],
+  "problem_summary_simple": "Determine if a given array represents a valid preorder traversal of a BST.",
+  "problem_summary_technical": "Verify preorder BST property: for each node, all subsequent nodes in its right subtree must be greater than it, and all nodes in its left subtree must be smaller.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h) where h is the height of the tree (O(n) in worst case)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "In a preorder traversal of a BST, when we encounter a node smaller than the previous one, it must be in the left subtree of some ancestor.",
+      "The `low` variable tracks the minimum value that the current node can take. When we pop from the stack, the popped element becomes the new `low`.",
+      "The stack stores nodes that are potential ancestors for future nodes."
+    ],
+    [
+      "This solution cleverly uses the input array itself as a stack, modifying it in place.",
+      "The `low` variable is crucial for maintaining the BST property. When a node is popped, it signifies that we are moving to the right subtree of that popped node, thus setting a new lower bound.",
+      "The `preorder[i] = p` assignment effectively pushes the current element onto the 'in-place stack'."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

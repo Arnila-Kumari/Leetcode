@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-genetic-mutation",
+  "data_structures": [
+    [
+      "collections.deque",
+      "dictionary"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) on a state space"
+  ],
+  "problem_summary_simple": "Find the shortest sequence of valid gene mutations from a start gene to an end gene.",
+  "problem_summary_technical": "BFS to find the shortest path in a graph where nodes are gene strings and edges are single mutations, constrained by a gene bank.",
+  "time_complexity": [
+    "O(N * L * C)"
+  ],
+  "space_complexity": [
+    "O(B)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the shortest path in a graph.",
+      "BFS is suitable for finding the minimum number of steps (mutations).",
+      "A lookup table (dictionary) is crucial for efficient checking of valid genes in the bank."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

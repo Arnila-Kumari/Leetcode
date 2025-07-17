@@ -1,0 +1,32 @@
+{
+  "problem_name": "design-in-memory-file-system",
+  "data_structures": [
+    [
+      "TrieNode (custom class)",
+      "dictionary (children)"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Trie for path traversal and storage, handling file/directory distinction."
+  ],
+  "problem_summary_simple": "Simulate an in-memory file system with directory creation, listing, and file content management.",
+  "problem_summary_technical": "Implement a file system using a Trie where nodes represent directories/files, storing content and managing path operations.",
+  "time_complexity": [
+    "ls: O(l + klogk), mkdir: O(l), addContentToFile: O(l + c), readContentFromFile: O(l + c)"
+  ],
+  "space_complexity": [
+    "O(n + s)"
+  ],
+  "key_insights": [
+    [
+      "A Trie is a natural fit for representing hierarchical file paths.",
+      "Distinguish between files and directories using a boolean flag.",
+      "Lexicographical sorting is required for directory listings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

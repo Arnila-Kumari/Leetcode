@@ -1,0 +1,43 @@
+{
+  "problem_name": "number-of-days-between-two-dates",
+  "data_structures": [
+    [
+      "Array (for month day lookups)",
+      "String parsing"
+    ],
+    [
+      "datetime object (from Python's datetime module)"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate total days from a reference point for each date, considering leap years and month lengths.",
+    "Utilize Python's built-in datetime library for date arithmetic."
+  ],
+  "problem_summary_simple": "Calculate the difference in days between two given dates.",
+  "problem_summary_technical": "Converts dates to a total number of days since a fixed epoch, accounting for leap years and month lengths, or uses datetime objects.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to convert each date into a comparable numerical representation (total days).",
+      "Accurate handling of leap years (Gregorian calendar rules) is crucial for the manual calculation.",
+      "Leveraging built-in libraries like `datetime` is often the most robust and concise approach."
+    ],
+    [
+      "Python's `datetime` module simplifies date parsing and subtraction significantly.",
+      "The `strptime` function parses strings into datetime objects.",
+      "The difference between two datetime objects yields a `timedelta` object, from which `days` can be accessed."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,43 @@
+{
+  "problem_name": "sliding-window-median",
+  "data_structures": [
+    [
+      "SortedList"
+    ],
+    [
+      "two heaps (min-heap, max-heap)",
+      "hashmap (for lazy deletion)"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a SortedList to maintain sorted order and find median.",
+    "Sliding window with two heaps (min-heap and max-heap) to balance elements and find median, using lazy deletion for efficiency."
+  ],
+  "problem_summary_simple": "Calculate the median of each sliding window of size k as it moves across an array.",
+  "problem_summary_technical": "Maintains a balanced set of numbers in the window (either via SortedList or two heaps) to efficiently compute the median after each slide.",
+  "time_complexity": [
+    "O(n log k)",
+    "O(n log k)"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The SortedList approach offers a straightforward way to maintain order and access the median elements.",
+      "The two-heap approach (max-heap for the lower half, min-heap for the upper half) is a classic technique for median finding.",
+      "Lazy deletion is crucial for the heap-based solution to avoid O(k) removal cost for each element leaving the window."
+    ],
+    [
+      "The two-heap approach requires careful balancing to ensure the sizes of the heaps differ by at most one.",
+      "When an element is removed, it's marked for deletion (lazy deletion) and only truly removed when it reaches the top of a heap.",
+      "The median calculation depends on whether k is odd or even, requiring either the top of one heap or the average of the tops of both."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:09:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

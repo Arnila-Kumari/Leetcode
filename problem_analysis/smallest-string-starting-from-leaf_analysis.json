@@ -1,0 +1,33 @@
+{
+  "problem_name": "smallest-string-starting-from-leaf",
+  "data_structures": [
+    [
+      "binary tree",
+      "string builder",
+      "hashmap"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) with string concatenation and comparison"
+  ],
+  "problem_summary_simple": "Find the lexicographically smallest string formed by a path from a leaf to the root in a binary tree.",
+  "problem_summary_technical": "Performs DFS on the binary tree, building strings from leaves to root and tracking the lexicographically smallest one.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(H)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires traversing from leaves to the root, which can be achieved with a post-order traversal or a modified pre-order traversal.",
+      "Lexicographical comparison is key; a helper function or direct string comparison is needed to maintain the smallest string found so far.",
+      "The character values are 0-25, mapping directly to 'a'-'z', simplifying string construction."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

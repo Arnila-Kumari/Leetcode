@@ -1,0 +1,45 @@
+{
+  "problem_name": "design-a-todo-list",
+  "data_structures": [
+    [
+      "list of tasks",
+      "dictionary (hash map) mapping user IDs to sorted lists of task identifiers",
+      "dictionary (hash map) mapping (user ID, tag) to sorted lists of task identifiers"
+    ],
+    [
+      "list of tasks",
+      "dictionary (hash map) mapping user IDs to sorted lists of task identifiers"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Storing tasks and using sorted lists for efficient retrieval by user and tag",
+    "Optimized approach using a composite key for tag-based lookups"
+  ],
+  "problem_summary_simple": "Manage tasks for users, allowing adding, completing, and filtering by tags, ordered by due date.",
+  "problem_summary_technical": "Stores tasks in a list and uses sorted lists (indexed by user ID and optionally by tag) to efficiently retrieve tasks by due date.",
+  "time_complexity": [
+    "ctor: O(1), addTask: O(L + log N), getAllTasks: O(R), getTasksForTag: O(R * C), completeTask: O(L + log N)",
+    "ctor: O(1), addTask: O(L + T*log N), getAllTasks: O(R), getTasksForTag: O(R), completeTask: O(L + T*log N)"
+  ],
+  "space_complexity": [
+    "O(N * L)",
+    "O(N * (L + T))"
+  ],
+  "key_insights": [
+    [
+      "The requirement to order tasks by due date strongly suggests using a data structure that maintains order, like a sorted list or a min-heap.",
+      "To efficiently filter by tag, a secondary index (e.g., a hash map where keys are tags) is needed.",
+      "The `completeTask` operation needs to remove tasks from all relevant indices (user-specific and tag-specific)."
+    ],
+    [
+      "The second solution optimizes `getTasksForTag` by creating a composite key `(userId, tag)` for direct lookup in the `user_task_ids` dictionary.",
+      "This avoids iterating through all tasks for a user to check for a specific tag.",
+      "The `addTask` and `completeTask` operations now involve updating indices for each tag associated with a task."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,45 @@
+{
+  "problem_name": "find-k-pairs-with-smallest-sums",
+  "data_structures": [
+    [
+      "min-heap (priority queue)",
+      "list of lists",
+      "integer variables for indices"
+    ],
+    [
+      "list of lists",
+      "itertools.product",
+      "heapq.nsmallest"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a min-heap to store pairs and their sums, always extracting the smallest sum pair and adding its neighbors.",
+    "Generate all possible pairs and use `nsmallest` to find the k pairs with the smallest sums."
+  ],
+  "problem_summary_simple": "Find k pairs with the smallest sums from two sorted arrays.",
+  "problem_summary_technical": "Min-heap stores (sum, i, j). Extract min, add neighbors (i, j+1) and (i+1, 0). Alternative: generate all pairs and use nsmallest.",
+  "time_complexity": [
+    "O(k * log(min(n, m, k)))",
+    "O(n*m*log k)"
+  ],
+  "space_complexity": [
+    "O(min(n, m, k))",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The min-heap approach is efficient because it only explores necessary pairs, avoiding generating all n*m pairs.",
+      "The strategy of pushing `(i, j+1)` and `(i+1, 0)` ensures that all potential smallest sum pairs are considered.",
+      "The optimization to swap arrays if `nums1` is larger than `nums2` helps maintain a smaller heap size."
+    ],
+    [
+      "The `itertools.product` approach is conceptually simpler but less efficient for large inputs as it generates all n*m pairs.",
+      "The `heapq.nsmallest` function is a convenient way to find the k smallest elements based on a key."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

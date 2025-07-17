@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-price-to-fill-a-bag",
+  "data_structures": [
+    [
+      "list of lists",
+      "float variable"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach with sorting by value-to-weight ratio"
+  ],
+  "problem_summary_simple": "Fill a bag with items, allowing fractional parts, to maximize total price.",
+  "problem_summary_technical": "Sorts items by price-to-weight ratio and greedily takes as much as possible from the highest ratio items until capacity is met.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This is a fractional knapsack problem.",
+      "The optimal strategy is to prioritize items with the highest value-to-weight ratio.",
+      "Sorting the items by this ratio allows for a greedy selection."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

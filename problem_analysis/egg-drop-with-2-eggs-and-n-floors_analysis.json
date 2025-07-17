@@ -1,0 +1,42 @@
+{
+  "problem_name": "egg-drop-with-2-eggs-and-n-floors",
+  "data_structures": [
+    [
+      "mathematical formula"
+    ],
+    [
+      "2D array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Mathematical formula derived from quadratic equation",
+    "Dynamic programming for general k eggs"
+  ],
+  "problem_summary_simple": "Find the minimum drops to find the critical floor for two eggs.",
+  "problem_summary_technical": "Determine minimum drops for 2 eggs and N floors. Solution 1 uses a mathematical formula; Solution 2 uses DP.",
+  "time_complexity": [
+    "O(1)",
+    "O(k * n^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The optimal strategy for 2 eggs involves dropping from floors such that the number of remaining drops is minimized in the worst case.",
+      "This leads to a triangular number pattern for the number of floors covered.",
+      "The formula solves for the number of drops 'x' such that x*(x+1)/2 >= n."
+    ],
+    [
+      "DP state dp[k][n] represents min drops for k eggs and n floors.",
+      "The transition considers dropping from floor `x` and the worst-case outcome (egg breaks or not).",
+      "This DP approach is generalizable to `k` eggs but less efficient for just 2 eggs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

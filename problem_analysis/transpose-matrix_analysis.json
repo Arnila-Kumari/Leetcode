@@ -1,0 +1,38 @@
+{
+  "problem_name": "transpose-matrix",
+  "data_structures": [
+    [
+      "2D array",
+      "2D array"
+    ],
+    [
+      "2D array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate and swap indices to create a new transposed matrix.",
+    "Use `zip(*matrix)` for a concise transpose operation."
+  ],
+  "problem_summary_simple": "Flip a matrix over its main diagonal, swapping rows and columns.",
+  "problem_summary_technical": "Create a new matrix where element (i, j) of the original becomes (j, i) in the transpose.",
+  "time_complexity": [
+    "O(r * c)",
+    "O(r * c)"
+  ],
+  "space_complexity": [
+    "O(r * c)",
+    "O(r * c)"
+  ],
+  "key_insights": [
+    [
+      "The dimensions of the transposed matrix are swapped (rows become columns and vice-versa).",
+      "The `zip(*matrix)` approach is highly Pythonic and efficient for transposing.",
+      "Care must be taken with non-square matrices."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

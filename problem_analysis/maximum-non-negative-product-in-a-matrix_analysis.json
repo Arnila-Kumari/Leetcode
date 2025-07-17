@@ -1,0 +1,36 @@
+{
+  "problem_name": "maximum-non-negative-product-in-a-matrix",
+  "data_structures": [
+    [
+      "2D DP arrays to store max and min products ending at each cell",
+      "rolling window for DP arrays"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to track maximum and minimum products, considering negative numbers.",
+    "Optimized DP with rolling window to reduce space complexity."
+  ],
+  "problem_summary_simple": "Find the path from top-left to bottom-right with the largest non-negative product.",
+  "problem_summary_technical": "DP tracks max/min products, handling negative numbers by swapping max/min when multiplying by a negative.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The presence of negative numbers necessitates tracking both the maximum and minimum product paths.",
+      "Multiplying by a negative number flips the roles of max and min."
+    ],
+    [
+      "The modulo operation should be applied only to the final result.",
+      "The rolling window optimization is crucial for managing memory for larger grids."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

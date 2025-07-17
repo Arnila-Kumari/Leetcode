@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-impossible-or",
+  "data_structures": [
+    [
+      "set"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterating through powers of 2 and checking presence in a set."
+  ],
+  "problem_summary_simple": "Find the smallest positive integer that cannot be formed by ORing any subsequence of the given numbers.",
+  "problem_summary_technical": "Check powers of 2 (1, 2, 4, 8, ...) against a set of input numbers; the first power of 2 not found is the answer.",
+  "time_complexity": [
+    "O(log R)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Any number expressible as a bitwise OR of a subsequence can be formed by combining bits from the input numbers.",
+      "If a power of 2 (2^i) is not present in the input numbers and cannot be formed by ORing any subsequence, it's the minimum impossible OR.",
+      "The smallest impossible OR must be a power of 2, because if all powers of 2 up to 2^k are expressible, then any number less than 2^(k+1) can be formed."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:57:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

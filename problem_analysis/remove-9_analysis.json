@@ -1,0 +1,27 @@
+{
+  "problem_name": "remove-9",
+  "data_structures": [],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Base-9 conversion to find the nth number without the digit 9."
+  ],
+  "problem_summary_simple": "Find the nth number in a sequence where numbers with digit 9 are skipped.",
+  "problem_summary_technical": "Convert the input 'n' to base-9, then interpret the result as a base-10 number.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding the nth number in base-9 representation.",
+      "Each digit in base-9 corresponds to a valid digit (0-8) in the new sequence.",
+      "The conversion process effectively skips numbers containing '9'."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

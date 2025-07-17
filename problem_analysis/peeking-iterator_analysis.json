@@ -1,0 +1,31 @@
+{
+  "problem_name": "peeking-iterator",
+  "data_structures": [
+    [
+      "Custom Iterator Class"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterator design pattern with pre-fetching"
+  ],
+  "problem_summary_simple": "Design an iterator that can peek at the next element without consuming it.",
+  "problem_summary_technical": "Maintain a cached value for the next element, pre-fetching it when `hasNext` or `peek` is called.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to pre-fetch the next element and store it in a private variable.",
+      "This pre-fetched value is returned by `peek()` and consumed by `next()`.",
+      "Care must be taken to handle the state correctly, especially when `next()` is called after `peek()`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

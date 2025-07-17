@@ -1,0 +1,32 @@
+{
+  "problem_name": "rotating-the-box",
+  "data_structures": [
+    [
+      "list of lists (matrix)",
+      "list (for result matrix)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Matrix rotation simulation with gravity effect, iterating backwards to place stones."
+  ],
+  "problem_summary_simple": "Rotate a box 90 degrees clockwise and let stones fall due to gravity.",
+  "problem_summary_technical": "Simulate 90-degree clockwise rotation of a 2D grid, applying gravity to stones ('#') after rotation.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The rotation effectively transposes the matrix and reverses rows.",
+      "Processing columns in reverse order after rotation simplifies gravity simulation.",
+      "A temporary variable `k` tracks the landing position for stones in each column."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

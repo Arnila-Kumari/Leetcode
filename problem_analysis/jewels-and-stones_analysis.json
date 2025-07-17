@@ -1,0 +1,32 @@
+{
+  "problem_name": "jewels-and-stones",
+  "data_structures": [
+    [
+      "set",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Using a set for efficient lookup of jewels and iterating through stones"
+  ],
+  "problem_summary_simple": "Count how many of your stones are also considered jewels.",
+  "problem_summary_technical": "Count stones present in a set of jewels using hash set lookups.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "Using a set for the `jewels` string allows for O(1) average time complexity lookups.",
+      "Iterating through the `stones` string and checking membership in the jewel set is efficient.",
+      "The constraints are small, so even less optimized solutions might pass, but a set is optimal."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

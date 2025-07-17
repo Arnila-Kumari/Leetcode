@@ -1,0 +1,50 @@
+{
+  "problem_name": "4sum",
+  "data_structures": [
+    [
+      "sorted array",
+      "list of lists"
+    ],
+    [
+      "sorted array",
+      "hash map (defaultdict)",
+      "dictionary"
+    ],
+    [
+      "sorted array",
+      "hash map (defaultdict)",
+      "list of lists"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sort the array, then use nested loops with two pointers to find quadruplets summing to target.",
+    "Precompute sums of pairs using a hash map, then iterate through pairs to find complementary sums.",
+    "Precompute sums of pairs using a hash map, then iterate through pairs to find complementary sums, handling duplicates."
+  ],
+  "problem_summary_simple": "Find all unique quadruplets in an array that sum up to a target value.",
+  "problem_summary_technical": "Sort array, use nested loops and two pointers. Alternatively, precompute pair sums in a hash map.",
+  "time_complexity": "O(n^3) for the two-pointer solution, O(n^2 * p) for hashmap solutions (where p is the number of pairs with the same sum)",
+  "space_complexity": "O(1) for the two-pointer solution, O(n^2 * p) for hashmap solutions",
+  "key_insights": [
+    [
+      "Sorting the array is crucial for efficiently skipping duplicate quadruplets and for the two-pointer approach.",
+      "The two-pointer approach within nested loops effectively reduces the search space for the remaining two numbers.",
+      "The hashmap approach pre-calculates sums of pairs, allowing for faster lookups of complementary pairs."
+    ],
+    [
+      "The hashmap approach can be more efficient if there are many duplicate sums of pairs.",
+      "Careful handling of indices is needed in the hashmap approach to ensure distinct elements in the quadruplet.",
+      "Using a dictionary to store unique quadruplets (e.g., by converting to a string or tuple) prevents duplicate results."
+    ],
+    [
+      "The `lookup` structure stores pairs of indices for each sum, enabling efficient retrieval.",
+      "The condition `a is not c and a is not d and b is not c and b is not d` ensures that the four indices are distinct.",
+      "Sorting the quadruplet before adding it to the result list and checking for its existence in `result` handles uniqueness."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-15 20:21:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

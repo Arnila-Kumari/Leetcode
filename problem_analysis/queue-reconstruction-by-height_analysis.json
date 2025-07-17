@@ -1,0 +1,43 @@
+{
+  "problem_name": "queue-reconstruction-by-height",
+  "data_structures": [
+    [
+      "List of lists (for people and reconstructed queue)",
+      "List of lists (for blocks)"
+    ],
+    [
+      "List of lists (for people and reconstructed queue)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach with sorting and insertion: Sort by height descending, then k ascending, and insert into result based on k.",
+    "Greedy approach with sorting and block insertion: Sort by height descending, then k ascending, and insert into dynamically managed blocks."
+  ],
+  "problem_summary_simple": "Reconstruct a queue of people based on their height and the count of taller people in front.",
+  "problem_summary_technical": "Sort people by height (desc) and k (asc). Then, insert each person into the result list at the index specified by their k value.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n * sqrt(n))"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that if we sort people by height in descending order, the k value for a person only depends on people already placed (who are taller or equal height).",
+      "When inserting a person with height `h` and count `k`, their `k` value represents the number of people already in the queue with height >= `h` that should be in front of them.",
+      "Inserting into a list at a specific index takes O(n) time, leading to an overall O(n^2) complexity."
+    ],
+    [
+      "This solution uses a block-based approach to optimize insertions. Instead of a single list, it uses multiple blocks.",
+      "When a block gets too large, it's split, aiming to keep insertion times closer to O(sqrt(n)) on average.",
+      "The sorting step remains crucial for the greedy strategy to work."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

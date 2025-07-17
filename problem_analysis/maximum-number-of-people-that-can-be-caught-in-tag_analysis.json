@@ -1,0 +1,42 @@
+{
+  "problem_name": "maximum-number-of-people-that-can-be-caught-in-tag",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to find available 'it' and 'non-it' people within distance",
+    "Sliding window approach to find the nearest available 'non-it' person"
+  ],
+  "problem_summary_simple": "Maximize caught people in tag by matching 'it' players with nearby 'non-it' players.",
+  "problem_summary_technical": "Greedy approach using two pointers or a sliding window to pair 'it' players with available targets.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by iterating through players.",
+      "Two pointers efficiently track potential matches for 'it' players.",
+      "Ensure each person is caught only once."
+    ],
+    [
+      "A sliding window helps find the closest available target for each 'it' player.",
+      "Iterate through 'it' players and expand window to find targets.",
+      "Advance the window to avoid re-catching or considering already used targets."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "shortest-cycle-in-a-graph",
+  "data_structures": [
+    [
+      "adjacency list",
+      "queue"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Iterate through each node, perform BFS to find shortest cycle originating from it."
+  ],
+  "problem_summary_simple": "Find the length of the shortest cycle in an undirected graph.",
+  "problem_summary_technical": "Uses BFS from each node to detect cycles by checking visited nodes at different distances, calculating cycle length.",
+  "time_complexity": [
+    "O(n * (n + e))"
+  ],
+  "space_complexity": [
+    "O(n + e)"
+  ],
+  "key_insights": [
+    [
+      "A cycle is detected when BFS encounters an already visited node that is not the immediate parent.",
+      "The length of the cycle is calculated using the distances from the BFS source to the two nodes forming the back edge.",
+      "Running BFS from each node ensures finding the globally shortest cycle."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "length-of-last-word",
+  "data_structures": [
+    [
+      "string"
+    ],
+    [
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate backwards through the string, counting non-space characters until a space is encountered.",
+    "Split the string by spaces and take the length of the last non-empty element."
+  ],
+  "problem_summary_simple": "Find the length of the last word in a given string, ignoring trailing spaces.",
+  "problem_summary_technical": "Iterate from the end of the string, counting characters until a space is found, or split and access the last word.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Iterating from the end is efficient as we only care about the last word.",
+      "Handle trailing spaces by continuing to skip them until a non-space character is found.",
+      "The first non-space character encountered from the right marks the start of the last word."
+    ],
+    [
+      "String manipulation (strip and split) provides a concise solution.",
+      "The `strip()` method handles leading/trailing spaces effectively.",
+      "Accessing the last element of the split array gives the last word."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

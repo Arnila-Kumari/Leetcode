@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-or",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Prefix OR sums (right) and a running OR sum (left) to efficiently calculate OR of subarrays with one modified element."
+  ],
+  "problem_summary_simple": "Maximize the bitwise OR of array elements after multiplying one element by 2 at most k times.",
+  "problem_summary_technical": "Uses prefix OR sums to find the OR of elements to the right of a chosen element, combined with left OR and the modified element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Multiplying an element by 2 (`x << 1`) only sets a new bit if that bit was previously unset.",
+      "The optimal strategy is to apply all `k` multiplications to a single element to maximize its bit contribution.",
+      "Precomputing suffix OR sums allows for O(1) lookup of the OR of elements to the right of any index."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimize-the-difference-between-target-and-chosen-elements",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with set to store reachable sums, pruning sums that exceed target bounds."
+  ],
+  "problem_summary_simple": "Find the minimum difference between a target and the sum of one element from each row of a matrix.",
+  "problem_summary_technical": "Uses DP to compute all possible sums by iterating through rows and elements, keeping track of reachable sums in a set.",
+  "time_complexity": [
+    "O(t * m * n)"
+  ],
+  "space_complexity": [
+    "O(t)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming where `dp[i]` represents the set of all possible sums achievable using elements from the first `i` rows.",
+      "The state transition involves adding each element of the current row to all sums from the previous row.",
+      "Pruning the DP set by removing sums that are too far from the target (greater than `target - min_possible_sum`) can optimize performance."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

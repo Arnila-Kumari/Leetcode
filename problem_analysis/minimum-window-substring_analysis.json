@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-window-substring",
+  "data_structures": [
+    [
+      "hash map (collections.Counter)",
+      "integer variables for pointers and counts"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a hash map to track character counts and required characters."
+  ],
+  "problem_summary_simple": "Find the smallest substring in s that contains all characters of t, including duplicates.",
+  "problem_summary_technical": "Uses a sliding window approach with a hash map to efficiently track character counts and window validity.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic sliding window problem where we expand the window to satisfy the condition and shrink it to find the minimum.",
+      "A hash map (or frequency array) is crucial for keeping track of character counts in both the target string `t` and the current window in `s`.",
+      "The key is to maintain a count of characters that are still needed from `t` and to greedily shrink the window from the left once all characters are found."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

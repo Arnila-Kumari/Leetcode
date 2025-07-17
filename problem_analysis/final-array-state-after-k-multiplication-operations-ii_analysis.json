@@ -1,0 +1,59 @@
+{
+  "problem_name": "final-array-state-after-k-multiplication-operations-ii",
+  "data_structures": [
+    [
+      "list",
+      "tuple",
+      "logarithm"
+    ],
+    [
+      "list",
+      "tuple",
+      "logarithm"
+    ],
+    [
+      "heap",
+      "list",
+      "tuple"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Logarithmic transformation, binary search on target value, fast exponentiation with modulo",
+    "Logarithmic transformation, binary search on target value, fast exponentiation with modulo",
+    "Heap to track minimums, limited simulation with optimization, fast exponentiation with modulo"
+  ],
+  "problem_summary_simple": "Repeatedly multiply the smallest element by a multiplier for k operations, then apply modulo.",
+  "problem_summary_technical": "Simulate k operations of multiplying the minimum element by a multiplier, applying modulo at the end.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log r)",
+    "O(k log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core logic is similar to the 'I' version, but with the added complexity of modulo arithmetic.",
+      "Fast exponentiation with modulo is essential for handling large numbers and preventing overflow.",
+      "The logarithmic transformation and binary search approach remains effective for optimizing the number of operations."
+    ],
+    [
+      "The problem requires handling potentially very large numbers due to k and multiplier, necessitating modulo arithmetic.",
+      "The logarithmic transformation and binary search strategy is still applicable to determine the number of multiplications per element.",
+      "Careful application of modulo at each multiplication step is crucial."
+    ],
+    [
+      "Using a min-heap to track the smallest elements is efficient for simulation.",
+      "The modulo operation must be applied during intermediate calculations to prevent overflow.",
+      "The optimization to stop early if the next multiplication exceeds the maximum value is still valid."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:42:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

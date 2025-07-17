@@ -1,0 +1,32 @@
+{
+  "problem_name": "earliest-possible-day-of-full-bloom",
+  "data_structures": [
+    [
+      "array",
+      "list of tuples/pairs"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "sorting by growTime, greedy assignment"
+  ],
+  "problem_summary_simple": "Find the earliest day all flowers bloom, given planting and growing times.",
+  "problem_summary_technical": "Greedily schedule planting by sorting seeds by decreasing growTime to minimize the latest bloom day.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The optimal strategy is to plant the seeds that take the longest to grow first.",
+      "This greedy approach ensures that the longest growing periods are accounted for earliest, minimizing the overall completion time.",
+      "The total time is determined by the maximum of (current planting completion time + grow time) for each seed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "relative-ranks",
+  "data_structures": [
+    [
+      "list",
+      "dictionary"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sorting and mapping scores to ranks"
+  ],
+  "problem_summary_simple": "Assign ranks (Gold, Silver, Bronze, or number) to athletes based on their scores.",
+  "problem_summary_technical": "Sort scores in descending order, create a mapping from score to rank, and apply to original scores.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the scores is essential to determine the placement.",
+      "A dictionary (hash map) is efficient for mapping sorted scores back to their original positions.",
+      "The ranks 'Gold Medal', 'Silver Medal', 'Bronze Medal' are special cases for the top 3."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

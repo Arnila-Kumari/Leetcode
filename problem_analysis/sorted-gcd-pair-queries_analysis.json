@@ -1,0 +1,35 @@
+{
+  "problem_name": "sorted-gcd-pair-queries",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list",
+      "bisect module"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Number theory, frequency table, prefix sum, binary search"
+  ],
+  "problem_summary_simple": "Find the k-th smallest GCD of all pairs in an array, for multiple queries.",
+  "problem_summary_technical": "Calculate GCDs of all pairs, sort them, and efficiently query the k-th smallest GCD using prefix sums and binary search.",
+  "time_complexity": [
+    "O(r log r + q log r)"
+  ],
+  "space_complexity": [
+    "O(r)"
+  ],
+  "key_insights": [
+    [
+      "Directly calculating all GCD pairs (O(n^2)) is too slow given n up to 10^5.",
+      "The key insight is to count the occurrences of each possible GCD value.",
+      "We can iterate through potential GCDs from largest to smallest.",
+      "For a GCD 'g', count multiples of 'g' in the input array. The number of pairs with GCD 'g' can be derived from counts of multiples of 'g', '2g', '3g', etc.",
+      "A prefix sum array on the counts of GCDs allows for efficient binary search to find the k-th smallest GCD."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:09:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

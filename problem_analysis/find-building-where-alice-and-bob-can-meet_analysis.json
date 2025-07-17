@@ -1,0 +1,56 @@
+{
+  "problem_name": "find-building-where-alice-and-bob-can-meet",
+  "data_structures": [
+    [
+      "SegmentTree",
+      "List"
+    ],
+    [
+      "List",
+      "heapq"
+    ],
+    [
+      "List",
+      "List"
+    ]
+  ],
+  "category": "Segment Tree",
+  "algorithm_technique": [
+    "Segment Tree for Range Maximum Query (RMQ) combined with binary search",
+    "Offline processing with a min-heap to find next taller buildings",
+    "Offline processing with a monotonic stack and binary search to find next taller buildings"
+  ],
+  "problem_summary_simple": "Find the leftmost building Alice and Bob can meet, given movement rules.",
+  "problem_summary_technical": "Use RMQ/Segment Tree or offline processing with heaps/stacks to find the leftmost building taller than both Alice's and Bob's current buildings.",
+  "time_complexity": [
+    "O(n + qlogn)",
+    "O(n + qlogq)",
+    "O(n + qlogn)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n + q)",
+    "O(n + q)"
+  ],
+  "key_insights": [
+    [
+      "A Segment Tree can efficiently query the maximum height in a range.",
+      "Binary search on the Segment Tree helps find the leftmost building satisfying the height condition.",
+      "Queries are processed by checking direct moves first, then using the Segment Tree for further searches."
+    ],
+    [
+      "Offline processing is key: sort queries by Bob's building index.",
+      "A min-heap stores (Alice's height, query index) for buildings processed so far.",
+      "As we iterate through buildings, if a building's height is greater than the heap's minimum, we've found a meeting point."
+    ],
+    [
+      "Offline processing with a monotonic stack is efficient for finding the next greater element.",
+      "Process buildings from right to left, maintaining a stack of (height, index) in decreasing order.",
+      "For each query, binary search on the stack to find the leftmost building taller than Alice's."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:17:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

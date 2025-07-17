@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-binary-substrings",
+  "data_structures": [
+    [
+      "variables for counts"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "grouping consecutive characters",
+    "min of adjacent group counts"
+  ],
+  "problem_summary_simple": "Count binary substrings with equal consecutive 0s and 1s.",
+  "problem_summary_technical": "Iterate through string, count consecutive groups, and sum minimums of adjacent group lengths.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "group consecutive identical characters",
+      "valid substrings are formed at boundaries of different groups",
+      "count is min of adjacent group lengths"
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:44:56",
+  "batch_processed": true,
+  "batch_size": 4
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "sum-of-good-numbers",
+  "data_structures": [
+    [
+      "array (nums)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Linear scan with boundary checks for 'good' elements."
+  ],
+  "problem_summary_simple": "Sum elements that are strictly greater than elements k positions away.",
+  "problem_summary_technical": "Iterates through the array, checking if each element is strictly greater than its neighbors at indices i-k and i+k, if they exist.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The definition of a 'good' number involves checking elements at specific offsets (i-k and i+k).",
+      "Careful handling of boundary conditions (i-k < 0 or i+k >= len(nums)) is crucial.",
+      "A single pass through the array is sufficient to identify and sum all good numbers."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

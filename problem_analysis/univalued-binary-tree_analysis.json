@@ -1,0 +1,43 @@
+{
+  "problem_name": "univalued-binary-tree",
+  "data_structures": [
+    [
+      "stack",
+      "binary tree"
+    ],
+    [
+      "binary tree"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS using a stack to visit all nodes and check if their values match the root's value.",
+    "Recursive DFS to traverse the tree, checking node values against the parent's value."
+  ],
+  "problem_summary_simple": "Determine if all nodes in a binary tree have the same value.",
+  "problem_summary_technical": "Traverses the binary tree (iteratively or recursively) to verify that every node's value is identical to the root's value.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The definition of a univalued tree means all nodes must share the same value as the root.",
+      "Both iterative (using a stack) and recursive Depth-First Search (DFS) are suitable traversal methods.",
+      "The base case for recursion is an empty node, and the check involves comparing the current node's value with the root's value."
+    ],
+    [
+      "The definition of a univalued tree means all nodes must share the same value as the root.",
+      "Both iterative (using a stack) and recursive Depth-First Search (DFS) are suitable traversal methods.",
+      "The base case for recursion is an empty node, and the check involves comparing the current node's value with the root's value."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

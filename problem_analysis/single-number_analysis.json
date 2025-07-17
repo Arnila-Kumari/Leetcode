@@ -1,0 +1,31 @@
+{
+  "problem_name": "single-number",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Utilize the XOR bitwise operation: XORing a number with itself results in 0, and XORing with 0 results in the number itself."
+  ],
+  "problem_summary_simple": "Find the one number that appears only once in an array where all others appear twice.",
+  "problem_summary_technical": "Apply the XOR operation across all elements; pairs cancel out, leaving the single unique number.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The XOR property (a ^ a = 0, a ^ 0 = a) is fundamental.",
+      "This approach efficiently solves the problem in linear time and constant space.",
+      "It's a classic example of leveraging bitwise operations for a specific problem."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

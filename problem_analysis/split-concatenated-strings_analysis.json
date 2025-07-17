@@ -1,0 +1,32 @@
+{
+  "problem_name": "split-concatenated-strings",
+  "data_structures": [
+    [
+      "list of strings",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Concatenation, reversal, and lexicographical comparison"
+  ],
+  "problem_summary_simple": "Find the lexicographically largest string by looping, reversing, and splitting concatenated strings.",
+  "problem_summary_technical": "Concatenate strings (with optional reversal), then iterate through all possible split points and reversed versions to find the max.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves exploring many combinations of reversals and split points.",
+      "Pre-calculating the best version of each string (original or reversed) simplifies the loop.",
+      "The final comparison needs to consider all possible cut points in the looped string."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

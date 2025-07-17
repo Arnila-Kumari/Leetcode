@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-star-sum-of-a-graph",
+  "data_structures": [
+    [
+      "adjacency list",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Graph traversal, QuickSelect for efficient k-largest neighbor selection"
+  ],
+  "problem_summary_simple": "Find the maximum sum of a star graph (center + neighbors) with at most k edges.",
+  "problem_summary_technical": "Iterate through each node as a potential center, collect positive neighbors, and use QuickSelect to find the k largest neighbor values for maximum star sum.",
+  "time_complexity": [
+    "O(N + E + N*K)"
+  ],
+  "space_complexity": [
+    "O(N + E)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering each node as a potential center of the star graph.",
+      "Only positive-valued neighbors contribute to increasing the star sum, so filter them.",
+      "QuickSelect is crucial for efficiently finding the top k neighbors without full sorting."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

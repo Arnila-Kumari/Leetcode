@@ -1,0 +1,42 @@
+{
+  "problem_name": "count-substrings-without-repeating-character",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ],
+    [
+      "array",
+      "boolean"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a lookup array to track last seen character positions.",
+    "Sliding window with a boolean lookup array to track character presence in the current window."
+  ],
+  "problem_summary_simple": "Count substrings that do not contain any repeating characters.",
+  "problem_summary_technical": "Uses a sliding window and a lookup table (either last seen index or presence flag) to maintain unique characters within the window and count valid substrings.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to maintain a window of unique characters. When a duplicate is found, the left pointer must advance past the previous occurrence of that character.",
+      "The number of valid substrings ending at `right` is `right - left + 1`. This is because any substring starting from `left` up to `right` and ending at `right` will be unique."
+    ],
+    [
+      "The boolean lookup approach is simpler to reason about for presence, but requires a `while` loop to shrink the window when a duplicate is encountered.",
+      "Both solutions efficiently use a fixed-size array (26 for lowercase English letters) as a hash map for character lookups."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

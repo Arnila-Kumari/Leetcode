@@ -1,0 +1,33 @@
+{
+  "problem_name": "design-search-autocomplete-system",
+  "data_structures": [
+    [
+      "TrieNode",
+      "defaultdict(int)",
+      "list"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Utilize a Trie to store sentences and their frequencies, with each node storing top 3 hot sentences."
+  ],
+  "problem_summary_simple": "Design an autocomplete system that suggests top 3 sentences based on user input prefix.",
+  "problem_summary_technical": "A Trie stores sentences, with nodes caching top 3 hot sentences based on frequency and ASCII order for prefix matching.",
+  "time_complexity": [
+    "init: O(N*L), input: O(P*logK + P) where P is prefix length, K is top count (3)"
+  ],
+  "space_complexity": [
+    "O(N*L + T*K) where N is number of sentences, L is avg sentence length, T is number of unique prefixes"
+  ],
+  "key_insights": [
+    [
+      "A Trie is ideal for prefix-based searching.",
+      "Each Trie node needs to store the top K (3) matching sentences, sorted by frequency and then ASCII.",
+      "When a sentence is finalized ('#'), it needs to be added/updated in the Trie, potentially re-sorting nodes."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:40:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "shortest-path-visiting-all-nodes",
+  "data_structures": [
+    [
+      "collections.deque",
+      "list of lists"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) on a state-space graph"
+  ],
+  "problem_summary_simple": "Find the shortest path that visits every node in a connected graph.",
+  "problem_summary_technical": "BFS on a state-space where state is (visited_mask, current_node) to find shortest path to all nodes visited.",
+  "time_complexity": [
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(n * 2^n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires visiting all nodes, implying a state that tracks which nodes have been visited.",
+      "BFS is used on a state-space where each state is (mask_of_visited_nodes, current_node).",
+      "The goal is to reach any state where the mask indicates all nodes have been visited."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

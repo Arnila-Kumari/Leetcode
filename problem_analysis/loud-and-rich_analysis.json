@@ -1,0 +1,32 @@
+{
+  "problem_name": "loud-and-rich",
+  "data_structures": [
+    [
+      "List",
+      "List"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Build a graph representing 'richer' relationships, then use DFS with memoization to find the quietest person for each person."
+  ],
+  "problem_summary_simple": "For each person, find the quietest person who has at least as much money as them.",
+  "problem_summary_technical": "Constructs a graph where an edge v -> u means u is richer than v. DFS with memoization finds the quietest person reachable from each node.",
+  "time_complexity": [
+    "O(N + E), where N is the number of people and E is the number of richer relationships."
+  ],
+  "space_complexity": [
+    "O(N + E) for the adjacency list representation of the graph and the memoization table."
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the minimum quietness among all ancestors in a directed graph (where edges point from poorer to richer).",
+      "DFS with memoization is efficient for exploring these relationships and avoiding redundant computations.",
+      "The result for a person `x` is the quietest person among `x` and all people richer than `x`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

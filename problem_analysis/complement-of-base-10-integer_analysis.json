@@ -1,0 +1,32 @@
+{
+  "problem_name": "complement-of-base-10-integer",
+  "data_structures": [
+    [
+      "integer",
+      "integer mask"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bitwise operations to find the smallest power of 2 greater than N and subtract N."
+  ],
+  "problem_summary_simple": "Flip the bits of an integer's binary representation.",
+  "problem_summary_technical": "Find a mask of all 1s up to the most significant bit of N, then XOR N with the mask.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The complement can be found by XORing the number with a mask of all ones up to its most significant bit.",
+      "A mask can be constructed by finding the smallest power of 2 greater than N and subtracting 1.",
+      "The loop `while N > mask: mask = mask*2+1` efficiently builds this mask."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

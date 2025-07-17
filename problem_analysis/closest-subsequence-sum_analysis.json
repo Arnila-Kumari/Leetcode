@@ -1,0 +1,33 @@
+{
+  "problem_name": "closest-subsequence-sum",
+  "data_structures": [
+    [
+      "set",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Meet-in-the-middle: split array, generate all subset sums for each half, sort one half, use binary search to find closest sum from the other half."
+  ],
+  "problem_summary_simple": "Find a subsequence whose sum is closest to a target value.",
+  "problem_summary_technical": "Divide array into two halves, generate all subset sums for each half, then use binary search on sorted sums to find the closest pair.",
+  "time_complexity": [
+    "O(N * 2^(N/2))"
+  ],
+  "space_complexity": [
+    "O(2^(N/2))"
+  ],
+  "key_insights": [
+    [
+      "The problem constraints (N <= 40) suggest an exponential solution, but not O(2^N). Meet-in-the-middle is a common pattern for this.",
+      "Generating all subset sums for each half is done recursively or iteratively.",
+      "Binary search on the sorted sums of one half is key to efficiently finding the complement sum from the other half."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:35:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

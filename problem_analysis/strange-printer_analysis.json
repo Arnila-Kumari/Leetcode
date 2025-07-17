@@ -1,0 +1,31 @@
+{
+  "problem_name": "strange-printer",
+  "data_structures": [
+    [
+      "dictionary (for memoization)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with memoization"
+  ],
+  "problem_summary_simple": "Find the minimum turns to print a string by printing contiguous same characters.",
+  "problem_summary_technical": "Uses DP with memoization to calculate minimum operations for substrings, considering splits at matching characters.",
+  "time_complexity": [
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into subproblems of printing substrings.",
+      "When a character `s[k]` matches the end character `s[j]`, we can potentially split the problem at `k`.",
+      "Memoization is crucial to avoid recomputing results for overlapping subproblems."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

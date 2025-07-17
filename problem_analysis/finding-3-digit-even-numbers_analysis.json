@@ -1,0 +1,73 @@
+{
+  "problem_name": "finding-3-digit-even-numbers",
+  "data_structures": [
+    [
+      "List",
+      "Counter",
+      "Array"
+    ],
+    [
+      "List",
+      "Counter",
+      "Array"
+    ],
+    [
+      "List",
+      "Counter",
+      "Doubly Linked List",
+      "Node"
+    ],
+    [
+      "List",
+      "Counter",
+      "Array"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with frequency count to generate permutations",
+    "Iterative approach with frequency count and nested loops",
+    "Backtracking with a custom doubly linked list for efficient removal",
+    "Backtracking with frequency count and dynamic list manipulation"
+  ],
+  "problem_summary_simple": "Find all unique 3-digit even numbers that can be formed using digits from a given array, respecting digit counts.",
+  "problem_summary_technical": "Generates 3-digit numbers using backtracking or iteration, ensuring no leading zeros and evenness, while respecting digit frequencies.",
+  "time_complexity": [
+    "O(N^3) or O(10^3) for backtracking, where N is digits.length",
+    "O(10^3) for iterative approach",
+    "O(N^3) or O(10^3) for backtracking with linked list",
+    "O(N^3) or O(10^3) for backtracking with dynamic list"
+  ],
+  "space_complexity": [
+    "O(N) for frequency count and recursion stack",
+    "O(1) for frequency count",
+    "O(N) for frequency count and recursion stack",
+    "O(N) for frequency count and recursion stack"
+  ],
+  "key_insights": [
+    [
+      "The problem requires forming 3-digit numbers, so the first digit cannot be zero.",
+      "The number must be even, meaning the last digit must be 0, 2, 4, 6, or 8.",
+      "The frequency of each digit in the input array must be respected when forming the numbers."
+    ],
+    [
+      "An iterative approach can be more efficient than backtracking by directly iterating through all possible 3-digit numbers and checking if they can be formed.",
+      "Using a frequency map (like `collections.Counter`) is crucial for tracking available digits.",
+      "The constraints on the number of digits (up to 100) and the limited range of digits (0-9) make brute-force or optimized iterative approaches feasible."
+    ],
+    [
+      "Using a doubly linked list to manage digit counts allows for O(1) removal and insertion of digits during backtracking, which can be more efficient than array manipulation.",
+      "The `dummy` node simplifies handling the head of the linked list.",
+      "Careful management of the linked list pointers is necessary to maintain correctness."
+    ],
+    [
+      "Sorting the digits and their counts before backtracking can help in generating results in a somewhat ordered manner, though a final sort is still needed.",
+      "Dynamically removing and re-adding elements from the `digit_cnt` list during backtracking is a way to manage available digits.",
+      "The `digit_cnt[-1]` swap trick is a common pattern for efficient removal from a list when order doesn't strictly matter for the remaining elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

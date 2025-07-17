@@ -1,0 +1,32 @@
+{
+  "problem_name": "parsing-a-boolean-expression",
+  "data_structures": [
+    [
+      "stack",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Recursive parsing with a mutable index to track position"
+  ],
+  "problem_summary_simple": "Evaluate a boolean expression involving NOT, AND, OR, true, and false.",
+  "problem_summary_technical": "Recursively parses the expression, evaluating subexpressions and applying logical operators based on the structure.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The expression structure naturally lends itself to a recursive solution.",
+      "A mutable index (passed by reference or as a list element) is crucial for tracking progress during parsing.",
+      "The base cases are 't' and 'f', while recursive steps handle '!', '&', and '|' operators."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

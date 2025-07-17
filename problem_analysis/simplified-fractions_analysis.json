@@ -1,0 +1,32 @@
+{
+  "problem_name": "simplified-fractions",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through all possible numerators and denominators, use GCD to simplify and store unique fractions in a set."
+  ],
+  "problem_summary_simple": "Find all unique, simplified fractions between 0 and 1 with denominators up to n.",
+  "problem_summary_technical": "Generate fractions a/b where 1 <= a < b <= n, simplify using GCD, and store unique simplified forms in a set.",
+  "time_complexity": [
+    "O(n^2 * logn)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The greatest common divisor (GCD) is essential for simplifying fractions.",
+      "Using a set automatically handles uniqueness of simplified fractions.",
+      "The nested loops generate all potential fractions, and GCD filtering ensures correctness."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

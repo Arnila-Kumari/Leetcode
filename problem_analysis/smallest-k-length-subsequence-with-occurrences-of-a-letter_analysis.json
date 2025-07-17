@@ -1,0 +1,33 @@
+{
+  "problem_name": "smallest-k-length-subsequence-with-occurrences-of-a-letter",
+  "data_structures": [
+    [
+      "stack",
+      "array"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack approach: build subsequence greedily, maintaining lexicographical order and required repetitions."
+  ],
+  "problem_summary_simple": "Find the lexicographically smallest subsequence of length k with a specific letter appearing at least `repetition` times.",
+  "problem_summary_technical": "Use a monotonic stack to build the subsequence, prioritizing smaller characters and ensuring letter repetition constraints are met.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A monotonic stack is crucial for maintaining lexicographical order.",
+      "Pre-calculating suffix counts of the target letter helps in making greedy decisions.",
+      "The condition `len(stk) + (len(s) - i) > k` ensures we can still form a subsequence of length k.",
+      "The condition `stk[-1] != letter or repetition + 1 <= suffix[i]` is key to deciding when to pop elements to make space for smaller ones while respecting letter counts."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:09:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

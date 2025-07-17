@@ -1,0 +1,45 @@
+{
+  "problem_name": "distant-barcodes",
+  "data_structures": [
+    [
+      "hash map (Counter)",
+      "array"
+    ],
+    [
+      "hash map (Counter)",
+      "sorted list",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Place most frequent elements at even indices, then fill remaining slots.",
+    "Sort by frequency and place elements greedily at alternating positions."
+  ],
+  "problem_summary_simple": "Rearrange barcodes so no two adjacent barcodes are the same.",
+  "problem_summary_technical": "Greedily places most frequent barcodes at spaced intervals, then fills remaining slots to satisfy adjacency constraints.",
+  "time_complexity": [
+    "O(n)",
+    "O(n + klogk)"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The most frequent element is the bottleneck; it must be spaced out.",
+      "Placing the most frequent elements at even indices (0, 2, 4, ...) is a common strategy.",
+      "The problem guarantees a solution exists, simplifying the approach."
+    ],
+    [
+      "Sorting by frequency allows prioritizing the placement of the most common barcodes.",
+      "Placing elements at indices `i` and `i+2` ensures separation.",
+      "The second solution is more general and handles cases where the first might be slightly less intuitive to implement correctly."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-celebrity",
+  "data_structures": [
+    [
+      "integer",
+      "function call"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Two-pass approach: candidate elimination and verification"
+  ],
+  "problem_summary_simple": "Find a person who is known by everyone but knows no one, using a 'knows' API.",
+  "problem_summary_technical": "Uses a two-pass approach: first, find a potential candidate by eliminating non-celebrities; second, verify the candidate's properties.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "If A knows B, A cannot be a celebrity. If A does not know B, B cannot be a celebrity.",
+      "This allows for efficient elimination of candidates in a single pass.",
+      "A second pass is necessary to confirm the remaining candidate meets all celebrity criteria."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

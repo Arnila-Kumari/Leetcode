@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-subarray-sum-after-one-operation",
+  "data_structures": [
+    [
+      "variables for tracking sums"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with two states: subarray ending with squared element and without."
+  ],
+  "problem_summary_simple": "Find the max subarray sum after squaring exactly one element.",
+  "problem_summary_technical": "DP approach tracking max subarray sum ending at current index, with and without a squared element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maintain two DP states: one for subarrays ending with a squared element and one for subarrays ending without.",
+      "The transition considers extending existing subarrays or starting new ones with the current element (squared or not).",
+      "The overall maximum is tracked across all possible ending points and operations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

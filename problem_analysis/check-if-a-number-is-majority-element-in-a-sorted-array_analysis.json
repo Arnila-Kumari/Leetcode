@@ -1,0 +1,32 @@
+{
+  "problem_name": "check-if-a-number-is-majority-element-in-a-sorted-array",
+  "data_structures": [
+    [
+      "list",
+      "bisect module"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search to find first and last occurrences, then check count."
+  ],
+  "problem_summary_simple": "Determine if a target number appears more than half the time in a sorted array.",
+  "problem_summary_technical": "Uses binary search (bisect_left, bisect_right) to find the range of the target element and checks if its count exceeds half the array length.",
+  "time_complexity": [
+    "O(logn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Leveraging the sorted nature of the array is key for an efficient solution.",
+      "Binary search (`bisect_left` and `bisect_right`) is ideal for finding the start and end indices of a target element in a sorted array.",
+      "The condition for a majority element is strictly greater than `n/2`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

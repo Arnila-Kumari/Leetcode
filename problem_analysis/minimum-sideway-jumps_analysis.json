@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-sideway-jumps",
+  "data_structures": [
+    [
+      "set",
+      "integer"
+    ],
+    [
+      "1D array (DP table)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: at each point, try to stay on the current lane if possible, otherwise make a minimal jump.",
+    "Dynamic Programming: `dp[j]` stores the minimum jumps to reach point `i` in lane `j`."
+  ],
+  "problem_summary_simple": "Find the minimum side jumps for a frog to cross a road with obstacles.",
+  "problem_summary_technical": "Greedy or DP to find minimum side jumps, considering obstacles at each point and lane transitions.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy solution works because at any point, if the current lane is clear, it's always optimal to stay.",
+      "If the current lane has an obstacle, we must jump. The greedy choice is to jump to an available lane with the fewest jumps.",
+      "The DP solution tracks the minimum jumps to reach each lane at the current point."
+    ],
+    [
+      "The DP state `dp[j]` represents the minimum side jumps to reach the current point `i` in lane `j`.",
+      "When an obstacle `i` is encountered at point `p`, `dp[i-1]` is set to infinity.",
+      "The transition `dp[j] = min(dp[0]+(j != 0), dp[1]+(j != 1), dp[2]+(j != 2))` calculates the minimum jumps to reach lane `j` from any lane at the previous point, considering potential side jumps."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

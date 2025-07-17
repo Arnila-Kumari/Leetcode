@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimum-absolute-difference-queries",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use prefix sums (counts) for each number to quickly determine the presence of numbers within a query range and find the minimum difference.",
+    "Precompute indices for each number and use binary search (bisect_left) to find occurrences within query ranges for minimum difference calculation."
+  ],
+  "problem_summary_simple": "For given ranges in an array, find the smallest difference between distinct numbers.",
+  "problem_summary_technical": "Precompute prefix counts or indices for each number. For each query, efficiently check for distinct numbers within the range and calculate the minimum difference.",
+  "time_complexity": [
+    "O(r * (n + q))",
+    "O(r + n + q * logn)"
+  ],
+  "space_complexity": [
+    "O(r * n)",
+    "O(r + n)"
+  ],
+  "key_insights": [
+    [
+      "The constraint on `nums[i]` (<= 100) is a strong hint for using frequency-based or index-based precomputation.",
+      "Prefix sums (or counts) allow O(1) lookup for the number of occurrences of a value up to an index.",
+      "Iterating through possible values (1 to 100) and checking their presence in the subarray is efficient with precomputation."
+    ],
+    [
+      "Storing indices for each number allows for efficient range queries using binary search.",
+      "`bisect_left` helps find the first occurrence of a number at or after the left boundary of the query.",
+      "Checking if this occurrence is within the right boundary of the query determines if the number exists in the subarray."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

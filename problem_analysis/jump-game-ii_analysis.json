@@ -1,0 +1,31 @@
+{
+  "problem_name": "jump-game-ii",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach tracking current and maximum reachable indices with jump count"
+  ],
+  "problem_summary_simple": "Find the minimum number of jumps to reach the last index of an array.",
+  "problem_summary_technical": "Greedily find minimum jumps by expanding the reachable range with each jump.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This is a greedy problem where we want to make the largest possible jump at each step.",
+      "We maintain `reachable` (farthest we can reach with current jumps) and `curr_reachable` (farthest we can reach with one more jump).",
+      "When `i` exceeds `curr_reachable`, it signifies that a new jump is necessary, and we update `curr_reachable` to the current `reachable`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

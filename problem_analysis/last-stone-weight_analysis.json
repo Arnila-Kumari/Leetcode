@@ -1,0 +1,31 @@
+{
+  "problem_name": "last-stone-weight",
+  "data_structures": [
+    [
+      "max heap (implemented with min heap and negation)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Simulate the stone smashing process using a max heap."
+  ],
+  "problem_summary_simple": "Repeatedly smash the two heaviest stones until at most one remains, return its weight.",
+  "problem_summary_technical": "Uses a max heap to efficiently retrieve and update the two heaviest stones in each step of the simulation.",
+  "time_complexity": [
+    "O(N log N) where N is the number of stones"
+  ],
+  "space_complexity": [
+    "O(N) for the heap"
+  ],
+  "key_insights": [
+    [
+      "A max heap is the ideal data structure to efficiently find the two largest elements.",
+      "The problem can be simulated by repeatedly extracting the two largest elements, calculating the difference, and re-inserting if non-zero.",
+      "Negating values allows using Python's `heapq` (a min-heap) as a max-heap."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

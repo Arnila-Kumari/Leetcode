@@ -1,0 +1,32 @@
+{
+  "problem_name": "reverse-nodes-in-k-group",
+  "data_structures": [
+    [
+      "Linked List",
+      "Dummy Node"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterative traversal with group reversal using pointer manipulation."
+  ],
+  "problem_summary_simple": "Reverse nodes in a linked list in groups of k, leaving the last group unchanged if it's smaller than k.",
+  "problem_summary_technical": "Iteratively traverse a linked list, reversing segments of k nodes using pointer manipulation and a dummy node for O(1) space.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A dummy node simplifies handling the head of the list and edge cases.",
+      "The core logic involves carefully re-wiring pointers within each k-group.",
+      "Tracking the end of the previous group is crucial for connecting reversed segments."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:19:02",
+  "batch_processed": true,
+  "batch_size": 4
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "climbing-stairs",
+  "data_structures": [
+    [
+      "matrix"
+    ],
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Matrix exponentiation to calculate Fibonacci numbers efficiently.",
+    "Iterative approach using two variables to store previous two Fibonacci numbers."
+  ],
+  "problem_summary_simple": "Calculate the number of distinct ways to climb to the top of a staircase with n steps, taking 1 or 2 steps at a time.",
+  "problem_summary_technical": "The problem maps to Fibonacci numbers. Solutions use matrix exponentiation for O(log n) or iterative DP for O(n) time complexity.",
+  "time_complexity": [
+    "O(logn)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of ways to reach step `n` is the sum of ways to reach `n-1` and `n-2`.",
+      "This recurrence relation is the Fibonacci sequence.",
+      "Matrix exponentiation is a standard technique to compute Fibonacci numbers in logarithmic time."
+    ],
+    [
+      "The iterative DP approach is simpler and more space-efficient for this problem.",
+      "It avoids recursion overhead and directly computes the required Fibonacci number.",
+      "This is a classic example of how dynamic programming can solve problems with overlapping subproblems."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

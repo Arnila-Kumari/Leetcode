@@ -1,0 +1,34 @@
+{
+  "problem_name": "minimum-operations-to-convert-number",
+  "data_structures": [
+    [
+      "queue",
+      "hash set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) to find the shortest path in a state space.",
+    "State representation: current number, operations count."
+  ],
+  "problem_summary_simple": "Convert a start number to a goal number using arithmetic and XOR operations on array elements.",
+  "problem_summary_technical": "BFS explores possible number transformations within a limited range, using a queue and visited set.",
+  "time_complexity": [
+    "O(n * m), where m is the range of valid numbers (1000)"
+  ],
+  "space_complexity": [
+    "O(m), where m is the range of valid numbers (1000)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as a shortest path problem on a graph where nodes are numbers and edges are operations.",
+      "BFS guarantees finding the minimum number of operations because it explores layer by layer.",
+      "A `visited` set is crucial to avoid cycles and redundant computations.",
+      "Operations that result in numbers outside the 0-1000 range are valid but terminate further operations for that path."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

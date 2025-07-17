@@ -1,0 +1,33 @@
+{
+  "problem_name": "strange-printer-ii",
+  "data_structures": [
+    [
+      "dictionary (for bounding boxes)",
+      "dictionary (for adjacency list)",
+      "dictionary (for visited states)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Graph cycle detection (DFS) on color dependencies"
+  ],
+  "problem_summary_simple": "Determine if a grid can be printed by coloring rectangles with unique colors.",
+  "problem_summary_technical": "Models color dependencies as a graph; checks for cycles to ensure valid printing order.",
+  "time_complexity": [
+    "O(c * m * n + c^2)"
+  ],
+  "space_complexity": [
+    "O(c^2)"
+  ],
+  "key_insights": [
+    [
+      "Each color must form a solid rectangle.",
+      "A color cannot be used if it's covered by another color that must be printed later.",
+      "This dependency can be modeled as a directed graph where an edge from color A to color B means A must be printed before B."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

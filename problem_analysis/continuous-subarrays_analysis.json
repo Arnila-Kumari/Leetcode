@@ -1,0 +1,55 @@
+{
+  "problem_name": "continuous-subarrays",
+  "data_structures": [
+    [
+      "hashmap",
+      "deque"
+    ],
+    [
+      "hashmap",
+      "deque"
+    ],
+    [
+      "SortedDict"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "two pointers with min/max tracking",
+    "two pointers with monotonic deques for min/max",
+    "two pointers with ordered dictionary for min/max"
+  ],
+  "problem_summary_simple": "Count subarrays where the difference between max and min elements is at most 2.",
+  "problem_summary_technical": "Uses sliding window (two pointers) and efficiently tracks min/max within the window to count valid subarrays.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The condition `|nums[i1] - nums[i2]| <= 2` for all elements in a subarray implies that `max(subarray) - min(subarray) <= 2`.",
+      "A sliding window approach with two pointers is suitable. The left pointer expands the window until the condition is violated.",
+      "Maintaining the min and max within the current window efficiently is key. Monotonic deques or an ordered dictionary can achieve this."
+    ],
+    [
+      "Monotonic deques (one for minimum, one for maximum) allow O(1) retrieval of the current min/max in the window.",
+      "When the window violates the condition (max - min > 2), the left pointer is advanced, and elements are removed from the deques if they are outside the new window.",
+      "The number of valid subarrays ending at `right` is `right - left + 1`."
+    ],
+    [
+      "An ordered dictionary (like `SortedDict`) can store elements and their indices, allowing efficient retrieval of min/max and removal of elements outside the valid range.",
+      "When the window expands, new elements are added. If the min/max difference exceeds 2, the left pointer is advanced, and elements that are too small or too large are removed from the dictionary.",
+      "This approach is conceptually similar to monotonic deques but uses a more general data structure."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,46 @@
+{
+  "problem_name": "apply-substitutions",
+  "data_structures": [
+    [
+      "hash map for replacements",
+      "hash map for memoization",
+      "list for result string building"
+    ],
+    [
+      "hash map for replacements",
+      "hash map for memoization",
+      "list for result string building"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Topological sort to handle dependencies, recursive replacement with string manipulation.",
+    "Recursive substitution with memoization to handle nested placeholders."
+  ],
+  "problem_summary_simple": "Replace placeholders in a text string with corresponding values from a mapping, handling nested replacements.",
+  "problem_summary_technical": "Recursively substitute placeholders in text using a mapping, employing memoization or topological sort to manage dependencies and avoid cycles.",
+  "time_complexity": [
+    "O(r * 2^r) where r is number of replacements",
+    "O(r * 2^r)"
+  ],
+  "space_complexity": [
+    "O(r * 2^r)",
+    "O(r * 2^r)"
+  ],
+  "key_insights": [
+    [
+      "Dependencies between replacements require careful handling, often via topological sort.",
+      "The recursive nature of replacements can lead to exponential complexity if not managed.",
+      "String manipulation for finding and replacing placeholders is a key part of the implementation."
+    ],
+    [
+      "The problem is inherently recursive: a placeholder's replacement might contain other placeholders.",
+      "Memoization is crucial to store results of already substituted strings, preventing redundant computations.",
+      "The constraints on string length and number of replacements suggest that a naive recursive approach without memoization would time out."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

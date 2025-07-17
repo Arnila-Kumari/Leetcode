@@ -1,0 +1,44 @@
+{
+  "problem_name": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+  "data_structures": [
+    [
+      "Adjacency List (defaultdict)",
+      "Set"
+    ],
+    [
+      "Adjacency List (defaultdict)",
+      "Set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Iterative DFS using a stack to count edges pointing away from city 0.",
+    "Recursive DFS to traverse the tree and count edges that need reorientation."
+  ],
+  "problem_summary_simple": "Change road directions in a city network so all cities can reach city 0.",
+  "problem_summary_technical": "Count edges that need reversal in a tree structure to ensure all nodes can reach node 0.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a tree where we need to ensure all nodes have a path to the root (city 0).",
+      "We can use graph traversal (DFS or BFS) starting from city 0.",
+      "During traversal, if an edge is traversed from parent to child and it's directed from child to parent, it needs to be flipped."
+    ],
+    [
+      "The problem can be modeled as a tree where we need to ensure all nodes have a path to the root (city 0).",
+      "We can use graph traversal (DFS or BFS) starting from city 0.",
+      "During traversal, if an edge is traversed from parent to child and it's directed from child to parent, it needs to be flipped."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

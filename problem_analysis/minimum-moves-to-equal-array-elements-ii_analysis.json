@@ -1,0 +1,42 @@
+{
+  "problem_name": "minimum-moves-to-equal-array-elements-ii",
+  "data_structures": [
+    [
+      "array of integers"
+    ],
+    [
+      "array of integers"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Find the median of the array and sum the absolute differences to it.",
+    "Use Quickselect to find the median efficiently."
+  ],
+  "problem_summary_simple": "Find the minimum moves to make all array elements equal by incrementing or decrementing any element by 1.",
+  "problem_summary_technical": "The optimal target value is the median of the array. Calculate the sum of absolute differences between each element and the median.",
+  "time_complexity": [
+    "O(n log n) for sorting-based median, O(n) on average for Quickselect",
+    "O(n) on average"
+  ],
+  "space_complexity": [
+    "O(1) if sorting in-place or O(n) for sorting if not in-place",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is to minimize the sum of absolute differences, which is achieved by choosing the median as the target value.",
+      "Sorting the array allows easy identification of the median.",
+      "Quickselect provides an average O(n) solution for finding the median, which is more efficient for large arrays."
+    ],
+    [
+      "The median minimizes the sum of absolute deviations.",
+      "Quickselect algorithm efficiently finds the k-th smallest element (median in this case).",
+      "The partitioning step in Quickselect is crucial for its average O(n) performance."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

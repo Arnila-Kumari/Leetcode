@@ -1,0 +1,42 @@
+{
+  "problem_name": "maximum-profit-from-trading-stocks",
+  "data_structures": [
+    [
+      "1D DP array"
+    ],
+    [
+      "2D DP array (space optimized to 2 rows)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "0/1 Knapsack variation using DP with space optimization",
+    "0/1 Knapsack variation using DP with explicit 2D table"
+  ],
+  "problem_summary_simple": "Maximize profit from buying stocks within a budget, considering future prices.",
+  "problem_summary_technical": "This is a 0/1 Knapsack problem where 'items' are stocks, 'weight' is the present price, 'value' is the profit (future - present), and 'capacity' is the budget.",
+  "time_complexity": [
+    "O(n * budget)",
+    "O(n * budget)"
+  ],
+  "space_complexity": [
+    "O(budget)",
+    "O(budget)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a 0/1 Knapsack problem.",
+      "The DP state `dp[b]` represents the maximum profit achievable with a budget of `b`.",
+      "Iterating the budget in reverse order (`reversed(xrange(p, budget+1))`) is crucial for the space-optimized DP to avoid using the same item multiple times in a single iteration."
+    ],
+    [
+      "The DP state `dp[i][b]` represents the maximum profit using the first `i` stocks with a budget of `b`.",
+      "The transition considers either not buying the current stock (`dp[i-1][b]`) or buying it if the budget allows (`dp[i-1][b-p] + (f-p)`).",
+      "Space optimization to O(budget) is achieved by noticing that `dp[i]` only depends on `dp[i-1]`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

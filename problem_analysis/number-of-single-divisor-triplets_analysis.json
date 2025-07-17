@@ -1,0 +1,33 @@
+{
+  "problem_name": "number-of-single-divisor-triplets",
+  "data_structures": [
+    [
+      "hash map (collections.Counter)",
+      "iterator (itertools.combinations, itertools.permutations)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Combinatorics with frequency counting and custom check function"
+  ],
+  "problem_summary_simple": "Count triplets where the sum is divisible by exactly one of the triplet's numbers.",
+  "problem_summary_technical": "Use a frequency map to count occurrences of numbers. Iterate through combinations of distinct numbers and pairs of identical numbers, checking the divisibility condition.",
+  "time_complexity": [
+    "O(d^3)"
+  ],
+  "space_complexity": [
+    "O(d)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves checking divisibility conditions for sums of triplets.",
+      "Using a frequency map (Counter) optimizes handling duplicate numbers.",
+      "Consider cases with distinct numbers and cases with repeated numbers in the triplet.",
+      "The constraint on `nums[i] <= 100` suggests that the number of distinct elements `d` is at most 100."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

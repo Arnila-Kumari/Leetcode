@@ -1,0 +1,33 @@
+{
+  "problem_name": "length-of-longest-subarray-with-at-most-k-frequency",
+  "data_structures": [
+    [
+      "Counter",
+      "list"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Use a sliding window with a frequency counter. Expand window, shrink if frequency exceeds k.",
+    "Maintain counts of elements within the current window."
+  ],
+  "problem_summary_simple": "Find the longest contiguous subarray where each element appears at most k times.",
+  "problem_summary_technical": "A sliding window approach with a frequency map tracks element counts, shrinking the window when any element's frequency exceeds k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The sliding window technique is ideal for problems involving contiguous subarrays and frequency constraints.",
+      "A hash map (like `collections.Counter`) efficiently stores and updates element frequencies within the window.",
+      "When the window becomes invalid (frequency > k), shrink it from the left until it's valid again."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

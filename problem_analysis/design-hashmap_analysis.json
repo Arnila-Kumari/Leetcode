@@ -1,0 +1,35 @@
+{
+  "problem_name": "design-hashmap",
+  "data_structures": [
+    [
+      "Array of LinkedLists (for separate chaining)",
+      "Doubly Linked List (for each bucket)"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Separate chaining using LinkedLists for collision resolution",
+    "Modulo arithmetic for hashing keys to array indices"
+  ],
+  "problem_summary_simple": "Implement a HashMap without using built-in hash table libraries.",
+  "problem_summary_technical": "Use an array of linked lists (separate chaining) to handle collisions. Hash keys using modulo to map to array buckets.",
+  "time_complexity": [
+    "put: O(1) on average, O(N) worst case (all keys hash to same bucket)",
+    "get: O(1) on average, O(N) worst case",
+    "remove: O(1) on average, O(N) worst case"
+  ],
+  "space_complexity": [
+    "O(N) where N is the number of key-value pairs stored"
+  ],
+  "key_insights": [
+    [
+      "The core idea of a hashmap is to map keys to indices in an array for fast lookups.",
+      "Collisions (multiple keys mapping to the same index) must be handled, typically with separate chaining (linked lists) or open addressing.",
+      "The choice of hash function and array size significantly impacts performance; a good hash function distributes keys evenly."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

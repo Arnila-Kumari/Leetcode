@@ -1,0 +1,41 @@
+{
+  "problem_name": "make-array-elements-equal-to-zero",
+  "data_structures": [
+    [
+      "integer"
+    ],
+    [
+      "array",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Prefix sum to calculate sums to the left and right of zeros.",
+    "Prefix and suffix sums to calculate sums to the left and right of zeros."
+  ],
+  "problem_summary_simple": "Find starting positions and directions to make all array elements zero by decrementing and bouncing.",
+  "problem_summary_technical": "Calculate prefix/suffix sums to determine valid starting points and directions for a bouncing process to zero out array elements.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that each non-zero element must be decremented exactly once.",
+      "The total sum of elements to the left and right of a zero determines the number of steps needed to reach it from that zero."
+    ],
+    [
+      "Prefix and suffix sums efficiently calculate the total sum to the left and right of each zero.",
+      "The condition `2 - abs(prefix[i] - suffix[i+1])` represents the number of valid directions (0, 1, or 2) for a zero at index `i`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

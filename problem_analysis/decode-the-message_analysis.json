@@ -1,0 +1,32 @@
+{
+  "problem_name": "decode-the-message",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash map to build a substitution cipher based on the key's first appearance of letters."
+  ],
+  "problem_summary_simple": "Decode a message using a substitution cipher defined by a key.",
+  "problem_summary_technical": "Builds a substitution map from the key's unique characters and applies it to decode the message.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to create a mapping from the key's characters to the standard alphabet.",
+      "Only the first occurrence of each character in the key matters for the mapping.",
+      "Spaces are handled as a special case, mapping to themselves."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "apply-operations-to-an-array",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "in-place modification with two passes: first for operations, second for shifting zeros"
+  ],
+  "problem_summary_simple": "Modify an array by doubling adjacent equal elements and zeroing the second, then move all zeros to the end.",
+  "problem_summary_technical": "Applies operations by iterating through the array, doubling adjacent equal elements and zeroing the second. Then, uses a two-pointer approach to shift zeros to the end.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operations can be performed in-place by modifying the original array.",
+      "A two-pointer approach (or a similar single-pass scan) is efficient for moving zeros to the end.",
+      "The problem requires sequential application of operations, not simultaneous."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-x-value-of-array-ii",
+  "data_structures": [
+    [
+      "Segment Tree",
+      "Array",
+      "List"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Segment Tree for range queries and updates, handling modulo arithmetic"
+  ],
+  "problem_summary_simple": "Calculate the number of ways to remove a suffix such that the product of remaining elements has a specific remainder modulo k.",
+  "problem_summary_technical": "Uses a Segment Tree where each node stores counts of products modulo k. Updates and range queries are performed efficiently.",
+  "time_complexity": [
+    "O(N * K + Q * K * logN)"
+  ],
+  "space_complexity": [
+    "O(N * K)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maintain counts of products modulo k at each segment tree node.",
+      "The query function needs to combine these counts by multiplying remainders.",
+      "The update operation modifies the leaf node and propagates changes up the tree."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:45:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

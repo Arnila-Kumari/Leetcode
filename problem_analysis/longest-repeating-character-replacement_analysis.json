@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-repeating-character-replacement",
+  "data_structures": [
+    [
+      "hashmap (Counter)",
+      "integer variables"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "sliding window with frequency map"
+  ],
+  "problem_summary_simple": "Find the longest substring with all same characters after changing at most k characters.",
+  "problem_summary_technical": "Sliding window approach maintaining character counts. Expand window, update max frequency. Shrink window if replacements needed exceed k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that for a valid window, the length of the window minus the count of the most frequent character must be less than or equal to k.",
+      "This condition `window_size - max_freq <= k` allows us to efficiently check if the current window can be made into a repeating character substring.",
+      "We only need to track the maximum frequency of any character within the current window, not the counts of all characters individually for the condition."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

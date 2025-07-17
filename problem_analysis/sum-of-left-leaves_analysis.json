@@ -1,0 +1,38 @@
+{
+  "problem_name": "sum-of-left-leaves",
+  "data_structures": [
+    [
+      "binary tree",
+      "recursion stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive traversal of the binary tree, identifying left leaves",
+    "Recursive traversal of the binary tree, identifying left leaves"
+  ],
+  "problem_summary_simple": "Calculate the sum of values of all left leaves in a binary tree.",
+  "problem_summary_technical": "Recursively traverses a binary tree, summing values of nodes that are leaves and left children.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "A helper function is used to pass down whether the current node is a left child.",
+      "A node is a left leaf if it's a leaf (no left/right children) AND it was reached via a left branch from its parent."
+    ],
+    [
+      "The base case for recursion is a null node, returning 0.",
+      "The recursive calls explore both left and right subtrees, accumulating sums from left leaves."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

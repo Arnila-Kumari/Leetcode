@@ -1,0 +1,31 @@
+{
+  "problem_name": "divide-players-into-teams-of-equal-skill",
+  "data_structures": [
+    [
+      "frequency map (Counter)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency map and two-pointer approach after sorting"
+  ],
+  "problem_summary_simple": "Pair players into teams with equal total skill and sum their chemistry (product of skills).",
+  "problem_summary_technical": "Use a frequency map to count player skills, then find pairs summing to a target, calculating chemistry.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The total skill of all players must be divisible by the number of teams (N/2).",
+      "The target sum for each team is `sum(skill) / (N/2)`.",
+      "A frequency map (Counter) efficiently stores player skill counts."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

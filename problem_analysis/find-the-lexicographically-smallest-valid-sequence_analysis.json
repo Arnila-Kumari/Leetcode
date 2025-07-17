@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-lexicographically-smallest-valid-sequence",
+  "data_structures": [
+    [
+      "array",
+      "hash table"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach with a lookup table to find matching characters from right to left, then constructing the sequence from left to right."
+  ],
+  "problem_summary_simple": "Find the smallest index sequence in word1 to form word2 with at most one character difference.",
+  "problem_summary_technical": "Uses a reverse pass to build a lookup for potential mismatches, then a forward pass greedily selects indices to form the lexicographically smallest sequence.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "To find the lexicographically smallest sequence, we should try to match characters from `word1` as early as possible.",
+      "A reverse pass to pre-compute potential mismatch locations (`lookup`) is crucial. This helps in making greedy decisions in the forward pass.",
+      "The condition `i < lookup[len(result)+1]` ensures that if a mismatch is allowed, it's used at the latest possible index for the next character in `word2` to keep the sequence lexicographically small."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:44:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

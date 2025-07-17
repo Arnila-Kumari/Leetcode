@@ -1,0 +1,32 @@
+{
+  "problem_name": "invalid-transactions",
+  "data_structures": [
+    [
+      "hashmap",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "sorting by time, then checking conditions with sliding window/two pointers"
+  ],
+  "problem_summary_simple": "Identify transactions that are invalid due to amount or proximity to same-name, different-city transactions.",
+  "problem_summary_technical": "Sorts transactions by time, then iterates, using two pointers to find transactions within a time window for same-name, different-city checks.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting transactions by time is essential to efficiently check the time-based invalidity condition.",
+      "A sliding window or two-pointer approach is effective for finding transactions within the 60-minute window for each name.",
+      "The problem requires careful handling of multiple invalidity conditions and ensuring each invalid transaction is added only once."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

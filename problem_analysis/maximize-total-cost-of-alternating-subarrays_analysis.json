@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximize-total-cost-of-alternating-subarrays",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming where dp[i] represents the max cost ending at index i, considering two states: ending with a positive or negative term."
+  ],
+  "problem_summary_simple": "Split an array into subarrays to maximize the sum of alternating costs of these subarrays.",
+  "problem_summary_technical": "DP approach: dp[0] is max cost ending with positive term, dp[1] with negative. Transition considers extending or starting new subarray.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as finding the maximum subarray sum with alternating signs.",
+      "A DP state can track the maximum cost ending at the current index, considering whether the last element was added positively or negatively.",
+      "The transitions involve either extending the previous subarray or starting a new one."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

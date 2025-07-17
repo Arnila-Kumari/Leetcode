@@ -1,0 +1,32 @@
+{
+  "problem_name": "redundant-connection-ii",
+  "data_structures": [
+    [
+      "UnionFind (Disjoint Set Union)",
+      "Hash Map (for parent tracking)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find with special handling for nodes with two parents and cycles"
+  ],
+  "problem_summary_simple": "Find an edge to remove from a directed graph to make it a rooted tree.",
+  "problem_summary_technical": "Identifies nodes with two parents or cycles. Uses Union-Find to resolve these cases and find the redundant edge.",
+  "time_complexity": [
+    "O(N * alpha(N)) which is nearly O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "A rooted tree has exactly one root (in-degree 0) and all other nodes have an in-degree of 1.",
+      "The added edge can cause either a node to have two parents or create a cycle.",
+      "The solution handles three cases: a cycle without a double-parent node, a double-parent node without a cycle, and both a cycle and a double-parent node."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:06:15",
+  "batch_processed": true,
+  "batch_size": 4
+}

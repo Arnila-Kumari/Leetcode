@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-subarrays-with-and-value-of-k",
+  "data_structures": [
+    [
+      "hashmap (defaultdict)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with state compression using a hashmap"
+  ],
+  "problem_summary_simple": "Find the number of subarrays whose elements' bitwise AND equals a target value k.",
+  "problem_summary_technical": "Uses DP where dp[val] stores count of subarrays ending at current element with AND value 'val'.",
+  "time_complexity": [
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(log r)"
+  ],
+  "key_insights": [
+    [
+      "The bitwise AND operation is monotonic: ANDing with more numbers can only decrease or keep the value the same.",
+      "The number of distinct AND values for subarrays ending at a given position is limited (at most log(max_value)).",
+      "A DP approach efficiently tracks these AND values and their counts."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:50",
+  "batch_processed": true,
+  "batch_size": 4
+}

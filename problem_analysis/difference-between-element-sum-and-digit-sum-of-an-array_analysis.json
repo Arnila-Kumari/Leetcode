@@ -1,0 +1,40 @@
+{
+  "problem_name": "difference-between-element-sum-and-digit-sum-of-an-array",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterative calculation of element sum and digit sum",
+    "Iterative calculation of element sum and digit sum"
+  ],
+  "problem_summary_simple": "Find the difference between the sum of array elements and the sum of their digits.",
+  "problem_summary_technical": "Iterate through the array, sum elements, and for each element, sum its digits, then find the absolute difference.",
+  "time_complexity": [
+    "O(n log r)",
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The element sum is a straightforward sum of all numbers in the array.",
+      "The digit sum requires iterating through each digit of each number.",
+      "The modulo operator (%) and integer division (//) are key for extracting digits."
+    ],
+    [
+      "The problem involves two distinct summation processes.",
+      "The absolute difference is taken at the end.",
+      "The time complexity is dominated by digit extraction, which depends on the number of digits in the largest number."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

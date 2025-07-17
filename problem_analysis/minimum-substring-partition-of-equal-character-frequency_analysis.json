@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-substring-partition-of-equal-character-frequency",
+  "data_structures": [
+    [
+      "array",
+      "frequency map (implicit in array)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with prefix frequency counts"
+  ],
+  "problem_summary_simple": "Partition a string into the minimum number of substrings where each substring has equal character frequencies.",
+  "problem_summary_technical": "Uses 1D DP where dp[i] is min partitions for s[:i]. Transitions check balanced substrings ending at i.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to iterate through all possible previous partition points.",
+      "For each potential substring, check if it's 'balanced' (equal character frequencies).",
+      "The DP state transition relies on finding the minimum partitions from a valid previous state."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

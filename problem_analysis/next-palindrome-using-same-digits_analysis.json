@@ -1,0 +1,31 @@
+{
+  "problem_name": "next-palindrome-using-same-digits",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Find next lexicographical permutation of the first half and reconstruct palindrome"
+  ],
+  "problem_summary_simple": "Find the smallest palindrome larger than a given palindrome using its digits.",
+  "problem_summary_technical": "Apply the next lexicographical permutation algorithm to the first half of the palindrome string and reconstruct the full palindrome.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A palindrome is determined by its first half. Finding the next palindrome means finding the next lexicographically greater first half.",
+      "The standard next permutation algorithm can be applied to the first half of the palindrome.",
+      "If the first half cannot be rearranged to a lexicographically larger permutation, no larger palindrome exists."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

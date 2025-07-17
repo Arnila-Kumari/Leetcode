@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-bit-flips-to-convert-number",
+  "data_structures": [
+    [
+      "built-in functions (bin, count)"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "XOR operation to find differing bits, then count set bits"
+  ],
+  "problem_summary_simple": "Find the minimum bit flips to change one number to another.",
+  "problem_summary_technical": "Calculate the Hamming distance between two integers by XORing them and counting the set bits in the result.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The XOR operation (^) between two numbers results in a number where each set bit indicates a position where the bits differ.",
+      "Counting the set bits in the XOR result directly gives the minimum number of flips required.",
+      "The problem is equivalent to finding the Hamming distance."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

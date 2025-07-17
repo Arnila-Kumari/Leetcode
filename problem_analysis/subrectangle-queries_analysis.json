@@ -1,0 +1,43 @@
+{
+  "problem_name": "subrectangle-queries",
+  "data_structures": [
+    [
+      "list of lists",
+      "list"
+    ],
+    [
+      "list of lists"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Store updates in a list and apply them in reverse order during getValue.",
+    "Directly modify the rectangle matrix for each update."
+  ],
+  "problem_summary_simple": "Update and query values in a 2D rectangle.",
+  "problem_summary_technical": "Solution 1 defers updates, applying them lazily on query. Solution 2 performs eager updates.",
+  "time_complexity": [
+    "ctor: O(1), update: O(1), get: O(U) where U is number of updates",
+    "ctor: O(1), update: O(rows*cols), get: O(1)"
+  ],
+  "space_complexity": [
+    "O(U)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The constraint on the number of operations (at most 500) suggests that an O(U) query time is acceptable.",
+      "Storing updates and checking them in reverse order ensures the latest update for a cell is used.",
+      "This approach is efficient if updates are frequent and queries are less frequent or target cells that haven't been updated recently."
+    ],
+    [
+      "This is a straightforward implementation where updates directly modify the matrix.",
+      "It's efficient for queries as the data is always up-to-date.",
+      "However, it can be slow if updates cover large portions of the rectangle frequently, given the operation limit."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

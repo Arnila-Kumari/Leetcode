@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-of-interesting-subarrays",
+  "data_structures": [
+    [
+      "hashmap",
+      "prefix sum array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sums and hashmap to count subarrays satisfying a modulo condition on element counts."
+  ],
+  "problem_summary_simple": "Count subarrays where the count of elements divisible by 'modulo' equals 'k' (modulo 'modulo').",
+  "problem_summary_technical": "Use prefix sums of (nums[i] % modulo == k) and a hashmap to efficiently count subarrays meeting the criteria.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(modulo)"
+  ],
+  "key_insights": [
+    [
+      "The condition 'cnt % modulo == k' can be rephrased using prefix sums: (prefix_count[r] - prefix_count[l-1]) % modulo == k.",
+      "This simplifies to prefix_count[r] % modulo == (prefix_count[l-1] + k) % modulo.",
+      "A hashmap stores frequencies of prefix_count % modulo values, allowing O(1) lookups for valid starting points of subarrays."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,40 @@
+{
+  "problem_name": "construct-product-matrix",
+  "data_structures": [
+    [
+      "2D array (grid)",
+      "1D array (prefix/suffix products)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Calculate prefix and suffix products for each row and column, then combine.",
+    "Two-pass approach: one for prefix products, one for suffix products."
+  ],
+  "problem_summary_simple": "Create a matrix where each cell is the product of all other cells, modulo 12345.",
+  "problem_summary_technical": "Compute a product matrix where p[i][j] is the product of all grid elements except grid[i][j], modulo 12345.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved efficiently by pre-calculating products to avoid repeated multiplications.",
+      "Using prefix and suffix products (similar to 'product of array except self') is a common pattern.",
+      "Handling the modulo operation at each multiplication step prevents overflow."
+    ],
+    [
+      "The provided solution uses prefix and suffix products to achieve O(1) calculation per cell.",
+      "The modulo operation is applied at each multiplication to keep numbers within bounds.",
+      "The problem can be viewed as calculating the total product and then dividing by the element, but division is tricky with modulo."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

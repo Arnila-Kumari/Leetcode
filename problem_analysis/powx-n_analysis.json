@@ -1,0 +1,36 @@
+{
+  "problem_name": "powx-n",
+  "data_structures": [
+    [],
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterative binary exponentiation (exponentiation by squaring).",
+    "Recursive binary exponentiation (exponentiation by squaring)."
+  ],
+  "problem_summary_simple": "Calculate x raised to the power of n.",
+  "problem_summary_technical": "Implement binary exponentiation to efficiently compute x^n by repeatedly squaring x and multiplying based on n's bits.",
+  "time_complexity": [
+    "O(logn)",
+    "O(logn)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(logn)"
+  ],
+  "key_insights": [
+    [
+      "Reduce the number of multiplications by squaring the base and halving the exponent.",
+      "Handle negative exponents by taking the reciprocal of the result for the positive exponent."
+    ],
+    [
+      "Recursive calls break down the problem into smaller subproblems (x^(n/2)).",
+      "Base cases for n=0 and handling negative n are crucial for correctness."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

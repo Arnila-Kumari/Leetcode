@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-mentions-per-user",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Simulation",
+  "algorithm_technique": [
+    "Sort events by timestamp, process offline events to update user status, then process message events based on user status."
+  ],
+  "problem_summary_simple": "Track user mentions in messages, considering users going offline and coming back online.",
+  "problem_summary_technical": "Sorts events by time, simulates user online/offline status, and counts mentions for 'ALL', 'HERE', or specific IDs.",
+  "time_complexity": [
+    "O(e log e + e * n)"
+  ],
+  "space_complexity": [
+    "O(e + n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting events by timestamp is critical for correct processing order.",
+      "The `lookup` array stores the time a user becomes online again, effectively tracking offline periods.",
+      "Message events need to be handled based on the user's online status at the message's timestamp."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:17:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,55 @@
+{
+  "problem_name": "print-immutable-linked-list-in-reverse",
+  "data_structures": [
+    [
+      "list",
+      "immutable linked list node"
+    ],
+    [
+      "list of nodes",
+      "immutable linked list node"
+    ],
+    [
+      "immutable linked list node"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Store all nodes in a list and iterate in reverse.",
+    "Use square root decomposition to process nodes in chunks.",
+    "Iterate to find the second-to-last node repeatedly."
+  ],
+  "problem_summary_simple": "Print the values of an immutable linked list in reverse order.",
+  "problem_summary_technical": "Traverse the immutable linked list, storing nodes or using chunking to print values in reverse without modifying the list.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(sqrt(n))",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The O(n) space solution is straightforward but uses extra memory.",
+      "The O(sqrt(n)) space solution balances time and space by processing in blocks.",
+      "The O(1) space solution is clever but has a quadratic time complexity due to repeated traversals."
+    ],
+    [
+      "The constraint of immutability means we can only read from the list.",
+      "The `printValue()` and `getNext()` methods are the only allowed operations.",
+      "Finding the optimal solution involves trade-offs between space and time complexity."
+    ],
+    [
+      "Square root decomposition is a common technique for optimizing array/list traversals when O(1) space is required but O(n^2) is too slow.",
+      "The O(1) space solution effectively finds the tail of the remaining list in each iteration.",
+      "The problem highlights the importance of understanding data structure constraints and exploring different algorithmic approaches."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "replace-words",
+  "data_structures": [
+    [
+      "trie",
+      "hashmap"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Build a trie from the dictionary and use it to find the shortest root for each word in the sentence."
+  ],
+  "problem_summary_simple": "Replace words in a sentence with their shortest dictionary root if they are derivatives.",
+  "problem_summary_technical": "Construct a trie from dictionary roots; traverse sentence words to find shortest matching root.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(t)"
+  ],
+  "key_insights": [
+    [
+      "A trie is an efficient data structure for prefix matching, ideal for finding roots.",
+      "The shortest root replacement rule ensures a unique and optimal solution.",
+      "Processing the sentence word by word and performing trie lookups is the core logic."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,46 @@
+{
+  "problem_name": "binary-tree-preorder-traversal",
+  "data_structures": [
+    [
+      "TreeNode",
+      "List",
+      "Stack"
+    ],
+    [
+      "TreeNode",
+      "List",
+      "Stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Morris Traversal (in-place modification)",
+    "Iterative using a stack with a visited flag"
+  ],
+  "problem_summary_simple": "Traverse a binary tree and return node values in preorder (root, left, right).",
+  "problem_summary_technical": "Implement preorder traversal iteratively, either with Morris traversal (O(1) space) or a stack (O(h) space).",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "Morris Traversal for preorder involves adding the root to the result before traversing left.",
+      "The temporary thread creation in Morris traversal allows returning to the parent after visiting the left subtree.",
+      "The iterative stack solution pushes right child first, then left, to process left before right."
+    ],
+    [
+      "Morris Traversal for preorder involves adding the root to the result before traversing left.",
+      "The temporary thread creation in Morris traversal allows returning to the parent after visiting the left subtree.",
+      "The iterative stack solution pushes right child first, then left, to process left before right."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

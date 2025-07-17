@@ -1,0 +1,32 @@
+{
+  "problem_name": "resulting-string-after-adjacent-removals",
+  "data_structures": [
+    [
+      "stack",
+      "list"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Stack-based simulation to remove adjacent characters that are alphabetically consecutive."
+  ],
+  "problem_summary_simple": "Remove adjacent, alphabetically consecutive characters from a string until no more removals are possible.",
+  "problem_summary_technical": "Use a stack to process characters; if the current character and stack top are alphabetically consecutive, pop the stack.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A stack is a natural fit for this problem because we need to check the most recently added character against the current one.",
+      "The condition for removal includes both forward ('ab') and backward ('ba') alphabetical order, and also circularity ('za').",
+      "The absolute difference of ASCII values helps in checking consecutiveness, with 25 for circular cases ('a' and 'z')."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

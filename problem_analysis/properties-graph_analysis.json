@@ -1,0 +1,45 @@
+{
+  "problem_name": "properties-graph",
+  "data_structures": [
+    [
+      "list of sets",
+      "adjacency list",
+      "boolean array (visited)"
+    ],
+    [
+      "list of sets",
+      "Union-Find data structure"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Graph construction and BFS: Build adjacency list based on intersection count, then use BFS to find connected components.",
+    "Union-Find: Iterate through pairs, union sets if intersection count meets threshold, count disjoint sets."
+  ],
+  "problem_summary_simple": "Count connected components in a graph where nodes are property lists and edges depend on common elements.",
+  "problem_summary_technical": "Build graph by checking pairwise intersections >= k. Use BFS or Union-Find to count connected components.",
+  "time_complexity": [
+    "O(n^2 * m)",
+    "O(n^2 * m)"
+  ],
+  "space_complexity": [
+    "O(n + E) where E is number of edges (up to O(n^2))",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Converting property lists to sets optimizes intersection checks.",
+      "The graph can be implicitly constructed without explicitly storing all edges if using Union-Find.",
+      "The condition `intersect(properties[i], properties[j]) >= k` defines the graph's edges."
+    ],
+    [
+      "Union-Find is efficient for tracking connected components dynamically.",
+      "The number of components can be calculated as total nodes minus successful unions.",
+      "The `sum(x in p_set[j] for x in p_set[i])` efficiently calculates intersection size."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

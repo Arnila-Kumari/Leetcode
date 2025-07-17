@@ -1,0 +1,40 @@
+{
+  "problem_name": "fibonacci-number",
+  "data_structures": [
+    [
+      "matrix"
+    ],
+    [
+      "variables for previous and current Fibonacci numbers"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Matrix exponentiation to calculate F(N) in O(log N) time.",
+    "Iterative approach with constant space to calculate F(N) in O(N) time."
+  ],
+  "problem_summary_simple": "Calculate the Nth Fibonacci number.",
+  "problem_summary_technical": "Compute F(N) using matrix exponentiation for logarithmic time or an iterative DP approach for linear time.",
+  "time_complexity": [
+    "O(logn)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Matrix exponentiation is a powerful technique for linear recurrences.",
+      "The iterative DP approach is simpler and sufficient given the constraints."
+    ],
+    [
+      "The iterative DP approach avoids recursion overhead and stack overflow.",
+      "Space optimization is achieved by only storing the two previous values."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

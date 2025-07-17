@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-value-of-an-ordered-triplet-ii",
+  "data_structures": [
+    [
+      "variable"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Single pass with optimized state tracking"
+  ],
+  "problem_summary_simple": "Find the maximum value of (nums[i] - nums[j]) * nums[k] for i < j < k.",
+  "problem_summary_technical": "Iterate through the array, maintaining the maximum element seen so far and the maximum difference (max_so_far - current_element) to efficiently calculate the triplet value.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved in a single pass by keeping track of the maximum element encountered so far and the maximum difference between the maximum element and a previous element.",
+      "The state `mx_diff` represents `max(nums[i] - nums[j])` for `i < j` encountered up to the current point.",
+      "The result is updated by `max(result, mx_diff * nums[k])` where `nums[k]` is the current element."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

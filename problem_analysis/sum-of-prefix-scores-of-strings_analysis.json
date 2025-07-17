@@ -1,0 +1,33 @@
+{
+  "problem_name": "sum-of-prefix-scores-of-strings",
+  "data_structures": [
+    [
+      "Trie",
+      "Hash Map (defaultdict)"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Trie construction to store prefixes and counts",
+    "Traverse Trie for each word to sum prefix scores"
+  ],
+  "problem_summary_simple": "Calculate the sum of scores for all prefixes of each word in a given list.",
+  "problem_summary_technical": "Utilize a Trie to store all words, counting occurrences of each prefix. Then, for each word, traverse its prefixes in the Trie to sum their counts.",
+  "time_complexity": [
+    "O(N * L)"
+  ],
+  "space_complexity": [
+    "O(T)"
+  ],
+  "key_insights": [
+    [
+      "A Trie is ideal for prefix-related problems, efficiently storing and querying prefixes.",
+      "Storing prefix counts directly in Trie nodes avoids redundant calculations.",
+      "The total space complexity depends on the total number of unique prefixes across all words."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

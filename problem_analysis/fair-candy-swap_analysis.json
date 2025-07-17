@@ -1,0 +1,32 @@
+{
+  "problem_name": "fair-candy-swap",
+  "data_structures": [
+    [
+      "hash set",
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Calculate target sum difference, use hash set for efficient lookups"
+  ],
+  "problem_summary_simple": "Find one candy box from Alice and one from Bob to swap so they have equal total candies.",
+  "problem_summary_technical": "Calculates sum difference, then iterates through Bob's candies, checking for a matching Alice candy in a hash set.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find a pair (a, b) such that sum(A) - a + b = sum(B) - b + a.",
+      "This simplifies to sum(A) - sum(B) = 2 * (a - b).",
+      "Using a hash set for one of the arrays allows for O(1) average time lookups."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

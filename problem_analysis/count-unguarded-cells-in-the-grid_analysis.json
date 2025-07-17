@@ -1,0 +1,37 @@
+{
+  "problem_name": "count-unguarded-cells-in-the-grid",
+  "data_structures": [
+    [
+      "2D array",
+      "set"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Grid traversal and simulation with marking guarded cells",
+    "Breadth-First Search (BFS) or Depth-First Search (DFS) from guards"
+  ],
+  "problem_summary_simple": "Count empty cells in a grid that are not visible to any guard, considering walls as obstructions.",
+  "problem_summary_technical": "Simulate guard visibility by marking cells in four directions until walls or grid boundaries are hit, then count remaining empty cells.",
+  "time_complexity": [
+    "O(m*n)"
+  ],
+  "space_complexity": [
+    "O(m*n)"
+  ],
+  "key_insights": [
+    [
+      "Represent the grid using a 2D array to store cell states (empty, guarded, wall).",
+      "Initialize all cells as empty, then mark walls and guard positions.",
+      "For each guard, traverse in all four directions, marking visible cells as guarded until a wall or boundary is encountered."
+    ],
+    [
+      "An alternative could be to use BFS/DFS starting from each guard to mark reachable cells.",
+      "This approach might be more complex to manage wall obstructions efficiently compared to direct traversal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

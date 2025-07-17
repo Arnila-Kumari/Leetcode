@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-consecutive-integers-from-a-data-stream",
+  "data_structures": [
+    [
+      "integer counter"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Maintain a counter for consecutive occurrences of the target value; reset on mismatch."
+  ],
+  "problem_summary_simple": "Check if the last k numbers in a stream match a specific value.",
+  "problem_summary_technical": "Uses a counter to track consecutive matches of 'value'. Resets counter on mismatch; returns true if counter reaches 'k'.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to efficiently track the *count* of consecutive matching numbers.",
+      "A simple counter variable is sufficient; no need to store the entire stream.",
+      "The condition is only met when the count reaches `k`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

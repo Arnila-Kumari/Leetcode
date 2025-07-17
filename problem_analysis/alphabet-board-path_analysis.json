@@ -1,0 +1,32 @@
+{
+  "problem_name": "alphabet-board-path",
+  "data_structures": [
+    [
+      "list of strings",
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Coordinate mapping and string manipulation to build path"
+  ],
+  "problem_summary_simple": "Find the shortest sequence of moves on an alphabet board to spell a target word.",
+  "problem_summary_technical": "Maps characters to 2D coordinates on a board, calculates Manhattan distance for moves, and constructs the path string.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The board layout allows for direct mapping of characters to (row, column) coordinates.",
+      "The problem can be solved by calculating the difference in coordinates between consecutive characters.",
+      "The order of moves (U/D before L/R) doesn't affect the minimum number of moves, but affects the path string."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

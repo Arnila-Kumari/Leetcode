@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-operations-to-make-word-k-periodic",
+  "data_structures": [
+    [
+      "hashmap",
+      "counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting of substrings to find the most frequent pattern."
+  ],
+  "problem_summary_simple": "Make a string k-periodic by changing substrings of length k to match the most frequent one.",
+  "problem_summary_technical": "Uses a Counter to find the most frequent k-length substring, then calculates operations based on total blocks and the most frequent block.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A k-periodic string is formed by repeating a substring of length k.",
+      "The goal is to make all k-length blocks identical to the most frequent block.",
+      "The number of operations is the total number of blocks minus the count of the most frequent block."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:58:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

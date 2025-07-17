@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-earnings-from-taxi",
+  "data_structures": [
+    [
+      "1D DP array",
+      "sorted list of rides"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming: dp[i] stores max earnings up to point i. Sort rides by start time."
+  ],
+  "problem_summary_simple": "Maximize taxi earnings by picking up passengers, considering start, end, and tip, without changing direction.",
+  "problem_summary_technical": "DP approach where dp[i] is max earnings at point i. Sort rides by start, update dp[end] using dp[start] + profit.",
+  "time_complexity": [
+    "O(n + mlogm)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as a dynamic programming problem where the state represents the maximum earnings at a given point.",
+      "Sorting the rides by their start times is crucial for processing them in a way that allows for efficient DP updates.",
+      "The DP transition considers either not taking any ride ending at the current point or taking a ride that ends at the current point, maximizing earnings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

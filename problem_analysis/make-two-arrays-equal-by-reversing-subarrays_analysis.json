@@ -1,0 +1,43 @@
+{
+  "problem_name": "make-two-arrays-equal-by-reversing-subarrays",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "hashmap"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Check if the frequency of elements in both arrays is the same using hash maps.",
+    "Sort both arrays and check for element-wise equality."
+  ],
+  "problem_summary_simple": "Can array 'arr' be made equal to 'target' by reversing subarrays?",
+  "problem_summary_technical": "Reversing subarrays allows arbitrary reordering; thus, arrays are equal if they are permutations of each other.",
+  "time_complexity": [
+    "O(n)",
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The ability to reverse any subarray means we can rearrange elements arbitrarily.",
+      "Therefore, the problem is equivalent to checking if 'arr' is a permutation of 'target'.",
+      "This can be done by comparing element counts (hash map) or by sorting both arrays."
+    ],
+    [
+      "Sorting both arrays provides a simple way to check if they contain the same elements with the same frequencies.",
+      "This approach modifies the input arrays in-place if allowed, otherwise requires copies.",
+      "The time complexity is dominated by the sorting step."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "super-washing-machines",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate target, then iterate to find max imbalance and flow."
+  ],
+  "problem_summary_simple": "Find the minimum moves to equalize dresses in washing machines.",
+  "problem_summary_technical": "Calculate the target number of dresses per machine. Iterate, tracking the net flow and maximum dresses needed at any point.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is solvable only if the total number of dresses is divisible by the number of machines.",
+      "The minimum number of moves is determined by the maximum of two factors: the maximum number of dresses a single machine needs to give away/receive, and the maximum cumulative imbalance of dresses flowing across any boundary.",
+      "The `curr` variable tracks the net number of dresses that need to flow across the boundary to the right of the current machine."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

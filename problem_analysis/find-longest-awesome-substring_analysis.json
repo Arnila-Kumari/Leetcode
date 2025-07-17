@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-longest-awesome-substring",
+  "data_structures": [
+    [
+      "hash map",
+      "integer bitmask"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Prefix XOR mask and hash map for palindrome check"
+  ],
+  "problem_summary_simple": "Find the longest substring that can be rearranged into a palindrome.",
+  "problem_summary_technical": "Uses prefix XOR masks to track character parity. A substring is awesome if its XOR mask has at most one bit set. A hash map stores the first occurrence of each mask.",
+  "time_complexity": [
+    "O(10 * n)"
+  ],
+  "space_complexity": [
+    "O(2^10)"
+  ],
+  "key_insights": [
+    [
+      "A string can form a palindrome if at most one character appears an odd number of times.",
+      "XORing character counts with a bitmask efficiently tracks parity.",
+      "The difference between current index and the first occurrence of a mask (or a mask with one bit flipped) gives potential awesome substring lengths."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

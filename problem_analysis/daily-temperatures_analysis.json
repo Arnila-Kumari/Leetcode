@@ -1,0 +1,32 @@
+{
+  "problem_name": "daily-temperatures",
+  "data_structures": [
+    [
+      "array",
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to find next greater element efficiently"
+  ],
+  "problem_summary_simple": "Find the number of days to wait for a warmer temperature for each day.",
+  "problem_summary_technical": "Uses a monotonic decreasing stack to store indices of temperatures, finding the next warmer day in O(n) time.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A monotonic stack is ideal for finding the 'next greater element' or 'previous smaller element' type problems.",
+      "The stack stores indices, not values, allowing easy calculation of the difference in days.",
+      "Each element is pushed and popped at most once, ensuring linear time complexity."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

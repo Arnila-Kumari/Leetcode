@@ -1,0 +1,32 @@
+{
+  "problem_name": "check-if-there-is-a-path-with-equal-number-of-0s-and-1s",
+  "data_structures": [
+    [
+      "2D array (for DP table)",
+      "list (for DP table)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with space optimization"
+  ],
+  "problem_summary_simple": "Find if a path exists from top-left to bottom-right with an equal count of 0s and 1s.",
+  "problem_summary_technical": "Uses DP to track min/max difference between 0s and 1s to reach each cell, checking final cell's range.",
+  "time_complexity": [
+    "O(m*n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The total number of steps must be even for an equal number of 0s and 1s.",
+      "DP state can represent the minimum and maximum possible difference (1s - 0s) to reach a cell.",
+      "Space optimization is possible by only keeping the previous row's DP states."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

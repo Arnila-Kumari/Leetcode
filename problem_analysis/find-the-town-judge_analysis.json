@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-town-judge",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Degree counting (in-degree and out-degree)"
+  ],
+  "problem_summary_simple": "Find a person who trusts no one but is trusted by everyone else.",
+  "problem_summary_technical": "Identify a node with an in-degree of N-1 and an out-degree of 0 in a directed graph.",
+  "time_complexity": [
+    "O(t + n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The town judge must have an out-degree of 0 (trusts nobody).",
+      "The town judge must have an in-degree of N-1 (trusted by everyone else).",
+      "A single pass to calculate degrees and another to check the condition is efficient."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

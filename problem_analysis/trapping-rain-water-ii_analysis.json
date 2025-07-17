@@ -1,0 +1,33 @@
+{
+  "problem_name": "trapping-rain-water-ii",
+  "data_structures": [
+    [
+      "2D array",
+      "min-heap",
+      "2D boolean array"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a min-heap to process cells from the boundary inwards, simulating water filling from the lowest points."
+  ],
+  "problem_summary_simple": "Calculate water trapped in a 2D elevation map.",
+  "problem_summary_technical": "Employ a min-heap to explore cells from the boundary, expanding inwards and calculating trapped water based on the current minimum boundary height.",
+  "time_complexity": [
+    "O(m * n * log(m * n))"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem is an extension of 1D trapping rain water to 2D.",
+      "A min-heap is essential to process cells in increasing order of their boundary height.",
+      "The 'boundary' expands inwards, and water is trapped if a cell's height is less than the current minimum boundary height."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:13:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimum-moves-to-get-a-peaceful-board",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ],
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Counting sort and greedy approach to minimize moves by aligning rooks.",
+    "Prefix sums and greedy approach to calculate minimum moves for rook placement."
+  ],
+  "problem_summary_simple": "Move rooks on a chessboard to ensure one rook per row and column with minimum moves.",
+  "problem_summary_technical": "Minimize rook moves by calculating deviations from ideal positions using counting sort or prefix sums.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be decomposed into independent row and column movements.",
+      "The minimum moves for each dimension can be found by calculating the sum of absolute differences from a sorted or target configuration.",
+      "Counting sort is efficient for determining the frequency of each coordinate."
+    ],
+    [
+      "The prefix sum approach efficiently calculates the cumulative effect of moves.",
+      "The 'balance' variable tracks the net displacement needed for a given target sum.",
+      "The greedy strategy of minimizing absolute balance at each step leads to the overall minimum moves."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

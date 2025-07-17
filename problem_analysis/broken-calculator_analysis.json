@@ -1,0 +1,31 @@
+{
+  "problem_name": "broken-calculator",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach by reversing operations"
+  ],
+  "problem_summary_simple": "Find the minimum operations (multiply by 2 or subtract 1) to reach target from startValue.",
+  "problem_summary_technical": "Works backward from target to startValue, prioritizing division by 2 if target is even, otherwise adding 1 before dividing.",
+  "time_complexity": [
+    "O(log Y) where Y is the target value"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "It's more efficient to reverse the operations: divide by 2 or add 1.",
+      "If the target is even, dividing by 2 is always optimal as it reduces the number faster.",
+      "If the target is odd, adding 1 makes it even, allowing for a division in the next step."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

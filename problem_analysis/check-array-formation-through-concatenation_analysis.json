@@ -1,0 +1,32 @@
+{
+  "problem_name": "check-array-formation-through-concatenation",
+  "data_structures": [
+    [
+      "hashmap",
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hashmap lookup for piece starting elements and sequential matching against the target array."
+  ],
+  "problem_summary_simple": "Determine if an array can be formed by concatenating given sub-arrays in any order without reordering elements within sub-arrays.",
+  "problem_summary_technical": "Uses a hashmap to quickly find the starting element of each piece and then sequentially matches the piece's elements against the target array.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "A hashmap is efficient for mapping the first element of each piece to its index, enabling quick lookups.",
+      "The core idea is to iterate through the target array and, for each element, find the corresponding piece and verify its sequence.",
+      "The constraint that elements within pieces cannot be reordered is critical and handled by direct sequential comparison."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

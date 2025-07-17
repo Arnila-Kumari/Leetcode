@@ -1,0 +1,31 @@
+{
+  "problem_name": "insert-interval",
+  "data_structures": [
+    [
+      "list of lists (intervals)"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Iterate through intervals, add non-overlapping ones, merge overlapping ones with newInterval, then add remaining."
+  ],
+  "problem_summary_simple": "Insert a new interval into a sorted list of non-overlapping intervals, merging if necessary.",
+  "problem_summary_technical": "Merge overlapping intervals by iterating through a sorted list and combining with the new interval.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The input `intervals` are sorted by start time, which is crucial for an efficient O(n) solution.",
+      "The algorithm can be broken down into three phases: adding intervals before the new one, merging overlapping intervals, and adding intervals after the merged one.",
+      "The merging logic involves updating the start and end of the `newInterval` to encompass all overlapping intervals."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

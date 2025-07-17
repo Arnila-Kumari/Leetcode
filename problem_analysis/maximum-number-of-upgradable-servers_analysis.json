@@ -1,0 +1,42 @@
+{
+  "problem_name": "maximum-number-of-upgradable-servers",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical derivation to find the optimal number of servers to sell for each data center."
+  ],
+  "problem_summary_simple": "For each data center, find the maximum number of servers that can be upgraded given initial money, upgrade cost, sell value, and server count.",
+  "problem_summary_technical": "Derive a mathematical formula by setting up an inequality: (count - sold) * upgrade <= money + sold * sell. Solve for sold.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by finding the optimal number of servers to sell for each data center independently.",
+      "The core idea is to balance the cost of upgrading remaining servers with the money gained from selling servers.",
+      "A linear inequality can be formulated to represent the condition for upgrading servers."
+    ],
+    [
+      "Let `c` be count, `u` be upgrade cost, `s` be sell value, `m` be initial money, and `x` be the number of servers sold.",
+      "The inequality is `(c - x) * u <= m + x * s`.",
+      "Rearranging this inequality to solve for `x` gives `x >= (c*u - m) / (u + s)`.",
+      "The number of servers to upgrade is `c - x`. The maximum number of upgradable servers is `c - ceil((c*u - m) / (u + s))` if `c*u > m`, otherwise `c`."
+    ],
+    [
+      "The provided solution simplifies this by calculating `(m - c*u) // (u + s)` which represents the maximum `x` that satisfies the inequality when rearranged as `m + x*s >= (c-x)*u`.",
+      "The number of upgradable servers is then `c + (m - c*u) // (u + s)`, capped by the total count `c`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:53:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

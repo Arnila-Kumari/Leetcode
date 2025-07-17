@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-deletions-for-at-most-k-distinct-characters",
+  "data_structures": [
+    [
+      "frequency array (list of size 26)",
+      "frequency count array (list)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Count character frequencies, then greedily remove characters with lowest frequencies until k distinct characters remain."
+  ],
+  "problem_summary_simple": "Delete minimum characters to have at most k distinct characters in a string.",
+  "problem_summary_technical": "Counts character frequencies, then uses a frequency of frequencies array to greedily remove characters with the smallest counts.",
+  "time_complexity": [
+    "O(n + 26)"
+  ],
+  "space_complexity": [
+    "O(n + 26)"
+  ],
+  "key_insights": [
+    [
+      "The problem is about minimizing deletions, which is equivalent to maximizing the number of characters kept.",
+      "Greedy approach works: to reduce distinct characters, remove those with the fewest occurrences first.",
+      "The frequency of frequencies array helps in efficiently selecting which character counts to reduce."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

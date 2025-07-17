@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-lines-to-cover-points",
+  "data_structures": [
+    [
+      "hash table",
+      "set"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Brute force with bitmasking and line equation representation"
+  ],
+  "problem_summary_simple": "Find the minimum lines to cover all given points on a 2D plane.",
+  "problem_summary_technical": "Uses bitmasking to iterate through subsets of lines, representing lines by their normalized coefficients (a, b, c) and storing points on them in a hash table.",
+  "time_complexity": [
+    "O(n*2^n)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "Represent lines using normalized coefficients (a, b, c) to handle collinearity.",
+      "Bitmasking explores all combinations of potential lines to cover points.",
+      "The problem can be framed as a set cover variation."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:58:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

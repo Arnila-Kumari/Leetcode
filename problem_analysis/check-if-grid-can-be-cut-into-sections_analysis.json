@@ -1,0 +1,32 @@
+{
+  "problem_name": "check-if-grid-can-be-cut-into-sections",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sort rectangles by x or y coordinates and check for valid cut points.",
+    "Greedy approach with sorting and interval checking."
+  ],
+  "problem_summary_simple": "Determine if an n x n grid can be divided into three sections by two cuts (horizontal or vertical) such that each section has at least one rectangle.",
+  "problem_summary_technical": "Sort rectangles by x or y, then check if two cuts can partition them into three non-empty groups.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering horizontal and vertical cuts separately.",
+      "Sorting the rectangles based on the cut dimension is crucial.",
+      "The core idea is to find two cut positions that divide the rectangles into three distinct groups."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

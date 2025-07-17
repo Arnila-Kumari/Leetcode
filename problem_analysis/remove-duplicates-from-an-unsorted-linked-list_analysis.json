@@ -1,0 +1,35 @@
+{
+  "problem_name": "remove-duplicates-from-an-unsorted-linked-list",
+  "data_structures": [
+    [
+      "linked list",
+      "hashmap",
+      "dummy node"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "First pass: count the frequency of each value using a hashmap. Second pass: iterate through the list with a dummy node, removing nodes whose values have a count greater than 1."
+  ],
+  "problem_summary_simple": "Remove all nodes from a linked list that have values appearing more than once.",
+  "problem_summary_technical": "Use a hashmap to count value frequencies. Traverse the list with a dummy head, removing nodes whose values have a frequency of 1.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "A two-pass approach is efficient: first to count frequencies, then to perform deletions.",
+      "Using a dummy node simplifies the deletion logic, especially for the head of the list."
+    ],
+    [
+      "The `collections.defaultdict(int)` is a convenient way to handle frequency counting."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

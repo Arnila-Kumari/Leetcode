@@ -1,0 +1,31 @@
+{
+  "problem_name": "remove-duplicates-from-sorted-array-ii",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers with a flag to track allowed duplicates"
+  ],
+  "problem_summary_simple": "Remove duplicates from a sorted array, allowing each element to appear at most twice.",
+  "problem_summary_technical": "In-place modification of a sorted array, allowing up to two occurrences of each element using two pointers.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to allow an element if it's different from the previous or if it's the second occurrence.",
+      "A boolean flag 'same' helps track if the current element is a duplicate of the element at 'last'.",
+      "The 'last' pointer indicates the end of the valid part of the modified array."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

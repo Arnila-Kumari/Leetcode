@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-wonderful-substrings",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Prefix XOR with bitmask and hashmap for counting."
+  ],
+  "problem_summary_simple": "Count substrings where at most one character appears an odd number of times.",
+  "problem_summary_technical": "Use prefix XOR sums (bitmasks) to track character parity. A substring is wonderful if its XOR sum is 0 or a power of 2.",
+  "time_complexity": [
+    "O(N * A)"
+  ],
+  "space_complexity": [
+    "O(2^A)"
+  ],
+  "key_insights": [
+    [
+      "The parity of character counts can be tracked using XOR operations.",
+      "A prefix XOR sum represents the parity of characters in a prefix.",
+      "A substring's XOR sum is the XOR of its prefix XOR sums. A wonderful substring has an XOR sum of 0 or a single bit set."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-target-indices-after-sorting-array",
+  "data_structures": [
+    [
+      "array",
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count elements less than target and elements equal to target to determine the starting index and range."
+  ],
+  "problem_summary_simple": "Find indices of a target value in an array after sorting it.",
+  "problem_summary_technical": "Counts elements smaller than the target and elements equal to the target to directly compute the target indices without explicit sorting.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is not necessary; counting elements is more efficient.",
+      "The number of elements less than the target determines the starting index of the target elements.",
+      "The number of elements equal to the target determines how many indices will contain the target."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

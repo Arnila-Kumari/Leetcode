@@ -1,0 +1,32 @@
+{
+  "problem_name": "ipo",
+  "data_structures": [
+    [
+      "heap",
+      "list of tuples"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using a max-heap to select most profitable projects available."
+  ],
+  "problem_summary_simple": "Maximize capital by completing at most k projects, given initial capital and project requirements.",
+  "problem_summary_technical": "Greedy selection of projects using a max-heap for available profits and a sorted list for project availability based on capital.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to always pick the most profitable project that is currently affordable.",
+      "Sorting projects by capital requirement allows efficient identification of available projects.",
+      "A max-heap is crucial for quickly retrieving the highest profit among available projects."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "check-if-array-is-sorted-and-rotated",
+  "data_structures": [
+    [
+      "none"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Counting inversions in a circular manner"
+  ],
+  "problem_summary_simple": "Check if an array could have been sorted and then rotated.",
+  "problem_summary_technical": "Count the number of 'breaks' (where nums[i] > nums[i+1] circularly). At most one break is allowed.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A sorted and rotated array will have at most one point where the non-decreasing order is broken (the rotation point).",
+      "We need to consider the array circularly, meaning the last element is compared with the first.",
+      "If there are zero breaks, the array is sorted. If there is one break, it's sorted and rotated. More than one break means it's not possible."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:17:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

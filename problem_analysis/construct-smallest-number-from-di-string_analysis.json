@@ -1,0 +1,32 @@
+{
+  "problem_name": "construct-smallest-number-from-di-string",
+  "data_structures": [
+    [
+      "list of integers",
+      "string builder"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the pattern, using a stack-like approach to place decreasing sequences."
+  ],
+  "problem_summary_simple": "Construct the smallest number using digits 1-9 based on 'I' (increasing) and 'D' (decreasing) patterns.",
+  "problem_summary_technical": "Generate the lexicographically smallest number string satisfying 'I'/'D' constraints by greedily placing digits in decreasing sequences.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "To get the lexicographically smallest number, we want to use smaller digits earlier.",
+      "When we encounter a 'D', it signifies a decreasing sequence. We need to reserve larger digits for this sequence.",
+      "A greedy approach works: when an 'I' is encountered (or the end of the string), we can finalize the preceding decreasing sequence by filling it with the smallest available digits in reverse order."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

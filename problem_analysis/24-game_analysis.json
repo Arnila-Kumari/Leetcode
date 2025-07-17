@@ -1,0 +1,40 @@
+{
+  "problem_name": "24-game",
+  "data_structures": [
+    [
+      "list",
+      "stack",
+      "operator functions"
+    ],
+    [
+      "list",
+      "stack",
+      "operator functions",
+      "fractions.Fraction"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Recursive backtracking with permutations and operator combinations.",
+    "Recursive backtracking using fractions for precise division."
+  ],
+  "problem_summary_simple": "Determine if four given numbers can form an expression that evaluates to 24 using basic arithmetic operations.",
+  "problem_summary_technical": "Explore all permutations of numbers and operator combinations to find an expression evaluating to 24.",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)",
+  "key_insights": [
+    [
+      "The problem requires trying all possible groupings of numbers and operations.",
+      "Recursively reduce the problem by combining two numbers with an operation.",
+      "Handle division by zero and floating-point precision issues."
+    ],
+    [
+      "Using `fractions.Fraction` avoids floating-point precision errors, making comparisons exact.",
+      "The recursive structure naturally explores all possible expression trees."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-15 20:21:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

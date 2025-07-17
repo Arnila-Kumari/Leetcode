@@ -1,0 +1,40 @@
+{
+  "problem_name": "gray-code",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterative construction: Reflect and prefix with 0/1.",
+    "Mathematical formula: XORing a number with its right-shifted version."
+  ],
+  "problem_summary_simple": "Generate a sequence of numbers where adjacent numbers differ by only one bit in their binary representation.",
+  "problem_summary_technical": "Generates Gray code sequences using either a reflective construction or a direct bitwise formula (i XOR i >> 1).",
+  "time_complexity": [
+    "O(2^n)",
+    "O(2^n)"
+  ],
+  "space_complexity": [
+    "O(1) (excluding output list), O(2^n) for output.",
+    "O(1) (excluding output list), O(2^n) for output."
+  ],
+  "key_insights": [
+    [
+      "Gray codes have a recursive structure: G(n) = 0G(n-1) + 1G'(n-1) where G' is reversed.",
+      "The formula `i ^ (i >> 1)` directly generates the Gray code for integer `i`."
+    ],
+    [
+      "The formula `i ^ (i >> 1)` is a concise and efficient way to generate Gray codes.",
+      "Understanding the bitwise properties of Gray codes is crucial for the formulaic approach."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,45 @@
+{
+  "problem_name": "string-matching-in-an-array",
+  "data_structures": [
+    [
+      "Trie (custom implementation)",
+      "Set (for storing results)"
+    ],
+    [
+      "Array (for KMP prefix function)",
+      "List (for storing results)"
+    ],
+    [
+      "List (for storing results)"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Aho-Corasick algorithm for efficient multi-pattern matching.",
+    "KMP algorithm for substring searching, applied pairwise.",
+    "Brute-force substring checking."
+  ],
+  "problem_summary_simple": "Find strings in an array that are substrings of other strings in the same array.",
+  "problem_summary_technical": "Use Aho-Corasick to find all occurrences of patterns (words) within a text (concatenated words) or KMP for pairwise checks.",
+  "time_complexity": [
+    "O(N + M + Z) where N is total length of patterns, M is length of text, Z is number of matches (effectively O(total length of all strings))",
+    "O(n^2 * l) where n is number of words, l is max word length",
+    "O(n^2 * l^2) where n is number of words, l is max word length"
+  ],
+  "space_complexity": [
+    "O(T) where T is the total size of the Aho-Corasick trie",
+    "O(l) for KMP prefix function",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Aho-Corasick is highly efficient for finding multiple patterns in a text.",
+      "Sorting words by length can sometimes optimize brute-force or KMP approaches.",
+      "The problem can be rephrased as finding if any word is a substring of any other word."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

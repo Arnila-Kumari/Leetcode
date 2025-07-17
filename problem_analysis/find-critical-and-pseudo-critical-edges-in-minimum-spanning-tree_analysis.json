@@ -1,0 +1,34 @@
+{
+  "problem_name": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+  "data_structures": [
+    [
+      "UnionFind",
+      "list of edges"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Calculate MST weight, then test each edge: critical if removed increases weight, pseudo-critical if it can be in some MSTs.",
+    "Sort edges by weight, use Union-Find for Kruskal's algorithm to find MST and test edge properties."
+  ],
+  "problem_summary_simple": "Identify edges that are essential (critical) or optional (pseudo-critical) in any Minimum Spanning Tree.",
+  "problem_summary_technical": "Applies Kruskal's algorithm with Union-Find. Tests edge criticality by removal and pseudo-criticality by forced inclusion.",
+  "time_complexity": [
+    "O(E * (E log E + E * alpha(N)))"
+  ],
+  "space_complexity": [
+    "O(N + E)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find the MST weight first.",
+      "An edge is critical if its removal increases the MST weight.",
+      "An edge is pseudo-critical if it can be part of *some* MST, meaning its inclusion doesn't increase the MST weight if it's already part of an MST.",
+      "Sorting edges by weight and using Union-Find (Kruskal's algorithm) is a standard approach for MST problems."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:42:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

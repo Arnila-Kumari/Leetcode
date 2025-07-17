@@ -1,0 +1,44 @@
+{
+  "problem_name": "knight-dialer",
+  "data_structures": [
+    [
+      "matrix",
+      "itertools"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Matrix exponentiation to efficiently calculate the number of paths of length N-1.",
+    "Dynamic programming to count the number of ways to reach each digit after k moves."
+  ],
+  "problem_summary_simple": "Count how many distinct phone numbers of length N can be dialed by a knight on a phone keypad.",
+  "problem_summary_technical": "Model knight moves as a transition matrix. Use matrix exponentiation for O(log N) or DP for O(N) to count paths of length N-1.",
+  "time_complexity": [
+    "O(log N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using matrix exponentiation because the number of ways to reach a state after k steps can be represented by powers of the transition matrix.",
+      "The transition matrix captures the valid knight moves between digits on the keypad.",
+      "The final answer is the sum of all elements in the resulting matrix after exponentiation."
+    ],
+    [
+      "This problem exhibits optimal substructure and overlapping subproblems, making it suitable for dynamic programming.",
+      "The DP state can represent the number of ways to reach each digit after a certain number of moves.",
+      "The transitions involve summing up the counts from previous states based on valid knight moves."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

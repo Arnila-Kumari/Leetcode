@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-addition-to-make-integer-beautiful",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate the initial digit sum. If it exceeds the target, find the rightmost digit that, when incremented, would make the number 'rounder' (e.g., changing 7 to 0 and carrying over). Repeat until the sum is within the target."
+  ],
+  "problem_summary_simple": "Find the smallest number to add to 'n' so that the sum of digits of 'n + x' is less than or equal to 'target'.",
+  "problem_summary_technical": "Greedily find the smallest addition 'x' by rounding up 'n' at the first digit from the right that causes the sum to exceed 'target'.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by making the number 'rounder' from the right.",
+      "Finding the rightmost digit that needs adjustment and rounding up is key.",
+      "The addition is calculated based on the difference between the rounded number and the original number."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

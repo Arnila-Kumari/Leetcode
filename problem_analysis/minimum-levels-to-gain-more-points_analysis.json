@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-levels-to-gain-more-points",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sum calculation and iteration"
+  ],
+  "problem_summary_simple": "Find minimum levels Alice plays so her score is higher than Bob's.",
+  "problem_summary_technical": "Calculate prefix sums of scores (+1 for 1, -1 for 0) to efficiently determine Alice's and Bob's scores for any split point.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through all possible split points between Alice and Bob.",
+      "Prefix sums are crucial for efficiently calculating Alice's score (prefix sum up to i) and Bob's score (total sum minus Alice's score).",
+      "The condition is Alice's score > Bob's score, which translates to `prefix[i+1] > total_sum - prefix[i+1]`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,45 @@
+{
+  "problem_name": "minimum-operations-to-make-elements-within-k-subarrays-equal",
+  "data_structures": [
+    [
+      "SortedList (from sortedcontainers)",
+      "array"
+    ],
+    [
+      "heapq",
+      "collections.defaultdict",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sliding window with SortedList to find median and calculate subarray costs, then DP for k subarrays.",
+    "Sliding window with two heaps (min/max) for median, then DP for k subarrays."
+  ],
+  "problem_summary_simple": "Find minimum operations to create k non-overlapping subarrays of size x with equal elements.",
+  "problem_summary_technical": "Uses sliding window median (SortedList or two heaps) to find subarray costs, then DP to select k subarrays.",
+  "time_complexity": [
+    "O(nlogx + k * n)",
+    "O(nlogx + k * n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The cost to make a subarray equal is minimized when all elements are set to the median of that subarray.",
+      "A sliding window approach with a data structure that efficiently finds the median (like SortedList or two heaps) is suitable for calculating costs.",
+      "Dynamic programming is needed to select the optimal k non-overlapping subarrays."
+    ],
+    [
+      "The cost to make a subarray equal is minimized when all elements are set to the median of that subarray.",
+      "A sliding window approach with a data structure that efficiently finds the median (like SortedList or two heaps) is suitable for calculating costs.",
+      "Dynamic programming is needed to select the optimal k non-overlapping subarrays."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

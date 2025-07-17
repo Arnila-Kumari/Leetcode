@@ -1,0 +1,37 @@
+{
+  "problem_name": "number-of-equal-numbers-blocks",
+  "data_structures": [
+    [
+      "BigArray (interface)",
+      "integer"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search to find the right boundary of blocks of equal values."
+  ],
+  "problem_summary_simple": "Count contiguous blocks of identical numbers in a large array.",
+  "problem_summary_technical": "Uses binary search to efficiently find the end of each block of equal numbers in a potentially very large array.",
+  "time_complexity": [
+    "O(k * log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The array has a property where all occurrences of a value are adjacent, simplifying block identification.",
+      "Since the array can be very large, direct iteration is not feasible. Access is through a `BigArray` interface.",
+      "Binary search is a suitable technique to find the boundaries of these blocks efficiently."
+    ],
+    [
+      "The solution iterates through the array, starting a new block at `left`.",
+      "For each block, it uses binary search (`binary_search_right`) to find the rightmost index `x` where `nums.at(x)` is equal to `nums.at(left)`.",
+      "The next block starts at `x + 1`, and the process repeats until the end of the array is reached."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

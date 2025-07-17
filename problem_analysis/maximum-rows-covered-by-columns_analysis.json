@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-rows-covered-by-columns",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate through all combinations of columns using bitmasks and check row coverage."
+  ],
+  "problem_summary_simple": "Select columns to cover the maximum number of rows with 1s.",
+  "problem_summary_technical": "Select `numSelect` columns to maximize rows where all 1s in the row correspond to selected columns.",
+  "time_complexity": [
+    "O(m * n + m * C(n, k))"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "The small constraints on `m` and `n` (<= 12) suggest a solution involving iterating through subsets of columns.",
+      "Representing rows as bitmasks allows for efficient checking of coverage when a set of columns is selected.",
+      "The `next_popcount` function is a clever way to iterate through all combinations of `numSelect` columns efficiently."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

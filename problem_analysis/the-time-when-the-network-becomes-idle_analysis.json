@@ -1,0 +1,42 @@
+{
+  "problem_name": "the-time-when-the-network-becomes-idle",
+  "data_structures": [
+    [
+      "list",
+      "list",
+      "bool",
+      "int"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) to find shortest paths from the master server.",
+    "Modified BFS to calculate the time each server receives its last reply."
+  ],
+  "problem_summary_simple": "Find the earliest time all servers stop sending messages.",
+  "problem_summary_technical": "Use BFS to find shortest path distances from server 0. Calculate last reply time for each server based on patience and distance.",
+  "time_complexity": [
+    "O(|V| + |E|)",
+    "O(|V| + |E|)"
+  ],
+  "space_complexity": [
+    "O(|V| + |E|)",
+    "O(|V| + |E|)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the shortest path from the master server (0) to all other servers.",
+      "BFS is the appropriate algorithm to find these shortest path distances (in terms of network hops).",
+      "The time a server `i` receives its reply is `2 * shortest_path_distance(0, i)`. The time it resends depends on its patience and when it last sent."
+    ],
+    [
+      "For each server `i` (not the master), calculate the time it receives its first reply: `reply_time = 2 * distance`.",
+      "Then, determine how many times it resends. The last resend happens at `(k * patience[i])` where `k` is the largest integer such that `k * patience[i] < reply_time`.",
+      "The total time for server `i` to finish is `last_resend_time + patience[i] + 1` (for the reply to reach back). The network idle time is the maximum of these finish times."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:19:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

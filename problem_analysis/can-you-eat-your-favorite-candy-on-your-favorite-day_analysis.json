@@ -1,0 +1,32 @@
+{
+  "problem_name": "can-you-eat-your-favorite-candy-on-your-favorite-day",
+  "data_structures": [
+    [
+      "Array (prefix sums of candy counts)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Prefix sums to calculate cumulative candy counts and derive bounds."
+  ],
+  "problem_summary_simple": "Determine if a specific candy type can be eaten on a specific day given candy counts and daily limits.",
+  "problem_summary_technical": "Use prefix sums of candy counts to find the earliest and latest days a candy type can be finished, then check against query constraints.",
+  "time_complexity": [
+    "O(n + q)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem boils down to calculating the range of days a specific candy type can be finished.",
+      "The earliest day to finish type 't' is by eating 1 candy per day.",
+      "The latest day to finish type 't' is by eating the maximum allowed candies per day.",
+      "Prefix sums are essential for efficiently calculating total candies up to a certain type."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

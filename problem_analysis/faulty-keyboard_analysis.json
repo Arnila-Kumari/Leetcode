@@ -1,0 +1,30 @@
+{
+  "problem_name": "faulty-keyboard",
+  "data_structures": [
+    [
+      "collections.deque"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a deque to build the string, reversing it when 'i' is encountered."
+  ],
+  "problem_summary_simple": "Type characters into a string, but 'i' reverses the current string.",
+  "problem_summary_technical": "Simulate typing characters into a deque, reversing the deque's contents when 'i' is encountered, based on parity.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A deque is efficient for appending and reversing operations.",
+      "Tracking the reversal state with a parity variable simplifies logic."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

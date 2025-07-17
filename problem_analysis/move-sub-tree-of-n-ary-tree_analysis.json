@@ -1,0 +1,78 @@
+{
+  "problem_name": "move-sub-tree-of-n-ary-tree",
+  "data_structures": [
+    [
+      "N-ary Tree Node",
+      "hash map",
+      "list",
+      "stack (iterative)",
+      "recursion stack (recursive)"
+    ],
+    [
+      "N-ary Tree Node",
+      "hash map",
+      "list",
+      "recursion stack"
+    ],
+    [
+      "N-ary Tree Node",
+      "hash map",
+      "list",
+      "stack (iterative)",
+      "recursion stack (iterative)"
+    ],
+    [
+      "N-ary Tree Node",
+      "hash map",
+      "list",
+      "recursion stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative tree traversal (DFS) to find parents and check ancestry, then modify tree structure.",
+    "Recursive tree traversal (DFS) to find parents and check ancestry, then modify tree structure.",
+    "Two-pass iterative tree traversal (DFS) to find parents and check ancestry, then modify tree structure.",
+    "Two-pass recursive tree traversal (DFS) to find parents and check ancestry, then modify tree structure."
+  ],
+  "problem_summary_simple": "Move a subtree rooted at node p to become a child of node q in an N-ary tree.",
+  "problem_summary_technical": "Involves finding parent nodes and checking ancestry relationships using tree traversals (iterative or recursive) before re-parenting the subtree.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)",
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "Need to handle three cases: q in p's subtree, p in q's subtree, or neither.",
+      "Maintaining parent pointers is crucial for re-linking nodes.",
+      "The order of children matters; p becomes the last child of q."
+    ],
+    [
+      "Need to handle three cases: q in p's subtree, p in q's subtree, or neither.",
+      "Maintaining parent pointers is crucial for re-linking nodes.",
+      "The order of children matters; p becomes the last child of q."
+    ],
+    [
+      "Separating parent finding and ancestry check can simplify logic.",
+      "Iterative DFS is preferred for deep trees to avoid stack overflow.",
+      "Careful handling of root node changes is necessary."
+    ],
+    [
+      "Separating parent finding and ancestry check can simplify logic.",
+      "Recursive DFS is concise but can lead to stack overflow in deep trees.",
+      "Careful handling of root node changes is necessary."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

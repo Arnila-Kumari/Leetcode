@@ -1,0 +1,31 @@
+{
+  "problem_name": "reach-end-of-array-with-max-score",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: at each step, maximize the immediate score contribution"
+  ],
+  "problem_summary_simple": "Find the maximum score to reach the end of an array by jumping, where score depends on jump distance and value.",
+  "problem_summary_technical": "Greedily select the maximum value encountered so far to maximize score contribution from previous jumps.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved with a greedy approach.",
+      "At each step, we want to maximize the multiplier for the current element.",
+      "The maximum score is achieved by always picking the largest available number to multiply by the current jump distance."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

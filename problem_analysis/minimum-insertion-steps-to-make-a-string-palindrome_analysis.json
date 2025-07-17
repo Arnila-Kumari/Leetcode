@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-insertion-steps-to-make-a-string-palindrome",
+  "data_structures": [
+    [
+      "string",
+      "2D array (DP table)",
+      "variable"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Find the Longest Common Subsequence (LCS) between the string and its reverse. The minimum insertions is len(s) - LCS length."
+  ],
+  "problem_summary_simple": "Find the minimum number of characters to insert into a string to make it a palindrome.",
+  "problem_summary_technical": "The problem reduces to finding the Longest Palindromic Subsequence (LPS). This is equivalent to finding the LCS of the string and its reverse.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A string can be made a palindrome by inserting characters to match its reverse. The characters that don't need to be inserted are those forming the Longest Palindromic Subsequence (LPS).",
+      "The LPS of a string is the same as the Longest Common Subsequence (LCS) between the string and its reverse.",
+      "The minimum number of insertions is the total length of the string minus the length of its LPS (or LCS with its reverse)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

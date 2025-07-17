@@ -1,0 +1,32 @@
+{
+  "problem_name": "break-a-palindrome",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: change the first non-'a' character to 'a'.",
+    "Edge case handling for all 'a's or single character strings."
+  ],
+  "problem_summary_simple": "Change one character in a palindrome to make it lexicographically smallest non-palindrome.",
+  "problem_summary_technical": "Iterate through the first half, replace the first non-'a' with 'a'. If all 'a's, change last to 'b'.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To achieve the lexicographically smallest result, prioritize changing characters to 'a'.",
+      "Only need to check the first half of the palindrome due to symmetry.",
+      "Special handling is required for palindromes consisting entirely of 'a's or single-character palindromes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

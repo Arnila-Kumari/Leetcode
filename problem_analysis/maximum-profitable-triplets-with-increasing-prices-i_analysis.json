@@ -1,0 +1,90 @@
+{
+  "problem_name": "maximum-profitable-triplets-with-increasing-prices-i",
+  "data_structures": [
+    [
+      "list of lists",
+      "sorted list",
+      "binary search",
+      "Fenwick tree",
+      "segment tree"
+    ],
+    [
+      "list of lists",
+      "sorted list",
+      "binary search",
+      "Fenwick tree",
+      "segment tree"
+    ],
+    [
+      "list of lists",
+      "sorted list",
+      "binary search",
+      "Fenwick tree",
+      "segment tree"
+    ],
+    [
+      "list of lists",
+      "sorted list",
+      "binary search",
+      "Fenwick tree",
+      "segment tree"
+    ],
+    [
+      "list of lists",
+      "sorted list",
+      "binary search",
+      "Fenwick tree",
+      "segment tree"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with sorted lists to find max profit for pairs ending at current price.",
+    "DP with sorted lists and precomputed right-side maximums.",
+    "DP with Fenwick tree (BIT) for efficient range maximum queries.",
+    "DP with Segment Tree for efficient range maximum queries.",
+    "DP with Segment Tree and precomputed right-side maximums."
+  ],
+  "problem_summary_simple": "Find three items with increasing prices and indices to maximize their combined profit.",
+  "problem_summary_technical": "Use DP with data structures like SortedList, BIT, or Segment Tree to efficiently find maximum profits for pairs and triplets.",
+  "time_complexity": [
+    "O(nlogn)",
+    "O(nlogn)",
+    "O(nlogn)",
+    "O(nlogn)",
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding `profits[i] + profits[j] + profits[k]` where `prices[i] < prices[j] < prices[k]` and `i < j < k`.",
+      "This can be solved by iterating through the middle element `j` and finding the maximum `profits[i]` for `prices[i] < prices[j]` and maximum `profits[k]` for `prices[k] > prices[j]`."
+    ],
+    [
+      "Pre-calculating the maximum profit for triplets ending at index `k` can be done by iterating backwards.",
+      "A `SortedList` or similar structure helps in efficiently querying for previous elements with smaller prices."
+    ],
+    [
+      "Binary Indexed Trees (BIT) or Fenwick Trees can be used to maintain prefix maximums of profits based on prices.",
+      "Coordinate compression or mapping prices to indices is necessary for BIT/Segment Tree usage."
+    ],
+    [
+      "Segment Trees provide efficient range maximum queries, which are useful for finding the maximum profit of preceding or succeeding elements.",
+      "The problem can be broken down into finding the best 'left' and 'right' components for each 'middle' element."
+    ],
+    [
+      "Combining precomputed right-side maximums with a segment tree for left-side maximums provides an efficient O(n log n) solution.",
+      "The key is to efficiently query for the maximum profit of a valid preceding element and a valid succeeding element."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:18:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

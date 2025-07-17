@@ -1,0 +1,31 @@
+{
+  "problem_name": "detect-capital",
+  "data_structures": [
+    [
+      "string methods"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Check if the word is all uppercase, all lowercase, or if only the first letter is uppercase using built-in string methods."
+  ],
+  "problem_summary_simple": "Check if a word's capitalization follows one of three rules: all caps, no caps, or only first letter capitalized.",
+  "problem_summary_technical": "Utilize string methods like `isupper()`, `islower()`, and `istitle()` to efficiently validate the capitalization rules of the input word.",
+  "time_complexity": [
+    "O(L) where L is the length of the word."
+  ],
+  "space_complexity": [
+    "O(1)."
+  ],
+  "key_insights": [
+    [
+      "Leveraging built-in string methods (`isupper`, `islower`, `istitle`) is the most concise and efficient approach.",
+      "The problem defines three specific valid capitalization patterns.",
+      "No complex data structures or algorithms are needed; direct string checks suffice."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

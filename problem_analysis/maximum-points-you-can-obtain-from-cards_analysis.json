@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-points-you-can-obtain-from-cards",
+  "data_structures": [
+    [
+      "integer array",
+      "integer variable"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window to find minimum sum of subarray not taken"
+  ],
+  "problem_summary_simple": "Take k cards from either end of a row to maximize total points.",
+  "problem_summary_technical": "Uses a sliding window to find the minimum sum of the `n-k` cards *not* taken, then subtracts this from the total sum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the minimum sum of `n-k` contiguous elements.",
+      "A sliding window is efficient for finding subarray sums.",
+      "Calculating the total sum once and subtracting the minimum non-taken sum is an optimization."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

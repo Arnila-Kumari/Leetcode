@@ -1,0 +1,50 @@
+{
+  "problem_name": "count-substrings-divisible-by-last-digit",
+  "data_structures": [
+    [
+      "frequency array/hash map"
+    ],
+    [
+      "frequency array/hash map"
+    ],
+    [
+      "frequency array/hash map"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Case-by-case analysis based on the last digit's divisibility properties and modular arithmetic.",
+    "Case-by-case analysis based on the last digit's divisibility properties and modular arithmetic.",
+    "Dynamic programming with state representing remainders modulo the last digit."
+  ],
+  "problem_summary_simple": "Count substrings divisible by their non-zero last digit.",
+  "problem_summary_technical": "Leverage modular arithmetic and frequency counts of remainders for divisibility checks for each digit.",
+  "time_complexity": [
+    "O(d*n)",
+    "O(d*n)",
+    "O(d^2*n)"
+  ],
+  "space_complexity": [
+    "O(d)",
+    "O(d)",
+    "O(d^2)"
+  ],
+  "key_insights": [
+    [
+      "The divisibility rules for digits 1, 2, 3, 5, 6, 9 are simpler and can be handled directly.",
+      "For digits 4, 7, 8, the divisibility depends on the last one, two, or three digits, requiring careful modular arithmetic."
+    ],
+    [
+      "The solution breaks down the problem by the last digit of the substring.",
+      "Modular arithmetic is key to efficiently checking divisibility without converting substrings to integers."
+    ],
+    [
+      "The DP state `dp[d][r]` stores the count of substrings ending at the current position with remainder `r` when divided by `d`.",
+      "The transition involves extending existing substrings and starting new ones."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:37:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

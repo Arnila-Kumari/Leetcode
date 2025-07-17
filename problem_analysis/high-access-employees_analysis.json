@@ -1,0 +1,34 @@
+{
+  "problem_name": "high-access-employees",
+  "data_structures": [
+    [
+      "defaultdict",
+      "list",
+      "dictionary"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Group by employee, sort times, use sliding window/two pointers"
+  ],
+  "problem_summary_simple": "Identify employees with 3+ accesses within any 1-hour window.",
+  "problem_summary_technical": "Group access times by employee, sort each employee's times, and use a sliding window to check for 3+ accesses within 60 minutes.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking contiguous time intervals for each employee.",
+      "Grouping access times by employee first simplifies the problem.",
+      "Sorting the access times for each employee is essential for efficient window checking.",
+      "A sliding window (or two-pointer approach) on sorted times can detect the condition in linear time per employee."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

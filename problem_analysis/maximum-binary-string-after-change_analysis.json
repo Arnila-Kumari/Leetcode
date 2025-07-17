@@ -1,0 +1,36 @@
+{
+  "problem_name": "maximum-binary-string-after-change",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Analyze the operations: '00' -> '10' moves a '1' left, '10' -> '01' moves a '0' right. The goal is to consolidate '1's to the left and have a single '0' at the end."
+  ],
+  "problem_summary_simple": "Transform a binary string to the lexicographically largest possible string using given operations.",
+  "problem_summary_technical": "Consolidate all '0's to the right, except for one '0' placed at the position of the first '0' after all '1's are shifted left.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Operation '00' -> '10' effectively moves a '1' to the left by consuming two '0's.",
+      "Operation '10' -> '01' effectively moves a '0' to the right by consuming a '1'.",
+      "The net effect is that '0's can be moved to the right, and '1's can be moved to the left. The total number of '0's and '1's remains constant.",
+      "To maximize the binary string lexicographically, we want as many '1's at the beginning as possible.",
+      "The optimal strategy is to move all '1's to the left. This is achieved by repeatedly applying '00' -> '10'.",
+      "After all possible '00' -> '10' operations are done, we will have a string of the form `11...10...0`.",
+      "The '10' -> '01' operation can then be used to shift the '0's further right. The key insight is that a '1' followed by a '0' can become '0' followed by '1'.",
+      "The final string will have all '1's at the beginning, followed by a single '0', and then the remaining '1's. The position of the single '0' is determined by the initial count of '0's and '1's."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

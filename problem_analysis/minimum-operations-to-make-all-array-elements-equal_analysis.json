@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-operations-to-make-all-array-elements-equal",
+  "data_structures": [
+    [
+      "list",
+      "prefix sum array"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Sort array, use prefix sums, binary search for target value's position."
+  ],
+  "problem_summary_simple": "For each query, find min ops to make all array elements equal to the query value.",
+  "problem_summary_technical": "Sort nums. For each query, use binary search to find split point. Calculate operations using prefix sums for elements less than and greater than query.",
+  "time_complexity": [
+    "O(nlogn + qlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is crucial to efficiently calculate operations based on the target value.",
+      "Prefix sums allow for O(1) calculation of the sum of elements in a range.",
+      "Binary search (`bisect_left`) efficiently finds the index where the query value would be inserted, partitioning the array."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

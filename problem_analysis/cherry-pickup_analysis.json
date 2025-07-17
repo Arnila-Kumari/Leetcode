@@ -1,0 +1,31 @@
+{
+  "problem_name": "cherry-pickup",
+  "data_structures": [
+    [
+      "2D array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming on paths, simulating two robots moving simultaneously."
+  ],
+  "problem_summary_simple": "Collect maximum cherries by going down-right then up-left, picking up cherries.",
+  "problem_summary_technical": "DP state represents max cherries collected by two paths of same length ending at (i, k-i) and (j, k-j).",
+  "time_complexity": [
+    "O(N^3)"
+  ],
+  "space_complexity": [
+    "O(N^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by simulating two robots moving simultaneously, one forward and one backward.",
+      "The DP state needs to track the positions of both robots at each step.",
+      "The constraint of same path length for both robots simplifies the DP state."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:34:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

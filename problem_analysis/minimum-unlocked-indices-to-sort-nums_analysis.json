@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-unlocked-indices-to-sort-nums",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Greedy approach with counting unlocked elements"
+  ],
+  "problem_summary_simple": "Find minimum unlocks to sort an array of 1s, 2s, and 3s using specific swaps.",
+  "problem_summary_technical": "Greedily counts operations by tracking the maximum element seen and the number of locked elements that need to be 'passed'.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem constraints (numbers 1, 2, 3) and the swap condition (nums[i] - nums[i+1] == 1) suggest a specific sorting pattern.",
+      "We can sort the array by ensuring all 1s come before all 2s, and all 2s come before all 3s.",
+      "The greedy approach tracks the current maximum element encountered and the number of locked elements that would impede a necessary swap."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

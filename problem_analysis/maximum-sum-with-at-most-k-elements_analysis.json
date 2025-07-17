@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-sum-with-at-most-k-elements",
+  "data_structures": [
+    [
+      "list",
+      "variable"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Use a modified quickselect (nth_element) to find the k largest elements per row within limits, then find overall k largest."
+  ],
+  "problem_summary_simple": "Select at most k elements from a matrix, respecting row limits, to maximize the sum.",
+  "problem_summary_technical": "Greedily select top elements from each row up to row limits, then select overall top k elements using quickselect.",
+  "time_complexity": [
+    "O(n * m)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by picking the largest elements.",
+      "For each row, we only need to consider up to `limits[i]` largest elements.",
+      "Quickselect is efficient for finding the k-th largest element and partitioning the array."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

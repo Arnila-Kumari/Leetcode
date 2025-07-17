@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-subarrays-with-median-k",
+  "data_structures": [
+    [
+      "list",
+      "hashmap (Counter)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sums (or difference array) combined with a hashmap to count occurrences of sum differences."
+  ],
+  "problem_summary_simple": "Count subarrays where the median element is k.",
+  "problem_summary_technical": "Transforms the problem into counting subarrays with a specific balance of elements greater than and less than k, using prefix sums and a hashmap.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The median condition can be rephrased: in a subarray containing k, the number of elements greater than k must be equal to or one more than the number of elements less than k.",
+      "By mapping elements < k to -1, elements > k to +1, and k to 0, we can use prefix sums to find subarrays with a net sum of 0 or 1.",
+      "The solution iterates from the index of k outwards, calculating prefix sums and using a hashmap to store counts of these sums."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

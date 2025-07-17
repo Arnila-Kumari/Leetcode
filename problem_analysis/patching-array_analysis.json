@@ -1,0 +1,51 @@
+{
+  "problem_name": "patching-array",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: maintain the maximum reachable sum and add patches to cover missing numbers.",
+    "Similar greedy approach, with an early exit condition if the target 'n' is reached.",
+    "Greedy strategy focusing on the smallest missing positive integer ('miss') and patching it."
+  ],
+  "problem_summary_simple": "Add minimum numbers to an array so all numbers up to 'n' can be formed by sums.",
+  "problem_summary_technical": "Greedily extend the reachable sum by adding existing numbers or patching the smallest missing number.",
+  "time_complexity": [
+    "O(s + logn)",
+    "O(s + logn)",
+    "O(s + logn)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maintain the maximum sum 'reachable' using the current set of numbers.",
+      "If the next number in `nums` is greater than `reachable + 1`, we need to patch the gap.",
+      "The optimal patch is always `reachable + 1` because it extends the range most efficiently."
+    ],
+    [
+      "The problem can be solved by iterating through the input array and keeping track of the maximum sum that can be formed.",
+      "When a gap is encountered (i.e., the next number in `nums` is too large), we greedily add the smallest missing number to bridge the gap."
+    ],
+    [
+      "The greedy strategy works because adding the smallest missing number (`miss`) to the array allows us to form all sums up to `miss + reachable`.",
+      "This process is repeated until all numbers up to `n` are reachable."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

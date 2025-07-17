@@ -1,0 +1,42 @@
+{
+  "problem_name": "longest-subarray-of-1s-after-deleting-one-element",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window: expand right, shrink left if more than one zero is encountered.",
+    "Sliding window: maintain count of zeros, expand right, shrink left if count >= 2."
+  ],
+  "problem_summary_simple": "Find the longest subarray of 1s after deleting exactly one element from the original array.",
+  "problem_summary_technical": "Sliding window with a zero count. Expand window, shrink if zero count exceeds 1. Result is window size - 1.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding the longest subarray containing at most one zero.",
+      "The sliding window approach efficiently tracks valid subarrays.",
+      "The final result needs to subtract 1 because one element must be deleted."
+    ],
+    [
+      "The `while count >= 2` loop ensures the window always contains at most one zero.",
+      "The `result` variable tracks the maximum window size encountered.",
+      "Subtracting 1 from the maximum window size gives the length of the longest subarray of 1s after deletion."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

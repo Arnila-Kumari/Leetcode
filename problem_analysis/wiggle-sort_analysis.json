@@ -1,0 +1,40 @@
+{
+  "problem_name": "wiggle-sort",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate and swap adjacent elements if they violate the wiggle condition.",
+    "Sort the array and then interleave elements from the first half and second half."
+  ],
+  "problem_summary_simple": "Rearrange array elements so they alternate between increasing and decreasing.",
+  "problem_summary_technical": "Apply a linear scan with swaps or sort and interleave elements to satisfy nums[0] <= nums[1] >= nums[2] <= ...",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The O(n) solution is a greedy approach that fixes violations locally.",
+      "The O(n log n) solution leverages sorting to place elements correctly for interleaving."
+    ],
+    [
+      "Sorting and then interleaving ensures the wiggle property is met.",
+      "The median element plays a crucial role in the sorted interleaving approach."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "prefix-and-suffix-search",
+  "data_structures": [
+    [
+      "Trie (implemented using defaultdict)"
+    ],
+    [
+      "Two Tries (one for prefixes, one for reversed suffixes)"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Construct a single trie storing all possible suffixes of all prefixes for each word, keyed by weight.",
+    "Build two separate tries: one for prefixes and one for reversed suffixes, then find common indices."
+  ],
+  "problem_summary_simple": "Find the index of a word matching a given prefix and suffix.",
+  "problem_summary_technical": "Use a trie to store words with combined prefix/suffix information or two tries for separate prefix/suffix searches and merge results.",
+  "time_complexity": [
+    "ctor: O(w * l^2), search: O(p + s)",
+    "ctor: O(w * l), search: O(p + s + max(m, n))"
+  ],
+  "space_complexity": [
+    "O(t) where t is the number of trie nodes",
+    "O(w * l)"
+  ],
+  "key_insights": [
+    [
+      "The first solution cleverly encodes both prefix and suffix by creating a cyclic trie structure.",
+      "Storing the maximum weight (index) at each node allows for direct retrieval.",
+      "The time complexity for construction is higher due to generating all cyclic combinations."
+    ],
+    [
+      "Separating prefix and suffix searches into two tries simplifies the trie structure.",
+      "Reversing the suffix allows it to be searched in a standard prefix trie.",
+      "Merging results from two tries requires finding common indices, prioritizing the largest."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:05:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

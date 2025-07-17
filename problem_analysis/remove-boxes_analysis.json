@@ -1,0 +1,32 @@
+{
+  "problem_name": "remove-boxes",
+  "data_structures": [
+    [
+      "list",
+      "3D list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Recursive solution with memoization (dynamic programming) to find optimal removal order"
+  ],
+  "problem_summary_simple": "Remove adjacent boxes of the same color to maximize points, where points are (count * count).",
+  "problem_summary_technical": "Uses a 3D DP table `dp[l][r][k]` to store max points for subarray `boxes[l:r+1]` with `k` prior same-colored boxes.",
+  "time_complexity": [
+    "O(n^4)"
+  ],
+  "space_complexity": [
+    "O(n^3)"
+  ],
+  "key_insights": [
+    [
+      "This problem has optimal substructure and overlapping subproblems, making DP suitable.",
+      "The state needs to include the start and end indices of the subarray, and the count of preceding identical boxes (`k`).",
+      "The core idea is to consider removing a block of `boxes[l]` (with `k+1` count) and then recursively solving for the remaining parts."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:06:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

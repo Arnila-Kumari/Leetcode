@@ -1,0 +1,32 @@
+{
+  "problem_name": "smallest-palindromic-rearrangement-i",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting and greedy construction"
+  ],
+  "problem_summary_simple": "Find the lexicographically smallest palindromic rearrangement of a given palindromic string.",
+  "problem_summary_technical": "Uses a frequency table to count characters in the first half, then greedily constructs the smallest palindrome.",
+  "time_complexity": [
+    "O(n + 26)"
+  ],
+  "space_complexity": [
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to use the counts of characters in the first half of the palindrome to build the smallest lexicographical arrangement.",
+      "The middle character (if the string length is odd) is placed in the center.",
+      "The second half is a mirror of the first half."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

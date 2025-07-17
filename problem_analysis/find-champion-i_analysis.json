@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-champion-i",
+  "data_structures": [
+    [
+      "2D boolean matrix"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Iterate through teams and count wins"
+  ],
+  "problem_summary_simple": "Find the team that is stronger than all other teams in a tournament.",
+  "problem_summary_technical": "Iterate through each team, summing their wins (outgoing edges in adjacency matrix). The team with n-1 wins is the champion.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding a node with an out-degree of n-1 in a directed graph.",
+      "The grid directly represents the adjacency matrix where grid[i][j] = 1 means i beats j.",
+      "A champion is a node that beats every other node."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

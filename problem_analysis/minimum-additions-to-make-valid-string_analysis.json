@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-additions-to-make-valid-string",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the word. For each character, check if it follows the 'abc' pattern. If not, calculate the minimum additions needed to complete the 'abc' sequence for that character and any preceding incomplete sequences."
+  ],
+  "problem_summary_simple": "Find the minimum insertions to make a string valid, where valid means concatenations of 'abc'.",
+  "problem_summary_technical": "Greedily count required insertions. For each character, if it breaks the 'abc' sequence or is out of order, calculate necessary 'a', 'b', or 'c' insertions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by tracking the expected next character in the 'abc' sequence.",
+      "If the current character is not the expected one, we need to add the missing characters.",
+      "The total additions are the sum of additions needed for each character's context."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

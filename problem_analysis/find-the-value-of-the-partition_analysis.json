@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-value-of-the-partition",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sorting and finding minimum difference between adjacent elements"
+  ],
+  "problem_summary_simple": "Partition an array into two non-empty parts to minimize the difference between the max of one and min of the other.",
+  "problem_summary_technical": "Sort the array and find the minimum difference between adjacent elements to minimize |max(nums1) - min(nums2)|.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To minimize |max(nums1) - min(nums2)|, the elements in nums1 and nums2 should be as close as possible.",
+      "Sorting the array brings elements that are close in value next to each other.",
+      "The minimum difference between adjacent elements after sorting will yield the optimal partition."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

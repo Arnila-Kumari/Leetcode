@@ -1,0 +1,43 @@
+{
+  "problem_name": "longest-substring-with-at-most-k-distinct-characters",
+  "data_structures": [
+    [
+      "list (for character counts)",
+      "integer (for distinct count)"
+    ],
+    [
+      "hashmap (for character counts)"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with frequency array to track distinct characters.",
+    "Sliding window with hashmap to track distinct characters and their counts."
+  ],
+  "problem_summary_simple": "Find the longest substring with no more than k unique characters.",
+  "problem_summary_technical": "Sliding window technique. Expand window, shrink when distinct characters exceed k, tracking max length.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The sliding window expands to the right and shrinks from the left.",
+      "Maintain a count of distinct characters within the current window.",
+      "When the distinct count exceeds k, shrink the window from the left until the condition is met."
+    ],
+    [
+      "Using a hashmap (Counter) simplifies tracking character frequencies and distinct counts.",
+      "The `len(counter)` directly gives the number of distinct characters.",
+      "Efficiently remove characters from the counter when their count drops to zero."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

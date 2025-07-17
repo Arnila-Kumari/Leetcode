@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-covered-buildings",
+  "data_structures": [
+    [
+      "Arrays (left, right, up, down)",
+      "Set (implicitly used for building coordinates)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Precompute boundary information for each row/column to quickly check for neighbors."
+  ],
+  "problem_summary_simple": "Count buildings that have at least one building in all four cardinal directions.",
+  "problem_summary_technical": "Uses four arrays to store the nearest building in each direction (left, right, up, down) for each row/column.",
+  "time_complexity": [
+    "O(N + B)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Pre-computation of boundary information is key to achieving linear time complexity.",
+      "The problem can be solved by checking local conditions for each building after pre-processing.",
+      "The constraints on N and the number of buildings suggest a solution better than O(B^2)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

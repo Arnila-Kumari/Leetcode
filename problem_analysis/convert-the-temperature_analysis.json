@@ -1,0 +1,32 @@
+{
+  "problem_name": "convert-the-temperature",
+  "data_structures": [
+    [
+      "float",
+      "array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Apply direct conversion formulas for Kelvin and Fahrenheit."
+  ],
+  "problem_summary_simple": "Convert a temperature from Celsius to Kelvin and Fahrenheit.",
+  "problem_summary_technical": "Given a Celsius temperature, apply the standard formulas to calculate and return Kelvin and Fahrenheit temperatures in an array.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves straightforward application of well-known temperature conversion formulas.",
+      "Floating-point precision is important, and the problem statement allows for a small tolerance.",
+      "The output is a fixed-size array containing the two converted temperatures."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "linked-list-components",
+  "data_structures": [
+    [
+      "linked list",
+      "set"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterate through the linked list, using a set for O(1) lookup of values in nums.",
+    "Count components by checking transitions from a value not in nums to a value in nums."
+  ],
+  "problem_summary_simple": "Count connected components in a linked list based on a given subset of values.",
+  "problem_summary_technical": "Traverse linked list, identify components using a set of target values, counting transitions.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "Using a set for the `nums` array allows for efficient O(1) average time lookups.",
+      "A component starts when a node's value is in `nums` and the previous node's value was not.",
+      "A dummy node can simplify edge case handling for the head of the list."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

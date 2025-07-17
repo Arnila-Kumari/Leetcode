@@ -1,0 +1,34 @@
+{
+  "problem_name": "count-collisions-of-monkeys-on-a-polygon",
+  "data_structures": [
+    [
+      "variables for counts"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "combinatorics",
+    "fast exponentiation",
+    "principle of inclusion-exclusion"
+  ],
+  "problem_summary_simple": "Count ways monkeys on polygon vertices can move to cause at least one collision.",
+  "problem_summary_technical": "Total ways minus ways with no collisions. Each monkey has 2 choices, no collision means all move same direction.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "each monkey has 2 choices (left/right)",
+      "total ways = 2^n",
+      "no collision means all move left or all move right (2 ways)",
+      "collisions = total - no_collisions"
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:44:57",
+  "batch_processed": true,
+  "batch_size": 4
+}

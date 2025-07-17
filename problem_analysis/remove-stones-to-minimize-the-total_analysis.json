@@ -1,0 +1,31 @@
+{
+  "problem_name": "remove-stones-to-minimize-the-total",
+  "data_structures": [
+    [
+      "heap (priority queue)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a max-heap to repeatedly extract the largest pile, remove ceil(pile/2) stones, and re-insert."
+  ],
+  "problem_summary_simple": "Minimize remaining stones by repeatedly removing half from the largest pile.",
+  "problem_summary_technical": "Apply k operations, each removing ceil(pile/2) stones from the largest pile, using a max-heap.",
+  "time_complexity": [
+    "O(n + k log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "To minimize the total sum, we should always reduce the largest pile.",
+      "A max-heap is ideal for efficiently finding and updating the largest element.",
+      "The operation `ceil(x/2)` can be implemented as `(x + 1) // 2` for integers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

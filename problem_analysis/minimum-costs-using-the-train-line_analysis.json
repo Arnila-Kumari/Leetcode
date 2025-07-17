@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-costs-using-the-train-line",
+  "data_structures": [
+    [
+      "array",
+      "dynamic programming array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to calculate minimum costs to reach each stop using either regular or express routes."
+  ],
+  "problem_summary_simple": "Calculate the minimum cost to reach each stop on a train line with two routes and a transfer cost.",
+  "problem_summary_technical": "DP state dp[i][0] (regular) and dp[i][1] (express) tracks min cost to reach stop i. Transitions consider staying on route or switching.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming where the state represents the minimum cost to reach a stop via either the regular or express route.",
+      "The key transitions involve deciding whether to stay on the current route or switch, considering the expressCost for regular-to-express transfers.",
+      "The space complexity can be optimized to O(1) by only keeping track of the costs for the previous stop."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

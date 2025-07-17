@@ -1,0 +1,56 @@
+{
+  "problem_name": "shortest-palindrome",
+  "data_structures": [
+    [
+      "String",
+      "Array (for prefix function)"
+    ],
+    [
+      "String",
+      "Array (for prefix function)"
+    ],
+    [
+      "String",
+      "Array (for palindrome radii)"
+    ]
+  ],
+  "category": "String",
+  "algorithm_technique": [
+    "KMP algorithm's prefix function applied to `s + '#' + s[::-1]` to find the longest palindromic prefix.",
+    "KMP algorithm's prefix function applied to `s + s[::-1]` with post-processing to find the longest palindromic prefix.",
+    "Manacher's Algorithm to find the longest palindromic substring centered at the beginning of the string."
+  ],
+  "problem_summary_simple": "Add characters to the beginning of a string to make it a palindrome, using the minimum additions.",
+  "problem_summary_technical": "Find the longest palindromic prefix of `s`. The characters before this prefix in `s[::-1]` are prepended to `s`.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find the longest palindromic prefix of the given string `s`.",
+      "The KMP prefix function (LPS array) is crucial for efficiently finding the longest prefix that is also a suffix.",
+      "Constructing `s + '#' + s[::-1]` allows the KMP prefix function to directly identify the longest palindromic prefix of `s`."
+    ],
+    [
+      "The KMP prefix function can be adapted to find the longest palindromic prefix by analyzing `s + s[::-1]`.",
+      "The length of the longest palindromic prefix of `s` is related to the last value of the KMP prefix function on `s + s[::-1]`.",
+      "Careful handling of indices is needed to extract the correct part of the reversed string to prepend."
+    ],
+    [
+      "Manacher's Algorithm is designed to find all palindromic substrings in linear time.",
+      "By preprocessing the string and calculating palindrome radii, we can efficiently find the longest palindrome starting at index 0.",
+      "The longest palindromic prefix's length directly tells us which part of the reversed string needs to be prepended."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

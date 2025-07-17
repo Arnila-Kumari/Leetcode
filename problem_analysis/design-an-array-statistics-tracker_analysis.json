@@ -1,0 +1,33 @@
+{
+  "problem_name": "design-an-array-statistics-tracker",
+  "data_structures": [
+    [
+      "collections.deque",
+      "sortedcontainers.SortedList",
+      "collections.defaultdict"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Maintain sorted lists for median, frequency map for mode, deque for order."
+  ],
+  "problem_summary_simple": "Track statistics (mean, median, mode) of numbers added and removed from a dynamic array.",
+  "problem_summary_technical": "Uses deque for insertion order, two sorted lists for median, and frequency maps/sorted frequencies for mode calculation.",
+  "time_complexity": [
+    "addNumber: O(log n), removeFirstAddedNumber: O(log n), getMean: O(1), getMedian: O(1), getMode: O(1)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Maintaining two sorted lists (sl1, sl2) allows O(1) median retrieval by balancing their sizes.",
+      "Frequency tracking with a map and a sorted list of frequencies enables O(1) mode retrieval.",
+      "Deque is crucial for tracking the order of insertion for `removeFirstAddedNumber`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:39:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

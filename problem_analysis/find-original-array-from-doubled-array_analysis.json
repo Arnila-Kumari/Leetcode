@@ -1,0 +1,35 @@
+{
+  "problem_name": "find-original-array-from-doubled-array",
+  "data_structures": [
+    [
+      "hashmap",
+      "counter",
+      "sorted list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count frequencies of numbers, sort them, and greedily match numbers with their doubles.",
+    "Use a frequency map (Counter) and iterate through sorted keys to find pairs."
+  ],
+  "problem_summary_simple": "Reconstruct an original array from a shuffled array containing original elements and their doubles.",
+  "problem_summary_technical": "Uses a frequency map and sorted iteration to greedily match numbers with their doubles.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The array must have an even length. If not, it cannot be a doubled array.",
+      "Sorting the input array is crucial for a greedy approach to work correctly.",
+      "Special handling is needed for the number 0, as 0*2 = 0.",
+      "A frequency map (like `collections.Counter`) is efficient for tracking counts."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

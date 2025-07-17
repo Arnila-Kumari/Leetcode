@@ -1,0 +1,31 @@
+{
+  "problem_name": "pour-water",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Simulation with greedy water flow logic"
+  ],
+  "problem_summary_simple": "Simulate pouring water onto an elevation map, letting it flow to the lowest possible point.",
+  "problem_summary_technical": "Simulates water pouring by iteratively finding the lowest reachable point from the drop location, updating the elevation array.",
+  "time_complexity": [
+    "O(V * N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Water flows to the lowest point, prioritizing left then right.",
+      "The 'eventually fall' condition requires checking multiple steps ahead.",
+      "The simulation approach is straightforward but can be slow for large volumes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

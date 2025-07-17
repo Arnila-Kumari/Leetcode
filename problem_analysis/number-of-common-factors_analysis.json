@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-common-factors",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate the Greatest Common Divisor (GCD) of the two numbers. Then, find all factors of the GCD. The number of factors of the GCD is the number of common factors of the original numbers."
+  ],
+  "problem_summary_simple": "Find how many numbers divide both 'a' and 'b'.",
+  "problem_summary_technical": "Compute the GCD of 'a' and 'b'. Iterate up to the square root of the GCD to find its factors efficiently, counting pairs of factors.",
+  "time_complexity": [
+    "O(log(min(a, b)) + sqrt(gcd))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The common factors of two numbers are precisely the factors of their Greatest Common Divisor (GCD).",
+      "The Euclidean algorithm is an efficient way to compute GCD.",
+      "Iterating up to the square root of a number is an optimized way to find its factors."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

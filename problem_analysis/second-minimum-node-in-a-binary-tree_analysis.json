@@ -1,0 +1,33 @@
+{
+  "problem_name": "second-minimum-node-in-a-binary-tree",
+  "data_structures": [
+    [
+      "binary tree",
+      "max heap",
+      "set"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Tree traversal (DFS) with a max heap to store unique node values, keeping only the two smallest."
+  ],
+  "problem_summary_simple": "Find the second smallest value in a special binary tree where parent is min of children.",
+  "problem_summary_technical": "Perform DFS on a binary tree, use a max heap and a set to track the two smallest unique node values.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The tree property `root.val = min(root.left.val, root.right.val)` implies the root is the smallest value.",
+      "A max heap of size 2 is used to efficiently keep track of the two smallest unique values encountered.",
+      "A set (`lookup`) is crucial to avoid duplicate values in the heap, ensuring we find the second *distinct* minimum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

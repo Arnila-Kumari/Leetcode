@@ -1,0 +1,31 @@
+{
+  "problem_name": "convert-date-to-binary",
+  "data_structures": [
+    [
+      "String"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "String manipulation and binary conversion"
+  ],
+  "problem_summary_simple": "Convert a date string (yyyy-mm-dd) into its binary representation for year, month, and day.",
+  "problem_summary_technical": "Parse the date string, convert year, month, and day components to binary without leading zeros, and join with hyphens.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires parsing a fixed-format string.",
+      "Python's `bin()` function is useful, but slicing `[2:]` is needed to remove the '0b' prefix.",
+      "The `map` and `join` functions provide a concise way to apply the conversion to all parts of the date."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

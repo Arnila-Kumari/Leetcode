@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-the-substring-with-maximum-cost",
+  "data_structures": [
+    [
+      "string",
+      "list of integers",
+      "hashmap"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Kadane's algorithm with custom character value mapping."
+  ],
+  "problem_summary_simple": "Find the substring with the highest total cost, where character costs are defined by a mapping or alphabet position.",
+  "problem_summary_technical": "Map characters to their values using a hashmap for custom costs or alphabet position. Apply Kadane's algorithm to find the maximum subarray sum on these values.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be transformed into finding the maximum subarray sum by assigning numerical values to characters.",
+      "Kadane's algorithm is efficient for finding the maximum sum of a contiguous subarray.",
+      "A hashmap is ideal for quickly looking up custom character values."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

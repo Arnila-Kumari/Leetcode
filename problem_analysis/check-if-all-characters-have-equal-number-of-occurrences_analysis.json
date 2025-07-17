@@ -1,0 +1,35 @@
+{
+  "problem_name": "check-if-all-characters-have-equal-number-of-occurrences",
+  "data_structures": [
+    [
+      "hashmap",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count character frequencies using a hashmap, then check if all frequency values are the same using a set."
+  ],
+  "problem_summary_simple": "Determine if all characters in a string appear the same number of times.",
+  "problem_summary_technical": "Use a frequency map (Counter) to store character counts. Then, check if the set of these counts has a size of 1.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "`collections.Counter` is ideal for frequency counting.",
+      "A `set` of the counts efficiently checks for uniformity."
+    ],
+    [
+      "The space complexity is O(1) because the alphabet size is fixed (26 lowercase English letters).",
+      "The problem boils down to comparing the values in the frequency map."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

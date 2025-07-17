@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-laser-beams-in-a-bank",
+  "data_structures": [
+    [
+      "list of strings",
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through rows, count devices, and multiply counts between non-empty rows."
+  ],
+  "problem_summary_simple": "Calculate total laser beams between security devices across rows with no devices in between.",
+  "problem_summary_technical": "Greedy approach: count devices per row, then sum products of device counts from consecutive non-empty rows.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through the bank row by row.",
+      "Only rows with security devices ('1's) matter for beam calculations.",
+      "The number of beams between two non-empty rows is the product of the number of devices in each row."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

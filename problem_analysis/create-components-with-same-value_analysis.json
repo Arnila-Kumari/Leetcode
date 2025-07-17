@@ -1,0 +1,58 @@
+{
+  "problem_name": "create-components-with-same-value",
+  "data_structures": [
+    [
+      "adjacency list",
+      "queue",
+      "array"
+    ],
+    [
+      "adjacency list",
+      "stack",
+      "array"
+    ],
+    [
+      "adjacency list",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "BFS with component sum tracking and greedy edge removal",
+    "Iterative DFS with component sum tracking and greedy edge removal",
+    "Recursive DFS with component sum tracking and greedy edge removal"
+  ],
+  "problem_summary_simple": "Split a tree into components with equal sum values by deleting edges, maximizing deletions.",
+  "problem_summary_technical": "Find the maximum number of edges to cut in a tree such that all resulting components have the same sum of node values.",
+  "time_complexity": [
+    "O(n * sqrt(n))",
+    "O(n * sqrt(n))",
+    "O(n * sqrt(n))"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The total sum of the tree must be divisible by the target component sum.",
+      "Iterate through possible number of components (divisors of total sum) from largest to smallest.",
+      "A greedy approach works by checking if a target sum can be achieved."
+    ],
+    [
+      "The core idea is to find a target sum for each component.",
+      "The total sum of the tree must be divisible by the number of components.",
+      "Iterate through possible component counts and verify feasibility."
+    ],
+    [
+      "The problem can be solved by iterating through possible numbers of components.",
+      "For each possible number of components, check if the total sum is divisible.",
+      "A DFS approach can efficiently calculate subtree sums and identify valid cuts."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

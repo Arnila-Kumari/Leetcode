@@ -1,0 +1,32 @@
+{
+  "problem_name": "read-n-characters-given-read4-ii-call-multiple-times",
+  "data_structures": [
+    [
+      "list of characters (internal buffer)",
+      "integer variables (internal pointers/counts)"
+    ]
+  ],
+  "category": "Implementation",
+  "algorithm_technique": [
+    "Stateful buffer management across multiple calls using internal variables"
+  ],
+  "problem_summary_simple": "Read 'n' characters from a file using 'read4', allowing multiple calls to the read method.",
+  "problem_summary_technical": "Maintains an internal buffer and pointers to manage characters read by read4, allowing efficient retrieval across multiple calls to the read method.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key difference from the single-call version is the need to persist state (characters read but not yet consumed) between calls.",
+      "Class variables (`__buf4`, `__i4`, `__n4`) are used to store the remaining characters from the last `read4` call.",
+      "When `read` is called, it first checks if there are unconsumed characters in the internal buffer. If not, it calls `read4` to refill the buffer."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

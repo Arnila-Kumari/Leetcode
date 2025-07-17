@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-the-distinct-difference-array",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Two-pass approach using sets to count distinct elements in prefixes and suffixes."
+  ],
+  "problem_summary_simple": "Calculate the difference between distinct prefix and suffix counts for each element.",
+  "problem_summary_technical": "Maintain prefix distinct counts using a set, then suffix distinct counts using another set in reverse, and compute the difference.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A single pass to calculate prefix distinct counts and another pass in reverse for suffix distinct counts is efficient.",
+      "Using sets is ideal for tracking distinct elements in O(1) average time.",
+      "The result array can be updated in place during the second pass."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

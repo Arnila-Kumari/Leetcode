@@ -1,0 +1,33 @@
+{
+  "problem_name": "rotting-oranges",
+  "data_structures": [
+    [
+      "2D list (grid)",
+      "deque (for BFS)",
+      "set (implicitly for visited, though grid modification serves this)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) starting from all rotten oranges simultaneously."
+  ],
+  "problem_summary_simple": "Find the minimum time for all fresh oranges to rot, spreading from rotten ones.",
+  "problem_summary_technical": "Apply BFS on a grid to find the shortest time for all '1's to become '2's, starting from initial '2's.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "BFS is ideal for finding the shortest path/time in unweighted graphs (grid cells).",
+      "Simultaneous BFS from all initial rotten oranges correctly models the spreading process.",
+      "Tracking the time/level in BFS is crucial to determine the total minutes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

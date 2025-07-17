@@ -1,0 +1,31 @@
+{
+  "problem_name": "smallest-string-with-a-given-numeric-value",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach by assigning largest possible characters from right to left"
+  ],
+  "problem_summary_simple": "Construct the lexicographically smallest string of a given length and numeric value.",
+  "problem_summary_technical": "Greedily assigns the largest possible character ('z') from right to left to satisfy the numeric value constraint while minimizing lexicographical order.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To achieve the lexicographically smallest string, we want to place 'a's (smallest values) as far left as possible.",
+      "This means we should fill the string from right to left, assigning the largest possible character ('z') to satisfy the remaining numeric value.",
+      "The constraint `k -= n` effectively accounts for the minimum value of 'a' for each of the `n` characters."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

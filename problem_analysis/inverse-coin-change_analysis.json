@@ -1,0 +1,31 @@
+{
+  "problem_name": "inverse-coin-change",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "dynamic programming with greedy selection of denominations"
+  ],
+  "problem_summary_simple": "Find coin denominations given the number of ways to make each amount.",
+  "problem_summary_technical": "Uses DP to track ways to make amounts, greedily identifying denominations by checking for a single way to form an amount.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that if `numWays[i-1]` is 1, then `i` must be a coin denomination.",
+      "Once a denomination `i` is identified, its contribution to `numWays` for amounts greater than `i` must be subtracted.",
+      "If at any point `numWays[i-1]` becomes non-zero after accounting for previously found denominations, it indicates an impossible scenario."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:47:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

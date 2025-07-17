@@ -1,0 +1,32 @@
+{
+  "problem_name": "power-of-heroes",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Sort the array, then use DP to calculate contributions of each element as max and min."
+  ],
+  "problem_summary_simple": "Calculate the sum of powers of all non-empty hero groups.",
+  "problem_summary_technical": "Sorts the array. Uses DP to track the sum of elements seen so far (`dp`) and the sum of powers (`result`) considering each element as max or min.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is crucial to efficiently determine min and max within groups.",
+      "The problem can be solved by considering each element's contribution as the maximum and minimum in different groups.",
+      "The DP state `dp` represents the sum of `nums[j]` for all `j < i`, and `result` accumulates the powers."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:05:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

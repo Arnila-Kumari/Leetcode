@@ -1,0 +1,31 @@
+{
+  "problem_name": "detect-pattern-of-length-m-repeated-k-or-more-times",
+  "data_structures": [
+    [
+      "Array (input)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array, comparing elements at `i` and `i+m` to count consecutive identical patterns."
+  ],
+  "problem_summary_simple": "Check if a subarray pattern of length m repeats at least k times consecutively.",
+  "problem_summary_technical": "Scan the array, counting consecutive identical segments of length m to find k repetitions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to check for equality between `arr[i]` and `arr[i+m]`.",
+      "A counter needs to track consecutive matches of the pattern.",
+      "The condition `cnt == (k-1)*m` correctly identifies `k` repetitions because `cnt` increments by 1 for each matching `m`-length segment."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

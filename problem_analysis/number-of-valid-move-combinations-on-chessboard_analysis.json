@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-valid-move-combinations-on-chessboard",
+  "data_structures": [
+    [
+      "2D array (lookup table)",
+      "Dictionary (for directions)"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with bitmasking to track occupied squares over time."
+  ],
+  "problem_summary_simple": "Count valid simultaneous moves for multiple chess pieces on an 8x8 board without collisions.",
+  "problem_summary_technical": "Uses backtracking to explore move combinations, employing bitmasks on an 8x8 grid to detect collisions at each second.",
+  "time_complexity": [
+    "O(n^p)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is to manage simultaneous moves and avoid collisions at any given second.",
+      "Bitmasking is crucial for efficiently tracking which squares are occupied at each time step.",
+      "The maximum number of seconds a piece can move is limited by the board size (7 seconds for an 8x8 board)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

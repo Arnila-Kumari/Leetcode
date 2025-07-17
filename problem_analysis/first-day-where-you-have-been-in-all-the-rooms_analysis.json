@@ -1,0 +1,32 @@
+{
+  "problem_name": "first-day-where-you-have-been-in-all-the-rooms",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to calculate days to visit rooms, considering odd/even visits and modulo arithmetic."
+  ],
+  "problem_summary_simple": "Find the first day when all rooms have been visited, following specific rules for room transitions.",
+  "problem_summary_technical": "Uses DP to calculate the number of days to reach each room, considering state transitions based on visit parity and modulo arithmetic.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to track the number of days to reach each room.",
+      "The transition rule depends on the parity of visits to the current room.",
+      "Modulo arithmetic is crucial for handling the cyclic nature of room progression."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

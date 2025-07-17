@@ -1,0 +1,48 @@
+{
+  "problem_name": "count-subtrees-with-max-distance-between-cities",
+  "data_structures": [
+    [
+      "dictionary",
+      "list",
+      "array",
+      "array"
+    ],
+    [
+      "dictionary",
+      "list",
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "DFS with dynamic programming to count subtrees rooted at each node, considering distances.",
+    "Brute-force iteration through all possible subtrees (masks) and BFS to find max distance."
+  ],
+  "problem_summary_simple": "Count subtrees with a specific maximum distance between any two nodes.",
+  "problem_summary_technical": "Solution 1 uses DFS and DP on trees to calculate subtree properties. Solution 2 iterates through all 2^n subsets of nodes and uses BFS to verify connectivity and find diameter.",
+  "time_complexity": [
+    "O(n^6)",
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(n^3)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires considering all possible connected subgraphs (subtrees) and their diameters.",
+      "The constraints (n <= 15) suggest an exponential time complexity solution might be acceptable, pointing towards iterating through subsets.",
+      "The DFS/DP approach is complex, involving merging subtree information and carefully tracking distances."
+    ],
+    [
+      "Iterating through all 2^n subsets of nodes is a common strategy for small N when dealing with subsets.",
+      "For each subset, checking if it forms a valid connected subtree and then calculating its diameter is necessary. BFS is suitable for finding the diameter of a connected component.",
+      "The `max_distance` function correctly uses two BFS traversals to find the diameter of a given connected component."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:38:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

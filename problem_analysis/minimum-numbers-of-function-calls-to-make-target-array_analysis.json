@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-numbers-of-function-calls-to-make-target-array",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Greedy approach by working backward from the target array to the initial zero array.",
+    "Greedy approach by working backward, counting increments and doublings."
+  ],
+  "problem_summary_simple": "Find the minimum operations (increment one element, double all elements) to transform an array of zeros into a target array.",
+  "problem_summary_technical": "Reverse the operations: count total increments (sum of popcounts) and maximum doublings (max bit length minus 1).",
+  "time_complexity": [
+    "O(N log M)",
+    "O(N log M)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Consider the operations in reverse: starting from the target array and going to all zeros.",
+      "An 'increment by 1' operation on a single element corresponds to a '1' bit in its binary representation.",
+      "A 'double all elements' operation corresponds to shifting all bits left (increasing the bit length).",
+      "The total number of increments is the sum of set bits (popcount) for all numbers.",
+      "The total number of doublings is determined by the maximum bit length required across all numbers."
+    ],
+    [
+      "The problem can be solved by analyzing the binary representation of each number.",
+      "Each '1' bit in a number's binary representation must be created by an increment operation.",
+      "The 'double all' operation is applied to all elements simultaneously.",
+      "To minimize operations, we want to maximize the effect of 'double all' operations.",
+      "This means we should perform 'double all' operations until the largest number reaches its final bit length, then handle remaining increments."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

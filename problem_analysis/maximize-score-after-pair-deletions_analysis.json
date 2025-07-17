@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximize-score-after-pair-deletions",
+  "data_structures": [
+    [
+      "integer variables for sum and min"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: the maximum score is achieved by removing elements such that the sum of the two smallest elements (or the single smallest if odd length) is minimized."
+  ],
+  "problem_summary_simple": "Maximize score by repeatedly removing two elements from either end or both ends of an array.",
+  "problem_summary_technical": "Greedy strategy: for even length, minimize the sum of the two smallest elements. For odd length, remove the single smallest element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by observing that we want to maximize the sum of removed elements.",
+      "This is equivalent to minimizing the sum of the elements that remain in the array.",
+      "For an even number of elements, we want to leave the two smallest elements. For an odd number, we want to leave the single smallest element."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:51:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

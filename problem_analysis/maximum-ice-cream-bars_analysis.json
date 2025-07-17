@@ -1,0 +1,29 @@
+{
+  "problem_name": "maximum-ice-cream-bars",
+  "data_structures": [
+    []
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the costs and greedily buy the cheapest ice cream bars until coins run out."
+  ],
+  "problem_summary_simple": "Buy the maximum number of ice cream bars given their costs and a budget.",
+  "problem_summary_technical": "Sort costs and iterate, subtracting costs from coins, to find the maximum count of affordable bars.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To maximize the number of items, always pick the cheapest available item first (greedy approach).",
+      "Sorting the costs is essential for the greedy strategy.",
+      "The problem statement specifically requires using counting sort, but the provided solution uses standard sort."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:18:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

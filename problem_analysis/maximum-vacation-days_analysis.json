@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-vacation-days",
+  "data_structures": [
+    [
+      "2D array (DP table)",
+      "2D array (flights)",
+      "2D array (days)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with reversed iteration and state compression"
+  ],
+  "problem_summary_simple": "Maximize vacation days by choosing cities and flights over k weeks, considering travel restrictions.",
+  "problem_summary_technical": "DP approach where dp[i][j] is max vacation days ending at city j in week i. Uses state compression.",
+  "time_complexity": [
+    "O(n^2 * k)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the longest path in a DAG where nodes are (week, city).",
+      "Dynamic programming is suitable, with states representing the maximum vacation days up to a certain week and city.",
+      "State compression can be used to reduce space complexity from O(n*k) to O(n) by only keeping track of the previous week's results."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-subarrays-that-match-a-pattern-ii",
+  "data_structures": [
+    [
+      "list",
+      "integer array (for prefix function)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "KMP algorithm for pattern matching on transformed array"
+  ],
+  "problem_summary_simple": "Count subarrays in nums that follow a given pattern of relative element changes.",
+  "problem_summary_technical": "Applies KMP algorithm to a transformed array representing relative differences between adjacent elements.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to transform the problem into a string matching problem.",
+      "The KMP algorithm is efficient for finding occurrences of a pattern within a text.",
+      "The transformation to a sequence of -1, 0, 1 simplifies the comparison logic."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:50",
+  "batch_processed": true,
+  "batch_size": 4
+}

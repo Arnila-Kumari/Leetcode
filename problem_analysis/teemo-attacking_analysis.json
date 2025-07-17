@@ -1,0 +1,31 @@
+{
+  "problem_name": "teemo-attacking",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through time series, summing durations and subtracting overlaps."
+  ],
+  "problem_summary_simple": "Calculate total poisoned time when Teemo attacks with a poison duration and cooldown.",
+  "problem_summary_technical": "Iterates through attack times, adding full duration, then subtracting overlap between consecutive attacks.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The total poisoned duration is the sum of individual poison durations, minus any overlapping periods.",
+      "An overlap occurs when the next attack happens before the current poison effect ends.",
+      "The overlap duration is `duration - (timeSeries[i] - timeSeries[i-1])`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:12:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

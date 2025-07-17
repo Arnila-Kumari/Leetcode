@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximize-active-section-with-trade-i",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach to find the longest contiguous block of '0's that can be flipped to '1's, considering the '1's to be flipped to '0's."
+  ],
+  "problem_summary_simple": "Maximize active sections ('1's) by flipping one block of '1's to '0's and one block of '0's to '1's.",
+  "problem_summary_technical": "Greedy strategy identifies the longest '0' block adjacent to '1' blocks, maximizing the gain from the trade.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be simplified by considering the net change in active sections: +1 for flipping '0' to '1', -1 for flipping '1' to '0'.",
+      "The goal is to maximize the number of '0's flipped to '1's, minus the number of '1's flipped to '0's, plus the original count of '1's.",
+      "The optimal strategy involves finding the longest contiguous block of '0's that can be converted to '1's, bounded by '1's (or augmented '1's), and a block of '1's to convert to '0's."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,37 @@
+{
+  "problem_name": "count-partitions-with-max-min-difference-at-most-k",
+  "data_structures": [
+    [
+      "collections.deque",
+      "list"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Dynamic programming with monotonic deque and two pointers"
+  ],
+  "problem_summary_simple": "Count ways to partition an array into contiguous segments where max-min difference in each segment is at most k.",
+  "problem_summary_technical": "Use DP with a sliding window maintained by monotonic deques to efficiently find valid segment endpoints.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming where `dp[i]` represents the number of valid partitions of the first `i` elements.",
+      "The transition `dp[i] = sum(dp[j])` for all `j < i` such that `nums[j...i-1]` is a valid segment.",
+      "A sliding window approach with monotonic deques (for max and min) is used to efficiently find valid `j` for each `i`."
+    ],
+    [
+      "The monotonic deques store indices of elements in increasing order of value (for min_dq) and decreasing order of value (for max_dq) within the current window.",
+      "As the right pointer expands the window, elements are added to the deques. If the max-min difference exceeds `k`, the left pointer is advanced, removing elements from the deques.",
+      "The `suffix` variable efficiently calculates the sum of `dp[left]` values within the valid window, avoiding re-computation."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:17:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

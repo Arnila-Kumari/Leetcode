@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-palindromic-subsequence",
+  "data_structures": [
+    [
+      "2D DP table (optimized to 2 rows for space)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming. dp[i][j] stores the LPS length for substring s[i...j]."
+  ],
+  "problem_summary_simple": "Find the length of the longest subsequence of a string that is also a palindrome.",
+  "problem_summary_technical": "Uses dynamic programming to compute LPS length. dp[i][j] = 2 + dp[i+1][j-1] if s[i] == s[j], else max(dp[i+1][j], dp[i][j-1]).",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by finding the Longest Common Subsequence (LCS) between the string and its reverse.",
+      "The DP state transition considers matching characters at the ends of a substring or excluding one character.",
+      "Space optimization to O(n) is possible by noticing that dp[i] only depends on dp[i+1]."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

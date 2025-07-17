@@ -1,0 +1,44 @@
+{
+  "problem_name": "two-out-of-three",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "set"
+    ],
+    [
+      "collections.Counter",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a counter to track element occurrences across unique elements of each array.",
+    "Iterate through unique elements of each array, incrementing counts. Add to result when count reaches K."
+  ],
+  "problem_summary_simple": "Find numbers present in at least two out of three given arrays.",
+  "problem_summary_technical": "Identify elements appearing in at least two of three input arrays using frequency counting with sets and a counter.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(min(n, r))",
+    "O(min(n, r))"
+  ],
+  "key_insights": [
+    [
+      "Using `set(nums)` ensures each number is counted only once per array, preventing overcounting.",
+      "`collections.Counter` efficiently stores and updates frequencies.",
+      "The condition `c >= K` (where K=2) directly translates the problem requirement."
+    ],
+    [
+      "This approach optimizes by adding to the result as soon as an element reaches the threshold (K=2).",
+      "It avoids a second pass over the counter, potentially being slightly more efficient if the result is small.",
+      "The `set(nums)` is crucial to handle duplicates within individual arrays."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

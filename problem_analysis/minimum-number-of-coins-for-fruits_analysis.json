@@ -1,0 +1,59 @@
+{
+  "problem_name": "minimum-number-of-coins-for-fruits",
+  "data_structures": [
+    [
+      "list of integers (input)",
+      "list of integers (DP table)",
+      "deque (for monotonic queue)",
+      "SortedList (for alternative DP)"
+    ],
+    [
+      "list of integers (input)",
+      "list of integers (DP table)",
+      "SortedList (for monotonic queue)"
+    ],
+    [
+      "list of integers (input)",
+      "list of integers (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with monotonic deque optimization to find minimum cost from previous states.",
+    "DP with SortedList to efficiently query minimum cost from previous states.",
+    "Brute-force DP: iterate through all possible previous purchase points for each fruit."
+  ],
+  "problem_summary_simple": "Find the minimum cost to buy all fruits, where buying a fruit gives subsequent fruits for free.",
+  "problem_summary_technical": "DP state dp[i] is min cost for first i fruits. Transition considers buying fruit j (j <= i) and getting next j fruits free.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem has optimal substructure and overlapping subproblems, suitable for DP.",
+      "The 'free fruits' mechanic creates a dependency where buying fruit `j` can cover fruits up to `j + j + 1`.",
+      "Monotonic deque or SortedList can optimize the DP transition to find the minimum previous cost efficiently."
+    ],
+    [
+      "The core idea is to find the minimum cost to reach the current fruit, considering all valid previous purchase points.",
+      "A purchase at index `j` allows skipping fruits up to `j + j + 1`.",
+      "The DP state `dp[i]` represents the minimum cost to acquire the first `i` fruits."
+    ],
+    [
+      "The DP relation is `dp[i+1] = min(dp[j] + prices[j])` for `0 <= j <= i` where buying fruit `j` covers fruit `i`.",
+      "The condition for covering fruit `i` by buying fruit `j` is `j + j + 1 >= i`.",
+      "This leads to iterating `j` from `i // 2` to `i`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:58:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

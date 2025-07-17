@@ -1,0 +1,43 @@
+{
+  "problem_name": "random-pick-index",
+  "data_structures": [
+    [
+      "hashmap",
+      "list"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Preprocessing: Store indices of each number in a hash map. Picking: Randomly select an index from the list associated with the target.",
+    "Reservoir Sampling: Iterate through the array, maintaining a count of target occurrences and randomly updating the chosen index."
+  ],
+  "problem_summary_simple": "Randomly pick an index of a given target number from an array with duplicates, ensuring equal probability.",
+  "problem_summary_technical": "Solution 1: Hash map stores indices for each number, allowing O(1) pick. Solution 2: Reservoir sampling for O(n) pick without extra space.",
+  "time_complexity": [
+    "ctor: O(n), pick: O(1)",
+    "ctor: O(1), pick: O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "For the hash map approach, pre-computation allows for very fast lookups during `pick`.",
+      "The reservoir sampling approach is space-efficient and suitable when memory is a concern or the array is very large.",
+      "Reservoir sampling ensures that each occurrence of the target has an equal probability of being selected."
+    ],
+    [
+      "The hash map approach is generally preferred if `pick` calls are frequent and memory is not a severe constraint.",
+      "The reservoir sampling approach is a classic technique for selecting a random item from a stream of unknown size.",
+      "The probability of selecting an element in reservoir sampling is maintained by a specific random choice at each step."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

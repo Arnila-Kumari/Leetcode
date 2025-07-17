@@ -1,0 +1,32 @@
+{
+  "problem_name": "destination-city",
+  "data_structures": [
+    [
+      "set",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Store all departure cities in one set and all arrival cities in another. The destination city is the one present in arrival but not departure."
+  ],
+  "problem_summary_simple": "Find the city that is only an arrival point and never a departure point in a list of travel paths.",
+  "problem_summary_technical": "Identify the destination city by finding the element present in the set of destinations but absent from the set of origins.",
+  "time_complexity": [
+    "O(N) where N is the number of paths."
+  ],
+  "space_complexity": [
+    "O(N) to store the departure and arrival cities in sets."
+  ],
+  "key_insights": [
+    [
+      "The problem guarantees a linear path, simplifying the search for the destination.",
+      "Using sets provides efficient O(1) average time complexity for lookups and differences.",
+      "The destination city is the unique element in the set of all destinations that is not in the set of all origins."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "count-vowels-permutation",
+  "data_structures": [
+    [
+      "matrix"
+    ],
+    [
+      "variables"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Matrix exponentiation to solve linear recurrence relations.",
+    "Iterative DP with constant space by updating counts for each vowel."
+  ],
+  "problem_summary_simple": "Count strings of length n following specific vowel transition rules, modulo 10^9 + 7.",
+  "problem_summary_technical": "Model vowel transitions as a state transition matrix and use matrix exponentiation for O(log n) solution, or iterative DP for O(n).",
+  "time_complexity": [
+    "O(log n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the number of paths of length n-1 in a directed graph where nodes are vowels and edges are allowed transitions.",
+      "This path counting problem can be solved efficiently using matrix exponentiation on the adjacency matrix.",
+      "The modulo operation must be applied at each step to prevent overflow."
+    ],
+    [
+      "The number of strings of length `i` ending in a specific vowel depends only on the counts of strings of length `i-1` ending in preceding vowels.",
+      "This suggests a dynamic programming approach where `dp[i][vowel]` is the count of strings of length `i` ending in `vowel`.",
+      "The space complexity can be optimized to O(1) by only keeping track of the counts from the previous length."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:38:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

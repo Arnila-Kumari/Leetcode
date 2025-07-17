@@ -1,0 +1,32 @@
+{
+  "problem_name": "4-keys-keyboard",
+  "data_structures": [
+    [
+      "integer array (for DP)",
+      "mathematical formula"
+    ],
+    [
+      "integer array (for DP)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Mathematical formula derived from observing patterns of optimal key presses.",
+    "Dynamic programming approach to build up the maximum number of 'A's for increasing key presses."
+  ],
+  "problem_summary_simple": "Find the maximum number of 'A's printable on a special keyboard with N key presses.",
+  "problem_summary_technical": "Optimize key presses (A, Ctrl-A, Ctrl-C, Ctrl-V) to maximize 'A's. DP or mathematical pattern recognition.",
+  "time_complexity": "O(1) for the mathematical solution, O(N) for the DP solution",
+  "space_complexity": "O(1) for both solutions",
+  "key_insights": [
+    [
+      "The optimal strategy often involves using Ctrl-A, Ctrl-C, and then multiple Ctrl-V presses.",
+      "The mathematical solution relies on identifying a pattern where every 5 key presses can be optimized to produce more 'A's.",
+      "The DP solution builds upon previous results, considering the best strategy at each step."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-15 20:21:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

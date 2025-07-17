@@ -1,0 +1,31 @@
+{
+  "problem_name": "fizz-buzz",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate and check divisibility using modulo operator"
+  ],
+  "problem_summary_simple": "Generate a list of strings for numbers 1 to n, replacing multiples of 3 with 'Fizz', 5 with 'Buzz', and both with 'FizzBuzz'.",
+  "problem_summary_technical": "Iterate from 1 to n, applying conditional logic with modulo operations to determine output strings for divisibility by 3 and 5.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core logic relies on the modulo operator (%) to check divisibility.",
+      "The order of checks (15, then 5, then 3) is crucial to handle FizzBuzz correctly.",
+      "Converting numbers to strings is necessary for the output format."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

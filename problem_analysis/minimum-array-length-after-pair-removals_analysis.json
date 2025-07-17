@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-array-length-after-pair-removals",
+  "data_structures": [
+    [
+      "hashmap",
+      "counter"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting and greedy removal based on counts."
+  ],
+  "problem_summary_simple": "Find the minimum length of an array after removing pairs where the first element is smaller than the second.",
+  "problem_summary_technical": "Utilizes frequency counts to determine the maximum frequency element and applies a greedy strategy to maximize pair removals.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by identifying the most frequent element.",
+      "The maximum number of pairs that can be removed is limited by the count of the most frequent element.",
+      "If the count of the most frequent element is greater than half the array length, the remaining elements are determined by the difference."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

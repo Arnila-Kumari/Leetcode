@@ -1,0 +1,32 @@
+{
+  "problem_name": "uncommon-words-from-two-sentences",
+  "data_structures": [
+    [
+      "hashmap",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Combine word counts from both sentences using a hashmap (Counter) and filter for words with a count of 1."
+  ],
+  "problem_summary_simple": "Find words that appear exactly once in one sentence and not at all in the other.",
+  "problem_summary_technical": "Identify words unique to either sentence by aggregating word frequencies from both sentences and selecting those with a total count of one.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "Using a hashmap (like `collections.Counter`) is efficient for tracking word frequencies.",
+      "Combining counts from both sentences simplifies the logic.",
+      "Filtering for words with a count of 1 directly identifies uncommon words."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

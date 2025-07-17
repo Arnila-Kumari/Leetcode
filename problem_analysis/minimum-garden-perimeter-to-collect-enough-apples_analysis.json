@@ -1,0 +1,53 @@
+{
+  "problem_name": "minimum-garden-perimeter-to-collect-enough-apples",
+  "data_structures": [
+    [
+      "Math",
+      "Integer"
+    ],
+    [
+      "Math",
+      "Integer"
+    ],
+    [
+      "Math",
+      "Integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Solving a cubic equation using Cardano's formula to find the side length.",
+    "Approximation and adjustment based on a cubic formula for the number of apples.",
+    "Binary search on the side length to find the minimum perimeter."
+  ],
+  "problem_summary_simple": "Find the smallest square perimeter centered at (0,0) that encloses at least 'neededApples'.",
+  "problem_summary_technical": "The number of apples in a square of side 2r+1 is 4r^3+6r^2+2r. Find minimum r such that this sum >= neededApples.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(log(neededApples^(1/3)))"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of apples within a square of side length 2r+1 (centered at origin) follows a specific cubic formula: 4r^3 + 6r^2 + 2r.",
+      "The problem reduces to finding the smallest integer 'r' (half the side length, excluding the center row/column) that satisfies this inequality.",
+      "The perimeter is then 8 * r."
+    ],
+    [
+      "The cubic formula can be approximated or solved directly.",
+      "Binary search is an efficient way to find the smallest 'r' that meets the condition."
+    ],
+    [
+      "The formula for apples can be derived by summing apples in diamond shapes or by considering the Manhattan distance |i| + |j| <= r."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

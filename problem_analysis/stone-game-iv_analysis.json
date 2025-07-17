@@ -1,0 +1,32 @@
+{
+  "problem_name": "stone-game-iv",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to determine winning states.",
+    "DP state `dp[i]` indicates if the current player can win starting with `i` stones."
+  ],
+  "problem_summary_simple": "Players remove a square number of stones; the player who cannot move loses.",
+  "problem_summary_technical": "DP state `dp[i]` is true if player can win with `i` stones, by moving to a losing state `i - k*k`.",
+  "time_complexity": [
+    "O(n * sqrt(n))"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This is an impartial game, solvable with dynamic programming.",
+      "The DP state `dp[i]` represents whether the first player to move with `i` stones can win.",
+      "A player wins if they can make a move to a state where the other player loses (i.e., `dp[i - k*k]` is false)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

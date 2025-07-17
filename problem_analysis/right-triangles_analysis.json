@@ -1,0 +1,53 @@
+{
+  "problem_name": "right-triangles",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Precompute row sums, iterate through columns, use combinatorics",
+    "Precompute row and column sums, iterate through grid, use combinatorics",
+    "Precompute row/column sums, iterate and count based on directions"
+  ],
+  "problem_summary_simple": "Count right triangles formed by '1's in a boolean grid.",
+  "problem_summary_technical": "Count right triangles by precomputing row/column sums of '1's and applying combinatorics.",
+  "time_complexity": [
+    "O(n*m)",
+    "O(n*m)",
+    "O(n*m)"
+  ],
+  "space_complexity": [
+    "O(min(n, m))",
+    "O(n + m)",
+    "O(min(n, m))"
+  ],
+  "key_insights": [
+    [
+      "A right triangle is formed by three '1's where one '1' is the vertex, and the other two are on the same row and column as the vertex.",
+      "Pre-calculating row and column sums of '1's allows for efficient counting using combinations: (row_ones - 1) * (col_ones - 1) for each '1' as a vertex."
+    ],
+    [
+      "The core idea is that for each '1' at (i, j), it can be the vertex of a right triangle if there are other '1's in the same row (excluding itself) and same column (excluding itself).",
+      "The number of such triangles with (i, j) as the vertex is (count of '1's in row i - 1) * (count of '1's in column j - 1)."
+    ],
+    [
+      "The problem can be viewed as finding pairs of '1's in the same row and pairs of '1's in the same column that meet at a common '1'.",
+      "The solution cleverly uses frequency counts and iterates through the grid, accumulating counts for potential triangle vertices."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

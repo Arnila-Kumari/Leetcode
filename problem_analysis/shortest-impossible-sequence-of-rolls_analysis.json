@@ -1,0 +1,31 @@
+{
+  "problem_name": "shortest-impossible-sequence-of-rolls",
+  "data_structures": [
+    [
+      "Set"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: Iterate through rolls, track unique numbers seen since last reset. Reset when all k numbers are seen."
+  ],
+  "problem_summary_simple": "Find the shortest sequence of dice rolls that cannot be formed as a subsequence from the given rolls.",
+  "problem_summary_technical": "Greedily build sequences. Count segments of rolls that contain all k distinct values. The answer is segment count + 1.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the shortest sequence that is NOT a subsequence.",
+      "A greedy strategy works: find the shortest prefix of rolls that contains all possible outcomes (1 to k).",
+      "Each time we encounter all k unique numbers, we've completed a 'full set' of rolls, and we start looking for the next impossible sequence."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

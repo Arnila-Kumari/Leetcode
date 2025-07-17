@@ -1,0 +1,31 @@
+{
+  "problem_name": "valid-permutations-for-di-sequence",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Use dynamic programming. DP state represents counts of valid permutations ending with a specific number. Update DP based on 'I' or 'D' characters."
+  ],
+  "problem_summary_simple": "Count permutations of 0 to n that match a given 'I'/'D' sequence.",
+  "problem_summary_technical": "DP approach where dp[i] is the count of valid permutations ending with number i. Transitions depend on 'I' (sum of previous) or 'D' (sum of subsequent).",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming by considering the counts of valid permutations ending at each possible number.",
+      "When encountering an 'I', the number of ways to form a sequence ending with a larger number increases based on the sum of previous counts.",
+      "When encountering a 'D', the number of ways to form a sequence ending with a smaller number increases based on the sum of subsequent counts."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

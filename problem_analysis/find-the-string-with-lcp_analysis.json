@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-the-string-with-lcp",
+  "data_structures": [
+    [
+      "2D array (lcp matrix)",
+      "list (for result string)",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Construct the string greedily by assigning characters. Use the LCP matrix to infer relationships and validate the construction. Check for inconsistencies."
+  ],
+  "problem_summary_simple": "Reconstruct the lexicographically smallest string given its LCP matrix, ensuring consistency with LCP values.",
+  "problem_summary_technical": "Greedily assigns characters to positions based on LCP values, then validates the constructed string against the LCP matrix properties.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The LCP matrix provides constraints on the relationships between suffixes.",
+      "The problem can be solved by assigning characters greedily and then verifying.",
+      "The condition `lcp[i][j] = lcp[i+1][j+1] + 1` if `word[i] == word[j]` is crucial for validation."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:45:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

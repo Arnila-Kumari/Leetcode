@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-three-consecutive-integers-that-sum-to-a-given-number",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical derivation: if three consecutive integers sum to num, they are num/3-1, num/3, num/3+1. Check divisibility by 3."
+  ],
+  "problem_summary_simple": "Find three consecutive integers that add up to a given number.",
+  "problem_summary_technical": "Determine if a number is divisible by 3; if so, construct the three consecutive integers around num/3.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The sum of three consecutive integers (x-1) + x + (x+1) is 3x.",
+      "Therefore, the given number must be divisible by 3.",
+      "The middle integer is simply num / 3."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:34:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

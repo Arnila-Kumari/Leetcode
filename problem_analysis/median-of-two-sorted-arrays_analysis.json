@@ -1,0 +1,39 @@
+{
+  "problem_name": "median-of-two-sorted-arrays",
+  "data_structures": [
+    [
+      "list",
+      "binary_search helper function"
+    ],
+    [
+      "list",
+      "binary_search helper function"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the partition point of the smaller array to find the k-th element.",
+    "Binary search on the value range to find the k-th element across multiple sorted arrays."
+  ],
+  "problem_summary_simple": "Find the median of two sorted arrays combined.",
+  "problem_summary_technical": "Find the k-th smallest element in the union of two sorted arrays using binary search on partitions or values.",
+  "time_complexity": [
+    "O(log(min(m, n)))",
+    "O(log(max(m, n)) * log(max_val - min_val))"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find the k-th smallest element efficiently.",
+      "The first solution uses binary search on the partition of the smaller array to achieve O(log(min(m, n))).",
+      "The second solution is a more general approach that can handle multiple arrays by binary searching on the value range."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

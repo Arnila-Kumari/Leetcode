@@ -1,0 +1,42 @@
+{
+  "problem_name": "count-array-pairs-divisible-by-k",
+  "data_structures": [
+    [
+      "collections.Counter"
+    ],
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through GCDs of numbers with k, count pairs whose product of GCDs is divisible by k.",
+    "Iterate through numbers, calculate GCD with k, sum counts of previous GCDs satisfying the divisibility condition."
+  ],
+  "problem_summary_simple": "Count pairs of numbers in an array whose product is divisible by k.",
+  "problem_summary_technical": "Uses GCD to reduce the problem. Solution 1 counts GCD pairs. Solution 2 uses a running count of GCDs.",
+  "time_complexity": [
+    "O(n * logk + k)",
+    "O(n * logk)"
+  ],
+  "space_complexity": [
+    "O(sqrt(k))",
+    "O(sqrt(k))"
+  ],
+  "key_insights": [
+    [
+      "The condition `nums[i] * nums[j] % k == 0` can be analyzed using `gcd(nums[i], k) * gcd(nums[j], k) % k == 0`.",
+      "Pre-calculating GCDs with k significantly reduces the search space.",
+      "The number of factors of k is at most sqrt(k), which is a key optimization."
+    ],
+    [
+      "The second solution is more efficient as it avoids nested loops over GCDs.",
+      "It processes each number once, accumulating the count of valid pairs incrementally.",
+      "The `sum(cnt for gcd_j, cnt in gcds.iteritems() if gcd_i*gcd_j%k == 0)` efficiently finds matching previous GCDs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

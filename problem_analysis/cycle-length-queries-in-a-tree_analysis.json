@@ -1,0 +1,32 @@
+{
+  "problem_name": "cycle-length-queries-in-a-tree",
+  "data_structures": [
+    [
+      "None"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Finding LCA by repeatedly dividing by 2 and counting steps"
+  ],
+  "problem_summary_simple": "Find the cycle length formed by adding an edge between two nodes in a complete binary tree.",
+  "problem_summary_technical": "For each query, find the lowest common ancestor (LCA) of the two nodes and sum the distances from each node to the LCA.",
+  "time_complexity": [
+    "O(Q * logN)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The structure of a complete binary tree allows finding ancestors by repeatedly dividing node values by 2.",
+      "The cycle formed by adding an edge (u, v) consists of the path from u to LCA(u, v) and the path from v to LCA(u, v), plus the edge (u, v).",
+      "The length of the cycle is (depth(u) - depth(LCA(u, v))) + (depth(v) - depth(LCA(u, v))) + 1, which simplifies to depth(u) + depth(v) - 2*depth(LCA(u, v)) + 1.",
+      "The provided solution cleverly calculates this by moving the larger node value up the tree until it matches the smaller one, counting the steps."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

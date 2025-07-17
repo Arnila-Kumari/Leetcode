@@ -1,0 +1,33 @@
+{
+  "problem_name": "correct-a-binary-tree",
+  "data_structures": [
+    [
+      "queue",
+      "hashmap"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "breadth-first search (BFS)",
+    "parent tracking to modify tree structure"
+  ],
+  "problem_summary_simple": "Fix a binary tree where one node's right child incorrectly points to another node at the same depth.",
+  "problem_summary_technical": "BFS to find the invalid node by detecting a right child already in the current level's queue.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(w)"
+  ],
+  "key_insights": [
+    [
+      "BFS naturally processes nodes level by level",
+      "detecting a duplicate node in the next level's queue indicates the defect",
+      "parent pointer is crucial for modifying the tree"
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:44:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

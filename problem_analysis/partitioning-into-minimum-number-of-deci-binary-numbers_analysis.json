@@ -1,0 +1,31 @@
+{
+  "problem_name": "partitioning-into-minimum-number-of-deci-binary-numbers",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: the minimum number of deci-binary numbers is determined by the largest digit in the input number."
+  ],
+  "problem_summary_simple": "Find the minimum number of deci-binary numbers that sum up to a given decimal number.",
+  "problem_summary_technical": "The minimum number of deci-binary numbers required to sum to a given decimal number `n` is equal to the largest digit present in `n`.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Each deci-binary number can contribute at most 1 to each digit position.",
+      "To form a number like '32', we need at least three deci-binary numbers that can contribute to the '3' in the tens place (e.g., 10, 10, 10) and two that can contribute to the '2' in the units place (e.g., 1, 1).",
+      "The maximum digit dictates the minimum number of deci-binary numbers needed because that digit requires the most '1's across all contributing numbers at that position."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:04:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

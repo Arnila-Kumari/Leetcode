@@ -1,0 +1,39 @@
+{
+  "problem_name": "lowest-common-ancestor-of-a-binary-tree-iii",
+  "data_structures": [
+    [
+      "Node"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Two pointers: start from p and q, move up to parents. If pointers meet, that's LCA. If one reaches null, switch to the other's starting node.",
+    "Depth calculation: find depths of p and q, move the deeper node up until depths match, then move both up simultaneously until they meet."
+  ],
+  "problem_summary_simple": "Find LCA of two nodes in a tree where nodes have parent pointers.",
+  "problem_summary_technical": "Utilize parent pointers. Either equalize depths and move up, or use a clever pointer swapping trick to find the intersection.",
+  "time_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The presence of parent pointers simplifies LCA finding significantly.",
+      "The first solution cleverly uses pointer reassignment to ensure convergence at the LCA.",
+      "The second solution is more intuitive by first aligning the nodes at the same depth."
+    ],
+    [
+      "Calculating depths allows for a systematic approach to finding the LCA.",
+      "By moving the deeper node up, we ensure that when they are at the same level, their paths to the root are aligned.",
+      "The first node where they meet after aligning depths is the LCA."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

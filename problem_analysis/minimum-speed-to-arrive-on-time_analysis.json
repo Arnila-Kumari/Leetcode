@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-speed-to-arrive-on-time",
+  "data_structures": [
+    [
+      "list",
+      "float"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the possible speed values."
+  ],
+  "problem_summary_simple": "Find the minimum speed to travel by train to arrive at a meeting on time.",
+  "problem_summary_technical": "Binary search for the minimum speed. For a given speed, calculate total travel time including waits and check if it's within the hour limit.",
+  "time_complexity": [
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem has a monotonic property: if a speed `x` works, any speed greater than `x` will also work.",
+      "Binary search is ideal for finding the minimum value that satisfies a condition.",
+      "The `total_time` function must correctly account for the ceiling of travel times for all but the last train."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

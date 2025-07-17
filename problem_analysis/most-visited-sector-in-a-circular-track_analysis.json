@@ -1,0 +1,31 @@
+{
+  "problem_name": "most-visited-sector-in-a-circular-track",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Calculate the range of visited sectors based on start and end points of rounds, considering circularity."
+  ],
+  "problem_summary_simple": "Find the sectors visited most often during a marathon on a circular track.",
+  "problem_summary_technical": "Determines the most visited sectors by analyzing the start and end points of each round, considering the circular nature of the track.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that only the sectors between the start of the first round and the end of the last round (inclusive, considering wrap-around) can be the most visited.",
+      "If the last round ends at or after the first round's start (circularly), all sectors in that range are visited equally.",
+      "If the last round ends before the first round's start (circularly), the sectors are split into two ranges: from start to end of track, and from start of track to end of round."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:00:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

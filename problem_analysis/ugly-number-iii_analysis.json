@@ -1,0 +1,32 @@
+{
+  "problem_name": "ugly-number-iii",
+  "data_structures": [
+    [
+      "integer",
+      "binary search"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Use binary search on the answer space, with a helper function to count ugly numbers up to a given value using inclusion-exclusion."
+  ],
+  "problem_summary_simple": "Find the nth number that is divisible by at least one of three given numbers a, b, or c.",
+  "problem_summary_technical": "Find the nth number divisible by a, b, or c using binary search and the inclusion-exclusion principle for counting.",
+  "time_complexity": [
+    "O(log(max_val))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the smallest number `x` such that `count(x) >= n`.",
+      "Binary search is effective for finding such a `x` in a large range.",
+      "The `count` function relies on the inclusion-exclusion principle to avoid overcounting numbers divisible by multiple of a, b, c."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

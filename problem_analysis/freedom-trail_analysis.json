@@ -1,0 +1,32 @@
+{
+  "problem_name": "freedom-trail",
+  "data_structures": [
+    [
+      "hash map",
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with state compression"
+  ],
+  "problem_summary_simple": "Find the minimum steps to spell a key by rotating a ring and pressing a button.",
+  "problem_summary_technical": "DP approach where dp[i][j] is min steps to spell key[i] ending at ring index j. Uses modulo for state compression.",
+  "time_complexity": [
+    "O(K * R^2), where K is key length and R is ring length"
+  ],
+  "space_complexity": [
+    "O(R), for DP table (state compression)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as finding the shortest path in a graph where nodes are (key_index, ring_position).",
+      "Dynamic programming is suitable. The state can be defined as the minimum steps to spell the first `i` characters of the key, ending at a specific position in the ring.",
+      "Pre-calculating the positions of each character in the ring using a hash map optimizes lookups."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "number-of-sets-of-k-non-overlapping-line-segments",
+  "data_structures": [
+    [
+      "precomputed factorials and modular inverses"
+    ],
+    [
+      "no precomputation, direct calculation"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorics using precomputed factorials and modular inverses",
+    "Combinatorics using direct calculation of combinations"
+  ],
+  "problem_summary_simple": "Find ways to draw k non-overlapping line segments of length at least 2 on n points.",
+  "problem_summary_technical": "Model as stars and bars problem: k segments (length >= 2) and k+1 gaps (length >= 0) sum to n-1. Equivalent to C(n+k-1, 2k).",
+  "time_complexity": [
+    "O(1), excluding precomputation time",
+    "O(min(k, n-k))"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased using stars and bars.",
+      "Each segment of length at least 2 can be thought of as choosing 2 endpoints and having a length of at least 1 between them.",
+      "The transformation leads to choosing 2k points from n+k-1 available positions."
+    ],
+    [
+      "The problem can be rephrased using stars and bars.",
+      "Each segment of length at least 2 can be thought of as choosing 2 endpoints and having a length of at least 1 between them.",
+      "The transformation leads to choosing 2k points from n+k-1 available positions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

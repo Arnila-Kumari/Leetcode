@@ -1,0 +1,31 @@
+{
+  "problem_name": "bulb-switcher",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Identify that a bulb is on if it's toggled an odd number of times, which happens for perfect squares."
+  ],
+  "problem_summary_simple": "Determine how many bulbs are on after n rounds of toggling specific bulbs.",
+  "problem_summary_technical": "A bulb's final state depends on the number of its divisors; bulbs with an odd number of divisors (perfect squares) remain on.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A bulb's state is toggled in round `i` if its index is a multiple of `i`.",
+      "The total number of toggles for a bulb is equal to the number of its divisors.",
+      "Bulbs that are toggled an odd number of times end up 'on'. Only perfect squares have an odd number of divisors."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

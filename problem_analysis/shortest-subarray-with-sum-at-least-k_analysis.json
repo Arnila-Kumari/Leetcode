@@ -1,0 +1,32 @@
+{
+  "problem_name": "shortest-subarray-with-sum-at-least-k",
+  "data_structures": [
+    [
+      "list",
+      "deque"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Monotonic queue (deque) with prefix sums to find shortest subarray with sum >= k."
+  ],
+  "problem_summary_simple": "Find the shortest subarray with a sum of at least k.",
+  "problem_summary_technical": "Uses prefix sums and a monotonic increasing deque to efficiently find the shortest subarray satisfying the sum condition.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Prefix sums are essential for calculating subarray sums in O(1) time.",
+      "A monotonic queue (deque) is used to maintain candidate start indices for subarrays.",
+      "The deque stores indices `i` such that `prefixSum[i]` is increasing, allowing efficient removal of suboptimal start points."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

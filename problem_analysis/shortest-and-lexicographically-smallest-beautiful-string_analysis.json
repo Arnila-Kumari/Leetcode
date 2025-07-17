@@ -1,0 +1,33 @@
+{
+  "problem_name": "shortest-and-lexicographically-smallest-beautiful-string",
+  "data_structures": [
+    [
+      "string",
+      "integer",
+      "list"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window to find substrings with k ones. Track shortest and lexicographically smallest."
+  ],
+  "problem_summary_simple": "Find the shortest substring with exactly k ones, and if multiple, return the lexicographically smallest.",
+  "problem_summary_technical": "Sliding window approach to count ones. Maintain shortest length and lexicographically smallest substring meeting the criteria.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to use a sliding window to efficiently count the number of '1's.",
+      "The `check` function is crucial for comparing substrings based on length and lexicographical order.",
+      "The inner `while` loop that advances `left` past '0's is important for finding valid starting points for beautiful substrings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:19:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

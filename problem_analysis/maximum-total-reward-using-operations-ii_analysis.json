@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-total-reward-using-operations-ii",
+  "data_structures": [
+    [
+      "integer (bitmask)"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Dynamic programming with bitmask to track reachable rewards."
+  ],
+  "problem_summary_simple": "Find the maximum reward by picking numbers that are strictly greater than the current total.",
+  "problem_summary_technical": "Uses a bitmask DP to track achievable sums, iterating through sorted unique reward values.",
+  "time_complexity": [
+    "O(N log N + R^2)"
+  ],
+  "space_complexity": [
+    "O(R)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the reward values is crucial for the DP approach.",
+      "A bitmask can efficiently represent the set of achievable sums.",
+      "The constraint `rewardValues[i] > x` implies a greedy-like selection within the DP."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

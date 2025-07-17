@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-subarray",
+  "data_structures": [
+    [
+      "Array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Kadane's Algorithm (Dynamic Programming)"
+  ],
+  "problem_summary_simple": "Find the contiguous subarray with the largest sum.",
+  "problem_summary_technical": "Kadane's algorithm uses dynamic programming to track the maximum sum ending at the current position.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Kadane's algorithm maintains two variables: `result` (overall maximum sum) and `curr` (maximum sum ending at the current position).",
+      "If `curr` becomes negative, it's reset to the current element, as starting a new subarray from the current element is better.",
+      "The key insight is that the maximum subarray ending at the current position is either the current element itself or the current element added to the maximum subarray ending at the previous position."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:54:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

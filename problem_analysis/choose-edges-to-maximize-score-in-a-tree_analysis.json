@@ -1,0 +1,44 @@
+{
+  "problem_name": "choose-edges-to-maximize-score-in-a-tree",
+  "data_structures": [
+    [
+      "Adjacency list",
+      "List of tuples"
+    ],
+    [
+      "Adjacency list",
+      "List of tuples"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Tree DP with iterative DFS to calculate max score with and without picking an edge.",
+    "Tree DP with recursive DFS to calculate max score with and without picking an edge."
+  ],
+  "problem_summary_simple": "Choose non-adjacent edges in a tree to maximize the sum of their weights.",
+  "problem_summary_technical": "Tree DP where each node stores max score including/excluding the edge connecting to its parent.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic Tree DP problem, similar to House Robber on a tree.",
+      "The DP state at each node should represent two values: max score including the edge to parent, and max score excluding it.",
+      "Iterative DFS can be used to avoid recursion depth limits for large trees."
+    ],
+    [
+      "This is a classic Tree DP problem, similar to House Robber on a tree.",
+      "The DP state at each node should represent two values: max score including the edge to parent, and max score excluding it.",
+      "Recursive DFS provides a more straightforward implementation for Tree DP."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

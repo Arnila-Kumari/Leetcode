@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-and-minimum-sums-of-at-most-size-k-subsequences",
+  "data_structures": [
+    [
+      "array (sorted)",
+      "integer"
+    ],
+    [
+      "array (sorted)",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sorting, combinatorics, and greedy approach to count subsequence contributions",
+    "Sorting, combinatorics, and greedy approach to count subsequence contributions"
+  ],
+  "problem_summary_simple": "Find the sum of min and max elements of all subsequences with at most k elements.",
+  "problem_summary_technical": "Sort array, use combinatorics to count contributions of smallest/largest elements to subsequences.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n + n*k)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering the contribution of each element as a minimum or maximum.",
+      "Sorting the array allows us to easily pick the smallest and largest elements.",
+      "Combinatorics (nCr) is used to count how many subsequences of size at most k an element participates in as min/max."
+    ],
+    [
+      "The problem can be solved by considering the contribution of each element as a minimum or maximum.",
+      "Sorting the array allows us to easily pick the smallest and largest elements.",
+      "Combinatorics (nCr) is used to count how many subsequences of size at most k an element participates in as min/max."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

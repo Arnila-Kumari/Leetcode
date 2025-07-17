@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-cost-walk-in-weighted-graph",
+  "data_structures": [
+    [
+      "Union-Find data structure",
+      "adjacency list (implicit)",
+      "array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find to group connected components and track bitwise AND of edge weights within components."
+  ],
+  "problem_summary_simple": "Find the minimum bitwise AND cost of walks between nodes in a graph, considering edge weights.",
+  "problem_summary_technical": "Uses Union-Find to group nodes reachable with a certain bitwise AND value, then queries for the AND value of connected components.",
+  "time_complexity": [
+    "O(n + e + q * alpha(n))"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The cost of a walk is the bitwise AND of edge weights. This property is associative and commutative.",
+      "If two nodes are in the same connected component, the minimum cost walk between them is the bitwise AND of all edge weights in that component.",
+      "Union-Find is suitable for managing connected components and efficiently updating the bitwise AND of weights within each component."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:57:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

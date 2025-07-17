@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-height-by-stacking-cuboids",
+  "data_structures": [
+    [
+      "list of lists (cuboids)",
+      "array (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming on sorted cuboids, similar to Longest Increasing Subsequence (LIS)."
+  ],
+  "problem_summary_simple": "Find the maximum height of a stack of cuboids, where each cuboid must fit within the one below it.",
+  "problem_summary_technical": "Sort cuboid dimensions, then apply LIS-like DP where state `dp[i]` is max height ending with cuboid `i`.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Cuboid orientation matters: each cuboid can be rotated. Sorting dimensions `[w, l, h]` such that `w <= l <= h` simplifies comparisons.",
+      "The problem becomes finding the longest chain of cuboids where each subsequent cuboid fits within the previous one.",
+      "This is analogous to the Longest Increasing Subsequence (LIS) problem, where the 'increasing' property is defined by fitting dimensions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

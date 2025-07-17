@@ -1,0 +1,32 @@
+{
+  "problem_name": "queens-that-can-attack-the-king",
+  "data_structures": [
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through all 8 directions from the king. For each direction, scan outwards until a queen is found or the board edge is reached."
+  ],
+  "problem_summary_simple": "Find black queens that can directly attack the white king on an 8x8 board.",
+  "problem_summary_technical": "For each of the 8 directions from the king, find the first queen encountered in that line of sight.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The chessboard is small (8x8), allowing for a constant time solution.",
+      "Queens attack along rows, columns, and diagonals.",
+      "A set is used for efficient O(1) lookup of queen positions."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:05:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

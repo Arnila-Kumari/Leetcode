@@ -1,0 +1,38 @@
+{
+  "problem_name": "minimum-time-to-transport-all-individuals",
+  "data_structures": [
+    [
+      "priority queue",
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm with state-space search (mask DP)"
+  ],
+  "problem_summary_simple": "Find the minimum time to transport all individuals across a river using a boat with capacity k, considering cyclic environmental stages.",
+  "problem_summary_technical": "Model as a shortest path problem on a state graph (current stage, individuals at destination, individuals at base) using Dijkstra.",
+  "time_complexity": [
+    "O(m * 3^n * log(m * 3^n))"
+  ],
+  "space_complexity": [
+    "O(m * 3^n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the shortest path in a state space where states include the current stage and which individuals are at the destination.",
+      "Dijkstra's algorithm is suitable due to non-negative edge weights (time).",
+      "The state space is large (m * 2^n), requiring careful optimization and potentially bitmasking for representing subsets of individuals."
+    ],
+    [
+      "The state representation needs to capture the current stage, the location of the boat (base or destination), and the set of individuals already at the destination.",
+      "The transitions involve sending groups or returning individuals, with stage updates based on travel time.",
+      "The complexity arises from the exponential number of subsets of individuals, making it a typical bitmask DP or state-space search problem."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

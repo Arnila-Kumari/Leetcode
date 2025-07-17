@@ -1,0 +1,31 @@
+{
+  "problem_name": "contiguous-array",
+  "data_structures": [
+    [
+      "hash map"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Convert 0s to -1s and use a hash map to store prefix sums and their first occurrences."
+  ],
+  "problem_summary_simple": "Find the longest subarray with an equal number of 0s and 1s.",
+  "problem_summary_technical": "Transform 0s to -1s, then find the longest subarray with a prefix sum of 0 using a hash map.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "By treating 0s as -1, the problem becomes finding a subarray with a sum of 0.",
+      "A prefix sum approach combined with a hash map is efficient for this.",
+      "The hash map stores the first index where a particular prefix sum occurred, allowing calculation of subarray length."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

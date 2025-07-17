@@ -1,0 +1,35 @@
+{
+  "problem_name": "minimum-runes-to-add-to-cast-spell",
+  "data_structures": [
+    [
+      "adjacency list",
+      "hashmap",
+      "stack",
+      "set"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Tarjan's algorithm for Strongly Connected Components (SCCs) to identify components.",
+    "Condense graph into SCCs, then count source SCCs that don't have crystals."
+  ],
+  "problem_summary_simple": "Add minimum runes to connect all crystal points or points receiving magic flow.",
+  "problem_summary_technical": "Find SCCs, build condensation graph, identify SCCs needing input (no crystal, no incoming edge from another SCC).",
+  "time_complexity": [
+    "O(n + E)"
+  ],
+  "space_complexity": [
+    "O(n + E)"
+  ],
+  "key_insights": [
+    [
+      "Each focus point must either have a crystal or receive flow.",
+      "Within an SCC, all points can receive flow from each other, so only one crystal is needed per SCC.",
+      "The problem reduces to finding SCCs and ensuring each SCC has a crystal or an incoming edge from another SCC."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

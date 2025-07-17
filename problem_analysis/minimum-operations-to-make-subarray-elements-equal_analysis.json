@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-make-subarray-elements-equal",
+  "data_structures": [
+    [
+      "SortedList"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with two sorted lists to maintain median-like property"
+  ],
+  "problem_summary_simple": "Find minimum operations to make any k-sized subarray have equal elements.",
+  "problem_summary_technical": "Uses a sliding window and two SortedLists to efficiently track elements and their sums, aiming to minimize operations to equalize a subarray.",
+  "time_complexity": [
+    "O(n log k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding a target value for a k-sized subarray that minimizes operations.",
+      "Using two sorted lists (left and right) helps maintain a balanced set of elements within the window, approximating the median.",
+      "The rebalancing logic ensures that the median (or near-median) is always accessible for cost calculation."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

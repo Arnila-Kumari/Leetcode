@@ -1,0 +1,33 @@
+{
+  "problem_name": "best-position-for-a-service-centre",
+  "data_structures": [
+    [
+      "array",
+      "float"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Geometric median approximation using Weiszfeld's algorithm or ternary search.",
+    "Iterative refinement of the center point."
+  ],
+  "problem_summary_simple": "Find a point on a 2D map to minimize the sum of Euclidean distances to all customers.",
+  "problem_summary_technical": "Approximates the geometric median using iterative methods (like Weiszfeld's algorithm or ternary search) to minimize the sum of Euclidean distances.",
+  "time_complexity": [
+    "O(N * Iterations)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the geometric median, which minimizes the sum of Euclidean distances.",
+      "Unlike Manhattan distance, the geometric median doesn't have a simple closed-form solution and requires iterative approximation.",
+      "Ternary search or Weiszfeld's algorithm are common approaches to find the geometric median."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

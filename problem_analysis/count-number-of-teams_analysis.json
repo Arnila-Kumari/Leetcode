@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-number-of-teams",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through each soldier as the middle element and count smaller/larger elements to their left and right."
+  ],
+  "problem_summary_simple": "Count teams of three soldiers with increasing or decreasing ratings.",
+  "problem_summary_technical": "For each soldier, count soldiers with smaller/larger ratings to their left and right to form increasing/decreasing triplets.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to fix the middle element of a potential team (rating[j]).",
+      "For each middle element, we need to count how many elements to its left are smaller (for increasing teams) or larger (for decreasing teams).",
+      "Similarly, we count elements to its right that are larger (for increasing teams) or smaller (for decreasing teams).",
+      "The total count is the sum of (left_smaller * right_larger) + (left_larger * right_smaller) for all possible middle elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

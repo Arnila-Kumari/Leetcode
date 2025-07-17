@@ -1,0 +1,32 @@
+{
+  "problem_name": "make-string-a-subsequence-using-cyclic-increments",
+  "data_structures": [
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Greedy approach with two pointers to match characters cyclically."
+  ],
+  "problem_summary_simple": "Can we make str2 a subsequence of str1 by cyclically incrementing str1's characters at most once?",
+  "problem_summary_technical": "Uses two pointers to iterate through str1 and str2, checking if str2 can be formed by cyclically incrementing str1 characters.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to greedily match characters of str2 with characters in str1.",
+      "Cyclic increment means checking the difference modulo 26, allowing at most one increment.",
+      "Two pointers efficiently track progress in both strings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

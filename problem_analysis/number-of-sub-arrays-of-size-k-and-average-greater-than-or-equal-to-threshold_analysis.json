@@ -1,0 +1,42 @@
+{
+  "problem_name": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window to maintain sum of current k elements, updating it efficiently.",
+    "Prefix sums to calculate sum of any subarray in O(1) after O(n) preprocessing."
+  ],
+  "problem_summary_simple": "Count subarrays of size k with an average >= threshold.",
+  "problem_summary_technical": "Use a sliding window to track the sum of k elements, or prefix sums to calculate subarray sums efficiently.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to efficiently calculate the sum of subarrays of size k.",
+      "A sliding window avoids recomputing the sum for each subarray from scratch.",
+      "Comparing sum with threshold * k avoids floating-point arithmetic."
+    ],
+    [
+      "Prefix sums allow O(1) calculation of any subarray sum.",
+      "This approach requires O(n) extra space for the prefix sum array.",
+      "The logic remains to iterate through possible start points of subarrays of size k."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

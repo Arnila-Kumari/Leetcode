@@ -1,0 +1,41 @@
+{
+  "problem_name": "house-robber-iv",
+  "data_structures": [
+    [
+      "list",
+      "set"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the possible capability values, with a greedy check function.",
+    "Binary search on the range of values, with a greedy check function."
+  ],
+  "problem_summary_simple": "Find the minimum capability to rob at least k houses without robbing adjacent ones.",
+  "problem_summary_technical": "Binary search for the minimum capability, using a greedy approach to count robbable houses.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the minimum capability, which suggests binary search on the answer.",
+      "The `check(x)` function determines if it's possible to rob at least `k` houses with a maximum capability of `x`.",
+      "The greedy strategy within `check(x)` is to iterate through houses and rob a house if its value is less than or equal to `x` and it's not adjacent to a previously robbed house."
+    ],
+    [
+      "The second solution optimizes the binary search range by using the min and max values from the input array.",
+      "This avoids the need to sort and create a set of unique values, potentially improving performance if the range of values is smaller than the number of unique values.",
+      "The core greedy check function remains the same."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:47:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

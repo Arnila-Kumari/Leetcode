@@ -1,0 +1,31 @@
+{
+  "problem_name": "middle-of-the-linked-list",
+  "data_structures": [
+    [
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Two pointers (slow and fast) to find the middle node of a linked list."
+  ],
+  "problem_summary_simple": "Find the middle node of a singly linked list.",
+  "problem_summary_technical": "Use slow and fast pointers to traverse a linked list and identify the middle node.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The fast pointer moves twice as fast as the slow pointer.",
+      "When the fast pointer reaches the end, the slow pointer will be at the middle node.",
+      "Handles both even and odd length lists correctly, returning the second middle node for even lengths."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

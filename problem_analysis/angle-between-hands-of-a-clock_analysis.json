@@ -1,0 +1,31 @@
+{
+  "problem_name": "angle-between-hands-of-a-clock",
+  "data_structures": [
+    [
+      "float"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate angles of hour and minute hands based on time and find the minimum difference."
+  ],
+  "problem_summary_simple": "Calculate the smaller angle between the hour and minute hands of a clock.",
+  "problem_summary_technical": "Compute hand angles using modulo arithmetic and time conversion, then find the minimum angular difference.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The hour hand moves 360 degrees in 12 hours, so 30 degrees per hour, and also moves based on minutes.",
+      "The minute hand moves 360 degrees in 60 minutes, so 6 degrees per minute.",
+      "The key is to correctly calculate the position of the hour hand, which is affected by both the hour and the minutes."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

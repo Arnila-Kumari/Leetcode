@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-odd-letters-from-number",
+  "data_structures": [
+    [
+      "list",
+      "array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Digit extraction and character frequency counting using a lookup table."
+  ],
+  "problem_summary_simple": "Count distinct characters appearing an odd number of times in words formed from a number's digits.",
+  "problem_summary_technical": "Convert digits to words, concatenate, and count character frequencies to find those with odd occurrences.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of digits in n is logarithmic with respect to n.",
+      "A fixed-size array (26 for lowercase English alphabet) is sufficient for frequency counting.",
+      "The modulo operation on counts directly identifies odd occurrences."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

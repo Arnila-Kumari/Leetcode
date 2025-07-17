@@ -1,0 +1,32 @@
+{
+  "problem_name": "most-popular-video-creator",
+  "data_structures": [
+    [
+      "hashmap",
+      "counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through creators, summing views and tracking the lexicographically smallest most-viewed video ID per creator."
+  ],
+  "problem_summary_simple": "Find creators with the highest total views and their most popular video ID.",
+  "problem_summary_technical": "Uses a hashmap to store total views per creator and another hashmap to track the min (negative views, ID) for the most viewed video.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A single pass can aggregate both total creator popularity and the best video for each creator.",
+      "Storing negative views in the lookup allows `min` to correctly identify the highest view count.",
+      "Lexicographical comparison of IDs is handled naturally by Python's tuple comparison when views are equal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

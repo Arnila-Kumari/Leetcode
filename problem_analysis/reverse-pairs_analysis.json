@@ -1,0 +1,32 @@
+{
+  "problem_name": "reverse-pairs",
+  "data_structures": [
+    [
+      "Array",
+      "Merge Sort Structure"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Modified Merge Sort to count pairs during the merge step."
+  ],
+  "problem_summary_simple": "Count pairs (i, j) in an array where i < j and nums[i] > 2 * nums[j].",
+  "problem_summary_technical": "Employ a modified merge sort. During the merge phase, count pairs where an element in the left half is more than twice an element in the right half.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Merge sort's divide and conquer naturally lends itself to counting inversions/pairs.",
+      "The key is to count pairs efficiently during the merge step, leveraging sorted subarrays.",
+      "The condition `nums[i] > 2 * nums[j]` requires careful pointer management in the merge process."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:19:02",
+  "batch_processed": true,
+  "batch_size": 4
+}

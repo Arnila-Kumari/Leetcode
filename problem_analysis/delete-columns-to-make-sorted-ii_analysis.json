@@ -1,0 +1,44 @@
+{
+  "problem_name": "delete-columns-to-make-sorted-ii",
+  "data_structures": [
+    [
+      "list of strings",
+      "set"
+    ],
+    [
+      "list of strings",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through columns, maintaining a set of unsorted row pairs.",
+    "Iterate through columns, using a boolean list to track sorted row pairs."
+  ],
+  "problem_summary_simple": "Find the minimum columns to delete so that remaining strings are lexicographically sorted.",
+  "problem_summary_technical": "Greedily delete columns that violate lexicographical order for any adjacent row pair.",
+  "time_complexity": [
+    "O(n * l)",
+    "O(n * l)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Maintain the state of which adjacent row pairs are already sorted.",
+      "If a column violates order for an unsorted pair, delete it.",
+      "Update the set of unsorted pairs by removing those now sorted by the current column."
+    ],
+    [
+      "Use a boolean array `is_sorted` to track if `A[i] <= A[i+1]` has been established.",
+      "If a column causes `A[i] > A[i+1]` for an `is_sorted[i] == False` pair, delete the column.",
+      "If `A[i] < A[i+1]`, mark `is_sorted[i]` as `True` for future columns."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

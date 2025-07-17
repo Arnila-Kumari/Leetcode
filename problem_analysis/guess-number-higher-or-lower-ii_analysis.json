@@ -1,0 +1,31 @@
+{
+  "problem_name": "guess-number-higher-or-lower-ii",
+  "data_structures": [
+    [
+      "2-D Dynamic Programming"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to calculate the minimum cost to guarantee a win for any subproblem range."
+  ],
+  "problem_summary_simple": "Find the minimum money needed to guarantee a win in a number guessing game where wrong guesses cost money.",
+  "problem_summary_technical": "Uses DP to find the minimum cost for ranges [i, j], considering the worst-case cost of each guess.",
+  "time_complexity": [
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "This is a minimax problem where we want to minimize the maximum possible cost.",
+      "The DP state `dp[i][j]` represents the minimum cost to guarantee a win for the range `[i, j]`.",
+      "For each guess `k` in `[i, j]`, the cost is `k + max(dp[i][k-1], dp[k+1][j])`, and we minimize this over all `k`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:46:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

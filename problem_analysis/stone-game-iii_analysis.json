@@ -1,0 +1,37 @@
+{
+  "problem_name": "stone-game-iii",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with a rolling array to optimize space.",
+    "DP state represents the maximum score difference the current player can achieve."
+  ],
+  "problem_summary_simple": "Players take 1, 2, or 3 stones from the front to maximize their score.",
+  "problem_summary_technical": "DP state `dp[i]` is max score difference for suffix `stoneValue[i:]`. Uses rolling array for O(1) space.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This is a game theory problem where players aim to maximize their score difference.",
+      "The DP state `dp[i]` represents the maximum score the current player can get starting from index `i`.",
+      "The transition considers taking 1, 2, or 3 stones and calculates the score difference against the opponent's optimal play on the remaining stones."
+    ],
+    [
+      "The problem can be solved using dynamic programming where `dp[i]` stores the maximum score difference the current player can achieve from the subarray `stoneValue[i:]`.",
+      "Since a player can take at most 3 stones, the DP state only depends on the next 3 states, allowing for space optimization using a rolling array of size 3.",
+      "The base cases are handled by initializing the DP array with negative infinity, and the final result is determined by comparing `dp[0]` with 0."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

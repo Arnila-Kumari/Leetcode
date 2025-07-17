@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-number-of-operations-to-convert-time",
+  "data_structures": [
+    [
+      "tuple"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using available time increments."
+  ],
+  "problem_summary_simple": "Find minimum operations to change current time to correct time using specific increments.",
+  "problem_summary_technical": "Calculates the time difference in minutes and greedily applies the largest possible time increments (60, 15, 5, 1) to minimize operations.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Convert both times to minutes for easier calculation.",
+      "A greedy approach works because the available increments are fixed and ordered.",
+      "Prioritize larger increments to reduce the total number of operations."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:58:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

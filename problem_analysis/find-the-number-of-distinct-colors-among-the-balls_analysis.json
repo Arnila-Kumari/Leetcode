@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-number-of-distinct-colors-among-the-balls",
+  "data_structures": [
+    [
+      "hash map",
+      "counter (frequency map)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency map (Counter) to track color counts and a lookup map to store ball-to-color assignments."
+  ],
+  "problem_summary_simple": "Count distinct colors on balls after each query that assigns a color to a ball.",
+  "problem_summary_technical": "Use a hash map to store the current color of each ball and a frequency map (Counter) to track the counts of each color. Update counts when a ball's color changes.",
+  "time_complexity": [
+    "O(q)"
+  ],
+  "space_complexity": [
+    "O(q)"
+  ],
+  "key_insights": [
+    [
+      "When a ball's color changes, we need to decrement the count of its old color and increment the count of its new color.",
+      "If a color's count drops to zero, it's no longer a distinct color.",
+      "The number of distinct colors is simply the size of the frequency map (Counter)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

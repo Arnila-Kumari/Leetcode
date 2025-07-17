@@ -1,0 +1,33 @@
+{
+  "problem_name": "design-movie-rental-system",
+  "data_structures": [
+    [
+      "defaultdict(SortedList)",
+      "dict",
+      "SortedList"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Using SortedLists to maintain ordered prices for movies and rented items."
+  ],
+  "problem_summary_simple": "Design a system to rent and return movies from multiple shops, supporting search and reporting.",
+  "problem_summary_technical": "Utilizes SortedLists to efficiently manage movie availability by price and shop, and track rented movies for reporting.",
+  "time_complexity": [
+    "ctor: O(N log N), search: O(log M), rent: O(log M), drop: O(log M), report: O(log R)"
+  ],
+  "space_complexity": [
+    "O(N + R)"
+  ],
+  "key_insights": [
+    [
+      "SortedLists are crucial for efficiently retrieving the cheapest options.",
+      "Separate data structures are needed for unrented movies (per movie) and rented movies (globally).",
+      "The constraints on the number of results (top 5) simplify the retrieval logic."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:40:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

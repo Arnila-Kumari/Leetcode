@@ -1,0 +1,42 @@
+{
+  "problem_name": "buildings-with-an-ocean-view",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through buildings, maintaining a stack of buildings with ocean views, popping shorter ones.",
+    "Iterate backwards, keeping track of the maximum height seen so far to identify buildings with views."
+  ],
+  "problem_summary_simple": "Find buildings that can see the ocean, meaning all buildings to their right are shorter.",
+  "problem_summary_technical": "Identify buildings with ocean views by ensuring all buildings to their right are shorter, using stack or reverse iteration.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The first solution uses a monotonic stack (increasing heights) to efficiently find buildings with views.",
+      "When a taller building is encountered, it invalidates the views of shorter buildings to its left.",
+      "The result is built by appending indices, and the final list is already sorted."
+    ],
+    [
+      "Iterating from right to left simplifies the condition: a building has a view if it's taller than the tallest building to its right.",
+      "A single variable to track the maximum height seen so far is sufficient.",
+      "The result is built in reverse order and then reversed at the end."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

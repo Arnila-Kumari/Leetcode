@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-integers-in-intervals",
+  "data_structures": [
+    [
+      "SortedList",
+      "integer variables"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Maintain a sorted list of disjoint intervals and merge overlapping ones efficiently."
+  ],
+  "problem_summary_simple": "Add intervals and count the total number of unique integers covered by any interval.",
+  "problem_summary_technical": "Use a sorted list to store disjoint intervals, merging new intervals with existing overlapping ones to maintain a count.",
+  "time_complexity": [
+    "ctor: O(1), add: O(logn) amortized, count: O(1)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The challenge is to efficiently handle overlapping intervals and avoid double-counting.",
+      "A sorted data structure (like SortedList) is ideal for finding overlapping intervals quickly.",
+      "Maintaining a running count of integers and updating it during merges is more efficient than recounting."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

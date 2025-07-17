@@ -1,0 +1,31 @@
+{
+  "problem_name": "smallest-common-region",
+  "data_structures": [
+    [
+      "hashmap (dictionary)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Build a parent-child relationship map (tree structure) and find the lowest common ancestor of two given regions."
+  ],
+  "problem_summary_simple": "Find the smallest region that contains two given regions, treating containment as a tree structure.",
+  "problem_summary_technical": "Models region containment as a tree, builds a parent map, and finds the lowest common ancestor of two nodes by tracing paths upwards.",
+  "time_complexity": [
+    "O(N*M) where N is number of regions and M is max regions per list, or O(total elements)"
+  ],
+  "space_complexity": [
+    "O(N*M) or O(total elements) for the parent map"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the Lowest Common Ancestor (LCA) in a tree-like structure.",
+      "A parent map (dictionary) is efficient for storing the direct containment relationship (child -> parent).",
+      "To find the LCA, we can trace the path from one region to the root, store these ancestors, and then trace the path from the second region until an ancestor is found in the stored set."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

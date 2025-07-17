@@ -1,0 +1,47 @@
+{
+  "problem_name": "design-most-recently-used-queue",
+  "data_structures": [
+    [
+      "SortedList",
+      "dictionary",
+      "BIT"
+    ],
+    [
+      "collections.deque",
+      "list of deques"
+    ],
+    [
+      "list of tuples"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a SortedList to maintain elements and their positions, updating positions upon fetch.",
+    "Employ a Fenwick tree (BIT) to track element presence and efficiently find the k-th element's original position.",
+    "Utilize square root decomposition to divide elements into buckets for faster fetching and reordering."
+  ],
+  "problem_summary_simple": "Design a queue that moves the fetched element to the end.",
+  "problem_summary_technical": "Implement an MRUQueue using SortedList, BIT, or sqrt decomposition to efficiently move the k-th element to the end and return its value.",
+  "time_complexity": [
+    "SortedList: ctor O(nlogn), fetch O(logn)",
+    "BIT: ctor O(n+m), fetch O(log(n+m))",
+    "Sqrt Decomposition: ctor O(n), fetch O(sqrt(n))"
+  ],
+  "space_complexity": [
+    "SortedList: O(n)",
+    "BIT: O(n+m)",
+    "Sqrt Decomposition: O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is efficiently finding the k-th element and re-inserting it at the end while maintaining order.",
+      "SortedList provides a balanced BST-like structure for logarithmic time operations.",
+      "BIT offers a way to manage element presence and find the k-th element's index in logarithmic time.",
+      "Square root decomposition balances the cost of finding and moving elements by dividing the data into manageable chunks."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:40:03",
+  "batch_processed": true,
+  "batch_size": 4
+}

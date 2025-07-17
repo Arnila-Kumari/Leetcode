@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-subsequences-that-satisfy-the-given-sum-condition",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sort the array and use two pointers to find pairs whose sum is <= target, then use combinations (powers of 2).",
+    "Iterate through all possible subsequences and check the min/max sum condition."
+  ],
+  "problem_summary_simple": "Count subsequences where the sum of the minimum and maximum element is less than or equal to target.",
+  "problem_summary_technical": "Sort array, use two pointers. For each valid min element, count subsequences using powers of 2 for remaining elements.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is crucial for the two-pointer approach.",
+      "If `nums[left] + nums[right] <= target`, then `nums[left]` can be the minimum element of a valid subsequence.",
+      "All elements between `left` and `right` (inclusive) can be either included or excluded, leading to `2^(right - left)` combinations for the remaining elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

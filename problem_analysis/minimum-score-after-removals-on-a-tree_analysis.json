@@ -1,0 +1,35 @@
+{
+  "problem_name": "minimum-score-after-removals-on-a-tree",
+  "data_structures": [
+    [
+      "adjacency list",
+      "array",
+      "stack",
+      "hashmap"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "DFS to calculate XOR sums of subtrees and identify component XORs after edge removals.",
+    "Iterate through all pairs of edges to remove and calculate scores."
+  ],
+  "problem_summary_simple": "Remove two edges to form three components and minimize the score (max XOR - min XOR).",
+  "problem_summary_technical": "Use DFS to compute subtree XORs. For each edge removal, identify the three component XORs and calculate the score.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Removing two edges splits a tree into three components.",
+      "The XOR sum of a component can be calculated by XORing node values.",
+      "The problem can be solved by iterating through all possible pairs of edge removals and calculating the score for each."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

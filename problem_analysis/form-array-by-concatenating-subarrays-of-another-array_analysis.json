@@ -1,0 +1,32 @@
+{
+  "problem_name": "form-array-by-concatenating-subarrays-of-another-array",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Knuth-Morris-Pratt (KMP) algorithm for substring searching"
+  ],
+  "problem_summary_simple": "Check if subarrays from 'groups' can be found disjointly and in order within 'nums'.",
+  "problem_summary_technical": "Uses KMP to find occurrences of each group subarray sequentially in nums, ensuring disjointness and order.",
+  "time_complexity": [
+    "O(N + M)"
+  ],
+  "space_complexity": [
+    "O(M)"
+  ],
+  "key_insights": [
+    [
+      "The KMP algorithm is crucial for efficient pattern matching within the nums array.",
+      "The problem requires maintaining the order of subarrays from 'groups' and ensuring they are disjoint.",
+      "The `pos` variable tracks the current search starting point in `nums` to ensure sequential and disjoint matching."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

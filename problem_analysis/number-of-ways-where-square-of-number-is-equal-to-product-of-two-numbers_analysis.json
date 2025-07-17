@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers",
+  "data_structures": [
+    [
+      "hashmap",
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hashmap for frequency counting and optimized product search."
+  ],
+  "problem_summary_simple": "Find triplets where a number squared equals the product of two other numbers from the other array.",
+  "problem_summary_technical": "For each number in one array, find pairs in the other array whose product equals its square. Use hashmap for O(1) lookups.",
+  "time_complexity": [
+    "O(m*n)"
+  ],
+  "space_complexity": [
+    "O(m+n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to efficiently find pairs that multiply to a target value.",
+      "Using a hashmap (or frequency map) to store counts of numbers in one array allows for quick lookups.",
+      "The problem can be broken down into two symmetric cases: nums1[i]^2 = nums2[j]*nums2[k] and nums2[i]^2 = nums1[j]*nums1[k]."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

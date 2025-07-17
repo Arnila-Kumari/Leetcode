@@ -1,0 +1,51 @@
+{
+  "problem_name": "number-of-substrings-containing-all-three-characters",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with character last seen indices",
+    "Sliding window with character counts and shrinking window",
+    "Sliding window with character counts and expanding window"
+  ],
+  "problem_summary_simple": "Count substrings with at least one 'a', 'b', and 'c'.",
+  "problem_summary_technical": "Sliding window approach to count substrings containing all three target characters by tracking last seen indices or character counts.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to efficiently determine how many valid substrings end at the current 'right' pointer.",
+      "Solution 1 uses the minimum of the last seen indices to quickly calculate valid substrings.",
+      "Solutions 2 and 3 use character counts and a sliding window to maintain the 'all three characters present' condition."
+    ],
+    [
+      "Solution 2 efficiently shrinks the window from the left once the condition is met, adding the number of valid start points.",
+      "Solution 3 expands the window from the right until the condition is met, then calculates valid substrings based on the remaining length."
+    ],
+    [
+      "All solutions leverage the fact that if a substring s[i:j] is valid, then any substring s[i:k] where k > j is also valid.",
+      "The constraint of only 'a', 'b', 'c' simplifies count tracking to a fixed-size array."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

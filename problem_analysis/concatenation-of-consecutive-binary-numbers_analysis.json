@@ -1,0 +1,31 @@
+{
+  "problem_name": "concatenation-of-consecutive-binary-numbers",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterative calculation using bit shifts and modulo arithmetic."
+  ],
+  "problem_summary_simple": "Calculate the decimal value of concatenated binary strings from 1 to n, modulo 10^9 + 7.",
+  "problem_summary_technical": "Iteratively builds the concatenated binary number by left-shifting the current result and adding the next number's binary representation, applying modulo.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to efficiently calculate the concatenated binary number without explicitly forming the string.",
+      "When a number `i` is a power of 2 (i.e., `i & (i-1) == 0`), the number of bits in the concatenated string increases.",
+      "The result is updated by left-shifting the current `result` by `l` (number of bits in the current block) and adding `i`, all modulo `10^9 + 7`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

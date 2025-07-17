@@ -1,0 +1,27 @@
+{
+  "problem_name": "2-keys-keyboard",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Prime factorization of n."
+  ],
+  "problem_summary_simple": "Find the minimum operations (copy all, paste) to get exactly n 'A's.",
+  "problem_summary_technical": "The minimum operations correspond to the sum of prime factors of n.",
+  "time_complexity": "O(sqrt(n))",
+  "space_complexity": "O(1)",
+  "key_insights": [
+    [
+      "To reach 'n' characters, we must have arrived from a state 'n/p' where 'p' is the number of characters copied.",
+      "The operations are essentially building 'n' by multiplying prime factors.",
+      "Each prime factor 'p' corresponds to 'p' paste operations after one copy operation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-15 20:21:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

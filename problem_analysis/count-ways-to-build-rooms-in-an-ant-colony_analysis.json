@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-ways-to-build-rooms-in-an-ant-colony",
+  "data_structures": [
+    [
+      "adjacency list",
+      "array for factorials and inverse factorials"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Tree DP with combinations (nCr)"
+  ],
+  "problem_summary_simple": "Count the number of valid sequences to build rooms given parent-child dependencies.",
+  "problem_summary_technical": "Model as a tree, use DFS to calculate ways for subtrees and combine using combinations (nCr).",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as building a tree where prevRoom[i] is the parent of i.",
+      "The number of ways to build a subtree rooted at `curr` depends on the ways to build its children's subtrees and the combinations of interleaving them.",
+      "Pre-calculating factorials and inverse factorials is crucial for efficient nCr computation."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:38:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

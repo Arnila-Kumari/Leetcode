@@ -1,0 +1,45 @@
+{
+  "problem_name": "count-subarrays-with-more-ones-than-zeros",
+  "data_structures": [
+    [
+      "defaultdict (hashmap)",
+      "integer variables"
+    ],
+    [
+      "dictionary (hashmap)",
+      "list (dp array)",
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sums (or difference array) with a hashmap to count occurrences of sum differences.",
+    "Dynamic programming with prefix sums and a hashmap."
+  ],
+  "problem_summary_simple": "Count subarrays in a binary array with more 1s than 0s.",
+  "problem_summary_technical": "Uses prefix sums (1 for 1, -1 for 0) and a hashmap to count subarrays where the prefix sum difference is positive.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Transform the problem by replacing 1s with +1 and 0s with -1. A subarray has more 1s than 0s if its sum is positive.",
+      "Using prefix sums, a subarray sum from index j to i is prefixSum[i] - prefixSum[j-1]. We need prefixSum[i] - prefixSum[j-1] > 0, or prefixSum[i] > prefixSum[j-1].",
+      "The provided solution uses a slightly different approach by tracking 'same' and 'more' counts based on the current prefix sum and previous counts, effectively counting valid subarrays ending at the current position."
+    ],
+    [
+      "This solution also uses prefix sums where 1s are +1 and 0s are -1. It aims to count subarrays where the sum is positive.",
+      "It uses a DP array `dp[i]` to store the number of subarrays ending at index `i` that have more ones than zeros.",
+      "The logic involves checking previous prefix sums stored in a hashmap to efficiently calculate `dp[i]`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

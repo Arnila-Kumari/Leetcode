@@ -1,0 +1,33 @@
+{
+  "problem_name": "best-poker-hand",
+  "data_structures": [
+    [
+      "array",
+      "frequency map"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Check for Flush first, then count rank frequencies to determine the best hand.",
+    "Frequency counting using an array or hashmap."
+  ],
+  "problem_summary_simple": "Determine the best poker hand (Flush, Three of a Kind, Pair, High Card) from 5 given cards.",
+  "problem_summary_technical": "Checks for a Flush by comparing suits. If not a Flush, counts rank frequencies to identify Three of a Kind or Pair.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The hierarchy of poker hands is crucial: Flush > Three of a Kind > Pair > High Card.",
+      "Checking for a Flush is a simple suit comparison.",
+      "Counting the frequency of ranks is the most efficient way to detect Three of a Kind and Pairs."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

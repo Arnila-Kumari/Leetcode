@@ -1,0 +1,38 @@
+{
+  "problem_name": "closest-equal-element-queries",
+  "data_structures": [
+    [
+      "list",
+      "hash map"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Precompute minimum distances for each element using two passes (left-to-right and right-to-left) with a hash map.",
+    "Two-pass approach with hash map to store last seen index for each value."
+  ],
+  "problem_summary_simple": "For each query index, find the minimum distance to another element with the same value in a circular array.",
+  "problem_summary_technical": "Find min circular distance to equal elements. Precompute distances using two passes and hash maps to track last seen indices.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key is to efficiently find the nearest occurrences of the same value, considering circularity.",
+      "Two passes (left-to-right and right-to-left) are used to capture distances in both directions."
+    ],
+    [
+      "A hash map stores the last seen index of each number, allowing O(1) lookup for previous occurrences.",
+      "The array is conceptually doubled (2*n-1) to handle circularity easily in the passes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

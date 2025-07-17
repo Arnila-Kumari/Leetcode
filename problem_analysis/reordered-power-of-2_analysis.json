@@ -1,0 +1,31 @@
+{
+  "problem_name": "reordered-power-of-2",
+  "data_structures": [
+    [
+      "Counter (hash map)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count digit frequencies of N and compare with frequencies of powers of 2."
+  ],
+  "problem_summary_simple": "Check if any permutation of a number's digits is a power of two.",
+  "problem_summary_technical": "Compare digit counts of the input number with digit counts of powers of two up to 2^30.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that if a number can be reordered to form a power of two, they must have the same digits with the same frequencies.",
+      "We can pre-generate powers of two and store their digit counts.",
+      "For the given number N, we count its digits and check if this count matches any of the pre-generated power of two counts."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

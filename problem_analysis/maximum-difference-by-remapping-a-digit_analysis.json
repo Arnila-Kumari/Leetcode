@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-difference-by-remapping-a-digit",
+  "data_structures": [
+    [
+      "variable"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Identify the most frequent digit for the maximum value and the first digit for the minimum value, then perform remapping."
+  ],
+  "problem_summary_simple": "Find the maximum difference between the largest and smallest numbers formed by changing one digit in the original number.",
+  "problem_summary_technical": "To maximize, replace the most frequent digit with '9'. To minimize, replace the first non-'0' digit with '0'. Calculate the difference.",
+  "time_complexity": [
+    "O(log10(num))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To maximize the number, replace the digit that appears most frequently with '9'.",
+      "To minimize the number, replace the first digit encountered (from left) that is not '0' with '0'.",
+      "The function `f(dst)` effectively remaps all occurrences of a chosen digit `src` to `dst`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

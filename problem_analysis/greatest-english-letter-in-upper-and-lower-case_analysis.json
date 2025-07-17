@@ -1,0 +1,44 @@
+{
+  "problem_name": "greatest-english-letter-in-upper-and-lower-case",
+  "data_structures": [
+    [
+      "set",
+      "string"
+    ],
+    [
+      "set",
+      "iterator"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through string, use a set for O(1) lookups, track max uppercase letter.",
+    "Use a set for lookups and iterate through alphabet in reverse to find greatest."
+  ],
+  "problem_summary_simple": "Find the largest letter that appears in both lowercase and uppercase in a string.",
+  "problem_summary_technical": "Use a hash set to store characters. Iterate through uppercase letters from Z to A, checking for presence of both cases.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(alphabet_size)",
+    "O(alphabet_size)"
+  ],
+  "key_insights": [
+    [
+      "A hash set provides efficient O(1) average time complexity for checking character existence.",
+      "Iterating from the largest possible character downwards simplifies finding the greatest.",
+      "The alphabet size is constant, making set operations effectively O(1)."
+    ],
+    [
+      "Leveraging `itertools.izip` with reversed alphabet strings is a concise way to check pairs.",
+      "The `next()` function with a generator expression efficiently finds the first matching pair.",
+      "This approach avoids explicit loops for checking and tracking the maximum."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

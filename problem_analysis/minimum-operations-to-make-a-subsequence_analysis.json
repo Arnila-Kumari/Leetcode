@@ -1,0 +1,45 @@
+{
+  "problem_name": "minimum-operations-to-make-a-subsequence",
+  "data_structures": [
+    [
+      "hashmap",
+      "list",
+      "binary search"
+    ],
+    [
+      "hashmap",
+      "segment tree"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Find the longest common subsequence (LCS) between target and arr, considering only elements present in target.",
+    "Use a segment tree to track the length of the longest subsequence ending at each index of target."
+  ],
+  "problem_summary_simple": "Find the minimum insertions to make 'target' a subsequence of 'arr'.",
+  "problem_summary_technical": "Map target elements to indices. Find the longest increasing subsequence (LIS) of these indices in arr. The answer is target length minus LIS length.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log m)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the longest subsequence of 'arr' that is also a subsequence of 'target'.",
+      "This is equivalent to finding the Longest Increasing Subsequence (LIS) of the indices of 'target' elements as they appear in 'arr'.",
+      "The number of operations needed is the total length of 'target' minus the length of this LIS."
+    ],
+    [
+      "The problem is to find the longest common subsequence between 'target' and 'arr', where 'target' elements must appear in order.",
+      "This can be solved by mapping 'target' elements to their indices and finding the LIS of these indices within 'arr'.",
+      "A segment tree can efficiently update and query the maximum length of a subsequence ending at a particular target index."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

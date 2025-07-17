@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-element-sum-of-a-complete-subset-of-indices",
+  "data_structures": [
+    [
+      "dictionary for sums"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Number theory: Group indices by their square-free part. Sum elements within each group to find the maximum sum."
+  ],
+  "problem_summary_simple": "Find the maximum sum of elements whose indices' product is a perfect square.",
+  "problem_summary_technical": "Group indices by their square-free part. Sum elements for each group; the maximum sum is the answer.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that if `i * j` is a perfect square, then `i` and `j` must have the same square-free part.",
+      "The square-free part of a number `n` is obtained by dividing `n` by all its perfect square factors.",
+      "We can iterate through all possible square-free parts and sum up the elements at indices that share that square-free part."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

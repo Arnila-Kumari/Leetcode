@@ -1,0 +1,31 @@
+{
+  "problem_name": "removing-minimum-and-maximum-from-array",
+  "data_structures": [
+    [
+      "List"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Find indices of min/max, then calculate minimum deletions by considering three scenarios: both from left, both from right, or one from each side."
+  ],
+  "problem_summary_simple": "Find the minimum number of deletions to remove both the smallest and largest elements from an array.",
+  "problem_summary_technical": "Locate the indices of the minimum and maximum elements. Calculate the minimum deletions by considering removing both from the left, both from the right, or one from each end.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding the minimum operations, which implies exploring different removal strategies.",
+      "The three key strategies are: remove both from the left, remove both from the right, or remove one from each side.",
+      "Finding the indices of min and max elements is the first step, and then calculating the cost for each strategy is straightforward."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

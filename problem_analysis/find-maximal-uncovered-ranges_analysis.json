@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-maximal-uncovered-ranges",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sort ranges, then use a line sweep approach to merge overlapping intervals and find gaps."
+  ],
+  "problem_summary_simple": "Find the longest continuous segments of numbers not covered by given ranges within a total length.",
+  "problem_summary_technical": "Merges overlapping input ranges to identify uncovered segments. Sorts ranges, then iterates to find gaps between merged intervals.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the ranges is crucial for efficient merging and gap identification.",
+      "A line sweep approach simplifies the problem by processing intervals sequentially.",
+      "The boundary conditions (0 and n) need careful handling to capture all uncovered ranges."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,34 @@
+{
+  "problem_name": "maximum-number-of-visible-points",
+  "data_structures": [
+    [
+      "list",
+      "math.atan2",
+      "list of angles",
+      "sorted list of angles"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate angles using atan2, sort, duplicate for circularity, use sliding window."
+  ],
+  "problem_summary_simple": "Find the maximum number of points visible within a given angular field of view from a fixed location.",
+  "problem_summary_technical": "Calculate angles to points, sort them, and use a sliding window on a doubled angle list to find the maximum coverage.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Points at the same location as the observer are always visible.",
+      "Using atan2 converts Cartesian coordinates to polar angles.",
+      "Doubling the sorted angle list handles the circular nature of the view."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

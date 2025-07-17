@@ -1,0 +1,34 @@
+{
+  "problem_name": "minimum-area-rectangle-ii",
+  "data_structures": [
+    [
+      "defaultdict",
+      "list",
+      "complex numbers"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through all pairs of points, calculate the midpoint and vector between them, and store them in a lookup.",
+    "Check for pairs of points that share the same midpoint and are orthogonal to each other."
+  ],
+  "problem_summary_simple": "Find the smallest area of any rectangle formed by given points, not necessarily axis-aligned.",
+  "problem_summary_technical": "Use complex numbers to represent points and vectors. Store midpoints of diagonals and check for orthogonal diagonals with the same midpoint.",
+  "time_complexity": [
+    "O(n^2) ~ O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "Representing points as complex numbers simplifies vector operations (addition, subtraction, multiplication).",
+      "The midpoint of a rectangle's diagonal is the average of the two endpoints. The diagonals of a rectangle bisect each other.",
+      "Two vectors are orthogonal if their dot product is zero. For complex numbers `a` and `b`, this is `a.real * b.real + a.imag * b.imag == 0`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:56:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

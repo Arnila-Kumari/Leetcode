@@ -1,0 +1,31 @@
+{
+  "problem_name": "reformat-phone-number",
+  "data_structures": [
+    [
+      "List (for in-place modification)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "In-place string manipulation and grouping with careful index management"
+  ],
+  "problem_summary_simple": "Reformat a phone number into blocks of 3 digits, with special handling for the last 2 or 4 digits.",
+  "problem_summary_technical": "Cleans the number, then reformats it in-place by inserting dashes based on block lengths (3s, then 2s or 3s, then 2s).",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core logic involves processing digits and inserting dashes at specific intervals.",
+      "Handling the final block of 2 or 4 digits requires careful conditional logic.",
+      "An in-place modification approach can be efficient by resizing the list and managing indices carefully."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:15",
+  "batch_processed": true,
+  "batch_size": 4
+}

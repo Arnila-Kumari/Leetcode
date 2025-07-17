@@ -1,0 +1,53 @@
+{
+  "problem_name": "maximum-balanced-subsequence-sum",
+  "data_structures": [
+    [
+      "SortedList"
+    ],
+    [
+      "BIT (Fenwick Tree)"
+    ],
+    [
+      "Segment Tree"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with SortedList for efficient range queries and updates.",
+    "Dynamic programming with Fenwick Tree (BIT) for efficient range queries and updates.",
+    "Dynamic programming with Segment Tree for efficient range queries and updates."
+  ],
+  "problem_summary_simple": "Find the maximum sum of a subsequence where adjacent elements satisfy a specific difference condition.",
+  "problem_summary_technical": "DP state `dp[x-i]` stores max sum ending with `nums[i]` where `nums[i] - nums[j] >= i - j`. Uses data structures for efficient queries.",
+  "time_complexity": [
+    "O(nlogn)",
+    "O(nlogn)",
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The condition `nums[ij] - nums[ij-1] >= ij - ij-1` can be rewritten as `nums[i] - i >= nums[j] - j`.",
+      "This transforms the problem into finding a subsequence where `nums[i] - i` is non-decreasing.",
+      "Data structures like SortedList, BIT, or Segment Tree are crucial for efficiently querying maximum sums for previous valid states."
+    ],
+    [
+      "The condition `nums[ij] - nums[ij-1] >= ij - ij-1` can be rewritten as `nums[i] - i >= nums[j] - j`.",
+      "This transforms the problem into finding a subsequence where `nums[i] - i` is non-decreasing.",
+      "A Fenwick Tree (BIT) can efficiently find the maximum sum ending at a previous valid `nums[j] - j` value."
+    ],
+    [
+      "The condition `nums[ij] - nums[ij-1] >= ij - ij-1` can be rewritten as `nums[i] - i >= nums[j] - j`.",
+      "This transforms the problem into finding a subsequence where `nums[i] - i` is non-decreasing.",
+      "A Segment Tree can efficiently query the maximum sum for a range of `nums[j] - j` values."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

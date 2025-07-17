@@ -1,0 +1,31 @@
+{
+  "problem_name": "subarray-product-less-than-k",
+  "data_structures": [
+    [
+      "none"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window approach to maintain product and count valid subarrays."
+  ],
+  "problem_summary_simple": "Count contiguous subarrays whose product is strictly less than k.",
+  "problem_summary_technical": "Uses a sliding window to maintain the product of elements, expanding and shrinking to satisfy the product condition.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The sliding window technique is ideal for problems involving contiguous subarrays with a condition on their aggregate value.",
+      "When the product exceeds k, the window's start needs to be moved forward, dividing by the element at the start.",
+      "For each valid window ending at index `i`, all subarrays ending at `i` and starting from `start` to `i` are valid."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

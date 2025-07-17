@@ -1,0 +1,73 @@
+{
+  "problem_name": "minimum-time-to-collect-all-apples-in-a-tree",
+  "data_structures": [
+    [
+      "adjacency list (for graph)",
+      "stack (for iterative DFS)",
+      "list (for result)"
+    ],
+    [
+      "adjacency list (for graph)",
+      "recursion stack (for DFS)",
+      "tuple (for return values)"
+    ],
+    [
+      "adjacency list (for graph)",
+      "stack (for iterative DFS)",
+      "list (for result)"
+    ],
+    [
+      "adjacency list (for graph)",
+      "recursion stack (for DFS)",
+      "integer (for return value)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative Depth First Search (DFS) to traverse the tree and calculate time.",
+    "Recursive Depth First Search (DFS) to traverse the tree and calculate time.",
+    "Iterative DFS with careful state management for subtree apple counts.",
+    "Recursive DFS with simplified return values for subtree apple counts."
+  ],
+  "problem_summary_simple": "Find the minimum time to collect all apples in a tree, starting and ending at the root.",
+  "problem_summary_technical": "DFS traversal of the tree. Calculate time by summing edge traversals needed to reach and return from subtrees with apples.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires visiting all nodes with apples and returning to the root.",
+      "Each edge traversal costs 1 second. To visit a subtree and return, an edge must be traversed twice (down and up).",
+      "The total time is twice the sum of edge traversals that lead to a subtree containing at least one apple.",
+      "An iterative DFS can track the path and the state of apple collection in subtrees."
+    ],
+    [
+      "A recursive DFS is a natural fit for tree traversal.",
+      "The DFS function should return two values: the total time spent in the subtree (excluding the edge to the parent) and a boolean indicating if any apple was found in the subtree.",
+      "The base case is a leaf node. The recursive step combines results from children, adding 2 seconds for each child subtree that needs visiting."
+    ],
+    [
+      "This iterative solution uses a stack to manage DFS. The state on the stack includes the parent, current node, and a temporary list to store results from children.",
+      "The logic correctly accumulates time only for edges that are part of a path to an apple.",
+      "The final result is `2 * (total_time_to_reach_apples - 1)` because the root itself doesn't require an edge traversal to reach, and we subtract 1 to avoid double counting the path from root to first apple."
+    ],
+    [
+      "This recursive solution simplifies the DFS return value to just the total time spent in the subtree (including returning to the parent of that subtree).",
+      "The `extra` variable tracks if any apple exists in the current subtree.",
+      "The logic correctly sums up the time for edges that are traversed to reach an apple and then return. The `max(dfs(...) - 1, 0)` handles the case where no apples are present or the root itself is the only node."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

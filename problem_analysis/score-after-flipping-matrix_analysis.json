@@ -1,0 +1,31 @@
+{
+  "problem_name": "score-after-flipping-matrix",
+  "data_structures": [
+    [
+      "2D array (matrix)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: maximize MSB by flipping rows, then columns"
+  ],
+  "problem_summary_simple": "Maximize a binary matrix's score by flipping rows/columns.",
+  "problem_summary_technical": "Greedily ensure the most significant bit of each row is 1, then maximize column sums.",
+  "time_complexity": [
+    "O(r * c)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The most significant bit (MSB) of each row contributes the most to the score.",
+      "To maximize the score, ensure every row's MSB is 1 by flipping the row if necessary.",
+      "After row flips, for each column, flip it if it has more 0s than 1s to maximize its contribution."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

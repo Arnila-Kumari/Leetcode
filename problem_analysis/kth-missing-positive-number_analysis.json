@@ -1,0 +1,31 @@
+{
+  "problem_name": "kth-missing-positive-number",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search to find the index where the number of missing elements before it is less than k."
+  ],
+  "problem_summary_simple": "Find the kth positive integer missing from a sorted array.",
+  "problem_summary_technical": "Employs binary search to efficiently locate the point in the sorted array where the count of missing numbers changes relative to k.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to count missing numbers: `arr[i] - (i + 1)` gives the count of missing positives before `arr[i]`.",
+      "Binary search helps find the boundary where the number of missing elements is just enough to satisfy k.",
+      "The final result is derived from the element at the boundary and the remaining k value."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

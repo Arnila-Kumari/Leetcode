@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-boomerangs",
+  "data_structures": [
+    [
+      "hashmap (collections.defaultdict)"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through each point as a potential center, calculate squared distances to all other points, and use a hashmap to count frequencies of distances. For each distance with count k, add k*(k-1) to the result."
+  ],
+  "problem_summary_simple": "Count tuples of three points (i, j, k) where distance(i, j) equals distance(i, k).",
+  "problem_summary_technical": "For each point, compute squared Euclidean distances to all other points. Use a hashmap to count distance frequencies. For each distance with frequency k, add k*(k-1) to the total.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding pairs of points equidistant from a central point.",
+      "Squared Euclidean distance is sufficient to avoid floating-point calculations and square roots.",
+      "A hashmap is ideal for efficiently counting occurrences of distances."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

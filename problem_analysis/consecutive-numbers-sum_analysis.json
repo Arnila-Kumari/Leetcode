@@ -1,0 +1,31 @@
+{
+  "problem_name": "consecutive-numbers-sum",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical approach based on number theory: count odd divisors of N."
+  ],
+  "problem_summary_simple": "Count how many ways N can be written as a sum of consecutive positive integers.",
+  "problem_summary_technical": "The number of ways is equal to the number of odd divisors of N.",
+  "time_complexity": [
+    "O(sqrt(N))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding the number of ways to express N as a sum of an arithmetic progression.",
+      "The key mathematical insight is that the number of ways is equal to the number of odd divisors of N.",
+      "This is because any sum of consecutive integers can be represented as `l * x + l * (l-1) / 2 = N`, which simplifies to `l * (2x + l - 1) = 2N`. One of `l` or `2x + l - 1` must be odd."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

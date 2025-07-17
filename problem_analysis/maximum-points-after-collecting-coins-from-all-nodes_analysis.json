@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-points-after-collecting-coins-from-all-nodes",
+  "data_structures": [
+    [
+      "adjacency list",
+      "lookup array (bitmask)"
+    ],
+    [
+      "adjacency list",
+      "2D DP table (memoization)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "DFS with bitmasking and pruning",
+    "Tree DP with memoization"
+  ],
+  "problem_summary_simple": "Collect coins in a tree, choosing between two collection methods per node to maximize points.",
+  "problem_summary_technical": "Tree traversal (DFS/DP) with state representing coin reduction factor (base/division), optimizing choices at each node.",
+  "time_complexity": [
+    "O(n * log(max(coins)))",
+    "O(n * log(max(coins)))"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n * log(max(coins)))"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a tree DP where the state depends on how many times coins have been halved.",
+      "Bitmasking can represent the 'halving' state efficiently.",
+      "Pruning is crucial to avoid exploring redundant states where a choice is clearly worse."
+    ],
+    [
+      "The state can be defined by (current_node, parent_node, division_depth).",
+      "Memoization is essential to avoid recomputing results for the same subproblems.",
+      "The maximum depth of division is logarithmic to the maximum coin value."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

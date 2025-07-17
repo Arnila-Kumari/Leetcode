@@ -1,0 +1,32 @@
+{
+  "problem_name": "largest-plus-sign",
+  "data_structures": [
+    [
+      "set",
+      "2D array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Use dynamic programming to store the length of consecutive 1s in four directions (up, down, left, right) for each cell."
+  ],
+  "problem_summary_simple": "Find the order of the largest axis-aligned plus sign of 1s in a grid with some mines (0s).",
+  "problem_summary_technical": "DP approach calculating consecutive 1s in four directions for each cell, then taking the minimum and maximum plus sign order.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The order of a plus sign at (r, c) is limited by the shortest arm extending from it.",
+      "We can precompute the lengths of consecutive 1s in all four directions (left, right, up, down) for each cell.",
+      "The final answer for a cell is the minimum of these four lengths, and we seek the maximum among all cells."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

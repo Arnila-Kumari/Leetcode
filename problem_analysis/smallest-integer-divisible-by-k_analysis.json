@@ -1,0 +1,31 @@
+{
+  "problem_name": "smallest-integer-divisible-by-k",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Simulate building numbers with only '1's and track remainders modulo K. Use pigeonhole principle for proof."
+  ],
+  "problem_summary_simple": "Find the length of the smallest number made of only '1's that is divisible by K.",
+  "problem_summary_technical": "Iteratively construct numbers of '1's, calculating their remainders modulo K to find the first divisible one.",
+  "time_complexity": [
+    "O(k)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Numbers divisible by 2 or 5 cannot be formed using only the digit 1.",
+      "The problem can be solved by observing remainders modulo K. If a remainder repeats, a cycle is detected.",
+      "The length of the number of '1's will not exceed K due to the pigeonhole principle."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "cheapest-flights-within-k-stops",
+  "data_structures": [
+    [
+      "adjacency list",
+      "min-heap",
+      "hashmap"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Dijkstra-like algorithm with a modified state (cost, current_city, stops_remaining) using a min-heap."
+  ],
+  "problem_summary_simple": "Find the cheapest flight path from a source to a destination with a maximum number of stops allowed.",
+  "problem_summary_technical": "Employs a modified Dijkstra's algorithm using a priority queue to explore paths, prioritizing lower costs and tracking remaining stops.",
+  "time_complexity": [
+    "O((E + V) * log V) or O(E * log V) with Fibonacci heap"
+  ],
+  "space_complexity": [
+    "O(E + V)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a variation of shortest path algorithms, but with an added constraint on the number of edges (stops).",
+      "A standard Dijkstra might not work directly because a path with more stops could be cheaper overall.",
+      "The state in the priority queue needs to include the number of stops remaining to correctly explore valid paths."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

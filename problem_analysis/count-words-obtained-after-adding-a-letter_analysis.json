@@ -1,0 +1,33 @@
+{
+  "problem_name": "count-words-obtained-after-adding-a-letter",
+  "data_structures": [
+    [
+      "hash set",
+      "integer bitmasks"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bitmasking",
+    "Hash Set for lookup"
+  ],
+  "problem_summary_simple": "Count target words that can be formed by adding one unique letter to a start word and rearranging.",
+  "problem_summary_technical": "Represent words as sorted bitmasks. For each target word, check if removing one character results in a start word's bitmask.",
+  "time_complexity": [
+    "O(S * L_s + T * L_t)"
+  ],
+  "space_complexity": [
+    "O(S)"
+  ],
+  "key_insights": [
+    [
+      "The rearrangement step means the order of characters doesn't matter, only the set of characters present.",
+      "Bitmasks are an efficient way to represent the character sets of words, especially with a small alphabet size (26).",
+      "A target word can be formed if its bitmask differs from a start word's bitmask by exactly one bit (representing the added character)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

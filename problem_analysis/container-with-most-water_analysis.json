@@ -1,0 +1,32 @@
+{
+  "problem_name": "container-with-most-water",
+  "data_structures": [
+    [
+      "integer array",
+      "two integer pointers"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers moving inwards, always advancing the pointer of the shorter line to maximize potential area."
+  ],
+  "problem_summary_simple": "Find two vertical lines that form a container with the most water.",
+  "problem_summary_technical": "Maximize area (width * min_height) between two lines in an array using two pointers that converge.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The area is limited by the shorter of the two lines.",
+      "Moving the pointer of the shorter line is the only way to potentially increase the area.",
+      "This greedy approach guarantees finding the maximum area."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

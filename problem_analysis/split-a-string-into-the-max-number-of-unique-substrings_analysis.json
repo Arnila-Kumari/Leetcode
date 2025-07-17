@@ -1,0 +1,32 @@
+{
+  "problem_name": "split-a-string-into-the-max-number-of-unique-substrings",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Iterate through all possible splits using bitmasks, check uniqueness with a set."
+  ],
+  "problem_summary_simple": "Split a string into the maximum number of unique substrings.",
+  "problem_summary_technical": "Find maximum unique substrings by exploring all possible split points using bitmasks and a set for uniqueness checks.",
+  "time_complexity": [
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as finding all possible partitions of the string.",
+      "Bitmasking is an effective way to represent all possible split points.",
+      "A set is crucial for efficiently checking the uniqueness of substrings."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

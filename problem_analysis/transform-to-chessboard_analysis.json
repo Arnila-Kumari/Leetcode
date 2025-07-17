@@ -1,0 +1,32 @@
+{
+  "problem_name": "transform-to-chessboard",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "itertools.izip"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Analyze row and column patterns, check for chessboard properties, and calculate minimum swaps."
+  ],
+  "problem_summary_simple": "Find the minimum swaps to make a binary grid a chessboard pattern.",
+  "problem_summary_technical": "Analyzes row/column patterns for chessboard validity and calculates minimum swaps for row/column permutations.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "A valid chessboard pattern has only two distinct row patterns and two distinct column patterns.",
+      "These patterns must be complements of each other (e.g., 0101 vs 1010).",
+      "The number of 0s and 1s in each row/column must be balanced (N/2 or (N+1)/2)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:13:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

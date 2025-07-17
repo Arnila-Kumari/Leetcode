@@ -1,0 +1,37 @@
+{
+  "problem_name": "maximize-the-profit-as-the-salesman",
+  "data_structures": [
+    [
+      "list",
+      "dynamic programming array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming where dp[i] stores the maximum profit considering houses up to index i."
+  ],
+  "problem_summary_simple": "Maximize profit by selling houses to buyers with specific price ranges, ensuring no house is sold twice.",
+  "problem_summary_technical": "DP state dp[i] = max profit using houses 0 to i. Transition considers not selling house i or selling it via an offer ending at i.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as a maximum weight independent set problem on an interval graph, but DP is more efficient here.",
+      "The DP state should represent the maximum profit achievable up to a certain house index.",
+      "When considering house `i`, the decision is either to not sell it (inheriting profit from `dp[i-1]`) or to sell it as part of an offer ending at `i`."
+    ],
+    [
+      "Pre-processing the offers by grouping them by their end house index is beneficial.",
+      "The DP transition `dp[e+1] = max(dp[e+1], dp[s-1]+g)` correctly captures the non-overlapping constraint: if an offer `[s, e, g]` is taken, the profit before `s` is `dp[s-1]`.",
+      "The base case `dp[0] = 0` and the iteration order ensure that previous optimal solutions are used."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

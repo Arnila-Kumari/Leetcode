@@ -1,0 +1,53 @@
+{
+  "problem_name": "subsets-ii",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Iterative construction with duplicate handling",
+    "Bit manipulation with duplicate check",
+    "Recursive backtracking with duplicate handling"
+  ],
+  "problem_summary_simple": "Generate all possible subsets (power set) of an array that may contain duplicates.",
+  "problem_summary_technical": "Generates subsets iteratively, using bitmasks, or recursively, ensuring no duplicate subsets are included.",
+  "time_complexity": [
+    "O(n * 2^n)",
+    "O(n * 2^n)",
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(n) for recursion stack"
+  ],
+  "key_insights": [
+    [
+      "Sorting the input array is crucial for efficiently handling duplicates.",
+      "When encountering duplicates, only add them to subsets generated in the previous step.",
+      "This prevents generating identical subsets."
+    ],
+    [
+      "The bit manipulation approach needs an extra check (`if cur not in result`) to avoid duplicate subsets.",
+      "This check can be costly (O(n) for list comparison) making the overall complexity higher.",
+      "Sorting the input array is still beneficial for consistent subset generation."
+    ],
+    [
+      "The recursive approach must handle duplicates by skipping recursive calls for identical elements if the previous identical element was not included.",
+      "A common technique is to sort and then, in the recursive step, if the current element is the same as the previous and the previous was skipped, skip the current one too.",
+      "Alternatively, add the current subset to a set to automatically handle duplicates."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-points-tourist-can-earn",
+  "data_structures": [
+    [
+      "1D DP array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with state representing max points ending at a city on a given day."
+  ],
+  "problem_summary_simple": "A tourist visits cities for k days, earning points by staying or traveling, maximizing total points.",
+  "problem_summary_technical": "DP state `dp[i][j]` = max points ending at city `j` on day `i`. Transition considers staying or traveling from previous day's cities.",
+  "time_complexity": [
+    "O(k * n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic DP problem on a sequence of decisions (days).",
+      "The state needs to capture the current location (city) and the progress (day).",
+      "The transition involves considering all possible previous states (cities on the previous day) and the current day's actions (stay or travel)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "make-lexicographically-smallest-array-by-swapping-elements",
+  "data_structures": [
+    [
+      "array",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sorting and Grouping based on swapability"
+  ],
+  "problem_summary_simple": "Find the lexicographically smallest array by swapping elements if their difference is within a limit.",
+  "problem_summary_technical": "Group indices based on the ability to swap elements within a limit. Sort elements within each group and assign them back to the sorted indices.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The swap operation defines connected components of indices where elements can be freely rearranged.",
+      "Elements within a connected component can be sorted and placed into the sorted positions of that component.",
+      "Sorting the original array and then grouping indices based on the limit helps identify these components."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "remove-all-adjacent-duplicates-in-string-ii",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Using a stack to store characters and their counts, removing when count reaches k."
+  ],
+  "problem_summary_simple": "Remove k adjacent identical characters repeatedly until no more removals are possible.",
+  "problem_summary_technical": "Use a stack of [character, count] pairs. Increment count if char matches top, pop if count reaches k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A stack storing pairs of (character, count) is essential to track consecutive duplicates.",
+      "When a character matches the top of the stack, its count is incremented; if it reaches 'k', the pair is removed.",
+      "The initial dummy element `['^', 0]` simplifies the logic for the first character."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

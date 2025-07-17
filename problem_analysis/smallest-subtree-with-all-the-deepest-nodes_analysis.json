@@ -1,0 +1,32 @@
+{
+  "problem_name": "smallest-subtree-with-all-the-deepest-nodes",
+  "data_structures": [
+    [
+      "binary tree",
+      "named tuple (for result)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth-first search (post-order traversal)"
+  ],
+  "problem_summary_simple": "Find the smallest subtree that contains all the deepest nodes in a binary tree.",
+  "problem_summary_technical": "Use DFS to return both the deepest node and its depth. The LCA of deepest nodes is the root of the smallest subtree.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding the Lowest Common Ancestor (LCA) of all the deepest nodes.",
+      "A post-order traversal (DFS) is suitable because we need information from children (depths) to decide about the parent.",
+      "If left and right subtrees have the same maximum depth, the current node is the LCA of the deepest nodes in its subtree. Otherwise, the LCA is in the deeper subtree."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

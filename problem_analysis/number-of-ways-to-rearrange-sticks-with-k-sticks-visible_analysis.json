@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-ways-to-rearrange-sticks-with-k-sticks-visible",
+  "data_structures": [
+    [
+      "2D array for DP table"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "dynamic programming with state compression"
+  ],
+  "problem_summary_simple": "Count arrangements of n sticks so exactly k are visible from the left.",
+  "problem_summary_technical": "DP state dp[i][j] represents ways to arrange i sticks with j visible. Transitions consider placing the i-th stick.",
+  "time_complexity": [
+    "O(n * k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using dynamic programming.",
+      "Consider placing the i-th stick: it can be the tallest (visible) or not (hidden).",
+      "If visible, it must be placed at the end of an arrangement of i-1 sticks with j-1 visible. If hidden, it can be placed anywhere among the i-1 sticks, not being the tallest."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

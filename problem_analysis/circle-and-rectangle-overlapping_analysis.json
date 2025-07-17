@@ -1,0 +1,40 @@
+{
+  "problem_name": "circle-and-rectangle-overlapping",
+  "data_structures": [
+    [
+      "class (Solution)",
+      "class (Solution2)"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Translate the circle's center to the origin. Find the closest point on the rectangle to the origin and check if its distance is within the radius.",
+    "Translate the circle's center to the origin. Find the closest x and y coordinates on the rectangle to the origin and check the squared distance."
+  ],
+  "problem_summary_simple": "Determine if a circle and an axis-aligned rectangle intersect.",
+  "problem_summary_technical": "Find the closest point on the rectangle to the circle's center. If this distance is less than or equal to the radius, they overlap.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem simplifies by translating the coordinate system so the circle is at (0,0).",
+      "The closest point on the rectangle to the origin can be found by clamping the circle's center coordinates to the rectangle's bounds.",
+      "Checking the squared distance avoids the computationally more expensive square root operation."
+    ],
+    [
+      "The closest x-coordinate on the rectangle to the origin is 0 if the origin is within the rectangle's x-range, otherwise it's the closest x-boundary.",
+      "Similarly for the y-coordinate.",
+      "The squared distance from the origin to this closest point is then compared with the squared radius."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

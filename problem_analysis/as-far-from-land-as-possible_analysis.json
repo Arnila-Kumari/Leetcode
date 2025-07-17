@@ -1,0 +1,32 @@
+{
+  "problem_name": "as-far-from-land-as-possible",
+  "data_structures": [
+    [
+      "deque",
+      "grid (2D list)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "multi-source Breadth-First Search (BFS)"
+  ],
+  "problem_summary_simple": "Find a water cell furthest from any land cell in a grid.",
+  "problem_summary_technical": "Performs a multi-source BFS starting from all land cells to find the maximum distance to any water cell.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as finding the longest path in a grid from any 'land' node to a 'water' node.",
+      "A multi-source BFS is efficient because it explores outwards from all land cells simultaneously.",
+      "The grid itself acts as a visited set, marking visited water cells as land (or a visited state)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

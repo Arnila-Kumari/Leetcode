@@ -1,0 +1,34 @@
+{
+  "problem_name": "rank-transform-of-a-matrix",
+  "data_structures": [
+    [
+      "hash map",
+      "Union-Find data structure",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find to group elements in the same row/column with the same value.",
+    "Iterating through sorted unique values and applying Union-Find to determine ranks."
+  ],
+  "problem_summary_simple": "Assign ranks to matrix elements based on their value and position, respecting row/column constraints.",
+  "problem_summary_technical": "Use Union-Find to manage connected components of equal elements, then assign ranks based on component ranks.",
+  "time_complexity": [
+    "O(m * n * log(m * n) + m * n * α(m * n))"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires considering both value and positional constraints for ranking.",
+      "Union-Find is crucial for efficiently grouping elements that must have the same rank.",
+      "Processing elements in sorted order ensures that ranks are assigned incrementally and correctly."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:05:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

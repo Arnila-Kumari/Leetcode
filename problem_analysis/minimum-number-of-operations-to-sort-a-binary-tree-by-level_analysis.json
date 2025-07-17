@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+  "data_structures": [
+    [
+      "queue",
+      "array"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) and cycle detection for sorting at each level"
+  ],
+  "problem_summary_simple": "Sort each level of a binary tree by swapping nodes at the same level.",
+  "problem_summary_technical": "BFS to collect nodes per level, then sort values and use cycle detection to count minimum swaps for each level.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(w)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved level by level using BFS.",
+      "For each level, the minimum swaps to sort is equivalent to the number of elements minus the number of cycles in the permutation.",
+      "The values at each level must be sorted independently."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

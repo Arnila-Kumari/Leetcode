@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-common-elements-between-two-arrays",
+  "data_structures": [
+    [
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Convert arrays to sets for O(1) average time lookups, then iterate and count matches."
+  ],
+  "problem_summary_simple": "Count how many elements in each array exist in the other array.",
+  "problem_summary_technical": "Uses sets for efficient membership testing to count elements from nums1 present in nums2 and vice-versa.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "Sets provide O(1) average time complexity for checking element existence.",
+      "Iterating through one array and checking against the set of the other is efficient.",
+      "The problem requires counting occurrences based on indices, not just unique elements."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

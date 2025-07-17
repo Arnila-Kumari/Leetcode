@@ -1,0 +1,79 @@
+{
+  "problem_name": "best-team-with-no-conflicts",
+  "data_structures": [
+    [
+      "list of tuples",
+      "segment tree",
+      "dictionary"
+    ],
+    [
+      "list of tuples",
+      "segment tree",
+      "dictionary"
+    ],
+    [
+      "list of tuples",
+      "defaultdict"
+    ],
+    [
+      "list of tuples",
+      "defaultdict"
+    ],
+    [
+      "list of lists",
+      "list"
+    ],
+    [
+      "list of tuples",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Sort by score, use segment tree on compressed ages for max sum of non-decreasing scores.",
+    "Sort by age, use segment tree on compressed scores for max sum of non-decreasing scores.",
+    "Sort by score, DP on ages using coordinate compression and segment tree.",
+    "Sort by age, DP on scores using coordinate compression and segment tree.",
+    "Sort by score, DP on ages, O(N^2) approach.",
+    "Sort by age, DP on scores, O(N^2) approach."
+  ],
+  "problem_summary_simple": "Select a team of players to maximize total score, ensuring no younger player has a higher score than an older player.",
+  "problem_summary_technical": "Find the maximum sum of scores where players are sorted by age and score. This is a variation of the Longest Increasing Subsequence problem.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)",
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the maximum sum subsequence with non-decreasing age and score.",
+      "Sorting players by age (or score) is crucial. If sorting by age, we need to ensure scores are non-decreasing.",
+      "Dynamic programming or segment trees can efficiently track the maximum sum ending at a particular player."
+    ],
+    [
+      "Sorting by age and then using a segment tree on compressed scores allows for efficient querying of previous maximums.",
+      "Coordinate compression is used to reduce the range of scores for the segment tree.",
+      "The segment tree stores the maximum team score ending with a player of a certain score."
+    ],
+    [
+      "The O(N^2) DP approach involves iterating through all previous players to find the best preceding player for the current player.",
+      "Sorting by age (or score) is still necessary to ensure the conflict condition is met.",
+      "This approach is simpler to implement but less efficient for larger datasets."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

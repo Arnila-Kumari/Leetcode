@@ -1,0 +1,40 @@
+{
+  "problem_name": "count-special-subsequences",
+  "data_structures": [
+    [
+      "collections.defaultdict"
+    ],
+    [
+      "collections.defaultdict"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate r, p, s, use hashmap for ratio lookup",
+    "Iterate r, p, s, use hashmap for gcd-reduced ratio lookup"
+  ],
+  "problem_summary_simple": "Count subsequences of length 4 (p, q, r, s) where nums[p] * nums[r] == nums[q] * nums[s] and indices have gaps.",
+  "problem_summary_technical": "Find quadruplets satisfying a product equality with index constraints. Solutions use hash maps to store counts of ratios or gcd-reduced ratios.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2 * logr)"
+  ],
+  "space_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding quadruplets (p, q, r, s) with specific index and product conditions.",
+      "The O(n^2) solution uses a hashmap to store counts of ratios (nums[p]/nums[q]) for valid (p, q) pairs and then checks for matching ratios with (r, s) pairs."
+    ],
+    [
+      "The O(n^2 * logr) solution improves the hashmap key by using the greatest common divisor (GCD) to represent the ratio in its simplest form, reducing potential hash collisions and improving accuracy.",
+      "The GCD approach is more robust for handling large numbers and potential floating-point inaccuracies."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

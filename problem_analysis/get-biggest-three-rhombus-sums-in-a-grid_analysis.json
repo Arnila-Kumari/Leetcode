@@ -1,0 +1,34 @@
+{
+  "problem_name": "get-biggest-three-rhombus-sums-in-a-grid",
+  "data_structures": [
+    [
+      "heap",
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Precomputing diagonal sums using dynamic programming, then iterating through rhombus centers and sizes to calculate sums.",
+    "Using a min-heap to keep track of the top K largest sums encountered."
+  ],
+  "problem_summary_simple": "Find the three largest distinct sums of rhombus shapes within a grid.",
+  "problem_summary_technical": "Precompute diagonal sums (DP) to efficiently calculate rhombus border sums, then use a min-heap to track top 3 distinct sums.",
+  "time_complexity": [
+    "O(m * n * min(m, n))"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "Rhombus sums can be efficiently calculated by precomputing sums along diagonals.",
+      "Two DP tables (left-to-right and right-to-left diagonals) are used to store these prefix sums.",
+      "A min-heap of size K (here K=3) is ideal for finding the top K elements without sorting all sums."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:46:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

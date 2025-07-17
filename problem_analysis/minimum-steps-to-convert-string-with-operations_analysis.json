@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-steps-to-convert-string-with-operations",
+  "data_structures": [
+    [
+      "2D DP array",
+      "Hashmap (defaultdict)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with a state representing the minimum operations to convert prefix of word1 to prefix of word2."
+  ],
+  "problem_summary_simple": "Find the minimum operations to transform word1 to word2 by dividing word1 into substrings and applying replace, swap, or reverse.",
+  "problem_summary_technical": "DP state dp[i] = min operations for word1[:i] to word2[:i]. Transitions consider splitting at each j, using substring operations.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as finding the optimal partitioning of word1.",
+      "A DP approach is suitable where dp[i] stores the minimum operations for the first i characters.",
+      "The core challenge is efficiently calculating the cost of transforming a substring, considering the three operations."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

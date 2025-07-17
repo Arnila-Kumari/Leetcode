@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-the-number-of-fair-pairs",
+  "data_structures": [
+    [
+      "sorted array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sorting and Two Pointers to efficiently count pairs within a range"
+  ],
+  "problem_summary_simple": "Count pairs (i, j) in an array where nums[i] + nums[j] is within a given range.",
+  "problem_summary_technical": "Sorts the array and uses a two-pointer approach to count pairs whose sum falls within [lower, upper].",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is key to enabling the two-pointer approach.",
+      "The problem can be solved by finding the count of pairs <= upper and subtracting the count of pairs < lower.",
+      "The `count(x)` helper function efficiently finds pairs summing up to at most `x`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

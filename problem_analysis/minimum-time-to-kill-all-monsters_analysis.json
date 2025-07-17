@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-time-to-kill-all-monsters",
+  "data_structures": [
+    [
+      "dictionary",
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Dynamic programming with bitmask. `dp[mask]` stores the minimum time to kill monsters represented by the mask.",
+    "Iterate through possible gains (1, 2, 3, ...), updating DP states for each monster killed."
+  ],
+  "problem_summary_simple": "Find the minimum days to kill all monsters, where mana gain increases daily and resets upon killing a monster.",
+  "problem_summary_technical": "DP with bitmask. `dp[mask]` = min time to kill monsters in `mask`. Iterate `gain` from 1. `dp[mask | (1<<i)] = min(dp[mask | (1<<i)], dp[mask] + ceil_divide(power[i], gain))`. ",
+  "time_complexity": [
+    "O(N * 2^N)"
+  ],
+  "space_complexity": [
+    "O(2^N)"
+  ],
+  "key_insights": [
+    [
+      "The problem has optimal substructure and overlapping subproblems, suitable for DP.",
+      "A bitmask is used to represent the set of monsters already killed.",
+      "The order of killing monsters matters, and the DP explores all valid sequences implicitly."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

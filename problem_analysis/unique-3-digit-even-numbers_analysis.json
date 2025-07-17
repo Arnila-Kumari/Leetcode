@@ -1,0 +1,31 @@
+{
+  "problem_name": "unique-3-digit-even-numbers",
+  "data_structures": [
+    [
+      "frequency array (count table)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Combinatorics with frequency counting and case analysis"
+  ],
+  "problem_summary_simple": "Count distinct 3-digit even numbers using given digits, each digit used at most as many times as it appears.",
+  "problem_summary_technical": "Uses a frequency map to count digit occurrences, then applies combinatorics and case analysis for distinct 3-digit even numbers.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to count available digits and use combinatorics to form numbers.",
+      "Careful handling of leading zeros and the even digit requirement is crucial.",
+      "The provided solution seems to use a complex combinatorics approach that might be hard to follow; a brute-force permutation approach with pruning could be simpler to reason about for smaller constraints."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

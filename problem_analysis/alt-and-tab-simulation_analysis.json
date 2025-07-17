@@ -1,0 +1,32 @@
+{
+  "problem_name": "alt-and-tab-simulation",
+  "data_structures": [
+    [
+      "list",
+      "boolean array (lookup table)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Process queries in reverse, using a lookup to track brought-to-top windows."
+  ],
+  "problem_summary_simple": "Simulate bringing windows to the top and return the final order of windows.",
+  "problem_summary_technical": "Processes queries in reverse. Uses a boolean array to mark windows brought to top, then appends remaining windows in original order.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Processing queries in reverse simplifies the logic: the last time a window is queried, it's brought to the very top.",
+      "A boolean array (or hash set) is efficient for checking if a window has already been processed.",
+      "The final order is constructed by first adding the most recently brought-to-top windows, then the rest in their original relative order."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

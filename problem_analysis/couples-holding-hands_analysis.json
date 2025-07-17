@@ -1,0 +1,39 @@
+{
+  "problem_name": "couples-holding-hands",
+  "data_structures": [
+    [
+      "adjacency list",
+      "disjoint set union (implicit)",
+      "visited array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Graph traversal (DFS/BFS) to find cycles. The number of swaps is `N - number_of_cycles`.",
+    "Union-Find data structure to group coupled individuals and count connected components."
+  ],
+  "problem_summary_simple": "Find the minimum swaps to seat couples next to each other in a row.",
+  "problem_summary_technical": "Model the problem as a graph where nodes are couples and edges represent their initial seating. Count cycles to find minimum swaps.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Each couple can be represented as a node in a graph.",
+      "An edge exists between two couple-nodes if they are seated adjacent to each other in the row.",
+      "The problem reduces to finding the minimum number of swaps to make each connected component a single cycle, which is `N - number_of_cycles`."
+    ],
+    [
+      "The core idea is that if two people of a couple are not sitting together, they belong to different 'groups' that need to be merged.",
+      "Union-Find can efficiently track these groups. When a couple is found to be split, their respective groups are unioned.",
+      "The number of swaps is the total number of couples minus the number of disjoint sets (connected components) formed by the couples."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

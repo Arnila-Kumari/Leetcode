@@ -1,0 +1,32 @@
+{
+  "problem_name": "zigzag-iterator",
+  "data_structures": [
+    [
+      "collections.deque",
+      "iterator"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Use a deque to store iterators of the input vectors, cycling through them to achieve the zigzag pattern."
+  ],
+  "problem_summary_simple": "Iterate through two lists, taking elements alternately.",
+  "problem_summary_technical": "A deque manages iterators, yielding elements one by one, and re-queuing iterators with remaining elements.",
+  "time_complexity": [
+    "O(N), where N is the total number of elements across all vectors."
+  ],
+  "space_complexity": [
+    "O(k), where k is the number of input vectors."
+  ],
+  "key_insights": [
+    [
+      "The deque is essential for managing the state of multiple iterators efficiently.",
+      "The `hasNext` method simply checks if the deque is empty.",
+      "The `next` method pops an iterator, returns its next element, and re-appends it if it has more elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

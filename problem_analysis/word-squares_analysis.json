@@ -1,0 +1,33 @@
+{
+  "problem_name": "word-squares",
+  "data_structures": [
+    [
+      "Trie",
+      "list",
+      "list of lists"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Backtracking with Trie for efficient prefix matching."
+  ],
+  "problem_summary_simple": "Construct word squares from a list of words.",
+  "problem_summary_technical": "Uses backtracking and a Trie to efficiently find words that complete word squares by matching prefixes.",
+  "time_complexity": [
+    "O(n^2 * n!)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The core constraint is that the k-th row and k-th column must match.",
+      "A Trie is essential for quickly finding candidate words that match the required prefixes for subsequent rows.",
+      "Backtracking is used to build potential word squares row by row, pruning invalid paths."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

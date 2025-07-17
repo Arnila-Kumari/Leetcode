@@ -1,0 +1,32 @@
+{
+  "problem_name": "calculate-amount-paid-in-taxes",
+  "data_structures": [
+    [
+      "2D list (brackets)",
+      "integer (income)"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Simulation: Iterate through tax brackets, calculate tax for each applicable portion of income, and sum them up."
+  ],
+  "problem_summary_simple": "Calculate total tax based on income and progressive tax brackets.",
+  "problem_summary_technical": "Iterate through sorted tax brackets, calculate tax for income within each bracket, considering previous bracket's upper bound.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The brackets are sorted by upper bound, which simplifies processing.",
+      "For each bracket, the taxable amount is the minimum of (current bracket's upper bound, remaining income) minus the previous bracket's upper bound.",
+      "The tax is calculated as (taxable amount) * (percentage / 100.0)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

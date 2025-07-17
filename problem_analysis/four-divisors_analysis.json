@@ -1,0 +1,44 @@
+{
+  "problem_name": "four-divisors",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through numbers, find divisors up to sqrt(n), and check for exactly four divisors.",
+    "Prime factorization to identify numbers with exactly four divisors (p^3 or p*q)."
+  ],
+  "problem_summary_simple": "Sum divisors of numbers in an array that have exactly four divisors.",
+  "problem_summary_technical": "Iterate through nums, find divisors by trial division up to sqrt(num), sum if exactly four divisors found.",
+  "time_complexity": [
+    "O(n * sqrt(max(nums)))",
+    "O(n * sqrt(max(nums)))"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(log(max(nums)))"
+  ],
+  "key_insights": [
+    [
+      "A number has exactly four divisors if it's a cube of a prime (p^3) or a product of two distinct primes (p*q).",
+      "Finding divisors by trial division up to the square root is an efficient approach.",
+      "Care must be taken to count divisors correctly, especially when the number is a perfect square."
+    ],
+    [
+      "Prime factorization is a more structured way to identify numbers with specific divisor counts.",
+      "Numbers of the form p^3 have divisors 1, p, p^2, p^3.",
+      "Numbers of the form p*q have divisors 1, p, q, p*q."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

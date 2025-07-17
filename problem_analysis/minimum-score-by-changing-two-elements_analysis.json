@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-score-by-changing-two-elements",
+  "data_structures": [
+    [
+      "array",
+      "sorting"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the array and consider changing the smallest or largest elements to minimize the score."
+  ],
+  "problem_summary_simple": "Minimize the sum of max and min absolute differences by changing two elements.",
+  "problem_summary_technical": "Sort the array. The minimum score is achieved by making the three smallest or three largest elements equal, or by making two elements equal to a value between the smallest and largest.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The score is (max_val - min_val) + (max_diff - min_diff). To minimize this, we want to minimize both max_val - min_val and max_diff - min_diff.",
+      "Sorting the array helps identify the smallest and largest elements.",
+      "By changing two elements, we can effectively make three elements equal. The minimum score is achieved by making the three smallest, three largest, or two smallest/largest and one middle element equal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

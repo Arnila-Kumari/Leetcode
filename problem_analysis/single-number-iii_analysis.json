@@ -1,0 +1,53 @@
+{
+  "problem_name": "single-number-iii",
+  "data_structures": [
+    [
+      "integer variables"
+    ],
+    [
+      "integer variables"
+    ],
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "XOR properties and bitwise operations to find differing bits",
+    "XOR properties and bitwise operations to find differing bits",
+    "Frequency counting using a hashmap"
+  ],
+  "problem_summary_simple": "Find the two numbers that appear only once in an array where all other numbers appear twice.",
+  "problem_summary_technical": "Uses XOR to find the XOR of the two unique numbers, then identifies a differing bit to partition and isolate each unique number.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The XOR sum of all numbers will be the XOR of the two unique numbers.",
+      "Finding a bit that is set in this XOR sum allows us to partition the numbers into two groups.",
+      "The two unique numbers will fall into different groups, enabling their isolation."
+    ],
+    [
+      "The expression `x_xor_y & -x_xor_y` (or `x_xor_y & ~(x_xor_y - 1)`) isolates the rightmost set bit.",
+      "This bit is guaranteed to be different between the two unique numbers.",
+      "Partitioning based on this bit allows us to XOR numbers within each partition to find the unique elements."
+    ],
+    [
+      "Using `collections.Counter` is a simple approach if constant space is not a strict requirement.",
+      "Sorting the items by their count and taking the first two elements directly yields the unique numbers.",
+      "This is less efficient than bit manipulation for large datasets."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:19:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

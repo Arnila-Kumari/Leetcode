@@ -1,0 +1,40 @@
+{
+  "problem_name": "bitwise-or-of-all-subsequence-sums",
+  "data_structures": [
+    [
+      "integer"
+    ],
+    [
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate through numbers, maintaining prefix sum and ORing with current number and prefix sum.",
+    "Iterate through bits, count numbers with that bit set and numbers whose prefix sum has that bit set."
+  ],
+  "problem_summary_simple": "Find the bitwise OR of all possible sums of subsequences.",
+  "problem_summary_technical": "Calculates the bitwise OR of all subsequence sums by leveraging properties of prefix sums and bitwise operations.",
+  "time_complexity": [
+    "O(n)",
+    "O(n * log(max_val))"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that the OR of all subsequence sums is equivalent to the OR of all numbers and their prefix sums.",
+      "This approach avoids generating all subsequences, which would be computationally expensive."
+    ],
+    [
+      "This solution checks each bit position independently.",
+      "If any subsequence sum can have a specific bit set, that bit will be set in the final result."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

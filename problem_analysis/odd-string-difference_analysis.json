@@ -1,0 +1,39 @@
+{
+  "problem_name": "odd-string-difference",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "list"
+    ],
+    [
+      "collections.Counter",
+      "tuple"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through character differences, use a frequency map to find the outlier string.",
+    "Calculate difference tuples for all strings, use a Counter to find the unique tuple, then find the corresponding string."
+  ],
+  "problem_summary_simple": "Find the string in a list that has a different character difference pattern.",
+  "problem_summary_technical": "Calculates difference arrays for strings, identifies the string with a unique difference array using frequency counting.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem hinges on the fact that all strings except one share the same difference array.",
+      "By calculating the difference array for each string and counting their occurrences, the outlier can be easily identified.",
+      "The first solution optimizes space by checking differences column by column, while the second pre-calculates all differences."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:03:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "largest-local-values-in-a-matrix",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through all possible top-left corners of 3x3 subgrids and find the maximum within each."
+  ],
+  "problem_summary_simple": "Find the maximum value in every 3x3 subgrid of a larger matrix.",
+  "problem_summary_technical": "Generates a new matrix where each element is the maximum of a 3x3 window in the input grid.",
+  "time_complexity": [
+    "O(n*m) where n and m are dimensions of the grid, effectively O(N^2) for an N x N grid."
+  ],
+  "space_complexity": [
+    "O(1) if output matrix is not counted, O((n-2)*(m-2)) if it is."
+  ],
+  "key_insights": [
+    [
+      "The problem requires iterating through all possible 3x3 windows.",
+      "For each window, a simple scan to find the maximum is sufficient.",
+      "The output matrix size is (n-2) x (m-2)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

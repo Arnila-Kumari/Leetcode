@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-product-of-splitted-binary-tree",
+  "data_structures": [
+    [
+      "binary tree",
+      "list",
+      "variables"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "post-order traversal for subtree sums"
+  ],
+  "problem_summary_simple": "Split a binary tree into two by removing one edge to maximize the product of subtree sums.",
+  "problem_summary_technical": "Calculate all subtree sums using DFS. For each node, consider splitting at its edge to get two subtree sums and maximize their product.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "To maximize the product of two subtree sums, we need to find a split that results in sums close to half of the total sum.",
+      "A post-order traversal (DFS) is suitable for calculating subtree sums efficiently.",
+      "During the traversal, we can keep track of the total sum and the current subtree sum to calculate the product of the two resulting parts."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

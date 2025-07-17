@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-n-unique-integers-sum-up-to-zero",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Constructing an array with symmetric positive and negative integers, optionally including zero."
+  ],
+  "problem_summary_simple": "Create an array of N unique integers that sum to zero.",
+  "problem_summary_technical": "Generates a sequence of integers around zero, ensuring uniqueness and a sum of zero by pairing positive and negative numbers.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The simplest way to achieve a sum of zero is to pair numbers with their additive inverses (e.g., -k and k).",
+      "If N is odd, including 0 in the array is necessary to maintain the sum of zero.",
+      "The range of numbers can be centered around zero for simplicity."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

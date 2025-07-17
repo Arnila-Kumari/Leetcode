@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-prime-gap-balanced-subarrays",
+  "data_structures": [
+    [
+      "deque",
+      "list"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sieve of Eratosthenes for prime precomputation, sliding window with monotonic deques for prime tracking."
+  ],
+  "problem_summary_simple": "Count subarrays with at least two primes where the difference between max and min prime is within k.",
+  "problem_summary_technical": "Uses a precomputed sieve and a sliding window with monotonic deques to efficiently track primes and their range within subarrays.",
+  "time_complexity": [
+    "O(N + R)"
+  ],
+  "space_complexity": [
+    "O(R)"
+  ],
+  "key_insights": [
+    [
+      "Pre-computing primes using a sieve is crucial for efficiency.",
+      "Monotonic deques are effective for maintaining min/max within a sliding window.",
+      "The problem can be reframed to count valid subarrays ending at each position."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:37:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

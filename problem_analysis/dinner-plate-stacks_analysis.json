@@ -1,0 +1,33 @@
+{
+  "problem_name": "dinner-plate-stacks",
+  "data_structures": [
+    [
+      "list",
+      "heapq",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Using a list of stacks and a min-heap to track available stack indices for efficient push and pop operations."
+  ],
+  "problem_summary_simple": "Manage multiple stacks with a fixed capacity, supporting push, pop from the rightmost, and pop from a specific stack.",
+  "problem_summary_technical": "Employs a list of stacks and a min-heap to manage available slots, optimizing push to the leftmost available stack.",
+  "time_complexity": [
+    "push: O(log N), pop: O(1) amortized, popAtStack: O(log N), where N is the number of stacks"
+  ],
+  "space_complexity": [
+    "O(M * C), where M is the number of stacks and C is the capacity"
+  ],
+  "key_insights": [
+    [
+      "A min-heap is crucial for efficiently finding the leftmost available stack index for pushes.",
+      "Maintaining a list of stacks allows for easy access to the rightmost non-empty stack for pops.",
+      "Handling empty stacks and ensuring correct index management in the heap are key."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

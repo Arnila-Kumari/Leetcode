@@ -1,0 +1,32 @@
+{
+  "problem_name": "three-divisors",
+  "data_structures": [
+    [
+      "integer",
+      "integer counter"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Count divisors by iterating up to the square root of n."
+  ],
+  "problem_summary_simple": "Determine if a number has exactly three positive divisors.",
+  "problem_summary_technical": "Count divisors by checking divisibility up to the square root of n. A number with exactly three divisors must be the square of a prime number.",
+  "time_complexity": [
+    "O(sqrt(n))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A number with exactly three divisors must be the square of a prime number.",
+      "Iterating up to the square root of n efficiently counts divisors.",
+      "Care must be taken to count perfect squares correctly (i.e., not double-counting the square root). The provided solution counts divisors by pairs (i, n/i) and handles perfect squares."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:12:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

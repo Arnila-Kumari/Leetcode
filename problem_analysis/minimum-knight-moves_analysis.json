@@ -1,0 +1,35 @@
+{
+  "problem_name": "minimum-knight-moves",
+  "data_structures": [
+    [
+      "dictionary (for memoization/lookup)",
+      "queue (for BFS)"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "BFS on the infinite chessboard, exploiting symmetry and memoization for optimization.",
+    "Mathematical formula derived from observed patterns and special cases."
+  ],
+  "problem_summary_simple": "Find the minimum knight moves from (0,0) to (x,y) on an infinite board.",
+  "problem_summary_technical": "BFS explores reachable squares. Symmetry reduces search space. Memoization (DP) or a direct mathematical formula based on coordinate differences optimizes the solution.",
+  "time_complexity": [
+    "O(1)",
+    "O(x*y) in worst case for BFS without tight bounds, but practically much faster due to symmetry and constraints."
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(x*y) for memoization table in worst case."
+  ],
+  "key_insights": [
+    [
+      "The problem exhibits symmetry; we can work with absolute values of x and y.",
+      "The knight's moves can be analyzed to find patterns and special cases, leading to a constant time solution.",
+      "BFS is a general approach, but for this specific problem, a mathematical insight or DP with memoization is more efficient."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:58:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

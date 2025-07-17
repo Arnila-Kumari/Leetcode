@@ -1,0 +1,31 @@
+{
+  "problem_name": "perfect-number",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate up to the square root of the number, summing divisors and their complements, then check if the sum equals twice the number."
+  ],
+  "problem_summary_simple": "Determine if a number is a perfect number (sum of its proper divisors equals the number itself).",
+  "problem_summary_technical": "Calculate the sum of all positive divisors of a number, excluding the number itself, and compare it to the number.",
+  "time_complexity": [
+    "O(sqrt(n)) where n is the input number"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Divisors come in pairs (i, n/i). Iterating up to sqrt(n) finds all pairs efficiently.",
+      "Special handling is needed for perfect squares to avoid double-counting the square root.",
+      "The sum of proper divisors is equivalent to checking if the sum of all divisors (including n) equals 2*n."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:04:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

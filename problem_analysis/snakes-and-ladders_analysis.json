@@ -1,0 +1,33 @@
+{
+  "problem_name": "snakes-and-ladders",
+  "data_structures": [
+    [
+      "hashmap",
+      "deque",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "breadth-first search (BFS)"
+  ],
+  "problem_summary_simple": "Find the minimum dice rolls to reach the last square on a Snakes and Ladders board.",
+  "problem_summary_technical": "Uses BFS to find the shortest path in terms of dice rolls, treating squares as nodes and possible moves as edges.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic shortest path problem on an unweighted graph, solvable with BFS.",
+      "The Boustrophedon style board indexing requires a helper function to map square numbers to coordinates.",
+      "The `lookup` dictionary stores the minimum moves to reach each square, preventing cycles and redundant computations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

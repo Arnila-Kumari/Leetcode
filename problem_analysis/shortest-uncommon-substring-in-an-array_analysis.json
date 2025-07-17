@@ -1,0 +1,31 @@
+{
+  "problem_name": "shortest-uncommon-substring-in-an-array",
+  "data_structures": [
+    [
+      "Trie"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Trie construction to store all substrings and their counts, then query for shortest unique ones."
+  ],
+  "problem_summary_simple": "Find the shortest, lexicographically smallest substring in each array string that doesn't appear in any other string.",
+  "problem_summary_technical": "Utilize a Trie to store all substrings of all input strings, marking occurrences. Query for substrings with a count of zero.",
+  "time_complexity": [
+    "O(N * L^3)"
+  ],
+  "space_complexity": [
+    "O(N * L^2)"
+  ],
+  "key_insights": [
+    [
+      "A Trie is efficient for storing and searching for substrings.",
+      "Counting occurrences of substrings in the Trie helps identify uncommon ones.",
+      "Iterating through all possible substrings of each word is necessary."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

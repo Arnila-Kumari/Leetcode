@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-triplets-that-can-form-two-arrays-of-equal-xor",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix XOR sums and hashmap to store counts and sums of indices"
+  ],
+  "problem_summary_simple": "Find triplets (i, j, k) where XOR sum of arr[i..j-1] equals XOR sum of arr[j..k].",
+  "problem_summary_technical": "Utilize prefix XOR sums to efficiently calculate subarray XORs and a hashmap to count occurrences and sum of indices for equal XOR values.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding i, j, k such that prefix_xor[j-1] ^ prefix_xor[i-1] == prefix_xor[k] ^ prefix_xor[j-1].",
+      "This simplifies to prefix_xor[i-1] == prefix_xor[k].",
+      "A hashmap storing counts and sums of indices for each prefix XOR value allows for O(1) lookup of previous occurrences."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

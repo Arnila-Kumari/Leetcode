@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-moves-to-make-array-complementary",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Difference array and greedy approach to find the optimal target sum for complementary pairs."
+  ],
+  "problem_summary_simple": "Make array pairs sum to the same value by changing elements, minimizing changes.",
+  "problem_summary_technical": "Use a difference array to track the cost of achieving each possible target sum for complementary pairs.",
+  "time_complexity": [
+    "O(n + k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding a target sum 'S' such that `nums[i] + nums[n-1-i] = S` for all `i`.",
+      "The possible sums range from 2 to 2*limit.",
+      "A difference array (or frequency map) can efficiently store the number of moves required for each potential target sum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

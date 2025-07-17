@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-all-good-strings",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Digit DP with KMP preprocessing for evil substring detection",
+    "State compression for DP table"
+  ],
+  "problem_summary_simple": "Count strings of length n between s1 and s2 (inclusive) that do not contain 'evil' as a substring.",
+  "problem_summary_technical": "Digit DP with KMP's failure function to track evil substring matches and bounds checking.",
+  "time_complexity": [
+    "O(n * m * 2 * 2 * alphabet_size)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "KMP's prefix function (failure function) is crucial for efficient evil substring matching.",
+      "The DP state needs to track current position, tightness with s1, tightness with s2, and KMP state.",
+      "Modulo arithmetic is essential due to potentially large counts."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:42:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "kth-ancestor-of-a-tree-node",
+  "data_structures": [
+    [
+      "list of lists",
+      "integer"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Binary lifting (sparse table for ancestors)"
+  ],
+  "problem_summary_simple": "Find the k-th ancestor of a given node in a tree efficiently.",
+  "problem_summary_technical": "Precompute ancestors using binary lifting (sparse table) to answer k-th ancestor queries in O(log h) time.",
+  "time_complexity": [
+    "ctor: O(n log h), get: O(log h)"
+  ],
+  "space_complexity": [
+    "O(n log h)"
+  ],
+  "key_insights": [
+    [
+      "Directly traversing up the tree for each query can be O(n) in the worst case.",
+      "Binary lifting precomputes 2^i-th ancestors, allowing jumps of arbitrary k by combining these powers of 2.",
+      "The precomputation builds a sparse table where `parent[i][j]` stores the 2^j-th ancestor of node `i`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:48:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

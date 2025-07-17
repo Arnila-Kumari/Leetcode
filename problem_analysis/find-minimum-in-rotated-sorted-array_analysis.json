@@ -1,0 +1,42 @@
+{
+  "problem_name": "find-minimum-in-rotated-sorted-array",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search to find the pivot point where the rotation occurs.",
+    "Modified binary search to locate the minimum element in a rotated sorted array."
+  ],
+  "problem_summary_simple": "Find the smallest element in a sorted array that has been rotated.",
+  "problem_summary_technical": "Binary search efficiently finds the minimum by comparing the middle element with the target (last element) or left element.",
+  "time_complexity": [
+    "O(log n)",
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that the minimum element will be the only element smaller than its predecessor (considering wrap-around).",
+      "In a rotated sorted array, one half will always be sorted. Binary search can exploit this property.",
+      "Comparing `nums[mid]` with `target` (the last element) helps determine which half contains the minimum."
+    ],
+    [
+      "The condition `nums[left] >= nums[right]` is crucial to ensure we are in a rotated part of the array.",
+      "If `nums[mid] < nums[left]`, the minimum is in the left half (including `mid`).",
+      "If `nums[mid] >= nums[left]`, the minimum is in the right half (excluding `mid`)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

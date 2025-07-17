@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-special-substring-of-length-k",
+  "data_structures": [
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "String",
+  "algorithm_technique": [
+    "Iterate through the string, tracking consecutive identical characters and checking conditions."
+  ],
+  "problem_summary_simple": "Check if a string has a substring of length k with identical characters, bordered by different characters.",
+  "problem_summary_technical": "Scans the string to identify runs of identical characters, checking length and boundary conditions for a special substring of length k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A single pass through the string is sufficient.",
+      "Maintain a counter for consecutive identical characters.",
+      "Edge cases for the start and end of the string need careful handling."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "best-time-to-buy-and-sell-stock",
+  "data_structures": [
+    [
+      "variable"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through prices, keeping track of the minimum price seen so far and the maximum profit."
+  ],
+  "problem_summary_simple": "Find the maximum profit by buying and selling a stock once, ensuring the buy day is before the sell day.",
+  "problem_summary_technical": "Iterate through prices, maintaining the minimum price encountered. Calculate profit as current price minus minimum price, and update maximum profit.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To maximize profit, we need to buy at the lowest possible price and sell at the highest possible price after the buy.",
+      "We can achieve this by iterating through the prices and keeping track of the minimum price seen so far.",
+      "For each day, the potential profit is the current price minus the minimum price seen up to that day. We update the overall maximum profit accordingly."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

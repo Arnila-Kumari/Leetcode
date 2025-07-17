@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-make-array-equal-ii",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Check divisibility by k, sum differences, compare positive and negative changes."
+  ],
+  "problem_summary_simple": "Make nums1 equal to nums2 by adding/subtracting k between elements.",
+  "problem_summary_technical": "Check if sum of differences is divisible by k. Sum positive differences (increments) and negative differences (decrements). If they match, return sum of increments.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operation preserves the sum of the array. Therefore, the sum of nums1 must equal the sum of nums2.",
+      "The difference between corresponding elements (nums2[i] - nums1[i]) must be divisible by k for all i.",
+      "The total number of operations is the sum of all positive differences (increments) divided by k, or equivalently, the sum of all negative differences (decrements) divided by k. These two sums must be equal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

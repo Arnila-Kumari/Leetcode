@@ -1,0 +1,72 @@
+{
+  "problem_name": "intersection-of-two-arrays-ii",
+  "data_structures": [
+    [
+      "hash map (defaultdict)",
+      "list"
+    ],
+    [
+      "hash map (Counter)",
+      "list"
+    ],
+    [
+      "sorted array",
+      "list"
+    ],
+    [
+      "sorted array",
+      "list"
+    ],
+    [
+      "sorted array",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash map (frequency counting)",
+    "Hash map (Counter intersection)",
+    "Binary search on sorted arrays",
+    "Two pointers on sorted arrays"
+  ],
+  "problem_summary_simple": "Find common elements between two arrays, including duplicates.",
+  "problem_summary_technical": "Use frequency maps to count elements or sort arrays and use two pointers for efficient intersection with duplicates.",
+  "time_complexity": [
+    "O(m + n)",
+    "O(m + n)",
+    "O(min(m, n) * log(max(m, n)))",
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(min(m, n))",
+    "O(m + n)",
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Use a hash map (like `collections.defaultdict(int)`) to store the frequency of elements in the smaller array.",
+      "Iterate through the larger array, and if an element exists in the hash map with a count greater than zero, add it to the result and decrement its count.",
+      "This ensures that elements are included as many times as they appear in both arrays."
+    ],
+    [
+      "Utilize `collections.Counter` to efficiently get frequency maps for both arrays.",
+      "The intersection of two Counters (`&` operator) directly gives the common elements with their minimum frequencies.",
+      "Extend the result list with elements based on their counts in the intersected Counter."
+    ],
+    [
+      "If arrays are sorted, sort the smaller array and use binary search on the larger array for each element.",
+      "This is efficient when one array is significantly smaller than the other.",
+      "The `left` pointer in binary search helps to avoid re-searching already matched elements."
+    ],
+    [
+      "If arrays are sorted, a two-pointer approach is optimal.",
+      "Advance pointers based on element comparison: if `nums1[i] < nums2[j]`, increment `i`; if `nums1[i] > nums2[j]`, increment `j`; if equal, add to result and increment both.",
+      "This approach has O(m+n) time and O(1) space complexity for sorted arrays."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

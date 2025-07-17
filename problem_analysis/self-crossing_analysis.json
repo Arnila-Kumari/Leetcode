@@ -1,0 +1,31 @@
+{
+  "problem_name": "self-crossing",
+  "data_structures": [
+    [
+      "array of integers"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Analyze geometric patterns of path segments to identify crossing conditions based on distances and directions."
+  ],
+  "problem_summary_simple": "Check if a path, moving North, West, South, East, etc., crosses itself.",
+  "problem_summary_technical": "Analyze geometric configurations of path segments to detect self-intersection based on relative lengths and directions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The path's direction changes counter-clockwise with each step.",
+      "Self-crossing can occur in several specific geometric patterns, which can be identified by comparing lengths of consecutive segments.",
+      "The conditions checked cover cases where a segment crosses a non-adjacent segment or forms a loop that overlaps."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

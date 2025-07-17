@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-linear-stock-score",
+  "data_structures": [
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through prices, calculate price-index difference, and use a hashmap to store sums for each difference."
+  ],
+  "problem_summary_simple": "Find the maximum sum of a linear subsequence of stock prices.",
+  "problem_summary_technical": "Maximize sum of prices[indexes[j]] where prices[indexes[j]] - prices[indexes[j-1]] == indexes[j] - indexes[j-1]. This simplifies to prices[i] - i == prices[j] - j for linear subsequences.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The condition for a linear selection, prices[indexes[j]] - prices[indexes[j - 1]] == indexes[j] - indexes[j - 1], can be rewritten as prices[indexes[j]] - indexes[j] == prices[indexes[j - 1]] - indexes[j - 1].",
+      "This means all elements in a linear subsequence will have the same value for `price - index`.",
+      "A hashmap can efficiently group elements by this `price - index` difference and sum their prices."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,55 @@
+{
+  "problem_name": "majority-element",
+  "data_structures": [
+    [
+      "array",
+      "hash map"
+    ],
+    [
+      "array",
+      "integer variables"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Using a hash map (Counter) to count frequencies and find the most common element.",
+    "Boyer-Moore Voting Algorithm for O(1) space and O(n) time.",
+    "Sorting the array and picking the middle element."
+  ],
+  "problem_summary_simple": "Find the element that appears more than half the time in an array.",
+  "problem_summary_technical": "Identify the element with frequency > n/2. Solutions include frequency counting with hash maps, Boyer-Moore Voting, or sorting.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The majority element is guaranteed to exist.",
+      "Boyer-Moore Voting Algorithm is an efficient O(n) time, O(1) space solution.",
+      "Sorting makes the majority element appear at the middle index."
+    ],
+    [
+      "Hash map (collections.Counter) provides a straightforward way to count occurrences.",
+      "The `most_common(1)` method efficiently retrieves the element with the highest frequency.",
+      "This approach is intuitive but uses extra space."
+    ],
+    [
+      "Sorting the array brings identical elements together.",
+      "Since the majority element appears more than n/2 times, it will occupy the middle index after sorting.",
+      "This is a simple conceptual approach but less efficient in time complexity than Boyer-Moore."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

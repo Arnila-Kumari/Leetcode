@@ -1,0 +1,80 @@
+{
+  "problem_name": "find-the-last-marked-nodes-in-tree",
+  "data_structures": [
+    [
+      "list",
+      "array"
+    ],
+    [
+      "list",
+      "array"
+    ],
+    [
+      "list",
+      "array"
+    ],
+    [
+      "list",
+      "array"
+    ],
+    [
+      "list",
+      "array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "BFS to find the farthest nodes from an arbitrary root, then two BFS traversals to determine distances and identify the last marked node.",
+    "Dynamic programming on trees using BFS to calculate the two farthest nodes from each node and then a second BFS to determine the final answer.",
+    "Topological sort combined with tree DP to calculate distances from leaves upwards, followed by a BFS to propagate the results.",
+    "Iterative DFS for tree DP, first to compute distances from leaves upwards, then a second iterative DFS to propagate the results from the root.",
+    "Recursive DFS for tree DP, first pass to compute distances from leaves upwards, second pass to propagate results from the root."
+  ],
+  "problem_summary_simple": "In a tree, find the last node marked when starting from each node, given a marking rule.",
+  "problem_summary_technical": "Uses BFS/DFS and tree DP to calculate distances. The last marked node is determined by the farthest node from the starting node in the marking process.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a breadth-first expansion from each node.",
+      "The 'last marked node' is related to the farthest node in the tree from the starting node, considering the marking process.",
+      "Finding the diameter of the tree (two farthest nodes) is a key step in some solutions."
+    ],
+    [
+      "Tree DP is used to efficiently calculate the two longest paths starting from each node.",
+      "The marking process can be simulated by propagating information about the 'time' or 'distance' of marking.",
+      "The solution involves two passes: one from leaves up, and another from the root down."
+    ],
+    [
+      "A topological sort of the tree (rooted arbitrarily) allows for a bottom-up DP calculation.",
+      "The DP state stores the two farthest nodes and their distances from the current node.",
+      "The second pass propagates the 'current farthest' information down the tree."
+    ],
+    [
+      "Iterative DFS is a good alternative to recursion for tree traversal and DP, avoiding potential stack overflow for deep trees.",
+      "The state management in iterative DFS requires careful handling of the stack.",
+      "The logic mirrors the recursive DFS approach but uses an explicit stack."
+    ],
+    [
+      "The problem can be solved by finding the two endpoints of the tree's diameter.",
+      "For each node, the last marked node will be one of these two diameter endpoints, depending on which is 'further' in the marking process.",
+      "The DP state `dp[u]` stores a tuple `(distance, node)` representing the farthest node from `u` and its distance."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:44:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

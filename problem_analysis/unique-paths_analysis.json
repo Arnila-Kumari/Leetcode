@@ -1,0 +1,40 @@
+{
+  "problem_name": "unique-paths",
+  "data_structures": [
+    [
+      "None"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Combinatorial approach: calculate (m+n-2) choose (n-1) using nCr formula.",
+    "1-D DP: optimize space by only storing the previous row's path counts."
+  ],
+  "problem_summary_simple": "Find the number of ways a robot can move from top-left to bottom-right in a grid, only moving right or down.",
+  "problem_summary_technical": "Combinatorics (nCr) or 1D DP to count paths on an m x n grid with only right/down moves.",
+  "time_complexity": [
+    "O(min(m, n))",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(min(m, n))"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as choosing n-1 down moves (or m-1 right moves) out of a total of m+n-2 moves.",
+      "The nCr formula provides a direct mathematical solution."
+    ],
+    [
+      "Dynamic programming can solve this by building up solutions from smaller subproblems.",
+      "Space optimization to O(min(m, n)) is possible by realizing only the previous row's counts are needed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

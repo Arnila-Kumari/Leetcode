@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-substring-of-one-repeating-character",
+  "data_structures": [
+    [
+      "Segment Tree"
+    ]
+  ],
+  "category": "Segment Tree",
+  "algorithm_technique": [
+    "Segment Tree for range queries and point updates"
+  ],
+  "problem_summary_simple": "After each character update, find the length of the longest substring of a single repeating character.",
+  "problem_summary_technical": "A Segment Tree stores information about contiguous character runs (left/right char, left/right length, total length, max length). Updates merge nodes.",
+  "time_complexity": [
+    "O(nlogn) for initialization, O(klogn) for k queries, total O((n+k)logn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires efficient updates and queries on substrings, making a Segment Tree a suitable data structure.",
+      "Each node in the Segment Tree needs to store information about contiguous character runs: left/right character, length of left/right run, total length of run, and maximum run length within the segment.",
+      "Merging nodes involves combining information from children, carefully handling cases where runs from left and right children can merge if their characters match."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:50:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

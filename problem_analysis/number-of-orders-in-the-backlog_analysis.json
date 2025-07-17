@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-orders-in-the-backlog",
+  "data_structures": [
+    [
+      "heapq (min-heap for sell orders)",
+      "heapq (max-heap for buy orders)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use two heaps (min-heap for sell, max-heap for buy) to efficiently match orders. Process orders sequentially, matching against the best available opposing order in the backlog."
+  ],
+  "problem_summary_simple": "Calculate the total number of unexecuted orders remaining in a trading backlog after processing a sequence of buy and sell orders.",
+  "problem_summary_technical": "Simulate order matching using a min-heap for sell orders and a max-heap for buy orders. Process orders, executing matches and updating heaps until all orders are placed.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maintain the backlog efficiently. A min-heap for sell orders allows quick access to the lowest-priced sell order, and a max-heap for buy orders provides the highest-priced buy order.",
+      "When a new order arrives, compare it with the top of the relevant heap. If a match is possible, execute as many as possible and update the remaining amounts. If no match, add to the backlog.",
+      "The modulo operation is crucial for handling large sums of orders."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

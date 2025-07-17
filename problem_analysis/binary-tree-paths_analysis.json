@@ -1,0 +1,32 @@
+{
+  "problem_name": "binary-tree-paths",
+  "data_structures": [
+    [
+      "list",
+      "list (for path tracking)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive Depth-First Search (DFS) with path building"
+  ],
+  "problem_summary_simple": "List all paths from the root to every leaf node in a binary tree.",
+  "problem_summary_technical": "Uses DFS to traverse the tree, building path strings and adding to results when a leaf is found.",
+  "time_complexity": [
+    "O(n * h)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "DFS is suitable for exploring all paths from root to leaf.",
+      "A helper function is needed to pass the current path being built.",
+      "Backtracking (using `path.pop()`) is essential to explore different branches correctly."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "lru-cache",
+  "data_structures": [
+    [
+      "collections.OrderedDict"
+    ],
+    [
+      "ListNode",
+      "LinkedList",
+      "dict"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Using OrderedDict for O(1) get/put by leveraging its internal doubly linked list and hash map.",
+    "Implementing a doubly linked list and a hash map to manage cache entries and recency."
+  ],
+  "problem_summary_simple": "Design a cache that evicts the least recently used item when full.",
+  "problem_summary_technical": "Maintains key-value pairs with O(1) access. Uses OrderedDict or a custom doubly linked list + hash map to track usage order.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "OrderedDict simplifies LRU implementation by maintaining insertion order and allowing O(1) moves to end.",
+      "The `popitem(last=False)` efficiently removes the least recently used item.",
+      "The `__update` helper method consolidates logic for moving an item to the most recently used position."
+    ],
+    [
+      "A doubly linked list is crucial for O(1) removal and insertion at ends/middle.",
+      "A hash map (dictionary) provides O(1) lookup of nodes by key.",
+      "When capacity is reached, the head of the linked list (LRU) is removed from both structures."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

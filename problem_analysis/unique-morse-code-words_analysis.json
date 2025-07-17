@@ -1,0 +1,32 @@
+{
+  "problem_name": "unique-morse-code-words",
+  "data_structures": [
+    [
+      "list (for Morse code mapping)",
+      "set (for storing unique transformations)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Mapping and Set for uniqueness"
+  ],
+  "problem_summary_simple": "Find the number of unique Morse code transformations for a list of words.",
+  "problem_summary_technical": "Map each word to its Morse code representation and store unique transformations in a set.",
+  "time_complexity": [
+    "O(n), where n is the sum of all word lengths"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires converting each word into its Morse code equivalent.",
+      "A set is the ideal data structure to automatically handle uniqueness of the resulting Morse code strings.",
+      "The mapping from letters to Morse code can be pre-defined in a list or dictionary."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-path-quality-of-a-graph",
+  "data_structures": [
+    [
+      "adjacency list",
+      "array",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) with backtracking to explore all valid paths within maxTime, tracking visited nodes and quality."
+  ],
+  "problem_summary_simple": "Find the maximum quality of a path from node 0 to node 0 within a time limit, visiting unique nodes.",
+  "problem_summary_technical": "Uses DFS with backtracking to explore paths, keeping track of current time, visited node counts, and unique node values summed.",
+  "time_complexity": [
+    "O(|V| + |E| + 4^(maxTime/min(times)))"
+  ],
+  "space_complexity": [
+    "O(|V| + |E|)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires exploring paths that can revisit nodes and edges, but only count node values once.",
+      "A DFS approach is suitable for exploring all possible paths within the time constraint.",
+      "Backtracking is essential to explore different path branches and to correctly manage the state (time, visited nodes) for each branch."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

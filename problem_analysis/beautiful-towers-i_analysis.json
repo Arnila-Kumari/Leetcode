@@ -1,0 +1,20 @@
+{
+  "data_structures": [
+    "array",
+    "stack"
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": "Uses monotonic stacks to efficiently calculate prefix and suffix sums for potential mountain peaks.",
+  "problem_summary_simple": "Find the maximum sum of tower heights forming a mountain shape by removing some bricks.",
+  "problem_summary_technical": "Calculate prefix sums of non-decreasing sequences and suffix sums of non-increasing sequences using monotonic stacks to find the optimal mountain peak.",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)",
+  "key_insights": [
+    "Monotonic stack is used to efficiently find the previous smaller element for prefix sums.",
+    "The problem can be decomposed into finding the best left-side (non-decreasing) and right-side (non-increasing) sums for each potential peak.",
+    "The peak element is counted twice (once for left, once for right), so it's subtracted once in the final calculation."
+  ],
+  "difficulty_level": "Medium",
+  "problem_name": "beautiful-towers-i",
+  "analysis_timestamp": "2025-07-15 19:43:12"
+}

@@ -1,0 +1,39 @@
+{
+  "problem_name": "sum-of-two-integers",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bitwise operations (XOR for sum, AND for carry) simulating addition",
+    "Bitwise operations with masking for handling negative numbers"
+  ],
+  "problem_summary_simple": "Add two integers without using '+' or '-' operators.",
+  "problem_summary_technical": "Simulates binary addition using bitwise XOR for sum bits and bitwise AND with left shift for carry bits.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to mimic how a full adder works in hardware.",
+      "XOR (^) gives the sum without considering the carry.",
+      "AND (&) followed by a left shift (<< 1) calculates the carry for the next bit position."
+    ],
+    [
+      "Handling negative numbers requires careful consideration of two's complement representation and bit masking.",
+      "The `mask` ensures operations are confined to 32 bits, preventing overflow issues in Python's arbitrary precision integers.",
+      "The final check `a <= MAX` and the subsequent `~(a ^ mask)` correctly convert the 32-bit two's complement result back to a Python negative integer if needed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

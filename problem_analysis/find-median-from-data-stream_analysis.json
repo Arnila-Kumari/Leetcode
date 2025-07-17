@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-median-from-data-stream",
+  "data_structures": [
+    [
+      "two heaps (min-heap and max-heap)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Maintain two heaps: a max-heap for the smaller half and a min-heap for the larger half of the numbers."
+  ],
+  "problem_summary_simple": "Efficiently find the median of a continuously growing stream of numbers.",
+  "problem_summary_technical": "Uses a max-heap for the lower half and a min-heap for the upper half to maintain median in O(log n) per add.",
+  "time_complexity": [
+    "O(log n) for addNum, O(1) for findMedian"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to keep the two heaps balanced in size (differing by at most 1).",
+      "The max-heap stores negative values to simulate a max-heap using Python's min-heap.",
+      "The median is either the top of the larger heap (if sizes differ) or the average of the tops of both heaps."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-substrings-with-k-frequency-characters-ii",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with frequency count and two pointers."
+  ],
+  "problem_summary_simple": "Count substrings where at least one character appears k or more times.",
+  "problem_summary_technical": "Uses a sliding window and frequency array to track character counts, expanding the window and adjusting the left pointer when a character reaches frequency k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to efficiently count valid substrings by expanding a window and checking the frequency condition.",
+      "When a character's frequency reaches k, all substrings ending at the current `right` pointer and starting from `left` up to the current `right` are potentially valid. The logic correctly counts these by adding `len(s) - right`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

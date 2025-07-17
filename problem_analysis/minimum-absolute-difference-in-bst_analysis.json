@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-absolute-difference-in-bst",
+  "data_structures": [
+    [
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Perform an in-order traversal of the BST to get elements in sorted order and find the minimum difference between adjacent nodes."
+  ],
+  "problem_summary_simple": "Find the smallest difference between any two node values in a Binary Search Tree.",
+  "problem_summary_technical": "Leverage the BST property: in-order traversal yields sorted values. Track the previous node's value to find the minimum difference.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The in-order traversal of a BST visits nodes in ascending order.",
+      "The minimum difference must occur between adjacent nodes in the sorted sequence.",
+      "Keep track of the previously visited node's value to calculate the difference."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

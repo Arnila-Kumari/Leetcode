@@ -1,0 +1,53 @@
+{
+  "problem_name": "the-k-strongest-values-in-an-array",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sorting and two pointers to find strongest elements.",
+    "Custom sorting using lambda for strength comparison.",
+    "Quickselect (nth_element) for finding median and then sorting by strength."
+  ],
+  "problem_summary_simple": "Find the k strongest elements in an array based on their distance from the median.",
+  "problem_summary_technical": "Sort array to find median, then use two pointers or custom sort/quickselect to select k elements based on absolute difference from median and value.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n) on average, O(n^2) worst case for nth_element"
+  ],
+  "space_complexity": [
+    "O(1) if in-place sort is used, O(n) otherwise",
+    "O(n) for sorting if not in-place",
+    "O(1) if in-place sort is used, O(n) otherwise"
+  ],
+  "key_insights": [
+    [
+      "The definition of 'stronger' involves both absolute difference from the median and the value itself for tie-breaking.",
+      "A two-pointer approach after sorting can efficiently pick elements from both ends.",
+      "The median calculation is crucial and depends on the array length."
+    ],
+    [
+      "Python's `sort` with a `key` function is very flexible for custom sorting criteria.",
+      "The lambda function captures the two-part comparison logic effectively.",
+      "This approach is concise and readable."
+    ],
+    [
+      "Quickselect (nth_element) can find the median in linear time on average, improving the first step.",
+      "Applying quickselect again for the k strongest elements can achieve O(n) average time complexity.",
+      "Careful implementation of partition is needed for correctness."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

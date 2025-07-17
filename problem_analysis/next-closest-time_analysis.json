@@ -1,0 +1,32 @@
+{
+  "problem_name": "next-closest-time",
+  "data_structures": [
+    [
+      "string manipulation",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Brute force simulation by checking times sequentially"
+  ],
+  "problem_summary_simple": "Find the next closest time using only the digits from the given time.",
+  "problem_summary_technical": "Simulates time progression, checking digit reuse against the original time's digits using a set for efficient lookup.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through minutes starting from the current time.",
+      "A set is efficient for checking if all digits of a candidate time are present in the original time's digits.",
+      "The maximum number of minutes to check is 1440 (24 hours)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

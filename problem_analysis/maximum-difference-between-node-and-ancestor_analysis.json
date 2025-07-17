@@ -1,0 +1,43 @@
+{
+  "problem_name": "maximum-difference-between-node-and-ancestor",
+  "data_structures": [
+    [
+      "binary tree",
+      "stack"
+    ],
+    [
+      "binary tree"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS using a stack to pass down the maximum and minimum ancestor values.",
+    "Recursive DFS to pass down the maximum and minimum ancestor values encountered in the path."
+  ],
+  "problem_summary_simple": "Find the largest absolute difference between any node and its ancestor in a binary tree.",
+  "problem_summary_technical": "Traverse the tree, maintaining the min and max values of ancestors. Calculate the difference between the current node and these values at each step.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to track the minimum and maximum values encountered on the path from the root to the current node.",
+      "For each node, the maximum difference can be `current_node.val - min_ancestor_val` or `max_ancestor_val - current_node.val`.",
+      "Both iterative and recursive DFS approaches are suitable, with space complexity dependent on tree height."
+    ],
+    [
+      "The core idea is to track the minimum and maximum values encountered on the path from the root to the current node.",
+      "For each node, the maximum difference can be `current_node.val - min_ancestor_val` or `max_ancestor_val - current_node.val`.",
+      "Both iterative and recursive DFS approaches are suitable, with space complexity dependent on tree height."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

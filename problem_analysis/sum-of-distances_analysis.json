@@ -1,0 +1,33 @@
+{
+  "problem_name": "sum-of-distances",
+  "data_structures": [
+    [
+      "list of integers",
+      "hashmap (counters)",
+      "list of integers (result)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sums and suffix sums to calculate distances efficiently for each number's occurrences."
+  ],
+  "problem_summary_simple": "For each number, calculate the sum of distances to all other occurrences of the same number.",
+  "problem_summary_technical": "Use prefix sums of indices and counts for each distinct number to calculate left and right distances in O(n) time.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A naive O(n^2) approach would be too slow given the constraints.",
+      "The key is to realize that for a number `x` appearing at indices `i1, i2, ..., ik`, the sum of distances for `xi` is `sum(|i - ij|)` for `j != i`.",
+      "This can be broken down into `sum(i - ij)` for `ij < i` and `sum(ij - i)` for `ij > i`. Prefix sums of indices and counts help calculate these efficiently in two passes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

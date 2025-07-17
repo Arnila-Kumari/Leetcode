@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-cost-good-caption",
+  "data_structures": [
+    [
+      "array",
+      "list",
+      "map"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with backtracking for reconstruction"
+  ],
+  "problem_summary_simple": "Convert a string into a 'good caption' (groups of 3+ same chars) with minimum operations, choosing lexicographically smallest.",
+  "problem_summary_technical": "DP state `dp[i][j][k]` stores min cost to form a good caption from index `i` ending with char `j` and count `k`. Backtracking reconstructs the string.",
+  "time_complexity": [
+    "O(26 * n)"
+  ],
+  "space_complexity": [
+    "O(26 * n)"
+  ],
+  "key_insights": [
+    [
+      "This is a DP problem where the state needs to track the current position, the character, and its consecutive count.",
+      "The constraint of 'groups of at least 3' suggests DP states that consider forming these groups.",
+      "To find the lexicographically smallest, when costs are equal, prefer smaller characters."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:18:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "sum-of-digit-differences-of-all-pairs",
+  "data_structures": [
+    [
+      "2D array (counts)",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Digit by digit counting and pair summation using prefix sums concept."
+  ],
+  "problem_summary_simple": "Calculate the total digit differences across all pairs in an array of numbers with the same number of digits.",
+  "problem_summary_technical": "Iterate through digits of numbers, count occurrences of each digit at each position, and sum pair differences using counts.",
+  "time_complexity": [
+    "O(n * log10(max(nums)))"
+  ],
+  "space_complexity": [
+    "O(10 * log10(max(nums)))"
+  ],
+  "key_insights": [
+    [
+      "Instead of comparing pairs directly (O(n^2)), count digit occurrences per position.",
+      "For a specific digit at a specific position, if 'c' numbers have it, they form c*(n-c) differing pairs with others at that position.",
+      "The total sum is the sum of these differences across all digits and all positions, divided by 2 (since each pair is counted twice)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

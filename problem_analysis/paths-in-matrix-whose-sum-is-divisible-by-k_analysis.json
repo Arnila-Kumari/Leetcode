@@ -1,0 +1,31 @@
+{
+  "problem_name": "paths-in-matrix-whose-sum-is-divisible-by-k",
+  "data_structures": [
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with modulo arithmetic"
+  ],
+  "problem_summary_simple": "Count paths from top-left to bottom-right in a matrix where the sum of elements is divisible by k.",
+  "problem_summary_technical": "DP state dp[i][j][rem] stores paths to (i,j) with sum % k = rem. Transitions from (i-1,j) and (i,j-1).",
+  "time_complexity": [
+    "O(m * n * k)"
+  ],
+  "space_complexity": [
+    "O(m * n * k)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using dynamic programming where the state includes the current cell and the remainder of the path sum modulo k.",
+      "The transitions involve considering paths coming from the top and left cells, updating the remainder based on the current cell's value.",
+      "Modulo arithmetic is crucial to handle large numbers of paths."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

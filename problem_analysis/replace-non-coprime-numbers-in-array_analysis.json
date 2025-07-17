@@ -1,0 +1,32 @@
+{
+  "problem_name": "replace-non-coprime-numbers-in-array",
+  "data_structures": [
+    [
+      "array",
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Use a stack to process numbers, merging adjacent non-coprime elements using LCM."
+  ],
+  "problem_summary_simple": "Repeatedly replace adjacent non-coprime numbers with their LCM until no such pairs exist.",
+  "problem_summary_technical": "Process numbers with a stack, merging non-coprime adjacent elements using GCD and LCM.",
+  "time_complexity": [
+    "O(n log m)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a stack operation where elements are merged.",
+      "GCD is essential for determining coprimality and calculating LCM.",
+      "The order of operations doesn't affect the final result due to the associative property of LCM."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

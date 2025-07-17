@@ -1,0 +1,33 @@
+{
+  "problem_name": "shortest-word-distance-ii",
+  "data_structures": [
+    [
+      "Hash Map (defaultdict)",
+      "List"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Preprocess the input array to store all indices for each word in a hash map.",
+    "For queries, iterate through the sorted index lists of both words to find the minimum distance."
+  ],
+  "problem_summary_simple": "Design a data structure to efficiently find the shortest distance between two words after initialization.",
+  "problem_summary_technical": "Use a hash map to store word indices. For queries, use a two-pointer approach on sorted index lists to find the minimum distance.",
+  "time_complexity": [
+    "init: O(N), shortest: O(A + B)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Preprocessing by storing all indices in a hash map allows for efficient lookups.",
+      "The 'shortest' query can be optimized using a two-pointer approach on sorted index lists.",
+      "This approach handles multiple queries efficiently after the initial setup."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

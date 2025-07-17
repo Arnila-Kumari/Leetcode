@@ -1,0 +1,39 @@
+{
+  "problem_name": "flatten-binary-tree-to-linked-list",
+  "data_structures": [
+    [
+      "binary tree nodes"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive pre-order traversal and in-place modification",
+    "Iterative pre-order traversal with a stack"
+  ],
+  "problem_summary_simple": "Convert a binary tree into a linked list using the right child pointer, following pre-order traversal.",
+  "problem_summary_technical": "Recursively flatten the right subtree, then the left subtree, and then connect them by setting the root's right child to the flattened left subtree.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires a pre-order traversal (Root, Left, Right).",
+      "The flattening process involves rearranging pointers: `root.right` becomes the flattened left subtree, and `root.left` becomes `None`.",
+      "A common approach is to recursively flatten the right and left subtrees, then link them."
+    ],
+    [
+      "The `list_head` variable in `flattenRecu` acts as a pointer to the previously processed node in the flattened list.",
+      "The `Solution2` uses a class-level variable `list_head` to maintain the tail of the flattened list across recursive calls.",
+      "The in-place modification is crucial for the O(1) space complexity follow-up."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

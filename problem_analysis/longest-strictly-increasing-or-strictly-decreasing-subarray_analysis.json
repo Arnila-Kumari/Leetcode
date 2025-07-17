@@ -1,0 +1,53 @@
+{
+  "problem_name": "longest-strictly-increasing-or-strictly-decreasing-subarray",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Iterate and maintain current streak length, resetting when monotonicity breaks.",
+    "Two counters for increasing and decreasing streaks, update max length.",
+    "Helper function to find longest monotonic subarray for a given comparison, then take max."
+  ],
+  "problem_summary_simple": "Find the longest contiguous subarray that is either strictly increasing or strictly decreasing.",
+  "problem_summary_technical": "Linear scan, maintaining current increasing and decreasing subarray lengths, updating overall maximum.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The `cmp` function is used to abstract the comparison logic.",
+      "Careful handling of edge cases and the start of new streaks is needed.",
+      "The logic needs to consider the previous two elements to detect a break in the pattern."
+    ],
+    [
+      "Maintain separate counts for increasing and decreasing streaks.",
+      "Reset the count to 1 when the monotonic property is violated.",
+      "The maximum length is the maximum of all increasing and decreasing streaks found."
+    ],
+    [
+      "Abstracting the monotonic check into a helper function promotes code reuse.",
+      "The helper function uses a sliding window approach to find the longest segment.",
+      "The final result is the maximum of the longest increasing and longest decreasing subarrays."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

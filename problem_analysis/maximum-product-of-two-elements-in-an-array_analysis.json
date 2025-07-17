@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-product-of-two-elements-in-an-array",
+  "data_structures": [
+    [
+      "integer",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Find the two largest elements in the array and calculate the product of (element-1) for each."
+  ],
+  "problem_summary_simple": "Find two different elements in an array to maximize the product of (element-1) for each.",
+  "problem_summary_technical": "Identifies the two largest elements in the array in a single pass and computes the maximum product of (element-1).",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To maximize (nums[i]-1)*(nums[j]-1), we need to find the two largest numbers in the array.",
+      "A single pass is sufficient to find the two largest numbers.",
+      "The problem statement guarantees at least two elements, simplifying edge case handling."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:54:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-number-of-groups-entering-a-competition",
+  "data_structures": [
+    [
+      "math formula"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical formula derived from sum of arithmetic series."
+  ],
+  "problem_summary_simple": "Maximize groups where each group is larger in size and sum than the previous.",
+  "problem_summary_technical": "Find the largest `x` such that the sum of the first `x` integers (group sizes) and their sums are achievable within the total number of students.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem constraints on group size and sum imply an arithmetic progression for group sizes.",
+      "The minimum sum of grades for `x` groups is achieved by picking the smallest grades first.",
+      "The minimum number of students for `x` groups is `1 + 2 + ... + x = x*(x+1)/2`.",
+      "The problem simplifies to finding the largest `x` such that `x*(x+1)/2 <= n`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:53:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

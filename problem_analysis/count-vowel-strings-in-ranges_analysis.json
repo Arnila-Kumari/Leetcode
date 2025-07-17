@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-vowel-strings-in-ranges",
+  "data_structures": [
+    [
+      "array",
+      "hash set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sum calculation on a boolean array indicating vowel start/end"
+  ],
+  "problem_summary_simple": "Count strings in given ranges that start and end with a vowel.",
+  "problem_summary_technical": "Precompute prefix sums of strings starting and ending with vowels to answer range queries in O(1) time.",
+  "time_complexity": [
+    "O(n + q)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be efficiently solved by transforming it into range sum queries.",
+      "A prefix sum array allows for O(1) calculation of sums over any subarray.",
+      "Identifying strings that start and end with vowels is a simple check on the first and last characters."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:38:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

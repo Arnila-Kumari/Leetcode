@@ -1,0 +1,53 @@
+{
+  "problem_name": "interleaving-string",
+  "data_structures": [
+    [
+      "1D array (boolean)"
+    ],
+    [
+      "2D array (boolean)"
+    ],
+    [
+      "hash map"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with space optimization",
+    "Dynamic programming",
+    "Recursion with memoization"
+  ],
+  "problem_summary_simple": "Check if s3 can be formed by interleaving characters of s1 and s2.",
+  "problem_summary_technical": "Dynamic programming to determine if s3 is an interleaving of s1 and s2 by building a DP table.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m)",
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using dynamic programming where dp[i][j] indicates if s3[0...i+j-1] is an interleaving of s1[0...i-1] and s2[0...j-1].",
+      "Space optimization to O(m) is possible by noticing that dp[i][j] only depends on the previous row (or column).",
+      "The base case is dp[0][0] = True, representing empty strings interleaving to form an empty string."
+    ],
+    [
+      "The DP state dp[i][j] represents whether the first i characters of s1 and the first j characters of s2 can interleave to form the first i+j characters of s3.",
+      "Transitions consider taking the next character from s1 or s2 if it matches the corresponding character in s3.",
+      "The final answer is dp[len(s1)][len(s2)]."
+    ],
+    [
+      "Recursive approach explores possibilities of matching s3's characters with either s1 or s2.",
+      "Memoization (using a hash map) is crucial to avoid redundant computations for overlapping subproblems.",
+      "The state for memoization is defined by the current indices in s1 and s2."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

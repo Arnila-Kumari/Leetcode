@@ -1,0 +1,44 @@
+{
+  "problem_name": "number-of-subarrays-that-match-a-pattern-i",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ],
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Knuth-Morris-Pratt (KMP) algorithm for pattern matching on transformed array",
+    "Brute force checking of all subarrays"
+  ],
+  "problem_summary_simple": "Count subarrays in nums that follow a given pattern of relative element changes.",
+  "problem_summary_technical": "Transform nums into a sequence of comparisons (-1, 0, 1) and use KMP or brute force to find pattern matches.",
+  "time_complexity": [
+    "O(n)",
+    "O(n*m)"
+  ],
+  "space_complexity": [
+    "O(m)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding a pattern in the differences between adjacent elements.",
+      "The KMP algorithm is highly efficient for string matching and can be adapted here by transforming the comparison results into a pattern.",
+      "The `cmp` function is useful for generating the comparison sequence."
+    ],
+    [
+      "A straightforward approach is to iterate through all possible starting positions in `nums` and check if the subarray matches the pattern.",
+      "This involves comparing `m` elements for each of the `n-m` possible starting positions.",
+      "The transformation of `nums` into comparison results is still beneficial for the brute-force approach."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

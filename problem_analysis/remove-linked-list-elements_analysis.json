@@ -1,0 +1,37 @@
+{
+  "problem_name": "remove-linked-list-elements",
+  "data_structures": [
+    [
+      "ListNode",
+      "dummy node"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterate through the linked list, using a previous pointer to bypass nodes with the target value."
+  ],
+  "problem_summary_simple": "Remove all nodes with a specific value from a linked list.",
+  "problem_summary_technical": "Traverse the linked list, using a dummy head and a previous pointer to relink nodes when the target value is found.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A common and robust approach for linked list modifications, especially removals from the head, is to use a dummy node.",
+      "The dummy node simplifies edge cases, such as removing the actual head of the list.",
+      "We maintain two pointers: `prev` (pointing to the node before `curr`) and `curr` (the node being examined)."
+    ],
+    [
+      "When `curr.val == val`, we bypass `curr` by setting `prev.next = curr.next`.",
+      "If `curr.val != val`, we advance `prev` to `curr` because `curr` is a node we want to keep.",
+      "The loop continues until `curr` reaches the end of the list, and `dummy.next` will point to the new head."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

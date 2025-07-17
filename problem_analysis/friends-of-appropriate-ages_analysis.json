@@ -1,0 +1,32 @@
+{
+  "problem_name": "friends-of-appropriate-ages",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "dictionary"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through age counts, apply conditions, and sum requests."
+  ],
+  "problem_summary_simple": "Calculate friend requests based on age rules between people.",
+  "problem_summary_technical": "Uses a frequency map (Counter) to store age counts and iterates through pairs of ages to apply friendship rules.",
+  "time_complexity": [
+    "O(a^2 + n)"
+  ],
+  "space_complexity": [
+    "O(a)"
+  ],
+  "key_insights": [
+    [
+      "Pre-counting ages with `collections.Counter` optimizes lookups.",
+      "The `request` helper function encapsulates the age-based conditions.",
+      "Carefully handle the `a == b` case to avoid self-requests."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

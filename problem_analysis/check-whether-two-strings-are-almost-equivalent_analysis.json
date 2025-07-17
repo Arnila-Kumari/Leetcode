@@ -1,0 +1,33 @@
+{
+  "problem_name": "check-whether-two-strings-are-almost-equivalent",
+  "data_structures": [
+    [
+      "hash map",
+      "set",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count character frequencies for both strings and check the absolute difference for each character."
+  ],
+  "problem_summary_simple": "Check if the frequency difference of each character between two strings is at most 3.",
+  "problem_summary_technical": "Use frequency counters (like collections.Counter) for both strings and iterate through unique characters to check frequency differences.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves comparing character frequencies between two strings.",
+      "Using `collections.Counter` is an efficient way to get character counts.",
+      "Iterating through the union of keys from both counters ensures all relevant characters are checked."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

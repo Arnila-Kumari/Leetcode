@@ -1,0 +1,34 @@
+{
+  "problem_name": "find-edges-in-shortest-paths",
+  "data_structures": [
+    [
+      "adjacency list",
+      "min-heap (priority queue)",
+      "array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm to find shortest paths from both ends, then check edge inclusion.",
+    "Run Dijkstra from source and target, then verify if an edge is on any shortest path."
+  ],
+  "problem_summary_simple": "Determine which edges are part of any shortest path between node 0 and node n-1.",
+  "problem_summary_technical": "Compute shortest paths from node 0 and node n-1 using Dijkstra's. An edge (u, v, w) is on a shortest path if dist(0, u) + w + dist(v, n-1) == dist(0, n-1).",
+  "time_complexity": [
+    "O(|E| log |V|) using a binary heap for Dijkstra's."
+  ],
+  "space_complexity": [
+    "O(|V| + |E|) for the adjacency list and distance arrays."
+  ],
+  "key_insights": [
+    [
+      "The problem requires identifying edges on *any* shortest path, not just one.",
+      "Running Dijkstra from both the start and end nodes is a common strategy for such problems.",
+      "The condition `dist1[u] + w + dist2[v] == dist1[n-1]` (and its symmetric counterpart) correctly identifies edges on shortest paths."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:42:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

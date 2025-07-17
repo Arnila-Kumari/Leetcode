@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-the-number-of-computer-unlocking-permutations",
+  "data_structures": [
+    [
+      "no explicit data structures beyond input array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorics: Factorial calculation based on a strict complexity ordering"
+  ],
+  "problem_summary_simple": "Find valid unlock orders for computers based on complexity and dependencies.",
+  "problem_summary_technical": "Checks if the first element is the minimum complexity and all subsequent elements have increasing complexity; if so, calculates (n-1)!.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem simplifies to checking if the complexity array is strictly increasing after the first element.",
+      "If the condition is met, any permutation of the remaining n-1 elements is valid.",
+      "The modulo operation is crucial for large results."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:38:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

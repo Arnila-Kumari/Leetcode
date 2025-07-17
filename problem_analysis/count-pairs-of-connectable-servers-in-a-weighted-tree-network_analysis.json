@@ -1,0 +1,59 @@
+{
+  "problem_name": "count-pairs-of-connectable-servers-in-a-weighted-tree-network",
+  "data_structures": [
+    [
+      "adjacency list",
+      "array",
+      "stack",
+      "queue"
+    ],
+    [
+      "adjacency list",
+      "array"
+    ],
+    [
+      "adjacency list",
+      "array",
+      "queue"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Iterative DFS to count nodes at specific distances from a subtree",
+    "Recursive DFS to count nodes at specific distances from a subtree",
+    "BFS to count nodes at specific distances from a subtree"
+  ],
+  "problem_summary_simple": "Count pairs of servers connectable through a central server 'c' if distances to 'a' and 'b' are divisible by signalSpeed.",
+  "problem_summary_technical": "For each node 'c', performs DFS/BFS on its subtrees to count nodes with distances divisible by signalSpeed and combines counts.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires iterating through each node as a potential 'center' server 'c'.",
+      "For each 'c', we need to find pairs of nodes in different subtrees whose distances from 'c' are multiples of signalSpeed.",
+      "DFS or BFS can be used to traverse subtrees and count nodes at specific distances. The key is to avoid paths that share edges."
+    ],
+    [
+      "The core logic involves calculating counts of nodes reachable with distances divisible by signalSpeed within each subtree rooted at a neighbor of 'c'.",
+      "The number of pairs for a given 'c' is the sum of products of these counts from different subtrees.",
+      "The provided solutions use DFS/BFS to count nodes in subtrees, and then combine these counts efficiently."
+    ],
+    [
+      "The constraint that paths from 'c' to 'a' and 'c' to 'b' do not share edges means 'a' and 'b' must be in different subtrees connected to 'c'.",
+      "The iterative DFS and BFS approaches are essentially performing a traversal from each neighbor of the central node 'u' to count qualifying nodes in that branch.",
+      "The combination step `result[u] += curr*cnt` efficiently calculates pairs by multiplying counts from disjoint subtrees."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:37:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

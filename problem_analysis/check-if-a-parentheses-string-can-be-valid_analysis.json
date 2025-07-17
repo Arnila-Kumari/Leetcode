@@ -1,0 +1,40 @@
+{
+  "problem_name": "check-if-a-parentheses-string-can-be-valid",
+  "data_structures": [
+    [
+      "string",
+      "integer counters"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Two-pass greedy approach with balance tracking, considering flexible characters.",
+    "Two-pass greedy approach with balance tracking, considering flexible characters."
+  ],
+  "problem_summary_simple": "Check if a parentheses string can be made valid by changing unlocked characters.",
+  "problem_summary_technical": "Uses a two-pass greedy approach. It tracks balance considering flexible characters from left-to-right and right-to-left.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A valid parentheses string must have an even length.",
+      "The core idea is to ensure that at any point, the number of open parentheses (or potential open parentheses) is not less than the number of closed parentheses.",
+      "By iterating from left-to-right, we ensure enough '(' are available. Iterating from right-to-left ensures enough ')' are available."
+    ],
+    [
+      "The two-pass approach handles the flexibility of '0' locked characters effectively.",
+      "The first pass (left-to-right) checks if there are enough potential opening brackets.",
+      "The second pass (right-to-left) checks if there are enough potential closing brackets."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

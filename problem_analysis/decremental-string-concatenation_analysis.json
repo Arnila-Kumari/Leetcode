@@ -1,0 +1,32 @@
+{
+  "problem_name": "decremental-string-concatenation",
+  "data_structures": [
+    [
+      "2D list (DP table)",
+      "string manipulation"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to track minimum length ending with specific characters, considering join operations."
+  ],
+  "problem_summary_simple": "Minimize the length of a concatenated string by strategically joining words, removing overlapping characters.",
+  "problem_summary_technical": "DP state tracks minimum length ending with a character, considering two join orders for each word.",
+  "time_complexity": [
+    "O(n * alphabet_size)"
+  ],
+  "space_complexity": [
+    "O(alphabet_size)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the optimal path in a state space defined by the last character of the current string.",
+      "A DP approach is suitable where `dp[i][char]` represents the minimum length of a string formed by the first `i` words, ending with `char`.",
+      "The join operation's character deletion logic needs careful handling in the DP transitions."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:39:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

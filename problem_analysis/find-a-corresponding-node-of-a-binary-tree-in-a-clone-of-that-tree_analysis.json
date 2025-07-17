@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
+  "data_structures": [
+    [
+      "binary tree",
+      "stack",
+      "generator"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Preorder traversal (iterative with stack) on both trees simultaneously"
+  ],
+  "problem_summary_simple": "Find the node in a cloned binary tree that corresponds to a given target node in the original tree.",
+  "problem_summary_technical": "Perform a simultaneous traversal (e.g., preorder) of the original and cloned trees to find the matching node.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding a node in the cloned tree that has the same structure and value as the target node in the original tree.",
+      "A traversal (like preorder, inorder, or postorder) can be used to visit nodes in both trees in parallel.",
+      "When the target node is found in the original tree during traversal, the corresponding node in the cloned tree is the answer."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

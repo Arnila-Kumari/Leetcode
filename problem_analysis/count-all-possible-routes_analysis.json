@@ -1,0 +1,33 @@
+{
+  "problem_name": "count-all-possible-routes",
+  "data_structures": [
+    [
+      "array",
+      "2-D Dynamic Programming table"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "dynamic programming with state (current_location, remaining_fuel)",
+    "memoization to avoid recomputing subproblems"
+  ],
+  "problem_summary_simple": "Count all possible routes from a start city to a finish city with limited fuel, allowing revisits.",
+  "problem_summary_technical": "DP state dp[i][f] = number of ways to reach city i with f fuel. Transitions consider all possible next cities.",
+  "time_complexity": [
+    "O(n^2 * fuel)"
+  ],
+  "space_complexity": [
+    "O(n * fuel)"
+  ],
+  "key_insights": [
+    [
+      "DP is suitable due to overlapping subproblems and optimal substructure",
+      "state must include current location and remaining fuel",
+      "modulo arithmetic is essential for large results"
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:44:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

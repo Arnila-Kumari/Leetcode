@@ -1,0 +1,42 @@
+{
+  "problem_name": "substrings-that-begin-and-end-with-the-same-letter",
+  "data_structures": [
+    [
+      "collections.Counter"
+    ],
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Iterate through the string, counting occurrences of each character and summing contributions.",
+    "Count occurrences of each character and use a mathematical formula for combinations."
+  ],
+  "problem_summary_simple": "Count substrings that start and end with the same character.",
+  "problem_summary_technical": "Counts character frequencies and sums contributions based on combinations, or iterates and sums character counts.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "For each character, if it appears `k` times, it forms `k * (k + 1) / 2` substrings that start and end with that character.",
+      "This is because each occurrence of the character can be the start of a substring, and any subsequent occurrence of the same character can be the end.",
+      "The total count is the sum of these contributions for all characters."
+    ],
+    [
+      "The first solution iterates through the string, and for each character, it adds the current count of that character to the result.",
+      "This implicitly counts all substrings ending at the current position that start with the same character.",
+      "For example, if 'a' appears at indices 0, 3, and 5, when we reach index 5, we add 3 (for 'a' at 0, 3, 5) to the result."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

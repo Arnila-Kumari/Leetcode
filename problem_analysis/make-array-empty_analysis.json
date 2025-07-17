@@ -1,0 +1,45 @@
+{
+  "problem_name": "make-array-empty",
+  "data_structures": [
+    [
+      "array",
+      "array"
+    ],
+    [
+      "array",
+      "array",
+      "Binary Indexed Tree (BIT)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort indices based on values, then count operations based on relative positions.",
+    "Sort indices by value, use BIT to track visited indices and calculate operations."
+  ],
+  "problem_summary_simple": "Find the minimum operations to empty an array by removing the smallest element or moving the first to the end.",
+  "problem_summary_technical": "Sort indices by value. Calculate operations by summing initial moves and subsequent moves based on relative index order and BIT counts.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The optimal strategy is to always remove the smallest element.",
+      "When the smallest element is not at the front, we must cycle elements until it is.",
+      "The number of operations is the initial array size plus the total number of rotations needed."
+    ],
+    [
+      "Sorting indices by value is crucial to process elements in increasing order.",
+      "A BIT (Fenwick Tree) efficiently counts how many elements smaller than the current one have already been removed.",
+      "This count helps determine the number of rotations needed for the current smallest element."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

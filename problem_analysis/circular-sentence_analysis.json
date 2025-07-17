@@ -1,0 +1,31 @@
+{
+  "problem_name": "circular-sentence",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the sentence, checking character conditions at spaces and sentence boundaries."
+  ],
+  "problem_summary_simple": "Check if a sentence is circular, meaning the last character of each word matches the first character of the next, and the last word's last character matches the first word's first.",
+  "problem_summary_technical": "Verifies circularity by checking if the first and last characters of the sentence match, and if characters around spaces satisfy the adjacent word connection rule.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core condition is that the last character of word `i` must equal the first character of word `i+1`.",
+      "The circularity requires the last character of the last word to match the first character of the first word.",
+      "The provided solution cleverly uses string indexing and the `all()` function to check conditions efficiently."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

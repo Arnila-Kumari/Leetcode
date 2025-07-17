@@ -1,0 +1,39 @@
+{
+  "problem_name": "remove-duplicates-from-sorted-list",
+  "data_structures": [
+    [
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterative traversal with a runner pointer to skip duplicates",
+    "Recursive approach to process sub-lists"
+  ],
+  "problem_summary_simple": "Remove duplicate nodes from a sorted linked list, keeping only one instance of each value.",
+  "problem_summary_technical": "Traverse a sorted linked list, using a runner to find the next distinct node and update current node's next pointer.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n) due to recursion stack"
+  ],
+  "key_insights": [
+    [
+      "The iterative solution uses a 'cur' pointer to iterate and a 'runner' pointer to find the next unique element.",
+      "The recursive solution breaks down the problem by processing the rest of the list and then handling the current node.",
+      "Both solutions leverage the sorted nature of the linked list."
+    ],
+    [
+      "The iterative solution is generally preferred for its O(1) space complexity.",
+      "The recursive solution offers a more concise code structure but can lead to stack overflow for very long lists.",
+      "The key is to correctly link the current node to the first non-duplicate node found by the runner."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

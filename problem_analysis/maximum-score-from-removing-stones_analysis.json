@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-score-from-removing-stones",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort piles, greedily take from largest two until one pile is exhausted or sum of two smaller equals largest."
+  ],
+  "problem_summary_simple": "Maximize score by taking stones from two different piles, stopping when fewer than two piles remain.",
+  "problem_summary_technical": "Maximize score by pairing stones from two piles. The optimal strategy involves balancing the largest pile with the sum of the other two.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering the sum of the two smaller piles versus the largest pile.",
+      "If the sum of the two smaller piles is less than or equal to the largest pile, the maximum score is the sum of the two smaller piles.",
+      "If the sum of the two smaller piles is greater than the largest pile, the maximum score is half the total number of stones."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:54:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "number-of-ways-to-build-house-of-cards",
+  "data_structures": [
+    [
+      "1-D array"
+    ],
+    [
+      "2-D array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with state compression",
+    "Dynamic programming with explicit state for triangles"
+  ],
+  "problem_summary_simple": "Count distinct houses of cards using exactly n cards, following specific building rules.",
+  "problem_summary_technical": "DP approach where dp[i] stores ways to build with i cards, considering the structure of cards per row.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "A house of cards with 't' triangles in the first row requires 3*t - 1 cards (t triangles + t-1 horizontal cards).",
+      "The DP state `dp[i]` can represent the number of ways to build a house using `i` cards, where the first row has *some* number of triangles.",
+      "The transition `dp[i] += dp[i - (3*t - 1)]` means we are adding ways to build a house with `i` cards by adding a first row of `t` triangles to existing valid houses using `i - (3*t - 1)` cards."
+    ],
+    [
+      "The DP state `dp[t][i]` represents the number of ways to build a house using `i` cards with exactly `t` triangles in the first row.",
+      "The transition `dp[t][i] = sum(dp[j][i - (3*t - 1)] for j in xrange(t))` means that to build a house with `t` triangles in the first row and `i` total cards, we can take any valid house with `j` triangles in its first row (where `j < t`) and `i - (3*t - 1)` cards, and place it below a new first row of `t` triangles.",
+      "This approach is more explicit but leads to higher time and space complexity."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:11",
+  "batch_processed": true,
+  "batch_size": 4
+}

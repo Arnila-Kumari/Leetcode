@@ -1,0 +1,33 @@
+{
+  "problem_name": "super-palindromes",
+  "data_structures": [
+    [
+      "String",
+      "Integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Generate palindromes by constructing them from smaller palindromic roots and check if their squares are palindromes within the range.",
+    "Iterate through potential palindrome roots, square them, and check if the square is a palindrome and within the given range."
+  ],
+  "problem_summary_simple": "Count numbers in a range that are palindromes and whose square roots are also palindromes.",
+  "problem_summary_technical": "Generate palindromes by mirroring halves, square them, and check if square is palindrome and in range [L, R].",
+  "time_complexity": [
+    "O(n^0.25 * logn)"
+  ],
+  "space_complexity": [
+    "O(logn)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to generate palindromes efficiently rather than checking every number.",
+      "Palindromes can be constructed by taking a number and appending its reverse (or reverse minus the last digit).",
+      "The upper bound for generating palindrome roots can be estimated based on the square root of the upper bound of the range."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

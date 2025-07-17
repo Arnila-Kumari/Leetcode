@@ -1,0 +1,31 @@
+{
+  "problem_name": "sum-in-a-matrix",
+  "data_structures": [
+    [
+      "2D integer array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort each row. In each step, find the maximum element across all rows and add it to the score. Repeat until matrix is empty."
+  ],
+  "problem_summary_simple": "In a matrix, repeatedly remove the largest element from each row, then add the overall largest removed element to the score.",
+  "problem_summary_technical": "Sort each row to easily access the largest element. Iteratively find the maximum of these row-wise maximums to accumulate the score.",
+  "time_complexity": [
+    "O(m * n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting each row allows for efficient retrieval of the largest element in each row.",
+      "The problem can be solved by iterating through columns after sorting rows, as the largest elements will be at the end of sorted rows.",
+      "The greedy approach of picking the largest available element at each step guarantees the optimal solution."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

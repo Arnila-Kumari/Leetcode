@@ -1,0 +1,31 @@
+{
+  "problem_name": "gas-station",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Single pass with cumulative sum and tracking start index"
+  ],
+  "problem_summary_simple": "Find a starting gas station to complete a circular route, given gas at each station and cost to travel between them.",
+  "problem_summary_technical": "Iterate through stations, tracking current gas balance and total gas balance. If balance drops below zero, reset start and balance.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "If the total gas is less than the total cost, no solution exists.",
+      "If a starting point leads to a negative balance, any station before it cannot be a valid start.",
+      "The problem guarantees a unique solution if one exists."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

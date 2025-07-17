@@ -1,0 +1,31 @@
+{
+  "problem_name": "target-sum",
+  "data_structures": [
+    [
+      "collections.defaultdict"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming (Subset Sum variation)"
+  ],
+  "problem_summary_simple": "Find the number of ways to assign '+' or '-' to numbers to reach a target sum.",
+  "problem_summary_technical": "Transforms the problem into a subset sum problem: find subsets that sum to (target + total_sum) / 2.",
+  "time_complexity": [
+    "O(n * S)"
+  ],
+  "space_complexity": [
+    "O(S)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding a subset P such that sum(P) - sum(N) = target, where N is the remaining elements.",
+      "This simplifies to 2 * sum(P) = target + total_sum, meaning sum(P) = (target + total_sum) / 2.",
+      "If (target + total_sum) is odd or target > total_sum, no solution exists."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

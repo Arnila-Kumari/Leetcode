@@ -1,0 +1,47 @@
+{
+  "problem_name": "design-a-3d-binary-matrix-with-efficient-layer-tracking",
+  "data_structures": [
+    [
+      "set",
+      "defaultdict(int)",
+      "SortedList",
+      "defaultdict(SortedList)"
+    ],
+    [
+      "dict",
+      "defaultdict(int)",
+      "list (heap)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Maintain counts of 1s per layer using a dictionary and track the maximum count and corresponding layer index using a sorted list of counts.",
+    "Use a max-heap to store (-count, -layer_index) pairs to efficiently retrieve the layer with the most 1s and the largest index in case of ties."
+  ],
+  "problem_summary_simple": "Design a 3D matrix class to track 1s and efficiently find the layer with the most 1s.",
+  "problem_summary_technical": "Use a set for matrix elements, a dictionary for layer counts, and a sorted list/heap to track max counts and indices for efficient updates and queries.",
+  "time_complexity": [
+    "ctor: O(1), setCell: O(log n), unsetCell: O(log n), largestMatrix: O(log n)",
+    "ctor: O(1), setCell: O(log n), unsetCell: O(log n), largestMatrix: O(log n) (amortized)"
+  ],
+  "space_complexity": [
+    "O(n^3)",
+    "O(n^3)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is efficiently tracking the count of 1s per layer and quickly finding the layer with the maximum count.",
+      "Using a `SortedList` (or a balanced BST) to store counts and their corresponding layer indices allows for O(log n) updates and retrieval of the maximum.",
+      "The `lookup` dictionary maps counts to `SortedList`s of layer indices, enabling efficient removal and addition of layers when their counts change."
+    ],
+    [
+      "A max-heap is suitable for finding the maximum element efficiently.",
+      "Storing negative counts and negative indices in the heap allows us to use Python's min-heap implementation to simulate a max-heap and handle tie-breaking for indices.",
+      "Lazy deletion is implicitly handled by checking if the top element of the heap is still valid (i.e., its count matches the current count for that layer)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:39:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

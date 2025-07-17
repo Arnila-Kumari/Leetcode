@@ -1,0 +1,45 @@
+{
+  "problem_name": "find-missing-and-repeated-values",
+  "data_structures": [
+    [
+      "2D array (grid)",
+      "integer (variables for XOR operations)"
+    ],
+    [
+      "2D array (grid)",
+      "Counter (hash map)",
+      "integer (variables for iteration)"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bit manipulation (XOR) to find missing and repeated numbers",
+    "Frequency counting using a hash map (Counter)"
+  ],
+  "problem_summary_simple": "Find the single repeated and single missing number in an n x n grid containing numbers from 1 to n^2.",
+  "problem_summary_technical": "Bit manipulation (XOR) to isolate differing bits, then partition and XOR to find the numbers. Alternatively, use a frequency map.",
+  "time_complexity": [
+    "O(N^2)",
+    "O(N^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(N^2)"
+  ],
+  "key_insights": [
+    [
+      "The XOR approach leverages the property that x ^ x = 0 and x ^ 0 = x.",
+      "By XORing all grid elements with their expected values (1 to n^2), we get a value representing the XOR of the missing and repeated numbers.",
+      "Further bit manipulation helps isolate the repeated and missing numbers. The frequency map approach is more straightforward but uses more space."
+    ],
+    [
+      "The frequency map approach is intuitive: count occurrences of each number.",
+      "The number with a count of 2 is the repeated value.",
+      "The number from 1 to n^2 that is not in the map is the missing value."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

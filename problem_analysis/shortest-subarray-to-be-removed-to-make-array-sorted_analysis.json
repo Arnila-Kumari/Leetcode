@@ -1,0 +1,42 @@
+{
+  "problem_name": "shortest-subarray-to-be-removed-to-make-array-sorted",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to find the longest non-decreasing prefix and suffix, then merge.",
+    "Two pointers to identify the first unsorted pair and find optimal removal."
+  ],
+  "problem_summary_simple": "Find the shortest subarray to remove from an array to make the remaining elements sorted non-decreasingly.",
+  "problem_summary_technical": "Identifies sorted prefix and suffix, then uses two pointers to find the minimum removal length to connect them.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into keeping a sorted prefix and a sorted suffix.",
+      "The optimal solution involves finding the best way to connect these prefix and suffix parts.",
+      "Two pointers are effective for scanning and comparing elements from both ends."
+    ],
+    [
+      "Identifying the first violation of the sorted property is a good starting point.",
+      "The solution explores removing subarrays that span across the unsorted region.",
+      "The goal is to minimize the length of the removed subarray."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

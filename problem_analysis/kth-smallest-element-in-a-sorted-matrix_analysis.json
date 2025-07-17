@@ -1,0 +1,33 @@
+{
+  "problem_name": "kth-smallest-element-in-a-sorted-matrix",
+  "data_structures": [
+    [
+      "min-heap",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Min-heap to store elements from the matrix, always extracting the smallest and adding its neighbors (down and right)."
+  ],
+  "problem_summary_simple": "Find the kth smallest element in a matrix where rows and columns are sorted.",
+  "problem_summary_technical": "Uses a min-heap to efficiently explore the matrix elements in increasing order, ensuring the kth smallest is found with limited memory.",
+  "time_complexity": [
+    "O(k * log(min(n, k)))"
+  ],
+  "space_complexity": [
+    "O(min(n, k))"
+  ],
+  "key_insights": [
+    [
+      "The sorted nature of rows and columns allows for a heap-based approach.",
+      "The heap stores potential candidates for the next smallest element, ensuring we don't miss any.",
+      "Adding only the 'next' elements (right and down) from the extracted element prevents redundant additions to the heap.",
+      "The constraint of O(n^2) memory complexity suggests avoiding loading the entire matrix into a sorted list."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

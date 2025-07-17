@@ -1,0 +1,33 @@
+{
+  "problem_name": "image-overlap",
+  "data_structures": [
+    [
+      "list",
+      "integer",
+      "list"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterate through all possible translations of img1 relative to img2. For each translation, count the overlapping 1s and find the maximum count."
+  ],
+  "problem_summary_simple": "Find the maximum overlap between two images after sliding one over the other.",
+  "problem_summary_technical": "Enumerate all possible relative shifts between the two images and count overlapping '1's for each shift to find the maximum.",
+  "time_complexity": [
+    "O(n^4)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the relative shift that maximizes the dot product of the shifted image and the other image.",
+      "Instead of shifting images, we can iterate through all possible relative displacements of the '1's.",
+      "A count array indexed by the displacement vector helps aggregate overlaps for each shift."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "contains-duplicate-ii",
+  "data_structures": [
+    [
+      "hash map"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a hash map to store the last seen index of each number. Check distance if a duplicate is found."
+  ],
+  "problem_summary_simple": "Find if there are duplicates within a certain distance k in an array.",
+  "problem_summary_technical": "Track last seen indices in a hash map; check if current index minus stored index is within k for duplicates.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A hash map is ideal for storing and quickly retrieving the last seen index of an element.",
+      "The condition `i - lookup[num] <= k` efficiently checks the distance constraint.",
+      "Updating the index in the map ensures we always consider the closest previous occurrence."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

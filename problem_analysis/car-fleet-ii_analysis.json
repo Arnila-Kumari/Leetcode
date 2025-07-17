@@ -1,0 +1,32 @@
+{
+  "problem_name": "car-fleet-ii",
+  "data_structures": [
+    [
+      "stack",
+      "array"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to find next greater element (in terms of collision time)"
+  ],
+  "problem_summary_simple": "Calculate the time each car collides with the next car ahead of it.",
+  "problem_summary_technical": "Uses a monotonic stack to efficiently find the first car ahead that a current car will collide with, considering relative speeds.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A monotonic stack (decreasing speeds) is ideal for finding the 'next' element that satisfies a condition.",
+      "The collision time formula is derived from relative distance and relative speed: time = distance / relative_speed.",
+      "Processing cars from right to left simplifies the logic of finding the *next* car."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

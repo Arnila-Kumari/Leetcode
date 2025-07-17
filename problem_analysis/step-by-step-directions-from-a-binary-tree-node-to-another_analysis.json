@@ -1,0 +1,46 @@
+{
+  "problem_name": "step-by-step-directions-from-a-binary-tree-node-to-another",
+  "data_structures": [
+    [
+      "binary tree",
+      "list",
+      "stack"
+    ],
+    [
+      "binary tree",
+      "list",
+      "stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS to find paths from root to start and destination, then find LCA and construct path.",
+    "Recursive DFS to find paths from root to start and destination, then find LCA and construct path."
+  ],
+  "problem_summary_simple": "Find the shortest path directions between two nodes in a binary tree.",
+  "problem_summary_technical": "Find paths to start and destination nodes using DFS, identify LCA, and construct path with 'U', 'L', 'R'.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(H)",
+    "O(H)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find the Lowest Common Ancestor (LCA) of the start and destination nodes.",
+      "Once the LCA is found, the path from start to LCA and LCA to destination can be constructed.",
+      "Paths to the LCA need to be reversed and prefixed with 'U' to represent upward movement."
+    ],
+    [
+      "The recursive DFS approach naturally builds the path from the node to the root.",
+      "Comparing the paths from the root to the start and destination nodes helps identify the common ancestor.",
+      "The differing parts of the paths, combined with 'U' for upward movement, form the final directions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,48 @@
+{
+  "problem_name": "course-schedule",
+  "data_structures": [
+    [
+      "adjacency list (defaultdict)",
+      "hash map (Counter)",
+      "queue (list)",
+      "list"
+    ],
+    [
+      "adjacency list (defaultdict)",
+      "hash map (Counter)",
+      "stack (list)",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Topological sort using Kahn's algorithm (BFS) by tracking in-degrees and processing nodes with zero in-degree.",
+    "Topological sort using DFS by tracking visited states (WHITE, GRAY, BLACK) to detect cycles."
+  ],
+  "problem_summary_simple": "Determine if all courses can be finished given a set of prerequisites.",
+  "problem_summary_technical": "Detect cycles in a directed graph representing course dependencies using BFS (Kahn's) or DFS.",
+  "time_complexity": [
+    "O(V + E)",
+    "O(V + E)"
+  ],
+  "space_complexity": [
+    "O(V + E)",
+    "O(V + E)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to detecting cycles in a directed graph.",
+      "Kahn's algorithm (BFS) is suitable for finding a topological sort and detecting cycles by checking if all nodes are visited.",
+      "DFS with state tracking (visiting, visited) is another standard approach for cycle detection in directed graphs."
+    ],
+    [
+      "The problem is equivalent to detecting cycles in a directed graph.",
+      "Kahn's algorithm (BFS) is suitable for finding a topological sort and detecting cycles by checking if all nodes are visited.",
+      "DFS with state tracking (visiting, visited) is another standard approach for cycle detection in directed graphs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

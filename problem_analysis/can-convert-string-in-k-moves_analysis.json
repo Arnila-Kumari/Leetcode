@@ -1,0 +1,31 @@
+{
+  "problem_name": "can-convert-string-in-k-moves",
+  "data_structures": [
+    [
+      "Array (frequency counter)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting and checking shift constraints."
+  ],
+  "problem_summary_simple": "Check if string 's' can be converted to 't' by shifting characters within 'k' moves.",
+  "problem_summary_technical": "Count character differences and ensure each required shift (1 to 25) can be performed within 'k' moves, considering unique index usage.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The order of shifts matters: a shift of 'x' can be achieved on move 'x', 'x+26', 'x+52', etc.",
+      "We need to track how many times each shift amount (1-25) is required.",
+      "For a given shift amount 'd', the first time it's needed, it uses move 'd'. The second time, it needs move 'd+26', and so on."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

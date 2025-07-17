@@ -1,0 +1,32 @@
+{
+  "problem_name": "delete-characters-to-make-fancy-string",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "two pointers with frequency counting"
+  ],
+  "problem_summary_simple": "Remove minimum characters to ensure no three consecutive characters are the same.",
+  "problem_summary_technical": "Use a two-pointer approach to build the fancy string, keeping track of consecutive character counts.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The goal is to maintain a count of consecutive identical characters.",
+      "A two-pointer approach (read and write pointers) is efficient for in-place modification or building a new string.",
+      "Only append a character if its consecutive count is less than 3."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

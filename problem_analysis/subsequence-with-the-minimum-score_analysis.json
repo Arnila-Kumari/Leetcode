@@ -1,0 +1,35 @@
+{
+  "problem_name": "subsequence-with-the-minimum-score",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers with precomputed suffix minimums for the right pointer.",
+    "Two pointers and dynamic programming."
+  ],
+  "problem_summary_simple": "Find the minimum score (length of removed segment) to make t a subsequence of s.",
+  "problem_summary_technical": "Uses two pointers and precomputed suffix minimums to efficiently find the shortest segment to remove from t.",
+  "time_complexity": [
+    "O(n + m), where n is len(s) and m is len(t)",
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding the longest common subsequence between s and t, where the common subsequence is formed by characters of t that are NOT removed.",
+      "We can precompute for each index `i` in `s`, the furthest left index `j` in `t` such that `t[0...j]` is a subsequence of `s[0...i]`.",
+      "Similarly, we can precompute for each index `i` in `s`, the furthest right index `j` in `t` such that `t[j...end]` is a subsequence of `s[i...end]`.",
+      "By combining these, we can find the optimal split point."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

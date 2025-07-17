@@ -1,0 +1,32 @@
+{
+  "problem_name": "convex-polygon",
+  "data_structures": [
+    [
+      "list of points",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate the cross product (determinant) of consecutive edge vectors to check for consistent turning direction."
+  ],
+  "problem_summary_simple": "Determine if a polygon formed by given points is convex.",
+  "problem_summary_technical": "Check if all consecutive edge turns (cross products of edge vectors) have the same sign for a polygon to be convex.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A polygon is convex if all internal angles are less than or equal to 180 degrees.",
+      "This can be checked by examining the 'turn' at each vertex. All turns must be in the same direction (either all left or all right).",
+      "The cross product of two vectors (formed by consecutive edges) can determine the direction of the turn. A positive cross product indicates one turn direction, and a negative one indicates the other. A zero cross product means the points are collinear."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

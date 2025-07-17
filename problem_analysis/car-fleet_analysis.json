@@ -1,0 +1,32 @@
+{
+  "problem_name": "car-fleet",
+  "data_structures": [
+    [
+      "array",
+      "list of tuples"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate arrival times for each car and use a stack-like approach to count fleets."
+  ],
+  "problem_summary_simple": "Count the number of car fleets that reach the target destination, considering cars can form fleets.",
+  "problem_summary_technical": "Calculate time to reach target for each car, sort by position, and use a greedy approach to count fleets based on arrival times.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key is to determine when cars form fleets. This happens when a faster car catches up to a slower car.",
+      "Calculating the time each car takes to reach the target is essential.",
+      "Sorting cars by their starting position and processing them in reverse order simplifies fleet detection."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

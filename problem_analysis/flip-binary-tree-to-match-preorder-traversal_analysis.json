@@ -1,0 +1,33 @@
+{
+  "problem_name": "flip-binary-tree-to-match-preorder-traversal",
+  "data_structures": [
+    [
+      "binary tree",
+      "list",
+      "integer array"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth-first search (DFS) to traverse the tree and compare with the target preorder traversal, performing flips when necessary."
+  ],
+  "problem_summary_simple": "Flip subtrees in a binary tree to match a given preorder traversal sequence.",
+  "problem_summary_technical": "Uses DFS to match tree nodes with a target preorder traversal, flipping subtrees to align values and record flips.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The preorder traversal dictates the order of nodes visited.",
+      "At each node, check if its value matches the current expected value in the voyage.",
+      "If the left child's value doesn't match, a flip is necessary, and then recursively check the swapped children."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

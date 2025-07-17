@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-score-of-an-array-after-marking-all-elements",
+  "data_structures": [
+    [
+      "list",
+      "list of tuples",
+      "boolean array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort elements by value then index, then iterate marking smallest unmarked and its neighbors."
+  ],
+  "problem_summary_simple": "Calculate the score by repeatedly marking the smallest unmarked element and its neighbors.",
+  "problem_summary_technical": "Greedily select the smallest unmarked element, add its value to the score, and mark it and its adjacent elements until all are marked.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The greedy choice of picking the smallest unmarked element at each step leads to the optimal solution.",
+      "Sorting the elements by value and then index ensures the correct selection order.",
+      "A boolean array is used to efficiently track which elements have been marked."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

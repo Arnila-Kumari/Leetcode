@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-moves-to-convert-string",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: iterate through the string and convert 'X's by covering three characters."
+  ],
+  "problem_summary_simple": "Convert all 'X's in a string to 'O's by changing three consecutive characters to 'O' in one move.",
+  "problem_summary_technical": "Iterate through the string, and upon finding an 'X', increment the move count and skip the next two characters.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy works because covering an 'X' with a move of length 3 is always optimal.",
+      "By moving 3 steps forward after encountering an 'X', we ensure that the current 'X' is covered and we don't re-process characters unnecessarily.",
+      "This approach guarantees that each 'X' is covered by at least one move, and we minimize the number of moves."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:58:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

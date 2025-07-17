@@ -1,0 +1,32 @@
+{
+  "problem_name": "boats-to-save-people",
+  "data_structures": [
+    [
+      "Array",
+      "Two Pointers"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sort people by weight and use two pointers to pair the lightest with the heaviest."
+  ],
+  "problem_summary_simple": "Find the minimum number of boats to save people, where each boat carries at most two people with a weight limit.",
+  "problem_summary_technical": "Greedy approach using two pointers on a sorted array to pair the lightest person with the heaviest possible to minimize boat usage.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by pairing the lightest person with the heaviest possible person.",
+      "Sorting the people array is essential for the greedy strategy to work.",
+      "Two pointers, one at the beginning (lightest) and one at the end (heaviest), efficiently find optimal pairings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

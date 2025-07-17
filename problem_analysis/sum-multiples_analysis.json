@@ -1,0 +1,31 @@
+{
+  "problem_name": "sum-multiples",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Use the principle of inclusion-exclusion to sum multiples of 3, 5, and 7, subtracting sums of multiples of their LCMs, and adding back the sum of multiples of their product."
+  ],
+  "problem_summary_simple": "Find the sum of all numbers from 1 to n that are divisible by 3, 5, or 7.",
+  "problem_summary_technical": "Apply the inclusion-exclusion principle to sum multiples of individual numbers and their combinations within the given range.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The sum of an arithmetic progression is n/2 * (first + last). For multiples of d up to n, this is d * (k/2) * (1+k) where k = n/d.",
+      "The inclusion-exclusion principle is crucial for avoiding double-counting numbers divisible by multiple factors (e.g., 15 is divisible by 3 and 5).",
+      "The formula for sum of multiples of d up to n is d * (n//d) * (n//d + 1) // 2."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "optimal-partition-of-string",
+  "data_structures": [
+    [
+      "hash table",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the string, maintaining a current substring. If a character is already in the current substring, start a new substring. Use a hash map to track character occurrences and their last seen index."
+  ],
+  "problem_summary_simple": "Split a string into the fewest substrings where each substring has unique characters.",
+  "problem_summary_technical": "Greedily partition the string. When a duplicate character is found within the current partition, start a new partition from that character's position.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This is a greedy problem: at each step, make the locally optimal choice.",
+      "The locally optimal choice is to extend the current substring as much as possible.",
+      "A hash map efficiently checks for character uniqueness within the current substring."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

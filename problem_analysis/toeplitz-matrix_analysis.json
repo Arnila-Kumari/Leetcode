@@ -1,0 +1,40 @@
+{
+  "problem_name": "toeplitz-matrix",
+  "data_structures": [
+    [
+      "2D list (matrix)"
+    ],
+    [
+      "2D list (matrix)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate and compare current element with its top-left diagonal neighbor.",
+    "Iterate and compare current element with its top-left diagonal neighbor."
+  ],
+  "problem_summary_simple": "Check if all diagonals from top-left to bottom-right have the same elements.",
+  "problem_summary_technical": "Verify that each element matrix[i][j] equals matrix[i-1][j-1] for all valid i, j.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to check the relationship between an element and its top-left neighbor.",
+      "Edge cases (first row and first column) do not need comparison."
+    ],
+    [
+      "The `all()` function with a generator expression offers a compact solution.",
+      "Explicitly checking `row_index` and `digit_index` handles boundary conditions."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:12:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "account-balance-after-rounded-purchase",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Integer division and multiplication to simulate rounding to the nearest multiple of 10."
+  ],
+  "problem_summary_simple": "Calculate the remaining balance after a purchase is rounded to the nearest $10.",
+  "problem_summary_technical": "Applies a mathematical formula using integer division to round the purchase amount up to the nearest multiple of 10.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The rounding rule (5 rounds up) can be implemented with `(x + 5) // 10 * 10`.",
+      "The problem involves a simple arithmetic calculation, making it a constant time operation.",
+      "Initial balance is fixed at 100."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

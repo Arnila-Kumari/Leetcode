@@ -1,0 +1,59 @@
+{
+  "problem_name": "maximal-network-rank",
+  "data_structures": [
+    [
+      "array",
+      "hashmap",
+      "set"
+    ],
+    [
+      "array",
+      "hashmap",
+      "set"
+    ],
+    [
+      "array",
+      "hashmap",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Counting sort to find top degrees, then check pairs with shared roads.",
+    "Sorting degrees, then checking pairs with shared roads.",
+    "Brute-force checking all pairs of cities and their degrees."
+  ],
+  "problem_summary_simple": "Find the maximum network rank between any two cities, considering direct roads and shared roads.",
+  "problem_summary_technical": "Calculate city degrees, sort by degree, and check pairs, accounting for shared roads using adjacency lists.",
+  "time_complexity": [
+    "O(m + n + k^2)",
+    "O(m + n log n + k^2)",
+    "O(n^2 + m)"
+  ],
+  "space_complexity": [
+    "O(m + n)",
+    "O(m + n)",
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "The maximal rank is likely between cities with high degrees.",
+      "Optimization involves only checking a limited number of top-degree cities.",
+      "Carefully subtract 1 for shared roads between the chosen pair."
+    ],
+    [
+      "Sorting by degree is crucial for efficiency.",
+      "The number of pairs to check is limited by cities with degrees close to the top two.",
+      "Adjacency list is needed to detect shared roads."
+    ],
+    [
+      "Directly iterating through all pairs is simple but less efficient.",
+      "The degree of each city is the primary factor in network rank.",
+      "The adjacency list is essential for checking if a road is shared."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:04",
+  "batch_processed": true,
+  "batch_size": 4
+}

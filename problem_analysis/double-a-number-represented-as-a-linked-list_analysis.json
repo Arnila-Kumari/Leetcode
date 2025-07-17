@@ -1,0 +1,31 @@
+{
+  "problem_name": "double-a-number-represented-as-a-linked-list",
+  "data_structures": [
+    [
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Traverse the linked list, doubling each digit and handling carries, potentially adding a new head node for overflow."
+  ],
+  "problem_summary_simple": "Double the integer represented by a linked list and return the new linked list.",
+  "problem_summary_technical": "Iterate through the linked list, doubling values and propagating carries, prepending a new node if the most significant digit overflows.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key challenge is handling the carry-over from one digit to the next.",
+      "Checking the most significant digit first (or after a first pass) simplifies carry handling.",
+      "A new head node might be required if the doubled number has more digits than the original."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

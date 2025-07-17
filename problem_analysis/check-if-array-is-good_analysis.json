@@ -1,0 +1,31 @@
+{
+  "problem_name": "check-if-array-is-good",
+  "data_structures": [
+    [
+      "array (for frequency count)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting and validation against expected pattern"
+  ],
+  "problem_summary_simple": "Verify if an array is a permutation of a specific pattern: 1 to n-1 once, and n twice.",
+  "problem_summary_technical": "Count frequencies of numbers up to the maximum. Check if numbers 1 to n-1 appear once and n appears twice.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The definition of a 'good' array implies a specific structure: numbers 1 to n-1 appear exactly once, and n appears exactly twice.",
+      "The length of the array must be n+1, and the maximum element must be n.",
+      "A frequency count (or a boolean array for presence) is sufficient to validate this structure."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:17:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

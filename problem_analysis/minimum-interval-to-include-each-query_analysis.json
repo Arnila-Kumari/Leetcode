@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-interval-to-include-each-query",
+  "data_structures": [
+    [
+      "heap (min-heap)",
+      "sorted list of intervals",
+      "sorted list of queries with original indices"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sort intervals and queries, use a min-heap to track active intervals and their sizes."
+  ],
+  "problem_summary_simple": "Find the smallest interval size that covers each query number.",
+  "problem_summary_technical": "Sort intervals and queries. Use a min-heap to efficiently find the smallest valid interval for each query as we sweep through sorted queries.",
+  "time_complexity": [
+    "O(N log N + K log K + K log N)"
+  ],
+  "space_complexity": [
+    "O(N + K)"
+  ],
+  "key_insights": [
+    [
+      "Sorting both intervals and queries is crucial for a sweep-line approach.",
+      "A min-heap is used to store active intervals, ordered by their size, allowing quick retrieval of the smallest valid interval.",
+      "Careful management of intervals entering and leaving the 'active' set based on the current query is key."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-longest-substring-containing-vowels-in-even-counts",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Prefix XOR sums (mask) and a hashmap to store first occurrences of masks, enabling O(1) lookup for previous states."
+  ],
+  "problem_summary_simple": "Find the longest substring where each vowel appears an even number of times.",
+  "problem_summary_technical": "Uses a bitmask to represent vowel parity and a hashmap to track the first occurrence of each mask state, allowing efficient calculation of longest valid substrings.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding the longest subarray where the XOR sum of vowel parities is zero.",
+      "A bitmask efficiently encodes the parity of each vowel (a, e, i, o, u).",
+      "Storing the first seen index of each mask in a hashmap allows calculating the length of valid substrings in O(1) time."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

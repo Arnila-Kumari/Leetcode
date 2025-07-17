@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-adjacent-swaps-to-make-a-valid-array",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Find the indices of the minimum and maximum elements. Calculate swaps to move them to the leftmost and rightmost positions."
+  ],
+  "problem_summary_simple": "Move the smallest element to the start and largest to the end with minimum adjacent swaps.",
+  "problem_summary_technical": "Greedy strategy to find min/max indices and calculate swaps to bring them to ends, adjusting for overlap.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The minimum swaps to move an element to an end is its distance to that end.",
+      "The key is to find the first occurrence of the minimum and the last occurrence of the maximum.",
+      "Care must be taken if the maximum element's original position is to the left of the minimum element's original position."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

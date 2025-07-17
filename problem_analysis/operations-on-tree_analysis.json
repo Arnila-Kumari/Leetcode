@@ -1,0 +1,35 @@
+{
+  "problem_name": "operations-on-tree",
+  "data_structures": [
+    [
+      "dictionary",
+      "list",
+      "recursion/iteration for tree traversal"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Represent the tree using parent and children lists. Use a dictionary to store locked nodes and their users. Implement lock, unlock, and upgrade operations with appropriate checks and tree traversals.",
+    "The upgrade operation requires checking ancestors for locks and traversing descendants to unlock them."
+  ],
+  "problem_summary_simple": "Manage locking, unlocking, and upgrading nodes in a tree structure with user-specific permissions.",
+  "problem_summary_technical": "Maintain tree structure and locked nodes. Lock/unlock are O(1). Upgrade requires ancestor check (O(depth)) and descendant unlock (O(N) in worst case for full tree traversal).",
+  "time_complexity": [
+    "O(n) for constructor, O(1) for lock/unlock, O(n) for upgrade",
+    "O(n) for constructor, O(1) for lock/unlock, O(n) for upgrade"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Efficiently managing the tree structure (parent and children) is key for traversals.",
+      "The `upgrade` operation is the most complex, requiring careful checks for locked ancestors and unlocking of descendants.",
+      "Using a dictionary for `__locked` allows for O(1) average time complexity for lock/unlock operations."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

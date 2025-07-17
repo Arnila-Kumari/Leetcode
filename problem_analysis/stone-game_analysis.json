@@ -1,0 +1,31 @@
+{
+  "problem_name": "stone-game",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to calculate the maximum difference in scores a player can achieve."
+  ],
+  "problem_summary_simple": "Two players take turns picking stones from either end of a row to maximize their score.",
+  "problem_summary_technical": "DP approach where dp[i] stores the max score difference for subarray piles[i...].",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic game theory problem solvable with dynamic programming.",
+      "The DP state `dp[j]` represents the maximum score difference the current player can achieve from the subarray `piles[i...j]`.",
+      "The recurrence relation `dp[j] = max(piles[i] - dp[j], piles[j] - dp[j-1])` captures the optimal choices at each step."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

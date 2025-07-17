@@ -1,0 +1,44 @@
+{
+  "problem_name": "number-of-excellent-pairs",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "set"
+    ],
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting of bit counts and direct summation",
+    "Sorting bit counts and using two pointers with prefix sums"
+  ],
+  "problem_summary_simple": "Find pairs of numbers in an array whose bitwise OR and AND sum to at least k.",
+  "problem_summary_technical": "Calculates bit counts for unique numbers, then uses frequency maps or sorted arrays with two pointers to find pairs satisfying the bit sum condition.",
+  "time_complexity": [
+    "O(n + m^2) where m is unique numbers, effectively O(n) as m <= n",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The property `popcount(a | b) + popcount(a & b) = popcount(a) + popcount(b)` simplifies the condition.",
+      "Using `set(nums)` removes duplicates, as only the bit count matters for each unique number.",
+      "The first solution uses a frequency map for O(1) lookups, leading to O(m^2) for pair checking, but since m <= n, it's efficient."
+    ],
+    [
+      "The property `popcount(a | b) + popcount(a & b) = popcount(a) + popcount(b)` simplifies the condition.",
+      "Sorting the bit counts allows for an efficient two-pointer approach to find pairs.",
+      "The two-pointer approach effectively counts pairs where the sum of bit counts meets the threshold `k`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

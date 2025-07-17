@@ -1,0 +1,31 @@
+{
+  "problem_name": "merge-nodes-in-between-zeros",
+  "data_structures": [
+    [
+      "Linked List"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterate through the linked list, accumulating sums between zeros and re-linking nodes."
+  ],
+  "problem_summary_simple": "Merge nodes between zeros in a linked list by summing their values.",
+  "problem_summary_technical": "Iterate through a linked list, summing node values between consecutive zeros and modifying next pointers to create a new list without zeros.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires modifying the linked list in-place.",
+      "A single pass is sufficient by maintaining a pointer to the last non-zero node that will form the new list.",
+      "The initial and final zeros act as sentinels, simplifying boundary conditions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

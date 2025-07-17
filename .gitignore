@@ -185,6 +185,12 @@ chromedriver*
 # Uncomment the next line if you don't want to version control the documentation
 # Leet_complete/
 
+# AI Analysis results (uncomment if you don't want to commit analysis results)
+# problem_analysis/
+
+# Batch processing performance metrics
+batch_metrics_*.json
+
 # OS-specific files
 # macOS
 .DS_Store

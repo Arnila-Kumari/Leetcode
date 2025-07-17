@@ -1,0 +1,44 @@
+{
+  "problem_name": "random-pick-with-blacklist",
+  "data_structures": [
+    [
+      "hashmap",
+      "iterator"
+    ],
+    [
+      "array",
+      "binary search"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Map blacklisted numbers below a threshold to available white-listed numbers above the threshold.",
+    "Binary search on sorted blacklist to find the effective index for a random pick."
+  ],
+  "problem_summary_simple": "Pick a random integer from a range [0, n-1] that is not in a given blacklist.",
+  "problem_summary_technical": "Solution 1: Maps blacklisted numbers to available numbers to reduce the effective range. Solution 2: Uses binary search to adjust random picks based on blacklist density.",
+  "time_complexity": [
+    "ctor: O(b), pick: O(1)",
+    "ctor: O(b log b), pick: O(log b)"
+  ],
+  "space_complexity": [
+    "O(b)",
+    "O(b)"
+  ],
+  "key_insights": [
+    [
+      "The key challenge is to efficiently map a random number from the reduced valid range to an actual valid number in the original range.",
+      "Solution 1 uses a hash map to create a direct mapping, ensuring O(1) pick time.",
+      "Solution 2 relies on the fact that the number of valid elements before a certain point can be calculated efficiently using binary search on the sorted blacklist."
+    ],
+    [
+      "The number of available slots is N - len(blacklist). We can pick a random number from [0, N - len(blacklist) - 1].",
+      "If the picked number is a blacklisted number, we need to remap it to an available number.",
+      "The mapping strategy in Solution 1 is to use the available numbers from the end of the range [0, N-1] to fill in the gaps created by blacklisted numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

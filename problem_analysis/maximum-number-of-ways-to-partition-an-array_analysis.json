@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-number-of-ways-to-partition-an-array",
+  "data_structures": [
+    [
+      "hashmap",
+      "prefix sums",
+      "suffix sums"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Calculate prefix and suffix sums, use hashmaps to count occurrences of sum differences for efficient lookups."
+  ],
+  "problem_summary_simple": "Find the maximum partitions after changing at most one element to a target value.",
+  "problem_summary_technical": "Iterate through potential pivots, calculating left and right sums. Use hashmaps to store counts of sum differences for efficient checking after modification.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to check if `left_sum == right_sum` for each pivot.",
+      "Prefix sums and suffix sums can be used to quickly calculate `left_sum` and `right_sum`.",
+      "When considering changing an element, we need to efficiently query how many partitions would be valid if a change occurred."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

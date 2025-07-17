@@ -1,0 +1,38 @@
+{
+  "problem_name": "missing-number",
+  "data_structures": [
+    [],
+    []
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "XOR property: a ^ a = 0 and a ^ 0 = a. XOR all numbers in the range [0, n] and all numbers in the array.",
+    "Summation property: Sum of numbers in [0, n] minus sum of numbers in the array."
+  ],
+  "problem_summary_simple": "Find the single missing number in an array containing distinct numbers from 0 to n.",
+  "problem_summary_technical": "Utilize the XOR property or sum difference between the expected range [0, n] and the given array elements to find the missing number.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The XOR approach leverages the fact that XORing a number with itself cancels it out.",
+      "By XORing all expected numbers and all given numbers, only the missing number remains.",
+      "This method is efficient and avoids potential overflow issues with large sums."
+    ],
+    [
+      "The sum approach relies on the property that the sum of the complete range minus the sum of the given numbers will yield the missing number.",
+      "This is a straightforward arithmetic solution.",
+      "Care must be taken for potential integer overflow if `n` is very large, though constraints here are manageable."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:00:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,80 @@
+{
+  "problem_name": "divisor-game",
+  "data_structures": [
+    [
+      "boolean array for DP",
+      "list of factors"
+    ],
+    [
+      "memoization array",
+      "list of factors"
+    ],
+    [
+      "memoization array",
+      "list of factors"
+    ],
+    [
+      "memoization array",
+      "generator for factors"
+    ],
+    [
+      "memoization array",
+      "generator for factors"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical observation (parity)",
+    "Dynamic Programming with precomputed factors",
+    "Memoization with precomputed factors",
+    "Memoization with optimized factor finding",
+    "Memoization with brute-force factor finding"
+  ],
+  "problem_summary_simple": "Alice and Bob take turns subtracting a divisor from a number. The player who cannot move loses. Alice wins if n is even.",
+  "problem_summary_technical": "Game theory problem solvable by observing parity. If n is even, Alice can always leave an odd number for Bob.",
+  "time_complexity": [
+    "O(1)",
+    "O(N log N)",
+    "O(N log N)",
+    "O(N^(3/2))",
+    "O(N^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(N log N)",
+    "O(N)",
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The game's outcome depends on the parity of the number.",
+      "If the current number is even, the current player can always choose x=1, leaving an odd number for the opponent.",
+      "If the current number is odd, any divisor x must also be odd, resulting in an even number (odd - odd = even) for the opponent."
+    ],
+    [
+      "This is a typical game theory problem that can be solved with dynamic programming or memoization.",
+      "The state `dp[i]` represents whether the current player wins starting with number `i`.",
+      "A player wins if they can make a move to a state where the opponent loses (`not dp[i-j]`)."
+    ],
+    [
+      "Pre-calculating factors for each number up to N can optimize the recursive calls.",
+      "Memoization prevents redundant calculations for the same number.",
+      "The base cases are implicitly handled by the `any` function on an empty iterable (returning False)."
+    ],
+    [
+      "Optimizing factor finding to `sqrt(n)` significantly improves performance for larger N.",
+      "The recursive structure naturally explores winning and losing states.",
+      "The problem can be viewed as finding if there's a move to a losing state for the opponent."
+    ],
+    [
+      "A simpler, though less efficient, factor finding method iterates from 1 to n.",
+      "Memoization is crucial to avoid exponential time complexity.",
+      "The core logic remains: a player wins if they can force the opponent into a losing position."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

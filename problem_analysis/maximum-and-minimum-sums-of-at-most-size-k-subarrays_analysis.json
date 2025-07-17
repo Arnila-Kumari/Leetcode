@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-and-minimum-sums-of-at-most-size-k-subarrays",
+  "data_structures": [
+    [
+      "deque (for monotonic queue)",
+      "integer"
+    ],
+    [
+      "deque (for monotonic queue)",
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with monotonic deque to find min/max in subarrays",
+    "Sliding window with monotonic deque to find min/max in subarrays"
+  ],
+  "problem_summary_simple": "Calculate the sum of minimum and maximum elements across all subarrays of size at most k.",
+  "problem_summary_technical": "Uses sliding window and monotonic deques to efficiently find min/max in subarrays of size up to k.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to efficiently find the minimum and maximum element within a sliding window.",
+      "Monotonic deques (increasing for min, decreasing for max) are crucial for O(1) min/max retrieval.",
+      "The problem requires summing these min/max values for all valid subarrays."
+    ],
+    [
+      "The core idea is to efficiently find the minimum and maximum element within a sliding window.",
+      "Monotonic deques (increasing for min, decreasing for max) are crucial for O(1) min/max retrieval.",
+      "The problem requires summing these min/max values for all valid subarrays."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

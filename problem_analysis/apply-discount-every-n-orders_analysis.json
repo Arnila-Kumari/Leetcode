@@ -1,0 +1,35 @@
+{
+  "problem_name": "apply-discount-every-n-orders",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer",
+      "integer",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Use a hashmap to store product prices. Track customer count and apply discount every nth customer."
+  ],
+  "problem_summary_simple": "Implement a cashier that applies a discount to every nth customer's bill.",
+  "problem_summary_technical": "Store product prices in a hashmap. Maintain a customer counter, applying discount when counter is zero modulo n.",
+  "time_complexity": [
+    "ctor: O(m), getBill: O(p)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "A hashmap is ideal for efficient price lookups based on product ID.",
+      "A modulo operation on a customer counter is key to applying the discount at the correct intervals.",
+      "Floating-point arithmetic is necessary for calculating discounted prices."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

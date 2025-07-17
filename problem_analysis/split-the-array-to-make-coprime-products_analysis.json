@@ -1,0 +1,32 @@
+{
+  "problem_name": "split-the-array-to-make-coprime-products",
+  "data_structures": [
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "prime factorization and sliding window with prime counts"
+  ],
+  "problem_summary_simple": "Find the first split point where the product of left and right parts are coprime.",
+  "problem_summary_technical": "Iterate through splits, maintaining prime factor counts for left and right products to check for coprimality using GCD.",
+  "time_complexity": [
+    "O(n * sqrt(r))"
+  ],
+  "space_complexity": [
+    "O(sqrt(r))"
+  ],
+  "key_insights": [
+    [
+      "Coprime means the greatest common divisor (GCD) is 1.",
+      "This implies no common prime factors between the two products.",
+      "Efficiently track prime factor counts in a sliding window approach.",
+      "Pre-calculating prime factors for each number is crucial."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

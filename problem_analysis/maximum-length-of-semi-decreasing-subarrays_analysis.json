@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-length-of-semi-decreasing-subarrays",
+  "data_structures": [
+    [
+      "stack",
+      "list"
+    ],
+    [
+      "list",
+      "sorted list"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic Stack",
+    "Sorting indices"
+  ],
+  "problem_summary_simple": "Find the longest subarray where the first element is strictly greater than the last.",
+  "problem_summary_technical": "Uses a monotonic stack or sorted indices to efficiently find pairs of (start, end) satisfying the condition.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding `max(j - i + 1)` such that `nums[i] > nums[j]` for `i < j`.",
+      "A monotonic decreasing stack (storing indices) can help find potential `j` values for each `i`.",
+      "Iterating from right to left to build the stack simplifies finding the next smaller element."
+    ],
+    [
+      "Sort indices based on values in descending order.",
+      "Iterate through the array, and for each element `nums[left]`, find the furthest index `idx` from the sorted list such that `nums[idx] < nums[left]`.",
+      "This approach is conceptually similar to the monotonic stack but uses sorting."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "shuffle-an-array",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Fisher-Yates (Knuth) Shuffle"
+  ],
+  "problem_summary_simple": "Randomly shuffle an array such that all permutations are equally likely.",
+  "problem_summary_technical": "Implements Fisher-Yates shuffle by iterating and swapping elements with a random element from the remaining unsorted part.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The Fisher-Yates shuffle guarantees uniform probability for all permutations.",
+      "A copy of the original array is needed to maintain the reset functionality.",
+      "The `random.randint(i, len(nums)-1)` ensures each element has an equal chance of being placed at the current position."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

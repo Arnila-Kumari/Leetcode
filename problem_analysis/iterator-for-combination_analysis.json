@@ -1,0 +1,45 @@
+{
+  "problem_name": "iterator-for-combination",
+  "data_structures": [
+    [
+      "iterator",
+      "string"
+    ],
+    [
+      "list",
+      "iterator",
+      "string"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Using Python's itertools.combinations for generating combinations",
+    "Iterative backtracking to generate combinations"
+  ],
+  "problem_summary_simple": "Create an iterator that yields all combinations of a given length from a string.",
+  "problem_summary_technical": "Implement an iterator to generate lexicographical combinations using `itertools` or iterative backtracking.",
+  "time_complexity": [
+    "O(k) per operation",
+    "O(k) per operation"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "Leverage the `itertools.combinations` function for a concise and efficient solution.",
+      "The `hasNext` method needs to track the last generated combination to determine if more exist.",
+      "The constraints on `combinationLength` and `characters.length` are small, making this feasible."
+    ],
+    [
+      "Iterative backtracking can be implemented using a stack to manage recursive calls.",
+      "The state for backtracking includes the current combination being built and the index to pick the next character from.",
+      "Careful management of the stack and state is crucial for correctness and efficiency."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

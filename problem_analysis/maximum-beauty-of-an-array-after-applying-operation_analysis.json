@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-beauty-of-an-array-after-applying-operation",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sort the array and use a sliding window to find the longest subarray where elements can be made equal."
+  ],
+  "problem_summary_simple": "Find the longest subsequence of equal elements after changing elements within a given range.",
+  "problem_summary_technical": "After sorting, use a sliding window to find the longest subarray where `nums[right] - nums[left] <= 2*k`.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "If we want to make a subsequence of equal elements, say to value `x`, any original element `nums[i]` can be transformed to `x` if `nums[i] - k <= x <= nums[i] + k`.",
+      "This means `x` must be in the range `[nums[i] - k, nums[i] + k]`.",
+      "For a subsequence of equal elements to be possible, all elements in the subsequence must be transformable to a common value `x`. This implies that for any two elements `nums[i]` and `nums[j]` in the subsequence, their ranges `[nums[i]-k, nums[i]+k]` and `[nums[j]-k, nums[j]+k]` must overlap.",
+      "The most restrictive condition for overlap is when the difference between the maximum possible value of one and the minimum possible value of another is considered. If we sort the array, and consider a window `[left, right]`, we can make all elements equal to some value `x` if `nums[right] - nums[left] <= 2*k`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

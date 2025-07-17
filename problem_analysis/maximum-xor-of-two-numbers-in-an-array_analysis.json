@@ -1,0 +1,42 @@
+{
+  "problem_name": "maximum-xor-of-two-numbers-in-an-array",
+  "data_structures": [
+    [
+      "Trie"
+    ],
+    [
+      "Set"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Trie insertion and query to find max XOR pair",
+    "Greedy bitwise check using prefixes and a set"
+  ],
+  "problem_summary_simple": "Find the maximum XOR value between any two numbers in an array.",
+  "problem_summary_technical": "Utilizes a Trie to efficiently find the number that maximizes XOR with each element, or a greedy bitwise approach.",
+  "time_complexity": [
+    "O(n * log(max_num))",
+    "O(n * log(max_num))"
+  ],
+  "space_complexity": [
+    "O(n * log(max_num))",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A Trie is ideal for bitwise operations, allowing efficient searching for complementary bits.",
+      "The greedy approach iterates from MSB to LSB, trying to set the current bit of the result to 1.",
+      "The bit_length of the Trie should be determined by the maximum number in the input array."
+    ],
+    [
+      "The Trie solution builds the Trie as it iterates, querying for the maximum XOR with the current number.",
+      "The second solution iterates through bits, checking if a potential maximum XOR prefix exists.",
+      "Both solutions aim to maximize the XOR from the most significant bit downwards."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

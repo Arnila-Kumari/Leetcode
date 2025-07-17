@@ -1,0 +1,32 @@
+{
+  "problem_name": "largest-subarray-length-k",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "two pointers with comparison logic"
+  ],
+  "problem_summary_simple": "Find the lexicographically largest subarray of a given length k.",
+  "problem_summary_technical": "Use two pointers to compare potential starting subarrays of length k, advancing pointers based on lexicographical comparison to find the largest.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem defines 'larger' lexicographically, meaning the first differing element determines the larger subarray.",
+      "Two pointers (`left` and `right`) track the start of two candidate subarrays.",
+      "When elements match, a third pointer `l` extends the comparison; if they differ, the pointer corresponding to the smaller element is advanced significantly.",
+      "The `max(right, min(left+l+1, len(nums)-k))` ensures the `left` pointer is moved to a valid starting position for a subarray of length k."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

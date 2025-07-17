@@ -1,0 +1,39 @@
+{
+  "problem_name": "number-of-bit-changes-to-make-two-integers-equal",
+  "data_structures": [
+    [
+      "none"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Calculate the bitwise XOR of n and k. The number of set bits (population count) in the result is the number of differing bits.",
+    "Check if all set bits in k are also set in n. If so, the number of changes is the population count of n XOR k."
+  ],
+  "problem_summary_simple": "Find the minimum bit changes to make n equal to k, given that only '1' bits in n can be changed to '0'.",
+  "problem_summary_technical": "Determine if k can be formed from n by changing '1's to '0's. If possible, count differing bits using XOR and popcount.",
+  "time_complexity": [
+    "O(logN)",
+    "O(logN)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that changing a '1' bit to '0' is the only allowed operation.",
+      "This means that if `k` has a '1' bit where `n` has a '0' bit, it's impossible to reach `k` from `n`.",
+      "The bitwise XOR operation (`n ^ k`) directly gives us the bits that are different between `n` and `k`. The number of set bits in this XOR result is the number of changes needed."
+    ],
+    [
+      "The core idea is that changing a '1' bit to '0' is the only allowed operation.",
+      "This means that if `k` has a '1' bit where `n` has a '0' bit, it's impossible to reach `k` from `n`. This condition can be checked with `n & k == k` or `n | (n^k) == n`.",
+      "The bitwise XOR operation (`n ^ k`) directly gives us the bits that are different between `n` and `k`. The number of set bits in this XOR result is the number of changes needed."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

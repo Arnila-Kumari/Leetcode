@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-increment-operations-to-make-array-beautiful",
+  "data_structures": [
+    [
+      "array",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with rolling array optimization"
+  ],
+  "problem_summary_simple": "Make an array beautiful by increasing elements, where every subarray of size 3+ has a max >= k.",
+  "problem_summary_technical": "DP state `dp[i]` is the minimum increments for the prefix ending at index `i`. Uses a rolling array of size 3.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The condition 'for any subarray with a size of 3 or more' implies that we only need to ensure that for any `i`, `max(nums[i], nums[i+1], nums[i+2]) >= k`.",
+      "This can be solved using DP where `dp[i]` represents the minimum cost to make the prefix `nums[0...i]` beautiful.",
+      "A rolling array of size 3 is sufficient because the condition only depends on a window of 3 elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

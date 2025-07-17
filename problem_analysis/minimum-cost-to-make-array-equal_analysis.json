@@ -1,0 +1,56 @@
+{
+  "problem_name": "minimum-cost-to-make-array-equal",
+  "data_structures": [
+    [
+      "list",
+      "range"
+    ],
+    [
+      "list",
+      "range"
+    ],
+    [
+      "list",
+      "range"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the target value, using prefix sums to calculate cost efficiently.",
+    "Binary search on sorted indices to find the median, then calculate cost.",
+    "Prefix sums and suffix sums to calculate cost changes iteratively."
+  ],
+  "problem_summary_simple": "Find the minimum cost to make all array elements equal by changing them, with costs associated with each element.",
+  "problem_summary_technical": "Minimize sum of |nums[i] - target| * cost[i] by finding optimal target value, often the weighted median.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The optimal target value is the weighted median of the numbers.",
+      "Binary search can be used to find the weighted median efficiently.",
+      "Prefix sums help in calculating costs for ranges quickly."
+    ],
+    [
+      "Sorting the numbers allows for efficient median finding.",
+      "The cost function is convex, allowing binary search on the answer.",
+      "The median minimizes the sum of absolute differences."
+    ],
+    [
+      "The cost function's derivative changes at each number.",
+      "Iterating through sorted numbers and updating costs using prefix/suffix sums is efficient.",
+      "This approach avoids explicit binary search on the target value."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

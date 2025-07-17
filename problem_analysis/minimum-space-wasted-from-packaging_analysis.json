@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-space-wasted-from-packaging",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach with sorting and binary search (bisect_right)."
+  ],
+  "problem_summary_simple": "Minimize wasted space by choosing the best supplier and their boxes for packages.",
+  "problem_summary_technical": "Sort packages and each supplier's boxes. For each supplier, use binary search to find the smallest box for each package group.",
+  "time_complexity": [
+    "O(m * n log n + n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting both packages and boxes is essential for an efficient greedy strategy.",
+      "For each supplier, we iterate through their boxes and use binary search to find the optimal fit for contiguous groups of packages.",
+      "The `bisect_right` function is key to finding the end of a package group that fits in a box."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

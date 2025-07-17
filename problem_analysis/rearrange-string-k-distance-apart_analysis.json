@@ -1,0 +1,45 @@
+{
+  "problem_name": "rearrange-string-k-distance-apart",
+  "data_structures": [
+    [
+      "Counter (hash map)",
+      "list",
+      "heap (priority queue)"
+    ],
+    [
+      "Counter (hash map)",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach using a max-heap to prioritize characters with higher frequencies, ensuring k-distance apart.",
+    "Bucket sort-like distribution based on character counts and k-distance."
+  ],
+  "problem_summary_simple": "Rearrange a string so that identical characters are at least k positions apart.",
+  "problem_summary_technical": "Use a max-heap to place most frequent characters first, ensuring k-distance, or distribute characters into buckets based on frequency.",
+  "time_complexity": [
+    "O(n log c)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(c)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy with a max-heap is effective because placing the most frequent characters first helps satisfy the k-distance constraint.",
+      "When a character is used, it's temporarily put aside (in a 'wait' list or similar) until k positions have passed.",
+      "The condition `k <= 1` is a base case where no rearrangement is needed."
+    ],
+    [
+      "This approach attempts to distribute characters evenly across 'buckets' defined by the k-distance.",
+      "It checks feasibility by ensuring no bucket has too many characters or that the most frequent character doesn't exceed a calculated limit.",
+      "The sorting of characters based on their counts is key to this distribution strategy."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:34:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

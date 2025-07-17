@@ -1,0 +1,33 @@
+{
+  "problem_name": "sum-of-consecutive-subsequences",
+  "data_structures": [
+    [
+      "array",
+      "hashmap",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with frequency and prefix sum tracking for consecutive subsequences."
+  ],
+  "problem_summary_simple": "Calculate the sum of values of all consecutive subsequences (increasing or decreasing by 1) in an array.",
+  "problem_summary_technical": "Uses DP with frequency and prefix sum maps to efficiently count and sum consecutive subsequences ending at each element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem is similar to sum-of-consecutive-subarrays but deals with subsequences, requiring a DP approach.",
+      "The DP state needs to track the count of consecutive subsequences ending at a number and their total sum.",
+      "The logic involves extending existing consecutive subsequences by adding the current number, considering both +1 and -1 differences."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

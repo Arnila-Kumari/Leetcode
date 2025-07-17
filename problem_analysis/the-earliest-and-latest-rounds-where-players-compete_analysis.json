@@ -1,0 +1,33 @@
+{
+  "problem_name": "the-earliest-and-latest-rounds-where-players-compete",
+  "data_structures": [
+    [
+      "dictionary",
+      "list"
+    ]
+  ],
+  "category": "Dynamic Programming",
+  "algorithm_technique": [
+    "Memoized recursion (top-down dynamic programming) to explore all possible outcomes.",
+    "State representation: (total_players, players_left_of_first, players_right_of_second)."
+  ],
+  "problem_summary_simple": "Find the earliest and latest rounds two specific players compete in a tournament.",
+  "problem_summary_technical": "Memoized recursion explores game outcomes, calculating earliest/latest rounds based on player positions and win probabilities.",
+  "time_complexity": [
+    "O(n^4)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires exploring all possible outcomes of matches where players are not the top two.",
+      "Dynamic programming with memoization is suitable to avoid recomputing results for the same subproblems.",
+      "The state needs to capture the current number of players and the relative positions of the target players."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:12:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

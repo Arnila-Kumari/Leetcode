@@ -1,0 +1,31 @@
+{
+  "problem_name": "time-needed-to-buy-tickets",
+  "data_structures": [
+    [
+      "list of integers"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate time based on how many tickets each person buys before the target person finishes."
+  ],
+  "problem_summary_simple": "Calculate the time for a specific person to buy all their tickets in a queue.",
+  "problem_summary_technical": "Sum the tickets bought by each person: min(their tickets, target person's tickets) if before or at k, else target person's tickets - 1.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by directly calculating the time without simulating the queue.",
+      "People before or at index k will buy `min(their_tickets, tickets[k])` tickets.",
+      "People after index k will buy `tickets[k] - 1` tickets, as the k-th person will finish before them."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:12:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

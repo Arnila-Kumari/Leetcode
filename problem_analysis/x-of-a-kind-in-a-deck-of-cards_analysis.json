@@ -1,0 +1,32 @@
+{
+  "problem_name": "x-of-a-kind-in-a-deck-of-cards",
+  "data_structures": [
+    [
+      "hashmap",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count frequencies, then find GCD of counts."
+  ],
+  "problem_summary_simple": "Group cards into sets of size x > 1, where all cards in a set are identical.",
+  "problem_summary_technical": "Determine if card counts have a common divisor greater than 1 using frequency maps and GCD.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that if a partition is possible, the count of each distinct card must be divisible by the group size 'x'.",
+      "Therefore, 'x' must be a common divisor of all card counts.",
+      "Finding the greatest common divisor (GCD) of all card counts is sufficient to determine if such an 'x' exists (x > 1)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

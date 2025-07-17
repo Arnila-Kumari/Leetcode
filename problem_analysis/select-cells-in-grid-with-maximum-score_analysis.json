@@ -1,0 +1,46 @@
+{
+  "problem_name": "select-cells-in-grid-with-maximum-score",
+  "data_structures": [
+    [
+      "2D matrix",
+      "adjacency matrix",
+      "arrays for Hungarian algorithm"
+    ],
+    [
+      "2D matrix",
+      "array for DP",
+      "set for lookup"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Hungarian algorithm for maximum weight bipartite matching.",
+    "Dynamic programming with bitmasking to explore combinations of unique cell selections."
+  ],
+  "problem_summary_simple": "Select unique values from a grid, one per row, to maximize the sum of selected values.",
+  "problem_summary_technical": "Model as maximum weight bipartite matching (Hungarian algorithm) or use DP with bitmasking to track row selections and unique values.",
+  "time_complexity": [
+    "O(n^2 * max(n, r))",
+    "O(r + (n * m) * 2^n)"
+  ],
+  "space_complexity": [
+    "O(n * max(n, r))",
+    "O(r + n * m + 2^n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as finding a maximum weight matching in a bipartite graph where rows are one set of vertices and possible values are the other.",
+      "The Hungarian algorithm is a standard approach for solving the assignment problem (maximum weight bipartite matching).",
+      "The DP with bitmasking approach explores all valid combinations of selecting cells, ensuring uniqueness and row constraints."
+    ],
+    [
+      "The DP state `dp[mask]` represents the maximum score achievable by selecting cells from rows represented by the set bits in `mask`.",
+      "The `lookup` array helps efficiently find which rows contain a specific value, aiding the DP transitions.",
+      "The time complexity of the DP approach is exponential in the number of rows, making it suitable for small `n`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

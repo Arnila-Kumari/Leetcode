@@ -1,0 +1,32 @@
+{
+  "problem_name": "complex-number-multiplication",
+  "data_structures": [
+    [
+      "string parsing",
+      "integer arithmetic"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Parsing complex number strings and applying the complex multiplication formula."
+  ],
+  "problem_summary_simple": "Multiply two complex numbers given as strings.",
+  "problem_summary_technical": "Parse real and imaginary parts, apply (a+bi)(c+di) = (ac-bd) + (ad+bc)i, and format output.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to correctly parse the real and imaginary parts from the string format.",
+      "The multiplication formula for complex numbers is (a+bi)(c+di) = ac + adi + bci + bdi^2 = (ac - bd) + (ad + bc)i.",
+      "Careful formatting of the output string is required."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

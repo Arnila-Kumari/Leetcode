@@ -1,0 +1,32 @@
+{
+  "problem_name": "special-binary-string",
+  "data_structures": [
+    [
+      "string",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Recursive decomposition and sorting of special substrings"
+  ],
+  "problem_summary_simple": "Rearrange special binary substrings to get the lexicographically largest string.",
+  "problem_summary_technical": "Recursively break down the string into special substrings, sort them, and reconstruct to achieve the lexicographically largest result.",
+  "time_complexity": [
+    "O(N^2 log N) or O(N^2) depending on sorting and substring operations"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "A special binary string can be recursively decomposed into smaller special binary strings.",
+      "The key insight is that any two consecutive special substrings can be swapped.",
+      "To get the lexicographically largest string, we sort the special substrings in descending order at each recursive step."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

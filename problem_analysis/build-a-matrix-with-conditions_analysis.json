@@ -1,0 +1,33 @@
+{
+  "problem_name": "build-a-matrix-with-conditions",
+  "data_structures": [
+    [
+      "adjacency list (for graph)",
+      "queue (for BFS)",
+      "dictionary (for index mapping)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Topological sort for row and column ordering"
+  ],
+  "problem_summary_simple": "Build a kxk matrix satisfying row and column ordering conditions for numbers 1 to k.",
+  "problem_summary_technical": "Performs topological sort on row and column conditions to determine valid orderings, then constructs the matrix based on these orders.",
+  "time_complexity": [
+    "O(k^2 + R + C) where R and C are the number of row/column conditions"
+  ],
+  "space_complexity": [
+    "O(k + R + C)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding valid topological sorts for two directed acyclic graphs (DAGs).",
+      "If a cycle is detected in either graph (topological sort fails), no valid matrix exists.",
+      "The positions of numbers in the matrix are determined by their order in the topological sorts."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:33:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,37 @@
+{
+  "problem_name": "maximum-number-of-k-divisible-components",
+  "data_structures": [
+    [
+      "adjacency list",
+      "queue",
+      "array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "BFS on leaf nodes of the tree, propagating sums modulo k upwards.",
+    "Greedy approach: cut edges where the subtree sum modulo k is zero."
+  ],
+  "problem_summary_simple": "Split a tree into components where each component's node value sum is divisible by k, maximizing component count.",
+  "problem_summary_technical": "Perform a BFS starting from leaves, accumulating node values modulo k. Cut edges if subtree sum is divisible by k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using a post-order traversal (or BFS from leaves) on the tree.",
+      "The sum of values in a component must be divisible by k."
+    ],
+    [
+      "When a subtree's sum is divisible by k, it can form a valid component, and its contribution to the parent's sum becomes 0.",
+      "The total sum of all nodes is guaranteed to be divisible by k."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

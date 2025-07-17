@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-connected-components-in-an-undirected-graph",
+  "data_structures": [
+    [
+      "UnionFind (custom class)",
+      "Array (internal to UnionFind)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find with path compression and union by rank/size (implicit)"
+  ],
+  "problem_summary_simple": "Count how many separate groups of connected nodes exist in a graph.",
+  "problem_summary_technical": "Utilizes Union-Find data structure to efficiently track connected components by merging sets for each edge.",
+  "time_complexity": [
+    "O(E * alpha(N)) where E is number of edges, N is number of nodes, and alpha is inverse Ackermann function (nearly constant)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Union-Find is ideal for problems involving disjoint sets and connectivity.",
+      "Path compression significantly optimizes the `find_set` operation.",
+      "The initial count of components is `n`, decreasing by 1 for each successful union."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

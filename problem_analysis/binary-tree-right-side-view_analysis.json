@@ -1,0 +1,46 @@
+{
+  "problem_name": "binary-tree-right-side-view",
+  "data_structures": [
+    [
+      "TreeNode",
+      "List",
+      "Stack"
+    ],
+    [
+      "TreeNode",
+      "List",
+      "Queue"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) with level tracking",
+    "Breadth-First Search (BFS) level by level"
+  ],
+  "problem_summary_simple": "Return the values of nodes visible from the right side of a binary tree, top to bottom.",
+  "problem_summary_technical": "Use DFS or BFS to traverse the tree, collecting the rightmost node at each level.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(w)"
+  ],
+  "key_insights": [
+    [
+      "DFS approach: Prioritize visiting the right child first. The first node encountered at a new depth is the rightmost.",
+      "The `depth > len(result)` check ensures we only add the first (rightmost) node seen at a particular depth.",
+      "The order of recursive calls (right then left) is crucial for the DFS approach."
+    ],
+    [
+      "BFS approach: Process the tree level by level. The last node processed in each level is the rightmost.",
+      "A queue is used to manage nodes at the current level.",
+      "The `node.val` is appended to the result after iterating through all nodes in the current level, effectively capturing the rightmost."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "palindrome-rearrangement-queries",
+  "data_structures": [
+    [
+      "prefix sum array",
+      "2D prefix sum arrays (frequency tables)"
+    ],
+    [
+      "prefix sum array",
+      "2D prefix sum arrays (frequency tables)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sums for character counts and difference checking",
+    "Prefix sums for character counts and difference checking"
+  ],
+  "problem_summary_simple": "Check if rearranging substrings can make the whole string a palindrome.",
+  "problem_summary_technical": "Use prefix sums to count character frequencies in halves and check if rearrangements can balance them.",
+  "time_complexity": [
+    "O(26*n + 26*q)",
+    "O(26*n + 26*q)"
+  ],
+  "space_complexity": [
+    "O(26*n)",
+    "O(26*n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reduced to checking if the character counts in the left and right halves of the string can be made equal after rearrangements.",
+      "Prefix sums are used to efficiently query character counts within any substring of the left and right halves.",
+      "The core logic involves comparing character counts between the rearranged segments and the remaining parts of the string."
+    ],
+    [
+      "The solution relies on prefix sums to quickly determine character frequencies in arbitrary ranges.",
+      "The key is to compare the character counts of the left half's segments with the corresponding segments of the right half (reversed).",
+      "The `check` function handles various overlap scenarios between the query ranges."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:04:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

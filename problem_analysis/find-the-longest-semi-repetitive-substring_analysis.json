@@ -1,0 +1,30 @@
+{
+  "problem_name": "find-the-longest-semi-repetitive-substring",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Two pointers (sliding window) to track valid substrings with at most one adjacent duplicate."
+  ],
+  "problem_summary_simple": "Find the longest substring with at most one pair of adjacent identical digits.",
+  "problem_summary_technical": "Utilizes a sliding window with two pointers to maintain a substring satisfying the semi-repetitive condition, updating window boundaries based on adjacent character checks.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to expand the window with the right pointer and shrink it with the left pointer when the semi-repetitive condition is violated.",
+      "A 'prev' pointer helps efficiently reset the left boundary when a new adjacent duplicate pair is encountered."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

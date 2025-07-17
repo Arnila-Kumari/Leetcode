@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-common-suffix-queries",
+  "data_structures": [
+    [
+      "Trie"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Build a Trie of reversed strings from wordsContainer. Query by traversing Trie with reversed wordsQuery.",
+    "Trie stores minimum length and index for each suffix encountered."
+  ],
+  "problem_summary_simple": "For each query string, find the container string with the longest common suffix, then shortest length, then earliest index.",
+  "problem_summary_technical": "A Trie built on reversed strings efficiently finds the longest common suffix and associated minimum length/index for query strings.",
+  "time_complexity": [
+    "O((N + Q) * L) where N is container size, Q is query size, L is max string length"
+  ],
+  "space_complexity": [
+    "O(T) where T is total characters in wordsContainer"
+  ],
+  "key_insights": [
+    [
+      "Reversing strings allows us to use a Trie to find common suffixes.",
+      "Each node in the Trie should store the minimum length and index of strings passing through it.",
+      "The query involves traversing the Trie with the reversed query string to find the best match."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

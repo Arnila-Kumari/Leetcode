@@ -1,18 +1,18 @@
 Problem: count-good-triplets-in-an-array
-Submission ID: 1695597104
-Submission Time: 2025-07-12 12:19:47
+Submission ID: 1700873703
+Submission Time: 2025-07-16 22:31:27
 ============================================================
 
 State: SUCCESS
 Status: Accepted
 Language: Python
 
-Runtime: 671 ms
-Memory: 24.75 MB
+Runtime: 697 ms
+Memory: 24.72 MB
 
 Test Cases: 148/148 passed
 
-Runtime Percentile: 100%
+Runtime Percentile: 91.30439999999999%
 Memory Percentile: 100%
 
 ============================================================
@@ -22,26 +22,26 @@ RAW SUBMISSION DATA
   "status_code": 10,
   "lang": "python",
   "run_success": true,
-  "status_runtime": "671 ms",
-  "memory": 24752000,
-  "display_runtime": "671",
+  "status_runtime": "697 ms",
+  "memory": 24724000,
+  "display_runtime": "697",
   "question_id": "2280",
-  "elapsed_time": 753,
+  "elapsed_time": 823,
   "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
   "code_output": "",
   "std_output": "",
   "last_testcase": "",
   "expected_output": "",
-  "task_finish_time": 1752347986715,
+  "task_finish_time": 1752730286882,
   "task_name": "judger.judgetask.Judge",
   "finished": true,
   "total_correct": 148,
   "total_testcases": 148,
-  "runtime_percentile": 100,
-  "status_memory": "24.8 MB",
+  "runtime_percentile": 91.30439999999999,
+  "status_memory": "24.7 MB",
   "memory_percentile": 100,
   "pretty_lang": "Python",
-  "submission_id": "1695597104",
+  "submission_id": "1700873703",
   "status_msg": "Accepted",
   "state": "SUCCESS"
 }

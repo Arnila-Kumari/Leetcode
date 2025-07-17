@@ -1,0 +1,38 @@
+{
+  "problem_name": "sum-of-k-subarrays-with-length-at-least-m",
+  "data_structures": [
+    [
+      "prefix sum array",
+      "dynamic programming array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with prefix sums to find maximum sum of k non-overlapping subarrays of minimum length m",
+    "Dynamic programming with prefix sums to find maximum sum of k non-overlapping subarrays of minimum length m"
+  ],
+  "problem_summary_simple": "Find the maximum sum of k non-overlapping subarrays, each at least m length.",
+  "problem_summary_technical": "Uses DP to find the max sum of k subarrays, each of length at least m, considering non-overlapping constraints.",
+  "time_complexity": [
+    "O(k * n)",
+    "O(k * n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The DP state `dp[i]` represents the maximum sum using `i` subarrays.",
+      "The inner loop calculates the maximum sum ending at `j` by considering the previous `i-1` subarrays and the current subarray of length at least `m`."
+    ],
+    [
+      "The `mx` variable efficiently tracks the maximum sum of `i-1` subarrays ending before the current subarray's start.",
+      "The `prefix` sum array is crucial for calculating subarray sums in O(1) time."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

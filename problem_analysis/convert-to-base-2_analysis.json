@@ -1,0 +1,46 @@
+{
+  "problem_name": "convert-to-base-2",
+  "data_structures": [
+    [
+      "integer",
+      "string",
+      "list"
+    ],
+    [
+      "integer",
+      "string",
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Use bitwise operations and a loop to convert to base -2.",
+    "Use divmod with negative base and handle negative remainders."
+  ],
+  "problem_summary_simple": "Convert an integer to its base -2 (negative binary) representation.",
+  "problem_summary_technical": "Convert an integer to base -2 by repeatedly taking the remainder and quotient with -2, handling negative remainders appropriately.",
+  "time_complexity": [
+    "O(log n)",
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is similar to converting to any base, but with a negative base, remainders can be negative.",
+      "The bitwise approach `-(N & 1)` and `-(N >> 1)` cleverly handles the negative base conversion.",
+      "The result needs to be reversed as digits are generated from least significant to most significant."
+    ],
+    [
+      "The `divmod` function in Python is useful for base conversions.",
+      "When the remainder `r` is negative, we adjust it by adding the base (`-2`) and incrementing the quotient (`N`).",
+      "The resulting string should not have leading zeros unless it's just '0'."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

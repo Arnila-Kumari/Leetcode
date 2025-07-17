@@ -1,0 +1,31 @@
+{
+  "problem_name": "paths-in-maze-that-lead-to-same-room",
+  "data_structures": [
+    [
+      "Adjacency list (list of sets)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Graph traversal and cycle detection"
+  ],
+  "problem_summary_simple": "Find the number of unique 3-node cycles in a maze represented by rooms and corridors.",
+  "problem_summary_technical": "Iterate through all possible triplets of nodes (i, j, k) and check if they form a cycle using an adjacency list.",
+  "time_complexity": [
+    "O(V^3)"
+  ],
+  "space_complexity": [
+    "O(V + E)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for cycles of length 3 (triangles) in an undirected graph.",
+      "An efficient way to find triangles is to iterate through each node, then its neighbors, and then their neighbors to check for a closing edge.",
+      "Using sets for adjacency lists allows for O(1) average time complexity for checking edge existence."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

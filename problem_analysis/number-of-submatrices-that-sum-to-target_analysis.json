@@ -1,0 +1,33 @@
+{
+  "problem_name": "number-of-submatrices-that-sum-to-target",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "list"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Reduce to 1D subarray sum problem by fixing row boundaries and using prefix sums with a hashmap.",
+    "Iterate through all possible top-left and bottom-right corners of submatrices and sum elements."
+  ],
+  "problem_summary_simple": "Count submatrices within a given matrix whose elements sum up to a target value.",
+  "problem_summary_technical": "Uses 2D prefix sums and a hashmap to efficiently count subarrays summing to target after reducing to 1D.",
+  "time_complexity": [
+    "O(min(m, n)^2 * max(m, n))"
+  ],
+  "space_complexity": [
+    "O(max(m, n))"
+  ],
+  "key_insights": [
+    [
+      "The problem can be transformed into a 1D problem by fixing the top and bottom rows of a submatrix.",
+      "For each pair of rows, calculate the sum of elements between them for each column, creating a 1D array.",
+      "Then, use the standard 'subarray sum equals k' technique (prefix sums and hashmap) on this 1D array."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:02:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

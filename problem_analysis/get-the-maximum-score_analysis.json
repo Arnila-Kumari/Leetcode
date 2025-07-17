@@ -1,0 +1,32 @@
+{
+  "problem_name": "get-the-maximum-score",
+  "data_structures": [
+    [
+      "array",
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to traverse sorted arrays, summing segments between common elements."
+  ],
+  "problem_summary_simple": "Find the maximum sum path by traversing two sorted arrays, switching at common elements.",
+  "problem_summary_technical": "Use two pointers to iterate through sorted `nums1` and `nums2`, summing segments and choosing the max at intersections.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding maximum sums of segments between common elements.",
+      "Two pointers are ideal for traversing sorted arrays efficiently.",
+      "Modulo arithmetic is crucial for handling large sums."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

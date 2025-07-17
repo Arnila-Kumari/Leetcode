@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-total-cost-to-make-arrays-unequal",
+  "data_structures": [
+    [
+      "hash map (collections.Counter)",
+      "deque"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy strategy focusing on fixing mismatches with minimum cost swaps."
+  ],
+  "problem_summary_simple": "Find the minimum cost to make all elements in nums1 different from nums2 by swapping elements in nums1.",
+  "problem_summary_technical": "Greedily swaps elements at matching positions with minimum index cost, prioritizing fixing majority mismatches.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The initial cost is the sum of indices where nums1[i] == nums2[i].",
+      "The problem reduces to resolving the mismatches where nums1[i] == nums2[i] by swapping these elements with elements at non-matching positions.",
+      "A greedy approach works by identifying the most frequent matching element and using it to resolve other mismatches with minimal cost."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

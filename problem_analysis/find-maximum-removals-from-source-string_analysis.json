@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-maximum-removals-from-source-string",
+  "data_structures": [
+    [
+      "array",
+      "boolean array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to track subsequence matches while considering removals."
+  ],
+  "problem_summary_simple": "Find the maximum number of characters to remove from a string while keeping a pattern as a subsequence.",
+  "problem_summary_technical": "Uses DP to find the longest subsequence match of 'pattern' in 'source' considering removals from 'targetIndices'.",
+  "time_complexity": [
+    "O(n * m)"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "The DP state `dp[j]` represents the maximum number of removals possible to form the first `j` characters of the pattern.",
+      "Iterating `j` in reverse ensures that `dp[j-1]` is computed before it's used for `dp[j]`, preventing double counting removals.",
+      "A boolean lookup array efficiently checks if an index in `source` is a candidate for removal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

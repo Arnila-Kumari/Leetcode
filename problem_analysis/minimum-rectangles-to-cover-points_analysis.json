@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-rectangles-to-cover-points",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort points by x-coordinate and use a greedy approach to place rectangles."
+  ],
+  "problem_summary_simple": "Cover all points with the minimum number of horizontal rectangles of a fixed width.",
+  "problem_summary_technical": "Sort points by x-coordinate. Greedily extend the current rectangle's right boundary as far as possible.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting by the x-coordinate is crucial for the greedy strategy.",
+      "The key is to extend each rectangle as far right as possible to cover subsequent points.",
+      "The y-coordinate of the points does not influence the placement strategy, only the x-coordinate and width matter."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

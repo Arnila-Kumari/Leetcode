@@ -1,0 +1,44 @@
+{
+  "problem_name": "find-the-number-of-ways-to-place-people-i",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sort points by x, then descending y. Iterate through pairs, maintaining max y seen for valid pairs.",
+    "Sort points by x, then descending y. Brute-force check all triplets for emptiness within rectangles."
+  ],
+  "problem_summary_simple": "Count pairs of points (A, B) where A is upper-left of B and the rectangle between them is empty.",
+  "problem_summary_technical": "Sort points by x, then descending y. Iterate through pairs, checking for empty rectangles using a max-y tracking approach.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the points by x-coordinate simplifies the problem by ensuring A's x is always less than B's x.",
+      "For a fixed A, we only need to consider points B to its right.",
+      "The condition of an empty rectangle can be checked efficiently by tracking the maximum y-coordinate encountered so far for points between A and B."
+    ],
+    [
+      "Sorting is crucial for efficient checking of the 'upper-left' condition.",
+      "The brute-force approach involves checking all possible rectangles and verifying emptiness.",
+      "The O(n^3) solution iterates through all possible pairs (i, j) and then checks all intermediate points k."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:17:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

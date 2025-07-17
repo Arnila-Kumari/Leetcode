@@ -1,0 +1,37 @@
+{
+  "problem_name": "merge-bsts-to-create-single-bst",
+  "data_structures": [
+    [
+      "hash map",
+      "set",
+      "queue",
+      "tree nodes"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Identify leaf nodes and roots, then perform BST merges while validating BST properties."
+  ],
+  "problem_summary_simple": "Merge smaller BSTs into a larger one by replacing leaf nodes with other BST roots.",
+  "problem_summary_technical": "Merge BSTs by replacing leaf nodes with roots of other BSTs, ensuring BST properties are maintained throughout.",
+  "time_complexity": [
+    "O(N) where N is the total number of nodes across all BSTs."
+  ],
+  "space_complexity": [
+    "O(N) for storing leaf values and root mappings."
+  ],
+  "key_insights": [
+    [
+      "The problem requires careful tracking of leaf values and potential root replacements.",
+      "BST property validation must occur at each merge step."
+    ],
+    [
+      "A map from value to root is essential for quick lookups.",
+      "The process can be viewed as finding a single root that can absorb all others."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,45 @@
+{
+  "problem_name": "maximal-rectangle",
+  "data_structures": [
+    [
+      "array",
+      "stack"
+    ],
+    [
+      "array",
+      "array",
+      "array"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Convert to histogram problem and use largest rectangle in histogram algorithm.",
+    "Dynamic programming to track left boundary, height, and right boundary for each cell."
+  ],
+  "problem_summary_simple": "Find the largest rectangular area containing only '1's in a binary matrix.",
+  "problem_summary_technical": "Reduce to 'Largest Rectangle in Histogram' for each row, or use DP to track boundaries and heights.",
+  "time_complexity": [
+    "O(rows * cols)",
+    "O(rows * cols)"
+  ],
+  "space_complexity": [
+    "O(cols)",
+    "O(cols)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through each row and treating it as a histogram.",
+      "The 'Largest Rectangle in Histogram' problem can be solved efficiently with a monotonic stack.",
+      "The height of each bar in the histogram represents consecutive '1's upwards."
+    ],
+    [
+      "DP state can track the width of consecutive '1's to the left (L), height (H), and width to the right (R).",
+      "Iterating through rows and updating these DP arrays allows for calculating the maximal rectangle.",
+      "The right boundary calculation requires a reverse pass."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:04",
+  "batch_processed": true,
+  "batch_size": 4
+}

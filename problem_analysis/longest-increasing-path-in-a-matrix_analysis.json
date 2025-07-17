@@ -1,0 +1,44 @@
+{
+  "problem_name": "longest-increasing-path-in-a-matrix",
+  "data_structures": [
+    [
+      "2D array (for in-degree)",
+      "queue"
+    ],
+    [
+      "2D array (for memoization)",
+      "recursion stack"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Topological sort on a DAG formed by cells and valid increasing paths.",
+    "Depth-First Search (DFS) with memoization to avoid redundant calculations."
+  ],
+  "problem_summary_simple": "Find the longest path in a matrix where each step moves to an adjacent cell with a greater value.",
+  "problem_summary_technical": "Models the matrix as a DAG and uses topological sort, or employs DFS with memoization to find the longest path.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be viewed as finding the longest path in a Directed Acyclic Graph (DAG).",
+      "Cells with an in-degree of 0 (no smaller adjacent cells) are starting points for topological sort.",
+      "The topological sort processes cells layer by layer, effectively finding the longest path."
+    ],
+    [
+      "DFS explores all possible increasing paths starting from each cell.",
+      "Memoization (storing the longest path from each cell) is crucial to prevent exponential time complexity.",
+      "The base case for recursion is when a cell has no valid smaller neighbors, returning a path length of 1."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:49:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

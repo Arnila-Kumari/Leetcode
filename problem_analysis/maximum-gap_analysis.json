@@ -1,0 +1,43 @@
+{
+  "problem_name": "maximum-gap",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Bucket sort for linear time gap calculation",
+    "Sorting the array"
+  ],
+  "problem_summary_simple": "Find the largest difference between adjacent elements in a sorted version of the input array.",
+  "problem_summary_technical": "Bucket sort is used to achieve linear time complexity by distributing numbers into buckets and finding the max gap between bucket extremes.",
+  "time_complexity": [
+    "O(n)",
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The maximum gap cannot be smaller than the average gap between elements if they were evenly distributed.",
+      "Bucket sort is the key to achieving O(n) time complexity. Each bucket will contain at most one element if the bucket size is chosen correctly.",
+      "The maximum gap must occur between elements in different buckets, specifically between the maximum of one bucket and the minimum of the next non-empty bucket."
+    ],
+    [
+      "A straightforward approach is to sort the array first.",
+      "After sorting, iterate through the array and calculate the difference between consecutive elements.",
+      "Keep track of the maximum difference found."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

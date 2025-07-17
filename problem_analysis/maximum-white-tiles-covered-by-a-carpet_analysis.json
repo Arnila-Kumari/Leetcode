@@ -1,0 +1,66 @@
+{
+  "problem_name": "maximum-white-tiles-covered-by-a-carpet",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ],
+    [
+      "list",
+      "prefix sum array"
+    ],
+    [
+      "list",
+      "prefix sum array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with gap calculation",
+    "Sliding window with gap calculation (reversed iteration)",
+    "Prefix sum and binary search",
+    "Prefix sum and binary search (reversed iteration)"
+  ],
+  "problem_summary_simple": "Find the maximum number of white tiles a carpet of fixed length can cover.",
+  "problem_summary_technical": "Uses sliding window or prefix sums with binary search to efficiently calculate white tiles covered by a carpet of fixed length across sorted tile intervals.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting tiles is crucial for efficient processing.",
+      "A sliding window approach can track the covered tiles and gaps.",
+      "Prefix sums combined with binary search offer an alternative for finding overlapping intervals."
+    ],
+    [
+      "Sorting tiles is crucial for efficient processing.",
+      "A sliding window approach can track the covered tiles and gaps.",
+      "Prefix sums combined with binary search offer an alternative for finding overlapping intervals."
+    ],
+    [
+      "Sorting tiles is crucial for efficient processing.",
+      "A sliding window approach can track the covered tiles and gaps.",
+      "Prefix sums combined with binary search offer an alternative for finding overlapping intervals."
+    ],
+    [
+      "Sorting tiles is crucial for efficient processing.",
+      "A sliding window approach can track the covered tiles and gaps.",
+      "Prefix sums combined with binary search offer an alternative for finding overlapping intervals."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

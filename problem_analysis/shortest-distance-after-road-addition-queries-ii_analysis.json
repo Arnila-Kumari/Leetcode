@@ -1,0 +1,31 @@
+{
+  "problem_name": "shortest-distance-after-road-addition-queries-ii",
+  "data_structures": [
+    [
+      "sorted list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Maintain a sorted list of reachable cities. For each query, remove cities between u and v, then report list size."
+  ],
+  "problem_summary_simple": "Find the shortest path from city 0 to n-1 after adding roads, given specific query constraints.",
+  "problem_summary_technical": "Uses a sorted list to track reachable cities. Queries remove intermediate cities, and the answer is the remaining count minus one.",
+  "time_complexity": [
+    "O(q * log n + q * k)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The constraint 'no two queries such that queries[i][0] < queries[j][0] < queries[i][1] < queries[j][1]' is crucial.",
+      "This constraint implies that the intervals defined by queries do not 'cross' each other, allowing for efficient updates.",
+      "A sorted list (or similar structure) can efficiently manage the removal of cities, as the problem effectively asks for the number of cities not 'skipped over' by new roads."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

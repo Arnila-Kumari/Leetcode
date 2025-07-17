@@ -1,0 +1,32 @@
+{
+  "problem_name": "regions-cut-by-slashes",
+  "data_structures": [
+    [
+      "UnionFind (custom class)",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find to connect regions within grid cells and between adjacent cells"
+  ],
+  "problem_summary_simple": "Count regions formed by slashes in a grid, where each cell can be '/', '\\', or ' '.",
+  "problem_summary_technical": "Model each 1x1 cell as 4 sub-regions. Use Union-Find to connect sub-regions based on slashes and adjacent cells.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "Each cell can be divided into 4 triangular regions (top, right, bottom, left).",
+      "Union-Find is ideal for tracking connected components (regions).",
+      "The key is to correctly map cell indices and sub-region indices to a single Union-Find set."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

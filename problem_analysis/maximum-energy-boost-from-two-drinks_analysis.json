@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-energy-boost-from-two-drinks",
+  "data_structures": [
+    [
+      "array",
+      "dynamic programming array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to track maximum energy ending with drink A or B."
+  ],
+  "problem_summary_simple": "Maximize energy boost over N hours by drinking one of two drinks, with a one-hour penalty for switching.",
+  "problem_summary_technical": "DP state `dp[i][0]` (max energy ending with A at hour i) and `dp[i][1]` (max energy ending with B at hour i).",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming where the state depends on the previous hour's choice.",
+      "We need to track the maximum energy gained ending with drink A and ending with drink B at each hour.",
+      "Switching drinks incurs a one-hour penalty, meaning the energy from the previous hour is not carried over directly."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

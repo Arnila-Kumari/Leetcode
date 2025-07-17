@@ -1,0 +1,31 @@
+{
+  "problem_name": "eat-pizzas",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "sorting, greedy selection"
+  ],
+  "problem_summary_simple": "Maximize weight gained by eating 4 pizzas daily, with different gains on odd/even days.",
+  "problem_summary_technical": "Sort pizzas by weight; greedily pick largest for odd days and second largest for even days to maximize total weight.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To maximize the gain, we should always use the heaviest available pizzas for the highest gain opportunities.",
+      "On odd days, we gain the weight of the heaviest pizza (Z). On even days, we gain the weight of the second heaviest (Y).",
+      "Sorting the pizzas in descending order allows for a straightforward greedy selection of the best pizzas for each day type."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

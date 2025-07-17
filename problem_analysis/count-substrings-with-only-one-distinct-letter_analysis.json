@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-substrings-with-only-one-distinct-letter",
+  "data_structures": [
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Iterate through the string, counting consecutive identical characters and summing combinations."
+  ],
+  "problem_summary_simple": "Count substrings containing only one distinct character.",
+  "problem_summary_technical": "Iterates through the string, identifying contiguous blocks of identical characters and calculating the number of substrings within each block using the formula n*(n+1)/2.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by finding contiguous segments of the same character.",
+      "For a segment of length `l`, the number of substrings is `l * (l + 1) / 2`. The provided solution cleverly accumulates this by adding `right - left` for each extension of a segment."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:38:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "largest-rectangle-in-histogram",
+  "data_structures": [
+    [
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "monotonic stack to find nearest smaller elements"
+  ],
+  "problem_summary_simple": "Find the largest rectangular area in a histogram represented by bar heights.",
+  "problem_summary_technical": "Employ a monotonic increasing stack to efficiently determine the left and right boundaries for each bar to calculate max rectangle area.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that for any bar, the largest rectangle it can be part of is bounded by the nearest smaller bars to its left and right.",
+      "A monotonic stack (increasing heights) helps find these boundaries efficiently in a single pass.",
+      "When a bar is encountered that is shorter than the top of the stack, it signifies the right boundary for the popped bar(s)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximize-amount-after-two-days-of-conversions",
+  "data_structures": [
+    [
+      "Hash Map",
+      "Graph (Adjacency List)"
+    ],
+    [
+      "Hash Map",
+      "Graph (Adjacency List)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Bellman-Ford algorithm for longest path in a DAG (implicitly)",
+    "BFS for finding maximum conversion rates"
+  ],
+  "problem_summary_simple": "Maximize currency amount by performing conversions on day 1 and then on day 2, with inverse rates available.",
+  "problem_summary_technical": "Models currency conversions as a graph problem. Bellman-Ford or BFS finds the maximum conversion rate between currencies over two independent days.",
+  "time_complexity": [
+    "O(N^2)",
+    "O(N^2)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be viewed as finding the longest path in a graph where edge weights are conversion rates.",
+      "Since rates are independent per day, we can find the maximum rate for each day separately and combine them.",
+      "The Bellman-Ford approach or repeated BFS can find the maximum multiplicative path, effectively maximizing the amount."
+    ],
+    [
+      "The BFS approach iteratively updates maximum amounts for each currency until no further improvement is possible.",
+      "The graph representation is key, with currencies as nodes and conversion rates as edge weights.",
+      "The independence of day 1 and day 2 conversions allows for sequential application of the BFS/Bellman-Ford logic."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

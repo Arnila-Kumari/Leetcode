@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-good-meals",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hashmap to store counts, iterate through powers of 2 to find complements."
+  ],
+  "problem_summary_simple": "Count pairs of food items whose deliciousness sums to a power of two.",
+  "problem_summary_technical": "Uses a hashmap to store frequencies of deliciousness values and iterates through powers of two to find complementary pairs.",
+  "time_complexity": [
+    "O(n * log(max_deliciousness))"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The maximum sum of two deliciousness values is bounded, so we only need to check powers of two up to that bound.",
+      "A hashmap (Counter) is efficient for storing and retrieving frequencies of deliciousness values.",
+      "The modulo operation is crucial for handling large results."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:31",
+  "batch_processed": true,
+  "batch_size": 4
+}

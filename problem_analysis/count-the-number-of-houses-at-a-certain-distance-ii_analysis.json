@@ -1,0 +1,40 @@
+{
+  "problem_name": "count-the-number-of-houses-at-a-certain-distance-ii",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Difference array and prefix sums to efficiently calculate counts for each distance.",
+    "Brute force BFS from each node to find shortest paths."
+  ],
+  "problem_summary_simple": "Count pairs of houses with shortest path distance k in a line with one extra connection.",
+  "problem_summary_technical": "The O(n) solution uses a difference array. It calculates contributions to distances from each node and then uses prefix sums. The O(n^2) solution uses BFS from each node.",
+  "time_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The graph is a line graph with an additional edge between x and y.",
+      "The shortest path between two nodes i and j can be either directly along the line (abs(i-j)) or via the x-y connection (abs(i-x) + 1 + abs(y-j) or abs(i-y) + 1 + abs(x-j)).",
+      "The O(n) solution cleverly uses a difference array to accumulate changes in counts for each distance, then applies prefix sums."
+    ],
+    [
+      "The O(n^2) solution is a more straightforward approach using BFS from each node to determine all pairwise shortest paths.",
+      "For each pair (i, j), calculate the distance using the direct path and the paths through the x-y connection, taking the minimum.",
+      "Increment the count for the corresponding distance in the result array."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

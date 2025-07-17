@@ -1,0 +1,40 @@
+{
+  "problem_name": "separate-black-and-white-balls",
+  "data_structures": [
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Use two pointers to count inversions (a '0' before a '1') which directly corresponds to minimum swaps.",
+    "Another two-pointer approach iterates, moving '0's past '1's and summing distances."
+  ],
+  "problem_summary_simple": "Find the minimum swaps to move all black balls (1s) to the right and white balls (0s) to the left.",
+  "problem_summary_technical": "Calculate inversions (0 before 1) using two pointers, as each inversion requires one swap to correct.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The minimum number of swaps to sort an array is equivalent to the number of inversions.",
+      "In this context, an inversion is a '0' appearing before a '1'.",
+      "The two-pointer approach efficiently counts these inversions without explicit sorting."
+    ],
+    [
+      "This approach directly counts the moves needed for '0's to reach the left.",
+      "It iterates through the string, and for each '0', it calculates how many '1's are to its right that it needs to swap with.",
+      "This is equivalent to counting inversions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

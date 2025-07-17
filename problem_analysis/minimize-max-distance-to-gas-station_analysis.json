@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimize-max-distance-to-gas-station",
+  "data_structures": [
+    [
+      "list",
+      "float"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer (maximum distance).",
+    "Check function counts required stations for a given max distance."
+  ],
+  "problem_summary_simple": "Add k gas stations to minimize the largest distance between any two adjacent stations.",
+  "problem_summary_technical": "Binary search for the minimum possible maximum distance between adjacent stations after adding k stations.",
+  "time_complexity": [
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic 'minimize the maximum' problem solvable with binary search on the answer.",
+      "The `check(x)` function determines if it's possible to achieve a maximum distance of `x` by adding at most `k` stations.",
+      "For a given distance `x`, the number of stations needed for an interval `d` is `ceil(d/x) - 1`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:56:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

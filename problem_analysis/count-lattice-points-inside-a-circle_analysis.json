@@ -1,0 +1,44 @@
+{
+  "problem_name": "count-lattice-points-inside-a-circle",
+  "data_structures": [
+    [
+      "set",
+      "list of lists"
+    ],
+    [
+      "set",
+      "list of lists"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through each circle, then iterate through possible lattice points within its bounding box, check distance, add to set.",
+    "Iterate through all possible lattice points within the grid's bounds, check if any circle contains the point."
+  ],
+  "problem_summary_simple": "Count unique integer coordinate points that fall inside at least one given circle on a grid.",
+  "problem_summary_technical": "Solution 1: Iterates circles, then bounding box points, checks distance. Solution 2: Iterates grid points, checks against all circles.",
+  "time_complexity": [
+    "O(n * r^2)",
+    "O(max_x * max_y * n)"
+  ],
+  "space_complexity": [
+    "O(min(n * r^2, max_x * max_y))",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A set is crucial to store unique lattice points and avoid double counting.",
+      "The distance formula (i^2 + j^2 <= r^2) is used to check if a point is inside a circle.",
+      "The constraints on xi, yi, and ri suggest that iterating through bounding boxes is feasible for the first solution."
+    ],
+    [
+      "The second solution iterates over a potentially larger grid but avoids the r^2 factor per circle.",
+      "The choice between solutions depends on the relative sizes of n, r, and the grid dimensions.",
+      "The `any()` function provides a concise way to check if a point is within any circle."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:17:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

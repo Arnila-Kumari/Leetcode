@@ -1,0 +1,53 @@
+{
+  "problem_name": "power-of-four",
+  "data_structures": [
+    [
+      "integer"
+    ],
+    [
+      "integer"
+    ],
+    [
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bitwise operations to check for power of four properties",
+    "Repeated division by 4 (or right shift by 2) and checking the last bit",
+    "Binary string analysis"
+  ],
+  "problem_summary_simple": "Determine if an integer is a power of four.",
+  "problem_summary_technical": "Checks if a number is positive, a power of two, and has its single set bit at an even position (power of four).",
+  "time_complexity": [
+    "O(1)",
+    "O(log N)",
+    "O(log N)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(log N)"
+  ],
+  "key_insights": [
+    [
+      "A power of four must first be a power of two.",
+      "In binary, powers of four have their single set bit at an odd position (0-indexed from right).",
+      "The bitmask `0x55555555` (0101...0101) isolates bits at odd positions."
+    ],
+    [
+      "Repeatedly right-shifting by 2 is equivalent to dividing by 4.",
+      "A number is a power of four if, after repeatedly dividing by 4, it eventually becomes 1.",
+      "The loop condition `num and not (num & 0b11)` ensures we only shift if the last two bits are zero, which is true for powers of four."
+    ],
+    [
+      "Converting to binary string allows direct inspection of the pattern.",
+      "A power of four in binary starts with '1' and has an even number of zeros following it.",
+      "This method is less efficient due to string conversion and manipulation."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:05:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

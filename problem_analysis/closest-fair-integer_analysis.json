@@ -1,0 +1,32 @@
+{
+  "problem_name": "closest-fair-integer",
+  "data_structures": [
+    [
+      "list",
+      "map"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Constructive algorithm with digit manipulation and greedy selection."
+  ],
+  "problem_summary_simple": "Find the smallest integer greater than or equal to n with an equal count of even and odd digits.",
+  "problem_summary_technical": "Constructs the smallest fair integer by modifying digits of n, prioritizing larger digits and filling remaining with smallest possible.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(log n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by constructing the number digit by digit.",
+      "A greedy approach works by trying to keep the prefix of the number as close to n as possible.",
+      "Handling carries and ensuring the fair condition requires careful digit manipulation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

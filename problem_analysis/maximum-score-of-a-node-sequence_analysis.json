@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-score-of-a-node-sequence",
+  "data_structures": [
+    [
+      "list of lists of tuples",
+      "heap"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "For each edge (u, v), find the top 3 neighbors of u (excluding v) and top 3 neighbors of v (excluding u and neighbors of u) to form a 4-node sequence."
+  ],
+  "problem_summary_simple": "Find the maximum score of a 4-node sequence where adjacent nodes are connected by an edge and no node is repeated.",
+  "problem_summary_technical": "Iterate through all edges (u, v). For each edge, find the top 3 neighbors of u and v (excluding already visited nodes) to form a 4-node sequence.",
+  "time_complexity": [
+    "O(|V| + |E|)"
+  ],
+  "space_complexity": [
+    "O(|V|)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding a path of length 3 (4 nodes). The core idea is to iterate through all possible middle edges.",
+      "For each edge (u, v), we need to find the best preceding node for u and the best succeeding node for v.",
+      "To efficiently find the best preceding/succeeding nodes, we can precompute the top 3 neighbors (by score) for each node."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

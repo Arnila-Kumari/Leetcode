@@ -1,0 +1,32 @@
+{
+  "problem_name": "inorder-successor-in-bst-ii",
+  "data_structures": [
+    [
+      "Binary Search Tree Node",
+      "Parent Pointer"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "BST traversal using parent pointers to find the in-order successor."
+  ],
+  "problem_summary_simple": "Find the next node in an in-order traversal of a BST, given direct node access.",
+  "problem_summary_technical": "Utilize parent pointers in a BST to find the in-order successor: if right child exists, find its leftmost descendant; otherwise, go up until a left turn is made.",
+  "time_complexity": [
+    "O(h), where h is the height of the BST."
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key difference from the previous problem is direct access to parent pointers.",
+      "If a node has a right subtree, the successor is the minimum element in that subtree.",
+      "If no right subtree, the successor is the first ancestor for which the current node is in its left subtree."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

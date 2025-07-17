@@ -1,0 +1,53 @@
+{
+  "problem_name": "count-integers-with-even-digit-sum",
+  "data_structures": [
+    [
+      "None"
+    ],
+    [
+      "None"
+    ],
+    [
+      "None"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical observation on parity and digit sums",
+    "Brute force with digit sum calculation",
+    "Brute force with string conversion and digit sum calculation"
+  ],
+  "problem_summary_simple": "Count numbers up to 'num' whose digits sum to an even number.",
+  "problem_summary_technical": "Leverages the property that roughly half the numbers have even digit sums. The optimized solution uses parity of 'num' and its digit sum.",
+  "time_complexity": [
+    "O(log n)",
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(log n)"
+  ],
+  "key_insights": [
+    [
+      "For any number `x`, the parity of its digit sum is the same as the parity of `x` itself if `x` is even, and the opposite if `x` is odd.",
+      "Consider numbers up to `num`. If `num` has an even digit sum, then `num` itself is counted. The numbers less than `num` are split almost evenly between even and odd digit sums.",
+      "The optimized solution `(num - parity(num)) // 2` cleverly uses the parity of `num` and its digit sum to determine the count."
+    ],
+    [
+      "The brute-force approach iterates through all numbers from 1 to `num`.",
+      "For each number, it calculates the sum of its digits.",
+      "It checks if the digit sum is even and increments a counter if it is."
+    ],
+    [
+      "This brute-force approach converts each number to a string to easily access its digits.",
+      "It then sums the integer values of these digits.",
+      "Finally, it checks the parity of the sum."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:34:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

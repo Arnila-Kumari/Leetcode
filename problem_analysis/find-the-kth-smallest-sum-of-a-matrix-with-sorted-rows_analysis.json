@@ -1,0 +1,44 @@
+{
+  "problem_name": "find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows",
+  "data_structures": [
+    [
+      "list",
+      "heap"
+    ],
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Iteratively merge sorted lists of sums from each row using a min-heap to find the k smallest sums.",
+    "Binary search on the possible sum values, using a DFS-like approach to count sums less than or equal to the target."
+  ],
+  "problem_summary_simple": "Find the k-th smallest sum formed by picking one element from each sorted row of a matrix.",
+  "problem_summary_technical": "Merge row sums iteratively using a heap, or binary search on the sum range with a counting helper function.",
+  "time_complexity": [
+    "O(m * k log k)",
+    "O(m * k * log(m * MAX_NUM))"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be viewed as merging k sorted lists, where each list is generated from the previous row's sums and the current row's elements.",
+      "A min-heap is suitable for efficiently finding the smallest sums during the merging process.",
+      "The `kSmallestPairs` helper function is a common pattern for finding k smallest sums from two sorted arrays."
+    ],
+    [
+      "Binary search on the answer (the k-th smallest sum) is a viable strategy.",
+      "A recursive function can count how many combinations yield a sum less than or equal to a target value.",
+      "The counting function needs to be efficient, potentially pruning branches that exceed k or the target sum."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:44:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

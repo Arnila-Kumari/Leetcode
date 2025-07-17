@@ -1,0 +1,31 @@
+{
+  "problem_name": "circular-permutation-in-binary-representation",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Gray code generation using XOR and bit shifts"
+  ],
+  "problem_summary_simple": "Generate a circular permutation of binary numbers where adjacent numbers differ by one bit, starting with a given number.",
+  "problem_summary_technical": "Constructs a Gray code sequence by XORing the start value with a sequence derived from bit shifts, ensuring adjacent elements differ by one bit.",
+  "time_complexity": [
+    "O(2^n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to generating a Gray code sequence.",
+      "The formula `start ^ (i >> 1) ^ i` cleverly generates the Gray code sequence relative to the start value.",
+      "The XOR operation is key to flipping a single bit at a time."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

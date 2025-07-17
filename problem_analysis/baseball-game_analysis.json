@@ -1,0 +1,31 @@
+{
+  "problem_name": "baseball-game",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Stack-based simulation of operations, pushing valid scores and popping for 'C'."
+  ],
+  "problem_summary_simple": "Simulate a baseball game's scoring with specific operations and return the total sum of valid scores.",
+  "problem_summary_technical": "Uses a list as a stack to store scores, processing operations like adding integers, doubling previous, summing previous two, and invalidating previous.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A stack (or list acting as one) is the natural data structure to manage previous scores.",
+      "Each operation needs to be handled by checking the stack's state (e.g., for 'C' or '+').",
+      "The final sum is simply the sum of all elements remaining in the stack."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,47 @@
+{
+  "problem_name": "the-score-of-students-solving-math-expression",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "int"
+    ],
+    [
+      "list",
+      "set",
+      "int",
+      "dict"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to find all possible results for subexpressions, then score answers.",
+    "Dynamic programming with a helper function for evaluating expressions with different operator precedence."
+  ],
+  "problem_summary_simple": "Score student answers based on correct calculation and alternative calculation orders.",
+  "problem_summary_technical": "Use DP to find all possible evaluation results of subexpressions. Score answers based on exact match, DP results, or neither.",
+  "time_complexity": [
+    "O(n^3 * a^2)",
+    "O(n^3 * a^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding all possible results of the expression by considering different parenthesizations (or operator evaluation orders).",
+      "Dynamic programming is a natural fit, where `dp[i][j]` stores all possible results for the subexpression from index `i` to `j`.",
+      "The base cases are single digits. For larger subexpressions, iterate through all possible split points and combine results based on the operator at the split."
+    ],
+    [
+      "The core idea is to generate all valid evaluation outcomes, not just the standard one.",
+      "The DP approach effectively explores all ways to group operations, simulating different student interpretations.",
+      "The constraint on operand values and the maximum answer helps manage the size of the DP sets."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:19:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-count-of-positive-integer-and-negative-integer",
+  "data_structures": [
+    [
+      "list of integers (input array)",
+      "bisect module for binary search"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search to find the boundaries of positive and negative numbers."
+  ],
+  "problem_summary_simple": "Find the maximum count between positive and negative numbers in a sorted array.",
+  "problem_summary_technical": "Use binary search (bisect_left) to find the first positive and first non-negative elements.",
+  "time_complexity": [
+    "O(log N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Since the array is sorted, all negative numbers appear before zeros and positive numbers.",
+      "`bisect_left(nums, 0)` finds the index of the first non-negative number. The count of negative numbers is this index.",
+      "`bisect_left(nums, 1)` finds the index of the first number greater than or equal to 1. The count of positive numbers is `len(nums) - index`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:52:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,46 @@
+{
+  "problem_name": "largest-component-size-by-common-factor",
+  "data_structures": [
+    [
+      "UnionFind",
+      "dictionary",
+      "array"
+    ],
+    [
+      "UnionFind",
+      "dictionary",
+      "array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Use Union-Find data structure. For each number, find its prime factors. Union the number with a representative for each of its prime factors. The largest set size in Union-Find is the answer.",
+    "Similar to the first solution, but with a slightly different prime factorization helper function."
+  ],
+  "problem_summary_simple": "Find the largest group of numbers connected by shared prime factors.",
+  "problem_summary_technical": "Models the problem as a graph where nodes are numbers and edges exist if they share a factor. Uses Union-Find with prime factorization to find connected components.",
+  "time_complexity": [
+    "O(f * n)",
+    "O(f * n)"
+  ],
+  "space_complexity": [
+    "O(p + n)",
+    "O(p + n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to connect numbers that share common factors. Prime factors are the fundamental building blocks for common factors.",
+      "A Union-Find data structure is ideal for managing connected components efficiently.",
+      "By iterating through each number and its prime factors, we can establish connections between numbers that share these factors."
+    ],
+    [
+      "The efficiency hinges on the prime factorization and the Union-Find operations.",
+      "The `nodesWithCommonFactor` dictionary maps a prime factor to the index of the first number encountered that has this factor, allowing us to union subsequent numbers with this representative.",
+      "The `prime_factors` function needs to be efficient, handling edge cases and optimizing the search for factors."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:48:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

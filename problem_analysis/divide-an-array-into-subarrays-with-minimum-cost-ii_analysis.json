@@ -1,0 +1,69 @@
+{
+  "problem_name": "divide-an-array-into-subarrays-with-minimum-cost-ii",
+  "data_structures": [
+    [
+      "heapq (min-heap and max-heap)",
+      "list"
+    ],
+    [
+      "heapq (min-heap and max-heap)",
+      "collections.Counter",
+      "list"
+    ],
+    [
+      "sortedcontainers.SortedList",
+      "list"
+    ],
+    [
+      "sortedcontainers.SortedList",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Sliding window with two heaps for maintaining k smallest elements",
+    "Sliding window with two heaps and frequency counters",
+    "Sliding window with two sorted lists to maintain k smallest elements",
+    "Sliding window with sorted list and prefix sums for efficient updates"
+  ],
+  "problem_summary_simple": "Divide an array into k subarrays with a constraint on the distance between the start of the second and last subarray.",
+  "problem_summary_technical": "Minimize sum of first elements of k subarrays using sliding window and heaps/sorted lists to track k smallest elements within a distance constraint.",
+  "time_complexity": [
+    "O(n log d)",
+    "O(n log d)",
+    "O(n log d)",
+    "O(n log d)"
+  ],
+  "space_complexity": [
+    "O(d)",
+    "O(d)",
+    "O(d)",
+    "O(d)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding k-1 split points. The constraint on `dist` suggests a sliding window approach.",
+      "Maintaining the k smallest elements within the window is crucial for minimizing cost.",
+      "Two heaps (min-heap and max-heap) or sorted lists are effective for this."
+    ],
+    [
+      "The core idea is to maintain the k smallest elements in a sliding window of size `dist + 1`.",
+      "Heaps are used to efficiently find the k smallest elements and their sum.",
+      "Lazy deletion or frequency counters are needed to handle elements leaving the window."
+    ],
+    [
+      "Sorted lists provide efficient insertion, deletion, and access to the k smallest elements.",
+      "The sliding window approach iterates through possible end points of the last subarray.",
+      "The constraint `dist` defines the window size for considering potential start points of the second subarray."
+    ],
+    [
+      "This solution optimizes by directly calculating the sum of the k smallest elements in the window.",
+      "Updates to the sum are done efficiently by considering the element entering and leaving the window.",
+      "The `SortedList` handles maintaining the order and allows quick retrieval of the k-th smallest element."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:17:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

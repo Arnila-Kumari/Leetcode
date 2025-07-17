@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-zigzag-path-in-a-binary-tree",
+  "data_structures": [
+    [
+      "TreeNode",
+      "List"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive DFS traversal to calculate the longest zigzag path ending at each node from left and right."
+  ],
+  "problem_summary_simple": "Find the longest path in a binary tree that alternates between left and right turns.",
+  "problem_summary_technical": "Employs a recursive DFS approach. For each node, it computes the longest zigzag path ending at that node coming from its left child and its right child.",
+  "time_complexity": [
+    "O(N), where N is the number of nodes in the tree, as each node is visited once."
+  ],
+  "space_complexity": [
+    "O(H), where H is the height of the tree, due to the recursion stack. In the worst case (skewed tree), H can be N."
+  ],
+  "key_insights": [
+    [
+      "The problem requires tracking two values for each node: the longest zigzag path ending with a left turn and the longest ending with a right turn.",
+      "When moving from a parent to a child, the direction flips, and the path length increases by one.",
+      "The overall maximum zigzag path is the maximum of these values across all nodes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

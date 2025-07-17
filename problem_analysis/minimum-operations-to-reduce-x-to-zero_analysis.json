@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-reduce-x-to-zero",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Convert to finding longest subarray with sum = total_sum - x using sliding window."
+  ],
+  "problem_summary_simple": "Find the minimum operations to remove elements from ends to make their sum equal to x.",
+  "problem_summary_technical": "Transform problem to finding the longest subarray with sum `total_sum - x` using a sliding window.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the longest subarray whose sum is `sum(nums) - x`.",
+      "This is because removing elements from the ends is equivalent to keeping a contiguous subarray in the middle.",
+      "A sliding window approach is efficient for finding subarrays with a specific sum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

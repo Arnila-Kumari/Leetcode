@@ -1,0 +1,59 @@
+{
+  "problem_name": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+  "data_structures": [
+    [
+      "adjacency list",
+      "list"
+    ],
+    [
+      "adjacency list",
+      "queue",
+      "list"
+    ],
+    [
+      "adjacency list",
+      "queue",
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "DFS: Traverse from each node to find all reachable nodes (ancestors).",
+    "BFS: Traverse from each node to find all reachable nodes (ancestors).",
+    "Topological Sort: Propagate ancestor information during topological sort."
+  ],
+  "problem_summary_simple": "Find all ancestors for each node in a DAG. An ancestor can reach a node via a path.",
+  "problem_summary_technical": "For each node, perform DFS/BFS on the reversed graph or use topological sort to collect all nodes that can reach it.",
+  "time_complexity": [
+    "O(V * (V + E)) for DFS approach",
+    "O(V * (V + E)) for BFS approach",
+    "O(V * (V + E)) for Topological Sort approach"
+  ],
+  "space_complexity": [
+    "O(V + E) for graph representation and recursion stack",
+    "O(V + E) for graph representation and queue",
+    "O(V + E) for graph representation, queue, and sets"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding all nodes that can reach a given node.",
+      "This can be achieved by performing a traversal (DFS or BFS) starting from each node.",
+      "Alternatively, reversing the graph and performing traversals from target nodes works."
+    ],
+    [
+      "The problem requires finding all nodes that can reach a given node.",
+      "This can be achieved by performing a traversal (DFS or BFS) starting from each node.",
+      "Alternatively, reversing the graph and performing traversals from target nodes works."
+    ],
+    [
+      "Topological sort naturally processes nodes in an order where all predecessors are visited first.",
+      "By propagating ancestor sets during topological sort, we efficiently collect all ancestors.",
+      "Using sets for ancestors avoids duplicates and allows efficient merging."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

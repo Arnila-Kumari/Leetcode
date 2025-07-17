@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-distinct-roll-sequences",
+  "data_structures": [
+    [
+      "2D array (DP table)",
+      "collections.Counter"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to build valid sequences based on previous rolls, considering GCD and repetition constraints."
+  ],
+  "problem_summary_simple": "Count dice roll sequences with coprime adjacent rolls and no repeats within 2 steps.",
+  "problem_summary_technical": "DP state `dp[i][j]` stores valid sequences ending with `i` and `j`. Transitions consider GCD and the `abs(i-j) > 2` rule.",
+  "time_complexity": [
+    "O(6^3 * n)"
+  ],
+  "space_complexity": [
+    "O(6^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled using dynamic programming where the state depends on the last two rolls.",
+      "The constraints (GCD of adjacent rolls is 1, and no same roll within 2 steps) are crucial for state transitions.",
+      "The base cases for n=1 and n=2 need careful initialization before the main DP loop."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

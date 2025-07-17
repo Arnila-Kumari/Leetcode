@@ -1,0 +1,53 @@
+{
+  "problem_name": "find-if-array-can-be-sorted",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate through array, group elements by popcount, check if each group is sortable internally.",
+    "Use `groupby` to partition array by popcount, then check if max of preceding group <= min of current group.",
+    "Sort sub-arrays based on popcount groups and then check overall sorted order."
+  ],
+  "problem_summary_simple": "Can an array be sorted by swapping adjacent elements with the same number of set bits?",
+  "problem_summary_technical": "Checks if elements with the same bit count can be rearranged to sort the entire array, ensuring no out-of-order elements between groups.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key constraint is that swaps are only allowed between adjacent elements with the same number of set bits.",
+      "This implies that elements with different bit counts cannot be directly swapped past each other.",
+      "Therefore, the array can be sorted if and only if elements within each 'bit count group' can be sorted, and these groups maintain their relative order."
+    ],
+    [
+      "The `groupby` function is ideal for partitioning the array based on the `popcount`.",
+      "The condition `max(a) <= min(b)` ensures that elements from a group with fewer set bits do not appear after elements from a group with more set bits.",
+      "This approach elegantly checks the sortability across different bit count partitions."
+    ],
+    [
+      "Sorting each contiguous sub-array that shares the same popcount allows us to locally sort these groups.",
+      "After sorting these sub-arrays in place, a final check ensures the entire array is sorted.",
+      "This method directly simulates the allowed operations by sorting within groups."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

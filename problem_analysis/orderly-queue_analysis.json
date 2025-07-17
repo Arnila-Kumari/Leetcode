@@ -1,0 +1,32 @@
+{
+  "problem_name": "orderly-queue",
+  "data_structures": [
+    [
+      "string",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "If k=1, simulate all possible rotations and find the lexicographically smallest. If k>1, any character can be moved to any position, so sorting the string yields the smallest result."
+  ],
+  "problem_summary_simple": "Find the lexicographically smallest string by moving the first k characters to the end any number of times.",
+  "problem_summary_technical": "If k=1, explore all rotations. If k>1, any permutation is achievable, so sort the string.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key distinction is the value of k.",
+      "When k > 1, the ability to move any of the first k characters allows for any permutation of the string.",
+      "When k = 1, only cyclic shifts are possible, requiring brute-force checking of all rotations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

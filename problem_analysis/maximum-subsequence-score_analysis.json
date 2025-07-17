@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-subsequence-score",
+  "data_structures": [
+    [
+      "min-heap",
+      "variables for current sum and result"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach combined with a min-heap to maintain the k largest elements from nums1 for a given minimum from nums2.",
+    "Sorting by nums2 in descending order to iterate through potential minimums."
+  ],
+  "problem_summary_simple": "Find the max score by picking k elements, score is sum * min of picked elements.",
+  "problem_summary_technical": "Sorts by nums2 descending. Uses a min-heap to keep track of the k largest nums1 elements, updating sum and score greedily.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The score is (sum of nums1 elements) * (minimum of nums2 elements). To maximize this, we want to maximize both terms.",
+      "If we fix the minimum element from nums2 (say `min_val`), we should pick the `k` largest elements from nums1 that correspond to `nums2` values greater than or equal to `min_val`.",
+      "Sorting `nums1` and `nums2` together by `nums2` in descending order allows us to iterate through potential minimums. A min-heap efficiently maintains the sum of the top `k` `nums1` elements."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

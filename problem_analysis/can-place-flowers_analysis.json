@@ -1,0 +1,31 @@
+{
+  "problem_name": "can-place-flowers",
+  "data_structures": [
+    [
+      "Array (flowerbed)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the flowerbed and greedily plant flowers."
+  ],
+  "problem_summary_simple": "Check if 'n' new flowers can be planted in a flowerbed without adjacent flowers.",
+  "problem_summary_technical": "Iterate through the flowerbed, planting a flower whenever an empty plot has empty adjacent plots, decrementing 'n'.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy approach works because planting a flower in a valid spot never prevents more flowers from being planted later.",
+      "Edge cases (beginning and end of the flowerbed) need careful handling.",
+      "Modifying the flowerbed in-place simplifies the logic."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

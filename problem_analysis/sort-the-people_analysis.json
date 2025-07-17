@@ -1,0 +1,32 @@
+{
+  "problem_name": "sort-the-people",
+  "data_structures": [
+    [
+      "list",
+      "list of tuples"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sorting with Custom Key"
+  ],
+  "problem_summary_simple": "Sort people's names based on their heights in descending order.",
+  "problem_summary_technical": "Pair names with heights, sort these pairs based on height in descending order, and then extract the sorted names.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires sorting based on one array (heights) but returning elements from another (names).",
+      "Creating pairs of (height, name) or (height, index) allows for sorting based on height while keeping track of the original names.",
+      "Python's `sorted` function with a `key` argument is very effective for this type of custom sorting."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

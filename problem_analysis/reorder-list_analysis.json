@@ -1,0 +1,32 @@
+{
+  "problem_name": "reorder-list",
+  "data_structures": [
+    [
+      "Linked List",
+      "ListNode"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Find middle, reverse second half, merge lists"
+  ],
+  "problem_summary_simple": "Rearrange a linked list by interleaving nodes from the beginning and end.",
+  "problem_summary_technical": "Reorder a singly linked list by splitting it, reversing the second half, and merging them alternately.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to split the list into two halves, reverse the second half, and then merge them.",
+      "Finding the middle of the linked list can be done efficiently using the fast and slow pointer technique.",
+      "Careful handling of pointers during reversal and merging is crucial to avoid infinite loops or lost nodes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

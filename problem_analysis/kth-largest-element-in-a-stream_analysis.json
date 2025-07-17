@@ -1,0 +1,32 @@
+{
+  "problem_name": "kth-largest-element-in-a-stream",
+  "data_structures": [
+    [
+      "min-heap",
+      "integer"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Min-heap of size k"
+  ],
+  "problem_summary_simple": "Maintain the k-th largest element in a stream of numbers.",
+  "problem_summary_technical": "Use a min-heap of size k. The root of the heap is always the k-th largest element seen so far.",
+  "time_complexity": [
+    "O(n log k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "To find the k-th largest element, we only need to keep track of the k largest elements.",
+      "A min-heap of size k is perfect for this: it stores the k largest elements, with the smallest of these (the k-th largest overall) at the root.",
+      "When adding a new element, push it to the heap. If the heap size exceeds k, pop the smallest element (the root)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "largest-positive-integer-that-exists-with-its-negative",
+  "data_structures": [
+    [
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "hash set for efficient lookups"
+  ],
+  "problem_summary_simple": "Find the largest positive number in an array that also has its negative counterpart present.",
+  "problem_summary_technical": "Utilize a hash set to store array elements for O(1) average time lookups to find the largest k where both k and -k exist.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A hash set provides efficient O(1) average time complexity for checking the existence of elements.",
+      "Iterating through positive numbers and checking for their negatives in the set is a direct approach.",
+      "The `or [-1]` handles the case where no such pair exists."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

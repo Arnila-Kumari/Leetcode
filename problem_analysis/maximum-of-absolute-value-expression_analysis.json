@@ -1,0 +1,35 @@
+{
+  "problem_name": "maximum-of-absolute-value-expression",
+  "data_structures": [],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Transform the expression into four cases based on absolute value signs and find max difference.",
+    "Iterate through all combinations of signs for absolute values and find max difference."
+  ],
+  "problem_summary_simple": "Find the maximum value of an expression involving absolute differences of array elements and indices.",
+  "problem_summary_technical": "Expand absolute values and find the maximum difference between transformed values for different sign combinations.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The expression |a - b| can be expanded as max(a - b, b - a).",
+      "The problem can be simplified by considering four cases for the signs of arr1[i]-arr1[j] and arr2[i]-arr2[j].",
+      "For each sign combination, the problem reduces to finding the maximum difference between (c1*arr1[i] + c2*arr2[i] + i) and (c1*arr1[j] + c2*arr2[j] + j)."
+    ],
+    [
+      "The core idea is to transform the expression |a - b| + |c - d| + |e - f| into a form where we can find the maximum difference between two points.",
+      "By considering all four sign combinations for the absolute values, we can rewrite the expression as (c1*arr1[i] + c2*arr2[i] + i) - (c1*arr1[j] + c2*arr2[j] + j).",
+      "For each sign combination, we iterate through the array, keeping track of the minimum value encountered so far and calculating the maximum difference."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

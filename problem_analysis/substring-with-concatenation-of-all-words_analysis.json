@@ -1,0 +1,42 @@
+{
+  "problem_name": "substring-with-concatenation-of-all-words",
+  "data_structures": [
+    [
+      "collections.defaultdict"
+    ],
+    [
+      "collections.defaultdict"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with hashmap for word counts, offset by word length.",
+    "Brute-force sliding window checking all permutations of words."
+  ],
+  "problem_summary_simple": "Find starting indices of substrings that are concatenations of all words in a given list.",
+  "problem_summary_technical": "Uses sliding window and hash maps to track word frequencies, accounting for word length and permutations.",
+  "time_complexity": [
+    "O((m + n) * k)",
+    "O(m * n * k)"
+  ],
+  "space_complexity": [
+    "O(n * k)",
+    "O(n * k)"
+  ],
+  "key_insights": [
+    [
+      "The optimized solution iterates through all possible starting offsets (0 to k-1) to handle word alignment.",
+      "A sliding window approach efficiently checks substrings by adding new words and removing old ones.",
+      "Hash maps are crucial for O(1) average time lookups and frequency tracking of words."
+    ],
+    [
+      "The brute-force approach checks every possible starting position for a concatenated substring.",
+      "It iterates through all words within a potential substring to verify if it's a valid concatenation.",
+      "This method is less efficient due to repeated checks of overlapping substrings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

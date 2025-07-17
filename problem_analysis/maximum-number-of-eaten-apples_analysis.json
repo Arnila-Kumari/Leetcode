@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-number-of-eaten-apples",
+  "data_structures": [
+    [
+      "min-heap",
+      "array"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach using a min-heap to track apples by their rotten day."
+  ],
+  "problem_summary_simple": "Maximize eaten apples by choosing which apples to eat each day, considering their growth and rotting times.",
+  "problem_summary_technical": "Use a min-heap to store (rotten_day, original_day) of available apples. Prioritize eating apples that will rot soonest. Advance day by day, adding new apples and removing rotten ones.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy is to eat the apple that will rot soonest.",
+      "A min-heap is ideal for efficiently finding the apple with the earliest rotten day.",
+      "We need to manage the current day and the availability of apples, considering both new apples and those already on the tree."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

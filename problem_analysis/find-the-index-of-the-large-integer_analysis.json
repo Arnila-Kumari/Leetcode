@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-index-of-the-large-integer",
+  "data_structures": [
+    [
+      "binary search on indices"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search with subarray comparisons using ArrayReader API"
+  ],
+  "problem_summary_simple": "Find the index of the single larger element in an array using a comparison API with limited calls.",
+  "problem_summary_technical": "Employ binary search on the array indices, using the ArrayReader's compareSub function to narrow down the search space.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a classic application of binary search where the comparison is done via an API.",
+      "The key is to divide the array into two halves and compare their sums to determine which half contains the larger element.",
+      "The `compareSub` function allows us to compare sums of arbitrary subarrays, which is crucial for the binary search logic."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

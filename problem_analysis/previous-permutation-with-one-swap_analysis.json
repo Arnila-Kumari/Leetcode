@@ -1,0 +1,31 @@
+{
+  "problem_name": "previous-permutation-with-one-swap",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate from right to find first decreasing pair, then find largest smaller element to swap."
+  ],
+  "problem_summary_simple": "Find the largest permutation smaller than the given one using exactly one swap.",
+  "problem_summary_technical": "Find the rightmost element A[left] > A[left+1]. Then find the rightmost element A[right] < A[left] to swap with A[left].",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The goal is to make the number as large as possible while still being smaller than the original.",
+      "Finding the first decreasing element from the right is crucial for making the smallest possible change.",
+      "Swapping with the largest element smaller than the pivot ensures the resulting permutation is lexicographically largest."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

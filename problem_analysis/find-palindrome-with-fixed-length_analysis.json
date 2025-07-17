@@ -1,0 +1,44 @@
+{
+  "problem_name": "find-palindrome-with-fixed-length",
+  "data_structures": [
+    [
+      "math",
+      "string manipulation"
+    ],
+    [
+      "math",
+      "string manipulation"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Construct the first half of the palindrome based on the query and intLength, then mirror it.",
+    "Calculate the first half of the palindrome using powers of 10 and string concatenation."
+  ],
+  "problem_summary_simple": "Find the k-th smallest palindrome of a given length.",
+  "problem_summary_technical": "Constructs palindromes by determining the first half based on query and length, then mirroring.",
+  "time_complexity": [
+    "O(n * l)",
+    "O(n * l)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(l)"
+  ],
+  "key_insights": [
+    [
+      "Palindromes are constructed by defining their first half and mirroring it.",
+      "The number of digits in the first half depends on `intLength` (odd vs. even).",
+      "The `queries[i]` value directly maps to the `queries[i]`-th number that forms the first half."
+    ],
+    [
+      "The base for the first half is `10^((intLength-1)//2)`.",
+      "The `queries[i]`-th palindrome is formed by `base + queries[i] - 1`.",
+      "String slicing and concatenation are efficient for building the palindrome."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

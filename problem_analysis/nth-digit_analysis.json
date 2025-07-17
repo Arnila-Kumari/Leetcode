@@ -1,0 +1,31 @@
+{
+  "problem_name": "nth-digit",
+  "data_structures": [
+    [
+      "variable"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical calculation based on digit length and position."
+  ],
+  "problem_summary_simple": "Find the nth digit in the infinite sequence of integers.",
+  "problem_summary_technical": "Determine the digit length of the number containing the nth digit. Calculate the specific number and then the exact digit within that number.",
+  "time_complexity": [
+    "O(logn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The infinite sequence can be broken down by the number of digits: 1-digit numbers, 2-digit numbers, 3-digit numbers, etc.",
+      "Calculate how many numbers exist for each digit length and how many total digits they contribute to the sequence.",
+      "Once the digit length is known, determine which number contains the nth digit and then which digit within that number it is."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,55 @@
+{
+  "problem_name": "maximum-number-of-accepted-invitations",
+  "data_structures": [
+    [
+      "adjacency list for bipartite graph",
+      "dictionary for matching",
+      "set for visited nodes"
+    ],
+    [
+      "2D grid representing bipartite graph",
+      "dictionary for matching",
+      "set for visited nodes"
+    ],
+    [
+      "adjacency list for bipartite graph",
+      "dictionary for matching",
+      "set for visited nodes"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Hopcroft-Karp algorithm for maximum bipartite matching.",
+    "Hungarian algorithm for maximum bipartite matching (optimized for space).",
+    "Hungarian algorithm for maximum bipartite matching (using adjacency list)."
+  ],
+  "problem_summary_simple": "Find the maximum number of boy-girl invitations that can be accepted, with one-to-one constraints.",
+  "problem_summary_technical": "Model as bipartite matching problem and solve using Hopcroft-Karp or Hungarian algorithm.",
+  "time_complexity": [
+    "O(E * sqrt(V))",
+    "O(min(m, n) * (m * n))",
+    "O(min(m, n) * (m * n))"
+  ],
+  "space_complexity": [
+    "O(V + E)",
+    "O(min(m, n))",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a classic application of maximum bipartite matching.",
+      "The constraints (one boy per girl, one girl per boy) define the bipartite structure."
+    ],
+    [
+      "Hopcroft-Karp offers a better theoretical time complexity for sparse graphs.",
+      "The Hungarian algorithm is often simpler to implement and efficient for dense graphs."
+    ],
+    [
+      "The choice of which set (boys or girls) forms the 'U' set in the bipartite graph can impact the efficiency of the Hungarian algorithm if not chosen as the smaller set."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

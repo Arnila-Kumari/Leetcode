@@ -1,0 +1,34 @@
+{
+  "problem_name": "number-of-restricted-paths-from-first-to-last-node",
+  "data_structures": [
+    [
+      "adjacency list",
+      "distance array",
+      "DP array",
+      "min-heap"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm to find shortest distances, then DP with memoization on graph traversal"
+  ],
+  "problem_summary_simple": "Count paths from node 1 to n where each step moves to a node with a shorter distance to node n.",
+  "problem_summary_technical": "Use Dijkstra's to compute shortest distances from node n. Then, apply dynamic programming on the graph, counting paths from node 1 to n satisfying the distance condition.",
+  "time_complexity": [
+    "O(|E| * log|V|)"
+  ],
+  "space_complexity": [
+    "O(|E| + |V|)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires shortest path distances from the destination node (n) to all other nodes.",
+      "Dijkstra's algorithm is suitable for finding these shortest paths in a weighted graph.",
+      "A dynamic programming approach can count the restricted paths by leveraging the pre-computed shortest distances and a topological sort-like traversal (implicitly via Dijkstra's priority queue)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

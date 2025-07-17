@@ -1,0 +1,32 @@
+{
+  "problem_name": "determine-if-two-strings-are-close",
+  "data_structures": [
+    [
+      "hashmap",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Check character set equality and frequency distribution equality using counters."
+  ],
+  "problem_summary_simple": "Check if two strings can be transformed into each other using swaps and character substitutions.",
+  "problem_summary_technical": "Verify if strings have same length, same character set, and same frequency counts of characters.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Operation 1 (swap) means character order doesn't matter, only counts.",
+      "Operation 2 (transform) means the set of characters must be the same.",
+      "The core conditions are: same length, same character set, and same frequency distribution of characters."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

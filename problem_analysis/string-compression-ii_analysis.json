@@ -1,0 +1,31 @@
+{
+  "problem_name": "string-compression-ii",
+  "data_structures": [
+    [
+      "2D DP array (list of lists)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with state (index, remaining_k) and helper function for run-length encoding length."
+  ],
+  "problem_summary_simple": "Compress a string by deleting at most k characters to minimize the run-length encoded length.",
+  "problem_summary_technical": "DP state dp[i][j] stores min length of compressed s[:i] with j deletions. Transitions consider keeping or deleting current char.",
+  "time_complexity": [
+    "O(n^2 * k)"
+  ],
+  "space_complexity": [
+    "O(n * k)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to build up the solution for prefixes of the string.",
+      "The DP state needs to track the current index and the number of characters deleted.",
+      "The helper function for calculating compressed length is crucial for transitions."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

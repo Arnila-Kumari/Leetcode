@@ -1,0 +1,29 @@
+{
+  "problem_name": "preimage-size-of-factorial-zeroes-function",
+  "data_structures": [
+    []
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search for the smallest number whose factorial ends in at least K zeroes, then check if exactly K zeroes exist."
+  ],
+  "problem_summary_simple": "Count how many numbers have a factorial ending with a specific number of zeroes.",
+  "problem_summary_technical": "Use binary search to find the range of numbers whose factorial has K trailing zeroes, based on Legendre's formula.",
+  "time_complexity": [
+    "O((log n)^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of trailing zeroes in x! is determined by the number of factors of 5 (Legendre's formula).",
+      "The function f(x) (number of zeroes) is monotonically increasing.",
+      "Binary search can efficiently find the smallest x such that f(x) >= K."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

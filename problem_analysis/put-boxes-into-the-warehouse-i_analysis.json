@@ -1,0 +1,42 @@
+{
+  "problem_name": "put-boxes-into-the-warehouse-i",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort boxes descending, iterate through warehouse, greedily place boxes.",
+    "Pre-process warehouse to find minimum height up to each room, then greedily place sorted boxes."
+  ],
+  "problem_summary_simple": "Fit the maximum number of boxes into warehouse rooms from left to right.",
+  "problem_summary_technical": "Greedily match sorted boxes to available warehouse space, considering room height constraints from left to right.",
+  "time_complexity": [
+    "O(N log N + M)",
+    "O(N log N + M)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting boxes in descending order is crucial for the greedy approach.",
+      "The warehouse constraint means a box can only pass rooms shorter than itself.",
+      "The first solution is simpler but might be less efficient if warehouse is very large and boxes are few."
+    ],
+    [
+      "Pre-calculating the minimum height in the warehouse up to each point simplifies the matching process.",
+      "Sorting boxes ascending and warehouse heights (effectively) descending allows for a direct greedy match.",
+      "This approach is more robust as it considers the cumulative effect of warehouse heights."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

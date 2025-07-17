@@ -1,0 +1,32 @@
+{
+  "problem_name": "print-binary-tree",
+  "data_structures": [
+    [
+      "2D list of strings",
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive traversal (preorder) to place nodes in a pre-calculated matrix based on tree height and width."
+  ],
+  "problem_summary_simple": "Print a binary tree in a formatted string matrix.",
+  "problem_summary_technical": "Calculate tree height and width, then use preorder traversal to place nodes in a matrix with specific child placement rules.",
+  "time_complexity": [
+    "O(H * 2^H)"
+  ],
+  "space_complexity": [
+    "O(H * 2^H)"
+  ],
+  "key_insights": [
+    [
+      "The width of the matrix is determined by the maximum possible nodes at the deepest level (2^height - 1).",
+      "The placement logic for children ensures the tree structure is maintained visually.",
+      "Pre-calculating height and width simplifies the matrix initialization and traversal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

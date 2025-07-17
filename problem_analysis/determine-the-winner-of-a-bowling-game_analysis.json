@@ -1,0 +1,33 @@
+{
+  "problem_name": "determine-the-winner-of-a-bowling-game",
+  "data_structures": [
+    [
+      "integer arrays",
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through turns, applying bonus scoring for strikes.",
+    "Use a helper function to calculate scores based on strike history."
+  ],
+  "problem_summary_simple": "Calculate bowling scores considering bonus points for strikes in previous turns.",
+  "problem_summary_technical": "Calculate player scores by iterating through turns, applying double points for strikes in the current or previous two turns.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The scoring rule depends on the previous two turns, suggesting a sliding window or look-back approach.",
+      "A helper function can abstract the score calculation logic for each player.",
+      "Careful handling of indices and strike flags is crucial."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

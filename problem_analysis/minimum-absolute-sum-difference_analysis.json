@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-absolute-sum-difference",
+  "data_structures": [
+    [
+      "sorted array",
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Calculate initial sum, then iterate through nums2. For each element, find the closest element in sorted nums1 using binary search to maximize the reduction in absolute difference."
+  ],
+  "problem_summary_simple": "Minimize the sum of absolute differences between two arrays by changing at most one element in the first array.",
+  "problem_summary_technical": "Calculate initial sum of absolute differences. Iterate through nums2, use binary search on sorted nums1 to find potential replacements that minimize difference, track maximum possible reduction.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting nums1 allows efficient searching for the closest element using binary search.",
+      "The problem can be reframed as finding the maximum possible reduction in the total sum.",
+      "Modulo arithmetic is crucial for handling large results."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

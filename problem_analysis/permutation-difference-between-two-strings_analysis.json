@@ -1,0 +1,32 @@
+{
+  "problem_name": "permutation-difference-between-two-strings",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a hash map (or array) to store character indices from s, then iterate through t to calculate differences."
+  ],
+  "problem_summary_simple": "Find the sum of index differences for each character between two permuted strings.",
+  "problem_summary_technical": "Map character positions in 's' using a hash table, then compute sum of absolute index differences with 't'.",
+  "time_complexity": [
+    "O(N + 26)"
+  ],
+  "space_complexity": [
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating the index of each character in 's' allows for efficient lookups.",
+      "The constraint that 's' contains unique characters simplifies the mapping.",
+      "The problem can be solved by iterating through 't' and using the pre-computed indices from 's'."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:04:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

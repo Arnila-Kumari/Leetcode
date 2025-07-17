@@ -1,0 +1,86 @@
+{
+  "problem_name": "path-with-minimum-effort",
+  "data_structures": [
+    [
+      "2D array (heights)",
+      "2D array (dist)",
+      "min_heap",
+      "2D array (lookup)"
+    ],
+    [
+      "2D array (heights)",
+      "list of tuples",
+      "UnionFind class"
+    ],
+    [
+      "2D array (heights)",
+      "set",
+      "2D array (lookup)"
+    ],
+    [
+      "2D array (heights)",
+      "collections.deque",
+      "2D array (lookup)"
+    ],
+    [
+      "2D array (heights)",
+      "list",
+      "2D array (lookup)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Dijkstra's algorithm to find the path with minimum maximum absolute height difference.",
+    "Union-Find with sorting edges by difference to connect components.",
+    "Binary search on the effort value combined with Bi-directional BFS.",
+    "Binary search on the effort value combined with BFS.",
+    "Binary search on the effort value combined with DFS."
+  ],
+  "problem_summary_simple": "Find a path from top-left to bottom-right with the minimum maximum height difference between adjacent cells.",
+  "problem_summary_technical": "Use Dijkstra's, Union-Find, or binary search with BFS/DFS/Bi-BFS to find the path with the minimum maximum edge weight.",
+  "time_complexity": [
+    "O(m * n * log(m * n))",
+    "O(m * n * log(m * n))",
+    "O(m * n * logh)",
+    "O(m * n * logh)",
+    "O(m * n * logh)"
+  ],
+  "space_complexity": [
+    "O(m * n)",
+    "O(m * n)",
+    "O(m * n)",
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as finding the shortest path in a graph where edge weights are height differences.",
+      "Dijkstra's algorithm is suitable, where the 'distance' to a cell is the minimum effort to reach it.",
+      "The effort to a neighbor is `max(current_effort, abs(height_diff))`."
+    ],
+    [
+      "The problem can be rephrased as finding the minimum edge weight that connects the start and end cells.",
+      "Sort all possible edge differences and use Union-Find to connect cells. The first difference that connects start and end is the answer.",
+      "The `index` helper function maps 2D grid coordinates to a 1D index for Union-Find."
+    ],
+    [
+      "Binary search on the maximum allowed effort is an efficient approach.",
+      "The `check` function uses Bi-directional BFS to see if a path exists within the given effort limit.",
+      "Bi-directional BFS can be faster by searching from both start and end simultaneously."
+    ],
+    [
+      "Binary search on the maximum allowed effort is a viable strategy.",
+      "The `check` function uses BFS to determine if a path exists from start to end where all adjacent height differences are within the effort limit.",
+      "The BFS explores reachable cells layer by layer."
+    ],
+    [
+      "Binary search on the maximum allowed effort is a common technique for this type of problem.",
+      "The `check` function uses DFS to explore paths and determine connectivity within the given effort constraint.",
+      "DFS explores as deeply as possible along each branch before backtracking."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:04:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

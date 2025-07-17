@@ -1,0 +1,31 @@
+{
+  "problem_name": "rearrange-k-substrings-to-form-target-string",
+  "data_structures": [
+    [
+      "collections.defaultdict (hash map)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting of substrings to check for rearrangement possibility."
+  ],
+  "problem_summary_simple": "Can we split 's' into k parts, rearrange them, and form 't'?",
+  "problem_summary_technical": "Compare the frequency of each k-length substring in 's' against its frequency in 't' after splitting.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "If 's' can be rearranged into 't' by permuting its k-length substrings, then the multiset of k-length substrings must be identical for both strings.",
+      "The problem leverages the fact that 's' and 't' are anagrams, implying they have the same character counts overall.",
+      "The core idea is to count the occurrences of each unique substring of length `len(s)/k` in both `s` and `t`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

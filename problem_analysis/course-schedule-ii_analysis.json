@@ -1,0 +1,74 @@
+{
+  "problem_name": "course-schedule-ii",
+  "data_structures": [
+    [
+      "adjacency list (defaultdict)",
+      "hash map (Counter)",
+      "queue (list)",
+      "list"
+    ],
+    [
+      "adjacency list (defaultdict)",
+      "hash map (Counter)",
+      "stack (list)",
+      "list"
+    ],
+    [
+      "adjacency list (defaultdict)",
+      "list",
+      "dictionary (lookup)"
+    ],
+    [
+      "adjacency list (defaultdict)",
+      "list",
+      "dictionary (lookup)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Topological sort using Kahn's algorithm (BFS) to find a valid course order.",
+    "Topological sort using DFS to find a valid course order.",
+    "Topological sort using DFS with explicit state tracking (WHITE, GRAY, BLACK) and post-order traversal.",
+    "Topological sort using DFS with explicit state tracking (WHITE, GRAY, BLACK) and post-order traversal, followed by reversing the result."
+  ],
+  "problem_summary_simple": "Find a valid order to take courses, or return empty if impossible.",
+  "problem_summary_technical": "Perform topological sort on a directed graph representing course dependencies to find a valid ordering.",
+  "time_complexity": [
+    "O(V + E)",
+    "O(V + E)",
+    "O(V + E)",
+    "O(V + E)"
+  ],
+  "space_complexity": [
+    "O(V + E)",
+    "O(V + E)",
+    "O(V + E)",
+    "O(V + E)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a direct extension of course-schedule, requiring the actual topological sort order.",
+      "Kahn's algorithm (BFS) naturally produces a topological sort order.",
+      "If the number of courses in the result is less than numCourses, it indicates a cycle, and an empty list should be returned."
+    ],
+    [
+      "This problem is a direct extension of course-schedule, requiring the actual topological sort order.",
+      "DFS can also produce a topological sort order if implemented correctly (post-order traversal).",
+      "Similar to BFS, if a cycle is detected, an empty list is returned."
+    ],
+    [
+      "DFS with state tracking is a robust way to find topological order and detect cycles.",
+      "The order in which nodes finish their DFS traversal (post-order) gives a reverse topological sort.",
+      "The `any()` function with a generator is a concise way to check if any recursive call returns False (indicating a cycle)."
+    ],
+    [
+      "DFS with state tracking is a robust way to find topological order and detect cycles.",
+      "The order in which nodes finish their DFS traversal (post-order) gives a reverse topological sort.",
+      "Reversing the post-order traversal result yields a valid topological sort."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

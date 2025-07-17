@@ -1,0 +1,31 @@
+{
+  "problem_name": "add-to-array-form-of-integer",
+  "data_structures": [
+    [
+      "list of integers"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Simulating addition with carry, treating the array as digits of a number and adding K."
+  ],
+  "problem_summary_simple": "Add an integer K to a number represented as an array of its digits.",
+  "problem_summary_technical": "Reverses the array, adds K to the last digit, handles carry propagation, and appends new digits if K is larger than the array's value.",
+  "time_complexity": [
+    "O(N + logK)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by treating the array `A` as a number and performing addition with `K`.",
+      "It's efficient to reverse the array `A` and process it from the least significant digit (rightmost) to the most significant digit (leftmost).",
+      "The carry mechanism is similar to standard integer addition, and if `K` is larger than the number represented by `A`, new digits will be appended."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

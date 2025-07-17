@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-time-to-revert-word-to-initial-state-ii",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Z-function for pattern matching"
+  ],
+  "problem_summary_simple": "Find the minimum time to revert a string to its initial state by repeatedly removing and adding k characters.",
+  "problem_summary_technical": "Employ the Z-function to identify the longest common prefix starting at multiples of k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The Z-function is crucial for efficiently finding prefixes that match suffixes.",
+      "The problem boils down to finding the smallest `i` (multiple of `k`) where `word[i:]` matches `word`.",
+      "The constraints on `n` (up to 10^6) necessitate an O(n) solution, making the Z-function ideal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

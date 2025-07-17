@@ -1,0 +1,33 @@
+{
+  "problem_name": "flood-fill",
+  "data_structures": [
+    [
+      "list of lists (matrix)",
+      "list of tuples (directions)",
+      "recursion stack"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Depth First Search (DFS) or Breadth First Search (BFS) on a grid."
+  ],
+  "problem_summary_simple": "Color connected pixels of the same starting color with a new color.",
+  "problem_summary_technical": "Perform DFS/BFS starting from (sr, sc) to find and recolor adjacent pixels with the original color.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic graph traversal problem on an implicit graph where pixels are nodes and adjacency is defined by shared sides.",
+      "DFS is a natural fit for exploring connected components.",
+      "A base case to stop recursion is essential: out of bounds, or pixel color doesn't match the original color, or pixel already visited (implicitly handled by changing color)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

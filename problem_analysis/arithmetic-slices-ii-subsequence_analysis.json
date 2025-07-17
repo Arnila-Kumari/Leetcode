@@ -1,0 +1,32 @@
+{
+  "problem_name": "arithmetic-slices-ii-subsequence",
+  "data_structures": [
+    [
+      "list of hash maps (dictionaries) for DP states"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming where dp[i][diff] stores the count of arithmetic subsequences ending at index i with common difference diff.",
+    "Iterate through all pairs (j, i) with j < i, calculate difference, update DP table and result."
+  ],
+  "problem_summary_simple": "Count all arithmetic subsequences of length at least three in an array.",
+  "problem_summary_technical": "Use DP where dp[i][diff] counts arithmetic subsequences ending at index i with difference diff, summing up valid subsequences.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n * d)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires counting subsequences, not subarrays, which is more complex.",
+      "A DP state `dp[i][diff]` is needed to store the count of arithmetic subsequences ending at index `i` with a common difference `diff`.",
+      "When considering `nums[i]` and `nums[j]` (j < i), if `diff = nums[i] - nums[j]`, then any arithmetic subsequence ending at `j` with difference `diff` can be extended by `nums[i]`. The count `dp[j][diff]` contributes to `dp[i][diff]` and also to the total result if `dp[j][diff]` represents subsequences of length at least 2."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

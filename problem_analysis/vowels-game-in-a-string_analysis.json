@@ -1,0 +1,31 @@
+{
+  "problem_name": "vowels-game-in-a-string",
+  "data_structures": [
+    [
+      "string iteration"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Analyze game states based on the presence of vowels."
+  ],
+  "problem_summary_simple": "Determine if Alice wins a game where players remove substrings with odd/even vowels.",
+  "problem_summary_technical": "Alice wins if there's at least one vowel, allowing her to make a move. Bob wins if Alice cannot move.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The game's outcome depends on whether Alice can make her first move.",
+      "Alice can always win if there is at least one vowel in the string, as she can remove a substring containing that vowel.",
+      "If the string contains no vowels, Alice cannot make a move and loses immediately."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:14:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "range-sum-query-immutable",
+  "data_structures": [
+    [
+      "prefix sum array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix Sum"
+  ],
+  "problem_summary_simple": "Calculate the sum of elements in a given range of an array efficiently.",
+  "problem_summary_technical": "Precompute prefix sums to answer range sum queries in O(1) time after O(n) preprocessing.",
+  "time_complexity": [
+    "O(n) for initialization, O(1) for sumRange"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Prefix sums allow for constant time range sum queries.",
+      "The prefix sum array is one element longer than the input array to handle edge cases.",
+      "The sum of a range [i, j] is prefix_sum[j+1] - prefix_sum[i]."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:05:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

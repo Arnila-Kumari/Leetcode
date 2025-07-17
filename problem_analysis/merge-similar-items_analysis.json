@@ -1,0 +1,32 @@
+{
+  "problem_name": "merge-similar-items",
+  "data_structures": [
+    [
+      "Hash Map (Counter)",
+      "List"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a hash map (Counter) to aggregate weights for each unique item value, then sort the result."
+  ],
+  "problem_summary_simple": "Combine items from two lists that have the same value, summing their weights.",
+  "problem_summary_technical": "Aggregate weights of items with identical values from two input lists using a hash map, then sort the merged items by value.",
+  "time_complexity": [
+    "O((m + n) * log(m + n))"
+  ],
+  "space_complexity": [
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "A hash map (like Python's Counter) is ideal for efficiently grouping and summing values based on keys (item values).",
+      "After aggregation, sorting the resulting items by their values is necessary to meet the output requirement.",
+      "The problem is essentially a frequency count and aggregation task."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:55:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

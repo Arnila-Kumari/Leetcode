@@ -1,0 +1,45 @@
+{
+  "problem_name": "the-number-of-weak-characters-in-the-game",
+  "data_structures": [
+    [
+      "list",
+      "int"
+    ],
+    [
+      "collections.defaultdict",
+      "list",
+      "int"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort by defense descending, then attack ascending. Iterate and track max defense.",
+    "Group by attack, sort attacks descending. Iterate and track max defense for each attack group."
+  ],
+  "problem_summary_simple": "Count characters weaker than any other character with strictly higher attack and defense.",
+  "problem_summary_technical": "Sort properties by defense (desc) then attack (asc). Iterate, maintaining max defense seen so far to identify weak characters.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting by defense first is crucial. If two characters have the same defense, the one with higher attack should be considered first.",
+      "By iterating through sorted properties and keeping track of the maximum defense encountered so far, we can efficiently determine if a character is weak.",
+      "A character is weak if its defense is less than the maximum defense of any character processed *before* it (with higher or equal attack)."
+    ],
+    [
+      "Grouping by attack allows processing characters with the same attack together.",
+      "Sorting attacks in descending order ensures that when we consider a character, we have already processed all characters with higher attacks.",
+      "The maximum defense seen so far for a given attack level helps identify characters that are weak against characters with higher attack and defense."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:19:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

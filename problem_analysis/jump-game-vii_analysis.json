@@ -1,0 +1,42 @@
+{
+  "problem_name": "jump-game-vii",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "collections.deque"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dynamic Programming with Line Sweep (prefix sums)",
+    "Breadth-First Search (BFS) with optimized range exploration"
+  ],
+  "problem_summary_simple": "Determine if the last index can be reached from index 0 by jumping within a min/max range to '0' cells.",
+  "problem_summary_technical": "DP approach using prefix sums to count reachable '0's in a window. BFS explores reachable indices, optimizing by tracking the furthest reachable point.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved with DP where `dp[i]` is true if index `i` is reachable.",
+      "The DP transition `dp[i] = (sum(dp[j] for i-maxJump <= j <= i-minJump) > 0) and s[i] == '0'` can be optimized using a sliding window sum (line sweep).",
+      "The line sweep efficiently calculates the number of reachable previous indices within the jump range."
+    ],
+    [
+      "This is a reachability problem on a graph, suitable for BFS.",
+      "The key optimization is to avoid re-exploring indices that are already covered by a previous jump's range.",
+      "By tracking the `reachable` boundary (the furthest index that can be reached by any jump), we can limit the inner loop's exploration."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

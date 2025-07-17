@@ -1,0 +1,47 @@
+{
+  "problem_name": "smallest-string-with-swaps",
+  "data_structures": [
+    [
+      "array",
+      "hashmap",
+      "union-find data structure"
+    ],
+    [
+      "array",
+      "hashmap",
+      "adjacency list",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find to group swappable indices and sort characters within components",
+    "Graph traversal (DFS/BFS) to find connected components and sort characters"
+  ],
+  "problem_summary_simple": "Find the lexicographically smallest string by swapping characters at given index pairs any number of times.",
+  "problem_summary_technical": "Identifies connected components of swappable indices using Union-Find or graph traversal, then sorts characters within each component.",
+  "time_complexity": [
+    "O(N log N + P)",
+    "O(N log N + P)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The ability to swap characters any number of times implies that characters at indices within the same connected component can be freely rearranged.",
+      "Therefore, the problem reduces to finding these connected components and sorting the characters within each component lexicographically.",
+      "Union-Find is an efficient way to group indices that can be swapped, and sorting the characters within these groups yields the smallest string."
+    ],
+    [
+      "Alternatively, a graph can be built where nodes are indices and edges represent swappable pairs. Connected components in this graph represent groups of swappable indices.",
+      "DFS or BFS can be used to find these connected components.",
+      "Once components are identified, characters at those indices are collected, sorted, and then placed back into the string in sorted order."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

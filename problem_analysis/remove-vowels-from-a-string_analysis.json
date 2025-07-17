@@ -1,0 +1,32 @@
+{
+  "problem_name": "remove-vowels-from-a-string",
+  "data_structures": [
+    [
+      "set",
+      "string builder"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the string, checking each character against a set of vowels. Append non-vowels to a new string."
+  ],
+  "problem_summary_simple": "Remove all vowels ('a', 'e', 'i', 'o', 'u') from a given string.",
+  "problem_summary_technical": "Filter characters from the input string, keeping only consonants using a hash set for efficient vowel lookup.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Using a set for vowels provides O(1) average time complexity for checking if a character is a vowel.",
+      "Building the result string character by character can be done efficiently using a list comprehension and `join`.",
+      "The problem is a straightforward character filtering task."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

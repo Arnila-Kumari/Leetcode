@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-swaps-to-group-all-1s-together-ii",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window on a circular array to find the minimum number of 0s in a window of size equal to the total count of 1s."
+  ],
+  "problem_summary_simple": "Find minimum swaps to group all 1s together in a circular binary array.",
+  "problem_summary_technical": "Apply a sliding window of size equal to the total 1s count on the circular array to find the window with the fewest 0s.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a variation of grouping 1s, but on a circular array.",
+      "The target window size is determined by the total count of 1s in the array.",
+      "The minimum swaps needed is the minimum number of 0s within any window of that size in the circular array."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

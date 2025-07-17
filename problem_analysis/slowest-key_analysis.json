@@ -1,0 +1,31 @@
+{
+  "problem_name": "slowest-key",
+  "data_structures": [
+    [
+      "hashmap (collections.Counter)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through key presses, calculate duration, and greedily track the longest duration and lexicographically largest key."
+  ],
+  "problem_summary_simple": "Find the key with the longest press duration, breaking ties with the lexicographically largest key.",
+  "problem_summary_technical": "Calculates press durations by differencing release times and uses a greedy approach to track the maximum duration and corresponding key.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The duration of the first key press is simply its release time.",
+      "Subsequent key press durations are calculated by subtracting the previous release time from the current release time.",
+      "A greedy strategy is sufficient: keep track of the maximum duration seen so far and the key associated with it, updating only when a longer duration or an equal duration with a lexicographically larger key is found."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

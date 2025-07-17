@@ -1,0 +1,43 @@
+{
+  "problem_name": "longest-palindromic-substring",
+  "data_structures": [
+    [
+      "Array for Manacher's algorithm preprocessing",
+      "Array for palindrome radii"
+    ],
+    [
+      "String"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Manacher's Algorithm for O(n) time complexity.",
+    "Expand Around Center approach for O(n^2) time complexity."
+  ],
+  "problem_summary_simple": "Find the longest substring within a given string that reads the same forwards and backward.",
+  "problem_summary_technical": "Manacher's algorithm preprocesses the string to handle even/odd lengths uniformly and uses palindrome radii to find the longest palindromic substring in O(n).",
+  "time_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Manacher's algorithm cleverly handles both odd and even length palindromes by inserting '#' characters.",
+      "It utilizes symmetry to avoid redundant comparisons, achieving linear time complexity.",
+      "The 'Expand Around Center' approach is simpler to understand and implement but less efficient."
+    ],
+    [
+      "The 'Expand Around Center' method iterates through each character as a potential center of a palindrome.",
+      "It expands outwards from the center(s) to find the longest palindrome centered there.",
+      "This approach has a time complexity of O(n^2) because each expansion can take O(n) time."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

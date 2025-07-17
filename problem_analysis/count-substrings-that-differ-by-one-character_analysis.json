@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-substrings-that-differ-by-one-character",
+  "data_structures": [
+    [
+      "no explicit data structures beyond string indexing"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Iterate through all possible starting points in s and t, then use two pointers to count differing substrings."
+  ],
+  "problem_summary_simple": "Count substrings in s that differ from substrings in t by exactly one character.",
+  "problem_summary_technical": "Employs a nested loop structure with two pointers to compare substrings of s and t, counting those with a single character difference.",
+  "time_complexity": [
+    "O(M * N * min(M, N))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down by considering each possible alignment of substrings from s and t.",
+      "For each alignment, we count substrings that differ by exactly one character. This is done by tracking consecutive matching characters.",
+      "The `count` helper function efficiently calculates this for a given starting alignment."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

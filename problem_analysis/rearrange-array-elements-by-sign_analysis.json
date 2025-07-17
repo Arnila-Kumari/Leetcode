@@ -1,0 +1,56 @@
+{
+  "problem_name": "rearrange-array-elements-by-sign",
+  "data_structures": [
+    [
+      "list of integers (result array)",
+      "integer variables (pointers)"
+    ],
+    [
+      "list of integers (positive numbers)",
+      "list of integers (negative numbers)"
+    ],
+    [
+      "list of integers (result array)",
+      "generator objects"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Two pointers for in-place rearrangement",
+    "Separate lists for positive and negative numbers, then merge",
+    "Generators to iterate through positive and negative numbers"
+  ],
+  "problem_summary_simple": "Rearrange an array with equal positive and negative numbers so positives and negatives alternate, starting with positive.",
+  "problem_summary_technical": "Places positive and negative numbers into their correct alternating positions in a new array, preserving their relative order.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem guarantees an equal number of positive and negative integers and an even length array.",
+      "The relative order of positive numbers among themselves and negative numbers among themselves must be maintained.",
+      "A two-pointer approach can efficiently place elements into a new result array at alternating indices (0, 2, 4... for positives; 1, 3, 5... for negatives)."
+    ],
+    [
+      "Separating positive and negative numbers into two lists first simplifies the merging process.",
+      "Popping from the end of these lists (if populated in reverse) or iterating through them directly allows for maintaining relative order.",
+      "This approach is conceptually clear but uses extra space for the temporary lists."
+    ],
+    [
+      "Generators provide an elegant way to iterate through positive and negative numbers without explicitly creating separate lists.",
+      "This approach is memory-efficient as it yields numbers on demand.",
+      "The main loop then picks from the appropriate generator based on the index parity."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

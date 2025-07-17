@@ -1,0 +1,31 @@
+{
+  "problem_name": "adding-two-negabinary-numbers",
+  "data_structures": [
+    [
+      "List"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Simulating base -2 addition with carry handling, processing from least significant bit"
+  ],
+  "problem_summary_simple": "Add two numbers represented in base -2 and return the result in the same format.",
+  "problem_summary_technical": "Performs addition bit by bit, managing a carry that can be positive or negative, and converting back to base -2 representation.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is handling the negative base and its carry propagation.",
+      "A carry of -1 in base -2 means adding 2 and subtracting 1 from the next higher power.",
+      "The `carry = -(carry >> 1)` logic correctly implements the carry for base -2."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

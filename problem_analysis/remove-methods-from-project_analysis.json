@@ -1,0 +1,32 @@
+{
+  "problem_name": "remove-methods-from-project",
+  "data_structures": [
+    [
+      "Adjacency List",
+      "Boolean Array (lookup)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Graph traversal (BFS) to identify suspicious methods and their dependencies, followed by a check for external invocations."
+  ],
+  "problem_summary_simple": "Remove a method and all methods it directly or indirectly invokes, but only if no non-suspicious method invokes them.",
+  "problem_summary_technical": "Perform BFS from the buggy method 'k' to find all reachable (suspicious) methods. Check if any non-suspicious method invokes a suspicious one.",
+  "time_complexity": [
+    "O(n + e)"
+  ],
+  "space_complexity": [
+    "O(n + e)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to identify all methods that are 'tainted' by method 'k'.",
+      "A crucial condition for removal is that no external (non-suspicious) method should call into the suspicious group.",
+      "If the removal condition is violated for any suspicious method, no methods are removed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

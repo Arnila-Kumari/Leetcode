@@ -1,0 +1,32 @@
+{
+  "problem_name": "print-foobar-alternately",
+  "data_structures": [
+    [
+      "Condition variable",
+      "boolean flag"
+    ]
+  ],
+  "category": "Concurrency",
+  "algorithm_technique": [
+    "Thread synchronization using a condition variable and a shared flag to alternate printing 'foo' and 'bar'."
+  ],
+  "problem_summary_simple": "Print 'foobar' n times using two threads that must alternate their output.",
+  "problem_summary_technical": "Utilize a condition variable and a boolean flag to coordinate two threads, ensuring 'foo' and 'bar' are printed in strict alternation.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Condition variables are crucial for signaling between threads when a shared resource (the turn to print) becomes available.",
+      "A shared boolean flag acts as a lock or state indicator to control which thread can proceed.",
+      "The `notify()` call wakes up one waiting thread, and `wait()` releases the lock and suspends the current thread."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

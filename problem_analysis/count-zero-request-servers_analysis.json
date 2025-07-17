@@ -1,0 +1,46 @@
+{
+  "problem_name": "count-zero-request-servers",
+  "data_structures": [
+    [
+      "sorted list",
+      "frequency array",
+      "pointers"
+    ],
+    [
+      "list of events",
+      "sorted list of queries",
+      "frequency array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sort logs, use two pointers to maintain active requests within the time window.",
+    "Line sweep with events: process log entries and queries chronologically."
+  ],
+  "problem_summary_simple": "Count servers with no requests in a given time interval for multiple queries.",
+  "problem_summary_technical": "Efficiently count servers with zero requests in sliding time windows using sorting and two pointers or line sweep.",
+  "time_complexity": [
+    "O(L log L + Q log Q + L + Q)",
+    "O(L log L + Q log Q + L + Q)"
+  ],
+  "space_complexity": [
+    "O(L + Q)",
+    "O(L + Q)"
+  ],
+  "key_insights": [
+    [
+      "Sorting logs by time is crucial for efficient window management.",
+      "Two pointers (left and right) track the start and end of the active time window.",
+      "A frequency array for servers helps in quickly updating counts as the window slides."
+    ],
+    [
+      "Transforming logs and queries into events allows for a unified chronological processing.",
+      "Event points mark the start and end of request intervals.",
+      "Processing events in sorted order and updating active server counts efficiently answers queries."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

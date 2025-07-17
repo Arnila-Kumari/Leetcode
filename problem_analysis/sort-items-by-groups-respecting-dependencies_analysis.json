@@ -1,0 +1,34 @@
+{
+  "problem_name": "sort-items-by-groups-respecting-dependencies",
+  "data_structures": [
+    [
+      "dictionary",
+      "list",
+      "deque"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Topological sort on items within groups and on groups themselves"
+  ],
+  "problem_summary_simple": "Sort items respecting item-level and group-level dependencies.",
+  "problem_summary_technical": "Perform two topological sorts: one for groups and one for items within each group, then combine results.",
+  "time_complexity": [
+    "O(N + M + E_item + E_group) where N is items, M is groups, E is edges (dependencies)"
+  ],
+  "space_complexity": [
+    "O(N + M + E_item + E_group)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as a graph problem requiring topological sorting.",
+      "Two levels of topological sorting are needed: one for groups and one for items within groups.",
+      "Handling items without groups requires creating new temporary groups.",
+      "A cycle in either the item graph or the group graph indicates no valid solution."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:09:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

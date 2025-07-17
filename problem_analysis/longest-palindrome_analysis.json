@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-palindrome",
+  "data_structures": [
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting: use character counts to build the longest palindrome."
+  ],
+  "problem_summary_simple": "Find the length of the longest palindrome that can be built using letters from a given string.",
+  "problem_summary_technical": "Count character frequencies; pair up characters, allowing at most one character with an odd count in the center.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A palindrome can be formed by pairing up characters. All characters with even counts can be fully utilized.",
+      "For characters with odd counts, we can use all but one instance to form pairs.",
+      "At most one character with an odd count can be placed in the center of the palindrome."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

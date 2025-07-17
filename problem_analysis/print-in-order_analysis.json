@@ -1,0 +1,32 @@
+{
+  "problem_name": "print-in-order",
+  "data_structures": [
+    [
+      "threading.Condition",
+      "boolean flags"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Thread synchronization using Condition variables and flags to enforce execution order."
+  ],
+  "problem_summary_simple": "Ensure three threads print 'first', 'second', and 'third' in the correct sequence.",
+  "problem_summary_technical": "Utilizes threading.Condition and boolean flags to coordinate three threads, ensuring sequential execution of print statements.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Condition variables are crucial for inter-thread communication and waiting.",
+      "Boolean flags act as state indicators to signal completion of previous steps.",
+      "notifyAll() is used to wake up all waiting threads, allowing the correct one to proceed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

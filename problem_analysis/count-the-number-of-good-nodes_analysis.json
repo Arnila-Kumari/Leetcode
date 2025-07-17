@@ -1,0 +1,43 @@
+{
+  "problem_name": "count-the-number-of-good-nodes",
+  "data_structures": [
+    [
+      "adjacency list",
+      "stack (for iterative DFS)"
+    ],
+    [
+      "adjacency list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative Depth-First Search (DFS) with state management",
+    "Recursive Depth-First Search (DFS) to calculate subtree sizes and check conditions"
+  ],
+  "problem_summary_simple": "Count nodes in a tree where all child subtrees have the same size.",
+  "problem_summary_technical": "Uses DFS to compute subtree sizes and checks if a node's child subtrees have equal sizes.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h) where h is the height of the tree",
+    "O(h) where h is the height of the tree"
+  ],
+  "key_insights": [
+    [
+      "A post-order traversal (or simulating one with iterative DFS) is needed to get child subtree sizes first.",
+      "The condition `l*cnt != total` in the recursive DFS checks if all child subtrees have the same size.",
+      "The iterative DFS requires careful state management to simulate recursion."
+    ],
+    [
+      "A post-order traversal (or simulating one with iterative DFS) is needed to get child subtree sizes first.",
+      "The condition `l*cnt != total` in the recursive DFS checks if all child subtrees have the same size.",
+      "The iterative DFS requires careful state management to simulate recursion."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

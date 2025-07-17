@@ -1,0 +1,32 @@
+{
+  "problem_name": "shortest-path-with-alternating-colors",
+  "data_structures": [
+    [
+      "collections.deque",
+      "list of lists of sets"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) with state tracking for edge color"
+  ],
+  "problem_summary_simple": "Find shortest paths from node 0 to all other nodes with alternating red and blue edges.",
+  "problem_summary_technical": "BFS on a graph where nodes are (node_id, last_edge_color), finding shortest alternating paths.",
+  "time_complexity": [
+    "O(n + e)"
+  ],
+  "space_complexity": [
+    "O(n + e)"
+  ],
+  "key_insights": [
+    [
+      "The path must alternate colors, so the state in BFS needs to include the color of the last edge taken.",
+      "Two separate BFS traversals (or one with a state tuple) are needed, one starting with a red edge and one with a blue edge.",
+      "The `dist` array stores the shortest distance to a node ending with a red edge and ending with a blue edge."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "delete-greatest-value-in-each-row",
+  "data_structures": [
+    [
+      "list of lists of integers"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort each row, then iterate through columns, summing the maximum element in each column."
+  ],
+  "problem_summary_simple": "Repeatedly remove the largest element from each row and sum these largest elements.",
+  "problem_summary_technical": "Sort each row, then sum the maximum element across all rows for each column index.",
+  "time_complexity": [
+    "O(m * nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To efficiently find the greatest value in each row repeatedly, sorting each row first is optimal.",
+      "After sorting, the greatest value in a row will always be at the last column.",
+      "The problem then reduces to finding the maximum value across all rows for each column index (after sorting)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

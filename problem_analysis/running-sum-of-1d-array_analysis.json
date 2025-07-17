@@ -1,0 +1,31 @@
+{
+  "problem_name": "running-sum-of-1d-array",
+  "data_structures": [
+    [
+      "list (array)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "In-place modification of the array by accumulating sums from the beginning."
+  ],
+  "problem_summary_simple": "Calculate the running sum of an array, where each element is the sum of itself and preceding elements.",
+  "problem_summary_technical": "Compute the prefix sum of an array by iteratively adding the current element to the previous sum in-place.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The running sum can be calculated efficiently in-place.",
+      "Each element `nums[i+1]` can be updated to `nums[i+1] + nums[i]` to store the running sum.",
+      "This avoids the need for an auxiliary array, optimizing space."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

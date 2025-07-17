@@ -1,0 +1,38 @@
+{
+  "problem_name": "maximize-the-number-of-target-nodes-after-connecting-trees-ii",
+  "data_structures": [
+    [
+      "list",
+      "adjacency list",
+      "integer array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "BFS on trees to determine node parity (even/odd distance from root), then combine results."
+  ],
+  "problem_summary_simple": "Connect a node from tree1 to tree2 to maximize target nodes (even path distance) for each node in tree1.",
+  "problem_summary_technical": "BFS on tree2 to count nodes with even/odd parity. Find max count. Then, for each node in tree1, calculate its even parity nodes and add the max from tree2.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "The 'target' condition (even path distance) suggests a parity-based approach.",
+      "Performing a BFS from an arbitrary root (e.g., node 0) in each tree allows us to determine the parity of the distance from the root to every other node.",
+      "When connecting a node `u` from tree1 to `v` from tree2, a node `x` in tree1 is target to `u` if `dist(u, x)` is even. This is `dist(root1, x)` XOR `dist(root1, u)`."
+    ],
+    [
+      "The maximum number of target nodes in tree2 for any connection is either the count of even-parity nodes or odd-parity nodes from a chosen root.",
+      "We can precompute the counts of even and odd parity nodes in tree2.",
+      "For each node `i` in tree1, we calculate the number of nodes `j` in tree1 such that `dist(i, j)` is even. This is `count_even_parity_in_tree1[i]` if `dist(root1, i)` is even, and `count_odd_parity_in_tree1[i]` if `dist(root1, i)` is odd."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

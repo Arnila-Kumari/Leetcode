@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-swaps-to-sort-by-digit-sum",
+  "data_structures": [
+    [
+      "list",
+      "list of integers",
+      "list of booleans"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate digit sums, sort based on digit sum and value, then count cycles for minimum swaps."
+  ],
+  "problem_summary_simple": "Sort an array based on digit sums, then by number value, and find minimum swaps.",
+  "problem_summary_technical": "Compute digit sums, sort pairs (digit_sum, number). Use cycle detection on permutation to find minimum swaps.",
+  "time_complexity": [
+    "O(nlogr + nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires sorting based on a custom key: digit sum, then the number itself.",
+      "The minimum number of swaps to sort an array is related to the number of cycles in its permutation.",
+      "The formula for minimum swaps is N - number_of_cycles, where N is the array length."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

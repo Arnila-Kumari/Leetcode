@@ -1,0 +1,40 @@
+{
+  "problem_name": "number-of-ways-to-reach-destination-in-the-grid",
+  "data_structures": [
+    [
+      "matrix"
+    ],
+    []
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "matrix exponentiation for state transitions",
+    "iterative DP with constant space"
+  ],
+  "problem_summary_simple": "Count ways to reach destination from source in k moves, moving horizontally or vertically.",
+  "problem_summary_technical": "Uses matrix exponentiation to model state transitions between same-row, same-column, and different-row/column positions.",
+  "time_complexity": [
+    "O(log k)",
+    "O(k)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using DP where states represent relative positions (same row, same col, different).",
+      "Matrix exponentiation efficiently computes the k-step transitions between these states.",
+      "The transition matrix captures the number of valid moves between states."
+    ],
+    [
+      "The DP states can be updated iteratively for k steps.",
+      "This approach avoids matrix operations and is simpler for direct computation.",
+      "The state transitions are directly applied in each iteration."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

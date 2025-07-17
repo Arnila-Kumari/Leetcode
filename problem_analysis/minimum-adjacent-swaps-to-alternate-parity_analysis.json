@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-adjacent-swaps-to-alternate-parity",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate counts of even/odd numbers. If balanced or off by one, calculate swaps for both target parities and take the minimum."
+  ],
+  "problem_summary_simple": "Find the minimum swaps to make adjacent elements have different parity.",
+  "problem_summary_technical": "Greedy approach to count swaps needed to achieve alternating parity by placing odd/even numbers at target indices.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is solvable only if the counts of even and odd numbers are equal or differ by at most one.",
+      "The minimum swaps can be found by considering two target arrangements: starting with an even number or starting with an odd number.",
+      "The number of swaps to move an element to its target position is the absolute difference in their indices."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

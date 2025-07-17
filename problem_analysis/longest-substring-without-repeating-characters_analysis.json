@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-substring-without-repeating-characters",
+  "data_structures": [
+    [
+      "hashmap (for character lookup and index)"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with hashmap to track character indices."
+  ],
+  "problem_summary_simple": "Find the longest substring without any repeating characters.",
+  "problem_summary_technical": "Sliding window with a hashmap. Expand window, if duplicate found, move left pointer past the last occurrence of the duplicate.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(min(n, alphabet_size))"
+  ],
+  "key_insights": [
+    [
+      "The hashmap stores the last seen index of each character.",
+      "When a repeating character is encountered, the left pointer is advanced to `max(left, last_seen_index + 1)`.",
+      "This ensures the window always contains unique characters."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

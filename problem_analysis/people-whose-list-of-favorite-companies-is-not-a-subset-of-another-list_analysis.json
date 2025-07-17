@@ -1,0 +1,45 @@
+{
+  "problem_name": "people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list",
+  "data_structures": [
+    [
+      "set",
+      "hashmap"
+    ],
+    [
+      "set",
+      "hashmap",
+      "Union-Find data structure"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through all pairs, convert lists to sets, and check for subset relationship using set operations.",
+    "Convert lists to sets, then use Union-Find to group subsets, identifying non-subset lists."
+  ],
+  "problem_summary_simple": "Find people whose favorite company lists are not contained within any other person's list.",
+  "problem_summary_technical": "Identify indices of lists that are not proper subsets of any other list in a collection of lists of strings.",
+  "time_complexity": [
+    "O(n^2 * m^2) where n is number of people and m is max companies per person (with set conversion)",
+    "O(n^2 * m * log m) or O(n^2 * m) depending on set implementation and Union-Find operations"
+  ],
+  "space_complexity": [
+    "O(n * m * l) where l is max company name length",
+    "O(n * m * l)"
+  ],
+  "key_insights": [
+    [
+      "Converting company lists to sets allows for efficient subset checking.",
+      "The problem requires checking every pair of lists to determine subset relationships.",
+      "The provided solution optimizes by mapping strings to integers for set operations."
+    ],
+    [
+      "Union-Find can group lists that are subsets of each other.",
+      "The root of each set in Union-Find represents a unique non-subset list.",
+      "This approach aims to reduce redundant comparisons by merging subsets."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-cost-to-connect-two-groups-of-points",
+  "data_structures": [
+    [
+      "2D array",
+      "bitmask"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with bitmasking to represent subsets of the smaller group."
+  ],
+  "problem_summary_simple": "Connect two groups of points with minimum cost, ensuring all points are connected.",
+  "problem_summary_technical": "DP state `dp[i][mask]` stores min cost to connect first `i` points of group 1 to a subset of group 2 represented by `mask`.",
+  "time_complexity": [
+    "O(m * n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "The constraint `size1, size2 <= 12` strongly suggests a bitmask DP approach.",
+      "The DP state needs to track which points in the smaller group have been connected.",
+      "The problem can be viewed as finding a minimum weight perfect matching in a bipartite graph, but DP is more suitable given constraints."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:57:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

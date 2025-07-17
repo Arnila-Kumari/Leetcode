@@ -1,0 +1,32 @@
+{
+  "problem_name": "design-a-number-container-system",
+  "data_structures": [
+    [
+      "dictionary (hash map)",
+      "sorted list (from sortedcontainers library)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Hash map for index-to-number mapping, sorted list for number-to-indices mapping"
+  ],
+  "problem_summary_simple": "Manage numbers at indices, allowing efficient insertion/replacement and finding the smallest index for a given number.",
+  "problem_summary_technical": "Uses a hash map to store index-to-number mappings and a hash map of sorted lists to store number-to-indices mappings for efficient retrieval of the smallest index.",
+  "time_complexity": [
+    "ctor: O(1), change: O(log N), find: O(1)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is efficiently finding the *smallest* index for a given number.",
+      "A sorted list (like `SortedList`) is crucial for maintaining indices in order for each number.",
+      "Two data structures are needed: one to track the current number at an index, and another to group indices by number."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

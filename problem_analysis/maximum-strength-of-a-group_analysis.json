@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-strength-of-a-group",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy multiplication of all non-zero elements, handling negative numbers carefully."
+  ],
+  "problem_summary_simple": "Find the maximum product of a non-empty group of numbers from an array.",
+  "problem_summary_technical": "Multiply all non-zero numbers. If the result is negative and there are negative numbers, divide by the smallest (largest negative) to maximize.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The product of positive numbers always increases the strength.",
+      "An even number of negative numbers results in a positive product, which is generally good.",
+      "If the final product is negative, removing the smallest magnitude negative number (largest negative) maximizes the result."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:54:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

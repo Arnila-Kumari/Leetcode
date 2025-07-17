@@ -1,0 +1,32 @@
+{
+  "problem_name": "fraction-to-recurring-decimal",
+  "data_structures": [
+    [
+      "hash map",
+      "string builder"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "long division simulation with remainder tracking"
+  ],
+  "problem_summary_simple": "Convert a fraction to a string, indicating repeating decimals with parentheses.",
+  "problem_summary_technical": "Simulates long division, using a hash map to detect repeating remainders and their positions for parenthesization.",
+  "time_complexity": [
+    "O(log N), where N is the magnitude of the numerator/denominator, or length of the result string"
+  ],
+  "space_complexity": [
+    "O(log N), for storing remainders in the hash map"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to simulate long division and detect repeating remainders.",
+      "A hash map is crucial for storing remainders and their first occurrence index to identify the repeating part.",
+      "Handle signs and edge cases (zero remainder) carefully."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

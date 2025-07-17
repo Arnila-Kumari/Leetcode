@@ -1,0 +1,28 @@
+{
+  "problem_name": "smallest-divisible-digit-product-i",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Brute force iteration with digit product check"
+  ],
+  "problem_summary_simple": "Find the smallest number >= n whose digit product is divisible by t.",
+  "problem_summary_technical": "Iteratively checks numbers starting from n, calculating digit product modulo t until the condition is met.",
+  "time_complexity": [
+    "O(log n * k)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The digit product can become 0 if any digit is 0, which is divisible by any t.",
+      "The constraints on n (<= 100) make a brute-force approach feasible."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

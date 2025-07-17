@@ -1,0 +1,33 @@
+{
+  "problem_name": "numbers-with-repeated-digits",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "string"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Digit DP: Count numbers without repeated digits, then subtract from total."
+  ],
+  "problem_summary_simple": "Count positive integers <= N that have at least one repeated digit.",
+  "problem_summary_technical": "Calculate numbers with no repeated digits using Digit DP, then subtract from N. Permutation calculations are key.",
+  "time_complexity": [
+    "O(log N)"
+  ],
+  "space_complexity": [
+    "O(log N)"
+  ],
+  "key_insights": [
+    [
+      "It's easier to count the complement: numbers with NO repeated digits.",
+      "Use Digit DP to count numbers with unique digits. For a number of length L, the first digit has 9 choices (1-9), and subsequent digits have decreasing choices.",
+      "Handle the prefix matching carefully to avoid overcounting or undercounting when comparing with N."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

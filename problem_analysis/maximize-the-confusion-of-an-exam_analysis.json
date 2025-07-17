@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximize-the-confusion-of-an-exam",
+  "data_structures": [
+    [
+      "hash map (Counter)",
+      "string"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "sliding window with character count"
+  ],
+  "problem_summary_simple": "Maximize consecutive identical characters ('T' or 'F') in a string by changing at most k characters.",
+  "problem_summary_technical": "Sliding window approach maintaining character counts, expanding window if k is sufficient, shrinking otherwise.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic sliding window problem.",
+      "The window size represents the current consecutive sequence length.",
+      "The condition to shrink the window is when the number of characters to change (k) is exceeded."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

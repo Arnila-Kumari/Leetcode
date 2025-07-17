@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-difference-score-in-a-grid",
+  "data_structures": [
+    [
+      "2D array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming approach where each cell stores the minimum value encountered to reach it from any valid starting cell."
+  ],
+  "problem_summary_simple": "Find the maximum score by moving right or down in a grid, where score is the difference between current and previous cell values.",
+  "problem_summary_technical": "DP state `grid[i][j]` stores the minimum value encountered to reach `(i, j)`. The score is `grid[i][j] - min_value_from_previous_cells`.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding the maximum difference between a cell's value and the minimum value of any cell that can reach it.",
+      "The DP state `grid[i][j]` is updated to store the minimum value encountered to reach `(i, j)` from any valid preceding cell (top or left).",
+      "The maximum score is the maximum of `current_cell_value - min_value_to_reach_current_cell` over all cells."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

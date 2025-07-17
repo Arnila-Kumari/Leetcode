@@ -1,0 +1,29 @@
+{
+  "problem_name": "number-of-burgers-with-no-waste-of-ingredients",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Formulate a system of linear equations based on ingredient requirements for jumbo and small burgers. Solve for the number of each burger type and check for non-negative integer solutions."
+  ],
+  "problem_summary_simple": "Find the number of jumbo and small burgers to make using all tomato and cheese slices.",
+  "problem_summary_technical": "Solve a system of two linear equations (4x + 2y = tomatoSlices, x + y = cheeseSlices) for x (jumbo) and y (small), ensuring x and y are non-negative integers.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using basic algebra by setting up equations.",
+      "The constraints on the number of burgers (non-negative integers) are crucial for validation.",
+      "The solution involves checking divisibility and range conditions derived from the equations."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

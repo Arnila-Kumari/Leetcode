@@ -1,0 +1,31 @@
+{
+  "problem_name": "kth-smallest-instructions",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorics and greedy approach using nCr"
+  ],
+  "problem_summary_simple": "Find the kth lexicographically smallest path to reach a destination using only 'H' (right) and 'V' (down) moves.",
+  "problem_summary_technical": "Constructs the kth lexicographical path by iteratively deciding between 'H' and 'V' based on combinations (nCr).",
+  "time_complexity": [
+    "O((m + n)^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by realizing that the number of paths starting with 'H' is determined by combinations.",
+      "A greedy approach works: if k is less than or equal to the number of paths starting with 'H', choose 'H'; otherwise, choose 'V' and adjust k."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-number-of-consecutive-values-you-can-make",
+  "data_structures": [
+    [
+      "sorted array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the coins and greedily extend the reachable sum."
+  ],
+  "problem_summary_simple": "Find the largest range of consecutive sums starting from 0 that can be formed using given coin values.",
+  "problem_summary_technical": "Greedily extend the maximum reachable sum by adding sorted coin values, ensuring the next coin is not larger than the current reachable sum + 1.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the coins is crucial for the greedy approach.",
+      "The core idea is that if we can form sums up to `result - 1`, and the next coin `c` is `result` or less, we can extend the range to `result + c - 1`.",
+      "If the next coin `c` is greater than `result`, there's a gap, and we cannot form `result`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

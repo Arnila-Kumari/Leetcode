@@ -1,0 +1,40 @@
+{
+  "problem_name": "rotate-image",
+  "data_structures": [
+    [
+      "2D array"
+    ],
+    [
+      "2D array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "In-place rotation by first mirroring across the anti-diagonal, then mirroring horizontally.",
+    "Transpose the matrix and then reverse each row."
+  ],
+  "problem_summary_simple": "Rotate an n x n 2D matrix by 90 degrees clockwise in-place.",
+  "problem_summary_technical": "Modify the input matrix directly to achieve a 90-degree clockwise rotation without extra space.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "In-place rotation can be achieved by a sequence of transformations, like mirroring.",
+      "Understanding the coordinate transformations for a 90-degree rotation is key for the in-place solution."
+    ],
+    [
+      "Transposing the matrix swaps rows and columns.",
+      "Reversing each row after transposing achieves the clockwise rotation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

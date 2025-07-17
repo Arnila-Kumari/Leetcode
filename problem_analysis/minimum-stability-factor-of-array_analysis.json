@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-stability-factor-of-array",
+  "data_structures": [
+    [
+      "Sparse Table",
+      "Array"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer (stability factor), Sparse Table for RMQ (GCD) queries."
+  ],
+  "problem_summary_simple": "Find the smallest possible length of the longest stable subarray after modifying at most k elements.",
+  "problem_summary_technical": "Binary search for the minimum stability factor. Use Sparse Table for O(1) GCD queries on subarrays to check stability.",
+  "time_complexity": [
+    "O(n log n * log r)"
+  ],
+  "space_complexity": [
+    "O(n log n)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for a minimum value, suggesting binary search on the answer.",
+      "Efficiently querying the GCD of any subarray is crucial, making Sparse Table a good fit.",
+      "The check function needs to count stable subarrays of a given length, which can be done greedily."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

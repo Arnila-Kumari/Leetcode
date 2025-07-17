@@ -1,0 +1,44 @@
+{
+  "problem_name": "best-time-to-buy-and-sell-stock-iv",
+  "data_structures": [
+    [
+      "list",
+      "random number generator"
+    ],
+    [
+      "list",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Peak-valley approach with monotonic stack and selection algorithm (IntroSelect)",
+    "Dynamic programming with state transitions for buy/sell"
+  ],
+  "problem_summary_simple": "Find the maximum profit from at most k stock transactions.",
+  "problem_summary_technical": "Maximize profit with k transactions by identifying profitable price intervals using a monotonic stack or DP states.",
+  "time_complexity": [
+    "O(n) on average (due to IntroSelect)",
+    "O(k*n)"
+  ],
+  "space_complexity": [
+    "O(n) (for storing profits and stack)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The peak-valley approach simplifies finding profitable segments by identifying local maxima and minima.",
+      "A monotonic stack helps efficiently manage overlapping profitable intervals.",
+      "IntroSelect (or similar selection algorithm) is crucial for achieving O(n) time by finding the k-th largest profit."
+    ],
+    [
+      "DP state definition: `max_buy[j]` is max profit after j buys, `max_sell[j]` is max profit after j sells.",
+      "Transitions consider either holding the previous state or performing an action (buy/sell) on the current day.",
+      "Base case for k >= n/2 allows a greedy O(n) solution by summing all positive price differences."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-depth-of-binary-tree",
+  "data_structures": [
+    [
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive Depth-First Search (DFS) with special handling for nodes with only one child."
+  ],
+  "problem_summary_simple": "Find the shortest path from the root to any leaf node in a binary tree.",
+  "problem_summary_technical": "Recursively traverse the tree, returning 0 for null nodes. For non-leaf nodes, take the minimum depth of children, but if one child is null, use the other.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The minimum depth is defined by the path to the *nearest leaf node*.",
+      "A leaf node is a node with no children.",
+      "The recursive solution needs to correctly handle cases where a node has only one child. In such cases, the depth is determined by the non-null child's subtree."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:57:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

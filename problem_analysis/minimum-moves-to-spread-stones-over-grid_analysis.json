@@ -1,0 +1,57 @@
+{
+  "problem_name": "minimum-moves-to-spread-stones-over-grid",
+  "data_structures": [
+    [
+      "list of lists",
+      "list of tuples",
+      "list of lists"
+    ],
+    [
+      "list of lists",
+      "list of tuples",
+      "list of lists"
+    ],
+    [
+      "list of lists"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Weighted bipartite matching (Hungarian algorithm) to assign stones to empty cells.",
+    "Backtracking to explore all assignments of stones to empty cells.",
+    "Using scipy's linear_sum_assignment for bipartite matching."
+  ],
+  "problem_summary_simple": "Move stones to ensure each cell has exactly one stone, minimizing total moves.",
+  "problem_summary_technical": "Model as minimum weight perfect matching in a bipartite graph or use backtracking to assign stones to empty cells.",
+  "time_complexity": [
+    "O(n^3)",
+    "O(5^5)",
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n^2)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding a minimum weight perfect matching in a bipartite graph where one set of nodes is stones and the other is empty cells.",
+      "The weight of an edge is the Manhattan distance between a stone and an empty cell.",
+      "The grid size is small (3x3), allowing for solutions like backtracking or specialized matching algorithms."
+    ],
+    [
+      "The problem can be modeled as finding a minimum weight perfect matching in a bipartite graph.",
+      "The cost of matching a stone to an empty cell is the Manhattan distance.",
+      "Libraries like SciPy provide efficient implementations for the linear sum assignment problem."
+    ],
+    [
+      "This problem can be solved using backtracking by trying to place each stone into an empty cell.",
+      "Pruning the search space by keeping track of the minimum moves found so far is crucial.",
+      "The small grid size makes this approach feasible, though less efficient than bipartite matching."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:58:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

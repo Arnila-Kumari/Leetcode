@@ -1,0 +1,26 @@
+{
+  "problem_name": "3sum-closest",
+  "data_structures": [
+    [
+      "sorted array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sort the array, then use two pointers for each element to find the closest sum."
+  ],
+  "problem_summary_simple": "Find three numbers in an array whose sum is closest to a target value.",
+  "problem_summary_technical": "Sort array, iterate with one pointer, use two pointers to find sum closest to target.",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)",
+  "key_insights": [
+    [
+      "Sorting is crucial for the two-pointer approach to efficiently explore combinations.",
+      "Maintain a running minimum difference and the corresponding sum to track the closest result."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-15 20:21:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

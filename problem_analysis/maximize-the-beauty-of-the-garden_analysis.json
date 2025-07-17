@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximize-the-beauty-of-the-garden",
+  "data_structures": [
+    [
+      "hash map",
+      "prefix sum array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "prefix sums and hash map for O(n) solution"
+  ],
+  "problem_summary_simple": "Find the maximum beauty of a garden by removing flowers, ensuring at least two flowers remain and the first and last have equal beauty.",
+  "problem_summary_technical": "Uses prefix sums and a hash map to track first occurrences of flower beauties for O(n) max beauty calculation.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding pairs of identical beauty flowers to form the ends of the garden.",
+      "Prefix sums efficiently calculate the sum of beauties between two indices.",
+      "A hash map stores the first occurrence of each beauty value to quickly find the start of a potential garden."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

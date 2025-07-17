@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-difficulty-of-a-job-schedule",
+  "data_structures": [
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming where dp[i][j] is the minimum difficulty to schedule jobs up to index j in i days."
+  ],
+  "problem_summary_simple": "Schedule jobs over d days, minimizing the sum of daily maximum job difficulties.",
+  "problem_summary_technical": "DP state: dp[d][n] = min difficulty for d days and n jobs. Transition considers splitting jobs for the last day.",
+  "time_complexity": [
+    "O(d * n^2)"
+  ],
+  "space_complexity": [
+    "O(d * n)"
+  ],
+  "key_insights": [
+    [
+      "This problem has optimal substructure and overlapping subproblems, making it suitable for dynamic programming.",
+      "The state definition should capture the number of days used and the last job scheduled.",
+      "The transition involves iterating through possible split points for the last day's jobs, finding the maximum difficulty for that segment and adding it to the previous day's minimum difficulty."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

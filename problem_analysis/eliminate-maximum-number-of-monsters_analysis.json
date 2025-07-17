@@ -1,0 +1,31 @@
+{
+  "problem_name": "eliminate-maximum-number-of-monsters",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach with sorting arrival times"
+  ],
+  "problem_summary_simple": "Eliminate as many monsters as possible before any reach the city.",
+  "problem_summary_technical": "Calculate arrival times for each monster and greedily eliminate them in increasing order of arrival time.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The critical factor is the time it takes for each monster to reach the city.",
+      "Calculate arrival time as `(distance - 1) / speed` (integer division for time units).",
+      "Sort these arrival times and eliminate monsters in that order. If a monster arrives at or before the current minute, you lose."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

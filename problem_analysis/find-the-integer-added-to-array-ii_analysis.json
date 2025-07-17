@@ -1,0 +1,56 @@
+{
+  "problem_name": "find-the-integer-added-to-array-ii",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "heapq",
+      "List"
+    ],
+    [
+      "collections.Counter",
+      "List"
+    ],
+    [
+      "List"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting with partial sorting (heapq) to test potential 'x' values",
+    "Frequency counting with custom top-k selection to test potential 'x' values",
+    "Sorting arrays and iterating through potential 'x' values derived from maximums"
+  ],
+  "problem_summary_simple": "Find the smallest integer 'x' added to nums1 (after removing two elements) to match nums2.",
+  "problem_summary_technical": "Use frequency maps and test potential 'x' values derived from maximums of nums2 and top elements of nums1.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem guarantees a solution exists, simplifying the search for 'x'.",
+      "The difference between the maximum of nums2 and the largest elements of nums1 are good candidates for 'x'.",
+      "Using `collections.Counter` and checking subset conditions efficiently verifies a candidate 'x'."
+    ],
+    [
+      "Similar to Solution 1, but explicitly implements a top-k selection for clarity.",
+      "The `topk` function iterates through `nums1` to find the `k` largest elements.",
+      "The core logic of checking frequency counts remains the same."
+    ],
+    [
+      "Sorting both arrays allows for a more direct comparison.",
+      "The difference between the largest elements (`nums2[-1]` and `nums1[~i]`) are the primary candidates for 'x'.",
+      "A greedy approach of counting mismatches after applying 'x' helps determine validity."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:17:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

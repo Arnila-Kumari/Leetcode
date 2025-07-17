@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-difference-between-largest-and-smallest-value-in-three-moves",
+  "data_structures": [
+    [
+      "array",
+      "heap"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort or use nth_element to find k smallest/largest elements, then check differences."
+  ],
+  "problem_summary_simple": "Find the smallest difference between max and min elements after changing up to 3 elements.",
+  "problem_summary_technical": "Minimize max(nums) - min(nums) after 3 modifications. Achieved by changing the 3 smallest or 3 largest elements.",
+  "time_complexity": [
+    "O(n log n) or O(n) with nth_element"
+  ],
+  "space_complexity": [
+    "O(log n) or O(n) depending on sort/nth_element implementation"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that to minimize the difference, we should modify the extreme values (smallest and largest).",
+      "With 3 moves, we can eliminate the 3 smallest, 3 largest, or a combination (e.g., 1 smallest and 2 largest).",
+      "Sorting or using a selection algorithm (like nth_element) efficiently finds these extreme values."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

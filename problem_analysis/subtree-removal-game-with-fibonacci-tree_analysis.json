@@ -1,0 +1,31 @@
+{
+  "problem_name": "subtree-removal-game-with-fibonacci-tree",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Game theory (Nim game) and pattern recognition of Grundy numbers"
+  ],
+  "problem_summary_simple": "Determine the winner of a game where players remove nodes and their subtrees from a Fibonacci tree.",
+  "problem_summary_technical": "Analyze the game as a Nim game; the winning strategy depends on the Grundy numbers of Fibonacci trees, which exhibit a repeating pattern.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This is an impartial game, solvable using the Sprague-Grundy theorem.",
+      "The game can be decomposed into subgames corresponding to the left and right subtrees of a node.",
+      "The Grundy numbers (or nim-values) of Fibonacci trees follow a specific pattern related to modulo 6."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

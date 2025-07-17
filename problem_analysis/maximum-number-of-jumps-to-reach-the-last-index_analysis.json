@@ -1,0 +1,36 @@
+{
+  "problem_name": "maximum-number-of-jumps-to-reach-the-last-index",
+  "data_structures": [
+    [
+      "array",
+      "dynamic programming"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming where dp[i] stores the maximum jumps to reach index i.",
+    "Iterate through all previous indices to find valid jumps and update DP states."
+  ],
+  "problem_summary_simple": "Find the maximum number of jumps to reach the last index from the first, with a target range constraint.",
+  "problem_summary_technical": "Use dynamic programming: dp[i] = max(dp[j] + 1) for valid jumps from j to i, where |nums[i] - nums[j]| <= target.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the longest path in a directed acyclic graph (DAG) where nodes are indices and edges are valid jumps.",
+      "DP state should represent the maximum number of jumps to reach a specific index."
+    ],
+    [
+      "Initialize DP array with -1 to indicate unreachable states, and dp[0] = 0.",
+      "The transition involves checking all preceding indices for valid jumps."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

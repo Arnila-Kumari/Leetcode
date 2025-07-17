@@ -1,0 +1,59 @@
+{
+  "problem_name": "minimum-changes-to-make-k-semi-palindromes",
+  "data_structures": [
+    [
+      "list of lists (for divisors)",
+      "2D list of dictionaries (for DP states)",
+      "2D list (for precomputed costs)",
+      "1D list (for final DP)"
+    ],
+    [
+      "list of lists (for divisors)",
+      "2D list of dictionaries (for DP states)",
+      "2D list (for final DP)"
+    ],
+    [
+      "list of lists (for divisors)",
+      "2D list (for final DP)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Precompute divisors, then use DP to calculate minimum changes for semi-palindromes of all lengths and divisors. Finally, use another DP to partition into k substrings.",
+    "Precompute divisors, then use DP to calculate minimum changes for semi-palindromes of all lengths and divisors. Use DP to partition into k substrings.",
+    "Precompute divisors, then use a helper function to calculate minimum changes for semi-palindromes of a given substring and divisor. Use DP to partition into k substrings."
+  ],
+  "problem_summary_simple": "Partition a string into k parts, minimizing changes to make each part a semi-palindrome.",
+  "problem_summary_technical": "DP approach involving precomputing divisors and costs for semi-palindromes, then a second DP for partitioning.",
+  "time_complexity": [
+    "O(n^3)",
+    "O(n^3 * logn)",
+    "O(n^3 * logn)"
+  ],
+  "space_complexity": [
+    "O(n^2 * logn)",
+    "O(n * k)",
+    "O(nlogn + n * k)"
+  ],
+  "key_insights": [
+    [
+      "The definition of a semi-palindrome involves checking palindromic properties of character groups based on a divisor 'd'.",
+      "The cost to make a substring a semi-palindrome with divisor 'd' can be calculated by comparing characters at symmetric positions within each group.",
+      "A 2D DP approach is suitable for partitioning the string into 'k' segments, where `dp[i][j]` represents the minimum cost to partition the first `i` characters into `j` semi-palindromes."
+    ],
+    [
+      "The problem can be broken down into two main parts: calculating the cost to make a substring a semi-palindrome for various divisors, and then using DP to find the optimal partitioning.",
+      "The cost calculation for a semi-palindrome involves comparing characters at `s[i]` and `s[i + d]` for each group defined by divisor `d`.",
+      "The final DP state `dp[i][j]` can represent the minimum cost to partition the first `i` characters into `j` semi-palindromes."
+    ],
+    [
+      "The core challenge is efficiently calculating the minimum changes to make any substring a semi-palindrome for its valid divisors.",
+      "A helper function `min_dist(left, right)` can compute this minimum cost for a substring `s[left:right+1]` by iterating through its divisors.",
+      "The main DP `dp[i][j]` stores the minimum cost to partition the first `i` characters into `j` semi-palindromes, transitioning from `dp[prev_j][j-1]`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:56:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

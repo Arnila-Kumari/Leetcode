@@ -1,0 +1,37 @@
+{
+  "problem_name": "flower-planting-with-no-adjacent",
+  "data_structures": [
+    [
+      "list (result array)",
+      "list of lists (adjacency list for graph)"
+    ],
+    [
+      "dictionary",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Greedy coloring using adjacency list and set operations.",
+    "Graph coloring with backtracking or constraint satisfaction."
+  ],
+  "problem_summary_simple": "Assign one of four flower types to each garden so adjacent gardens have different types.",
+  "problem_summary_technical": "Build an adjacency list, then greedily assign the first available flower type to each garden.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a graph coloring problem where each node (garden) must have a different color than its neighbors.",
+      "Since each garden has at most 3 neighbors, and there are 4 flower types, a valid assignment is always possible (greedy approach works).",
+      "Using an adjacency list to represent the graph is efficient for storing connections."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-words-containing-character",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through words, check character presence using 'in' operator"
+  ],
+  "problem_summary_simple": "Find indices of words in a list that contain a specific character.",
+  "problem_summary_technical": "Iterate through a list of strings, using the 'in' operator to check for character presence and collect indices.",
+  "time_complexity": [
+    "O(n * l)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Python's list comprehension provides a concise way to filter and transform elements.",
+      "The 'in' operator for strings offers efficient character checking."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,34 @@
+{
+  "problem_name": "robot-bounded-in-circle",
+  "data_structures": [
+    [
+      "list",
+      "integer",
+      "integer",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Simulate robot movement, track position and direction; check for return to origin or change in direction."
+  ],
+  "problem_summary_simple": "Determine if a robot, following instructions repeatedly, stays within a bounded circle.",
+  "problem_summary_technical": "Simulate robot movement, checking if it returns to origin or changes direction after one cycle of instructions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The robot is bounded if, after one full cycle of instructions, it either returns to the origin (0,0) or ends up facing a different direction.",
+      "If the robot returns to the origin, it will repeat the same path and stay bounded.",
+      "If the robot does not return to the origin but changes its direction, it might eventually return to the origin after subsequent cycles due to the change in orientation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

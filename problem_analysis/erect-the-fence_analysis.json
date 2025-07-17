@@ -1,0 +1,32 @@
+{
+  "problem_name": "erect-the-fence",
+  "data_structures": [
+    [
+      "list of tuples",
+      "list of tuples"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Monotone Chain Algorithm for Convex Hull"
+  ],
+  "problem_summary_simple": "Find all trees on the perimeter of the smallest fence enclosing all trees.",
+  "problem_summary_technical": "Compute the convex hull of given points using the Monotone Chain algorithm to identify boundary points.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding the convex hull of the given points.",
+      "The Monotone Chain algorithm efficiently constructs the convex hull by building lower and upper hulls separately.",
+      "The cross product is crucial for determining the orientation of three points to decide whether to include a point in the hull."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

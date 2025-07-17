@@ -1,0 +1,38 @@
+{
+  "problem_name": "remove-invalid-parentheses",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "dictionary"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Calculate minimum removals needed, then use BFS or DFS (backtracking) to explore valid strings by removing characters."
+  ],
+  "problem_summary_simple": "Remove the minimum number of parentheses to make a string valid.",
+  "problem_summary_technical": "Find minimum left/right parentheses to remove, then use backtracking to generate all unique valid strings by removing those parentheses.",
+  "time_complexity": [
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "First, determine the minimum number of left and right parentheses that must be removed to achieve validity.",
+      "A Breadth-First Search (BFS) approach is often preferred to find the shortest path (minimum removals) first.",
+      "Alternatively, a Depth-First Search (DFS) with pruning can be used, ensuring we only explore paths with the minimum required removals."
+    ],
+    [
+      "The provided solution uses a recursive DFS approach with a `removed` dictionary to track indices of removed characters.",
+      "It first calculates the minimum `left_removed` and `right_removed` counts.",
+      "The helper function explores possibilities, skipping duplicate characters to avoid redundant computations and ensure unique results."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:06:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

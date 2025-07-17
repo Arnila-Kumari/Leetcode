@@ -1,0 +1,35 @@
+{
+  "problem_name": "find-all-possible-recipes-from-given-supplies",
+  "data_structures": [
+    [
+      "collections.defaultdict (adjacency list)",
+      "collections.defaultdict (indegree map)",
+      "list",
+      "set",
+      "queue"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Topological sort using Kahn's algorithm (BFS) on a directed acyclic graph (DAG) of recipes and ingredients."
+  ],
+  "problem_summary_simple": "Find recipes that can be made using available supplies and other creatable recipes.",
+  "problem_summary_technical": "Model recipes and ingredients as a graph; use topological sort to find recipes with all dependencies met by supplies or other recipes.",
+  "time_complexity": [
+    "O(R * I + S + E)"
+  ],
+  "space_complexity": [
+    "O(R * I + S + E)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as finding nodes reachable in a dependency graph.",
+      "Topological sort is suitable for ordering tasks (recipes) with dependencies.",
+      "Ingredients that are also recipes form the edges of the graph."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

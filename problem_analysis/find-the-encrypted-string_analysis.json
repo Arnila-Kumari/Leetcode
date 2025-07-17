@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-encrypted-string",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the string and append the character k positions ahead cyclically."
+  ],
+  "problem_summary_simple": "Encrypt a string by replacing each character with the kth character after it, cyclically.",
+  "problem_summary_technical": "Apply a cyclic shift to each character in the string based on the given offset k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The modulo operator is key to handling the cyclic nature of the string.",
+      "The problem is a straightforward character-by-character transformation.",
+      "The constraint on `k` can be large, but the modulo operation keeps the index within bounds."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

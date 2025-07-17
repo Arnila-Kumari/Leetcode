@@ -1,0 +1,32 @@
+{
+  "problem_name": "shortest-path-to-get-food",
+  "data_structures": [
+    [
+      "list",
+      "list of lists"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) starting from the user's location"
+  ],
+  "problem_summary_simple": "Find the shortest path from your location to any food cell, avoiding obstacles.",
+  "problem_summary_technical": "BFS on a grid to find the minimum distance from a start cell to any target cell.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "BFS is the standard algorithm for finding the shortest path in an unweighted grid.",
+      "The search expands outwards layer by layer, guaranteeing the first food cell found is the closest.",
+      "Marking visited cells as obstacles ('X') prevents cycles and redundant exploration."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

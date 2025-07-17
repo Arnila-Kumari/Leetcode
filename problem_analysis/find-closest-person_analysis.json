@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-closest-person",
+  "data_structures": [
+    [
+      "integers"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Absolute difference calculation"
+  ],
+  "problem_summary_simple": "Determine which of two people reaches a third person first.",
+  "problem_summary_technical": "Calculate the absolute distance for Person 1 and Person 2 to Person 3. Compare these distances to determine who arrives first.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a direct comparison of distances on a number line.",
+      "The time taken is directly proportional to the absolute difference in positions.",
+      "The `cmp` function (or equivalent logic) is used to compare the distances and return the appropriate result."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

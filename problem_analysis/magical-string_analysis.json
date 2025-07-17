@@ -1,0 +1,33 @@
+{
+  "problem_name": "magical-string",
+  "data_structures": [
+    [
+      "generator",
+      "itertools"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Generate the magical string sequence using a recursive generator and count '1's up to n.",
+    "Simulate the string generation process by keeping track of counts and current character."
+  ],
+  "problem_summary_simple": "Count the number of '1's in the first n characters of a self-generating magical string.",
+  "problem_summary_technical": "Generates the magical string sequence using a recursive pattern and counts '1's up to the given length n.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(logn)"
+  ],
+  "key_insights": [
+    [
+      "The magical string's generation rule is based on the counts of consecutive characters.",
+      "The sequence of counts itself forms the magical string.",
+      "The generator approach efficiently produces the string elements on demand."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

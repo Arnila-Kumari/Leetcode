@@ -1,0 +1,31 @@
+{
+  "problem_name": "design-an-atm-machine",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach to withdraw larger denominations first."
+  ],
+  "problem_summary_simple": "Design an ATM that dispenses money using specific denominations, prioritizing larger bills.",
+  "problem_summary_technical": "Stores banknote counts and uses a greedy algorithm to fulfill withdrawal requests, prioritizing larger denominations.",
+  "time_complexity": [
+    "deposit: O(1), withdraw: O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy for withdrawal is essential to meet the problem's requirement of prioritizing larger banknotes.",
+      "The fixed number of denominations simplifies the implementation, allowing for constant time operations.",
+      "Careful handling of insufficient funds during withdrawal is critical; the request must be rejected entirely."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

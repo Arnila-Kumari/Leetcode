@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-degree-of-a-connected-trio-in-a-graph",
+  "data_structures": [
+    [
+      "adjacency list (list of sets)",
+      "degree array (list)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Iterate through all possible triplets (u, v, w) and check for triangle formation and calculate degree."
+  ],
+  "problem_summary_simple": "Find the minimum degree of a connected trio (triangle) in a graph.",
+  "problem_summary_technical": "Iterates through all nodes and their neighbors to find triangles, calculating trio degree by summing node degrees minus 6.",
+  "time_complexity": [
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "A connected trio is a clique of size 3 (a triangle).",
+      "The degree of a trio is the sum of degrees of its nodes minus the edges within the trio (6).",
+      "The adjacency list should store neighbors efficiently for quick lookups."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

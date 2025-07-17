@@ -1,0 +1,44 @@
+{
+  "problem_name": "steps-to-make-array-non-decreasing",
+  "data_structures": [
+    [
+      "array",
+      "stack"
+    ],
+    [
+      "array",
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to track elements that are greater than previous ones, calculating steps needed for each element.",
+    "Monotonic stack to track elements that are smaller than previous ones, calculating steps needed for each element."
+  ],
+  "problem_summary_simple": "Count the minimum steps to make an array non-decreasing by removing elements.",
+  "problem_summary_technical": "Use a monotonic stack to find the number of elements to the left that are smaller than the current element.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using a monotonic stack. The stack will store indices of elements in decreasing order.",
+      "For each element, we pop elements from the stack that are smaller than the current element. The number of pops determines the steps for the current element.",
+      "The maximum value in the `dp` array (which stores the steps for each element) is the final answer."
+    ],
+    [
+      "The problem can be reframed as finding, for each element, how many elements to its left are strictly greater than it.",
+      "A monotonic stack (decreasing) can efficiently find the previous greater element for each number.",
+      "The `dp[i]` value represents the number of steps required for `nums[i]` to be removed, which is related to the count of smaller elements to its left."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

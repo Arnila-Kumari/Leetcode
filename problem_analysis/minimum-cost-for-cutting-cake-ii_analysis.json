@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimum-cost-for-cutting-cake-ii",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ],
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: sort cuts by cost and apply them to maximize profit multiplier.",
+    "Greedy approach: sort cuts in descending order and apply them greedily."
+  ],
+  "problem_summary_simple": "Cut a cake into 1x1 pieces with minimum total cost.",
+  "problem_summary_technical": "Minimize total cost of cuts by greedily choosing the most expensive cut that affects the most pieces.",
+  "time_complexity": [
+    "O(mlogm + nlogn)",
+    "O(mlogm + nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that to minimize the total cost, we should prioritize making cuts with higher costs when they affect more pieces.",
+      "Sorting the cuts in descending order and using a greedy approach works because a more expensive cut applied earlier will be multiplied by more pieces.",
+      "The number of pieces a cut affects is determined by the number of cuts already made in the perpendicular direction."
+    ],
+    [
+      "The key insight is that to minimize the total cost, we should prioritize making cuts with higher costs when they affect more pieces.",
+      "Sorting the cuts in descending order and using a greedy approach works because a more expensive cut applied earlier will be multiplied by more pieces.",
+      "The number of pieces a cut affects is determined by the number of cuts already made in the perpendicular direction."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

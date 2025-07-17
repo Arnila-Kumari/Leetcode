@@ -1,0 +1,31 @@
+{
+  "problem_name": "reverse-degree-of-a-string",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through string, calculate reversed alphabet position and string position, sum products."
+  ],
+  "problem_summary_simple": "Calculate a string's 'reverse degree' by summing weighted character positions.",
+  "problem_summary_technical": "Iterate through string, compute (26 - char_offset) * string_index, and sum results.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to map characters to a reversed alphabetical order.",
+      "String indexing is 1-based for the calculation.",
+      "The formula (26 - (ord(x) - ord('a'))) correctly calculates the reversed alphabet position."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

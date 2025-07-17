@@ -1,0 +1,44 @@
+{
+  "problem_name": "closest-room",
+  "data_structures": [
+    [
+      "SortedList",
+      "List"
+    ],
+    [
+      "SortedList",
+      "List"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Sort rooms by size (desc), sort queries by minSize (desc), use SortedList for room IDs, iterate and add rooms, find closest using binary search.",
+    "Sort rooms by size (asc), sort queries by minSize (asc), use SortedList for room IDs, iterate and remove rooms, find closest using binary search."
+  ],
+  "problem_summary_simple": "Find the closest room ID to a preferred ID that meets a minimum size requirement.",
+  "problem_summary_technical": "Sort rooms by size, sort queries by minSize. Use a SortedList to maintain available room IDs and binary search for the closest.",
+  "time_complexity": [
+    "O(N log N + K log K + K log N)",
+    "O(N log N + K log K + K log N)"
+  ],
+  "space_complexity": [
+    "O(N + K)",
+    "O(N + K)"
+  ],
+  "key_insights": [
+    [
+      "Sorting rooms and queries by size/minSize allows for an efficient sweep-line approach.",
+      "SortedList (or balanced BST) is crucial for efficient insertion, deletion, and searching of room IDs.",
+      "The `bisect_right` method helps find potential closest rooms efficiently."
+    ],
+    [
+      "The reverse sorting strategy in Solution 1 is generally more intuitive for this problem.",
+      "Solution 2's forward sorting requires removing elements from the SortedList, which can be slightly less efficient than adding.",
+      "Both solutions leverage the power of sorted data structures and binary search for optimal performance."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

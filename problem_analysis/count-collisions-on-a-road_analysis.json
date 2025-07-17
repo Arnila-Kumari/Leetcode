@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-collisions-on-a-road",
+  "data_structures": [
+    [
+      "string",
+      "integer variables for counters"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through directions, simulating collisions by tracking moving cars to the left and stationary cars."
+  ],
+  "problem_summary_simple": "Count how many cars collide on a road based on their initial directions.",
+  "problem_summary_technical": "Simulate car movements on a 1D road, counting collisions between moving and stationary cars, or two moving cars.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Cars moving right ('R') contribute to potential collisions with cars to their right.",
+      "Cars moving left ('L') or stationary ('S') can cause collisions with cars to their left.",
+      "The key is to count cars that will eventually stop due to a collision."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:36:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "convert-integer-to-the-sum-of-two-no-zero-integers",
+  "data_structures": [
+    [
+      "integer",
+      "list"
+    ],
+    [
+      "integer",
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate from 1 to n/2, checking if both numbers and their sum have no zeros.",
+    "Construct one number digit by digit, ensuring no zeros, and derive the second number."
+  ],
+  "problem_summary_simple": "Find two positive integers without zeros that sum up to a given integer.",
+  "problem_summary_technical": "Decompose an integer 'n' into two 'no-zero' integers 'a' and 'b' such that a + b = n, by checking digits or constructing one number.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(log n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The brute-force approach involves checking all pairs, but a more efficient method constructs one number digit by digit.",
+      "The constraint of 'no-zero' integers is crucial and needs to be checked for both numbers.",
+      "The second solution leverages bit manipulation and a greedy approach to construct one of the numbers."
+    ],
+    [
+      "The first solution iterates through possible values for 'a' and checks if 'a' and 'n-a' contain any zeros.",
+      "The second solution is more efficient by constructing 'a' based on the digits of 'n', ensuring no zeros are introduced.",
+      "The problem guarantees at least one solution exists."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

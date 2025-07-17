@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-the-number-of-consistent-strings",
+  "data_structures": [
+    [
+      "boolean array (lookup)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash set/boolean array for efficient character lookup and iteration through words"
+  ],
+  "problem_summary_simple": "Count words that only contain characters from a given allowed set.",
+  "problem_summary_technical": "Uses a boolean array to mark allowed characters, then iterates through words, checking each character against the lookup.",
+  "time_complexity": [
+    "O(L + N*W)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Using a boolean array (or hash set) for `allowed` characters provides O(1) lookup.",
+      "Early exit from inner loop (break) optimizes checking each word.",
+      "The total time complexity depends on the length of `allowed` and the sum of lengths of all words."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:38:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

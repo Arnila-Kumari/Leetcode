@@ -1,0 +1,32 @@
+{
+  "problem_name": "max-value-of-equation",
+  "data_structures": [
+    [
+      "deque",
+      "integer"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a monotonic deque to efficiently find the best previous point within the k-distance constraint."
+  ],
+  "problem_summary_simple": "Find the max value of yi + yj + |xi - xj| for points with x-difference <= k.",
+  "problem_summary_technical": "Iterate through points. Maintain a deque of candidate points (y-x) in decreasing order. Remove points outside k-distance and find max equation value.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The equation can be rewritten as (yi - xi) + (xj + xj) for i < j and xj - xi <= k.",
+      "We need to find the maximum (yi - xi) for points i such that xi is within k distance of xj.",
+      "A monotonic deque storing (y-x) values in decreasing order helps efficiently find the maximum (yi - xi) for valid i."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

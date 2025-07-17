@@ -1,0 +1,32 @@
+{
+  "problem_name": "is-graph-bipartite",
+  "data_structures": [
+    [
+      "hashmap",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Graph coloring using BFS or DFS to assign nodes to two sets, checking for conflicts."
+  ],
+  "problem_summary_simple": "Determine if a graph can be divided into two sets such that no two nodes within the same set are connected.",
+  "problem_summary_technical": "Apply graph traversal (DFS/BFS) with coloring to partition nodes into two sets, verifying that adjacent nodes always have different colors.",
+  "time_complexity": [
+    "O(|V| + |E|)"
+  ],
+  "space_complexity": [
+    "O(|V|)"
+  ],
+  "key_insights": [
+    [
+      "A graph is bipartite if and only if it contains no odd-length cycles.",
+      "Coloring nodes with two colors (e.g., 0 and 1) is a standard approach.",
+      "If an edge connects two nodes of the same color, the graph is not bipartite."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

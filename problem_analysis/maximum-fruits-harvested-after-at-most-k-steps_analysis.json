@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-fruits-harvested-after-at-most-k-steps",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Prefix sums and two pointers for range queries",
+    "Iterating through possible left/right moves"
+  ],
+  "problem_summary_simple": "Find the maximum fruits you can collect by moving at most k steps from a starting position.",
+  "problem_summary_technical": "Uses prefix sums on fruit counts and two pointers to explore all valid paths (left-then-right or right-then-left) within k steps.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into two main strategies: moving left first then right, or right first then left.",
+      "Prefix sums are crucial for efficiently calculating the sum of fruits within any range.",
+      "The two-pointer approach helps to iterate through all possible combinations of left and right movements within the k-step constraint."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

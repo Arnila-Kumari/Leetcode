@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-value-of-k-coins-from-piles",
+  "data_structures": [
+    [
+      "list",
+      "dynamic programming array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with space optimization"
+  ],
+  "problem_summary_simple": "Pick k coins from piles to maximize total value, taking only from the top of each pile.",
+  "problem_summary_technical": "DP state `dp[i]` stores max value using `i` coins. Iterate through piles, updating DP table by considering taking `j` coins from current pile.",
+  "time_complexity": [
+    "O(m * k^2)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "This is a variation of the unbounded knapsack problem, but with a limited number of items (coins) from each pile.",
+      "The DP state `dp[i]` represents the maximum value achievable using exactly `i` coins.",
+      "When processing a new pile, we iterate through the current DP states and consider taking `j` coins from the current pile to update future DP states."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

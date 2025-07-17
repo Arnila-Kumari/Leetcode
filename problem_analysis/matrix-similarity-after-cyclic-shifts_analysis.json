@@ -1,0 +1,31 @@
+{
+  "problem_name": "matrix-similarity-after-cyclic-shifts",
+  "data_structures": [
+    [
+      "list of lists (matrix)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Check if each row, after k shifts, matches its original state by comparing elements with a cyclic offset."
+  ],
+  "problem_summary_simple": "Determine if a matrix returns to its original state after k cyclic shifts on even/odd rows.",
+  "problem_summary_technical": "Verify if each row remains invariant after k cyclic shifts by checking if row[i] == row[(i+k)%n] for all elements and rows.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem simplifies to checking if each row is invariant under the specified cyclic shifts.",
+      "A row is invariant if shifting it by k positions results in the same row.",
+      "This condition is met if every element `row[i]` is equal to `row[(i + k) % len(row)]`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:58",
+  "batch_processed": true,
+  "batch_size": 4
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-unique-categories",
+  "data_structures": [
+    [
+      "CategoryHandler object"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through all pairs to check category similarity, count unique categories."
+  ],
+  "problem_summary_simple": "Count how many distinct categories exist among n elements using a handler.",
+  "problem_summary_technical": "Iterate through elements, using `haveSameCategory` to group and count unique categories.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The provided solution uses a brute-force approach by comparing every element with every other element.",
+      "A more efficient approach would involve using a Disjoint Set Union (DSU) data structure to group elements by category.",
+      "The constraints (n <= 100) suggest that O(n^2) might be acceptable, but DSU would offer O(n * alpha(n)) complexity."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:03:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

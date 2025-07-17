@@ -1,0 +1,31 @@
+{
+  "problem_name": "task-scheduler",
+  "data_structures": [
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach based on task frequencies and cooldown period."
+  ],
+  "problem_summary_simple": "Schedule tasks with a cooldown period between identical tasks to minimize total time.",
+  "problem_summary_technical": "Calculates minimum intervals using the most frequent task and cooldown, ensuring it's at least the total number of tasks.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The bottleneck is the most frequent task. It dictates the minimum structure of the schedule.",
+      "The schedule can be visualized as (max_freq - 1) blocks of (n + 1) slots, followed by the remaining tasks.",
+      "The final result is the maximum of this calculated schedule length and the total number of tasks."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

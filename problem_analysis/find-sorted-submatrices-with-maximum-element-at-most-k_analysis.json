@@ -1,0 +1,47 @@
+{
+  "problem_name": "find-sorted-submatrices-with-maximum-element-at-most-k",
+  "data_structures": [
+    [
+      "2D array",
+      "list",
+      "stack"
+    ],
+    [
+      "2D array",
+      "list",
+      "stack",
+      "list (for DP)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterate through columns, maintain heights array, use monotonic stack for counting valid submatrices.",
+    "Iterate through columns, maintain heights array, use DP with monotonic stack for counting valid submatrices."
+  ],
+  "problem_summary_simple": "Count submatrices where all elements are at most k and each row is sorted non-increasingly.",
+  "problem_summary_technical": "Processes columns from right to left, transforming the problem into counting subarrays in a histogram-like structure using monotonic stacks.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m)",
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down column by column, reducing it to a 1D problem.",
+      "The monotonic stack is effective for counting subarrays with certain properties (e.g., minimum element).",
+      "The condition of non-increasing rows needs to be carefully translated into the 1D height calculation."
+    ],
+    [
+      "DP approach with monotonic stack can optimize counting subarrays with specific height constraints.",
+      "The state `dp[i]` represents the number of valid subarrays ending at index `i`.",
+      "The logic for updating `heights[i]` based on `grid[i][j]` and `grid[i][j+1]` is key."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:43:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

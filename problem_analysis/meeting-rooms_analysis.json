@@ -1,0 +1,31 @@
+{
+  "problem_name": "meeting-rooms",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sort intervals by start time and check for overlaps between adjacent intervals."
+  ],
+  "problem_summary_simple": "Determine if a person can attend all meetings given their start and end times.",
+  "problem_summary_technical": "Sort meeting intervals by start time. Iterate and check if any meeting starts before the previous one ends.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n) or O(log n) depending on sort implementation"
+  ],
+  "key_insights": [
+    [
+      "Sorting the intervals by start time is crucial for an efficient check.",
+      "An overlap occurs if a meeting's start time is less than the previous meeting's end time.",
+      "This problem is a fundamental building block for more complex interval scheduling problems."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:55:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

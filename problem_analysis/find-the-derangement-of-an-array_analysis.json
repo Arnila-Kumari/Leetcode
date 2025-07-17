@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-derangement-of-an-array",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterative calculation using a formula derived from inclusion-exclusion principle."
+  ],
+  "problem_summary_simple": "Calculate the number of permutations where no element is in its original position.",
+  "problem_summary_technical": "Compute derangements D(n) using the recurrence D(n) = n*D(n-1) + (-1)^n, optimized iteratively.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using the inclusion-exclusion principle, leading to a recurrence relation for derangements.",
+      "The iterative solution avoids recursion and uses constant extra space by maintaining only necessary previous values.",
+      "Modulo arithmetic is crucial due to the potentially large answer."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

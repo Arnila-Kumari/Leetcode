@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-indices-of-stable-mountains",
+  "data_structures": [
+    [
+      "list (for output)",
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Linear scan checking previous element against threshold"
+  ],
+  "problem_summary_simple": "Find indices of mountains whose preceding mountain is taller than a given threshold.",
+  "problem_summary_technical": "Iterate through the height array, checking if height[i-1] > threshold to identify stable mountains at index i.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A mountain is stable if the mountain *just before it* meets the condition.",
+      "This means we only need to look at `height[i-1]` when considering mountain `i`.",
+      "Mountain 0 is explicitly excluded from being stable."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

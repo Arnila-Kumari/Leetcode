@@ -1,0 +1,46 @@
+{
+  "problem_name": "escape-the-spreading-fire",
+  "data_structures": [
+    [
+      "dictionary",
+      "list of lists",
+      "list of lists"
+    ],
+    [
+      "list of lists",
+      "list of lists",
+      "list of lists"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Two-pass Breadth-First Search (BFS) to calculate fire spread time and person travel time.",
+    "Binary search on the waiting time combined with BFS."
+  ],
+  "problem_summary_simple": "Find the maximum time you can wait at the start before moving to reach the end safely from spreading fire.",
+  "problem_summary_technical": "Calculate fire spread times and person travel times using BFS. Binary search for the maximum safe waiting time.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n * log(m*n))"
+  ],
+  "space_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires understanding the spread of fire and the player's movement simultaneously.",
+      "A binary search approach on the waiting time is efficient because the possibility of reaching the destination is monotonic with waiting time.",
+      "Two BFS traversals are needed: one for fire spread and one for the person's movement, considering the fire's timing."
+    ],
+    [
+      "The core idea is to determine if the person can reach the target at cell (m-1, n-1) at time `t`.",
+      "This requires the person's arrival time at (m-1, n-1) to be less than or equal to the fire's arrival time at (m-1, n-1).",
+      "Special handling is needed for the destination cell and its neighbors, and for cases where fire never reaches the destination."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:41:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

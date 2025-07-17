@@ -1,0 +1,30 @@
+{
+  "problem_name": "count-substrings-starting-and-ending-with-given-character",
+  "data_structures": [
+    [
+      "none"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorics: count occurrences of the character and use the combination formula."
+  ],
+  "problem_summary_simple": "Count substrings that start and end with a specific character.",
+  "problem_summary_technical": "Count the occurrences of the target character 'c' and apply the combination formula n*(n+1)/2.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Any substring starting and ending with 'c' is formed by choosing two occurrences of 'c' (inclusive of the same occurrence).",
+      "If there are 'n' occurrences of 'c', the number of ways to choose two positions (start and end) is n choose 2, plus n for single-character substrings."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

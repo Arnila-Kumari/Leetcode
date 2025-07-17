@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-make-the-array-increasing",
+  "data_structures": [
+    [
+      "None"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the array, greedily incrementing elements to satisfy the strictly increasing condition."
+  ],
+  "problem_summary_simple": "Make an array strictly increasing by incrementing elements with minimum operations.",
+  "problem_summary_technical": "Iterates through the array, ensuring each element is strictly greater than the previous one by incrementing as needed, accumulating the total operations.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by processing the array from left to right.",
+      "For each element, if it's not strictly greater than the previous one, increment it to be exactly one greater than the previous.",
+      "This greedy approach ensures the minimum number of operations because we only make necessary increments."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:59:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,49 @@
+{
+  "problem_name": "count-valid-paths-in-a-tree",
+  "data_structures": [
+    [
+      "adjacency list (for tree)",
+      "sieve array (for primes)",
+      "array (for DP states)",
+      "stack (for iterative DFS)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Tree DP with prime number checking, or Union-Find on non-prime nodes.",
+    "Iterative DFS for tree traversal and state management."
+  ],
+  "problem_summary_simple": "Count paths in a tree that contain exactly one prime-numbered node.",
+  "problem_summary_technical": "Use a sieve to identify primes. Traverse the tree, counting paths with one prime using DP or by grouping non-prime nodes with Union-Find.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n * alpha(n))"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down by considering paths that start/end at prime nodes or paths that only traverse non-prime nodes.",
+      "A sieve is efficient for pre-calculating prime numbers up to n.",
+      "Tree DP or Union-Find can be used to efficiently count paths based on prime/non-prime node properties."
+    ],
+    [
+      "The recursive DFS approach elegantly handles the tree structure and state propagation.",
+      "The state `cnt` tracks the number of paths ending at the current node with zero or one prime.",
+      "The total result is accumulated by combining counts from subtrees."
+    ],
+    [
+      "Union-Find can group connected components of non-prime nodes.",
+      "Edges between prime and non-prime components are critical for counting valid paths.",
+      "The calculation involves summing products of component sizes across prime-non-prime boundaries."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:38:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

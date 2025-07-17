@@ -1,0 +1,51 @@
+{
+  "problem_name": "rotated-digits",
+  "data_structures": [
+    [
+      "array",
+      "set"
+    ],
+    [
+      "array"
+    ],
+    [
+      "set"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Digit DP: Use recursion with memoization to count valid numbers based on digit properties.",
+    "DP with state compression: Build up counts of valid numbers iteratively based on digit properties.",
+    "Brute force with set operations: Iterate through numbers and check digit validity using sets."
+  ],
+  "problem_summary_simple": "Count numbers from 1 to n that are different after rotating their digits 180 degrees.",
+  "problem_summary_technical": "Count numbers where rotated digits are valid and the resulting number differs from the original.",
+  "time_complexity": [
+    "O(log n)",
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(log n)",
+    "O(n)",
+    "O(log n)"
+  ],
+  "key_insights": [
+    [
+      "Digit DP is effective for problems involving counting numbers with specific digit properties within a range.",
+      "The state needs to track the current digit position, whether the prefix matches the number's prefix, and if a 'good' digit has been encountered."
+    ],
+    [
+      "A bottom-up DP approach can be more efficient than recursion for this problem.",
+      "Categorizing digits into INVALID, SAME, and DIFF simplifies the DP transitions."
+    ],
+    [
+      "Iterating through each number and checking its digits is a straightforward approach.",
+      "Using sets for invalid and differing digits allows for efficient checking of digit properties."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

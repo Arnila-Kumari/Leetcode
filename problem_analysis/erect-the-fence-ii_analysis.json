@@ -1,0 +1,34 @@
+{
+  "problem_name": "erect-the-fence-ii",
+  "data_structures": [
+    [
+      "list of lists",
+      "list of lists",
+      "list of lists",
+      "list of lists"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Welzl's algorithm for smallest enclosing circle, with helper functions for circle from 2/3 points."
+  ],
+  "problem_summary_simple": "Find the smallest circle that encloses all given trees.",
+  "problem_summary_technical": "Implement Welzl's algorithm to find the minimum enclosing circle, using helper functions for circles defined by 2 or 3 points.",
+  "time_complexity": [
+    "O(n) on average"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem is to find the Minimum Enclosing Circle (MEC).",
+      "Welzl's algorithm provides an efficient randomized approach to solve the MEC problem.",
+      "The MEC is either defined by two points as a diameter or by three points on its circumference."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:41:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

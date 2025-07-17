@@ -1,0 +1,32 @@
+{
+  "problem_name": "two-best-non-overlapping-events",
+  "data_structures": [
+    [
+      "heapq",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Sort events by start time. Use a min-heap to track ending events and their values. Iterate, updating max single event value and max two-event sum."
+  ],
+  "problem_summary_simple": "Find the maximum sum of values from at most two non-overlapping events.",
+  "problem_summary_technical": "Sort events by start time. Use a min-heap to store (endTime, value) of ongoing events. For each event, find the best preceding non-overlapping event from the heap.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting events by start time is crucial for processing them in chronological order.",
+      "A min-heap is used to efficiently find the maximum value of a non-overlapping event that ends before the current event starts.",
+      "The algorithm maintains two maximums: the best single event value and the best sum of two non-overlapping events."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

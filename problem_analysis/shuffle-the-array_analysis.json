@@ -1,0 +1,31 @@
+{
+  "problem_name": "shuffle-the-array",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "In-place rearrangement using bit manipulation"
+  ],
+  "problem_summary_simple": "Interleave the first half of an array with the second half.",
+  "problem_summary_technical": "Uses in-place modification with bit manipulation to store two values in one array element, then extracts them.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to encode the original and new values within the same array element using bitwise operations.",
+      "The `index` helper function correctly maps the original position to the target interleaved position.",
+      "This in-place approach is memory-efficient but can be less intuitive than using an auxiliary array."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

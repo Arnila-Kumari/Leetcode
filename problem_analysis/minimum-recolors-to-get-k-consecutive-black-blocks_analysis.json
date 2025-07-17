@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-recolors-to-get-k-consecutive-black-blocks",
+  "data_structures": [
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window to find the minimum number of 'W's in a window of size k"
+  ],
+  "problem_summary_simple": "Find the minimum 'W's to change to 'B' to get k consecutive 'B's.",
+  "problem_summary_technical": "Use a sliding window of size k to count 'W's. Minimize this count as the window slides across the string.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the minimum number of operations, which directly corresponds to the minimum number of 'W's within any contiguous subarray of length k.",
+      "A sliding window approach is efficient for this type of problem, as it avoids redundant calculations.",
+      "We maintain a count of 'W's in the current window and update it as the window slides."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:18:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

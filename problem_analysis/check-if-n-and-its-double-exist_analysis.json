@@ -1,0 +1,32 @@
+{
+  "problem_name": "check-if-n-and-its-double-exist",
+  "data_structures": [
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a hash set to store seen numbers and check for double or half existence."
+  ],
+  "problem_summary_simple": "Does an array contain a number that is double another number in the same array?",
+  "problem_summary_technical": "Find if there exist indices i, j such that arr[i] = 2 * arr[j] and i != j using a hash set for efficient lookups.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A hash set (or dictionary) is ideal for O(1) average time lookups.",
+      "For each number `x`, we check if `2*x` or `x/2` (if `x` is even) already exists in the set.",
+      "Care must be taken with zero: if zero appears twice, it satisfies the condition."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

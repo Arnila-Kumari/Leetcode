@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-palindrome-by-concatenating-two-letter-words",
+  "data_structures": [
+    [
+      "collections.Counter (hash map)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting with a hash map to pair words and their reverses, handling self-palindromic words."
+  ],
+  "problem_summary_simple": "Find the longest palindrome by combining two-letter words, using each word at most once.",
+  "problem_summary_technical": "Utilize a hash map to count word frequencies. Pair words with their reverses and self-palindromic words to maximize palindrome length.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to pair words with their reverses (e.g., 'lc' with 'cl').",
+      "Self-palindromic words (e.g., 'gg') can form the center of the palindrome.",
+      "Count pairs of non-self-palindromic words and use at most one self-palindromic word in the center if available."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

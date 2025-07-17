@@ -1,0 +1,32 @@
+{
+  "problem_name": "choose-numbers-from-two-arrays-in-range",
+  "data_structures": [
+    [
+      "hashmap (collections.Counter)",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Use dynamic programming. For each element, consider picking from nums1 or nums2. The DP state tracks the difference between sums from nums1 and nums2."
+  ],
+  "problem_summary_simple": "Count balanced ranges where sums from chosen elements in nums1 equal sums from chosen elements in nums2.",
+  "problem_summary_technical": "DP approach where dp[diff] stores counts of subarrays yielding a sum difference 'diff'. Iterate, update DP with current element choices.",
+  "time_complexity": [
+    "O(n^2 * v)"
+  ],
+  "space_complexity": [
+    "O(n * v)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to track the difference between sums from nums1 and nums2.",
+      "A balanced range corresponds to a prefix sum difference of 0.",
+      "The DP state needs to account for all possible sum differences encountered."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:34:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

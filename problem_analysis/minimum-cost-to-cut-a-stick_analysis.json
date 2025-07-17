@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-cost-to-cut-a-stick",
+  "data_structures": [
+    [
+      "2D array (for DP table)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with memoization/tabulation on intervals"
+  ],
+  "problem_summary_simple": "Find the minimum cost to cut a stick at given positions, where cut cost depends on the current stick length.",
+  "problem_summary_technical": "Dynamic programming on intervals. State dp[i][j] represents min cost to cut stick segment defined by sorted cuts[i] and cuts[j].",
+  "time_complexity": [
+    "O(m^3)"
+  ],
+  "space_complexity": [
+    "O(m^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the optimal parenthesization of cuts.",
+      "Sorting the cuts and adding 0 and n simplifies boundary conditions.",
+      "The cost of a cut is the length of the stick segment being cut."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

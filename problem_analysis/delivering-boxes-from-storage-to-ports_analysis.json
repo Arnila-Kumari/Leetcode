@@ -1,0 +1,38 @@
+{
+  "problem_name": "delivering-boxes-from-storage-to-ports",
+  "data_structures": [
+    [
+      "array (DP table)",
+      "array (boxes)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sliding window with dynamic programming and greedy approach to minimize trips."
+  ],
+  "problem_summary_simple": "Minimize ship trips to deliver boxes with capacity and weight limits.",
+  "problem_summary_technical": "DP with a sliding window to find optimal box groupings, considering port changes and capacity/weight constraints.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming where `dp[i]` represents the minimum trips to deliver the first `i` boxes.",
+      "The core idea is to find the optimal starting point `j` for the last trip that delivers boxes up to index `i`. This involves checking `maxBoxes` and `maxWeight` constraints.",
+      "A key observation is that a new trip is always needed when the ship moves to a different port than the previous box delivered in the same trip, or when capacity/weight limits are hit."
+    ],
+    [
+      "The provided solution uses a greedy approach combined with DP. `dp[i]` stores the minimum trips for the first `i` boxes.",
+      "`left` pointer defines the start of the current window of boxes being considered for the last trip.",
+      "The `cost` variable tracks the number of trips required for the current window, incrementing when the port changes. The `while` loop greedily shrinks the window from the left (`left++`) to satisfy constraints and minimize `cost`.",
+      "The condition `dp[left+1] == dp[left]` is a crucial optimization: if the minimum trips to deliver up to `left` boxes is the same as delivering up to `left+1` boxes, it means box `left+1` was delivered in a separate trip, and we can potentially extend the current window further."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:39:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

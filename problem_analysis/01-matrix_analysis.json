@@ -1,0 +1,47 @@
+{
+  "problem_name": "01-matrix",
+  "data_structures": [
+    [
+      "matrix"
+    ],
+    [
+      "matrix",
+      "2D array"
+    ],
+    [
+      "matrix",
+      "queue"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dynamic Programming (two passes)",
+    "Dynamic Programming (two passes with separate DP table)",
+    "Breadth-First Search (BFS)"
+  ],
+  "problem_summary_simple": "Find the shortest distance from each cell to the nearest 0 in a binary matrix.",
+  "problem_summary_technical": "Calculate minimum Manhattan distance from '1' cells to nearest '0' cells using DP or BFS.",
+  "time_complexity": "O(m * n)",
+  "space_complexity": "O(1)",
+  "key_insights": [
+    [
+      "DP approach can be optimized to O(1) space by modifying the input matrix.",
+      "Two passes are needed for DP to consider all four directions.",
+      "BFS naturally finds shortest paths layer by layer."
+    ],
+    [
+      "Using a separate DP table avoids modifying the input matrix.",
+      "Initialization with infinity is crucial for DP.",
+      "BFS starts from all '0' cells simultaneously."
+    ],
+    [
+      "BFS is a natural fit for shortest path problems on unweighted graphs.",
+      "Queue stores cells to visit, ensuring layer-by-layer exploration.",
+      "Marking visited cells or updating distances prevents cycles and redundant work."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-15 20:21:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

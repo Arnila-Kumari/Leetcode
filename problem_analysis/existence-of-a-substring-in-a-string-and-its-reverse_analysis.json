@@ -1,0 +1,34 @@
+{
+  "problem_name": "existence-of-a-substring-in-a-string-and-its-reverse",
+  "data_structures": [
+    [
+      "list",
+      "dictionary",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash table (2D array or defaultdict) for storing substrings and checking for reverse presence"
+  ],
+  "problem_summary_simple": "Check if any two-character substring in a string also exists in its reverse.",
+  "problem_summary_technical": "Uses a hash table (2D array or defaultdict of sets) to store all two-character substrings. Then iterates through the reversed string's substrings to check for existence.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(min(n, 26^2))"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to efficiently check for the presence of substrings.",
+      "A hash table (like a 2D array for character pairs or a defaultdict of sets) is suitable for O(1) average time lookups.",
+      "The problem can be solved by either: 1. Storing all substrings of `s` and checking against `s[::-1]`, or 2. Storing all substrings of `s` and checking against `s` itself (since if `sub` is in `s` and `sub` is in `s[::-1]`, then `sub` must be a palindrome of length 2, or `sub` and its reverse are present in `s`). The provided solution uses the latter approach implicitly by checking `s[i]` in `lookup[s[i+1]]` which is equivalent to checking if `s[i]s[i+1]` is present in the reverse.",
+      "The space complexity is bounded by the number of possible 2-character substrings (26*26) or the length of the string, whichever is smaller."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

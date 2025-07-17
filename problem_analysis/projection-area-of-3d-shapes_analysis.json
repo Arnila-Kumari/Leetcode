@@ -1,0 +1,31 @@
+{
+  "problem_name": "projection-area-of-3d-shapes",
+  "data_structures": [
+    [
+      "2D array (grid)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterative calculation: Sum max heights per row (xy projection), max heights per column (yz projection), and non-zero cells (zx projection)."
+  ],
+  "problem_summary_simple": "Calculate the total shadow area of 3D cubes projected onto three planes.",
+  "problem_summary_technical": "Iterate through the grid, summing max values in rows (xy), max values in columns (yz), and counting non-zero cells (zx).",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The projection onto the xy-plane is the count of non-zero cells.",
+      "The projection onto the yz-plane is the sum of the maximum heights in each column.",
+      "The projection onto the zx-plane is the sum of the maximum heights in each row."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:05:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

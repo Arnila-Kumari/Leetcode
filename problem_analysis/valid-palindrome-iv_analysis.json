@@ -1,0 +1,40 @@
+{
+  "problem_name": "valid-palindrome-iv",
+  "data_structures": [
+    [
+      "string"
+    ],
+    [
+      "string"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Iterate through half the string, count mismatches, return true if count <= 2.",
+    "Use two pointers to compare characters from both ends, count mismatches."
+  ],
+  "problem_summary_simple": "Can a string become a palindrome with one or two character changes?",
+  "problem_summary_technical": "Check palindrome property by comparing characters from ends. Count mismatches to determine feasibility within two operations.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that at most two pairs of characters can be different for the string to be made a palindrome with 1 or 2 operations.",
+      "The `~i` operator in Python is a concise way to get the index from the end of the string."
+    ],
+    [
+      "A direct two-pointer approach is intuitive and efficient.",
+      "Early exit when mismatch count exceeds 2 optimizes performance."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-length-of-pair-chain",
+  "data_structures": [
+    [
+      "list of lists"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sort pairs by end time, then greedily select non-overlapping pairs."
+  ],
+  "problem_summary_simple": "Find the longest chain of pairs where the second element of a pair is less than the first element of the next.",
+  "problem_summary_technical": "Greedy approach: sort by end times, then iterate, selecting the next pair if its start is after the current pair's end.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting by the end time of the pairs is crucial for the greedy strategy.",
+      "The greedy choice is to pick the pair that finishes earliest to leave maximum room for subsequent pairs.",
+      "This problem is analogous to the activity selection problem."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

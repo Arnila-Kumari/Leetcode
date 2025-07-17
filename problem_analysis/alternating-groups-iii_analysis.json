@@ -1,0 +1,32 @@
+{
+  "problem_name": "alternating-groups-iii",
+  "data_structures": [
+    [
+      "SortedList",
+      "Fenwick Tree (BIT)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Fenwick Tree for range queries and updates, SortedList to maintain indices of breaks."
+  ],
+  "problem_summary_simple": "Count alternating color groups of a specific size in a circular arrangement, supporting updates.",
+  "problem_summary_technical": "Uses Fenwick Trees and SortedList to efficiently count alternating groups and handle point updates on a circular array.",
+  "time_complexity": [
+    "O(n log n + q log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires efficient querying of contiguous segments with alternating properties and handling updates.",
+      "Fenwick Trees are suitable for range sum queries and point updates, while SortedList helps manage the indices where color changes occur.",
+      "The circular nature of the array needs careful handling of indices and segment lengths."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:31:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

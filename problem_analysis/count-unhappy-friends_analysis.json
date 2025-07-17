@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-unhappy-friends",
+  "data_structures": [
+    [
+      "2D array (for preference ranking)",
+      "array (for pairings)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Precompute preference ranks, then iterate through pairs to check unhappiness conditions."
+  ],
+  "problem_summary_simple": "Find how many friends are unhappy because they prefer someone else who also prefers them over their current partner.",
+  "problem_summary_technical": "Precompute preference ranks in a 2D array. Iterate through each person, checking their current partner against all other potential partners and their preferences.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating the rank of each friend in another's preference list is crucial for efficient lookups.",
+      "The core logic involves checking the unhappiness condition for each person against all other possible pairings.",
+      "The problem can be solved by iterating through each person and their potential preferred partners."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

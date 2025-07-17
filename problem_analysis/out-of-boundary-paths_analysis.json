@@ -1,0 +1,32 @@
+{
+  "problem_name": "out-of-boundary-paths",
+  "data_structures": [
+    [
+      "3D array (dp table)",
+      "2D array (for space optimization)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with space optimization (rolling array)"
+  ],
+  "problem_summary_simple": "Count paths from a starting point that go out of grid boundaries within a move limit.",
+  "problem_summary_technical": "Uses DP to count paths, where dp[k][i][j] is paths to reach (i,j) in k moves. Optimized to O(m*n) space.",
+  "time_complexity": [
+    "O(maxMove * m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using dynamic programming by considering the number of ways to reach each cell in a given number of moves.",
+      "The state transition involves summing up paths from adjacent cells in the previous move.",
+      "Space optimization is achieved by using only two layers of the DP table (current and previous moves)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

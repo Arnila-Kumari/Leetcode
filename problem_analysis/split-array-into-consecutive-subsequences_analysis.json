@@ -1,0 +1,32 @@
+{
+  "problem_name": "split-array-into-consecutive-subsequences",
+  "data_structures": [
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using hashmaps to track counts of subsequences ending at a number.",
+    "Iterate through the array, extending existing subsequences or starting new ones."
+  ],
+  "problem_summary_simple": "Split an array into consecutive subsequences of length at least 3.",
+  "problem_summary_technical": "Greedily extend existing subsequences or start new ones, using hashmaps to track counts of subsequences ending at each number.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy is to extend the shortest possible valid subsequence first.",
+      "Two hashmaps are used: one for the count of numbers and one for subsequences ending at a number.",
+      "Prioritize appending to existing subsequences of length >= 2 before starting new ones."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

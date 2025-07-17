@@ -1,0 +1,32 @@
+{
+  "problem_name": "largest-1-bordered-square",
+  "data_structures": [
+    [
+      "2D array",
+      "2D array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to precompute prefix sums of 1s horizontally and vertically, then check squares."
+  ],
+  "problem_summary_simple": "Find the largest square subgrid with all 1s on its border.",
+  "problem_summary_technical": "Uses DP to store counts of consecutive 1s from top and left, then iterates through possible square sizes and positions.",
+  "time_complexity": [
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating prefix sums of 1s in both horizontal and vertical directions is crucial for efficient checking.",
+      "Iterating through possible square sizes in decreasing order allows for an early exit once the largest is found.",
+      "The condition `min(top[i+l-1][j], top[i+l-1][j+l-1], left[i][j+l-1], left[i+l-1][j+l-1]) >= l` efficiently checks if a square of side `l` can be formed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

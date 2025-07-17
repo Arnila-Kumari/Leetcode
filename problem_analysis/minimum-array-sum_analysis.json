@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-array-sum",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach with sorting and conditional operations based on k.",
+    "Dynamic programming to explore all operation combinations."
+  ],
+  "problem_summary_simple": "Minimize the sum of an array by dividing elements by 2 or subtracting k, with limited operations.",
+  "problem_summary_technical": "Greedy strategy sorts and applies operations based on thresholds related to k; DP explores all operation sequences.",
+  "time_complexity": [
+    "O(nlogn)",
+    "O(n * op1 * op2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(op1 * op2)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is crucial for a greedy approach.",
+      "Operations should be prioritized for larger numbers to achieve maximum reduction.",
+      "The DP solution considers all combinations but is less efficient for large op1/op2."
+    ],
+    [
+      "The DP state needs to track remaining operations and current sum.",
+      "Transitions involve applying each operation to the current element.",
+      "This approach guarantees optimality but has high time complexity."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:56:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

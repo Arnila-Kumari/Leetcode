@@ -1,0 +1,32 @@
+{
+  "problem_name": "binary-tree-longest-consecutive-sequence",
+  "data_structures": [
+    [
+      "recursive function calls (implicit stack)",
+      "variable"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive Depth-First Search (DFS) to track consecutive sequences"
+  ],
+  "problem_summary_simple": "Find the longest path in a tree where node values increase by one.",
+  "problem_summary_technical": "Uses DFS to calculate longest increasing paths from each node, updating a global maximum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "A recursive DFS approach can naturally explore paths.",
+      "The key is to track the current consecutive length and the overall maximum.",
+      "The path must be strictly increasing and parent-child."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

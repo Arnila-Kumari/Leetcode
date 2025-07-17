@@ -1,0 +1,32 @@
+{
+  "problem_name": "fair-distribution-of-cookies",
+  "data_structures": [
+    [
+      "2D array (DP table)",
+      "array for precomputed sums"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with bitmasking to represent subsets of cookies"
+  ],
+  "problem_summary_simple": "Distribute cookies to k children to minimize the maximum cookies any child receives.",
+  "problem_summary_technical": "Uses DP with bitmasking to find minimum maximum sum of subsets for k partitions.",
+  "time_complexity": [
+    "O(k * 3^n)"
+  ],
+  "space_complexity": [
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a variation of the Partition Problem, aiming to minimize the maximum sum.",
+      "Bitmasking is used to represent all possible subsets of cookies.",
+      "The DP state `dp[i][mask]` represents the minimum unfairness using `i` children for the cookies represented by `mask`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:41:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

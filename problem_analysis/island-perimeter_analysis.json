@@ -1,0 +1,32 @@
+{
+  "problem_name": "island-perimeter",
+  "data_structures": [
+    [
+      "2D array",
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the grid, counting land cells and subtracting shared edges between adjacent land cells."
+  ],
+  "problem_summary_simple": "Calculate the perimeter of a single island in a grid of land and water cells.",
+  "problem_summary_technical": "Count land cells and subtract twice the number of adjacent land cell pairs to find the total perimeter.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Each land cell initially contributes 4 to the perimeter.",
+      "For every pair of adjacent land cells (horizontally or vertically), two sides are shared, reducing the perimeter by 2.",
+      "The grid is guaranteed to have exactly one island and no lakes, simplifying edge cases."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

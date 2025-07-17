@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-deletions-to-make-array-divisible",
+  "data_structures": [
+    [
+      "no explicit data structures beyond input arrays"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Find the GCD of numsDivide, then find the smallest element in nums that divides this GCD."
+  ],
+  "problem_summary_simple": "Delete minimum elements from nums so its smallest element divides all elements in numsDivide.",
+  "problem_summary_technical": "Calculates GCD of numsDivide, then finds the smallest element in nums that divides this GCD, returning its count if found, else -1.",
+  "time_complexity": [
+    "O(n + m + logr)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "If an element `x` divides all elements in `numsDivide`, it must divide their greatest common divisor (GCD).",
+      "The goal is to find the smallest element in `nums` that satisfies this GCD divisibility condition.",
+      "Sorting `nums` can help find the smallest qualifying element faster, but iterating and tracking the minimum is also efficient."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

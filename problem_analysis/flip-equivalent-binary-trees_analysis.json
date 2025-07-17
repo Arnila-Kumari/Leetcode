@@ -1,0 +1,49 @@
+{
+  "problem_name": "flip-equivalent-binary-trees",
+  "data_structures": [
+    [
+      "binary tree",
+      "deque",
+      "stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive DFS: Compare nodes and their children, considering both non-flipped and flipped subtree possibilities.",
+    "Iterative BFS: Use a deque to manage nodes from both trees, checking for equivalence with potential flips.",
+    "Iterative DFS: Use a stack to manage nodes from both trees, checking for equivalence with potential flips."
+  ],
+  "problem_summary_simple": "Determine if two binary trees are structurally identical after allowing subtree flips.",
+  "problem_summary_technical": "Compares nodes and their children recursively or iteratively, allowing for swaps of left and right subtrees to achieve equivalence.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "Two trees are flip equivalent if their roots have the same value and their children are flip equivalent.",
+      "The children can either match directly (left with left, right with right) or be flipped (left with right, right with left).",
+      "Base cases: empty trees are equivalent, differing values or one empty/one non-empty tree are not."
+    ],
+    [
+      "Iterative approaches (BFS/DFS) can avoid recursion depth limits.",
+      "The core logic remains checking node values and then deciding how to pair children for the next iteration.",
+      "Careful handling of null nodes is crucial for correctness."
+    ],
+    [
+      "The recursive solution is often the most intuitive for tree problems.",
+      "The branching logic `(A and B) or (C and D)` directly models the two possibilities (no flip vs. flip).",
+      "Ensuring all nodes are visited and compared is key."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

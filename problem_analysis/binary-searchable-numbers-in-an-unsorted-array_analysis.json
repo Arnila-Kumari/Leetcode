@@ -1,0 +1,34 @@
+{
+  "problem_name": "binary-searchable-numbers-in-an-unsorted-array",
+  "data_structures": [
+    [
+      "array",
+      "set",
+      "variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Precompute maximums to the left and minimums to the right for each element to identify numbers guaranteed to be found.",
+    "Use a set to store the searchable numbers and count them."
+  ],
+  "problem_summary_simple": "Count numbers in an unsorted array that are guaranteed to be found by a specific binary search-like algorithm.",
+  "problem_summary_technical": "Identify numbers `x` where `max(nums[0...i-1]) <= x <= min(nums[i+1...n-1])` by precomputing left maximums and right minimums.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A number is guaranteed to be found if it's greater than or equal to all elements to its left and less than or equal to all elements to its right.",
+      "Precomputing the maximum element to the left and the minimum element to the right for each position is an efficient approach.",
+      "The condition for a number `nums[i]` to be searchable is `max_left[i] <= nums[i] <= min_right[i]`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

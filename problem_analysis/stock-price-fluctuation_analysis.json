@@ -1,0 +1,45 @@
+{
+  "problem_name": "stock-price-fluctuation",
+  "data_structures": [
+    [
+      "hash map",
+      "sorted list"
+    ],
+    [
+      "hash map",
+      "min heap",
+      "max heap"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Hash map for timestamp-price mapping, SortedList for efficient min/max retrieval.",
+    "Hash map for timestamp-price, two heaps for min/max with lazy deletion."
+  ],
+  "problem_summary_simple": "Track stock prices, allowing updates and querying current, max, and min prices efficiently.",
+  "problem_summary_technical": "Maintain price records with updates, using a hash map for current price and a sorted list or heaps for min/max.",
+  "time_complexity": [
+    "O(log n) for update, O(1) for current, O(1) for max/min",
+    "O(log n) for update, O(1) for current, O(log n) for max/min (amortized)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Using a SortedList (from sortedcontainers) provides O(log n) insertion/deletion and O(1) access to min/max elements.",
+      "The `current` price is directly retrieved from the hash map using the latest timestamp.",
+      "Lazy deletion in heap-based solutions is crucial for maintaining performance."
+    ],
+    [
+      "The `StockPrice` class needs to efficiently handle updates and provide quick access to the latest, maximum, and minimum prices.",
+      "A hash map is essential for O(1) lookup of the price for a given timestamp.",
+      "Maintaining separate min and max heaps allows for efficient retrieval of extreme values, but requires handling outdated entries."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

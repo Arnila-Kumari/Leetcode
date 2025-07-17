@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-bags-with-full-capacity-of-rocks",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate remaining capacity, sort, and greedily fill bags."
+  ],
+  "problem_summary_simple": "Find the maximum number of bags that can be filled to capacity using additional rocks.",
+  "problem_summary_technical": "Greedily fill bags with the smallest remaining capacity first using available additional rocks.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by prioritizing bags that require fewer additional rocks.",
+      "Sorting the remaining capacities allows for efficient selection of bags to fill.",
+      "The key is to minimize the 'cost' (additional rocks needed) for each bag filled."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

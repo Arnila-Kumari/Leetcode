@@ -1,0 +1,27 @@
+{
+  "problem_name": "1-bit-and-2-bit-characters",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate backwards, counting consecutive '1's to determine character types."
+  ],
+  "problem_summary_simple": "Determine if the last character in a binary array is a single bit (0) or two bits (10 or 11).",
+  "problem_summary_technical": "Analyze the trailing bits of the array to infer the encoding of the last character.",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)",
+  "key_insights": [
+    [
+      "The problem can be solved by looking at the bits from right to left.",
+      "A '0' signifies the end of a character (either 1-bit or 2-bit).",
+      "Consecutive '1's before a '0' indicate a 2-bit character."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-15 20:21:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

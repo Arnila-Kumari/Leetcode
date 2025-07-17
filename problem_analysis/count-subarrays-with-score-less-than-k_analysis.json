@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-subarrays-with-score-less-than-k",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window (two pointers) to maintain a subarray whose score is less than k."
+  ],
+  "problem_summary_simple": "Count subarrays whose product of sum and length is less than k.",
+  "problem_summary_technical": "Employs a sliding window where the window expands to the right and shrinks from the left to maintain the score condition.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The score (sum * length) is monotonically increasing as the window expands to the right.",
+      "This property allows for a sliding window approach: expand the window to the right, and if the score exceeds k, shrink the window from the left.",
+      "For each valid window ending at `right`, all subarrays starting from `left` to `right` are valid. The number of such subarrays is `right - left + 1`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

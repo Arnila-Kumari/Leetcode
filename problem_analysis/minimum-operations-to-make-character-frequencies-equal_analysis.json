@@ -1,0 +1,30 @@
+{
+  "problem_name": "minimum-operations-to-make-character-frequencies-equal",
+  "data_structures": [
+    [
+      "frequency array (size 26)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting and dynamic programming with state compression"
+  ],
+  "problem_summary_simple": "Make character frequencies in a string equal using delete, insert, or change operations.",
+  "problem_summary_technical": "Uses a frequency array and DP to calculate minimum operations for target frequencies, considering insertions and deletions.",
+  "time_complexity": [
+    "O(26 * n)"
+  ],
+  "space_complexity": [
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding a target frequency and minimizing operations to reach it.",
+      "Dynamic programming can track minimum operations for insertions and deletions to achieve a target frequency for each character."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

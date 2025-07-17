@@ -1,0 +1,34 @@
+{
+  "problem_name": "length-of-the-longest-valid-substring",
+  "data_structures": [
+    [
+      "string",
+      "list of strings",
+      "dictionary (Trie)"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Build a Trie of forbidden substrings, then use a sliding window (two pointers) to find the longest valid substring."
+  ],
+  "problem_summary_simple": "Find the longest substring of a given word that does not contain any forbidden substrings.",
+  "problem_summary_technical": "Construct a Trie of forbidden words. Use a sliding window from right to left, checking for forbidden substrings using the Trie.",
+  "time_complexity": [
+    "O((m*l + n*l)) where m is number of forbidden words, l is max length of forbidden word, n is length of word."
+  ],
+  "space_complexity": [
+    "O(m*l) for the Trie"
+  ],
+  "key_insights": [
+    [
+      "A Trie is an efficient data structure to store and search for multiple forbidden substrings.",
+      "The problem can be solved by iterating from the right end of the `word` and expanding a window to the left.",
+      "When a forbidden substring is found ending at the current `right` pointer, the `right` pointer must be moved to the left of the forbidden substring's start.",
+      "The maximum window size encountered is the answer."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

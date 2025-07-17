@@ -1,0 +1,43 @@
+{
+  "problem_name": "smallest-divisible-digit-product-ii",
+  "data_structures": [
+    [
+      "list",
+      "dictionary"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Prime factorization, greedy digit replacement, and number theory for divisibility.",
+    "Prime factorization, greedy digit replacement, and GCD for divisibility."
+  ],
+  "problem_summary_simple": "Find the smallest zero-free number >= num whose digit product is divisible by t.",
+  "problem_summary_technical": "Uses prime factorization of t, then greedily constructs the smallest number by modifying digits from right to left.",
+  "time_complexity": [
+    "O(n + logt)",
+    "O(nlogt)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(logt)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to satisfy the prime factor requirements of 't' using the digits.",
+      "Zero-free constraint is crucial; 0s must be replaced with 1s.",
+      "Greedy approach works by trying to change the rightmost digits first for the smallest increase."
+    ],
+    [
+      "Leveraging GCD helps in efficiently determining the remaining factors needed.",
+      "The `find_candidates` function is key to finding the smallest digits to satisfy the divisibility.",
+      "The problem can be viewed as finding the smallest number with specific prime factor counts in its digits."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:09:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

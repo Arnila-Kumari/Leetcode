@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimize-manhattan-distances",
+  "data_structures": [
+    [
+      "list of lists",
+      "tuples"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Transform Manhattan distance to sum and difference of coordinates.",
+    "Find min/max of (x+y) and (x-y) to determine max distance."
+  ],
+  "problem_summary_simple": "Remove one point to minimize the maximum Manhattan distance between any two remaining points.",
+  "problem_summary_technical": "Minimize max Manhattan distance by removing a point. Max distance is determined by max/min of (x+y) and (x-y) sums/differences.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The Manhattan distance |x1 - x2| + |y1 - y2| can be rewritten using transformations: max(|(x1+y1)-(x2+y2)|, |(x1-y1)-(x2-y2)|).",
+      "This means the maximum Manhattan distance is determined by the maximum difference between (x+y) values and (x-y) values.",
+      "By finding the points that contribute to the extreme (min/max) sums and differences, we can efficiently check which point's removal yields the minimum maximum distance."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

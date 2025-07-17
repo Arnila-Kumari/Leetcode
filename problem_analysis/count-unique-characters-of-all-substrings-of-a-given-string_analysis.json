@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-unique-characters-of-all-substrings-of-a-given-string",
+  "data_structures": [
+    [
+      "dictionary (to store last two occurrences of each character)",
+      "integer (for result)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterate through the string, calculating contributions of each character to unique counts in substrings."
+  ],
+  "problem_summary_simple": "Sum the count of unique characters for every possible substring of a given string.",
+  "problem_summary_technical": "For each character, calculate its contribution to unique counts by considering its previous occurrences. Use dynamic programming or prefix sums.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Instead of generating all substrings, focus on the contribution of each character to the total sum.",
+      "For a character `c` at index `i`, its contribution to unique counts depends on its previous occurrences.",
+      "The formula `(i - prev_i) * (prev_i - prev_prev_i)` helps calculate the number of substrings where `c` is unique."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:38:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

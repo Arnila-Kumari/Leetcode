@@ -1,0 +1,34 @@
+{
+  "problem_name": "subsequence-of-size-k-with-the-largest-even-sum",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Quickselect to find the k largest elements, then adjust for even sum.",
+    "Sorting and greedy selection."
+  ],
+  "problem_summary_simple": "Find the largest even sum of a subsequence of length k.",
+  "problem_summary_technical": "Uses Quickselect to find k largest elements, then greedily swaps elements to ensure an even sum.",
+  "time_complexity": [
+    "O(n) on average (due to Quickselect)",
+    "O(n log n) due to sorting"
+  ],
+  "space_complexity": [
+    "O(1) (in-place Quickselect)",
+    "O(n) or O(log n) depending on sort implementation"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into two parts: finding the k largest elements and ensuring the sum is even.",
+      "Quickselect is an efficient way to find the k largest elements without fully sorting the array.",
+      "After selecting the k largest, if the sum is odd, we need to swap one element to make it even. This involves finding the smallest odd element in the top k and the smallest even element outside the top k, or vice-versa."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

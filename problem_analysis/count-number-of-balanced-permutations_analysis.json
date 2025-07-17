@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-number-of-balanced-permutations",
+  "data_structures": [
+    [
+      "list",
+      "dictionary"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with combinatorics for permutations"
+  ],
+  "problem_summary_simple": "Count distinct permutations of a digit string where even and odd indexed sums are equal.",
+  "problem_summary_technical": "Uses DP to count ways to form sums for even/odd positions, combined with multinomial coefficients for permutations.",
+  "time_complexity": [
+    "O(N^2)"
+  ],
+  "space_complexity": [
+    "O(N^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into distributing digits to even and odd positions.",
+      "Combinatorics (nCr) is essential to account for identical digits.",
+      "DP state needs to track current sum and number of digits placed in even positions."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:36:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

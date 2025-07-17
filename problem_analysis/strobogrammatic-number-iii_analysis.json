@@ -1,0 +1,32 @@
+{
+  "problem_name": "strobogrammatic-number-iii",
+  "data_structures": [
+    [
+      "dictionary",
+      "cache (dictionary)"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Recursive generation with memoization and range checking"
+  ],
+  "problem_summary_simple": "Count strobogrammatic numbers within a given range [low, high].",
+  "problem_summary_technical": "Generates strobogrammatic numbers recursively, using memoization and comparing against range bounds.",
+  "time_complexity": [
+    "O(5^(n/2))"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to generate strobogrammatic numbers of increasing lengths and check if they fall within the given range.",
+      "Memoization (caching) is crucial to avoid redundant computations for subproblems.",
+      "Handling leading zeros and the middle digit for odd-length numbers requires careful logic."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

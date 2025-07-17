@@ -1,0 +1,32 @@
+{
+  "problem_name": "distinct-subsequences-ii",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with character count tracking and modulo arithmetic"
+  ],
+  "problem_summary_simple": "Count all distinct non-empty subsequences of a given string.",
+  "problem_summary_technical": "DP counts distinct subsequences by considering each character's contribution, avoiding duplicates using last seen character counts.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that when we encounter a character `c`, the new subsequences formed are `c` itself and `c` appended to all existing subsequences.",
+      "To avoid duplicates, we subtract the count of subsequences ending with `c` that were formed before the current `c`.",
+      "Modulo arithmetic is crucial to handle large results."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

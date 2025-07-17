@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix",
+  "data_structures": [
+    [
+      "queue",
+      "set"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) on states represented by bitmasks"
+  ],
+  "problem_summary_simple": "Find minimum flips to make a binary matrix all zeros, flipping neighbors too.",
+  "problem_summary_technical": "BFS on matrix states (bitmasks), where each state transition involves flipping a cell and its 4 neighbors.",
+  "time_complexity": [
+    "O((m * n) * 2^(m * n))"
+  ],
+  "space_complexity": [
+    "O((m * n) * 2^(m * n))"
+  ],
+  "key_insights": [
+    [
+      "The small constraints (m, n <= 3) allow for exploring all possible states using bitmasks.",
+      "BFS guarantees finding the shortest path (minimum flips) from the initial state to the zero matrix state.",
+      "Flipping a cell twice is equivalent to not flipping it, simplifying the state transitions.",
+      "The problem can be modeled as finding the shortest path in a state graph where nodes are matrix configurations."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:18:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

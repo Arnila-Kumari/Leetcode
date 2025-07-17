@@ -1,0 +1,43 @@
+{
+  "problem_name": "number-of-operations-to-make-network-connected",
+  "data_structures": [
+    [
+      "UnionFind data structure"
+    ],
+    [
+      "adjacency list",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find to track connected components and count redundant edges.",
+    "Depth First Search (DFS) to find connected components and count redundant edges."
+  ],
+  "problem_summary_simple": "Find the minimum operations to connect all computers, moving cables between disconnected ones.",
+  "problem_summary_technical": "Count connected components; if enough redundant cables exist, operations equal components - 1.",
+  "time_complexity": [
+    "O(|E| + |V|)",
+    "O(|E| + |V|)"
+  ],
+  "space_complexity": [
+    "O(|V|)",
+    "O(|V|)"
+  ],
+  "key_insights": [
+    [
+      "The problem boils down to finding the number of connected components.",
+      "We need at least n-1 cables to connect n computers.",
+      "The number of operations is the number of components minus 1, provided there are enough spare cables."
+    ],
+    [
+      "The problem boils down to finding the number of connected components.",
+      "We need at least n-1 cables to connect n computers.",
+      "The number of operations is the number of components minus 1, provided there are enough spare cables."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

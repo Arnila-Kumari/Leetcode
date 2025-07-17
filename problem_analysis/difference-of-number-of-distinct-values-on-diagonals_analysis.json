@@ -1,0 +1,32 @@
+{
+  "problem_name": "difference-of-number-of-distinct-values-on-diagonals",
+  "data_structures": [
+    [
+      "2D array",
+      "set"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterating through diagonals and using sets for distinct counts"
+  ],
+  "problem_summary_simple": "For each cell, find the difference in distinct values on its top-left and bottom-right diagonals.",
+  "problem_summary_technical": "Iterate through all diagonals. For each cell, count distinct elements in the top-left diagonal and bottom-right diagonal using sets.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(min(m, n))"
+  ],
+  "key_insights": [
+    [
+      "The problem involves processing diagonals of the grid.",
+      "For each cell (r, c), the top-left diagonal consists of cells (r-k, c-k) and the bottom-right diagonal consists of cells (r+k, c+k).",
+      "Using sets is efficient for counting distinct elements along these diagonals."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

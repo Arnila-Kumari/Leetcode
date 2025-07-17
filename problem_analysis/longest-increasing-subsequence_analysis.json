@@ -1,0 +1,78 @@
+{
+  "problem_name": "longest-increasing-subsequence",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ],
+    [
+      "list",
+      "dictionary",
+      "Binary Indexed Tree (BIT)"
+    ],
+    [
+      "Segment Tree",
+      "dictionary"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Binary Search (using bisect_left)",
+    "Binary Search (manual implementation)",
+    "Coordinate Compression with BIT (Range Max Query)",
+    "Coordinate Compression with Segment Tree (Range Max Query)",
+    "Dynamic Programming (O(n^2))"
+  ],
+  "problem_summary_simple": "Find the length of the longest subsequence where elements are strictly increasing.",
+  "problem_summary_technical": "Dynamic programming or binary search on a tail array to maintain LIS candidates, achieving O(n log n).",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maintain a list `LIS` where `LIS[i]` is the smallest ending element of an increasing subsequence of length `i+1`.",
+      "Binary search is used to efficiently find the correct position to insert or replace an element in `LIS`.",
+      "The length of `LIS` at the end is the length of the longest increasing subsequence."
+    ],
+    [
+      "This solution manually implements binary search to find the insertion point, demonstrating a deeper understanding of the algorithm.",
+      "The logic is identical to the `bisect` version but shows the underlying search mechanism.",
+      "Efficiency comes from not re-scanning previous elements for each new number."
+    ],
+    [
+      "Coordinate compression maps original values to smaller indices, suitable for BIT/Segment Tree.",
+      "BIT/Segment Tree is used to query the maximum LIS length ending before the current element's compressed index.",
+      "The update operation in BIT/Segment Tree reflects the LIS length ending at the current element."
+    ],
+    [
+      "Similar to BIT, Segment Tree is used for range maximum queries after coordinate compression.",
+      "The Segment Tree efficiently finds the maximum LIS length ending at values less than the current number.",
+      "This approach is more general for range queries but might have a slightly larger constant factor than BIT."
+    ],
+    [
+      "This is the standard DP approach where `dp[i]` stores the length of the LIS ending at `nums[i]`.",
+      "It iterates through all previous elements `j < i` to find the maximum `dp[j] + 1` if `nums[j] < nums[i]`.",
+      "The time complexity is O(n^2) due to the nested loops."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "nested-list-weight-sum",
+  "data_structures": [
+    [
+      "list",
+      "nested list structure"
+    ]
+  ],
+  "category": "Recursion",
+  "algorithm_technique": [
+    "Recursive depth-first traversal of the nested list"
+  ],
+  "problem_summary_simple": "Sum integers in a nested list, multiplying each by its depth.",
+  "problem_summary_technical": "Perform a recursive DFS on a nested list, accumulating the sum of integers weighted by their depth.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved with a recursive helper function that takes the current list and depth.",
+      "Base case: if an element is an integer, add its value multiplied by depth to the sum.",
+      "Recursive step: if an element is a list, call the helper function on that list with incremented depth."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,48 @@
+{
+  "problem_name": "maximum-score-of-a-good-subarray",
+  "data_structures": [
+    [
+      "list of integers",
+      "integer variable",
+      "integer variable",
+      "integer variable"
+    ],
+    [
+      "list of integers",
+      "integer variable",
+      "list of integers",
+      "integer variable"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Expand a window around k, maintaining the minimum element and updating the score. Greedily expand towards the larger neighbor.",
+    "Calculate scores for subarrays ending at k and starting after k, using binary search to find optimal left boundaries."
+  ],
+  "problem_summary_simple": "Find the maximum score of a subarray containing index k, where score is min element times subarray length.",
+  "problem_summary_technical": "Expand a window around k, greedily choosing the larger adjacent element to maintain a high minimum. Alternatively, use prefix/suffix minimums and binary search.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The two-pointer approach is optimal because expanding the window towards the larger element always maintains or increases the minimum value within the window.",
+      "The score is maximized when the minimum element is as large as possible and the window size is also large.",
+      "The greedy choice of expanding towards the larger neighbor ensures that we explore potentially higher scores efficiently."
+    ],
+    [
+      "The problem can be decomposed into finding the best subarray ending at k and the best subarray starting at k.",
+      "Using prefix minimums and binary search allows efficient calculation of the best subarray ending at k.",
+      "Reversing the array and applying the same logic handles subarrays starting at k."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

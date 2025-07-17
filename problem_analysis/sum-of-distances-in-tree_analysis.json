@@ -1,0 +1,33 @@
+{
+  "problem_name": "sum-of-distances-in-tree",
+  "data_structures": [
+    [
+      "adjacency list (defaultdict)",
+      "array (count)",
+      "array (result)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Two DFS traversals: one for subtree counts and sums, another for propagating results."
+  ],
+  "problem_summary_simple": "Calculate the sum of distances from each node to all other nodes in a tree.",
+  "problem_summary_technical": "Uses two DFS passes on an adjacency list representation of a tree to compute subtree sizes and then re-root the sum of distances.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to calculate the sum of distances for an arbitrary root (e.g., node 0) and then efficiently update this sum for other nodes by considering the change in distances when moving the root.",
+      "The first DFS computes subtree sizes and the sum of distances from the root to all nodes within its subtree. The second DFS uses these values to calculate the sum of distances for all nodes.",
+      "When moving the root from parent `p` to child `c`, the sum of distances for `c` can be derived from the sum of distances for `p`. Specifically, `result[c] = result[p] - count[c] + (N - count[c])`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

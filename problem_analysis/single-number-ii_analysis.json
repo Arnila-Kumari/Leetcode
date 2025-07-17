@@ -1,0 +1,64 @@
+{
+  "problem_name": "single-number-ii",
+  "data_structures": [
+    [
+      "integer variables"
+    ],
+    [
+      "integer variables"
+    ],
+    [
+      "hashmap"
+    ],
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bit manipulation using two variables to track counts modulo 3",
+    "Bit manipulation using three variables to track counts modulo 3",
+    "Frequency counting using a hashmap",
+    "Mathematical approach using sum of unique elements"
+  ],
+  "problem_summary_simple": "Find the single number that appears once in an array where all other numbers appear three times.",
+  "problem_summary_technical": "Employs bitwise operations to track the occurrence of bits across numbers, effectively isolating the unique element without extra space.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Bit manipulation is crucial for achieving O(1) space complexity.",
+      "The core idea is to track bits that appear once and twice to identify the number appearing once.",
+      "Alternative solutions leverage hash maps or mathematical properties for different trade-offs."
+    ],
+    [
+      "The bit manipulation approach with 'one' and 'two' variables cleverly simulates a 3-bit counter.",
+      "When a bit appears for the third time, it resets in both 'one' and 'two'.",
+      "This avoids explicit counting and maintains constant space."
+    ],
+    [
+      "Using `collections.Counter` is a straightforward way to solve this if space is not a constraint.",
+      "The logic `(set(nums) * 3) - nums` effectively isolates the unique element.",
+      "This approach is less efficient in terms of space and potentially time for very large inputs."
+    ],
+    [
+      "The mathematical approach relies on the property that `3 * sum(set(nums)) - sum(nums)` will isolate the unique number.",
+      "This works because each number appearing thrice contributes 3 times to both sums, while the unique number contributes once.",
+      "The division by 2 is a consequence of how the unique number is isolated."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:19:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,46 @@
+{
+  "problem_name": "maximum-number-of-fish-in-a-grid",
+  "data_structures": [
+    [
+      "2D grid",
+      "queue",
+      "list of directions"
+    ],
+    [
+      "2D grid",
+      "stack",
+      "list of directions"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) to find connected components of fish.",
+    "Depth-First Search (DFS) to find connected components of fish."
+  ],
+  "problem_summary_simple": "Find the largest connected area of fish in a grid.",
+  "problem_summary_technical": "Graph traversal (BFS or DFS) to identify and sum fish in connected water cells, marking visited cells.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m + n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "Each connected component of water cells represents a single catchable school of fish.",
+      "BFS is suitable for exploring connected components level by level.",
+      "Modifying the grid in-place (setting visited cells to 0) prevents recounting."
+    ],
+    [
+      "DFS is also effective for exploring connected components recursively or iteratively.",
+      "The maximum number of fish is the maximum sum found across all connected components.",
+      "The grid dimensions are small (10x10), making O(m*n) space for DFS stack acceptable."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

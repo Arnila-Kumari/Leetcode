@@ -1,0 +1,32 @@
+{
+  "problem_name": "jump-game-iii",
+  "data_structures": [
+    [
+      "collections.deque",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) to explore reachable indices"
+  ],
+  "problem_summary_simple": "Find if any index with value 0 can be reached from a starting index by jumping forward or backward.",
+  "problem_summary_technical": "BFS on an implicit graph where nodes are array indices and edges are possible jumps, using a set for visited nodes.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a graph traversal where indices are nodes and jumps are edges.",
+      "BFS is suitable for finding if a target state (index with value 0) is reachable.",
+      "A 'visited' set is crucial to prevent infinite loops in case of cycles."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,36 @@
+{
+  "problem_name": "number-of-enclaves",
+  "data_structures": [
+    [
+      "2D list (matrix)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Depth First Search (DFS) starting from boundary land cells to mark reachable land cells."
+  ],
+  "problem_summary_simple": "Count land cells that cannot reach the grid boundary.",
+  "problem_summary_technical": "Uses DFS from boundary land cells to mark all connected land cells, then counts remaining unmarked land cells.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding land cells that are not connected to any land cell on the boundary.",
+      "A common approach is to start a traversal (like DFS or BFS) from all land cells on the boundary.",
+      "Any land cell visited during these boundary traversals is considered 'reachable' from the boundary. The remaining land cells are the enclaves."
+    ],
+    [
+      "The provided DFS solution modifies the input grid in-place by changing visited land cells to 0.",
+      "This avoids the need for a separate `visited` set, reducing space complexity if in-place modification is allowed.",
+      "The time complexity is O(m*n) because each cell is visited at most a constant number of times."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

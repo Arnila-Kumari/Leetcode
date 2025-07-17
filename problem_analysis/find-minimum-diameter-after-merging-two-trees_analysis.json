@@ -1,0 +1,71 @@
+{
+  "problem_name": "find-minimum-diameter-after-merging-two-trees",
+  "data_structures": [
+    [
+      "adjacency list",
+      "queue",
+      "array"
+    ],
+    [
+      "adjacency list",
+      "array"
+    ],
+    [
+      "adjacency list",
+      "queue",
+      "array"
+    ],
+    [
+      "adjacency list",
+      "queue",
+      "array"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Calculate tree diameters using BFS/DFS, then combine results considering the merge point.",
+    "Iterative DFS for tree diameter calculation.",
+    "BFS-based approach for tree diameter calculation.",
+    "Two BFS traversals to find the diameter of each tree."
+  ],
+  "problem_summary_simple": "Find the minimum diameter of a new tree formed by merging two trees with one edge.",
+  "problem_summary_technical": "Calculate diameters of both trees, then find the minimum merged diameter by connecting their 'centers'.",
+  "time_complexity": [
+    "O(n + m)",
+    "O(n + m)",
+    "O(n + m)",
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n + m)",
+    "O(n + m)",
+    "O(n + m)",
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "The diameter of a tree can be found by two BFS traversals: first from an arbitrary node to find the farthest node, then from that farthest node.",
+      "When merging two trees, the new diameter will be the maximum of the individual diameters or a path that spans across the merge point.",
+      "The optimal merge point connects the 'centers' of the two trees to minimize the path length across the merge."
+    ],
+    [
+      "DFS can also be used to find the tree diameter by calculating the longest path starting from each node.",
+      "The recursive DFS approach calculates the longest path downwards from a node and uses it to update the overall diameter.",
+      "The `result` array is used to pass the maximum diameter found so far by reference."
+    ],
+    [
+      "A BFS-based approach using leaf removal (similar to finding the center of a tree) can also compute the diameter.",
+      "This method iteratively removes nodes with degree 1, updating distances and finding the maximum path.",
+      "The `dp` array stores the maximum distance from a node to a leaf in its subtree."
+    ],
+    [
+      "The standard two-BFS approach is a common and efficient way to find the diameter of a tree.",
+      "The first BFS finds an endpoint of a diameter, and the second BFS from that endpoint finds the other endpoint and the diameter length.",
+      "The `ceil_divide` function is used to find the radius of each tree, which is crucial for calculating the merged diameter."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "substring-xor-queries",
+  "data_structures": [
+    [
+      "dictionary"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Precompute XOR values of all valid substrings and store their start/end indices in a hash map."
+  ],
+  "problem_summary_simple": "Find substrings whose XOR with a given number equals another given number.",
+  "problem_summary_technical": "Precomputes XOR values of substrings up to a maximum query XOR, storing results in a hash map for efficient lookups.",
+  "time_complexity": [
+    "O(n * logr + q)"
+  ],
+  "space_complexity": [
+    "O(min(n * logr, r))"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to transform the query `val ^ firsti == secondi` to `val == firsti ^ secondi`.",
+      "Pre-calculating all possible substring XOR values and storing them in a hash map allows for O(1) average time query processing.",
+      "The maximum possible XOR value limits the substrings that need to be considered, optimizing the precomputation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

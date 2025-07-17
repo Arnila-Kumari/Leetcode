@@ -1,0 +1,31 @@
+{
+  "problem_name": "palindromic-substrings",
+  "data_structures": [
+    [
+      "array (for Manacher's algorithm P array)"
+    ]
+  ],
+  "category": "Strings",
+  "algorithm_technique": [
+    "Manacher's Algorithm for finding all palindromic substrings efficiently"
+  ],
+  "problem_summary_simple": "Count all palindromic substrings within a given string.",
+  "problem_summary_technical": "Manacher's algorithm preprocesses the string to find the longest palindromic substring centered at each position, enabling O(n) counting.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Manacher's algorithm is a linear time solution for finding palindromic substrings.",
+      "It handles both odd and even length palindromes by transforming the string with special characters.",
+      "The P array stores the radius of the longest palindrome centered at each position."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

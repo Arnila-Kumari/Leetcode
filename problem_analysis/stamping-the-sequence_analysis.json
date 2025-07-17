@@ -1,0 +1,34 @@
+{
+  "problem_name": "stamping-the-sequence",
+  "data_structures": [
+    [
+      "deque for BFS",
+      "list of tuples (made, todo) for stamp patterns",
+      "boolean array for lookup",
+      "list for result"
+    ]
+  ],
+  "category": "Graph",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) on states representing the target string, where each state transition is a stamp placement."
+  ],
+  "problem_summary_simple": "Find the order of stamp placements to transform a string of '?'s into a target string.",
+  "problem_summary_technical": "BFS where nodes are indices of characters that are now correctly stamped, exploring previous stamp placements that could have led to this state.",
+  "time_complexity": [
+    "O((n - m) * m)"
+  ],
+  "space_complexity": [
+    "O((n - m) * m)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as finding a path in a graph where nodes are the indices of characters in the target string, and edges represent stamp placements.",
+      "A BFS approach is suitable, starting from characters that are 'fully covered' (i.e., all characters in the stamp match the target, and no '?'s are involved).",
+      "The key insight is to work backward: identify which stamp placements could have resulted in a character being correctly stamped, and then see which previous states (partially stamped strings) could have led to those placements."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

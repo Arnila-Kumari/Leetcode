@@ -1,0 +1,33 @@
+{
+  "problem_name": "count-complete-subarrays-in-an-array",
+  "data_structures": [
+    [
+      "hashmap",
+      "set",
+      "integer variables for pointers"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Use a sliding window approach with a frequency map to count subarrays containing all distinct elements of the original array."
+  ],
+  "problem_summary_simple": "Count subarrays that contain all unique numbers present in the entire array.",
+  "problem_summary_technical": "Employ a sliding window and frequency map to find subarrays whose distinct element count matches the total distinct elements in the array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "First, determine the total number of distinct elements in the entire array.",
+      "Use a sliding window (left and right pointers) and a frequency map to track elements within the current window.",
+      "When the window contains all distinct elements, all subarrays starting from `left` up to the current `right` are complete."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

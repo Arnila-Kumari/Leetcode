@@ -1,0 +1,46 @@
+{
+  "problem_name": "pizza-with-3n-slices",
+  "data_structures": [
+    [
+      "list",
+      "2D list (DP table)"
+    ],
+    [
+      "list",
+      "3D list (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to find the maximum sum of non-adjacent slices, considering circularity by splitting into two linear DP problems",
+    "Optimized DP with space reduction for the non-adjacent slice sum problem, handling circularity"
+  ],
+  "problem_summary_simple": "Maximize pizza slice sum by picking n/3 non-adjacent slices, considering circular arrangement.",
+  "problem_summary_technical": "Dynamic programming to find the maximum sum of non-adjacent elements in a circular array, solved by two linear DP subproblems.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding the maximum sum of `n/3` non-adjacent elements in a circular array.",
+      "This can be solved by considering two cases: either the first slice is taken, or it is not.",
+      "Case 1: Don't take the first slice. This reduces to a linear DP problem on `slices[1:]`.",
+      "Case 2: Take the first slice. This means we cannot take the second or the last slice, reducing to a linear DP problem on `slices[2:-1]`.",
+      "The DP state `dp[i][j]` represents the maximum sum using `j` slices from the first `i` slices, with `dp[i][j] = max(dp[i-1][j], dp[i-2][j-1] + slices[i])`."
+    ],
+    [
+      "This solution uses space optimization for the DP by only keeping track of the previous two rows (or states) instead of the entire DP table.",
+      "The modulo operator `%2` (or `%3` in Solution 2) is used to cycle through the DP states, reducing space complexity.",
+      "The core DP recurrence `dp[i%2][j] = max(dp[(i-1)%2][j], dp[(i-2)%2][j-1] + slices[i])` remains the same, but it's applied with space-saving indexing."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:04:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

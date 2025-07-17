@@ -1,0 +1,32 @@
+{
+  "problem_name": "flip-columns-for-maximum-number-of-equal-rows",
+  "data_structures": [
+    [
+      "2D matrix",
+      "hash map (Counter)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hashing: Convert each row into a canonical representation (e.g., by XORing with the first element) and count occurrences."
+  ],
+  "problem_summary_simple": "Flip columns in a binary matrix to maximize the number of rows with identical values.",
+  "problem_summary_technical": "Transforms rows based on the first element and uses a hash map to count identical transformed rows for maximum equality.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "Flipping columns affects all rows simultaneously.",
+      "If two rows are to become identical after flips, their initial states must be either identical or bitwise complements.",
+      "By normalizing rows (e.g., XORing with the first element), we can group rows that can be made identical."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

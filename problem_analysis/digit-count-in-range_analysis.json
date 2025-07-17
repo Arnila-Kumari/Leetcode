@@ -1,0 +1,31 @@
+{
+  "problem_name": "digit-count-in-range",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Digit DP (counting occurrences of a digit in a range)"
+  ],
+  "problem_summary_simple": "Count how many times a specific digit appears in all numbers within a given range.",
+  "problem_summary_technical": "Use a digit DP approach to count occurrences of digit 'd' up to 'high' and subtract count up to 'low-1'.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by calculating the count of digit 'd' in the range [0, high] and subtracting the count in the range [0, low-1].",
+      "The core logic is a helper function that counts the occurrences of a digit 'k' in numbers from 0 to 'n'.",
+      "This helper function uses a digit-by-digit analysis, considering the contribution of the digit 'k' at each place value."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

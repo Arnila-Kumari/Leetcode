@@ -1,0 +1,31 @@
+{
+  "problem_name": "house-robber-ii",
+  "data_structures": [
+    [
+      "variables for dynamic programming states"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Solve by considering two cases: robbing the first house or not robbing the first house."
+  ],
+  "problem_summary_simple": "Rob houses in a circle to maximize money without robbing adjacent ones.",
+  "problem_summary_technical": "Handle circularity by solving two linear DP problems: excluding first and excluding last house.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The circular arrangement is the key difference from House Robber I.",
+      "To handle the circularity, we break the problem into two subproblems: robbing houses 0 to n-2, and robbing houses 1 to n-1.",
+      "The maximum of these two subproblems gives the overall maximum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

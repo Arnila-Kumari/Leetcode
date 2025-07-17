@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-complete-substrings",
+  "data_structures": [
+    [
+      "array",
+      "integer variables for counters and pointers"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Iterate through possible numbers of distinct characters, then use a sliding window to check substrings meeting frequency and adjacency criteria."
+  ],
+  "problem_summary_simple": "Count substrings where each character appears k times and adjacent characters differ by at most 2.",
+  "problem_summary_technical": "A nested approach: outer loop for distinct character counts, inner sliding window to validate frequency (k) and character difference constraints.",
+  "time_complexity": [
+    "O(26 * n)"
+  ],
+  "space_complexity": [
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down by the number of distinct characters in a complete substring (1 to 26).",
+      "For each possible number of distinct characters, a sliding window can efficiently check substrings.",
+      "The 'valid' variable tracks how many characters currently meet the 'k' frequency requirement within the window."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:36:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

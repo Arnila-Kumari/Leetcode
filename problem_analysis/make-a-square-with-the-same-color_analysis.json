@@ -1,0 +1,33 @@
+{
+  "problem_name": "make-a-square-with-the-same-color",
+  "data_structures": [
+    [
+      "2D array",
+      "hash map"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through all possible 2x2 subgrids and check color counts.",
+    "For each 2x2 subgrid, count 'B' and 'W'. If counts are 3 and 1, changing one cell makes it monochromatic."
+  ],
+  "problem_summary_simple": "Can we make a 2x2 square of the same color by changing at most one cell?",
+  "problem_summary_technical": "Examine all 2x2 subgrids. If a subgrid has 3 of one color and 1 of another, changing the single cell satisfies the condition.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The grid size is fixed at 3x3, so the number of 2x2 subgrids is small (4).",
+      "For each 2x2 subgrid, we need to check if it's already monochromatic or can become monochromatic with one change.",
+      "A subgrid can become monochromatic if it has 3 cells of one color and 1 of another."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

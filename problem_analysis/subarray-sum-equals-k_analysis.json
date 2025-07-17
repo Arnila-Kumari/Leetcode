@@ -1,0 +1,32 @@
+{
+  "problem_name": "subarray-sum-equals-k",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Prefix sum with hashmap to count subarray sums."
+  ],
+  "problem_summary_simple": "Find the number of contiguous subarrays whose elements sum up to a target value k.",
+  "problem_summary_technical": "Uses prefix sums and a hashmap to store frequencies of cumulative sums, enabling O(1) lookup for target differences.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that sum(i, j) = prefixSum[j] - prefixSum[i-1].",
+      "We are looking for prefixSum[j] - prefixSum[i-1] = k, which means prefixSum[i-1] = prefixSum[j] - k.",
+      "A hashmap stores counts of prefix sums encountered so far, allowing efficient retrieval of prefixSum[i-1]."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

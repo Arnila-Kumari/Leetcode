@@ -1,0 +1,41 @@
+{
+  "problem_name": "maximum-score-after-applying-operations-on-a-tree",
+  "data_structures": [
+    [
+      "adjacency list",
+      "array (for DP states)"
+    ],
+    [
+      "adjacency list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS with a stack to compute DP states for subtree scores, aiming to maximize score while keeping root-to-leaf paths non-zero.",
+    "Recursive DFS to compute DP states for subtree scores, aiming to maximize score while keeping root-to-leaf paths non-zero."
+  ],
+  "problem_summary_simple": "Maximize score by clearing node values, ensuring no root-to-leaf path sum is zero.",
+  "problem_summary_technical": "Tree DP on node values. Maximize score by clearing nodes, ensuring root-to-leaf path sums are non-zero.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N) for adjacency list and DP array",
+    "O(N) for adjacency list and recursion stack"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by finding the minimum possible sum of values on any root-to-leaf path after operations. This minimum sum is subtracted from the total sum of all initial values.",
+      "The DP state for a node `u` represents the minimum possible sum of values on a path from `u` to any leaf in its subtree, after optimally clearing nodes within that subtree."
+    ],
+    [
+      "The core idea is that to keep a path sum non-zero, at least one node on that path must retain its value. The strategy is to clear as many nodes as possible.",
+      "The DP relation `dp[u] = min(sum(dp[v] for v in children), values[u])` captures the choice: either clear `u` (contributing `values[u]` to the score and potentially making its parent's path sum zero if all children paths are cleared) or keep `u` (contributing `values[u]` to the path sum and clearing children optimally)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:54:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

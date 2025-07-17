@@ -1,0 +1,40 @@
+{
+  "problem_name": "count-complete-tree-nodes",
+  "data_structures": [
+    [
+      "binary tree node",
+      "integer variables for height and count"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Calculate tree height by traversing left, then use binary search on the last level to count nodes efficiently.",
+    "Calculate left and right subtree heights; if equal, the tree is full, otherwise recurse on the appropriate subtree."
+  ],
+  "problem_summary_simple": "Count nodes in a complete binary tree faster than O(n).",
+  "problem_summary_technical": "Leverage the complete binary tree property: compare left and right subtree heights to determine if a subtree is full or partially filled.",
+  "time_complexity": [
+    "O((logn)^2)",
+    "O((logn)^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "In a complete binary tree, the left subtree's height is either equal to or one less than the right subtree's height.",
+      "If left height equals right height, the left subtree is a full binary tree, and we can calculate its nodes directly (2^h - 1).",
+      "If left height is greater than right height, the right subtree is a full binary tree."
+    ],
+    [
+      "The key insight is that a complete binary tree has a structure that allows for binary search on the last level.",
+      "By checking if a specific node index exists in the tree, we can determine if the tree is complete up to that point.",
+      "This avoids a full O(n) traversal by intelligently querying the tree's structure."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,45 @@
+{
+  "problem_name": "minimum-edge-reversals-so-every-node-is-reachable",
+  "data_structures": [
+    [
+      "dictionary",
+      "array"
+    ],
+    [
+      "dictionary",
+      "array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Two DFS traversals: one to calculate total reversals from root, another to propagate changes",
+    "Two DFS traversals: one to calculate total reversals from root, another to propagate changes"
+  ],
+  "problem_summary_simple": "Find minimum edge reversals for each node to reach all other nodes in a tree.",
+  "problem_summary_technical": "Use DFS to count initial reversals from an arbitrary root, then use another DFS to re-root and calculate reversals for each node.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by treating the graph as an undirected tree and then considering directed edges.",
+      "The core idea is to perform two DFS traversals.",
+      "The first DFS (from an arbitrary root, say node 0) calculates the total number of edge reversals needed to make all nodes reachable from that root. For each edge (u, v), if it's directed v->u, it costs 1 reversal to reach v from u. If it's u->v, it costs 0.",
+      "The second DFS then propagates this information. When moving from parent `p` to child `u`, the number of reversals for `u` can be calculated based on the reversals for `p`. If the edge between `p` and `u` was originally `p->u` (cost 0 for `p`'s calculation), it needs 1 reversal to reach `p` from `u`. If it was `u->p` (cost 1 for `p`'s calculation), it needs 0 reversals to reach `p` from `u`."
+    ],
+    [
+      "The `adj` list stores directed edges with weights: 0 for original direction, 1 for reversed.",
+      "`dfs1` calculates the total cost if node 0 is the source. It sums up the costs of edges that need reversal to reach children.",
+      "`dfs2` uses the result of `dfs1` to calculate the cost for every other node. When moving from `u` to `v`, the cost for `v` is `cost[u] - cost_of_edge(u,v) + cost_of_edge(v,u)`. `cost_of_edge(u,v)` is the cost of the edge from `u` to `v` in the original graph (0 if `u->v`, 1 if `v->u`). `cost_of_edge(v,u)` is the cost of the edge from `v` to `u`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

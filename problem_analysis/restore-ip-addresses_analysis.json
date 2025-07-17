@@ -1,0 +1,32 @@
+{
+  "problem_name": "restore-ip-addresses",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "backtracking to explore all possible valid IP address partitions"
+  ],
+  "problem_summary_simple": "Find all valid IP addresses that can be formed from a string of digits.",
+  "problem_summary_technical": "Uses recursion (backtracking) to partition the string into four valid IP address segments, checking for leading zeros and value ranges.",
+  "time_complexity": [
+    "O(3^4)"
+  ],
+  "space_complexity": [
+    "O(4)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using backtracking by trying to place dots at valid positions.",
+      "Each segment of the IP address must be between 0 and 255, and cannot have leading zeros (unless it's '0' itself).",
+      "Pruning the search space by checking remaining characters and required segments significantly improves performance."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

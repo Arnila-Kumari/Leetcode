@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-number-of-vowels-in-a-substring-of-given-length",
+  "data_structures": [
+    [
+      "set",
+      "integer counter"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window to count vowels in substrings of fixed length k."
+  ],
+  "problem_summary_simple": "Find the substring of a given length with the most vowels.",
+  "problem_summary_technical": "Use a sliding window to efficiently count vowels, updating the count as the window moves across the string.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A sliding window is ideal for problems involving fixed-size contiguous subarrays/substrings.",
+      "Maintain a running count of vowels and adjust it by adding the new character and subtracting the outgoing character.",
+      "A set for vowels provides O(1) average time complexity for checking if a character is a vowel."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:53:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

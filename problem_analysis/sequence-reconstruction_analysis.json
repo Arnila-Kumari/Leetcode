@@ -1,0 +1,46 @@
+{
+  "problem_name": "sequence-reconstruction",
+  "data_structures": [
+    [
+      "list",
+      "dictionary (for position mapping)",
+      "boolean array (for matching)"
+    ],
+    [
+      "dictionary (for graph)",
+      "dictionary (for indegree)",
+      "set (for unique integers)",
+      "list (for queue)",
+      "list (for result)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Check pairwise ordering constraints from sequences against the original array's positions.",
+    "Build a directed graph representing dependencies and perform topological sort to check uniqueness and validity."
+  ],
+  "problem_summary_simple": "Verify if a given array is the unique shortest supersequence of a set of subsequences.",
+  "problem_summary_technical": "Checks pairwise orderings or uses topological sort on a graph derived from sequences to ensure uniqueness and shortest length.",
+  "time_complexity": [
+    "O(n * s)",
+    "O(|V| + |E|)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(|E|)"
+  ],
+  "key_insights": [
+    [
+      "The problem boils down to ensuring that every adjacent pair in the original sequence `org` appears in at least one subsequence, and that no other ordering is possible.",
+      "The topological sort approach is more robust for checking uniqueness and the existence of a valid supersequence."
+    ],
+    [
+      "A unique shortest supersequence implies that for any two adjacent elements `a, b` in `org`, the relation `a` must come before `b` must be explicitly or implicitly defined by the `seqs`.",
+      "The topological sort must yield exactly one valid ordering, and all numbers in `org` must be present in `seqs`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

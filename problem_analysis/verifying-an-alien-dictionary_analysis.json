@@ -1,0 +1,32 @@
+{
+  "problem_name": "verifying-an-alien-dictionary",
+  "data_structures": [
+    [
+      "hashmap",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Create a mapping of alien alphabet characters to their order. Then, compare adjacent words lexicographically based on this mapping."
+  ],
+  "problem_summary_simple": "Check if a list of words is sorted according to a given alien alphabet order.",
+  "problem_summary_technical": "Build a character-to-order mapping. Iterate through adjacent words, comparing characters at each position based on the alien order.",
+  "time_complexity": [
+    "O(C), where C is the total number of characters across all words."
+  ],
+  "space_complexity": [
+    "O(1) (since the alphabet size is fixed at 26)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires comparing words based on a custom alphabet order, not the standard English one.",
+      "A hash map is ideal for quickly looking up the order of each character in the alien alphabet.",
+      "When comparing two words, we iterate character by character. The first differing character determines the order. If one word is a prefix of another, the shorter word must come first."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

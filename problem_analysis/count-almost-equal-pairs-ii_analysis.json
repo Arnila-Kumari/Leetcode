@@ -1,0 +1,46 @@
+{
+  "problem_name": "count-almost-equal-pairs-ii",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "collections.defaultdict",
+      "list",
+      "set"
+    ],
+    [
+      "collections.Counter",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Builds an adjacency list of numbers reachable by at most two swaps, then counts pairs.",
+    "BFS-like generation of numbers reachable by at most K swaps, combined with frequency counting."
+  ],
+  "problem_summary_simple": "Count pairs of numbers that can be made equal by swapping digits at most twice.",
+  "problem_summary_technical": "Generates numbers reachable by up to two digit swaps for each input, then uses frequency maps and combinatorics to count pairs.",
+  "time_complexity": [
+    "O(n * l^4)",
+    "O(n * l^4)"
+  ],
+  "space_complexity": [
+    "O(n * l^4)",
+    "O(n + l^4)"
+  ],
+  "key_insights": [
+    [
+      "The complexity increases significantly with the number of allowed swaps (k).",
+      "Generating all possible numbers within k swaps can be computationally expensive.",
+      "The adjacency list approach groups numbers that are 'close' in terms of swaps."
+    ],
+    [
+      "The `at_most(k, x)` function is a generalized way to find all numbers reachable within k swaps.",
+      "This BFS-like generation is efficient for smaller k but can explode for larger k.",
+      "The problem can be modeled as finding pairs of nodes within a certain 'distance' in a graph."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:36:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

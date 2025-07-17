@@ -1,0 +1,36 @@
+{
+  "problem_name": "count-the-number-of-special-characters-ii",
+  "data_structures": [
+    [
+      "array",
+      "hash table"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Track the first occurrence of uppercase and the last occurrence of lowercase for each letter.",
+    "Iterate through the word, storing first uppercase and last lowercase indices, then compare."
+  ],
+  "problem_summary_simple": "Count letters where all lowercase versions appear before all uppercase versions.",
+  "problem_summary_technical": "Store first uppercase and last lowercase indices for each letter; count if last_lower < first_upper.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The condition 'every lowercase occurrence of c appears before the first uppercase occurrence of c' is key.",
+      "This means we need to know the index of the *last* lowercase occurrence and the *first* uppercase occurrence for each letter."
+    ],
+    [
+      "Two arrays of size 26 can store these indices. Initialize last lowercase to -1 and first uppercase to infinity (or length of string).",
+      "Iterate through the string, updating these indices. Finally, compare the stored indices for each letter."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

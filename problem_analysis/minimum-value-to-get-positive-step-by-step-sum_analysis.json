@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-value-to-get-positive-step-by-step-sum",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sum and finding minimum prefix sum"
+  ],
+  "problem_summary_simple": "Find the smallest positive start value so step-by-step sums are always at least 1.",
+  "problem_summary_technical": "Calculates prefix sums and finds the minimum prefix sum. The required start value is 1 minus this minimum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires that at every step, the cumulative sum (startValue + prefix_sum_of_nums) must be at least 1.",
+      "This can be rewritten as: startValue >= 1 - prefix_sum_of_nums for all prefix sums.",
+      "Therefore, to satisfy this for all steps, startValue must be at least the maximum of (1 - prefix_sum_of_nums) over all prefix sums, which is equivalent to 1 - min(prefix_sum_of_nums)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:00:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

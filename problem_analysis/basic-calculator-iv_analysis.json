@@ -1,0 +1,48 @@
+{
+  "problem_name": "basic-calculator-iv",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list",
+      "list",
+      "dict"
+    ],
+    [
+      "collections.Counter",
+      "list",
+      "list",
+      "dict"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Custom polynomial representation (using Counter) with overloaded operators for arithmetic, combined with Shunting-yard for parsing.",
+    "Similar polynomial representation and Shunting-yard parsing, but with reverse iteration for parsing."
+  ],
+  "problem_summary_simple": "Simplify and evaluate a mathematical expression with variables, constants, and parentheses, returning a formatted list of terms.",
+  "problem_summary_technical": "Represents terms as polynomials (e.g., using Counter), parses expressions with operator precedence and parentheses, and evaluates variables.",
+  "time_complexity": [
+    "O(E * T^2 * D)",
+    "O(E * T^2 * D)"
+  ],
+  "space_complexity": [
+    "O(E + T * D)",
+    "O(E + T * D)"
+  ],
+  "key_insights": [
+    [
+      "Representing terms as polynomials (e.g., `Counter` mapping variable tuples to coefficients) is key.",
+      "Operator overloading simplifies the implementation of polynomial arithmetic (add, sub, mul).",
+      "The output format requires careful sorting of terms by degree and then lexicographically."
+    ],
+    [
+      "The `Poly` class encapsulates polynomial operations, making the main logic cleaner.",
+      "The `eval` method handles variable substitution, and `to_list` formats the output.",
+      "Handling of parentheses and operator precedence is managed by a Shunting-yard-like parsing approach."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

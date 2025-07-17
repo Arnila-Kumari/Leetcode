@@ -1,0 +1,33 @@
+{
+  "problem_name": "longest-increasing-subsequence-ii",
+  "data_structures": [
+    [
+      "Segment Tree",
+      "dictionary",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Coordinate Compression with Segment Tree (Range Max Query)"
+  ],
+  "problem_summary_simple": "Find the longest strictly increasing subsequence where adjacent elements differ by at most k.",
+  "problem_summary_technical": "Uses coordinate compression and a Segment Tree to efficiently query max LIS length ending within a k-difference range.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem combines LIS with a constraint on the difference between adjacent elements.",
+      "A Segment Tree is used to efficiently find the maximum length of a valid subsequence ending at a value `x-k` or less.",
+      "Coordinate compression is applied to handle potentially large values in `nums` and `k`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:49:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

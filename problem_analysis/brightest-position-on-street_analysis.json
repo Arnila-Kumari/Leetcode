@@ -1,0 +1,32 @@
+{
+  "problem_name": "brightest-position-on-street",
+  "data_structures": [
+    [
+      "collections.Counter (hash map)",
+      "list of tuples (sorted counts)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Difference array / sweep line with hash map"
+  ],
+  "problem_summary_simple": "Find the smallest position on a street with the most street lamps illuminating it.",
+  "problem_summary_technical": "Uses a difference array (implemented with a hash map) to track changes in brightness, then finds the smallest position with maximum brightness.",
+  "time_complexity": [
+    "O(N log N) where N is the number of lights, due to sorting the hash map keys"
+  ],
+  "space_complexity": [
+    "O(N) for the hash map"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the point with maximum overlap of intervals.",
+      "A difference array (or sweep line) approach efficiently calculates the brightness at each relevant point.",
+      "Sorting the start and end points of the illuminated intervals allows for a single pass to find the maximum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

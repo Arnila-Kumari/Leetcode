@@ -1,0 +1,44 @@
+{
+  "problem_name": "n-ary-tree-postorder-traversal",
+  "data_structures": [
+    [
+      "stack (for iterative solution)",
+      "list (for result)"
+    ],
+    [
+      "recursion stack (implicit)",
+      "list (for result)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative postorder traversal using a stack, processing children before parent and reversing the result.",
+    "Recursive postorder traversal (DFS) visiting children first, then the parent."
+  ],
+  "problem_summary_simple": "Traverse an N-ary tree in postorder (children first, then parent).",
+  "problem_summary_technical": "Implement postorder traversal recursively or iteratively using a stack, ensuring children are processed before their parent.",
+  "time_complexity": [
+    "O(N) for both iterative and recursive solutions.",
+    "O(N) for both iterative and recursive solutions."
+  ],
+  "space_complexity": [
+    "O(H) for iterative (stack depth) and O(H) for recursive (recursion depth), where H is tree height.",
+    "O(H) for recursive (recursion depth) and O(H) for iterative (stack depth)."
+  ],
+  "key_insights": [
+    [
+      "The iterative postorder traversal is a bit trickier than preorder; often involves a modification of preorder or a second stack.",
+      "The provided iterative solution cleverly uses a single stack and reverses the result, effectively simulating a reversed preorder traversal.",
+      "The order of pushing children onto the stack is important for the iterative approach."
+    ],
+    [
+      "The recursive approach directly mirrors the definition of postorder traversal.",
+      "The base case for recursion is an empty node.",
+      "The order of recursive calls (children first) is critical."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

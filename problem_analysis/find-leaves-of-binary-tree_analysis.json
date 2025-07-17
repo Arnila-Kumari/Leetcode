@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-leaves-of-binary-tree",
+  "data_structures": [
+    [
+      "list",
+      "recursion stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive post-order traversal to determine node depth/level"
+  ],
+  "problem_summary_simple": "Collect nodes by repeatedly removing leaf nodes until the tree is empty.",
+  "problem_summary_technical": "Uses recursion to find the height of each node, which corresponds to its removal level, and groups nodes by level.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h) where h is tree height (for recursion stack)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as grouping nodes by their distance from the nearest leaf.",
+      "A recursive function can return the 'height' of a node relative to its leaves (0 for a leaf).",
+      "This height directly corresponds to the 'level' at which the node should be collected.",
+      "A list of lists is used to store nodes at each collected level."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

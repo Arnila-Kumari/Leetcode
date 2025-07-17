@@ -1,0 +1,33 @@
+{
+  "problem_name": "time-based-key-value-store",
+  "data_structures": [
+    [
+      "dictionary",
+      "list",
+      "binary search"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Store key-value pairs with timestamps in a hash map; use binary search for retrieval."
+  ],
+  "problem_summary_simple": "Store key-value pairs with timestamps and retrieve values based on a given timestamp.",
+  "problem_summary_technical": "Use a hash map where values are sorted lists of (timestamp, value) tuples; retrieve using binary search for the largest timestamp <= given timestamp.",
+  "time_complexity": [
+    "set: O(1); get: O(log N), where N is the number of values for a key."
+  ],
+  "space_complexity": [
+    "O(N), where N is the total number of key-value pairs stored."
+  ],
+  "key_insights": [
+    [
+      "The core challenge is efficient retrieval of the correct value based on timestamp.",
+      "Storing values as sorted lists associated with keys allows for binary search.",
+      "The `bisect_right` function is key to finding the insertion point for the timestamp, enabling efficient lookup."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

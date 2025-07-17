@@ -1,0 +1,32 @@
+{
+  "problem_name": "reverse-prefix-of-word",
+  "data_structures": [
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Find character index, slice and reverse prefix, concatenate."
+  ],
+  "problem_summary_simple": "Reverse the beginning of a word up to the first occurrence of a given character.",
+  "problem_summary_technical": "String manipulation: find character index, slice prefix, reverse, and re-concatenate.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The `find()` method efficiently locates the first occurrence of the character.",
+      "String slicing and concatenation are used to construct the new string.",
+      "The problem can be solved in a single pass if implemented carefully, but the provided solution is clear and concise."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:19:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-key-of-the-numbers",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Pad numbers with leading zeros to four digits, then find the minimum digit at each position."
+  ],
+  "problem_summary_simple": "Create a four-digit key by taking the smallest digit at each position from three numbers.",
+  "problem_summary_technical": "Pad numbers to four digits, then iterate through positions, finding the minimum digit using integer division and modulo.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires digit-wise comparison, which can be achieved using arithmetic operations.",
+      "Padding with leading zeros ensures consistent digit alignment for comparison.",
+      "The key is constructed by accumulating the minimum digits from most significant to least significant."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

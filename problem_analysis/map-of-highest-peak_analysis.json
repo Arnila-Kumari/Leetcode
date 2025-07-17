@@ -1,0 +1,44 @@
+{
+  "problem_name": "map-of-highest-peak",
+  "data_structures": [
+    [
+      "queue",
+      "2D matrix (heights)"
+    ],
+    [
+      "queue",
+      "2D matrix (modified isWater)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Multi-source Breadth-First Search (BFS) starting from all water cells.",
+    "BFS to find shortest distance from water cells to land cells."
+  ],
+  "problem_summary_simple": "Assign heights to a grid where water cells are 0, land cells are higher, and adjacent cells differ by at most 1, maximizing the highest peak.",
+  "problem_summary_technical": "Utilizes multi-source BFS from water cells to assign increasing heights to land cells, ensuring the height difference constraint and maximizing the peak.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding the shortest distance from any water cell to each land cell.",
+      "A multi-source BFS is ideal for this, starting all water cells simultaneously.",
+      "The height of a land cell is its distance from the nearest water cell."
+    ],
+    [
+      "The problem is equivalent to finding the shortest distance from any water cell to each land cell.",
+      "A multi-source BFS is ideal for this, starting all water cells simultaneously.",
+      "The height of a land cell is its distance from the nearest water cell."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

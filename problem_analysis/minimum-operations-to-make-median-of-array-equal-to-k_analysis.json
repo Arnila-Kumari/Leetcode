@@ -1,0 +1,42 @@
+{
+  "problem_name": "minimum-operations-to-make-median-of-array-equal-to-k",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Quickselect to find median, then greedy calculation of operations for elements around the median.",
+    "Sorting the array to find the median, then greedy calculation of operations."
+  ],
+  "problem_summary_simple": "Make the median of an array equal to k with minimum operations.",
+  "problem_summary_technical": "Finds the median using Quickselect or sorting, then greedily adjusts elements greater than k down and less than k up.",
+  "time_complexity": [
+    "O(n)",
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The median is the critical element. All elements less than the median must be increased to at least the median, and all greater must be decreased.",
+      "Quickselect provides an average O(n) solution to find the median, which is more efficient than sorting.",
+      "Once the median is found, the operations are calculated by summing the differences between elements and k, considering only those that need adjustment."
+    ],
+    [
+      "The median is the critical element. All elements less than the median must be increased to at least the median, and all greater must be decreased.",
+      "Sorting the array makes it easy to identify the median and elements that need adjustment.",
+      "Once the median is found, the operations are calculated by summing the differences between elements and k, considering only those that need adjustment."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

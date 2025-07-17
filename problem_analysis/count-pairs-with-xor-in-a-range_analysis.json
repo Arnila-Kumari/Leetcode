@@ -1,0 +1,44 @@
+{
+  "problem_name": "count-pairs-with-xor-in-a-range",
+  "data_structures": [
+    [
+      "dictionary",
+      "Counter"
+    ],
+    [
+      "dictionary",
+      "Trie"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Prefix XOR sums with bit manipulation and frequency counting",
+    "Trie (Binary Trie) for efficient XOR queries"
+  ],
+  "problem_summary_simple": "Count pairs (i, j) where i < j and nums[i] XOR nums[j] is within a given range [low, high].",
+  "problem_summary_technical": "Utilize a Trie to store numbers and query for XOR values within a range, often by counting numbers less than a threshold.",
+  "time_complexity": [
+    "O(n * log(max_val))",
+    "O(n * log(max_val))"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n * log(max_val))"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to transform the range query `low <= x ^ y <= high` into two queries: `count(x ^ y <= high) - count(x ^ y < low)`.",
+      "The DP approach iteratively builds counts for prefixes of numbers, effectively simulating a Trie's behavior for XOR operations.",
+      "The `x^1` logic in the DP solution is crucial for handling the bitwise XOR property."
+    ],
+    [
+      "A Binary Trie is ideal for XOR-related problems because it allows efficient searching for numbers that, when XORed with a given number, produce a specific bit pattern.",
+      "The `query` function in the Trie traverses the Trie based on the bits of the input number and the limit, counting valid paths.",
+      "Inserting numbers into the Trie and querying for each number allows us to count pairs efficiently."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:17:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

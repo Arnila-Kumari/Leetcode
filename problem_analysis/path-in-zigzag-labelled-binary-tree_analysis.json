@@ -1,0 +1,31 @@
+{
+  "problem_name": "path-in-zigzag-labelled-binary-tree",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Reverse traversal from node to root in a zigzag labelled binary tree."
+  ],
+  "problem_summary_simple": "Find the path from the root to a given node in a binary tree with zigzag labeling.",
+  "problem_summary_technical": "Calculates parent nodes by reversing the zigzag labeling logic, working upwards from the given label to the root.",
+  "time_complexity": [
+    "O(logn)"
+  ],
+  "space_complexity": [
+    "O(logn)"
+  ],
+  "key_insights": [
+    [
+      "The zigzag labeling requires a transformation to find the parent node.",
+      "The parent's position in the standard binary tree can be found by mirroring the child's position within its level.",
+      "The process is iterative, moving from the given label up to the root."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

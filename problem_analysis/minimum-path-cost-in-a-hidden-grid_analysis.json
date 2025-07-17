@@ -1,0 +1,34 @@
+{
+  "problem_name": "minimum-path-cost-in-a-hidden-grid",
+  "data_structures": [
+    [
+      "dictionary (adjacency list)",
+      "set",
+      "min-heap (priority queue)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Depth First Search (DFS) for grid exploration and Dijkstra's algorithm for shortest path.",
+    "Graph traversal and shortest path algorithm."
+  ],
+  "problem_summary_simple": "Find the minimum cost path from a start to a target cell in an unknown grid using limited queries.",
+  "problem_summary_technical": "Explores the grid using DFS to build an adjacency list, then applies Dijkstra's algorithm to find the shortest path to the target.",
+  "time_complexity": [
+    "O(m * n * log(m * n))"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The grid is unknown, so exploration (DFS) is necessary to map out reachable cells and their costs.",
+      "A `rollback` mechanism is essential in DFS to return the robot to its previous position after exploring a path.",
+      "Dijkstra's algorithm is suitable for finding the shortest path in a weighted graph with non-negative edge weights."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

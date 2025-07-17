@@ -1,0 +1,32 @@
+{
+  "problem_name": "walls-and-gates",
+  "data_structures": [
+    [
+      "list",
+      "deque"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Multi-source Breadth-First Search (BFS) starting from all gates"
+  ],
+  "problem_summary_simple": "Fill empty rooms with the shortest distance to a gate, or INF if unreachable.",
+  "problem_summary_technical": "Perform BFS from all gates simultaneously to find shortest distances to empty rooms, updating in-place.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(g)"
+  ],
+  "key_insights": [
+    [
+      "Treat gates as sources for a multi-source BFS.",
+      "The BFS naturally finds the shortest path in an unweighted grid.",
+      "Initialize the queue with all gate positions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

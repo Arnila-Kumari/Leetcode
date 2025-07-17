@@ -1,0 +1,32 @@
+{
+  "problem_name": "magnetic-force-between-two-balls",
+  "data_structures": [
+    [
+      "sorted array",
+      "integer variables"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer (minimum force) combined with a greedy check function."
+  ],
+  "problem_summary_simple": "Distribute balls into baskets to maximize the minimum distance between any two balls.",
+  "problem_summary_technical": "Binary search for the maximum possible minimum distance. A greedy check function verifies if 'm' balls can be placed with at least 'x' distance.",
+  "time_complexity": [
+    "O(n log n + n log r)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks to maximize a minimum value, which often suggests binary search on the answer.",
+      "The `check` function uses a greedy approach: place the first ball, then place subsequent balls as far as possible while maintaining the minimum distance.",
+      "Sorting the positions is crucial for the greedy placement strategy."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

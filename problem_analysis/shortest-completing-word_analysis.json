@@ -1,0 +1,32 @@
+{
+  "problem_name": "shortest-completing-word",
+  "data_structures": [
+    [
+      "hashmap",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting with hashmap and linear scan"
+  ],
+  "problem_summary_simple": "Find the shortest word that contains all letters from a license plate, ignoring case and non-alphabetic characters.",
+  "problem_summary_technical": "Uses frequency maps (Counters) to check if a word contains all required characters from the license plate, prioritizing shorter words.",
+  "time_complexity": [
+    "O(N*M)"
+  ],
+  "space_complexity": [
+    "O(K)"
+  ],
+  "key_insights": [
+    [
+      "Character frequency counting is key to solving the 'completing' requirement.",
+      "Iterating through words and checking against the license plate's character counts is efficient.",
+      "Maintaining the shortest valid word found so far optimizes the search."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:19:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

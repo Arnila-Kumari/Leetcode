@@ -1,0 +1,42 @@
+{
+  "problem_name": "next-permutation",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Find pivot, swap with smallest larger element, reverse suffix",
+    "Find pivot, swap with smallest larger element, reverse suffix (alternative loop direction)"
+  ],
+  "problem_summary_simple": "Find the next lexicographically greater permutation of an array of integers.",
+  "problem_summary_technical": "Identify the first decreasing element from the right, swap it with the smallest element to its right that's larger, then reverse the suffix.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The algorithm relies on finding the first element from the right that is smaller than its next element (the pivot).",
+      "The element to swap with the pivot is the smallest element to the right of the pivot that is greater than the pivot.",
+      "Reversing the suffix after the swap ensures the smallest possible lexicographical order for the remaining elements."
+    ],
+    [
+      "This solution is functionally identical to the first one, differing only in the direction of the initial loop to find the pivot.",
+      "Both approaches correctly implement the standard algorithm for finding the next permutation.",
+      "The in-place modification requirement is met by directly manipulating the input list."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

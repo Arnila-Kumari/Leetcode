@@ -1,0 +1,32 @@
+{
+  "problem_name": "recover-the-original-array",
+  "data_structures": [
+    [
+      "Counter",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sorting and greedy checking of potential 'k' values based on smallest elements"
+  ],
+  "problem_summary_simple": "Reconstruct an original array given a shuffled list of its elements and their doubled-k counterparts.",
+  "problem_summary_technical": "Sorts the input, then greedily tests potential 'k' values derived from the smallest elements to find the original array.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The smallest element in `nums` must be `arr[i] - k` for some `i`.",
+      "The corresponding `arr[i] + k` would be `nums[0] + 2*k`.",
+      "By iterating through possible `k` values (derived from `nums[i] - nums[0]`), we can check for a valid reconstruction."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:34:51",
+  "batch_processed": true,
+  "batch_size": 4
+}

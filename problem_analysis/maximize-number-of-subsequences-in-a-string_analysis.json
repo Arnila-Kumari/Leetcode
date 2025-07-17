@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximize-number-of-subsequences-in-a-string",
+  "data_structures": [
+    [
+      "integer variables for counts"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through text, count occurrences of pattern[0] and pattern[1]. Add pattern[0] before pattern[1] to maximize subsequences."
+  ],
+  "problem_summary_simple": "Find the best place to insert one character from a two-character pattern into a string to maximize pattern occurrences.",
+  "problem_summary_technical": "Greedy approach: iterate through text, maintain counts of pattern[0] and pattern[1]. Maximize subsequences by considering insertions at optimal positions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by considering the contribution of each character in the text.",
+      "The maximum number of subsequences is achieved by strategically placing the inserted character.",
+      "The solution efficiently counts potential subsequences without explicit string manipulation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

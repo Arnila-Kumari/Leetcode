@@ -1,0 +1,33 @@
+{
+  "problem_name": "my-calendar-ii",
+  "data_structures": [
+    [
+      "list",
+      "tuple",
+      "integer"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Maintain two lists: one for single bookings and one for double bookings (overlaps). When booking a new event, check against double bookings first, then update overlaps and single bookings."
+  ],
+  "problem_summary_simple": "Add events to a calendar, preventing triple bookings.",
+  "problem_summary_technical": "Store single bookings and overlapping intervals (double bookings). A new event is valid if it doesn't overlap with any double booking. Update overlaps accordingly.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key is to track not just booked intervals but also intervals that are already double-booked.",
+      "When a new event is booked, it must not overlap with any existing double-booked intervals.",
+      "If a new event overlaps with a single-booked interval, that overlapping portion becomes a new double-booked interval."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

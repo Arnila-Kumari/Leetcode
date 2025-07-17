@@ -1,0 +1,32 @@
+{
+  "problem_name": "capitalize-the-title",
+  "data_structures": [
+    [
+      "string",
+      "list of characters"
+    ]
+  ],
+  "category": "Strings",
+  "algorithm_technique": [
+    "Iterate through the string, identify words, and apply capitalization rules based on word length."
+  ],
+  "problem_summary_simple": "Capitalize words in a title: lowercase for 1-2 letters, title case for 3+ letters.",
+  "problem_summary_technical": "Process a string word by word, converting to lowercase and then applying title case based on word length.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires processing words individually, separated by spaces.",
+      "A common approach is to convert the entire string to lowercase first, then selectively capitalize.",
+      "Careful handling of word boundaries (spaces) and the end of the string is needed."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

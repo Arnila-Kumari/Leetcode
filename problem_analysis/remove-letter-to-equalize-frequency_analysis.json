@@ -1,0 +1,40 @@
+{
+  "problem_name": "remove-letter-to-equalize-frequency",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "dictionary"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through each character, simulate its removal, and check if the remaining frequencies are equal.",
+    "Analyze frequency counts to identify patterns that satisfy the condition."
+  ],
+  "problem_summary_simple": "Check if removing one letter makes all remaining letter frequencies equal.",
+  "problem_summary_technical": "Simulate removing each character and verify if all present characters have the same frequency in the modified string.",
+  "time_complexity": [
+    "O(n)",
+    "O(26 * n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking if removing *exactly one* character leads to equal frequencies for all *remaining* characters.",
+      "This means we need to consider the counts of frequencies themselves.",
+      "If after removing one character, all remaining characters have frequency `f`, then the original frequencies must have been either: (f, f, ..., f) or (f+1, f, f, ..., f) or (f, f, ..., f, 1)."
+    ],
+    [
+      "Solution 1 (`Solution`) analyzes the counts of frequencies directly. It handles cases where there are 1 or 2 distinct frequencies.",
+      "Solution 2 (`Solution2`) iterates through each character, temporarily removes it, and then checks the frequencies of the modified string.",
+      "The brute-force approach (Solution2) is simpler to reason about but less efficient than analyzing frequency counts directly (Solution1)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "sum-of-imbalance-numbers-of-all-subarrays",
+  "data_structures": [
+    [
+      "hash table",
+      "array"
+    ],
+    [
+      "hash table",
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Combinatorics with precomputed next/previous greater/smaller elements",
+    "Iterative approach with hashmap for tracking seen elements"
+  ],
+  "problem_summary_simple": "Calculate the sum of imbalance numbers for all subarrays of a given array.",
+  "problem_summary_technical": "Calculates imbalance by counting adjacent elements with difference > 1 in sorted subarrays, using precomputation or iterative tracking.",
+  "time_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The O(n) solution cleverly uses precomputed `right` and `left` boundaries to count contributions efficiently.",
+      "The subtraction at the end accounts for overcounted subarrays where all elements are consecutive."
+    ],
+    [
+      "The O(n^2) solution iterates through all possible subarrays and calculates imbalance incrementally.",
+      "Using a hash set (`lookup`) within the inner loop helps track elements in the current subarray for quick checks."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

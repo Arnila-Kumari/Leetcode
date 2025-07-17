@@ -1,0 +1,46 @@
+{
+  "problem_name": "binary-tree-postorder-traversal",
+  "data_structures": [
+    [
+      "TreeNode",
+      "List",
+      "Stack"
+    ],
+    [
+      "TreeNode",
+      "List",
+      "Stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Morris Traversal (in-place modification)",
+    "Iterative using a stack with a visited flag"
+  ],
+  "problem_summary_simple": "Traverse a binary tree and return node values in postorder (left, right, root).",
+  "problem_summary_technical": "Implement postorder traversal iteratively, either with Morris traversal (O(1) space) or a stack (O(h) space).",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "Morris Traversal modifies tree structure temporarily to achieve O(1) space.",
+      "The traceback function is crucial for collecting nodes in the correct order during Morris traversal.",
+      "The iterative stack solution uses a flag to distinguish between visiting a node for the first time and processing its children."
+    ],
+    [
+      "Morris Traversal modifies tree structure temporarily to achieve O(1) space.",
+      "The traceback function is crucial for collecting nodes in the correct order during Morris traversal.",
+      "The iterative stack solution uses a flag to distinguish between visiting a node for the first time and processing its children."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

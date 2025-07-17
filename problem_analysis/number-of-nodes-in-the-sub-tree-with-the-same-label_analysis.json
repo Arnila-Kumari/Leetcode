@@ -1,0 +1,44 @@
+{
+  "problem_name": "number-of-nodes-in-the-sub-tree-with-the-same-label",
+  "data_structures": [
+    [
+      "adjacency list",
+      "array"
+    ],
+    [
+      "adjacency list",
+      "array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Depth First Search (DFS) with iterative implementation.",
+    "Depth First Search (DFS) with recursive implementation."
+  ],
+  "problem_summary_simple": "Count nodes in each subtree that have the same label as the subtree's root.",
+  "problem_summary_technical": "DFS traversal on the tree, accumulating label counts from children to parents to determine subtree counts.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(H)",
+    "O(H)"
+  ],
+  "key_insights": [
+    [
+      "A DFS approach is natural for tree problems, allowing traversal and aggregation of information from subtrees.",
+      "Each DFS call returns a count of labels in its subtree, which is then used by its parent.",
+      "The iterative DFS solution uses a stack to manage the traversal, mimicking recursion."
+    ],
+    [
+      "A DFS approach is natural for tree problems, allowing traversal and aggregation of information from subtrees.",
+      "Each DFS call returns a count of labels in its subtree, which is then used by its parent.",
+      "The recursive DFS solution is often more concise for tree traversals."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

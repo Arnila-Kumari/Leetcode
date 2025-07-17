@@ -1,0 +1,31 @@
+{
+  "problem_name": "sqrtx",
+  "data_structures": [
+    [
+      "integer variables for left, right, mid"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the range of possible square roots."
+  ],
+  "problem_summary_simple": "Find the integer square root of a non-negative number without using built-in functions.",
+  "problem_summary_technical": "Implement binary search to find the largest integer whose square is less than or equal to x.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Binary search is efficient for finding a value within a sorted or monotonic range.",
+      "The search space for the square root of x is from 1 to x/2 (or x itself for small x).",
+      "Careful handling of integer division and boundary conditions is crucial."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:10:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

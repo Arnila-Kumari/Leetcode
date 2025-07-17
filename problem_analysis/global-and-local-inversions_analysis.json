@@ -1,0 +1,30 @@
+{
+  "problem_name": "global-and-local-inversions",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array and check if the absolute difference between an element's value and its index is at most 1."
+  ],
+  "problem_summary_simple": "Determine if the number of global inversions equals the number of local inversions in a permutation.",
+  "problem_summary_technical": "A permutation has equal global and local inversions if and only if `abs(nums[i] - i) <= 1` for all `i`.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A key insight is that a global inversion `(i, j)` where `nums[i] > nums[j]` and `j > i+1` implies `abs(nums[i] - i) > 1` or `abs(nums[j] - j) > 1`.",
+      "Therefore, if all elements satisfy `abs(nums[i] - i) <= 1`, there can be no global inversions that are not also local inversions."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "power-grid-maintenance",
+  "data_structures": [
+    [
+      "array",
+      "list of lists",
+      "boolean array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Graph traversal (DFS) to find connected components, then managing online status and fallback logic."
+  ],
+  "problem_summary_simple": "Handle power station maintenance checks, rerouting to the lowest ID online station if the target is offline.",
+  "problem_summary_technical": "Uses DFS to identify connected components (grids). Manages online status and uses pre-sorted component lists to find the smallest online ID efficiently.",
+  "time_complexity": [
+    "O(C + N + Q)"
+  ],
+  "space_complexity": [
+    "O(C + N)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to group stations into connected components (grids).",
+      "Maintaining the smallest online station ID within each component is key.",
+      "Processing queries offline and then efficiently finding the fallback station is important for performance."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:05:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

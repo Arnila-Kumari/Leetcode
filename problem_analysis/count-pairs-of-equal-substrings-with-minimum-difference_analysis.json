@@ -1,0 +1,33 @@
+{
+  "problem_name": "count-pairs-of-equal-substrings-with-minimum-difference",
+  "data_structures": [
+    [
+      "array",
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Precomputing last occurrences and iterating to find minimum difference",
+    "Optimized lookup for minimum difference"
+  ],
+  "problem_summary_simple": "Count quadruples (i,j,a,b) where substrings are equal and j-a is minimized.",
+  "problem_summary_technical": "Finds the minimum difference j-a for equal single-character substrings and counts occurrences of this minimum difference.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem simplifies to finding the minimum difference between the index of a character in `firstString` and its index in `secondString`.",
+      "This minimum difference is achieved when comparing single-character substrings.",
+      "By pre-calculating the last occurrence of each character in `firstString` and the first occurrence in `secondString`, we can efficiently find the minimum difference."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

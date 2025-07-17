@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-increments-for-target-multiples-in-an-array",
+  "data_structures": [
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Dynamic programming with bitmasking to represent subsets of target multiples, using LCM for state transitions."
+  ],
+  "problem_summary_simple": "Find minimum increments to nums so each target has a multiple in nums.",
+  "problem_summary_technical": "DP with bitmasking on target subsets, using LCM and submask enumeration for state transitions.",
+  "time_complexity": [
+    "O(logr * m * 2^m + n * 3^m)"
+  ],
+  "space_complexity": [
+    "O(2^m)"
+  ],
+  "key_insights": [
+    [
+      "Bitmasking is effective for representing subsets of the small `target` array.",
+      "LCM is key to finding a common multiple for a subset of targets.",
+      "Submask enumeration (3^m) is a common pattern for DP on subsets."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:18:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

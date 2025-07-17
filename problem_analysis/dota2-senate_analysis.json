@@ -1,0 +1,32 @@
+{
+  "problem_name": "dota2-senate",
+  "data_structures": [
+    [
+      "deque",
+      "queue"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Simulate the senator's banning process using queues to manage senator indices and their turn order."
+  ],
+  "problem_summary_simple": "Predict which political party will win a senate vote based on senator banning rights.",
+  "problem_summary_technical": "Use queues to manage senator indices, simulating bans by re-queueing with an incremented index to represent the next round.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The optimal strategy for each senator is to ban the next available senator of the opposing party.",
+      "Queues naturally handle the round-robin nature of the voting process.",
+      "Adding 'n' to the index of a senator who survives a round effectively places them in the next round."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-chunked-palindrome-decomposition",
+  "data_structures": [
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy string matching using Rabin-Karp for efficient prefix/suffix comparison."
+  ],
+  "problem_summary_simple": "Split a string into the maximum number of palindromic chunks.",
+  "problem_summary_technical": "Greedily finds matching prefixes and suffixes of increasing lengths. Rabin-Karp with rolling hashes efficiently compares substrings to avoid O(n^2) string comparisons.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by finding the shortest possible matching prefix and suffix.",
+      "Rabin-Karp algorithm is used to efficiently check for substring equality using rolling hashes.",
+      "When a match is found, the problem reduces to solving the subproblem for the remaining middle string."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

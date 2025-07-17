@@ -1,0 +1,33 @@
+{
+  "problem_name": "cousins-in-binary-tree",
+  "data_structures": [
+    [
+      "TreeNode",
+      "list (for depth)",
+      "list (for parent)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth First Search (DFS) to find depth and parent of target nodes."
+  ],
+  "problem_summary_simple": "Check if two nodes in a binary tree are cousins (same depth, different parents).",
+  "problem_summary_technical": "Utilize DFS to track depth and parent for target nodes x and y, comparing their depths and parents.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find the depth and parent of both target nodes.",
+      "DFS is suitable for traversing the tree and gathering this information.",
+      "Using mutable lists (like `depth_x`, `parent_x`) allows modification within the recursive DFS calls."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "selling-pieces-of-wood",
+  "data_structures": [
+    [
+      "2D array (DP table)",
+      "hash map (for prices)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming: dp[i][j] stores max profit for i x j wood. Consider all cuts.",
+    "Memoization with recursion to explore all cutting possibilities."
+  ],
+  "problem_summary_simple": "Find the maximum profit by cutting a piece of wood and selling smaller pieces.",
+  "problem_summary_technical": "Use DP where dp[h][w] is max profit for h x w wood. Iterate through all possible horizontal and vertical cuts.",
+  "time_complexity": [
+    "O(m * n * (m + n))"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic dynamic programming problem where subproblems are smaller pieces of wood.",
+      "The state transition involves considering all possible horizontal and vertical cuts.",
+      "Base cases are the prices of pre-defined wood sizes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

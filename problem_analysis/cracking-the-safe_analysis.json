@@ -1,0 +1,83 @@
+{
+  "problem_name": "cracking-the-safe",
+  "data_structures": [
+    [
+      "string",
+      "set (for visited sequences)"
+    ],
+    [
+      "string",
+      "list (for result)",
+      "set (for visited sequences)"
+    ],
+    [
+      "string",
+      "list (for result)",
+      "set (for visited sequences)"
+    ],
+    [
+      "string",
+      "set (for visited sequences)"
+    ],
+    [
+      "string",
+      "list (for result)",
+      "set (for visited sequences)"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "De Bruijn sequence construction using a modified DFS approach.",
+    "Iterative construction of the sequence by exploring possible extensions.",
+    "Recursive DFS to build the sequence by visiting unique n-length substrings.",
+    "Iterative approach to build the sequence by appending digits and checking substrings.",
+    "Recursive DFS to generate the sequence by exploring valid extensions."
+  ],
+  "problem_summary_simple": "Find the shortest string that contains all possible n-digit passwords using digits 0 to k-1.",
+  "problem_summary_technical": "Construct a De Bruijn sequence of order n over an alphabet of size k using DFS or iterative methods with visited set.",
+  "time_complexity": [
+    "O(k^n)",
+    "O(k^n)",
+    "O(k^n)",
+    "O(n * k^n)",
+    "O(n * k^n)"
+  ],
+  "space_complexity": [
+    "O(k^n)",
+    "O(k^n)",
+    "O(k^n)",
+    "O(n * k^n)",
+    "O(n * k^n)"
+  ],
+  "key_insights": [
+    [
+      "This problem is equivalent to finding an Eulerian path in a De Bruijn graph.",
+      "The graph nodes represent (n-1)-length sequences, and edges represent n-length sequences.",
+      "The goal is to visit every possible n-length substring exactly once."
+    ],
+    [
+      "The solution involves generating sequences greedily, prioritizing digits that haven't been fully explored.",
+      "A set is used to keep track of visited n-length substrings to ensure uniqueness.",
+      "The length of the resulting string is k^n + n - 1."
+    ],
+    [
+      "The DFS approach explores possible extensions of the current sequence.",
+      "The `lookup` set prevents revisiting already covered n-length substrings.",
+      "The modulo operation `new_unique_rolling_hash % M` helps in managing the rolling hash efficiently."
+    ],
+    [
+      "The iterative approach builds the result string by appending digits.",
+      "It checks the last `n` characters to see if a new substring has been formed.",
+      "The `lookup` set stores the n-length substrings encountered so far."
+    ],
+    [
+      "The recursive DFS explores adding digits to the current node's suffix.",
+      "The `neighbor[1:]` ensures that the next recursive call considers the correct suffix for the next n-length substring.",
+      "The initial `result` is filled with `k-1` to ensure a lexicographically larger starting point for exploration."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:38:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

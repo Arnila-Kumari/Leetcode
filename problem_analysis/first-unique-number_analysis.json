@@ -1,0 +1,33 @@
+{
+  "problem_name": "first-unique-number",
+  "data_structures": [
+    [
+      "OrderedDict",
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Maintain an ordered dictionary for unique elements and a set for duplicates. Add new elements, updating both structures."
+  ],
+  "problem_summary_simple": "Design a data structure to find the first unique number in a queue and add new numbers.",
+  "problem_summary_technical": "Uses an OrderedDict to track unique elements in order and a set for duplicates, enabling O(1) add and showFirstUnique.",
+  "time_complexity": [
+    "ctor: O(k), add: O(1), showFirstUnique: O(1)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "An OrderedDict is crucial for maintaining the order of unique elements.",
+      "A separate set is needed to efficiently track elements that have become duplicates.",
+      "When adding a value, check if it's already a duplicate or unique. If unique, add to OrderedDict; if already in OrderedDict, move to duplicates."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

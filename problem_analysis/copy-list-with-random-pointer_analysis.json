@@ -1,0 +1,33 @@
+{
+  "problem_name": "copy-list-with-random-pointer",
+  "data_structures": [
+    [
+      "linked list",
+      "hashmap"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "hashmap for mapping original nodes to copied nodes",
+    "interweaving nodes"
+  ],
+  "problem_summary_simple": "Create a deep copy of a linked list where each node has a value, next pointer, and a random pointer.",
+  "problem_summary_technical": "Use a hashmap to store mappings from original nodes to their deep copies to correctly set random pointers.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "need to handle both next and random pointers",
+      "a hashmap is crucial for mapping original nodes to new nodes",
+      "interweaving nodes is an O(1) space alternative"
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:44:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

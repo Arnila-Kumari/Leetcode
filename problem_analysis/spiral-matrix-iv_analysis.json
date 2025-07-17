@@ -1,0 +1,32 @@
+{
+  "problem_name": "spiral-matrix-iv",
+  "data_structures": [
+    [
+      "2D array (matrix)",
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Spiral traversal of a matrix, filling with linked list values"
+  ],
+  "problem_summary_simple": "Fill an m x n matrix with values from a linked list in a spiral order, using -1 for empty cells.",
+  "problem_summary_technical": "Performs a spiral traversal, filling a 2D matrix with linked list values and -1 for unvisited cells.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem combines matrix traversal with linked list consumption.",
+      "A common approach is to simulate the spiral movement, similar to Spiral Matrix II.",
+      "Handle the case where the linked list runs out of elements before the matrix is full."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,46 @@
+{
+  "problem_name": "parallel-courses-ii",
+  "data_structures": [
+    [
+      "array (for prerequisites)",
+      "DP array (bitmask)",
+      "iterator (for combinations)"
+    ],
+    [
+      "adjacency list (graph)",
+      "degree array",
+      "priority queue (for greedy attempt)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with bitmasking to represent taken courses and minimum semesters",
+    "Greedy approach (incorrect) using depth and degree to prioritize courses"
+  ],
+  "problem_summary_simple": "Find minimum semesters to finish courses, taking at most k courses per semester.",
+  "problem_summary_technical": "DP with bitmasking: dp[mask] is min semesters for courses in mask. Transitions consider taking up to k available courses.",
+  "time_complexity": [
+    "O((n * C(c, min(c, k))) * 2^n)",
+    "O(nlogn + e)"
+  ],
+  "space_complexity": [
+    "O(2^n)",
+    "O(n + e)"
+  ],
+  "key_insights": [
+    [
+      "The constraint n <= 15 strongly suggests a solution involving bitmasking and exponential complexity.",
+      "The DP state `dp[mask]` represents the minimum semesters to complete courses represented by the bitmask.",
+      "Transitions involve finding available courses (those whose prerequisites are met) and choosing up to `k` of them."
+    ],
+    [
+      "The greedy approach attempts to prioritize courses based on their depth (longest path from them) and in-degree.",
+      "However, this greedy strategy is flawed because the optimal choice of courses in a semester can depend on future possibilities, not just immediate priorities.",
+      "The problem requires exploring combinations of courses, which DP handles effectively."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:04:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

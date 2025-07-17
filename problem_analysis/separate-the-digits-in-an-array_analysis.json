@@ -1,0 +1,40 @@
+{
+  "problem_name": "separate-the-digits-in-an-array",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through numbers, extract digits using modulo and division, and append to result.",
+    "Convert numbers to strings, iterate through characters, and convert back to integers."
+  ],
+  "problem_summary_simple": "Extract all digits from each number in an array and return them in order.",
+  "problem_summary_technical": "Iterates through numbers, using string conversion or arithmetic operations to extract digits and build a new list.",
+  "time_complexity": [
+    "O(n * logr)",
+    "O(n * logr)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(logr)"
+  ],
+  "key_insights": [
+    [
+      "The problem is straightforward, requiring digit extraction from integers.",
+      "Two common approaches are arithmetic digit extraction (modulo/division) and string conversion."
+    ],
+    [
+      "The order of digits within each number and the order of numbers in the input array must be preserved.",
+      "The `reversed()` function in the first solution is a clever way to extract digits from least significant to most significant and then reverse the final list."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

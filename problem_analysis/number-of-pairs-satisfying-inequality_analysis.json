@@ -1,0 +1,48 @@
+{
+  "problem_name": "number-of-pairs-satisfying-inequality",
+  "data_structures": [
+    [
+      "SortedList (balanced BST)",
+      "itertools.izip"
+    ],
+    [
+      "BIT (Fenwick Tree)",
+      "bisect",
+      "itertools.izip",
+      "dictionary (hash map)"
+    ],
+    [
+      "list",
+      "itertools.izip"
+    ]
+  ],
+  "category": "Merge Sort",
+  "algorithm_technique": [
+    "Transform the inequality to `nums1[i] - nums2[i] <= nums1[j] - nums2[j] + diff`. Use a data structure like SortedList or BIT with coordinate compression to efficiently count valid pairs.",
+    "Alternatively, use a modified merge sort. During the merge step, count pairs where `nums1[l] - nums2[l] <= nums1[r] - nums2[r] + diff` using two pointers.",
+    "The inequality `nums1[i] - nums1[j] <= nums2[i] - nums2[j] + diff` can be rewritten as `(nums1[i] - nums2[i]) <= (nums1[j] - nums2[j]) + diff`. Let `diff_arr[k] = nums1[k] - nums2[k]`. The problem becomes finding pairs `(i, j)` with `i < j` such that `diff_arr[i] <= diff_arr[j] + diff`."
+  ],
+  "problem_summary_simple": "Count pairs of indices (i, j) where i < j, satisfying a specific inequality involving elements from two arrays and a difference.",
+  "problem_summary_technical": "Transform the inequality to `diff_arr[i] <= diff_arr[j] + diff`. Use merge sort or Fenwick tree with coordinate compression to count pairs efficiently.",
+  "time_complexity": [
+    "O(N log N)",
+    "O(N log N)",
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The key transformation is `nums1[i] - nums2[i] <= nums1[j] - nums2[j] + diff`. Let `d[k] = nums1[k] - nums2[k]`. The problem becomes finding pairs `(i, j)` with `i < j` such that `d[i] <= d[j] + diff`.",
+      "This is a classic counting inversions-like problem. Solutions involve data structures that can efficiently query counts of elements within a range. SortedList (or balanced BST) and Fenwick Tree (BIT) with coordinate compression are suitable.",
+      "The merge sort approach cleverly integrates the counting into the sorting process. During the merge step, when considering `d[l]` from the left half and `d[r]` from the right half, we can count how many `d[r]` satisfy the condition for the current `d[l]`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:02:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "remove-all-ones-with-row-and-column-flips",
+  "data_structures": [
+    [
+      "2D list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Row and column flipping logic based on the first row's state"
+  ],
+  "problem_summary_simple": "Determine if a binary matrix can be made all zeros by flipping rows and columns.",
+  "problem_summary_technical": "Checks if each row is either identical to the first row or its bitwise complement.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The state of the first row dictates the required state of all other rows.",
+      "Each subsequent row must either match the first row or be its exact inverse (after considering column flips).",
+      "This problem can be solved by checking consistency with the first row, as any valid sequence of flips can be mapped to this."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "shift-distance-between-two-strings",
+  "data_structures": [
+    [
+      "string",
+      "list of integers"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculating minimum shift cost for each character using prefix sums of costs"
+  ],
+  "problem_summary_simple": "Find the minimum cost to transform string s to string t by shifting characters.",
+  "problem_summary_technical": "Calculate minimum shift cost per character by considering forward/backward shifts and prefix sums of costs.",
+  "time_complexity": [
+    "O(n + 26)"
+  ],
+  "space_complexity": [
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "For each character pair s[i] and t[i], the shift can be done either forward or backward.",
+      "The cost of shifting is determined by the character's position in the alphabet and the provided cost arrays.",
+      "Prefix sums of `nextCost` and `previousCost` allow for O(1) calculation of shift costs between any two characters."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

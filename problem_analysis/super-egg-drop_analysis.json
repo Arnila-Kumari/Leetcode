@@ -1,0 +1,39 @@
+{
+  "problem_name": "super-egg-drop",
+  "data_structures": [
+    [
+      "Integer"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the number of moves, using a check function based on binomial coefficients.",
+    "Dynamic Programming approach to calculate maximum floors solvable with given eggs and moves."
+  ],
+  "problem_summary_simple": "Find the minimum number of drops to find the critical floor in a building with k eggs and n floors.",
+  "problem_summary_technical": "Binary search for minimum moves `m`. Check function uses `sum(C(m, i) for i in 1..k) >= N`.",
+  "time_complexity": [
+    "O(k log n)",
+    "O(k*n^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(k*n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed: what is the maximum number of floors we can check with `m` moves and `k` eggs?",
+      "The recurrence relation `f(m, k) = f(m-1, k-1) + f(m-1, k) + 1` leads to binomial coefficients.",
+      "The check function `sum(C(m, i) for i in 1..k)` efficiently determines if `m` moves are sufficient."
+    ],
+    [
+      "A DP approach `dp[m][k]` stores the maximum floors solvable.",
+      "The state transition `dp[m][k] = dp[m-1][k-1] + dp[m-1][k] + 1` is key.",
+      "This DP approach is less efficient than the binary search on moves."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

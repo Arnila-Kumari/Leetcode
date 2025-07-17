@@ -1,0 +1,40 @@
+{
+  "problem_name": "find-the-longest-valid-obstacle-course-at-each-position",
+  "data_structures": [
+    [
+      "array",
+      "binary search tree"
+    ],
+    [
+      "segment tree",
+      "hashmap",
+      "array"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on a sorted list of previous obstacle heights to find the insertion point, effectively finding the longest non-decreasing subsequence ending at the current obstacle.",
+    "Segment Tree for Range Maximum Query to find the longest valid course ending before the current obstacle with a height less than or equal to the current obstacle."
+  ],
+  "problem_summary_simple": "For each obstacle, find the longest valid course ending with it, where obstacles are non-decreasing.",
+  "problem_summary_technical": "The binary search approach maintains a sorted list of LIS lengths for increasing heights. The segment tree approach queries for the maximum LIS ending at a smaller height.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a variation of the Longest Increasing Subsequence (LIS) problem, computed for each position.",
+      "The binary search approach (using `bisect_right`) efficiently finds the position to insert the current obstacle to maintain the sorted list of LIS lengths.",
+      "The segment tree approach requires coordinate compression if obstacle heights are large, and it queries for the maximum length of a valid course ending at a smaller height."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:44:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

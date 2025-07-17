@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-make-the-array-alternating",
+  "data_structures": [
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting and greedy selection of most frequent elements for even/odd indices."
+  ],
+  "problem_summary_simple": "Minimize operations to make an array alternating (nums[i-2] == nums[i] and nums[i-1] != nums[i]).",
+  "problem_summary_technical": "Uses frequency counters on even and odd indexed elements to find the top two most frequent values, then greedily picks to minimize changes.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The alternating property means we only need to consider elements at even indices and odd indices independently.",
+      "To minimize operations, we should aim to change the fewest elements, which means keeping the most frequent elements.",
+      "A special case arises when the most frequent elements at even and odd indices are the same; we must then consider the second most frequent."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

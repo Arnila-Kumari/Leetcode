@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-ways-to-build-good-strings",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to count ways to form strings of increasing lengths."
+  ],
+  "problem_summary_simple": "Count strings of length between low and high, built by appending '0' zero times or '1' one times.",
+  "problem_summary_technical": "Use DP where dp[i] is the number of ways to form a string of length i, considering appending zero or one blocks.",
+  "time_complexity": [
+    "O(high)"
+  ],
+  "space_complexity": [
+    "O(high)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming. `dp[i]` represents the number of ways to construct a string of length `i`.",
+      "A string of length `i` can be formed by appending a block of `zero` '0's to a string of length `i - zero`, or a block of `one` '1's to a string of length `i - one`.",
+      "The base case is `dp[0] = 1` (representing the empty string)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-sum-of-almost-unique-subarray",
+  "data_structures": [
+    [
+      "hashmap",
+      "array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with frequency map and two pointers"
+  ],
+  "problem_summary_simple": "Find the max sum of a subarray of fixed length k with at least m distinct elements.",
+  "problem_summary_technical": "Use a sliding window of size k, maintaining element frequencies and sum, checking distinct count.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "A sliding window is ideal for problems involving contiguous subarrays of a fixed size.",
+      "A frequency map (like `collections.Counter`) is crucial for tracking distinct elements within the window.",
+      "The window expands to size k, and then slides by removing the left element and adding the right element."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

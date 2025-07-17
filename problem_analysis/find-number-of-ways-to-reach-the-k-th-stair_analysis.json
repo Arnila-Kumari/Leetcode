@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-number-of-ways-to-reach-the-k-th-stair",
+  "data_structures": [
+    [
+      "array",
+      "precomputed factorials"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorics using combinations (nCr) and bit manipulation to determine jump counts."
+  ],
+  "problem_summary_simple": "Find the number of ways to reach the k-th stair with specific up and down moves.",
+  "problem_summary_technical": "Calculates ways using combinations (nCr) based on jump sizes derived from binary representation of k.",
+  "time_complexity": [
+    "O(log k)"
+  ],
+  "space_complexity": [
+    "O(log k)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding combinations of 'up' and 'down' moves.",
+      "The 'jump' value increases with each 'up' move, creating powers of 2.",
+      "The core idea is to find how many 'up' moves of size 2^i are needed to reach k, considering the 'down' moves."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

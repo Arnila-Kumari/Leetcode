@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-time-to-finish-the-race",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Precompute minimum time for consecutive laps with a single tire type. Use DP to combine these with changeTime.",
+    "Greedy choice at each lap: either continue with the current tire or change to a new one."
+  ],
+  "problem_summary_simple": "Find the minimum time to complete a race of multiple laps, given tire performance and time to change tires.",
+  "problem_summary_technical": "DP approach. `dp[i]` stores min time for `i+1` laps with one tire. `dp2[i]` combines these with `changeTime` for `i+1` total laps.",
+  "time_complexity": [
+    "O((N + L) * logC)"
+  ],
+  "space_complexity": [
+    "O(N + L + logC)"
+  ],
+  "key_insights": [
+    [
+      "The cost of successive laps with a single tire type grows geometrically (`f * r^(x-1)`).",
+      "The `changeTime` introduces a fixed cost that needs to be factored into the DP.",
+      "The maximum number of consecutive laps with a single tire before it becomes suboptimal to not change is limited by `changeTime`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "online-election",
+  "data_structures": [
+    [
+      "list",
+      "hashmap",
+      "bisect"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Precompute leading candidate at each vote time using a hashmap and a list. Use binary search on the precomputed list for queries."
+  ],
+  "problem_summary_simple": "Find the leading candidate at any given time in an election with votes cast over time.",
+  "problem_summary_technical": "Maintain vote counts and leading candidate. Precompute a sorted list of (time, leading_candidate) pairs. Use binary search to find the leader for a given query time.",
+  "time_complexity": [
+    "O(n) for constructor, O(log n) for query"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key is to efficiently find the leader at a specific time. Precomputing the leader at each vote time allows for logarithmic time queries.",
+      "The `bisect` module in Python is crucial for efficiently finding the correct index in the precomputed list.",
+      "Handling ties by giving preference to the most recent vote is implicitly managed by how the `__lookup` list is constructed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,48 @@
+{
+  "problem_name": "amount-of-time-for-binary-tree-to-be-infected",
+  "data_structures": [
+    [
+      "stack",
+      "dictionary"
+    ],
+    [
+      "dictionary",
+      "list"
+    ],
+    [
+      "dictionary",
+      "queue",
+      "set"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS to build adjacency list and then BFS to find max distance from start.",
+    "Recursive DFS to calculate subtree heights and distances to the start node.",
+    "BFS to build an adjacency list representing the tree, then BFS from the start node to find the maximum infection time."
+  ],
+  "problem_summary_simple": "Find the time it takes for an infection to spread to all nodes in a binary tree starting from a given node.",
+  "problem_summary_technical": "Converts the tree to an adjacency list and uses BFS to simulate infection spread, or uses DFS to calculate distances from the start node.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the maximum distance from the start node to any other node in the tree, considering parent-child and child-parent connections.",
+      "Converting the tree to an adjacency list (graph) simplifies the infection spread simulation using BFS.",
+      "A DFS approach can simultaneously calculate subtree heights and distances to the start node, allowing for a single pass.",
+      "The maximum time is determined by the furthest node from the start node, considering paths upwards and downwards."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

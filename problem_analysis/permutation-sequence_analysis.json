@@ -1,0 +1,32 @@
+{
+  "problem_name": "permutation-sequence",
+  "data_structures": [
+    [
+      "array",
+      "math"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Utilize Cantor's pairing function concept with factorials to directly calculate the kth permutation."
+  ],
+  "problem_summary_simple": "Find the kth permutation of numbers from 1 to n.",
+  "problem_summary_technical": "Calculate permutation index using factorials and remaining numbers, iteratively building the sequence.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by determining which digit belongs at each position based on k and factorials.",
+      "The number of permutations starting with a particular digit is (n-1)!.",
+      "Adjusting k and the available digits iteratively allows for direct construction of the kth permutation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

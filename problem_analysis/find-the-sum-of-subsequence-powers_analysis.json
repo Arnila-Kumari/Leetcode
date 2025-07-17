@@ -1,0 +1,41 @@
+{
+  "problem_name": "find-the-sum-of-subsequence-powers",
+  "data_structures": [
+    [
+      "list of integers",
+      "integer",
+      "list of lists (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Sort, iterate through possible minimum differences, use DP to count subsequences.",
+    "Sort, DP with state for count and minimum difference."
+  ],
+  "problem_summary_simple": "Sum the minimum absolute differences of all subsequences of a given length k.",
+  "problem_summary_technical": "Sort the array. Iterate through all possible minimum differences. For each difference, use DP to count subsequences of length k with a minimum difference greater than or equal to it.",
+  "time_complexity": [
+    "O(n^3 * k)",
+    "O(n^5)"
+  ],
+  "space_complexity": [
+    "O(n^2)",
+    "O(n^4)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires considering all subsequences of length k and their minimum absolute difference.",
+      "Sorting the input array is crucial for efficiently calculating differences and using DP.",
+      "The approach involves iterating through potential minimum differences and counting valid subsequences for each difference."
+    ],
+    [
+      "A DP state can track the count of subsequences of a certain length ending at a specific index with a given minimum difference.",
+      "The transitions involve considering previous elements and updating the minimum difference.",
+      "This approach can become computationally expensive due to the state space of minimum differences."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:45:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

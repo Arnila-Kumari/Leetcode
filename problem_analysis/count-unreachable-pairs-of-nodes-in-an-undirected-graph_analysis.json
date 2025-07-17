@@ -1,0 +1,33 @@
+{
+  "problem_name": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+  "data_structures": [
+    [
+      "adjacency list (for graph representation)",
+      "lookup array (for visited nodes)",
+      "queue (for BFS)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Graph traversal (BFS/DFS) to find connected components and then calculate unreachable pairs."
+  ],
+  "problem_summary_simple": "Count pairs of nodes in a graph that cannot reach each other.",
+  "problem_summary_technical": "Find connected components using BFS/DFS. For each component of size `k`, it contributes `k * (n - k)` unreachable pairs with nodes outside the component.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by identifying connected components in the graph.",
+      "Once connected components are found, the number of unreachable pairs can be calculated using the sizes of these components.",
+      "The total number of pairs is n*(n-1)/2. Subtracting reachable pairs (sum of k*(k-1)/2 for each component) gives unreachable pairs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

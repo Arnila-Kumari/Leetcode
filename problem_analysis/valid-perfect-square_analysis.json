@@ -1,0 +1,31 @@
+{
+  "problem_name": "valid-perfect-square",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Perform binary search on the range [1, num] to find an integer whose square equals num."
+  ],
+  "problem_summary_simple": "Check if a given positive integer is a perfect square without using built-in sqrt.",
+  "problem_summary_technical": "Apply binary search to find an integer `x` such that `x*x = num`. Efficiently check `mid >= num / mid` to avoid overflow.",
+  "time_complexity": [
+    "O(logn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Binary search is suitable because the squares of integers are monotonically increasing.",
+      "The condition `mid >= num / mid` is a clever way to check `mid * mid >= num` without causing potential integer overflow for large `mid` values.",
+      "The final check `left == num / left and num % left == 0` ensures that `left` is indeed the integer square root and that `num` is perfectly divisible by it."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

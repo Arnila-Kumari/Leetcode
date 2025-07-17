@@ -1,0 +1,42 @@
+{
+  "problem_name": "self-dividing-numbers",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through range, check divisibility by each digit using modulo arithmetic.",
+    "Iterate through range, convert to string, check divisibility by each digit."
+  ],
+  "problem_summary_simple": "Find numbers in a range divisible by all their non-zero digits.",
+  "problem_summary_technical": "Iterate through [left, right], for each number, check if it's divisible by each of its digits using modulo or string conversion.",
+  "time_complexity": [
+    "O(N * logR)",
+    "O(N * logR)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core logic involves iterating through each digit of a number.",
+      "The constraint of not containing zero simplifies the divisibility check.",
+      "The range of numbers is relatively small, allowing for a direct iteration."
+    ],
+    [
+      "Using `str(num)` can be more concise for digit extraction.",
+      "`itertools.imap` with a lambda function provides a functional approach.",
+      "The `any()` function efficiently short-circuits the check if a condition fails."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

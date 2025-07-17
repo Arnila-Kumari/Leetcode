@@ -1,0 +1,32 @@
+{
+  "problem_name": "destroy-sequential-targets",
+  "data_structures": [
+    [
+      "counter",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count frequencies of numbers modulo `space`. Find the maximum frequency and return the smallest number that achieves it."
+  ],
+  "problem_summary_simple": "Find the smallest number that destroys the maximum number of targets, where targets are destroyed if they are `num + c * space`.",
+  "problem_summary_technical": "Use a frequency map (Counter) for `num % space` to find the maximum count. Return the minimum `num` corresponding to that maximum count.",
+  "time_complexity": [
+    "O(N) where N is the number of elements in nums."
+  ],
+  "space_complexity": [
+    "O(S) where S is the value of space, for the Counter."
+  ],
+  "key_insights": [
+    [
+      "The key insight is that targets are destroyed based on their remainder when divided by `space`.",
+      "A frequency map (Counter) efficiently stores the counts of each remainder.",
+      "After finding the maximum frequency, iterate through the original `nums` to find the smallest number with that remainder's frequency."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

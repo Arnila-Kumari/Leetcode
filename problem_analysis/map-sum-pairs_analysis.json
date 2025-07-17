@@ -1,0 +1,33 @@
+{
+  "problem_name": "map-sum-pairs",
+  "data_structures": [
+    [
+      "Trie (with defaultdict for nodes)",
+      "hash map (implicit in defaultdict)"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Trie data structure to store keys and their associated values.",
+    "Augmenting Trie nodes to store sum of values in their subtree."
+  ],
+  "problem_summary_simple": "Design a map that stores key-value pairs and can efficiently calculate the sum of values for keys with a given prefix.",
+  "problem_summary_technical": "A Trie is used to store keys. Each node in the Trie stores the sum of values of all keys passing through it, enabling O(prefix_length) sum queries.",
+  "time_complexity": [
+    "O(N) for insert, O(N) for sum, where N is the length of the key/prefix."
+  ],
+  "space_complexity": [
+    "O(T), where T is the total number of characters in all inserted keys."
+  ],
+  "key_insights": [
+    [
+      "A Trie is a natural fit for prefix-based operations.",
+      "Augmenting Trie nodes with a 'count' or 'sum' field allows for efficient prefix sum calculation.",
+      "Handling key overwrites requires updating the sum difference correctly."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

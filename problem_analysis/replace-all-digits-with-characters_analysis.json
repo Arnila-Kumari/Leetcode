@@ -1,0 +1,32 @@
+{
+  "problem_name": "replace-all-digits-with-characters",
+  "data_structures": [
+    [
+      "string",
+      "list"
+    ]
+  ],
+  "category": "String",
+  "algorithm_technique": [
+    "Iterate through the string, performing character arithmetic for odd indices."
+  ],
+  "problem_summary_simple": "Replace digits in a string with shifted characters based on preceding characters.",
+  "problem_summary_technical": "Iterates through the string, applying character arithmetic (ord(prev_char) + digit) for odd indices.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem guarantees that the shifted character will not exceed 'z', simplifying the logic.",
+      "The operation can be directly implemented using `chr(ord(char) + int(digit))`.",
+      "A list comprehension or generator expression can efficiently build the new string."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

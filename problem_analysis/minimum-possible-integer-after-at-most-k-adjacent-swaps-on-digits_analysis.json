@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "BIT (Fenwick Tree)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy selection with Fenwick Tree for efficient swap cost calculation"
+  ],
+  "problem_summary_simple": "Find the smallest number by swapping adjacent digits at most k times.",
+  "problem_summary_technical": "Greedily picks the smallest available digit, using a Fenwick tree to track available positions and swap costs.",
+  "time_complexity": [
+    "O(n*log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by always trying to bring the smallest available digit to the current position.",
+      "A Fenwick tree (BIT) is crucial for efficiently calculating the number of swaps required to move a digit to the front.",
+      "The constraint on k (up to 10^9) implies that we don't need to simulate swaps but rather calculate their cost."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:18:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

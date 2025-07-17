@@ -1,0 +1,33 @@
+{
+  "problem_name": "restore-the-array-from-adjacent-pairs",
+  "data_structures": [
+    [
+      "hashmap",
+      "list",
+      "deque"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Graph traversal (DFS/BFS) starting from an endpoint to reconstruct the array."
+  ],
+  "problem_summary_simple": "Reconstruct an array given pairs of adjacent elements.",
+  "problem_summary_technical": "Build an adjacency list graph from pairs, find an endpoint, and traverse to reconstruct the array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding a path in a graph where numbers are nodes and adjacent pairs are edges.",
+      "The elements with only one neighbor in the adjacency list are the endpoints of the original array.",
+      "A simple traversal (like DFS or iterative construction) from an endpoint can reconstruct the array."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

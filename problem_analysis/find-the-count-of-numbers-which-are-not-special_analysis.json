@@ -1,0 +1,38 @@
+{
+  "problem_name": "find-the-count-of-numbers-which-are-not-special",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Precompute primes up to sqrt(r) using a sieve and use binary search to count.",
+    "Number theory to identify special numbers (squares of primes) and count them."
+  ],
+  "problem_summary_simple": "Count numbers in a range that are not special (have exactly 2 proper divisors).",
+  "problem_summary_technical": "Identifies special numbers as squares of primes, precomputes primes, and uses binary search to count them within the range.",
+  "time_complexity": [
+    "O(sqrt(r) + log(r))"
+  ],
+  "space_complexity": [
+    "O(sqrt(r))"
+  ],
+  "key_insights": [
+    [
+      "A number is special if it has exactly two proper divisors. These are squares of prime numbers (p^2).",
+      "The proper divisors of p^2 are 1 and p.",
+      "The problem reduces to counting numbers in [l, r] that are NOT squares of primes."
+    ],
+    [
+      "Precomputing primes up to sqrt(r) is efficient for checking potential special numbers.",
+      "Binary search (bisect_right) on the precomputed primes allows for fast counting of squares of primes within a given range.",
+      "The count of non-special numbers is total numbers in range - count of special numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

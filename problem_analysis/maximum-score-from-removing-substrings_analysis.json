@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-score-from-removing-substrings",
+  "data_structures": [
+    [
+      "list of characters",
+      "list of characters",
+      "list of characters"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedily remove the higher-scoring substring ('ab' or 'ba') first, then process the remaining string for the other substring."
+  ],
+  "problem_summary_simple": "Maximize score by removing 'ab' or 'ba' substrings, gaining points for each removal.",
+  "problem_summary_technical": "Greedily remove the substring with higher score ('ab' or 'ba') from the string, updating the string and score iteratively.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The order of removal matters; always prioritize removing the substring that yields a higher score.",
+      "A stack-like approach (using a list and an index) can efficiently remove substrings and manage the modified string.",
+      "The problem can be simplified by ensuring the higher score is always associated with 'ab' by swapping if necessary."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

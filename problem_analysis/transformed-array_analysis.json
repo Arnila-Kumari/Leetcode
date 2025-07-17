@@ -1,0 +1,31 @@
+{
+  "problem_name": "transformed-array",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Modulo arithmetic for circular array traversal"
+  ],
+  "problem_summary_simple": "Create a new array by shifting elements based on their values in a circular manner.",
+  "problem_summary_technical": "Iterate through the input array, calculate new indices using modulo arithmetic for circularity, and populate the result array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The modulo operator (%) is crucial for handling circular array behavior.",
+      "The problem can be solved in a single pass due to independent calculations for each element.",
+      "The constraints on `nums[i]` and `nums.length` ensure that the modulo operation is well-defined."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

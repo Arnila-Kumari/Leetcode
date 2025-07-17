@@ -1,0 +1,31 @@
+{
+  "problem_name": "reverse-nodes-in-even-length-groups",
+  "data_structures": [
+    [
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterate through the list, identifying groups of increasing lengths. Reverse groups with even lengths."
+  ],
+  "problem_summary_simple": "Reverse nodes in linked list groups that have an even number of nodes.",
+  "problem_summary_technical": "Traverse list, determine group lengths, reverse even-length groups in-place, reconnect.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The group lengths follow a sequence: 1, 2, 3, 4, ...",
+      "Need to carefully track the end of the previous group to correctly link the reversed group.",
+      "The reversal of a sublist within the main list requires managing multiple pointers (prev, curr, next, and the start of the next group)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

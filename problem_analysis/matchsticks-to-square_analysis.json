@@ -1,0 +1,33 @@
+{
+  "problem_name": "matchsticks-to-square",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Subset sum with bitmasking and dynamic programming approach"
+  ],
+  "problem_summary_simple": "Determine if all matchsticks can form a square without breaking or reusing them.",
+  "problem_summary_technical": "Check if total length is divisible by 4. Use bitmasking to find subsets summing to side length, ensuring disjointness.",
+  "time_complexity": [
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(n * 2^n)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a variation of the partition problem, aiming for four equal subsets.",
+      "Sorting matchsticks in descending order can prune the search space faster in a backtracking approach.",
+      "Bitmasking is effective for representing subsets of matchsticks and checking their sums.",
+      "The provided solution uses a DP-like approach with bitmasks to store valid subset sums."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:50:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

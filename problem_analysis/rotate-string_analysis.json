@@ -1,0 +1,50 @@
+{
+  "problem_name": "rotate-string",
+  "data_structures": [
+    [
+      "string"
+    ],
+    [
+      "string"
+    ],
+    [
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use Rabin-Karp rolling hash to efficiently check for substring matches after concatenating s with itself.",
+    "Implement KMP algorithm to find if goal is a substring of s concatenated with itself.",
+    "Concatenate s with itself and check if goal is a substring."
+  ],
+  "problem_summary_simple": "Check if string s can become string goal by repeatedly moving the first character to the end.",
+  "problem_summary_technical": "Determine if 'goal' is a substring of 's' concatenated with itself, indicating a valid rotation.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Rabin-Karp provides an efficient way to compare substrings by using hashing.",
+      "The `check` function is crucial to handle hash collisions."
+    ],
+    [
+      "KMP algorithm is optimized for pattern searching and avoids redundant comparisons.",
+      "Concatenating `s` with itself (`s*2`) creates all possible rotations of `s` as substrings."
+    ],
+    [
+      "The simplest and most intuitive approach is to create all possible rotations of `s` and check for `goal`.",
+      "String concatenation and substring search are straightforward but can be less efficient for very long strings."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

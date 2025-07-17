@@ -1,0 +1,34 @@
+{
+  "problem_name": "time-to-cross-a-bridge",
+  "data_structures": [
+    [
+      "heap",
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Simulate the process using priority queues to manage workers on the left and right sides of the bridge, prioritizing based on efficiency and task completion."
+  ],
+  "problem_summary_simple": "Find the time the last box reaches the new warehouse, considering worker efficiency and bridge usage rules.",
+  "problem_summary_technical": "Simulate time using priority queues for workers on left/right. Prioritize least efficient workers for bridge crossing based on rules and available boxes.",
+  "time_complexity": [
+    "O(k + n log k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a complex simulation that requires careful management of worker states and priorities.",
+      "Priority queues are essential for efficiently selecting the next worker to cross the bridge based on the defined rules.",
+      "The efficiency of a worker is determined by the sum of crossing times and their index, with lower sums and indices being more efficient."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:12:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

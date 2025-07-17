@@ -1,0 +1,53 @@
+{
+  "problem_name": "find-the-duplicate-number",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Cycle detection using Floyd's Tortoise and Hare algorithm.",
+    "Binary search on the range of numbers, counting elements less than or equal to mid.",
+    "In-place modification of the array by marking visited numbers with negative signs."
+  ],
+  "problem_summary_simple": "Find the single duplicate number in an array of n+1 integers from 1 to n.",
+  "problem_summary_technical": "Utilize cycle detection in a linked list representation or binary search with counts to find the duplicate without modifying the array.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding a cycle in a linked list where array indices are nodes and values are pointers.",
+      "Floyd's algorithm is efficient for cycle detection and finding the cycle start.",
+      "The binary search approach leverages the pigeonhole principle: if count(x) > x, a duplicate must exist in [1, x]."
+    ],
+    [
+      "The binary search approach requires careful handling of the count and range updates.",
+      "The count of numbers less than or equal to `mid` is crucial for determining which half to search.",
+      "The final answer is `left` because it's the smallest number for which `count(x) > x`."
+    ],
+    [
+      "Marking visited elements by negating them is a common in-place technique.",
+      "The absolute value is used to access the correct index, and the sign indicates if it's been seen.",
+      "A second pass is needed to restore the original array if required, though not strictly necessary for finding the duplicate."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

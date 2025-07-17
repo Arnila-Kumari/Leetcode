@@ -1,0 +1,33 @@
+{
+  "problem_name": "excel-sheet-column-title",
+  "data_structures": [
+    [
+      "integer",
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Base-26 conversion using modulo and division, handling zero-based indexing"
+  ],
+  "problem_summary_simple": "Convert a column number (like 1, 28) to its Excel column title string (like 'A', 'AB').",
+  "problem_summary_technical": "Performs a modified base-26 conversion. Subtracts 1 from the number before modulo to handle 'Z' correctly, then converts remainders to characters.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This is the inverse operation of 'excel-sheet-column-number'.",
+      "The key is to use (n-1) % 26 and (n-1) // 26 to correctly map numbers to characters, especially for 'Z' (which corresponds to 26).",
+      "The resulting characters are generated in reverse order and need to be reversed at the end."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

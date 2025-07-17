@@ -1,0 +1,48 @@
+{
+  "problem_name": "cat-and-mouse",
+  "data_structures": [
+    [
+      "dictionary",
+      "deque",
+      "set"
+    ],
+    [
+      "dictionary",
+      "deque",
+      "set"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "State-space search with memoization (dynamic programming on graph states) using BFS.",
+    "State-space search with memoization (dynamic programming on graph states) using BFS with two queues."
+  ],
+  "problem_summary_simple": "Determine if the mouse wins, cat wins, or it's a draw in a graph game.",
+  "problem_summary_technical": "Uses BFS on states (mouse_pos, cat_pos, turn) to determine win/loss/draw outcomes, leveraging game theory and optimal play.",
+  "time_complexity": [
+    "O(N^3), where N is the number of nodes, due to state space (N*N*2) and transitions.",
+    "O(N^3), where N is the number of nodes, due to state space (N*N*2) and transitions."
+  ],
+  "space_complexity": [
+    "O(N^2), for storing the game state results (color) and degrees.",
+    "O(N^2), for storing the game state results (color) and degrees."
+  ],
+  "key_insights": [
+    [
+      "This is a game theory problem solvable with minimax or, more efficiently, BFS on states.",
+      "The state must include mouse position, cat position, and whose turn it is.",
+      "A draw occurs if a state repeats with the same player to move.",
+      "The solution uses a degree-based BFS to propagate known outcomes (win/loss) backwards from terminal states."
+    ],
+    [
+      "This is a game theory problem solvable with minimax or, more efficiently, BFS on states.",
+      "The state must include mouse position, cat position, and whose turn it is.",
+      "A draw occurs if a state repeats with the same player to move.",
+      "The solution uses a degree-based BFS to propagate known outcomes (win/loss) backwards from terminal states."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:33:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

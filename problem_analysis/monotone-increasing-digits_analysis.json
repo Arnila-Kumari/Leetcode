@@ -1,0 +1,32 @@
+{
+  "problem_name": "monotone-increasing-digits",
+  "data_structures": [
+    [
+      "string",
+      "list of integers"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Convert to string, find first decreasing pair, adjust and fill with 9s"
+  ],
+  "problem_summary_simple": "Find the largest number less than or equal to N that has monotone increasing digits.",
+  "problem_summary_technical": "Convert N to a list of digits. Iterate from right to left, if a digit is smaller than its left neighbor, decrement the left neighbor and set all subsequent digits to 9.",
+  "time_complexity": [
+    "O(log N)"
+  ],
+  "space_complexity": [
+    "O(log N)"
+  ],
+  "key_insights": [
+    [
+      "The greedy approach works because we want the largest possible number.",
+      "When a violation is found (e.g., 332), we must decrease the number. Decreasing the leftmost violating digit ensures the largest possible result.",
+      "Setting subsequent digits to 9 maximizes the number after the adjustment."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

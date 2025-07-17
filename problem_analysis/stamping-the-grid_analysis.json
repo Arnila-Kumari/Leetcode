@@ -1,0 +1,32 @@
+{
+  "problem_name": "stamping-the-grid",
+  "data_structures": [
+    [
+      "2D prefix sum array for counting occupied cells within stamp areas",
+      "2D prefix sum array for counting valid stamp placements"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "2D prefix sums to efficiently count occupied cells and valid stamp placements within potential stamp areas."
+  ],
+  "problem_summary_simple": "Determine if all empty cells in a grid can be covered by stamps without covering occupied cells.",
+  "problem_summary_technical": "Use 2D prefix sums to check if each empty cell can be covered by at least one valid stamp placement.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into two main checks: 1. Can a stamp fit entirely within the grid and not cover any occupied cells? 2. Can every empty cell be covered by at least one such valid stamp?",
+      "2D prefix sums are crucial for efficiently querying the number of occupied cells within any rectangular subgrid (potential stamp area).",
+      "A second 2D prefix sum can track where valid stamps can be placed, allowing for efficient checking if all empty cells are covered."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

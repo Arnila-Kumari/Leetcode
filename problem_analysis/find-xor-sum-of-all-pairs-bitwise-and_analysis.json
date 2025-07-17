@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-xor-sum-of-all-pairs-bitwise-and",
+  "data_structures": [
+    [
+      "List",
+      "Integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bitwise XOR and AND operations, distributive property of XOR over AND"
+  ],
+  "problem_summary_simple": "Calculate the XOR sum of all pairwise bitwise AND operations between elements of two arrays.",
+  "problem_summary_technical": "Compute the XOR sum of (arr1[i] & arr2[j]) for all i and j. This simplifies to (XOR sum of arr1) AND (XOR sum of arr2).",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The XOR sum of a list of numbers is the XOR of all its elements.",
+      "The problem asks for the XOR sum of `(a & b)` for all `a` in `arr1` and `b` in `arr2`.",
+      "This can be simplified using the property that `XOR(a_i & b_j)` over all `i, j` is equal to `(XOR(a_i)) & (XOR(b_j))`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

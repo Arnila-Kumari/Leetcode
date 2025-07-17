@@ -1,0 +1,31 @@
+{
+  "problem_name": "matrix-diagonal-sum",
+  "data_structures": [
+    [
+      "list of lists (matrix)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the matrix, summing primary and secondary diagonals, handling the center element overlap."
+  ],
+  "problem_summary_simple": "Sum the elements on both diagonals of a square matrix, counting the center element only once.",
+  "problem_summary_technical": "Iterate through a square matrix, summing primary diagonal (mat[i][i]) and secondary diagonal (mat[n-1-i][i]), subtracting the center element if n is odd.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The primary diagonal elements are at indices (i, i).",
+      "The secondary diagonal elements are at indices (i, n-1-i).",
+      "The center element (n//2, n//2) is common to both diagonals when n is odd, requiring subtraction to avoid double counting."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:58",
+  "batch_processed": true,
+  "batch_size": 4
+}

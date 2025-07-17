@@ -1,0 +1,42 @@
+{
+  "problem_name": "minimum-number-of-seconds-to-make-mountain-height-zero",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "min-heap"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer (time) combined with a check function.",
+    "Min-heap to simulate worker assignments and track minimum time."
+  ],
+  "problem_summary_simple": "Find the minimum time for workers to reduce a mountain's height to zero.",
+  "problem_summary_technical": "Binary search for the minimum time, checking if total height reduction is possible within that time using worker capabilities.",
+  "time_complexity": [
+    "O(n log r)",
+    "O(h log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as finding the minimum time `T` such that the total height reduction achievable by all workers within `T` is at least `mountainHeight`.",
+      "For a worker with time `t`, the height they can reduce in time `T` is `x` where `t * (x * (x + 1) / 2) <= T`. This can be solved for `x` using the quadratic formula.",
+      "The binary search approach checks feasibility for a given time `T`, while the heap approach simulates the process to find the minimum time."
+    ],
+    [
+      "The heap-based solution simulates the process by always assigning the next unit of work to the worker who can complete it fastest.",
+      "Each element in the heap represents `(current_time_cost, worker_index, height_reduced_by_worker)`.",
+      "The total time is determined by the last worker to finish their assigned height reduction."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:58:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

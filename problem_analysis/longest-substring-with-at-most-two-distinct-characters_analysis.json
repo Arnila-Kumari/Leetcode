@@ -1,0 +1,43 @@
+{
+  "problem_name": "longest-substring-with-at-most-two-distinct-characters",
+  "data_structures": [
+    [
+      "list (for character counts)",
+      "integer (for distinct count)"
+    ],
+    [
+      "hashmap (for character counts)"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with frequency array to track distinct characters (k=2).",
+    "Sliding window with hashmap to track distinct characters (k=2)."
+  ],
+  "problem_summary_simple": "Find the longest substring with at most two unique characters.",
+  "problem_summary_technical": "Sliding window approach. Expand window, shrink when distinct characters exceed 2, tracking max length.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This is a specific case of the 'at most k distinct characters' problem with k=2.",
+      "The logic is identical, just the threshold for shrinking the window is fixed at 2.",
+      "The frequency array approach is efficient due to the limited character set (ASCII)."
+    ],
+    [
+      "The hashmap solution is more general and cleaner for tracking distinct characters.",
+      "`len(counter)` provides the number of distinct characters directly.",
+      "The sliding window efficiently finds the longest valid substring."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

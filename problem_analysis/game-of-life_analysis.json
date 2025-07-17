@@ -1,0 +1,31 @@
+{
+  "problem_name": "game-of-life",
+  "data_structures": [
+    [
+      "2D Array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "In-place update using bit manipulation to store next state information within the current cells."
+  ],
+  "problem_summary_simple": "Simulate Conway's Game of Life on a grid, updating cell states based on neighbors.",
+  "problem_summary_technical": "Use bit manipulation (e.g., 00, 01, 10, 11) to store current and next states in-place for each cell.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key challenge is to update cells simultaneously without using extra space for the next state.",
+      "Bit manipulation is an effective technique: use one bit for the current state and another for the next state.",
+      "For example, 01 (dead -> dead), 11 (live -> live), 10 (live -> dead), 00 (dead -> live)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

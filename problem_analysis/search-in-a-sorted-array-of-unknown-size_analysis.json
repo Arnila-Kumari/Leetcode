@@ -1,0 +1,31 @@
+{
+  "problem_name": "search-in-a-sorted-array-of-unknown-size",
+  "data_structures": [
+    [
+      "ArrayReader interface (simulates array access)"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Exponentially increase search range, then binary search"
+  ],
+  "problem_summary_simple": "Find a target in a sorted array of unknown size using a special reader.",
+  "problem_summary_technical": "First, finds a suitable upper bound for binary search by doubling the index, then performs binary search.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The unknown size requires an initial step to find a search range.",
+      "Exponentially increasing the index (`right *= 2`) quickly finds an upper bound.",
+      "Once an upper bound is found, standard binary search applies."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,29 @@
+{
+  "problem_name": "add-digits",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Digital Root property (modulo 9)"
+  ],
+  "problem_summary_simple": "Repeatedly sum digits of a number until a single digit remains.",
+  "problem_summary_technical": "Applies the digital root property, which states that the repeated sum of digits of a number is congruent to the number modulo 9. Handles the special case of 0.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using the concept of digital root.",
+      "The digital root of a positive integer is the single digit value obtained by an iterative process of summing digits, on each step using the result from the previous step as input to the digit summation.",
+      "The formula (num - 1) % 9 + 1 efficiently calculates the digital root for positive numbers."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

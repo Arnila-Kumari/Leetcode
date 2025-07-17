@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-harmonious-subsequence",
+  "data_structures": [
+    [
+      "hashmap (collections.defaultdict)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hashmap to store frequency counts and iterate to find harmonious subsequences."
+  ],
+  "problem_summary_simple": "Find the longest subsequence where the difference between max and min elements is exactly 1.",
+  "problem_summary_technical": "Uses a hashmap to count frequencies, then iterates through counts to find pairs of numbers with a difference of 1.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A hashmap (or dictionary) is efficient for storing and retrieving character counts in O(1) on average.",
+      "Iterating through the hashmap keys and checking for `key + 1` allows for finding harmonious pairs.",
+      "The problem can be solved by iterating through the input array once and updating the hashmap, then iterating through the hashmap."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

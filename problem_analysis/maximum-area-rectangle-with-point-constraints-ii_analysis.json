@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-area-rectangle-with-point-constraints-ii",
+  "data_structures": [
+    [
+      "list of lists",
+      "hash map",
+      "Fenwick tree (BIT)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sort points by x, use BIT to count points between y-coordinates for vertical segments, track previous x for horizontal segments."
+  ],
+  "problem_summary_simple": "Find the largest rectangle formed by four points with no other points inside or on its border.",
+  "problem_summary_technical": "Sort points by x. Use BIT to efficiently query points between y-coordinates. Track previous x-coordinates to form rectangles.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The BIT approach efficiently checks for points within a vertical strip.",
+      "Sorting by x-coordinate is crucial for processing points in order and identifying potential vertical sides.",
+      "The constraint of no points inside or on the border is handled by the BIT count and careful lookup."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

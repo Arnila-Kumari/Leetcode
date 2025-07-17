@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximize-win-from-two-segments",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "two pointers and sliding window with DP to track max prizes in one segment"
+  ],
+  "problem_summary_simple": "Find the maximum prizes by selecting two segments of length k to cover prize positions.",
+  "problem_summary_technical": "Uses two pointers and DP to efficiently calculate the maximum prizes covered by one segment ending at each position.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by finding the best first segment and then the best second segment that complements it.",
+      "A DP approach can store the maximum prizes obtainable with a single segment ending at a given position.",
+      "Two pointers efficiently find the start of a valid segment of length k."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

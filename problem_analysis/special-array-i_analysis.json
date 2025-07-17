@@ -1,0 +1,31 @@
+{
+  "problem_name": "special-array-i",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate through adjacent elements and check parity using bitwise AND."
+  ],
+  "problem_summary_simple": "Check if an array alternates between odd and even numbers.",
+  "problem_summary_technical": "Verify that for every adjacent pair of elements, their parities are different using the bitwise AND operator.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core condition is that adjacent elements must have different parities.",
+      "The bitwise AND operation `x & 1` efficiently determines the parity of a number (0 for even, 1 for odd).",
+      "The condition `nums[i]&1 != nums[i+1]&1` checks if parities are different."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,37 @@
+{
+  "problem_name": "find-distance-in-a-binary-tree",
+  "data_structures": [
+    [
+      "binary tree",
+      "recursive DFS",
+      "iterative DFS"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Find the Lowest Common Ancestor (LCA) of p and q, then sum distances from LCA to p and LCA to q.",
+    "Perform DFS to find paths to p and q, then calculate distance based on common ancestor."
+  ],
+  "problem_summary_simple": "Calculate the number of edges between two nodes in a binary tree.",
+  "problem_summary_technical": "Uses Depth First Search (DFS) to find the paths to nodes p and q, then calculates the distance via their Lowest Common Ancestor (LCA).",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(H)",
+    "O(H)"
+  ],
+  "key_insights": [
+    [
+      "The distance between two nodes is the sum of their distances to their Lowest Common Ancestor (LCA).",
+      "A recursive DFS approach can return the distance from a subtree root to a target node.",
+      "The LCA can be found implicitly during the DFS traversal.",
+      "An iterative DFS can also be used to achieve the same result, managing the stack explicitly."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

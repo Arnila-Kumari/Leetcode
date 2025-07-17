@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimize-the-total-price-of-the-trips",
+  "data_structures": [
+    [
+      "adjacency list",
+      "array for trip counts"
+    ],
+    [
+      "adjacency list",
+      "array for trip counts"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS for path counting and DP on tree",
+    "Recursive DFS for path counting and DP on tree"
+  ],
+  "problem_summary_simple": "Minimize total trip cost by halving prices of non-adjacent nodes, considering all given trips.",
+  "problem_summary_technical": "Count trip occurrences on each node using DFS, then apply tree DP to find optimal node price halving for minimum total cost.",
+  "time_complexity": [
+    "O(t * n)",
+    "O(t * n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to determine how many times each node is visited across all trips.",
+      "This can be done by performing a DFS for each trip, incrementing counts on the path.",
+      "After counting, a tree DP can be used to decide whether to halve a node's price or not, considering its children's optimal choices."
+    ],
+    [
+      "The problem can be modeled as finding the optimal assignment of 'halved' or 'full' price to each node.",
+      "A DFS traversal can efficiently calculate the number of times each node lies on a trip path.",
+      "Tree DP states can represent (node, parent, whether_parent_halved) to compute minimum costs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "transform-array-to-all-equal-elements",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: check if target state (all 1s or all -1s) is reachable within k operations."
+  ],
+  "problem_summary_simple": "Determine if an array of 1s and -1s can be made uniform using at most k operations.",
+  "problem_summary_technical": "Checks if all elements can be made equal (1 or -1) by applying adjacent sign flips within k operations.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operation flips adjacent elements. This means the parity of the number of flips matters.",
+      "Consider the target state: all 1s or all -1s.",
+      "The greedy strategy involves minimizing the number of operations needed to reach a target state."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

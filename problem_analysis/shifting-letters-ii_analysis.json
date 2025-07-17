@@ -1,0 +1,34 @@
+{
+  "problem_name": "shifting-letters-ii",
+  "data_structures": [
+    [
+      "string",
+      "list of lists of integers",
+      "list of integers"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Line sweep algorithm to calculate net shift for each character"
+  ],
+  "problem_summary_simple": "Apply multiple range shifts (forward/backward) to a string and return the final string.",
+  "problem_summary_technical": "Use a line sweep (difference array) to calculate the net shift for each character and apply it.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Each shift operation `[start, end, direction]` can be represented as an event at `start` and `end+1`.",
+      "A forward shift (`direction=1`) increases the shift count, while a backward shift (`direction=0`) decreases it.",
+      "A difference array (or event array) can efficiently track the net change in shift at each position.",
+      "Iterating through the string and accumulating the net shift allows for applying all operations in a single pass."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

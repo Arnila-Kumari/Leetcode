@@ -1,0 +1,31 @@
+{
+  "problem_name": "first-missing-positive",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "In-place modification of the array to use indices as a hash map. Place each positive number `k` at index `k-1`."
+  ],
+  "problem_summary_simple": "Find the smallest positive integer that is missing from an unsorted array.",
+  "problem_summary_technical": "Uses the array itself as a hash table by cyclically sorting positive numbers to their correct indices.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires O(n) time and O(1) space, hinting at in-place modification.",
+      "Positive integers within the range [1, n] are the only ones that matter for the answer.",
+      "The array can be used to mark the presence of numbers by placing them at their corresponding index (value - 1)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:45:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

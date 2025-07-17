@@ -1,0 +1,36 @@
+{
+  "problem_name": "brace-expansion-ii",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "string"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Recursive parsing and combination generation using Cartesian product.",
+    "Iterative generation of combinations using indices and modulo arithmetic."
+  ],
+  "problem_summary_simple": "Expand a string expression with nested braces and concatenations into a sorted list of unique words.",
+  "problem_summary_technical": "Parse expression recursively, handling unions (commas) and concatenations (adjacent groups) to form sets of words.",
+  "time_complexity": [
+    "O(P * L * log(P * L))",
+    "O(P * L * log(P * L))"
+  ],
+  "space_complexity": [
+    "O(P * L)",
+    "O(P * L)"
+  ],
+  "key_insights": [
+    [
+      "This problem extends brace expansion to handle unions and concatenations of sets.",
+      "The grammar rules (union for commas, Cartesian product for concatenation) are key.",
+      "Using sets naturally handles duplicate words."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:33:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

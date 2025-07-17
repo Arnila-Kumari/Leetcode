@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-a-good-subset-of-the-matrix",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bitmasking to represent row subsets and checking column sums efficiently."
+  ],
+  "problem_summary_simple": "Find a subset of matrix rows where column sums are at most half the subset size.",
+  "problem_summary_technical": "Uses bitmasks to represent row subsets, iterating through rows and checking for complementary masks in a hashmap.",
+  "time_complexity": [
+    "O(m * 2^n)"
+  ],
+  "space_complexity": [
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "The constraint n <= 5 is crucial, enabling bitmasking for subsets.",
+      "A hashmap stores previously seen row masks and their indices for quick lookups.",
+      "If a row is all zeros, it forms a valid subset of size 1."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

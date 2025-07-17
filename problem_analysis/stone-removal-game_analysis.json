@@ -1,0 +1,36 @@
+{
+  "problem_name": "stone-removal-game",
+  "data_structures": [
+    [
+      "mathematical formula"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical formula derivation based on game rules and turns."
+  ],
+  "problem_summary_simple": "Alice removes 10 stones, then players remove one less than opponent. Alice wins if she can make a move.",
+  "problem_summary_technical": "Determine if Alice wins by calculating the maximum number of turns possible given the stone removal pattern.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of stones removed follows an arithmetic progression: 10, 9, 8, ...",
+      "Alice wins if the total number of turns she can make is odd.",
+      "The total number of stones removed after 'l' turns is the sum of an arithmetic series."
+    ],
+    [
+      "The problem boils down to finding the maximum 'l' such that the sum of stones removed is less than or equal to 'n'.",
+      "The formula for the sum of an arithmetic series is used: S = (n/2) * (2a + (n-1)d).",
+      "A quadratic formula is used to solve for 'l' and then its parity determines the winner."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:10:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,40 @@
+{
+  "problem_name": "number-of-times-binary-string-is-prefix-aligned",
+  "data_structures": [
+    [
+      "variable"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Track the maximum index flipped so far. A prefix alignment occurs when this maximum index equals the current step number."
+  ],
+  "problem_summary_simple": "Count how many times the first `i` bits are all '1's and the rest are '0's after `i` flips.",
+  "problem_summary_technical": "Maintain the maximum flipped index. A prefix-aligned state occurs when the maximum flipped index equals the current step `i`.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A binary string is prefix-aligned after `i` steps if all bits from index 1 to `i` are '1's and all bits from `i+1` to `n` are '0's.",
+      "This means that at step `i`, the `i`-th bit must have been flipped, and all bits from 1 to `i-1` must have also been flipped.",
+      "Crucially, no bit beyond index `i` should have been flipped yet."
+    ],
+    [
+      "The condition simplifies to: at step `i`, the maximum index flipped so far must be exactly `i`.",
+      "If the maximum flipped index `right` is less than `i`, then the `i`-th bit is still '0', violating the prefix-aligned condition.",
+      "If the maximum flipped index `right` is greater than `i`, then some bit beyond `i` is '1', also violating the prefix-aligned condition."
+    ],
+    [
+      "The solution iterates through the flips, keeping track of the maximum index flipped (`right`).",
+      "If `right` equals the current step number `i`, it means all bits up to `i` have been flipped, and no bits beyond `i` have been flipped yet, thus it's prefix-aligned."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

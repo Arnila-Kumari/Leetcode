@@ -1,0 +1,32 @@
+{
+  "problem_name": "decrease-elements-to-make-array-zigzag",
+  "data_structures": [
+    [
+      "list",
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the array, calculating moves needed for each element to satisfy zigzag property based on neighbors."
+  ],
+  "problem_summary_simple": "Find the minimum moves to make an array alternate between increasing and decreasing elements.",
+  "problem_summary_technical": "Calculate moves for two zigzag patterns (even-indexed max, odd-indexed max) and return the minimum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "There are two possible zigzag patterns: starting with a peak or a valley.",
+      "For each element, determine the minimum moves to satisfy the zigzag condition with its neighbors.",
+      "The minimum of the moves required for the two patterns is the answer."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,34 @@
+{
+  "problem_name": "synonymous-sentences",
+  "data_structures": [
+    [
+      "UnionFind",
+      "hash map (for word to ID mapping)",
+      "list of lists (to store sentence components)",
+      "collections.defaultdict"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find to group synonyms, then backtracking/combinatorics to generate all sentences."
+  ],
+  "problem_summary_simple": "Generate all possible sentences by replacing words with their synonyms.",
+  "problem_summary_technical": "Uses Union-Find to group synonyms, then generates all sentence combinations by iterating through synonym groups for each word.",
+  "time_complexity": [
+    "O(P*L * log(P*L) + N*W) where P is total number of unique words, L is max word length, N is number of words in text, W is max number of synonyms for a word."
+  ],
+  "space_complexity": [
+    "O(P*L) for storing synonym groups and mappings."
+  ],
+  "key_insights": [
+    [
+      "Union-Find is effective for managing equivalence relations between words (synonyms).",
+      "Mapping words to integer IDs simplifies the Union-Find operations.",
+      "The problem reduces to generating combinations from lists of possible words for each position in the sentence."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:12:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

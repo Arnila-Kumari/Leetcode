@@ -1,0 +1,31 @@
+{
+  "problem_name": "split-two-strings-to-make-palindrome",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "two pointers and palindrome checking"
+  ],
+  "problem_summary_simple": "Split two strings of equal length and check if combining prefixes and suffixes forms a palindrome.",
+  "problem_summary_technical": "Use two pointers to find the longest common prefix/suffix match between a[i] and b[j], then check remaining substrings for palindromes.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking two combinations: aprefix + bsuffix and bprefix + asuffix.",
+      "For each combination, we can use two pointers to find the longest matching prefix of one string with the reversed suffix of the other.",
+      "Once a mismatch is found, the remaining middle part of either string must be a palindrome."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

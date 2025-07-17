@@ -1,0 +1,32 @@
+{
+  "problem_name": "airplane-seat-assignment-probability",
+  "data_structures": [
+    [
+      "float variables",
+      "conditional logic"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Analyze the probabilities for small `n` to find a pattern. The problem exhibits a recursive structure leading to a constant probability."
+  ],
+  "problem_summary_simple": "Calculate the probability that the nth person gets their own seat.",
+  "problem_summary_technical": "The problem reduces to a 50/50 chance for n > 1, as the first person's choice creates a symmetry between seat 1 and seat n.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "For n=1, the probability is 1.0.",
+      "For n > 1, the probability is 0.5.",
+      "This is due to the symmetry created by the first passenger's random choice: either they pick seat 1 (everyone gets their seat), seat n (nth person loses), or another seat, which eventually leads to a 50/50 chance for the nth person."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

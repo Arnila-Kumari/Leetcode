@@ -1,0 +1,53 @@
+{
+  "problem_name": "guess-the-word",
+  "data_structures": [
+    [
+      "list",
+      "counter"
+    ],
+    [
+      "list",
+      "2D list"
+    ],
+    [
+      "list",
+      "2D list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: guess the word that is most likely to eliminate the most other words based on character counts.",
+    "Minimax strategy: choose a guess that minimizes the maximum number of remaining possibilities.",
+    "Minimax strategy: similar to Solution 2, aims to minimize the largest group of remaining words after a guess."
+  ],
+  "problem_summary_simple": "Guess a secret six-letter word from a list within a limited number of tries using a master API.",
+  "problem_summary_technical": "Employs strategies to efficiently narrow down the wordlist by making informed guesses based on match counts returned by `master.guess()`.",
+  "time_complexity": [
+    "O(N)",
+    "O(N^2)",
+    "O(N^2)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy of picking the word that shares the most characters with the most other words is a good heuristic.",
+      "The `itertools.izip` is used for efficient pairwise comparison of characters between words."
+    ],
+    [
+      "Pre-calculating the similarity matrix `H` helps in quickly determining how many matches exist between any two words.",
+      "The minimax approach aims to reduce the worst-case scenario by picking a guess that partitions the remaining words as evenly as possible."
+    ],
+    [
+      "The `solve` function implements the minimax logic by finding a guess that minimizes the size of the largest group of words that have a specific number of matches with the guess.",
+      "The core idea is to eliminate as many possibilities as possible with each guess."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:46:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

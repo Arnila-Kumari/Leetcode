@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-good-triplets-in-an-array",
+  "data_structures": [
+    [
+      "Fenwick Tree (BIT)",
+      "Array (lookup table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Fenwick Tree (BIT) for prefix sums, mapping positions, combinatorics"
+  ],
+  "problem_summary_simple": "Count triplets (x, y, z) where their positions are increasing in both given arrays.",
+  "problem_summary_technical": "Uses a Fenwick Tree to efficiently count elements smaller/larger than current element's mapped position in nums1, enabling O(n log n) triplet counting.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding pairs (y, z) such that pos1y < pos1z and pos2y < pos2z, for each x.",
+      "A Fenwick Tree (BIT) is crucial for efficiently querying counts of elements with smaller indices in nums1.",
+      "The core idea is to iterate through nums2, and for each element, count how many elements before it in nums2 have smaller indices in nums1 (smaller) and how many have larger indices (larger)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-unique-subarray-sum-after-deletion",
+  "data_structures": [
+    [
+      "hash table (for tracking unique elements)",
+      "set (for storing unique positive elements)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Identify the maximum positive element.",
+    "Sum all unique positive elements."
+  ],
+  "problem_summary_simple": "Find the maximum sum of a subarray with unique elements after deleting any elements.",
+  "problem_summary_technical": "The optimal strategy is to keep all unique positive numbers and the largest single number if all are negative.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "If all numbers are negative, the maximum sum is the largest single negative number.",
+      "If there are positive numbers, we want to include all unique positive numbers.",
+      "Deleting elements allows us to form a subarray from any remaining elements, effectively picking unique positive values."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:55:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

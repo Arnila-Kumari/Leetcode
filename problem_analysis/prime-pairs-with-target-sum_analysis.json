@@ -1,0 +1,32 @@
+{
+  "problem_name": "prime-pairs-with-target-sum",
+  "data_structures": [
+    [
+      "list",
+      "array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Use a sieve to find primes up to n, then iterate to find pairs that sum to n."
+  ],
+  "problem_summary_simple": "Find pairs of prime numbers that sum up to a given number n.",
+  "problem_summary_technical": "Generate primes up to n using a sieve. Iterate from 2 to n/2, checking if both i and n-i are prime.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A sieve (like Sieve of Eratosthenes) is essential for efficiently identifying prime numbers up to n.",
+      "We only need to check numbers up to n/2 because if x + y = n and x > n/2, then y < n/2, and this pair would have already been considered.",
+      "The smallest prime factor (spf) array from a sieve can directly tell us if a number is prime (spf[i] == i)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

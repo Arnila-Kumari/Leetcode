@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-number-of-winning-players",
+  "data_structures": [
+    [
+      "hashmap",
+      "defaultdict"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a frequency map (defaultdict of defaultdicts) to store counts of each color picked by each player. Then iterate and check winning condition."
+  ],
+  "problem_summary_simple": "Count players who picked strictly more balls of any single color than their player index + 1.",
+  "problem_summary_technical": "Count players `i` where `max(count(color))` for player `i` is greater than `i`.",
+  "time_complexity": [
+    "O(p), where p is the number of picks."
+  ],
+  "space_complexity": [
+    "O(min(n * c, p)), where n is players, c is max colors, p is picks."
+  ],
+  "key_insights": [
+    [
+      "A nested defaultdict is efficient for storing player-specific color counts.",
+      "The winning condition `i < max(cnt.itervalues())` directly translates the problem statement.",
+      "The time complexity is dominated by iterating through the picks to build the frequency map."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

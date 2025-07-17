@@ -1,0 +1,44 @@
+{
+  "problem_name": "height-of-binary-tree-after-subtree-removal-queries",
+  "data_structures": [
+    [
+      "defaultdict",
+      "dictionary"
+    ],
+    [
+      "defaultdict",
+      "dictionary"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "iterative DFS with stack and pre-computation",
+    "recursive DFS with pre-computation"
+  ],
+  "problem_summary_simple": "Find the height of a binary tree after removing specified subtrees, with queries independent.",
+  "problem_summary_technical": "Precompute node depths and heights using DFS. For each query, calculate new height based on remaining sibling subtree's height.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating heights and depths for all nodes is crucial for efficient query processing.",
+      "The height after removal depends on the height of the sibling subtree at the same depth.",
+      "Iterative DFS can avoid recursion depth limits and manage state explicitly."
+    ],
+    [
+      "The height of a subtree rooted at a node is 1 + max(height of left child, height of right child).",
+      "When a subtree is removed, the new height is determined by the longest path in the remaining part of the tree.",
+      "The `top` dictionary stores the two largest heights at each depth, which are needed to find the alternative longest path."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-compatibility-score-sum",
+  "data_structures": [
+    [
+      "list of lists (for cost matrix)",
+      "arrays (for Hungarian algorithm internal state)"
+    ],
+    [
+      "list of integers (for bitmasks)",
+      "list of tuples (for DP state)"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Hungarian algorithm for weighted bipartite matching",
+    "Dynamic programming with bitmasking"
+  ],
+  "problem_summary_simple": "Assign students to mentors to maximize the total compatibility score.",
+  "problem_summary_technical": "Solves maximum weight bipartite matching using Hungarian algorithm or DP with bitmasking on compatibility scores.",
+  "time_complexity": [
+    "O(m^3)",
+    "O(m * 2^m * n)"
+  ],
+  "space_complexity": [
+    "O(m^2)",
+    "O(2^m)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a classic assignment problem, solvable with bipartite matching.",
+      "The Hungarian algorithm efficiently finds the optimal assignment in polynomial time.",
+      "The constraints (m <= 8) suggest exponential solutions like DP with bitmasking are also feasible."
+    ],
+    [
+      "Representing student/mentor answers as bitmasks simplifies compatibility calculation.",
+      "DP state can track assigned mentors and current student, or vice-versa.",
+      "The small constraint on 'm' makes bitmask DP a viable alternative to Hungarian algorithm."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

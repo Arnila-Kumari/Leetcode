@@ -1,0 +1,45 @@
+{
+  "problem_name": "maximize-subarray-gcd-score",
+  "data_structures": [
+    [
+      "list",
+      "dictionary",
+      "integer"
+    ],
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with suffix GCD states and binary search for range queries",
+    "Brute force with GCD calculation and bit manipulation"
+  ],
+  "problem_summary_simple": "Find the max score (length * GCD) of a subarray after doubling elements at most k times.",
+  "problem_summary_technical": "DP tracks GCD and number of doublings. Binary search helps find optimal subarray start. Brute force checks all subarrays with limited doublings.",
+  "time_complexity": [
+    "O(n log n * log r)",
+    "O(n^2 * log r)"
+  ],
+  "space_complexity": [
+    "O(n + log r)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The score depends on both subarray length and GCD.",
+      "Doubling elements can increase GCD. The constraint is the number of doublings (k).",
+      "The DP approach efficiently tracks possible GCDs and the minimum operations to achieve them for subarrays ending at a certain index."
+    ],
+    [
+      "The brute-force approach iterates through all possible subarrays.",
+      "For each subarray, it calculates the GCD and considers doubling elements.",
+      "The `lower_bit` optimization helps in quickly identifying potential candidates for doubling."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

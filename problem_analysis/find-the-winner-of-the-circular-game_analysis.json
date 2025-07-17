@@ -1,0 +1,42 @@
+{
+  "problem_name": "find-the-winner-of-the-circular-game",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Bottom-up dynamic programming (Josephus problem variation)",
+    "Top-down recursive solution (Josephus problem variation)"
+  ],
+  "problem_summary_simple": "Find the last remaining person in a circle after repeatedly removing every k-th person.",
+  "problem_summary_technical": "Solve the Josephus problem using either a bottom-up iterative formula or a top-down recursive approach.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic Josephus problem. The key is to find the pattern of elimination.",
+      "The bottom-up solution uses a mathematical recurrence relation to find the winner's index.",
+      "The formula `(idx + k) % (n + 1)` effectively simulates the circular removal and re-indexing."
+    ],
+    [
+      "The recursive solution breaks down the problem from n friends to n-1 friends.",
+      "The base case is when only one friend remains.",
+      "The recursive step calculates the winner's position in the smaller circle and maps it back to the larger circle."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

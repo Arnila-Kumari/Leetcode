@@ -1,0 +1,31 @@
+{
+  "problem_name": "assign-cookies",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "greedy approach with sorting and two pointers"
+  ],
+  "problem_summary_simple": "Assign cookies to children to maximize the number of content children.",
+  "problem_summary_technical": "Sorts both children's greed factors and cookie sizes, then uses two pointers to greedily assign the smallest sufficient cookie to the least greedy child.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting both arrays is crucial for the greedy strategy to work.",
+      "The greedy choice is to satisfy the child with the smallest greed factor using the smallest possible cookie.",
+      "This ensures that larger cookies are saved for children with higher greed factors."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

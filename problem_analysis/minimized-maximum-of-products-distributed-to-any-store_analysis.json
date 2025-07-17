@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimized-maximum-of-products-distributed-to-any-store",
+  "data_structures": [
+    [
+      "no explicit data structures used beyond function arguments"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer (maximum products per store)"
+  ],
+  "problem_summary_simple": "Distribute products to stores to minimize the maximum number of products any single store receives.",
+  "problem_summary_technical": "Binary search for the minimum maximum products per store. Check function calculates required stores for a given max product limit.",
+  "time_complexity": [
+    "O(n log m)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks to minimize the maximum. This often suggests binary search on the answer.",
+      "If we can distribute all products such that no store gets more than 'x' products, we can also do it for any 'y > x'.",
+      "The `check` function needs to determine if a given maximum `x` is feasible. For each product type `q`, we need `ceil(q / x)` stores. The total number of stores needed must be less than or equal to `n`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

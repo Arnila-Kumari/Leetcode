@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-time-to-make-array-sum-at-most-x",
+  "data_structures": [
+    [
+      "list",
+      "dictionary"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Sort by nums2, then use DP to find max sum achievable by zeroing k elements."
+  ],
+  "problem_summary_simple": "Find the minimum time to make the array sum at most x by zeroing elements periodically.",
+  "problem_summary_technical": "DP approach on sorted (nums2, nums1) pairs to maximize sum reduction by zeroing k elements.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting by nums2 is crucial for the DP state transition.",
+      "The DP state dp[j] represents the maximum sum reduction using j operations.",
+      "The final check iterates through possible numbers of operations."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

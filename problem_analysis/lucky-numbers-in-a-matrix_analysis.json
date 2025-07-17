@@ -1,0 +1,46 @@
+{
+  "problem_name": "lucky-numbers-in-a-matrix",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "itertools"
+    ],
+    [
+      "list",
+      "set",
+      "itertools"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through rows to find minimums, columns to find maximums, then compare.",
+    "Find row minimums and column maximums, then use set intersection to find common elements."
+  ],
+  "problem_summary_simple": "Find numbers in a matrix that are the minimum in their row and maximum in their column.",
+  "problem_summary_technical": "Calculates row minimums and column maximums, then identifies elements present in both sets.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m + n)",
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating row minimums and column maximums avoids repeated computations.",
+      "The `itertools.izip(*matrix)` is a Pythonic way to transpose a matrix.",
+      "Comparing the pre-calculated values directly identifies the lucky numbers."
+    ],
+    [
+      "Leveraging sets for row minimums and column maximums allows for efficient intersection.",
+      "The `map` function applies `min` and `max` to rows and columns respectively.",
+      "Set intersection (`&`) directly finds elements common to both sets."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

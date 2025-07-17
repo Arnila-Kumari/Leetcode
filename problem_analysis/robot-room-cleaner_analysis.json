@@ -1,0 +1,34 @@
+{
+  "problem_name": "robot-room-cleaner",
+  "data_structures": [
+    [
+      "set",
+      "list of tuples",
+      "robot API"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) with backtracking and visited set."
+  ],
+  "problem_summary_simple": "Clean all accessible cells in a room using a robot with limited movement and cleaning capabilities.",
+  "problem_summary_technical": "Employ DFS to explore the grid, cleaning cells and backtracking to avoid cycles and walls.",
+  "time_complexity": [
+    "O(N), where N is the number of cells in the room."
+  ],
+  "space_complexity": [
+    "O(N), for the visited set and recursion stack."
+  ],
+  "key_insights": [
+    [
+      "The room layout is unknown, requiring exploration.",
+      "DFS is suitable for exploring connected components and finding all reachable cells.",
+      "A 'visited' set is crucial to prevent infinite loops and redundant cleaning.",
+      "Backtracking (moving back to the previous cell) is essential after exploring a path."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

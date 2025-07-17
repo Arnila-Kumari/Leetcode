@@ -1,0 +1,30 @@
+{
+  "problem_name": "find-the-peaks",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array, checking if an element is strictly greater than its neighbors."
+  ],
+  "problem_summary_simple": "Find indices of elements strictly greater than both their neighbors in an array.",
+  "problem_summary_technical": "Iterate from the second to the second-to-last element, checking `mountain[i-1] < mountain[i] > mountain[i+1]`.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Peaks cannot be the first or last element, so the iteration range is `1` to `n-2`.",
+      "The condition for a peak at index `i` is `mountain[i-1] < mountain[i]` AND `mountain[i] > mountain[i+1]`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

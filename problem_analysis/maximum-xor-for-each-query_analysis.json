@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-xor-for-each-query",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Prefix XOR and bit manipulation"
+  ],
+  "problem_summary_simple": "For each query, find a number k to maximize XOR sum of remaining array elements after removing the last.",
+  "problem_summary_technical": "Calculates prefix XORs and uses a mask to find the optimal `k` for each query by targeting bits from most significant to least significant.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The XOR sum of a subarray can be efficiently calculated using prefix XORs: `XOR(nums[i]...nums[j]) = prefix_xor[j+1] ^ prefix_xor[i]`.",
+      "To maximize `current_xor ^ k`, we want `k` to have bits set where `current_xor` has bits unset, up to `maximumBit`.",
+      "Processing queries in reverse order simplifies the calculation as we only need to consider the current prefix XOR and the mask."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

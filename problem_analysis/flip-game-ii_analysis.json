@@ -1,0 +1,58 @@
+{
+  "problem_name": "flip-game-ii",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "xrange"
+    ],
+    [
+      "dictionary",
+      "tuple",
+      "list"
+    ],
+    [
+      "string",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Game Theory (Nim-sum) with DP",
+    "Recursion with Memoization (Hash Table)",
+    "Recursive Backtracking"
+  ],
+  "problem_summary_simple": "Determine if the first player can win a game by flipping consecutive '++' to '--'.",
+  "problem_summary_technical": "Analyze game states using Nim-sums for optimal play or recursion with memoization on consecutive '++' counts.",
+  "time_complexity": [
+    "O(n + c^2)",
+    "O(c^3 * 2^c * logc)",
+    "O(c * n * c!)"
+  ],
+  "space_complexity": [
+    "O(c)",
+    "O(c * 2^c)",
+    "O(c * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as an impartial game solvable with the Sprague-Grundy theorem.",
+      "The Grundy values (g-numbers) for segments of consecutive '+' can be precomputed or calculated.",
+      "The XOR sum of Grundy values for all segments determines the winner."
+    ],
+    [
+      "Memoization is crucial to avoid recomputing results for identical game states (sequences of consecutive '++').",
+      "The state can be represented by the lengths of consecutive '++' segments.",
+      "The problem exhibits optimal substructure and overlapping subproblems."
+    ],
+    [
+      "A direct recursive approach explores all possible moves.",
+      "The state is the current string configuration.",
+      "This approach can be very inefficient due to repeated computations and large state space."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:45:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

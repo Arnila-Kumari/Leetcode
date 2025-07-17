@@ -1,0 +1,31 @@
+{
+  "problem_name": "elements-in-array-after-removing-and-replacing-elements",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Modulo arithmetic to simulate array state over time"
+  ],
+  "problem_summary_simple": "Determine the element at a given index and time in a cyclically changing array.",
+  "problem_summary_technical": "Simulate array transformations using modulo arithmetic on time and index to find the element at query time.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The array's state repeats every 2 * len(nums) minutes due to removal and re-addition.",
+      "The effective time `t % (2 * len(nums))` simplifies the problem.",
+      "The logic checks if the element at `indexj` is still present or has been re-added based on the effective time."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "day-of-the-week",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Zeller's Congruence formula for calculating the day of the week"
+  ],
+  "problem_summary_simple": "Determine the day of the week for a given date.",
+  "problem_summary_technical": "Applies Zeller's Congruence, a mathematical formula, to calculate the day of the week from day, month, and year.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Zeller's Congruence is a well-established mathematical formula for this problem.",
+      "The formula requires careful handling of month and year adjustments for January and February.",
+      "The modulo operation is key to mapping the result to the correct day of the week."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

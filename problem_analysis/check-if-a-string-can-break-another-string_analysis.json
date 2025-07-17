@@ -1,0 +1,53 @@
+{
+  "problem_name": "check-if-a-string-can-break-another-string",
+  "data_structures": [
+    [
+      "collections.Counter"
+    ],
+    [
+      "sorted strings",
+      "set"
+    ],
+    [
+      "sorted strings"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting and cumulative comparison",
+    "Sorting and pairwise comparison",
+    "Sorting and pairwise comparison"
+  ],
+  "problem_summary_simple": "Check if a permutation of s1 can break a permutation of s2, or vice versa, based on alphabetical order.",
+  "problem_summary_technical": "Compares character counts or sorted strings to determine if one string's permutation can be lexicographically greater than or equal to another's.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that if a permutation of s1 can break s2, then the sorted version of s1 must be element-wise greater than or equal to the sorted version of s2.",
+      "Using frequency counts (collections.Counter) and iterating through the alphabet allows for an O(n) solution without explicit sorting.",
+      "The problem is symmetric, so we check both s1 breaking s2 and s2 breaking s1."
+    ],
+    [
+      "Sorting both strings is a straightforward approach to check the condition.",
+      "The `cmp` function (or equivalent logic) is used to compare characters at corresponding positions after sorting.",
+      "A set is used to efficiently check if both 'greater than' and 'less than' conditions are met across all character pairs."
+    ],
+    [
+      "Sorting both strings simplifies the comparison logic.",
+      "The `all()` function with a generator expression efficiently checks the pairwise comparison for both `a >= b` and `a <= b`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

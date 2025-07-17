@@ -1,0 +1,40 @@
+{
+  "problem_name": "the-skyline-problem",
+  "data_structures": [
+    [
+      "list",
+      "int"
+    ]
+  ],
+  "category": "Divide and Conquer",
+  "algorithm_technique": [
+    "Divide and conquer approach to merge skylines recursively.",
+    "Sweep line algorithm with a max-heap to track active building heights."
+  ],
+  "problem_summary_simple": "Generate the skyline contour from a list of buildings.",
+  "problem_summary_technical": "Divide and conquer to recursively compute skylines for halves and merge them, maintaining key points and heights.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved efficiently using a divide and conquer strategy similar to merge sort.",
+      "The key challenge is the `MergeSkylines` function, which needs to correctly combine two skylines, handling overlapping intervals and height changes.",
+      "The merge logic must consider the start and end points of buildings and the current maximum height from both skylines."
+    ],
+    [
+      "A sweep-line approach processes events (building start/end points) in order.",
+      "A max-heap is used to keep track of the heights of buildings currently active at the sweep line's position.",
+      "When the maximum height in the heap changes, a new key point in the skyline is generated."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:19:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "reduction-operations-to-make-the-array-elements-equal",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sorting and counting operations based on adjacent distinct elements"
+  ],
+  "problem_summary_simple": "Calculate operations to make all array elements equal by reducing the largest to the next largest.",
+  "problem_summary_technical": "Sorts the array and counts operations by summing the number of distinct elements greater than the current element.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is crucial to easily identify the largest and next largest elements.",
+      "Each time we encounter a new, larger distinct number, all preceding occurrences of smaller numbers will need to be reduced to this new number.",
+      "The total operations for a number `x` to become `y` (where `y < x`) is the count of distinct numbers between `y` and `x`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:51",
+  "batch_processed": true,
+  "batch_size": 4
+}

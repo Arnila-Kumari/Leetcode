@@ -1,0 +1,31 @@
+{
+  "problem_name": "dot-product-of-two-sparse-vectors",
+  "data_structures": [
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Store non-zero elements in a hashmap for efficient lookup and iteration."
+  ],
+  "problem_summary_simple": "Calculate the dot product of two vectors that have many zero values.",
+  "problem_summary_technical": "Efficiently compute dot product by storing non-zero elements in hashmaps and iterating over the smaller one.",
+  "time_complexity": [
+    "O(n) for initialization, O(min(n, m)) for dotProduct"
+  ],
+  "space_complexity": [
+    "O(n) where n is the number of non-zero elements"
+  ],
+  "key_insights": [
+    [
+      "Storing only non-zero elements significantly reduces space complexity for sparse vectors.",
+      "Iterating through the smaller hashmap optimizes the dot product calculation.",
+      "The follow-up question about one sparse vector suggests a similar approach, potentially optimizing based on which vector is sparse."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

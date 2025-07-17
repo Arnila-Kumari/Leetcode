@@ -1,0 +1,32 @@
+{
+  "problem_name": "binary-tree-pruning",
+  "data_structures": [
+    [
+      "TreeNode",
+      "List"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive postorder traversal with pruning"
+  ],
+  "problem_summary_simple": "Remove subtrees that do not contain any nodes with value 1.",
+  "problem_summary_technical": "Recursively prune subtrees that lack a '1' node using a postorder traversal approach.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "A postorder traversal is ideal because a node's pruning decision depends on its children's pruned states.",
+      "If a node has no children and its value is 0, it should be pruned.",
+      "The function returns None if the subtree rooted at the current node should be removed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

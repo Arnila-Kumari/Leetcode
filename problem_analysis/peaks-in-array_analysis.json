@@ -1,0 +1,32 @@
+{
+  "problem_name": "peaks-in-array",
+  "data_structures": [
+    [
+      "Fenwick Tree (Binary Indexed Tree)",
+      "Array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Fenwick Tree (BIT) for range queries and point updates"
+  ],
+  "problem_summary_simple": "Count peaks in subarrays and update array elements efficiently.",
+  "problem_summary_technical": "Use a Fenwick Tree to maintain counts of peaks, supporting O(log n) updates and range sum queries for peak counts.",
+  "time_complexity": [
+    "O(n + q log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires efficient handling of point updates and range queries on peak counts.",
+      "A Fenwick Tree (BIT) is suitable for this, where each index in the BIT represents whether a position is a peak.",
+      "When an element is updated, only its immediate neighbors' peak status might change, requiring updates to the BIT at those positions."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:04:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

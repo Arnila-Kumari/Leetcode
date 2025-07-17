@@ -1,0 +1,32 @@
+{
+  "problem_name": "decode-xored-permutation",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "XOR properties and permutation properties to find the first element, then reconstruct."
+  ],
+  "problem_summary_simple": "Decode an XOR-encoded permutation array to find the original permutation.",
+  "problem_summary_technical": "Determine the first element of the permutation by XORing all numbers from 1 to n and the encoded array elements, then reconstruct the array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that the XOR sum of all numbers from 1 to n can be calculated.",
+      "Also, the XOR sum of the `encoded` array is `perm[0] XOR perm[n-1]`.",
+      "By XORing the total XOR sum of 1 to n with the XOR sum of the `encoded` array, we can isolate `perm[0]`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

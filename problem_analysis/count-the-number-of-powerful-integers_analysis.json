@@ -1,0 +1,42 @@
+{
+  "problem_name": "count-the-number-of-powerful-integers",
+  "data_structures": [
+    [
+      "integer arithmetic",
+      "string manipulation"
+    ],
+    [
+      "string manipulation",
+      "integer arithmetic"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Digit DP approach to count numbers up to a limit with a given suffix and digit constraints.",
+    "Digit DP using string representation for easier digit access and manipulation."
+  ],
+  "problem_summary_simple": "Count numbers in a range that end with a specific string and have digits within a limit.",
+  "problem_summary_technical": "Digit DP to count numbers satisfying suffix and digit limit conditions up to a given number.",
+  "time_complexity": [
+    "O(log f)",
+    "O(log f)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(log f)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by counting powerful integers up to 'finish' and subtracting those up to 'start-1'.",
+      "The core is a digit DP where we build numbers digit by digit, ensuring they don't exceed the limit and eventually match the suffix."
+    ],
+    [
+      "Converting the number to a string simplifies accessing digits and checking the suffix.",
+      "The DP state needs to track the current position, whether the number is still tight with the limit, and if the suffix has started matching."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:38:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

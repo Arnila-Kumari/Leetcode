@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-points-in-an-archery-competition",
+  "data_structures": [
+    [
+      "array (for Bob's arrows)",
+      "bitmask"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Brute force with bitmasking to explore all combinations of winning sections."
+  ],
+  "problem_summary_simple": "Bob wants to win archery sections against Alice by using more arrows, maximizing his total score.",
+  "problem_summary_technical": "Iterate through all possible subsets of sections Bob can win using bitmasks, calculating score and arrow count for each subset.",
+  "time_complexity": [
+    "O(2^12 * 12)"
+  ],
+  "space_complexity": [
+    "O(12)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as selecting a subset of scoring sections for Bob to win.",
+      "For each section, Bob needs at least one more arrow than Alice to win it.",
+      "A bitmask can represent which sections Bob aims to win."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

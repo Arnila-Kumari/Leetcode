@@ -1,0 +1,34 @@
+{
+  "problem_name": "minimum-number-of-operations-to-make-arrays-similar",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sorting by parity and value, then calculating differences"
+  ],
+  "problem_summary_simple": "Make two arrays have the same element frequencies by adding/subtracting 2 from pairs of elements.",
+  "problem_summary_technical": "Sort both arrays based on parity and value. Pair elements and sum absolute differences divided by 2. This sum divided by 2 is the minimum operations.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operation `nums[i] += 2` and `nums[j] -= 2` preserves the sum of elements modulo 2 (parity).",
+      "To make arrays similar, we need to match element frequencies. This means we need to transform elements in `nums` to match `target`.",
+      "Sorting by parity ensures that we are pairing elements that can potentially be transformed into each other.",
+      "The difference between a `nums` element and a `target` element must be even, as each operation changes the value by 2.",
+      "The total number of operations is half the sum of absolute differences between corresponding sorted elements, divided by 2 again because each operation involves two elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

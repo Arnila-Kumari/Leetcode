@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-points-after-enemy-battles",
+  "data_structures": [
+    [
+      "min-heap (implicitly via sorting)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using sorting and two pointers (or min/max tracking)"
+  ],
+  "problem_summary_simple": "Gain points by fighting enemies, using energy. Can also use points to gain energy back from enemies.",
+  "problem_summary_technical": "Greedy strategy: always fight the weakest enemy first if possible. If energy is low, use points to 'mark' the weakest enemy to regain its energy.",
+  "time_complexity": [
+    "O(n log n) due to sorting, or O(n) if min is found in O(n) and then processed."
+  ],
+  "space_complexity": [
+    "O(1) if sorting in-place, or O(n) if a copy is made."
+  ],
+  "key_insights": [
+    [
+      "The core idea is to use the cheapest enemies to gain points first.",
+      "If current energy is insufficient, the only way to proceed is to 'mark' an enemy to gain energy back.",
+      "To maximize points, when marking an enemy, it's always optimal to mark the weakest one to get the most energy back for the least 'cost' (in terms of points spent to mark)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

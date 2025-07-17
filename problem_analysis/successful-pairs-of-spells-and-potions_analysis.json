@@ -1,0 +1,32 @@
+{
+  "problem_name": "successful-pairs-of-spells-and-potions",
+  "data_structures": [
+    [
+      "sorted array of integers",
+      "list of integers"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Sorting and Binary Search"
+  ],
+  "problem_summary_simple": "Count pairs of spells and potions whose product meets a success threshold.",
+  "problem_summary_technical": "Sort potions, then for each spell, use binary search to find the minimum potion strength needed for a successful pair.",
+  "time_complexity": [
+    "O(m log m + n log m)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the potions array is crucial for efficient searching.",
+      "For each spell, we need to find the number of potions `p` such that `spell * p >= success`.",
+      "This is equivalent to finding the smallest `p` such that `p >= success / spell` and counting potions from that point onwards."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

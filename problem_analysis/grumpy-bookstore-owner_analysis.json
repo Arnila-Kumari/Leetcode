@@ -1,0 +1,31 @@
+{
+  "problem_name": "grumpy-bookstore-owner",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window to find the maximum additional satisfied customers during the grumpy period."
+  ],
+  "problem_summary_simple": "Maximize satisfied customers by using a one-time technique to make the owner not grumpy for a consecutive duration.",
+  "problem_summary_technical": "Calculate base satisfied customers, then use a sliding window to find the maximum extra customers satisfied by the technique.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be decomposed into two parts: initially satisfied customers and extra satisfied customers using the technique.",
+      "A sliding window of size 'minutes' efficiently calculates the maximum gain from the technique.",
+      "The key is to track the sum of customers during grumpy periods within the window."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

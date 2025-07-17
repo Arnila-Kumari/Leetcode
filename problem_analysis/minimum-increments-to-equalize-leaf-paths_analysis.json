@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimum-increments-to-equalize-leaf-paths",
+  "data_structures": [
+    [
+      "list",
+      "dictionary"
+    ],
+    [
+      "list",
+      "dictionary"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS to calculate maximum path sums and count nodes to adjust.",
+    "Recursive DFS to calculate maximum path sums and count nodes to adjust."
+  ],
+  "problem_summary_simple": "Make all root-to-leaf path scores equal by increasing node costs, minimizing node increases.",
+  "problem_summary_technical": "DFS traversal to find max leaf path sum, then count nodes needing increments to match max.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The target path sum must be the maximum of all current root-to-leaf path sums.",
+      "A DFS traversal naturally calculates path sums from root to leaves.",
+      "The number of increments is the total number of nodes minus the number of nodes that are already on a path to the maximum sum."
+    ],
+    [
+      "The target path sum must be the maximum of all current root-to-leaf path sums.",
+      "A DFS traversal naturally calculates path sums from root to leaves.",
+      "The number of increments is the total number of nodes minus the number of nodes that are already on a path to the maximum sum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

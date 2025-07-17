@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-cost-of-buying-candies-with-discount",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach by sorting and picking the most expensive candies."
+  ],
+  "problem_summary_simple": "Minimize candy buying cost by getting a free candy for every two bought.",
+  "problem_summary_technical": "Greedy strategy: sort costs descending, buy two most expensive, get cheapest free. Sum costs of bought candies.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To maximize the value of free candies, always pair the two most expensive candies.",
+      "This ensures the free candy taken is the cheapest among the remaining ones.",
+      "Sorting the costs in descending order is the first step."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "wiggle-subsequence",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the array, counting changes in direction (up/down) of differences between consecutive elements."
+  ],
+  "problem_summary_simple": "Find the longest subsequence where differences between consecutive numbers alternate signs.",
+  "problem_summary_technical": "Greedily count peaks and valleys in the sequence by tracking the direction of the last difference.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by focusing on the turning points (peaks and valleys).",
+      "We only need to keep track of the sign of the previous difference.",
+      "Consecutive equal numbers do not contribute to the wiggle sequence length."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

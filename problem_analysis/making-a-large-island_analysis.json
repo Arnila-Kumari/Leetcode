@@ -1,0 +1,35 @@
+{
+  "problem_name": "making-a-large-island",
+  "data_structures": [
+    [
+      "dictionary",
+      "set",
+      "grid (2D array)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Depth First Search (DFS) to find and label connected components (islands) and their areas.",
+    "Iterate through '0' cells, check adjacent island IDs, and sum their areas to find the maximum possible island size."
+  ],
+  "problem_summary_simple": "Find the largest island size after changing at most one '0' to '1'.",
+  "problem_summary_technical": "Use DFS to identify and size islands, then iterate through '0's to find the best '0' to flip for maximum combined island area.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "First, identify all existing islands and their sizes using DFS or BFS. Assign a unique ID to each island.",
+      "Store the areas of these islands in a map (ID -> area).",
+      "Then, iterate through all '0' cells. For each '0', check its 4 neighbors. Sum the areas of unique adjacent islands (using a set to avoid double counting) and add 1 (for the flipped '0').",
+      "The maximum value found is the answer. If no '0's exist, the answer is the size of the largest existing island."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

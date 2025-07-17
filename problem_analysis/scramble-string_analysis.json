@@ -1,0 +1,31 @@
+{
+  "problem_name": "scramble-string",
+  "data_structures": [
+    [
+      "3D array (DP table)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with memoization/tabulation"
+  ],
+  "problem_summary_simple": "Check if one string can be transformed into another by recursively splitting and swapping substrings.",
+  "problem_summary_technical": "Uses 3D DP to check if s2[j:j+n] is a scramble of s1[i:i+n] by considering all possible split points k.",
+  "time_complexity": [
+    "O(n^4)"
+  ],
+  "space_complexity": [
+    "O(n^3)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into subproblems of checking smaller substrings.",
+      "A 3D DP table `dp[length][i][j]` stores whether `s2[j:j+length]` is a scramble of `s1[i:i+length]`.",
+      "The core recurrence relation considers two cases: no swap and swap of substrings."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:07:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

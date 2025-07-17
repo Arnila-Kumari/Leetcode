@@ -1,0 +1,32 @@
+{
+  "problem_name": "burst-balloons",
+  "data_structures": [
+    [
+      "2D array (DP table)",
+      "list (padded input)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming: Memoization/Tabulation on subproblems of bursting balloons within a range."
+  ],
+  "problem_summary_simple": "Maximize coins by bursting balloons, where bursting a balloon gives coins based on adjacent unburst balloons.",
+  "problem_summary_technical": "DP approach to find max coins by considering the last balloon burst in a subarray, leading to O(n^3) time.",
+  "time_complexity": [
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem is best solved by thinking about the *last* balloon to be burst in a subproblem, rather than the first.",
+      "Padding the input array with 1s simplifies boundary conditions.",
+      "The DP state `dp[i][j]` represents the maximum coins from bursting balloons between index `i` and `j` (exclusive)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:33:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

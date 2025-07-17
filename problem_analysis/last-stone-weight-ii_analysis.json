@@ -1,0 +1,31 @@
+{
+  "problem_name": "last-stone-weight-ii",
+  "data_structures": [
+    [
+      "set (for DP states)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming (subset sum variation) to find achievable sums."
+  ],
+  "problem_summary_simple": "Find the minimum possible weight of the last stone after smashing any two stones.",
+  "problem_summary_technical": "This is equivalent to partitioning stones into two groups to minimize the difference between their sums.",
+  "time_complexity": [
+    "O(N * S) where N is number of stones, S is sum of stones"
+  ],
+  "space_complexity": [
+    "O(S) where S is sum of stones"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding two subsets of stones whose sums are as close as possible.",
+      "This is a variation of the Partition Problem, solvable with dynamic programming (subset sum).",
+      "The DP state `dp[i]` represents whether a sum `i` is achievable using a subset of stones."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

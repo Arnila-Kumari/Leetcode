@@ -1,0 +1,45 @@
+{
+  "problem_name": "sum-of-total-strength-of-wizards",
+  "data_structures": [
+    [
+      "stack",
+      "prefix sum array"
+    ],
+    [
+      "stack",
+      "prefix sum array",
+      "suffix sum array"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack with prefix sums",
+    "Monotonic stack with prefix and suffix sums"
+  ],
+  "problem_summary_simple": "Calculate the sum of strengths for all contiguous wizard groups, where strength is min_strength * sum_of_strengths.",
+  "problem_summary_technical": "Uses a monotonic stack to find the range where each element is the minimum, combined with prefix sums for efficient sum calculation.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A monotonic stack helps identify the left and right boundaries for each element as the minimum in a subarray.",
+      "Prefix sums are crucial for calculating subarray sums efficiently in O(1) time after O(n) preprocessing.",
+      "The problem can be reframed as calculating the contribution of each element as the minimum to all subarrays it belongs to."
+    ],
+    [
+      "The second solution optimizes the calculation by using both prefix and suffix sums to handle contributions from both sides of the minimum element.",
+      "This approach breaks down the sum calculation based on the minimum element's position and the sums of elements to its left and right.",
+      "Careful handling of indices and modulo arithmetic is essential due to large potential sums."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

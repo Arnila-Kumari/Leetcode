@@ -1,0 +1,31 @@
+{
+  "problem_name": "check-distances-between-same-letters",
+  "data_structures": [
+    [
+      "hash table"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through string, check distance using character's ASCII value, mark visited characters."
+  ],
+  "problem_summary_simple": "Verify if the distance between two occurrences of each letter in a string matches a given distance array.",
+  "problem_summary_technical": "Iterates through the string, using character ASCII values to index the distance array. Marks visited characters to ensure each pair is checked once.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem guarantees each letter appears exactly twice, simplifying the search for the second occurrence.",
+      "Using the character's ASCII value minus 'a' as an index into the `distance` array is efficient.",
+      "Marking characters as visited (e.g., by setting their distance to -1) prevents redundant checks and ensures each pair is validated."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "subarray-sums-divisible-by-k",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Prefix sum modulo k with hashmap to count subarray sums divisible by k."
+  ],
+  "problem_summary_simple": "Count contiguous subarrays whose sum is perfectly divisible by a given integer k.",
+  "problem_summary_technical": "Leverages prefix sums modulo k. If (prefixSum[j] % k) == (prefixSum[i-1] % k), then the subarray sum is divisible by k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "A subarray sum is divisible by k if (prefixSum[j] - prefixSum[i-1]) % k == 0.",
+      "This is equivalent to prefixSum[j] % k == prefixSum[i-1] % k.",
+      "A hashmap stores the frequencies of remainders of prefix sums when divided by k."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

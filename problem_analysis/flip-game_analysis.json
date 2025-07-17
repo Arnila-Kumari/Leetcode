@@ -1,0 +1,40 @@
+{
+  "problem_name": "flip-game",
+  "data_structures": [
+    [
+      "string",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "String manipulation: Iterate through the string, find consecutive '++' pairs, and generate new strings by flipping them to '--'.",
+    "List comprehension with string slicing: A concise way to generate all possible next moves."
+  ],
+  "problem_summary_simple": "Find all possible next states of a string by flipping two consecutive '+' characters to '--'.",
+  "problem_summary_technical": "Iterates through the string to find '++' substrings and generates new strings by replacing them with '--'.",
+  "time_complexity": [
+    "O(n*c)",
+    "O(n*c)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding all valid moves, not just one.",
+      "A move consists of changing '++' to '--'.",
+      "Iterating through the string and checking adjacent characters is the straightforward approach."
+    ],
+    [
+      "List comprehensions offer a compact way to express the generation of new strings.",
+      "The `xrange` (or `range` in Python 3) combined with slicing efficiently creates the modified strings.",
+      "The condition `s[i:i+2] == '++'` ensures only valid moves are considered."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

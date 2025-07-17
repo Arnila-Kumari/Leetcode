@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-non-decreasing-subarrays-after-k-operations",
+  "data_structures": [
+    [
+      "deque",
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a monotonic deque and two pointers to count valid subarrays efficiently."
+  ],
+  "problem_summary_simple": "Count subarrays that can be made non-decreasing using at most k increment operations.",
+  "problem_summary_technical": "Use a sliding window and monotonic deque to track the cost of making subarrays non-decreasing, optimizing with two pointers.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for subarrays that *can* be made non-decreasing, implying we need to calculate the minimum operations required for each subarray.",
+      "The minimum operations to make a subarray `nums[i:j+1]` non-decreasing is the sum of `max(0, nums[p] - nums[p-1])` for `p` from `i+1` to `j`.",
+      "A sliding window approach is suitable. For a fixed right endpoint, we want to find the leftmost valid left endpoint. A monotonic deque can help track necessary increments efficiently."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:36:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

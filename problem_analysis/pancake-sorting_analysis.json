@@ -1,0 +1,59 @@
+{
+  "problem_name": "pancake-sorting",
+  "data_structures": [
+    [
+      "list (for input array)",
+      "list (for result)",
+      "BIT (Binary Indexed Tree)"
+    ],
+    [
+      "list (for input array)",
+      "list (for result)",
+      "list of tuples (for merge sort)",
+      "list (for counts)"
+    ],
+    [
+      "list (for input array)",
+      "list (for result)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Greedy approach using Binary Indexed Tree to count inversions and determine flips",
+    "Merge Sort to count inversions and determine necessary flips",
+    "Greedy approach: find max element, flip to front, flip to correct position"
+  ],
+  "problem_summary_simple": "Sort an array using pancake flips (reversing prefixes) and return the sequence of flip sizes.",
+  "problem_summary_technical": "Greedy strategy: place the largest remaining element at its correct sorted position using two flips. BIT/Merge Sort optimize inversion counting for alternative strategies.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to place the largest unsorted element in its correct position in each step.",
+      "This is achieved by flipping the largest element to the beginning and then flipping it to its final position.",
+      "BIT or Merge Sort can be used to optimize the process by efficiently counting inversions or determining element positions."
+    ],
+    [
+      "The merge sort approach leverages its ability to count inversions during the sorting process.",
+      "The number of elements smaller than a given element to its right (inversions) directly informs the pancake flips needed.",
+      "This approach is more complex but can be insightful for understanding the relationship between inversions and sorting operations."
+    ],
+    [
+      "The simplest O(n^2) solution directly implements the greedy strategy without complex data structures.",
+      "It iterates from the largest element down to the smallest.",
+      "For each element, it finds its current index and performs two flips to move it to its sorted position."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

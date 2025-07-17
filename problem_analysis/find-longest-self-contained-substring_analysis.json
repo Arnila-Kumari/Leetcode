@@ -1,0 +1,72 @@
+{
+  "problem_name": "find-longest-self-contained-substring",
+  "data_structures": [
+    [
+      "list of lists (for character indices)",
+      "hash table",
+      "binary search"
+    ],
+    [
+      "list of lists (for character indices)",
+      "hash table",
+      "binary search"
+    ],
+    [
+      "frequency array",
+      "frequency array",
+      "two pointers"
+    ],
+    [
+      "arrays (for first/last occurrence)",
+      "hash table",
+      "brute force check"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through all possible start/end characters, check containment using binary search on indices.",
+    "Iterate through all possible start/end characters, check containment using binary search on indices.",
+    "Sliding window with frequency counts to maintain distinct characters and valid counts.",
+    "Brute-force check of all substrings defined by first/last occurrences of characters."
+  ],
+  "problem_summary_simple": "Find the longest substring where each character only appears within that substring.",
+  "problem_summary_technical": "Checks substrings defined by first/last occurrences of characters. Ensures no character within the substring exists outside it using index lookups or frequency counts.",
+  "time_complexity": [
+    "O(26^2 * n * log n)",
+    "O(26^2 * n * log n)",
+    "O(26 * n)",
+    "O(26^2 * n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(26)",
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking if a substring is 'self-contained', meaning characters inside are not outside.",
+      "Pre-calculating indices of each character helps in efficiently checking containment.",
+      "Binary search can quickly determine if a character's occurrences fall within a given range."
+    ],
+    [
+      "The problem requires checking if a substring is 'self-contained', meaning characters inside are not outside.",
+      "Pre-calculating indices of each character helps in efficiently checking containment.",
+      "Binary search can quickly determine if a character's occurrences fall within a given range."
+    ],
+    [
+      "The core idea is to find a substring where the count of characters appearing exactly `l` times is `l`.",
+      "A sliding window can efficiently track character frequencies and the number of distinct characters.",
+      "The `valid` variable tracks characters whose counts match their total occurrences in the string."
+    ],
+    [
+      "The problem can be simplified by considering substrings defined by the first and last occurrences of each character.",
+      "A brute-force check on these candidate substrings is feasible given the constraints.",
+      "The `check` function verifies if all characters within a candidate substring are indeed contained within its bounds."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:42:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

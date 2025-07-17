@@ -1,0 +1,32 @@
+{
+  "problem_name": "contains-duplicate-iii",
+  "data_structures": [
+    [
+      "ordered dictionary",
+      "hash map (implicitly via buckets)"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Use a sliding window of size k and bucket sort to efficiently check for numbers within valueDiff."
+  ],
+  "problem_summary_simple": "Find if there are numbers close in value and index within a given range.",
+  "problem_summary_technical": "Maintain a sliding window of size k, using buckets to check for numbers within valueDiff in O(1) average time.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The problem combines index and value constraints, suggesting a sliding window approach.",
+      "Bucketing (dividing numbers by `t+1`) allows checking for nearby values efficiently.",
+      "An ordered dictionary (or similar structure) is needed to maintain the window and remove old elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-depth-of-binary-tree",
+  "data_structures": [
+    [
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive Depth-First Search (DFS)"
+  ],
+  "problem_summary_simple": "Find the longest path from the root to any leaf in a binary tree.",
+  "problem_summary_technical": "Recursively calculate the depth of left and right subtrees, returning the maximum plus one for the current node.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved recursively by considering the depth of subtrees.",
+      "The base case for recursion is an empty tree (None), which has a depth of 0.",
+      "The maximum depth is 1 (for the current node) plus the maximum depth of its children."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:52:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

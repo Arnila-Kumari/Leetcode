@@ -1,0 +1,41 @@
+{
+  "problem_name": "find-subtree-sizes-after-changes",
+  "data_structures": [
+    [
+      "adjacency list",
+      "hash table (list of lists)",
+      "array"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS with a stack and a lookup table to track ancestor characters for re-parenting.",
+    "Recursive DFS with a lookup table to track ancestor characters for re-parenting."
+  ],
+  "problem_summary_simple": "Calculate subtree sizes in a tree after re-parenting nodes based on character matches.",
+  "problem_summary_technical": "Uses DFS to traverse the tree, maintaining a lookup for the nearest ancestor with the same character to determine new parent assignments and calculate subtree sizes.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves dynamic tree modifications, requiring careful state management during traversal.",
+      "A lookup mechanism (hash table) is essential to efficiently find the closest ancestor with a matching character.",
+      "Both iterative and recursive DFS can solve this, with iterative potentially avoiding recursion depth limits."
+    ],
+    [
+      "The core idea is to identify the new parent for each node based on the character matching rule.",
+      "Subtree sizes are calculated bottom-up after the re-parenting logic is applied.",
+      "The lookup table stores the most recent occurrence of each character encountered on the path from the root."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:43:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

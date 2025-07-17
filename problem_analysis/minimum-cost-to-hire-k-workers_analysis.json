@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-cost-to-hire-k-workers",
+  "data_structures": [
+    [
+      "max heap (priority queue)",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach with sorting and a max heap to maintain k smallest qualities"
+  ],
+  "problem_summary_simple": "Hire k workers such that their wages are proportional to quality and meet minimum wage expectations, minimizing total cost.",
+  "problem_summary_technical": "Sort workers by wage-to-quality ratio. Iterate, maintaining k workers with smallest qualities in a max heap.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that the wage-to-quality ratio must be the same for all hired workers.",
+      "To minimize cost, we should pick the worker with the highest wage-to-quality ratio among the k workers.",
+      "A max heap is used to efficiently track the k workers with the smallest qualities encountered so far."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "sum-of-square-numbers",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through possible values of 'a' up to sqrt(c), calculate required 'b', and check if it's an integer."
+  ],
+  "problem_summary_simple": "Check if a non-negative integer can be represented as the sum of two squares.",
+  "problem_summary_technical": "Given integer c, determine if there exist integers a, b such that a^2 + b^2 = c using iteration and square root checks.",
+  "time_complexity": [
+    "O(sqrt(c))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The search space for 'a' can be limited to the square root of 'c'.",
+      "If c - a^2 is a perfect square, then a solution exists.",
+      "Floating point precision can be a concern, so integer checks are preferred."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

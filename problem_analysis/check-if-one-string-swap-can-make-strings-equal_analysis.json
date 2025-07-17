@@ -1,0 +1,31 @@
+{
+  "problem_name": "check-if-one-string-swap-can-make-strings-equal",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate and find differing characters, check for at most two differences and correct swap."
+  ],
+  "problem_summary_simple": "Determine if two strings can be made equal with at most one swap.",
+  "problem_summary_technical": "Compare strings character by character, identify mismatches, and verify if they form a single valid swap.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "If strings are identical, zero swaps are needed, which is allowed.",
+      "If strings differ, there must be exactly two differing character pairs.",
+      "The differing pairs must be swappable to make strings equal (e.g., s1[i]=a, s2[i]=b and s1[j]=b, s2[j]=a)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

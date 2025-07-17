@@ -1,0 +1,56 @@
+{
+  "problem_name": "maximum-strong-pair-xor-ii",
+  "data_structures": [
+    [
+      "Trie",
+      "Array"
+    ],
+    [
+      "Trie",
+      "Array"
+    ],
+    [
+      "Hash Map",
+      "Array"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Trie with two pointers and count for strong pair condition",
+    "Trie with min/max tracking for strong pair condition",
+    "Greedy bit manipulation with prefix min/max tracking"
+  ],
+  "problem_summary_simple": "Find the maximum XOR of two numbers in an array that satisfy a 'strong pair' condition.",
+  "problem_summary_technical": "Utilizes Tries to efficiently find pairs satisfying |x-y| <= min(x,y) and maximize XOR, often with sorting or two pointers.",
+  "time_complexity": [
+    "O(n log r)",
+    "O(n log r)",
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(t)",
+    "O(t)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The strong pair condition |x - y| <= min(x, y) simplifies to x <= 2*y or y <= 2*x.",
+      "Sorting the array and using a two-pointer approach with a Trie helps maintain the strong pair condition efficiently.",
+      "The Trie stores numbers to quickly find the maximum XOR partner for a given number."
+    ],
+    [
+      "The Trie can store min/max values at nodes to check the strong pair condition during queries.",
+      "The condition x <= 2*y can be checked by ensuring the queried number's prefix is compatible with stored min/max values in the Trie.",
+      "This approach avoids explicit sorting but still relies on Trie properties."
+    ],
+    [
+      "Iterating from the most significant bit allows a greedy approach to maximize XOR.",
+      "For each bit, we check if a strong pair can be formed that results in a '1' at that bit position.",
+      "Prefix min/max maps help quickly determine if a suitable partner exists for the current bit and number."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:54:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,47 @@
+{
+  "problem_name": "subarrays-distinct-element-sum-of-squares-ii",
+  "data_structures": [
+    [
+      "hashmap",
+      "sorted list",
+      "binary indexed tree",
+      "integer"
+    ],
+    [
+      "segment tree",
+      "hashmap",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Monotonic stack-like approach with SortedList and BIT for efficient updates and queries.",
+    "Segment tree for range updates and queries on counts."
+  ],
+  "problem_summary_simple": "Sum the squares of distinct element counts for all contiguous subarrays, modulo 10^9 + 7.",
+  "problem_summary_technical": "Efficient solutions use BIT or Segment Trees to track distinct counts and their contributions to the sum of squares, handling large results with modulo arithmetic.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Similar to Problem 4, but with larger constraints requiring more efficient O(n log n) solutions.",
+      "The core challenge is to efficiently update the sum of squares as we extend subarrays.",
+      "The BIT/Segment Tree solutions maintain a running sum of squares and update it based on the contribution of the current element and its previous occurrences."
+    ],
+    [
+      "The logic involves calculating the change in the sum of squares when a new element is added to subarrays ending at the current position.",
+      "The `accu` variable in the BIT solution represents the sum of squares of distinct counts for subarrays ending at the current index.",
+      "The segment tree solution tracks the counts of elements within ranges, allowing efficient calculation of the sum of squares."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

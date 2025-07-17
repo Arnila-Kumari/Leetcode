@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-unique-good-subsequences",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming approach to count subsequences ending in '0' or '1'."
+  ],
+  "problem_summary_simple": "Count unique non-empty binary subsequences without leading zeros (except for '0').",
+  "problem_summary_technical": "DP state `ends0` and `ends1` track unique subsequences ending in '0' or '1', considering the '0' case separately.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to build up the count of unique subsequences by considering each character.",
+      "When a '1' is encountered, it can extend all existing subsequences (ending in '0' or '1') and form a new subsequence '1'.",
+      "When a '0' is encountered, it can extend subsequences ending in '1' but not those ending in '0' to avoid leading zeros.",
+      "The special case of the subsequence '0' needs to be handled separately."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

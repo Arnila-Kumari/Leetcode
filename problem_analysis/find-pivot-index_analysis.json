@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-pivot-index",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix Sum / Two Pointers"
+  ],
+  "problem_summary_simple": "Find the index where the sum of elements to its left equals the sum of elements to its right.",
+  "problem_summary_technical": "Calculates the total sum, then iterates, maintaining a left sum and checking if left_sum equals total_sum - left_sum - current_element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating the total sum optimizes the check for each index.",
+      "The condition `left_sum == (total - left_sum - num)` efficiently checks the pivot condition.",
+      "The leftmost pivot index is returned, so the iteration order matters."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

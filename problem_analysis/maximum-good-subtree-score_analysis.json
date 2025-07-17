@@ -1,0 +1,41 @@
+{
+  "problem_name": "maximum-good-subtree-score",
+  "data_structures": [
+    [
+      "list of lists (adjacency list)",
+      "hashmap (defaultdict)",
+      "integer (for bitmask)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Tree DP with bitmasking to represent digit usage within a subtree.",
+    "Iterative DFS with explicit stack management for tree traversal and DP state merging."
+  ],
+  "problem_summary_simple": "Calculate the sum of maximum good subset scores for all subtrees in a given tree.",
+  "problem_summary_technical": "Use tree DP where each node's DP state is a map from digit masks to max subset sums within its subtree.",
+  "time_complexity": [
+    "O(n * (2^10)^2)",
+    "O(n * (2^10)^2)"
+  ],
+  "space_complexity": [
+    "O(2^10)",
+    "O(2^10)"
+  ],
+  "key_insights": [
+    [
+      "The constraint on digits (0-9) suggests using a bitmask of length 10 to represent the set of digits used.",
+      "A good subset means no digit is repeated. This can be checked by bitwise AND of masks.",
+      "Tree DP is suitable: the DP state for a node depends on the DP states of its children. Merging states involves combining masks and taking maximum sums."
+    ],
+    [
+      "The iterative DFS approach avoids recursion depth limits and can be more memory-efficient in some languages.",
+      "The DP state at each node is a map from `digit_mask` to `max_subset_sum`.",
+      "When merging child DP states, iterate through all pairs of masks from the current node's DP and the child's DP, checking for digit conflicts."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

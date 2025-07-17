@@ -1,0 +1,32 @@
+{
+  "problem_name": "apple-redistribution-into-boxes",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort capacities in descending order and greedily fill boxes until total apples are accommodated."
+  ],
+  "problem_summary_simple": "Find the minimum number of boxes needed to hold all apples, given pack sizes and box capacities.",
+  "problem_summary_technical": "Greedily select largest capacity boxes to minimize count, sorting capacities descending and subtracting from total apples.",
+  "time_complexity": [
+    "O(m log m + n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by using the largest capacity boxes first.",
+      "Sorting the capacities array is crucial for the greedy approach.",
+      "The total number of apples is the sum of the `apple` array."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

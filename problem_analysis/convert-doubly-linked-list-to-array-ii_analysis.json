@@ -1,0 +1,32 @@
+{
+  "problem_name": "convert-doubly-linked-list-to-array-ii",
+  "data_structures": [
+    [
+      "doubly linked list",
+      "array"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Traverse backwards to find head, then traverse forwards to build array."
+  ],
+  "problem_summary_simple": "Convert a doubly linked list, starting from any node, into an array.",
+  "problem_summary_technical": "Given an arbitrary node in a doubly linked list, traverse to the head and then iterate to collect all node values into an array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to first find the head of the doubly linked list by repeatedly moving to the previous node.",
+      "Once the head is found, a simple forward traversal can collect all elements into the result array.",
+      "The space complexity is O(1) because we are not using any auxiliary data structures that grow with the input size, besides the output array itself."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

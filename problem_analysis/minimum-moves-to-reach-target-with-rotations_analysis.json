@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-moves-to-reach-target-with-rotations",
+  "data_structures": [
+    [
+      "queue",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) on states representing snake's position and orientation."
+  ],
+  "problem_summary_simple": "Find the shortest path for a 2-cell snake to reach the bottom-right corner of a grid.",
+  "problem_summary_technical": "BFS on grid states (row, col, orientation) to find shortest path, considering valid moves and rotations.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be modeled as a shortest path problem on a graph where states are (row, col, orientation).",
+      "BFS is suitable for finding the minimum number of moves.",
+      "Carefully handle boundary conditions and blocked cells for each possible move (right, down, rotate clockwise, rotate counterclockwise)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:58:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

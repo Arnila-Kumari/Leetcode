@@ -1,0 +1,46 @@
+{
+  "problem_name": "kth-smallest-path-xor-sum",
+  "data_structures": [
+    [
+      "list",
+      "dictionary",
+      "SortedList"
+    ],
+    [
+      "list",
+      "dictionary",
+      "SortedList"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS with small-to-large merging of sorted lists",
+    "Recursive DFS with small-to-large merging of sorted lists"
+  ],
+  "problem_summary_simple": "Find the kth smallest distinct path XOR sum in subtrees of a rooted tree.",
+  "problem_summary_technical": "Uses DFS to compute path XORs, merging sorted lists of XOR sums from children subtrees using small-to-large merging.",
+  "time_complexity": [
+    "O(n * (logn)^2 + qlogn)",
+    "O(n * (logn)^2 + qlogn)"
+  ],
+  "space_complexity": [
+    "O(n + q)",
+    "O(n + q)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to efficiently collect and sort distinct path XOR sums for each subtree.",
+      "Small-to-large merging of sorted lists (or sets) is crucial for optimizing the merging process.",
+      "An auxiliary lookup structure is needed to efficiently answer queries associated with specific nodes."
+    ],
+    [
+      "The problem requires traversing the tree and aggregating path XOR sums.",
+      "Small-to-large merging of `SortedList` objects is used to maintain sorted distinct XOR sums for each subtree.",
+      "Queries are processed after the DFS traversal, using the aggregated sorted lists."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:48:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

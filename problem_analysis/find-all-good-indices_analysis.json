@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-all-good-indices",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Precompute non-increasing and non-decreasing counts using DP",
+    "Two-pass DP to calculate lengths of valid subarrays"
+  ],
+  "problem_summary_simple": "Find indices where k elements before are non-increasing and k elements after are non-decreasing.",
+  "problem_summary_technical": "Use DP to precompute lengths of non-increasing prefixes and non-decreasing suffixes to identify good indices.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Precomputing the lengths of valid non-increasing sequences ending at each index.",
+      "Precomputing the lengths of valid non-decreasing sequences starting at each index.",
+      "A good index `i` requires `left[i-1] >= k` and `right[i+1] >= k`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

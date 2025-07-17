@@ -1,0 +1,32 @@
+{
+  "problem_name": "check-if-grid-satisfies-conditions",
+  "data_structures": [
+    [
+      "2D array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the grid and check adjacent cells for the specified conditions.",
+    "Direct iteration and comparison."
+  ],
+  "problem_summary_simple": "Check if cells in a grid are equal to the cell below and different from the cell to the right.",
+  "problem_summary_technical": "Verify grid[i][j] == grid[i+1][j] and grid[i][j] != grid[i][j+1] for all valid cells.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The conditions need to be checked for all adjacent cells.",
+      "Edge cases (last row and last column) must be handled implicitly by loop bounds.",
+      "The constraints on grid size (m, n <= 10) allow for a straightforward O(m*n) solution."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

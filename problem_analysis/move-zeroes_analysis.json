@@ -1,0 +1,43 @@
+{
+  "problem_name": "move-zeroes",
+  "data_structures": [
+    [
+      "list",
+      "integer pointer"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to place non-zero elements at the beginning, then fill the rest with zeros.",
+    "In-place sort using a custom comparator to move zeros to the end."
+  ],
+  "problem_summary_simple": "Move all zeros to the end of an array while keeping the relative order of non-zero elements.",
+  "problem_summary_technical": "Uses a two-pointer approach to overwrite non-zero elements to the front, or a custom sort to achieve the same result in-place.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Maintain a pointer for the next position of a non-zero element.",
+      "Iterate through the array, swapping non-zero elements to the `pos` pointer.",
+      "The relative order of non-zero elements is preserved."
+    ],
+    [
+      "Leveraging the `sort` function with a custom comparator can be a concise solution.",
+      "The comparator `lambda a, b: 0 if b else -1` effectively places non-zeros before zeros.",
+      "This approach might be less efficient than the two-pointer method due to sorting overhead."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

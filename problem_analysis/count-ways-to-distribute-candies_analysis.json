@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-ways-to-distribute-candies",
+  "data_structures": [
+    [
+      "1D DP array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming"
+  ],
+  "problem_summary_simple": "Find the number of ways to distribute unique candies into bags, with each bag having at least one candy.",
+  "problem_summary_technical": "DP state dp[j] represents ways to distribute i candies into j+1 bags. Transition considers adding a new candy to existing bags or a new bag.",
+  "time_complexity": [
+    "O(n * k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "This is a variation of the stars and bars problem, but with unique items and the constraint that each bag must have at least one item.",
+      "The DP state transition captures two possibilities for the i-th candy: either it's placed into one of the j+1 existing bags (j+1 ways), or it starts a new bag (if j < i).",
+      "The order of iteration for the DP is important to avoid using the i-th candy multiple times in the same subproblem."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,45 @@
+{
+  "problem_name": "sum-of-values-at-indices-with-k-set-bits",
+  "data_structures": [
+    [
+      "list",
+      "integer variables"
+    ],
+    [
+      "list",
+      "integer variables"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterating through indices and using a bit manipulation trick (next_popcount)",
+    "Iterating through indices and using a popcount function"
+  ],
+  "problem_summary_simple": "Sum array elements whose index has exactly k bits set in its binary form.",
+  "problem_summary_technical": "Iterates through indices, checks the number of set bits (popcount) in each index's binary representation, and sums corresponding array elements.",
+  "time_complexity": [
+    "O(C(ceil(log2(n)), k))",
+    "O(n * log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The `next_popcount` function (from Hakmem 175) efficiently generates the next integer with the same number of set bits.",
+      "This approach avoids iterating through all `n` indices if `k` is small or `n` is very large, making it faster in certain cases.",
+      "The initial index `(1<<k)-1` is the smallest number with `k` set bits."
+    ],
+    [
+      "The simpler approach iterates through all indices `0` to `n-1`.",
+      "For each index, it calculates its population count (number of set bits) using `bin(i)[1:].count('1')`.",
+      "This is straightforward but can be less efficient than the `next_popcount` method if `n` is large and `k` is small.",
+      "The time complexity is dominated by the popcount operation for each of the `n` indices."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,40 @@
+{
+  "problem_name": "design-a-leaderboard",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a Counter (hash map) to store player scores. For `top(K)`, extract scores, sort (or use quickselect), and sum the top K.",
+    "Use a Counter for scores. For `top(K)`, use a modified quickselect (kthElement) to find the Kth largest score in O(n) average time, then sum the top K."
+  ],
+  "problem_summary_simple": "Design a leaderboard to add scores, find the sum of top K scores, and reset player scores.",
+  "problem_summary_technical": "Employ a hash map (Counter) for O(1) score updates/resets. `top(K)` requires sorting or quickselect on scores, leading to O(n log n) or O(n) average time.",
+  "time_complexity": [
+    "ctor: O(1), addScore: O(1), top: O(n log n), reset: O(1)",
+    "ctor: O(1), addScore: O(1), top: O(n) (average), reset: O(1)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A hash map (like `collections.Counter`) is perfect for O(1) average time complexity for `addScore` and `reset` operations.",
+      "The `top(K)` operation is the bottleneck. Sorting all scores takes O(n log n).",
+      "A more efficient approach for `top(K)` is to use a selection algorithm like Quickselect to find the Kth largest element in O(n) average time."
+    ],
+    [
+      "The `kthElement` function implements a randomized Quickselect algorithm to find the Kth smallest element (or in this case, the Kth largest by comparing in reverse).",
+      "By partitioning the scores array around a pivot, we can narrow down the search space for the Kth element.",
+      "After finding the Kth largest element, the first K elements in the (partially sorted) array will be the top K scores, allowing for their summation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

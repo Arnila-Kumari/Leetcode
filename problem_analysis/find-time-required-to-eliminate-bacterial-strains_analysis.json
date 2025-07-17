@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-time-required-to-eliminate-bacterial-strains",
+  "data_structures": [
+    [
+      "min-heap (heapq)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach using a min-heap to always process the strain that finishes earliest after splitting.",
+    "Simulate WBC splitting and task assignment to minimize total time."
+  ],
+  "problem_summary_simple": "Find the minimum time to eliminate all bacterial strains using WBCs that can split.",
+  "problem_summary_technical": "Use a min-heap to manage WBCs and bacterial strains, greedily assigning tasks and simulating splits to minimize completion time.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as assigning tasks (eliminating strains) to workers (WBCs) with a splitting cost.",
+      "A greedy strategy works: always split the WBC that will finish its current task earliest.",
+      "A min-heap is ideal for efficiently retrieving the WBC that finishes earliest."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

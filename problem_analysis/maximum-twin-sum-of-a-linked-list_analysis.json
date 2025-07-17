@@ -1,0 +1,34 @@
+{
+  "problem_name": "maximum-twin-sum-of-a-linked-list",
+  "data_structures": [
+    [
+      "Linked List",
+      "ListNode (for reversing part of the list)"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Fast and slow pointers to find the middle of the linked list.",
+    "Reverse the second half of the linked list.",
+    "Iterate through both halves to find the maximum twin sum."
+  ],
+  "problem_summary_simple": "Find the maximum sum of a node and its twin in a linked list of even length.",
+  "problem_summary_technical": "Uses fast/slow pointers to split the list, reverses the second half, then iterates to find max twin sum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires pairing nodes from the first half with nodes from the second half.",
+      "Reversing the second half allows for direct comparison of twin nodes.",
+      "Fast and slow pointers are a standard technique for linked list manipulation like finding the middle."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

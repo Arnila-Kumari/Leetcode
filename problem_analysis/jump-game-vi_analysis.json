@@ -1,0 +1,31 @@
+{
+  "problem_name": "jump-game-vi",
+  "data_structures": [
+    [
+      "collections.deque"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding Window Maximum (using a deque) for DP optimization"
+  ],
+  "problem_summary_simple": "Find the maximum score by jumping at most k steps forward, summing visited numbers.",
+  "problem_summary_technical": "Dynamic programming where DP[i] is the max score to reach index i. Uses a deque to maintain the maximum DP[j] within the k-step window.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "This is a DP problem: `dp[i] = nums[i] + max(dp[j])` for `i-k <= j < i`.",
+      "A naive DP approach would be O(nk). To optimize, we need to find the maximum in a sliding window efficiently.",
+      "A monotonic decreasing deque stores (index, score) pairs, allowing O(1) retrieval of the maximum score within the current window."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

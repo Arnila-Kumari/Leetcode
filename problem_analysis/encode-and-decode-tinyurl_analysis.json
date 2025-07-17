@@ -1,0 +1,41 @@
+{
+  "problem_name": "encode-and-decode-tinyurl",
+  "data_structures": [
+    [
+      "hash map",
+      "random number generator",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Random key generation and hash map lookup.",
+    "Hashing (e.g., SHA256) and hash map lookup."
+  ],
+  "problem_summary_simple": "Create short URLs for long URLs and decode them back.",
+  "problem_summary_technical": "Maps short unique keys (random or hashed) to long URLs using a hash map for encoding and decoding.",
+  "time_complexity": [
+    "O(1) on average",
+    "O(1) on average"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The system needs to store the mapping between short and long URLs.",
+      "A hash map is ideal for O(1) average time lookups for both encoding and decoding.",
+      "Generating unique short keys is crucial; random generation or hashing are common methods."
+    ],
+    [
+      "Randomly generating a short string and ensuring its uniqueness is one approach.",
+      "Using a cryptographic hash function (like SHA256) on the long URL and taking a prefix is another.",
+      "The choice between random generation and hashing depends on collision probability and desired key distribution."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

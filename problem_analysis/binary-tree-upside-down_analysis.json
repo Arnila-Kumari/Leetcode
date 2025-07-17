@@ -1,0 +1,40 @@
+{
+  "problem_name": "binary-tree-upside-down",
+  "data_structures": [
+    [
+      "TreeNode"
+    ],
+    [
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative tree traversal and pointer manipulation",
+    "Recursive tree traversal and pointer manipulation"
+  ],
+  "problem_summary_simple": "Flip a binary tree upside down, making the left child the new root and rearranging nodes.",
+  "problem_summary_technical": "Reconstructs a binary tree by iteratively or recursively reassigning parent-child pointers based on specific transformation rules.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The iterative solution uses constant extra space by carefully reassigning pointers.",
+      "The core idea is to treat the tree like a linked list and reverse the direction of pointers."
+    ],
+    [
+      "The recursive solution naturally handles the tree structure.",
+      "The parent parameter in the recursive call is crucial for re-linking nodes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

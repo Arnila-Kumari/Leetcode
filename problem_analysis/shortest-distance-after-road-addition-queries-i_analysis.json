@@ -1,0 +1,44 @@
+{
+  "problem_name": "shortest-distance-after-road-addition-queries-i",
+  "data_structures": [
+    [
+      "adjacency list",
+      "queue"
+    ],
+    [
+      "adjacency list",
+      "min-heap"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "For each query, add the road and run BFS from city 0 to city n-1.",
+    "For each query, add the road and run Dijkstra's algorithm from city 0 to city n-1."
+  ],
+  "problem_summary_simple": "Find the shortest path from city 0 to n-1 after adding new roads sequentially.",
+  "problem_summary_technical": "Graph problem where roads are added dynamically. BFS or Dijkstra is used after each addition to find the shortest path.",
+  "time_complexity": [
+    "O(q * (n + e))",
+    "O(q * (n^2 * logn))"
+  ],
+  "space_complexity": [
+    "O(n + e)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The graph is modified with each query, requiring re-computation of the shortest path.",
+      "BFS is suitable for unweighted graphs, while Dijkstra handles weighted graphs (though here edges are implicitly weight 1).",
+      "The constraints on n and queries suggest that a solution recomputing from scratch for each query might be too slow if not optimized."
+    ],
+    [
+      "Dijkstra's algorithm efficiently finds shortest paths in graphs with non-negative edge weights.",
+      "Using a min-heap optimizes Dijkstra's by prioritizing nodes with smaller distances.",
+      "The problem's constraints might push towards a more efficient approach than repeated full graph traversals if possible."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

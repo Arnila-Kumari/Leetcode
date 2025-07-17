@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-good-ways-to-split-a-string",
+  "data_structures": [
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Strings",
+  "algorithm_technique": [
+    "Iterate through possible split points, maintaining counts of distinct characters in left and right substrings using hash maps."
+  ],
+  "problem_summary_simple": "Find splits of a string into two non-empty parts with an equal number of distinct characters in each part.",
+  "problem_summary_technical": "Uses two hash maps to track distinct character counts in left and right substrings as the split point moves.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1) because the alphabet size is constant (26)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking the number of distinct characters on both sides of a split.",
+      "A single pass can efficiently update the counts for the left and right parts.",
+      "When a character moves from the right part to the left part, its count in the right map decreases, and if it becomes zero, the number of distinct characters on the right decreases."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

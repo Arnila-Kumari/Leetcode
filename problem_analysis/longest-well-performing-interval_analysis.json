@@ -1,0 +1,33 @@
+{
+  "problem_name": "longest-well-performing-interval",
+  "data_structures": [
+    [
+      "list",
+      "dictionary",
+      "integer"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Prefix sum with a hash map to store first occurrences of sums."
+  ],
+  "problem_summary_simple": "Find the longest contiguous subarray where tiring days outnumber non-tiring days.",
+  "problem_summary_technical": "Convert hours > 8 to +1, others to -1. Use prefix sums and a hash map to find the longest interval with a positive sum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be transformed into finding the longest subarray with a sum greater than zero, where elements are +1 for tiring days and -1 for non-tiring days.",
+      "A prefix sum array (or running sum) is used. Let `P[i]` be the prefix sum up to index `i`. We are looking for `j > i` such that `P[j] - P[i] > 0` and `j - i` is maximized.",
+      "To optimize finding `P[i]` such that `P[j] - P[i] > 0` (or `P[i] < P[j]`), we can use a hash map to store the first occurrence of each prefix sum. When we encounter a prefix sum `S` at index `j`, we look for the smallest index `i` where `P[i] = S - k` for `k > 0`. The hash map helps us find the earliest occurrence of `S-1`, `S-2`, etc., efficiently."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

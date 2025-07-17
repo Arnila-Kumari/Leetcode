@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-substring-with-given-hash-value",
+  "data_structures": [
+    [
+      "string",
+      "integer variables"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Rolling hash to efficiently calculate hash values of substrings in O(1) after initial computation."
+  ],
+  "problem_summary_simple": "Find the first substring of length k that matches a given hash value.",
+  "problem_summary_technical": "Employs a rolling hash technique, calculating substring hashes iteratively by removing the leading character's contribution and adding the trailing character's.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Rolling hash is crucial for achieving linear time complexity.",
+      "The hash calculation needs to be done modulo m to prevent overflow and maintain correctness.",
+      "Processing the string in reverse simplifies the rolling hash update logic."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "second-largest-digit-in-a-string",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through string, track first and second largest digits"
+  ],
+  "problem_summary_simple": "Find the second largest digit in a string, or -1 if it doesn't exist.",
+  "problem_summary_technical": "Iterate through alphanumeric string, maintain two variables for largest and second largest digits encountered.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Initialize `first` and `second` to -1 to handle cases where no digits or only one unique digit exists.",
+      "Use `isdigit()` to efficiently filter out non-digit characters.",
+      "Update `first` and `second` carefully to maintain the correct order."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

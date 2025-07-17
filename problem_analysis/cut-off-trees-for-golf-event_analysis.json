@@ -1,0 +1,47 @@
+{
+  "problem_name": "cut-off-trees-for-golf-event",
+  "data_structures": [
+    [
+      "heapq (min-heap)",
+      "collections.deque",
+      "set"
+    ],
+    [
+      "heapq (min-heap)",
+      "collections.deque",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "BFS for shortest path between trees, prioritized by tree height using a min-heap",
+    "BFS for shortest path between trees, prioritized by tree height using a min-heap (TLE version)"
+  ],
+  "problem_summary_simple": "Cut all trees in a forest from shortest to tallest, starting at (0,0).",
+  "problem_summary_technical": "Sort trees by height, then use BFS to find shortest paths between consecutive trees, summing up steps.",
+  "time_complexity": [
+    "O(T * (logT + M*N))",
+    "O(T * (logT + M*N))"
+  ],
+  "space_complexity": [
+    "O(T + M*N)",
+    "O(T + M*N)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires visiting trees in increasing order of height.",
+      "BFS is suitable for finding the shortest path in an unweighted grid.",
+      "A min-heap is crucial for efficiently selecting the next tree to visit.",
+      "The provided `minStep` function uses a bidirectional BFS-like approach for optimization."
+    ],
+    [
+      "The provided `minStep` function uses a standard BFS approach.",
+      "The TLE version likely indicates that the BFS implementation or the overall approach might be too slow for larger grids or many trees.",
+      "The core logic of sorting trees and finding paths remains the same."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:39:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

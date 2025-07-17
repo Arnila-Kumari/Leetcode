@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-number-of-coins-you-can-get",
+  "data_structures": [
+    [
+      "array",
+      "iterator"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the piles and greedily pick the second largest pile in each triplet to maximize your coins."
+  ],
+  "problem_summary_simple": "Maximize your coins by picking piles in turns with friends, where Alice picks the largest, you pick the second largest, and Bob picks the smallest.",
+  "problem_summary_technical": "Sort the piles. In each step, Alice takes the largest, you take the second largest, and Bob takes the smallest from a chosen triplet.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The optimal strategy is to always pair the largest available pile (for Alice) with the second largest (for you) and the smallest (for Bob).",
+      "By sorting the piles, we can easily identify these largest, second largest, and smallest piles.",
+      "The key insight is that to maximize your gain, you should ensure Bob always gets the smallest possible pile, leaving the larger ones for you and Alice."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

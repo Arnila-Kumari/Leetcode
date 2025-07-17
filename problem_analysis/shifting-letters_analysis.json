@@ -1,0 +1,32 @@
+{
+  "problem_name": "shifting-letters",
+  "data_structures": [
+    [
+      "string",
+      "list of integers"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculating cumulative shifts from right to left and applying them to characters"
+  ],
+  "problem_summary_simple": "Shift letters in a string based on an array of shift amounts for prefixes.",
+  "problem_summary_technical": "Calculate total shifts for each character by summing shifts from right to left and applying modulo 26.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A shift at index `i` affects all characters from index `0` to `i`.",
+      "The total shift for a character at index `j` is the sum of `shifts[i]` for all `i >= j`.",
+      "This cumulative shift can be efficiently calculated by iterating from right to left, keeping track of the running sum of shifts."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

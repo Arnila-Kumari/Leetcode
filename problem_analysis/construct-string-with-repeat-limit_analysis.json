@@ -1,0 +1,32 @@
+{
+  "problem_name": "construct-string-with-repeat-limit",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using character counts and a max-heap (or sorted counts)"
+  ],
+  "problem_summary_simple": "Construct the lexicographically largest string with a limit on consecutive identical characters.",
+  "problem_summary_technical": "Greedy construction by picking the largest available character, respecting repeat limits, and alternating with the next largest if needed.",
+  "time_complexity": [
+    "O(26 * n)"
+  ],
+  "space_complexity": [
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "To achieve the lexicographically largest string, we should prioritize using larger characters first.",
+      "A greedy strategy works: pick the largest available character, use it up to `repeatLimit` times, then pick the next largest available character.",
+      "Care must be taken to ensure that after using a character `repeatLimit` times, the next character picked is different."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

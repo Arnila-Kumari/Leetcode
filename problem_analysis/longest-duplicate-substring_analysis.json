@@ -1,0 +1,33 @@
+{
+  "problem_name": "longest-duplicate-substring",
+  "data_structures": [
+    [
+      "string",
+      "dictionary",
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "binary search on length with rolling hash (Rabin-Karp)"
+  ],
+  "problem_summary_simple": "Find the longest substring that appears at least twice in a given string.",
+  "problem_summary_technical": "Binary search for the longest possible duplicate substring length. For each length, use a rolling hash to efficiently check for duplicates.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the maximum length `L` for which a duplicate substring of length `L` exists.",
+      "Binary search on `L` is efficient because if a duplicate substring of length `L` exists, then one of length `L-1` also exists.",
+      "Rolling hash (Rabin-Karp) is used to efficiently compute and compare hashes of substrings of a fixed length in O(n) time per length."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:49:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

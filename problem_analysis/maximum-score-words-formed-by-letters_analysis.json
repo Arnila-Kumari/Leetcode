@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-score-words-formed-by-letters",
+  "data_structures": [
+    [
+      "list",
+      "collections.Counter",
+      "list of collections.Counter"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with pruning based on available letters"
+  ],
+  "problem_summary_simple": "Find the maximum score by forming words from a given set of letters.",
+  "problem_summary_technical": "Use backtracking to explore combinations of words, pruning branches where letter counts exceed availability.",
+  "time_complexity": [
+    "O(2^n * m)"
+  ],
+  "space_complexity": [
+    "O(n * m)"
+  ],
+  "key_insights": [
+    [
+      "This is a combinatorial problem solvable with backtracking.",
+      "Pre-calculating word scores and letter counts for each word optimizes the backtracking process.",
+      "Pruning is essential: if a word cannot be formed with current letters, skip that branch."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

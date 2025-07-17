@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-adjacent-elements-with-the-same-color",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Maintain the current count of adjacent pairs and update it incrementally based on the color changes at the queried index and its neighbors."
+  ],
+  "problem_summary_simple": "Count adjacent same-colored pairs after each color update in an array.",
+  "problem_summary_technical": "Simulate color changes, maintaining a running count of adjacent same-colored pairs by checking affected neighbors.",
+  "time_complexity": [
+    "O(Q)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Instead of recounting all adjacent pairs after each query, efficiently update the count by considering only the changes around the modified index.",
+      "When an element at index `i` changes color, the adjacent pairs `(i-1, i)` and `(i, i+1)` are the only ones whose contribution to the count might change.",
+      "The `update` helper function encapsulates the logic for calculating the change in count due to a color change at a specific index."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

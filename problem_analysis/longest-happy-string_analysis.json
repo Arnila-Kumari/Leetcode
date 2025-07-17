@@ -1,0 +1,42 @@
+{
+  "problem_name": "longest-happy-string",
+  "data_structures": [
+    [
+      "heap (priority queue)",
+      "list"
+    ],
+    [
+      "list",
+      "list of lists"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using a max-heap to prioritize characters with higher counts, ensuring no three consecutive identical characters.",
+    "Greedy approach with sorting and direct manipulation of counts, prioritizing characters that don't violate the consecutive rule."
+  ],
+  "problem_summary_simple": "Construct the longest string using 'a', 'b', 'c' without three consecutive identical characters, respecting given counts.",
+  "problem_summary_technical": "Employs a max-heap or sorted counts to greedily append characters, prioritizing those with higher remaining counts and avoiding triple repetitions.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log 3) which simplifies to O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A max-heap is ideal for always picking the character with the most remaining occurrences.",
+      "The condition `len(result) >= 2 and result[-1] == result[-2] == c1` is key to preventing three consecutive identical characters."
+    ],
+    [
+      "Sorting the choices at each step ensures the greedy choice is always made.",
+      "The `result[-2:] != [c, c]` check is crucial for maintaining the happy string property."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

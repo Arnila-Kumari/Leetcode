@@ -1,0 +1,46 @@
+{
+  "problem_name": "maximum-number-of-non-overlapping-substrings",
+  "data_structures": [
+    [
+      "list",
+      "list",
+      "list of tuples"
+    ],
+    [
+      "list",
+      "list",
+      "list of tuples"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Find valid substrings based on character occurrences, then greedily select non-overlapping ones.",
+    "Interval scheduling approach on valid substrings."
+  ],
+  "problem_summary_simple": "Find the maximum number of non-overlapping substrings where each substring contains all occurrences of its characters.",
+  "problem_summary_technical": "Determine valid substring intervals by character bounds. Sort intervals by end point and greedily select non-overlapping ones.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A substring is valid if it spans from the first to the last occurrence of every character it contains.",
+      "This implies that for each character `c`, the substring must cover `[first[c], last[c]]`.",
+      "The problem can be reframed as finding the maximum number of non-overlapping intervals."
+    ],
+    [
+      "First, determine the minimal valid interval for each character that appears in the string.",
+      "Then, for each character, find the smallest valid substring that contains all its occurrences.",
+      "Finally, apply a greedy interval scheduling algorithm to select the maximum number of non-overlapping substrings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

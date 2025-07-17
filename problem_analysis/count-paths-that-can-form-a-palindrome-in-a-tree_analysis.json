@@ -1,0 +1,44 @@
+{
+  "problem_name": "count-paths-that-can-form-a-palindrome-in-a-tree",
+  "data_structures": [
+    [
+      "adjacency list",
+      "hash map (defaultdict)"
+    ],
+    [
+      "adjacency list",
+      "hash map (defaultdict)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Iterative DFS with XOR mask and frequency count",
+    "Recursive DFS with XOR mask and frequency count"
+  ],
+  "problem_summary_simple": "Count paths in a tree where edge characters can form a palindrome.",
+  "problem_summary_technical": "Uses XOR masks to represent character parity on paths from root. Leverages frequency maps to count paths with palindromic potential.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A path can form a palindrome if at most one character appears an odd number of times.",
+      "XORing character masks efficiently tracks parity of characters on a path.",
+      "The frequency map stores XOR masks of paths from the root to each node."
+    ],
+    [
+      "The core idea is that the XOR sum of masks for two paths from the root to nodes u and v, when XORed, gives the XOR sum of the path between u and v.",
+      "A path between u and v can form a palindrome if its XOR sum is 0 (all even counts) or a power of 2 (one odd count).",
+      "The frequency map `cnt` stores the count of nodes encountered so far that have a specific XOR mask from the root."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:17:37",
+  "batch_processed": true,
+  "batch_size": 4
+}

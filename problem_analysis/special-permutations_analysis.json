@@ -1,0 +1,32 @@
+{
+  "problem_name": "special-permutations",
+  "data_structures": [
+    [
+      "array",
+      "2D array (for memoization)"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with memoization (dynamic programming on subsets)"
+  ],
+  "problem_summary_simple": "Count permutations where adjacent elements are divisible by each other.",
+  "problem_summary_technical": "Use backtracking with bitmasking to explore permutations, memoizing results for (last element index, mask) to avoid recomputation.",
+  "time_complexity": [
+    "O(N^2 * 2^N)"
+  ],
+  "space_complexity": [
+    "O(N * 2^N)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding paths in a state space defined by the current permutation and the set of used numbers.",
+      "Bitmasking is essential to keep track of which numbers have been used in the permutation.",
+      "Memoization (dynamic programming) is crucial to optimize the overlapping subproblems, where the state is (index of last element, mask of used elements)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

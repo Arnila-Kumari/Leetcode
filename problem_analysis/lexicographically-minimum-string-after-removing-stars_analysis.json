@@ -1,0 +1,32 @@
+{
+  "problem_name": "lexicographically-minimum-string-after-removing-stars",
+  "data_structures": [
+    [
+      "list",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using a stack-like structure to find and remove the smallest character to the left of a star."
+  ],
+  "problem_summary_simple": "Remove stars by deleting the leftmost star and its smallest preceding character.",
+  "problem_summary_technical": "Uses a frequency map and a list to track character positions, greedily removing characters before stars.",
+  "time_complexity": [
+    "O(n + 26)"
+  ],
+  "space_complexity": [
+    "O(n + 26)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires a greedy strategy to achieve the lexicographically smallest result.",
+      "A data structure that efficiently finds the smallest character to the left of a '*' is needed.",
+      "A list of lists (or array of lists) can store indices of characters, allowing efficient removal of the smallest."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

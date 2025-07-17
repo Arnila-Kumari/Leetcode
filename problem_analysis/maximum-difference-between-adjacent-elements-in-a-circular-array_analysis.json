@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-difference-between-adjacent-elements-in-a-circular-array",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterative traversal with absolute difference calculation"
+  ],
+  "problem_summary_simple": "Find the largest difference between any two adjacent elements in a circular array.",
+  "problem_summary_technical": "Iterate through the array, calculating the absolute difference between each element and its predecessor, including the wrap-around case.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The circular nature means the last element is adjacent to the first.",
+      "A single pass through the array is sufficient to find the maximum difference.",
+      "The `abs()` function is crucial for handling differences in both directions."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:52:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

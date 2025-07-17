@@ -1,0 +1,40 @@
+{
+  "problem_name": "longest-string-chain",
+  "data_structures": [
+    [
+      "defaultdict",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Sort words by length, then use DP: dp[word] = max(dp[predecessor] + 1).",
+    "Generate all possible predecessors for each word and check if they exist in the DP table."
+  ],
+  "problem_summary_simple": "Find the longest sequence of words where each word is formed by adding one character to the previous.",
+  "problem_summary_technical": "Sort words by length. DP: dp[w] = max(dp[w_without_char] + 1). Predecessor check involves removing one char.",
+  "time_complexity": [
+    "O(n * l^2)",
+    "O(n * l^2)"
+  ],
+  "space_complexity": [
+    "O(n * l)",
+    "O(n * l)"
+  ],
+  "key_insights": [
+    [
+      "Sorting by length ensures that when we process a word, all its potential predecessors have already been processed.",
+      "The DP state `dp[w]` stores the length of the longest chain ending with word `w`.",
+      "Generating predecessors by removing one character at a time is efficient given the small word length constraint."
+    ],
+    [
+      "The core idea is to build chains incrementally.",
+      "A hash map (defaultdict) is essential for efficient lookup of predecessor chain lengths.",
+      "The time complexity is dominated by generating predecessors for each word."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

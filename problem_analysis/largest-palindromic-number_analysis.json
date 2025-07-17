@@ -1,0 +1,34 @@
+{
+  "problem_name": "largest-palindromic-number",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Count digit frequencies, greedily build the palindrome from largest digits with even counts."
+  ],
+  "problem_summary_simple": "Construct the largest palindromic number using digits from a given string.",
+  "problem_summary_technical": "Use a frequency map to count digits, then greedily construct the palindrome by pairing digits from largest to smallest.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The largest palindrome is formed by using the most frequent digits first.",
+      "Digits with even counts form pairs for the outer parts of the palindrome.",
+      "A single digit with an odd count can be placed in the center.",
+      "Handle leading zeros carefully, especially when the palindrome is just '0'."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

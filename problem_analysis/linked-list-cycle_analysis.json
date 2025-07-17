@@ -1,0 +1,33 @@
+{
+  "problem_name": "linked-list-cycle",
+  "data_structures": [
+    [
+      "linked list",
+      "two pointers"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Use Floyd's Tortoise and Hare algorithm (two pointers) to detect cycles.",
+    "Fast pointer moves two steps, slow pointer moves one step; if they meet, a cycle exists."
+  ],
+  "problem_summary_simple": "Determine if a linked list contains a cycle.",
+  "problem_summary_technical": "Employ two pointers (fast and slow) to detect a cycle in a linked list by their meeting.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The fast pointer will eventually catch up to the slow pointer if a cycle exists.",
+      "This algorithm is efficient in terms of space complexity, using only constant extra space.",
+      "Edge cases like an empty list or a list with one node must be handled."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

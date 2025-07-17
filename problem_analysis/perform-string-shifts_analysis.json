@@ -1,0 +1,32 @@
+{
+  "problem_name": "perform-string-shifts",
+  "data_structures": [
+    [
+      "string",
+      "list of lists"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Calculate net shift by summing/subtracting amounts, then apply modulo and slice string."
+  ],
+  "problem_summary_simple": "Shift a string left or right multiple times and return the final string.",
+  "problem_summary_technical": "Net shift calculation using modulo arithmetic on string length to optimize multiple shifts into one.",
+  "time_complexity": [
+    "O(N + L)"
+  ],
+  "space_complexity": [
+    "O(L)"
+  ],
+  "key_insights": [
+    [
+      "Consolidating all shifts into a single net shift significantly optimizes the operation.",
+      "Modulo arithmetic is crucial for handling shifts that exceed the string length.",
+      "String slicing provides an efficient way to perform the final shift."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:04:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

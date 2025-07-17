@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-symmetric-integers",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Brute-force check of each number in the range by converting to string and summing digits."
+  ],
+  "problem_summary_simple": "Count numbers in a range where the sum of the first half of digits equals the sum of the second half.",
+  "problem_summary_technical": "Iterates through the given range, converts each number to a string, and checks if the sum of the first half of digits equals the sum of the second half.",
+  "time_complexity": [
+    "O(r log r)"
+  ],
+  "space_complexity": [
+    "O(r)"
+  ],
+  "key_insights": [
+    [
+      "The problem defines symmetry based on the sum of digits in the first and second halves of a number.",
+      "Numbers with an odd number of digits are explicitly excluded from being symmetric.",
+      "The provided solution uses a lookup table (memoization) to store results for already checked numbers, which can optimize repeated calls if the range is large and sparse."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:38:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

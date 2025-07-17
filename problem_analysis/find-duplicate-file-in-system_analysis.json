@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-duplicate-file-in-system",
+  "data_structures": [
+    [
+      "hashmap (defaultdict)",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Parse paths, group files by content using a hashmap."
+  ],
+  "problem_summary_simple": "Find groups of files with identical content across a file system.",
+  "problem_summary_technical": "Parse directory strings, use a hashmap to map file content to a list of file paths, then filter for content with multiple paths.",
+  "time_complexity": [
+    "O(N*L), where N is the number of paths and L is the average length of file content."
+  ],
+  "space_complexity": [
+    "O(N*L), to store file paths and content in the hashmap."
+  ],
+  "key_insights": [
+    [
+      "The core idea is to use file content as the key in a hashmap to group files.",
+      "Parsing the input strings requires careful handling of delimiters like spaces and parentheses.",
+      "The follow-up questions highlight considerations for large files and real-world file system interactions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

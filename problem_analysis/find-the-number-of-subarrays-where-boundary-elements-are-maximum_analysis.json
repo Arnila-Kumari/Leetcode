@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-the-number-of-subarrays-where-boundary-elements-are-maximum",
+  "data_structures": [
+    [
+      "stack",
+      "array"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to find previous and next greater elements.",
+    "Combinatorics to count subarrays based on element occurrences."
+  ],
+  "problem_summary_simple": "Count subarrays where the first and last elements are the maximum in that subarray.",
+  "problem_summary_technical": "Monotonic stack helps identify ranges where an element is the maximum, then combinatorics counts valid subarrays.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A monotonic stack (increasing) is ideal for finding the nearest greater element to the left and right.",
+      "For an element `x` at index `i`, if its previous greater element is at `prev` and next greater is at `next`, then `x` is the maximum in subarrays `(prev+1, i)` and `(i, next-1)`.",
+      "The number of subarrays where `x` is the maximum and is also a boundary element depends on the counts of `x` in the relevant segments."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

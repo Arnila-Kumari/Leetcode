@@ -1,0 +1,43 @@
+{
+  "problem_name": "number-of-ways-to-reorder-array-to-get-same-bst",
+  "data_structures": [
+    [
+      "2D array (for combinations)",
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Recursive DFS with precomputed combinations (Pascal's Triangle)",
+    "Iterative DFS with precomputed combinations (Pascal's Triangle)"
+  ],
+  "problem_summary_simple": "Find ways to reorder an array to form the same Binary Search Tree.",
+  "problem_summary_technical": "Calculate combinations for left/right subtrees recursively, using precomputed Pascal's triangle for efficiency.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The number of ways to interleave left and right subtree elements is given by combinations (n choose k).",
+      "Precomputing combinations using Pascal's triangle (DP) is crucial for performance.",
+      "The root element's position is fixed; the problem reduces to independent subproblems for left and right subtrees."
+    ],
+    [
+      "The problem can be solved recursively by considering the root and partitioning the remaining elements into left and right subtrees.",
+      "The number of ways to arrange elements within a subtree is the product of ways to arrange its left and right children's elements.",
+      "The total number of ways is (total elements choose left elements) * ways(left subtree) * ways(right subtree)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-deletions-to-make-character-frequencies-unique",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "set",
+      "string.ascii_lowercase"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting and greedy adjustment using a set to track used frequencies."
+  ],
+  "problem_summary_simple": "Delete minimum characters so no two characters have the same frequency.",
+  "problem_summary_technical": "Count character frequencies, then greedily reduce frequencies to make them unique, using a set to track occupied frequency values.",
+  "time_complexity": [
+    "O(n + 26*max_freq)"
+  ],
+  "space_complexity": [
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to ensure no two characters share the same frequency.",
+      "A greedy approach works: for each character, if its frequency is already taken, decrement it until an available frequency is found.",
+      "Using a set to keep track of used frequencies allows for efficient checking and insertion."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

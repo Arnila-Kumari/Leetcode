@@ -1,0 +1,46 @@
+{
+  "problem_name": "delete-duplicate-folders-in-system",
+  "data_structures": [
+    [
+      "dictionary",
+      "list",
+      "dictionary"
+    ],
+    [
+      "dictionary",
+      "list",
+      "dictionary"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Build a trie of folder paths, serialize subtrees to identify duplicates, and mark for deletion.",
+    "Build a trie, serialize subtrees using string representation for duplicate detection, and mark for deletion."
+  ],
+  "problem_summary_simple": "Delete duplicate folders and their subfolders from a file system.",
+  "problem_summary_technical": "Use a trie to represent the file system, serialize subtrees to detect identical structures, and prune marked duplicates.",
+  "time_complexity": [
+    "O(n * m * l + tlogt + l * t)",
+    "O(n * m * l + l * tlogt + l * t^2)"
+  ],
+  "space_complexity": [
+    "O(l * t)",
+    "O(l * t^2)"
+  ],
+  "key_insights": [
+    [
+      "A trie is a natural fit for representing hierarchical file paths.",
+      "Folder identity is determined by the structure and names of subfolders, not just the path.",
+      "Serializing the subtree structure (e.g., by sorting child IDs/names and concatenating) allows for easy comparison and duplicate detection."
+    ],
+    [
+      "The key is to represent the 'content' of a folder (its subfolders and their structures) in a canonical way.",
+      "A recursive serialization function that returns a string representation of a node's children is effective.",
+      "A lookup table (hash map) stores these serialized strings to quickly find duplicates."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:39:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

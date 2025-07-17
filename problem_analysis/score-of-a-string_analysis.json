@@ -1,0 +1,31 @@
+{
+  "problem_name": "score-of-a-string",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the string and sum absolute differences of adjacent character ASCII values"
+  ],
+  "problem_summary_simple": "Calculate the score of a string by summing adjacent character ASCII differences.",
+  "problem_summary_technical": "Iterate through adjacent character pairs, compute absolute ASCII differences, and sum them up.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a straightforward iteration and summation.",
+      "`ord()` function is used to get ASCII values.",
+      "Absolute difference ensures the order of characters doesn't matter for a pair."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

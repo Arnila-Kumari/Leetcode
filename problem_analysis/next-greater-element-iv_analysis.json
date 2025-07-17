@@ -1,0 +1,32 @@
+{
+  "problem_name": "next-greater-element-iv",
+  "data_structures": [
+    [
+      "stack",
+      "array"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Two monotonic stacks to track first and second greater elements"
+  ],
+  "problem_summary_simple": "Find the second greater element to the right for each number in an array.",
+  "problem_summary_technical": "Utilizes two monotonic stacks: one for first greater elements and another for second greater elements, processing elements and updating results.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem requires finding the second greater element, which implies a need to track elements that have already found their first greater element.",
+      "Two monotonic stacks are used: `stk1` for elements waiting for their first greater element, and `stk2` for elements waiting for their second greater element.",
+      "When an element `x` is processed, it becomes the second greater element for elements in `stk2` that are smaller than `x`, and the first greater element for elements in `stk1` that are smaller than `x`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:01:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

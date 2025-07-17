@@ -1,0 +1,34 @@
+{
+  "problem_name": "random-point-in-non-overlapping-rectangles",
+  "data_structures": [
+    [
+      "list",
+      "prefix sum array",
+      "random number generator",
+      "binary search"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sums to map random numbers to rectangles, binary search for efficient selection."
+  ],
+  "problem_summary_simple": "Pick a random integer point uniformly from a set of non-overlapping rectangles.",
+  "problem_summary_technical": "Uses prefix sums of rectangle areas to select a rectangle, then binary search to pick a point within it.",
+  "time_complexity": [
+    "ctor: O(n), pick: O(logn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to treat the total area as a single large range and map a random number to a specific rectangle based on its area.",
+      "Prefix sums are crucial for efficiently determining which rectangle a random number falls into.",
+      "Binary search (bisect_right) is used to find the index of the chosen rectangle in the prefix sum array."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

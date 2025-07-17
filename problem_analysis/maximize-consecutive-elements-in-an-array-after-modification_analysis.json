@@ -1,0 +1,56 @@
+{
+  "problem_name": "maximize-consecutive-elements-in-an-array-after-modification",
+  "data_structures": [
+    [
+      "Array",
+      "Dynamic Programming"
+    ],
+    [
+      "Hash Map",
+      "Dynamic Programming"
+    ],
+    [
+      "Hash Map",
+      "Dynamic Programming"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Sort and DP with fixed-size DP array",
+    "Sort and DP with hash map",
+    "Sort and DP with hash map (optimized)"
+  ],
+  "problem_summary_simple": "Find the maximum number of consecutive elements in an array after increasing some elements by at most 1.",
+  "problem_summary_technical": "Sort the array and use dynamic programming to track the maximum length of consecutive sequences ending at `x` or `x+1`.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is essential to group potential consecutive numbers together.",
+      "The DP state can represent the maximum length of a consecutive sequence ending with the current number or the current number + 1.",
+      "The transitions depend on the relationship between the current number and the previous number (equal, difference of 1, difference of 2)."
+    ],
+    [
+      "A hash map (defaultdict) is used to store DP states, mapping a number to the maximum consecutive sequence length ending with it.",
+      "When processing `nums[i]`, we consider extending sequences ending at `nums[i]-1`, `nums[i]`, or `nums[i]+1`.",
+      "The key insight is that `dp[x]` can be derived from `dp[x-1]` (if `x-1` was present) and `dp[x+1]` can be derived from `dp[x]`."
+    ],
+    [
+      "This optimized DP approach directly calculates `dp[x+1]` based on `dp[x]` and `dp[x]` based on `dp[x-1]`.",
+      "It efficiently captures the idea that if we have a sequence ending at `x`, we can extend it to `x+1`.",
+      "The maximum value in the DP map after processing all numbers gives the final answer."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

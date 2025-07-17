@@ -1,0 +1,44 @@
+{
+  "problem_name": "sort-an-array",
+  "data_structures": [
+    [
+      "array",
+      "temporary array for merging"
+    ],
+    [
+      "array",
+      "recursion stack"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Merge Sort: Recursively divide the array, sort subarrays, and merge them. Implemented in-place with a temporary array.",
+    "Quick Sort (with Nth element optimization): Use randomized partitioning to place elements correctly, then recursively sort partitions. Nth element helps achieve O(n log n) average time."
+  ],
+  "problem_summary_simple": "Sort an array of integers in ascending order without using built-in sort functions.",
+  "problem_summary_technical": "Implement Merge Sort or Quick Sort to achieve O(n log n) time complexity and O(n) or O(log n) space complexity respectively.",
+  "time_complexity": [
+    "Merge Sort: O(n log n)",
+    "Quick Sort: O(n log n) on average, O(n^2) worst-case (mitigated by randomization/pivot selection)."
+  ],
+  "space_complexity": [
+    "Merge Sort: O(n) for the temporary array.",
+    "Quick Sort: O(log n) on average for the recursion stack, O(n) worst-case."
+  ],
+  "key_insights": [
+    [
+      "Merge Sort guarantees O(n log n) time complexity but requires O(n) extra space.",
+      "Quick Sort has better average space complexity (O(log n)) but can degrade to O(n^2) in the worst case.",
+      "The constraint of not using built-in functions requires implementing a standard sorting algorithm from scratch."
+    ],
+    [
+      "Quick Sort's performance heavily relies on pivot selection; randomization or median-of-three helps avoid worst-case scenarios.",
+      "The `nth_element` approach in Quick Sort is a form of selection algorithm that can be used to partition the array efficiently.",
+      "Understanding the recursive nature and partitioning logic is key to implementing Quick Sort correctly."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

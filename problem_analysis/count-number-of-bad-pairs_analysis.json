@@ -1,0 +1,33 @@
+{
+  "problem_name": "count-number-of-bad-pairs",
+  "data_structures": [
+    [
+      "hash map",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency map (Counter) to count good pairs and subtract from total pairs."
+  ],
+  "problem_summary_simple": "Count pairs (i, j) where i < j and j - i != nums[j] - nums[i].",
+  "problem_summary_technical": "Rearrange the condition to `j - nums[j] == i - nums[i]`. Count pairs satisfying this (good pairs) using a frequency map.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The condition for a bad pair is `i < j` and `j - i != nums[j] - nums[i]`.",
+      "The condition for a good pair is `i < j` and `j - i == nums[j] - nums[i]`.",
+      "Rearranging the good pair condition gives `j - nums[j] == i - nums[i]`.",
+      "This means we can count good pairs by finding how many pairs of indices `(i, j)` have the same value for `index - value`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

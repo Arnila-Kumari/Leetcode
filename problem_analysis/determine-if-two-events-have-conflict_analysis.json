@@ -1,0 +1,31 @@
+{
+  "problem_name": "determine-if-two-events-have-conflict",
+  "data_structures": [
+    [
+      "string arrays"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Compare start and end times of two events to detect overlap."
+  ],
+  "problem_summary_simple": "Determine if two time intervals overlap.",
+  "problem_summary_technical": "Check for interval overlap by comparing the maximum start time with the minimum end time.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Two intervals [a, b] and [c, d] overlap if max(a, c) <= min(b, d).",
+      "String comparison works directly for HH:MM format.",
+      "No complex data structures or algorithms are needed."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

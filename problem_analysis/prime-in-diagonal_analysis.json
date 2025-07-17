@@ -1,0 +1,32 @@
+{
+  "problem_name": "prime-in-diagonal",
+  "data_structures": [
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Precompute primes using a sieve, then iterate through diagonals and check for primes."
+  ],
+  "problem_summary_simple": "Find the largest prime number on either diagonal of a 2D array.",
+  "problem_summary_technical": "Precompute primes up to MAX_N using a linear sieve. Iterate through diagonals, check if elements are in the prime set, and track the maximum prime.",
+  "time_complexity": [
+    "O(MAX_N + n)"
+  ],
+  "space_complexity": [
+    "O(MAX_N)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating primes up to the maximum possible value in the array is more efficient than checking primality for each number individually.",
+      "A set provides O(1) average time complexity for checking if a number is prime.",
+      "The problem requires checking both the main diagonal (i, i) and the anti-diagonal (i, n-1-i)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

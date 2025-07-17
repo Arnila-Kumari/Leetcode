@@ -1,0 +1,41 @@
+{
+  "problem_name": "the-number-of-good-subsets",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list",
+      "bitmask"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Uses prime factorization and bitmasks to represent subsets, with DP on masks.",
+    "Sieve for primes, bitmasks for prime products, DP to count subsets with specific prime products."
+  ],
+  "problem_summary_simple": "Count subsets whose product is a product of distinct prime numbers.",
+  "problem_summary_technical": "Employs prime factorization, bitmasks to represent prime products, and dynamic programming on these masks.",
+  "time_complexity": [
+    "O(N * 2^P)",
+    "O(N * 2^P)"
+  ],
+  "space_complexity": [
+    "O(2^P)",
+    "O(2^P)"
+  ],
+  "key_insights": [
+    [
+      "Numbers with square factors of primes (e.g., 4, 8, 12) cannot be part of a good subset's product.",
+      "Prime factorization and bitmasks are effective for representing products of distinct primes.",
+      "Dynamic programming on bitmasks allows efficient counting of valid combinations."
+    ],
+    [
+      "Pre-calculating primes using a sieve is efficient.",
+      "A bitmask can represent the set of prime factors for each number.",
+      "DP state `dp[mask]` stores the count of subsets whose product's prime factors are represented by `mask`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:12:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

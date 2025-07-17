@@ -1,0 +1,32 @@
+{
+  "problem_name": "binary-subarrays-with-sum",
+  "data_structures": [
+    [
+      "array",
+      "integer variables for pointers and sums"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to maintain a sliding window and count valid subarrays."
+  ],
+  "problem_summary_simple": "Count subarrays in a binary array that sum up to a specific goal.",
+  "problem_summary_technical": "Uses a two-pointer approach to efficiently count subarrays with a target sum in a binary array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to use two pointers (left and right) to define a window.",
+      "The `sum_right` pointer expands the window, while `sum_left` contracts it when the sum exceeds the goal.",
+      "The logic for `sum_right` handles cases where `goal` is 0 by ensuring the window doesn't shrink past leading zeros."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

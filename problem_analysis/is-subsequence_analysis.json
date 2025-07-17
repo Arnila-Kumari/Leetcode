@@ -1,0 +1,31 @@
+{
+  "problem_name": "is-subsequence",
+  "data_structures": [
+    [
+      "string pointers"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to iterate through both strings, matching characters sequentially."
+  ],
+  "problem_summary_simple": "Check if string 's' can be formed by deleting characters from string 't' while maintaining order.",
+  "problem_summary_technical": "Use two pointers, one for 's' and one for 't', to find matching characters in sequence.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The relative order of characters in 's' must be preserved in 't'.",
+      "Advance the pointer for 's' only when a match is found.",
+      "If the pointer for 's' reaches the end, 's' is a subsequence of 't'."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

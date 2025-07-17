@@ -1,0 +1,32 @@
+{
+  "problem_name": "better-compression-of-string",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting and sorting using an array as a frequency map."
+  ],
+  "problem_summary_simple": "Compress a string by consolidating character counts alphabetically.",
+  "problem_summary_technical": "Aggregate character frequencies from a compressed string into a fixed-size array and reconstruct the alphabetically sorted compressed string.",
+  "time_complexity": [
+    "O(n + 26)"
+  ],
+  "space_complexity": [
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to consolidate frequencies for the same character that might appear multiple times in the input.",
+      "A fixed-size array (size 26 for lowercase English letters) acts as a frequency map, similar to counting sort.",
+      "Iterate through the compressed string, parse character-frequency pairs, and update the frequency map.",
+      "Finally, iterate through the frequency map to build the new compressed string in alphabetical order."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

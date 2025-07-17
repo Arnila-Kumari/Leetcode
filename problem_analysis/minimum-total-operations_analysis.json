@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-total-operations",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate and count adjacent differences"
+  ],
+  "problem_summary_simple": "Find the minimum operations to make all array elements equal by adding to prefixes.",
+  "problem_summary_technical": "Calculates minimum operations by summing differences between adjacent elements, representing prefix changes.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that an operation on a prefix affects all elements up to that point.",
+      "A change in value between adjacent elements `nums[i]` and `nums[i+1]` necessitates an operation.",
+      "The total number of operations is the count of such adjacent value changes."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:00:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,40 @@
+{
+  "problem_name": "number-of-strings-which-can-be-rearranged-to-contain-substring",
+  "data_structures": [
+    [],
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Combinatorics and Principle of Inclusion-Exclusion",
+    "Bitmask DP: Track presence of 'l', 'e', 'ee', 't' using bitmasks."
+  ],
+  "problem_summary_simple": "Count strings of length n that can form 'leet' by rearranging characters.",
+  "problem_summary_technical": "Calculate total strings minus those missing required characters ('l', 'e', 't', 'ee') using inclusion-exclusion or DP with bitmasks.",
+  "time_complexity": [
+    "O(log n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by subtracting invalid strings from the total.",
+      "Inclusion-Exclusion principle is key for the combinatorics approach.",
+      "Modular arithmetic is crucial due to large potential answers."
+    ],
+    [
+      "Bitmasks effectively represent the state of having seen 'l', 'e', 'ee', 't'.",
+      "DP state transitions involve adding characters and updating masks.",
+      "The base case is an empty string with no required characters seen."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

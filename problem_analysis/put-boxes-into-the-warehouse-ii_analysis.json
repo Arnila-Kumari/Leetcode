@@ -1,0 +1,31 @@
+{
+  "problem_name": "put-boxes-into-the-warehouse-ii",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort boxes descending. Use two pointers on warehouse, greedily placing largest boxes into smallest available openings from either end."
+  ],
+  "problem_summary_simple": "Fit the maximum number of boxes into warehouse rooms, pushing from either side.",
+  "problem_summary_technical": "Greedily match sorted boxes to warehouse openings by considering placement from both left and right ends.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting boxes in descending order is key to the greedy strategy.",
+      "The ability to push from either side means we can utilize the smallest available room height from either end.",
+      "This problem is a variation of the first, with the added flexibility of two-sided entry."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

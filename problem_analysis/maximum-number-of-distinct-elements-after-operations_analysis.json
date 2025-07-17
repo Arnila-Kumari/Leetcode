@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-number-of-distinct-elements-after-operations",
+  "data_structures": [
+    [
+      "sorted array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the array and greedily assign operations to maximize distinct elements."
+  ],
+  "problem_summary_simple": "Maximize distinct elements in an array by adding/subtracting up to k to each element at most once.",
+  "problem_summary_technical": "Sort the array. Greedily try to make each element distinct by adjusting it within its [-k, k] range to be as small as possible while being greater than the previous distinct element.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array allows for a greedy approach.",
+      "To maximize distinct elements, we want to make each element as small as possible after the operation, while ensuring it's greater than the previously formed distinct element.",
+      "The `curr` variable tracks the smallest possible value for the next distinct element."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

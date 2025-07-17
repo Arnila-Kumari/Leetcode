@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-most-competitive-subsequence",
+  "data_structures": [
+    [
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to build the most competitive subsequence greedily."
+  ],
+  "problem_summary_simple": "Find the lexicographically smallest subsequence of a given length k.",
+  "problem_summary_technical": "Utilize a monotonic stack to maintain the smallest possible prefix, ensuring the remaining elements can still form a subsequence of length k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to greedily pick the smallest element available at each step.",
+      "A monotonic stack helps in efficiently removing larger preceding elements if a smaller element is encountered and there are enough remaining elements to complete the subsequence.",
+      "The condition `len(stk) + (len(nums) - i) > k` is crucial to ensure we don't pop elements that are necessary to form a subsequence of length k."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

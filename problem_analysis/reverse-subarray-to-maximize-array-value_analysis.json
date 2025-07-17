@@ -1,0 +1,31 @@
+{
+  "problem_name": "reverse-subarray-to-maximize-array-value",
+  "data_structures": [
+    [
+      "list of integers"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate initial value, then iterate to find maximum gain by reversing a subarray."
+  ],
+  "problem_summary_simple": "Maximize array value by reversing one subarray, where value is sum of absolute differences between adjacent elements.",
+  "problem_summary_technical": "Calculates initial sum of absolute differences, then greedily finds the maximum increase by considering reversals at endpoints and within the array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by calculating the initial value and then finding the maximum possible increase.",
+      "The increase in value comes from changing the absolute differences at the boundaries of the reversed subarray.",
+      "The greedy approach focuses on maximizing the gain by considering the impact of reversing a subarray starting or ending at the array's boundaries."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

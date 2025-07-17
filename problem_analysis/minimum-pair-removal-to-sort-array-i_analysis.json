@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-pair-removal-to-sort-array-i",
+  "data_structures": [
+    [
+      "SortedList",
+      "list",
+      "range"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Simulation with a doubly linked list and a sorted list to manage minimum sum pairs."
+  ],
+  "problem_summary_simple": "Repeatedly merge adjacent pairs with the minimum sum until the array is non-decreasing.",
+  "problem_summary_technical": "Simulates merging adjacent pairs with minimum sum using a SortedList to efficiently find the minimum and a doubly linked list to manage array structure.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to greedily merge the pair with the smallest sum.",
+      "A SortedList is crucial for efficiently finding the minimum sum pair.",
+      "A doubly linked list (simulated with `left` and `right` arrays) is needed to manage element removal and merging."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

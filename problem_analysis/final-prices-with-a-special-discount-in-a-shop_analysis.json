@@ -1,0 +1,32 @@
+{
+  "problem_name": "final-prices-with-a-special-discount-in-a-shop",
+  "data_structures": [
+    [
+      "stack",
+      "list"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to find the next smaller element"
+  ],
+  "problem_summary_simple": "Find the next smaller price to the right for each item and apply a discount.",
+  "problem_summary_technical": "Use a monotonic stack to efficiently find the next smaller element for each price in the array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the 'next smaller element' to the right for each element.",
+      "A monotonic increasing stack is a standard and efficient data structure for this type of problem.",
+      "When a smaller element is encountered, it can be used to discount all larger elements currently on the stack."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

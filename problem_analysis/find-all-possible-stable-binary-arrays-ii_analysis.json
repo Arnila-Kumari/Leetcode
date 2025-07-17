@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-all-possible-stable-binary-arrays-ii",
+  "data_structures": [
+    [
+      "3D DP array (dp[zero+1][one+1][2])"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with state compression for transitions"
+  ],
+  "problem_summary_simple": "Count stable binary arrays with given counts of 0s and 1s, and a limit on consecutive identical elements.",
+  "problem_summary_technical": "DP state dp[i][j][k] represents counts of stable arrays using i zeros, j ones, ending with k (0 or 1). Transitions consider adding a 0 or 1, respecting the limit.",
+  "time_complexity": [
+    "O(zero * one)"
+  ],
+  "space_complexity": [
+    "O(zero * one)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled using dynamic programming where states represent the number of zeros and ones used.",
+      "The 'limit' constraint requires careful handling of transitions to avoid subarrays violating the condition.",
+      "Modulo arithmetic is crucial due to potentially large answer values."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

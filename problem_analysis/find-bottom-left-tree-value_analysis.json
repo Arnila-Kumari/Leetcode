@@ -1,0 +1,43 @@
+{
+  "problem_name": "find-bottom-left-tree-value",
+  "data_structures": [
+    [
+      "TreeNode"
+    ],
+    [
+      "TreeNode",
+      "collections.deque"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth First Search (DFS) with recursion to track max depth and value",
+    "Breadth First Search (BFS) using a queue to process level by level"
+  ],
+  "problem_summary_simple": "Find the value of the leftmost node in the last row of a binary tree.",
+  "problem_summary_technical": "Traverse a binary tree using DFS or BFS to identify the deepest, leftmost node.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(w)"
+  ],
+  "key_insights": [
+    [
+      "The recursive DFS approach needs to pass down the current depth and the maximum depth found so far.",
+      "When a leaf node is encountered at a new maximum depth, update the bottom-left value.",
+      "The order of recursive calls (left then right) ensures the leftmost node at a given depth is prioritized."
+    ],
+    [
+      "BFS naturally processes the tree level by level, making the last node processed in the last level the bottom-left one.",
+      "A deque is efficient for BFS operations (popleft, extend).",
+      "Storing only the last popped node from the queue guarantees it's the bottom-left of the last processed level."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:17:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "number-of-visible-people-in-a-queue",
+  "data_structures": [
+    [
+      "stack"
+    ],
+    [
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack processing from left to right",
+    "Monotonic stack processing from right to left"
+  ],
+  "problem_summary_simple": "Count how many people each person in a queue can see to their right.",
+  "problem_summary_technical": "Uses a monotonic stack to efficiently find the next greater element or the first element blocking visibility.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A monotonic decreasing stack helps identify visible people.",
+      "When a taller person is encountered, they 'clear' shorter people on the stack.",
+      "The logic needs to handle cases where the current person is taller than the stack top and when they are shorter."
+    ],
+    [
+      "Processing from right to left simplifies the logic for counting visible people.",
+      "The stack stores indices of people to the right that are potentially visible.",
+      "When a person is processed, they can see all people on the stack shorter than them until a taller person or an empty stack is met."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:11",
+  "batch_processed": true,
+  "batch_size": 4
+}

@@ -1,0 +1,66 @@
+{
+  "problem_name": "count-numbers-with-unique-digits-ii",
+  "data_structures": [
+    [
+      "variables",
+      "hash table"
+    ],
+    [
+      "array",
+      "hash table"
+    ],
+    [
+      "hash table"
+    ],
+    [
+      "hash table"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Digit DP with bitmasks and combinatorics",
+    "Digit DP with bitmasks and permutations",
+    "Brute force with bitmasks",
+    "Brute force with set"
+  ],
+  "problem_summary_simple": "Count numbers with unique digits in a given range [a, b].",
+  "problem_summary_technical": "Uses digit DP with bitmasks to count numbers with unique digits up to a limit, then applies inclusion-exclusion.",
+  "time_complexity": [
+    "O(log b)",
+    "O(log b)",
+    "O((b-a) * log b)",
+    "O((b-a) * log b)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(log b)",
+    "O(1)",
+    "O(log b)"
+  ],
+  "key_insights": [
+    [
+      "The problem is solved by calculating count(b+1) - count(a), where count(x) is the number of unique-digit numbers less than x.",
+      "Digit DP with bitmasks is used to efficiently count numbers with unique digits up to a given number.",
+      "The bitmask tracks used digits, and combinatorics (permutations) helps count possibilities for remaining digits."
+    ],
+    [
+      "The problem is solved by calculating count(b+1) - count(a), where count(x) is the number of unique-digit numbers less than x.",
+      "Digit DP with bitmasks and permutations is used to count numbers with unique digits up to a given number.",
+      "The logic involves iterating through digits of the number and using permutations to count valid combinations."
+    ],
+    [
+      "A straightforward approach is to iterate through each number in the range [a, b].",
+      "For each number, check if its digits are unique using a bitmask or a set.",
+      "Sum up the counts of numbers with unique digits."
+    ],
+    [
+      "A straightforward approach is to iterate through each number in the range [a, b].",
+      "For each number, convert it to a string and check if the length of the string is equal to the length of the set of its characters.",
+      "Sum up the counts of numbers with unique digits."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:37:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

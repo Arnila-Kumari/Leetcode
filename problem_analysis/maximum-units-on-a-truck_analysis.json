@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-units-on-a-truck",
+  "data_structures": [
+    [
+      "list of lists (boxTypes)",
+      "integer (truckSize)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort box types by units per box in descending order.",
+    "Greedily pick boxes with the most units until the truck is full."
+  ],
+  "problem_summary_simple": "Maximize the total units of boxes loaded onto a truck with a limited capacity.",
+  "problem_summary_technical": "Sort box types by units per box descending, then greedily fill the truck.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a classic greedy approach: prioritize items with the highest value-to-weight ratio (units per box).",
+      "Sorting by units per box is the key to the greedy strategy.",
+      "Handle the case where the truck capacity is less than the number of boxes of a certain type."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:55:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "determine-if-a-cell-is-reachable-at-a-given-time",
+  "data_structures": [
+    [
+      "Integers (input)"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate the minimum Manhattan distance and diagonal distance to the target cell, then compare with the given time `t`."
+  ],
+  "problem_summary_simple": "Check if a target cell can be reached in exactly `t` seconds on an infinite grid.",
+  "problem_summary_technical": "Determine reachability by comparing `t` with the minimum time required (Manhattan distance) and considering parity for exact time.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The minimum time to reach a cell `(fx, fy)` from `(sx, sy)` is the Manhattan distance: `abs(sx-fx) + abs(sy-fy)`.",
+      "With 8-directional movement, the minimum time is `max(abs(sx-fx), abs(sy-fy))`.",
+      "Any extra time `t - min_time` must be spent moving back and forth, which requires an even number of steps. Thus, `t` and `min_time` must have the same parity.",
+      "A special case is when `sx == fx` and `sy == fy`. If `t == 0`, it's reachable. If `t == 1`, it's not reachable because you must move away and back.",
+      "The condition `t >= mn if mn else t != 1` correctly handles these cases: `mn` is the minimum time, and if `mn` is 0 (start and end are the same), `t` must not be 1."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

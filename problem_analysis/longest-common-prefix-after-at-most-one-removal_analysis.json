@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-common-prefix-after-at-most-one-removal",
+  "data_structures": [
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers with a flag to track if a character has been removed from string s."
+  ],
+  "problem_summary_simple": "Find the longest common prefix of two strings after removing at most one character from the first string.",
+  "problem_summary_technical": "Uses two pointers to iterate through both strings. Allows one mismatch by advancing the pointer for string 's' if a character has not yet been removed.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding the longest common prefix, suggesting a two-pointer approach.",
+      "A boolean flag is needed to track whether a character removal has already occurred.",
+      "When a mismatch occurs and removal is allowed, advance the pointer for 's' and mark removal as done."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

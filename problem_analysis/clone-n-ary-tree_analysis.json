@@ -1,0 +1,41 @@
+{
+  "problem_name": "clone-n-ary-tree",
+  "data_structures": [
+    [
+      "list",
+      "Node"
+    ],
+    [
+      "Node"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS using a stack with state management",
+    "Recursive DFS (Depth First Search)"
+  ],
+  "problem_summary_simple": "Create an exact copy of an N-ary tree, preserving structure and values.",
+  "problem_summary_technical": "Deep copy an N-ary tree. Solutions involve iterative or recursive DFS, managing node creation and child connections.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The iterative solution uses a stack to simulate recursion, managing states to build the new tree.",
+      "Reversing children before pushing onto the stack ensures correct order in the cloned tree."
+    ],
+    [
+      "Recursive DFS naturally traverses and builds the cloned tree by creating new nodes and linking children.",
+      "Base case for recursion is a null node, returning None."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "pyramid-transition-matrix",
+  "data_structures": [
+    [
+      "list",
+      "dictionary",
+      "set"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Build a transition matrix from allowed patterns. Use Depth-First Search (DFS) to explore possible pyramid constructions from bottom up."
+  ],
+  "problem_summary_simple": "Determine if a pyramid can be built with given allowed triangular patterns.",
+  "problem_summary_technical": "Use a transition matrix and DFS to check if all levels of the pyramid can be constructed according to allowed patterns.",
+  "time_complexity": [
+    "O(a^b) where 'a' is the number of allowed patterns and 'b' is the length of the bottom row."
+  ],
+  "space_complexity": [
+    "O(a^b) due to recursion depth and storing intermediate results."
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding a path in a state space where each state is a row of the pyramid.",
+      "A transition matrix (or adjacency list) is efficient for checking valid block combinations.",
+      "Memoization (using a set for visited states) is crucial to avoid redundant computations in the DFS."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:05:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

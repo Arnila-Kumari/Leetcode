@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-good-days-to-rob-the-bank",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Precompute non-increasing and non-decreasing sequences using DP-like approach.",
+    "Iterate and check conditions using precomputed counts."
+  ],
+  "problem_summary_simple": "Find days with at least 'time' days before and after having non-increasing/non-decreasing guards.",
+  "problem_summary_technical": "Uses dynamic programming to precompute lengths of non-increasing sequences before each day and non-decreasing after, then checks conditions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into finding contiguous non-increasing sequences before a day and non-decreasing sequences after.",
+      "Dynamic programming or a similar prefix/suffix sum-like approach can efficiently precompute these lengths.",
+      "The constraints on `time` and `security.length` suggest an O(n) solution is feasible."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

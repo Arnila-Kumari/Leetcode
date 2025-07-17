@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-xor-after-operations",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bitwise OR reduction"
+  ],
+  "problem_summary_simple": "Maximize the XOR sum of array elements by applying a specific bitwise operation.",
+  "problem_summary_technical": "The operation `nums[i] = nums[i] AND (nums[i] XOR x)` allows setting any bit to 0 if it's not set in `x`. To maximize XOR sum, we want to set as many high bits as possible to 1.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operation `nums[i] & (nums[i] ^ x)` can only turn bits from 1 to 0.",
+      "To maximize the XOR sum of all elements, we want to make each bit position as 'independent' as possible.",
+      "If a bit is set in any number, we can potentially keep it set in the final XOR sum by strategically choosing `x`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:55:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

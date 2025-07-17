@@ -1,0 +1,32 @@
+{
+  "problem_name": "grid-game",
+  "data_structures": [
+    [
+      "array",
+      "variable"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Prefix sums to calculate sums of paths, then iterate to find optimal first robot path."
+  ],
+  "problem_summary_simple": "Minimize the second robot's score by choosing the first robot's path optimally.",
+  "problem_summary_technical": "Calculate prefix sums for both rows. Iterate through possible split points, minimizing the max of the two robot's path sums.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering all possible paths for the first robot.",
+      "A first robot's path divides the grid into two parts: one for the first robot and one for the second.",
+      "The optimal strategy for the first robot is to minimize the maximum score the second robot can get."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "replace-the-substring-for-balanced-string",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window to find the smallest substring whose replacement balances the string."
+  ],
+  "problem_summary_simple": "Find the shortest substring to replace to make character counts in the string equal.",
+  "problem_summary_technical": "Use a sliding window to find the minimum length substring whose removal balances character counts.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires balancing character counts, meaning each of 'Q', 'W', 'E', 'R' should appear n/4 times.",
+      "A sliding window approach is suitable for finding the minimum length substring.",
+      "The condition for a balanced string is that the count of each character outside the window must be less than or equal to n/4."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

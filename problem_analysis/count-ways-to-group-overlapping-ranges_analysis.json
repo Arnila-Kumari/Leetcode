@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-ways-to-group-overlapping-ranges",
+  "data_structures": [
+    [
+      "sorted array"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Greedy with sorting",
+    "Interval merging"
+  ],
+  "problem_summary_simple": "Count ways to split ranges into two groups such that overlapping ranges are in the same group.",
+  "problem_summary_technical": "Sort ranges by start time, merge overlapping intervals to find connected components. Each component can be in either group.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core constraint is that overlapping ranges must be in the same group, implying a transitive relationship.",
+      "Sorting the ranges by their start times allows for efficient merging of overlapping intervals.",
+      "Each merged interval (or connected component of ranges) can independently be assigned to either of the two groups, leading to 2^k possibilities where k is the number of merged intervals."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

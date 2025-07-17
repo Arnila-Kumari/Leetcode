@@ -1,0 +1,31 @@
+{
+  "problem_name": "largest-triangle-area",
+  "data_structures": [
+    [
+      "list of lists"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Brute force with Shoelace formula"
+  ],
+  "problem_summary_simple": "Find the largest area of a triangle formed by any three points from a given set of 2D points.",
+  "problem_summary_technical": "Iterates through all combinations of three points and calculates triangle area using the Shoelace formula, keeping track of the maximum.",
+  "time_complexity": [
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The Shoelace formula (or surveyor's formula) is an efficient way to calculate the area of a polygon given its vertices.",
+      "Since the number of points is small (up to 50), a brute-force O(n^3) approach is acceptable.",
+      "The absolute value of the Shoelace formula result is taken to ensure a positive area."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

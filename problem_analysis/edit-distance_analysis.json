@@ -1,0 +1,42 @@
+{
+  "problem_name": "edit-distance",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "2D array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with space optimization",
+    "Dynamic programming with 2D table"
+  ],
+  "problem_summary_simple": "Find the minimum operations (insert, delete, replace) to transform one string into another.",
+  "problem_summary_technical": "Dynamic programming to compute edit distance between two strings, with O(n*m) time and O(n+m) or O(n*m) space.",
+  "time_complexity": [
+    "O(n * m)",
+    "O(n * m)"
+  ],
+  "space_complexity": [
+    "O(n + m)",
+    "O(n * m)"
+  ],
+  "key_insights": [
+    [
+      "The space-optimized DP uses only the previous row's values.",
+      "The recurrence relation considers insert, delete, and replace operations.",
+      "Swapping strings if word1 is shorter optimizes space for the first solution."
+    ],
+    [
+      "A 2D DP table stores distances for all prefixes.",
+      "The base cases are for empty strings.",
+      "The transition depends on character equality and previous subproblem solutions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,58 @@
+{
+  "problem_name": "count-of-smaller-numbers-after-self",
+  "data_structures": [
+    [
+      "list of tuples (number, original_index)",
+      "counts array",
+      "temporary array for merge sort"
+    ],
+    [
+      "Binary Indexed Tree (BIT)",
+      "lookup dictionary",
+      "result array"
+    ],
+    [
+      "Binary Search Tree (BST) with node counts",
+      "result array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Divide and Conquer with Merge Sort",
+    "Binary Indexed Tree (BIT) / Fenwick Tree",
+    "Binary Search Tree (BST) with augmented counts"
+  ],
+  "problem_summary_simple": "For each element, count how many smaller elements are to its right.",
+  "problem_summary_technical": "Uses merge sort, BIT, or BST to efficiently count smaller elements to the right of each number by processing from right to left.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n) on average, O(n^2) worst case for BST"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Processing the array from right to left is crucial for counting elements *after* the current one.",
+      "Merge sort can be adapted to count inversions, which directly relates to this problem.",
+      "Storing original indices is necessary to populate the result array correctly."
+    ],
+    [
+      "BIT is efficient for prefix sum queries and point updates, ideal for counting elements seen so far.",
+      "Mapping numbers to ranks (using sorted array and lookup) is necessary for BIT operations.",
+      "Processing from right to left allows BIT to accumulate counts of smaller numbers encountered."
+    ],
+    [
+      "A BST can maintain sorted order and store counts of elements in subtrees.",
+      "When inserting a number, traversing the BST to find its position allows counting smaller elements.",
+      "Augmenting BST nodes with counts of elements in their left subtrees optimizes the query."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:37:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

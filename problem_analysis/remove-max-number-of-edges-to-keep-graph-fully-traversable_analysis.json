@@ -1,0 +1,31 @@
+{
+  "problem_name": "remove-max-number-of-edges-to-keep-graph-fully-traversable",
+  "data_structures": [
+    [
+      "UnionFind"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find with greedy edge selection, prioritizing type 3 edges."
+  ],
+  "problem_summary_simple": "Remove the maximum number of edges from a graph while ensuring it remains fully traversable by both Alice and Bob.",
+  "problem_summary_technical": "Utilize Union-Find to track connected components for Alice and Bob separately, prioritizing type 3 edges for maximum connectivity.",
+  "time_complexity": [
+    "O(n + m * α(n))"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Type 3 edges are most valuable as they benefit both Alice and Bob.",
+      "Process type 3 edges first to maximize shared connectivity.",
+      "If after processing all edges, both Alice and Bob cannot traverse the entire graph, return -1."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:06:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

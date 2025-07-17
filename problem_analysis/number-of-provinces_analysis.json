@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-provinces",
+  "data_structures": [
+    [
+      "2D array",
+      "Union-Find data structure"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find data structure to group connected cities into provinces."
+  ],
+  "problem_summary_simple": "Count the number of disconnected groups of cities in a network where cities are connected directly or indirectly.",
+  "problem_summary_technical": "Uses Union-Find to efficiently group connected components (provinces) from an adjacency matrix representation of cities.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding the number of connected components in a graph.",
+      "Union-Find is an efficient data structure for tracking connected components.",
+      "Path compression and union by rank/size optimize Union-Find operations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

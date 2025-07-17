@@ -1,0 +1,51 @@
+{
+  "problem_name": "number-of-strings-that-appear-as-substrings-in-word",
+  "data_structures": [
+    [
+      "list of strings (patterns)",
+      "string (word)"
+    ],
+    [
+      "Trie (Aho-Corasick)",
+      "set (for visited nodes)"
+    ],
+    [
+      "list of strings (patterns)",
+      "string (word)",
+      "list (for KMP prefix function)"
+    ],
+    [
+      "list of strings (patterns)",
+      "string (word)"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Brute force: Iterate through each pattern and check if it's a substring of the word using Python's `in` operator.",
+    "KMP algorithm: Preprocess each pattern to build its prefix function, then use KMP matching to find occurrences in the word.",
+    "Aho-Corasick algorithm: Build an Aho-Corasick automaton from the patterns and then traverse the word through the automaton to find all matches."
+  ],
+  "problem_summary_simple": "Count how many strings from a given list of patterns are substrings of a target word.",
+  "problem_summary_technical": "Check for substring presence. Efficient solutions involve Aho-Corasick for multiple patterns or KMP for single pattern checks.",
+  "time_complexity": [
+    "O(n * m * l) for brute force",
+    "O(n * (l + m)) for KMP",
+    "O(n * l + m) for Aho-Corasick"
+  ],
+  "space_complexity": [
+    "O(1) for brute force",
+    "O(l) for KMP",
+    "O(t) for Aho-Corasick (t is total size of trie)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a classic pattern matching scenario. For multiple patterns against a single text, Aho-Corasick is generally the most efficient.",
+      "The brute-force approach using `pattern in word` is simple but can be slow if patterns or the word are long.",
+      "KMP is efficient for finding a single pattern in a text, and can be applied iteratively for each pattern, though less optimal than Aho-Corasick for many patterns."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

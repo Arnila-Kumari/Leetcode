@@ -1,0 +1,32 @@
+{
+  "problem_name": "delete-the-middle-node-of-a-linked-list",
+  "data_structures": [
+    [
+      "linked list",
+      "dummy node"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Two pointers (slow and fast) to find the middle node, then delete it."
+  ],
+  "problem_summary_simple": "Delete the middle node of a singly linked list.",
+  "problem_summary_technical": "Use slow and fast pointers to find the node before the middle, then bypass the middle node.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The fast pointer moves twice as fast as the slow pointer. When the fast pointer reaches the end, the slow pointer will be at the node before the middle.",
+      "A dummy node is crucial to handle the edge case where the head of the list is the middle node (e.g., a list with two nodes).",
+      "The middle node is defined as the ⌊n / 2⌋th node (0-indexed), which the slow pointer correctly identifies when starting from a dummy node."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

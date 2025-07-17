@@ -1,0 +1,33 @@
+{
+  "problem_name": "even-odd-tree",
+  "data_structures": [
+    [
+      "Queue",
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Level-order traversal (BFS) with level-specific validation"
+  ],
+  "problem_summary_simple": "Check if a binary tree follows alternating even/odd level value and ordering rules.",
+  "problem_summary_technical": "Perform BFS, validating node values at each level for parity and strictly increasing/decreasing order.",
+  "time_complexity": [
+    "O(n) where n is the number of nodes"
+  ],
+  "space_complexity": [
+    "O(w) where w is the maximum width of the tree (for the queue)"
+  ],
+  "key_insights": [
+    [
+      "Level-order traversal (BFS) is essential to process nodes level by level.",
+      "Maintain a flag to track whether the current level should have odd or even values.",
+      "For each level, check both the parity of values and the strictly increasing/decreasing order.",
+      "Keep track of the previous node's value within a level for order checking."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

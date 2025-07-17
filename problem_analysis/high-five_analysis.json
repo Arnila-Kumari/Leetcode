@@ -1,0 +1,32 @@
+{
+  "problem_name": "high-five",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "heapq"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a min-heap for each student to keep track of top 5 scores."
+  ],
+  "problem_summary_simple": "Calculate the average of the top five scores for each student.",
+  "problem_summary_technical": "Group scores by student ID, maintain a min-heap of size 5 for each student, and compute the average.",
+  "time_complexity": [
+    "O(n log k)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A min-heap is efficient for maintaining the top K elements.",
+      "Using a defaultdict simplifies grouping scores by student ID.",
+      "Sorting the final result by student ID is required."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

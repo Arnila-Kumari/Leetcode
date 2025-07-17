@@ -1,0 +1,32 @@
+{
+  "problem_name": "swap-nodes-in-pairs",
+  "data_structures": [
+    [
+      "ListNode",
+      "dummy node"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterative swapping of adjacent nodes using a dummy head and pointer manipulation."
+  ],
+  "problem_summary_simple": "Swap every two adjacent nodes in a linked list without changing node values.",
+  "problem_summary_technical": "Iteratively swaps adjacent nodes in a singly linked list by re-arranging pointers, using a dummy node for edge cases.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Using a dummy node simplifies handling the head of the list.",
+      "Careful pointer manipulation is crucial to avoid losing track of nodes during swaps.",
+      "The solution modifies node pointers, not values, as required."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

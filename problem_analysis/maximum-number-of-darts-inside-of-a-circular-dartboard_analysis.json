@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-number-of-darts-inside-of-a-circular-dartboard",
+  "data_structures": [
+    [
+      "list of points",
+      "list of angles"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Angle sweep: For each point, consider it as a potential center and find the optimal circle using other points."
+  ],
+  "problem_summary_simple": "Find the maximum number of darts that can be covered by a circular dartboard of a given radius.",
+  "problem_summary_technical": "For each dart, consider it as a potential center. Calculate angles of other darts within the radius and use angle sweep to find max darts covered by a circle centered at this dart.",
+  "time_complexity": [
+    "O(n^2 log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The optimal circle's center must lie on the perpendicular bisector of any two points on its circumference.",
+      "A key observation is that the optimal circle will have at least two darts on its boundary, or one dart on the boundary and the center is that dart.",
+      "The angle sweep algorithm efficiently finds the maximum number of intervals (darts) that overlap at any point."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

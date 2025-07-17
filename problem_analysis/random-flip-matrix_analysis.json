@@ -1,0 +1,32 @@
+{
+  "problem_name": "random-flip-matrix",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Using a hash map to map virtual indices to actual available indices, simulating random selection without explicit matrix manipulation."
+  ],
+  "problem_summary_simple": "Randomly pick an empty cell in a grid and flip it to 1, ensuring all empty cells are equally likely.",
+  "problem_summary_technical": "Maintains a count of available cells and uses a hash map to remap random integers to available grid positions, avoiding explicit grid traversal.",
+  "time_complexity": [
+    "ctor: O(1), flip: O(1), reset: O(min(f, r*c))"
+  ],
+  "space_complexity": [
+    "O(min(f, r*c))"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to avoid iterating through the entire matrix for each flip.",
+      "A hash map can be used to store mappings from a 'virtual' available slot to an actual grid coordinate.",
+      "When a slot is picked, it's removed from the available pool by mapping the last available slot to the picked slot's virtual index."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

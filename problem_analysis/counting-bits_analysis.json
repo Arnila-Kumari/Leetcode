@@ -1,0 +1,42 @@
+{
+  "problem_name": "counting-bits",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Dynamic programming: count bits in `i` based on `i/2` and `i%2`.",
+    "Pattern recognition: observe that `countBits(2*i) = countBits(i)` and `countBits(2*i+1) = countBits(i) + 1`."
+  ],
+  "problem_summary_simple": "Count the number of set bits (1s) in the binary representation of each number up to n.",
+  "problem_summary_technical": "Compute the population count for numbers 0 to n using DP relations based on bitwise operations or observed patterns.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The number of set bits in `i` can be derived from `i >> 1` (i/2) and the least significant bit `i & 1`.",
+      "This DP approach avoids repeated calculations and achieves linear time complexity.",
+      "The relation `res[i] = (i & 1) + res[i >> 1]` is the core of the efficient solution."
+    ],
+    [
+      "The pattern `[0], [1], [1,2], [1,2,2,3], ...` emerges when doubling the previous counts and adding 1.",
+      "This method effectively constructs the result array by leveraging the structure of binary representations.",
+      "It's a clever way to build the solution iteratively without explicit bitwise operations per number."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:38:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

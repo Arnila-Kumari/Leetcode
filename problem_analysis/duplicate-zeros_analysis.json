@@ -1,0 +1,31 @@
+{
+  "problem_name": "duplicate-zeros",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "two pointers, in-place modification"
+  ],
+  "problem_summary_simple": "Duplicate zeros in an array in-place, shifting elements to the right.",
+  "problem_summary_technical": "In-place modification of a fixed-length array to duplicate zeros, shifting elements rightward, handling boundary conditions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to first count the number of zeros that will be duplicated and thus shifted out of bounds.",
+      "A two-pass approach is efficient: first pass to count shifts, second pass to perform the shifting from right to left.",
+      "Careful handling of indices is crucial to avoid overwriting needed elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

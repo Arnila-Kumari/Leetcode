@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximize-distance-to-closest-person",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through seats, tracking the previous person's position to calculate maximum distances for empty seats."
+  ],
+  "problem_summary_simple": "Find an empty seat such that the distance to the nearest person is maximized.",
+  "problem_summary_technical": "Greedy approach iterates through seats, calculating max distance for initial empty seats, middle empty gaps, and trailing empty seats.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The maximum distance can occur at the beginning of the row (closest person is at index 0), at the end of the row (closest person is at the last occupied seat), or in the middle of two people.",
+      "For the middle gaps, the optimal seat is exactly in the middle of two people, maximizing the distance to both.",
+      "The distance to the closest person is `(gap_size) // 2` for middle gaps and `gap_size` for the ends."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

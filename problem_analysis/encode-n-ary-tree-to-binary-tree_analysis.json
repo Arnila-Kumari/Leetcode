@@ -1,0 +1,41 @@
+{
+  "problem_name": "encode-n-ary-tree-to-binary-tree",
+  "data_structures": [
+    [
+      "binary tree node",
+      "n-ary tree node",
+      "recursion stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive traversal and mapping children to left/right pointers.",
+    "Level-order traversal and mapping."
+  ],
+  "problem_summary_simple": "Convert an N-ary tree to a binary tree and back, preserving structure.",
+  "problem_summary_technical": "Encodes N-ary children into binary tree's left (next sibling) and right (first child) pointers recursively.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(H)",
+    "O(H)"
+  ],
+  "key_insights": [
+    [
+      "The key is to represent the N-ary tree's structure within the binary tree's limited child pointers.",
+      "A common approach is to use the binary tree's left child to represent the next sibling and the right child to represent the first child.",
+      "This conversion can be done recursively."
+    ],
+    [
+      "The provided solution uses a specific recursive mapping: `node.left` points to the next sibling, and `node.right` points to the first child.",
+      "This allows for a direct translation between the two tree structures.",
+      "The decoding process reverses this mapping to reconstruct the N-ary tree."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "rank-teams-by-votes",
+  "data_structures": [
+    [
+      "hash map",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Custom sorting based on vote counts for each position.",
+    "Using a dictionary to store vote counts for each team at each rank."
+  ],
+  "problem_summary_simple": "Rank teams based on voter preferences, prioritizing higher ranks and alphabetical order for ties.",
+  "problem_summary_technical": "Aggregate vote counts per position for each team and sort teams using a custom key.",
+  "time_complexity": [
+    "O(m * (n + mlogm)) where n is number of votes, m is number of teams"
+  ],
+  "space_complexity": [
+    "O(m^2)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to count votes for each position for each team.",
+      "A dictionary mapping teams to their vote counts per position is efficient.",
+      "Python's `sorted` with a `key` function simplifies custom sorting logic."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

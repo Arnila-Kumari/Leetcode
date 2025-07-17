@@ -1,0 +1,33 @@
+{
+  "problem_name": "chalkboard-xor-game",
+  "data_structures": [
+    [
+      "list of integers"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Analyze game states based on the XOR sum of the array and the number of elements.",
+    "Determine win condition based on initial XOR sum or even number of elements."
+  ],
+  "problem_summary_simple": "Determine if Alice wins a game where players remove numbers, losing if the XOR sum becomes zero.",
+  "problem_summary_technical": "Analyze game states by the XOR sum of array elements; Alice wins if initial XOR is non-zero and array size is even.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The game's outcome depends on the XOR sum of the numbers.",
+      "If the XOR sum is initially 0, the current player wins immediately.",
+      "If the XOR sum is non-zero, the game continues. If the number of elements is even, the first player (Alice) can always force a win by leaving a non-zero XOR sum for the opponent.",
+      "If the XOR sum is non-zero and the number of elements is odd, the first player might lose if they are forced to make the XOR sum zero."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "apply-operations-to-make-string-empty",
+  "data_structures": [
+    [
+      "array",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting and reverse iteration to identify characters with maximum frequency."
+  ],
+  "problem_summary_simple": "Find the string just before the last operation where all characters are removed one by one based on their first occurrence.",
+  "problem_summary_technical": "Calculates character frequencies, finds the maximum frequency, and then iterates backward through the string to reconstruct the last non-empty string based on this maximum frequency.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operation removes the *first* occurrence of each character in alphabetical order.",
+      "The characters that remain until the very last operation are those that appeared most frequently.",
+      "Iterating backward through the string allows us to efficiently build the result by considering characters that should persist."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

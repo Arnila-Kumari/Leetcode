@@ -1,0 +1,33 @@
+{
+  "problem_name": "sum-of-floored-pairs",
+  "data_structures": [
+    [
+      "array (prefix sum)",
+      "Counter (frequency map)",
+      "integer (MOD)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Frequency counting and prefix sums combined with optimized iteration over multiples."
+  ],
+  "problem_summary_simple": "Calculate the sum of floor(nums[i] / nums[j]) for all pairs, modulo 10^9 + 7.",
+  "problem_summary_technical": "Uses a frequency map and a prefix sum array to efficiently calculate sums of floor divisions by iterating through multiples.",
+  "time_complexity": [
+    "O(N log N) where N is the maximum value in nums"
+  ],
+  "space_complexity": [
+    "O(N) where N is the maximum value in nums"
+  ],
+  "key_insights": [
+    [
+      "The naive O(n^2) approach of iterating through all pairs is too slow. We need to optimize the calculation of `floor(a/b)`.",
+      "For a fixed divisor `b`, the number of `a` such that `floor(a/b) = k` is `count(k*b <= a < (k+1)*b)`. This can be efficiently calculated using prefix sums of frequencies.",
+      "The solution iterates through each unique number `num` in `nums`. For each `num`, it calculates how many numbers `x` in `nums` satisfy `floor(x/num) = k` for different `k`. This is done by iterating through multiples of `num` and using prefix sums of counts."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

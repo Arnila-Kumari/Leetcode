@@ -1,0 +1,33 @@
+{
+  "problem_name": "split-array-with-equal-sum",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Prefix sums to efficiently calculate subarray sums.",
+    "Iterate through possible split points 'j', storing sums of first parts in a hashmap."
+  ],
+  "problem_summary_simple": "Find if an array can be split into four subarrays with equal sums.",
+  "problem_summary_technical": "Use prefix sums and nested loops with a hashmap to find four split points (i, j, k) yielding equal subarray sums.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Prefix sums are essential for O(1) calculation of subarray sums.",
+      "The problem requires finding three split points (i, j, k) that divide the array into four parts.",
+      "A hashmap is used to store the sums of the first part (0 to i-1) for efficient lookup when considering the second part (i+1 to j-1)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

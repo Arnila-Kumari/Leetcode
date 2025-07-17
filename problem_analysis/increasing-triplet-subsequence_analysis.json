@@ -1,0 +1,43 @@
+{
+  "problem_name": "increasing-triplet-subsequence",
+  "data_structures": [
+    [
+      "Variables to store minimum and two smallest numbers found so far"
+    ],
+    [
+      "List (for storing increasing subsequences)",
+      "bisect module"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Maintain two variables representing the smallest and second smallest numbers encountered so far.",
+    "Generalization using binary search to find the longest increasing subsequence of length k."
+  ],
+  "problem_summary_simple": "Find if there are three numbers in an array that are in increasing order.",
+  "problem_summary_technical": "Efficiently track the smallest and second smallest numbers to detect an increasing triplet subsequence.",
+  "time_complexity": [
+    "O(N) where N is the length of the input array.",
+    "O(N log K) where N is array length and K is subsequence length (here K=3)."
+  ],
+  "space_complexity": [
+    "O(1) as only a few variables are used.",
+    "O(K) where K is the subsequence length (here K=3)."
+  ],
+  "key_insights": [
+    [
+      "The key insight is that we only need to keep track of the smallest number seen so far (`min_num`) and the smallest number that can form a pair with `min_num` (`a`, `b`).",
+      "If we encounter a number greater than `b`, we have found our triplet.",
+      "This greedy approach avoids storing all possible subsequences."
+    ],
+    [
+      "This approach generalizes to finding an increasing subsequence of length `k`.",
+      "`bisect.bisect_left` efficiently finds the insertion point for a number in a sorted list, maintaining the smallest possible values for subsequences of different lengths.",
+      "If a number can extend the longest increasing subsequence found so far (i.e., it's larger than the last element of the longest subsequence), we've found our k-uplet."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

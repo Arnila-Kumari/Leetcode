@@ -1,0 +1,42 @@
+{
+  "problem_name": "wiggle-sort-ii",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sort the array and interleave elements from the first and second halves, placing larger elements at odd indices.",
+    "Find the median, then use a 3-way partition (Dutch National Flag) with virtual indexing to place elements."
+  ],
+  "problem_summary_simple": "Rearrange array elements so they strictly alternate between smaller and larger.",
+  "problem_summary_technical": "Sort and interleave, or use median-finding and virtual indexing with 3-way partition for O(n) time.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to place the larger half of the elements at odd indices and the smaller half at even indices.",
+      "Sorting and then carefully interleaving is a straightforward O(n log n) approach.",
+      "The median is crucial for partitioning the array into two halves."
+    ],
+    [
+      "The O(n) solution requires finding the median efficiently (e.g., using QuickSelect).",
+      "Virtual indexing maps array indices to their desired positions after partitioning.",
+      "The Dutch National Flag algorithm is adapted to handle the specific placement requirements."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:14:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

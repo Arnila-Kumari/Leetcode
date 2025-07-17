@@ -1,0 +1,32 @@
+{
+  "problem_name": "masking-personal-information",
+  "data_structures": [
+    [
+      "string manipulation"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "String parsing and conditional formatting based on input type (email/phone).",
+    "Character filtering and string slicing for phone numbers."
+  ],
+  "problem_summary_simple": "Mask personal information (email or phone number) according to specific rules, replacing sensitive parts with asterisks or specific formats.",
+  "problem_summary_technical": "Identifies input as email or phone. For emails, masks the name part. For phone numbers, filters digits, masks local part, and prepends country code prefix.",
+  "time_complexity": [
+    "O(1) - String operations are proportional to length, but lengths are bounded by constraints."
+  ],
+  "space_complexity": [
+    "O(1) - Output string creation is proportional to input length, but considered constant space."
+  ],
+  "key_insights": [
+    [
+      "The problem requires distinguishing between email and phone number formats.",
+      "Email masking involves specific character replacement and case conversion.",
+      "Phone number masking requires digit extraction, country code handling, and a fixed output format."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

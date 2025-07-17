@@ -1,0 +1,33 @@
+{
+  "problem_name": "roman-to-integer",
+  "data_structures": [
+    [
+      "hashmap",
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through the Roman numeral string, checking for subtractive cases."
+  ],
+  "problem_summary_simple": "Convert a Roman numeral string into its corresponding integer value.",
+  "problem_summary_technical": "Process Roman numerals by mapping symbols to values and handling subtractive notation (e.g., IV, IX).",
+  "time_complexity": [
+    "O(n), where n is the length of the Roman numeral string."
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Roman numerals are generally additive (largest to smallest).",
+      "Subtractive cases (like IV for 4) require special handling.",
+      "When a smaller numeral precedes a larger one, subtract the smaller from the larger.",
+      "A hashmap is efficient for mapping Roman symbols to their integer values."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "smallest-palindromic-rearrangement-ii",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting, combinatorics, and greedy construction"
+  ],
+  "problem_summary_simple": "Find the k-th lexicographically smallest palindromic permutation of a given palindromic string.",
+  "problem_summary_technical": "Calculates combinations to find the k-th permutation by greedily selecting characters based on counts.",
+  "time_complexity": [
+    "O(26 * n)"
+  ],
+  "space_complexity": [
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "This problem extends the first by introducing the k-th permutation requirement, necessitating combinatorics.",
+      "The solution iteratively determines which character to place next by calculating how many permutations start with smaller characters.",
+      "The logic involves calculating combinations (nCr) to count permutations efficiently."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

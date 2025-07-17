@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-sub-islands",
+  "data_structures": [
+    [
+      "2D array (grid)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Depth First Search (DFS) to traverse islands and check for sub-island conditions."
+  ],
+  "problem_summary_simple": "Count islands in grid2 that are entirely contained within islands in grid1.",
+  "problem_summary_technical": "Uses DFS on grid2 to identify islands. During traversal, it checks if all land cells in grid2 correspond to land cells in grid1.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "An island in grid2 is a sub-island if every '1' in that island in grid2 is also a '1' in grid1.",
+      "The DFS function should return a boolean indicating if the current island is a sub-island.",
+      "Marking visited cells (by setting to 0) prevents recounting and infinite loops."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,35 @@
+{
+  "problem_name": "increment-submatrices-by-one",
+  "data_structures": [
+    [
+      "2D List (for the matrix)",
+      "2D List (for difference array)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Difference array (2D) to efficiently handle range updates, followed by prefix sums to reconstruct the matrix.",
+    "Line sweep algorithm using a 2D difference array."
+  ],
+  "problem_summary_simple": "Update submatrices in a grid by adding 1, then return the final grid.",
+  "problem_summary_technical": "Use a 2D difference array to mark query boundaries, then apply 2D prefix sums to get the final matrix.",
+  "time_complexity": [
+    "O(Q + N^2) where Q is number of queries and N is matrix dimension.",
+    "O(Q + N^2) where Q is number of queries and N is matrix dimension."
+  ],
+  "space_complexity": [
+    "O(N^2) for storing the result matrix.",
+    "O(N^2) for storing the difference array and the result matrix."
+  ],
+  "key_insights": [
+    [
+      "The core idea is to use a 2D difference array. For each query [r1, c1, r2, c2], we increment at (r1, c1), decrement at (r1, c2+1) and (r2+1, c1), and increment at (r2+1, c2+1).",
+      "After marking all queries, we perform two passes of prefix sums (row-wise then column-wise) to propagate the increments.",
+      "This avoids iterating through each cell of the submatrix for every query."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

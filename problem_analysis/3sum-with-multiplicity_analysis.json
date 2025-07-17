@@ -1,0 +1,28 @@
+{
+  "problem_name": "3sum-with-multiplicity",
+  "data_structures": [
+    [
+      "hash map (Counter)",
+      "combinations iterator"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a frequency map (Counter) to store counts of each number, then iterate through combinations of numbers to find triplets summing to target."
+  ],
+  "problem_summary_simple": "Count triplets in an array that sum to a target, considering multiplicities.",
+  "problem_summary_technical": "Use frequency map, iterate through combinations of numbers, calculate counts based on distinct/repeated values.",
+  "time_complexity": "O(k^2) where k is the number of distinct elements, or O(N) for counting, but combinations can be up to O(N^2) in worst case if all elements are distinct.",
+  "space_complexity": "O(k) where k is the number of distinct elements",
+  "key_insights": [
+    [
+      "Leveraging a frequency map (collections.Counter) is essential to handle the multiplicity of numbers efficiently.",
+      "Carefully consider the cases for `i == j == k`, `i == j != k`, and `i < j < k` when calculating combinations to avoid overcounting or undercounting.",
+      "The modulo operation is critical for handling potentially large results."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-15 20:21:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

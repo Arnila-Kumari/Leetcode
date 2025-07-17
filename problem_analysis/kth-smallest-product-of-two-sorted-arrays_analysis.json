@@ -1,0 +1,32 @@
+{
+  "problem_name": "kth-smallest-product-of-two-sorted-arrays",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the product value with a custom counting function"
+  ],
+  "problem_summary_simple": "Find the kth smallest product formed by multiplying elements from two sorted arrays.",
+  "problem_summary_technical": "Binary searches the range of possible products, using a helper function to count products less than or equal to a target.",
+  "time_complexity": [
+    "O((m + n) * logr), where r is the range of products"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by binary searching on the answer (the product value).",
+      "The `check` function efficiently counts the number of products less than or equal to a given `target` by leveraging the sorted nature of the input arrays.",
+      "Handling negative numbers requires careful consideration of the direction of iteration in the `check` function."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:48:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

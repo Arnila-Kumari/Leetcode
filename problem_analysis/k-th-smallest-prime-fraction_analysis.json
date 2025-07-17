@@ -1,0 +1,32 @@
+{
+  "problem_name": "k-th-smallest-prime-fraction",
+  "data_structures": [
+    [
+      "array",
+      "binary search variables"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the possible values of the fractions. For each mid-value, count fractions less than or equal to it."
+  ],
+  "problem_summary_simple": "Find the k-th smallest fraction formed by pairs of numbers from a sorted array of primes.",
+  "problem_summary_technical": "Applies binary search on the fraction value range [0, 1] to find the k-th smallest fraction efficiently.",
+  "time_complexity": [
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding a value `x` such that there are exactly `k` fractions less than or equal to `x`.",
+      "Binary search on the answer (the fraction value) is key. The `check` function efficiently counts fractions less than `mid`.",
+      "The `check` function uses a two-pointer approach (implicit `i` and `j`) to count fractions in O(n) time."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:48:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

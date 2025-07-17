@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-coins-from-k-consecutive-bags",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sorting segments, then using a sliding window to find the best k consecutive bags."
+  ],
+  "problem_summary_simple": "Find the maximum coins from k consecutive bags, given coin segments.",
+  "problem_summary_technical": "Sort segments by start/end points. Use a sliding window to maintain k consecutive bags, adjusting coin counts.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves segments and a fixed window size (k), hinting at a sliding window approach.",
+      "Since segments are non-overlapping and can be anywhere on the number line, sorting them is necessary.",
+      "The challenge is to handle the window size `k` correctly, especially when segments span across the window boundaries."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

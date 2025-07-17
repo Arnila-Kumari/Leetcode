@@ -1,0 +1,31 @@
+{
+  "problem_name": "reverse-linked-list-ii",
+  "data_structures": [
+    [
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterative: Find the nodes before and after the reversal segment, then reverse the segment in place."
+  ],
+  "problem_summary_simple": "Reverse a portion of a linked list between given positions.",
+  "problem_summary_technical": "Locate start/end of sublist, reverse it, and reconnect to the main list.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A dummy node simplifies handling reversals starting from the head.",
+      "Carefully identify the node before the reversal segment (`last_unswapped`) and the first node of the segment (`first_swapped`).",
+      "The reversal of the segment can be done using the standard iterative linked list reversal technique."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

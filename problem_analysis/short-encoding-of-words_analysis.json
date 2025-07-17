@@ -1,0 +1,33 @@
+{
+  "problem_name": "short-encoding-of-words",
+  "data_structures": [
+    [
+      "Trie",
+      "Set",
+      "List"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Build a Trie with reversed words. Sum lengths of words corresponding to leaf nodes."
+  ],
+  "problem_summary_simple": "Find the shortest string that can encode a list of words by using suffixes.",
+  "problem_summary_technical": "Utilize a Trie to store reversed words; leaf nodes represent unique suffixes. Sum lengths of words ending at leaf nodes.",
+  "time_complexity": [
+    "O(N*L)"
+  ],
+  "space_complexity": [
+    "O(N*L)"
+  ],
+  "key_insights": [
+    [
+      "Encoding words by their suffixes means we only need to store words that are not suffixes of other words.",
+      "A Trie is ideal for this as it naturally groups words with common suffixes (when reversed).",
+      "Words that end up at leaf nodes in the Trie (after reversing) are the ones that must be explicitly encoded."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:19:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

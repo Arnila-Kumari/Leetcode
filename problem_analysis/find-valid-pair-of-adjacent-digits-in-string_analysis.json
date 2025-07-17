@@ -1,0 +1,39 @@
+{
+  "problem_name": "find-valid-pair-of-adjacent-digits-in-string",
+  "data_structures": [
+    [
+      "array",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting and linear scan",
+    "Brute force with frequency check"
+  ],
+  "problem_summary_simple": "Find the first adjacent digit pair in a string where digits match their frequency count.",
+  "problem_summary_technical": "Count digit frequencies, then iterate through adjacent pairs, checking if digits differ and match their counts.",
+  "time_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A frequency array (or hash map) is crucial for efficient lookup of digit counts.",
+      "The constraint that digits must match their *numeric value* is key. '2' must appear twice, '3' thrice, etc.",
+      "Iterating through adjacent pairs ensures we find the *first* valid pair as required."
+    ],
+    [
+      "A brute-force approach would involve checking every possible pair and then recounting frequencies for each pair, which is less efficient.",
+      "The provided solution optimizes by pre-calculating all frequencies once."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

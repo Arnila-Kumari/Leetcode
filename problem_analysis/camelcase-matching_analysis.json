@@ -1,0 +1,33 @@
+{
+  "problem_name": "camelcase-matching",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two Pointers: iterate through query and pattern simultaneously, matching characters and handling uppercase deviations."
+  ],
+  "problem_summary_simple": "Check if a query string can be formed by inserting lowercase letters into a pattern.",
+  "problem_summary_technical": "Uses two pointers to match query characters against pattern characters, allowing lowercase insertions and rejecting uppercase deviations.",
+  "time_complexity": [
+    "O(n * l)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through the query string and pattern using two pointers.",
+      "If a query character matches the current pattern character, advance both pointers.",
+      "If a query character is lowercase and doesn't match the pattern, it's a valid insertion; advance only the query pointer.",
+      "If a query character is uppercase and doesn't match the pattern, it's an invalid match."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

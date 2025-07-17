@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-matching-of-players-with-trainers",
+  "data_structures": [
+    [
+      "sorted arrays"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort both players and trainers arrays. Use two pointers to greedily match the weakest player with the weakest suitable trainer."
+  ],
+  "problem_summary_simple": "Match players to trainers to maximize the number of successful pairings.",
+  "problem_summary_technical": "Sort players and trainers. Iterate through trainers, matching the current player if their ability is less than or equal to the trainer's capacity.",
+  "time_complexity": [
+    "O(nlogn + mlogm)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting both arrays is crucial for a greedy approach. This allows us to consider the weakest players and trainers first.",
+      "By matching the weakest player to the weakest available trainer that meets their ability, we leave stronger trainers available for stronger players.",
+      "The two-pointer approach efficiently finds matches without needing to re-scan or backtrack."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:52:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

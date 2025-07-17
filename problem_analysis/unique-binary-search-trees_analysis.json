@@ -1,0 +1,40 @@
+{
+  "problem_name": "unique-binary-search-trees",
+  "data_structures": [
+    [
+      "mathematical formula (Catalan numbers)",
+      "array (for DP)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Catalan Numbers (mathematical formula)",
+    "Dynamic Programming"
+  ],
+  "problem_summary_simple": "Calculate the number of unique Binary Search Trees that can be formed with n nodes.",
+  "problem_summary_technical": "The number of unique BSTs for n nodes is given by the nth Catalan number, calculable via a combinatorial formula or DP.",
+  "time_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a classic example related to Catalan numbers.",
+      "The DP approach builds up the solution by considering each number as the root and summing up possibilities for left and right subtrees.",
+      "The combinatorial formula C(2n, n) / (n+1) directly calculates the nth Catalan number."
+    ],
+    [
+      "The DP solution `counts[i]` stores the number of unique BSTs with `i` nodes.",
+      "The recurrence `counts[i] = sum(counts[j] * counts[i-j-1])` represents choosing `j` nodes for the left subtree and `i-j-1` for the right subtree, with `j` being the root.",
+      "The base cases `counts[0] = 1` and `counts[1] = 1` are essential for the DP."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,54 @@
+{
+  "problem_name": "best-time-to-buy-and-sell-stock-iii",
+  "data_structures": [
+    [
+      "variables"
+    ],
+    [
+      "list of variables"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "State machine DP: track max profit after buying/selling 1 or 2 stocks.",
+    "Generalize to k transactions using DP, then apply for k=2.",
+    "Two-pass DP: calculate max profit from left and right, then combine."
+  ],
+  "problem_summary_simple": "Find the maximum profit from at most two stock transactions, with no overlapping transactions.",
+  "problem_summary_technical": "Maximize profit from two non-overlapping buy-sell transactions. DP states track max profit after holding/selling for 1 or 2 transactions.",
+  "time_complexity": [
+    "O(n)",
+    "O(k*n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(k)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming by defining states that represent the maximum profit after a certain number of transactions (buy or sell).",
+      "The states can be: `hold1` (max profit after buying the first stock), `release1` (max profit after selling the first stock), `hold2` (max profit after buying the second stock), `release2` (max profit after selling the second stock).",
+      "The transitions involve considering the current price and the previous states."
+    ],
+    [
+      "The problem can be generalized to at most `k` transactions. The DP approach for `k` transactions can be applied with `k=2`.",
+      "The DP state `max_buy[j]` would represent the maximum profit after buying the `j`-th stock, and `max_sell[j]` would represent the maximum profit after selling the `j`-th stock.",
+      "This approach is more general and can be adapted for any number of transactions."
+    ],
+    [
+      "A two-pass approach can also solve this. First, calculate the maximum profit achievable with one transaction ending on each day (from left to right).",
+      "Second, calculate the maximum profit achievable with one transaction starting on each day (from right to left).",
+      "The final answer is the maximum sum of profits from the left pass and the right pass for each split point."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

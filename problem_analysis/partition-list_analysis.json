@@ -1,0 +1,32 @@
+{
+  "problem_name": "partition-list",
+  "data_structures": [
+    [
+      "linked list",
+      "dummy nodes"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Two-pointer approach using dummy nodes to build two separate lists (less than x, greater than or equal to x) and then merging them."
+  ],
+  "problem_summary_simple": "Rearrange a linked list so all nodes less than x come before nodes greater than or equal to x.",
+  "problem_summary_technical": "Maintain two separate linked lists for elements less than and greater than or equal to x, then concatenate.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Using dummy nodes simplifies the handling of the head of the new lists.",
+      "The relative order within each partition is preserved by appending nodes sequentially.",
+      "The final step involves connecting the tail of the 'less than' list to the head of the 'greater than or equal to' list."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

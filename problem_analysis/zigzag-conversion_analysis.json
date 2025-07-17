@@ -1,0 +1,32 @@
+{
+  "problem_name": "zigzag-conversion",
+  "data_structures": [
+    [
+      "string",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Simulate the zigzag pattern by calculating the indices of characters for each row and appending them."
+  ],
+  "problem_summary_simple": "Convert a string into a zigzag pattern and read it row by row.",
+  "problem_summary_technical": "Iterate through rows, calculating character indices based on the zigzag pattern's cycle length.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to understand the pattern of character placement in the zigzag.",
+      "The cycle length of the zigzag pattern is `2 * numRows - 2`.",
+      "Characters on the top and bottom rows appear once per cycle, while intermediate rows have two characters per cycle."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:14:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

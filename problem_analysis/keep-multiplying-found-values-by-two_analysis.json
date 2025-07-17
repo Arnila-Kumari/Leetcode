@@ -1,0 +1,32 @@
+{
+  "problem_name": "keep-multiplying-found-values-by-two",
+  "data_structures": [
+    [
+      "set",
+      "integer variable"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iteratively search for the 'original' value in the set and multiply by two if found."
+  ],
+  "problem_summary_simple": "Repeatedly double a number if it exists in a given array, until it's no longer found.",
+  "problem_summary_technical": "Uses a hash set for efficient O(1) average time lookups to find and multiply the 'original' value by two.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Using a hash set (or dictionary) for `nums` allows for O(1) average time complexity for checking if a number exists.",
+      "The process continues as long as the current `original` value is found in the set.",
+      "The loop terminates when `original` is not found, and that final `original` value is returned."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

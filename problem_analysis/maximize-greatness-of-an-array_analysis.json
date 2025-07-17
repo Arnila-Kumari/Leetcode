@@ -1,0 +1,43 @@
+{
+  "problem_name": "maximize-greatness-of-an-array",
+  "data_structures": [
+    [
+      "hash map",
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting to identify the most frequent element and calculate greatness based on it.",
+    "Sorting the array and using two pointers to greedily pair elements for maximum greatness."
+  ],
+  "problem_summary_simple": "Rearrange an array to maximize the count of indices where the permuted element is greater than the original element.",
+  "problem_summary_technical": "Frequency map approach finds max count of non-greatness. Sorting and two pointers greedily pair smaller elements with larger ones.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The maximum greatness is achieved when we maximize the number of `perm[i] > nums[i]` pairs.",
+      "If an element `x` appears `c` times, and `x` is the most frequent element, then at least `c` elements in `perm` cannot be greater than `nums[i]` if `nums[i]` is `x`.",
+      "The maximum greatness is `n - (maximum frequency of any element)`."
+    ],
+    [
+      "Sorting the array allows us to greedily assign larger numbers to smaller numbers.",
+      "We use two pointers: `left` points to the current element in `nums` that needs a greater element, and `right` iterates through `nums` to find a suitable greater element.",
+      "When `nums[right] > nums[left]`, we've found a pair that contributes to greatness, so we increment both pointers. Otherwise, we only increment `right` to find a larger number."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

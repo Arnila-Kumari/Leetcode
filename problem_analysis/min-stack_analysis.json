@@ -1,0 +1,50 @@
+{
+  "problem_name": "min-stack",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ],
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Custom stack with difference tracking for min",
+    "Two stacks: one for elements, one for minimums",
+    "Stack storing (current_min, value) tuples"
+  ],
+  "problem_summary_simple": "Design a stack that retrieves the minimum element in constant time.",
+  "problem_summary_technical": "Implement a stack with O(1) push, pop, top, and getMin using auxiliary data structures or clever value encoding.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Encoding the difference between current element and minimum can save space.",
+      "The first solution's space complexity is O(1) if we consider the 'min' variable as constant space, but the stack itself grows to O(n). The provided comment is misleading.",
+      "The second solution uses an auxiliary stack to keep track of minimums, handling duplicates correctly."
+    ],
+    [
+      "The third solution stores pairs of (current_minimum, actual_value) on the stack.",
+      "This approach ensures that when an element is popped, the previous minimum is readily available.",
+      "It's a straightforward way to maintain the minimum at each level of the stack."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

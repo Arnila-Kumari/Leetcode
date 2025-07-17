@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximize-spanning-tree-stability-with-upgrades",
+  "data_structures": [
+    [
+      "UnionFind",
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Kruskal's algorithm with modifications for mandatory edges and upgrades"
+  ],
+  "problem_summary_simple": "Maximize the minimum edge weight in a spanning tree by upgrading some edges.",
+  "problem_summary_technical": "Adapt Kruskal's to prioritize mandatory edges, then greedily add optional edges, considering upgrades to maximize minimum edge weight.",
+  "time_complexity": [
+    "O(E log E + N * alpha(N))"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a variation of the Minimum Spanning Tree (MST) problem.",
+      "Mandatory edges must be included first. If they form a cycle, it's impossible.",
+      "The goal is to maximize the minimum edge weight (stability), which suggests a binary search on the stability or a greedy approach considering edge weights."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

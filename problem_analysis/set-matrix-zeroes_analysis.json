@@ -1,0 +1,33 @@
+{
+  "problem_name": "set-matrix-zeroes",
+  "data_structures": [
+    [
+      "2D array (matrix)",
+      "booleans (for first row/col flags)",
+      "reduce (for initial checks)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "In-place modification using the first row and first column as markers for zero rows/columns, with separate flags for the first row/column itself."
+  ],
+  "problem_summary_simple": "If a matrix element is zero, set its entire row and column to zero.",
+  "problem_summary_technical": "In-place solution uses the first row and column as auxiliary space to mark rows/columns to be zeroed.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The challenge is to achieve O(1) space complexity.",
+      "Using the first row and first column of the matrix itself as markers is a clever way to avoid extra space.",
+      "Special handling is needed for the first row and first column because they are used as markers, so their original zero status must be preserved."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "online-stock-span",
+  "data_structures": [
+    [
+      "list",
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Use a stack to store (price, span) pairs. When a new price arrives, pop elements from the stack that are less than or equal to the current price, summing their spans."
+  ],
+  "problem_summary_simple": "Calculate the number of consecutive preceding days with prices less than or equal to the current day's price.",
+  "problem_summary_technical": "Maintain a stack of (price, span) pairs. For each new price, pop smaller or equal prices from the stack, accumulating their spans, and push the new price with its calculated span.",
+  "time_complexity": [
+    "O(n) amortized"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding the nearest greater element to the left for each element.",
+      "A monotonic stack (decreasing in this case) is the ideal data structure for efficiently finding the nearest greater element.",
+      "By storing the span along with the price on the stack, we can efficiently calculate the span for the current day by summing up the spans of popped elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

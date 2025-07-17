@@ -1,0 +1,33 @@
+{
+  "problem_name": "binary-tree-vertical-order-traversal",
+  "data_structures": [
+    [
+      "TreeNode",
+      "collections.defaultdict",
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) with column tracking using a hash map"
+  ],
+  "problem_summary_simple": "Traverse a binary tree column by column, from top to bottom, left to right.",
+  "problem_summary_technical": "Uses BFS to visit nodes, assigning column indices and storing values in a hash map keyed by column index.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "BFS ensures nodes are visited level by level, which is important for top-to-bottom order.",
+      "A hash map (defaultdict) is ideal for grouping nodes by their vertical column index.",
+      "The column index is decremented for left children and incremented for right children."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

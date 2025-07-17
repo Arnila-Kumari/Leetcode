@@ -1,0 +1,31 @@
+{
+  "problem_name": "reaching-points",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Reverse Euclidean algorithm (modulo arithmetic)"
+  ],
+  "problem_summary_simple": "Can we transform point (sx, sy) to (tx, ty) using operations (x, x+y) or (x+y, y)?",
+  "problem_summary_technical": "Applies reverse operations using modulo arithmetic to check reachability, leveraging the properties of the Euclidean algorithm.",
+  "time_complexity": [
+    "O(log(max(tx, ty)))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by working backward from the target point (tx, ty) to the start point (sx, sy).",
+      "The operations (x, x+y) and (x+y, y) are equivalent to subtracting the smaller coordinate from the larger one repeatedly, similar to the Euclidean algorithm.",
+      "If tx < ty, swap them to ensure tx >= ty. Then, if ty > sy, reduce tx by multiples of ty (tx %= ty). If tx becomes less than sx or ty becomes less than sy, it's impossible. If tx == sx, check if (ty - sy) is a multiple of tx."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

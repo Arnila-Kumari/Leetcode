@@ -1,0 +1,31 @@
+{
+  "problem_name": "valid-word-square",
+  "data_structures": [
+    [
+      "list of strings"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Direct comparison of row and column characters"
+  ],
+  "problem_summary_simple": "Determine if a list of words forms a square where rows and columns read the same.",
+  "problem_summary_technical": "Compare characters at (i, j) and (j, i) for all valid indices, ensuring row and column symmetry.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is symmetry: word[i][j] must equal word[j][i].",
+      "Handle cases where rows or columns might be shorter than expected.",
+      "The comparison needs to be robust against out-of-bounds access."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

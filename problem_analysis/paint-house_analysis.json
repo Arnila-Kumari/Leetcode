@@ -1,0 +1,41 @@
+{
+  "problem_name": "paint-house",
+  "data_structures": [
+    [
+      "2D array (costs matrix)",
+      "Array (for space-optimized DP states)",
+      "2D array (for DP states)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with O(1) space optimization.",
+    "Dynamic Programming with O(n) space."
+  ],
+  "problem_summary_simple": "Find the minimum cost to paint n houses with three colors, no adjacent houses same color.",
+  "problem_summary_technical": "DP where dp[i][c] is min cost to paint house i with color c, considering previous house's color.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic DP problem where the decision for the current house depends on the previous house's color.",
+      "The state can be defined as the minimum cost to paint the first i houses ending with a specific color.",
+      "The O(1) space solution reuses the input array or a small fixed-size array to store previous states."
+    ],
+    [
+      "The recurrence relation for painting house `i` with color `c` is `costs[i][c] + min(cost to paint house i-1 with color != c)`.",
+      "The base case is the cost of painting the first house.",
+      "The final answer is the minimum cost among painting the last house with any of the three colors."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

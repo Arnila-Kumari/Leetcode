@@ -1,0 +1,40 @@
+{
+  "problem_name": "stone-game-ii",
+  "data_structures": [
+    [
+      "array",
+      "hash map"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Memoized recursion (top-down DP) to find the maximum stones Alice can get.",
+    "Prefix sums combined with memoized recursion."
+  ],
+  "problem_summary_simple": "Players take 1 to 2M piles, updating M to max(M, X), to maximize their stones.",
+  "problem_summary_technical": "Memoized DP state (index, M) calculates max stones for current player given remaining piles and M.",
+  "time_complexity": [
+    "O(n^2 * M) where M can be up to n, effectively O(n^3) without optimization, but with prefix sums and careful M handling, closer to O(n^2)",
+    "O(n^2) with prefix sums and memoization"
+  ],
+  "space_complexity": [
+    "O(n^2) for memoization table",
+    "O(n^2) for memoization table"
+  ],
+  "key_insights": [
+    [
+      "The state of the game is defined by the current starting index of the piles and the current value of M.",
+      "The problem can be solved using dynamic programming with memoization.",
+      "Calculating prefix sums of the piles array significantly speeds up the calculation of the sum of stones in a range."
+    ],
+    [
+      "The core idea is to determine the maximum score the current player can achieve given the current state (index `i` and parameter `m`).",
+      "The DP state `dp(i, m)` represents the maximum number of stones the current player can get from `piles[i:]` with the current `m` value.",
+      "The transition involves iterating through possible moves `x` (1 to `2*m`) and choosing the one that maximizes the current player's score, considering the opponent's optimal play."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

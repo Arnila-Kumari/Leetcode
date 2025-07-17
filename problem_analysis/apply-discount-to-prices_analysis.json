@@ -1,0 +1,33 @@
+{
+  "problem_name": "apply-discount-to-prices",
+  "data_structures": [
+    [
+      "string",
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Split sentence into words, identify prices (starting with '$' followed by digits), calculate discounted price, format to two decimal places, and rejoin."
+  ],
+  "problem_summary_simple": "Apply a percentage discount to dollar prices in a sentence and format them to two decimal places.",
+  "problem_summary_technical": "Parse sentence, identify price words, convert to number, apply discount, format to '$X.XX', and reconstruct the sentence.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "String splitting and joining are fundamental for sentence manipulation.",
+      "Regular expressions or careful string parsing are needed to identify valid price formats.",
+      "Formatting the output to exactly two decimal places is a critical requirement."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

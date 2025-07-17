@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-score-after-splitting-a-string",
+  "data_structures": [
+    [
+      "string",
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through all possible split points, calculating the score (zeros in left + ones in right) and tracking the maximum."
+  ],
+  "problem_summary_simple": "Split a binary string into two non-empty parts to maximize (zeros in left + ones in right).",
+  "problem_summary_technical": "Iterate through all splits of a binary string, calculating score (left zeros + right ones) and finding the maximum.",
+  "time_complexity": [
+    "O(N) where N is the length of the string"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The score can be efficiently updated as we move the split point. Instead of recounting, we can increment the zero count and decrement the one count (or vice-versa) for the left/right substrings.",
+      "The problem can be optimized by observing that the score is `(zeros_left) + (total_ones - ones_left)`. This can be rewritten as `zeros_left - ones_left + total_ones`. Maximizing this is equivalent to maximizing `zeros_left - ones_left`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:54:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

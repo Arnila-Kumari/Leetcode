@@ -1,0 +1,32 @@
+{
+  "problem_name": "ambiguous-coordinates",
+  "data_structures": [
+    [
+      "List",
+      "String"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Brute-force generation of all possible decimal placements for x and y coordinates."
+  ],
+  "problem_summary_simple": "Find all valid coordinate pairs from a string by inserting decimal points.",
+  "problem_summary_technical": "Iterates through all possible split points for the string, generating valid decimal representations for x and y coordinates.",
+  "time_complexity": [
+    "O(n^4)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is to systematically explore all valid placements of decimal points.",
+      "Constraints on leading zeros and decimal point placement are crucial for filtering invalid possibilities.",
+      "The problem can be broken down into finding valid representations for the left and right parts of the coordinate."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

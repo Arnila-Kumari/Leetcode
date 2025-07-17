@@ -1,0 +1,47 @@
+{
+  "problem_name": "linked-list-in-binary-tree",
+  "data_structures": [
+    [
+      "linked list",
+      "binary tree",
+      "recursion",
+      "kmp algorithm"
+    ],
+    [
+      "linked list",
+      "binary tree",
+      "recursion"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Use KMP algorithm to find linked list pattern in tree traversals.",
+    "Recursive DFS to check for linked list path starting from each tree node."
+  ],
+  "problem_summary_simple": "Check if a linked list forms a downward path in a binary tree.",
+  "problem_summary_technical": "Search for linked list sequence as a downward path in a binary tree using DFS or KMP.",
+  "time_complexity": [
+    "O(N + L)",
+    "O(N * min(H, L))"
+  ],
+  "space_complexity": [
+    "O(H + L)",
+    "O(H)"
+  ],
+  "key_insights": [
+    [
+      "KMP preprocessing (prefix function) helps avoid redundant comparisons when mismatches occur.",
+      "The DFS function needs to track the current position in the linked list pattern.",
+      "The overall search involves iterating through the tree and initiating a pattern match at each node."
+    ],
+    [
+      "A simple recursive DFS can check for a path match starting at a given tree node.",
+      "The main function needs to call this DFS from every node in the tree.",
+      "This approach can be less efficient if the linked list is long and the tree is wide."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

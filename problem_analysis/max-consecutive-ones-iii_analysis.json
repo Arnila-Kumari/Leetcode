@@ -1,0 +1,38 @@
+{
+  "problem_name": "max-consecutive-ones-iii",
+  "data_structures": [
+    [
+      "integer variables for window start and count"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "sliding window with two pointers and a count of zeros"
+  ],
+  "problem_summary_simple": "Find the longest sequence of consecutive 1s, allowing up to k zero flips.",
+  "problem_summary_technical": "Use a sliding window; expand right, shrink left if zero count exceeds k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic sliding window problem where we maintain a window of valid 1s (allowing k flips).",
+      "The window expands by moving the right pointer (`j`). If the number of zeros in the window exceeds `k`, the window shrinks by moving the left pointer (`i`)."
+    ],
+    [
+      "The condition `K < 0` signifies that we have used more flips than allowed.",
+      "The `while K < 0` loop ensures that the window is valid by removing elements from the left until `K` is non-negative again."
+    ],
+    [
+      "The length of the valid window is `j - i + 1`.",
+      "The `result` variable keeps track of the maximum window size encountered."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-arithmetic-subsequence-of-given-difference",
+  "data_structures": [
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with hashmap for O(1) lookups"
+  ],
+  "problem_summary_simple": "Find the longest arithmetic subsequence with a specific difference between elements.",
+  "problem_summary_technical": "Uses a hashmap to store the length of the longest arithmetic subsequence ending at a particular number, enabling O(1) lookups for previous elements.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to track the length of the longest arithmetic subsequence ending at each number.",
+      "A hashmap (dictionary) is crucial for efficient lookups of `arr[i] - difference`.",
+      "The problem can be viewed as finding the longest path in a directed acyclic graph where nodes are numbers and edges exist if the difference matches."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

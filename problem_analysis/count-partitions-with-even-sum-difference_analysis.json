@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-partitions-with-even-sum-difference",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sum and parity check"
+  ],
+  "problem_summary_simple": "Count partitions where the sum difference between left and right subarrays is even.",
+  "problem_summary_technical": "Iterate through possible partition points, maintaining prefix sums and checking the parity of the sum difference.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The difference between two sums (left_sum and right_sum) is even if and only if both sums have the same parity (both even or both odd).",
+      "We can efficiently calculate the left sum using a running prefix sum and the right sum by subtracting the left sum from the total sum.",
+      "The total sum's parity is constant. If the total sum is even, then left_sum and right_sum must have the same parity. If the total sum is odd, then left_sum and right_sum must have different parities."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:17:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

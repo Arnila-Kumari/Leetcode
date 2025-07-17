@@ -1,0 +1,34 @@
+{
+  "problem_name": "ways-to-split-array-into-three-subarrays",
+  "data_structures": [
+    [
+      "prefix sum array",
+      "integer variables for pointers"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "prefix sums to quickly calculate subarray sums",
+    "two pointers (left and right) to find valid split points",
+    "binary search (implicit in pointer movement) for efficiency"
+  ],
+  "problem_summary_simple": "Find ways to split an array into three parts where sums are non-decreasing.",
+  "problem_summary_technical": "Uses prefix sums and two pointers to efficiently find valid split points satisfying sum conditions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Prefix sums are crucial for O(1) sum calculations of subarrays.",
+      "The two-pointer approach avoids a brute-force O(n^3) or O(n^2) solution.",
+      "Careful handling of pointer boundaries and conditions is key to correctness."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

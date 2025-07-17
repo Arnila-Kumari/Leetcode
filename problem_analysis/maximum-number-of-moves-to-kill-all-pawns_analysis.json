@@ -1,0 +1,40 @@
+{
+  "problem_name": "maximum-number-of-moves-to-kill-all-pawns",
+  "data_structures": [
+    [
+      "2D list",
+      "2D list",
+      "list of lists",
+      "2D list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "BFS for distances, then DP with bitmask for optimal pawn capture order.",
+    "Minimax game theory applied to pawn capture sequence."
+  ],
+  "problem_summary_simple": "Maximize total knight moves to capture all pawns on a chessboard, with Alice maximizing and Bob minimizing.",
+  "problem_summary_technical": "Precompute knight distances between all pawns and knight. Use DP with bitmask to find optimal pawn capture order considering player turns.",
+  "time_complexity": [
+    "O(p^2 * 2^p + N^2)"
+  ],
+  "space_complexity": [
+    "O(p * 2^p + N^2)"
+  ],
+  "key_insights": [
+    [
+      "The core of the problem is finding the optimal order of capturing pawns.",
+      "Alice wants to maximize the total moves, Bob wants to minimize.",
+      "This suggests a minimax approach, which can be modeled with DP and bitmasking."
+    ],
+    [
+      "Pre-calculating all pairwise distances between pawns and the knight is crucial.",
+      "BFS is suitable for finding shortest path distances on a grid.",
+      "The DP state `dp[mask][last_pawn_idx]` represents the optimal score after capturing pawns in `mask`, ending with `last_pawn_idx`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

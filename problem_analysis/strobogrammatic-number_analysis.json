@@ -1,0 +1,30 @@
+{
+  "problem_name": "strobogrammatic-number",
+  "data_structures": [
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Two pointers and a lookup table for strobogrammatic digit pairs."
+  ],
+  "problem_summary_simple": "Determine if a number looks the same when rotated 180 degrees.",
+  "problem_summary_technical": "Uses two pointers to compare digits from both ends of the string against a strobogrammatic mapping.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Only digits 0, 1, 8 are self-strobogrammatic; 6 and 9 are pairs.",
+      "The core idea is to check if the digit at index `i` is the strobogrammatic counterpart of the digit at index `n-1-i`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:10:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

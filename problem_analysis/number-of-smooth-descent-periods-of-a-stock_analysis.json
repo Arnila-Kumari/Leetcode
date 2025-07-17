@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-smooth-descent-periods-of-a-stock",
+  "data_structures": [
+    [
+      "variables for current length and total result"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Sliding window with length tracking and arithmetic series summation"
+  ],
+  "problem_summary_simple": "Count contiguous subarrays where each element is one less than the previous.",
+  "problem_summary_technical": "Iterate through prices, tracking the length of the current smooth descent period. When a period ends, add the sum of lengths (1 to l) to the total.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A smooth descent period is defined by a difference of -1 between consecutive days.",
+      "A contiguous sequence of length `l` contributes `l*(l+1)/2` smooth descent periods.",
+      "The problem can be solved by iterating once and maintaining the current length of the descent.",
+      "The first day of any period is always a valid period of length 1."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

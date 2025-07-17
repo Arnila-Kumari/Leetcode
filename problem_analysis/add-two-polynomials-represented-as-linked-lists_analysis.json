@@ -1,0 +1,31 @@
+{
+  "problem_name": "add-two-polynomials-represented-as-linked-lists",
+  "data_structures": [
+    [
+      "Linked List"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterative merging and addition of linked list nodes based on power"
+  ],
+  "problem_summary_simple": "Add two polynomials represented as linked lists, combining terms with the same power.",
+  "problem_summary_technical": "Iterates through two sorted linked lists, merging nodes by power and summing coefficients, creating a new linked list.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The input polynomials are sorted by power, enabling a merge-like approach.",
+      "Handle cases where powers match, one list is longer, or the sum of coefficients is zero.",
+      "A dummy head node simplifies the construction of the result linked list."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

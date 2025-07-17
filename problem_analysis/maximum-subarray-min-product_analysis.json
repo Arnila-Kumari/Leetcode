@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-subarray-min-product",
+  "data_structures": [
+    [
+      "Array",
+      "Stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack with prefix sums to find subarray sum efficiently."
+  ],
+  "problem_summary_simple": "Find the maximum product of a subarray's minimum element and its sum.",
+  "problem_summary_technical": "Uses a monotonic stack to find the nearest smaller elements for each number, defining subarray boundaries for min-product calculation.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "For each element `nums[i]`, we want to find the largest subarray where `nums[i]` is the minimum element.",
+      "A monotonic increasing stack can efficiently find the 'previous smaller element' and 'next smaller element' for each `nums[i]`.",
+      "Once the boundaries of such subarrays are found, prefix sums can quickly calculate the sum of elements within those boundaries."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:54:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

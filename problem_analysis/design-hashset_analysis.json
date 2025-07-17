@@ -1,0 +1,35 @@
+{
+  "problem_name": "design-hashset",
+  "data_structures": [
+    [
+      "Array of LinkedLists (for separate chaining)",
+      "Doubly Linked List (for each bucket)"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Separate chaining using LinkedLists for collision resolution",
+    "Modulo arithmetic for hashing keys to array indices"
+  ],
+  "problem_summary_simple": "Implement a HashSet without using built-in hash table libraries.",
+  "problem_summary_technical": "Use an array of linked lists (separate chaining) to store elements. Hash keys using modulo to map to array buckets.",
+  "time_complexity": [
+    "add: O(1) on average, O(N) worst case",
+    "contains: O(1) on average, O(N) worst case",
+    "remove: O(1) on average, O(N) worst case"
+  ],
+  "space_complexity": [
+    "O(N) where N is the number of elements stored"
+  ],
+  "key_insights": [
+    [
+      "Similar to HashMap, a HashSet uses hashing to map elements to array indices.",
+      "Separate chaining with linked lists is a common method to handle hash collisions.",
+      "The `add` operation only inserts if the element is not already present, requiring a lookup first."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

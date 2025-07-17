@@ -1,0 +1,33 @@
+{
+  "problem_name": "number-of-atoms",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list",
+      "regular expression"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Use a stack to manage nested parentheses and a regex to parse the formula, accumulating atom counts."
+  ],
+  "problem_summary_simple": "Count the occurrences of each atom in a chemical formula, handling parentheses and multipliers.",
+  "problem_summary_technical": "Parse formula with regex, use a stack of counters to handle nested parentheses and multipliers, then sort and format the output.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is handling nested parentheses and their multipliers, which naturally suggests a stack-based approach.",
+      "Regular expressions are powerful for tokenizing the chemical formula into elements, numbers, and parentheses.",
+      "The counts need to be aggregated correctly when exiting a parenthesized group, multiplying by the group's multiplier."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

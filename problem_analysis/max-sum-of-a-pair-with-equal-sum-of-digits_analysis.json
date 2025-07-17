@@ -1,0 +1,32 @@
+{
+  "problem_name": "max-sum-of-a-pair-with-equal-sum-of-digits",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Group numbers by their sum of digits and track the largest number for each sum."
+  ],
+  "problem_summary_simple": "Find the max sum of two numbers with the same digit sum.",
+  "problem_summary_technical": "Group numbers by digit sum. For each sum, store the largest number encountered. Update max sum when a new number with the same digit sum is found.",
+  "time_complexity": [
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to group numbers by their sum of digits.",
+      "For each digit sum, we only need to store the largest number seen so far to maximize potential pair sums.",
+      "When a number with an existing digit sum is encountered, we form a pair with the largest number previously stored for that sum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

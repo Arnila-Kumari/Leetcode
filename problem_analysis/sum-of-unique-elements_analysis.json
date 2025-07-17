@@ -1,0 +1,31 @@
+{
+  "problem_name": "sum-of-unique-elements",
+  "data_structures": [
+    [
+      "hash map (collections.Counter)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting using a hash map"
+  ],
+  "problem_summary_simple": "Sum all numbers that appear exactly once in an array.",
+  "problem_summary_technical": "Uses a hash map (Counter) to store element frequencies and then sums elements with a frequency of one.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A hash map (like Python's Counter) is ideal for efficiently tracking the frequency of each element.",
+      "Iterating through the frequency map allows for a direct selection of unique elements.",
+      "The constraints on `nums[i]` (<= 100) also suggest that a simple array as a frequency map would be feasible, but Counter is more general."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

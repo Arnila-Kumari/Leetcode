@@ -1,0 +1,41 @@
+{
+  "problem_name": "all-elements-in-two-binary-search-trees",
+  "data_structures": [
+    [
+      "binary tree",
+      "generator",
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "In-order Traversal with Generators: Perform in-order traversal on both BSTs using generators and merge the sorted elements.",
+    "In-order Traversal and Merge: Traverse both BSTs to get sorted lists, then merge the lists."
+  ],
+  "problem_summary_simple": "Combine elements from two BSTs into a single sorted list.",
+  "problem_summary_technical": "Perform in-order traversal on both BSTs to get sorted lists of elements, then merge these two sorted lists.",
+  "time_complexity": [
+    "O(N1 + N2) where N1 and N2 are the number of nodes in each tree",
+    "O(N1 + N2) where N1 and N2 are the number of nodes in each tree"
+  ],
+  "space_complexity": [
+    "O(H1 + H2) where H1 and H2 are the heights of the trees (for recursion stack or generator)",
+    "O(N1 + N2) to store the sorted lists"
+  ],
+  "key_insights": [
+    [
+      "In-order traversal of a BST yields elements in sorted order.",
+      "Using generators for in-order traversal allows for lazy evaluation and efficient merging without storing full lists.",
+      "The merging process is similar to merging two sorted arrays."
+    ],
+    [
+      "In-order traversal of a BST yields elements in sorted order.",
+      "The problem can be solved by obtaining two sorted lists and then merging them.",
+      "This approach is straightforward but might use more space if the trees are very large."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

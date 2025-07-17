@@ -1,0 +1,32 @@
+{
+  "problem_name": "corporate-flight-bookings",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "difference array for range updates",
+    "prefix sum to reconstruct final array"
+  ],
+  "problem_summary_simple": "Calculate total seats booked for each flight given a list of bookings for flight ranges.",
+  "problem_summary_technical": "Use a difference array to mark start and end of bookings, then prefix sum to get cumulative seats.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "difference array efficiently handles range updates",
+      "prefix sum reconstructs the actual values",
+      "offsetting indices by 1 simplifies logic"
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:44:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

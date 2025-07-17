@@ -1,0 +1,43 @@
+{
+  "problem_name": "detect-cycles-in-2d-grid",
+  "data_structures": [
+    [
+      "UnionFind (Disjoint Set Union)"
+    ],
+    [
+      "2D array (modified in-place)",
+      "queue (for BFS)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find to detect cycles by checking if adjacent same-valued cells are already connected.",
+    "Depth First Search (DFS) or Breadth First Search (BFS) to explore connected components and detect back-edges."
+  ],
+  "problem_summary_simple": "Find if a 2D grid contains a cycle of the same character, at least 4 steps long.",
+  "problem_summary_technical": "Detect cycles in a grid using Union-Find or BFS/DFS by checking for visited nodes from non-parent neighbors.",
+  "time_complexity": [
+    "O(m * n * α(m*n)) which is nearly O(m*n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "Union-Find is efficient for detecting cycles in graphs, especially when edges are added incrementally.",
+      "The constraint of not moving to the immediate previous cell is crucial for cycle detection.",
+      "Mapping 2D coordinates to a 1D index simplifies Union-Find implementation."
+    ],
+    [
+      "BFS/DFS can detect cycles by encountering an already visited node that is not the immediate parent.",
+      "Modifying the grid in-place (e.g., marking visited cells with 0) can save space.",
+      "The cycle must be of length 4 or more, which is implicitly handled by not revisiting the immediate parent."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

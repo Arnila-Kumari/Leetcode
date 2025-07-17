@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-items-matching-a-rule",
+  "data_structures": [
+    [
+      "Hash Map (dictionary)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash map for rule key to index mapping, list comprehension for counting"
+  ],
+  "problem_summary_simple": "Count items in a list that match a given rule (type, color, or name).",
+  "problem_summary_technical": "Uses a hash map to map rule keys to item indices, then iterates through items with a list comprehension to count matches.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires matching an item based on a specified attribute (type, color, or name).",
+      "A hash map is ideal for quickly mapping the `ruleKey` string to the correct index within each item's sublist.",
+      "A concise way to count matches is using a generator expression with `sum()`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:34:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

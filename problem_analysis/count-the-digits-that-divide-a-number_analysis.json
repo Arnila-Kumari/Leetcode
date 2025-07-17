@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-the-digits-that-divide-a-number",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through digits of the number by repeatedly taking modulo 10 and integer division."
+  ],
+  "problem_summary_simple": "Count how many digits in a number divide the number itself.",
+  "problem_summary_technical": "Extract each digit of the input number and check if the original number is divisible by that digit.",
+  "time_complexity": [
+    "O(log10(num))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to extract each digit and perform a divisibility check.",
+      "The number of digits in `num` determines the loop iterations, hence logarithmic time complexity.",
+      "The constraint that `num` does not contain 0 simplifies the divisibility check."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:38:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

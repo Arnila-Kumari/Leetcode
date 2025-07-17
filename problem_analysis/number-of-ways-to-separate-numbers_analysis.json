@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-ways-to-separate-numbers",
+  "data_structures": [
+    [
+      "2D array (LCP table)",
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with Longest Common Prefix (LCP) optimization."
+  ],
+  "problem_summary_simple": "Count ways to split a number string into non-decreasing, positive integers without leading zeros.",
+  "problem_summary_technical": "DP state `dp[i][l]` counts ways to split `num[:i+1]` with the last number having length `l+1`. LCP optimizes comparisons.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "This problem requires dynamic programming to count valid partitions.",
+      "The constraints of non-decreasing order and no leading zeros are critical.",
+      "A Longest Common Prefix (LCP) array is essential to efficiently compare substrings for the non-decreasing condition."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

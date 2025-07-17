@@ -1,0 +1,31 @@
+{
+  "problem_name": "output-contest-matches",
+  "data_structures": [
+    [
+      "List of strings"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterative pairing using a list, simulating tournament rounds."
+  ],
+  "problem_summary_simple": "Generate a string representing tournament matches for n teams, pairing strongest with weakest.",
+  "problem_summary_technical": "Iteratively pairs teams from the ends of a list, creating nested string representations of matches.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to simulate the tournament round by round.",
+      "In each round, the strongest remaining team is paired with the weakest remaining team.",
+      "The process continues until only one match remains, representing the final winner."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:03:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

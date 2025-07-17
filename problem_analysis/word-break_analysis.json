@@ -1,0 +1,33 @@
+{
+  "problem_name": "word-break",
+  "data_structures": [
+    [
+      "array",
+      "set"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming: `dp[i]` is true if `s[0...i-1]` can be segmented.",
+    "Iterate through string `s`, checking all possible word breaks using the dictionary."
+  ],
+  "problem_summary_simple": "Determine if a string can be broken into a sequence of dictionary words.",
+  "problem_summary_technical": "Use dynamic programming where `dp[i]` indicates if the prefix `s[0...i-1]` can be segmented using words from `wordDict`.",
+  "time_complexity": [
+    "O(n * l^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic dynamic programming problem where subproblems build up the solution.",
+      "The `dp` array stores whether a prefix of the string can be segmented, allowing for efficient reuse of computed results.",
+      "Pre-calculating the maximum word length in the dictionary can optimize the inner loop."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

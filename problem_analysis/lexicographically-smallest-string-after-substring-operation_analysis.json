@@ -1,0 +1,31 @@
+{
+  "problem_name": "lexicographically-smallest-string-after-substring-operation",
+  "data_structures": [
+    [
+      "List (to build the result string)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: find the first non-'a' character and apply the operation to the substring starting from it until 'a' or end of string."
+  ],
+  "problem_summary_simple": "Make a string lexicographically smallest by replacing substrings with preceding letters, wrapping 'a' to 'z'.",
+  "problem_summary_technical": "Greedily applies the preceding character operation to the first non-'a' character's segment to achieve the lexicographically smallest result.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The goal is to make the string lexicographically smallest, meaning we want to reduce characters from left to right.",
+      "The operation allows replacing a substring with its preceding characters. This is most effective when applied to the first character that is not 'a'.",
+      "If the string is all 'a's, the only way to make it smaller is to change the last 'a' to 'z' (due to wrap-around)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

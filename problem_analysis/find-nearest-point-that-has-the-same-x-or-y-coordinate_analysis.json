@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-nearest-point-that-has-the-same-x-or-y-coordinate",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through points, check for coordinate match, calculate Manhattan distance, and track minimum."
+  ],
+  "problem_summary_simple": "Find the closest point to your location that shares an x or y coordinate.",
+  "problem_summary_technical": "Iterates through points, validates shared coordinates, calculates Manhattan distance, and returns the index of the nearest valid point.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A point is 'valid' if its x or y coordinate matches the current location's.",
+      "Manhattan distance is calculated as `abs(x1 - x2) + abs(y1 - y2)`.",
+      "If multiple points have the same minimum distance, the one with the smallest index is preferred."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

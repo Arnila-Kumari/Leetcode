@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-rectangles-that-can-form-the-largest-square",
+  "data_structures": [
+    [
+      "variable",
+      "variable"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through rectangles, find min dimension, track max side and count"
+  ],
+  "problem_summary_simple": "Find how many rectangles can form the largest possible square.",
+  "problem_summary_technical": "Iterate through rectangles, determine max square side from each (min dimension), track max side length and count of rectangles yielding it.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The side length of the largest square that can be cut from a rectangle is limited by its smaller dimension.",
+      "A single pass through the rectangles is sufficient to find the maximum possible square side length and count.",
+      "Maintain two variables: one for the maximum side length found so far, and another for the count of rectangles that can form a square of that size."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

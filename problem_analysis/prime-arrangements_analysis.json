@@ -1,0 +1,32 @@
+{
+  "problem_name": "prime-arrangements",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Count primes using Sieve of Eratosthenes, then calculate permutations of primes and non-primes."
+  ],
+  "problem_summary_simple": "Count permutations where primes are at prime indices and non-primes at non-prime indices.",
+  "problem_summary_technical": "Count primes up to n. Calculate factorial of prime count and factorial of non-prime count, then multiply modulo 10^9 + 7.",
+  "time_complexity": [
+    "O(n log(log n))"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem decomposes into arranging primes in prime positions and non-primes in non-prime positions independently.",
+      "The Sieve of Eratosthenes is efficient for finding primes up to a given limit.",
+      "Factorials are used to count the permutations of the prime and non-prime numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

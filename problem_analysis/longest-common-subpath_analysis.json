@@ -1,0 +1,34 @@
+{
+  "problem_name": "longest-common-subpath",
+  "data_structures": [
+    [
+      "hash set",
+      "rolling hash"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Binary search on the length of the subpath, using Rabin-Karp rolling hash for efficient subpath checking.",
+    "Binary search on subpath length with optimized rolling hash for checking common subpaths across all friends."
+  ],
+  "problem_summary_simple": "Find the longest sequence of cities visited by all friends in their paths.",
+  "problem_summary_technical": "Binary search on subpath length combined with Rabin-Karp rolling hash to efficiently check for common subpaths across all friends' paths.",
+  "time_complexity": [
+    "O(M * N * L) where M is number of friends, N is max path length, L is subpath length",
+    "O(M * N) with optimized rolling hash"
+  ],
+  "space_complexity": [
+    "O(N) for storing hashes"
+  ],
+  "key_insights": [
+    [
+      "The problem has a monotonic property: if a subpath of length X is common, any subpath of length < X is also common.",
+      "Rabin-Karp rolling hash allows O(N) computation of all subpath hashes for a given length.",
+      "Using two different hash functions (double hashing) significantly reduces the probability of hash collisions."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:49:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

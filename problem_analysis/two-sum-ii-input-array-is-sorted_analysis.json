@@ -1,0 +1,32 @@
+{
+  "problem_name": "two-sum-ii-input-array-is-sorted",
+  "data_structures": [
+    [
+      "two pointers",
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Use two pointers, one at the start and one at the end of the sorted array. Adjust pointers based on the sum compared to the target."
+  ],
+  "problem_summary_simple": "Find two numbers in a sorted array that add up to a target and return their 1-based indices.",
+  "problem_summary_technical": "Employ the two-pointer technique on a sorted array to find a pair summing to the target in O(n) time and O(1) space.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The sorted nature of the input array is key to the two-pointer approach.",
+      "By moving pointers inwards, we efficiently explore potential pairs without redundant checks.",
+      "The constant space complexity is achieved by not using any auxiliary data structures that grow with input size."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

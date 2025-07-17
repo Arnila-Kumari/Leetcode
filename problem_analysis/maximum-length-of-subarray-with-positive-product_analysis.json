@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-length-of-subarray-with-positive-product",
+  "data_structures": [
+    [
+      "list of integers"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Track current positive and negative product lengths, resetting at zeros."
+  ],
+  "problem_summary_simple": "Find the longest subarray with a positive product of all its elements.",
+  "problem_summary_technical": "Iterate through the array, maintaining counts of negative numbers and the positions of the last zero and first negative number.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Zeros act as separators, breaking the array into independent subproblems.",
+      "The sign of the product depends on the count of negative numbers.",
+      "A subarray has a positive product if it contains an even number of negative numbers and no zeros."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

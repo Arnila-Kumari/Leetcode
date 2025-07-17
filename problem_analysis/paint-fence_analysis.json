@@ -1,0 +1,40 @@
+{
+  "problem_name": "paint-fence",
+  "data_structures": [
+    [
+      "Array (for DP states)",
+      "Array (for space-optimized DP states)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with O(1) space optimization.",
+    "Dynamic Programming with O(n) space."
+  ],
+  "problem_summary_simple": "Count ways to paint n fence posts with k colors, avoiding three consecutive same colors.",
+  "problem_summary_technical": "DP approach where states depend on the last one or two posts' colors to avoid triple repetition.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down based on the color of the last two posts.",
+      "Let dp[i][0] be ways to paint i posts ending with different colors, and dp[i][1] ending with same colors.",
+      "The O(1) space solution uses rolling variables to store only the necessary previous states."
+    ],
+    [
+      "The recurrence relation considers two cases for the i-th post: same color as (i-1) or different color.",
+      "If the i-th post has a different color than (i-1), it can be any of the k-1 colors.",
+      "If the i-th post has the same color as (i-1), then (i-1) must have a different color than (i-2)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

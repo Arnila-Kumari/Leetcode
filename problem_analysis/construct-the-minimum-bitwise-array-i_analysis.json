@@ -1,0 +1,38 @@
+{
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "bitwise operations to derive the number",
+    "brute force search with bitwise OR"
+  ],
+  "problem_summary_simple": "Construct an array where each element ORed with itself plus one equals a given prime number, minimizing values.",
+  "problem_summary_technical": "Derive `ans[i]` from `nums[i]` using bitwise properties or brute-force search for minimal values.",
+  "time_complexity": [
+    "O(n)",
+    "O(n * r)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "the condition `x | (x+1) == num` implies `x` must have a specific bit pattern",
+      "if `num` is odd, `x` is `num - 1` if `num-1` is even, otherwise `x` is `num` if `num` is odd"
+    ],
+    [
+      "brute-forcing small numbers is feasible given constraints",
+      "the relationship between `x` and `x+1` in binary is key: `x+1` flips the trailing ones of `x` to zeros and the first zero to one."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "problem_name": "construct-the-minimum-bitwise-array-i",
+  "analysis_timestamp": "2025-07-16 22:44:04"
+}

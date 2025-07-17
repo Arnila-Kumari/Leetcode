@@ -1,0 +1,45 @@
+{
+  "problem_name": "painting-a-grid-with-three-different-colors",
+  "data_structures": [
+    [
+      "Adjacency list (defaultdict)",
+      "Counter",
+      "Matrix for matrix exponentiation"
+    ],
+    [
+      "Adjacency list (defaultdict)",
+      "Counter"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Matrix exponentiation with DP on grid states",
+    "Dynamic Programming with state compression and iterative updates"
+  ],
+  "problem_summary_simple": "Count ways to color an m x n grid with 3 colors such that no adjacent cells have the same color.",
+  "problem_summary_technical": "DP state represents valid colorings of a column. Matrix exponentiation used for large n, DP for small m.",
+  "time_complexity": [
+    "O(2^(3*m) * logn)",
+    "O(n * 3^m)"
+  ],
+  "space_complexity": [
+    "O(2^(2*m))",
+    "O(3^m)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using DP where states represent valid colorings of a column.",
+      "For large 'n', matrix exponentiation is used to speed up the calculation of transitions over many columns.",
+      "Generating valid column states and their transitions is a key subproblem."
+    ],
+    [
+      "Iterative DP approach where each column's valid colorings are computed based on the previous column.",
+      "State compression is used to represent column colorings efficiently.",
+      "The number of valid column states grows exponentially with 'm', making this efficient for small 'm'."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

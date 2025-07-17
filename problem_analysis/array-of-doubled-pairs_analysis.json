@@ -1,0 +1,32 @@
+{
+  "problem_name": "array-of-doubled-pairs",
+  "data_structures": [
+    [
+      "hashmap",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count frequencies of numbers, sort by absolute value, and greedily match pairs."
+  ],
+  "problem_summary_simple": "Check if an array can be reordered so each element has its double as the next element.",
+  "problem_summary_technical": "Use a frequency map to count occurrences. Sort elements by absolute value and greedily pair each number with its double, decrementing counts.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting by absolute value is crucial to handle negative numbers correctly.",
+      "A frequency map (Counter) efficiently stores and updates counts.",
+      "If a number `x` is present, its double `2*x` must also be present with at least the same frequency."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "count-almost-equal-pairs-i",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list"
+    ],
+    [
+      "collections.Counter",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting and combinatorics to count pairs based on digit swaps.",
+    "BFS-like generation of almost equal numbers and frequency counting."
+  ],
+  "problem_summary_simple": "Count pairs of numbers in an array that can be made equal by swapping at most two digits once.",
+  "problem_summary_technical": "Uses frequency maps and combinatorics to count pairs transformable by a single digit swap, considering all possible swaps.",
+  "time_complexity": [
+    "O(n * l^2)",
+    "O(n * l^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n + l^2)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to transform each number into its potential 'almost equal' forms by swapping digits.",
+      "A frequency map (Counter) is crucial for efficient lookups and counting pairs.",
+      "Combinatorics (n*(n-1)/2) is used to count pairs within groups of identical numbers."
+    ],
+    [
+      "Generating all possible 'almost equal' numbers for each input number can be done using a BFS-like approach.",
+      "Maintaining a lookup set prevents redundant processing of generated numbers.",
+      "The problem can be viewed as finding neighbors in a graph where nodes are numbers and edges are digit swaps."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

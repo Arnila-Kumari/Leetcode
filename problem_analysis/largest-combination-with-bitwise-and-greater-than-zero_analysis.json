@@ -1,0 +1,32 @@
+{
+  "problem_name": "largest-combination-with-bitwise-and-greater-than-zero",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate through each bit position (0 to max_bits). For each bit, count how many numbers in candidates have that bit set. The maximum count is the answer."
+  ],
+  "problem_summary_simple": "Find the largest group of numbers whose bitwise AND is not zero.",
+  "problem_summary_technical": "Counts occurrences of each bit across all numbers. The maximum count for any bit position indicates the largest combination.",
+  "time_complexity": [
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(log r)"
+  ],
+  "key_insights": [
+    [
+      "A bitwise AND of a combination is greater than zero if and only if there is at least one bit position that is set to 1 in all numbers of that combination.",
+      "This means we can independently check each bit position. For a given bit position, the largest combination that has this bit set in its AND result is simply all numbers that have this bit set.",
+      "Therefore, we iterate through all possible bit positions (up to the maximum possible value in `candidates`) and count how many numbers have that bit set. The maximum of these counts is the answer."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

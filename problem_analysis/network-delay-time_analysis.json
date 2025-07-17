@@ -1,0 +1,35 @@
+{
+  "problem_name": "network-delay-time",
+  "data_structures": [
+    [
+      "list",
+      "adjacency list",
+      "min-heap",
+      "set",
+      "dictionary"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm with a min-heap for efficient edge relaxation"
+  ],
+  "problem_summary_simple": "Find the minimum time for a signal to reach all nodes in a network, starting from a given node.",
+  "problem_summary_technical": "Apply Dijkstra's algorithm to find shortest paths from a source node to all other nodes in a weighted directed graph.",
+  "time_complexity": [
+    "O((|E| + |V|) * log|V|)"
+  ],
+  "space_complexity": [
+    "O(|E| + |V|)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a classic application of Dijkstra's algorithm for finding shortest paths in a weighted graph.",
+      "An adjacency list is suitable for representing the graph, and a min-heap (priority queue) is crucial for efficiently selecting the next node to process.",
+      "The algorithm terminates when all reachable nodes have been visited or the priority queue is empty. If not all nodes are reached, it's impossible."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

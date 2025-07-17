@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-k-sum-of-an-array",
+  "data_structures": [
+    [
+      "heap",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Max-heap to explore subsequence sums by iteratively subtracting smallest absolute values."
+  ],
+  "problem_summary_simple": "Find the k-th largest sum of any subsequence of an array.",
+  "problem_summary_technical": "Uses a max-heap to efficiently explore subsequence sums, starting from the total sum of positive elements.",
+  "time_complexity": [
+    "O(n log n + k log k)"
+  ],
+  "space_complexity": [
+    "O(n + k)"
+  ],
+  "key_insights": [
+    [
+      "The largest subsequence sum is the sum of all positive numbers.",
+      "To find smaller sums, we can subtract the smallest absolute values from larger sums.",
+      "A max-heap is suitable for keeping track of the largest sums encountered so far."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:17:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

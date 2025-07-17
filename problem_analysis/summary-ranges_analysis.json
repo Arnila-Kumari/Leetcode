@@ -1,0 +1,45 @@
+{
+  "problem_name": "summary-ranges",
+  "data_structures": [
+    [
+      "Array",
+      "String"
+    ],
+    [
+      "Array",
+      "String",
+      "Iterator"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the sorted array, identifying consecutive numbers to form ranges.",
+    "Use itertools.groupby to group consecutive numbers based on their difference with index."
+  ],
+  "problem_summary_simple": "Group consecutive numbers in a sorted array into ranges and represent them as strings.",
+  "problem_summary_technical": "Iterate through sorted array, identify contiguous sequences, and format as 'a' or 'a->b'.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The input array is sorted and unique, which is crucial for range identification.",
+      "A single pass can identify the start and end of each range.",
+      "Special handling is needed for single-element ranges."
+    ],
+    [
+      "Leveraging `itertools.groupby` with `lambda i_n: i_n[1]-i_n[0]` effectively groups consecutive numbers.",
+      "The `repr(n)` ensures correct string conversion for numbers.",
+      "String manipulation with `re.sub` formats the output ranges."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

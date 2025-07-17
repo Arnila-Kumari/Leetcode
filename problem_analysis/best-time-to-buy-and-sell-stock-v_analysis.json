@@ -1,0 +1,32 @@
+{
+  "problem_name": "best-time-to-buy-and-sell-stock-v",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with state transitions for buy, sell, and shorting."
+  ],
+  "problem_summary_simple": "Maximize profit with at most k transactions, including short selling.",
+  "problem_summary_technical": "DP states track max profit after buying, selling, or shorting up to k times, considering price changes.",
+  "time_complexity": [
+    "O(n*k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The problem extends stock trading to include short selling, requiring careful state management.",
+      "DP states need to capture the profit after a buy, a sell, and a short-sell (sell then buy back).",
+      "The transitions `bought[i] = max(bought[i], result[i]-x)` and `sold[i] = max(sold[i], result[i]+x)` are key for normal transactions.",
+      "The `result[i+1] = max(result[i+1], bought[i]+x, sold[i]-x)` transition handles both normal and short-selling profits."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:32:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

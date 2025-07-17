@@ -1,0 +1,32 @@
+{
+  "problem_name": "smallest-substring-with-identical-characters-i",
+  "data_structures": [
+    [
+      "array",
+      "binary search helper"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer (length), greedy check function"
+  ],
+  "problem_summary_simple": "Minimize the longest substring of identical characters after flipping at most `numOps` characters.",
+  "problem_summary_technical": "Binary search for the minimum possible maximum length. The check function greedily determines if a given length is achievable with `numOps`.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the minimum of a maximum, which often suggests binary search on the answer.",
+      "The `check(x)` function needs to determine if it's possible to have all identical character substrings of length at most `x` using `numOps`.",
+      "The `lengths()` generator efficiently provides the lengths of consecutive identical character blocks, which is crucial for the `check` function."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

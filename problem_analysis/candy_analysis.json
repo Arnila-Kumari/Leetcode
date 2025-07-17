@@ -1,0 +1,31 @@
+{
+  "problem_name": "candy",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Two-pass greedy approach: first left-to-right, then right-to-left."
+  ],
+  "problem_summary_simple": "Distribute candies to children based on ratings, ensuring each gets at least one and higher ratings get more than neighbors.",
+  "problem_summary_technical": "Greedy algorithm using a two-pass approach on an array to satisfy adjacent rating conditions for minimum candies.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires satisfying local conditions (neighboring ratings) globally.",
+      "A single pass is insufficient; a two-pass approach handles both left and right neighbor dependencies.",
+      "Initialize with 1 candy per child to satisfy the minimum requirement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

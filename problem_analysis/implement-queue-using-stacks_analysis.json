@@ -1,0 +1,33 @@
+{
+  "problem_name": "implement-queue-using-stacks",
+  "data_structures": [
+    [
+      "Two Stacks (lists)",
+      "append/pop operations"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Use two stacks: one for input (push) and one for output (pop/peek).",
+    "Amortized O(1) for operations by transferring elements only when needed."
+  ],
+  "problem_summary_simple": "Implement a queue using only stack operations.",
+  "problem_summary_technical": "Simulate FIFO queue using two stacks, transferring elements to maintain order for pop/peek.",
+  "time_complexity": [
+    "O(1) amortized for all operations."
+  ],
+  "space_complexity": [
+    "O(n) where n is the number of elements in the queue."
+  ],
+  "key_insights": [
+    [
+      "The key is to reverse the order of elements when moving from the input stack to the output stack.",
+      "Amortized O(1) is achieved because each element is pushed and popped from each stack at most once.",
+      "The `peek` operation is crucial for ensuring the output stack is populated before popping."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

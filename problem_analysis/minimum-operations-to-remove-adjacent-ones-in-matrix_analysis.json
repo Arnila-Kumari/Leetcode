@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-operations-to-remove-adjacent-ones-in-matrix",
+  "data_structures": [
+    [
+      "adjacency list",
+      "lookup table",
+      "dictionary"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Model as a bipartite graph problem and use Hopcroft-Karp for maximum matching."
+  ],
+  "problem_summary_simple": "Minimize flips of 1s to 0s so no two 1s are adjacent horizontally or vertically.",
+  "problem_summary_technical": "Construct a bipartite graph from adjacent 1s and find the maximum independent set via maximum matching.",
+  "time_complexity": [
+    "O(E * sqrt(V)) which is O(m*n * sqrt(m*n))"
+  ],
+  "space_complexity": [
+    "O(V) which is O(m*n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the minimum number of vertices to remove to make the graph of adjacent 1s an independent set.",
+      "This is equivalent to finding the maximum independent set in the graph of adjacent 1s.",
+      "For bipartite graphs, the size of the maximum independent set is `|V| - |Maximum Matching|`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:18:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

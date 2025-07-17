@@ -1,0 +1,31 @@
+{
+  "problem_name": "add-minimum-number-of-rungs",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterative calculation of required rungs based on distance constraints."
+  ],
+  "problem_summary_simple": "Find the minimum rungs to add to a ladder so you can climb it, given a maximum jump distance.",
+  "problem_summary_technical": "Iterates through rungs, calculating the number of additional rungs needed between the current position (floor or previous rung) and the next rung using ceiling division.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by considering the gaps between consecutive rungs.",
+      "For each gap, calculate how many rungs are needed to bridge it, given the maximum allowed distance.",
+      "The ceiling division `(a + b - 1) // b` is useful for calculating the number of segments of length `b` needed to cover a distance `a`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

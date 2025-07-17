@@ -1,0 +1,32 @@
+{
+  "problem_name": "describe-the-painting",
+  "data_structures": [
+    [
+      "defaultdict(int)",
+      "list"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sweep line algorithm using a dictionary to track color sum changes at segment endpoints."
+  ],
+  "problem_summary_simple": "Describe a painting made of overlapping colored segments with minimum non-overlapping segments.",
+  "problem_summary_technical": "Sweep line approach: use a dictionary to store color sum changes at segment start/end points, then iterate to form new segments.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by tracking the net change in color sums at each coordinate.",
+      "A sweep-line approach is effective: process events (segment start/end) in sorted order of coordinates.",
+      "The `counts` dictionary stores the net change in color sum at each point, allowing reconstruction of the painting."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

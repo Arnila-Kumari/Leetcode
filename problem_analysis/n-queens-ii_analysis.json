@@ -1,0 +1,33 @@
+{
+  "problem_name": "n-queens-ii",
+  "data_structures": [
+    [
+      "boolean array",
+      "boolean array",
+      "boolean array"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with optimized state tracking using boolean arrays for columns and diagonals."
+  ],
+  "problem_summary_simple": "Count distinct ways to place N queens on an NxN board so none attack each other.",
+  "problem_summary_technical": "Backtracking algorithm to explore queen placements, using boolean arrays to track occupied columns and diagonals for O(1) conflict checks.",
+  "time_complexity": [
+    "O(n!)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to use recursion (DFS) to explore possible queen placements row by row.",
+      "Boolean arrays for columns, main diagonals (row+col), and anti-diagonals (row-col) efficiently check for attacks in O(1) time.",
+      "Pruning the search space by skipping invalid placements is crucial for performance."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

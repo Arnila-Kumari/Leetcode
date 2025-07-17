@@ -1,0 +1,31 @@
+{
+  "problem_name": "make-array-zero-by-subtracting-equal-amounts",
+  "data_structures": [
+    [
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Set to store unique non-zero elements"
+  ],
+  "problem_summary_simple": "Find the minimum operations to make all array elements zero by subtracting the smallest positive element.",
+  "problem_summary_technical": "The minimum operations equal the count of unique positive elements in the array, as each unique positive value requires one subtraction step.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The operation allows subtracting any positive value up to the smallest non-zero element.",
+      "Each distinct positive number in the array will eventually need to be targeted by a subtraction operation.",
+      "Using a set efficiently counts the unique positive numbers."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

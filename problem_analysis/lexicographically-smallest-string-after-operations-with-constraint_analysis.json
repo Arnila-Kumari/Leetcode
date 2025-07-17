@@ -1,0 +1,31 @@
+{
+  "problem_name": "lexicographically-smallest-string-after-operations-with-constraint",
+  "data_structures": [
+    [
+      "List (to store character ordinals)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach to change characters to 'a' as much as possible within the given distance constraint k."
+  ],
+  "problem_summary_simple": "Change characters in a string to make it lexicographically smallest, staying within a total character distance limit.",
+  "problem_summary_technical": "Greedily transforms characters to 'a' by minimizing the cyclic distance, consuming the allowed 'k' budget from left to right.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To achieve the lexicographically smallest string, we should prioritize changing characters to 'a'.",
+      "The distance calculation needs to consider the cyclic nature of the alphabet ('a' to 'z').",
+      "A greedy strategy works: iterate through the string and change each character to 'a' if the cost (distance) is within the remaining 'k'."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

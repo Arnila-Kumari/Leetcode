@@ -1,0 +1,42 @@
+{
+  "problem_name": "neither-minimum-nor-maximum",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate and track min/max, returning first valid element",
+    "Find min/max, then iterate to find a non-min/max element"
+  ],
+  "problem_summary_simple": "Find any number in an array that is not the smallest or largest value.",
+  "problem_summary_technical": "Identify the minimum and maximum elements, then search for an element that is strictly between them.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "If the array has fewer than 3 elements, no such number can exist.",
+      "The problem guarantees distinct positive integers, simplifying min/max identification.",
+      "The first element found that is not the global min or max is a valid answer."
+    ],
+    [
+      "Pre-calculating min and max allows for a concise check.",
+      "Using `next()` with a generator expression provides an efficient way to find the first matching element.",
+      "If no such element is found, `next()` with a default value handles the `-1` return case."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

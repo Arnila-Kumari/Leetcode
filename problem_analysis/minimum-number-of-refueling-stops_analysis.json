@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-refueling-stops",
+  "data_structures": [
+    [
+      "heapq (max-heap)",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach using a max-heap to store available fuel from visited stations."
+  ],
+  "problem_summary_simple": "Find the minimum gas stops to reach a target destination with limited initial fuel.",
+  "problem_summary_technical": "Use a max-heap to greedily pick the station with the most fuel when current fuel is insufficient to reach the next station.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to drive as far as possible and only refuel when necessary.",
+      "When fuel runs out, we retroactively choose the station that offered the most fuel among those we've passed.",
+      "A max-heap is ideal for efficiently retrieving the station with the maximum fuel."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

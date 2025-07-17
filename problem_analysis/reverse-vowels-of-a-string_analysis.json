@@ -1,0 +1,31 @@
+{
+  "problem_name": "reverse-vowels-of-a-string",
+  "data_structures": [
+    [
+      "list of characters"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to find vowels from both ends and swap them."
+  ],
+  "problem_summary_simple": "Reverse only the vowels in a given string.",
+  "problem_summary_technical": "Employs a two-pointer approach to scan the string, identifying vowels and swapping them from opposite ends.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires modifying the string in-place (conceptually, by converting to a list).",
+      "A set or string of vowels is needed for efficient checking.",
+      "The two-pointer strategy ensures that only vowels are swapped, maintaining the positions of consonants."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

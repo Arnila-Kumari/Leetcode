@@ -1,0 +1,33 @@
+{
+  "problem_name": "concatenated-words",
+  "data_structures": [
+    [
+      "set",
+      "list",
+      "list of booleans"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to check if a word can be formed by concatenating shorter words from the dictionary."
+  ],
+  "problem_summary_simple": "Find words in a list that are formed by concatenating at least two other words from the same list.",
+  "problem_summary_technical": "Employs DP where `dp[i]` is true if the prefix of length `i` can be formed by concatenating dictionary words.",
+  "time_complexity": [
+    "O(n * l^2)"
+  ],
+  "space_complexity": [
+    "O(n * l)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using dynamic programming on each word.",
+      "`dp[i]` indicates if the substring `word[0:i]` can be formed by concatenating words from the dictionary.",
+      "A word is a concatenated word if `dp[len(word)]` is true and it's formed by at least two shorter words (checked by ensuring `j-i < len(word)` in the DP transition)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

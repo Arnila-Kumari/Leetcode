@@ -1,0 +1,29 @@
+{
+  "problem_name": "number-of-valid-words-in-a-sentence",
+  "data_structures": [
+    []
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterating through the sentence, tokenizing by spaces, and validating each token based on specific rules."
+  ],
+  "problem_summary_simple": "Count words in a sentence that follow specific rules about letters, hyphens, and punctuation.",
+  "problem_summary_technical": "Iterates through the sentence, splitting into tokens and applying validation rules for hyphens, punctuation, and digits.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires careful parsing of tokens and strict adherence to validation rules.",
+      "Each token must be checked for digits, hyphen placement, and punctuation placement.",
+      "The sentence can have multiple spaces between words, which needs to be handled during tokenization."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:03:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

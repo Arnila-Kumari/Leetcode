@@ -1,0 +1,34 @@
+{
+  "problem_name": "mark-elements-on-array-by-performing-queries",
+  "data_structures": [
+    [
+      "hash set (for lookup)",
+      "min-heap (priority queue)",
+      "array"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Using a min-heap to efficiently find the smallest unmarked elements.",
+    "Maintaining a lookup set/array to track marked elements."
+  ],
+  "problem_summary_simple": "Process queries to mark elements by index and by smallest value, returning the sum of unmarked elements after each query.",
+  "problem_summary_technical": "A min-heap stores (value, index) pairs. Queries mark an element by index, then k smallest unmarked elements from the heap, updating the total sum.",
+  "time_complexity": [
+    "O(m + n log n + m log n) where m is number of queries and n is number of elements."
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is efficiently finding the 'k smallest unmarked elements'. A min-heap is perfect for this.",
+      "We need to keep track of which elements are already marked to avoid double-counting or re-marking.",
+      "The total sum needs to be updated incrementally as elements are marked."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

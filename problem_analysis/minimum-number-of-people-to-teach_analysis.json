@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-people-to-teach",
+  "data_structures": [
+    [
+      "set",
+      "counter"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Identify problematic friendships, count language needs, and greedily teach the most beneficial language."
+  ],
+  "problem_summary_simple": "Teach minimum people a new language so all friends can communicate.",
+  "problem_summary_technical": "Find friends who can't communicate, count their language needs, and teach the language that satisfies most problematic friendships.",
+  "time_complexity": [
+    "O(n * m^2)"
+  ],
+  "space_complexity": [
+    "O(n * m)"
+  ],
+  "key_insights": [
+    [
+      "First, identify all friendships where users cannot communicate.",
+      "For these problematic friendships, determine which languages are missing for communication.",
+      "The problem reduces to finding a single language to teach to the minimum number of people to resolve the most problematic friendships."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

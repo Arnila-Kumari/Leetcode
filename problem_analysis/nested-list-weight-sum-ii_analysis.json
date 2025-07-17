@@ -1,0 +1,33 @@
+{
+  "problem_name": "nested-list-weight-sum-ii",
+  "data_structures": [
+    [
+      "list",
+      "nested list structure",
+      "list (for storing sums at each depth)"
+    ]
+  ],
+  "category": "Recursion",
+  "algorithm_technique": [
+    "Two-pass approach: first pass to find max depth and sum by depth, second pass to calculate weighted sum"
+  ],
+  "problem_summary_simple": "Sum integers in a nested list, multiplying each by a weight based on its depth relative to the maximum depth.",
+  "problem_summary_technical": "Calculate sums at each depth, then compute weighted sum using maxDepth - depth + 1.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The key difference from the previous problem is the weighting scheme: weight is based on maximum depth.",
+      "A two-pass approach is effective: first, traverse to determine the maximum depth and sum values at each depth.",
+      "Second, iterate through the collected sums, applying the inverse depth weighting (maxDepth - depth + 1)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

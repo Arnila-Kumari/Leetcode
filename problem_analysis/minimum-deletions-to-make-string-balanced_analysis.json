@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-deletions-to-make-string-balanced",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Single pass iteration, maintaining counts of 'b's encountered and greedily deciding to delete 'b' or keep 'a'."
+  ],
+  "problem_summary_simple": "Delete minimum characters to make string have all 'a's before all 'b's.",
+  "problem_summary_technical": "Iterate through the string, counting 'b's. If an 'a' is found and there are preceding 'b's, either delete the 'a' or delete a 'b'.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The target balanced string will have a prefix of 'a's followed by a suffix of 'b's.",
+      "When we encounter an 'a' after seeing some 'b's, we have two choices: delete the 'a' or delete one of the preceding 'b's.",
+      "The greedy choice is to delete the character that results in fewer deletions overall. This can be tracked by maintaining a count of available 'b's to delete."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

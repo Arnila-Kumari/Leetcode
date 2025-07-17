@@ -1,0 +1,31 @@
+{
+  "problem_name": "simple-bank-system",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Direct array access and manipulation for account operations."
+  ],
+  "problem_summary_simple": "Manage bank accounts with deposit, withdraw, and transfer operations, validating each transaction.",
+  "problem_summary_technical": "Implement a Bank class with O(1) operations for deposit, withdraw, and transfer using an array to store account balances.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core of the solution is direct manipulation of the balance array.",
+      "Account validation (existence and sufficient funds) is crucial for each operation.",
+      "The problem emphasizes efficient, constant-time operations."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

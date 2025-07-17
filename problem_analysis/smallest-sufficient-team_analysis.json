@@ -1,0 +1,32 @@
+{
+  "problem_name": "smallest-sufficient-team",
+  "data_structures": [
+    [
+      "hashmap",
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "dynamic programming with bitmasking"
+  ],
+  "problem_summary_simple": "Find the smallest group of people whose combined skills cover all required skills.",
+  "problem_summary_technical": "Uses dynamic programming with bitmasking to represent skill sets, minimizing team size by iterating through people and updating DP states.",
+  "time_complexity": [
+    "O(m * 2^n)"
+  ],
+  "space_complexity": [
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "Bitmasking is efficient for representing subsets of skills.",
+      "Dynamic programming state can be the bitmask of covered skills.",
+      "Iterate through people and update DP table by combining current skill sets with the person's skills."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:09:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

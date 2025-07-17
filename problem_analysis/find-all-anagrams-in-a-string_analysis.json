@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-all-anagrams-in-a-string",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with character frequency counts."
+  ],
+  "problem_summary_simple": "Find all starting indices in string 's' where a substring is an anagram of string 'p'.",
+  "problem_summary_technical": "Uses a sliding window of size `len(p)` and maintains character frequency counts for both `p` and the current window in `s`.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maintain a window of size `len(p)` and check if its character counts match `p`'s counts.",
+      "Character counts can be efficiently updated as the window slides by decrementing the outgoing character and incrementing the incoming character.",
+      "A fixed-size array (26 for lowercase English letters) is used for frequency counts, making space complexity constant."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

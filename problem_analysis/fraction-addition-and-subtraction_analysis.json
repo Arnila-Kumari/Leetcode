@@ -1,0 +1,32 @@
+{
+  "problem_name": "fraction-addition-and-subtraction",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Parse fractions, use GCD for simplification, and iteratively add/subtract fractions."
+  ],
+  "problem_summary_simple": "Calculate the sum/difference of fractions given in a string expression.",
+  "problem_summary_technical": "Parse fractions, find common denominator, add/subtract numerators, and simplify using GCD.",
+  "time_complexity": [
+    "O(N * log(max_denominator))"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The core of the problem is performing arithmetic on fractions and simplifying the result.",
+      "The Euclidean algorithm for GCD is essential for reducing fractions to their simplest form.",
+      "Iteratively processing fractions by finding a common denominator and updating the running sum is a standard approach."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

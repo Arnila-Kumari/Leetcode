@@ -1,0 +1,33 @@
+{
+  "problem_name": "unique-paths-iii",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "dictionary"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with bitmasking: explore paths, marking visited cells and counting valid paths that cover all empty cells."
+  ],
+  "problem_summary_simple": "Find paths that visit every empty square exactly once, starting and ending at specific points.",
+  "problem_summary_technical": "Backtracking with bitmasking to explore all valid paths, ensuring each non-obstacle cell is visited exactly once.",
+  "time_complexity": [
+    "O(m * n * 2^(m * n))"
+  ],
+  "space_complexity": [
+    "O(m * n * 2^(m * n))"
+  ],
+  "key_insights": [
+    [
+      "This problem requires exploring all possible paths, making backtracking a suitable approach.",
+      "A bitmask is used to efficiently track visited empty cells.",
+      "The state in the DP/memoization includes the current cell and the bitmask of remaining cells to visit."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:13:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "range-module",
+  "data_structures": [
+    [
+      "list of intervals",
+      "binary search"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Maintain sorted, non-overlapping intervals; use binary search for efficient updates and queries."
+  ],
+  "problem_summary_simple": "Track and query ranges of numbers, supporting adding, removing, and checking for full coverage.",
+  "problem_summary_technical": "Manages a sorted list of disjoint intervals, merging/splitting them during add/remove operations using binary search.",
+  "time_complexity": [
+    "addRange: O(n), removeRange: O(n), queryRange: O(logn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core data structure is a sorted list of disjoint intervals.",
+      "`addRange` and `removeRange` involve finding overlapping intervals and merging/splitting them, which can be O(n) in the worst case.",
+      "`queryRange` uses binary search to find the relevant interval and check for full coverage, achieving O(logn)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:05:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

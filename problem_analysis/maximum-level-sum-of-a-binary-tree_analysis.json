@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-level-sum-of-a-binary-tree",
+  "data_structures": [
+    [
+      "list",
+      "recursive call stack"
+    ],
+    [
+      "queue",
+      "variables for level tracking"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth First Search (DFS)",
+    "Breadth First Search (BFS)"
+  ],
+  "problem_summary_simple": "Find the smallest level in a binary tree with the maximum sum of node values.",
+  "problem_summary_technical": "Traverses the tree level by level (BFS) or recursively (DFS) to calculate sums for each level and find the maximum.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h) where h is the height of the tree (for recursion stack)",
+    "O(w) where w is the maximum width of the tree (for queue)"
+  ],
+  "key_insights": [
+    [
+      "DFS can be used to traverse the tree and accumulate sums for each level.",
+      "A list can store the sum for each level, indexed by level number (starting from 0).",
+      "After traversal, find the index of the maximum sum in the list and add 1 to get the level number."
+    ],
+    [
+      "BFS naturally processes the tree level by level.",
+      "Use a queue to store nodes at the current level.",
+      "Iterate through the queue, summing node values for the current level. Keep track of the maximum sum found so far and its corresponding level."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:52:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "reorganize-string",
+  "data_structures": [
+    [
+      "Counter (hash map)",
+      "Max Heap (priority queue)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach using a max heap to place most frequent characters first, alternating with others."
+  ],
+  "problem_summary_simple": "Rearrange a string so no two adjacent characters are the same.",
+  "problem_summary_technical": "Use a max heap to greedily place characters, ensuring no adjacent duplicates by alternating most frequent ones.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A valid rearrangement is possible only if the most frequent character appears at most (n+1)/2 times.",
+      "A greedy approach using a max heap is effective: always pick the two most frequent characters that are not the same as the last placed character.",
+      "After placing characters, re-insert them into the heap with decremented counts."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

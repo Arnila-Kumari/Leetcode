@@ -1,0 +1,32 @@
+{
+  "problem_name": "lexicographically-smallest-string-after-adjacent-removals",
+  "data_structures": [
+    [
+      "2D DP array",
+      "1D DP array (for results)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to determine if a substring can be removed, then DP to build the smallest string."
+  ],
+  "problem_summary_simple": "Find the lexicographically smallest string by removing adjacent, alphabetically consecutive character pairs.",
+  "problem_summary_technical": "Uses DP to identify removable substrings and then another DP to construct the lexicographically smallest resulting string.",
+  "time_complexity": [
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to determine if a substring can be entirely removed by repeatedly applying the operation.",
+      "A DP state `dp[i][j]` can represent whether the substring `s[i...j]` can be reduced to an empty string.",
+      "The final result is built by considering all possible first removable segments and choosing the one that leads to the lexicographically smallest suffix."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:49:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

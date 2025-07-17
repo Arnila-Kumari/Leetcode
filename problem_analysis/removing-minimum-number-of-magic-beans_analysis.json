@@ -1,0 +1,31 @@
+{
+  "problem_name": "removing-minimum-number-of-magic-beans",
+  "data_structures": [
+    [
+      "List"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the array. Iterate through sorted beans, calculating the cost of making all remaining beans equal to the current bean's value."
+  ],
+  "problem_summary_simple": "Minimize bean removal so all remaining non-empty bags have the same number of beans.",
+  "problem_summary_technical": "Sort the beans. For each bean, calculate the cost of making all other beans equal to its value, considering the total beans removed.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as choosing a target number of beans for all remaining bags.",
+      "Sorting the array allows us to efficiently calculate the cost for each potential target value.",
+      "The optimal strategy involves picking one of the existing bean counts as the target for all remaining bags."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

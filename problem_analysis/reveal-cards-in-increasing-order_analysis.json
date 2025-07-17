@@ -1,0 +1,33 @@
+{
+  "problem_name": "reveal-cards-in-increasing-order",
+  "data_structures": [
+    [
+      "deque",
+      "list",
+      "queue"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Simulate the process in reverse using a deque or queue to determine the correct deck order."
+  ],
+  "problem_summary_simple": "Arrange a deck of cards so they are revealed in increasing order following specific reveal rules.",
+  "problem_summary_technical": "Sort the deck, then use a deque to simulate the reveal process in reverse, placing sorted cards into their final positions.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for an ordering that *produces* the increasing sequence. It's easier to simulate the process in reverse.",
+      "Sort the input deck in ascending order. Then, simulate the reveal process backward: take the smallest card, put it at the end of the result, then move the last element of the result to the front.",
+      "A deque (double-ended queue) is efficient for these front/back manipulations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

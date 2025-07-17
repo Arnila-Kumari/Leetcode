@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-score-of-spliced-array",
+  "data_structures": [
+    [
+      "list",
+      "generator expression"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Kadane's algorithm to find max subarray sum difference"
+  ],
+  "problem_summary_simple": "Swap a subarray between two arrays to maximize the sum of either array.",
+  "problem_summary_technical": "Apply Kadane's algorithm on difference arrays to find max gain from swapping subarrays, then add to original sums.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as maximizing the increase in sum for one array by swapping a subarray.",
+      "Kadane's algorithm is used to find the maximum subarray sum of the difference array (nums2[i]-nums1[i] or nums1[i]-nums2[i]).",
+      "The final answer is the maximum of (original sum of nums1 + max gain from swapping into nums1) and (original sum of nums2 + max gain from swapping into nums2)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

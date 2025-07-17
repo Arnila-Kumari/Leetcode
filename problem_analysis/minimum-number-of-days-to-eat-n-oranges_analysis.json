@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-number-of-days-to-eat-n-oranges",
+  "data_structures": [
+    [
+      "hashmap"
+    ],
+    [
+      "queue",
+      "set"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Top-down dynamic programming with memoization",
+    "Breadth-first search (BFS) with state tracking"
+  ],
+  "problem_summary_simple": "Find the minimum days to eat N oranges using specific daily operations.",
+  "problem_summary_technical": "Minimize operations (eat 1, n/2 if even, 2*(n/3) if divisible by 3) to reach 0 oranges from N.",
+  "time_complexity": [
+    "O((log n)^2)",
+    "O((log n)^2)"
+  ],
+  "space_complexity": [
+    "O((log n)^2)",
+    "O((log n)^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem exhibits optimal substructure and overlapping subproblems, suitable for DP.",
+      "Memoization is crucial to avoid redundant calculations for the same number of oranges.",
+      "The state transitions involve exploring three possible moves at each step."
+    ],
+    [
+      "BFS naturally explores states layer by layer, finding the shortest path (minimum days).",
+      "A set is used to keep track of visited states (number of oranges) to prevent cycles and redundant work.",
+      "The state space is effectively reduced due to the nature of the operations (division by 2 or 3)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

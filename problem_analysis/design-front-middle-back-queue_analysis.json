@@ -1,0 +1,37 @@
+{
+  "problem_name": "design-front-middle-back-queue",
+  "data_structures": [
+    [
+      "Two deques (left and right)"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Two deques to maintain front/middle and back halves",
+    "Balancing deques to ensure middle element is accessible"
+  ],
+  "problem_summary_simple": "Design a queue that allows adding and removing elements from the front, middle, and back.",
+  "problem_summary_technical": "Use two deques to represent the queue, splitting it into two halves. Maintain balance for O(1) middle access.",
+  "time_complexity": [
+    "pushFront: O(1)",
+    "pushMiddle: O(1)",
+    "pushBack: O(1)",
+    "popFront: O(1)",
+    "popMiddle: O(1)",
+    "popBack: O(1)"
+  ],
+  "space_complexity": [
+    "O(N) where N is the number of elements in the queue"
+  ],
+  "key_insights": [
+    [
+      "The key is to maintain a balanced structure where the middle element is easily accessible.",
+      "Using two deques, one for the front/middle part and one for the back, allows for O(1) operations.",
+      "Careful balancing of the deques is required after each operation to ensure the middle element is correctly positioned."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

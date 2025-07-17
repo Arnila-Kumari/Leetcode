@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-depth-of-n-ary-tree",
+  "data_structures": [
+    [
+      "Node"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive Depth-First Search (DFS)"
+  ],
+  "problem_summary_simple": "Find the longest path from the root to any leaf in an N-ary tree.",
+  "problem_summary_technical": "Recursively find the maximum depth among all children's subtrees and add 1 for the current node.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "Similar to binary trees, N-ary trees can be traversed recursively.",
+      "The depth is determined by the longest path among all child branches.",
+      "The base case is an empty root, returning 0 depth."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:52:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

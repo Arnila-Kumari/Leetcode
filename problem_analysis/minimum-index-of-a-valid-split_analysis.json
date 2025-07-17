@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-index-of-a-valid-split",
+  "data_structures": [
+    [
+      "array",
+      "variable"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Boyer-Moore Majority Vote, then linear scan to find split point."
+  ],
+  "problem_summary_simple": "Find the earliest split point where both halves have the same dominant element as the original array.",
+  "problem_summary_technical": "Utilize Boyer-Moore to find the dominant element, then iterate to check split validity based on counts and prefix/suffix dominance.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The Boyer-Moore Voting Algorithm is efficient for finding the majority element in O(n) time and O(1) space.",
+      "A single pass after finding the majority element can track counts for the left and right subarrays to check the split condition.",
+      "The condition `cnt*2 > i+1` checks dominance in the left part, and `(total-cnt)*2 > len(nums)-(i+1)` checks dominance in the right part."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

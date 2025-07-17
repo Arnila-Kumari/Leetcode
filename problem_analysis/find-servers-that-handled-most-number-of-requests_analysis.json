@@ -1,0 +1,48 @@
+{
+  "problem_name": "find-servers-that-handled-most-number-of-requests",
+  "data_structures": [
+    [
+      "list",
+      "min-heap",
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "sorted list",
+      "min-heap",
+      "list"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Simulate request assignment using two heaps for available servers and one heap for busy server end times.",
+    "Use a sorted list for available servers and a min-heap for busy server end times for efficient server selection."
+  ],
+  "problem_summary_simple": "Find servers that handled the most requests, considering server availability and request assignment rules.",
+  "problem_summary_technical": "Simulate request assignments using heaps to manage server availability and track request counts, identifying busiest servers.",
+  "time_complexity": [
+    "O(n log k)",
+    "O(n log k)"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "Heaps are crucial for efficiently finding the next available server and managing server busy times.",
+      "The modulo operator (`i % k`) determines the preferred server, and the heaps handle the wrap-around logic for busy servers.",
+      "Two separate heaps (or a sorted list) are needed to manage servers that are available before the current preferred server and those after."
+    ],
+    [
+      "A `SortedList` provides efficient `bisect_left` and `pop` operations, simplifying the search for the next available server.",
+      "The logic for managing available servers and busy server end times remains similar to the heap-based approach.",
+      "This approach might be slightly more intuitive for managing the circular availability of servers."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:43:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "zero-array-transformation-i",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Line sweep (difference array)."
+  ],
+  "problem_summary_simple": "Determine if an array can become all zeros by decrementing subsets within query ranges.",
+  "problem_summary_technical": "Use a difference array (line sweep) to track the net decrements applied to each element and check against original values.",
+  "time_complexity": [
+    "O(n + q)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Each query `[l, r]` allows decrementing any subset of elements in that range. This means we can decrement any element `nums[i]` at most `k` times if it falls within `k` queries.",
+      "The problem is equivalent to checking if `nums[i]` can be reduced to 0 by applying decrements. The total number of decrements applied to `nums[i]` must be exactly `nums[i]`.",
+      "A line sweep approach using a difference array can efficiently track the *maximum possible* decrements applied to each index. If `nums[i]` is ever greater than the total decrements it can receive, it's impossible."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

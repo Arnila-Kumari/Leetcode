@@ -1,0 +1,32 @@
+{
+  "problem_name": "combination-sum",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with recursion and pruning"
+  ],
+  "problem_summary_simple": "Find all unique combinations of numbers that sum to a target, allowing reuse of numbers.",
+  "problem_summary_technical": "Backtracking algorithm to find combinations summing to target, using recursion and pruning based on candidate values.",
+  "time_complexity": [
+    "O(k * n^k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "Sorting candidates helps in pruning and avoiding duplicate combinations.",
+      "The 'start' index in recursion prevents considering the same combination in different orders.",
+      "The condition `candidates[start] <= target` is a crucial pruning step."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

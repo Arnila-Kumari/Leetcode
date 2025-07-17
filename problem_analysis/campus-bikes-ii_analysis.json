@@ -1,0 +1,42 @@
+{
+  "problem_name": "campus-bikes-ii",
+  "data_structures": [
+    [
+      "2D array (DP table)"
+    ],
+    [
+      "Min-heap, Set"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with bitmasking",
+    "Dijkstra-like approach with bitmasking"
+  ],
+  "problem_summary_simple": "Assign unique bikes to workers to minimize total Manhattan distance.",
+  "problem_summary_technical": "Minimize sum of Manhattan distances using DP with bitmasking or a priority queue for state-space search.",
+  "time_complexity": [
+    "O(n * m * 2^m)",
+    "O(n * m * 2^m * log(n * m * 2^m))"
+  ],
+  "space_complexity": [
+    "O(m * 2^m)",
+    "O(n * m * 2^m)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a minimum weight perfect matching on a bipartite graph, solvable with DP or min-cost max-flow.",
+      "Bitmasking is crucial to keep track of assigned bikes for workers.",
+      "The DP state can represent (worker_index, mask_of_assigned_bikes)."
+    ],
+    [
+      "A priority queue can explore states (current_cost, worker_index, bike_mask) in increasing order of cost.",
+      "This approach is similar to Dijkstra's algorithm on a state graph.",
+      "Memoization or a 'visited' set is needed to avoid redundant computations."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:33:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

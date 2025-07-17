@@ -1,0 +1,44 @@
+{
+  "problem_name": "minesweeper",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) with iterative stack",
+    "Breadth-First Search (BFS) with iterative queue"
+  ],
+  "problem_summary_simple": "Reveal squares on a Minesweeper board based on click rules and adjacent mines.",
+  "problem_summary_technical": "Simulate Minesweeper clicks using DFS or BFS to reveal empty squares and their neighbors recursively.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m + n)",
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "The core logic involves checking adjacent cells for mines.",
+      "If an empty cell has no adjacent mines, it becomes 'B' and its neighbors are revealed.",
+      "If it has adjacent mines, it becomes a digit representing the count."
+    ],
+    [
+      "Both DFS and BFS are suitable for exploring connected empty regions.",
+      "The iterative implementations avoid potential recursion depth limits.",
+      "Careful handling of boundary conditions and visited states is crucial."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

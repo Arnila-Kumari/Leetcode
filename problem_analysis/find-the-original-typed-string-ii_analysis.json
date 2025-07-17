@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-the-original-typed-string-ii",
+  "data_structures": [
+    [
+      "array",
+      "dynamic programming array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP to count combinations of block lengths, considering the minimum length k.",
+    "Calculate initial product, then use DP to subtract invalid combinations."
+  ],
+  "problem_summary_simple": "Count possible original strings of length at least k, allowing character repetitions.",
+  "problem_summary_technical": "Group consecutive characters, calculate total combinations. Use DP to subtract combinations shorter than k.",
+  "time_complexity": [
+    "O(n + k^2)"
+  ],
+  "space_complexity": [
+    "O(n + k)"
+  ],
+  "key_insights": [
+    [
+      "First, group consecutive identical characters and store their counts.",
+      "The problem becomes choosing how many times to repeat each group, with a minimum of 1 repetition.",
+      "Dynamic programming is used to count valid combinations where the total length is at least k."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

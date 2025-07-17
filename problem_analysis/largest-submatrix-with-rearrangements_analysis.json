@@ -1,0 +1,33 @@
+{
+  "problem_name": "largest-submatrix-with-rearrangements",
+  "data_structures": [
+    [
+      "matrix",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "sorting rows and greedy selection"
+  ],
+  "problem_summary_simple": "Find the largest submatrix of all 1s after rearranging columns.",
+  "problem_summary_technical": "Precompute column heights of consecutive 1s, then sort each row and greedily calculate max area by considering bars of decreasing height.",
+  "time_complexity": [
+    "O(m * nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Rearranging columns means we can group 1s together vertically.",
+      "First, transform the matrix to store the height of consecutive 1s ending at each cell.",
+      "For each row, sorting the heights allows us to greedily find the largest rectangle. If we have `h` consecutive 1s in a column, and `w` columns to its right (including itself) with at least `h` consecutive 1s, the area is `h * w`.",
+      "The sorting step dominates the time complexity."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

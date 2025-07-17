@@ -1,0 +1,32 @@
+{
+  "problem_name": "optimal-account-balancing",
+  "data_structures": [
+    [
+      "defaultdict",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Calculate net balance for each person, then use dynamic programming with bitmasking to find minimum transactions."
+  ],
+  "problem_summary_simple": "Settle debts between people with the minimum number of transactions.",
+  "problem_summary_technical": "Calculate net balances, then use DP with bitmasking to find the minimum number of transactions to zero out balances.",
+  "time_complexity": [
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find subsets of people whose net balance sums to zero.",
+      "Bitmasking is used to represent subsets of people with non-zero balances.",
+      "Dynamic programming stores the minimum transactions needed to settle a subset of debts."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

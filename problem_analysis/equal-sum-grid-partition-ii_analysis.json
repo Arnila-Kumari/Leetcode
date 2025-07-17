@@ -1,0 +1,33 @@
+{
+  "problem_name": "equal-sum-grid-partition-ii",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through cuts, checking sums and potential single cell discounts for connectivity."
+  ],
+  "problem_summary_simple": "Partition grid with one cut, allowing one cell discount if sections remain connected.",
+  "problem_summary_technical": "Check cuts for equal sums or sums differing by a single cell's value, ensuring connectivity after discount.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem extends the 'equal sum partition' by allowing a single cell modification.",
+      "Connectivity after modification is a crucial constraint that needs careful handling.",
+      "The provided solution seems to have issues with the connectivity check and the logic for discount application."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:41:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

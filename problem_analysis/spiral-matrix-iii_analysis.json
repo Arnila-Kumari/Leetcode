@@ -1,0 +1,31 @@
+{
+  "problem_name": "spiral-matrix-iii",
+  "data_structures": [
+    [
+      "list of lists (coordinates)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Simulating spiral movement with direction changes and step increments"
+  ],
+  "problem_summary_simple": "Visit all cells in a grid starting from a point, moving in a clockwise spiral, and return coordinates in visit order.",
+  "problem_summary_technical": "Simulates a spiral walk, expanding outwards, recording valid grid coordinates as they are visited.",
+  "time_complexity": [
+    "O((max(R, C))^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The spiral expands in segments of increasing length (1, 1, 2, 2, 3, 3, ...).",
+      "The direction changes after completing each segment.",
+      "Keep track of the current position and the number of steps to take in the current direction."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

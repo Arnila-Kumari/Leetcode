@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-make-binary-array-elements-equal-to-one-i",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the array. If an element is 0, flip the next three consecutive elements and increment operation count."
+  ],
+  "problem_summary_simple": "Flip groups of three consecutive elements to make all elements 1.",
+  "problem_summary_technical": "Greedy approach: if nums[i] is 0, flip nums[i], nums[i+1], nums[i+2]. Check last two elements for validity.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operation affects three consecutive elements. This suggests a greedy approach processing from left to right.",
+      "If `nums[i]` is 0, we must perform an operation starting at index `i` to make `nums[i]` become 1.",
+      "This operation also flips `nums[i+1]` and `nums[i+2]`. We need to ensure the last two elements can also be made 1."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

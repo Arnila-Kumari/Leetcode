@@ -1,0 +1,56 @@
+{
+  "problem_name": "make-string-anti-palindrome",
+  "data_structures": [
+    [
+      "array",
+      "string"
+    ],
+    [
+      "array",
+      "string"
+    ],
+    [
+      "array",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Counting sort and greedy rearrangement to satisfy anti-palindrome condition.",
+    "Counting sort, greedy, and two pointers for rearrangement.",
+    "Frequency table and greedy placement to avoid adjacent identical characters."
+  ],
+  "problem_summary_simple": "Rearrange a string of even length to be an anti-palindrome, returning the lexicographically smallest or -1 if impossible.",
+  "problem_summary_technical": "Checks character counts for impossibility, then greedily rearranges to ensure s[i] != s[n-1-i] for all i.",
+  "time_complexity": [
+    "O(n + 26)",
+    "O(n + 26)",
+    "O(n * 26)"
+  ],
+  "space_complexity": [
+    "O(26)",
+    "O(26)",
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "A necessary condition is that no character count exceeds n/2.",
+      "The lexicographically smallest result is achieved by sorting characters first.",
+      "Careful placement is needed to avoid s[i] == s[n-1-i]."
+    ],
+    [
+      "The core constraint is s[i] != s[n-1-i].",
+      "Greedy swapping or placement is key to satisfying the condition.",
+      "The two-pointer approach helps in identifying and resolving conflicts."
+    ],
+    [
+      "The problem can be solved by filling the first half and then the second half.",
+      "Prioritize placing characters that don't violate the anti-palindrome property.",
+      "The greedy choice at each step aims for the lexicographically smallest valid arrangement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

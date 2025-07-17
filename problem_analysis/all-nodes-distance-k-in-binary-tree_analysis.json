@@ -1,0 +1,35 @@
+{
+  "problem_name": "all-nodes-distance-k-in-binary-tree",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Build adjacency list using DFS, then BFS from target to find nodes at distance K."
+  ],
+  "problem_summary_simple": "Find all nodes in a binary tree that are exactly k distance away from a given target node.",
+  "problem_summary_technical": "Converts the tree to an undirected graph using DFS, then performs BFS from the target node to find nodes at distance K.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Treating the binary tree as a graph allows for BFS from any node.",
+      "DFS is used to build the graph representation (adjacency list)."
+    ],
+    [
+      "BFS naturally explores nodes layer by layer, making it suitable for distance-based problems.",
+      "A `lookup` set is crucial to avoid revisiting nodes and infinite loops."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

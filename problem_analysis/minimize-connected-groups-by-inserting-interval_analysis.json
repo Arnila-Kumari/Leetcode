@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimize-connected-groups-by-inserting-interval",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sorting, prefix sums, and sliding window to find optimal interval placement."
+  ],
+  "problem_summary_simple": "Add one interval to minimize connected groups, with a length constraint.",
+  "problem_summary_technical": "Sort intervals, use prefix sums to count groups, and a sliding window to find the best interval to minimize groups.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting intervals is essential for efficient merging and group identification.",
+      "Prefix sums help quickly calculate the number of groups up to a certain point.",
+      "The sliding window approach efficiently checks potential interval placements within the length constraint 'k'."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:56:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

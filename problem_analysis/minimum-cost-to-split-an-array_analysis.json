@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-cost-to-split-an-array",
+  "data_structures": [
+    [
+      "array",
+      "frequency map (implicit via array)",
+      "dynamic programming array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to find the minimum cost to split the array up to a certain index."
+  ],
+  "problem_summary_simple": "Split an array into subarrays to minimize the total cost, where cost depends on subarray length after removing unique elements.",
+  "problem_summary_technical": "Uses DP where dp[i] is min cost to split nums[:i]. Transition considers splitting nums[j:i] with cost k + trimmed_length(nums[j:i]).",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to calculate the cost of each potential subarray and use DP to build up the solution.",
+      "The cost of a subarray depends on the count of elements that appear more than once.",
+      "The DP state transition needs to efficiently calculate the trimmed length of subarrays."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:57:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

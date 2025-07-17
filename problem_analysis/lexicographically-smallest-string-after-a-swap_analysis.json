@@ -1,0 +1,32 @@
+{
+  "problem_name": "lexicographically-smallest-string-after-a-swap",
+  "data_structures": [
+    [
+      "list of integers",
+      "list of characters"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy swap of adjacent digits with same parity if it results in a lexicographically smaller string."
+  ],
+  "problem_summary_simple": "Find the smallest string by swapping adjacent digits of the same parity at most once.",
+  "problem_summary_technical": "Iterate through adjacent digits, swap if same parity and `digit[i] > digit[i+1]` to achieve lexicographical minimum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem allows at most one swap, so we should perform the swap that yields the greatest lexicographical reduction.",
+      "A swap is only beneficial if the left digit is greater than the right digit and they have the same parity.",
+      "The greedy strategy is to find the first such pair from the left and perform the swap, as this guarantees the lexicographically smallest result."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

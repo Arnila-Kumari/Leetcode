@@ -1,0 +1,31 @@
+{
+  "problem_name": "flatten-a-multilevel-doubly-linked-list",
+  "data_structures": [
+    [
+      "doubly linked list nodes"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "In-place traversal and manipulation of a multilevel doubly linked list"
+  ],
+  "problem_summary_simple": "Flatten a multilevel doubly linked list into a single level, inserting child lists after their parent nodes.",
+  "problem_summary_technical": "Iterate through the list, and when a child node is found, splice the child list into the main list by adjusting next/prev pointers.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to correctly splice the child list into the main list.",
+      "Need to find the tail of the child list to connect it to the original `next` node.",
+      "All child pointers must be set to `None` after flattening."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

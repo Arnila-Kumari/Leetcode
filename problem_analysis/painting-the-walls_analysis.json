@@ -1,0 +1,31 @@
+{
+  "problem_name": "painting-the-walls",
+  "data_structures": [
+    [
+      "1D DP array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "0/1 Knapsack variation"
+  ],
+  "problem_summary_simple": "Find the minimum cost to paint all walls using a paid and a free painter.",
+  "problem_summary_technical": "DP state dp[i] = min cost to paint i walls. Transitions consider using paid painter or free painter.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be framed as a variation of the knapsack problem.",
+      "The 'items' are the walls, 'weight' is the time taken by the paid painter (plus 1 for the free painter's work), and 'value' is the cost.",
+      "The goal is to 'fill' a capacity of 'n' walls with minimum cost."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

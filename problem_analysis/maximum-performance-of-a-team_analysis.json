@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-performance-of-a-team",
+  "data_structures": [
+    [
+      "min-heap",
+      "array"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Sort engineers by efficiency, then use a min-heap to maintain the `k` fastest engineers seen so far."
+  ],
+  "problem_summary_simple": "Select up to k engineers to maximize team performance (sum of speeds * min efficiency).",
+  "problem_summary_technical": "Sort by efficiency descending. Iterate, maintaining a min-heap of speeds for the top k engineers to calculate max performance.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The minimum efficiency in a team dictates the multiplier for the sum of speeds.",
+      "Sorting engineers by efficiency (descending) allows us to consider each engineer as the potential minimum efficiency for a team.",
+      "A min-heap is used to keep track of the `k` largest speeds encountered so far for a given minimum efficiency, ensuring we always have the best speed sum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-occurrence-of-first-almost-equal-substring",
+  "data_structures": [
+    [
+      "string",
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Utilize the Z-function on concatenated strings (pattern+s and reversed pattern+reversed s) to efficiently find matching prefixes and suffixes, enabling O(1) check for almost equality."
+  ],
+  "problem_summary_simple": "Find the first substring in 's' that differs from 'pattern' by at most one character.",
+  "problem_summary_technical": "Use Z-function on `pattern+s` and `pattern[::-1]+s[::-1]` to find substrings with at most K mismatches.",
+  "time_complexity": [
+    "O(n + m), where n is length of s and m is length of pattern."
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "The Z-function is a powerful tool for string matching and can be adapted for approximate matching.",
+      "Concatenating the pattern with the text and its reverse allows checking for matches from both ends simultaneously.",
+      "The condition `z1[len(pattern)+i] + K + z2[len(s)-i] >= len(pattern)` cleverly combines prefix and suffix matches to determine if a substring is 'almost equal'."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:44:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

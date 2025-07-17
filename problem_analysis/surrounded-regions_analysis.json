@@ -1,0 +1,33 @@
+{
+  "problem_name": "surrounded-regions",
+  "data_structures": [
+    [
+      "2D list (board)",
+      "queue (deque)",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "BFS/DFS from boundary 'O's to mark uncapturable regions, then flip remaining 'O's."
+  ],
+  "problem_summary_simple": "Capture 'O' regions surrounded by 'X's by flipping them to 'X'.",
+  "problem_summary_technical": "Use BFS/DFS starting from boundary 'O's to mark all connected 'O's. Then, flip unmarked 'O's to 'X' and marked 'O's back to 'O'.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that any 'O' connected to the boundary (directly or indirectly) cannot be captured.",
+      "We can use BFS or DFS to find all 'O's connected to the boundary.",
+      "Marking these boundary-connected 'O's (e.g., with 'V') and then iterating through the board to flip unmarked 'O's to 'X' and marked 'O's back to 'O' solves the problem efficiently."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

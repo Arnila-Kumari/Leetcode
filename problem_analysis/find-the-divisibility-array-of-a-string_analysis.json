@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-divisibility-array-of-a-string",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through the string, maintaining a running prefix sum modulo m."
+  ],
+  "problem_summary_simple": "Check divisibility of string prefixes by a given number m.",
+  "problem_summary_technical": "Calculate prefix numeric values modulo m iteratively to determine divisibility for each prefix.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to compute the numeric value of prefixes incrementally.",
+      "Using the modulo operator at each step prevents integer overflow and keeps the intermediate values manageable.",
+      "The result array directly maps the divisibility check (curr == 0) to 1 or 0."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

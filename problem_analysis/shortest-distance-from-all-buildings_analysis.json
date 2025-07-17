@@ -1,0 +1,32 @@
+{
+  "problem_name": "shortest-distance-from-all-buildings",
+  "data_structures": [
+    [
+      "2D array",
+      "queue"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Perform BFS from each building to calculate distances to all empty lands, summing distances and counting reachable buildings."
+  ],
+  "problem_summary_simple": "Find an empty land spot to build a house with the minimum total travel distance to all buildings.",
+  "problem_summary_technical": "Multi-source BFS from each building. Accumulate distances and counts of reachable empty lands for each cell.",
+  "time_complexity": [
+    "O(k * m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding a single empty land cell that minimizes the sum of distances to all buildings.",
+      "BFS from each building is a natural approach to calculate shortest distances in a grid.",
+      "A cell is a valid candidate only if it can reach ALL buildings, hence the need to count reachable buildings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

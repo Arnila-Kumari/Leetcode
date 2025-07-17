@@ -1,0 +1,31 @@
+{
+  "problem_name": "search-in-a-binary-search-tree",
+  "data_structures": [
+    [
+      "Binary Search Tree (BST)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative traversal of the BST"
+  ],
+  "problem_summary_simple": "Find a node with a specific value in a Binary Search Tree.",
+  "problem_summary_technical": "Performs an iterative search on the BST, moving left or right based on value comparison.",
+  "time_complexity": [
+    "O(h)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Leverages the BST property: left child < parent < right child.",
+      "Iterative approach avoids recursion overhead and uses constant extra space.",
+      "The search terminates when the node is found or the subtree is empty."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

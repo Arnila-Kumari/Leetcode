@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-maximum-achievable-number",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: to maximize x, we should always use the operation to increase num and decrease x, effectively closing the gap by 2 each time."
+  ],
+  "problem_summary_simple": "Find the largest number x that can become num after t operations, where each operation changes both x and num by 1.",
+  "problem_summary_technical": "The maximum achievable number x is found by adding 2*t to num, as each operation can reduce the difference between x and num by at most 2.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Each operation allows us to decrease x by 1 and increase num by 1. This means the difference (x - num) decreases by 2.",
+      "To maximize x, we want to reach a state where x = num after t operations. This requires x to be initially larger than num.",
+      "The maximum initial difference we can bridge is 2*t, so the maximum achievable x is num + 2*t."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

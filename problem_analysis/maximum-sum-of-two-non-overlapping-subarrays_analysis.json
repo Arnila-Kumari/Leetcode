@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-sum-of-two-non-overlapping-subarrays",
+  "data_structures": [
+    [
+      "array",
+      "integer variables"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Prefix sums combined with a sliding window approach to find maximum sums of two non-overlapping subarrays.",
+    "Iterate through all possible split points for the two subarrays."
+  ],
+  "problem_summary_simple": "Find the maximum sum of two non-overlapping subarrays of given lengths.",
+  "problem_summary_technical": "Precompute prefix sums, then iterate through possible positions of one subarray and find the max sum of the other non-overlapping subarray.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Prefix sums allow for O(1) calculation of subarray sums.",
+      "The problem can be broken down into two cases: the first subarray appears before the second, or vice-versa.",
+      "For each possible position of one subarray, we need to efficiently find the maximum sum of a non-overlapping subarray of the other length."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

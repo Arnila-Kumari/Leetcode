@@ -1,0 +1,33 @@
+{
+  "problem_name": "rle-iterator",
+  "data_structures": [
+    [
+      "list",
+      "integer",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Maintain current index and count within the RLE array, decrementing counts as elements are consumed."
+  ],
+  "problem_summary_simple": "Create an iterator for a run-length encoded array that returns the last element consumed.",
+  "problem_summary_technical": "Iterator maintains state (index, current count) to efficiently consume elements from RLE array and return the last element.",
+  "time_complexity": [
+    "O(n) amortized for initialization, O(1) for next()"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The iterator needs to keep track of the current position in the encoded array and how many of the current run have been consumed.",
+      "When `next(n)` is called, if `n` is greater than the remaining count of the current run, advance to the next run, updating `n` and resetting the current count.",
+      "If `n` is less than or equal to the remaining count, update the current count and return the value of the current run."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

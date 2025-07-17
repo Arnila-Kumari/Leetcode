@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximize-the-total-height-of-unique-towers",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the maximum heights and greedily assign heights from largest to smallest, ensuring uniqueness."
+  ],
+  "problem_summary_simple": "Assign unique positive heights to towers, not exceeding their max allowed height, to maximize total height.",
+  "problem_summary_technical": "Greedily assign heights by sorting and ensuring each assigned height is one less than the previous, checking for impossibility.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the maximum heights is crucial for a greedy approach.",
+      "Assigning heights from largest to smallest, decrementing by 1, ensures maximum possible sum while maintaining uniqueness.",
+      "If at any point the next assignable height becomes 0 or less, it's impossible to satisfy constraints."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

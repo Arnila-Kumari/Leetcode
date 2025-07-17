@@ -1,0 +1,31 @@
+{
+  "problem_name": "lexicographically-smallest-palindrome",
+  "data_structures": [
+    [
+      "list of characters"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: iterate from both ends, make characters match with the lexicographically smaller one."
+  ],
+  "problem_summary_simple": "Make a string a palindrome with minimum changes, choosing the lexicographically smallest result.",
+  "problem_summary_technical": "Greedy modification from both ends inwards, selecting the lexicographically smaller character for each pair to minimize operations and value.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To minimize operations, we only change characters when they don't match their symmetric counterpart.",
+      "To achieve the lexicographically smallest palindrome, for each mismatched pair, we choose the character that comes earlier in the alphabet.",
+      "The solution iterates through half of the string, comparing `s[i]` with `s[n-1-i]`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

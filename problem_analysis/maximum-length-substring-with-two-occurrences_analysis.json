@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-length-substring-with-two-occurrences",
+  "data_structures": [
+    [
+      "frequency array",
+      "variables for pointers"
+    ],
+    [
+      "frequency array",
+      "variables for pointers"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding Window with Frequency Count",
+    "Sliding Window with Frequency Count and Adjustment"
+  ],
+  "problem_summary_simple": "Find the longest substring with at most two occurrences of each character.",
+  "problem_summary_technical": "Uses a sliding window approach with a frequency map to track character counts, expanding and shrinking the window as needed.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The constraint is 'at most two occurrences of each character'. This means a character can appear 0, 1, or 2 times.",
+      "A sliding window is suitable here. Expand the window to the right. If the condition is violated (a character appears > 2 times), shrink from the left.",
+      "The `invalid_cnt` tracks how many characters violate the condition. When `invalid_cnt` is 0, the current window is valid."
+    ],
+    [
+      "This solution is a more standard sliding window implementation.",
+      "Expand the window to the right. If a character's count exceeds `COUNT` (which is 2), shrink the window from the left until the condition is met again.",
+      "The maximum window size encountered is the answer."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:52:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

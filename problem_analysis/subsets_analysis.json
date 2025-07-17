@@ -1,0 +1,53 @@
+{
+  "problem_name": "subsets",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Iterative construction of subsets",
+    "Bit manipulation to represent subsets",
+    "Recursive backtracking to generate subsets"
+  ],
+  "problem_summary_simple": "Generate all possible subsets (power set) of a given array of unique elements.",
+  "problem_summary_technical": "Generates subsets iteratively, using bitmasks, or recursively by deciding to include/exclude each element.",
+  "time_complexity": [
+    "O(n * 2^n)",
+    "O(n * 2^n)",
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(n) for recursion stack"
+  ],
+  "key_insights": [
+    [
+      "Each element can either be included or excluded, leading to 2^n subsets.",
+      "Sorting the input array helps in generating subsets in a structured order.",
+      "Iterative approaches can build upon previous subsets to form new ones."
+    ],
+    [
+      "Bit manipulation provides a concise way to represent subset inclusion/exclusion.",
+      "Each bit in a counter corresponds to an element's presence in a subset.",
+      "This method is efficient for generating all subsets systematically."
+    ],
+    [
+      "The recursive approach naturally explores the decision tree of including/excluding elements.",
+      "Base case is when no elements are left, returning the current subset.",
+      "Combining results from both branches (include/exclude) covers all possibilities."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

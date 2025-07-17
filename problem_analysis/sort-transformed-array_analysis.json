@@ -1,0 +1,33 @@
+{
+  "problem_name": "sort-transformed-array",
+  "data_structures": [
+    [
+      "list",
+      "lambda function"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Quadratic function application and two-pointer sorting"
+  ],
+  "problem_summary_simple": "Apply a quadratic function to each number in a sorted array and return the results sorted.",
+  "problem_summary_technical": "Apply f(x) = ax^2 + bx + c to a sorted array, then sort the transformed values using a two-pointer approach.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The shape of the quadratic function (parabola) determines the sorting order.",
+      "When 'a' is positive, the parabola opens upwards, and the largest values are at the ends.",
+      "When 'a' is negative, the parabola opens downwards, and the smallest values are at the ends.",
+      "A two-pointer approach efficiently places the largest/smallest transformed values at the correct end of the result array."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

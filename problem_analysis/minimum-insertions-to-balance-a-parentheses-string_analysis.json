@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-insertions-to-balance-a-parentheses-string",
+  "data_structures": [
+    [
+      "string",
+      "variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the string, maintaining a balance counter for open parentheses. Adjust insertions based on encountered characters and balance state."
+  ],
+  "problem_summary_simple": "Balance a parentheses string where '(' needs two consecutive '))'. Calculate minimum insertions needed.",
+  "problem_summary_technical": "Use a balance counter. Increment for '(', decrement for ')'. Handle odd balances and negative balances by adding insertions and adjusting balance.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maintain a balance of open parentheses, where each '(' requires two ')' to be balanced.",
+      "When an opening parenthesis '(' is encountered, we need two closing parentheses. If the current balance is odd, it means we are missing one ')' for a previous '(', so we add an insertion and decrement balance.",
+      "When a closing parenthesis ')' is encountered, we decrement the balance. If the balance becomes negative, it means we have an excess ')' that needs a preceding '(', so we add an insertion and reset the balance to 1 (representing the need for one more ')' for the new '(')."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

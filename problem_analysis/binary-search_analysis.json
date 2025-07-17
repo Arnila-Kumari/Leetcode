@@ -1,0 +1,22 @@
+{
+  "problem_name": "binary-search",
+  "data_structures": [
+    "list",
+    "binary search"
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": "Repeatedly divide the search interval in half based on comparisons with the middle element.",
+  "problem_summary_simple": "Find the index of a target value in a sorted array.",
+  "problem_summary_technical": "Apply binary search on a sorted array by adjusting the left and right pointers based on element comparison with the target.",
+  "time_complexity": "O(logn)",
+  "space_complexity": "O(1)",
+  "key_insights": [
+    "The array must be sorted for binary search to work.",
+    "The `left <= right` condition correctly handles all cases, including single-element arrays.",
+    "Using `mid = left + (right - left) // 2` prevents potential integer overflow."
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-15 16:22:20",
+  "batch_processed": true,
+  "batch_size": 3
+}

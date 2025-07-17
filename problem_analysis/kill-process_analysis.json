@@ -1,0 +1,47 @@
+{
+  "problem_name": "kill-process",
+  "data_structures": [
+    [
+      "defaultdict",
+      "set",
+      "list"
+    ],
+    [
+      "defaultdict",
+      "set",
+      "deque",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Build an adjacency list representing parent-child relationships. Use DFS to recursively kill processes and their descendants.",
+    "Build an adjacency list representing parent-child relationships. Use BFS to iteratively kill processes and their descendants."
+  ],
+  "problem_summary_simple": "Kill a process and all its child processes in a tree structure.",
+  "problem_summary_technical": "Represent process hierarchy as a tree/graph. Traverse from the target process to its descendants using DFS or BFS to collect all processes to be killed.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem describes a tree structure where processes are nodes and parent-child relationships are edges.",
+      "An adjacency list (using defaultdict) is a suitable data structure to represent this hierarchy.",
+      "Both DFS and BFS are effective for traversing the tree and identifying all descendant processes."
+    ],
+    [
+      "The problem describes a tree structure where processes are nodes and parent-child relationships are edges.",
+      "An adjacency list (using defaultdict) is a suitable data structure to represent this hierarchy.",
+      "Both DFS and BFS are effective for traversing the tree and identifying all descendant processes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "button-with-longest-push-time",
+  "data_structures": [
+    [
+      "list of lists (input)",
+      "tuple (for max comparison)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through events, calculate time differences, and track the button with the maximum push time and smallest index."
+  ],
+  "problem_summary_simple": "Find the button that had the longest continuous press time. If tied, choose the button with the smaller index.",
+  "problem_summary_technical": "Single pass through sorted events to calculate time differences and maintain max time and corresponding button index.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The input `events` is already sorted by time, which is crucial for calculating consecutive press times.",
+      "The problem requires tracking both the maximum time difference and the corresponding button index.",
+      "A clever way to handle the tie-breaking (smallest index) is to store `(-index)` in the comparison tuple."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-closed-islands",
+  "data_structures": [
+    [
+      "2D grid (list of lists)",
+      "recursion stack (implicit for DFS)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Flood fill (DFS) to mark land connected to the boundary as visited (water). Then, iterate through the grid and perform flood fill on any remaining unvisited land cells, counting each as a closed island."
+  ],
+  "problem_summary_simple": "Count islands of land completely surrounded by water.",
+  "problem_summary_technical": "Use DFS to eliminate land cells connected to the grid boundaries. Then, count connected components of remaining land cells (0s) as closed islands.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Islands touching the boundary are not closed islands.",
+      "A common strategy is to first 'remove' or mark boundary-connected land cells.",
+      "Depth-First Search (DFS) or Breadth-First Search (BFS) is suitable for exploring connected components."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

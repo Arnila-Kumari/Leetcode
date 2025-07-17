@@ -1,0 +1,31 @@
+{
+  "problem_name": "building-boxes",
+  "data_structures": [
+    [
+      "math"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical derivation and binary search for optimal height."
+  ],
+  "problem_summary_simple": "Find the minimum number of boxes touching the floor when stacking n boxes in a cubic room.",
+  "problem_summary_technical": "Minimize floor boxes by stacking in a corner. Relates to tetrahedral numbers for layers and triangular numbers for base.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The optimal strategy is to stack boxes in a corner of the room.",
+      "The number of boxes in a full pyramid with height `h` is the h-th tetrahedral number: h*(h+1)*(h+2)/6.",
+      "We find the largest `h` such that the total boxes in `h` layers is less than or equal to `n`, then solve for the remaining boxes."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:33:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

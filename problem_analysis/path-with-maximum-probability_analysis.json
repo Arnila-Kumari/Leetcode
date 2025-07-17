@@ -1,0 +1,35 @@
+{
+  "problem_name": "path-with-maximum-probability",
+  "data_structures": [
+    [
+      "defaultdict(list)",
+      "defaultdict(float)",
+      "set",
+      "heapq"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm variant to find the path with maximum probability product."
+  ],
+  "problem_summary_simple": "Find the path with the highest probability of success between two nodes in a graph.",
+  "problem_summary_technical": "Adapt Dijkstra's algorithm using a max-heap to find the path with the maximum product of edge probabilities.",
+  "time_complexity": [
+    "O((|E| + |V|) * log|V|)"
+  ],
+  "space_complexity": [
+    "O(|E| + |V|)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a variation of Dijkstra's algorithm where edge weights are probabilities.",
+      "To maximize the product of probabilities, we maximize the sum of their logarithms or use a max-heap directly.",
+      "The `result` dictionary stores the maximum probability to reach each node, initialized to 0.",
+      "The max-heap stores `(-probability, node)` to prioritize nodes reachable with higher probabilities."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

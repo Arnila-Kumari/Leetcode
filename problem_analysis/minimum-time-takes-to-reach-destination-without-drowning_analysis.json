@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimum-time-takes-to-reach-destination-without-drowning",
+  "data_structures": [
+    [
+      "2D array (lookup table)",
+      "queue (for BFS)"
+    ],
+    [
+      "2D array (lookup tables)",
+      "two queues (for BFS)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Multi-source BFS to simulate flooding and player movement simultaneously.",
+    "Two-phase BFS: first for flooding, then for player movement."
+  ],
+  "problem_summary_simple": "Find the minimum time to reach a destination in a grid, avoiding flooding cells that expand over time.",
+  "problem_summary_technical": "BFS on a grid with dynamic obstacles (flooded cells expanding). State includes position and time. Multi-source BFS for initial flooding.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to simulate the process second by second using BFS.",
+      "Flooded cells expand outwards, so a multi-source BFS starting from all initial '*' cells is efficient.",
+      "The player's BFS must consider the current flooded state at each time step."
+    ],
+    [
+      "Separating the flooding simulation from the player's movement can simplify logic.",
+      "Pre-calculating the time each cell gets flooded allows the player's BFS to check against this.",
+      "The player's BFS needs to ensure they don't step into a cell that will be flooded in the same second they arrive."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

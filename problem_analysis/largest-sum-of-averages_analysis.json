@@ -1,0 +1,32 @@
+{
+  "problem_name": "largest-sum-of-averages",
+  "data_structures": [
+    [
+      "list",
+      "2D list (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with prefix sums"
+  ],
+  "problem_summary_simple": "Find the maximum sum of averages by partitioning an array into at most k non-empty adjacent subarrays.",
+  "problem_summary_technical": "Uses DP to store max sum of averages for partitions ending at index i with j groups. Prefix sums optimize average calculation.",
+  "time_complexity": [
+    "O(k * n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Prefix sums are crucial for efficient average calculation.",
+      "DP state definition: dp[k][i] = max sum of averages for first i elements using k partitions.",
+      "The transition involves iterating through all possible split points for the last partition."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

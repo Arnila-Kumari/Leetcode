@@ -1,0 +1,32 @@
+{
+  "problem_name": "most-profit-assigning-work",
+  "data_structures": [
+    [
+      "array",
+      "sorted array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort jobs by difficulty and workers by ability. Use two pointers to assign the best possible job to each worker."
+  ],
+  "problem_summary_simple": "Assign jobs to workers to maximize total profit, considering job difficulty and worker ability.",
+  "problem_summary_technical": "Sorts jobs and workers. Iterates through sorted workers, maintaining the maximum profit achievable for their ability using a pointer on sorted jobs.",
+  "time_complexity": [
+    "O(m log m + n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting both jobs and workers is crucial for an efficient greedy approach.",
+      "By iterating through workers and keeping track of the maximum profit seen so far for their ability, we ensure optimal assignment.",
+      "The two-pointer approach efficiently finds the best job for each worker without re-scanning all jobs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

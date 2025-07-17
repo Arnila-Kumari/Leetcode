@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximize-score-after-n-operations",
+  "data_structures": [
+    [
+      "1D DP array",
+      "bitmask"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Dynamic programming with bitmasking. The state represents the set of numbers already used. Iterate through masks, calculating max score for pairs using GCD."
+  ],
+  "problem_summary_simple": "Pair up numbers from an array and get scores based on operation number and GCD. Maximize total score over N operations.",
+  "problem_summary_technical": "DP with bitmasking. State `dp[mask]` stores max score using numbers represented by `mask`. Iterate through masks, considering pairs and their GCD contribution.",
+  "time_complexity": [
+    "O(n^2 * 2^n)"
+  ],
+  "space_complexity": [
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "The problem has a small constraint on `n` (up to 7), suggesting an exponential time complexity solution like bitmasking.",
+      "The state of the DP should capture which numbers have already been used.",
+      "The transitions involve picking two unused numbers, calculating their score, and adding it to the score of the remaining numbers."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

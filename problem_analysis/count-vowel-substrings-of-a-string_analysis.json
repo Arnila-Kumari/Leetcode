@@ -1,0 +1,44 @@
+{
+  "problem_name": "count-vowel-substrings-of-a-string",
+  "data_structures": [
+    [
+      "hash map",
+      "set"
+    ],
+    [
+      "hash map",
+      "set"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a counter to track distinct vowels, ensuring all 5 are present.",
+    "Sliding window using 'at most K' and 'at most K-1' principle for exact count."
+  ],
+  "problem_summary_simple": "Count substrings containing only vowels and all five distinct vowels.",
+  "problem_summary_technical": "Use sliding window to count substrings with exactly 5 distinct vowels, ensuring all characters are vowels.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires substrings to contain *only* vowels and *all five* distinct vowels.",
+      "A sliding window approach is suitable for counting substrings with specific properties.",
+      "The 'at most K' minus 'at most K-1' technique is a common pattern for counting exact occurrences."
+    ],
+    [
+      "The 'at most K' sliding window counts substrings with at most K distinct vowels.",
+      "By calculating `atMostK(5) - atMostK(4)`, we get the count of substrings with exactly 5 distinct vowels.",
+      "Handling non-vowel characters requires resetting the window or adjusting the start pointer."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

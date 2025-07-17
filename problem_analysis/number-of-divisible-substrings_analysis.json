@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-divisible-substrings",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "prefix sum array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterate through possible divisors (1-9), use prefix sums and a frequency map to count valid substrings."
+  ],
+  "problem_summary_simple": "Count substrings where the sum of character values is divisible by substring length.",
+  "problem_summary_technical": "For each divisor `d`, use prefix sums and a frequency map to count substrings `s[i:j]` where `(prefixSum[j] - prefixSum[i]) % d == 0`.",
+  "time_complexity": [
+    "O(d * n), where d is the number of divisors (1-9)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased: for a substring `s[i:j]` of length `L`, is `sum(s[i:j]) % L == 0`?",
+      "This can be transformed into `sum(s[i:j]) % d == 0` for each possible divisor `d` from 1 to 9.",
+      "Using prefix sums and a frequency map (like `collections.Counter`) allows for efficient counting of such substrings for each divisor."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

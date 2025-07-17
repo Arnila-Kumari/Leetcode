@@ -1,0 +1,32 @@
+{
+  "problem_name": "binary-gap",
+  "data_structures": [
+    [
+      "integer",
+      "variable"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate through bits using right shift and bitwise AND to find gaps between set bits."
+  ],
+  "problem_summary_simple": "Find the longest sequence of zeros between two ones in a number's binary form.",
+  "problem_summary_technical": "Iterate through the bits of an integer, tracking the position of the last encountered '1' to calculate the maximum distance.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through the bits of the integer.",
+      "Bitwise operations (right shift and AND) are efficient for examining individual bits.",
+      "Keeping track of the last seen '1' allows for calculating the distance to the current '1'."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

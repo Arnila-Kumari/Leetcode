@@ -1,0 +1,33 @@
+{
+  "problem_name": "first-unique-character-in-a-string",
+  "data_structures": [
+    [
+      "defaultdict",
+      "set",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a hash map to store character counts or first occurrences. Iterate again to find the first character with a count of 1."
+  ],
+  "problem_summary_simple": "Find the index of the first character that appears only once in a string.",
+  "problem_summary_technical": "Employs a hash map to store character frequencies or indices, then iterates to find the first unique character.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A frequency map (like defaultdict) is suitable for counting character occurrences.",
+      "Alternatively, store the index of the first occurrence and a flag for duplicates.",
+      "The solution needs to find the *first* unique character, so order matters."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

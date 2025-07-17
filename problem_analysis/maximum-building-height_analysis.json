@@ -1,0 +1,34 @@
+{
+  "problem_name": "maximum-building-height",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort restrictions, adjust heights based on adjacent constraints, and find max height in segments."
+  ],
+  "problem_summary_simple": "Find the maximum height of the tallest building given building constraints and adjacent height differences.",
+  "problem_summary_technical": "Sort restrictions, enforce constraints from both ends, then find the maximum height in segments using a greedy approach.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The height of building `i` is constrained by `h[i] <= h[i-1] + 1` and `h[i] <= h[i+1] + 1`.",
+      "Also, `h[i] <= maxHeight_i` from restrictions.",
+      "The first building `h[1]` is 0.",
+      "The problem can be broken down into finding the maximum height between consecutive restrictions (or between the start/end and a restriction).",
+      "After sorting restrictions, we can enforce constraints from left-to-right and right-to-left to get the tightest upper bounds for each building.",
+      "For any two consecutive valid points `(pos1, height1)` and `(pos2, height2)`, the maximum height achievable in the segment `[pos1, pos2]` is `max(height1, height2) + (pos2 - pos1 - abs(height1 - height2)) // 2`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-distance-to-type-a-word-using-two-fingers",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "dictionary",
+      "dictionary"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with state compression and optimization",
+    "DP with state transition on character positions"
+  ],
+  "problem_summary_simple": "Find the minimum distance to type a word using two fingers on a keyboard.",
+  "problem_summary_technical": "Dynamic programming to track minimum distance for each finger's last position, optimizing state transitions.",
+  "time_complexity": [
+    "O(26*N)",
+    "O(26*N)"
+  ],
+  "space_complexity": [
+    "O(26)",
+    "O(26*26)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the minimum cost to reach the end state, where the state is defined by the positions of the two fingers.",
+      "The keyboard layout can be mapped to a 2D grid, and distances calculated using Manhattan distance.",
+      "The first solution uses a clever DP state compression by realizing only the previous character matters for the total distance calculation."
+    ],
+    [
+      "The second solution uses a more explicit DP state where `dp[(char1, char2)]` stores the minimum cost to type up to the current character with fingers on `char1` and `char2`.",
+      "The base case is `dp[(-1, -1)] = 0`, representing initial free finger positions.",
+      "Transitions involve considering placing the current character with either finger, updating the DP table accordingly."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

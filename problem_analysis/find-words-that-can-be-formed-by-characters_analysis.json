@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-words-that-can-be-formed-by-characters",
+  "data_structures": [
+    [
+      "list",
+      "string",
+      "hashmap (Counter)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use frequency maps (Counters) to check if word characters are available in 'chars'."
+  ],
+  "problem_summary_simple": "Sum lengths of words that can be formed using characters from a given string, using each character at most once.",
+  "problem_summary_technical": "Utilize frequency maps (collections.Counter) to compare character counts between words and the available characters.",
+  "time_complexity": [
+    "O(m + n*l)"
+  ],
+  "space_complexity": [
+    "O(alphabet_size)"
+  ],
+  "key_insights": [
+    [
+      "collections.Counter is highly efficient for frequency counting.",
+      "The problem requires checking character availability for each word independently.",
+      "The constraint on character usage (once per word) is crucial."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

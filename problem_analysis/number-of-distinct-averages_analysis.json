@@ -1,0 +1,35 @@
+{
+  "problem_name": "number-of-distinct-averages",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sort the array. Use two pointers (one from start, one from end) to find min/max pairs, calculate averages, and store in a set."
+  ],
+  "problem_summary_simple": "Find the number of unique averages formed by pairing the smallest and largest remaining numbers repeatedly.",
+  "problem_summary_technical": "Sort the array, then use two pointers to pair min/max elements, compute their averages, and store distinct averages in a set.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is crucial to efficiently find the minimum and maximum elements at each step.",
+      "Using a set automatically handles the distinctness requirement for the calculated averages."
+    ],
+    [
+      "The two-pointer approach effectively simulates the process of repeatedly removing the minimum and maximum elements.",
+      "The sum of the minimum and maximum elements is what matters for the average, not the individual values themselves."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

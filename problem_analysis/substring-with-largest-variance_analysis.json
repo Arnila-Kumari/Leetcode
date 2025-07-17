@@ -1,0 +1,32 @@
+{
+  "problem_name": "substring-with-largest-variance",
+  "data_structures": [
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Modified Kadane's algorithm applied to pairs of characters, considering counts and resets."
+  ],
+  "problem_summary_simple": "Find the maximum difference in counts between any two characters in any substring.",
+  "problem_summary_technical": "Applies a modified Kadane's algorithm to all character pairs, tracking counts and resets for variance calculation.",
+  "time_complexity": [
+    "O(a^2 * n)"
+  ],
+  "space_complexity": [
+    "O(a)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the maximum subarray sum for (char1_count - char2_count).",
+      "Kadane's algorithm needs modification to handle cases where a character might not be present or to reset correctly.",
+      "Iterating through all pairs of characters is necessary as the variance can occur between any two distinct characters."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

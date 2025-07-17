@@ -1,0 +1,31 @@
+{
+  "problem_name": "jump-game",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach tracking the maximum reachable index"
+  ],
+  "problem_summary_simple": "Determine if you can reach the last index of an array by jumping.",
+  "problem_summary_technical": "Greedily track the farthest reachable index, breaking if current index exceeds it.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by always trying to reach as far as possible.",
+      "Maintain a variable `reachable` that stores the maximum index that can be reached so far.",
+      "If the current index `i` ever exceeds `reachable`, it means we cannot proceed further."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

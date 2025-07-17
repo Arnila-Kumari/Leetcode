@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-operations-to-make-array-values-equal-to-k",
+  "data_structures": [
+    [
+      "array",
+      "set"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Check if minimum element is >= k. If so, count unique elements greater than k. Otherwise, impossible."
+  ],
+  "problem_summary_simple": "Make all array elements equal to k using operations that set larger elements to a valid 'h'.",
+  "problem_summary_technical": "An operation sets elements > h to h, where elements > h are identical. To reach k, the minimum element must be >= k. Operations reduce unique values greater than k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The 'valid h' condition implies that at any step, all elements greater than the chosen 'h' must be the same value.",
+      "To make all elements equal to k, the minimum element in the array must be greater than or equal to k.",
+      "Each operation effectively reduces the number of distinct values greater than the target k by one, by setting them to a smaller valid 'h'."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

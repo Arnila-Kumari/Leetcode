@@ -1,0 +1,34 @@
+{
+  "problem_name": "evaluate-the-bracket-pairs-of-a-string",
+  "data_structures": [
+    [
+      "Hash Map",
+      "List",
+      "String Builder"
+    ]
+  ],
+  "category": "Hash Map",
+  "algorithm_technique": [
+    "String traversal with hash map lookup for bracketed keys"
+  ],
+  "problem_summary_simple": "Replace bracketed keys in a string with their values from a knowledge base.",
+  "problem_summary_technical": "Iterate through the string, identify bracketed keys, look up values in a hash map, and build the result string.",
+  "time_complexity": [
+    "O(n + m) where n is string length, m is knowledge length"
+  ],
+  "space_complexity": [
+    "O(n + m) where n is string length, m is knowledge length (for hash map and result string)"
+  ],
+  "key_insights": [
+    [
+      "A hash map is ideal for efficient key-value lookups.",
+      "Iterate through the string, accumulating characters within brackets.",
+      "Handle missing keys by replacing with '?'.",
+      "Concatenate non-bracketed characters directly."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimum-number-of-operations-to-make-array-continuous",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "In-place unique element removal, then sliding window with two pointers",
+    "Sorting, set for uniqueness, then sliding window with two pointers"
+  ],
+  "problem_summary_simple": "Make array elements unique and the difference between max and min equal to length-1 with minimum changes.",
+  "problem_summary_technical": "Sort array, remove duplicates. Use a sliding window to find the longest subarray where max-min <= n-1, maximizing elements to keep.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1) (if modifying input is allowed)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting is crucial to efficiently check continuity conditions.",
+      "The problem can be reframed as finding the longest subarray that *could* be made continuous.",
+      "The number of operations is n - (length of longest valid subarray)."
+    ],
+    [
+      "Using a set to handle duplicates simplifies the logic.",
+      "The sliding window approach efficiently checks all possible continuous subarrays.",
+      "The condition `nums[right] <= nums[left] + n - 1` is key for the sliding window."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

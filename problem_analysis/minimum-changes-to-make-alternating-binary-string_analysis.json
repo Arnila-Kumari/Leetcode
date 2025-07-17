@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-changes-to-make-alternating-binary-string",
+  "data_structures": [
+    [
+      "string iteration"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Count mismatches for two target alternating patterns (0101... and 1010...) and take the minimum."
+  ],
+  "problem_summary_simple": "Change the minimum number of characters in a binary string to make it alternating.",
+  "problem_summary_technical": "Calculate changes needed for '0101...' and '1010...' patterns, then return the minimum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "An alternating binary string must follow one of two patterns: starting with '0' or starting with '1'.",
+      "We can count the number of characters that *don't* match the target pattern for each case.",
+      "The minimum of these two counts is the answer."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,46 @@
+{
+  "problem_name": "detonate-the-maximum-bombs",
+  "data_structures": [
+    [
+      "adjacency list",
+      "set",
+      "queue"
+    ],
+    [
+      "adjacency list",
+      "set",
+      "stack"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Build an adjacency list representing bomb detonation relationships. Then, for each bomb, perform a BFS to count reachable bombs.",
+    "Build an adjacency list representing bomb detonation relationships. Then, for each bomb, perform a DFS to count reachable bombs."
+  ],
+  "problem_summary_simple": "Find the maximum number of bombs detonated by starting with a single bomb.",
+  "problem_summary_technical": "Models bomb interactions as a directed graph. For each node, performs BFS/DFS to find the size of the connected component.",
+  "time_complexity": [
+    "O(N^2)",
+    "O(N^2)"
+  ],
+  "space_complexity": [
+    "O(N^2)",
+    "O(N^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the largest connected component in a directed graph.",
+      "The distance calculation `(xi-xj)**2+(yi-yj)**2 <= ri**2` is crucial for determining reachability.",
+      "BFS and DFS are suitable for exploring the graph and counting reachable nodes."
+    ],
+    [
+      "The problem can be modeled as finding the largest connected component in a directed graph.",
+      "The distance calculation `(xi-xj)**2+(yi-yj)**2 <= ri**2` is crucial for determining reachability.",
+      "BFS and DFS are suitable for exploring the graph and counting reachable nodes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

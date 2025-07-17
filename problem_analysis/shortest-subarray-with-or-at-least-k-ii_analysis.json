@@ -1,0 +1,32 @@
+{
+  "problem_name": "shortest-subarray-with-or-at-least-k-ii",
+  "data_structures": [
+    [
+      "list",
+      "array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with frequency count for bitwise OR."
+  ],
+  "problem_summary_simple": "Find the shortest subarray whose bitwise OR of elements is at least k.",
+  "problem_summary_technical": "Employs a sliding window and bit frequency counts to efficiently track the OR sum of subarrays.",
+  "time_complexity": [
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(log r)"
+  ],
+  "key_insights": [
+    [
+      "The bitwise OR property allows for an efficient sliding window approach.",
+      "Tracking the count of each bit within the window is key to updating the OR sum.",
+      "The constraint on `nums.length` suggests an O(n) or O(n log r) solution."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,45 @@
+{
+  "problem_name": "reconstruct-itinerary",
+  "data_structures": [
+    [
+      "defaultdict (hash map)",
+      "list",
+      "stack (implicit via DFS)"
+    ],
+    [
+      "defaultdict (hash map)",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Hierholzer's algorithm for finding Eulerian paths/circuits, adapted for lexical order.",
+    "Depth-First Search (DFS) with backtracking and lexical sorting of destinations."
+  ],
+  "problem_summary_simple": "Reconstruct a flight itinerary starting from JFK, using all tickets, and prioritizing lexical order.",
+  "problem_summary_technical": "Build an adjacency list, sort destinations lexically, and use Hierholzer's algorithm (or DFS) to find the Eulerian path.",
+  "time_complexity": [
+    "O(|V| + |E|log|V|)",
+    "O(t! / (n1! * n2! * ... nk!))"
+  ],
+  "space_complexity": [
+    "O(|V| + |E|)",
+    "O(t)"
+  ],
+  "key_insights": [
+    [
+      "This problem is equivalent to finding an Eulerian path in a directed graph where airports are nodes and tickets are edges.",
+      "Sorting the destinations for each airport in reverse lexical order ensures that when we pop from the adjacency list, we get the lexically smallest path first.",
+      "Hierholzer's algorithm efficiently finds such paths by traversing edges and backtracking when stuck."
+    ],
+    [
+      "This approach uses a recursive DFS to explore possible itineraries.",
+      "Lexical sorting of destinations is crucial to ensure the correct itinerary is found when multiple options exist.",
+      "Backtracking is necessary to explore alternative paths if a chosen path doesn't lead to a complete itinerary."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

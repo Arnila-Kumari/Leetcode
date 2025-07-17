@@ -1,0 +1,33 @@
+{
+  "problem_name": "choose-k-elements-with-maximum-sum",
+  "data_structures": [
+    [
+      "heap (min-heap)",
+      "list",
+      "range"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Sort nums1, then iterate. Use a min-heap to maintain the k largest nums2 values encountered so far for elements smaller than the current nums1 element."
+  ],
+  "problem_summary_simple": "For each element, find the sum of the k largest values from another array where corresponding elements in the first array are smaller.",
+  "problem_summary_technical": "Iterate through sorted nums1. Maintain a min-heap of size k for nums2 values corresponding to smaller nums1 elements to track the k largest sums.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting nums1 allows for a single pass to consider elements in increasing order.",
+      "A min-heap of size k efficiently tracks the k largest elements seen so far.",
+      "The total sum is updated incrementally as new smaller elements are encountered."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

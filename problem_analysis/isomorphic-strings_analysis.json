@@ -1,0 +1,43 @@
+{
+  "problem_name": "isomorphic-strings",
+  "data_structures": [
+    [
+      "dictionary",
+      "generator"
+    ],
+    [
+      "dictionary"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "mapping characters using two dictionaries and zip",
+    "mapping characters using two passes with a helper function"
+  ],
+  "problem_summary_simple": "Check if two strings can be transformed into each other by consistently replacing characters.",
+  "problem_summary_technical": "Verify one-to-one character mapping between two strings of equal length using hash maps.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "Use two dictionaries to track mappings in both directions (s->t and t->s).",
+      "Ensure no character maps to multiple different characters.",
+      "The `izip` (or `zip`) function efficiently pairs characters."
+    ],
+    [
+      "The core idea is that the mapping must be consistent in both directions.",
+      "A helper function can check the mapping consistency from one string to another.",
+      "Checking both `s` to `t` and `t` to `s` covers all isomorphism conditions."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

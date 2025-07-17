@@ -1,0 +1,53 @@
+{
+  "problem_name": "top-k-frequent-elements",
+  "data_structures": [
+    [
+      "hashmap",
+      "list (buckets)"
+    ],
+    [
+      "list of tuples",
+      "list (partitioned)"
+    ],
+    [
+      "hashmap",
+      "list of tuples"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Frequency counting with bucket sort based on frequency.",
+    "Frequency counting and Quick Select algorithm.",
+    "Frequency counting and using `most_common` method."
+  ],
+  "problem_summary_simple": "Find the k elements that appear most frequently in an array.",
+  "problem_summary_technical": "Count frequencies, then use bucket sort or Quick Select to find k most frequent elements.",
+  "time_complexity": [
+    "O(n)",
+    "O(n) on average",
+    "O(n log k)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Bucket sort is efficient when frequencies are within a reasonable range.",
+      "Iterating in reverse order of buckets ensures highest frequencies are picked first."
+    ],
+    [
+      "Quick Select (partitioning) can find the k-th element in linear time on average.",
+      "Storing frequencies as negative values allows sorting in descending order of frequency."
+    ],
+    [
+      "Python's `collections.Counter.most_common(k)` is a highly optimized built-in solution.",
+      "This approach directly addresses the problem with minimal custom logic."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

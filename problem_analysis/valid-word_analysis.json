@@ -1,0 +1,32 @@
+{
+  "problem_name": "valid-word",
+  "data_structures": [
+    [
+      "string",
+      "boolean"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the word, checking length, character types (alphanumeric), and presence of vowels and consonants."
+  ],
+  "problem_summary_simple": "Check if a word meets specific criteria: length, characters, vowels, and consonants.",
+  "problem_summary_technical": "Validate word length (>=3), ensure all characters are alphanumeric, and confirm the presence of at least one vowel and one consonant.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking multiple conditions sequentially. Early exit is possible if any condition fails.",
+      "Character validation involves checking if a character is a letter or a digit. Any other character makes the word invalid.",
+      "Tracking the presence of vowels and consonants requires iterating through the word and using flags."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

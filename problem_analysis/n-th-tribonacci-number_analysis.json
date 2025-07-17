@@ -1,0 +1,45 @@
+{
+  "problem_name": "n-th-tribonacci-number",
+  "data_structures": [
+    [
+      "matrix",
+      "matrix"
+    ],
+    [
+      "variable",
+      "variable",
+      "variable"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Matrix exponentiation to compute the n-th Tribonacci number using a constant-size transformation matrix.",
+    "Iterative approach with constant space by keeping track of the last three Tribonacci numbers."
+  ],
+  "problem_summary_simple": "Calculate the N-th number in the Tribonacci sequence.",
+  "problem_summary_technical": "Matrix exponentiation for O(log n) time complexity, or an iterative O(n) time, O(1) space DP approach using three variables.",
+  "time_complexity": [
+    "O(log n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The Tribonacci sequence can be represented by a linear recurrence relation, which can be solved efficiently using matrix exponentiation.",
+      "The iterative DP approach is simpler and often preferred for smaller constraints like n <= 37, offering O(n) time and O(1) space.",
+      "The matrix exponentiation method involves defining a transition matrix and raising it to the power of n."
+    ],
+    [
+      "The iterative solution maintains the last three values (a, b, c) and updates them in each step to calculate the next Tribonacci number.",
+      "This avoids recursion overhead and large memory usage, making it very efficient for the given constraints.",
+      "The base cases T0, T1, T2 are handled implicitly by the initial values of a, b, c."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

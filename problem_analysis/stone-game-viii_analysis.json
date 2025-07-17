@@ -1,0 +1,37 @@
+{
+  "problem_name": "stone-game-viii",
+  "data_structures": [
+    [
+      "prefix sum array",
+      "single variable for current max score"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with prefix sums and greedy choice for optimal move."
+  ],
+  "problem_summary_simple": "Players remove leftmost stones, add sum to score, replace with new stone. Maximize score difference.",
+  "problem_summary_technical": "DP on prefix sums. Alice maximizes, Bob minimizes score difference by choosing optimal number of stones to remove.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The game state can be simplified by realizing that the sum of removed stones becomes a new stone.",
+      "Prefix sums are used to efficiently calculate the sum of removed stones.",
+      "The problem can be viewed as finding the maximum difference between prefix sums, considering optimal splits."
+    ],
+    [
+      "Alice wants to maximize `current_score - bob_score`, Bob wants to minimize `alice_score - current_score`.",
+      "The optimal strategy for Alice is to take the largest possible sum that leaves Bob with the smallest possible score.",
+      "The solution iterates from right to left, maintaining the maximum score achievable from the current point onwards."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-equivalent-domino-pairs",
+  "data_structures": [
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting with normalization and combination formula"
+  ],
+  "problem_summary_simple": "Count pairs of dominoes that are identical or can be rotated to be identical.",
+  "problem_summary_technical": "Uses a Counter to store normalized domino representations (min, max) and applies the combination formula n*(n-1)/2 for counts.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Normalizing dominoes (e.g., by sorting the pair) simplifies equivalence checking.",
+      "A frequency map (Counter) efficiently stores counts of normalized dominoes.",
+      "The combination formula C(n, 2) = n*(n-1)/2 is used to count pairs from identical items."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

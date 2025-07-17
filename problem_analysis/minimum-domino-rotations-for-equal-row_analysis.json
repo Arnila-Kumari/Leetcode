@@ -1,0 +1,40 @@
+{
+  "problem_name": "minimum-domino-rotations-for-equal-row",
+  "data_structures": [
+    [
+      "set",
+      "dictionary"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Set intersection and counting occurrences",
+    "Iterating through possible target values and counting rotations"
+  ],
+  "problem_summary_simple": "Find minimum domino rotations to make a row of dominoes have the same top or bottom value.",
+  "problem_summary_technical": "Identify candidate values that can form a uniform row by checking common elements in domino halves and counting rotations.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "If a solution exists, the target value for the uniform row must be present in either the top or bottom half of every domino.",
+      "This means the target value must be in the intersection of the set of values in `tops` and the set of values in `bottoms`.",
+      "Once a candidate target value `x` is found, the minimum rotations to make the top row `x` is `N - count(x in tops)`, and to make the bottom row `x` is `N - count(x in bottoms)`. The overall minimum is the minimum of these for all candidate `x`."
+    ],
+    [
+      "The provided solution efficiently finds the candidate value by taking the intersection of sets of values from `tops` and `bottoms`.",
+      "If the intersection is empty, no such uniform row can be formed, and -1 is returned.",
+      "If the intersection is not empty, any element `x` from the intersection is a potential target. The minimum rotations to make the top row `x` is `len(A) - A.count(x)`, and to make the bottom row `x` is `len(B) - B.count(x)`. The minimum of these two is the answer for that `x`. Since there can be at most one common value that can form a uniform row, we just need to check that one."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:57:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

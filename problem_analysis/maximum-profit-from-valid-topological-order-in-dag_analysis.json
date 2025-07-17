@@ -1,0 +1,40 @@
+{
+  "problem_name": "maximum-profit-from-valid-topological-order-in-dag",
+  "data_structures": [
+    [
+      "array of integers (adjacency bitmasks)",
+      "1D DP array (bitmask states)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dynamic Programming with Bitmasking on subsets of nodes",
+    "Topological Sort with DP"
+  ],
+  "problem_summary_simple": "Find the maximum profit by ordering nodes in a DAG, where profit is score * position.",
+  "problem_summary_technical": "Uses DP with bitmasking to explore all valid topological orderings, calculating profit based on node score and its position in the order.",
+  "time_complexity": [
+    "O(n * 2^n)",
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(2^n)",
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "The constraint `n <= 22` strongly suggests an exponential time complexity solution, likely involving bitmasking.",
+      "The DP state `dp[mask]` represents the maximum profit achievable by processing the nodes represented by the set bits in `mask`.",
+      "To transition to a new state `dp[mask | (1 << i)]`, we need to ensure that node `i` can be the next node in the topological order (i.e., all its prerequisites are in `mask`)."
+    ],
+    [
+      "The problem requires finding an optimal topological sort.",
+      "The profit calculation `l * score[i]` means that nodes processed later contribute more to the total profit.",
+      "The DP approach effectively explores all valid orderings by building up the `mask` of processed nodes."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:54:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

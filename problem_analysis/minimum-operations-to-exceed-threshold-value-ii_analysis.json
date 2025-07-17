@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-exceed-threshold-value-ii",
+  "data_structures": [
+    [
+      "heap (min-heap)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach using a min-heap to repeatedly combine the smallest elements."
+  ],
+  "problem_summary_simple": "Combine the two smallest numbers by doubling the smaller and adding the larger until all numbers meet a threshold.",
+  "problem_summary_technical": "Utilize a min-heap to efficiently extract the two smallest elements, apply the operation (2*min + max), and re-insert until all elements >= k.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy of always combining the two smallest elements is optimal because it maximizes the increase in value with each operation.",
+      "A min-heap is crucial for efficiently finding and extracting the two smallest elements in logarithmic time.",
+      "The process continues until the smallest element in the heap meets the threshold, ensuring all elements do."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

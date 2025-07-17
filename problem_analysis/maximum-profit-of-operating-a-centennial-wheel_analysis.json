@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-profit-of-operating-a-centennial-wheel",
+  "data_structures": [
+    [
+      "list of integers"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Simulate rotations, track waiting customers, profit, and maximum profit with rotation count."
+  ],
+  "problem_summary_simple": "Operate a Ferris wheel to maximize profit by deciding when to stop, considering customer arrivals and rotation costs.",
+  "problem_summary_technical": "Simulate the process rotation by rotation, greedily boarding up to 4 customers, tracking waiting customers and cumulative profit.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy of boarding as many customers as possible (up to 4) at each step is optimal.",
+      "We need to track the number of waiting customers and the current profit.",
+      "The simulation continues as long as there are customers arriving or waiting."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

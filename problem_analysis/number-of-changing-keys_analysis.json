@@ -1,0 +1,29 @@
+{
+  "problem_name": "number-of-changing-keys",
+  "data_structures": [
+    []
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the string, comparing the lowercase version of the current character with the lowercase version of the next character. Increment a counter if they differ."
+  ],
+  "problem_summary_simple": "Count how many times the user types a different letter than the previous one, ignoring case.",
+  "problem_summary_technical": "Iterate through the input string, comparing adjacent characters after converting them to lowercase. Increment a counter for each pair of adjacent characters that are different.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Case insensitivity is handled by converting characters to lowercase before comparison.",
+      "The problem requires checking adjacent characters, making a single pass through the string efficient.",
+      "A simple counter is sufficient to track the number of key changes."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

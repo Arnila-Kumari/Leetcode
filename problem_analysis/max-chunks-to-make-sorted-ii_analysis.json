@@ -1,0 +1,43 @@
+{
+  "problem_name": "max-chunks-to-make-sorted-ii",
+  "data_structures": [
+    [
+      "stack",
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Monotonic stack to maintain maximums of potential chunks, ensuring sorted order.",
+    "Sorting indices based on values and comparing with current index to find valid chunk boundaries."
+  ],
+  "problem_summary_simple": "Split an array into the maximum number of contiguous subarrays that, when sorted individually, result in the fully sorted array.",
+  "problem_summary_technical": "Monotonic stack approach tracks max of current chunk. Alternative uses sorted indices to find points where prefix max equals index.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A chunk can be formed if the maximum element in the chunk is less than or equal to the minimum element of the remaining unsorted part.",
+      "The monotonic stack stores the maximum element of each valid chunk.",
+      "When a new element is smaller than the top of the stack, it means the current chunk must be merged with previous ones."
+    ],
+    [
+      "The core idea is that if we sort the original array and compare it with the original array's indices, a chunk boundary exists when the maximum index seen so far matches the current sorted index.",
+      "Sorting indices based on values ensures we consider elements in their sorted order.",
+      "This approach leverages the property that if `max(arr[0...i]) == sorted_arr[i]`, then `arr[0...i]` can form a valid chunk."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

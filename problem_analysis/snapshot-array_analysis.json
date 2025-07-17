@@ -1,0 +1,32 @@
+{
+  "problem_name": "snapshot-array",
+  "data_structures": [
+    [
+      "defaultdict",
+      "list of lists"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Store history of changes per index using sorted lists and binary search for retrieval."
+  ],
+  "problem_summary_simple": "Create a data structure that supports setting values, taking snapshots, and retrieving values from past snapshots.",
+  "problem_summary_technical": "Implement a snapshot array using a defaultdict where each index stores a sorted list of (snap_id, value) pairs, enabling efficient get operations via binary search.",
+  "time_complexity": [
+    "set: O(1), snap: O(1), get: O(log N) where N is the number of set operations for that index."
+  ],
+  "space_complexity": [
+    "O(N) where N is the total number of set operations across all indices."
+  ],
+  "key_insights": [
+    [
+      "The core challenge is efficiently storing and retrieving historical states without copying the entire array on each snap.",
+      "Using a sorted list of (snap_id, value) pairs for each index allows for O(log N) retrieval using binary search.",
+      "A defaultdict is suitable for sparse updates, only storing history for indices that have been modified."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

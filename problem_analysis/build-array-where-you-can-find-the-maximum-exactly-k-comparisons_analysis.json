@@ -1,0 +1,33 @@
+{
+  "problem_name": "build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+  "data_structures": [
+    [
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with state (length, max_val, cost)."
+  ],
+  "problem_summary_simple": "Count ways to build an array of size n with elements up to m such that finding the max takes k comparisons.",
+  "problem_summary_technical": "DP state: dp[l][i][j] = ways to build array of length l, max element i, cost j. Transitions consider new max or same max.",
+  "time_complexity": [
+    "O(n * m * k)"
+  ],
+  "space_complexity": [
+    "O(m * k)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming.",
+      "The state needs to track the current length of the array, the maximum element seen so far, and the search cost.",
+      "Transitions involve either placing a number smaller than the current maximum (no cost increase) or a new maximum (cost increases by 1)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

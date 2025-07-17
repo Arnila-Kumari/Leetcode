@@ -1,0 +1,33 @@
+{
+  "problem_name": "length-of-longest-fibonacci-subsequence",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Dynamic Programming",
+  "algorithm_technique": [
+    "Iterate through all possible pairs as the first two elements of a Fibonacci subsequence and extend it.",
+    "Use a set for efficient lookup of subsequent Fibonacci numbers."
+  ],
+  "problem_summary_simple": "Find the longest subsequence that follows the Fibonacci pattern (x_i + x_{i+1} = x_{i+2}).",
+  "problem_summary_technical": "Brute-force check of all pairs as starting points, extending subsequences using a hash set for O(1) lookups.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering every pair of numbers as the first two elements of a potential Fibonacci subsequence.",
+      "A hash set is crucial for quickly checking if the next expected Fibonacci number exists in the array.",
+      "The constraint that the array is strictly increasing simplifies the search for subsequent elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-erasure-value",
+  "data_structures": [
+    [
+      "hash map",
+      "prefix sum array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a hash map to track unique elements and prefix sums for efficient sum calculation."
+  ],
+  "problem_summary_simple": "Find the maximum sum of a subarray containing only unique elements.",
+  "problem_summary_technical": "Use a sliding window and a hash map to maintain unique elements. Prefix sums optimize subarray sum calculation.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the maximum sum of a subarray with unique elements, which is a classic sliding window problem.",
+      "A hash map (or set) is used to keep track of elements within the current window to ensure uniqueness.",
+      "Prefix sums can be used to quickly calculate the sum of the current valid window, avoiding repeated summations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

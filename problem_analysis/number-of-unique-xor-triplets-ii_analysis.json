@@ -1,0 +1,47 @@
+{
+  "problem_name": "number-of-unique-xor-triplets-ii",
+  "data_structures": [
+    [
+      "list",
+      "set",
+      "integer array"
+    ],
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Fast Walsh-Hadamard Transform (FWHT) to compute XOR convolution.",
+    "Iterative approach using sets to store intermediate XOR sums."
+  ],
+  "problem_summary_simple": "Count unique XOR sums of triplets (i, j, k) from any integer array.",
+  "problem_summary_technical": "FWHT computes XOR convolution efficiently. Alternatively, iteratively build sets of XOR sums for pairs and then triplets.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The FWHT approach is a sophisticated technique for problems involving XOR sums, particularly XOR convolution.",
+      "The `fst` function implements the Fast Walsh-Hadamard Transform. The core idea is that XOR convolution in the time domain corresponds to element-wise multiplication in the Hadamard domain.",
+      "The complexity arises from the transform itself and the subsequent element-wise operations.",
+      "The hash table (set) approach is more intuitive but less efficient for larger inputs. It builds up the possible XOR sums iteratively."
+    ],
+    [
+      "The hash table approach iteratively computes XOR sums of pairs and then triplets.",
+      "`cnt2` stores XOR sums of pairs, and `cnt3` stores XOR sums of triplets.",
+      "The maximum possible XOR value determines the size of the universe of possible XOR sums.",
+      "The solution stops early if all possible XOR values are found."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

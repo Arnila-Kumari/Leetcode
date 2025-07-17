@@ -1,0 +1,32 @@
+{
+  "problem_name": "earliest-second-to-mark-indices-i",
+  "data_structures": [
+    [
+      "array",
+      "hashmap/lookup table"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "binary search on time, greedy check function"
+  ],
+  "problem_summary_simple": "Find the earliest time all array indices can be marked by decrementing and marking.",
+  "problem_summary_technical": "Binary search for the earliest second; check function uses a lookup to find last occurrence and greedy decrements.",
+  "time_complexity": [
+    "O(m log m)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem has a monotonic property: if all indices can be marked by time `t`, they can also be marked by any time `t' > t`.",
+      "This allows for binary search on the possible time (seconds).",
+      "The `check` function simulates the process greedily: for each index, use its last `changeIndex` occurrence and decrement other elements as needed."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:41:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

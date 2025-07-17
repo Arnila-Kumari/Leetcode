@@ -1,0 +1,33 @@
+{
+  "problem_name": "node-with-highest-edge-score",
+  "data_structures": [
+    [
+      "list",
+      "array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Frequency counting using an array to store scores"
+  ],
+  "problem_summary_simple": "Find the node with the highest sum of incoming edge labels in a directed graph.",
+  "problem_summary_technical": "Iterate through edges, sum incoming node labels for each destination node, and find the node with the maximum sum and smallest index.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires calculating the 'edge score' for each node, which is the sum of the labels of nodes pointing to it.",
+      "An array (or list) can be used to store the scores, indexed by the destination node.",
+      "Iterating through the `edges` array allows us to efficiently populate these scores. The `enumerate` function is useful here to get both the source node and its index.",
+      "After calculating all scores, finding the maximum score and its corresponding smallest index can be done efficiently."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

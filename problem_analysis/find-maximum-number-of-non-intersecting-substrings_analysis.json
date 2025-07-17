@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-maximum-number-of-non-intersecting-substrings",
+  "data_structures": [
+    [
+      "hash table"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: iterate through the string, find the earliest start of a valid substring, and then find the earliest end of that substring."
+  ],
+  "problem_summary_simple": "Find the maximum number of non-overlapping substrings that are at least 4 characters long and start/end with the same letter.",
+  "problem_summary_technical": "Greedy strategy: find the first occurrence of a character, then the earliest valid substring ending. Reset search after finding a valid substring.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A greedy approach works because choosing the earliest possible valid substring maximizes the remaining string for subsequent substrings.",
+      "A hash map can efficiently store the first occurrence of each character.",
+      "The minimum length of 4 is a key constraint for valid substrings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

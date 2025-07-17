@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-mirror-score-of-a-string",
+  "data_structures": [
+    [
+      "list of lists (lookup table)",
+      "integer (result)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Simulation with a hash table (list of lists) to store indices"
+  ],
+  "problem_summary_simple": "Calculate a score by pairing characters with their mirror counterparts in a string, prioritizing the closest unmarked character.",
+  "problem_summary_technical": "Iterate through the string, using a lookup table to find the closest preceding mirror character and update score.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to efficiently find the closest preceding mirror character.",
+      "A lookup table (list of lists, indexed by character) storing indices of seen characters is crucial.",
+      "When a pair is found, the index from the lookup table is removed to ensure it's not reused."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

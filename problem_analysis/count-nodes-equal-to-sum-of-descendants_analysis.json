@@ -1,0 +1,43 @@
+{
+  "problem_name": "count-nodes-equal-to-sum-of-descendants",
+  "data_structures": [
+    [
+      "stack",
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS using a stack to simulate recursion and track subtree sums.",
+    "Recursive DFS to calculate subtree sums and count qualifying nodes."
+  ],
+  "problem_summary_simple": "Count nodes in a binary tree whose value equals the sum of their descendants' values.",
+  "problem_summary_technical": "Traverse a binary tree using DFS (recursive or iterative) to compute subtree sums and compare with node values.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "A post-order traversal (or simulating one with DFS) is natural for calculating subtree sums.",
+      "The sum of descendants for a node is the sum of its children's subtree sums.",
+      "An iterative DFS can manage state explicitly using a stack."
+    ],
+    [
+      "The recursive approach elegantly handles subtree sum calculation.",
+      "Passing a mutable list (like `result = [0]`) allows the recursive function to update a global count.",
+      "The base case for recursion is an empty node, returning 0."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

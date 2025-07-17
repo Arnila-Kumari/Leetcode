@@ -1,0 +1,42 @@
+{
+  "problem_name": "maximum-product-subarray",
+  "data_structures": [
+    [
+      "integer variables"
+    ],
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming tracking local max and min products, handling negatives",
+    "Optimized DP tracking local max and min products, handling negatives and zeros"
+  ],
+  "problem_summary_simple": "Find the contiguous subarray with the largest product.",
+  "problem_summary_technical": "Dynamic programming approach that tracks the maximum and minimum product ending at the current position, considering negative numbers and zeros.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The presence of negative numbers means that a small negative product multiplied by another negative number can become a large positive product.",
+      "We need to track both the maximum and minimum product ending at the current position.",
+      "Zeroes reset the product, so they need to be handled carefully."
+    ],
+    [
+      "The logic `local_max = max(1, local_max)` before processing `x` is a clever way to handle cases where `local_max` becomes zero or negative and a new subarray starts with `x`.",
+      "When `x` is negative, the roles of `local_max` and `local_min` are swapped for the next iteration.",
+      "The `global_max` variable keeps track of the overall maximum product found so far."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

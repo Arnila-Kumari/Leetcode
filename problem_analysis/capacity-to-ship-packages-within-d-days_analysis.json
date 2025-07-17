@@ -1,0 +1,31 @@
+{
+  "problem_name": "capacity-to-ship-packages-within-d-days",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer (ship capacity) with a helper function to check feasibility."
+  ],
+  "problem_summary_simple": "Find the minimum ship capacity to deliver all packages within a given number of days, maintaining package order.",
+  "problem_summary_technical": "Binary search for the minimum capacity. A helper function checks if a given capacity allows shipping within D days.",
+  "time_complexity": [
+    "O(nlogr)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the minimum value that satisfies a condition, suggesting binary search on the answer.",
+      "The search space for capacity is from the maximum single package weight to the total weight of all packages.",
+      "The `possible` function greedily assigns packages to days for a given capacity."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

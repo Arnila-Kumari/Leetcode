@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-pivot-integer",
+  "data_structures": [
+    [
+      "math"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Use the formula for sum of arithmetic series and solve for x.",
+    "Calculate the square root of the total sum to find the potential pivot."
+  ],
+  "problem_summary_simple": "Find an integer x where the sum of numbers from 1 to x equals the sum from x to n.",
+  "problem_summary_technical": "Equate sum(1 to x) = sum(x to n). Solve for x using arithmetic series formulas and square root.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The sum of numbers from 1 to n is `n*(n+1)/2`.",
+      "Let the pivot be `x`. The condition is `x*(x+1)/2 = n*(n+1)/2 - x*(x-1)/2`.",
+      "This simplifies to `2*x^2 = n*(n+1)`, so `x = sqrt(n*(n+1)/2)`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

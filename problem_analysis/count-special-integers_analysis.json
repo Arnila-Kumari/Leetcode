@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-special-integers",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Digit DP / Combinatorics: Count numbers with distinct digits up to n."
+  ],
+  "problem_summary_simple": "Count positive integers up to n where all digits are distinct.",
+  "problem_summary_technical": "Calculates special numbers by considering digit counts and then uses a digit-by-digit approach with a lookup set for distinctness.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(log n)"
+  ],
+  "key_insights": [
+    [
+      "Break down the problem into counting numbers with fewer digits than n, and then numbers with the same number of digits as n.",
+      "For numbers with fewer digits, use permutations (P(m, k)).",
+      "For numbers with the same number of digits, iterate digit by digit, ensuring distinctness and staying within the bound of n."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:37:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

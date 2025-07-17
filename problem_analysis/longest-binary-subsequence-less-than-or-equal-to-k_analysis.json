@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-binary-subsequence-less-than-or-equal-to-k",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach processing bits from right to left, prioritizing smaller values."
+  ],
+  "problem_summary_simple": "Find the longest subsequence of a binary string that forms a number less than or equal to k.",
+  "problem_summary_technical": "Iterates through the binary string from right to left. Includes '0's greedily. Includes '1's only if the current power of 2 does not exceed the remaining k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Processing bits from right to left (least significant to most significant) is key for greedy selection.",
+      "Zeros can always be included as they don't increase the value of the binary number.",
+      "When considering a '1', we must ensure adding its positional value doesn't exceed k."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

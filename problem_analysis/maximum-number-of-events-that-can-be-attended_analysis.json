@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-number-of-events-that-can-be-attended",
+  "data_structures": [
+    [
+      "min-heap",
+      "sorted array"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Greedy approach with a min-heap to attend events on the earliest possible day."
+  ],
+  "problem_summary_simple": "Attend the maximum number of events, given their start and end days, by attending only one event per day.",
+  "problem_summary_technical": "Sort events by start day. Iterate through days. For each day, add events starting on that day to a min-heap of end days. Attend the event with the earliest end day from the heap.",
+  "time_complexity": [
+    "O(r + n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy is to attend an event on the earliest possible day it can be attended.",
+      "A min-heap is used to store the end days of events that have started but not yet been attended.",
+      "By processing days chronologically and always picking the event that ends soonest, we maximize the chances of attending more events."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

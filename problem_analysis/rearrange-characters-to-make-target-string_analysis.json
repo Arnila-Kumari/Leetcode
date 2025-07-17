@@ -1,0 +1,31 @@
+{
+  "problem_name": "rearrange-characters-to-make-target-string",
+  "data_structures": [
+    [
+      "collections.Counter (hash map)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting using hash maps to determine character availability."
+  ],
+  "problem_summary_simple": "Form as many copies of a target string as possible using characters from a source string.",
+  "problem_summary_technical": "Calculate character frequencies in both strings; determine the limiting factor by dividing source counts by target counts for each character.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem boils down to finding the minimum ratio of available characters in 's' to required characters in 'target'.",
+      "Using `collections.Counter` simplifies frequency counting significantly.",
+      "The constraint on lowercase English letters means the hash map size is bounded by 26."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

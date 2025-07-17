@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-time-to-make-rope-colorful",
+  "data_structures": [
+    [
+      "string",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the string, keeping track of accumulated cost and max cost in consecutive same-colored segments."
+  ],
+  "problem_summary_simple": "Minimize time to remove balloons so no two adjacent balloons have the same color.",
+  "problem_summary_technical": "Greedy approach: for consecutive same-colored balloons, remove all but the one with the highest cost.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by processing contiguous blocks of same-colored balloons.",
+      "Within a block, to minimize cost, we keep the balloon with the maximum `neededTime` and remove others.",
+      "The total cost is the sum of costs of removed balloons."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

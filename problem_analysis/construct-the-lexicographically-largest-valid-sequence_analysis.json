@@ -1,0 +1,37 @@
+{
+  "problem_name": "construct-the-lexicographically-largest-valid-sequence",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with pruning and greedy placement"
+  ],
+  "problem_summary_simple": "Construct a sequence with numbers 1 to n, where 1 appears once, others twice, with specific distance constraints.",
+  "problem_summary_technical": "Backtracking to fill a sequence of length 2n-1, placing numbers greedily from largest to smallest to ensure lexicographical order.",
+  "time_complexity": [
+    "O(n!)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding a valid sequence, and among valid sequences, the lexicographically largest one.",
+      "Backtracking is a natural fit for exploring possible placements of numbers.",
+      "To ensure the lexicographically largest sequence, we should try placing larger numbers first (from n down to 1)."
+    ],
+    [
+      "The sequence length is fixed at 2n-1.",
+      "The constraint that the distance between two occurrences of `i` is `i` means if `i` is placed at index `k`, its pair must be at `k+i`.",
+      "A lookup array or set is needed to keep track of which numbers have already been placed."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:35:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

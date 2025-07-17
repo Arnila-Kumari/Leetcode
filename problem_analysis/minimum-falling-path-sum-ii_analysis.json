@@ -1,0 +1,34 @@
+{
+  "problem_name": "minimum-falling-path-sum-ii",
+  "data_structures": [
+    [
+      "2D array (modified in-place)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with heap for finding smallest two elements in previous row."
+  ],
+  "problem_summary_simple": "Find the minimum sum path from top to bottom, not staying in the same column in adjacent rows.",
+  "problem_summary_technical": "DP on a grid where dp[i][j] = grid[i][j] + min(dp[i-1][k]) for k != j. Uses heap to efficiently find min of previous row.",
+  "time_complexity": [
+    "O(n*m)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved with DP by building up solutions from the first row.",
+      "Using a min-heap of size 2 to track the smallest two values in the previous row optimizes finding the next minimum sum."
+    ],
+    [
+      "Modifying the input array in-place saves space.",
+      "The constraint of non-zero shifts is crucial for the DP transition."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

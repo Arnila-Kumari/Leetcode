@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-absolute-difference-between-elements-with-constraint",
+  "data_structures": [
+    [
+      "SortedList"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Use a sliding window with a SortedList to maintain elements at least x indices apart and perform binary search."
+  ],
+  "problem_summary_simple": "Find the smallest difference between numbers that are at least 'x' positions apart.",
+  "problem_summary_technical": "Maintain a sliding window of elements at least 'x' indices behind the current element using a SortedList for efficient searching.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A SortedList (or balanced BST) is essential for efficient insertion, deletion, and searching.",
+      "The sliding window approach ensures we only consider elements at the required distance.",
+      "Binary search (bisect_left) on the SortedList helps find the closest elements to the current number."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

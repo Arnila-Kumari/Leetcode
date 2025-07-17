@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-limit-of-balls-in-a-bag",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer (penalty)"
+  ],
+  "problem_summary_simple": "Minimize the maximum number of balls in any bag after splitting bags.",
+  "problem_summary_technical": "Binary search for the minimum possible maximum bag size (penalty). For a given penalty `x`, check if `maxOperations` is sufficient to reduce all bags to size `x` or less.",
+  "time_complexity": [
+    "O(n log m)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the minimum possible maximum, which is a strong indicator for binary search on the answer.",
+      "The search space for the penalty is from 1 to the maximum number of balls in any initial bag.",
+      "The `check` function calculates the minimum operations needed to achieve a maximum bag size of `x`. If `(num + x - 1) // x - 1` is the number of operations for a bag of size `num` to be split into bags of size at most `x`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:58:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "check-if-the-sentence-is-pangram",
+  "data_structures": [
+    [
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Convert the sentence to a set of characters and check its size against 26."
+  ],
+  "problem_summary_simple": "Does a sentence contain every letter of the English alphabet at least once?",
+  "problem_summary_technical": "Checks if the number of unique lowercase English letters in the sentence is exactly 26.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(26) = O(1)"
+  ],
+  "key_insights": [
+    [
+      "A pangram contains every letter of the English alphabet. Since the input only contains lowercase English letters, we need to check for all 26 unique letters.",
+      "Using a set is an efficient way to store and count unique characters.",
+      "The space complexity is constant because the maximum number of unique characters is 26, regardless of the sentence length."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,29 @@
+{
+  "problem_name": "maximum-xor-product",
+  "data_structures": [
+    []
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy bit manipulation to maximize (a XOR x) * (b XOR x)"
+  ],
+  "problem_summary_simple": "Maximize the product of (a XOR x) and (b XOR x) for a given range of x.",
+  "problem_summary_technical": "Greedily manipulates bits of 'a' and 'b' to maximize their XOR products within the 2^n range.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The goal is to make (a XOR x) and (b XOR x) as large as possible, ideally by making their most significant bits 1.",
+      "If the i-th bit of 'a' and 'b' are different, we can choose 'x' such that the i-th bit of both (a XOR x) and (b XOR x) becomes 1.",
+      "If the i-th bit of 'a' and 'b' are the same, we want to flip them to 1 if possible, by XORing with 1. This is achieved by swapping 'a' and 'b' if 'a' has a 0 at that bit and 'b' has a 1."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "count-pairs-in-two-arrays",
+  "data_structures": [
+    [
+      "array",
+      "sorted array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Transforming the condition and using two pointers on a sorted array",
+    "Difference array and sorting"
+  ],
+  "problem_summary_simple": "Count pairs (i, j) with i < j where nums1[i] + nums1[j] > nums2[i] + nums2[j].",
+  "problem_summary_technical": "Transforms the condition to (nums1[i] - nums2[i]) + (nums1[j] - nums2[j]) > 0 and uses two pointers on the sorted difference array.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to transform the inequality into a simpler form involving differences.",
+      "Sorting the transformed array allows for an efficient O(n) two-pointer scan.",
+      "The condition `nums1[left] > 0 or -nums1[left] < nums1[right]` is a clever way to handle positive and negative `nums1[left]` values."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

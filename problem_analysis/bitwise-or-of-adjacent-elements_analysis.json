@@ -1,0 +1,30 @@
+{
+  "problem_name": "bitwise-or-of-adjacent-elements",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array and compute the bitwise OR of adjacent elements."
+  ],
+  "problem_summary_simple": "Compute the bitwise OR for every pair of adjacent numbers in an array.",
+  "problem_summary_technical": "Generates a new array where each element is the bitwise OR of adjacent elements from the input array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved efficiently using a list comprehension.",
+      "The output array will always be one element shorter than the input array."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

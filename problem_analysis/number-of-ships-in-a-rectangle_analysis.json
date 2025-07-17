@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-ships-in-a-rectangle",
+  "data_structures": [
+    [
+      "recursive calls with point objects"
+    ]
+  ],
+  "category": "Divide and Conquer",
+  "algorithm_technique": [
+    "Divide and Conquer using binary search on rectangle quadrants"
+  ],
+  "problem_summary_simple": "Count ships in a rectangle using an interactive API that checks for ships in a given rectangle.",
+  "problem_summary_technical": "Employ a recursive divide and conquer strategy. If a rectangle contains ships, subdivide it into four quadrants and recursively count ships in each.",
+  "time_complexity": [
+    "O(s * log(m * n))"
+  ],
+  "space_complexity": [
+    "O(log(m * n))"
+  ],
+  "key_insights": [
+    [
+      "The problem is interactive, requiring strategic calls to `hasShips`.",
+      "A divide and conquer approach is suitable for spatial partitioning.",
+      "The base case is a single point; if it contains a ship, count it.",
+      "The constraint on `hasShips` calls limits the depth of recursion."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

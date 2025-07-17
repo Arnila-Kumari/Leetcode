@@ -1,0 +1,32 @@
+{
+  "problem_name": "subarray-with-elements-greater-than-varying-threshold",
+  "data_structures": [
+    [
+      "stack",
+      "integer array"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to find nearest smaller elements and calculate subarray lengths."
+  ],
+  "problem_summary_simple": "Find any subarray where all elements are greater than threshold / subarray_length.",
+  "problem_summary_technical": "Uses a monotonic increasing stack to find for each element, the nearest smaller elements to its left and right, defining potential subarray boundaries.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The condition `element > threshold / k` can be rewritten as `element * k > threshold`.",
+      "For a fixed element `nums[i]`, if it's the minimum in a subarray of length `len`, the condition becomes `nums[i] * len > threshold`.",
+      "A monotonic stack helps efficiently find the nearest smaller elements, thus determining the maximum possible `len` for `nums[i]` as the minimum."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

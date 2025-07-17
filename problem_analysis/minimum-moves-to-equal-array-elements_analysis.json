@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-moves-to-equal-array-elements",
+  "data_structures": [
+    [
+      "array of integers"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical insight: incrementing n-1 elements is equivalent to decrementing 1 element relative to the minimum."
+  ],
+  "problem_summary_simple": "Find the minimum moves to make all array elements equal by incrementing n-1 elements.",
+  "problem_summary_technical": "The total number of moves is the sum of all elements minus n times the minimum element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that incrementing n-1 elements by 1 is mathematically equivalent to decrementing the remaining 1 element by 1, relative to the target value.",
+      "Therefore, the problem reduces to finding the sum of differences between each element and the minimum element.",
+      "This is because the minimum element will be the final target value after all operations."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:58:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

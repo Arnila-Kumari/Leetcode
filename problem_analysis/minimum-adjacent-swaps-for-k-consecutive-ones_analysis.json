@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-adjacent-swaps-for-k-consecutive-ones",
+  "data_structures": [
+    [
+      "list",
+      "prefix sum array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Find indices of all 1s. Use a sliding window of size k on these indices. For each window, calculate the cost to bring the k ones together. The median of the window is the optimal meeting point. Use prefix sums to efficiently calculate distances."
+  ],
+  "problem_summary_simple": "Find the minimum swaps to get k consecutive ones in an array of 0s and 1s.",
+  "problem_summary_technical": "Identify indices of 1s. Use a sliding window of size k. For each window, find the median index and calculate the minimum moves to bring all 1s in the window to the median's position using prefix sums.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem reduces to minimizing the sum of distances of k ones to a central point.",
+      "The median of the k ones is the optimal meeting point to minimize total moves.",
+      "Prefix sums on the indices of ones allow for O(1) calculation of sum of distances."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

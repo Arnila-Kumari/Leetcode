@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-largest-area-of-square-inside-two-rectangles",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Brute-force iteration through all pairs of rectangles to find intersection dimensions and calculate maximum square area."
+  ],
+  "problem_summary_simple": "Find the largest square that fits within the overlapping area of any two given rectangles.",
+  "problem_summary_technical": "Iterates through all pairs of rectangles, calculates the intersection rectangle's dimensions, and finds the maximum possible square side length within these intersections.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The intersection of two rectangles is also a rectangle.",
+      "The side length of the largest square that can fit inside a rectangle is limited by the minimum of its width and height.",
+      "The problem can be solved by checking all pairs of rectangles and finding the maximum possible square area within their intersections."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

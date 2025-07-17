@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-largest-group",
+  "data_structures": [
+    [
+      "collections.Counter (hash map)"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through numbers, calculate digit sum, count frequencies, find max frequency group count."
+  ],
+  "problem_summary_simple": "Group numbers 1 to n by digit sum and count how many groups have the most numbers.",
+  "problem_summary_technical": "Uses a hash map to store counts of digit sums for numbers 1 to n, then finds the frequency of the maximum count.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The maximum possible digit sum for a number up to 10^4 is relatively small (e.g., for 9999, sum is 36).",
+      "A hash map (collections.Counter) is efficient for tracking frequencies of digit sums.",
+      "The problem requires counting groups with the maximum size, not the maximum size itself."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:17:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

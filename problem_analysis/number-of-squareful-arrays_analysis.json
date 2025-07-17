@@ -1,0 +1,33 @@
+{
+  "problem_name": "number-of-squareful-arrays",
+  "data_structures": [
+    [
+      "dictionary (Counter)",
+      "dictionary of sets (adjacency list for graph)",
+      "list (for result storage)"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Build a graph where nodes are numbers and edges connect numbers whose sum is a perfect square. Then, use backtracking (DFS) to find Hamiltonian paths."
+  ],
+  "problem_summary_simple": "Find the number of permutations of an array where the sum of every adjacent pair of elements is a perfect square.",
+  "problem_summary_technical": "Construct a graph representing valid adjacent pairs. Use backtracking (DFS) to find all permutations that traverse the graph.",
+  "time_complexity": [
+    "O(n!)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding Hamiltonian paths in a graph where nodes are numbers and edges represent squareful sums.",
+      "Duplicate numbers need careful handling to avoid overcounting permutations. Using a frequency map (Counter) and backtracking with counts is crucial.",
+      "Pre-calculating which pairs sum to a perfect square optimizes the adjacency list construction."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:02:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

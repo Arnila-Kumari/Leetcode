@@ -1,0 +1,31 @@
+{
+  "problem_name": "search-insert-position",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary Search to find the target or the insertion point."
+  ],
+  "problem_summary_simple": "Find the index of a target in a sorted array, or where it would be inserted.",
+  "problem_summary_technical": "Employ binary search to locate the target or the first element greater than or equal to the target.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The binary search condition `nums[mid] >= target` is crucial for finding the insertion point.",
+      "When the loop terminates, `left` points to the correct insertion index.",
+      "This problem is a classic application of binary search for finding a position rather than just an element."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

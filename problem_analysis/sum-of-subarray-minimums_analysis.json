@@ -1,0 +1,33 @@
+{
+  "problem_name": "sum-of-subarray-minimums",
+  "data_structures": [
+    [
+      "list of integers",
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Use a monotonic stack to find the previous and next smaller elements for each element, then calculate its contribution to the total sum."
+  ],
+  "problem_summary_simple": "Sum the minimums of all contiguous subarrays, modulo 10^9 + 7.",
+  "problem_summary_technical": "Calculate sum of min(subarray) for all subarrays using monotonic stacks to determine element contributions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Each element `A[i]` is the minimum in subarrays that are bounded by the nearest smaller elements to its left and right.",
+      "A monotonic increasing stack helps find the previous smaller element efficiently.",
+      "A monotonic decreasing stack helps find the next smaller element efficiently.",
+      "The contribution of `A[i]` is `A[i] * (number of subarrays where A[i] is minimum)`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

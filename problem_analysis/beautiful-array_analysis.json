@@ -1,0 +1,31 @@
+{
+  "problem_name": "beautiful-array",
+  "data_structures": [
+    [
+      "list (to build the beautiful array)"
+    ]
+  ],
+  "category": "Divide and Conquer",
+  "algorithm_technique": [
+    "Divide and Conquer: recursively construct beautiful arrays for smaller N and combine them by mapping odd and even numbers."
+  ],
+  "problem_summary_simple": "Create an array of 1 to N where no element is the average of two other elements.",
+  "problem_summary_technical": "Recursively build beautiful arrays by mapping odd and even numbers from smaller beautiful arrays, ensuring no element is the arithmetic mean of two others.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A beautiful array property: if `A` is beautiful, then `[2*x - 1 for x in A]` and `[2*x for x in A]` are also beautiful.",
+      "Combining these two transformed arrays (odd and even parts) maintains the beautiful property.",
+      "The base case is `[1]` for N=1. The recursive step generates the next level of beautiful arrays."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

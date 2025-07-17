@@ -1,0 +1,41 @@
+{
+  "problem_name": "letter-tile-possibilities",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ],
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Uses generating functions and combinatorics to count permutations with repetitions.",
+    "Backtracking to explore all possible sequences by picking and removing tiles."
+  ],
+  "problem_summary_simple": "Count all unique non-empty letter sequences from given tiles.",
+  "problem_summary_technical": "Counts permutations of subsets of tiles, handling duplicate letters.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(r)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves permutations with repetitions, which can be solved using combinatorics.",
+      "The generating function approach models the selection of letters and their counts."
+    ],
+    [
+      "Backtracking is a natural fit for exploring all possible sequences.",
+      "Using a frequency map (Counter) efficiently tracks available tiles."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

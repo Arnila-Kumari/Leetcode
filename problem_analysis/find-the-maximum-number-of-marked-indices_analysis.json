@@ -1,0 +1,40 @@
+{
+  "problem_name": "find-the-maximum-number-of-marked-indices",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sorting and two-pointer greedy approach to pair smallest with largest elements.",
+    "Two-pointer greedy approach after sorting to maximize pairs."
+  ],
+  "problem_summary_simple": "Find the maximum number of pairs (i, j) such that 2 * nums[i] <= nums[j].",
+  "problem_summary_technical": "Sort the array and use two pointers to greedily form pairs satisfying the condition.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is crucial because it allows us to greedily pick the smallest available numbers for `nums[i]` and the largest available for `nums[j]`.",
+      "The condition `2 * nums[i] <= nums[j]` suggests pairing smaller numbers with larger numbers.",
+      "By using two pointers, one starting from the beginning (smallest numbers) and one from the middle/end (largest numbers), we can efficiently find the maximum number of valid pairs."
+    ],
+    [
+      "The problem can be solved by sorting the array and then using a two-pointer approach.",
+      "One pointer starts at the beginning of the sorted array (smallest elements), and another pointer starts at the middle (or slightly after) to find potential partners.",
+      "The goal is to maximize the number of pairs where `2 * smaller_element <= larger_element`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

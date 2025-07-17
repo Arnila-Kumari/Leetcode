@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-odd-binary-number",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ],
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Partition the string by moving all '1's to the left, then swap the last '1' to the end.",
+    "Count the number of '1's and '0's, then construct the result string greedily."
+  ],
+  "problem_summary_simple": "Rearrange binary string bits to form the largest possible odd binary number.",
+  "problem_summary_technical": "Place the most significant bits as '1's, ensure the last bit is '1' for oddness.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To maximize a binary number, place '1's in the most significant positions.",
+      "For the number to be odd, the least significant bit must be '1'.",
+      "The greedy approach involves placing all but one '1' at the beginning and the remaining '1' at the end."
+    ],
+    [
+      "The number of '1's determines the structure of the output. One '1' must be at the end for the number to be odd.",
+      "The remaining '1's should be placed at the most significant positions to maximize the number.",
+      "The '0's fill the intermediate positions."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:53:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

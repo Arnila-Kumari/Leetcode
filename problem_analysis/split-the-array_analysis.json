@@ -1,0 +1,31 @@
+{
+  "problem_name": "split-the-array",
+  "data_structures": [
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "frequency counting"
+  ],
+  "problem_summary_simple": "Split an even-length array into two equal halves with distinct elements in each half.",
+  "problem_summary_technical": "Check if the frequency of any element in the array exceeds 2 to ensure a valid split into two distinct-element subarrays.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core constraint is that each number can appear at most twice in the original array.",
+      "If any number appears more than twice, it's impossible to form two distinct subarrays.",
+      "A frequency map (Counter) efficiently tracks element occurrences."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:10:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

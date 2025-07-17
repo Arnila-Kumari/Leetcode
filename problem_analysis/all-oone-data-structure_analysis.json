@@ -1,0 +1,37 @@
+{
+  "problem_name": "all-oone-data-structure",
+  "data_structures": [
+    [
+      "Node (custom class)",
+      "LinkedList (custom class)",
+      "dict",
+      "set"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Use a doubly linked list of buckets (nodes) where each bucket stores keys with the same count. Maintain a map from key to its bucket."
+  ],
+  "problem_summary_simple": "Design a data structure to track string counts and efficiently retrieve strings with min/max counts.",
+  "problem_summary_technical": "Employs a doubly linked list of nodes, each representing a count. Keys are stored in sets within nodes. A hash map links keys to their respective nodes.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to group keys by their counts using a linked list of buckets.",
+      "Maintaining a mapping from key to its bucket is essential for O(1) access."
+    ],
+    [
+      "When incrementing/decrementing, keys might need to move between adjacent buckets.",
+      "Empty buckets must be removed to maintain efficiency and correctness."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:31:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "sliding-window-maximum",
+  "data_structures": [
+    [
+      "deque"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a deque to store indices of potential maximums in decreasing order."
+  ],
+  "problem_summary_simple": "Find the maximum value in each sliding window of size k as it moves across an array.",
+  "problem_summary_technical": "Employs a deque to maintain candidate maximums, ensuring the front of the deque always holds the index of the maximum element in the current window.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The deque stores indices, not values, allowing for efficient removal of elements that are no longer in the window.",
+      "Elements in the deque are maintained in decreasing order of their corresponding values in `nums`.",
+      "When a new element is considered, smaller elements at the end of the deque are removed because they can never be the maximum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "largest-number-at-least-twice-of-others",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Find the maximum element and then iterate through the rest to check the condition."
+  ],
+  "problem_summary_simple": "Check if the largest number is at least twice every other number.",
+  "problem_summary_technical": "Find the maximum element and its index, then verify if it's at least twice every other element in the array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem guarantees that the largest element is unique, simplifying the search for the maximum.",
+      "A single pass to find the maximum and its index, followed by another pass to check the condition, is efficient.",
+      "The condition `m >= 2*x` must hold for all `x` in `nums` where `x` is not the maximum element `m`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

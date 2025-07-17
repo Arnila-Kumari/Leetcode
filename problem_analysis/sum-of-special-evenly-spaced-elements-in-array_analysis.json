@@ -1,0 +1,37 @@
+{
+  "problem_name": "sum-of-special-evenly-spaced-elements-in-array",
+  "data_structures": [
+    [
+      "Array (nums)",
+      "Hash Map (prefix sums)",
+      "Array (queries)",
+      "Array (results)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sums",
+    "Square root decomposition (implicit)",
+    "Modulo arithmetic"
+  ],
+  "problem_summary_simple": "For each query, sum elements in an array starting from an index with a given step, modulo 10^9 + 7.",
+  "problem_summary_technical": "Use prefix sums for large steps. For small steps, precompute prefix sums for each possible remainder modulo the step to answer queries efficiently.",
+  "time_complexity": [
+    "O(N * sqrt(N))"
+  ],
+  "space_complexity": [
+    "O(N * sqrt(N))"
+  ],
+  "key_insights": [
+    [
+      "The problem exhibits a trade-off: direct iteration for large steps, precomputation for small steps.",
+      "Precomputing prefix sums based on the remainder `x % y` allows O(1) lookup for queries with small `y`.",
+      "The threshold `y*y > len(nums)` is a common heuristic for square root decomposition to balance computation.",
+      "Modulo arithmetic is crucial to handle potentially large sums."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

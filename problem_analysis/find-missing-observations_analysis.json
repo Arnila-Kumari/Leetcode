@@ -1,0 +1,46 @@
+{
+  "problem_name": "find-missing-observations",
+  "data_structures": [
+    [
+      "list (rolls)",
+      "integer (mean, n)",
+      "list (result)"
+    ],
+    [
+      "list (rolls)",
+      "integer (mean, n)",
+      "list (result)"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical calculation to determine missing values based on average",
+    "Mathematical calculation with distribution of values"
+  ],
+  "problem_summary_simple": "Determine missing dice rolls given observed rolls, the number of missing rolls, and the overall average.",
+  "problem_summary_technical": "Calculate the required sum for missing rolls and distribute it among 'n' dice, ensuring each roll is between 1 and 6.",
+  "time_complexity": [
+    "O(M + N)",
+    "O(M + N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The total sum of all rolls (observed + missing) can be calculated from the mean and total number of rolls.",
+      "The sum of missing rolls is the total sum minus the sum of observed rolls.",
+      "The missing rolls must be between 1 and 6, and their sum must be achievable within these constraints."
+    ],
+    [
+      "After calculating the required sum for missing rolls, distribute this sum as evenly as possible.",
+      "Use division and modulo to determine the base value for each missing roll and how many rolls need an increment.",
+      "Handle edge cases where the required sum is impossible to achieve with dice rolls between 1 and 6."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

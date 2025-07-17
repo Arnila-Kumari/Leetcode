@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximize-ysum-by-picking-a-triplet-of-distinct-xvalues",
+  "data_structures": [
+    [
+      "hash table",
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "hash table to store max y for each x, then quickselect to find top 3 distinct x values"
+  ],
+  "problem_summary_simple": "Find the maximum sum of y values from three entries with distinct x values.",
+  "problem_summary_technical": "Uses a hash map to store the maximum y for each unique x, then applies quickselect to find the top K distinct y values.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Group prizes by their x-coordinate and take the maximum y for each x.",
+      "If there are fewer than 3 distinct x-values, no triplet can be formed.",
+      "Quickselect (or sorting) is used to efficiently find the largest y-values corresponding to distinct x-values."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-minimum-amount-of-time-to-brew-potions",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using prefix sums and tracking maximum delays between wizards for sequential potions."
+  ],
+  "problem_summary_simple": "Calculate the minimum time for wizards to brew potions sequentially, considering skill and mana requirements.",
+  "problem_summary_technical": "Calculate minimum brewing time by considering the maximum delay for each wizard on consecutive potions, using prefix sums of skills.",
+  "time_complexity": [
+    "O(n * m)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves sequential processing where each wizard must finish their task before the next can start on the same potion.",
+      "The critical factor is the synchronization: a wizard can only start the next potion after finishing the current one AND the previous potion is ready for them.",
+      "The greedy strategy involves minimizing the maximum delay introduced by any wizard on any potion transition."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

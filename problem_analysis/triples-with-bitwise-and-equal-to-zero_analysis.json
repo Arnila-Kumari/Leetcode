@@ -1,0 +1,44 @@
+{
+  "problem_name": "triples-with-bitwise-and-equal-to-zero",
+  "data_structures": [
+    [
+      "frequency map (Counter)",
+      "array"
+    ],
+    [
+      "frequency map (defaultdict)",
+      "array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Fast Walsh-Hadamard Transform (FWHT) for subset convolution",
+    "Brute-force with precomputed pairwise AND counts"
+  ],
+  "problem_summary_simple": "Count triples (i, j, k) where the bitwise AND of nums[i], nums[j], and nums[k] is zero.",
+  "problem_summary_technical": "Use FWHT for efficient subset convolution to count triples with bitwise AND zero.",
+  "time_complexity": [
+    "O(N * log N + M * log M)",
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(M)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding pairs (i, j) such that `nums[i] & nums[j]` has a zero bitwise AND with `nums[k]`.",
+      "FWHT is a powerful technique for problems involving bitwise operations and sums over subsets/supersets.",
+      "The solution involves transforming counts, performing element-wise multiplication (representing AND), and transforming back."
+    ],
+    [
+      "A straightforward approach is to iterate through all possible triples.",
+      "To optimize, precompute the counts of all possible pairwise AND results.",
+      "Then, for each element `nums[k]`, iterate through the precomputed pairwise ANDs and check if their AND with `nums[k]` is zero."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:13:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

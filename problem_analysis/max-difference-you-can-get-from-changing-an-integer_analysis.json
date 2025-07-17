@@ -1,0 +1,41 @@
+{
+  "problem_name": "max-difference-you-can-get-from-changing-an-integer",
+  "data_structures": [
+    [
+      "string for digit manipulation",
+      "integer variables for tracking digits"
+    ],
+    [
+      "string for digit manipulation"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "greedy approach to find max and min numbers by replacing digits",
+    "greedy approach using string manipulation to find max and min numbers"
+  ],
+  "problem_summary_simple": "Find the max difference between two numbers formed by changing digits in the original number.",
+  "problem_summary_technical": "Greedily replace digits to maximize one number (replace with 9) and minimize another (replace with 1 or 0).",
+  "time_complexity": [
+    "O(logn)",
+    "O(logn)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(logn)"
+  ],
+  "key_insights": [
+    [
+      "To maximize the number, replace the first occurrence of the smallest digit (that is not 9) with 9.",
+      "To minimize the number, replace the first occurrence of the largest digit (that is not 0) with 0. Handle leading zeros carefully."
+    ],
+    [
+      "The provided Python solution `Solution2` is more concise and readable by converting the number to a string.",
+      "The `next()` function with a generator expression efficiently finds the first digit to replace."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

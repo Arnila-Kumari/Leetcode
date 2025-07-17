@@ -1,0 +1,33 @@
+{
+  "problem_name": "remove-sub-folders-from-the-filesystem",
+  "data_structures": [
+    [
+      "Trie",
+      "defaultdict"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Build a Trie from the folder paths. Traverse the Trie, adding a folder to the result only if it's a leaf node (or marked as an end).",
+    "Sort the folders lexicographically and iterate, keeping track of the current prefix. If a folder starts with the current prefix, skip it."
+  ],
+  "problem_summary_simple": "Remove sub-folders from a list of file paths.",
+  "problem_summary_technical": "Use a Trie to efficiently identify and remove sub-folders by marking terminal nodes.",
+  "time_complexity": [
+    "O(N * L * log N) for sorting approach, O(TotalChars) for Trie approach"
+  ],
+  "space_complexity": [
+    "O(N * L) for sorting approach, O(TotalChars) for Trie approach"
+  ],
+  "key_insights": [
+    [
+      "A Trie is a natural fit for prefix-based relationships like sub-folders.",
+      "When building the Trie, we can mark the end of a valid folder path.",
+      "During DFS traversal, if we encounter a marked end node, we add it to the result and stop exploring deeper from that branch."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

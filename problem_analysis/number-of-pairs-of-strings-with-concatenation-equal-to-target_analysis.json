@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-pairs-of-strings-with-concatenation-equal-to-target",
+  "data_structures": [
+    [
+      "collections.Counter (hash map)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through nums. For each num, check if it's a prefix or suffix of target. Use a hash map to store counts of prefixes/suffixes encountered so far to find complementary pairs."
+  ],
+  "problem_summary_simple": "Find how many pairs of strings from an array can be concatenated to form a target string.",
+  "problem_summary_technical": "Use hash maps to store counts of prefixes and suffixes of the target string found in nums. Iterate through nums, checking for complementary parts and summing valid pairs.",
+  "time_complexity": [
+    "O(N * L)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding pairs (nums[i], nums[j]) such that nums[i] + nums[j] == target. This means nums[i] must be a prefix of target and nums[j] must be the corresponding suffix, or vice-versa.",
+      "A hash map (like `collections.Counter`) is efficient for storing and retrieving counts of strings based on their length. We can use two counters: one for prefixes and one for suffixes.",
+      "When processing a string `num`, if it's a prefix of `target`, we look for the required suffix length in the `suffix` counter. If it's a suffix, we look for the required prefix length in the `prefix` counter. We also update the respective counters for the current `num`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

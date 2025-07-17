@@ -1,0 +1,34 @@
+{
+  "problem_name": "smallest-missing-genetic-value-in-each-subtree",
+  "data_structures": [
+    [
+      "adjacency list",
+      "set",
+      "array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "DFS traversal combined with a set to track visited genetic values, starting from node with value 1."
+  ],
+  "problem_summary_simple": "Find the smallest missing positive integer in the subtree of each node.",
+  "problem_summary_technical": "Build adjacency list, find node with value 1, then traverse upwards, expanding visited genetic values using DFS.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be efficiently solved by starting from the node containing the genetic value 1.",
+      "The smallest missing genetic value in a subtree is related to the smallest missing value in its parent's subtree.",
+      "A set is used to efficiently track the genetic values present in the current subtree being considered.",
+      "The traversal upwards from the node with value 1 allows us to efficiently compute the missing values for ancestor subtrees."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

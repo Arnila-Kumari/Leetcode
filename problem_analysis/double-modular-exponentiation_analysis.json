@@ -1,0 +1,31 @@
+{
+  "problem_name": "double-modular-exponentiation",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Utilize modular exponentiation (binary exponentiation) to efficiently compute powers modulo a number."
+  ],
+  "problem_summary_simple": "Find indices where a nested modular exponentiation formula equals a target value.",
+  "problem_summary_technical": "Apply modular exponentiation twice: (a^b % 10) and then the result raised to c modulo m, checking against the target.",
+  "time_complexity": [
+    "O(n * (logb + logc))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core of the problem is efficient calculation of (a^b % 10) and then (result^c % m).",
+      "Python's built-in `pow(base, exp, mod)` is highly optimized for modular exponentiation.",
+      "The modulo 10 operation in the first step is crucial for simplifying the base of the second exponentiation."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

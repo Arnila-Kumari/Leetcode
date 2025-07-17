@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimum-unique-word-abbreviation",
+  "data_structures": [
+    [
+      "list of integers",
+      "string"
+    ],
+    [
+      "list of integers",
+      "string"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Generate all abbreviations using bitmasks and check against dictionary",
+    "Generate all abbreviations using bitmasks and check against dictionary"
+  ],
+  "problem_summary_simple": "Find the shortest unique abbreviation for a target word against a dictionary.",
+  "problem_summary_technical": "Generates all possible abbreviations using bitmasks, calculates their lengths, and checks for uniqueness against dictionary differences.",
+  "time_complexity": [
+    "O((d + n) * 2^n)",
+    "O((d + n) * 2^n)"
+  ],
+  "space_complexity": [
+    "O(d)",
+    "O(d + n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through all possible abbreviations of the target word.",
+      "Bit manipulation is a natural fit to represent which characters are kept and which are part of a number in the abbreviation.",
+      "For each abbreviation, we need to check if it's also an abbreviation of any word in the dictionary. This check can be optimized by pre-calculating differences."
+    ],
+    [
+      "The core idea is to represent abbreviations using bitmasks, where each bit corresponds to a character in the target string.",
+      "A '1' bit means the character is kept, and a '0' bit means it's part of a numerical abbreviation.",
+      "The solution iterates through all 2^n possible bitmasks, generates the corresponding abbreviation, and checks for uniqueness against the dictionary."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

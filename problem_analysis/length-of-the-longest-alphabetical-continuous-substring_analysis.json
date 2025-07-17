@@ -1,0 +1,31 @@
+{
+  "problem_name": "length-of-the-longest-alphabetical-continuous-substring",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Iterate through the string, maintaining a current length and resetting when the alphabetical sequence breaks."
+  ],
+  "problem_summary_simple": "Find the longest substring where characters are consecutive letters of the alphabet.",
+  "problem_summary_technical": "A single pass through the string, tracking the current consecutive alphabetical length and updating the maximum found.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved with a greedy approach by iterating and extending the current valid substring.",
+      "A simple counter is sufficient to track the length of the current alphabetical substring.",
+      "The condition `ord(s[i]) + 1 != ord(s[i+1])` is key to detecting breaks in the sequence."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

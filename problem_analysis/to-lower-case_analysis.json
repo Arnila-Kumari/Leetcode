@@ -1,0 +1,31 @@
+{
+  "problem_name": "to-lower-case",
+  "data_structures": [
+    [
+      "string",
+      "list of characters"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Character code manipulation and list comprehension"
+  ],
+  "problem_summary_simple": "Convert all uppercase letters in a string to lowercase.",
+  "problem_summary_technical": "Iterate through string, convert uppercase ASCII chars to lowercase using char code arithmetic, join back to string.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Leveraging ASCII character codes for efficient conversion.",
+      "List comprehension provides a concise way to build the new string."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:12:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

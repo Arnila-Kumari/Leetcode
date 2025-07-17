@@ -1,0 +1,42 @@
+{
+  "problem_name": "count-number-of-ways-to-place-houses",
+  "data_structures": [
+    [
+      "matrix"
+    ],
+    [
+      "variables"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Matrix exponentiation to solve linear recurrence relation",
+    "Iterative DP to solve linear recurrence relation"
+  ],
+  "problem_summary_simple": "Count ways to place houses on a street with two sides, ensuring no adjacent houses on the same side.",
+  "problem_summary_technical": "Solves a Fibonacci-like recurrence for one side, then squares the result for two independent sides.",
+  "time_complexity": [
+    "O(log n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem for one side of the street follows a Fibonacci-like sequence: F(n) = F(n-1) + F(n-2).",
+      "The total number of ways is the square of the ways for one side because placements on each side are independent.",
+      "Matrix exponentiation provides a logarithmic time solution for the recurrence, while a simple iterative DP is linear."
+    ],
+    [
+      "The problem for one side of the street follows a Fibonacci-like sequence: F(n) = F(n-1) + F(n-2).",
+      "The total number of ways is the square of the ways for one side because placements on each side are independent.",
+      "A simple iterative DP approach can calculate the nth Fibonacci number efficiently."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:02",
+  "batch_processed": true,
+  "batch_size": 5
+}

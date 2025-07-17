@@ -1,0 +1,48 @@
+{
+  "problem_name": "distribute-candies-to-people",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical formula derivation for full cycles and remaining candies",
+    "Binary search to find the number of full cycles",
+    "Iterative simulation of candy distribution"
+  ],
+  "problem_summary_simple": "Distribute candies in increasing amounts to people in rounds until candies run out.",
+  "problem_summary_technical": "Calculates full distribution cycles using arithmetic series sum, then distributes remaining candies iteratively or mathematically.",
+  "time_complexity": [
+    "O(logc)",
+    "O(logc)",
+    "O(sqrt(c))"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The total candies distributed in full rounds form an arithmetic progression.",
+      "The number of full rounds can be found by solving an equation or using binary search.",
+      "The final distribution can be calculated based on full rounds and the remaining candies."
+    ],
+    [
+      "Binary search efficiently finds the maximum number of full distribution rounds.",
+      "The formula for the sum of an arithmetic series is key to calculating candies in full rounds.",
+      "The remaining candies are distributed to the first few people in the next round."
+    ],
+    [
+      "A direct simulation approach is simpler to implement but less efficient for large candy counts.",
+      "The loop continues as long as there are candies left, distributing incrementally.",
+      "The modulo operator is used to cycle through people."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

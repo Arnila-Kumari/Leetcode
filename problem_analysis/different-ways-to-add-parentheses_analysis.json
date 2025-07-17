@@ -1,0 +1,47 @@
+{
+  "problem_name": "different-ways-to-add-parentheses",
+  "data_structures": [
+    [
+      "list",
+      "dictionary",
+      "regex",
+      "memoization table (2D array)"
+    ],
+    [
+      "list",
+      "dictionary",
+      "memoization table (2D array)"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Divide and Conquer with Memoization (parsing expression into numbers and operators)",
+    "Divide and Conquer with Memoization (recursive string splitting)"
+  ],
+  "problem_summary_simple": "Find all possible results of an arithmetic expression by adding parentheses in different ways.",
+  "problem_summary_technical": "Use Divide and Conquer. Split the expression at each operator, recursively compute results for left and right parts, and combine them.",
+  "time_complexity": [
+    "O(n * 4^n / n^(3/2))",
+    "O(n * 4^n / n^(3/2))"
+  ],
+  "space_complexity": [
+    "O(n * 4^n / n^(3/2))",
+    "O(n * 4^n / n^(3/2))"
+  ],
+  "key_insights": [
+    [
+      "This problem is a classic application of Divide and Conquer.",
+      "The key is to identify all possible split points (operators) in the expression.",
+      "Memoization (dynamic programming) is crucial to avoid recomputing results for the same subexpressions."
+    ],
+    [
+      "The problem can be solved by recursively breaking down the expression at each operator.",
+      "For each operator, we combine the results from the left and right subexpressions.",
+      "Memoization is used to store the results of subproblems to optimize performance."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

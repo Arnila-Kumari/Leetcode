@@ -1,0 +1,29 @@
+{
+  "problem_name": "check-if-number-is-a-sum-of-powers-of-three",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Base-3 conversion and digit check"
+  ],
+  "problem_summary_simple": "Check if a number can be formed by summing distinct powers of three.",
+  "problem_summary_technical": "Convert the number to base-3; valid if no digit is '2'.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Any number can be uniquely represented in base-3 using digits 0, 1, and 2.",
+      "If a number is a sum of distinct powers of three, its base-3 representation will only contain digits 0 and 1.",
+      "The modulo 3 operation effectively extracts the least significant digit in base-3."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

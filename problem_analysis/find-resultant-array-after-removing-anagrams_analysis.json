@@ -1,0 +1,45 @@
+{
+  "problem_name": "find-resultant-array-after-removing-anagrams",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list"
+    ],
+    [
+      "list",
+      "sorted list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "frequency map (Counter) to check anagrams, iterative removal",
+    "sorting strings to check anagrams, iterative removal",
+    "sorting adjacent strings to check anagrams, list comprehension"
+  ],
+  "problem_summary_simple": "Remove adjacent strings that are anagrams until no more removals are possible.",
+  "problem_summary_technical": "Iterates through the array, comparing adjacent strings' character counts (or sorted versions) and removing the latter if they are anagrams.",
+  "time_complexity": [
+    "O(N * L)",
+    "O(N * L log L)",
+    "O(N * L log L)"
+  ],
+  "space_complexity": [
+    "O(L)",
+    "O(L)",
+    "O(L)"
+  ],
+  "key_insights": [
+    [
+      "Anagrams can be efficiently detected by comparing character frequency maps or sorted strings.",
+      "The problem can be solved by iterating and keeping track of the previous 'canonical' form of a word.",
+      "The order of operations doesn't matter, simplifying the logic to a single pass."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

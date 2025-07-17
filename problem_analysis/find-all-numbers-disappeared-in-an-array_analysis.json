@@ -1,0 +1,51 @@
+{
+  "problem_name": "find-all-numbers-disappeared-in-an-array",
+  "data_structures": [
+    [
+      "list (modified in-place)",
+      "list"
+    ],
+    [
+      "set",
+      "set"
+    ],
+    [
+      "list (modified in-place)",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "In-place modification of the array by negating elements at corresponding indices.",
+    "Set difference to find missing numbers.",
+    "In-place modification using negation to mark presence."
+  ],
+  "problem_summary_simple": "Find numbers from 1 to n that are missing in the given array.",
+  "problem_summary_technical": "Use array indices as hash keys and element signs to mark presence, or set operations for a simpler approach.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The constraint 1 <= nums[i] <= n allows using array indices.",
+      "Negating elements is a clever way to mark presence without extra space.",
+      "Set difference provides a concise but potentially less space-efficient solution."
+    ],
+    [
+      "Leveraging the range of numbers to mark presence in the array itself is key for O(1) space.",
+      "Absolute values are used to access indices correctly after negation.",
+      "The final pass identifies positive elements, indicating missing numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

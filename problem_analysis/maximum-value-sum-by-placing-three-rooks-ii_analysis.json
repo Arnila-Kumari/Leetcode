@@ -1,0 +1,46 @@
+{
+  "problem_name": "maximum-value-sum-by-placing-three-rooks-ii",
+  "data_structures": [
+    [
+      "heap",
+      "list of lists",
+      "set",
+      "iterator"
+    ],
+    [
+      "heap",
+      "list of lists",
+      "set",
+      "iterator"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Heap-based selection and brute-force combinations",
+    "Heap-based selection and brute-force combinations"
+  ],
+  "problem_summary_simple": "Place three non-attacking rooks on a board to maximize the sum of cell values.",
+  "problem_summary_technical": "Find top k values per row/column, then combine valid combinations using heaps and brute-force checking for non-attacking placements.",
+  "time_complexity": [
+    "O(m * n * logk)"
+  ],
+  "space_complexity": [
+    "O(k * (m + n))"
+  ],
+  "key_insights": [
+    [
+      "This problem is identical to 'maximum-value-sum-by-placing-three-rooks-i' in terms of logic and constraints, only the board dimensions differ.",
+      "The core idea remains to identify the best candidate cells and then find combinations that satisfy the non-attacking rook constraints.",
+      "The heap-based approach efficiently prunes less optimal choices early on."
+    ],
+    [
+      "The second solution provides a more compact way to achieve the same result as the first, leveraging Python's built-in `heapq` and `itertools` modules.",
+      "The complexity arises from generating candidate cells and then checking combinations, which can be computationally intensive for larger k.",
+      "The problem is essentially a form of maximum weight matching on a bipartite graph, but solved with a greedy/combinatorial approach."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

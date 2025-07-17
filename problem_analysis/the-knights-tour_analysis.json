@@ -1,0 +1,44 @@
+{
+  "problem_name": "the-knights-tour",
+  "data_structures": [
+    [
+      "array",
+      "array"
+    ],
+    [
+      "array",
+      "array"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with Warnsdorff's Rule: prioritize moves to cells with fewer subsequent valid moves.",
+    "Basic backtracking: explore all possible valid knight moves recursively."
+  ],
+  "problem_summary_simple": "Find a path for a knight to visit every cell on a chessboard exactly once.",
+  "problem_summary_technical": "Use backtracking to explore knight moves. Warnsdorff's Rule (greedy heuristic) significantly prunes the search space for finding a solution.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(8^(m * n - 1))"
+  ],
+  "space_complexity": [
+    "O(m * n) for the board and recursion stack",
+    "O(m * n) for the board and recursion stack"
+  ],
+  "key_insights": [
+    [
+      "Warnsdorff's Rule is a heuristic that greatly improves the performance of finding a Knight's Tour solution.",
+      "The 'degree' of a cell is the number of unvisited neighbors it has.",
+      "By always moving to the cell with the minimum degree, we reduce the chances of getting stuck early."
+    ],
+    [
+      "A naive backtracking approach without any heuristics can be extremely slow due to the large search space.",
+      "The problem guarantees a solution exists, so the backtracking will eventually find one.",
+      "This solution is highly inefficient for larger boards."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:12:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

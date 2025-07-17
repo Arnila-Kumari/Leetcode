@@ -1,0 +1,32 @@
+{
+  "problem_name": "binary-number-with-alternating-bits",
+  "data_structures": [
+    [
+      "integer",
+      "variable"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iteratively check adjacent bits by repeatedly dividing by 2 and comparing the current bit with the previous one."
+  ],
+  "problem_summary_simple": "Check if a number's binary representation has alternating 0s and 1s.",
+  "problem_summary_technical": "Iteratively extract bits using modulo and division, comparing the current bit with the previously extracted bit.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to compare adjacent bits.",
+      "Repeatedly taking the number modulo 2 gives the least significant bit.",
+      "Dividing by 2 effectively shifts the bits to the right."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

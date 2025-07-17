@@ -1,0 +1,32 @@
+{
+  "problem_name": "optimal-division",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "To maximize the division, place parentheses to make the denominator as small as possible. This is achieved by dividing the first number by the rest of the numbers grouped together."
+  ],
+  "problem_summary_simple": "Add parentheses to a division expression to get the maximum possible value.",
+  "problem_summary_technical": "Maximize division by making the denominator as small as possible, achieved by grouping all subsequent numbers with parentheses.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To maximize a fraction a/b, minimize b.",
+      "In a sequence of divisions like a/b/c/d, the smallest denominator is achieved by a/(b/c/d).",
+      "Special cases for length 1 and 2 arrays simplify the logic."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

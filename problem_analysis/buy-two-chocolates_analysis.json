@@ -1,0 +1,32 @@
+{
+  "problem_name": "buy-two-chocolates",
+  "data_structures": [
+    [
+      "list (prices)",
+      "integer (money)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: Find the two cheapest chocolates and check if they can be bought within the budget."
+  ],
+  "problem_summary_simple": "Buy two cheapest chocolates. Return leftover money, or original money if you can't afford them.",
+  "problem_summary_technical": "Find the two minimum elements in the prices array and subtract their sum from money if affordable.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To minimize cost, always pick the two cheapest chocolates.",
+      "The problem can be solved by finding the two smallest elements in the `prices` array.",
+      "If the sum of the two cheapest chocolates exceeds `money`, return `money`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

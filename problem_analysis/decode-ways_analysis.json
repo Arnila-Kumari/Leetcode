@@ -1,0 +1,31 @@
+{
+  "problem_name": "decode-ways",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "1-D Dynamic Programming with space optimization, using two variables to store previous results."
+  ],
+  "problem_summary_simple": "Count the number of ways to decode a string of digits into letters using a given mapping.",
+  "problem_summary_technical": "Apply dynamic programming to count valid decodings of a digit string, considering single and double-digit mappings, handling leading zeros.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a classic dynamic programming problem where the state depends on previous states.",
+      "The base cases are crucial: an empty string or a string starting with '0' has 0 decodings.",
+      "The transitions involve checking single-digit and two-digit decodings, ensuring validity (e.g., no leading zeros, within 1-26 range)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "count-of-range-sum",
+  "data_structures": [
+    [
+      "prefix sums array",
+      "temporary array for merge sort"
+    ],
+    [
+      "prefix sums array",
+      "temporary array for merge sort"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Divide and Conquer with Merge Sort",
+    "Divide and Conquer with Merge Sort (slightly different indexing)"
+  ],
+  "problem_summary_simple": "Count subarrays whose sum falls within a given range [lower, upper].",
+  "problem_summary_technical": "Uses prefix sums and a modified merge sort to count pairs (i, j) where prefixSum[j] - prefixSum[i] is in [lower, upper].",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Transforming the problem to finding pairs of prefix sums (S[j] - S[i]) within a range is key.",
+      "Merge sort's divide and conquer naturally allows for counting inversions/pairs across subarrays.",
+      "The core logic involves counting valid pairs (sums[k] - sums[i]) during the merge step."
+    ],
+    [
+      "Similar to Solution 1, but with slightly different base cases and recursive calls for merge sort.",
+      "The logic for counting pairs within the merge step remains the same.",
+      "Careful handling of array indices is crucial for correctness."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:37:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

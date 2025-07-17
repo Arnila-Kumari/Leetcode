@@ -1,0 +1,29 @@
+{
+  "problem_name": "alice-and-bob-playing-flower-game",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorics: Alice wins if total flowers are odd, Bob wins if even. The number of pairs is half the total possible pairs."
+  ],
+  "problem_summary_simple": "Alice and Bob play a flower picking game. Find pairs of clockwise/anti-clockwise flowers where Alice wins.",
+  "problem_summary_technical": "Alice wins if the total number of flowers (x+y) is odd. The problem reduces to counting pairs (x, y) with 1<=x<=n, 1<=y<=m where x+y is odd.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The game's outcome depends on the parity of the total number of flowers.",
+      "Alice wins if the total number of flowers (x + y) is odd.",
+      "The number of pairs (x, y) where x+y is odd is (n*m)/2."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

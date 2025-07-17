@@ -1,0 +1,31 @@
+{
+  "problem_name": "smallest-index-with-equal-value",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array, check if index modulo 10 equals the element value."
+  ],
+  "problem_summary_simple": "Find the smallest index where the index modulo 10 matches the value at that index.",
+  "problem_summary_technical": "Linear scan of the array, checking the condition `i % 10 == nums[i]` for each index `i`.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The modulo operation `i % 10` effectively checks the last digit of the index.",
+      "A generator expression with `next()` is an efficient way to find the first occurrence.",
+      "The constraint `nums[i] <= 9` simplifies the comparison."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

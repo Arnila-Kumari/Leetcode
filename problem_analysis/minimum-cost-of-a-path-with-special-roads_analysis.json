@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimum-cost-of-a-path-with-special-roads",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "set"
+    ],
+    [
+      "collections.defaultdict",
+      "heapq"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm on a complete graph (no heap)",
+    "Dijkstra's algorithm with a min-heap"
+  ],
+  "problem_summary_simple": "Find the cheapest path from start to target, considering normal grid movement and special roads.",
+  "problem_summary_technical": "Graph problem using Dijkstra's. Nodes are points, edges are special roads or Manhattan distance. Handles implicit edges.",
+  "time_complexity": [
+    "O(N^2)",
+    "O(N^2 * logN)"
+  ],
+  "space_complexity": [
+    "O(N^2)",
+    "O(N^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a graph where special road endpoints are nodes.",
+      "Implicit edges representing Manhattan distance between all pairs of special road endpoints (and start/target) are crucial.",
+      "Dijkstra's is suitable due to non-negative edge weights."
+    ],
+    [
+      "Using a min-heap optimizes Dijkstra's by efficiently retrieving the node with the minimum distance.",
+      "The number of nodes in the graph is related to the number of special roads plus start and target.",
+      "Careful handling of implicit edges is key to correctness."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:56:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

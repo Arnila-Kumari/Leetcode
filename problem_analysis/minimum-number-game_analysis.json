@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-number-game",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the array and then swap adjacent elements in pairs."
+  ],
+  "problem_summary_simple": "Rearrange an array based on Alice and Bob picking minimums and appending them to a new array.",
+  "problem_summary_technical": "Sort the array. Alice picks min, Bob picks next min. Bob appends first, Alice second. Swap adjacent pairs.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The game's rules imply that after sorting, the smallest element is picked by Alice, the second smallest by Bob.",
+      "Bob appends his pick first, then Alice appends hers. This means the smallest two elements in the sorted array will be swapped in the final result.",
+      "This pattern repeats for every pair of elements in the sorted array."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:58:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

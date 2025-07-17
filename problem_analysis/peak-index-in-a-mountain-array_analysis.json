@@ -1,0 +1,31 @@
+{
+  "problem_name": "peak-index-in-a-mountain-array",
+  "data_structures": [
+    [
+      "Array"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary Search"
+  ],
+  "problem_summary_simple": "Find the index of the peak element in an array that increases then decreases.",
+  "problem_summary_technical": "Use binary search to efficiently find the peak by comparing the middle element with its right neighbor.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The mountain array property (increasing then decreasing) allows for binary search.",
+      "By comparing `arr[mid]` with `arr[mid+1]`, we can determine which half contains the peak.",
+      "If `arr[mid] < arr[mid+1]`, the peak is to the right; otherwise, it's at `mid` or to the left."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:04:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

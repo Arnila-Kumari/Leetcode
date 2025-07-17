@@ -1,0 +1,32 @@
+{
+  "problem_name": "repeated-string-match",
+  "data_structures": [
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "String",
+  "algorithm_technique": [
+    "Rolling hash with Rabin-Karp for efficient substring matching."
+  ],
+  "problem_summary_simple": "Find minimum repetitions of string 'a' to contain string 'b'.",
+  "problem_summary_technical": "Uses rolling hash to efficiently check if 'b' is a substring of 'a' repeated multiple times.",
+  "time_complexity": [
+    "O(N + M)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The maximum number of repetitions needed is bounded. If 'b' is a substring, it must appear within 'a' repeated at most `len(b) // len(a) + 2` times.",
+      "Rolling hash (Rabin-Karp) is crucial for efficient substring comparison, avoiding O(N*M) naive checks.",
+      "Modular arithmetic is used to prevent hash value overflow."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

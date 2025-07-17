@@ -1,0 +1,32 @@
+{
+  "problem_name": "largest-merge-of-two-strings",
+  "data_structures": [
+    [
+      "collections.deque",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach comparing the current characters of both strings and appending the lexicographically larger one."
+  ],
+  "problem_summary_simple": "Merge two strings to create the lexicographically largest possible string.",
+  "problem_summary_technical": "Uses a greedy strategy by comparing the current characters of both strings and appending the larger one.",
+  "time_complexity": [
+    "O(n * m) where n and m are lengths of word1 and word2, due to string comparisons."
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to always pick the character that leads to a lexicographically larger string.",
+      "When characters are equal, a lookahead is needed to determine which string will yield a larger subsequent sequence.",
+      "Using deques allows for efficient O(1) removal from the front."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

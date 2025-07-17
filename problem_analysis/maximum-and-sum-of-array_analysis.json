@@ -1,0 +1,66 @@
+{
+  "problem_name": "maximum-and-sum-of-array",
+  "data_structures": [
+    [
+      "2D array (cost matrix)",
+      "array (matching result)"
+    ],
+    [
+      "2D array (cost matrix)",
+      "array (matching result)"
+    ],
+    [
+      "array (DP table)"
+    ],
+    [
+      "array (DP table)"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Weighted bipartite matching (Hungarian algorithm)",
+    "Weighted bipartite matching (using scipy)",
+    "Dynamic Programming (bitmask)",
+    "Dynamic Programming (bitmask with memoization)"
+  ],
+  "problem_summary_simple": "Place numbers into slots to maximize the sum of (number AND slot number).",
+  "problem_summary_technical": "Model as weighted bipartite matching or DP with bitmask to assign numbers to slots for max AND sum.",
+  "time_complexity": [
+    "O(n^3)",
+    "O(n^3)",
+    "O(n * 3^n)",
+    "O(n * 3^n)"
+  ],
+  "space_complexity": [
+    "O(n^2)",
+    "O(n^2)",
+    "O(3^n)",
+    "O(3^n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be framed as an assignment problem, solvable with weighted bipartite matching.",
+      "The cost matrix represents the AND sum for each number-slot pair.",
+      "The constraint that each slot can hold at most two numbers needs careful handling in the cost matrix construction."
+    ],
+    [
+      "This problem can be framed as an assignment problem, solvable with weighted bipartite matching.",
+      "The cost matrix represents the AND sum for each number-slot pair.",
+      "The constraint that each slot can hold at most two numbers needs careful handling in the cost matrix construction."
+    ],
+    [
+      "A DP approach using bitmasks can represent the state of slots (how many numbers are assigned).",
+      "The state transition involves assigning the next number to an available slot.",
+      "The base of the DP state needs to be 3 to represent 0, 1, or 2 numbers in a slot."
+    ],
+    [
+      "A DP approach using bitmasks can represent the state of slots (how many numbers are assigned).",
+      "The state transition involves assigning the next number to an available slot.",
+      "Memoization can be used to implement the DP top-down, potentially simplifying implementation."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

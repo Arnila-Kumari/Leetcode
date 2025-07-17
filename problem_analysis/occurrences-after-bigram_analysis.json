@@ -1,0 +1,40 @@
+{
+  "problem_name": "occurrences-after-bigram",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "String Splitting and Iteration: Split text into words and iterate to find bigrams.",
+    "Sliding Window / Two Pointers: Efficiently track the last two words."
+  ],
+  "problem_summary_simple": "Find words that appear immediately after a specific two-word sequence (bigram).",
+  "problem_summary_technical": "Split the text into words and iterate through them, checking for the 'first second' pattern to identify the subsequent 'third' word.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The most straightforward approach is to split the text into words and then iterate.",
+      "Maintain pointers or indices to track the current word and the previous two words.",
+      "A simple linear scan is sufficient as the text length is relatively small."
+    ],
+    [
+      "The provided solution cleverly avoids explicit splitting by iterating through the text character by character.",
+      "It maintains state for the current word being built and checks against `first` and `second` as characters are processed.",
+      "This character-by-character approach can be more memory-efficient than splitting if the text is very large."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:03:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

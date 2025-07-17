@@ -1,0 +1,31 @@
+{
+  "problem_name": "non-decreasing-array",
+  "data_structures": [
+    [
+      "variable"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate and track modifications, adjust based on previous elements."
+  ],
+  "problem_summary_simple": "Check if an array can be made non-decreasing by changing at most one element.",
+  "problem_summary_technical": "Iterate through the array, using a flag to track modifications. Handle violations by checking previous elements to decide which element to conceptually modify.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to identify the first violation of the non-decreasing property.",
+      "When a violation `nums[i-1] > nums[i]` occurs, we have two options: modify `nums[i-1]` or `nums[i]`.",
+      "To make the array non-decreasing with minimal changes, we prioritize modifying `nums[i-1]` to `nums[i]` if `nums[i-2] <= nums[i]`, otherwise modify `nums[i]` to `nums[i-1]`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

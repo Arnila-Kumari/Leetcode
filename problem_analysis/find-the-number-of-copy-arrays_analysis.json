@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-number-of-copy-arrays",
+  "data_structures": [
+    [
+      "variables for bounds tracking"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: Maintain the valid range for the current element based on the previous element's range and the current bounds."
+  ],
+  "problem_summary_simple": "Count arrays that match original differences and stay within given bounds for each element.",
+  "problem_summary_technical": "Track the valid range [left, right] for the current element `copy[i]` by considering the difference `original[i] - original[i-1]` and the bounds `bounds[i]`.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iteratively determining the valid range for each element.",
+      "The difference between consecutive elements in `copy` must match `original`.",
+      "The valid range for `copy[i]` is constrained by `bounds[i]` and the possible values of `copy[i-1]` plus the difference."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

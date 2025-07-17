@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-of-integers",
+  "data_structures": [
+    [
+      "2D array",
+      "hashmap"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Digit DP with state compression and combinatorics for counting numbers within a range with digit sum constraints."
+  ],
+  "problem_summary_simple": "Count numbers in a range whose digits sum to a value between min_sum and max_sum.",
+  "problem_summary_technical": "Digit DP to count numbers up to a limit with digit sum constraints, applied to a range using inclusion-exclusion.",
+  "time_complexity": [
+    "O(len(num) * max_sum * 10)"
+  ],
+  "space_complexity": [
+    "O(len(num) * max_sum)"
+  ],
+  "key_insights": [
+    [
+      "Digit DP is suitable for problems involving counting numbers based on digit properties within a range.",
+      "The state of the DP typically includes the current digit position, the current digit sum, and a flag indicating if the number is still bound by the input string.",
+      "The problem is solved by calculating count(num2) - count(num1-1) to get the count within the range [num1, num2]."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:37:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

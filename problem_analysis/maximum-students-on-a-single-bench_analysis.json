@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-students-on-a-single-bench",
+  "data_structures": [
+    [
+      "Hash Map",
+      "Set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash map to group students by bench and count unique students per bench."
+  ],
+  "problem_summary_simple": "Find the bench with the most unique students.",
+  "problem_summary_technical": "Uses a hash map to associate bench IDs with sets of unique student IDs, then finds the maximum set size.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A hash map (defaultdict) is ideal for grouping students by bench ID.",
+      "Using a set for each bench automatically handles duplicate student entries for the same bench.",
+      "The maximum value in the hash map's values (set sizes) gives the answer."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:54:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

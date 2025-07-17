@@ -1,0 +1,33 @@
+{
+  "problem_name": "sender-with-largest-word-count",
+  "data_structures": [
+    [
+      "hash map (collections.Counter)",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a hash map to store word counts per sender. Iterate through messages to update counts.",
+    "Iterate through messages and senders simultaneously, updating counts in a frequency map."
+  ],
+  "problem_summary_simple": "Find the sender with the most words sent, breaking ties lexicographically.",
+  "problem_summary_technical": "Aggregate word counts per sender using a hash map. Find the sender with max count, then max name for ties.",
+  "time_complexity": [
+    "O(N * L) where N is number of messages, L is max message length"
+  ],
+  "space_complexity": [
+    "O(S) where S is the number of unique senders"
+  ],
+  "key_insights": [
+    [
+      "A hash map (like `collections.Counter`) is ideal for accumulating counts per sender.",
+      "The word count of a message is `message.count(' ') + 1`.",
+      "The `max()` function with a custom key can handle both count and lexicographical comparison."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

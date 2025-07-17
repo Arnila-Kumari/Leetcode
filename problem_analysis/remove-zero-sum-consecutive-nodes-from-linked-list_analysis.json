@@ -1,0 +1,32 @@
+{
+  "problem_name": "remove-zero-sum-consecutive-nodes-from-linked-list",
+  "data_structures": [
+    [
+      "ListNode",
+      "OrderedDict"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Prefix sum with hash map (OrderedDict) to track sums and their last seen nodes."
+  ],
+  "problem_summary_simple": "Remove consecutive linked list nodes that sum to zero until no such sequences remain.",
+  "problem_summary_technical": "Iterate through the linked list, maintaining a prefix sum. Use an OrderedDict to store prefix sums and their corresponding nodes to detect and remove zero-sum sublists.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that if a prefix sum repeats, the nodes between the two occurrences sum to zero.",
+      "An OrderedDict is crucial to maintain the order of prefix sums, ensuring correct removal of overlapping zero-sum sublists.",
+      "A dummy node simplifies handling edge cases, especially when the head itself needs to be removed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

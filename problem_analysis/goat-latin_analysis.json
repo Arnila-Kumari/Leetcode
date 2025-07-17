@@ -1,0 +1,32 @@
+{
+  "problem_name": "goat-latin",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "String splitting, iteration, conditional logic, string concatenation."
+  ],
+  "problem_summary_simple": "Convert a sentence to a made-up language by applying specific rules to each word based on its starting letter and position.",
+  "problem_summary_technical": "Splits sentence into words, applies vowel/consonant rules, appends 'ma' and 'a's based on index, then joins back.",
+  "time_complexity": [
+    "O(N), where N is the length of the sentence."
+  ],
+  "space_complexity": [
+    "O(N), for storing intermediate words and the final sentence."
+  ],
+  "key_insights": [
+    [
+      "The core logic involves iterating through words and applying transformations.",
+      "Using a set for vowels allows for efficient O(1) lookup.",
+      "String concatenation can be optimized by building the result incrementally or using join."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

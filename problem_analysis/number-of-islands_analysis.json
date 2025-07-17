@@ -1,0 +1,56 @@
+{
+  "problem_name": "number-of-islands",
+  "data_structures": [
+    [
+      "Union-Find data structure",
+      "2D grid"
+    ],
+    [
+      "2D grid",
+      "stack for DFS"
+    ],
+    [
+      "2D grid",
+      "queue for BFS"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find to connect adjacent land cells",
+    "Depth-First Search (DFS) to explore and mark visited land cells",
+    "Breadth-First Search (BFS) to explore and mark visited land cells"
+  ],
+  "problem_summary_simple": "Count the number of distinct land masses (islands) in a grid.",
+  "problem_summary_technical": "Graph traversal (DFS/BFS) or Union-Find to identify connected components of '1's in a 2D grid.",
+  "time_complexity": [
+    "O(m * n * α(m * n)) ~= O(m * n)",
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)",
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "Union-Find efficiently groups connected components.",
+      "The initial count is the total number of land cells, and unions reduce this count for connected cells.",
+      "Subtracting water cells from the total initial count of land cells gives the number of islands."
+    ],
+    [
+      "DFS explores an island completely by recursively visiting adjacent land cells.",
+      "Marking visited cells ('0') prevents recounting or infinite loops.",
+      "Each time DFS is initiated on an unvisited land cell, a new island is found."
+    ],
+    [
+      "BFS explores an island level by level using a queue.",
+      "Similar to DFS, marking visited cells is crucial.",
+      "Each BFS traversal starting from an unvisited land cell signifies a new island."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

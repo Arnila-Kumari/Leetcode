@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-average-subarray-ii",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Use binary search on the possible average values. For a given average, check if there exists a subarray of length >= k with an average greater than or equal to it."
+  ],
+  "problem_summary_simple": "Find the contiguous subarray of length at least k with the highest average value.",
+  "problem_summary_technical": "Binary search for the maximum average. For each candidate average, transform the array and check for a prefix sum difference greater than zero.",
+  "time_complexity": [
+    "O(n log(Range))"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem's monotonic property allows for binary search on the answer (the average).",
+      "The `getDelta` function checks if a subarray with an average greater than `avg` exists.",
+      "Transforming `nums[i]` to `nums[i] - avg` helps in finding subarrays with a sum greater than zero."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

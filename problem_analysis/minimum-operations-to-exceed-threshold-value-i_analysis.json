@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-exceed-threshold-value-i",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count elements less than k."
+  ],
+  "problem_summary_simple": "Remove smallest elements until all remaining elements are >= k.",
+  "problem_summary_technical": "Counts the number of elements in the array that are strictly less than k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operation always removes the smallest element.",
+      "To make all elements greater than or equal to k, we must remove all elements that are strictly less than k.",
+      "The minimum number of operations is simply the count of elements less than k."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:59:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

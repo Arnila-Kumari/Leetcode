@@ -1,0 +1,53 @@
+{
+  "problem_name": "distribute-candies-among-children-i",
+  "data_structures": [
+    [
+      "integer"
+    ],
+    [
+      "integer"
+    ],
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Inclusion-Exclusion Principle with combinations (nCr, nHr)",
+    "Optimized brute force iterating through possible values for the first child",
+    "Brute force iterating through possible values for the first two children"
+  ],
+  "problem_summary_simple": "Count ways to give n candies to 3 kids, each getting at most limit.",
+  "problem_summary_technical": "Combinatorial problem solved using inclusion-exclusion or iterative counting of valid distributions under a limit.",
+  "time_complexity": [
+    "O(1)",
+    "O(limit)",
+    "O(limit^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding non-negative integer solutions to x1 + x2 + x3 = n with x_i <= limit.",
+      "The inclusion-exclusion principle is a powerful technique for problems with upper bounds.",
+      "Stars and bars (nHr) is used to count combinations with repetition."
+    ],
+    [
+      "Iterating through the first child's candy count (i) and then calculating valid counts for the remaining two children.",
+      "The range of `i` is optimized to avoid unnecessary checks.",
+      "The number of candies for the second child (j) is constrained by `limit` and the remaining candies."
+    ],
+    [
+      "A straightforward triple nested loop to check all possible distributions.",
+      "This approach is simple but inefficient for larger constraints.",
+      "The constraints for `i` and `j` are limited by `limit` and `n`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

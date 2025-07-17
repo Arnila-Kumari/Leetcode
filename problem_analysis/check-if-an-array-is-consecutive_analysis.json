@@ -1,0 +1,35 @@
+{
+  "problem_name": "check-if-an-array-is-consecutive",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a hash set to store unique elements and check if max - min + 1 equals length and unique count."
+  ],
+  "problem_summary_simple": "Determine if an array contains all numbers in a consecutive sequence starting from its minimum value.",
+  "problem_summary_technical": "An array is consecutive if its range (max - min + 1) equals its length and all elements are unique.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The condition `max(nums) - min(nums) + 1 == len(nums)` checks if the span of numbers matches the count.",
+      "The `len(set(nums)) == len(nums)` part ensures there are no duplicates."
+    ],
+    [
+      "This approach is efficient as it involves finding min/max and creating a set, all typically O(n).",
+      "It correctly identifies arrays like [1, 3, 2] as consecutive."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

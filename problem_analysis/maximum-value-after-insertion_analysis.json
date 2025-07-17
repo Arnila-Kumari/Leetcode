@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-value-after-insertion",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Linear scan to find the optimal insertion point based on number comparison"
+  ],
+  "problem_summary_simple": "Insert a digit into a number string to maximize its numerical value.",
+  "problem_summary_technical": "Iterate through the string, comparing the digit to insert with current digits to find the first position for maximization.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "For positive numbers, insert the digit `x` before the first digit in `n` that is smaller than `x`.",
+      "For negative numbers, insert the digit `x` before the first digit in `n` that is larger than `x`.",
+      "If no such digit is found, append `x` to the end of the string."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:55:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "push-dominoes",
+  "data_structures": [
+    [
+      "1D array (force)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Two-pass force calculation: Calculate forces from left-to-right and right-to-left, then combine to determine final state."
+  ],
+  "problem_summary_simple": "Simulate dominoes falling and pushing each other to find the final stable state.",
+  "problem_summary_technical": "Calculate net force on each domino from 'R' and 'L' pushes. Combine forces to determine final state: 'L', 'R', or '.'.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by calculating the net force on each domino.",
+      "Forces from 'R' propagate right, and forces from 'L' propagate left.",
+      "A domino remains stationary if forces from both sides are equal or if no force is applied."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

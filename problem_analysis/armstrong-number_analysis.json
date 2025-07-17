@@ -1,0 +1,32 @@
+{
+  "problem_name": "armstrong-number",
+  "data_structures": [
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Convert the number to a string, iterate through digits, calculate power sum, and compare."
+  ],
+  "problem_summary_simple": "Determine if a number is an Armstrong number (sum of its digits raised to the power of the number of digits equals the number itself).",
+  "problem_summary_technical": "Convert the integer to a string to easily access digits and count them. Calculate the sum of each digit raised to the power of the total number of digits.",
+  "time_complexity": [
+    "O(k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "Converting to a string simplifies digit extraction and counting.",
+      "The power is determined by the number of digits in the original number.",
+      "Directly calculating the sum and comparing is efficient."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

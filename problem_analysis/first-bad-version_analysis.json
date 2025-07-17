@@ -1,0 +1,31 @@
+{
+  "problem_name": "first-bad-version",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search to find the first bad version"
+  ],
+  "problem_summary_simple": "Find the first bad version of a product, given an API that checks if a version is bad.",
+  "problem_summary_technical": "Applies binary search on the version range [1, n] to find the first version for which `isBadVersion` returns true, minimizing API calls.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem exhibits a monotonic property: if a version is bad, all subsequent versions are also bad. This makes binary search applicable.",
+      "The goal is to find the smallest `v` such that `isBadVersion(v)` is true.",
+      "The binary search correctly adjusts the `left` and `right` pointers to converge on the first bad version."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:45:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,71 @@
+{
+  "problem_name": "find-maximum-non-decreasing-array-length",
+  "data_structures": [
+    [
+      "list",
+      "list",
+      "list",
+      "list"
+    ],
+    [
+      "deque",
+      "list"
+    ],
+    [
+      "list",
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with monotonic stack/deque to find optimal previous subarray sums.",
+    "DP with prefix sums and binary search on prefix sums to find optimal previous subarray sums.",
+    "DP with prefix sums and binary search on prefix sums, storing previous optimal split points."
+  ],
+  "problem_summary_simple": "Find the longest possible array length by merging subarrays into sums, maintaining a non-decreasing order.",
+  "problem_summary_technical": "Uses DP with prefix sums and a monotonic structure (stack/deque) or binary search to find optimal previous subarray sums for non-decreasing property.",
+  "time_complexity": [
+    "O(N)",
+    "O(N)",
+    "O(N log N)",
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)",
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as finding the longest sequence of non-decreasing prefix sums after merging subarrays.",
+      "A monotonic stack or deque helps efficiently find the best previous split point.",
+      "Binary search on prefix sums can also optimize finding the previous split point."
+    ],
+    [
+      "The core idea is to find the largest `k` such that `sum(nums[i_j]...nums[i_{j+1}-1]) >= sum(nums[i_{j-1}]...nums[i_j]-1)` for all `j`.",
+      "Prefix sums are essential for calculating subarray sums efficiently.",
+      "The greedy choice at each step is to form the shortest possible valid next segment."
+    ],
+    [
+      "The problem can be solved by finding the longest subsequence of split points where the sum of elements between consecutive split points is non-decreasing.",
+      "Prefix sums allow for O(1) calculation of subarray sums.",
+      "A monotonic stack or binary search on prefix sums helps find the optimal previous split point."
+    ],
+    [
+      "This problem can be solved using dynamic programming where dp[i] represents the maximum length of a non-decreasing array ending at index i.",
+      "Prefix sums are used to efficiently calculate the sum of subarrays.",
+      "A binary search approach on prefix sums helps find the optimal previous split point."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:42:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

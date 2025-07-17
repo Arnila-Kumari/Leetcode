@@ -1,0 +1,42 @@
+{
+  "problem_name": "hamming-distance",
+  "data_structures": [
+    [
+      "integer"
+    ],
+    [
+      "string"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "XOR operation to find differing bits, then Brian Kernighan's algorithm to count set bits.",
+    "XOR operation to find differing bits, then convert to binary string and count '1's."
+  ],
+  "problem_summary_simple": "Count the number of bit positions that differ between two integers.",
+  "problem_summary_technical": "Calculate Hamming distance by XORing inputs and counting set bits in the result using bitwise operations or string conversion.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The XOR operation (^) is key to identifying differing bits.",
+      "Brian Kernighan's algorithm (z &= z - 1) efficiently counts set bits.",
+      "The problem is equivalent to finding the number of set bits in x ^ y."
+    ],
+    [
+      "The XOR operation (^) is key to identifying differing bits.",
+      "Converting the XOR result to a binary string and counting '1's is a straightforward approach.",
+      "This method is often more readable but might have slightly higher constant factors than bit manipulation."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

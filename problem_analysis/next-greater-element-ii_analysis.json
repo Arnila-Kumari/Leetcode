@@ -1,0 +1,32 @@
+{
+  "problem_name": "next-greater-element-ii",
+  "data_structures": [
+    [
+      "stack",
+      "array"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack applied to a doubled array to handle circularity"
+  ],
+  "problem_summary_simple": "Find the next greater element for each number in a circular array.",
+  "problem_summary_technical": "Employs a monotonic decreasing stack on a doubled version of the circular array to find the next greater element for each original element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "To handle circularity, the array can be conceptually doubled (or iterated twice).",
+      "A monotonic decreasing stack helps find the next greater element efficiently.",
+      "When iterating from right to left, elements popped from the stack are smaller than the current element and are candidates for the next greater element."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

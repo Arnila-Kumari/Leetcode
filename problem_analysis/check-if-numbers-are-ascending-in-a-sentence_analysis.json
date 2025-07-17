@@ -1,0 +1,40 @@
+{
+  "problem_name": "check-if-numbers-are-ascending-in-a-sentence",
+  "data_structures": [
+    [],
+    [
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Iterate through string, extract numbers, compare adjacent numbers.",
+    "Split string, filter numbers, check ascending order using list comprehension and all()."
+  ],
+  "problem_summary_simple": "Verify if numbers in a sentence are strictly increasing.",
+  "problem_summary_technical": "Parse sentence tokens, extract numbers, and check for strict monotonic increase.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires careful parsing of tokens to identify numbers.",
+      "Maintaining a `prev` and `curr` number allows for direct comparison during iteration.",
+      "The `isdigit()` method is crucial for token identification."
+    ],
+    [
+      "Splitting the string simplifies tokenization.",
+      "List comprehension with a filter is a concise way to extract numbers.",
+      "The `all()` function with a generator expression provides an efficient check for the ascending property."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

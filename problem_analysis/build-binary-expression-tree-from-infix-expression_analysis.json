@@ -1,0 +1,33 @@
+{
+  "problem_name": "build-binary-expression-tree-from-infix-expression",
+  "data_structures": [
+    [
+      "Node",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Shunting-yard algorithm variant for expression tree construction."
+  ],
+  "problem_summary_simple": "Convert an infix mathematical expression string into a binary expression tree.",
+  "problem_summary_technical": "Use two stacks (operands and operators) and precedence rules to parse the infix expression and build the tree.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires parsing an infix expression and building an expression tree.",
+      "A common approach is to adapt the Shunting-Yard algorithm, using stacks to manage operands and operators.",
+      "Operator precedence and parentheses are crucial for correct tree construction."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

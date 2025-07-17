@@ -1,0 +1,43 @@
+{
+  "problem_name": "linked-list-random-node",
+  "data_structures": [
+    [
+      "linked list"
+    ],
+    [
+      "array",
+      "random number generator"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Reservoir Sampling for unknown length",
+    "Store all nodes in an array for O(1) access"
+  ],
+  "problem_summary_simple": "Return a random node's value from a singly linked list with equal probability.",
+  "problem_summary_technical": "Implement a class to select a random node from a linked list, either by iterating (Reservoir Sampling) or pre-storing.",
+  "time_complexity": [
+    "O(n) for getRandom, O(1) for constructor",
+    "O(n) for constructor, O(1) for getRandom"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Reservoir Sampling (Algorithm R) is key for the follow-up.",
+      "The probability of selecting the k-th element is 1/k.",
+      "The constructor is O(1) as it only stores the head."
+    ],
+    [
+      "Pre-storing all elements in an array allows O(1) random access.",
+      "This approach uses O(n) extra space.",
+      "The constructor iterates through the entire list."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

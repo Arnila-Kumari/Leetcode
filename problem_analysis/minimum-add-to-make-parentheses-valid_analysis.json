@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-add-to-make-parentheses-valid",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Iterate through the string, maintaining a balance counter. Increment for '(' and decrement for ')'. If balance becomes negative, it means an opening parenthesis is needed. The final balance indicates needed closing parentheses."
+  ],
+  "problem_summary_simple": "Find the minimum number of parentheses to add to make a given parentheses string valid.",
+  "problem_summary_technical": "Use a balance counter. Increment for '(', decrement for ')'. If balance drops below zero, an opening parenthesis is needed. The final balance represents needed closing parentheses.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A balance counter effectively tracks the validity of parentheses.",
+      "A negative balance signifies a missing opening parenthesis.",
+      "The final positive balance signifies missing closing parentheses."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:56:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

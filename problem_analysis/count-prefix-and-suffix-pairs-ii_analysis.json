@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-prefix-and-suffix-pairs-ii",
+  "data_structures": [
+    [
+      "Trie (optimized)"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Trie with combined prefix/suffix storage"
+  ],
+  "problem_summary_simple": "Count pairs of words where the first word is a prefix and suffix of the second.",
+  "problem_summary_technical": "A Trie stores words such that each node represents a character pair (char_from_start, char_from_end). Counts pairs where a word's prefix/suffix matches another word.",
+  "time_complexity": [
+    "O(N * L)"
+  ],
+  "space_complexity": [
+    "O(T)"
+  ],
+  "key_insights": [
+    [
+      "The problem is identical to 'count-prefix-and-suffix-pairs-i' in logic, but with larger constraints.",
+      "The Trie approach is essential for handling the increased input size efficiently.",
+      "The Trie node structure cleverly uses a tuple of characters (from start, from end) to represent the path, enabling simultaneous prefix and suffix matching."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

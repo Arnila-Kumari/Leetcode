@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-substring-with-at-least-k-repeating-characters",
+  "data_structures": [
+    [
+      "list (for character counts)"
+    ]
+  ],
+  "category": "Divide and Conquer",
+  "algorithm_technique": [
+    "Divide and Conquer with character frequency check"
+  ],
+  "problem_summary_simple": "Find the longest substring where every character appears at least k times.",
+  "problem_summary_technical": "Recursive divide and conquer approach. Splits string at characters with frequency < k, then recursively solves subproblems.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Characters with frequency less than k are 'splitters'.",
+      "The problem can be broken down recursively based on these splitters.",
+      "The base case is when all characters in a substring meet the frequency requirement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

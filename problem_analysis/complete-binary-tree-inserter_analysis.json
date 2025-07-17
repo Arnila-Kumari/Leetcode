@@ -1,0 +1,32 @@
+{
+  "problem_name": "complete-binary-tree-inserter",
+  "data_structures": [
+    [
+      "list",
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Level-order traversal (BFS) using a list to store nodes and find the next insertion point."
+  ],
+  "problem_summary_simple": "Insert nodes into a complete binary tree while maintaining its completeness.",
+  "problem_summary_technical": "Use a list to represent the complete binary tree, enabling O(1) insertion by appending and linking.",
+  "time_complexity": [
+    "ctor: O(n), insert: O(1), get_root: O(1)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Representing the complete binary tree using a list (similar to an array-based heap) simplifies insertion.",
+      "The next available insertion spot is always the first node in the list that doesn't have two children.",
+      "The list stores nodes in level-order, making it easy to find the parent for a new node."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

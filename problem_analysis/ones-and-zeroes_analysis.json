@@ -1,0 +1,31 @@
+{
+  "problem_name": "ones-and-zeroes",
+  "data_structures": [
+    [
+      "2D array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with a 2D table to store maximum subset size for given counts of 0s and 1s."
+  ],
+  "problem_summary_simple": "Find the largest subset of binary strings with at most m zeros and n ones.",
+  "problem_summary_technical": "Uses 2D DP where dp[i][j] stores the max subset size using at most i zeros and j ones.",
+  "time_complexity": [
+    "O(s * m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "This is a variation of the knapsack problem, where strings are items, and 0s/1s are weights.",
+      "The DP state `dp[i][j]` represents the maximum number of strings that can be formed using `i` zeros and `j` ones.",
+      "The transitions involve iterating through the strings and updating the DP table by considering whether to include the current string or not."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

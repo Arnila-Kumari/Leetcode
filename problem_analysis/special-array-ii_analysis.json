@@ -1,0 +1,32 @@
+{
+  "problem_name": "special-array-ii",
+  "data_structures": [
+    [
+      "array",
+      "prefix sum"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sum to efficiently query subarray properties."
+  ],
+  "problem_summary_simple": "Check if subarrays specified by queries are 'special' (adjacent elements have different parity).",
+  "problem_summary_technical": "Use prefix sums to count adjacent pairs with the same parity. A subarray is special if this count is zero within its bounds.",
+  "time_complexity": [
+    "O(n + q)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking multiple subarrays for a specific property.",
+      "A prefix sum array can store the cumulative count of adjacent elements with the same parity.",
+      "For a query [l, r], the number of invalid adjacent pairs is `(r - l) - (prefix[r] - prefix[l])`. If this is 0, the subarray is special."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

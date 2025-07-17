@@ -1,0 +1,31 @@
+{
+  "problem_name": "rabbits-in-forest",
+  "data_structures": [
+    [
+      "Hash Map (collections.Counter)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting and grouping: Count occurrences of each answer and group rabbits by color based on answers."
+  ],
+  "problem_summary_simple": "Find the minimum number of rabbits in a forest given their answers about same-colored rabbits.",
+  "problem_summary_technical": "Count the frequency of each answer. For an answer `x`, `x+1` rabbits share a color. Group rabbits with the same answer into sets of `x+1`.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "If a rabbit answers `x`, it belongs to a group of `x+1` rabbits of the same color.",
+      "We want to minimize the total number of rabbits. This means maximizing the number of rabbits that share a color group.",
+      "For each answer `x`, we can accommodate `x+1` rabbits of the same color. If we see more than `x+1` rabbits answering `x`, they must belong to a new color group."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:05:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

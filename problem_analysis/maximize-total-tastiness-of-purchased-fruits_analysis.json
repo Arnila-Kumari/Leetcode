@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximize-total-tastiness-of-purchased-fruits",
+  "data_structures": [
+    [
+      "2D array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with states representing (current_amount, current_coupons) and iterating through fruits."
+  ],
+  "problem_summary_simple": "Buy fruits to maximize total tastiness within a budget and a limited number of half-price coupons.",
+  "problem_summary_technical": "DP state dp[amount][coupons] stores max tastiness. Iterate through fruits, updating DP table for buying with/without coupon.",
+  "time_complexity": [
+    "O(n * maxAmount * maxCoupons)"
+  ],
+  "space_complexity": [
+    "O(maxAmount * maxCoupons)"
+  ],
+  "key_insights": [
+    [
+      "This is a variation of the knapsack problem, with an additional dimension for coupons.",
+      "The DP state needs to capture the remaining budget and the number of coupons used.",
+      "Iterating through fruits and considering both coupon and non-coupon purchases for each fruit is key."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

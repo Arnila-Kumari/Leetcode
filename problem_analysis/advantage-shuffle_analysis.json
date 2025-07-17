@@ -1,0 +1,33 @@
+{
+  "problem_name": "advantage-shuffle",
+  "data_structures": [
+    [
+      "sorted arrays",
+      "hashmap",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort both arrays. Greedily assign elements from nums1 to nums2 to maximize advantage, using a fallback for remaining elements."
+  ],
+  "problem_summary_simple": "Permute nums1 to maximize elements greater than corresponding elements in nums2.",
+  "problem_summary_technical": "Sort nums1 and nums2. Use a greedy approach with a hashmap to pair elements from nums1 with smaller elements in nums2.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting is key to a greedy approach.",
+      "Pairing the smallest possible element from nums1 that's greater than an element in nums2 ensures optimal assignment.",
+      "A hashmap helps in efficiently mapping elements of nums2 to their assigned elements from nums1."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "create-sorted-array-through-instructions",
+  "data_structures": [
+    [
+      "Binary Indexed Tree (BIT)",
+      "array"
+    ],
+    [
+      "array",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Binary Indexed Tree (Fenwick Tree) for efficient count queries",
+    "Merge Sort with modifications to count inversions"
+  ],
+  "problem_summary_simple": "Calculate the cost of inserting elements into an empty array to keep it sorted.",
+  "problem_summary_technical": "Compute the total insertion cost by summing min(elements < x, elements > x) for each insertion using BIT or modified Merge Sort.",
+  "time_complexity": [
+    "O(n log m)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(m)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The cost of insertion is determined by the number of elements already in the array that are smaller or larger than the current element.",
+      "A Binary Indexed Tree (BIT) or Fenwick Tree is ideal for efficiently querying prefix sums (counts of smaller elements) and suffix sums (counts of larger elements).",
+      "The maximum value in `instructions` determines the size of the BIT."
+    ],
+    [
+      "The problem can be rephrased as counting inversions relative to the current state of the sorted array.",
+      "Modified Merge Sort can be used to count elements smaller and larger than the current element during the merge process.",
+      "The cost for each insertion is the minimum of these two counts."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

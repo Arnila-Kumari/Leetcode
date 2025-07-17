@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-univalue-subtrees",
+  "data_structures": [
+    [
+      "TreeNode (for tree structure)",
+      "integer (for count)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Post-order traversal (DFS) to check if a subtree is univalue and count them."
+  ],
+  "problem_summary_simple": "Count the number of subtrees in a binary tree where all nodes have the same value.",
+  "problem_summary_technical": "Use a recursive DFS approach. For each node, check if its left and right subtrees are univalue and if their values match the current node's value.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "A post-order traversal is suitable because we need to know if child subtrees are univalue before processing the parent.",
+      "The helper function should return both a boolean indicating if the subtree is univalue and the current count of univalue subtrees.",
+      "Base cases for null nodes are essential for the recursion to terminate correctly."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

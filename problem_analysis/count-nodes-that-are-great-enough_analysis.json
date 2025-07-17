@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-nodes-that-are-great-enough",
+  "data_structures": [
+    [
+      "list",
+      "bisect module"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive DFS with merge sort-like subtree value merging to find smallest k values and count nodes."
+  ],
+  "problem_summary_simple": "Count nodes in a binary tree whose subtree has at least k nodes and whose value is greater than k nodes in its subtree.",
+  "problem_summary_technical": "Perform DFS, merging sorted lists of subtree values, to check conditions for 'great enough' nodes.",
+  "time_complexity": [
+    "O(n log n) in worst case (skewed tree), O(n log k) on average if k is small"
+  ],
+  "space_complexity": [
+    "O(n) in worst case (skewed tree), O(k + h) for storing sorted lists"
+  ],
+  "key_insights": [
+    [
+      "The problem requires information about the subtree's size and values, suggesting a post-order traversal.",
+      "To efficiently check the second condition (value > k nodes), we need to know the k smallest values in the subtree.",
+      "Merging sorted lists of subtree values from children, while keeping only the smallest k+1, is an efficient way to gather this information."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:36:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

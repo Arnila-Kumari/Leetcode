@@ -1,0 +1,33 @@
+{
+  "problem_name": "moving-average-from-data-stream",
+  "data_structures": [
+    [
+      "deque",
+      "integer",
+      "double"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Use a deque to maintain the sliding window and a running sum for efficient average calculation."
+  ],
+  "problem_summary_simple": "Calculate the moving average of numbers in a sliding window of a fixed size from a data stream.",
+  "problem_summary_technical": "Employs a deque to store window elements and a running sum, updating them in O(1) for each new element to compute the average.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(w)"
+  ],
+  "key_insights": [
+    [
+      "A deque is ideal for maintaining a sliding window due to its O(1) append and pop operations from both ends.",
+      "Keeping a running sum avoids re-calculating the sum of the window elements for each `next` call.",
+      "When the window is full, remove the oldest element from the sum and deque before adding the new element."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

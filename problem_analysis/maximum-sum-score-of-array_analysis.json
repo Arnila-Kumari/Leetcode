@@ -1,0 +1,42 @@
+{
+  "problem_name": "maximum-sum-score-of-array",
+  "data_structures": [
+    [
+      "variable"
+    ],
+    [
+      "variable"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate with two pointers, maintaining prefix and suffix sums.",
+    "Calculate total sum, then iterate with prefix sum and total-prefix."
+  ],
+  "problem_summary_simple": "Find the maximum score by comparing prefix sums and suffix sums at each index.",
+  "problem_summary_technical": "Calculate prefix and suffix sums iteratively to find the maximum of max(prefix_sum, suffix_sum) at each index.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by efficiently calculating prefix and suffix sums.",
+      "A single pass can track both prefix and suffix sums by moving pointers from opposite ends.",
+      "The maximum score is the maximum of these sums encountered."
+    ],
+    [
+      "Pre-calculating the total sum simplifies the suffix sum calculation.",
+      "The suffix sum for an index `i` can be derived from `total_sum - prefix_sum_up_to_i-1`.",
+      "The `+x` in `total-prefix+x` accounts for the current element being part of both prefix and suffix."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "difference-between-ones-and-zeros-in-row-and-column",
+  "data_structures": [
+    [
+      "array",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix Sum calculation for rows and columns"
+  ],
+  "problem_summary_simple": "Calculate a difference matrix based on counts of ones and zeros in rows and columns of a binary grid.",
+  "problem_summary_technical": "Compute row-wise and column-wise sums of ones. Then, for each cell (i, j), calculate diff[i][j] = (onesRow_i + onesCol_j) - (zerosRow_i + zerosCol_j).",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be simplified by pre-calculating the number of ones in each row and each column.",
+      "The number of zeros in a row/column can be derived from the total number of elements and the count of ones.",
+      "The formula for diff[i][j] can be rewritten using only counts of ones: diff[i][j] = onesRow_i + onesCol_j - (m - onesRow_i) - (n - onesCol_j) = 2 * onesRow_i + 2 * onesCol_j - m - n."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:38",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,43 @@
+{
+  "problem_name": "dungeon-game",
+  "data_structures": [
+    [
+      "1-D Dynamic Programming"
+    ],
+    [
+      "Binary Search",
+      "1-D Dynamic Programming"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming approach working backward from the princess's room to determine minimum health needed at each step.",
+    "Binary search on the initial health, using DP to check feasibility for a given health value."
+  ],
+  "problem_summary_simple": "Find the minimum initial health a knight needs to reach a princess through a dungeon with hazards and treasures.",
+  "problem_summary_technical": "Use DP from bottom-right to top-left, calculating minimum health needed to survive each room, or binary search on health with DP check.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n logk)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem is best solved by working backward from the destination (princess) to the start.",
+      "At any point, the knight needs at least 1 health. The minimum health required to *enter* a room is determined by the minimum health needed to *exit* it.",
+      "The DP state should represent the minimum health required to reach the princess from a given cell, not the health gained/lost."
+    ],
+    [
+      "Binary search is applicable because the feasibility of reaching the princess is monotonic with respect to initial health.",
+      "The `DP` helper function checks if a given initial `HP` is sufficient.",
+      "The range for binary search can be estimated based on the maximum possible health loss in the dungeon."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:41:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-matching-subsequences",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "iterator"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Iterate through S, advancing iterators for waiting words."
+  ],
+  "problem_summary_simple": "Count how many words in a list are subsequences of a given string.",
+  "problem_summary_technical": "Uses a defaultdict to store iterators for words, keyed by the next expected character in S.",
+  "time_complexity": [
+    "O(N + W)"
+  ],
+  "space_complexity": [
+    "O(W)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to efficiently track the progress of each word as we scan the main string S.",
+      "Using iterators avoids repeatedly creating substrings or re-scanning parts of words.",
+      "The defaultdict acts as buckets for words waiting for a specific character."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

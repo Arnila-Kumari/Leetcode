@@ -1,0 +1,33 @@
+{
+  "problem_name": "height-checker",
+  "data_structures": [
+    [
+      "array",
+      "sorted array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sorting and comparing elements at corresponding indices",
+    "Counting sort and comparison"
+  ],
+  "problem_summary_simple": "Count how many students are not in their correct height order.",
+  "problem_summary_technical": "Compare the original `heights` array with its sorted version to count mismatches.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the number of elements that are out of place compared to a sorted version.",
+      "Sorting the `heights` array creates the `expected` order.",
+      "Iterating and comparing elements at the same index in both arrays gives the count."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

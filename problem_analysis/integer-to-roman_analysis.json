@@ -1,0 +1,32 @@
+{
+  "problem_name": "integer-to-roman",
+  "data_structures": [
+    [
+      "dictionary",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach with ordered mapping"
+  ],
+  "problem_summary_simple": "Convert an integer into its Roman numeral representation.",
+  "problem_summary_technical": "Iteratively subtract the largest possible Roman numeral value from the integer and append its symbol until the integer becomes zero.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to use a mapping that includes subtractive forms (like IV, IX, XL, etc.) and process them in descending order.",
+      "By iterating through the Roman numeral values from largest to smallest, we ensure the greedy approach works correctly.",
+      "The constraint that only powers of 10 can be repeated up to 3 times is handled by the specific mappings (e.g., 4 is IV, not IIII)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "remove-duplicates-from-sorted-list-ii",
+  "data_structures": [
+    [
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Dummy node and two pointers (pre, cur) to skip all duplicate occurrences"
+  ],
+  "problem_summary_simple": "Remove all nodes that have duplicate values in a sorted linked list.",
+  "problem_summary_technical": "Use a dummy node and two pointers to traverse a sorted linked list, skipping all nodes with duplicate values.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A dummy node simplifies handling the head of the list, especially when the head itself needs to be removed.",
+      "The 'pre' pointer tracks the node before the current sequence of duplicates, allowing it to be bypassed.",
+      "The inner while loop efficiently skips all consecutive nodes with the same value."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

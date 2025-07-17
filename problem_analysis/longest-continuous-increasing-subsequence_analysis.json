@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-continuous-increasing-subsequence",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "single pass with a counter"
+  ],
+  "problem_summary_simple": "Find the length of the longest subarray where elements strictly increase.",
+  "problem_summary_technical": "Iterate through the array, maintaining a count of the current continuous increasing subsequence. Reset count when the increasing property breaks.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A single pass is sufficient to track the current and maximum lengths.",
+      "The condition `nums[i-1] < nums[i]` is key to extending the subsequence.",
+      "Resetting the count to 1 when the sequence breaks is crucial."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

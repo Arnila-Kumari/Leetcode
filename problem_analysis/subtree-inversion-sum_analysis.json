@@ -1,0 +1,45 @@
+{
+  "problem_name": "subtree-inversion-sum",
+  "data_structures": [
+    [
+      "adjacency list",
+      "array for DP states",
+      "stack for iterative DFS"
+    ],
+    [
+      "adjacency list",
+      "list for DP states"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Iterative DFS with Tree DP and state management",
+    "Recursive DFS with Tree DP and state management"
+  ],
+  "problem_summary_simple": "Maximize tree sum by inverting subtrees, with distance constraints between inversions.",
+  "problem_summary_technical": "Tree DP on an undirected tree to calculate max sum considering subtree inversions and distance k.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a Tree DP problem.",
+      "Each node's DP state needs to track the maximum sum achievable with and without inverting the subtree rooted at that node.",
+      "The distance constraint `k` is handled by propagating DP states up the tree."
+    ],
+    [
+      "The core idea is to decide for each node whether to invert its subtree or not.",
+      "The decision depends on the potential gain from inversion versus the cost imposed by the distance constraint on its ancestors.",
+      "The DP state `dp[i]` stores the maximum gain from inversions in the subtree rooted at depth `i` from the current node."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

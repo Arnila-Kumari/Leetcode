@@ -1,0 +1,34 @@
+{
+  "problem_name": "minimum-number-of-k-consecutive-bit-flips",
+  "data_structures": [
+    [
+      "list",
+      "queue (implicit via sliding window effect)"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Greedy approach: if a 0 is encountered, a flip must start at that position.",
+    "Use a sliding window or a marker to track active flips and their effect."
+  ],
+  "problem_summary_simple": "Find the minimum k-bit flips to make an array all ones, or return -1 if impossible.",
+  "problem_summary_technical": "Greedily flip subarrays starting at 0s. Track active flips using a counter and check boundary conditions.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The decision to flip at a certain index `i` is determined by the current state of `nums[i]` and the number of active flips affecting it.",
+      "If `nums[i]` is 0 and the number of active flips is even, we must perform a flip starting at `i`.",
+      "If `nums[i]` is 0 and the number of active flips is odd, it's already effectively 1, so no flip is needed.",
+      "The constraint `i + K <= len(A)` is critical to ensure a flip can be completed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

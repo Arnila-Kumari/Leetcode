@@ -1,0 +1,32 @@
+{
+  "problem_name": "smallest-subarrays-with-maximum-bitwise-or",
+  "data_structures": [
+    [
+      "array",
+      "hash table (implicit via lookup array)"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate backwards, track last seen bit positions"
+  ],
+  "problem_summary_simple": "Find the shortest subarray starting at each index that achieves the maximum possible bitwise OR.",
+  "problem_summary_technical": "Iterate backwards, maintaining the last seen index for each bit. Calculate subarray length based on max last seen index.",
+  "time_complexity": [
+    "O(n * log(max(nums)))"
+  ],
+  "space_complexity": [
+    "O(log(max(nums)))"
+  ],
+  "key_insights": [
+    [
+      "Processing from right to left simplifies finding the maximum OR for subarrays starting at a given index.",
+      "The maximum OR for any subarray starting at index `i` is determined by the furthest right occurrence of any set bit.",
+      "The `lookup` array effectively stores the rightmost index for each bit, allowing O(1) lookup for the maximum OR's extent."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

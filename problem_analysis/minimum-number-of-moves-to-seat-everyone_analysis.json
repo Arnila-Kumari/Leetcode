@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-number-of-moves-to-seat-everyone",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sorting and pairing seats with students."
+  ],
+  "problem_summary_simple": "Minimize moves to seat students in available seats.",
+  "problem_summary_technical": "Sorts both seats and students, then sums the absolute differences between paired seat and student positions.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The optimal strategy is to match the i-th smallest seat with the i-th smallest student.",
+      "Sorting ensures that we minimize the total distance moved.",
+      "The absolute difference represents the minimum moves for a single student-seat pair."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:58:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

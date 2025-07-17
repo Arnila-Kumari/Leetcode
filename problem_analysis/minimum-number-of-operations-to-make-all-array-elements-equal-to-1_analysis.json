@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-number-of-operations-to-make-all-array-elements-equal-to-1",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterative GCD calculation and finding the shortest subarray that can become 1."
+  ],
+  "problem_summary_simple": "Find minimum operations to make all array elements 1 using GCD.",
+  "problem_summary_technical": "If 1s exist, count operations. Otherwise, find the shortest subarray whose GCD is 1 and calculate operations based on its length.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "If the array already contains 1s, the problem reduces to converting other elements to 1.",
+      "The operation allows propagating a '1' through adjacent elements using GCD.",
+      "The minimum operations to make an element 1 is related to the shortest subarray that can produce a GCD of 1."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

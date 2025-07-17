@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimum-operations-to-maximize-last-elements-in-arrays",
+  "data_structures": [
+    [
+      "array",
+      "array"
+    ],
+    [
+      "array",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy simulation by considering two main scenarios for the last elements.",
+    "Greedy simulation by checking two target states for the last elements."
+  ],
+  "problem_summary_simple": "Minimize swaps to make last elements of both arrays maximums.",
+  "problem_summary_technical": "Greedy approach considering two target states for the last elements and counting necessary swaps.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The goal is to make `nums1[n-1]` and `nums2[n-1]` the maximums of their respective arrays.",
+      "We can either keep the last elements as they are or swap them. This leads to two primary target states for the last elements.",
+      "For each state, we iterate through the arrays and count the minimum operations (swaps) required to satisfy the conditions, taking the minimum of the two states."
+    ],
+    [
+      "The problem can be solved by considering two target configurations for the last elements: (nums1[n-1], nums2[n-1]) and (nums2[n-1], nums1[n-1]).",
+      "For each target configuration, we iterate through the arrays and count the minimum swaps needed. If an element pair (x, y) violates the target configuration (e.g., x > target_max1 or y > target_max2), a swap is necessary.",
+      "If a pair (x, y) can satisfy the target configuration only by swapping (i.e., x > target_max1 but y <= target_max2), it counts as one operation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-unique-flavors-after-sharing-k-candies",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with a frequency map (Counter) to track unique flavors."
+  ],
+  "problem_summary_simple": "Find the maximum unique candy flavors you can keep after giving away k consecutive candies.",
+  "problem_summary_technical": "Use a sliding window to iterate through all possible k-consecutive candy shares, maintaining flavor counts.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved efficiently using a sliding window approach.",
+      "A `collections.Counter` is ideal for tracking the frequency of flavors within the current window.",
+      "The key is to update the count of unique flavors incrementally as the window slides, rather than recomputing for each window."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

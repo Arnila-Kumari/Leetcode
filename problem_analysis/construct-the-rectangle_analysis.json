@@ -1,0 +1,32 @@
+{
+  "problem_name": "construct-the-rectangle",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "iterative search for factors starting from square root"
+  ],
+  "problem_summary_simple": "Find length and width of a rectangle with given area, minimizing the difference between them.",
+  "problem_summary_technical": "Find the largest factor of 'area' that is less than or equal to its square root.",
+  "time_complexity": [
+    "O(sqrt(area))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "to minimize difference, factors should be close to sqrt(area)",
+      "start checking factors from sqrt(area) downwards",
+      "the first factor found will be the largest possible width"
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:44:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

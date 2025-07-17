@@ -1,0 +1,45 @@
+{
+  "problem_name": "how-many-numbers-are-smaller-than-the-current-number",
+  "data_structures": [
+    [
+      "list",
+      "hashmap",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a frequency map (Counter) to store counts of each number, then prefix sums to find counts of smaller numbers.",
+    "Sort the array and use binary search (bisect_left) to find the count of smaller numbers for each element."
+  ],
+  "problem_summary_simple": "For each number in an array, count how many other numbers are smaller than it.",
+  "problem_summary_technical": "Calculate counts of smaller numbers for each element using frequency maps and prefix sums or by sorting and binary search.",
+  "time_complexity": [
+    "O(n + m)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(m)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The frequency map approach leverages the constraint on the maximum value of numbers.",
+      "Prefix sums efficiently calculate the count of numbers less than a given value.",
+      "Sorting and binary search provide an alternative that doesn't depend on the value range but has a higher time complexity."
+    ],
+    [
+      "Sorting the array allows for efficient lookup of smaller elements.",
+      "bisect_left finds the insertion point, which directly corresponds to the count of smaller elements.",
+      "This approach is generally applicable even if the number range is large."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

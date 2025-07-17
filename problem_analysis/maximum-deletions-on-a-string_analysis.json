@@ -1,0 +1,57 @@
+{
+  "problem_name": "maximum-deletions-on-a-string",
+  "data_structures": [
+    [
+      "list of lists (for DP table)",
+      "list of integers (for DP state)"
+    ],
+    [
+      "list of integers (for KMP prefix function)",
+      "list of integers (for DP state)"
+    ],
+    [
+      "list of lists (for prefix hashes)",
+      "list of lists (for powers)",
+      "list of integers (for DP state)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with string matching (suffix comparison)",
+    "Dynamic programming with KMP prefix function for pattern matching",
+    "Dynamic programming with rolling hash for efficient string comparison"
+  ],
+  "problem_summary_simple": "Find the maximum number of operations to delete a string by repeatedly deleting repeating prefixes.",
+  "problem_summary_technical": "DP approach where dp[i] is max operations for s[i:]. Transitions check for repeating prefixes using string comparison, KMP, or rolling hash.",
+  "time_complexity": [
+    "O(n^3)",
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the longest path in a DAG where nodes are string suffixes and edges represent valid deletions.",
+      "A brute-force check for repeating prefixes at each step leads to O(n^3) or O(n^4). DP optimizes this.",
+      "The core of the DP is checking if s[i:i+k] == s[i+k:i+2k]."
+    ],
+    [
+      "The KMP prefix function (LPS array) can efficiently find the longest proper prefix of a substring that is also a suffix.",
+      "This can be used to quickly check if a prefix of length `k` repeats immediately after itself.",
+      "The DP transition `dp[i] = max(dp[i], dp[i+k]+1)` is applied if `s[i:i+k]` is a prefix of `s[i:]` and `s[i+k:i+2k]` is also `s[i:i+k]`."
+    ],
+    [
+      "Rolling hashes allow for O(1) comparison of substrings after O(n) precomputation.",
+      "This significantly speeds up the check for repeating prefixes compared to naive string comparison.",
+      "Care must be taken with hash collisions, though for competitive programming, a good choice of primes and moduli usually suffices."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

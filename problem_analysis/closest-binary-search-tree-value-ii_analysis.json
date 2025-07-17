@@ -1,0 +1,43 @@
+{
+  "problem_name": "closest-binary-search-tree-value-ii",
+  "data_structures": [
+    [
+      "list",
+      "TreeNode"
+    ],
+    [
+      "list",
+      "TreeNode",
+      "BSTIterator class"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "In-order traversal simulation using stacks to find closest values.",
+    "BST iterator approach to efficiently traverse in-order and collect k closest values."
+  ],
+  "problem_summary_simple": "Find k values in a BST closest to a given target value.",
+  "problem_summary_technical": "Find k closest BST values to a target. Uses in-order traversal simulation (stacks) or custom BST iterators.",
+  "time_complexity": [
+    "O(h + k)",
+    "O(h + k)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find the node closest to the target and then expand outwards using in-order traversal.",
+      "Two stacks (or iterators) are used to efficiently get the next smaller and next larger elements."
+    ],
+    [
+      "BST iterators abstract the traversal logic, making the main logic cleaner.",
+      "The BSTIterator class handles pushing nodes onto the stack and retrieving the next in-order element."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

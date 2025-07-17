@@ -1,0 +1,30 @@
+{
+  "problem_name": "neighboring-bitwise-xor",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "XOR property and cyclic dependency analysis"
+  ],
+  "problem_summary_simple": "Determine if a binary array can be formed from its adjacent XOR differences, including a wrap-around XOR.",
+  "problem_summary_technical": "Analyze the cyclic XOR sum of derived array elements to check for the existence of a valid binary original array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The XOR sum of all elements in the derived array must be 0 for a valid original array to exist.",
+      "This is because each element in the original array is XORed twice in the total sum of derived elements, canceling itself out, except for the wrap-around XOR."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

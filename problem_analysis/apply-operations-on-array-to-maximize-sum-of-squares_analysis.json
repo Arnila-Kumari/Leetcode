@@ -1,0 +1,33 @@
+{
+  "problem_name": "apply-operations-on-array-to-maximize-sum-of-squares",
+  "data_structures": [
+    [
+      "list",
+      "integer",
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bit manipulation to consolidate bits. Count occurrences of each bit across all numbers. Distribute bits greedily to maximize numbers for sum of squares."
+  ],
+  "problem_summary_simple": "Maximize the sum of squares of k chosen numbers after applying bitwise operations.",
+  "problem_summary_technical": "Consolidate bits using AND/OR operations to create largest possible numbers. Greedily assign bits to form k largest numbers for sum of squares.",
+  "time_complexity": [
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(log r)"
+  ],
+  "key_insights": [
+    [
+      "The bitwise AND and OR operations allow for redistribution of bits among numbers.",
+      "The goal is to create the largest possible numbers to maximize the sum of their squares.",
+      "A greedy approach based on bit counts can determine the optimal distribution of bits."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "partition-array-into-two-equal-product-subsets",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Check if total product is target^2. Iterate through bitmasks to find a subset with product equal to target."
+  ],
+  "problem_summary_simple": "Can an array of distinct positive integers be split into two non-empty subsets with equal products equal to a target?",
+  "problem_summary_technical": "Partition `nums` into two non-empty disjoint subsets with equal product `target`. Check if total product is `target^2`.",
+  "time_complexity": [
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "For two subsets to have equal products, the total product of the array must be the square of the target product.",
+      "Iterating through bitmasks is a common way to explore all possible subsets.",
+      "The constraint `nums.length <= 12` makes a brute-force subset exploration feasible."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-frequency-stack",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "collections.defaultdict(list)"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Frequency tracking with grouped stacks"
+  ],
+  "problem_summary_simple": "Design a stack that pops the most frequent element, breaking ties by proximity to the top.",
+  "problem_summary_technical": "Uses a frequency map and a map of frequencies to lists of elements to efficiently retrieve the most frequent element.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to group elements by their frequency.",
+      "When popping, we target the highest frequency group and take the most recently added element.",
+      "Maintaining `maxfreq` allows direct access to the relevant group."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

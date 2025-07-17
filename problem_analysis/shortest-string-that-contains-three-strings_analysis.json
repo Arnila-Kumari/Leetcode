@@ -1,0 +1,44 @@
+{
+  "problem_name": "shortest-string-that-contains-three-strings",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ],
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "KMP algorithm for prefix matching and string merging",
+    "Brute force string merging with prefix overlap check"
+  ],
+  "problem_summary_simple": "Find the shortest string containing three given strings as substrings, prioritizing lexicographical order.",
+  "problem_summary_technical": "Generates all 6 permutations of string merges, using KMP or direct prefix checks to minimize overlap and length.",
+  "time_complexity": [
+    "O(L)",
+    "O(L^2)"
+  ],
+  "space_complexity": [
+    "O(L)",
+    "O(L)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering all permutations of merging the three strings.",
+      "KMP's prefix function is crucial for efficiently finding the maximum overlap between strings.",
+      "The lexicographically smallest result is chosen among strings of minimum length."
+    ],
+    [
+      "Brute-force checking all overlaps can be simpler to implement but less efficient.",
+      "The core idea is to maximize overlap when concatenating strings.",
+      "Iterating through all possible merge orders is necessary to guarantee optimality."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "count-the-number-of-incremovable-subarrays-i",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to find the longest strictly increasing suffix and then iterate prefixes.",
+    "Brute force checking all subarrays and verifying the condition."
+  ],
+  "problem_summary_simple": "Count subarrays whose removal leaves a strictly increasing array.",
+  "problem_summary_technical": "Two pointers identify the longest strictly increasing suffix; then, iterate prefixes and find valid suffix starts.",
+  "time_complexity": [
+    "O(n)",
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The condition for an incremovable subarray depends on the elements immediately before and after it.",
+      "Identifying the longest strictly increasing suffix simplifies the problem.",
+      "For each prefix, we need to find the earliest valid start of a removable subarray."
+    ],
+    [
+      "The brute-force approach involves iterating through all possible start and end points of subarrays.",
+      "For each subarray, check if removing it results in a strictly increasing array.",
+      "This involves checking the prefix before the subarray and the suffix after the subarray."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

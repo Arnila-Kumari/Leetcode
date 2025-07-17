@@ -1,0 +1,33 @@
+{
+  "problem_name": "groups-of-special-equivalent-strings",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Canonical representation using character counts",
+    "Grouping using a set"
+  ],
+  "problem_summary_simple": "Count groups of strings that are special-equivalent by swapping even/odd indexed characters.",
+  "problem_summary_technical": "Groups strings by a canonical representation derived from counts of characters at even and odd indices.",
+  "time_complexity": [
+    "O(N * L), where N is the number of strings and L is the length of each string."
+  ],
+  "space_complexity": [
+    "O(N * L) in the worst case, to store the canonical representations in the set."
+  ],
+  "key_insights": [
+    [
+      "Swapping characters at even indices allows any permutation of even-indexed characters. Similarly for odd indices.",
+      "A string's special-equivalence can be determined by the counts of characters at even positions and odd positions separately.",
+      "A tuple of these counts serves as a unique identifier for each special-equivalence group."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

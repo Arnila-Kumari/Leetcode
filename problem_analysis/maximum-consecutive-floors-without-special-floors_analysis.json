@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-consecutive-floors-without-special-floors",
+  "data_structures": [
+    [
+      "list of integers (sorted)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sorting and iterating to find maximum gaps between special floors."
+  ],
+  "problem_summary_simple": "Find the longest stretch of non-special floors between the bottom and top floors.",
+  "problem_summary_technical": "Sort special floors and calculate max difference between adjacent special floors and boundaries.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the special floors is crucial to easily identify consecutive segments.",
+      "The maximum consecutive floors will occur either before the first special floor, after the last, or between two adjacent special floors.",
+      "The number of floors in a range [a, b] is b - a + 1. The number of non-special floors between special[i-1] and special[i] is special[i] - special[i-1] - 1."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:52:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

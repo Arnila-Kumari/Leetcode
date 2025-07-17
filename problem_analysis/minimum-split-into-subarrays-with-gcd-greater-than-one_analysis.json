@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-split-into-subarrays-with-gcd-greater-than-one",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using GCD calculation."
+  ],
+  "problem_summary_simple": "Split an array into minimum subarrays where each subarray's GCD is greater than 1.",
+  "problem_summary_technical": "Iterate through the array, maintaining a running GCD. If GCD becomes 1, start a new subarray and reset the running GCD.",
+  "time_complexity": [
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy works because we want to extend the current subarray as much as possible while maintaining a GCD > 1.",
+      "If the running GCD drops to 1, it means the current element cannot be included in the current subarray without violating the condition.",
+      "The `gcd` function is a fundamental building block for this problem."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

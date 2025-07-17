@@ -1,0 +1,31 @@
+{
+  "problem_name": "design-parking-system",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Maintain counts of available parking spots for each car type in an array."
+  ],
+  "problem_summary_simple": "Design a parking system that tracks available spots for big, medium, and small cars.",
+  "problem_summary_technical": "Uses an array to store counts of available slots for each car type (1, 2, 3) and decrements on car addition.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A simple array indexed by car type provides efficient O(1) access.",
+      "The problem is straightforward, focusing on state management.",
+      "No complex data structures are needed due to fixed car types and limited operations."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

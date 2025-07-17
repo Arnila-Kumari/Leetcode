@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimize-maximum-of-array",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: move value from right to left to balance the array.",
+    "Maintain prefix sums and calculate average for each prefix."
+  ],
+  "problem_summary_simple": "Minimize the maximum element in an array by moving values from right to left.",
+  "problem_summary_technical": "Greedily move values from right to left to balance the array. The minimum maximum is the maximum of prefix averages.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operation of moving a value from `nums[i]` to `nums[i-1]` effectively redistributes the sum.",
+      "To minimize the maximum element, we want to make the prefix sums as evenly distributed as possible.",
+      "The minimum possible maximum value for any prefix `nums[0...i]` is the ceiling of the average of that prefix (`ceil(sum(nums[0...i]) / (i+1))`). The overall minimum maximum is the maximum of these prefix averages."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

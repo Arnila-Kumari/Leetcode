@@ -1,0 +1,34 @@
+{
+  "problem_name": "display-table-of-food-orders-in-a-restaurant",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "collections.Counter",
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Using hash maps (defaultdict and Counter) to aggregate order counts per table and food item, then sorting for output."
+  ],
+  "problem_summary_simple": "Create a table showing food order counts for each table, with tables and food items sorted alphabetically/numerically.",
+  "problem_summary_technical": "Aggregates orders using defaultdict and Counter, then sorts food items and tables to construct the final display table.",
+  "time_complexity": [
+    "O(N + T log T + F log F), where N is orders, T is unique tables, F is unique food items"
+  ],
+  "space_complexity": [
+    "O(N), to store the aggregated counts"
+  ],
+  "key_insights": [
+    [
+      "A nested dictionary or defaultdict of Counters is ideal for storing counts of food items per table.",
+      "Collecting all unique food items and sorting them is necessary for the header row and consistent column order.",
+      "Sorting the tables numerically ensures the rows are in the correct order."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

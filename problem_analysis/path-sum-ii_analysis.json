@@ -1,0 +1,33 @@
+{
+  "problem_name": "path-sum-ii",
+  "data_structures": [
+    [
+      "binary tree",
+      "list of lists",
+      "recursion stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) with backtracking to find all root-to-leaf paths summing to target."
+  ],
+  "problem_summary_simple": "Find all root-to-leaf paths in a binary tree that sum up to a target value.",
+  "problem_summary_technical": "Uses DFS with backtracking to explore all root-to-leaf paths, accumulating sums and storing valid paths.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "This problem extends Path Sum I by requiring all valid paths, not just existence.",
+      "Backtracking is essential to explore different path branches and revert state.",
+      "A helper function is used to manage the current path and remaining sum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,43 @@
+{
+  "problem_name": "bulls-and-cows",
+  "data_structures": [
+    [
+      "defaultdict",
+      "Counter"
+    ],
+    [
+      "Counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "One-pass approach using a hashmap to track counts of digits, incrementing bulls and cows simultaneously.",
+    "Two-pass approach: first count bulls, then count cows by comparing character counts of secret and guess."
+  ],
+  "problem_summary_simple": "Given a secret number and a guess, return a hint indicating bulls (correct digit, correct position) and cows (correct digit, wrong position).",
+  "problem_summary_technical": "Calculate bulls by direct character match. Calculate cows by counting common digits in non-bull positions using frequency maps.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(10) = O(1)",
+    "O(10) = O(1)"
+  ],
+  "key_insights": [
+    [
+      "The one-pass solution cleverly uses a hashmap to track the balance of digits. Positive values indicate excess in secret, negative in guess.",
+      "A digit contributes to a cow if it's present in both secret and guess but not in the same position.",
+      "The `lookup[s] < 0` and `lookup[g] > 0` logic correctly identifies digits that are in the wrong position but present in the other string."
+    ],
+    [
+      "The two-pass solution is more intuitive: first, identify and count bulls directly.",
+      "Then, use frequency counters (like `collections.Counter`) to find the intersection of digits between secret and guess.",
+      "Subtracting the bull count from the intersection count gives the cow count."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

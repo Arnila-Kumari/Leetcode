@@ -1,0 +1,31 @@
+{
+  "problem_name": "make-array-non-decreasing",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: iterate and merge subarrays if the current element is greater than or equal to the previous merged element."
+  ],
+  "problem_summary_simple": "Maximize the size of a non-decreasing array by merging subarrays into their maximum element.",
+  "problem_summary_technical": "Greedily iterate through the array, merging elements into a non-decreasing sequence by replacing subarrays with their maximum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by always trying to extend the current non-decreasing sequence.",
+      "If the current element `x` is greater than or equal to the `prev` element in the non-decreasing sequence, we can include `x` and update `prev` to `x`.",
+      "This effectively merges any elements between the previous element and `x` into `x`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

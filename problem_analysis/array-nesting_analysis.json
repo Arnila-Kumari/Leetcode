@@ -1,0 +1,32 @@
+{
+  "problem_name": "array-nesting",
+  "data_structures": [
+    [
+      "list",
+      "null marker"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array, and for each unvisited element, traverse its chain, marking visited elements, to find the longest chain."
+  ],
+  "problem_summary_simple": "Find the longest sequence formed by following indices in an array, stopping at duplicates.",
+  "problem_summary_technical": "Treat the array as a directed graph where each index points to the value at that index. Find the longest simple path in this graph.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Each element belongs to exactly one cycle or path leading to a cycle.",
+      "Marking visited elements (e.g., by setting to None) prevents redundant traversals and ensures O(n) time.",
+      "The problem is equivalent to finding the longest cycle in a permutation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

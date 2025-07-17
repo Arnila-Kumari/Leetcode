@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-lucky-integer-in-an-array",
+  "data_structures": [
+    [
+      "hash map (collections.Counter)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting using a hash map and checking for value-frequency equality."
+  ],
+  "problem_summary_simple": "Find the largest number whose frequency in the array equals its value.",
+  "problem_summary_technical": "Uses a hash map to count frequencies of each number. Iterates through the map to find numbers where the key (value) equals the value (frequency).",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core of the problem is to count the occurrences of each number in the array.",
+      "A hash map (like `collections.Counter`) is an efficient data structure for frequency counting.",
+      "After counting, iterate through the map to find numbers that satisfy the 'lucky' condition (value == frequency) and return the maximum."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

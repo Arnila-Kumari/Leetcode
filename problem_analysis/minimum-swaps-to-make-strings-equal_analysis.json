@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-swaps-to-make-strings-equal",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Count mismatches of type 'xy' and 'yx', then use greedy swaps."
+  ],
+  "problem_summary_simple": "Find the minimum swaps between two strings to make them identical, using only 'x' and 'y'.",
+  "problem_summary_technical": "Count 'xy' and 'yx' mismatches. Two 'xy' or two 'yx' need one swap. One 'xy' and one 'yx' need two swaps. Impossible if mismatch counts have different parity.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to identify pairs of differing characters ('xy' and 'yx').",
+      "Two 'xy' mismatches can be resolved with one swap (swap s1[i] with s2[j] where s1[i]='x', s2[j]='y').",
+      "One 'xy' and one 'yx' mismatch require two swaps to resolve."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-subarrays-of-length-three-with-a-condition",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array, checking the condition for each subarray of length 3."
+  ],
+  "problem_summary_simple": "Count subarrays of length 3 where the first and third elements sum to half the second.",
+  "problem_summary_technical": "A simple linear scan checks every possible subarray of length 3 against the given arithmetic condition.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The condition `(nums[i-1] + nums[i+1]) * 2 == nums[i]` directly translates the problem statement.",
+      "A single pass through the array is sufficient as we only need to consider fixed-size windows.",
+      "Edge cases for array bounds (i-1 and i+1) are handled by the loop range."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

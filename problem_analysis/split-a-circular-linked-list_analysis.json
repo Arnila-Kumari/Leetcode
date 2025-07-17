@@ -1,0 +1,31 @@
+{
+  "problem_name": "split-a-circular-linked-list",
+  "data_structures": [
+    [
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Slow and fast pointer to find the middle of a circular linked list"
+  ],
+  "problem_summary_simple": "Split a circular linked list into two halves: the first half has ceil(length/2) nodes.",
+  "problem_summary_technical": "Uses slow and fast pointers to find the middle of a circular list and then splits it into two circular lists.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The slow and fast pointer technique is crucial for finding the middle of a linked list.",
+      "In a circular linked list, the fast pointer needs careful handling to avoid infinite loops and correctly identify the end of the first half.",
+      "After finding the split point, re-linking the nodes to form two new circular lists is necessary."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

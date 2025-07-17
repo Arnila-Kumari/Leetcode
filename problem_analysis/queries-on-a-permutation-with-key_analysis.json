@@ -1,0 +1,32 @@
+{
+  "problem_name": "queries-on-a-permutation-with-key",
+  "data_structures": [
+    [
+      "Fenwick Tree (BIT)",
+      "Hash Map"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Fenwick Tree for prefix sums and updates, Hash Map for element position tracking."
+  ],
+  "problem_summary_simple": "Process queries by finding an element's position, reporting it, and moving it to the front of a permutation.",
+  "problem_summary_technical": "Uses a Fenwick Tree to efficiently query the count of elements before a given position and a hash map to track element positions.",
+  "time_complexity": [
+    "O(n log m)"
+  ],
+  "space_complexity": [
+    "O(m)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is efficiently finding the position and updating the permutation. A Fenwick Tree (BIT) is ideal for this.",
+      "The BIT is used to count elements to the left of a given index. When an element is moved to the front, its effective index decreases.",
+      "A hash map is crucial for O(1) average time lookup of an element's current position in the BIT."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

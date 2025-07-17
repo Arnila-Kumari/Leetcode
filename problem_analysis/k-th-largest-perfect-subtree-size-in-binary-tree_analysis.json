@@ -1,0 +1,43 @@
+{
+  "problem_name": "k-th-largest-perfect-subtree-size-in-binary-tree",
+  "data_structures": [
+    [
+      "stack",
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS with post-order traversal to identify perfect subtrees and QuickSelect for k-th largest.",
+    "Recursive DFS to identify perfect subtrees and QuickSelect for k-th largest."
+  ],
+  "problem_summary_simple": "Find the size of the k-th largest perfect binary subtree in a given binary tree.",
+  "problem_summary_technical": "Uses DFS to compute subtree sizes, identifying perfect subtrees by checking left and right subtree sizes. Applies QuickSelect to find the k-th largest size.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A perfect binary subtree requires its left and right children to be perfect subtrees of equal size.",
+      "The size of a perfect subtree is 2 * size_of_child + 1.",
+      "QuickSelect is used to efficiently find the k-th largest element in O(n) average time."
+    ],
+    [
+      "The recursive DFS naturally handles the post-order traversal needed to calculate subtree properties.",
+      "The base case for recursion is an empty node, returning 0 size.",
+      "The condition `left == right != -1` is crucial for identifying perfect subtrees."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

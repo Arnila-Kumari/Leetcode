@@ -1,0 +1,46 @@
+{
+  "problem_name": "palindrome-permutation-ii",
+  "data_structures": [
+    [
+      "hashmap (collections.Counter)",
+      "list",
+      "list"
+    ],
+    [
+      "hashmap (collections.Counter)",
+      "list",
+      "set of tuples"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with permutation generation and duplicate handling",
+    "Permutation generation using itertools and set for uniqueness"
+  ],
+  "problem_summary_simple": "Generate all unique palindromic permutations of a given string.",
+  "problem_summary_technical": "Count frequencies, identify middle character, permute half the string, and construct palindromes.",
+  "time_complexity": [
+    "O(n * n!)",
+    "O(n * n!)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A string can form a palindrome if at most one character has an odd count.",
+      "The core idea is to generate permutations of half the string and then mirror it.",
+      "Handling duplicates during permutation generation is crucial (e.g., using `used` array and checking previous identical elements)."
+    ],
+    [
+      "Leveraging `itertools.permutations` simplifies the permutation generation.",
+      "Using a `set` automatically handles duplicate permutations.",
+      "The logic for identifying the middle character and constructing the palindrome remains the same."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

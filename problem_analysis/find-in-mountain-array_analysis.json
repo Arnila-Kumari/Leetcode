@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-in-mountain-array",
+  "data_structures": [
+    [
+      "MountainArray interface (simulated)",
+      "integer variables"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search to find peak, then binary search on both slopes"
+  ],
+  "problem_summary_simple": "Find the minimum index of a target value in a mountain array using limited array access.",
+  "problem_summary_technical": "Use binary search to find the peak, then perform two separate binary searches on the increasing and decreasing halves.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The mountain array structure allows for binary search on both its ascending and descending parts.",
+      "First, find the peak element's index using binary search by comparing adjacent elements.",
+      "Then, perform binary search for the target on the left (ascending) and right (descending) slopes separately."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

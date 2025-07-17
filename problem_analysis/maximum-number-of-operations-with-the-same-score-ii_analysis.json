@@ -1,0 +1,38 @@
+{
+  "problem_name": "maximum-number-of-operations-with-the-same-score-ii",
+  "data_structures": [
+    [
+      "list",
+      "dict"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Memoization (Top-Down DP) exploring three choices for each subproblem.",
+    "Recursive approach with memoization to find max operations for a given target score."
+  ],
+  "problem_summary_simple": "Maximize operations with the same sum by removing first two, last two, or first/last elements.",
+  "problem_summary_technical": "Uses memoization to explore three removal strategies (first two, last two, first/last) for a fixed target sum, trying all possible initial sums.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem has optimal substructure and overlapping subproblems, suitable for DP.",
+      "The target sum can be one of three initial possibilities: first two, last two, or first/last.",
+      "Memoization is crucial to avoid recomputing results for the same sub-array ranges and target sum."
+    ],
+    [
+      "The state of the DP can be defined by the remaining subarray (left and right pointers) and the target sum.",
+      "The transitions involve checking the three possible operations and recursively calling the function for the remaining subarray.",
+      "The base case is when the subarray has fewer than two elements, returning 0 operations."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

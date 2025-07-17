@@ -1,0 +1,43 @@
+{
+  "problem_name": "separate-squares-ii",
+  "data_structures": [
+    [
+      "list of tuples (events)",
+      "segment tree",
+      "set for unique x-coordinates",
+      "dictionary for x-to-index mapping"
+    ],
+    [
+      "list of tuples (events)"
+    ]
+  ],
+  "category": "Line Sweep",
+  "algorithm_technique": [
+    "Line sweep combined with a segment tree to handle overlapping areas.",
+    "Line sweep to calculate total area and then a linear scan to find the split point."
+  ],
+  "problem_summary_simple": "Find a horizontal line that splits the total *covered* area of squares equally above and below it.",
+  "problem_summary_technical": "Uses line sweep and a segment tree to manage unique covered areas, then finds the split point.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is handling overlapping areas correctly, which requires a data structure like a segment tree.",
+      "The segment tree efficiently tracks the total covered length along the x-axis for intervals between y-events."
+    ],
+    [
+      "The problem is similar to 'separate-squares-i' but requires accounting for unique covered areas.",
+      "The segment tree is crucial for calculating the area of union of rectangles."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

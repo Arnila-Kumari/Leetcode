@@ -1,0 +1,42 @@
+{
+  "problem_name": "maximum-amount-of-money-robot-can-earn",
+  "data_structures": [
+    [
+      "2D array (DP table)"
+    ],
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with state compression (optimized space)",
+    "Dynamic Programming with state compression (optimized space)"
+  ],
+  "problem_summary_simple": "Robot moves through a grid, collecting coins or losing to robbers, with limited ability to neutralize robbers.",
+  "problem_summary_technical": "2D DP to find max profit, considering robot's path (right/down) and robber neutralization states.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(min(m, n))",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the optimal path in a grid with costs.",
+      "A DP state needs to track current position and number of robber neutralizations used.",
+      "Space optimization is possible by only keeping the previous row/column's DP states."
+    ],
+    [
+      "The problem can be modeled as finding the optimal path in a grid with costs.",
+      "A DP state needs to track current position and number of robber neutralizations used.",
+      "Space optimization is possible by only keeping the previous row/column's DP states."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

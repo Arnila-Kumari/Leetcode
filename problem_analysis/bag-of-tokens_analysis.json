@@ -1,0 +1,32 @@
+{
+  "problem_name": "bag-of-tokens",
+  "data_structures": [
+    [
+      "sorted array (tokens)",
+      "integer variables (power, score, left/right pointers)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort tokens, then use a two-pointer approach: play smallest tokens face-up to gain score, and largest tokens face-down to gain power when needed."
+  ],
+  "problem_summary_simple": "Maximize score by playing tokens face-up (cost power, gain score) or face-down (cost score, gain power).",
+  "problem_summary_technical": "Sort tokens and use a two-pointer greedy strategy: play smallest tokens face-up if possible, otherwise play largest face-down if score > 0.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the tokens is crucial for the greedy strategy to work effectively.",
+      "The greedy choice is to play the smallest token face-up to maximize the chance of gaining more score later.",
+      "If unable to play face-up, playing the largest token face-down is optimal to regain power for future face-up plays."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

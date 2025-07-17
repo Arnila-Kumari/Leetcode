@@ -1,0 +1,44 @@
+{
+  "problem_name": "replace-elements-in-an-array",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ],
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a hashmap to store value-to-index mappings and update the array directly.",
+    "Use a hashmap to store value-to-index mappings and update the hashmap, then reconstruct the array."
+  ],
+  "problem_summary_simple": "Apply a series of replacements to array elements.",
+  "problem_summary_technical": "Uses a hashmap to track element positions, efficiently applying replacements and updating mappings.",
+  "time_complexity": [
+    "O(N + M)",
+    "O(N + M)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "A hashmap (dictionary in Python) is ideal for O(1) average time lookups of element positions.",
+      "When a value `x` is replaced by `y`, the mapping for `x` should be removed and `y` should be added with `x`'s original index.",
+      "The final array can be updated by iterating through the modified hashmap."
+    ],
+    [
+      "This approach updates the hashmap first, reflecting the final state of each number's position.",
+      "The `lookup.pop(x)` operation is crucial to maintain the correct mapping after a replacement.",
+      "The final array is constructed by iterating through the hashmap and placing values at their final indices."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

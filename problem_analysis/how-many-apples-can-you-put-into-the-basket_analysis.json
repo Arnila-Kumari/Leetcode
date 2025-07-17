@@ -1,0 +1,32 @@
+{
+  "problem_name": "how-many-apples-can-you-put-into-the-basket",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the apple weights and greedily pick the lightest ones until the basket capacity is reached."
+  ],
+  "problem_summary_simple": "Find the maximum number of apples that fit in a basket with a weight limit.",
+  "problem_summary_technical": "Greedily select the smallest weights from a sorted array until the sum exceeds the capacity limit.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting is crucial to ensure the greedy approach works correctly.",
+      "The problem can be solved by iterating through sorted weights and accumulating them.",
+      "Stop as soon as adding the next apple exceeds the basket's capacity."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

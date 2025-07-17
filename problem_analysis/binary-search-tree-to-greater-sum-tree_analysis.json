@@ -1,0 +1,32 @@
+{
+  "problem_name": "binary-search-tree-to-greater-sum-tree",
+  "data_structures": [
+    [
+      "binary tree",
+      "recursive function"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Perform a reverse in-order traversal (right, root, left) to sum nodes in descending order and update values."
+  ],
+  "problem_summary_simple": "Convert a BST to a greater sum tree where each node's value is the sum of itself and all greater nodes.",
+  "problem_summary_technical": "Utilize a reverse in-order traversal to accumulate sums from larger nodes to smaller nodes, updating node values in place.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "A reverse in-order traversal (right-root-left) is crucial for processing nodes in descending order.",
+      "A helper variable (passed by reference or as a mutable object like a list) is needed to maintain the running sum of greater nodes.",
+      "The BST property ensures that all nodes in the right subtree are greater than the current node."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

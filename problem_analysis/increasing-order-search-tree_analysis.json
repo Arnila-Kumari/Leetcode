@@ -1,0 +1,32 @@
+{
+  "problem_name": "increasing-order-search-tree",
+  "data_structures": [
+    [
+      "TreeNode (custom class)",
+      "Recursion stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "In-order traversal to get sorted nodes, then re-linking them into a right-skewed tree."
+  ],
+  "problem_summary_simple": "Convert a BST into a linked list-like structure where each node only has a right child.",
+  "problem_summary_technical": "Perform an in-order traversal, re-linking nodes to form a right-skewed tree with no left children.",
+  "time_complexity": [
+    "O(N) where N is the number of nodes in the tree."
+  ],
+  "space_complexity": [
+    "O(H) where H is the height of the tree, due to recursion stack. In worst case (skewed tree), O(N)."
+  ],
+  "key_insights": [
+    [
+      "An in-order traversal of a BST naturally visits nodes in ascending order.",
+      "The recursive helper function `increasingBSTHelper` effectively re-links nodes.",
+      "The `tail` parameter in the helper function keeps track of the previously processed node to link the current node's right child."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

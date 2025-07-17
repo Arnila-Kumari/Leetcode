@@ -1,0 +1,32 @@
+{
+  "problem_name": "sum-of-good-subsequences",
+  "data_structures": [
+    [
+      "defaultdict (dp)",
+      "defaultdict (cnt)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with frequency counting to track counts of good subsequences ending at a number."
+  ],
+  "problem_summary_simple": "Sum all good subsequences where consecutive elements differ by exactly 1.",
+  "problem_summary_technical": "Uses DP to count good subsequences ending at each number, considering previous numbers that differ by 1.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "A good subsequence is defined by consecutive elements having an absolute difference of 1.",
+      "The problem can be solved using dynamic programming. `dp[x]` can represent the sum of good subsequences ending with `x`.",
+      "To calculate `dp[x]`, we consider good subsequences ending at `x-1` and `x+1`. If a good subsequence ends at `x-1`, we can append `x` to it. Similarly for `x+1`. We also need to consider `x` itself as a subsequence of size 1. The count of such subsequences is `cnt[x-1] + cnt[x+1] + 1` (where `cnt[y]` is the number of good subsequences ending at `y`). The sum is then `dp[x-1] + dp[x+1] + x * (cnt[x-1] + cnt[x+1] + 1)`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

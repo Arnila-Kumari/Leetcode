@@ -1,0 +1,35 @@
+{
+  "problem_name": "maximum-sum-queries",
+  "data_structures": [
+    [
+      "array",
+      "list of tuples",
+      "stack",
+      "sorted list"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Sort queries and data points, then use a monotonic stack and binary search to efficiently find maximum sums.",
+    "Process queries offline by sorting them by x-coordinate."
+  ],
+  "problem_summary_simple": "For each query (x, y), find max nums1[j] + nums2[j] where nums1[j] >= x and nums2[j] >= y.",
+  "problem_summary_technical": "Sort queries and data points by x-coordinate. Use a monotonic stack to maintain candidate pairs (nums2[j], sum) for efficient lookup.",
+  "time_complexity": [
+    "O(n log n + m log m + m log n)"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "Processing queries offline (sorting them) is key to an efficient solution.",
+      "A monotonic stack can maintain a set of candidate pairs (nums2 value, sum) that are optimal for certain y-thresholds.",
+      "When considering a query (x, y), we only need to look at data points where nums1[j] >= x. The stack helps find the best nums2[j] >= y."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:55:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-houses-in-a-circular-street",
+  "data_structures": [
+    [
+      "Street object (interface)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Exploration and marking using street operations to find the total count."
+  ],
+  "problem_summary_simple": "Count houses on a circular street by opening and closing doors and moving.",
+  "problem_summary_technical": "Use street operations to mark visited houses by closing all doors, then find the first open door to count.",
+  "time_complexity": [
+    "O(k)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires interacting with a simulated environment (Street object).",
+      "The constraint k provides an upper bound for the number of houses, allowing for a bounded search.",
+      "A strategy to uniquely identify and count each house is needed, such as marking them."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:36:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

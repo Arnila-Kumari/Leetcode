@@ -1,0 +1,32 @@
+{
+  "problem_name": "range-sum-of-bst",
+  "data_structures": [
+    [
+      "binary tree",
+      "stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative in-order traversal (simulated with stack) with pruning."
+  ],
+  "problem_summary_simple": "Sum values of nodes in a BST that fall within a given inclusive range.",
+  "problem_summary_technical": "Iterative BST traversal using a stack, pruning branches that are outside the [low, high] range.",
+  "time_complexity": [
+    "O(N) in worst case, O(H + K) on average where K is number of nodes in range."
+  ],
+  "space_complexity": [
+    "O(H) where H is the height of the BST (for the stack)."
+  ],
+  "key_insights": [
+    [
+      "Leverage BST properties: left subtree values are smaller, right subtree values are larger.",
+      "Prune traversal: if node.val < low, only explore right subtree; if node.val > high, only explore left subtree.",
+      "An iterative approach using a stack is equivalent to a recursive DFS but avoids recursion depth limits."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:05:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

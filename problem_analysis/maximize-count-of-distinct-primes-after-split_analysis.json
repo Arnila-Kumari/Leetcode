@@ -1,0 +1,39 @@
+{
+  "problem_name": "maximize-count-of-distinct-primes-after-split",
+  "data_structures": [
+    [
+      "Segment Tree",
+      "SortedList",
+      "Hash Map"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Segment Tree with SortedList for prime occurrences and updates",
+    "Linear Sieve for precomputing smallest prime factors"
+  ],
+  "problem_summary_simple": "Split an array to maximize distinct primes in both parts after updates.",
+  "problem_summary_technical": "Uses a Segment Tree to maintain counts of distinct primes, updated via SortedLists for prime occurrences and a linear sieve for primality testing.",
+  "time_complexity": [
+    "O(r + n log n + q log n)"
+  ],
+  "space_complexity": [
+    "O(r + n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires efficiently calculating the sum of distinct primes in prefixes and suffixes after array updates.",
+      "A Segment Tree is suitable for range queries (distinct prime counts) and point updates (array modifications).",
+      "To handle distinct primes efficiently, we can use a SortedList to store indices of each prime and update the Segment Tree based on these occurrences."
+    ],
+    [
+      "Pre-computing primes using a linear sieve (SPF array) allows for O(1) primality checks after O(MAX_N) preprocessing.",
+      "The Segment Tree stores the count of distinct primes in ranges. Updates involve adding/removing indices from SortedLists associated with primes.",
+      "The optimal split point `k` is found by querying the Segment Tree for `distinct_primes(0, k-1) + distinct_primes(k, n-1)` for all `k`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:51:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

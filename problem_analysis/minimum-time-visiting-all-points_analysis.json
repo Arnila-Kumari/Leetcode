@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-time-visiting-all-points",
+  "data_structures": [
+    [
+      "list of points"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Greedy approach using Chebyshev distance for optimal movement between points."
+  ],
+  "problem_summary_simple": "Calculate the minimum time to visit a sequence of points on a 2D plane.",
+  "problem_summary_technical": "Calculates the minimum time by summing the Chebyshev distances between consecutive points in the given order.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The optimal movement strategy between two points involves maximizing diagonal moves.",
+      "The time taken between two points is determined by the maximum of the absolute differences in their x and y coordinates (Chebyshev distance).",
+      "The problem is a direct application of calculating the sum of Chebyshev distances between consecutive points."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:00:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "kth-largest-sum-in-a-binary-tree",
+  "data_structures": [
+    [
+      "queue",
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) to calculate level sums, then QuickSelect (nth_element) to find the kth largest."
+  ],
+  "problem_summary_simple": "Find the kth largest sum of node values at each level in a binary tree.",
+  "problem_summary_technical": "Utilizes BFS to compute level sums, storing them in a list. Applies QuickSelect (nth_element) for efficient kth largest element retrieval.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "BFS is a natural fit for level-order traversal and calculating level sums.",
+      "QuickSelect provides an average O(n) solution for finding the kth largest element, avoiding a full sort.",
+      "Handle the edge case where k is larger than the number of levels."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

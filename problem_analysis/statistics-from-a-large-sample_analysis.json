@@ -1,0 +1,32 @@
+{
+  "problem_name": "statistics-from-a-large-sample",
+  "data_structures": [
+    [
+      "array",
+      "bisect module"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterating through counts to find min/max, calculating mean, using prefix sums and binary search for median, finding max frequency for mode"
+  ],
+  "problem_summary_simple": "Calculate min, max, mean, median, and mode from a frequency count array.",
+  "problem_summary_technical": "Iterate count array for min/max/mean. Use prefix sums and bisect for median. Find max frequency for mode.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The input `count` array directly provides frequencies, allowing efficient calculation of statistics.",
+      "Prefix sums are crucial for efficiently finding the median in a frequency-based representation.",
+      "The `bisect` module in Python is ideal for finding insertion points in sorted data, which is useful for median calculation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

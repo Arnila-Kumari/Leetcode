@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-paths-with-the-given-xor-value",
+  "data_structures": [
+    [
+      "2D DP array (or equivalent for state tracking)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with XOR state"
+  ],
+  "problem_summary_simple": "Count paths from top-left to bottom-right in a grid where the XOR sum of path elements equals k.",
+  "problem_summary_technical": "Uses 2D DP where dp[i][j][xor_val] stores paths to (i,j) with XOR sum xor_val. Optimized to O(N*M*K) or O(M*K) space.",
+  "time_complexity": [
+    "O(m * n * 16)"
+  ],
+  "space_complexity": [
+    "O(n * 16)"
+  ],
+  "key_insights": [
+    [
+      "The state needs to include the current XOR sum.",
+      "The constraints on grid values (0-15) and k (0-15) allow for a small XOR state space (16 values).",
+      "The DP transition involves XORing the current cell's value with previous states."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

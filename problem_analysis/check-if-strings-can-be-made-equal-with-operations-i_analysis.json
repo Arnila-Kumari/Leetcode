@@ -1,0 +1,40 @@
+{
+  "problem_name": "check-if-strings-can-be-made-equal-with-operations-i",
+  "data_structures": [
+    [
+      "Counter (for frequency mapping)"
+    ],
+    []
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting of characters at even and odd indices separately.",
+    "Brute-force checking all possible swaps for the fixed length of 4."
+  ],
+  "problem_summary_simple": "Can two length-4 strings be made equal by swapping characters at indices i and i+2?",
+  "problem_summary_technical": "Checks if character counts at even indices and odd indices are the same for both strings.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The swap operation (i, i+2) preserves the parity of indices. Characters at even indices can only be swapped with other even indices, and similarly for odd indices.",
+      "Therefore, the set of characters at even positions in s1 must be the same as in s2, and the same for odd positions.",
+      "For a fixed small length like 4, brute-forcing all possible valid swaps is also feasible."
+    ],
+    [
+      "The swap operation (i, i+2) means characters at even indices can be rearranged among themselves, and characters at odd indices can be rearranged among themselves.",
+      "Thus, we only need to check if the multiset of characters at even indices in s1 matches s2, and the same for odd indices.",
+      "The brute-force solution explicitly checks the two possible arrangements for even indices and two for odd indices."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

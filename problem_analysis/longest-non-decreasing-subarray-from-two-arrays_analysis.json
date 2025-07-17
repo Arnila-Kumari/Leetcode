@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-non-decreasing-subarray-from-two-arrays",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming: dp[i][0] for nums1[i], dp[i][1] for nums2[i]."
+  ],
+  "problem_summary_simple": "Construct a new array by picking elements from two arrays to maximize the longest non-decreasing subarray.",
+  "problem_summary_technical": "DP state tracks the max non-decreasing subarray ending at index i, using either nums1[i] or nums2[i].",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved with DP by considering the last element chosen for the subarray.",
+      "At each index `i`, we can extend a non-decreasing subarray ending at `i-1` using either `nums1[i]` or `nums2[i]`.",
+      "The state transition depends on the comparison between the current element and the previous element, considering both choices from `nums1` and `nums2`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

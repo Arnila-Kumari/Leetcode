@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-word-in-dictionary-through-deleting",
+  "data_structures": [
+    [
+      "List",
+      "String"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sort dictionary by length (desc) and lexicographically (asc), then use two pointers to check if a word is a subsequence of s."
+  ],
+  "problem_summary_simple": "Find the longest word in a dictionary that can be formed by deleting characters from a given string.",
+  "problem_summary_technical": "Sorts the dictionary by length and lexicographical order, then uses a two-pointer approach to efficiently check if each dictionary word is a subsequence of the input string.",
+  "time_complexity": [
+    "O(D * L + D log D), where D is the number of words in the dictionary and L is the average length of words."
+  ],
+  "space_complexity": [
+    "O(1) if sorting is in-place, or O(D) for storing sorted dictionary."
+  ],
+  "key_insights": [
+    [
+      "Sorting the dictionary first significantly optimizes the search by prioritizing longer and lexicographically smaller words.",
+      "The two-pointer approach is efficient for checking subsequence relationships.",
+      "Early exit upon finding the first valid word after sorting guarantees the longest and lexicographically smallest result."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

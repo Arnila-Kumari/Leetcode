@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimize-maximum-value-in-a-grid",
+  "data_structures": [
+    [
+      "2D array",
+      "list of tuples"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort elements by value, then assign new values greedily based on row/column constraints."
+  ],
+  "problem_summary_simple": "Replace grid numbers so relative order is kept and max value is minimized.",
+  "problem_summary_technical": "Sort grid elements, then assign values greedily ensuring row/column constraints are met.",
+  "time_complexity": [
+    "O((m*n)log(m*n))"
+  ],
+  "space_complexity": [
+    "O(m*n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires maintaining relative order, which suggests processing elements in sorted order.",
+      "A greedy approach works: assign the smallest possible new value to the smallest original number.",
+      "The new value for an element depends on the maximum assigned value in its row and column so far."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

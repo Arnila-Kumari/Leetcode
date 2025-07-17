@@ -1,0 +1,72 @@
+{
+  "problem_name": "clone-binary-tree-with-random-pointer",
+  "data_structures": [
+    [
+      "Node",
+      "NodeCopy",
+      "list"
+    ],
+    [
+      "Node",
+      "NodeCopy",
+      "list"
+    ],
+    [
+      "Node",
+      "NodeCopy",
+      "dictionary"
+    ],
+    [
+      "Node",
+      "NodeCopy",
+      "dictionary"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS with node interleaving (merge, clone, split) for copying.",
+    "Recursive DFS with node interleaving (merge, clone, split) for copying.",
+    "Iterative DFS with a hash map to store mappings from original to copied nodes.",
+    "Recursive DFS with a hash map to store mappings from original to copied nodes."
+  ],
+  "problem_summary_simple": "Create a deep copy of a binary tree where each node also has a random pointer that can point to any node.",
+  "problem_summary_technical": "Uses node interleaving or a hash map to map original nodes to copied nodes, handling both structural and random pointer copies.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The node interleaving approach modifies the original tree temporarily to store copies, then restores it.",
+      "It avoids the explicit use of a hash map by using the `next` pointer (or `left` in this case) to link original and copied nodes.",
+      "Requires three passes: one to create copies, one to copy random pointers, and one to separate the trees."
+    ],
+    [
+      "The recursive version of node interleaving follows the same logic but uses the call stack.",
+      "It can be more concise but might hit recursion depth limits for very deep trees.",
+      "The core idea of linking original and copied nodes remains the same."
+    ],
+    [
+      "The hash map approach is more straightforward: map each original node to its copy.",
+      "It handles null pointers gracefully by mapping `None` to `None`.",
+      "This method is generally easier to understand and implement correctly."
+    ],
+    [
+      "The recursive hash map approach is a common and clean way to traverse and copy trees.",
+      "It naturally handles the tree structure and ensures all nodes and pointers are copied.",
+      "The hash map acts as memoization, preventing redundant copying of nodes."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:34:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

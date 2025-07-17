@@ -1,0 +1,31 @@
+{
+  "problem_name": "sum-game",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate prefix sums and counts of '?' for both halves. Analyze the difference and '?' counts to determine win condition."
+  ],
+  "problem_summary_simple": "Alice and Bob fill '?' in a string. Alice wins if the sums of the two halves are unequal after filling.",
+  "problem_summary_technical": "Analyze the difference between sums of known digits and the impact of '?' on both halves to predict game outcome.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to track the difference between the sums of the two halves and the number of question marks in each half.",
+      "Alice wins if she can force an unequal sum, which depends on the parity of '?' in the halves and the initial sum difference.",
+      "The optimal strategy for Alice is to maximize the difference, and for Bob is to minimize it."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

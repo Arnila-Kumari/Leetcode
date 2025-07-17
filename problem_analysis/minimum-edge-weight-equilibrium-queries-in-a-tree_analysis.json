@@ -1,0 +1,50 @@
+{
+  "problem_name": "minimum-edge-weight-equilibrium-queries-in-a-tree",
+  "data_structures": [
+    [
+      "list",
+      "dictionary",
+      "dictionary",
+      "list"
+    ],
+    [
+      "list",
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Offline LCA with Tarjan's algorithm and precomputed path counts",
+    "Online LCA with Binary Lifting and precomputed path counts"
+  ],
+  "problem_summary_simple": "Find minimum operations to equalize edge weights on paths between query nodes in a tree.",
+  "problem_summary_technical": "Use LCA and precomputed edge weight counts on paths from root to nodes to determine minimum operations for path equalization.",
+  "time_complexity": [
+    "O(r * (N + Q))",
+    "O(r * (N log N + Q log N))"
+  ],
+  "space_complexity": [
+    "O(r * N + Q)",
+    "O(r * N + N log N)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the minimum number of edge weight changes on a path between two nodes `a` and `b` such that all edges on that path have the same weight.",
+      "The optimal target weight for the path is the weight that appears most frequently on the path.",
+      "The minimum number of operations is the total number of edges on the path minus the count of the most frequent edge weight on that path.",
+      "This can be efficiently calculated using LCA and precomputed counts of each edge weight on the path from the root to each node. The count of a weight `w` on the path `a` to `b` is `count(w, root->a) + count(w, root->b) - 2 * count(w, root->LCA(a,b))`."
+    ],
+    [
+      "The first solution uses Tarjan's offline LCA algorithm, which processes queries during a single DFS traversal.",
+      "The second solution uses binary lifting for online LCA queries, which requires precomputing ancestor information.",
+      "Both solutions rely on pre-calculating `CNT[u][w]`, the count of edges with weight `w` on the path from the root to node `u`.",
+      "The time complexity is dominated by the LCA computation and the processing of queries. The offline approach is generally faster if queries can be processed together."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:57:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-sum-of-mountain-triplets-i",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix minimums and suffix minimums to find left and right smaller elements",
+    "Optimized prefix minimums and suffix minimums in a single pass"
+  ],
+  "problem_summary_simple": "Find the minimum sum of three numbers in an array where the middle number is greater than its neighbors.",
+  "problem_summary_technical": "Precompute minimums to the left and right of each element to efficiently find mountain triplets.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding `nums[i] < nums[j]` and `nums[k] < nums[j]` with `i < j < k`.",
+      "Precomputing the minimum element to the left of each index (`left[j]`) and to the right (`right[j]`) allows for O(1) checking for each `j`.",
+      "The overall time complexity becomes O(n) due to the three passes (left min, right min, main check)."
+    ],
+    [
+      "The first solution cleverly combines the left minimum calculation with the main iteration.",
+      "It maintains a `curr` variable for the minimum seen so far to the left.",
+      "The `right` array is still precomputed, but the left minimum is integrated into the main loop.",
+      "This reduces the number of explicit passes but conceptually still uses prefix/suffix minimums."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

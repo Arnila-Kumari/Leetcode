@@ -1,0 +1,32 @@
+{
+  "problem_name": "groups-of-strings",
+  "data_structures": [
+    [
+      "UnionFind",
+      "hashmap"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Union-Find with bitmasking to represent character sets and group connected strings."
+  ],
+  "problem_summary_simple": "Group strings based on character set similarity (add, delete, or replace one character). Find max groups and largest group size.",
+  "problem_summary_technical": "Uses Union-Find to group strings based on bitmask representations of their character sets, considering single-character edits.",
+  "time_complexity": [
+    "O(N * 2^26)"
+  ],
+  "space_complexity": [
+    "O(N * 2^26)"
+  ],
+  "key_insights": [
+    [
+      "Bitmasks are efficient for representing sets of lowercase English letters.",
+      "Union-Find is ideal for managing disjoint sets and merging connected components.",
+      "The connection logic (add/delete/replace one char) can be efficiently checked using bitwise operations on masks."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:46:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

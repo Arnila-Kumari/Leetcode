@@ -1,0 +1,32 @@
+{
+  "problem_name": "truncate-sentence",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Strings",
+  "algorithm_technique": [
+    "Linear scan to find the k-th space"
+  ],
+  "problem_summary_simple": "Truncate a sentence to its first k words.",
+  "problem_summary_technical": "Iterate through the string, counting spaces to find the end of the k-th word.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires identifying the boundary after the k-th word.",
+      "Spaces are the delimiters between words.",
+      "A single pass through the string, counting spaces, is sufficient.",
+      "If k spaces are found, the truncation point is just before the k-th space."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

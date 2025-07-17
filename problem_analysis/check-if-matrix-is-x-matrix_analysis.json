@@ -1,0 +1,31 @@
+{
+  "problem_name": "check-if-matrix-is-x-matrix",
+  "data_structures": [
+    [
+      "2D array (matrix)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through matrix elements, checking diagonal and non-diagonal conditions."
+  ],
+  "problem_summary_simple": "Is a square matrix an X-Matrix where diagonals are non-zero and other elements are zero?",
+  "problem_summary_technical": "Verify if elements on main/anti-diagonals are non-zero and all other elements are zero in an n x n matrix.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "An X-Matrix has specific conditions for diagonal elements (non-zero) and off-diagonal elements (zero).",
+      "The conditions can be checked by iterating through each cell and verifying its position relative to the diagonals.",
+      "The condition `(i-j == 0 or i+j == len(grid)-1) == (grid[i][j] != 0)` elegantly combines both requirements."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

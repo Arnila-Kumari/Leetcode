@@ -1,0 +1,44 @@
+{
+  "problem_name": "block-placement-queries",
+  "data_structures": [
+    [
+      "SortedList",
+      "Binary Indexed Tree (BIT)"
+    ],
+    [
+      "SortedList",
+      "Segment Tree"
+    ]
+  ],
+  "category": "Data Structures",
+  "algorithm_technique": [
+    "Maintain sorted obstacles, use BIT to track maximum gap sizes.",
+    "Maintain sorted obstacles, use Segment Tree to track maximum gap sizes."
+  ],
+  "problem_summary_simple": "Place obstacles and check if a block of a given size can fit before a certain point.",
+  "problem_summary_technical": "Uses SortedList to manage obstacle positions and BIT/Segment Tree to efficiently query maximum available space between obstacles.",
+  "time_complexity": [
+    "O(q log q)",
+    "O(q log q)"
+  ],
+  "space_complexity": [
+    "O(q)",
+    "O(q)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires efficiently finding the largest available contiguous segment on a line with dynamic obstacles.",
+      "A SortedList helps maintain obstacle positions, and a BIT/Segment Tree can store and query maximum gap sizes.",
+      "Processing queries in reverse can simplify updates for BIT/Segment Tree when obstacles are removed."
+    ],
+    [
+      "The core challenge is to find the maximum gap between obstacles up to a certain point.",
+      "A Segment Tree can effectively store and query the maximum gap size in a range.",
+      "The mapping of obstacle values to indices in the Segment Tree is crucial for efficient updates."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:33:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

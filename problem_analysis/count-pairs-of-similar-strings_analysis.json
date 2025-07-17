@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-pairs-of-similar-strings",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "integer bitmask"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "For each word, create a bitmask representing the set of unique characters present. Use a frequency map to store counts of these bitmasks. Iterate through the words, add the count of existing bitmasks to the result, and then increment the count for the current word's bitmask."
+  ],
+  "problem_summary_simple": "Count pairs of strings that contain the same set of unique characters.",
+  "problem_summary_technical": "Converts each string's unique characters into a bitmask. Uses a frequency map (Counter) to store counts of these bitmasks and efficiently finds pairs with identical masks.",
+  "time_complexity": [
+    "O(n * l)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Representing the set of characters in a string using a bitmask is an efficient way to compare character sets.",
+      "A frequency map (Counter) is used to count occurrences of each unique character set (bitmask).",
+      "The problem reduces to counting pairs of identical bitmasks."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

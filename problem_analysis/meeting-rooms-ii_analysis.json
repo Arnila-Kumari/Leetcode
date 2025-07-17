@@ -1,0 +1,46 @@
+{
+  "problem_name": "meeting-rooms-ii",
+  "data_structures": [
+    [
+      "list",
+      "heapq module (min-heap)"
+    ],
+    [
+      "list",
+      "two pointers"
+    ],
+    [
+      "list",
+      "heapq module (min-heap)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Sweep line algorithm: mark start and end times, sort, and track active meetings.",
+    "Two pointers: sort start and end times separately and compare to count rooms.",
+    "Min-heap: store end times of ongoing meetings and assign new meetings to available rooms."
+  ],
+  "problem_summary_simple": "Find the minimum number of conference rooms needed to accommodate all meetings.",
+  "problem_summary_technical": "Track room allocations using a sweep line, two pointers on sorted start/end times, or a min-heap of meeting end times.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be viewed as finding the maximum number of overlapping intervals at any point in time.",
+      "The sweep line approach efficiently handles overlapping events by processing them chronologically.",
+      "The heap-based solution is intuitive: a room is needed if no existing room is free by the meeting's start time."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-distance-between-bst-nodes",
+  "data_structures": [
+    [
+      "Binary Tree",
+      "variable to store previous node value"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "In-order traversal of the BST to visit nodes in ascending order and track minimum difference."
+  ],
+  "problem_summary_simple": "Find the smallest difference between any two node values in a Binary Search Tree.",
+  "problem_summary_technical": "Perform an in-order traversal of the BST. The minimum difference will be between adjacent nodes in the sorted sequence.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h) where h is the height of the tree (for recursion stack)"
+  ],
+  "key_insights": [
+    [
+      "The property of a Binary Search Tree is that an in-order traversal visits nodes in ascending order.",
+      "Therefore, the minimum difference between any two nodes must occur between adjacent nodes in this sorted sequence.",
+      "A simple in-order traversal, keeping track of the previously visited node's value, is sufficient to find this minimum difference."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:57:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "convert-binary-number-in-a-linked-list-to-integer",
+  "data_structures": [
+    [
+      "Linked List"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterative traversal with bit shifting"
+  ],
+  "problem_summary_simple": "Convert a binary number represented in a linked list to its decimal integer value.",
+  "problem_summary_technical": "Iterate through a singly-linked list, treating node values as binary digits, to compute the decimal equivalent.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The most significant bit is at the head, allowing for a direct left-shift and add approach.",
+      "The calculation `result = result * 2 + head.val` effectively performs a left bit shift and adds the current bit.",
+      "The solution is efficient as it only requires a single pass through the linked list."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

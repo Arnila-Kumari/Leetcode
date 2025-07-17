@@ -1,0 +1,47 @@
+{
+  "problem_name": "sliding-puzzle",
+  "data_structures": [
+    [
+      "tuple",
+      "set",
+      "list"
+    ],
+    [
+      "heap",
+      "dict",
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "A* search with heuristic",
+    "A* search with priority queue and heuristic"
+  ],
+  "problem_summary_simple": "Find the minimum moves to solve a 2x3 sliding puzzle.",
+  "problem_summary_technical": "State-space search using A* algorithm with Manhattan distance heuristic to find the shortest path from initial to target board configuration.",
+  "time_complexity": [
+    "O((m * n) * (m * n)!)",
+    "O((m * n) * (m * n)! * log((m * n)!))"
+  ],
+  "space_complexity": [
+    "O((m * n) * (m * n)!)",
+    "O((m * n) * (m * n)!)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a shortest path problem on a graph where states are board configurations.",
+      "A* search is suitable due to the need for an optimal solution and the availability of a good heuristic (Manhattan distance).",
+      "Representing board states as tuples allows for efficient hashing and storage in sets/dictionaries."
+    ],
+    [
+      "Using a priority queue (heap) for A* search ensures exploration of states with the lowest estimated total cost first.",
+      "The heuristic function (Manhattan distance) is admissible and consistent, guaranteeing optimality.",
+      "Pre-calculating the target state and possible moves from each zero position optimizes neighbor generation."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:19:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "the-wording-game",
+  "data_structures": [
+    [
+      "list of strings",
+      "integer indices"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy simulation of game turns, tracking available words and player turns."
+  ],
+  "problem_summary_simple": "Alice and Bob play a word game. Players must play a word lexicographically greater than the last, with a specific first letter rule. Alice wins if she can force a win.",
+  "problem_summary_technical": "Simulates a turn-based game where players select words from sorted lists based on lexicographical order and first letter constraints, determining winnability.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The game can be simulated turn by turn, focusing on the current player's best move.",
+      "The 'closely greater' condition simplifies to checking the first letter and lexicographical order.",
+      "The problem can be viewed as a state-space search, but a greedy approach works due to the sorted nature of the input arrays."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

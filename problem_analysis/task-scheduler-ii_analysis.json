@@ -1,0 +1,31 @@
+{
+  "problem_name": "task-scheduler-ii",
+  "data_structures": [
+    [
+      "collections.defaultdict"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy simulation with a hash map to track last completion day."
+  ],
+  "problem_summary_simple": "Schedule tasks in order, respecting a minimum cooldown period between same-type tasks.",
+  "problem_summary_technical": "Uses a hash map to store the next available day for each task type, simulating day by day.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to track when each task type can be performed next.",
+      "For each task, determine the earliest day it can be done, considering its type and the `space` constraint.",
+      "The `result` variable tracks the current day, and `lookup[t]` stores the earliest day task `t` can be executed again."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

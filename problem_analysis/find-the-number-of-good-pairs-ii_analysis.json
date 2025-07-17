@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-number-of-good-pairs-ii",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting and iteration over multiples"
+  ],
+  "problem_summary_simple": "Count pairs (i, j) where nums1[i] is divisible by nums2[j] * k.",
+  "problem_summary_technical": "Uses a frequency map for k*nums2 elements to efficiently count divisors in nums1.",
+  "time_complexity": [
+    "O(M + N + R log R)"
+  ],
+  "space_complexity": [
+    "O(R)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating multiples of k from nums2 and their frequencies is key.",
+      "Iterating through nums1 and checking for divisibility by pre-calculated multiples optimizes the search.",
+      "The constraint on values (up to 10^6) suggests a solution that doesn't involve O(N*M) brute force."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

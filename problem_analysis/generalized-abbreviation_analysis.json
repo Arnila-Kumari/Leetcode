@@ -1,0 +1,32 @@
+{
+  "problem_name": "generalized-abbreviation",
+  "data_structures": [
+    [
+      "list of strings",
+      "list of characters"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Recursive backtracking to explore all abbreviation possibilities"
+  ],
+  "problem_summary_simple": "Generate all valid generalized abbreviations of a given word by replacing substrings with their lengths.",
+  "problem_summary_technical": "Backtracking explores choices at each character: keep it or start an abbreviation. If abbreviating, decide the length of the numeric part.",
+  "time_complexity": [
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to make a decision at each character: either include it as is or start/continue an abbreviation.",
+      "Need to handle the constraint that abbreviations cannot be adjacent or overlapping.",
+      "The state in recursion needs to track the current index and the partially built abbreviation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

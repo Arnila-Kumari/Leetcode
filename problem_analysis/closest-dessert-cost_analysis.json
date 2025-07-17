@@ -1,0 +1,66 @@
+{
+  "problem_name": "closest-dessert-cost",
+  "data_structures": [
+    [
+      "list",
+      "boolean array (DP)"
+    ],
+    [
+      "list",
+      "set",
+      "list"
+    ],
+    [
+      "list",
+      "list",
+      "set"
+    ],
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Dynamic Programming (0/1 Knapsack variation) to find all possible costs.",
+    "Backtracking to explore all combinations of toppings for each base.",
+    "Meet-in-the-middle (generating combinations for half the toppings and then searching).",
+    "Brute force combination generation for toppings."
+  ],
+  "problem_summary_simple": "Find the dessert cost closest to a target, choosing one base and up to two of each topping.",
+  "problem_summary_technical": "Find closest dessert cost. DP, backtracking, or combination generation explores base + topping costs against target.",
+  "time_complexity": [
+    "O(m * t)",
+    "O(n * 3^m)",
+    "O(m * 3^(m/2) + n * log(3^(m/2)))",
+    "O(n * 3^m)"
+  ],
+  "space_complexity": [
+    "O(t)",
+    "O(m * t)",
+    "O(3^(m/2))",
+    "O(3^m)"
+  ],
+  "key_insights": [
+    [
+      "DP approach builds up possible costs. The state `dp[i]` indicates if cost `i` is achievable.",
+      "Iterating toppings multiple times (up to `max_count`) and updating DP table is key."
+    ],
+    [
+      "Backtracking explores all possibilities by recursively adding toppings (0, 1, or 2 of each).",
+      "A lookup set prevents redundant computations for the same (index, cost) state."
+    ],
+    [
+      "Meet-in-the-middle splits toppings, generates combinations for each half, and then merges.",
+      "Binary search on sorted combinations helps find the closest match efficiently."
+    ],
+    [
+      "Generating all possible topping combinations and then checking against each base is a direct approach.",
+      "The `min` function with a `key` lambda handles tie-breaking for closest cost."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

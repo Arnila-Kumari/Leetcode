@@ -1,0 +1,32 @@
+{
+  "problem_name": "max-area-of-island",
+  "data_structures": [
+    [
+      "list of lists (grid)",
+      "list (for area tracking)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Depth First Search (DFS) to explore connected land cells and calculate island area, marking visited cells."
+  ],
+  "problem_summary_simple": "Find the largest connected group of '1's (land) in a grid, where connections are horizontal or vertical.",
+  "problem_summary_technical": "Use DFS to traverse connected components of '1's in a grid, marking visited cells to avoid recounting and track the maximum area found.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the largest connected component in a graph where grid cells are nodes and adjacent '1's have edges.",
+      "DFS or BFS are suitable for exploring connected components.",
+      "Modifying the grid in-place (e.g., by negating values) is an efficient way to mark visited cells without using extra space for a visited set."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:58",
+  "batch_processed": true,
+  "batch_size": 4
+}

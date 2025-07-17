@@ -1,0 +1,40 @@
+{
+  "problem_name": "count-special-quadruplets",
+  "data_structures": [
+    [
+      "collections.defaultdict"
+    ],
+    [
+      "collections.defaultdict"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate c, b, a, use hashmap for nums[d] lookup",
+    "Precompute c, d pairs, then iterate a, b and lookup"
+  ],
+  "problem_summary_simple": "Find quadruplets (a, b, c, d) where nums[a] + nums[b] + nums[c] == nums[d] and indices are strictly increasing.",
+  "problem_summary_technical": "Iterate through indices to find quadruplets satisfying sum condition. Optimized solutions use hash maps for efficient lookups.",
+  "time_complexity": [
+    "O(n^3)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The O(n^3) solution iterates through c, b, and a, and uses a hashmap to store counts of nums[d] values encountered so far.",
+      "The hashmap is populated from right to left to ensure the index condition (a < b < c < d) is met implicitly."
+    ],
+    [
+      "The O(n^2) solution pre-computes pairs of (c, d) and stores the count of valid sums (nums[d] - nums[c]) in a hashmap.",
+      "It then iterates through pairs of (a, b) and checks if the required sum (nums[a] + nums[b]) exists in the pre-computed hashmap."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

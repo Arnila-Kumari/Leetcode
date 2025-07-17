@@ -1,0 +1,32 @@
+{
+  "problem_name": "booking-concert-tickets-in-groups",
+  "data_structures": [
+    [
+      "Segment Tree",
+      "Array"
+    ]
+  ],
+  "category": "Data Structures",
+  "algorithm_technique": [
+    "Segment Tree to manage available seats per row and total available seats, supporting efficient queries and updates."
+  ],
+  "problem_summary_simple": "Book concert tickets for groups that need to sit together or separately, prioritizing lower rows and seats.",
+  "problem_summary_technical": "Segment Tree stores available seats per row and total available seats, enabling efficient 'gather' (contiguous) and 'scatter' (anywhere) bookings.",
+  "time_complexity": [
+    "ctor: O(n), gather: O(log n), scatter: O(log n) amortized"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires efficient management of available seats in rows and the ability to find contiguous blocks or individual seats.",
+      "A Segment Tree is ideal for this, storing information about available seats (count and first available seat) per row.",
+      "The 'gather' operation involves finding the first row with enough contiguous seats, while 'scatter' involves distributing seats across rows."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:33:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

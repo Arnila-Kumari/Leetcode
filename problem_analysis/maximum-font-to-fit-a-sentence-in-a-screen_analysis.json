@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-font-to-fit-a-sentence-in-a-screen",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on font sizes, check function uses character counts and font info."
+  ],
+  "problem_summary_simple": "Find the largest font size from a given list that fits a sentence within screen dimensions.",
+  "problem_summary_technical": "Binary search over available font sizes. For each size, calculate text width using character counts and FontInfo, checking against screen width and height.",
+  "time_complexity": [
+    "O(N + M log M)"
+  ],
+  "space_complexity": [
+    "O(U)"
+  ],
+  "key_insights": [
+    [
+      "The problem has a monotonic property: if a font size fits, all smaller sizes also fit.",
+      "Binary search is efficient for finding the maximum fitting font size.",
+      "Pre-calculating character counts optimizes width calculation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

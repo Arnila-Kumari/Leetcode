@@ -1,0 +1,46 @@
+{
+  "problem_name": "maximum-profit-in-job-scheduling",
+  "data_structures": [
+    [
+      "list of lists",
+      "sorted list",
+      "heap"
+    ],
+    [
+      "list of lists",
+      "sorted list",
+      "heap"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Sort jobs by end time, use DP with binary search to find the latest non-overlapping job.",
+    "Sort jobs by start time, use a min-heap to track available jobs and their profits."
+  ],
+  "problem_summary_simple": "Schedule jobs with start times, end times, and profits to maximize total profit without overlaps.",
+  "problem_summary_technical": "Dynamic programming with binary search on sorted jobs by end time, or a greedy approach with a min-heap on jobs sorted by start time.",
+  "time_complexity": [
+    "O(nlogn)",
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting jobs by end time allows for efficient DP state transitions.",
+      "Binary search is used to quickly find the latest compatible job.",
+      "The DP state `dp[i]` represents the maximum profit considering jobs up to index `i`."
+    ],
+    [
+      "Sorting jobs by start time and using a min-heap helps manage available jobs.",
+      "The heap stores (end_time, profit) of jobs that have been 'taken' and are waiting for their end time.",
+      "This approach can be viewed as a variation of interval scheduling with profits."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:18:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

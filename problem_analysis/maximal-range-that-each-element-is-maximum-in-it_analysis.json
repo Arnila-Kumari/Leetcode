@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximal-range-that-each-element-is-maximum-in-it",
+  "data_structures": [
+    [
+      "array",
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to find the nearest smaller elements to the left and right."
+  ],
+  "problem_summary_simple": "For each number, find the longest subarray where it's the maximum element.",
+  "problem_summary_technical": "Use a monotonic increasing stack to find the previous and next greater elements for each number.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A monotonic stack efficiently finds the nearest smaller elements.",
+      "The length of the subarray is determined by the distance between these smaller elements.",
+      "Appending infinity simplifies boundary conditions for the stack."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:04",
+  "batch_processed": true,
+  "batch_size": 4
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "total-cost-to-hire-k-workers",
+  "data_structures": [
+    [
+      "heap",
+      "array",
+      "two pointers"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "two heaps and two pointers"
+  ],
+  "problem_summary_simple": "Hire `k` workers by picking the cheapest from the first/last `candidates` workers in each round.",
+  "problem_summary_technical": "Use two min-heaps to manage the first and last `candidates` workers, and two pointers to track the boundaries.",
+  "time_complexity": [
+    "O(c + klogc)"
+  ],
+  "space_complexity": [
+    "O(c)"
+  ],
+  "key_insights": [
+    [
+      "Maintain two heaps: one for the first `candidates` workers and one for the last `candidates` workers.",
+      "Use two pointers to manage the active window of workers and efficiently add new candidates to the heaps as workers are hired."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

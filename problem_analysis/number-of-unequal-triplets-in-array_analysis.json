@@ -1,0 +1,45 @@
+{
+  "problem_name": "number-of-unequal-triplets-in-array",
+  "data_structures": [
+    [
+      "hashmap",
+      "collections.Counter",
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming approach using counts of numbers and previously formed k-plets."
+  ],
+  "problem_summary_simple": "Count triplets (i, j, k) with i < j < k and distinct nums[i], nums[j], nums[k].",
+  "problem_summary_technical": "DP state `dp[i]` stores the count of `(i+1)`-plets. Transition uses counts of current number and previous DP states.",
+  "time_complexity": [
+    "O(n*k) where k=3, effectively O(n)"
+  ],
+  "space_complexity": [
+    "O(n + k) where k=3, effectively O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for triplets (i, j, k) such that `i < j < k` and `nums[i] != nums[j]`, `nums[i] != nums[k]`, `nums[j] != nums[k]`.",
+      "A naive O(n^3) approach would iterate through all possible triplets and check the conditions.",
+      "The provided solution uses a more efficient DP approach."
+    ],
+    [
+      "Let `dp[i]` be the number of unequal `(i+1)`-plets found so far.",
+      "When considering a new number `x` from `nums`:",
+      "- To form a new 1-plet (just `x`), we add 1 to `dp[0]` (conceptually, but the code uses `other_cnt`).",
+      "- To form a new 2-plet (`y, x` where `y != x`), we take all existing 1-plets (`y`) and append `x`. The number of such `y` is `dp[0]` (before processing `x`).",
+      "- To form a new 3-plet (`y, z, x` where `y != z`, `y != x`, `z != x`), we take all existing 2-plets (`y, z`) and append `x`. The number of such `(y, z)` pairs is `dp[1]` (before processing `x`)."
+    ],
+    [
+      "The `other_cnt` variable cleverly tracks the number of valid `i`-plets that *do not* include the current number `x`.",
+      "When processing `x`, `dp[i]` is updated by adding `other_cnt`. This `other_cnt` represents the number of `(i+1)`-plets that can be formed by appending `x` to existing `i`-plets that don't contain `x`.",
+      "The `other_cnt` is then updated for the next iteration: `dp[i] - cnt[x] * other_cnt`. This subtracts the `i`-plets that *do* contain `x` (which would lead to duplicates if `x` were added again) and multiplies by `cnt[x]` to account for multiple occurrences of `x`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

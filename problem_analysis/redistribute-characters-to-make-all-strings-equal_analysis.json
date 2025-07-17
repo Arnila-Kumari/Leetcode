@@ -1,0 +1,31 @@
+{
+  "problem_name": "redistribute-characters-to-make-all-strings-equal",
+  "data_structures": [
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count character frequencies across all strings and check if each count is divisible by the number of strings."
+  ],
+  "problem_summary_simple": "Check if characters can be moved between strings to make all strings identical.",
+  "problem_summary_technical": "Count global character frequencies; if each character's count is divisible by the number of strings, redistribution is possible.",
+  "time_complexity": [
+    "O(N*L)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operation allows any character to be moved to any string, effectively pooling all characters.",
+      "For all strings to be equal, each character must appear a number of times that is a multiple of the total number of strings.",
+      "A frequency map (or array for fixed alphabet) is used to store counts."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-amount-of-damage-dealt-to-bob",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort enemies based on the ratio of (health/power) to damage. Iterate through sorted enemies, accumulating damage and calculating total damage dealt."
+  ],
+  "problem_summary_simple": "Minimize total damage Bob takes by strategically defeating enemies with his power.",
+  "problem_summary_technical": "Greedy approach: sort enemies by (health/power)/damage ratio. Accumulate damage over time as enemies are defeated sequentially.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The optimal strategy is to defeat enemies that are 'cheapest' to kill in terms of total damage taken by Bob.",
+      "The 'cost' of an enemy is related to how many turns it takes to defeat it and how much damage it deals per turn.",
+      "Sorting by the ratio of turns to damage per turn (health/power / damage) helps identify the most efficient enemies to target first."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

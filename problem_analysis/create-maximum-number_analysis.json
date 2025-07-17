@@ -1,0 +1,40 @@
+{
+  "problem_name": "create-maximum-number",
+  "data_structures": [
+    [
+      "array",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy selection of max digits from each array and merging",
+    "Dynamic programming to find max digits from subarrays and merging"
+  ],
+  "problem_summary_simple": "Combine digits from two arrays to form the largest possible number of a given length.",
+  "problem_summary_technical": "Select k digits from two arrays, preserving relative order, to form the lexicographically largest number of length k.",
+  "time_complexity": [
+    "O(k * (m + n + k))",
+    "O(k * (m + n))"
+  ],
+  "space_complexity": [
+    "O(m + n + k^2)",
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into selecting `i` digits from `nums1` and `k-i` from `nums2`.",
+      "A greedy approach (`max_digit`) is used to select the lexicographically largest subsequence of a given length.",
+      "Merging two subsequences requires a custom comparison to ensure the lexicographically largest result."
+    ],
+    [
+      "The problem involves finding the optimal split of `k` digits between the two arrays.",
+      "A helper function `max_digit` finds the lexicographically largest subsequence of a given length from a single array.",
+      "The `merge` function combines two such subsequences greedily."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:39:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

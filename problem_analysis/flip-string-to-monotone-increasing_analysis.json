@@ -1,0 +1,31 @@
+{
+  "problem_name": "flip-string-to-monotone-increasing",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with two variables tracking flips."
+  ],
+  "problem_summary_simple": "Find the minimum flips to make a binary string monotone increasing (0s then 1s).",
+  "problem_summary_technical": "Iterate through the string, maintaining counts of flips needed to end with 0 or 1.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering each position as a potential split point between 0s and 1s.",
+      "Maintain two counts: `flip0` (flips to make prefix all 0s) and `flip1` (flips to make prefix monotone increasing).",
+      "The transition `flip1 = min(flip0, flip1 + int(c == '0'))` is key: either flip the current '0' to '1' (cost `flip1 + 1`) or flip all previous '1's to '0' (cost `flip0`)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

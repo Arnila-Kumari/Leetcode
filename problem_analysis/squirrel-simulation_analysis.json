@@ -1,0 +1,32 @@
+{
+  "problem_name": "squirrel-simulation",
+  "data_structures": [
+    [
+      "integer variables for result and min_diff",
+      "list of nuts"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: calculate total distance to collect all nuts and return to the tree, then optimize by considering the first nut's trip from the squirrel."
+  ],
+  "problem_summary_simple": "Find the minimum moves for a squirrel to collect all nuts and bring them to the tree.",
+  "problem_summary_technical": "Sum of round trips to tree for all nuts, plus the initial one-way trip from squirrel to the closest nut, minus the return trip to the tree for that nut.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The total distance is the sum of (distance from nut to tree) * 2 for all nuts.",
+      "To minimize the total distance, the squirrel should pick the nut that minimizes (distance from squirrel to nut) - (distance from nut to tree) first.",
+      "Manhattan distance is used for movement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

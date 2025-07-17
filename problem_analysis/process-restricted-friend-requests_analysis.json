@@ -1,0 +1,31 @@
+{
+  "problem_name": "process-restricted-friend-requests",
+  "data_structures": [
+    [
+      "UnionFind (Disjoint Set Union)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find with path compression and union by rank"
+  ],
+  "problem_summary_simple": "Determine if friend requests are valid given restrictions, considering indirect friendships.",
+  "problem_summary_technical": "Uses Union-Find to track connected components. Checks restrictions against potential new connections by examining component representatives.",
+  "time_complexity": [
+    "O(r * (n * alpha(n)))"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that if two people are restricted, any two people within their respective connected components cannot become friends.",
+      "Union-Find is ideal for managing connected components and efficiently checking if two elements belong to the same set.",
+      "Processing requests sequentially and updating the Union-Find structure is crucial for maintaining the correct state."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

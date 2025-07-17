@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-all-groups-of-farmland",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate and find top-left corner, then expand to find bottom-right",
+    "In-place modification to mark visited farmland"
+  ],
+  "problem_summary_simple": "Find the top-left and bottom-right coordinates of all rectangular farmland groups.",
+  "problem_summary_technical": "Scan the grid, identify the top-left '1', expand to find the bottom-right '1', and mark visited cells.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A farmland group starts at the first '1' encountered when scanning row by row, column by column.",
+      "Once the top-left '1' is found, expand downwards and rightwards to find the extent of the rectangle.",
+      "Marking visited farmland cells (e.g., changing '1' to '-1') prevents re-processing and ensures each group is counted once."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,30 @@
+{
+  "problem_name": "maximum-array-hopping-score-ii",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate backwards, maintain max element seen so far, add it to result. This greedy approach works because the score is (j-i)*nums[j]."
+  ],
+  "problem_summary_simple": "Find the maximum score by hopping from index 0 to the last index, scoring (j-i)*nums[j] per hop.",
+  "problem_summary_technical": "Greedy: Iterate backwards, accumulating max(nums[j]) for j > i. This maximizes the multiplier for the largest preceding element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy approach works because to maximize the score at index `i`, we want to jump from the index `j` that has the largest `nums[j]` value among all `j < i`.",
+      "By iterating backward, we can efficiently find the maximum `nums[j]` for all preceding indices."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

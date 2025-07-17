@@ -1,0 +1,34 @@
+{
+  "problem_name": "maximum-strictly-increasing-cells-in-a-matrix",
+  "data_structures": [
+    [
+      "dictionary",
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with sorting based on cell values, using auxiliary arrays for row/column maxes."
+  ],
+  "problem_summary_simple": "Find the longest path in a matrix where moves are to greater values in the same row or column.",
+  "problem_summary_technical": "DP state dp[i][j] is the max increasing path ending at (i,j). Process cells by value, updating row/column maxes to efficiently calculate DP.",
+  "time_complexity": [
+    "O(M * N * log(M * N))"
+  ],
+  "space_complexity": [
+    "O(M * N)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be viewed as finding the longest path in a Directed Acyclic Graph (DAG).",
+      "Processing cells in increasing order of their values ensures that when we calculate dp[i][j], the values for smaller cells are already computed.",
+      "Using auxiliary arrays to track the maximum DP value seen so far in each row and column optimizes the calculation of dp[i][j]."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:54:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-asterisks",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "String",
+  "algorithm_technique": [
+    "Iterate through the string, maintaining a counter for the number of vertical bars encountered. Count asterisks only when the counter is even."
+  ],
+  "problem_summary_simple": "Count asterisks that are not between pairs of vertical bars.",
+  "problem_summary_technical": "A single pass through the string, using a parity counter for vertical bars to determine if an asterisk is within a pair.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by tracking the state of being inside or outside a pair of vertical bars.",
+      "A simple counter that toggles between 0 and 1 (or even/odd) is sufficient to manage this state.",
+      "Asterisks are only counted when the state indicates they are outside any pair of vertical bars."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:36:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

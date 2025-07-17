@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-sorted-vowel-strings",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorics: Stars and Bars problem formulation."
+  ],
+  "problem_summary_simple": "Count strings of length n using vowels (a, e, i, o, u) that are lexicographically sorted.",
+  "problem_summary_technical": "This is a stars and bars problem. The count is equivalent to combinations with repetition: C(n+k-1, k-1) where k=5 vowels.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be mapped to a stars and bars combinatorial problem.",
+      "The number of ways to choose n items from 5 categories with repetition allowed is C(n+5-1, 5-1) = C(n+4, 4).",
+      "The nCr function is implemented efficiently."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

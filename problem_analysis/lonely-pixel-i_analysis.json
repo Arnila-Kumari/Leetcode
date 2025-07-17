@@ -1,0 +1,44 @@
+{
+  "problem_name": "lonely-pixel-i",
+  "data_structures": [
+    [
+      "array",
+      "array"
+    ],
+    [
+      "zip iterator",
+      "list comprehension"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count black pixels per row and column, then check conditions.",
+    "Iterate through rows and columns using pre-computed counts."
+  ],
+  "problem_summary_simple": "Count black pixels that are alone in their row and column.",
+  "problem_summary_technical": "Pre-compute row and column sums of black pixels. A lonely pixel is 'B' where its row and column sums are 1.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m + n)",
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating row and column sums avoids repeated traversals.",
+      "A lonely pixel must have exactly one 'B' in its row and one 'B' in its column.",
+      "The second solution is a more concise Pythonic way to express the same logic."
+    ],
+    [
+      "Using `zip(*picture)` transposes the matrix, allowing column-wise operations.",
+      "The `count('B') == 1` checks for a single black pixel in a row/column.",
+      "The `picture[col.index('B')].count('B')` ensures the row also has only one black pixel."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

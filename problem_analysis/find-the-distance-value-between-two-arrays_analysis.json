@@ -1,0 +1,44 @@
+{
+  "problem_name": "find-the-distance-value-between-two-arrays",
+  "data_structures": [
+    [
+      "list",
+      "integer variables"
+    ],
+    [
+      "list",
+      "integer variables"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "For each element in arr1, use binary search on sorted arr2 to find closest elements and check distance condition.",
+    "Sort both arrays and use two pointers to efficiently compare elements and count valid distances."
+  ],
+  "problem_summary_simple": "Count elements in arr1 that are far from all elements in arr2 by a given distance d.",
+  "problem_summary_technical": "Iterate through arr1, using binary search or two pointers on sorted arr2 to check the distance condition |arr1[i] - arr2[j]| > d.",
+  "time_complexity": [
+    "O(n log m)",
+    "O(n log n + m log m)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting `arr2` is crucial for efficient searching (binary search or two pointers).",
+      "The `bisect_left` function helps find the insertion point, allowing efficient checking of neighbors.",
+      "Handling edge cases for `j-1` and `j` when they are out of bounds is important."
+    ],
+    [
+      "Sorting both arrays allows for a linear scan using two pointers after the initial sort.",
+      "The two-pointer approach efficiently checks the distance condition by advancing pointers based on element comparisons.",
+      "The logic correctly counts elements in `arr1` that satisfy the condition by advancing `i` and checking `j`'s position relative to `arr1[i]`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

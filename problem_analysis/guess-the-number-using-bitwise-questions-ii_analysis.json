@@ -1,0 +1,36 @@
+{
+  "problem_name": "guess-the-number-using-bitwise-questions-ii",
+  "data_structures": [
+    [],
+    []
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Query API with powers of 2, analyze difference in common bits to deduce XOR differences.",
+    "Uses `reduce` to build the result by checking bit differences based on API calls."
+  ],
+  "problem_summary_simple": "Find a hidden number that changes after each API call by analyzing common bits and XOR operations.",
+  "problem_summary_technical": "Leverages `commonBits(num)` which returns common bits and updates `n = n XOR num`. Analyzes changes in common bits to deduce original `n`.",
+  "time_complexity": [
+    "O(log N)",
+    "O(log N)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The change in `commonBits(1 << i)` between consecutive calls (or with 0) reveals information about the i-th bit.",
+      "If `commonBits(1 << i)` increases by 1 when querying `1 << i` compared to `0`, it implies the i-th bit of `n` is 1."
+    ],
+    [
+      "The `reduce` approach is a more concise way to express the bit-building logic.",
+      "The core idea is to isolate the effect of each bit of the query number on the `commonBits` count."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "magic-squares-in-grid",
+  "data_structures": [
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through all possible 3x3 subgrids and validate if each is a magic square.",
+    "Brute-force check of all 3x3 subgrids for magic square properties."
+  ],
+  "problem_summary_simple": "Count the number of 3x3 magic squares within a larger grid.",
+  "problem_summary_technical": "Iterates through all 3x3 subgrids, checking row, column, and diagonal sums, distinctness, and number range.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking a fixed-size subgrid (3x3).",
+      "A magic square has specific properties: distinct numbers 1-9, and equal sums for rows, columns, and diagonals.",
+      "The expected sum for a 3x3 magic square using numbers 1-9 is 15."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

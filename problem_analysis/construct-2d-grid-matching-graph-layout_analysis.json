@@ -1,0 +1,33 @@
+{
+  "problem_name": "construct-2d-grid-matching-graph-layout",
+  "data_structures": [
+    [
+      "adjacency list",
+      "distance array",
+      "queue"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "BFS to find distances from corners, then map nodes to grid coordinates."
+  ],
+  "problem_summary_simple": "Arrange graph nodes in a 2D grid so adjacent nodes are neighbors.",
+  "problem_summary_technical": "Construct a 2D grid layout for a graph where adjacency in the grid matches graph edges using BFS.",
+  "time_complexity": [
+    "O(n + E)"
+  ],
+  "space_complexity": [
+    "O(n + E)"
+  ],
+  "key_insights": [
+    [
+      "The nodes with the minimum degree (2) are the corners of the grid.",
+      "BFS from two different corners can establish the grid dimensions and node positions.",
+      "The Manhattan distance in the grid can be derived from the BFS distances."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

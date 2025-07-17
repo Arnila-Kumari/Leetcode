@@ -1,0 +1,42 @@
+{
+  "problem_name": "distribute-candies-among-children-ii",
+  "data_structures": [
+    [
+      "integer"
+    ],
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Inclusion-Exclusion Principle with combinations (nCr, nHr)",
+    "Optimized brute force iterating through possible values for the first child"
+  ],
+  "problem_summary_simple": "Count ways to give n candies to 3 kids, each getting at most limit.",
+  "problem_summary_technical": "Combinatorial problem solved using inclusion-exclusion or iterative counting of valid distributions under a limit for larger constraints.",
+  "time_complexity": [
+    "O(1)",
+    "O(limit)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "This problem is identical to 'Distribute Candies Among Children I' but with larger constraints, necessitating an O(1) or O(limit) solution.",
+      "The inclusion-exclusion principle remains the most efficient approach for these constraints.",
+      "The nCr and nHr functions are critical for the combinatorial calculations."
+    ],
+    [
+      "This optimized brute-force approach iterates through the possible number of candies for the first child.",
+      "For each value of the first child, it calculates the valid range for the second child and sums up the possibilities.",
+      "This is more efficient than a full brute-force but still depends on `limit`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

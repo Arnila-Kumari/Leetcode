@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-time-to-complete-trips",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer (time). For a given time, check if total trips can be completed."
+  ],
+  "problem_summary_simple": "Find the minimum time for all buses to complete a total number of trips, given their individual trip times.",
+  "problem_summary_technical": "Binary search on the total time. The check function sums trips completed by each bus at a given time `x` (`x // time[i]`).",
+  "time_complexity": [
+    "O(N log R)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem exhibits monotonicity: if `k` trips can be completed by time `t`, then `k` trips can also be completed by any time `t' > t`.",
+      "Binary search is suitable for finding the minimum value that satisfies a condition.",
+      "The upper bound for binary search can be estimated as `max(time) * totalTrips`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

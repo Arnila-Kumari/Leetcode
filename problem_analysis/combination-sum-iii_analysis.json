@@ -1,0 +1,32 @@
+{
+  "problem_name": "combination-sum-iii",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with recursion and constraints"
+  ],
+  "problem_summary_simple": "Find combinations of k unique numbers from 1-9 that sum to n.",
+  "problem_summary_technical": "Backtracking to find combinations of k unique numbers (1-9) summing to n, with pruning based on remaining count and sum.",
+  "time_complexity": [
+    "O(k * C(n, k))"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The numbers are restricted to 1-9 and must be unique.",
+      "Pruning is applied using `start < 10` and `start * k + k * (k - 1) / 2 <= target` to optimize search.",
+      "The base case checks for `k == 0` and `target == 0` to identify valid combinations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

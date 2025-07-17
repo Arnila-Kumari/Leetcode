@@ -1,0 +1,55 @@
+{
+  "problem_name": "maximum-length-of-repeated-subarray",
+  "data_structures": [
+    [
+      "2D array (optimized to 2 rows)"
+    ],
+    [
+      "hash map",
+      "list"
+    ],
+    [
+      "set",
+      "string"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with space optimization",
+    "Binary Search with Rolling Hash",
+    "Binary Search with Substring Lookup"
+  ],
+  "problem_summary_simple": "Find the longest common contiguous subarray between two integer arrays.",
+  "problem_summary_technical": "Uses DP to find longest common subarray, or binary search with rolling hash/substrings for optimization.",
+  "time_complexity": [
+    "O(m*n)",
+    "O(m*n*log(min(m,n)))",
+    "O(m*n*min(m,n)*log(min(m,n)))"
+  ],
+  "space_complexity": [
+    "O(min(m,n))",
+    "O(min(m,n))",
+    "O(min(m^2,n^2))"
+  ],
+  "key_insights": [
+    [
+      "DP state dp[i][j] represents the length of the longest common subarray ending at A[i-1] and B[j-1].",
+      "Space optimization reduces DP table to two rows.",
+      "The maximum value in the DP table is the answer."
+    ],
+    [
+      "Binary search on the possible length of the common subarray.",
+      "Rolling hash efficiently checks for substring equality.",
+      "Need to handle hash collisions by comparing actual substrings."
+    ],
+    [
+      "Binary search on the length of the subarray.",
+      "Convert arrays to strings for easier substring operations.",
+      "Using a set for lookup improves efficiency of checking for common substrings."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

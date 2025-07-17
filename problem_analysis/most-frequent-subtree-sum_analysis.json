@@ -1,0 +1,32 @@
+{
+  "problem_name": "most-frequent-subtree-sum",
+  "data_structures": [
+    [
+      "hashmap",
+      "binary tree"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "post-order traversal to calculate subtree sums and count frequencies"
+  ],
+  "problem_summary_simple": "Find the subtree sum that appears most often in a binary tree.",
+  "problem_summary_technical": "Uses a post-order traversal (DFS) to compute subtree sums, storing frequencies in a hashmap to identify the most frequent sum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A post-order traversal is natural for calculating subtree sums as children's sums are needed before the parent's.",
+      "A hashmap (defaultdict) efficiently stores and updates the frequency of each subtree sum.",
+      "Finding the maximum frequency after traversal allows for easy filtering of the most frequent sums."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

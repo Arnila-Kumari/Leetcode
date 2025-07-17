@@ -1,0 +1,31 @@
+{
+  "problem_name": "construct-string-from-binary-tree",
+  "data_structures": [
+    [
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Preorder traversal with recursive string building"
+  ],
+  "problem_summary_simple": "Convert a binary tree to a string with specific formatting rules for nodes and children.",
+  "problem_summary_technical": "Preorder traversal to build string, handling null children with specific parenthesis rules for unique reconstruction.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is a preorder traversal.",
+      "Special handling is needed for null left children when a right child exists to maintain unique reconstruction.",
+      "Recursion naturally handles the nested structure of the tree."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

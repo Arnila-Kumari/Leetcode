@@ -1,0 +1,29 @@
+{
+  "problem_name": "number-of-valid-clock-times",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorics and direct calculation of possibilities based on '?' positions."
+  ],
+  "problem_summary_simple": "Count how many valid times can be formed by replacing '?' in a 'hh:mm' string.",
+  "problem_summary_technical": "Calculates valid clock times by analyzing '?' positions in 'hh:mm' format, considering hour and minute constraints.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by breaking down the calculation for hours and minutes independently.",
+      "Carefully consider the constraints for the first digit of the hour (0-2) and the second digit (0-9 or 0-3 if hour starts with 2).",
+      "The minutes part is simpler, with 10 choices for the tens digit and 6 for the units digit."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:03:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

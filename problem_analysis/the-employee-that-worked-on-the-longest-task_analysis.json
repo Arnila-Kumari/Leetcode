@@ -1,0 +1,32 @@
+{
+  "problem_name": "the-employee-that-worked-on-the-longest-task",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through logs, calculate task durations, and track the longest duration and corresponding employee ID.",
+    "Use `max` with a custom key for concise selection."
+  ],
+  "problem_summary_simple": "Find the employee who worked on the longest task, breaking ties by smallest employee ID.",
+  "problem_summary_technical": "Iterate through logs, calculate task durations (leaveTime - previous leaveTime), find max duration, and handle ties.",
+  "time_complexity": [
+    "O(l)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Task duration is the difference between the current task's leave time and the previous task's leave time.",
+      "The 0th task starts at time 0.",
+      "When durations are equal, the employee with the smaller ID wins."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:12:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

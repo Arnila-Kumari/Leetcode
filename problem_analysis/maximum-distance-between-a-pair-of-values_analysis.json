@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-distance-between-a-pair-of-values",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers approach to efficiently find valid pairs in two non-increasing arrays."
+  ],
+  "problem_summary_simple": "Find the maximum distance between indices (i, j) such that i <= j and nums1[i] <= nums2[j].",
+  "problem_summary_technical": "Use two pointers, `i` for `nums1` and `j` for `nums2`. If `nums1[i] > nums2[j]`, increment `i`. Otherwise, update max distance and increment `j`.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Since both arrays are non-increasing, if `nums1[i] > nums2[j]`, then `nums1[i]` will also be greater than `nums2[k]` for all `k < j`.",
+      "This allows us to advance the `i` pointer when the condition `nums1[i] <= nums2[j]` is not met.",
+      "When `nums1[i] <= nums2[j]`, we have a valid pair, and we can potentially find a larger distance by advancing `j`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:52:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

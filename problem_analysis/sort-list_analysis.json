@@ -1,0 +1,31 @@
+{
+  "problem_name": "sort-list",
+  "data_structures": [
+    [
+      "ListNode"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Merge Sort (recursive divide and conquer)"
+  ],
+  "problem_summary_simple": "Sort a linked list in ascending order.",
+  "problem_summary_technical": "Sort a singly linked list using a recursive merge sort approach, splitting the list and merging sorted sublists.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(log n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved efficiently using Merge Sort, which is well-suited for linked lists.",
+      "The recursive nature of Merge Sort leads to O(log n) space complexity due to the call stack.",
+      "The key is to correctly find the middle of the linked list and merge sorted halves."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

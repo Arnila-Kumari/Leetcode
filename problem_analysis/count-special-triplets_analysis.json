@@ -1,0 +1,40 @@
+{
+  "problem_name": "count-special-triplets",
+  "data_structures": [
+    [
+      "collections.defaultdict"
+    ],
+    [
+      "collections.defaultdict"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP approach tracking counts of numbers and their doubles",
+    "Two-pass approach using left and right frequency counts"
+  ],
+  "problem_summary_simple": "Count triplets (i, j, k) where nums[i] == nums[j] * 2 and nums[k] == nums[j] * 2, with i < j < k.",
+  "problem_summary_technical": "Find triplets satisfying a doubling relationship between elements. DP and frequency counting with left/right pointers are efficient approaches.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The DP solution uses two dictionaries: dp[0] stores counts of numbers seen so far, and dp[1] stores counts of numbers that can be the middle element (nums[j]) of a special triplet.",
+      "When processing an element `x`, it checks if `x/2` exists in `dp[1]` (meaning `x` can be `nums[k]`) and if `2*x` exists in `dp[0]` (meaning `x` can be `nums[i]`)."
+    ],
+    [
+      "The two-pass frequency counting approach first counts all elements in the `right` dictionary.",
+      "Then, it iterates through the array, decrementing counts in `right` and incrementing counts in `left`. For each element `x`, it checks if `2*x` exists in both `left` and `right` to form a triplet."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

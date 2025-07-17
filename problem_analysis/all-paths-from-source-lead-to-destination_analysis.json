@@ -1,0 +1,35 @@
+{
+  "problem_name": "all-paths-from-source-lead-to-destination",
+  "data_structures": [
+    [
+      "collections.defaultdict",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Use DFS with cycle detection and state tracking (unvisited, visiting, done) to verify all paths lead to the destination."
+  ],
+  "problem_summary_simple": "Check if all paths from a source node in a directed graph end at a specific destination node.",
+  "problem_summary_technical": "Performs DFS on the graph, tracking node states to detect cycles and ensure all paths from source terminate at the destination.",
+  "time_complexity": [
+    "O(n + e)"
+  ],
+  "space_complexity": [
+    "O(n + e)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires checking *all* paths, not just existence.",
+      "Cycle detection is critical; a cycle means not all paths lead to the destination."
+    ],
+    [
+      "A node with no outgoing edges must be the destination for a path to be valid.",
+      "The DFS state tracking (UNVISITED, VISITING, DONE) is key to detecting cycles and avoiding redundant computations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "reduce-array-size-to-the-half",
+  "data_structures": [
+    [
+      "hashmap",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Count frequencies, sort frequencies in descending order, and greedily pick numbers with highest frequencies until half the array is removed."
+  ],
+  "problem_summary_simple": "Find the smallest set of numbers to remove so at least half the array elements are gone.",
+  "problem_summary_technical": "Use a frequency map, then sort frequencies descending. Greedily select numbers with highest frequencies to meet the half-removal target.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem is to minimize the size of the set of chosen numbers, which means maximizing the count of removed elements per chosen number.",
+      "This is achieved by picking numbers with the highest frequencies first.",
+      "The provided solution uses a counting sort-like approach to group frequencies, then iterates from highest frequency downwards."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

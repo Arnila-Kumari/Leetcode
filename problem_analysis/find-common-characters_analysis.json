@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-common-characters",
+  "data_structures": [
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use Counter intersection to find common characters and their minimum frequencies."
+  ],
+  "problem_summary_simple": "Find characters that appear in all strings, including duplicates.",
+  "problem_summary_technical": "Leverages collections.Counter's intersection operation to efficiently find minimum frequencies of characters across all input strings.",
+  "time_complexity": [
+    "O(N * L)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The `collections.Counter` object in Python is ideal for frequency counting.",
+      "The `&` operator for `Counter` objects performs an intersection, keeping the minimum count of common elements.",
+      "Converting the resulting Counter back to a list of elements handles duplicates correctly."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

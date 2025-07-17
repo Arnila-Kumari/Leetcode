@@ -1,0 +1,33 @@
+{
+  "problem_name": "least-number-of-unique-integers-after-k-removals",
+  "data_structures": [
+    [
+      "hashmap",
+      "counter",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Count frequencies, sort by frequency, and remove elements greedily starting with the least frequent."
+  ],
+  "problem_summary_simple": "Find the minimum number of unique integers left after removing k elements.",
+  "problem_summary_technical": "Count element frequencies, then greedily remove elements with the lowest frequencies until k removals are done.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "To minimize unique integers, we should remove elements that appear least frequently first.",
+      "A frequency map (Counter) is essential to count occurrences of each number.",
+      "Sorting or grouping by frequency allows for efficient greedy removal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,43 @@
+{
+  "problem_name": "divide-an-array-into-subarrays-with-minimum-cost-i",
+  "data_structures": [
+    [
+      "array",
+      "random number generator"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Quickselect to find the 2 smallest elements after the first, then sum.",
+    "Iterative selection to find the 2 smallest elements after the first, then sum."
+  ],
+  "problem_summary_simple": "Divide an array into 3 subarrays to minimize the sum of their first elements.",
+  "problem_summary_technical": "The first subarray's cost is fixed. Find the two smallest elements in the rest of the array to minimize the total cost.",
+  "time_complexity": [
+    "O(n)",
+    "O(n*k)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The first element of the array is always the first element of the first subarray.",
+      "To minimize the total cost, we need to find the two smallest elements in the remaining part of the array (from index 1 onwards).",
+      "Quickselect (or `nth_element`) is an efficient way to find the k-th smallest element in an unsorted array in average O(n) time."
+    ],
+    [
+      "The cost of the first subarray is fixed by `nums[0]`.",
+      "The problem reduces to finding the two smallest elements in the subarray `nums[1:]`.",
+      "A simple iterative approach can maintain the two smallest elements seen so far."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:17:37",
+  "batch_processed": true,
+  "batch_size": 4
+}

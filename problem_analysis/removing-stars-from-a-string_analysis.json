@@ -1,0 +1,31 @@
+{
+  "problem_name": "removing-stars-from-a-string",
+  "data_structures": [
+    [
+      "List"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Use a stack (or list acting as a stack) to process the string. Push characters, and pop when a star is encountered."
+  ],
+  "problem_summary_simple": "Remove stars and the closest non-star character to their left in a string.",
+  "problem_summary_technical": "Iterate through the string. Push non-star characters onto a stack. When a star is encountered, pop the last non-star character from the stack.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The operation of removing the closest non-star character to the left of a star naturally maps to a stack data structure.",
+      "When a star is encountered, it cancels out the most recently added non-star character.",
+      "The final result is formed by joining the characters remaining in the stack."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

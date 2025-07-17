@@ -1,0 +1,72 @@
+{
+  "problem_name": "maximum-number-of-groups-with-increasing-length",
+  "data_structures": [
+    [
+      "list",
+      "counting sort helper",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "prefix sum array",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "In-place counting sort followed by a greedy approach to form groups.",
+    "Sorting the usage limits and a greedy approach to form groups.",
+    "Sorting and binary search to find the maximum number of groups.",
+    "Sorting, prefix sums, and binary search to check feasibility of group counts."
+  ],
+  "problem_summary_simple": "Create groups with increasing lengths using limited resources.",
+  "problem_summary_technical": "Greedy strategy after sorting/counting sort, ensuring each group's length requirement is met by available resources.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)",
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by forming the smallest possible groups first.",
+      "Sorting `usageLimits` (or using counting sort) is essential to process resources efficiently.",
+      "The greedy choice is to use the smallest available resources to satisfy the current group's length requirement.",
+      "The `curr` variable tracks the total available 'slots' for the next group."
+    ],
+    [
+      "Sorting `usageLimits` allows us to greedily assign the smallest available resources to the earliest groups.",
+      "The `curr` variable represents the total number of elements we can still add to form the next group.",
+      "If `curr` is sufficient to form the next group (i.e., `curr >= result + 1`), we form the group and reset `curr`."
+    ],
+    [
+      "This approach uses binary search on the number of groups (`l`).",
+      "The `check(l)` function verifies if it's possible to form `l` groups.",
+      "It greedily assigns the smallest available resources to the smallest groups first.",
+      "The `usageLimits[~i] - (l - i)` calculation represents the minimum required usage for element `i` to form `l` groups."
+    ],
+    [
+      "This solution also uses binary search on the number of groups (`l`).",
+      "The `check(l)` function uses prefix sums to efficiently calculate the total available resources for forming `l` groups.",
+      "The condition `(i+1)*i//2 <= prefix[len(usageLimits)-(l-i)]` checks if enough resources are available for the `i`-th group (of size `i+1`)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-operations-to-convert-all-elements-to-zero",
+  "data_structures": [
+    [
+      "stack",
+      "integer"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to track increasing non-zero elements and count operations.",
+    "Greedy approach: zero out the minimum non-zero element in a subarray."
+  ],
+  "problem_summary_simple": "Convert all array elements to zero using subarray operations on the minimum non-zero element.",
+  "problem_summary_technical": "A monotonic stack efficiently counts operations by identifying segments that need to be zeroed out.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the number of distinct non-zero values encountered in increasing order.",
+      "A monotonic increasing stack helps identify when a new operation is needed (when a larger number appears after smaller ones).",
+      "Each time a new, larger minimum is encountered, a new operation is required for that segment."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

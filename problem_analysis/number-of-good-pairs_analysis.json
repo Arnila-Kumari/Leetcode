@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-good-pairs",
+  "data_structures": [
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count frequencies of each number using a hash map (Counter) and apply combination formula."
+  ],
+  "problem_summary_simple": "Count pairs of identical numbers in an array where the first index is smaller than the second.",
+  "problem_summary_technical": "Uses a hash map to store frequencies of numbers, then calculates combinations (n choose 2) for each frequency.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem boils down to finding pairs of identical elements.",
+      "If a number appears 'c' times, it can form c*(c-1)/2 pairs.",
+      "A hash map (collections.Counter) efficiently stores the frequencies of each number."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:11",
+  "batch_processed": true,
+  "batch_size": 5
+}

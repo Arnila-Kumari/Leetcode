@@ -1,0 +1,45 @@
+{
+  "problem_name": "minimum-total-distance-traveled",
+  "data_structures": [
+    [
+      "sorted lists",
+      "dynamic programming array",
+      "deque (for monotonic queue optimization)"
+    ],
+    [
+      "sorted lists",
+      "dynamic programming array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with monotonic queue optimization for efficient state transitions.",
+    "Dynamic programming with brute-force transition for simpler implementation."
+  ],
+  "problem_summary_simple": "Minimize total robot travel distance to reach factories with limited repair capacity.",
+  "problem_summary_technical": "DP approach where dp[j] represents min distance for first j robots using first i factories, optimized with monotonic queue.",
+  "time_complexity": [
+    "O(mlogm + nlogn + m * n)",
+    "O(mlogm + nlogn + m * n * l)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting robots and factories by position is a crucial preprocessing step.",
+      "The problem can be modeled as a DP problem where we decide which factory repairs which robot.",
+      "The monotonic queue optimization significantly improves the time complexity by efficiently finding the minimum cost for a range of robots at a factory."
+    ],
+    [
+      "Sorting robots and factories by position is a crucial preprocessing step.",
+      "The problem can be modeled as a DP problem where we decide which factory repairs which robot.",
+      "The brute-force DP transition iterates through possible numbers of robots a factory can repair, leading to a higher time complexity."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

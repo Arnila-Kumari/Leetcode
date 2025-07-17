@@ -1,0 +1,36 @@
+{
+  "problem_name": "design-excel-sum-formula",
+  "data_structures": [
+    [
+      "2D array (matrix)",
+      "defaultdict (for forward/backward dependencies)",
+      "deque (for updates)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dependency tracking with graph traversal (DFS/BFS implicitly)",
+    "Memoization for sum calculations"
+  ],
+  "problem_summary_simple": "Design an Excel-like sheet that supports setting cell values and calculating sums of cell ranges, handling dependencies.",
+  "problem_summary_technical": "Implement Excel sheet with cell updates and sum formulas. Use dependency tracking (forward/backward) to propagate changes efficiently.",
+  "time_complexity": [
+    "set: O((R*C)^2) in worst case due to potential re-calculation of dependent sums",
+    "get: O(1)",
+    "sum: O((R*C)^2) in worst case due to parsing and dependency setup"
+  ],
+  "space_complexity": [
+    "O(R*C) for the sheet and dependency structures"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is managing dependencies between cells with sum formulas.",
+      "A graph-like structure (using defaultdicts) is needed to represent these dependencies.",
+      "Efficiently updating dependent cells upon a change is crucial, often involving a traversal (like BFS/DFS) of the dependency graph."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:40:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

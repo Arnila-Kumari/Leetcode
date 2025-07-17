@@ -1,0 +1,43 @@
+{
+  "problem_name": "find-valid-matrix-given-row-and-column-sums",
+  "data_structures": [
+    [
+      "2D array",
+      "integer arrays"
+    ],
+    [
+      "2D array",
+      "integer arrays"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy assignment using two pointers and min function",
+    "Greedy assignment with nested loops and min function"
+  ],
+  "problem_summary_simple": "Construct a matrix given row and column sums, ensuring all elements are non-negative.",
+  "problem_summary_technical": "Greedily fill the matrix by assigning the minimum of remaining row and column sums to cells, advancing pointers when sums are met.",
+  "time_complexity": [
+    "O(m + n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1) (excluding result matrix)",
+    "O(1) (excluding result matrix)"
+  ],
+  "key_insights": [
+    [
+      "The greedy approach works because the total sum of row sums equals the total sum of column sums, guaranteeing a solution.",
+      "By using two pointers (i for rows, j for columns) and advancing them when a sum is satisfied, we efficiently fill the matrix.",
+      "The `min(rowSum[i], colSum[j])` ensures we don't exceed either the current row or column sum requirement."
+    ],
+    [
+      "The nested loop approach iterates through every cell, applying the same greedy logic.",
+      "While correct, it's less efficient than the two-pointer approach as it might re-evaluate cells or conditions unnecessarily."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

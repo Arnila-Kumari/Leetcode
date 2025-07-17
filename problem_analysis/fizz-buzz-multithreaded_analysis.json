@@ -1,0 +1,32 @@
+{
+  "problem_name": "fizz-buzz-multithreaded",
+  "data_structures": [
+    [
+      "threading.Condition",
+      "integer counter"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Multithreading with condition variables for synchronization"
+  ],
+  "problem_summary_simple": "Coordinate four threads to print FizzBuzz sequence, ensuring correct output for numbers and 'fizz', 'buzz', 'fizzbuzz' replacements.",
+  "problem_summary_technical": "Utilize a shared condition variable and an integer counter to synchronize four threads, each responsible for a specific output type based on number divisibility.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Condition variables are essential for inter-thread communication and synchronization.",
+      "A shared counter (e.g., `self.__curr`) acts as a state machine to dictate which thread can proceed.",
+      "The modulo of the counter by 4 (e.g., `self.__curr % 4`) determines the expected output type for the current number."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

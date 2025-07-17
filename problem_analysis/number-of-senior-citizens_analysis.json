@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-senior-citizens",
+  "data_structures": [
+    [
+      "string slicing"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "String slicing and comparison"
+  ],
+  "problem_summary_simple": "Count passengers older than 60 from a list of passenger details.",
+  "problem_summary_technical": "Iterate through passenger detail strings, extract age using string slicing, and count those strictly greater than '60'.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The age is encoded in the string at fixed positions.",
+      "String slicing can directly extract the age for comparison.",
+      "Lexicographical comparison of age strings works for two-digit numbers."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:02:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

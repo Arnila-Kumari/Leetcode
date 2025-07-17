@@ -1,0 +1,33 @@
+{
+  "problem_name": "brick-wall",
+  "data_structures": [
+    [
+      "hash map",
+      "list"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Frequency counting of brick edge positions using a hash map.",
+    "Iterate through rows, calculate cumulative widths, and track frequencies."
+  ],
+  "problem_summary_simple": "Find the vertical line that crosses the fewest bricks in a wall.",
+  "problem_summary_technical": "Count frequencies of brick edge positions (cumulative widths) across rows, find max frequency to minimize crossed bricks.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(M)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding the vertical line that passes through the most brick edges.",
+      "A hash map is ideal for storing and retrieving frequencies of edge positions.",
+      "The total number of rows minus the maximum frequency of an edge position gives the minimum crossed bricks."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

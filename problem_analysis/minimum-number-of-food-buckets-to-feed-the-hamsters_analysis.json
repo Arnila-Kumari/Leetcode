@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-food-buckets-to-feed-the-hamsters",
+  "data_structures": [
+    [
+      "list of characters (street)",
+      "integer variable"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the street, placing buckets greedily to feed hamsters from left to right."
+  ],
+  "problem_summary_simple": "Place minimum food buckets to feed all hamsters, each needing a bucket to its left or right.",
+  "problem_summary_technical": "Greedily places buckets at the first available empty spot to satisfy the leftmost hungry hamster.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A greedy approach works: when a hamster is encountered, try to place a bucket to its right first.",
+      "If a bucket cannot be placed to the right, try to place it to the left.",
+      "If a hamster cannot be fed (no empty spots nearby), it's impossible, return -1."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

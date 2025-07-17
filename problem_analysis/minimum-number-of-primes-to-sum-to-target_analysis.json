@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-number-of-primes-to-sum-to-target",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Sieve of Eratosthenes for prime generation and Unbounded Knapsack DP for minimum sum"
+  ],
+  "problem_summary_simple": "Find the minimum number of primes from the first m primes to sum up to n.",
+  "problem_summary_technical": "Generate primes up to n using Sieve, then use DP (unbounded knapsack) to find the minimum number of primes summing to n.",
+  "time_complexity": [
+    "O(min(m*logm, n) + n*log(log(min(m, n))) + m * n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a variation of the coin change problem, where primes are the 'coins'.",
+      "We need to find the first 'm' prime numbers.",
+      "Dynamic programming can be used to find the minimum number of primes to form the target sum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-closest-node-to-given-two-nodes",
+  "data_structures": [
+    [
+      "list",
+      "hash table"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) or Depth-First Search (DFS) from both nodes"
+  ],
+  "problem_summary_simple": "Find a node reachable from two given nodes that minimizes the maximum distance to either.",
+  "problem_summary_technical": "Perform DFS/BFS from node1 and node2 to record distances. Find common nodes and minimize max distance, breaking ties with smaller index.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The graph structure is a functional graph (each node has at most one outgoing edge), which can contain cycles.",
+      "We need to calculate distances from both starting nodes to all reachable nodes.",
+      "The solution involves finding common reachable nodes and then selecting the one that minimizes the maximum distance, with a tie-breaker for the smallest index."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

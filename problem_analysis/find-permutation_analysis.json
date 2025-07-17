@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-permutation",
+  "data_structures": [
+    [
+      "string",
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach with stack-like behavior"
+  ],
+  "problem_summary_simple": "Reconstruct the lexicographically smallest permutation based on increasing/decreasing instructions.",
+  "problem_summary_technical": "Iterates through the instruction string, using a greedy strategy to append numbers, reversing segments for 'D' instructions.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To achieve the lexicographically smallest permutation, we greedily use the smallest available numbers.",
+      "When encountering a 'D', we need to place larger numbers first, hence the reversal.",
+      "The logic effectively simulates building the permutation by appending numbers and reversing decreasing sequences."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

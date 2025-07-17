@@ -1,0 +1,32 @@
+{
+  "problem_name": "adding-spaces-to-a-string",
+  "data_structures": [
+    [
+      "List",
+      "String"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "In-place modification of a list representation of the string, shifting characters backwards"
+  ],
+  "problem_summary_simple": "Insert spaces into a string at specified indices.",
+  "problem_summary_technical": "Converts string to list, extends it, and shifts characters backward from right to left to make space for spaces.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The 'inplace' solution modifies a list representation of the string.",
+      "Iterating backwards through the `spaces` array and the string is crucial to avoid overwriting characters.",
+      "Extending the list with placeholders (like None) before shifting simplifies index management."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "create-target-array-in-the-given-order",
+  "data_structures": [
+    [
+      "array",
+      "array"
+    ],
+    [
+      "list",
+      "iterator"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Array manipulation with index shifting",
+    "List insertion with `insert()` method"
+  ],
+  "problem_summary_simple": "Build a target array by inserting elements from nums at specified indices.",
+  "problem_summary_technical": "Insert elements from `nums` into a `target` array at positions given by `index`, shifting existing elements as needed.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The constraint `index[i] <= i` is crucial, ensuring insertions are always valid.",
+      "A naive approach involves shifting elements in the target array for each insertion.",
+      "An alternative is to pre-calculate the final positions by adjusting indices based on previous insertions."
+    ],
+    [
+      "Python's list `insert()` method handles the shifting of elements automatically.",
+      "Iterating through `nums` and `index` simultaneously and performing insertions is a direct approach.",
+      "The `itertools.izip` (or `zip` in Python 3) is efficient for iterating over multiple lists in parallel."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

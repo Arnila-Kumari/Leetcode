@@ -1,0 +1,32 @@
+{
+  "problem_name": "evaluate-reverse-polish-notation",
+  "data_structures": [
+    [
+      "Stack",
+      "Hash Map"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Stack-based evaluation of Reverse Polish Notation (RPN)"
+  ],
+  "problem_summary_simple": "Evaluate an arithmetic expression given in Reverse Polish Notation.",
+  "problem_summary_technical": "Use a stack to process tokens; push operands, and when an operator is encountered, pop two operands, perform the operation, and push the result.",
+  "time_complexity": [
+    "O(n) where n is the number of tokens"
+  ],
+  "space_complexity": [
+    "O(n) where n is the number of tokens (for the stack)"
+  ],
+  "key_insights": [
+    [
+      "RPN naturally lends itself to stack-based evaluation.",
+      "Operands are pushed onto the stack, and operators trigger calculations with the top elements.",
+      "Integer division truncates towards zero as per problem statement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

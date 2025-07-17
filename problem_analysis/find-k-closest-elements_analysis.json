@@ -1,0 +1,36 @@
+{
+  "problem_name": "find-k-closest-elements",
+  "data_structures": [
+    [
+      "sorted integer array",
+      "two pointers",
+      "binary search (bisect_left)"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Use binary search to find the element closest to x, then expand outwards using two pointers to collect k closest elements."
+  ],
+  "problem_summary_simple": "Find k elements in a sorted array closest to a given value x.",
+  "problem_summary_technical": "Binary search for x, then use two pointers to expand and collect k elements based on absolute difference and value.",
+  "time_complexity": [
+    "O(log n + k)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Binary search efficiently finds a starting point for the k closest elements.",
+      "The two-pointer approach greedily expands from the starting point, always picking the closer element."
+    ],
+    [
+      "The tie-breaking condition (smaller element wins if distances are equal) is crucial for correctness.",
+      "The final slice `arr[left+1:right]` correctly captures the k elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

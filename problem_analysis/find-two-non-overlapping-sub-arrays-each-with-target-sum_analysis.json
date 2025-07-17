@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-two-non-overlapping-sub-arrays-each-with-target-sum",
+  "data_structures": [
+    [
+      "hashmap",
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Prefix sums and dynamic programming to track minimum lengths of subarrays ending at each index."
+  ],
+  "problem_summary_simple": "Find two non-overlapping subarrays with a target sum, minimizing the total length.",
+  "problem_summary_technical": "Uses prefix sums and DP to find minimum length subarrays summing to target, then combines them to find the overall minimum sum of lengths.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to efficiently find all subarrays with the target sum and their lengths.",
+      "A prefix sum map helps find subarrays ending at a certain point with the target sum.",
+      "Dynamic programming (dp array) stores the minimum length of a target subarray ending at or before an index, enabling efficient combination of two non-overlapping subarrays."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

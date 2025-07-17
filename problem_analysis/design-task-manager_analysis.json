@@ -1,0 +1,32 @@
+{
+  "problem_name": "design-task-manager",
+  "data_structures": [
+    [
+      "sortedcontainers.SortedList",
+      "dictionary"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Use a sorted list (priority queue) to manage tasks by priority and task ID, and a hash map for quick task lookups."
+  ],
+  "problem_summary_simple": "Manage tasks with priorities for different users, allowing adding, editing, removing, and executing the highest priority task.",
+  "problem_summary_technical": "Utilize a sorted list to maintain tasks ordered by priority and task ID, with a hash map for efficient task updates and removals.",
+  "time_complexity": [
+    "ctor: O(T log T), add/edit/rmv/execTop: O(log T), where T is the number of tasks"
+  ],
+  "space_complexity": [
+    "O(T), where T is the number of tasks"
+  ],
+  "key_insights": [
+    [
+      "A sorted list (like `SortedList`) is ideal for efficiently retrieving the highest priority task.",
+      "A secondary sorting criterion (task ID) is needed to break ties in priority.",
+      "A hash map is essential for O(1) average time lookup of task details (userId, priority) to facilitate edits and removals."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

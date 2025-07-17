@@ -1,0 +1,33 @@
+{
+  "problem_name": "super-pow",
+  "data_structures": [
+    [
+      "Integer",
+      "List"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Modular exponentiation (binary exponentiation) applied iteratively to the digits of the exponent.",
+    "Utilize properties of modular arithmetic: (a*b) mod m = ((a mod m) * (b mod m)) mod m."
+  ],
+  "problem_summary_simple": "Calculate (a^b) mod 1337 where b is a large number represented as an array of digits.",
+  "problem_summary_technical": "Compute `a^b mod 1337` by processing digits of `b` using modular exponentiation and properties of modulo.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The exponent `b` is very large, so it must be processed digit by digit.",
+      "The property `a^(10*x + y) = (a^10)^x * a^y` is key.",
+      "Modular exponentiation (binary exponentiation) is essential for efficient calculation of `a^digit mod 1337` and `result^10 mod 1337`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-cost-tree-from-leaf-values",
+  "data_structures": [
+    [
+      "stack",
+      "integer"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to find the next greater element and calculate costs greedily."
+  ],
+  "problem_summary_simple": "Construct a binary tree from leaf values to minimize the sum of non-leaf node products.",
+  "problem_summary_technical": "Uses a monotonic decreasing stack to find pairs of adjacent leaves whose product contributes to the minimum non-leaf node sum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as repeatedly finding the smallest product of two adjacent elements, removing the smaller one, and adding it to the total cost.",
+      "A monotonic stack is ideal for efficiently finding the nearest smaller elements on both sides.",
+      "The intuition is that smaller leaf values should be paired up first to minimize their contribution to parent nodes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

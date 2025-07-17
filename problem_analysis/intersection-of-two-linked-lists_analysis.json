@@ -1,0 +1,31 @@
+{
+  "problem_name": "intersection-of-two-linked-lists",
+  "data_structures": [
+    [
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "two pointers with list traversal and switching heads"
+  ],
+  "problem_summary_simple": "Find the node where two linked lists merge.",
+  "problem_summary_technical": "Uses two pointers that traverse both lists, switching heads to align traversal lengths and find the intersection node.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to make both pointers travel the same total distance before they meet at the intersection.",
+      "By switching heads, we effectively compensate for the length difference between the two lists.",
+      "This approach avoids calculating list lengths beforehand, maintaining O(1) space."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

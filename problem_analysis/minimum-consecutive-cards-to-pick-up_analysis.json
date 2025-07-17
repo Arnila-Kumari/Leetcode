@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-consecutive-cards-to-pick-up",
+  "data_structures": [
+    [
+      "hash table (dictionary)"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Use a hash table to store the last seen index of each card value. Iterate through the cards, and if a value is already in the hash table, calculate the distance and update the minimum."
+  ],
+  "problem_summary_simple": "Find the shortest consecutive sequence of cards containing a matching pair.",
+  "problem_summary_technical": "Employ a hash map to track last seen indices of card values, calculating minimum consecutive distance for pairs.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding the shortest subarray that contains at least one duplicate element.",
+      "A hash table (dictionary in Python) is ideal for keeping track of the most recent index where each card value was encountered.",
+      "When a card value `x` is encountered at index `i`, if `x` is already in the hash table, it means we've found a pair. The length of this consecutive sequence is `i - lookup[x] + 1`.",
+      "We maintain a `result` variable to store the minimum such length found so far."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

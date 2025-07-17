@@ -1,0 +1,30 @@
+{
+  "problem_name": "maximum-size-subarray-sum-equals-k",
+  "data_structures": [
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "prefix sums with hashmap for O(1) sum lookup"
+  ],
+  "problem_summary_simple": "Find the longest subarray whose elements sum to a target value k.",
+  "problem_summary_technical": "Uses prefix sums and a hashmap to store sum-index mappings, enabling O(1) lookup for target sum differences.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that if `current_sum - k` exists in the hashmap, it means a subarray ending at the current index sums to k.",
+      "Storing the *first* occurrence of a prefix sum is crucial to maximize the subarray length."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

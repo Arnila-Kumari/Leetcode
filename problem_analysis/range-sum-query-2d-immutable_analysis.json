@@ -1,0 +1,32 @@
+{
+  "problem_name": "range-sum-query-2d-immutable",
+  "data_structures": [
+    [
+      "2D array",
+      "prefix sum array"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "2D prefix sum (integral image) for O(1) range sum queries after O(m*n) preprocessing."
+  ],
+  "problem_summary_simple": "Calculate the sum of elements within a rectangular region of a 2D matrix.",
+  "problem_summary_technical": "Precompute a 2D prefix sum array (integral image) to answer range sum queries in O(1) time.",
+  "time_complexity": [
+    "Constructor: O(m*n), sumRegion: O(1)"
+  ],
+  "space_complexity": [
+    "O(m*n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to precompute sums of all possible top-left sub-rectangles.",
+      "Using the principle of inclusion-exclusion with the prefix sum array allows O(1) query.",
+      "The prefix sum array `sums[i][j]` stores the sum of elements from `matrix[0][0]` to `matrix[i-1][j-1]`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

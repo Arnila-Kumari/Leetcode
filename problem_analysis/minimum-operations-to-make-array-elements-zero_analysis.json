@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-operations-to-make-array-elements-zero",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through powers of 4, count elements in ranges, apply greedy strategy."
+  ],
+  "problem_summary_simple": "For ranges [l, r], find min ops to make all numbers zero by dividing pairs by 4.",
+  "problem_summary_technical": "For each query [l, r], iterate through powers of 4. Count numbers in [l, r] within [base, 4*base-1]. Sum operations, dividing by 2 for pairs.",
+  "time_complexity": [
+    "O(qlogr)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The operation floor(a/4) and floor(b/4) suggests a base-4 thinking.",
+      "The greedy approach is to pair the largest available numbers with the smallest to reduce them fastest.",
+      "The problem can be rephrased as counting how many numbers fall into ranges [4^i, 4^(i+1)-1] and pairing them up."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

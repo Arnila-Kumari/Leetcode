@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-employees-to-be-invited-to-a-meeting",
+  "data_structures": [
+    [
+      "adjacency list",
+      "hash map",
+      "queue"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Cycle detection (DFS/traversal), BFS for chain extensions"
+  ],
+  "problem_summary_simple": "Find the maximum number of employees who can sit at a round table, each next to their favorite person.",
+  "problem_summary_technical": "Model as a directed graph where edges are favorite preferences. Find longest cycles and chains attached to 2-cycles.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding cycles and paths in a functional graph (each node has out-degree 1).",
+      "Employees can only sit together if they form cycles or specific structures around 2-cycles.",
+      "Longest cycles of length > 2 contribute directly. For length 2 cycles, we can attach chains of employees."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,42 @@
+{
+  "problem_name": "asteroid-collision",
+  "data_structures": [
+    [
+      "stack"
+    ],
+    [
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Simulate collisions using a stack to keep track of surviving asteroids.",
+    "Iteratively process asteroids, resolving collisions with the top of the stack."
+  ],
+  "problem_summary_simple": "Simulate asteroid collisions, where smaller ones explode, to find the final state.",
+  "problem_summary_technical": "Use a stack to manage asteroid interactions. Positive asteroids are pushed. Negative asteroids cause pops from the stack until a collision is resolved or the stack is empty.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A stack is a natural fit for this problem because it allows easy access to the most recent asteroid that could collide.",
+      "The core logic involves handling the interaction between a new incoming asteroid (especially a negative one) and the top of the stack.",
+      "Careful handling of equal-sized asteroids and the case where a negative asteroid destroys all positive asteroids on the stack is crucial."
+    ],
+    [
+      "The `else` block in the `while` loop is key for appending the asteroid only if no collision occurred or if the collision resulted in the new asteroid's survival.",
+      "The `break` statement is used to exit the `while` loop once a collision is resolved or the new asteroid is determined to be added.",
+      "This solution is slightly more concise by using the `else` clause of the `while` loop to handle appending."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

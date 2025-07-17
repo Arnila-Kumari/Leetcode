@@ -1,0 +1,31 @@
+{
+  "problem_name": "adjacent-increasing-subarrays-detection-ii",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array, tracking current and previous increasing sequence lengths. The maximum `k` is derived from these lengths."
+  ],
+  "problem_summary_simple": "Find the maximum length k for two adjacent strictly increasing subarrays.",
+  "problem_summary_technical": "Track lengths of consecutive increasing elements. The maximum k is the maximum of `floor(current_length / 2)` and `min(previous_length, current_length)`.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Similar to Problem 1, but aims to find the maximum `k` instead of a boolean.",
+      "The logic `result = max(result, curr//2, min(prev, curr))` is crucial for finding the maximum `k`.",
+      "This problem is a direct extension of the first, focusing on optimization rather than existence."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

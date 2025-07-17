@@ -1,0 +1,32 @@
+{
+  "problem_name": "latest-time-you-can-obtain-after-replacing-characters",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy replacement of '?' characters in a 12-hour format time string."
+  ],
+  "problem_summary_simple": "Find the latest valid 12-hour time by replacing '?' in a 'HH:MM' string.",
+  "problem_summary_technical": "Greedily fill '?' in 'HH:MM' string to maximize time, respecting 12-hour format (00-11 for HH).",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Similar to the 24-hour version, a greedy approach works by filling '?' from left to right.",
+      "The 12-hour format has a specific constraint for the hour part (00-11).",
+      "The latest possible hour is 11, and the latest possible minute is 59."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

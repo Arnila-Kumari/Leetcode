@@ -1,0 +1,41 @@
+{
+  "problem_name": "count-beautiful-substrings-i",
+  "data_structures": [
+    [
+      "string",
+      "hashmap",
+      "prefix sum array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "prefix sum for vowel/consonant counts",
+    "hashing/frequency map for efficient lookups"
+  ],
+  "problem_summary_simple": "Count substrings where vowel count equals consonant count and their product is divisible by k.",
+  "problem_summary_technical": "Use prefix sums to track vowel-consonant difference. Hashmap stores (difference, index % new_k) for O(1) lookups.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n * sqrt(k))"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "brute force checks all substrings",
+      "prefix sums optimize vowel/consonant difference calculation",
+      "number theory (prime factorization of k) helps optimize the modulo condition"
+    ],
+    [
+      "prefix sum of (vowels - consonants) is key",
+      "condition (vowels * consonants) % k == 0 implies (vowels * vowels) % k == 0 when vowels == consonants",
+      "this simplifies to vowels % sqrt(k) == 0, leading to a modified prefix sum approach"
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:44:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-array-changes-to-make-differences-equal",
+  "data_structures": [
+    [
+      "list",
+      "difference array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Use a difference array to efficiently count changes needed for each possible target difference X.",
+    "Iterate through all possible values of X (0 to k) and calculate the minimum changes for each."
+  ],
+  "problem_summary_simple": "Minimize changes to make absolute differences between symmetric elements equal to some value X.",
+  "problem_summary_technical": "Employ a difference array to track counts of changes required for each possible target difference X, optimizing the calculation of minimum changes.",
+  "time_complexity": [
+    "O(n + k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding an integer X (0 <= X <= k) such that the sum of changes to make `abs(nums[i] - nums[n-1-i]) == X` for all `i` is minimized.",
+      "For each pair `(nums[i], nums[n-1-i])`, we can calculate the minimum changes needed to make their difference equal to any `X` in the range `[0, k]`.",
+      "A difference array is used to efficiently calculate the number of pairs that require 0, 1, or 2 changes for a given target difference `X`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

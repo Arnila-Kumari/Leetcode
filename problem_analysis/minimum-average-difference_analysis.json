@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-average-difference",
+  "data_structures": [
+    [
+      "array",
+      "prefix sum"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix sum to efficiently calculate subarray sums and averages."
+  ],
+  "problem_summary_simple": "Find the index where the average difference between the first part and the second part of the array is minimized.",
+  "problem_summary_technical": "Uses prefix sums to calculate left and right subarray averages in O(1) time, iterating through all possible split points.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Calculating prefix sums allows for O(1) retrieval of subarray sums.",
+      "The total sum is needed to efficiently calculate the sum of the right subarray.",
+      "Handle the edge case where the right subarray is empty (i.e., the last element)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:56:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

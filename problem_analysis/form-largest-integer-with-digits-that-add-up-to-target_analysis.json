@@ -1,0 +1,55 @@
+{
+  "problem_name": "form-largest-integer-with-digits-that-add-up-to-target",
+  "data_structures": [
+    [
+      "list",
+      "list",
+      "list"
+    ],
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to find the maximum number of digits for a given target cost.",
+    "Dynamic programming with custom key for lexicographical comparison of numbers.",
+    "Dynamic programming to build the largest number directly by concatenating digits."
+  ],
+  "problem_summary_simple": "Form the largest possible integer using digits whose costs sum up to a target.",
+  "problem_summary_technical": "DP to maximize digit count, then reconstruct the largest number by prioritizing larger digits greedily.",
+  "time_complexity": [
+    "O(target)",
+    "O(target * 9)",
+    "O(target * 9)"
+  ],
+  "space_complexity": [
+    "O(target)",
+    "O(target * 9)",
+    "O(target)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a variation of the unbounded knapsack problem where we want to maximize the resulting number.",
+      "First, determine the maximum number of digits possible for the target sum.",
+      "Then, greedily pick the largest digits from right to left to form the lexicographically largest number."
+    ],
+    [
+      "Using a custom key for DP states allows direct comparison of numbers represented as counts of digits.",
+      "The state `dp[t]` stores the counts of digits 1-9 to form the largest number for target `t`.",
+      "The `~d` indexing is a clever way to map digit `d+1` to its count in the `dp` array."
+    ],
+    [
+      "This DP approach directly builds the largest number by concatenating digits.",
+      "The state `dp[t]` stores the largest number string achievable for target `t`.",
+      "This approach can lead to larger intermediate strings and potentially higher time complexity if string operations are not optimized."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:46:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

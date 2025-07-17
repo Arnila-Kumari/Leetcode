@@ -1,0 +1,31 @@
+{
+  "problem_name": "vowels-of-all-substrings",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate contribution of each vowel to total vowel count across all substrings."
+  ],
+  "problem_summary_simple": "Calculate the total number of vowels across all possible substrings of a given string.",
+  "problem_summary_technical": "For each vowel at index `i`, it contributes to `(i+1) * (n-i)` substrings. Sum these contributions.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Instead of generating all substrings, consider the contribution of each vowel individually.",
+      "A vowel at index `i` in a string of length `n` will be part of `(i + 1) * (n - i)` substrings.",
+      "The total sum is the sum of these contributions for all vowels in the string."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

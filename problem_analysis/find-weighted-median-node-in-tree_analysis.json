@@ -1,0 +1,45 @@
+{
+  "problem_name": "find-weighted-median-node-in-tree",
+  "data_structures": [
+    [
+      "adjacency list",
+      "Union-Find data structure",
+      "arrays for DFS state"
+    ],
+    [
+      "adjacency list",
+      "Union-Find data structure",
+      "arrays for DFS state"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Tarjan's Offline LCA, DFS, Union-Find, Binary Search",
+    "Tarjan's Offline LCA, DFS, Union-Find, Binary Search"
+  ],
+  "problem_summary_simple": "Find the node on a tree path where the accumulated weight from one endpoint reaches half the total path weight.",
+  "problem_summary_technical": "Uses Tarjan's Offline LCA to find LCAs, DFS to calculate distances and depths, Union-Find for path compression, and binary search on paths.",
+  "time_complexity": [
+    "O(n + q log h)",
+    "O(n + q log h)"
+  ],
+  "space_complexity": [
+    "O(n + q)",
+    "O(n + q)"
+  ],
+  "key_insights": [
+    [
+      "The problem combines tree traversal, LCA, and path queries, suggesting algorithms like Tarjan's Offline LCA.",
+      "Calculating prefix sums of weights along paths is essential. Storing distances from the root helps compute path weights.",
+      "Binary search is used to efficiently find the median node once path weights are known or can be computed incrementally."
+    ],
+    [
+      "The iterative DFS approach avoids recursion depth limits and can be more memory-efficient in some environments.",
+      "The recursive DFS approach is often more straightforward to implement for tree traversals."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:45:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

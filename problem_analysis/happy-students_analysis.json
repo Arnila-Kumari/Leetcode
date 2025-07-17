@@ -1,0 +1,42 @@
+{
+  "problem_name": "happy-students",
+  "data_structures": [
+    [
+      "frequency array"
+    ],
+    [
+      "sorted array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting and prefix sums",
+    "Sorting and greedy selection"
+  ],
+  "problem_summary_simple": "Find ways to select students so selected/unselected students are happy based on their preference numbers.",
+  "problem_summary_technical": "Count valid group sizes by checking conditions against sorted student preferences or frequency counts.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through all possible group sizes (0 to n).",
+      "For each group size `i`, check if it satisfies the happiness conditions for all students.",
+      "A frequency array or sorting helps efficiently check these conditions."
+    ],
+    [
+      "Sorting the `nums` array allows for a greedy approach.",
+      "Iterate through possible group sizes `i` (0 to n).",
+      "Check if `nums[i-1] < i` (for selected students) and `nums[i] > i` (for unselected students)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:52",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "maximum-size-of-a-set-after-removals",
+  "data_structures": [
+    [
+      "set",
+      "set",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using sets to count unique elements and common elements."
+  ],
+  "problem_summary_simple": "Maximize the size of a set formed by remaining elements after removing half from two arrays.",
+  "problem_summary_technical": "Use sets to find unique and common elements, then greedily select elements to maximize the final set size.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The goal is to maximize the number of unique elements in the final set.",
+      "Identify common elements between nums1 and nums2, as these are valuable for maximizing the set size.",
+      "Greedily prioritize keeping unique elements from each array up to n/2 removals, then use common elements if space permits."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

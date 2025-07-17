@@ -1,0 +1,32 @@
+{
+  "problem_name": "smallest-rotation-with-highest-score",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Difference array for efficient score updates"
+  ],
+  "problem_summary_simple": "Find the rotation of an array that maximizes points, where points are given for elements less than or equal to their index.",
+  "problem_summary_technical": "Uses a difference array to track score changes for each rotation, achieving O(n) time complexity.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to transform the problem of calculating scores for each rotation into a problem of tracking score increments/decrements.",
+      "A difference array (or prefix sum array) is used to efficiently calculate the score for each possible rotation in a single pass.",
+      "The modulo operator is crucial for handling wrap-around indices during rotations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

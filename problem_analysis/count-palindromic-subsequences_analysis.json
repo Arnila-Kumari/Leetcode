@@ -1,0 +1,44 @@
+{
+  "problem_name": "count-palindromic-subsequences",
+  "data_structures": [
+    [
+      "list",
+      "list of lists",
+      "list of lists of lists"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Prefix sums and frequency counting with dynamic programming",
+    "Dynamic programming with pattern matching"
+  ],
+  "problem_summary_simple": "Count palindromic subsequences of length 5 in a string of digits.",
+  "problem_summary_technical": "Use DP to count occurrences of patterns like 'aba' or 'abcba' by iterating through the string and maintaining counts of prefixes.",
+  "time_complexity": [
+    "O(100 * n)",
+    "O(100 * n)"
+  ],
+  "space_complexity": [
+    "O(100 * n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into finding palindromes of the form `d1 d2 d3 d2 d1` where `d1`, `d2`, `d3` are digits.",
+      "The first solution uses prefix sums to efficiently count the number of `d2`s between occurrences of `d1` and `d3`.",
+      "The `left` array stores counts of pairs `(d1, d3)` seen so far up to index `k`, and `right` stores counts of `d2`s from index `k` onwards."
+    ],
+    [
+      "This solution directly counts palindromes of length 5 by iterating through all possible outer digits (`i`) and inner digits (`j`).",
+      "A DP array `dp` of size 6 is used, where `dp[l]` stores the number of subsequences of length `l` matching the current pattern prefix.",
+      "The DP transition `dp[l+1] = (dp[l+1] + dp[l]) % MOD` is applied when the current character `s[k]` matches the `l`-th character of the pattern."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:17:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

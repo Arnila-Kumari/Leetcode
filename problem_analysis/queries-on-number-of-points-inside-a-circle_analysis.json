@@ -1,0 +1,31 @@
+{
+  "problem_name": "queries-on-number-of-points-inside-a-circle",
+  "data_structures": [
+    [
+      "List of lists (for points and queries)"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Brute force: Iterate through all points for each query and check distance from the circle center."
+  ],
+  "problem_summary_simple": "Count how many points fall inside each given circle.",
+  "problem_summary_technical": "For each query (circle), iterate through all points and check if the Euclidean distance from the point to the circle's center is within the radius.",
+  "time_complexity": [
+    "O(q * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves geometric calculations: checking if a point is within a circle.",
+      "The condition for a point (x, y) being inside a circle with center (cx, cy) and radius r is (x-cx)^2 + (y-cy)^2 <= r^2.",
+      "The constraints suggest a direct iteration approach is feasible, but a follow-up might explore optimizations like spatial indexing."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:05:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

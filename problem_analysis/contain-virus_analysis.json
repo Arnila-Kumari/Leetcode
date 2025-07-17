@@ -1,0 +1,33 @@
+{
+  "problem_name": "contain-virus",
+  "data_structures": [
+    [
+      "grid",
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "BFS/DFS for region identification and wall placement strategy"
+  ],
+  "problem_summary_simple": "Quarantine virus spread by building walls around the most threatening infected regions each day.",
+  "problem_summary_technical": "Identify infected regions, calculate their threat (uninfected neighbors), build walls around the highest threat region, then spread virus.",
+  "time_complexity": [
+    "O((m*n)^2)"
+  ],
+  "space_complexity": [
+    "O(m*n)"
+  ],
+  "key_insights": [
+    [
+      "identify connected components of infected cells",
+      "for each region, calculate perimeter and potential spread",
+      "prioritize quarantining regions with largest potential spread"
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:44:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

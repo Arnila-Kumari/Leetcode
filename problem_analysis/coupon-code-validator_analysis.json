@@ -1,0 +1,32 @@
+{
+  "problem_name": "coupon-code-validator",
+  "data_structures": [
+    [
+      "hash table",
+      "list of tuples"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through coupons, validate conditions, store valid ones with category index, then sort."
+  ],
+  "problem_summary_simple": "Validate coupon codes based on format, business line, and active status, then sort them.",
+  "problem_summary_technical": "Validates coupons using string checks and category lookup, then sorts based on predefined order and coupon code.",
+  "time_complexity": [
+    "O(N * L * log N)"
+  ],
+  "space_complexity": [
+    "O(N * L)"
+  ],
+  "key_insights": [
+    [
+      "Using a hash map (LOOKUP) for business line mapping provides O(1) average time complexity for category checks.",
+      "The `all()` function with a generator expression is efficient for checking character validity in the coupon code.",
+      "Sorting is crucial for the final output, and storing tuples `(category_index, code)` simplifies the sorting process."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:38:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

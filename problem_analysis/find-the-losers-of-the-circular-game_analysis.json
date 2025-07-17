@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-losers-of-the-circular-game",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Simulation",
+  "algorithm_technique": [
+    "Simulate the game using a boolean array to track visited friends and calculate the next player's index using modulo arithmetic."
+  ],
+  "problem_summary_simple": "Simulate a ball passing game in a circle and find friends who never receive the ball.",
+  "problem_summary_technical": "Simulates the game by tracking visited friends with a boolean array and calculating the next player's position using modulo arithmetic based on the turn number and step size k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The game ends when a friend receives the ball for the second time. This means we need to detect cycles.",
+      "Modulo arithmetic is crucial for handling the circular nature of the game.",
+      "A boolean array or a set can efficiently track which friends have received the ball."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

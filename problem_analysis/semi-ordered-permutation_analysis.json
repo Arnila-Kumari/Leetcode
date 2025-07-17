@@ -1,0 +1,32 @@
+{
+  "problem_name": "semi-ordered-permutation",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Find the indices of 1 and n. Calculate swaps needed to move them to ends.",
+    "Simulate bubble sort-like swaps to bring 1 to the front and n to the back."
+  ],
+  "problem_summary_simple": "Find minimum swaps to place 1 at the start and n at the end of a permutation.",
+  "problem_summary_technical": "Locate indices of 1 and n. Calculate swaps for 1 to move left and n to move right, adjusting for overlap.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The minimum number of swaps to move an element to a specific position is its distance to that position.",
+      "The operations to move 1 and n are independent unless their paths cross.",
+      "If 1 is to the right of n, one swap will move them closer to their target positions simultaneously."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:08:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

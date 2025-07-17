@@ -1,0 +1,31 @@
+{
+  "problem_name": "shortest-distance-to-target-color",
+  "data_structures": [
+    [
+      "2D array (dp table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with two passes (forward and backward) to precompute distances."
+  ],
+  "problem_summary_simple": "Find the shortest distance from a given index to a target color in an array.",
+  "problem_summary_technical": "Precompute distances to each color from every index using DP. Two passes calculate nearest occurrences from left and right.",
+  "time_complexity": [
+    "O(N + Q)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "Pre-computation using DP significantly speeds up query processing.",
+      "A two-pass approach (left-to-right and right-to-left) efficiently captures nearest occurrences.",
+      "The DP state `dp[color][index]` stores the index of the nearest `color` to `index`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

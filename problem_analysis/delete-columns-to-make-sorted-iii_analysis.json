@@ -1,0 +1,32 @@
+{
+  "problem_name": "delete-columns-to-make-sorted-iii",
+  "data_structures": [
+    [
+      "list of strings",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to find the longest subsequence of columns that maintain sorted rows."
+  ],
+  "problem_summary_simple": "Delete minimum columns so each string becomes lexicographically sorted internally.",
+  "problem_summary_technical": "Find the longest subsequence of columns where each column is lexicographically greater than or equal to the previous one for all rows.",
+  "time_complexity": [
+    "O(n * l^2)"
+  ],
+  "space_complexity": [
+    "O(l)"
+  ],
+  "key_insights": [
+    [
+      "This problem is analogous to finding the Longest Increasing Subsequence (LIS).",
+      "The 'elements' are columns, and the 'increasing' condition is that for all rows, the character in column `j` is >= character in column `i` (where `i < j`).",
+      "DP state `dp[j]` stores the length of the longest valid column subsequence ending at column `j`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:39:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

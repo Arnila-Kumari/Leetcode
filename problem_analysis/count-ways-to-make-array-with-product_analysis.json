@@ -1,0 +1,36 @@
+{
+  "problem_name": "count-ways-to-make-array-with-product",
+  "data_structures": [
+    [
+      "array for factorials and inverse factorials",
+      "hashmap for prime factors",
+      "array for primes (Sieve)"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Prime factorization",
+    "Combinations (nCr)",
+    "Sieve of Eratosthenes",
+    "Dynamic Programming (for combinations)"
+  ],
+  "problem_summary_simple": "Find ways to form an array of size n with a product of k, using positive integers.",
+  "problem_summary_technical": "Factorize k into prime powers. For each prime power p^a, distribute 'a' occurrences among 'n' array elements using stars and bars (nCr(n+a-1, a)).",
+  "time_complexity": [
+    "O(sqrt(max_k) + num_queries * (log(max_k) + num_prime_factors * log(max_k)))"
+  ],
+  "space_complexity": [
+    "O(sqrt(max_k) + max_k)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down by the prime factorization of k.",
+      "For each prime factor p raised to the power 'a' in k's factorization, we need to distribute these 'a' factors among the 'n' elements of the array.",
+      "This distribution is equivalent to placing 'a' identical items into 'n' distinct bins, which can be solved using combinations with repetition (stars and bars): C(n+a-1, a)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:38:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,34 @@
+{
+  "problem_name": "find-maximum-area-of-a-triangle",
+  "data_structures": [
+    [
+      "hash table",
+      "hash table",
+      "hash table",
+      "hash table"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Precompute min/max y for each x and min/max x for each y using hash maps. Calculate max area for horizontal/vertical sides."
+  ],
+  "problem_summary_simple": "Find the largest triangle area formed by three points, where at least one side is horizontal or vertical.",
+  "problem_summary_technical": "Uses hash maps to store min/max y for each x and min/max x for each y. Calculates max area for axis-parallel sides.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem constraints (axis-parallel sides) simplify the area calculation.",
+      "Hash maps are efficient for grouping points by x or y coordinates.",
+      "The maximum area will be formed by points that maximize the base and height for axis-parallel sides."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

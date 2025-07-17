@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-time-difference",
+  "data_structures": [
+    [
+      "list of strings",
+      "list of integers"
+    ]
+  ],
+  "category": "Sorting",
+  "algorithm_technique": [
+    "Convert time strings to minutes, sort the minutes, and find the minimum difference between adjacent times, including wrap-around."
+  ],
+  "problem_summary_simple": "Find the smallest time difference in minutes between any two time points in a 24-hour format.",
+  "problem_summary_technical": "Convert all time points to minutes. Sort the minutes. Calculate differences between adjacent times and the wrap-around difference (first and last).",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key is to convert all time points into a single comparable unit, like minutes.",
+      "After sorting the time points (in minutes), the minimum difference will be between adjacent elements in the sorted list.",
+      "Crucially, consider the wrap-around difference: the difference between the earliest time and the latest time across the midnight boundary (24*60 minutes)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:00:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

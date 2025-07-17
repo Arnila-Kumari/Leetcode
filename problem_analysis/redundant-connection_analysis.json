@@ -1,0 +1,31 @@
+{
+  "problem_name": "redundant-connection",
+  "data_structures": [
+    [
+      "UnionFind (Disjoint Set Union)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find (Disjoint Set Union) to detect cycles"
+  ],
+  "problem_summary_simple": "Find an edge in a tree with one extra edge that creates a cycle.",
+  "problem_summary_technical": "Uses Union-Find to detect the first edge that connects two already connected components, indicating a cycle.",
+  "time_complexity": [
+    "O(N * alpha(N)) which is nearly O(N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The Union-Find data structure is ideal for detecting cycles in an undirected graph by tracking connected components.",
+      "When adding an edge, if both nodes are already in the same set, that edge forms a cycle.",
+      "The problem asks for the last such edge, so iterating through edges and returning the first cycle-forming one works."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:15",
+  "batch_processed": true,
+  "batch_size": 4
+}

@@ -1,0 +1,84 @@
+{
+  "problem_name": "find-array-given-subset-sums",
+  "data_structures": [
+    [
+      "list",
+      "collections.Counter",
+      "dictionary"
+    ],
+    [
+      "list",
+      "collections.Counter",
+      "dictionary"
+    ],
+    [
+      "list",
+      "collections.Counter",
+      "dictionary"
+    ],
+    [
+      "list",
+      "collections.Counter",
+      "dictionary"
+    ],
+    [
+      "collections.OrderedDict",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Iterative approach using sorted sums and identifying the smallest element's contribution.",
+    "Dynamic programming with frequency counts and range-based updates.",
+    "Iterative approach using a frequency map and identifying the smallest element's contribution.",
+    "Iterative approach using a frequency map and identifying the smallest element's contribution.",
+    "Iterative approach using an ordered dictionary and identifying the smallest element's contribution."
+  ],
+  "problem_summary_simple": "Reconstruct an array of length n given all its 2^n subset sums.",
+  "problem_summary_technical": "Iteratively find array elements by identifying the smallest subset sum and its corresponding element, then generating new subset sums.",
+  "time_complexity": [
+    "O(n * 2^n)",
+    "O(2^n + n * r)",
+    "O(n * 2^n)",
+    "O(n * 2^n)",
+    "O(n * 2^n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(2^n + r)",
+    "O(2^n)",
+    "O(2^n)",
+    "O(2^n)"
+  ],
+  "key_insights": [
+    [
+      "The smallest non-zero subset sum must be one of the elements of the original array.",
+      "Once an element `x` is identified, we can generate the subset sums of the remaining `n-1` elements by taking the existing sums and adding `x` to them.",
+      "We need to efficiently manage the counts of subset sums as we identify elements."
+    ],
+    [
+      "The core idea is to find the smallest element `d` in the original array. This `d` will be the difference between the smallest two subset sums (or `0` if `0` is the smallest sum).",
+      "After identifying `d`, we remove all subset sums that can be formed by `d` and the previously found elements.",
+      "This process is repeated `n` times."
+    ],
+    [
+      "The key insight is that the smallest positive subset sum must be one of the elements in the original array.",
+      "By sorting the sums, we can identify the smallest element `d`. Then, we can generate the subset sums of the remaining `n-1` elements by pairing `d` with the existing sums.",
+      "This process is repeated `n` times, reducing the problem size by half in each step."
+    ],
+    [
+      "The problem can be solved by iteratively identifying an element of the original array.",
+      "The smallest element `d` in the original array will correspond to the difference between the smallest sum (0) and the next smallest sum in the `sums` array.",
+      "Once `d` is found, we can generate the subset sums of the remaining `n-1` elements by taking the current `sums` and adding `d` to each of them, then removing the original `sums`."
+    ],
+    [
+      "The problem can be solved by iteratively finding an element of the original array.",
+      "The smallest element `d` in the original array will be the difference between the smallest sum (0) and the next smallest sum.",
+      "After finding `d`, we generate the subset sums of the remaining `n-1` elements by adding `d` to the existing subset sums and removing the original sums."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:17:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "movement-of-robots",
+  "data_structures": [
+    [
+      "list",
+      "integer array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Calculate final positions after 'd' seconds, sort them, and sum pairwise distances using prefix sums.",
+    "Simulate robot movements and collisions, then calculate distances."
+  ],
+  "problem_summary_simple": "Calculate the sum of distances between robots after 'd' seconds, considering collisions and direction changes.",
+  "problem_summary_technical": "Simulates robot movement by adjusting initial positions based on direction and time, then sorts final positions to efficiently calculate pairwise distances.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that collisions effectively mean robots pass through each other without changing their identity.",
+      "After sorting the initial positions, the relative order of robots remains the same throughout their movement, even with collisions.",
+      "The sum of distances can be calculated efficiently using prefix sums on the sorted final positions."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:01:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

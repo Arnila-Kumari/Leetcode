@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-number-of-increasing-subsequence-to-be-removed",
+  "data_structures": [
+    [
+      "list",
+      "binary search tree (implicit via bisect)"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Find the length of the longest non-increasing subsequence by transforming the problem.",
+    "Use binary search (bisect_right) to maintain the tails of potential subsequences."
+  ],
+  "problem_summary_simple": "Find the minimum number of strictly increasing subsequences to remove to empty an array.",
+  "problem_summary_technical": "Equivalent to finding the length of the longest non-increasing subsequence using patience sorting with binary search.",
+  "time_complexity": [
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "This problem is equivalent to Dilworth's Theorem: the minimum number of chains to partition a poset is equal to the size of the largest antichain.",
+      "Here, the poset is defined by the array elements and their indices. An increasing subsequence is a chain.",
+      "Finding the longest non-increasing subsequence by negating elements and using LIS algorithm is a common trick."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

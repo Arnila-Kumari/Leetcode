@@ -1,0 +1,32 @@
+{
+  "problem_name": "valid-tic-tac-toe-state",
+  "data_structures": [
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Count X and O moves, check win conditions, and ensure move counts are consistent with turn-based play."
+  ],
+  "problem_summary_simple": "Determine if a Tic-Tac-Toe board state is reachable in a valid game.",
+  "problem_summary_technical": "Verify move counts (X count = O count or X count = O count + 1) and win conditions. A player cannot win if the other player has made fewer moves.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of 'X's must be equal to or one greater than the number of 'O's.",
+      "If 'X' wins, the number of 'X's must be exactly one more than 'O's.",
+      "If 'O' wins, the number of 'X's must be equal to 'O's, and 'X' cannot have also won simultaneously."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

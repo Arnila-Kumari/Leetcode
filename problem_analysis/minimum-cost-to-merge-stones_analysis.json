@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-cost-to-merge-stones",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with prefix sums to calculate costs of merging consecutive piles."
+  ],
+  "problem_summary_simple": "Find the minimum cost to merge k consecutive piles of stones into one pile.",
+  "problem_summary_technical": "Use DP where dp[i][j] is min cost to merge stones[i...j] into one pile. Consider merging into K piles first.",
+  "time_complexity": [
+    "O(n^3 / k)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem has optimal substructure and overlapping subproblems, suitable for DP.",
+      "The condition (n-1) % (K-1) == 0 is necessary for a solution to exist.",
+      "The state transition involves considering all possible split points for merging K piles."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:57:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

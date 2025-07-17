@@ -1,0 +1,30 @@
+{
+  "problem_name": "string-transforms-into-another-string",
+  "data_structures": [
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Character mapping and checking for full alphabet usage."
+  ],
+  "problem_summary_simple": "Can one string be transformed into another by changing all occurrences of a character?",
+  "problem_summary_technical": "Checks if a one-to-one character mapping exists from str1 to str2, with a special case for the full alphabet.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A character in str1 can only map to one character in str2.",
+      "If all 26 characters are used in str2, transformation is impossible unless str1 equals str2."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,40 @@
+{
+  "problem_name": "employee-free-time",
+  "data_structures": [
+    [
+      "min-heap",
+      "list of intervals"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Min-heap to merge intervals and find gaps.",
+    "Iterative merging of sorted intervals."
+  ],
+  "problem_summary_simple": "Find common free time intervals for all employees given their work schedules.",
+  "problem_summary_technical": "Uses a min-heap to merge all employee intervals, then identifies gaps between merged intervals as free time.",
+  "time_complexity": [
+    "O(N log K)",
+    "O(N log N)"
+  ],
+  "space_complexity": [
+    "O(K)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding gaps between merged intervals of all employees.",
+      "A min-heap is efficient for merging intervals from multiple sorted lists.",
+      "Care must be taken to handle edge cases and ensure only positive-length free intervals are returned."
+    ],
+    [
+      "Flattening all intervals and then sorting them allows for a simpler merge process.",
+      "Iterate through sorted intervals, keeping track of the maximum end time seen so far.",
+      "A gap exists if the current interval's start is greater than the maximum end time of previous intervals."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

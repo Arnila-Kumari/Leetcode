@@ -1,0 +1,33 @@
+{
+  "problem_name": "binary-tree-cameras",
+  "data_structures": [
+    [
+      "binary tree",
+      "integer variable for camera count",
+      "recursive call stack"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Post-order traversal (DFS) with state management for nodes (uncovered, covered, camera)."
+  ],
+  "problem_summary_simple": "Find the minimum number of cameras to monitor all nodes in a binary tree.",
+  "problem_summary_technical": "Applies a greedy DFS approach, assigning states to nodes to minimize camera placement for full tree coverage.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved with a greedy approach using post-order traversal.",
+      "Each node returns a state: UNCOVERED, COVERED, or CAMERA.",
+      "A camera is placed at a node if either of its children is UNCOVERED."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

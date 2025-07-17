@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-difference-of-two-arrays",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Using sets to efficiently find differences between elements of two arrays."
+  ],
+  "problem_summary_simple": "Find distinct elements unique to each of two arrays.",
+  "problem_summary_technical": "Leverage set operations (difference) to find elements present in one array but not the other.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "Sets provide O(1) average time complexity for membership testing and difference operations.",
+      "Converting arrays to sets automatically handles duplicate removal.",
+      "The problem is efficiently solved by performing two set difference operations."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:43:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

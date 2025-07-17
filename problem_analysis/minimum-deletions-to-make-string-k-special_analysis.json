@@ -1,0 +1,55 @@
+{
+  "problem_name": "minimum-deletions-to-make-string-k-special",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Frequency counting, sorting frequencies, and using a two-pointer approach to find optimal target frequencies.",
+    "Frequency counting, sorting frequencies, and using a two-pointer approach to find optimal target frequencies.",
+    "Frequency counting and iterating through all possible target frequencies to calculate minimum deletions."
+  ],
+  "problem_summary_simple": "Delete minimum characters so frequency difference between any two characters is at most k.",
+  "problem_summary_technical": "Count frequencies, sort them. Use two pointers to find a contiguous subarray of frequencies where max-min <= k, minimizing deletions.",
+  "time_complexity": [
+    "O(n + 26*log(26))",
+    "O(n + 26*log(26))",
+    "O(n + 26^2)"
+  ],
+  "space_complexity": [
+    "O(26)",
+    "O(26)",
+    "O(26)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires making character frequencies 'k-special', meaning the difference between any two frequencies is at most k.",
+      "Sorting the frequencies allows us to efficiently check the k-special condition using a sliding window (two pointers).",
+      "The goal is to find a target frequency range [f, f+k] that minimizes deletions across all characters."
+    ],
+    [
+      "This solution uses standard sorting instead of counting sort, leading to a slightly higher time complexity for sorting.",
+      "The logic remains the same: find a window of frequencies that satisfies the k-special condition with minimal deletions.",
+      "The two-pointer approach efficiently explores potential target frequency ranges."
+    ],
+    [
+      "This approach iterates through each existing character frequency as a potential minimum frequency in the k-special string.",
+      "For each potential minimum frequency `x`, it calculates the deletions needed to bring all other frequencies `y` into the range `[x, x+k]`.",
+      "The minimum of these calculated deletions across all `x` is the answer."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:57:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

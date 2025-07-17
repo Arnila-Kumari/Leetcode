@@ -1,0 +1,31 @@
+{
+  "problem_name": "transform-array-by-parity",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "In-place modification: partition array into even (0s) and odd (1s), then sort."
+  ],
+  "problem_summary_simple": "Convert even numbers to 0, odd numbers to 1, and then sort the array.",
+  "problem_summary_technical": "Transforms array by replacing evens with 0s and odds with 1s, then sorts the modified array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved in-place by partitioning the array.",
+      "A single pass can count the number of even elements.",
+      "The array can then be filled with 0s and 1s based on the count."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "largest-perimeter-triangle",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort the array and iterate from the largest elements, checking the triangle inequality."
+  ],
+  "problem_summary_simple": "Find the largest perimeter of a triangle formed by three side lengths from an array.",
+  "problem_summary_technical": "Sort the side lengths and greedily check triplets from largest to smallest for the triangle inequality.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To maximize the perimeter, we should consider the largest possible side lengths.",
+      "The triangle inequality states that the sum of any two sides must be greater than the third side.",
+      "Sorting the array allows us to efficiently check this condition by iterating from the largest elements."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-servers-that-communicate",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the grid, count servers per row/column, then count servers with >1 connection."
+  ],
+  "problem_summary_simple": "Count servers that can communicate with at least one other server in the same row or column.",
+  "problem_summary_technical": "Uses auxiliary arrays to store row and column server counts, then iterates through the grid to identify communicating servers.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating row and column sums simplifies the communication check.",
+      "A server communicates if its row or column has more than one server.",
+      "The problem can be solved in a single pass to count sums, followed by another pass to count results."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

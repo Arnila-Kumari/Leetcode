@@ -1,0 +1,32 @@
+{
+  "problem_name": "smallest-number-with-given-digit-product",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedily find prime factors of n from largest to smallest (9 down to 2) to form the smallest number."
+  ],
+  "problem_summary_simple": "Find the smallest positive integer whose digits multiply to a given number n.",
+  "problem_summary_technical": "Decompose `n` into its prime factors. Greedily use largest possible digits (9 down to 2) to minimize the number of digits and their magnitude.",
+  "time_complexity": [
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(log n)"
+  ],
+  "key_insights": [
+    [
+      "To form the smallest number, we want fewer digits, and for digits at the same position, we want smaller values.",
+      "This means we should prioritize using larger digits (9, 8, 7...) as factors first, as they reduce `n` more quickly and contribute fewer digits.",
+      "If `n` cannot be fully factored into digits 2-9, no solution exists."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

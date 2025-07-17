@@ -1,0 +1,32 @@
+{
+  "problem_name": "before-and-after-puzzle",
+  "data_structures": [
+    [
+      "hashmap",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hashmap to store phrases by their last word, then iterate and check for matches."
+  ],
+  "problem_summary_simple": "Combine phrases where the last word of one matches the first word of another.",
+  "problem_summary_technical": "Uses a hashmap to group phrases by their last word, then iterates through phrases to find matches and construct new phrases.",
+  "time_complexity": [
+    "O(N*L + R*logR)"
+  ],
+  "space_complexity": [
+    "O(N*L + R)"
+  ],
+  "key_insights": [
+    [
+      "Efficiently finding matching words is key; a hashmap (defaultdict) mapping the last word to indices of phrases is ideal.",
+      "Handling phrases with only one word requires special care in finding the first/last word.",
+      "Using a set for results automatically handles distinctness, and sorting at the end meets the output requirement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:30",
+  "batch_processed": true,
+  "batch_size": 5
+}

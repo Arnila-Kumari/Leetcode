@@ -1,0 +1,32 @@
+{
+  "problem_name": "stone-game-vi",
+  "data_structures": [
+    [
+      "list of tuples",
+      "sorted list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach by sorting based on sum of Alice and Bob's values."
+  ],
+  "problem_summary_simple": "Alice and Bob pick stones to maximize their scores. Determine the winner.",
+  "problem_summary_technical": "Greedily assign stones by sorting based on the sum of Alice and Bob's values to maximize score difference.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The optimal strategy is to pick stones that offer the largest combined value first.",
+      "By sorting based on the sum of values, we ensure the most impactful stones are considered early.",
+      "Alice, going first, will pick from the even indices of the sorted list, Bob from odd."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,40 @@
+{
+  "problem_name": "longest-palindrome-after-substring-concatenation-ii",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Manacher's algorithm for palindrome preprocessing, DP for substring matching and combining.",
+    "Brute force: iterate all substring combinations and check for palindromes."
+  ],
+  "problem_summary_simple": "Find the longest palindrome by concatenating a substring from s and a substring from t.",
+  "problem_summary_technical": "Combine Manacher's precomputed palindrome lengths with DP to find the longest palindrome formed by s[i..] + t[..j].",
+  "time_complexity": [
+    "O(N*M)",
+    "O((N+M)^3)"
+  ],
+  "space_complexity": [
+    "O(N+M)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves finding palindromic structures within `s` and `t`, and then combining them.",
+      "Manacher's algorithm is efficient for finding all palindromic substrings centered at each position.",
+      "A DP approach can be used to find the longest common suffix of `s` that matches a prefix of reversed `t`."
+    ],
+    [
+      "The core idea is to find a common character `s[i] == t[j]` and extend outwards.",
+      "The length of the palindrome is `2 + longest_palindrome_suffix(s[i+1:]) + longest_palindrome_prefix(t[j+1:])`.",
+      "The provided solution seems to be a variation of longest common substring with palindrome considerations."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:49:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

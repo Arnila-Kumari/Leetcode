@@ -1,0 +1,32 @@
+{
+  "problem_name": "max-increase-to-keep-city-skyline",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Calculate row and column maximums, then sum differences."
+  ],
+  "problem_summary_simple": "Increase building heights without changing city skylines, maximizing total increase.",
+  "problem_summary_technical": "Calculate row/column maxes. For each building, new height is min(row_max, col_max). Sum increases.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The maximum height a building can be increased to is limited by the maximum height in its row and its column.",
+      "The skyline from any direction is determined by the tallest building in that row/column.",
+      "Iterating through the grid once to find row/column maxes and then again to calculate the sum is efficient."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

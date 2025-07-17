@@ -1,0 +1,42 @@
+{
+  "problem_name": "day-of-the-year",
+  "data_structures": [
+    [
+      "array"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Precomputed prefix sums of days in months, handling leap years.",
+    "Iterative summation of days in months, checking for leap years on the fly."
+  ],
+  "problem_summary_simple": "Calculate the day number of the year for a given date string.",
+  "problem_summary_technical": "Parses date string, sums days of preceding months, adds day of month, and accounts for leap years.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating the cumulative days in months (prefix sums) optimizes repeated calculations.",
+      "Leap year logic must be correctly implemented: divisible by 4, but not by 100 unless also by 400.",
+      "The problem can be solved either by precomputation or by direct iteration through months."
+    ],
+    [
+      "Pre-calculating the cumulative days in months (prefix sums) optimizes repeated calculations.",
+      "Leap year logic must be correctly implemented: divisible by 4, but not by 100 unless also by 400.",
+      "The problem can be solved either by precomputation or by direct iteration through months."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:39:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

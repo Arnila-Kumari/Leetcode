@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-anagram-mappings",
+  "data_structures": [
+    [
+      "Hash map (dictionary) to store number to indices mapping",
+      "Deque for handling duplicate numbers",
+      "List for the result mapping"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash map to store indices of elements in nums2, then iterate through nums1 to find mappings."
+  ],
+  "problem_summary_simple": "Given two anagram arrays, find the index mapping from the first to the second.",
+  "problem_summary_technical": "Create a hash map of numbers in nums2 to their indices. Iterate through nums1, using the hash map to find the corresponding index in nums2.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A hash map is efficient for looking up indices of elements.",
+      "Handling duplicates requires storing multiple indices for each number.",
+      "Using a deque (or list) in the hash map allows for retrieving indices in order."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

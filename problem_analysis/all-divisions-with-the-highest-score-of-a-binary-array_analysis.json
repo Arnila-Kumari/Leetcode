@@ -1,0 +1,34 @@
+{
+  "problem_name": "all-divisions-with-the-highest-score-of-a-binary-array",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix Sum: Calculate prefix sums of zeros and suffix sums of ones to efficiently compute division scores."
+  ],
+  "problem_summary_simple": "Find indices to divide a binary array to maximize score (zeros left + ones right).",
+  "problem_summary_technical": "Iterate through all possible division points. Calculate score using prefix sums of zeros and total ones minus prefix sums of ones.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The score at division `i` is `(count of 0s in nums[0...i-1]) + (count of 1s in nums[i...n-1])`.",
+      "This can be efficiently calculated using prefix sums.",
+      "Let `zeros_left[i]` be the count of 0s in `nums[0...i-1]` and `ones_right[i]` be the count of 1s in `nums[i...n-1]`.",
+      "The score at index `i` is `zeros_left[i] + ones_right[i]`.",
+      "We can precompute `zeros_left` and `ones_right` or calculate them on the fly."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:31:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

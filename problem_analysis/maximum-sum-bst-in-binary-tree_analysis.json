@@ -1,0 +1,43 @@
+{
+  "problem_name": "maximum-sum-bst-in-binary-tree",
+  "data_structures": [
+    [
+      "stack",
+      "TreeNode"
+    ],
+    [
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS with stack to track BST properties and sums",
+    "Recursive DFS to compute BST properties and sums bottom-up"
+  ],
+  "problem_summary_simple": "Find the BST subtree with the largest sum of node values.",
+  "problem_summary_technical": "Perform DFS on a binary tree, returning BST validity, sum, min/max values for each subtree.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "A BST property check requires knowing the min/max values of subtrees.",
+      "The iterative DFS needs to store intermediate results for children to process parent nodes.",
+      "A valid BST subtree must satisfy the BST property at its root and recursively for its children."
+    ],
+    [
+      "The recursive DFS naturally allows for bottom-up aggregation of BST properties.",
+      "Each recursive call returns a tuple: (is_bst, sum, min_val, max_val).",
+      "The maximum sum is updated globally as valid BST subtrees are found."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

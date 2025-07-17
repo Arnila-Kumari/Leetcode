@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-number-of-days-to-make-m-bouquets",
+  "data_structures": [
+    [
+      "none"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer (days) with a helper check function"
+  ],
+  "problem_summary_simple": "Find the earliest day to make M bouquets, each needing K adjacent flowers.",
+  "problem_summary_technical": "Binary search for the minimum day `d` such that `m` bouquets of `k` adjacent flowers blooming by day `d` can be formed.",
+  "time_complexity": [
+    "O(n log d), where d is the maximum bloom day"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the minimum value that satisfies a condition, suggesting binary search.",
+      "The condition (can we make `m` bouquets by day `x`?) is monotonic: if true for `x`, it's true for `x+1`.",
+      "The `check` function efficiently counts bouquets by iterating through bloom days and tracking adjacent bloomed flowers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

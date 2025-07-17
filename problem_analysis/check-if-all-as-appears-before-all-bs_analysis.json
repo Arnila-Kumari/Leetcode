@@ -1,0 +1,34 @@
+{
+  "problem_name": "check-if-all-as-appears-before-all-bs",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Check if the substring 'ba' exists in the string. If it does, the condition is violated."
+  ],
+  "problem_summary_simple": "Verify that all 'a' characters come before all 'b' characters in a string.",
+  "problem_summary_technical": "A string is valid if and only if it does not contain the substring 'ba'. This leverages efficient string searching.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core condition is the absence of 'ba'.",
+      "This is a very concise and efficient check."
+    ],
+    [
+      "Handles cases with only 'a's or only 'b's correctly.",
+      "The problem is about the relative order, not the counts."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:34:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

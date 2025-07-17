@@ -1,0 +1,31 @@
+{
+  "problem_name": "long-pressed-name",
+  "data_structures": [
+    [
+      "string pointers"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to iterate through name and typed strings, checking character matches and long press conditions."
+  ],
+  "problem_summary_simple": "Check if a typed string could be a name with some characters long-pressed.",
+  "problem_summary_technical": "Uses two pointers to compare characters of 'name' and 'typed', allowing for consecutive identical characters in 'typed' to match a single character in 'name'.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to advance the 'name' pointer only when a matching character is found.",
+      "The 'typed' pointer always advances, and we check if the current character in 'typed' is either a match for the current 'name' character or a repeat of the previous 'typed' character.",
+      "If a character in 'typed' doesn't match the current 'name' character and isn't a repeat of the previous 'typed' character, it's an invalid sequence."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

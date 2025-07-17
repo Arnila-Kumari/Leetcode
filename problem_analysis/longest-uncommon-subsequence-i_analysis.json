@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-uncommon-subsequence-i",
+  "data_structures": [
+    [
+      "None"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Direct comparison of string lengths and content."
+  ],
+  "problem_summary_simple": "Find the length of the longest subsequence unique to one of two strings.",
+  "problem_summary_technical": "If strings are identical, no uncommon subsequence exists (-1). Otherwise, the longer string is the longest uncommon subsequence.",
+  "time_complexity": [
+    "O(min(len(a), len(b)))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "An uncommon subsequence is a subsequence of one string but not the other.",
+      "If `a == b`, any subsequence of `a` is also a subsequence of `b`, so no uncommon subsequence exists.",
+      "If `a != b`, the longer string itself is a subsequence of itself but cannot be a subsequence of the shorter string (unless they are identical, which is handled). Thus, the longer string is an uncommon subsequence."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

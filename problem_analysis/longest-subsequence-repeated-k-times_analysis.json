@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-subsequence-repeated-k-times",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with pruning and frequency counting"
+  ],
+  "problem_summary_simple": "Find the longest subsequence that repeats k times in a string, prioritizing lexicographically larger ones.",
+  "problem_summary_technical": "Uses backtracking to explore possible subsequences, pruning branches where character counts are insufficient, and a helper to verify subsequence repetition.",
+  "time_complexity": [
+    "O(n * (n/k)!)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as finding a subsequence 'seq' such that 'seq * k' is a subsequence of 's'.",
+      "Backtracking is suitable for exploring combinations of characters to form the subsequence.",
+      "Pruning based on character frequencies in 's' and the requirement of 'k' repetitions is crucial for efficiency."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:50:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

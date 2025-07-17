@@ -1,0 +1,31 @@
+{
+  "problem_name": "ternary-expression-parser",
+  "data_structures": [
+    [
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Stack-based evaluation processing the expression in reverse."
+  ],
+  "problem_summary_simple": "Evaluate a nested ternary expression string and return the result.",
+  "problem_summary_technical": "Uses a stack to parse the expression from right to left, evaluating ternary operations as they are encountered.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Processing the expression in reverse simplifies handling the right-to-left grouping of ternary operators.",
+      "When a '?' is encountered, the top of the stack contains the result of the 'true' part, and the next element is the 'false' part.",
+      "The result of the evaluated ternary expression is then pushed back onto the stack."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

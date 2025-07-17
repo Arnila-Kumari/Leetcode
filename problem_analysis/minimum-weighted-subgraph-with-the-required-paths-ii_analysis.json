@@ -1,0 +1,48 @@
+{
+  "problem_name": "minimum-weighted-subgraph-with-the-required-paths-ii",
+  "data_structures": [
+    [
+      "adjacency list",
+      "Union-Find data structure",
+      "array",
+      "stack (for iterative DFS)"
+    ],
+    [
+      "adjacency list",
+      "Union-Find data structure",
+      "array",
+      "recursion stack (for recursive DFS)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Tarjan's Offline LCA algorithm with Union-Find and DFS",
+    "Tarjan's Offline LCA algorithm with Union-Find and iterative DFS"
+  ],
+  "problem_summary_simple": "Find minimum weight subtrees for multiple queries connecting two sources to a destination in a tree.",
+  "problem_summary_technical": "Applies Tarjan's Offline LCA algorithm to efficiently compute path sums for multiple queries on a tree.",
+  "time_complexity": [
+    "O(n + q)",
+    "O(n + q)"
+  ],
+  "space_complexity": [
+    "O(n + q)",
+    "O(n + q)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves multiple queries on a tree, suggesting an offline approach for efficiency.",
+      "Tarjan's Offline LCA algorithm is well-suited for this, processing queries during a DFS traversal.",
+      "Union-Find helps in merging paths and tracking ancestors during the DFS, enabling LCA calculations."
+    ],
+    [
+      "An iterative DFS can be used to avoid potential stack overflow issues with deep recursion on large trees.",
+      "The logic remains similar to recursive DFS, managing the traversal state explicitly on a stack.",
+      "This approach is beneficial for competitive programming where recursion depth limits can be a concern."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

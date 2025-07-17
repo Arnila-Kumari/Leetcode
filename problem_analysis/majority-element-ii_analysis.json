@@ -1,0 +1,44 @@
+{
+  "problem_name": "majority-element-ii",
+  "data_structures": [
+    [
+      "hash map",
+      "array"
+    ],
+    [
+      "hash map",
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Generalized Boyer-Moore Voting Algorithm for k majority elements.",
+    "Using a hash map (Counter) to count frequencies and filter elements."
+  ],
+  "problem_summary_simple": "Find all elements that appear more than n/3 times in an array.",
+  "problem_summary_technical": "Identify elements with frequency > n/3. Generalized Boyer-Moore can find up to k-1 candidates, then verify counts.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that there can be at most two elements appearing more than n/3 times.",
+      "The generalized Boyer-Moore algorithm maintains two candidates and their counts.",
+      "A second pass is needed to verify if the candidates actually meet the > n/3 threshold."
+    ],
+    [
+      "collections.Counter provides a simple way to count all element frequencies.",
+      "Filtering the Counter's items based on the > n/3 condition directly yields the result.",
+      "This is a concise and readable solution but uses O(n) space."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,40 @@
+{
+  "problem_name": "sum-of-largest-prime-substrings",
+  "data_structures": [
+    [
+      "set",
+      "list",
+      "random number generator"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Generate all substrings, check primality, use quickselect to find top 3 largest unique primes",
+    "Generate all substrings, check primality, use quickselect to find top 3 largest unique primes"
+  ],
+  "problem_summary_simple": "Find the sum of the 3 largest unique prime numbers formed from substrings of a given string.",
+  "problem_summary_technical": "Extracts all numeric substrings, identifies primes, and uses quickselect to find the sum of the top 3 unique primes.",
+  "time_complexity": [
+    "O(n^2 * sqrt(r))",
+    "O(n^2 * sqrt(r))"
+  ],
+  "space_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires generating all possible numeric substrings and then filtering for primes.",
+      "Using a set ensures uniqueness of prime numbers found.",
+      "Quickselect (or `nth_element`) is an efficient way to find the k largest elements without full sorting."
+    ],
+    [
+      "The `is_prime` function uses a standard optimized primality test.",
+      "The `tri_partition` function is a key component of the `nth_element` algorithm for handling duplicate pivot values."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

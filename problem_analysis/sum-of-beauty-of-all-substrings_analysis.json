@@ -1,0 +1,32 @@
+{
+  "problem_name": "sum-of-beauty-of-all-substrings",
+  "data_structures": [
+    [
+      "array",
+      "string"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through all substrings, maintain character frequency counts, and calculate beauty."
+  ],
+  "problem_summary_simple": "Find the sum of 'beauty' (max freq - min freq) for all possible substrings of a given string.",
+  "problem_summary_technical": "Employs a nested loop to generate all substrings, using a frequency array to track character counts for beauty calculation.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The brute-force approach of checking every substring is feasible given the constraint n <= 500.",
+      "For each substring, a frequency map (or array of size 26) is used to store character counts.",
+      "The beauty is calculated by finding the max and min non-zero frequencies within the current substring."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

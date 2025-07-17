@@ -1,0 +1,42 @@
+{
+  "problem_name": "check-completeness-of-a-binary-tree",
+  "data_structures": [
+    [
+      "list",
+      "TreeNode"
+    ],
+    [
+      "list",
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Level order traversal (BFS) with null checks",
+    "Level order traversal with node indexing"
+  ],
+  "problem_summary_simple": "Determine if a binary tree is complete, meaning all levels are filled except possibly the last, which is filled left-to-right.",
+  "problem_summary_technical": "Checks binary tree completeness using BFS. Solution 1 uses a flag to detect non-null nodes after a null. Solution 2 uses node indexing.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(w)",
+    "O(w)"
+  ],
+  "key_insights": [
+    [
+      "A complete binary tree can be checked using BFS by ensuring no non-null nodes appear after a null node.",
+      "The 'end' flag effectively tracks if we've encountered a null node, signaling the start of the last level."
+    ],
+    [
+      "Assigning indices to nodes in BFS (like in a heap) helps verify completeness.",
+      "The last node's index should equal the total count of nodes if the tree is complete."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

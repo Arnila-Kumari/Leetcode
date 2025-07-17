@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-number-of-taps-to-open-to-water-a-garden",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach similar to Jump Game II"
+  ],
+  "problem_summary_simple": "Find the minimum taps to water a garden of length n.",
+  "problem_summary_technical": "Transforms the problem into a Jump Game II variant on an interval coverage array.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the minimum number of intervals to cover [0, n].",
+      "Each tap's range is converted into a start and end point, and then mapped to an array representing the maximum reach from each starting point.",
+      "A greedy strategy, similar to Jump Game II, is used to select the next tap that extends the coverage the furthest."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:39",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,38 @@
+{
+  "problem_name": "minimum-time-to-visit-a-cell-in-a-grid",
+  "data_structures": [
+    [
+      "priority queue",
+      "array",
+      "hashmap"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm with modified edge weights"
+  ],
+  "problem_summary_simple": "Find the minimum time to reach the bottom-right cell from the top-left in a grid, considering cell-specific time constraints.",
+  "problem_summary_technical": "Apply Dijkstra's algorithm where edge weights are 1, but cell visit times are constrained by grid values and parity.",
+  "time_complexity": [
+    "O(m * n * log(m * n))"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a variation of shortest path on a grid, solvable with Dijkstra's algorithm.",
+      "The key challenge is the time constraint for visiting a cell: `time >= grid[row][col]`.",
+      "The parity of the current time and the `grid[row][col]` value matters for waiting time."
+    ],
+    [
+      "The cost to move to an adjacent cell `(ni, nj)` from `(i, j)` at time `curr` is `max(grid[ni][nj] + wait_time, curr + 1)`.",
+      "The `wait_time` is 0 if `grid[ni][nj]` has the same parity as `curr + 1`, otherwise it's 1 (to align parities).",
+      "The initial check `min(grid[0][1], grid[1][0]) > 1` handles cases where the start is immediately blocked."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

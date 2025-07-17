@@ -1,0 +1,39 @@
+{
+  "problem_name": "maximum-number-of-operations-to-move-ones-to-the-end",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach by counting '1's before '0's that can be moved.",
+    "Greedy approach by counting '1's and adding them to the result when a '0' is encountered."
+  ],
+  "problem_summary_simple": "Find the maximum operations to move '1's past '0's to the end.",
+  "problem_summary_technical": "Greedily counts consecutive '1's that can be moved past '0's, accumulating operations when a '0' is encountered.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Each '1' can be moved past any '0' that appears after it.",
+      "The order of operations doesn't matter for the total count; it's about how many '1's are before '0's.",
+      "A '1' can only move until it hits another '1' or the end of the string."
+    ],
+    [
+      "The core idea is to count the number of '1's that are to the left of a '0'.",
+      "When a '0' is encountered, all the '1's seen so far can be moved past it.",
+      "This can be efficiently tracked with a single pass and a counter for '1's."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:53:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "increasing-decreasing-string",
+  "data_structures": [
+    [
+      "List (for result)",
+      "Array of size 26 (for character counts)"
+    ],
+    [
+      "List (for result)",
+      "collections.Counter (for character counts)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iteratively build the result by picking smallest available characters, then largest, until all are used.",
+    "Use a frequency map (Counter) and iterate through sorted keys in alternating directions."
+  ],
+  "problem_summary_simple": "Reorder a string by repeatedly picking the smallest, then largest available characters in a specific order.",
+  "problem_summary_technical": "Sort characters by repeatedly taking the smallest available, then the largest available, until the string is empty.",
+  "time_complexity": [
+    "O(N) where N is the length of the string.",
+    "O(N) where N is the length of the string."
+  ],
+  "space_complexity": [
+    "O(1) as the count array size is fixed (26).",
+    "O(K) where K is the number of unique characters (at most 26)."
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by simulating the process using character counts.",
+      "The alternating pattern of picking smallest then largest is key.",
+      "Using a fixed-size array for counts is efficient for lowercase English letters."
+    ],
+    [
+      "A `collections.Counter` simplifies frequency tracking.",
+      "Sorting the keys of the counter in reverse order for the decreasing pass is crucial.",
+      "The `while count:` loop ensures all characters are processed."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

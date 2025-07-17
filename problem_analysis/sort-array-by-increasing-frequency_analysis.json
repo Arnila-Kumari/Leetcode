@@ -1,0 +1,32 @@
+{
+  "problem_name": "sort-array-by-increasing-frequency",
+  "data_structures": [
+    [
+      "hash map",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency Counting and Custom Sorting: Count frequencies using a hash map, then sort the original array using a custom key based on frequency and value."
+  ],
+  "problem_summary_simple": "Sort an array by the frequency of its elements, with ties broken by sorting elements in decreasing order.",
+  "problem_summary_technical": "Use a Counter to get frequencies, then sort the array using a lambda function that prioritizes frequency (ascending) and then value (descending).",
+  "time_complexity": [
+    "O(n log n) due to sorting, where n is the number of elements in nums."
+  ],
+  "space_complexity": [
+    "O(n) for the frequency counter and potentially for the sorted output."
+  ],
+  "key_insights": [
+    [
+      "The problem requires a custom sorting logic based on two criteria: frequency and value.",
+      "A hash map (like `collections.Counter`) is ideal for efficiently counting element frequencies.",
+      "Python's `sorted` function with a `key` argument is a concise way to implement custom sorting."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

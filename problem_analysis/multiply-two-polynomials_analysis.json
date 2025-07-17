@@ -1,0 +1,33 @@
+{
+  "problem_name": "multiply-two-polynomials",
+  "data_structures": [
+    [
+      "list",
+      "complex number",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Use Fast Fourier Transform (FFT) to convert polynomials to point-value form, multiply point-wise, and then use inverse FFT to get the product polynomial coefficients."
+  ],
+  "problem_summary_simple": "Multiply two polynomials represented by their coefficient arrays.",
+  "problem_summary_technical": "Employ Fast Fourier Transform (FFT) to convert polynomial coefficients to point-value representation, perform element-wise multiplication, and then inverse FFT to obtain the product polynomial.",
+  "time_complexity": [
+    "O((n + m) * log(n + m))"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "Polynomial multiplication can be efficiently solved using the Convolution Theorem, which states that the DFT of a convolution is the product of the DFTs.",
+      "FFT is an algorithm to compute the Discrete Fourier Transform (DFT) in O(N log N) time, making polynomial multiplication much faster than the naive O(n*m) approach.",
+      "The size of the FFT array needs to be a power of 2 and at least n+m-1 to accommodate the product polynomial's degree."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:01:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,35 @@
+{
+  "problem_name": "maximum-number-of-books-you-can-take",
+  "data_structures": [
+    [
+      "array",
+      "stack",
+      "integer"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to efficiently calculate the sum of books in valid contiguous sections.",
+    "The `count` helper function calculates the sum of an arithmetic progression."
+  ],
+  "problem_structure": "The problem asks to find a contiguous subarray `books[l...r]` such that `books[i] < books[i+1]` for `l <= i < r`, and maximize the sum of books taken, where from shelf `i` you take `books[i] - (i - l)` books.",
+  "problem_summary_simple": "Find the contiguous section of shelves to take the maximum number of books, with a rule about taking fewer books from earlier shelves.",
+  "problem_summary_technical": "Use a monotonic stack to track valid starting points for taking books, calculating sums of arithmetic progressions for contiguous valid segments.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The condition 'strictly fewer books from shelf i than shelf i + 1' implies that if we decide to take `k` books from shelf `i`, we must have `books[i] >= k`.",
+      "The number of books taken from shelf `j` (where `l <= j <= i`) is `books[j] - (i - j)`. This forms an arithmetic progression if `books[j]` increases linearly.",
+      "A monotonic stack helps to efficiently find the previous smaller element (or rather, the previous element that violates the condition) to determine the valid range for taking books."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

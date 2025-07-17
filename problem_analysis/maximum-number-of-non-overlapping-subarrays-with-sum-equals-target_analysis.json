@@ -1,0 +1,39 @@
+{
+  "problem_name": "maximum-number-of-non-overlapping-subarrays-with-sum-equals-target",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Prefix sums with a hashmap to find subarrays with target sum, greedy selection.",
+    "Iterate through the array, maintain current sum, and use hashmap for efficient lookups."
+  ],
+  "problem_summary_simple": "Find the maximum number of non-overlapping subarrays that sum up to a given target value.",
+  "problem_summary_technical": "Use prefix sums and a hashmap to track sums. Greedily select subarrays ending at the earliest possible index to maximize count.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved greedily by selecting the first valid subarray encountered.",
+      "Prefix sums are essential for efficiently calculating subarray sums.",
+      "A hashmap stores prefix sums and their indices for O(1) lookups."
+    ],
+    [
+      "The greedy choice is to take a subarray as soon as it's found, ending at the earliest possible index.",
+      "The `right` pointer ensures that the newly found subarray does not overlap with the previously selected one.",
+      "Initializing the hashmap with `{0: -1}` handles subarrays starting from index 0."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

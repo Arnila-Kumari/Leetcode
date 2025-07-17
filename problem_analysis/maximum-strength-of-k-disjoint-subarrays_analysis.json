@@ -1,0 +1,45 @@
+{
+  "problem_name": "maximum-strength-of-k-disjoint-subarrays",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "1D DP with Kadane's-like logic for subarray sums, considering alternating signs.",
+    "2D DP to track maximum strength for i subarrays ending at j."
+  ],
+  "problem_summary_simple": "Maximize strength by selecting k disjoint subarrays with alternating positive/negative weights.",
+  "problem_summary_technical": "DP approach where dp[i][j] is max strength using i subarrays ending at index j. Transitions involve extending current subarray or starting a new one.",
+  "time_complexity": [
+    "O(k * n)",
+    "O(k * n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(k * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled using dynamic programming, considering the number of subarrays used and the current index.",
+      "The alternating sign based on k-i is crucial for the DP transition.",
+      "Kadane's algorithm principles can be adapted to find maximum subarray sums efficiently within the DP state."
+    ],
+    [
+      "The 2D DP approach explicitly tracks the state for each number of subarrays (i) and ending position (j).",
+      "The transition considers either extending the current subarray or starting a new one, incorporating the weighted sum.",
+      "The base cases and transitions need to correctly handle the alternating multiplier and disjoint subarray constraints."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:54:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

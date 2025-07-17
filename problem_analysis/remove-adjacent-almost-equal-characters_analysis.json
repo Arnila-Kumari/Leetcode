@@ -1,0 +1,27 @@
+{
+  "problem_name": "remove-adjacent-almost-equal-characters",
+  "data_structures": [],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: iterate and change characters if they are almost equal to the previous one."
+  ],
+  "problem_summary_simple": "Minimize changes to remove adjacent characters that are the same or next to each other.",
+  "problem_summary_technical": "Iterate through the string, greedily changing a character if it's almost equal to the preceding one.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A greedy strategy works because changing a character only affects its immediate neighbors.",
+      "The key is to identify adjacent pairs that violate the condition and fix them with minimal changes.",
+      "The offset `result` correctly accounts for characters already changed, ensuring we compare against the effective previous character."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

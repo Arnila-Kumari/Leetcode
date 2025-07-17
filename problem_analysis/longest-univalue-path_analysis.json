@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-univalue-path",
+  "data_structures": [
+    [
+      "binary tree",
+      "list (for result storage)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) with post-order traversal."
+  ],
+  "problem_summary_simple": "Find the longest path in a binary tree where all nodes have the same value.",
+  "problem_summary_technical": "Traverse a binary tree using DFS. For each node, calculate the longest univalue path extending downwards from its children and update a global maximum.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding the longest path, which can be anywhere in the tree, not necessarily starting from the root.",
+      "A post-order traversal (or a DFS that processes children before the parent) is suitable. For each node, we need information from its children.",
+      "The DFS function should return the length of the longest univalue path starting from the current node and going down one of its branches. The global result is updated by considering paths that pass through the current node (left_path + right_path)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

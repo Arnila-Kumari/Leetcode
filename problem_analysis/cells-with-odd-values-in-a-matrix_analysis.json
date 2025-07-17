@@ -1,0 +1,42 @@
+{
+  "problem_name": "cells-with-odd-values-in-a-matrix",
+  "data_structures": [
+    [
+      "array",
+      "array"
+    ],
+    [
+      "array",
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Track row and column increments using separate arrays and calculate odd cells based on parity.",
+    "Use Counter and itertools to efficiently count row/column increments and derive odd cell counts."
+  ],
+  "problem_summary_simple": "Count cells with odd values in a matrix after row and column increments.",
+  "problem_summary_technical": "Determine odd cell counts by tracking row/column increments' parity and applying a formula based on total increments.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is that a cell's final value's parity depends on the parity of increments to its row and column.",
+      "XORing with 1 is an efficient way to track parity changes.",
+      "The formula `row_sum*m + col_sum*n - 2*row_sum*col_sum` correctly counts cells where one of the parities is odd."
+    ],
+    [
+      "This solution uses `collections.Counter` and `itertools.izip` for a more functional approach to counting.",
+      "The logic remains the same: determine row/column increment parities and apply the formula.",
+      "This approach might be slightly less intuitive for beginners but is concise."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

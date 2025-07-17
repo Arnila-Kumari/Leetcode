@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-original-array-of-prefix-xor",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate through the prefix XOR array from the second element. Use the property that `arr[i] = pref[i] ^ pref[i-1]` to reconstruct the original array in-place."
+  ],
+  "problem_summary_simple": "Reconstruct an array given its prefix XORs.",
+  "problem_summary_technical": "Given `pref[i] = arr[0] ^ ... ^ arr[i]`, find `arr` using `arr[i] = pref[i] ^ pref[i-1]` and `arr[0] = pref[0]`.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core property of XOR is that `a ^ b ^ b = a`. This allows us to isolate individual elements.",
+      "By XORing `pref[i]` with `pref[i-1]`, we cancel out the common prefix `arr[0] ^ ... ^ arr[i-1]`, leaving `arr[i]`.",
+      "The solution can be performed in-place, modifying the `pref` array directly to store the `arr` elements."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:44:57",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,40 @@
+{
+  "problem_name": "number-of-ways-to-paint-n-3-grid",
+  "data_structures": [
+    [
+      "matrix"
+    ],
+    []
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "matrix exponentiation for linear recurrence",
+    "iterative DP with constant space"
+  ],
+  "problem_summary_simple": "Count ways to color an n x 3 grid with 3 colors, no adjacent cells same color.",
+  "problem_summary_technical": "Uses matrix exponentiation to solve linear recurrence relations derived from DP states for grid coloring.",
+  "time_complexity": [
+    "O(log n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a linear recurrence relation.",
+      "Matrix exponentiation efficiently solves such recurrences in logarithmic time.",
+      "The transition matrix captures valid color changes between adjacent rows."
+    ],
+    [
+      "The DP states for adjacent rows can be optimized to constant space.",
+      "The recurrence relation can be directly computed iteratively.",
+      "This avoids the overhead of matrix operations for smaller n."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

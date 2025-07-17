@@ -1,0 +1,33 @@
+{
+  "problem_name": "length-of-the-longest-subsequence-that-sums-to-target",
+  "data_structures": [
+    [
+      "list",
+      "list (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "0/1 Knapsack-like DP where dp[i] stores the max length of a subsequence summing to i."
+  ],
+  "problem_summary_simple": "Find the longest subsequence of numbers that adds up to a specific target sum.",
+  "problem_summary_technical": "Uses dynamic programming, where dp[i] stores the maximum length of a subsequence summing to 'i'.",
+  "time_complexity": [
+    "O(n * target)"
+  ],
+  "space_complexity": [
+    "O(target)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a variation of the unbounded knapsack or subset sum problem, aiming for maximum count.",
+      "The DP state `dp[i]` represents the maximum length of a subsequence that sums to `i`.",
+      "Initialize `dp[0]` to 0 (empty subsequence sums to 0 with length 0) and others to -1 (unreachable).",
+      "Iterate through each number in `nums` and update the DP table by considering whether to include the current number."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

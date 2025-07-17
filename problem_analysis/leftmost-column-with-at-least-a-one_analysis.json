@@ -1,0 +1,31 @@
+{
+  "problem_name": "leftmost-column-with-at-least-a-one",
+  "data_structures": [
+    [
+      "BinaryMatrix interface"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Start from top-right, move left if 0, up if 1 to find leftmost 1."
+  ],
+  "problem_summary_simple": "Find the index of the first column containing a 1 in a row-sorted binary matrix.",
+  "problem_summary_technical": "Utilizes a two-pointer approach starting from the top-right corner of a binary matrix to efficiently locate the leftmost column with a 1.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The row-sorted property is crucial for the efficient two-pointer approach.",
+      "Starting from the top-right allows us to eliminate entire rows or columns.",
+      "The constraint on `BinaryMatrix.get` calls guides towards an O(m+n) solution."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

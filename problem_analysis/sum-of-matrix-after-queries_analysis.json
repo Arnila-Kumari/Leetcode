@@ -1,0 +1,32 @@
+{
+  "problem_name": "sum-of-matrix-after-queries",
+  "data_structures": [
+    [
+      "boolean 2D array (lookup)",
+      "integer array (cnt)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate queries in reverse, apply updates greedily, track applied rows/cols."
+  ],
+  "problem_summary_simple": "Calculate the sum of an n x n matrix after applying row and column updates.",
+  "problem_summary_technical": "Process queries in reverse. Use a lookup table to avoid redundant updates and a counter to track applied rows/columns for sum calculation.",
+  "time_complexity": [
+    "O(n + q)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Processing queries in reverse is crucial because later queries overwrite earlier ones.",
+      "The key is to only count the contribution of a row/column update once.",
+      "The number of elements affected by a row/column update is `n` minus the count of already updated rows/columns in the other dimension."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

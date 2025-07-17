@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximize-subarrays-after-removing-one-conflicting-pair",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through conflicting pairs, count valid subarrays using a greedy approach with interval management"
+  ],
+  "problem_summary_simple": "Count valid subarrays after removing one conflicting pair to maximize the count.",
+  "problem_summary_technical": "Iterate through each conflicting pair to remove. For each removal, count subarrays not containing any remaining conflicting pairs using a greedy strategy.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks to maximize the count of subarrays that avoid specific pairs of elements.",
+      "Removing one conflicting pair simplifies the constraints.",
+      "The core idea is to count subarrays that do not contain any of the *remaining* conflicting pairs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

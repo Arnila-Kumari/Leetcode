@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-number-of-operations-to-make-x-and-y-equal",
+  "data_structures": [
+    [
+      "hashmap",
+      "queue"
+    ],
+    [
+      "hashmap"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) to explore states and find shortest path.",
+    "Memoization (Top-Down Dynamic Programming) to store and reuse results of subproblems."
+  ],
+  "problem_summary_simple": "Find the minimum operations (divide by 5/11, add/subtract 1) to make x equal to y.",
+  "problem_summary_technical": "BFS explores states from x to y, considering divisions and +/- 1. Memoization uses recursion with a lookup table for overlapping subproblems.",
+  "time_complexity": [
+    "O(x)",
+    "O(x)"
+  ],
+  "space_complexity": [
+    "O(x)",
+    "O(x)"
+  ],
+  "key_insights": [
+    [
+      "This is a shortest path problem on a graph where nodes are numbers and edges are operations.",
+      "BFS guarantees finding the minimum number of operations.",
+      "For memoization, consider the operations that bring x closer to y, especially divisions."
+    ],
+    [
+      "The state space can be large, so pruning or bounding (like upper_bound in BFS) is important.",
+      "The greedy choice of dividing by 5 or 11 when possible is often optimal.",
+      "The +/- 1 operations are crucial for handling remainders after division."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

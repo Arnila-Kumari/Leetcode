@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-time-to-revert-word-to-initial-state-i",
+  "data_structures": [
+    [
+      "array",
+      "hashmap"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Z-function for pattern matching",
+    "Brute force string comparison"
+  ],
+  "problem_summary_simple": "Find the minimum time to revert a string to its initial state by repeatedly removing and adding k characters.",
+  "problem_summary_technical": "Utilize Z-function to find longest common prefixes, or brute-force check for string equality after operations.",
+  "time_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The Z-function efficiently finds all occurrences of prefixes of a string within itself.",
+      "The problem can be rephrased as finding the smallest `i` such that `word[i:]` is a prefix of `word`.",
+      "The brute-force approach checks all possible split points, which is less efficient but conceptually simpler."
+    ],
+    [
+      "The Z-function approach leverages string matching properties for an optimal O(n) solution.",
+      "The brute-force approach directly simulates the process, leading to a quadratic time complexity.",
+      "Both solutions consider the case where no exact match is found, returning a ceiling division."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

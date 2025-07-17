@@ -1,0 +1,56 @@
+{
+  "problem_name": "disconnect-path-in-a-binary-matrix-by-at-most-one-flip",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dynamic programming approach to mark reachable cells from start and end, then check path connectivity.",
+    "Iterative Depth First Search (DFS) to check path existence after potential flips.",
+    "Recursive Depth First Search (DFS) to check path existence after potential flips."
+  ],
+  "problem_summary_simple": "Determine if a path from (0,0) to (m-1,n-1) can be broken by flipping at most one '0' to '1' or '1' to '0'.",
+  "problem_summary_technical": "Checks path existence using DFS/DP. If two paths exist, flipping one cell can disconnect. If only one path, check if flipping breaks it.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m + n)",
+    "O(m + n)",
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by checking if there are at least two disjoint paths from start to end.",
+      "If there are two paths, flipping a cell on one path won't disconnect the matrix.",
+      "If there's only one path, we need to check if flipping any non-start/end cell breaks it."
+    ],
+    [
+      "The core idea is to determine if the matrix is disconnected after at most one flip.",
+      "This can be achieved by checking if there are multiple paths or if a single path can be broken.",
+      "DFS or BFS can be used to find paths and count them."
+    ],
+    [
+      "The problem boils down to checking if the start and end cells are connected by more than one path.",
+      "If they are connected by only one path, we need to see if flipping any intermediate cell disconnects them.",
+      "A single DFS/BFS can determine connectivity, and by modifying the grid or counting paths, we can solve it."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

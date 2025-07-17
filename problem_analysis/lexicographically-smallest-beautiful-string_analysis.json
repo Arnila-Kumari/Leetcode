@@ -1,0 +1,32 @@
+{
+  "problem_name": "lexicographically-smallest-beautiful-string",
+  "data_structures": [
+    [
+      "list of integers",
+      "list of characters"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: iterate from right, increment character, and fill remaining with smallest valid characters."
+  ],
+  "problem_summary_simple": "Find the smallest beautiful string lexicographically larger than a given string.",
+  "problem_summary_technical": "Greedy modification from right to left, ensuring no palindromic substrings of length >= 2.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Iterating from right to left allows for minimal changes to achieve lexicographical increase.",
+      "The 'beautiful' constraint (no length-2 palindromes) means a character cannot be the same as its immediate neighbors.",
+      "After incrementing a character, the subsequent characters should be filled with the smallest possible valid character ('a')."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

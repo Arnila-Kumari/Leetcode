@@ -1,0 +1,33 @@
+{
+  "problem_name": "confusing-number",
+  "data_structures": [
+    [
+      "dictionary",
+      "string",
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "String manipulation and comparison with a lookup for rotated digits."
+  ],
+  "problem_summary_simple": "Check if a number becomes a different valid number when its digits are rotated 180 degrees.",
+  "problem_summary_technical": "Converts the number to a string, checks for invalid digits, and then compares digits from both ends after rotation using a lookup map.",
+  "time_complexity": [
+    "O(logn)"
+  ],
+  "space_complexity": [
+    "O(logn)"
+  ],
+  "key_insights": [
+    [
+      "A number is confusing if its 180-degree rotation results in a different, valid number.",
+      "Digits 0, 1, 8 rotate to themselves; 6 rotates to 9; 9 rotates to 6. Other digits are invalid.",
+      "The solution involves checking for invalid digits and then comparing the rotated number with the original."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

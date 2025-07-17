@@ -1,0 +1,31 @@
+{
+  "problem_name": "stream-of-characters",
+  "data_structures": [
+    [
+      "Trie (Aho-Corasick automaton)"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "Aho-Corasick automaton for efficient pattern matching in a stream"
+  ],
+  "problem_summary_simple": "Check if any suffix of incoming characters matches a word from a given list.",
+  "problem_summary_technical": "Uses an Aho-Corasick automaton to efficiently search for multiple patterns in a character stream.",
+  "time_complexity": [
+    "ctor: O(N), query: O(M) where N is total length of words, M is length of query string"
+  ],
+  "space_complexity": [
+    "O(T) where T is the total size of the Trie"
+  ],
+  "key_insights": [
+    [
+      "A Trie is suitable for prefix matching, but Aho-Corasick extends it for suffix matching in a stream.",
+      "The automaton's failure links (suffix links) allow efficient transitions when a character doesn't match.",
+      "The `query` operation effectively traverses the automaton with the incoming character and checks for matches."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:10:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

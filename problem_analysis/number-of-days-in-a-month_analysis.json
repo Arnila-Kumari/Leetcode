@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-days-in-a-month",
+  "data_structures": [
+    [
+      "Integer variables"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Apply leap year rules and standard month lengths to determine the number of days."
+  ],
+  "problem_summary_simple": "Return the number of days in a given month and year.",
+  "problem_summary_technical": "Calculates days based on month, applying leap year logic for February.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The primary complexity lies in correctly implementing the leap year rules: divisible by 4, but not by 100 unless also divisible by 400.",
+      "February is the only month whose length depends on the year.",
+      "A concise way to handle month lengths is using modulo arithmetic on the month index."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

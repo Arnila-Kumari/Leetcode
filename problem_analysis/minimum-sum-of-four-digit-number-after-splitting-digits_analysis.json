@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-sum-of-four-digit-number-after-splitting-digits",
+  "data_structures": [
+    [
+      "array",
+      "frequency map (implicit in array)"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using sorting to pair smallest digits",
+    "Greedy approach using custom counting sort for optimization"
+  ],
+  "problem_summary_simple": "Split a four-digit number's digits into two new numbers to minimize their sum.",
+  "problem_summary_technical": "Sort digits and greedily form two numbers by alternating smallest digits to minimize their sum.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To minimize the sum of two numbers formed from a set of digits, the smaller digits should contribute to the higher place values.",
+      "Sorting the digits allows for a greedy assignment to form the two numbers.",
+      "Alternating the smallest digits into the two numbers ensures the smallest possible sums."
+    ],
+    [
+      "Custom counting sort can be used for a constant time sort given the fixed range of digits (0-9).",
+      "The logic of pairing smallest digits remains the same as the general sorting approach.",
+      "This optimization is minor for a fixed 4-digit input but demonstrates understanding of sorting algorithms."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:00:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

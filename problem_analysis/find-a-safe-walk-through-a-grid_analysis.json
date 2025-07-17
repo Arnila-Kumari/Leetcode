@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-a-safe-walk-through-a-grid",
+  "data_structures": [
+    [
+      "deque",
+      "set",
+      "tuple"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "0-1 BFS (Dijkstra-like) to find the path with minimum health cost."
+  ],
+  "problem_summary_simple": "Determine if a path exists from start to end in a grid, maintaining positive health after traversing 'unsafe' cells.",
+  "problem_summary_technical": "Uses a deque for 0-1 BFS, prioritizing cells with lower health cost (0-cost moves to adjacent safe cells).",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding a shortest path in a graph where edge weights are 0 (safe cells) or 1 (unsafe cells).",
+      "A 0-1 BFS (using a deque) is efficient for this type of weighted graph.",
+      "The state in the BFS needs to include the current position and the accumulated health cost."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

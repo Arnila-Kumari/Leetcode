@@ -1,0 +1,44 @@
+{
+  "problem_name": "handshakes-that-dont-cross",
+  "data_structures": [
+    [
+      "Array",
+      "Integer"
+    ],
+    [
+      "Array",
+      "Integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Calculate Catalan numbers using the formula C(2n, n) / (n+1) with modular arithmetic.",
+    "Use dynamic programming where dp[k] represents the number of ways to form k non-crossing handshakes."
+  ],
+  "problem_summary_simple": "Find the number of ways to connect people in a circle with non-crossing handshakes.",
+  "problem_summary_technical": "Determine the number of non-crossing handshakes for an even number of people, which corresponds to Catalan numbers.",
+  "time_complexity": [
+    "O(N)",
+    "O(N^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a classic application of Catalan numbers.",
+      "The formula C(2n, n) / (n+1) directly solves this combinatorial problem.",
+      "Modular inverse is needed for division in modular arithmetic."
+    ],
+    [
+      "The problem exhibits optimal substructure and overlapping subproblems, suitable for DP.",
+      "The recurrence relation for Catalan numbers is C_k = sum(C_i * C_{k-1-i}) for i from 0 to k-1.",
+      "Base case: C_0 = 1 (0 people, 1 way to have no handshakes)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

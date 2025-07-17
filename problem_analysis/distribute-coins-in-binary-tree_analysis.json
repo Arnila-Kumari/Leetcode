@@ -1,0 +1,32 @@
+{
+  "problem_name": "distribute-coins-in-binary-tree",
+  "data_structures": [
+    [
+      "binary tree",
+      "integer"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) with post-order traversal"
+  ],
+  "problem_summary_simple": "Move coins between adjacent nodes in a binary tree to give each node one coin.",
+  "problem_summary_technical": "Uses DFS to calculate subtree balance (coins needed/excess) and sums absolute values of imbalances as moves.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "A post-order traversal is suitable because a node's balance depends on its children's balance.",
+      "The DFS function returns the net number of coins a subtree has (or needs).",
+      "The absolute value of the returned value from a child represents the moves required for that subtree."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

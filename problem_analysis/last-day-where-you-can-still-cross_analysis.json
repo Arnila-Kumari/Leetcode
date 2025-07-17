@@ -1,0 +1,33 @@
+{
+  "problem_name": "last-day-where-you-can-still-cross",
+  "data_structures": [
+    [
+      "UnionFind",
+      "2D array (lookup)",
+      "list of tuples (directions)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Binary search on days + BFS/Union-Find for connectivity check"
+  ],
+  "problem_summary_simple": "Find the latest day a path exists from top to bottom row on a grid that floods daily.",
+  "problem_summary_technical": "Uses binary search on the number of days. For each day, checks connectivity from top to bottom row using Union-Find on land cells.",
+  "time_complexity": [
+    "O(N * log(M) * α(N)) where N=row*col, M=cells.length, α is inverse Ackermann function"
+  ],
+  "space_complexity": [
+    "O(N) where N=row*col"
+  ],
+  "key_insights": [
+    [
+      "The problem has a monotonic property: if a path exists on day k, it also exists on any day j < k.",
+      "Binary search is suitable for finding the last day. The check function involves graph connectivity.",
+      "Union-Find is efficient for checking connectivity as cells flood."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:48:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

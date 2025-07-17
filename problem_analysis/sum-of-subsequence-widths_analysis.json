@@ -1,0 +1,32 @@
+{
+  "problem_name": "sum-of-subsequence-widths",
+  "data_structures": [
+    [
+      "list of integers"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Sort the array. For each element, calculate its contribution as the maximum and minimum in subsequences based on its position and powers of 2."
+  ],
+  "problem_summary_simple": "Sum the widths (max - min) of all non-empty subsequences, modulo 10^9 + 7.",
+  "problem_summary_technical": "Calculate sum of (max(subsequence) - min(subsequence)) for all subsequences using sorted array and powers of 2.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "After sorting, the contribution of `A[i]` as a maximum is `A[i] * 2^i` (it's the max in `2^i` subsequences).",
+      "The contribution of `A[i]` as a minimum is `A[i] * -2^(n-1-i)` (it's the min in `2^(n-1-i)` subsequences).",
+      "The total sum can be expressed as `sum(A[i] * (2^i - 2^(n-1-i)))`.",
+      "The formula can be simplified to `sum((A[i] - A[n-1-i]) * 2^i)` after sorting."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

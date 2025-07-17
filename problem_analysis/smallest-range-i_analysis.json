@@ -1,0 +1,32 @@
+{
+  "problem_name": "smallest-range-i",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Finding min/max and applying range adjustment"
+  ],
+  "problem_summary_simple": "Minimize the difference between the max and min elements of an array by adding/subtracting k.",
+  "problem_summary_technical": "The minimum range is achieved by bringing the minimum element up by k and the maximum element down by k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The goal is to minimize the difference between the maximum and minimum elements.",
+      "By adding k to the minimum and subtracting k from the maximum, we attempt to make them equal.",
+      "If the adjusted minimum exceeds the adjusted maximum, the range becomes 0."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

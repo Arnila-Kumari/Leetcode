@@ -1,0 +1,33 @@
+{
+  "problem_name": "logger-rate-limiter",
+  "data_structures": [
+    [
+      "deque",
+      "set"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Use a deque to store recent messages and a set for quick lookup.",
+    "Maintain a sliding window of messages within the 10-second limit."
+  ],
+  "problem_summary_simple": "Design a logger that prints messages only if they haven't been printed in the last 10 seconds.",
+  "problem_summary_technical": "Use a deque to track messages within the time window and a set for efficient checking of previously printed messages.",
+  "time_complexity": [
+    "O(1) amortized"
+  ],
+  "space_complexity": [
+    "O(k), where k is the number of unique messages printed in the last 10 seconds."
+  ],
+  "key_insights": [
+    [
+      "The deque efficiently removes old messages as new ones arrive.",
+      "The set provides O(1) average time complexity for checking if a message has been printed recently.",
+      "Messages are guaranteed to be in chronological order, simplifying the logic."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

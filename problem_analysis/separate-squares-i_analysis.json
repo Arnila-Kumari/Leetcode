@@ -1,0 +1,40 @@
+{
+  "problem_name": "separate-squares-i",
+  "data_structures": [
+    [
+      "list of tuples (events)"
+    ],
+    [
+      "list of tuples (squares)"
+    ]
+  ],
+  "category": "Line Sweep",
+  "algorithm_technique": [
+    "Line sweep with event points to track area changes.",
+    "Binary search on the y-coordinate to find the split point."
+  ],
+  "problem_summary_simple": "Find a horizontal line that splits the total area of squares equally above and below it.",
+  "problem_summary_technical": "Uses line sweep to calculate cumulative area or binary search with area calculation based on line position.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The line sweep approach efficiently calculates the total area by processing y-coordinates as events.",
+      "The binary search approach leverages the monotonic property of the area difference with respect to the line's y-coordinate."
+    ],
+    [
+      "The problem involves calculating areas of squares intersected by a horizontal line.",
+      "The key is to find a y-coordinate where the sum of areas above equals the sum of areas below."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:08:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

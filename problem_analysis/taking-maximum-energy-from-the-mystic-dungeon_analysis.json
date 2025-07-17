@@ -1,0 +1,32 @@
+{
+  "problem_name": "taking-maximum-energy-from-the-mystic-dungeon",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterating through all possible starting points and summing energy with k-jumps.",
+    "Optimized iteration by considering only k starting points."
+  ],
+  "problem_summary_simple": "Find the maximum energy by starting at any magician and jumping k steps forward.",
+  "problem_summary_technical": "Iterates through k possible starting points, summing energy along k-step intervals to find the maximum cumulative energy.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into k independent sequences based on the starting point modulo k.",
+      "For each sequence, we can calculate the maximum sum of a contiguous subsegment that starts at the beginning of the sequence.",
+      "The overall maximum is the maximum of these maximums across all k sequences."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

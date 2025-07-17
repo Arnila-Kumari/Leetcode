@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-substrings-that-satisfy-k-constraint-i",
+  "data_structures": [
+    [
+      "two pointers (left, right)",
+      "integer counter for '1's"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window approach to count substrings satisfying the k-constraint (at most k zeros or at most k ones)."
+  ],
+  "problem_summary_simple": "Count binary substrings where either 0s or 1s are at most k.",
+  "problem_summary_technical": "A sliding window expands to the right, and the left pointer contracts when the k-constraint is violated, counting valid substrings.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The constraint is `(num_zeros <= k) OR (num_ones <= k)`.",
+      "The sliding window maintains the count of ones. The number of zeros is implicitly `window_length - num_ones`.",
+      "When the window violates the constraint, the left pointer moves to shrink the window until the constraint is met again."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

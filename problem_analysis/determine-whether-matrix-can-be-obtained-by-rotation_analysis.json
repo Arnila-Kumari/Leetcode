@@ -1,0 +1,32 @@
+{
+  "problem_name": "determine-whether-matrix-can-be-obtained-by-rotation",
+  "data_structures": [
+    [
+      "lambda functions",
+      "list of lists"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Check all four rotations by defining lambda functions for each transformation and using `any` to see if any match the target."
+  ],
+  "problem_summary_simple": "Check if a matrix can become another matrix by rotating it 0, 90, 180, or 270 degrees.",
+  "problem_summary_technical": "Compares the input matrix against its three possible 90-degree rotations against the target matrix using lambda functions for transformations.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to simulate the rotations and compare.",
+      "Using lambda functions makes the rotation logic concise.",
+      "The `any` function efficiently checks if any of the rotations match."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

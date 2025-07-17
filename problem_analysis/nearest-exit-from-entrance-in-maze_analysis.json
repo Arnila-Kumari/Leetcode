@@ -1,0 +1,44 @@
+{
+  "problem_name": "nearest-exit-from-entrance-in-maze",
+  "data_structures": [
+    [
+      "queue",
+      "set"
+    ],
+    [
+      "queue",
+      "set"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Bidirectional Breadth-First Search (Bi-BFS) starting from the entrance and all border cells simultaneously.",
+    "Standard Breadth-First Search (BFS) starting from the entrance to find the shortest path to any border cell."
+  ],
+  "problem_summary_simple": "Find the shortest path from an entrance to any exit (border cell) in a maze.",
+  "problem_summary_technical": "Bi-BFS or BFS on a grid to find the minimum steps to reach a border cell, avoiding walls and the entrance itself.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m + n)",
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "Bidirectional BFS can be faster than standard BFS by searching from both ends (entrance and exits) simultaneously.",
+      "The key is to efficiently identify all potential exits (border cells) and start the second BFS from them.",
+      "Marking visited cells is crucial to avoid cycles and redundant computations."
+    ],
+    [
+      "A standard BFS explores the maze layer by layer, guaranteeing the first exit found is the nearest.",
+      "The entrance cell itself does not count as an exit, so it must be handled as a special case.",
+      "The maze can be modified in-place to mark visited cells, saving additional space for a visited set."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:01:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-nice-pairs-in-an-array",
+  "data_structures": [
+    [
+      "collections.defaultdict (hash map)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Rearrange the condition nums[i] + rev(nums[j]) == nums[j] + rev(nums[i]) to nums[i] - rev(nums[i]) == nums[j] - rev(nums[j]) and use a hash map."
+  ],
+  "problem_summary_simple": "Count pairs (i, j) where nums[i] + rev(nums[j]) equals nums[j] + rev(nums[i]).",
+  "problem_summary_technical": "Transforms the condition to a difference and uses a hash map to count frequencies of these differences.",
+  "time_complexity": [
+    "O(n log m)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core insight is to rearrange the given condition into a form that can be efficiently counted using a hash map.",
+      "The transformation `nums[i] - rev(nums[i]) == nums[j] - rev(nums[j])` is crucial.",
+      "When a difference `d` is encountered, the number of previous occurrences of `d` contributes to the nice pairs count."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:17:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

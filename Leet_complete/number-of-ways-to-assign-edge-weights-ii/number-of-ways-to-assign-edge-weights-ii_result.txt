@@ -1,19 +1,19 @@
 Problem: number-of-ways-to-assign-edge-weights-ii
-Submission ID: 1695570616
-Submission Time: 2025-07-12 11:48:02
+Submission ID: 1700873811
+Submission Time: 2025-07-16 22:31:37
 ============================================================
 
 State: SUCCESS
 Status: Accepted
 Language: Python
 
-Runtime: 2495 ms
-Memory: 115.02 MB
+Runtime: 2262 ms
+Memory: 114.98 MB
 
 Test Cases: 589/589 passed
 
-Runtime Percentile: 31.816100000000098%
-Memory Percentile: 59.09000000000011%
+Runtime Percentile: 49.438000000000066%
+Memory Percentile: 60.674000000000056%
 
 ============================================================
 RAW SUBMISSION DATA
@@ -22,26 +22,26 @@ RAW SUBMISSION DATA
   "status_code": 10,
   "lang": "python",
   "run_success": true,
-  "status_runtime": "2495 ms",
-  "memory": 115024000,
-  "display_runtime": "2495",
+  "status_runtime": "2262 ms",
+  "memory": 114980000,
+  "display_runtime": "2262",
   "question_id": "3842",
-  "elapsed_time": 2976,
+  "elapsed_time": 2817,
   "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
   "code_output": "",
   "std_output": "",
   "last_testcase": "",
   "expected_output": "",
-  "task_finish_time": 1752346082113,
+  "task_finish_time": 1752730295560,
   "task_name": "judger.judgetask.Judge",
   "finished": true,
   "total_correct": 589,
   "total_testcases": 589,
-  "runtime_percentile": 31.816100000000098,
+  "runtime_percentile": 49.438000000000066,
   "status_memory": "115 MB",
-  "memory_percentile": 59.09000000000011,
+  "memory_percentile": 60.674000000000056,
   "pretty_lang": "Python",
-  "submission_id": "1695570616",
+  "submission_id": "1700873811",
   "status_msg": "Accepted",
   "state": "SUCCESS"
 }

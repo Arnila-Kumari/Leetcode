@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-value-of-an-ordered-triplet-i",
+  "data_structures": [
+    [
+      "list of integers"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Single pass with tracking of maximum element seen so far and maximum difference"
+  ],
+  "problem_summary_simple": "Find the maximum value of (nums[i] - nums[j]) * nums[k] for i < j < k.",
+  "problem_summary_technical": "Iterate through the array, maintaining the maximum element seen so far (`mx`) and the maximum difference (`mx_diff`) to calculate the triplet value.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The expression (nums[i] - nums[j]) * nums[k] needs to be maximized.",
+      "To maximize this, we want to maximize `nums[i] - nums[j]` (meaning `nums[i]` is large and `nums[j]` is small) and `nums[k]`.",
+      "A single pass can track the maximum element seen so far (`mx`) and the maximum difference `mx - current_element` to efficiently compute the triplet value."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

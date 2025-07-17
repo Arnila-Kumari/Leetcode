@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-swap",
+  "data_structures": [
+    [
+      "list",
+      "variable"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Convert number to string, find the first digit from left that can be swapped with a larger digit to its right."
+  ],
+  "problem_summary_simple": "Swap at most two digits in a number to get the largest possible number.",
+  "problem_summary_technical": "Iterate from left to right, find the first digit smaller than the largest digit to its right, and swap.",
+  "time_complexity": [
+    "O(logn)"
+  ],
+  "space_complexity": [
+    "O(logn)"
+  ],
+  "key_insights": [
+    [
+      "To maximize the number, we want to place the largest possible digits in the most significant positions.",
+      "We should find the leftmost digit that is smaller than some digit to its right.",
+      "Then, we find the rightmost occurrence of the largest digit to its right and swap."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "number-of-possible-sets-of-closing-branches",
+  "data_structures": [
+    [
+      "2D array",
+      "bitmask"
+    ],
+    [
+      "2D array",
+      "bitmask"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Backtracking with Floyd-Warshall to explore subsets of branches and check connectivity within maxDistance.",
+    "Iterating through all subsets using bitmasks and applying Floyd-Warshall to check connectivity constraints."
+  ],
+  "problem_summary_simple": "Find how many subsets of company branches can remain open such that all remaining branches are close enough.",
+  "problem_summary_technical": "Uses bitmasks to represent subsets of branches, Floyd-Warshall to compute all-pairs shortest paths, and checks distance constraints.",
+  "time_complexity": [
+    "O(r + 2^n * n^2)",
+    "O(r + 2^n * n^3)"
+  ],
+  "space_complexity": [
+    "O(n^3)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The small constraint on 'n' (number of branches) suggests an exponential solution involving subsets.",
+      "Floyd-Warshall is suitable for computing all-pairs shortest paths, which is needed to check distances between all remaining branches.",
+      "Backtracking can be used to generate subsets, but a direct bitmask iteration is more efficient for this problem."
+    ],
+    [
+      "Iterating through all 2^n subsets of branches is the core of the solution.",
+      "For each subset, Floyd-Warshall must be applied to the subgraph induced by the remaining branches to calculate shortest paths.",
+      "The `check` function verifies if all pairs of remaining branches are within `maxDistance`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:02:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

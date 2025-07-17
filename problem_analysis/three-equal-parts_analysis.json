@@ -1,0 +1,32 @@
+{
+  "problem_name": "three-equal-parts",
+  "data_structures": [
+    [
+      "integer",
+      "list of integers"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count ones, find indices of every third '1', verify partitions."
+  ],
+  "problem_summary_simple": "Divide an array of 0s and 1s into three contiguous parts with equal binary values.",
+  "problem_summary_technical": "Partition an array of binary digits into three contiguous subarrays representing equal binary values by identifying the positions of '1's.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The total count of '1's must be divisible by 3.",
+      "Leading zeros are allowed and do not affect the binary value.",
+      "The core idea is to find the boundaries based on the positions of '1's."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

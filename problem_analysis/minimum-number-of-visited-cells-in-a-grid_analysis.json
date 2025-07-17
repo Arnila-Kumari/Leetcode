@@ -1,0 +1,48 @@
+{
+  "problem_name": "minimum-number-of-visited-cells-in-a-grid",
+  "data_structures": [
+    [
+      "list",
+      "UnionFind",
+      "deque"
+    ],
+    [
+      "list",
+      "SortedList",
+      "deque"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "BFS with Union-Find to efficiently group reachable cells and avoid redundant processing.",
+    "BFS with SortedList to manage reachable cells and efficiently find next steps."
+  ],
+  "problem_summary_simple": "Find the shortest path from the top-left to the bottom-right of a grid, where each cell's value dictates possible moves.",
+  "problem_summary_technical": "BFS on a grid with custom moves. Union-Find or SortedList optimizes finding reachable cells within jump ranges.",
+  "time_complexity": [
+    "O(M * N * alpha(M + N))",
+    "O(M * N * log(M + N))"
+  ],
+  "space_complexity": [
+    "O(M * N)",
+    "O(M * N)"
+  ],
+  "key_insights": [
+    [
+      "This is a shortest path problem on a grid, suggesting BFS.",
+      "The challenge is efficiently handling the variable jump lengths.",
+      "Union-Find or SortedList helps to group and query reachable cells within a jump.",
+      "The Union-Find approach is more efficient due to its near-constant time operations."
+    ],
+    [
+      "The problem can be modeled as a graph where cells are nodes and valid moves are edges.",
+      "BFS guarantees finding the shortest path in terms of number of cells visited.",
+      "The key optimization is to avoid re-processing cells that have already been reached with a shorter path.",
+      "SortedList allows efficient querying of cells within a jump range."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:59:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

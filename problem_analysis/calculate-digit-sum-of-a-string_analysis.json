@@ -1,0 +1,31 @@
+{
+  "problem_name": "calculate-digit-sum-of-a-string",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Simulation: repeatedly group, sum digits, and merge until string length is <= k."
+  ],
+  "problem_summary_simple": "Repeatedly sum digits of string segments until the string is short enough.",
+  "problem_summary_technical": "Simulates rounds of grouping string by k, summing digits in each group, and merging until length <= k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core logic is a simulation of the described process.",
+      "String manipulation (slicing, joining) is key, but can be optimized by building new strings.",
+      "The number of rounds is logarithmic with respect to the initial string length and k."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

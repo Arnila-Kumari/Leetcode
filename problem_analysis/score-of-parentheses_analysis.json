@@ -1,0 +1,42 @@
+{
+  "problem_name": "score-of-parentheses",
+  "data_structures": [
+    [
+      "stack"
+    ],
+    [
+      "integer variables (result, depth)"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Stack-based approach to calculate scores based on nesting and adjacent pairs",
+    "Iterative approach tracking depth and adding scores for '()' pairs"
+  ],
+  "problem_summary_simple": "Calculate the score of a balanced parentheses string based on specific rules.",
+  "problem_summary_technical": "Use a stack to manage scores of nested parentheses, applying rules for '()' and '(A)'.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "When ')' is encountered, pop the last score. If it was '()', add 1 (or 2^depth).",
+      "If the popped value was a score > 0, it means '(A)', so double it and add to the parent's score.",
+      "The stack effectively keeps track of scores at different nesting levels."
+    ],
+    [
+      "The score of '()' is 1. The score of '(A)' is 2*A. The score of 'AB' is A+B.",
+      "The depth of a '()' pair determines its multiplier (2^depth).",
+      "Iterating and tracking depth allows direct calculation without an explicit stack for some solutions."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-steps-to-make-two-strings-anagram-ii",
+  "data_structures": [
+    [
+      "collections.Counter",
+      "dictionary"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting using hash maps (Counter) to find character differences and sum them."
+  ],
+  "problem_summary_simple": "Find minimum character additions to make two strings anagrams of each other.",
+  "problem_summary_technical": "Sum the absolute differences in character frequencies between the two strings.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To make two strings anagrams, they must have the same character counts.",
+      "The number of steps is the total number of characters that need to be added to either string to match the other.",
+      "This is equivalent to summing the absolute differences of character counts for each character."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:58:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

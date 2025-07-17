@@ -1,0 +1,32 @@
+{
+  "problem_name": "make-k-subarray-sums-equal",
+  "data_structures": [
+    [
+      "array",
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Greatest Common Divisor (GCD) and Median of Medians (Quickselect)"
+  ],
+  "problem_summary_simple": "Make all subarray sums of length k equal in a circular array with minimum operations.",
+  "problem_summary_technical": "Group elements by index modulo GCD(k, n). For each group, find the median and sum absolute differences to make them equal.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The circularity and subarray sum constraint imply that elements at indices i, i+k, i+2k, ... (modulo n) are related.",
+      "The number of independent groups is GCD(k, n).",
+      "Within each group, making all elements equal to the median minimizes the sum of absolute differences."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:50:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

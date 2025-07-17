@@ -1,0 +1,41 @@
+{
+  "problem_name": "count-the-number-of-k-big-indices",
+  "data_structures": [
+    [
+      "list",
+      "heap"
+    ],
+    [
+      "SortedList"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Two passes with max-heaps to count elements smaller than current from left and right.",
+    "Using SortedList to maintain sorted elements and count elements smaller than current."
+  ],
+  "problem_summary_simple": "Find indices where at least k smaller elements exist to the left and right.",
+  "problem_summary_technical": "Two-pass heap approach or SortedList to efficiently count elements smaller than current on both sides.",
+  "time_complexity": [
+    "O(n log k)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires counting elements on both sides, suggesting two passes or a data structure that supports efficient range queries.",
+      "Using a min-heap of size k to track the k largest elements seen so far (or max-heap for smallest) is a common pattern."
+    ],
+    [
+      "SortedList provides efficient insertion, deletion, and bisect operations, allowing for O(log n) lookups of counts.",
+      "The SortedList approach is more concise but might have a higher time complexity if n is very large compared to k."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

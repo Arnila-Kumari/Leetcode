@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-vertices-to-reach-all-nodes",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Identify nodes with no incoming edges by tracking all destination nodes."
+  ],
+  "problem_summary_simple": "Find the smallest set of starting points to reach every node in a directed acyclic graph.",
+  "problem_summary_technical": "In a DAG, the minimum set of vertices to reach all nodes are those with an in-degree of zero.",
+  "time_complexity": [
+    "O(E)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem boils down to finding nodes with an in-degree of 0.",
+      "Any node with an incoming edge can be reached from another node.",
+      "Therefore, only nodes with no incoming edges *must* be starting points."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:59:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,50 @@
+{
+  "problem_name": "count-submatrices-with-all-ones",
+  "data_structures": [
+    [
+      "2D list (matrix)",
+      "list (heights)",
+      "stack",
+      "integer variables"
+    ],
+    [
+      "2D list (matrix)",
+      "list (heights)",
+      "list (dp array)",
+      "stack",
+      "integer variables"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterate through rows, compute heights of consecutive ones, and use a monotonic stack to count valid rectangles in each row's histogram.",
+    "Iterate through rows, compute heights of consecutive ones, and use a DP array with a monotonic stack to count valid rectangles."
+  ],
+  "problem_summary_simple": "Count all submatrices within a binary matrix that contain only ones.",
+  "problem_summary_technical": "Reduces the 2D problem to multiple 1D histogram problems, solved efficiently using monotonic stacks.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by iterating through each row and treating it as the bottom row of potential submatrices.",
+      "For each row, we compute a 'heights' array representing the number of consecutive ones ending at that cell in the current column.",
+      "The problem then becomes counting rectangles in a histogram for each row's 'heights' array. A monotonic stack is used to efficiently count these rectangles.",
+      "The `count` function uses a monotonic stack to calculate the sum of areas of all rectangles that can be formed with the current bar as the shortest bar."
+    ],
+    [
+      "Similar to the first solution, it processes rows and uses a 'heights' array.",
+      "The `count` function uses a DP array `dp[i]` to store the number of valid rectangles ending at column `i` in the current histogram.",
+      "The monotonic stack helps in calculating `dp[i]` by considering previous bars and the current bar's height."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "smallest-rectangle-enclosing-black-pixels",
+  "data_structures": [
+    [
+      "list",
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on rows and columns"
+  ],
+  "problem_summary_simple": "Find the area of the smallest rectangle enclosing all black pixels in a binary matrix.",
+  "problem_summary_technical": "Uses binary search to find the boundaries (top, bottom, left, right) of the black pixel region efficiently.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding the minimum bounding box of connected '1's.",
+      "Since the black pixels form a single component, binary search can efficiently find the extreme rows and columns containing '1's.",
+      "The key is to design the binary search predicate to check if a given row/column contains any black pixels."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

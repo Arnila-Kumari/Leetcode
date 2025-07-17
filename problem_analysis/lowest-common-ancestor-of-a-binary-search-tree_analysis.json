@@ -1,0 +1,32 @@
+{
+  "problem_name": "lowest-common-ancestor-of-a-binary-search-tree",
+  "data_structures": [
+    [
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Leverage BST property: values less than root go left, greater go right. Iterate until values straddle the current node."
+  ],
+  "problem_summary_simple": "Find the lowest common ancestor of two nodes in a Binary Search Tree.",
+  "problem_summary_technical": "Utilize BST properties to efficiently find LCA by comparing node values with the current root's value.",
+  "time_complexity": [
+    "O(h)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The BST property is crucial for an efficient O(h) solution.",
+      "If both p and q are smaller than the current node, LCA must be in the left subtree.",
+      "If both p and q are larger than the current node, LCA must be in the right subtree.",
+      "If p and q straddle the current node (one smaller, one larger), the current node is the LCA."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:50:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

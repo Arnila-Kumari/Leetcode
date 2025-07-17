@@ -1,0 +1,32 @@
+{
+  "problem_name": "happy-number",
+  "data_structures": [
+    [
+      "Hash Map",
+      "Integer"
+    ]
+  ],
+  "category": "Hash Map",
+  "algorithm_technique": [
+    "Use a hash map to detect cycles by storing previously seen numbers during the sum-of-squares process."
+  ],
+  "problem_summary_simple": "Determine if a number eventually reaches 1 by repeatedly summing the squares of its digits.",
+  "problem_summary_technical": "Detect cycles in the sum-of-squares-of-digits process using a hash map to identify unhappy numbers.",
+  "time_complexity": [
+    "O(k)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "The process either reaches 1 (happy) or enters a cycle (unhappy).",
+      "A hash map (or set) is essential to detect if a number has been encountered before, indicating a cycle.",
+      "The `nextNumber` helper function encapsulates the core transformation step."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

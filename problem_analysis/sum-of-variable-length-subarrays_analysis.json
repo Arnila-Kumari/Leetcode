@@ -1,0 +1,31 @@
+{
+  "problem_name": "sum-of-variable-length-subarrays",
+  "data_structures": [
+    [
+      "difference array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Difference array to track subarray contributions"
+  ],
+  "problem_summary_simple": "Sum elements from subarrays defined by nums[i] and its value.",
+  "problem_summary_technical": "Uses a difference array to count how many times each element contributes to the total sum based on defined subarray ranges.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as: for each element `nums[i]`, how many times does it appear in the defined subarrays?",
+      "A difference array is used to efficiently calculate these counts. `diff[start] += 1` and `diff[end+1] -= 1` marks the range of influence.",
+      "After constructing the difference array, a prefix sum on it gives the actual count for each element, which is then multiplied by the element's value."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

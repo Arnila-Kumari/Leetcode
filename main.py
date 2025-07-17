@@ -8,9 +8,17 @@ It supports both single-account and multi-account modes with advanced anti-detec
 Features:
 - Undetected Chrome browser to bypass Cloudflare protection
 - Multi-account parallel processing to avoid rate limits
+- Environment variable credential management for security
 - Automatic problem submission and documentation
 - State management for resuming sessions
 - Comprehensive error handling
+
+Credential Setup:
+    Set LEET_CREDS environment variable:
+    export LEET_CREDS='user1@example.com:pass1,user2@example.com:pass2'
+    
+    Or create a .env file:
+    LEET_CREDS=user1@example.com:pass1,user2@example.com:pass2
 
 Usage:
     python main.py
@@ -39,6 +47,22 @@ import threading
 import queue
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+# Try to import python-dotenv for .env file support
+try:
+    from dotenv import load_dotenv
+    # Check if .env file exists before loading
+    env_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.env')
+    if os.path.exists(env_file_path):
+        load_dotenv()  # Load environment variables from .env file
+        # Only show this if we actually have credentials in the .env file
+        with open(env_file_path, 'r') as f:
+            if 'LEET_CREDS=' in f.read():
+                print("🔐 Loaded environment variables from .env file")
+    else:
+        load_dotenv()  # Still call load_dotenv in case there are other .env files
+except ImportError:
+    print("💡 Install python-dotenv for .env file support: pip install python-dotenv")
+
 # Import configuration
 from config import (
     DEFAULT_USERNAME, DEFAULT_PASSWORD, PAGE_LOAD_TIMEOUT,
@@ -59,23 +83,150 @@ logging.basicConfig(
 # State file path
 STATE_FILE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'leetcode_state.json')
 
+
+def parse_credentials_from_env():
+    """
+    Parse credentials from environment variable LEET_CREDS.
+    
+    Expected format: user1:pass1,user2:pass2,user3:pass3
+    
+    Returns:
+        list: List of credential dictionaries with 'username' and 'password' keys
+    """
+    try:
+        leet_creds = os.getenv('LEET_CREDS', '').strip()
+        
+        if not leet_creds:
+            logging.info("No LEET_CREDS environment variable found")
+            return []
+        
+        accounts = []
+        credential_pairs = leet_creds.split(',')
+        
+        for i, pair in enumerate(credential_pairs):
+            pair = pair.strip()
+            if not pair:
+                continue
+                
+            if ':' not in pair:
+                logging.warning(f"Invalid credential format at position {i+1}: '{pair}' (expected 'username:password')")
+                continue
+            
+            # Split only on the first colon to handle passwords with colons
+            username, password = pair.split(':', 1)
+            username = username.strip()
+            password = password.strip()
+            
+            if not username or not password:
+                logging.warning(f"Empty username or password at position {i+1}: '{pair}'")
+                continue
+            
+            accounts.append({
+                "username": username,
+                "password": password
+            })
+            # Log without exposing password
+            logging.info(f"Loaded account {i+1}: {username} (password: {'*' * min(len(password), 8)})")
+        
+        if accounts:
+            logging.info(f"Successfully loaded {len(accounts)} accounts from environment variables")
+        else:
+            logging.warning("No valid accounts found in LEET_CREDS environment variable")
+        
+        return accounts
+        
+    except Exception as e:
+        logging.error(f"Error parsing credentials from environment: {str(e)}")
+        return []
+
+
+def check_credential_setup():
+    """
+    Check and provide feedback on credential setup.
+    
+    Returns:
+        dict: Status information about credential setup
+    """
+    status = {
+        'has_env_var': bool(os.getenv('LEET_CREDS')),
+        'has_env_file': False,
+        'env_accounts_count': 0,
+        'env_accounts_valid': False
+    }
+    
+    # Check for .env file
+    env_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.env')
+    if os.path.exists(env_file_path):
+        status['has_env_file'] = True
+        with open(env_file_path, 'r') as f:
+            env_content = f.read()
+            if 'LEET_CREDS=' in env_content:
+                status['has_env_var'] = True
+    
+    # Check validity of environment accounts
+    if status['has_env_var']:
+        env_accounts = parse_credentials_from_env()
+        status['env_accounts_count'] = len(env_accounts)
+        status['env_accounts_valid'] = len(env_accounts) > 0
+    
+    return status
+
+
+def get_accounts_from_config():
+    """
+    Get accounts from environment variables, falling back to hardcoded config if needed.
+    
+    Returns:
+        list: List of account dictionaries
+    """
+    # Check credential setup status
+    cred_status = check_credential_setup()
+    
+    # Try to get accounts from environment variables first
+    env_accounts = parse_credentials_from_env()
+    
+    if env_accounts:
+        source = "environment variable" if not cred_status['has_env_file'] else ".env file"
+        print(f"✅ Loaded {len(env_accounts)} accounts from {source}")
+        return env_accounts
+    
+    # Fallback to hardcoded accounts (now empty by default)
+    hardcoded_accounts = [
+        # Add your accounts here if not using environment variables:
+        # {"username": "your_username", "password": "your_password"},
+    ]
+    
+    if hardcoded_accounts:
+        print(f"⚠️  Using {len(hardcoded_accounts)} hardcoded accounts (consider using LEET_CREDS environment variable)")
+        logging.warning("Using hardcoded accounts - consider using environment variables for security")
+        return hardcoded_accounts
+    
+    # No accounts found - provide helpful setup instructions
+    print("🔧 No accounts configured. Here's how to set them up:")
+    print()
+    if not cred_status['has_env_var']:
+        print("📝 OPTION 1: Environment Variable")
+        print("   export LEET_CREDS='user1@example.com:pass1,user2@example.com:pass2'")
+        print()
+        print("📝 OPTION 2: Create .env file")
+        print("   echo 'LEET_CREDS=user1@example.com:pass1,user2@example.com:pass2' > .env")
+        print()
+        print("📝 OPTION 3: Interactive setup (will prompt when running)")
+        print()
+    else:
+        if cred_status['env_accounts_count'] == 0:
+            print("❌ LEET_CREDS environment variable found but no valid accounts parsed")
+            print("   Check format: 'user1:pass1,user2:pass2'")
+            print("   Current value:", os.getenv('LEET_CREDS', '')[:50] + "..." if len(os.getenv('LEET_CREDS', '')) > 50 else os.getenv('LEET_CREDS', ''))
+    
+    return []
+
+
 # Multi-account configuration
 MULTI_ACCOUNT_CONFIG = {
     "enabled": True,  # Set to True to enable multi-account mode
     "max_workers": 1,  # Number of parallel browser instances
-    "accounts": [
-        # Add your accounts here:
-        {"username": "s4lly", "password": "DoWell123!"},
-        # {"username": "final_1", "password": "test_1234"},
-        # {"username": "final_2", "password": "test_1234"},
-        # {"username": "final_3", "password": "test_1234"},
-        # {"username": "second_last_for_sure", "password": "test_1234"},
-        # {"username": "think_slow", "password": "too_f4st"},
-        # {"username": "think_fast", "password": "too_sl0w"},
-        # {"username": "elite_coder_test", "password": "test_1234"},
-        # {"username": "one_more_account", "password": "taste_1234"},
-        # {"username": "fast_and_furious", "password": "Roksakotohr0kl0"},
-    ]
+    "accounts": get_accounts_from_config()  # Load accounts from environment variables
 }
 
 
@@ -465,7 +616,7 @@ class MultiAccountManager:
                 problem_file = assigned_problems[i]
                 problem_index = start_idx + i
                 problem_name = problem_file[:-3]  # Remove .py extension
-                python_file_path = os.path.join("Python", problem_file)
+                python_file_path = os.path.join("Leet_complete", problem_name, problem_file)
                 
                 logging.info(f"🔄 [{account_id}] Processing {problem_name} ({i + 1}/{len(assigned_problems)})")
                 
@@ -523,7 +674,7 @@ class MultiAccountManager:
                 
                 # Process the problem
                 problem_name = problem_file[:-3]  # Remove .py extension
-                python_file_path = os.path.join("Python", problem_file)
+                python_file_path = os.path.join("Leet_complete", problem_name, problem_file)
                 
                 logging.info(f"🔄 [{account_id}] Processing {problem_name}")
                 
@@ -693,12 +844,12 @@ class MultiAccountManager:
                 return []
             
             # Validate that each problem has a corresponding Python file
-            python_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Python")
+            leet_complete_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Leet_complete")
             valid_problems = []
             missing_problems = []
             
             for problem_name in problems:
-                python_file_path = os.path.join(python_folder, f"{problem_name}.py")
+                python_file_path = os.path.join(leet_complete_folder, problem_name, f"{problem_name}.py")
                 if os.path.exists(python_file_path):
                     valid_problems.append(problem_name)
                 else:
@@ -940,7 +1091,7 @@ class MultiAccountManager:
             for i, problem_info in enumerate(assigned_problems):
                 problem_name = problem_info['problem_name']
                 problem_index = problem_info['problem_index']
-                python_file_path = os.path.join("Python", f"{problem_name}.py")
+                python_file_path = os.path.join("Leet_complete", problem_name, f"{problem_name}.py")
                 
                 logging.info(f"🔄 [{worker_id}] Retrying {problem_name} ({i + 1}/{len(assigned_problems)})")
                 print(f"🔄 [{worker_id}] Retrying {problem_name} ({i + 1}/{len(assigned_problems)})")
@@ -1040,7 +1191,7 @@ class MultiAccountManager:
             for i in range(resume_from_index, len(assigned_problems)):
                 problem_file = assigned_problems[i]
                 problem_name = problem_file[:-3]  # Remove .py extension
-                python_file_path = os.path.join("Python", problem_file)
+                python_file_path = os.path.join("Leet_complete", problem_name, problem_file)
                 
                 logging.info(f"🔄 [{account_id}] Processing {problem_name} ({i + 1}/{len(assigned_problems)})")
                 print(f"🔄 [{account_id}] Processing {problem_name} ({i + 1}/{len(assigned_problems)})")
@@ -1102,11 +1253,15 @@ class MultiAccountManager:
 
 
 def get_multi_account_credentials():
-    """Get credentials for multiple accounts."""
+    """Get credentials for multiple accounts interactively."""
     accounts = []
     
     print("\n" + "="*60)
-    print("MULTI-ACCOUNT SETUP")
+    print("INTERACTIVE MULTI-ACCOUNT SETUP")
+    print("="*60)
+    print("💡 TIP: For automated setup, use environment variables:")
+    print("   export LEET_CREDS='user1:pass1,user2:pass2'")
+    print("   or create a .env file with: LEET_CREDS=user1:pass1,user2:pass2")
     print("="*60)
     print("Enter credentials for multiple LeetCode accounts.")
     print("This will allow parallel processing and bypass rate limits.")
@@ -1401,13 +1556,26 @@ def browse_problems_multi_account():
     """Browse problems using multiple accounts in parallel."""
     try:
         # Get account credentials
-        if not MULTI_ACCOUNT_CONFIG["accounts"]:
+        accounts = MULTI_ACCOUNT_CONFIG["accounts"]
+        
+        if not accounts:
+            print("🔧 No accounts configured. Trying interactive setup...")
             accounts = get_multi_account_credentials()
             if not accounts:
                 print("❌ No accounts provided, falling back to single-account mode")
                 return False
         else:
-            accounts = MULTI_ACCOUNT_CONFIG["accounts"]
+            # Show where accounts came from
+            env_accounts = parse_credentials_from_env()
+            if env_accounts:
+                print(f"🔐 Using {len(accounts)} accounts from environment variables")
+                # Mask passwords for security in display
+                for i, account in enumerate(accounts, 1):
+                    masked_password = '*' * min(len(account['password']), 8)
+                    print(f"   Account {i}: {account['username']} (password: {masked_password})")
+            else:
+                print(f"🔐 Using {len(accounts)} accounts from hardcoded configuration")
+                logging.warning("Consider using environment variables for credential security")
         
         # Initialize multi-account manager
         max_workers = min(MULTI_ACCOUNT_CONFIG["max_workers"], len(accounts))
@@ -1425,8 +1593,18 @@ def browse_problems_multi_account():
                 return False
             
             # Get problem files
-            python_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Python")
-            problem_files = [f for f in os.listdir(python_folder) if f.endswith(".py")]
+            leet_complete_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Leet_complete")
+            problem_files = []
+            if os.path.exists(leet_complete_folder):
+                for problem_dir in os.listdir(leet_complete_folder):
+                    problem_dir_path = os.path.join(leet_complete_folder, problem_dir)
+                    if os.path.isdir(problem_dir_path):
+                        # Look for Python file with same name as the directory
+                        python_file = f"{problem_dir}.py"
+                        python_file_path = os.path.join(problem_dir_path, python_file)
+                        if os.path.exists(python_file_path):
+                            problem_files.append(python_file)
+            
             problem_files.sort()
             
             if not problem_files:
@@ -1563,12 +1741,22 @@ def browse_problems_multi_account():
 def browse_problems_single_account(driver):
     """Original single-account browse problems function."""
     try:
-        # Path to the Python folder
-        python_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Python")
-        logging.info(f"Looking for problem files in: {python_folder}")
+        # Path to the Leet_complete folder
+        leet_complete_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Leet_complete")
+        logging.info(f"Looking for problem files in: {leet_complete_folder}")
         
-        # Get all Python files in the folder
-        problem_files = [f for f in os.listdir(python_folder) if f.endswith(".py")]
+        # Get all problem directories and their corresponding Python files
+        problem_files = []
+        if os.path.exists(leet_complete_folder):
+            for problem_dir in os.listdir(leet_complete_folder):
+                problem_dir_path = os.path.join(leet_complete_folder, problem_dir)
+                if os.path.isdir(problem_dir_path):
+                    # Look for Python file with same name as the directory
+                    python_file = f"{problem_dir}.py"
+                    python_file_path = os.path.join(problem_dir_path, python_file)
+                    if os.path.exists(python_file_path):
+                        problem_files.append(python_file)
+        
         problem_files.sort()  # Sort files alphabetically
         
         if not problem_files:
@@ -1653,7 +1841,7 @@ def browse_problems_single_account(driver):
             for i in range(actual_start, batch_end):
                 file_name = problem_files[i]
                 problem_name = file_name[:-3]  # Remove .py extension
-                python_file_path = os.path.join(python_folder, file_name)
+                python_file_path = os.path.join("Leet_complete", problem_name, file_name)
                 
                 print(f"\n{'='*60}")
                 print(f"Problem {i + 1}/{total_problems}: {problem_name}")
@@ -3121,31 +3309,36 @@ def show_multi_account_setup_instructions():
     print("\n" + "="*80)
     print("📖 MULTI-ACCOUNT SETUP INSTRUCTIONS")
     print("="*80)
-    print("To use multi-account mode, you have two options:")
+    print("To use multi-account mode, you have three options:")
     print()
-    print("OPTION 1: Interactive Setup (Recommended for first-time)")
+    print("OPTION 1: Environment Variables (RECOMMENDED - Most Secure)")
+    print("- Set the LEET_CREDS environment variable")
+    print("- Format: user1:pass1,user2:pass2,user3:pass3")
+    print("- Example commands:")
+    print("  Linux/Mac: export LEET_CREDS='user1@example.com:password1,user2@example.com:password2'")
+    print("  Windows:   set LEET_CREDS=user1@example.com:password1,user2@example.com:password2")
+    print("- Or create a .env file in the project directory:")
+    print("  LEET_CREDS=user1@example.com:password1,user2@example.com:password2")
+    print()
+    print("OPTION 2: Interactive Setup (For testing/one-time use)")
     print("- Choose multi-account mode when prompted")
     print("- Enter credentials for each account interactively")
     print("- Accounts are used for this session only")
     print()
-    print("OPTION 2: Pre-configure accounts (For repeated use)")
-    print("- Edit the MULTI_ACCOUNT_CONFIG in main.py")
-    print("- Set 'enabled': True")
-    print("- Add your accounts to the 'accounts' list")
+    print("OPTION 3: Hardcoded Configuration (Not recommended)")
+    print("- Edit the hardcoded_accounts list in get_accounts_from_config()")
+    print("- Add your accounts to the list")
     print("- Example:")
-    print('  MULTI_ACCOUNT_CONFIG = {')
-    print('      "enabled": True,')
-    print('      "max_workers": 3,')
-    print('      "accounts": [')
-    print('          {"username": "user1@example.com", "password": "password1"},')
-    print('          {"username": "user2@example.com", "password": "password2"},')
-    print('          {"username": "user3@example.com", "password": "password3"},')
-    print('      ]')
-    print('  }')
+    print('  hardcoded_accounts = [')
+    print('      {"username": "user1@example.com", "password": "password1"},')
+    print('      {"username": "user2@example.com", "password": "password2"},')
+    print('  ]')
     print()
-    print("⚠️  IMPORTANT SECURITY NOTES:")
-    print("- Keep your credentials secure")
-    print("- Consider using environment variables for passwords")
+    print("🔐 SECURITY BEST PRACTICES:")
+    print("- Use environment variables (Option 1) for production")
+    print("- Never commit credentials to version control")
+    print("- Use strong, unique passwords for each account")
+    print("- Consider using app passwords if available")
     print("- Each account should be a legitimate LeetCode account")
     print("- Respect LeetCode's terms of service")
     print()
@@ -3154,6 +3347,10 @@ def show_multi_account_setup_instructions():
     print("- Bypass individual account rate limits")
     print("- Parallel submission and result checking")
     print("- Independent browser sessions")
+    print("- Secure credential management")
+    print()
+    print("💡 EXAMPLE .env FILE:")
+    print("LEET_CREDS=john.doe@email.com:mypassword123,jane.smith@email.com:securepass456")
     print("="*80)
 
 

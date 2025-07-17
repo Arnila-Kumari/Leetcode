@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-time-to-visit-disappearing-nodes",
+  "data_structures": [
+    [
+      "adjacency list",
+      "min-heap (priority queue)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Modified Dijkstra's algorithm to account for node disappearance times."
+  ],
+  "problem_summary_simple": "Find the minimum time to reach each node from node 0 before it disappears.",
+  "problem_summary_technical": "Applies Dijkstra's algorithm with a modification to the relaxation condition, considering node disappearance times.",
+  "time_complexity": [
+    "O((|E| + |V|) * log|V|)"
+  ],
+  "space_complexity": [
+    "O(|E| + |V|)"
+  ],
+  "key_insights": [
+    [
+      "The core challenge is integrating the 'disappear' constraint into a shortest path algorithm.",
+      "Dijkstra's algorithm is suitable, but the edge relaxation must check if the arrival time exceeds the node's disappearance time.",
+      "The graph can be disconnected, so Dijkstra's must be run from the source node (0)."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

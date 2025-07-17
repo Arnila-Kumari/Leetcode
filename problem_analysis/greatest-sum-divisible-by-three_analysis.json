@@ -1,0 +1,31 @@
+{
+  "problem_name": "greatest-sum-divisible-by-three",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming where dp[i] stores the max sum divisible by 3 ending with remainder i."
+  ],
+  "problem_summary_simple": "Find the maximum sum of array elements that is divisible by 3.",
+  "problem_summary_technical": "Use DP where dp[i] is the maximum sum achievable with a remainder of i when divided by 3.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The state of the DP only depends on the remainder modulo 3.",
+      "For each number, we consider how it affects the sums for each remainder.",
+      "The final answer is the maximum sum with a remainder of 0."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:46:33",
+  "batch_processed": true,
+  "batch_size": 5
+}

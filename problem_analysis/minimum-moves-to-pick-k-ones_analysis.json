@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-moves-to-pick-k-ones",
+  "data_structures": [
+    [
+      "array",
+      "prefix sum array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Prefix sums and greedy approach to find the optimal window of ones to collect with minimal moves."
+  ],
+  "problem_summary_simple": "Collect k ones using minimum moves, allowing changes and swaps with adjacent ones.",
+  "problem_summary_technical": "Calculate prefix sums of indices of ones. Use a sliding window to find k ones with minimum total distance and changes.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down into two main strategies: using `maxChanges` to convert zeros to ones, and swapping ones.",
+      "The cost of collecting `k` ones is minimized by selecting a contiguous block of `k` ones (after potential changes) and minimizing the total distance to move them to the `aliceIndex`.",
+      "Prefix sums of the indices of ones help efficiently calculate the cost of moving a block of ones."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:58:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

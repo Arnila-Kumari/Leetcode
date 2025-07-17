@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-arithmetic-subsequence",
+  "data_structures": [
+    [
+      "hashmap",
+      "array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming using a hashmap to store lengths of arithmetic subsequences ending at each index with a specific difference."
+  ],
+  "problem_summary_simple": "Find the length of the longest arithmetic subsequence within a given array.",
+  "problem_summary_technical": "Uses dynamic programming where `dp[diff, index]` stores the length of the longest arithmetic subsequence ending at `index` with common difference `diff`.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using dynamic programming. The state needs to capture both the ending element and the common difference.",
+      "A hashmap is suitable for storing `dp[difference, index]` because the differences can be arbitrary.",
+      "For each pair of elements `(A[i], A[j])`, the difference `v = A[j] - A[i]` is calculated. The length of the arithmetic subsequence ending at `j` with difference `v` is `dp[v, i] + 1`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-hours-of-training-to-win-a-competition",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach to calculate required training for each opponent sequentially."
+  ],
+  "problem_summary_simple": "Calculate minimum training hours to have enough energy and experience to beat all opponents in order.",
+  "problem_summary_technical": "Iterate through opponents, calculate required energy/experience increases, update current stats, and sum up training hours needed.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "For each opponent, determine the minimum additional energy and experience needed.",
+      "The training for each opponent is independent in terms of calculating the deficit, but cumulative for current stats.",
+      "The greedy choice is to train just enough for the current opponent, as excess training doesn't provide future benefits beyond meeting the current requirement."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:57:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

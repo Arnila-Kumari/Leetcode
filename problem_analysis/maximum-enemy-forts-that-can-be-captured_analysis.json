@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-enemy-forts-that-can-be-captured",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to find sequences of enemy forts between friendly forts."
+  ],
+  "problem_summary_simple": "Find the maximum number of enemy forts captured by moving between your own forts.",
+  "problem_summary_technical": "Use two pointers to scan for sequences of enemy forts (0) between friendly forts (1 or -1).",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find segments of enemy forts (0s) that are bounded by friendly forts (1s or -1s).",
+      "A two-pointer approach efficiently scans the array, identifying potential capture segments.",
+      "The distance between two friendly forts, minus one, gives the number of enemy forts captured."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:52:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

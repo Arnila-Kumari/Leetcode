@@ -1,0 +1,33 @@
+{
+  "problem_name": "parallel-courses",
+  "data_structures": [
+    [
+      "adjacency list (graph)",
+      "in-degree array",
+      "queue (for BFS)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Topological Sort using Kahn's algorithm (BFS) to find the longest path in a DAG"
+  ],
+  "problem_summary_simple": "Find the minimum semesters to complete all courses given prerequisites.",
+  "problem_summary_technical": "Uses BFS (Kahn's algorithm) on a directed acyclic graph to find the longest path, representing the minimum semesters.",
+  "time_complexity": [
+    "O(|V| + |E|)"
+  ],
+  "space_complexity": [
+    "O(|V| + |E|)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the longest path in a Directed Acyclic Graph (DAG).",
+      "Topological sort is the appropriate algorithm for processing DAGs.",
+      "BFS (Kahn's algorithm) is used to perform the topological sort and track the semester count."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

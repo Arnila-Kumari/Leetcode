@@ -1,0 +1,31 @@
+{
+  "problem_name": "longest-line-of-consecutive-one-in-matrix",
+  "data_structures": [
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming with Space Optimization"
+  ],
+  "problem_summary_simple": "Find the longest straight line of consecutive 1s in a binary matrix (horizontal, vertical, diagonal, anti-diagonal).",
+  "problem_summary_technical": "Uses DP to store lengths of consecutive 1s ending at each cell for four directions, optimizing space with modulo.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires tracking consecutive ones in four directions: horizontal, vertical, diagonal, and anti-diagonal.",
+      "A DP approach is suitable, where `dp[i][j][direction]` stores the length of consecutive ones ending at `(i, j)` in that direction.",
+      "Space optimization is achieved by using only two rows (current and previous) of the DP table, reducing space from O(m*n) to O(n)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

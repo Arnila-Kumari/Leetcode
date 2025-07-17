@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-of-matches-in-tournament",
+  "data_structures": [
+    [
+      "integer arithmetic"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical observation: each match eliminates one team, so n-1 matches are needed for n teams."
+  ],
+  "problem_summary_simple": "Calculate the total matches played in a tournament until one winner remains.",
+  "problem_summary_technical": "Each match eliminates one team. To get from n teams to 1 winner, n-1 teams must be eliminated, requiring n-1 matches.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Regardless of whether the number of teams is even or odd, each match results in exactly one team being eliminated.",
+      "To reduce 'n' teams to a single winner, 'n-1' teams must be eliminated.",
+      "Therefore, exactly 'n-1' matches must be played in total."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:37:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

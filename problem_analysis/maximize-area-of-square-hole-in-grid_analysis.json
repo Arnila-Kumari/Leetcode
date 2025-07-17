@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximize-area-of-square-hole-in-grid",
+  "data_structures": [
+    [
+      "Hash Set",
+      "Array"
+    ],
+    [
+      "Array",
+      "Sorting"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash set to find gaps, then calculate max gap",
+    "Sorting to find consecutive bars, then calculate max gap"
+  ],
+  "problem_summary_simple": "Find the largest square hole in a grid by removing horizontal and vertical bars.",
+  "problem_summary_technical": "Determine the maximum consecutive sequence of bars that can be removed horizontally and vertically to form the largest square.",
+  "time_complexity": [
+    "O(h + v)",
+    "O(h log h + v log v)"
+  ],
+  "space_complexity": [
+    "O(h + v)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The maximum square hole is limited by the minimum of the maximum consecutive horizontal bars and maximum consecutive vertical bars that can be removed.",
+      "Using a hash set allows for efficient checking of adjacent bars to find the longest contiguous segments.",
+      "The '1' and 'n+1'/'m+1' boundaries are implicitly handled by considering the gaps between the provided bar indices."
+    ],
+    [
+      "Sorting the bar lists simplifies finding consecutive segments.",
+      "Iterating through the sorted list and tracking the current consecutive count allows for finding the maximum gap.",
+      "The final answer is the square of the minimum of the maximum horizontal and vertical gaps."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:51:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

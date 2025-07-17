@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-mode-in-binary-search-tree",
+  "data_structures": [
+    [
+      "TreeNode",
+      "List"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "In-order traversal to process BST elements in sorted order, tracking current and max frequencies."
+  ],
+  "problem_summary_simple": "Find the most frequent element(s) in a binary search tree that may contain duplicates.",
+  "problem_summary_technical": "Utilizes in-order traversal of a BST to identify modes by tracking consecutive element counts and maximum frequencies.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "In-order traversal of a BST naturally groups identical elements together, simplifying frequency counting.",
+      "A two-pass approach could first find the max frequency and then collect all elements with that frequency.",
+      "The provided solution cleverly uses a single pass by updating the result list dynamically."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

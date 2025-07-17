@@ -1,0 +1,44 @@
+{
+  "problem_name": "minimum-cost-to-make-array-equalindromic",
+  "data_structures": [
+    [
+      "list",
+      "set"
+    ],
+    [
+      "list",
+      "set"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Find median using QuickSelect, then check nearest palindromes to median.",
+    "Sort array to find median, then check nearest palindromes to median."
+  ],
+  "problem_summary_simple": "Find the minimum cost to make all array elements equal to a palindromic number.",
+  "problem_summary_technical": "Minimize sum of |nums[i] - palindrome| by finding the median and checking nearby palindromic candidates.",
+  "time_complexity": [
+    "O(n + log r)",
+    "O(n log n + log r)"
+  ],
+  "space_complexity": [
+    "O(log r)",
+    "O(log r)"
+  ],
+  "key_insights": [
+    [
+      "The optimal target value is likely close to the median of the input array.",
+      "Generating candidate palindromes around the median is crucial.",
+      "QuickSelect provides an average O(n) median finding."
+    ],
+    [
+      "Sorting the array is a straightforward way to find the median.",
+      "The cost function is convex, so checking palindromes around the median is sufficient.",
+      "The `nearest_palindromic` helper function is key to generating candidates."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "maximum-number-of-ones",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach by distributing ones based on tile symmetry and counts."
+  ],
+  "problem_summary_simple": "Maximize ones in a matrix given constraints on square sub-matrices.",
+  "problem_summary_technical": "Divides matrix into tiles, analyzes symmetry within tiles, and greedily fills ones based on the frequency of tile parts.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be simplified by considering the counts of identical sub-regions within the grid.",
+      "The most frequent sub-regions should be filled first to maximize the total number of ones.",
+      "Symmetry within the `sideLength` x `sideLength` tiles is crucial for calculating these counts."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:26",
+  "batch_processed": true,
+  "batch_size": 5
+}

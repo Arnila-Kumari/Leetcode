@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-even-odd-subarray-with-threshold",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "single pass with state tracking"
+  ],
+  "problem_summary_simple": "Find the longest subarray starting with an even number, alternating parity, and all elements within a threshold.",
+  "problem_summary_technical": "Iterate through the array, maintaining the current length of a valid alternating subarray. Reset or extend based on parity and threshold.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The conditions are: starts with even, alternating parity, and within threshold.",
+      "A single pass can track the current valid subarray length.",
+      "If an element exceeds the threshold, the current subarray is broken.",
+      "If parity doesn't alternate, the current subarray is broken, and a new one might start if the current element is even."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:49:35",
+  "batch_processed": true,
+  "batch_size": 5
+}

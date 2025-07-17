@@ -1,0 +1,35 @@
+{
+  "problem_name": "maximum-product-of-three-numbers",
+  "data_structures": [
+    [
+      "integer",
+      "integer",
+      "integer",
+      "integer",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Find the three largest and two smallest numbers in the array to determine the maximum product."
+  ],
+  "problem_summary_simple": "Find three numbers in an array whose product is the largest possible.",
+  "problem_summary_technical": "Tracks the three largest and two smallest numbers in a single pass to identify the two potential maximum product combinations.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The maximum product can come from either the three largest positive numbers or the two smallest negative numbers multiplied by the largest positive number.",
+      "A single pass through the array is sufficient to find the required minimum and maximum values.",
+      "Careful initialization of min/max variables is important to handle edge cases and negative numbers."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:54:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-beautiful-partitions",
+  "data_structures": [
+    [
+      "1D DP array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "1D DP where dp[i] stores the number of beautiful partitions ending at index i. Transitions consider valid previous partition endpoints."
+  ],
+  "problem_summary_simple": "Count ways to partition a string into k substrings with specific start/end digit properties and minimum length.",
+  "problem_summary_technical": "1D DP to count partitions. dp[i] = sum of dp[j] for valid j < i, considering prime start, non-prime end, and minLength.",
+  "time_complexity": [
+    "O(N * K)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be solved using dynamic programming. `dp[i]` represents the number of beautiful partitions of the prefix `s[:i+1]`.",
+      "The transitions involve checking if a substring ending at `i` can form a valid partition segment, considering the `minLength` and prime/non-prime digit constraints.",
+      "The state needs to be carefully managed to count partitions into exactly `k` segments, often requiring an outer loop for `k` or a DP state that includes the number of partitions."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:01:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

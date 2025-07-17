@@ -1,0 +1,32 @@
+{
+  "problem_name": "positions-of-large-groups",
+  "data_structures": [
+    [
+      "string",
+      "list of lists"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Two pointers to identify consecutive character groups and check their lengths."
+  ],
+  "problem_summary_simple": "Find groups of 3 or more identical consecutive characters in a string and return their start/end indices.",
+  "problem_summary_technical": "Iterate through the string with two pointers to find contiguous character groups, recording intervals for groups of size >= 3.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A single pass through the string is sufficient.",
+      "The 'i' pointer marks the start of a potential large group, and 'j' expands it.",
+      "The condition `j == len(S)-1 or S[j] != S[j+1]` is crucial for detecting the end of a group."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:34:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

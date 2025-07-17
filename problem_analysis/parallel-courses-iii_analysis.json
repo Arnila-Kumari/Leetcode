@@ -1,0 +1,33 @@
+{
+  "problem_name": "parallel-courses-iii",
+  "data_structures": [
+    [
+      "adjacency list",
+      "in-degree array",
+      "queue"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Topological sort (Kahn's algorithm) with dynamic programming"
+  ],
+  "problem_summary_simple": "Find the minimum time to complete all courses with prerequisites and varying course durations.",
+  "problem_summary_technical": "Uses topological sort on a DAG to calculate the earliest completion time for each course, considering prerequisites and durations.",
+  "time_complexity": [
+    "O(V + E)"
+  ],
+  "space_complexity": [
+    "O(V + E)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the longest path in a DAG, where path weights are course durations.",
+      "Kahn's algorithm (topological sort using BFS) is suitable for processing nodes in order of dependencies.",
+      "The `dist` array stores the earliest completion time for each course, updated based on prerequisite completion times."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

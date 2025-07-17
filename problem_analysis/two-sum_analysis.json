@@ -1,0 +1,43 @@
+{
+  "problem_name": "two-sum",
+  "data_structures": [
+    [
+      "hashmap",
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a hashmap to store seen numbers and their indices. For each number, check if its complement exists in the hashmap.",
+    "Brute-force: Iterate through all pairs of numbers. For each number, search for its complement in the rest of the array."
+  ],
+  "problem_summary_simple": "Find two numbers in an array that add up to a target value and return their indices.",
+  "problem_summary_technical": "Utilize a hashmap for O(1) average time lookups to find the complement of each number, achieving O(n) time complexity.",
+  "time_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The hashmap (dictionary in Python) provides efficient O(1) average time complexity for checking if a complement exists.",
+      "Storing the index allows returning the correct pair of indices.",
+      "The condition `target - num in lookup` is the core of the O(n) solution."
+    ],
+    [
+      "This solution is less efficient due to nested iteration and repeated `nums.index()` calls.",
+      "`nums.index()` itself can take O(n) time, leading to an overall O(n^2) complexity.",
+      "It correctly handles the constraint of not using the same element twice by slicing the list."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

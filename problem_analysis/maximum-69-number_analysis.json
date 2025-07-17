@@ -1,0 +1,42 @@
+{
+  "problem_name": "maximum-69-number",
+  "data_structures": [
+    [
+      "integer",
+      "string"
+    ],
+    [
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through digits from right to left, find the first '6' and change it to '9'.",
+    "Convert to string, replace the first '6' with '9', convert back to integer."
+  ],
+  "problem_summary_simple": "Change at most one digit (6 to 9 or 9 to 6) in a number to maximize its value.",
+  "problem_summary_technical": "Greedily change the leftmost '6' to '9' to maximize the number. String manipulation or digit-wise iteration can achieve this.",
+  "time_complexity": [
+    "O(log n)",
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(log n)"
+  ],
+  "key_insights": [
+    [
+      "To maximize the number, the change should be made to the most significant digit possible.",
+      "The leftmost '6' is the best candidate for changing to '9'.",
+      "If no '6' exists, no change is needed."
+    ],
+    [
+      "String conversion allows for easy replacement of the first occurrence of a character.",
+      "The problem is equivalent to finding the first '6' from the left and changing it to '9'."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:51:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

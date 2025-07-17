@@ -1,0 +1,30 @@
+{
+  "problem_name": "total-distance-traveled",
+  "data_structures": [
+    [
+      "math"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "greedy approach with fuel calculation"
+  ],
+  "problem_summary_simple": "Calculate maximum distance a truck can travel given main and additional fuel tanks and a refill rule.",
+  "problem_summary_technical": "Greedily transfer fuel from the additional tank to the main tank whenever 5 liters are consumed from the main tank.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core mechanic is that for every 5 liters used from the main tank, 1 liter is transferred if available.",
+      "This means for every 4 liters effectively consumed from the main tank, 1 liter is 'refilled' from the additional tank."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:12:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

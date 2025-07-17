@@ -1,0 +1,32 @@
+{
+  "problem_name": "assign-elements-to-groups-with-constraints",
+  "data_structures": [
+    [
+      "list",
+      "hash table (lookup array)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "number theory (divisibility) and precomputation with a lookup table"
+  ],
+  "problem_summary_simple": "Assign elements to groups based on divisibility, prioritizing smaller element indices.",
+  "problem_summary_technical": "Uses a lookup table to store the smallest index of an element divisible by a group size, iterating through multiples.",
+  "time_complexity": [
+    "O(m + r * logn)"
+  ],
+  "space_complexity": [
+    "O(r)"
+  ],
+  "key_insights": [
+    [
+      "The constraint of assigning the smallest index element is key.",
+      "Pre-calculating assignments for each possible group size up to the maximum group size is efficient.",
+      "Iterating through multiples of each element (y = x, 2x, 3x, ...) allows for quick population of the lookup table."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,33 @@
+{
+  "problem_name": "shortest-common-supersequence",
+  "data_structures": [
+    [
+      "2D array",
+      "string",
+      "list"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming to find the length of the longest common subsequence, then backtrack to construct the supersequence."
+  ],
+  "problem_summary_simple": "Construct the shortest string that contains both input strings as subsequences.",
+  "problem_summary_technical": "Use DP to find LCS length, then backtrack through the DP table to build the shortest common supersequence.",
+  "time_complexity": [
+    "O(m*n)"
+  ],
+  "space_complexity": [
+    "O(m*n)"
+  ],
+  "key_insights": [
+    [
+      "The length of the shortest common supersequence is related to the length of the longest common subsequence (LCS). Specifically, SCS_length = len(str1) + len(str2) - LCS_length.",
+      "The DP table stores the length of the LCS for prefixes of str1 and str2.",
+      "Backtracking through the DP table allows reconstruction of the actual supersequence by including common characters once and non-common characters as they appear."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:19:07",
+  "batch_processed": true,
+  "batch_size": 5
+}

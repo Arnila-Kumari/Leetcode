@@ -1,0 +1,31 @@
+{
+  "problem_name": "pairs-of-songs-with-total-durations-divisible-by-60",
+  "data_structures": [
+    [
+      "Hash map (collections.Counter)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash map for frequency counting and pair finding"
+  ],
+  "problem_summary_simple": "Count pairs of songs whose total duration is divisible by 60.",
+  "problem_summary_technical": "Use a hash map to store counts of song durations modulo 60. Iterate and find complementary durations.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem relies on the property of modular arithmetic: (a + b) % k == 0 if a % k + b % k == 0 or a % k + b % k == k.",
+      "We only need to consider the remainders of song durations when divided by 60.",
+      "A hash map (or an array of size 60) can efficiently store the counts of these remainders."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:03:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

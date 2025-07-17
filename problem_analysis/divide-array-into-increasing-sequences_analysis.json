@@ -1,0 +1,31 @@
+{
+  "problem_name": "divide-array-into-increasing-sequences",
+  "data_structures": [
+    [
+      "variables for tracking current and max consecutive counts"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the sorted array, tracking consecutive identical elements to determine the maximum number of subsequences needed."
+  ],
+  "problem_summary_simple": "Determine if a sorted array can be split into increasing subsequences of at least length k.",
+  "problem_summary_technical": "Find the maximum frequency of any number. If k * max_frequency <= total elements, it's possible.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem is equivalent to finding the maximum number of times any single element appears consecutively.",
+      "If an element appears `m` times consecutively, we need at least `m` subsequences to accommodate them.",
+      "The condition `K * max_count <= len(nums)` ensures that we have enough total elements to form `len(nums) / K` subsequences of length K, given the constraint of maximum consecutive elements."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

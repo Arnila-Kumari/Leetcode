@@ -1,0 +1,31 @@
+{
+  "problem_name": "path-with-maximum-gold",
+  "data_structures": [
+    [
+      "2D array (grid)"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with DFS to explore all valid paths and find the maximum gold."
+  ],
+  "problem_summary_simple": "Find the path in a gold mine that collects the maximum amount of gold.",
+  "problem_summary_technical": "Utilize DFS backtracking to explore all possible paths, marking visited cells and summing gold.",
+  "time_complexity": [
+    "O(m*n * 3^(m*n)) in worst case, but practically O(m*n * 4^k) where k is number of gold cells"
+  ],
+  "space_complexity": [
+    "O(m*n) for recursion stack depth"
+  ],
+  "key_insights": [
+    [
+      "The problem is a classic pathfinding problem solvable with Depth First Search (DFS).",
+      "Marking visited cells (e.g., by negating the value) is crucial to avoid cycles and re-visiting.",
+      "The search needs to be initiated from every cell containing gold to find the global maximum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

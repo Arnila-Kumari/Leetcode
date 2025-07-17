@@ -1,0 +1,42 @@
+{
+  "problem_name": "integer-break",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Mathematical observation and power calculation",
+    "Dynamic Programming with space optimization"
+  ],
+  "problem_summary_simple": "Break an integer into a sum of at least two positive integers to maximize their product.",
+  "problem_summary_technical": "Maximize product by favoring factors of 3, then 2. DP approach uses modulo arithmetic for space efficiency.",
+  "time_complexity": [
+    "O(log n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The optimal strategy is to break the number into as many 3s as possible.",
+      "If n % 3 == 0, use n/3 threes. If n % 3 == 1, use (n/3 - 1) threes and two 2s (or one 4). If n % 3 == 2, use n/3 threes and one 2.",
+      "The DP solution leverages the fact that the optimal solution for n depends on solutions for n-2 and n-3."
+    ],
+    [
+      "The DP solution uses a rolling array (modulo 4) to store intermediate results, reducing space complexity.",
+      "The base cases for DP are handled for n < 4.",
+      "The recurrence relation `dp[i] = max(dp[i-2]*2, dp[i-3]*3)` captures the optimal choices."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

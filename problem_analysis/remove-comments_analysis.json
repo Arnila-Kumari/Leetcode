@@ -1,0 +1,35 @@
+{
+  "problem_name": "remove-comments",
+  "data_structures": [
+    [
+      "list",
+      "string",
+      "boolean flag"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through lines, track block comment state, build result line by line."
+  ],
+  "problem_summary_simple": "Remove C++ line and block comments from source code, ensuring no empty lines in output.",
+  "problem_summary_technical": "Process source code line by line, managing a boolean flag for block comment state to selectively append characters.",
+  "time_complexity": [
+    "O(N*M)"
+  ],
+  "space_complexity": [
+    "O(N*M)"
+  ],
+  "key_insights": [
+    [
+      "Maintain a state variable to track if currently inside a block comment.",
+      "Handle nested comment-like sequences by prioritizing block comment termination."
+    ],
+    [
+      "Ensure that empty lines after comment removal are not included in the final output."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

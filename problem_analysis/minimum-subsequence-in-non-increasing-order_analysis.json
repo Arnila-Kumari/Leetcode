@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-subsequence-in-non-increasing-order",
+  "data_structures": [
+    [
+      "Array",
+      "List"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach: sort the array and pick elements from largest to smallest until their sum exceeds the rest."
+  ],
+  "problem_summary_simple": "Find the smallest subsequence whose sum is greater than the sum of remaining elements, prioritizing larger sums for ties.",
+  "problem_summary_technical": "Sort the array in descending order. Greedily pick elements, maintaining a running sum, until it's greater than the sum of remaining elements.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To maximize the sum of the subsequence while minimizing its size, we should pick the largest elements first.",
+      "The condition is sum(subsequence) > sum(remaining_elements). This is equivalent to 2 * sum(subsequence) > total_sum.",
+      "Sorting the array in descending order allows for a straightforward greedy selection."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:59:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

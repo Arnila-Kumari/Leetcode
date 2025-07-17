@@ -1,0 +1,36 @@
+{
+  "problem_name": "exam-room",
+  "data_structures": [
+    [
+      "Heap (Priority Queue)",
+      "Hash Map",
+      "Set"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Max-heap to store intervals and find maximum distance seat",
+    "Hash map to track occupied seats and their neighbors"
+  ],
+  "problem_summary_simple": "Simulate students entering and leaving an exam room, always choosing the best seat.",
+  "problem_summary_technical": "Use a max-heap to store seat intervals, prioritizing the largest gap. Update intervals upon seating and leaving.",
+  "time_complexity": [
+    "seat: O(logN) amortized, leave: O(logN) where N is number of seats"
+  ],
+  "space_complexity": [
+    "O(N) where N is number of seats (for heap and seat tracking)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding the seat that maximizes the minimum distance to an occupied seat.",
+      "This can be modeled as finding the largest interval between occupied seats.",
+      "A max-heap storing intervals (distance, start, end) is suitable for efficiently finding the largest interval.",
+      "When a student sits, an interval is split; when a student leaves, two intervals are merged.",
+      "Edge cases for the first and last seats need careful handling."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:41:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

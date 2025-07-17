@@ -1,0 +1,31 @@
+{
+  "problem_name": "reverse-words-in-a-string-ii",
+  "data_structures": [
+    [
+      "list of characters"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Reverse the entire character array, then reverse each word in place using two pointers."
+  ],
+  "problem_summary_simple": "Reverse the order of words in a character array in-place.",
+  "problem_summary_technical": "In-place reversal of character array: global reverse, then word-by-word reversal using two pointers.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to reverse the entire string first, then reverse each word.",
+      "A helper function for in-place reversal is crucial.",
+      "Careful handling of word boundaries (spaces) is needed to identify words for reversal."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

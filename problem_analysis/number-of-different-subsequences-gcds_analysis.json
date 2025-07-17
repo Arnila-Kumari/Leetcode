@@ -1,0 +1,35 @@
+{
+  "problem_name": "number-of-different-subsequences-gcds",
+  "data_structures": [
+    [
+      "set",
+      "integer variable"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Iterate through all possible GCDs (1 to max_num). For each potential GCD, check if any subsequence has it as GCD."
+  ],
+  "problem_summary_simple": "Find the count of unique GCDs possible from all non-empty subsequences of an array.",
+  "problem_summary_technical": "Iterate potential GCDs. For each, check if any subsequence's GCD matches by iterating multiples within the input set.",
+  "time_complexity": [
+    "O(m log m + n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is to iterate through potential GCDs (from 1 up to the maximum number in the array) rather than generating all subsequences.",
+      "For a potential GCD `g`, we only need to check numbers in the input array that are multiples of `g`."
+    ],
+    [
+      "The `fractions.gcd` function is efficient for calculating GCD iteratively.",
+      "The maximum possible GCD is bounded by the maximum element in the array."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:01:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

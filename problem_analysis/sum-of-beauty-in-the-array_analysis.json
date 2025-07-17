@@ -1,0 +1,32 @@
+{
+  "problem_name": "sum-of-beauty-in-the-array",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Precompute minimums from the right and iterate, checking conditions for beauty scores."
+  ],
+  "problem_summary_simple": "Calculate the sum of 'beauty' scores for elements in the middle of the array based on their neighbors.",
+  "problem_summary_technical": "Uses prefix maximums (left) and suffix minimums (right) to efficiently check the beauty conditions for each element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating suffix minimums allows for O(1) lookup of the minimum element to the right.",
+      "The problem can be solved in a single pass after pre-computation by maintaining the maximum element seen so far from the left.",
+      "The beauty conditions are strict inequalities, requiring careful handling of boundary cases."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

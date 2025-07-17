@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-connected-components-in-lcm-graph",
+  "data_structures": [
+    [
+      "UnionFind (Disjoint Set Union)",
+      "Array (lookup table)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find with number theory optimization for LCM graph edges."
+  ],
+  "problem_summary_simple": "Count connected components in a graph where nodes are numbers and edges exist if their LCM is within a threshold.",
+  "problem_summary_technical": "Builds an LCM graph implicitly using Union-Find. Iterates through numbers and their multiples up to the threshold to establish connections.",
+  "time_complexity": [
+    "O(n + t log t)"
+  ],
+  "space_complexity": [
+    "O(t)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to avoid explicitly building the graph. Instead, use number theory properties (multiples) to infer connections.",
+      "Union-Find is crucial for efficiently merging connected components.",
+      "The threshold limits the scope of connections, making a number-theoretic approach feasible."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:36:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

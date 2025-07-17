@@ -1,0 +1,31 @@
+{
+  "problem_name": "once-twice",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Bit manipulation using three states to track counts modulo 3."
+  ],
+  "problem_summary_simple": "Find the single and double appearing numbers in an array where others appear thrice.",
+  "problem_summary_technical": "Uses bit manipulation with three state variables to count occurrences modulo 3 for each bit position.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to use bit manipulation to count the occurrences of each bit across all numbers.",
+      "By tracking counts modulo 3, we can isolate the bits that belong to the number appearing once and the number appearing twice.",
+      "The state transitions for the bitmasks are designed to correctly increment counts modulo 3."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

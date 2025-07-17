@@ -1,0 +1,31 @@
+{
+  "problem_name": "battleships-in-a-board",
+  "data_structures": [
+    [
+      "2D list (board)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the board, counting 'X' cells that are not preceded by another 'X' horizontally or vertically."
+  ],
+  "problem_summary_simple": "Count the number of battleships on a board, where battleships are separated by empty cells.",
+  "problem_summary_technical": "Iterate through an m x n board, incrementing a counter for 'X' cells only if they are the top-leftmost cell of a battleship.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The constraint that battleships are separated by at least one cell is crucial.",
+      "By only counting the 'top-left' cell of each battleship, we avoid double-counting.",
+      "The condition `board[i][j] == 'X' and (i == 0 or board[i - 1][j] != 'X') and (j == 0 or board[i][j - 1] != 'X')` effectively identifies the start of a new battleship."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

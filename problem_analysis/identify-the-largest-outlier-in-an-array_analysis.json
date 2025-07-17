@@ -1,0 +1,33 @@
+{
+  "problem_name": "identify-the-largest-outlier-in-an-array",
+  "data_structures": [
+    [
+      "hashmap",
+      "integer",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Calculate the total sum. For each number, check if (total - number) is even. If so, calculate the potential sum of special numbers and check if it exists in the frequency map."
+  ],
+  "problem_summary_simple": "Find the largest number that is not part of a special number set or their sum.",
+  "problem_summary_technical": "Iterate through numbers, checking if (total_sum - current_num) is even and if the resulting potential sum of special numbers exists in the frequency map.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that if 'x' is the outlier, then the sum of the remaining 'n-1' numbers is 'total - x'.",
+      "If 's' is the sum of the 'n-2' special numbers, then 's = (total - x) / 2'.",
+      "A frequency map helps quickly check for the existence of the potential sum of special numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

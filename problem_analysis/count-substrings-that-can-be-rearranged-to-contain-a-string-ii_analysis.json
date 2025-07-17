@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-substrings-that-can-be-rearranged-to-contain-a-string-ii",
+  "data_structures": [
+    [
+      "frequency array (size 26)",
+      "two pointers (left, right)"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with frequency map and two pointers to count valid substrings."
+  ],
+  "problem_summary_simple": "Count substrings of word1 that can be rearranged to have word2 as a prefix.",
+  "problem_summary_technical": "Uses a sliding window and frequency counts to efficiently check if a substring's character counts match word2's, allowing for rearrangements.",
+  "time_complexity": [
+    "O(N + M)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to maintain a frequency count of characters in word2 and then use a sliding window on word1.",
+      "A character's count in the window is decremented. If the count becomes zero, it means that character is no longer needed for the prefix.",
+      "The `curr` variable tracks the number of unique characters from word2 that are still needed in the current window."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

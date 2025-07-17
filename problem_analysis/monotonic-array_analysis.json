@@ -1,0 +1,31 @@
+{
+  "problem_name": "monotonic-array",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Track increasing and decreasing trends"
+  ],
+  "problem_summary_simple": "Check if an array's elements are either always increasing or always decreasing.",
+  "problem_summary_technical": "Iterate through the array, maintaining flags for whether an increasing or decreasing trend has been observed. Return true if at most one trend is observed.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "An array can be both non-decreasing and non-increasing if all elements are the same.",
+      "We only need to detect if both an increasing and a decreasing trend exist simultaneously.",
+      "The condition `not inc or not dec` correctly captures that either no increase or no decrease (or neither) must be true for monotonicity."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:00:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

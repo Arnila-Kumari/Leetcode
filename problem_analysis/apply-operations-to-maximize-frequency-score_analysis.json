@@ -1,0 +1,58 @@
+{
+  "problem_name": "apply-operations-to-maximize-frequency-score",
+  "data_structures": [
+    [
+      "sorted array",
+      "integer variables for pointers and current cost"
+    ],
+    [
+      "sorted array",
+      "integer variables for pointers and current cost",
+      "max result variable"
+    ],
+    [
+      "sorted array",
+      "prefix sum array",
+      "integer variables for binary search bounds"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sort, two pointers, sliding window, calculate cost based on median",
+    "Sort, two pointers, sliding window, maintain max result",
+    "Sort, prefix sum, binary search on window size, check feasibility"
+  ],
+  "problem_summary_simple": "Maximize the frequency of an element in an array by changing elements within a budget k.",
+  "problem_summary_technical": "Maximize frequency by transforming elements to a common value using operations within budget k. Solutions involve sorting, sliding windows, or binary search with prefix sums.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting is crucial to efficiently find a target value for a window.",
+      "The cost of transforming a window to a target value is minimized when the target is the median of the window.",
+      "Sliding window efficiently explores all contiguous subarrays."
+    ],
+    [
+      "Similar to the first solution, sorting and sliding window are key.",
+      "The `while` loop ensures the window is valid (cost <= k) before updating the result.",
+      "This approach directly tracks the maximum valid window size."
+    ],
+    [
+      "Binary search on the answer (frequency/window size) is a viable strategy.",
+      "Prefix sums help calculate the cost of transforming a subarray to a common value efficiently.",
+      "The `check` function determines if a window of a given size can be made arithmetic within budget k."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

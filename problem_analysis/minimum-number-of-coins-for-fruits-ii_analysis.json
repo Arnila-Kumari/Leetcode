@@ -1,0 +1,46 @@
+{
+  "problem_name": "minimum-number-of-coins-for-fruits-ii",
+  "data_structures": [
+    [
+      "list of integers (input)",
+      "list of integers (DP table)",
+      "deque (for monotonic queue)"
+    ],
+    [
+      "list of integers (input)",
+      "list of integers (DP table)",
+      "SortedList (for monotonic queue)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with monotonic deque optimization to find minimum cost from previous states.",
+    "DP with SortedList to efficiently query minimum cost from previous states."
+  ],
+  "problem_summary_simple": "Find minimum cost to buy all fruits, where buying fruit `i` gives next `i` fruits free.",
+  "problem_summary_technical": "DP state dp[i] is min cost for first i fruits. Transition considers buying fruit j (j < i) and getting next j fruits free.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Similar to the previous problem, this is a DP problem with a free-item mechanic.",
+      "The key difference is that buying fruit `i` grants `i` free fruits, not `i+1`.",
+      "The DP transition needs to reflect this `i` free fruits rule."
+    ],
+    [
+      "The DP state `dp[i]` represents the minimum cost to acquire the first `i` fruits.",
+      "When considering fruit `i`, we can either buy it directly or have acquired it for free from a previous purchase.",
+      "If we buy fruit `j` (where `j < i`), we get `j` fruits for free, covering up to fruit `j + j`."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:58:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

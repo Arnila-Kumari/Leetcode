@@ -1,0 +1,40 @@
+{
+  "problem_name": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+  "data_structures": [
+    [
+      "string",
+      "prefix function array"
+    ]
+  ],
+  "category": "Strings",
+  "algorithm_technique": [
+    "Knuth-Morris-Pratt (KMP) algorithm for substring search",
+    "String splitting and prefix checking"
+  ],
+  "problem_summary_simple": "Find the 1-indexed position of the first word in a sentence that starts with a given search word.",
+  "problem_summary_technical": "Uses KMP algorithm to find occurrences of ' ' + searchWord in the sentence, then calculates the word index based on space positions.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(m)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The KMP algorithm is efficient for pattern matching, especially when the pattern might appear multiple times.",
+      "By searching for ' ' + searchWord, we ensure that searchWord is a prefix of a *word* and not just any substring.",
+      "The index calculation needs to account for the leading space and the 1-based indexing requirement."
+    ],
+    [
+      "A simpler approach involves splitting the sentence into words and checking each word's prefix.",
+      "This avoids the complexity of KMP but might be less efficient if the sentence is very long and the search word is short.",
+      "The problem statement implies a single space separator, simplifying the splitting process."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

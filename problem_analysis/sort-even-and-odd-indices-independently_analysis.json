@@ -1,0 +1,57 @@
+{
+  "problem_name": "sort-even-and-odd-indices-independently",
+  "data_structures": [
+    [
+      "array",
+      "temporary arrays for even/odd indices",
+      "counting sort auxiliary array"
+    ],
+    [
+      "array",
+      "temporary arrays for even/odd indices"
+    ],
+    [
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Partition into even/odd indices, apply counting sort to even (ascending) and odd (descending), then merge.",
+    "Partition into even/odd indices, use standard sort for even (ascending) and odd (descending), then merge.",
+    "Directly sort even and odd indexed elements using slicing and standard sort."
+  ],
+  "problem_summary_simple": "Sort even-indexed elements ascending and odd-indexed elements descending.",
+  "problem_summary_technical": "Rearrange array by sorting even indices non-decreasingly and odd indices non-increasingly.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(c) where c is max value (for counting sort)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires separate sorting for elements at even and odd indices.",
+      "Counting sort is efficient for the even indices (non-decreasing) if values are bounded.",
+      "For odd indices (non-increasing), a reverse sort is needed.",
+      "The 'partition' and 'inplace_counting_sort' functions are complex helper methods for in-place manipulation."
+    ],
+    [
+      "Separating elements by index parity is the first step.",
+      "Standard sorting algorithms can be applied to these separated sub-arrays.",
+      "The 'partition' function is a bitwise trick to mark processed elements for in-place operations."
+    ],
+    [
+      "Python's slicing provides a concise way to access elements at even and odd indices.",
+      "The `sorted()` function with `reverse=True` handles the descending order requirement for odd indices.",
+      "This approach is simpler and more readable than the in-place counting sort methods."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

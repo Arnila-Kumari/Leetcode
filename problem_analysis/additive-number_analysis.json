@@ -1,0 +1,31 @@
+{
+  "problem_name": "additive-number",
+  "data_structures": [
+    [
+      "String"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Brute-force checking of all possible first two numbers, then validating the sequence"
+  ],
+  "problem_summary_simple": "Check if a string of digits can form an additive sequence.",
+  "problem_summary_technical": "Iterates through all possible splits for the first two numbers and recursively checks if the rest of the string follows the additive property.",
+  "time_complexity": [
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires exploring all valid starting pairs for the additive sequence.",
+      "Leading zeros in the sequence numbers are strictly forbidden.",
+      "A helper function for string addition is needed, handling potential large numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

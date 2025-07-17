@@ -1,0 +1,35 @@
+{
+  "problem_name": "perfect-squares",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming: dp[i] = 1 + min(dp[i - j*j]) for all j*j <= i. Precompute DP table up to n.",
+    "Breadth-First Search (BFS): Treat numbers as nodes, edges connect a number to number - perfect_square. Find shortest path from n to 0."
+  ],
+  "problem_summary_simple": "Find the minimum number of perfect squares that sum up to a given integer.",
+  "problem_summary_technical": "Determine the minimum count of perfect squares that sum to n using dynamic programming or BFS.",
+  "time_complexity": [
+    "O(n * sqrt(n)) for DP",
+    "O(n * sqrt(n)) for BFS"
+  ],
+  "space_complexity": [
+    "O(n) for DP table",
+    "O(n) for BFS queue and visited set"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as finding the shortest path in a graph where nodes are numbers and edges represent subtracting a perfect square.",
+      "DP state `dp[i]` represents the minimum perfect squares summing to `i`.",
+      "The recurrence relation `dp[i] = 1 + min(dp[i - j*j])` builds the solution from smaller subproblems."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

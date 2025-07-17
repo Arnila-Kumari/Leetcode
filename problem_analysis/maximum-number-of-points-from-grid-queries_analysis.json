@@ -1,0 +1,35 @@
+{
+  "problem_name": "maximum-number-of-points-from-grid-queries",
+  "data_structures": [
+    [
+      "heap",
+      "array",
+      "hashmap",
+      "binary search tree"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "BFS with a min-heap to explore grid cells in increasing value order",
+    "Prefix sums on sorted cell values to answer queries efficiently"
+  ],
+  "problem_summary_simple": "Find max points for queries by traversing a grid, collecting points for values less than query.",
+  "problem_summary_technical": "BFS with min-heap explores grid cells by value; prefix sums on counts answer range queries.",
+  "time_complexity": [
+    "O((m * n + q) * log(m * n))"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "Exploring cells in increasing order of their values is crucial.",
+      "A min-heap is ideal for this ordered exploration (BFS-like).",
+      "Pre-calculating points for thresholds using prefix sums optimizes query answering."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:53:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

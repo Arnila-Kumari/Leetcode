@@ -1,0 +1,32 @@
+{
+  "problem_name": "accounts-merge",
+  "data_structures": [
+    [
+      "hashmap",
+      "union-find data structure"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find to group connected emails, then aggregate and sort emails per group."
+  ],
+  "problem_summary_simple": "Merge accounts with common emails and return sorted emails for each person.",
+  "problem_summary_technical": "Uses Union-Find to connect emails belonging to the same person, then groups and sorts emails by their representative element.",
+  "time_complexity": [
+    "O(N log N), where N is the total number of emails across all accounts."
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding connected components in a graph where emails are nodes and common ownership creates edges.",
+      "Union-Find is an efficient data structure for managing disjoint sets and merging them.",
+      "Mapping emails to unique IDs is necessary for the Union-Find operations."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

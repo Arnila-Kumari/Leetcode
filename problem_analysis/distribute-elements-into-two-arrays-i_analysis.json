@@ -1,0 +1,31 @@
+{
+  "problem_name": "distribute-elements-into-two-arrays-i",
+  "data_structures": [
+    [
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Greedy approach based on last elements of two arrays"
+  ],
+  "problem_summary_simple": "Distribute numbers into two arrays based on the last elements of the arrays.",
+  "problem_summary_technical": "Iteratively appends elements to arr1 or arr2 based on a comparison of their last elements.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem specifies a deterministic rule for distributing each element.",
+      "The decision for each element depends only on the last elements of the two target arrays.",
+      "The initial elements are placed directly, and subsequent elements follow the comparison rule."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:40:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

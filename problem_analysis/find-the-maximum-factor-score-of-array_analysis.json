@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-maximum-factor-score-of-array",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Prefix and suffix GCD/LCM calculation for efficient subarray analysis."
+  ],
+  "problem_summary_simple": "Find the max factor score (GCD*LCM) of an array after removing at most one element.",
+  "problem_summary_technical": "Use prefix/suffix arrays for GCD and LCM. Iterate through removals, combining prefix and suffix GCD/LCM to find max factor score.",
+  "time_complexity": [
+    "O(n log r)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to efficiently calculate GCD and LCM for subarrays.",
+      "Prefix and suffix arrays for GCD and LCM allow O(1) lookup for any subarray's GCD/LCM after O(n log r) preprocessing.",
+      "Removing an element splits the array into two parts, whose GCD/LCM can be combined using the precomputed prefix/suffix values."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:44:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

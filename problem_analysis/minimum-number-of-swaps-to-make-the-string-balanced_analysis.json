@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-number-of-swaps-to-make-the-string-balanced",
+  "data_structures": [
+    [
+      "none"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the string, tracking bracket balance and identifying misplaced closing brackets"
+  ],
+  "problem_summary_simple": "Find minimum swaps to balance a string of '[' and ']' brackets.",
+  "problem_summary_technical": "Track bracket balance; a swap can fix multiple misplaced ']' brackets by moving them past '[]' pairs.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem guarantees an equal number of opening and closing brackets.",
+      "A swap can fix a '][' mismatch. The key is to identify the maximum imbalance of closing brackets.",
+      "The number of swaps needed is related to the maximum number of unmatched closing brackets encountered, specifically `(max_imbalance + 1) / 2`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

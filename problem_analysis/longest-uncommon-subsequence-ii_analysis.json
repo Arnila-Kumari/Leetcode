@@ -1,0 +1,32 @@
+{
+  "problem_name": "longest-uncommon-subsequence-ii",
+  "data_structures": [
+    [
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort by length, then check for subsequence property."
+  ],
+  "problem_summary_simple": "Find the longest string that is a subsequence of one input string but not any other.",
+  "problem_summary_technical": "Given strings, find the longest string that is a subsequence of one but not others. Sort by length descending and check subsequence property.",
+  "time_complexity": [
+    "O(l * n^2)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting by length in descending order is crucial. The longest potential uncommon subsequence will be among the longer strings.",
+      "If a string `s` is a subsequence of another string `t`, then `s` cannot be an uncommon subsequence if `t` is also in the input array.",
+      "The `isSubsequence` helper function is key to checking the condition efficiently."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

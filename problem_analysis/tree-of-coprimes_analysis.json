@@ -1,0 +1,44 @@
+{
+  "problem_name": "tree-of-coprimes",
+  "data_structures": [
+    [
+      "adjacency list",
+      "hash map (defaultdict)"
+    ],
+    [
+      "adjacency list",
+      "hash map (defaultdict)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Iterative DFS with explicit stack management",
+    "Recursive DFS with path tracking"
+  ],
+  "problem_summary_simple": "Find the closest ancestor in a tree whose value is coprime with the current node.",
+  "problem_summary_technical": "Perform DFS on a tree, maintaining ancestor values and depths to find the nearest coprime ancestor.",
+  "time_complexity": [
+    "O(n * max_val)",
+    "O(n * max_val)"
+  ],
+  "space_complexity": [
+    "O(n + max_val)",
+    "O(n + max_val)"
+  ],
+  "key_insights": [
+    [
+      "The constraint `nums[i] <= 50` is crucial, allowing efficient GCD checks.",
+      "Maintaining a path of ancestor values and their depths is key.",
+      "Iterative DFS can be more complex but avoids recursion depth limits."
+    ],
+    [
+      "The recursive DFS naturally handles the tree traversal and path maintenance.",
+      "The `path` dictionary stores `value -> list of (node, depth)` for efficient lookup.",
+      "Backtracking by popping from the path is essential after visiting a subtree."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

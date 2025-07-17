@@ -1,0 +1,43 @@
+{
+  "problem_name": "palindrome-partitioning-iv",
+  "data_structures": [
+    [
+      "Manacher's algorithm P array",
+      "prefix/suffix index lists"
+    ],
+    [
+      "2D array (dp)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Manacher's algorithm for palindrome detection combined with two-pointer approach",
+    "Dynamic programming to pre-compute palindrome substrings"
+  ],
+  "problem_summary_simple": "Check if a string can be split into exactly three non-empty palindromic substrings.",
+  "problem_summary_technical": "DP to mark all palindromic substrings, then iterate through split points to find three valid palindromes.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "Manacher's algorithm efficiently finds all palindromic substrings.",
+      "The problem requires finding two split points, which can be optimized by pre-calculating valid first and last palindrome segments.",
+      "The DP approach directly checks all possible split points."
+    ],
+    [
+      "Pre-computing all palindromic substrings using DP simplifies the main logic.",
+      "Iterating through all possible first and second split points is necessary.",
+      "The condition `dp[i][j-1]` ensures the middle substring is also a palindrome."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

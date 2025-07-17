@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-time-for-k-connected-components",
+  "data_structures": [
+    [
+      "UnionFind",
+      "list of lists",
+      "list of integers"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Sort edges by time. Iterate backwards, adding edges using Union-Find, until k components are formed."
+  ],
+  "problem_summary_simple": "Find the minimum time to remove edges so a graph has at least k connected components.",
+  "problem_summary_technical": "Sort edges by time. Use Union-Find to simulate edge removal backwards. The time of the edge that creates the k-th component is the answer.",
+  "time_complexity": [
+    "O(n + eloge)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed as finding the minimum time 't' such that removing edges with time <= 't' results in k components.",
+      "This is equivalent to finding the maximum time 't' such that adding edges with time > 't' results in fewer than k components.",
+      "Sorting edges by time and using Union-Find allows us to efficiently track connected components as edges are 'added' (or rather, not removed)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

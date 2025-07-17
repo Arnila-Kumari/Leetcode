@@ -1,0 +1,31 @@
+{
+  "problem_name": "same-tree",
+  "data_structures": [
+    [
+      "TreeNode"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive traversal comparing nodes and subtrees"
+  ],
+  "problem_summary_simple": "Check if two binary trees have the same structure and node values.",
+  "problem_summary_technical": "Recursively compare node values and their left/right children for structural and value identity.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "Base cases for recursion are crucial: both null, one null.",
+      "The core logic is to check current node values and recursively check children.",
+      "Handles empty trees gracefully."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

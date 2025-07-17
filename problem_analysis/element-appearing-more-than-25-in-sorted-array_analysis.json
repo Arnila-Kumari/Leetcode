@@ -1,0 +1,32 @@
+{
+  "problem_name": "element-appearing-more-than-25-in-sorted-array",
+  "data_structures": [
+    [
+      "array",
+      "binary search functions"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search to find occurrences of candidate elements"
+  ],
+  "problem_summary_simple": "Find the element that appears more than 25% of the time in a sorted array.",
+  "problem_summary_technical": "Leverage sorted array property to check candidate elements (at 25%, 50%, 75% marks) using binary search for counts.",
+  "time_complexity": [
+    "O(logn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Since an element appears more than 25% of the time, it must occupy at least one of the positions at n/4, n/2, or 3n/4.",
+      "`bisect_left` and `bisect_right` efficiently find the start and end indices of an element's occurrences.",
+      "The count is then checked against the 25% threshold."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-cost-to-buy-apples",
+  "data_structures": [
+    [
+      "list",
+      "heapq"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm to find shortest paths from each city, then calculate total cost."
+  ],
+  "problem_summary_simple": "Calculate minimum cost to buy an apple in any city and return to start, with increased road costs on return.",
+  "problem_summary_technical": "Run Dijkstra from each city to find shortest travel to all other cities. Combine travel cost, apple cost, and return cost.",
+  "time_complexity": [
+    "O(n * r * logn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding the shortest path from each city to all other cities.",
+      "Dijkstra's algorithm is suitable for finding these shortest paths.",
+      "The return trip cost multiplier needs to be applied to the outbound travel cost."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:56:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

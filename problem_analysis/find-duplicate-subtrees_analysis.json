@@ -1,0 +1,46 @@
+{
+  "problem_name": "find-duplicate-subtrees",
+  "data_structures": [
+    [
+      "hashmap (defaultdict)",
+      "list",
+      "tuple"
+    ],
+    [
+      "hashmap (defaultdict)",
+      "list",
+      "string"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Post-order traversal with serialization and memoization using a hashmap.",
+    "Tree serialization to identify duplicate subtrees, mapping serialized strings to counts."
+  ],
+  "problem_summary_simple": "Identify and return the root nodes of all subtrees that appear more than once.",
+  "problem_summary_technical": "Serialize each subtree using post-order traversal and store counts in a hashmap to detect duplicates.",
+  "time_complexity": [
+    "O(N), where N is the number of nodes in the tree.",
+    "O(N^2) in worst case due to string concatenation, but O(N) on average with efficient string handling."
+  ],
+  "space_complexity": [
+    "O(N), for storing serialized subtrees and the hashmap.",
+    "O(N^2) in worst case for storing serialized strings, O(N) on average."
+  ],
+  "key_insights": [
+    [
+      "Serializing subtrees is crucial for comparing their structure and values.",
+      "A post-order traversal naturally allows for building the serialization string from children to parent.",
+      "Using a hashmap to store counts of serialized subtrees efficiently detects duplicates."
+    ],
+    [
+      "The first solution uses a novel approach of mapping (value, left_id, right_id) tuples to unique IDs.",
+      "This avoids explicit string serialization, potentially improving performance and space complexity.",
+      "The `lookup.__len__` as a default factory is a clever way to assign unique IDs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

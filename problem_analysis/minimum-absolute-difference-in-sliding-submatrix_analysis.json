@@ -1,0 +1,43 @@
+{
+  "problem_name": "minimum-absolute-difference-in-sliding-submatrix",
+  "data_structures": [
+    [
+      "SortedList",
+      "list"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Use a sliding window approach with a SortedList to efficiently manage elements within each kxk submatrix and find minimum differences.",
+    "Brute-force by iterating through all kxk submatrices, extracting values, sorting them, and finding the minimum difference."
+  ],
+  "problem_summary_simple": "Find the smallest difference between any two numbers within each sliding kxk square in a matrix.",
+  "problem_summary_technical": "Slide a kxk window across the matrix. For each window, efficiently find the minimum difference among its elements using a SortedList or by sorting.",
+  "time_complexity": [
+    "O(m * n * k^2)",
+    "O(m * n * k^2 * logk)"
+  ],
+  "space_complexity": [
+    "O(k^2)",
+    "O(k^2)"
+  ],
+  "key_insights": [
+    [
+      "The sliding window technique is essential for processing submatrices efficiently.",
+      "A SortedList (or similar structure) helps maintain the elements within the current window in sorted order for quick difference calculation.",
+      "Updating the SortedList by removing the outgoing element and adding the incoming element is key to the sliding window optimization."
+    ],
+    [
+      "The brute-force approach is straightforward but computationally expensive.",
+      "Extracting all elements of a submatrix and sorting them allows for direct calculation of the minimum difference.",
+      "This approach is less efficient for larger k values compared to optimized sliding window methods."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:56:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

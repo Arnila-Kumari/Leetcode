@@ -1,0 +1,32 @@
+{
+  "problem_name": "populating-next-right-pointers-in-each-node-ii",
+  "data_structures": [
+    [
+      "Node (custom struct)",
+      "Queue (implicit via level order traversal)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Level Order Traversal (BFS) with constant extra space using a dummy node and careful pointer manipulation."
+  ],
+  "problem_summary_simple": "Connect nodes at the same level in a binary tree using their 'next' pointers.",
+  "problem_summary_technical": "Populate 'next' pointers in a binary tree level by level, using constant extra space by managing current level's nodes.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to use the 'next' pointers of the current level to traverse and establish 'next' pointers for the next level.",
+      "A dummy node simplifies handling the start of each new level and connecting the first node of the next level.",
+      "The constraint of constant extra space is met by reusing the 'next' pointers and iterating through levels without an explicit queue."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:34:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

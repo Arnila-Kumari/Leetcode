@@ -1,0 +1,32 @@
+{
+  "problem_name": "equal-sum-grid-partition-i",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through all possible horizontal and vertical cuts, checking sums."
+  ],
+  "problem_summary_simple": "Check if a grid can be split into two equal sum parts with one horizontal or vertical cut.",
+  "problem_summary_technical": "Calculate total sum, check for evenness, then iterate through rows/columns to find a prefix sum equal to half the total.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The total sum must be even for an equal partition.",
+      "Prefix sums (or suffix sums) are key to efficiently checking partition sums.",
+      "Consider both horizontal and vertical cuts separately."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:31",
+  "batch_processed": true,
+  "batch_size": 5
+}

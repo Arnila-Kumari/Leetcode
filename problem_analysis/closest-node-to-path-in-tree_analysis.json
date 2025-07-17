@@ -1,0 +1,85 @@
+{
+  "problem_name": "closest-node-to-path-in-tree",
+  "data_structures": [
+    [
+      "adjacency list",
+      "hash map",
+      "Union-Find",
+      "array"
+    ],
+    [
+      "adjacency list",
+      "array",
+      "binary lifting structure"
+    ],
+    [
+      "adjacency list",
+      "array"
+    ],
+    [
+      "adjacency list",
+      "array",
+      "distance matrix"
+    ],
+    [
+      "adjacency list",
+      "array",
+      "distance matrix"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Tarjan's Offline LCA Algorithm combined with distance calculation.",
+    "Binary Lifting (Online LCA) combined with distance calculation.",
+    "Simple LCA with BFS for distance calculation.",
+    "Precomputing all-pairs shortest paths using BFS and then finding closest node on path.",
+    "Precomputing all-pairs shortest paths using BFS and then finding closest node on path."
+  ],
+  "problem_summary_simple": "For each query, find the node on the path between two nodes that is closest to a third node.",
+  "problem_summary_technical": "Uses LCA to find path nodes and BFS/distance calculations to determine the closest node on the path for each query.",
+  "time_complexity": [
+    "O(n + q)",
+    "O(n log n + q log n)",
+    "O(n + q * h)",
+    "O(n^2 + q * n)",
+    "O(n^2 + q * n)"
+  ],
+  "space_complexity": [
+    "O(n + q)",
+    "O(n log n)",
+    "O(n)",
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding nodes on a path and their distances to another node.",
+      "LCA algorithms are crucial for efficiently identifying path nodes.",
+      "The key insight is that the closest node to `nodei` on the path between `starti` and `endi` is one of the LCA of (`starti`, `nodei`), (`endi`, `nodei`), or (`starti`, `endi`)."
+    ],
+    [
+      "Binary lifting provides efficient online LCA queries.",
+      "Precomputing depths and parent pointers is necessary for binary lifting.",
+      "The logic for finding the closest node on the path remains the same as with offline LCA."
+    ],
+    [
+      "A naive BFS for each query to find the path and then distances is too slow.",
+      "This approach is less efficient than LCA-based methods for larger trees or many queries.",
+      "It involves repeated BFS traversals."
+    ],
+    [
+      "Precomputing all-pairs shortest paths allows for quick distance lookups.",
+      "However, the precomputation itself is O(n^2) which can be too slow.",
+      "Finding the path node requires iterating through the path and checking distances."
+    ],
+    [
+      "This solution also precomputes all-pairs shortest paths.",
+      "It uses a property of distances in trees to identify nodes on the path.",
+      "The time complexity is dominated by the initial BFS precomputation."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:35:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

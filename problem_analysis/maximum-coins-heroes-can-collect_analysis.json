@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-coins-heroes-can-collect",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sort heroes and monsters by power. Use two pointers to efficiently find defeatable monsters for each hero."
+  ],
+  "problem_summary_simple": "Calculate max coins each hero collects by defeating monsters they are strong enough for.",
+  "problem_summary_technical": "Sort heroes and monsters. Iterate through sorted heroes, using a pointer to sum coins of defeatable monsters.",
+  "time_complexity": [
+    "O(n log n + m log m)"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "Sorting both heroes and monsters by power is key to an efficient solution.",
+      "A two-pointer approach allows us to iterate through heroes and efficiently track the cumulative coins from monsters they can defeat.",
+      "The `coins` array needs to be associated with the sorted `monsters` to correctly sum up the coins."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:52:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

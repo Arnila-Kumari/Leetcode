@@ -1,0 +1,29 @@
+{
+  "problem_name": "minimum-cuts-to-divide-a-circle",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Direct calculation based on parity and value of n"
+  ],
+  "problem_summary_simple": "Find the minimum cuts to divide a circle into n equal slices.",
+  "problem_summary_technical": "Calculates minimum cuts for n slices: 0 for n=1, n for odd n, n/2 for even n.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Cuts through the center are most efficient.",
+      "For n=1, no cuts are needed.",
+      "Even n can be divided by n/2 diameter cuts, odd n requires n radial cuts."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:57:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

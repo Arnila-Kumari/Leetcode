@@ -1,0 +1,40 @@
+{
+  "problem_name": "minimum-time-to-repair-cars",
+  "data_structures": [
+    [
+      "list",
+      "dictionary"
+    ],
+    [
+      "list",
+      "heap",
+      "dictionary"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the answer (time), with a check function to count cars repaired.",
+    "Min-heap simulation to track repair progress of mechanics."
+  ],
+  "problem_summary_simple": "Find the minimum time for mechanics to repair a given number of cars based on their ranks.",
+  "problem_summary_technical": "Binary search on time, or min-heap simulation to find minimum time where total cars repaired meets the target.",
+  "time_complexity": [
+    "O(M * log(max_rank * cars^2))",
+    "O(cars * log(M))"
+  ],
+  "space_complexity": [
+    "O(M)",
+    "O(M)"
+  ],
+  "key_insights": [
+    [
+      "The problem has a monotonic property: if `T` time is sufficient, any time `T' > T` is also sufficient.",
+      "Binary search on the time is a viable approach.",
+      "The check function for binary search needs to efficiently calculate the total cars repaired by all mechanics within a given time."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:25",
+  "batch_processed": true,
+  "batch_size": 5
+}

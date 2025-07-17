@@ -1,0 +1,33 @@
+{
+  "problem_name": "probability-of-a-two-boxes-having-the-same-number-of-distinct-balls",
+  "data_structures": [
+    [
+      "dictionary for dynamic programming",
+      "collections.defaultdict"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Dynamic programming to count ways to distribute balls such that the number of distinct balls in each box is equal.",
+    "Combinatorics for calculating total possible distributions and favorable outcomes."
+  ],
+  "problem_summary_simple": "Calculate the probability that two boxes have the same count of distinct colored balls after random distribution.",
+  "problem_summary_technical": "Uses DP to count distributions with equal distinct balls, combined with combinations for total possibilities.",
+  "time_complexity": [
+    "O(k^3 * n^2)"
+  ],
+  "space_complexity": [
+    "O(k^2 * n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be framed as distributing balls into two groups (boxes).",
+      "DP state can track the difference in the number of balls and distinct colors between the two boxes.",
+      "Combinations (nCr) are used to calculate the total number of ways to distribute balls."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:05:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

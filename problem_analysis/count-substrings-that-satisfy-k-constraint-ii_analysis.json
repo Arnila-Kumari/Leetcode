@@ -1,0 +1,34 @@
+{
+  "problem_name": "count-substrings-that-satisfy-k-constraint-ii",
+  "data_structures": [
+    [
+      "prefix sum array",
+      "lookup array",
+      "two pointers (left, right)",
+      "integer counter for '1's"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Precompute valid substring counts for all possible start points using a sliding window, then answer queries efficiently."
+  ],
+  "problem_summary_simple": "Count binary substrings satisfying k-constraint within given query ranges.",
+  "problem_summary_technical": "Uses a sliding window to precompute valid substring counts for each starting position, then answers range queries using prefix sums.",
+  "time_complexity": [
+    "O(N + Q)"
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires answering range queries efficiently after an initial pass.",
+      "A sliding window is used to find the maximum valid substring ending at each position `right` starting from `left`.",
+      "The `lookup` array stores the furthest `right` index for each `left` start, enabling quick calculation of valid substrings for queries."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:37:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

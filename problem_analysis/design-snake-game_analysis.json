@@ -1,0 +1,33 @@
+{
+  "problem_name": "design-snake-game",
+  "data_structures": [
+    [
+      "collections.deque",
+      "set",
+      "dictionary"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Simulate game state with deque for snake body and set for quick collision checks."
+  ],
+  "problem_summary_simple": "Design a snake game where the snake moves, eats food, and avoids self-collision or hitting walls.",
+  "problem_summary_technical": "Simulate snake movement using a deque for its body and a set for occupied cells to efficiently check for collisions.",
+  "time_complexity": [
+    "O(1) per move"
+  ],
+  "space_complexity": [
+    "O(S), where S is the length of the snake"
+  ],
+  "key_insights": [
+    [
+      "Using a deque allows O(1) addition/removal from both ends for snake movement.",
+      "A set provides O(1) average time complexity for checking if the snake's head collides with its body.",
+      "Pre-calculating direction vectors simplifies movement logic."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

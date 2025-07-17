@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-pairs-of-points-with-distance-k",
+  "data_structures": [
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Iterate through points, use a frequency map to store counts of (x, y) pairs. For each point (x, y), iterate through possible XOR values for x and calculate the required XOR value for y to achieve distance k. Sum up counts from the frequency map."
+  ],
+  "problem_summary_simple": "Count pairs of 2D points where the XOR sum of their x and y coordinates equals k.",
+  "problem_summary_technical": "Uses a frequency map (Counter) to store point counts. For each point (x, y), it iterates through possible XOR splits of k (i and k-i) to find complementary points (x^i, y^(k-i)) in the map.",
+  "time_complexity": [
+    "O(n * k)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The distance metric (x1 XOR x2) + (y1 XOR y2) = k can be broken down into pairs of XOR sums that add up to k.",
+      "A frequency map (Counter) is crucial for efficiently checking the existence and count of previously seen points.",
+      "The iteration over possible XOR splits (i from 0 to k) is key to finding matching pairs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:37:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

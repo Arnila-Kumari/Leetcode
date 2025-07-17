@@ -1,0 +1,34 @@
+{
+  "problem_name": "largest-color-value-in-a-directed-graph",
+  "data_structures": [
+    [
+      "adjacency list",
+      "array",
+      "queue",
+      "2D array"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Topological sort with dynamic programming to track the maximum count of each color along valid paths."
+  ],
+  "problem_summary_simple": "Find the most frequent color in any path of a directed graph, or detect cycles.",
+  "problem_summary_technical": "Uses Kahn's algorithm (topological sort) and DP to store max color counts per node, detecting cycles by visited node count.",
+  "time_complexity": [
+    "O(n + m)"
+  ],
+  "space_complexity": [
+    "O(n + m)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding the longest path in a DAG where path weight is the count of the most frequent color.",
+      "Topological sort is essential to process nodes in an order that respects dependencies and detect cycles.",
+      "Dynamic programming is used to store the maximum count of each color encountered on paths leading to a node."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:48:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

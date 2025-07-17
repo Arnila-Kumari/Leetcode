@@ -1,0 +1,31 @@
+{
+  "problem_name": "divide-array-into-equal-pairs",
+  "data_structures": [
+    [
+      "hashmap (collections.Counter)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting using a hashmap to check if all element counts are even."
+  ],
+  "problem_summary_simple": "Check if an array can be divided into pairs of equal elements.",
+  "problem_summary_technical": "Count frequencies of each number. If all counts are even, the array can be divided into equal pairs.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The core requirement is that each number must appear an even number of times to form pairs.",
+      "A hashmap (like `collections.Counter`) is ideal for efficiently counting element frequencies.",
+      "The problem simplifies to checking the parity of counts for each unique element."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:41:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

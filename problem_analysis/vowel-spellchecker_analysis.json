@@ -1,0 +1,32 @@
+{
+  "problem_name": "vowel-spellchecker",
+  "data_structures": [
+    [
+      "hash set",
+      "hash map"
+    ]
+  ],
+  "category": "Hash Table",
+  "algorithm_technique": [
+    "Use hash maps to store lowercase and vowel-transformed words for efficient lookups."
+  ],
+  "problem_summary_simple": "Correct spelling errors in queries based on exact match, capitalization, or vowel changes against a wordlist.",
+  "problem_summary_technical": "Preprocess wordlist into hash maps for exact, case-insensitive, and vowel-insensitive matches to enable O(1) query checks.",
+  "time_complexity": [
+    "O(N + Q)"
+  ],
+  "space_complexity": [
+    "O(W)"
+  ],
+  "key_insights": [
+    [
+      "Preprocessing the wordlist into different hash maps (exact, case-insensitive, vowel-insensitive) is key for efficient querying.",
+      "The order of checking for matches (exact, then case, then vowel) follows the problem's precedence rules.",
+      "A helper function to transform words by replacing vowels with a placeholder simplifies vowel-insensitive matching."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:14:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

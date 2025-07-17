@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-indices-with-index-and-value-difference-i",
+  "data_structures": [
+    [
+      "integer variables (for tracking max/min indices)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate and track max/min values seen so far within index difference"
+  ],
+  "problem_summary_simple": "Find two indices i and j satisfying given index and value differences.",
+  "problem_summary_technical": "Iterate through the array, maintaining the indices of the maximum and minimum values encountered so far within the index difference.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding indices `i` and `j` such that `abs(i - j) >= indexDifference` and `abs(nums[i] - nums[j]) >= valueDifference`.",
+      "We can iterate through the array and for each potential `j` (starting from `indexDifference`), check against the maximum and minimum values seen in the range `[0, j - indexDifference]`.",
+      "This avoids a nested loop by efficiently tracking the required extremes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "distribute-candies-among-children-iii",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Stars and Bars with Inclusion-Exclusion Principle"
+  ],
+  "problem_summary_simple": "Distribute n candies among 3 children with a limit per child.",
+  "problem_summary_technical": "Uses combinatorics (Stars and Bars) and Inclusion-Exclusion to count distributions under a limit.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding non-negative integer solutions to x1 + x2 + x3 = n.",
+      "The constraint x_i <= limit is handled using the Principle of Inclusion-Exclusion.",
+      "The nHr formula (n+r-1 choose r-1) is crucial for combinations with repetition."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:40:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

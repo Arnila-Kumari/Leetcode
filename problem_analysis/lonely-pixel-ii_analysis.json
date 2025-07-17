@@ -1,0 +1,46 @@
+{
+  "problem_name": "lonely-pixel-ii",
+  "data_structures": [
+    [
+      "array",
+      "array",
+      "hash map"
+    ],
+    [
+      "hash map",
+      "zip iterator",
+      "list comprehension"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Count row/column black pixels and store row patterns in a hash map.",
+    "Count row/column black pixels and use a Counter for row patterns."
+  ],
+  "problem_summary_simple": "Count black pixels that are alone in their row/column and have identical rows.",
+  "problem_summary_technical": "Identify pixels where row/column counts match target, and their rows are identical to other qualifying rows in that column.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n) in the worst case for the hash map storing row patterns.",
+    "O(m * n) in the worst case for the hash map storing row patterns."
+  ],
+  "key_insights": [
+    [
+      "The problem adds a constraint: rows with a black pixel in a specific column must be identical.",
+      "A hash map (or defaultdict) is used to store the frequency of each unique row pattern.",
+      "The condition `lookup[tuple(picture[i])] == N` checks if the row pattern appears N times, implying N rows satisfy the row similarity condition."
+    ],
+    [
+      "`collections.Counter(map(tuple, picture))` efficiently counts occurrences of each row pattern.",
+      "The condition `cnt == N == row.count('B')` checks if the row pattern appears N times and the row itself has N black pixels.",
+      "The final sum checks if a 'B' pixel in a column with N black pixels also belongs to a row pattern that appears N times."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:49:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

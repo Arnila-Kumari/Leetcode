@@ -1,0 +1,29 @@
+{
+  "problem_name": "k-items-with-the-maximum-sum",
+  "data_structures": [
+    []
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach by prioritizing items with value 1, then 0, then -1."
+  ],
+  "problem_summary_simple": "Pick k items from a bag of 1s, 0s, and -1s to maximize the sum.",
+  "problem_summary_technical": "Greedily pick as many 1s as possible, then 0s if needed, and finally -1s if k is not yet met.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To maximize the sum, we should always pick items with the highest value first.",
+      "The strategy is to take as many '1's as possible, up to `k` or `numOnes`.",
+      "If `k` is still not met after taking all '1's, we take '0's. If `k` is still not met, we are forced to take '-1's."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:34:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

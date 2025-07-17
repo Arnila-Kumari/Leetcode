@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-common-words-with-one-occurrence",
+  "data_structures": [
+    [
+      "hashmap",
+      "counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a frequency map (Counter) to store counts of words in the first array, then adjust counts based on the second array."
+  ],
+  "problem_summary_simple": "Find words that appear exactly once in both input lists.",
+  "problem_summary_technical": "Utilize hash maps to count word frequencies in both arrays and identify words with a count of 1 in each.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "A Counter (hash map) is efficient for tracking word frequencies.",
+      "Iterating through the second list and decrementing counts in the first list's map simplifies the comparison.",
+      "A final check for values equal to 0 in the map identifies common words with single occurrences."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:36:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

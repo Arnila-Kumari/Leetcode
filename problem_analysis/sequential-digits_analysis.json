@@ -1,0 +1,36 @@
+{
+  "problem_name": "sequential-digits",
+  "data_structures": [
+    [
+      "list",
+      "deque"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) starting from single digits to generate sequential numbers.",
+    "Pre-generating all sequential numbers and filtering them based on the range."
+  ],
+  "problem_summary_simple": "Find all numbers within a range that have digits increasing sequentially by one.",
+  "problem_summary_technical": "Generates sequential digit numbers using BFS and filters them based on the given low and high bounds.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of sequential digit numbers is very small and finite (at most 9 + 8 + ... + 1 = 45).",
+      "A BFS approach starting from single digits (1-9) is efficient for generating these numbers in increasing order."
+    ],
+    [
+      "The generation process can be thought of as building numbers by appending the next sequential digit.",
+      "The constraint `num % 10 + 1 < 10` ensures that we don't generate numbers with digits like 910."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:08:15",
+  "batch_processed": true,
+  "batch_size": 5
+}

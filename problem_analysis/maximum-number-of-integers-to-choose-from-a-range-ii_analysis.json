@@ -1,0 +1,43 @@
+{
+  "problem_name": "maximum-number-of-integers-to-choose-from-a-range-ii",
+  "data_structures": [
+    [
+      "set",
+      "integer"
+    ],
+    [
+      "sorted list",
+      "prefix sum array",
+      "binary search"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate max possible count using sum of arithmetic series, then adjust for banned numbers.",
+    "Binary search for the maximum number of elements whose sum is within maxSum, accounting for banned numbers."
+  ],
+  "problem_summary_simple": "Find the maximum count of numbers from 1 to n, not banned, whose sum is within maxSum.",
+  "problem_summary_technical": "Greedy selection of smallest available numbers or binary search on count, adjusting for banned elements and sum constraints.",
+  "time_complexity": [
+    "O(b)",
+    "O(b log b + log n * log b)"
+  ],
+  "space_complexity": [
+    "O(b)",
+    "O(b)"
+  ],
+  "key_insights": [
+    [
+      "The sum of the first k integers is k*(k+1)/2. This can be used to estimate the maximum possible count.",
+      "Iterating through banned numbers up to the estimated k is efficient."
+    ],
+    [
+      "Binary search on the number of elements to pick is a viable strategy.",
+      "Prefix sums of sorted banned numbers help quickly calculate the sum of banned elements within a range."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:53:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

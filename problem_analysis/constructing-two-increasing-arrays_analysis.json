@@ -1,0 +1,32 @@
+{
+  "problem_name": "constructing-two-increasing-arrays",
+  "data_structures": [
+    [
+      "array",
+      "dynamic programming table"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "dynamic programming to find minimum largest element"
+  ],
+  "problem_summary_simple": "Replace 0s with even and 1s with odd numbers in two arrays to make them increasing, minimizing the max number used.",
+  "problem_summary_technical": "DP state tracks minimum largest number to form increasing arrays up to current elements.",
+  "time_complexity": [
+    "O(m*n)"
+  ],
+  "space_complexity": [
+    "O(min(m, n))"
+  ],
+  "key_insights": [
+    [
+      "the problem can be framed as assigning numbers greedily",
+      "DP state should capture the last assigned number and its parity",
+      "swapping arrays to ensure smaller length for DP table optimizes space"
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:44:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

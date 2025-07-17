@@ -1,0 +1,30 @@
+{
+  "problem_name": "maximum-split-of-positive-even-integers",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy strategy: use the smallest unique positive even integers first."
+  ],
+  "problem_summary_simple": "Split a number into the maximum count of unique positive even integers.",
+  "problem_summary_technical": "Greedily picks smallest unique even numbers (2, 4, 6, ...) until the remaining sum is less than the next even number, then adds it to the last picked number.",
+  "time_complexity": [
+    "O(sqrt(n))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "To maximize the number of integers, we should use the smallest possible unique positive even integers (2, 4, 6, ...).",
+      "The remaining sum after picking as many small even numbers as possible is added to the last picked number to ensure uniqueness and sum correctness."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-weighted-subgraph-with-the-required-paths",
+  "data_structures": [
+    [
+      "adjacency list",
+      "min-heap"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm on graph and its reverse"
+  ],
+  "problem_summary_simple": "Find the minimum weight subgraph to connect src1 and src2 to dest.",
+  "problem_summary_technical": "Uses Dijkstra's algorithm from src1, src2, and to dest on the reversed graph to find shortest paths.",
+  "time_complexity": [
+    "O(|E| * log|V|)"
+  ],
+  "space_complexity": [
+    "O(|E| + |V|)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding a common path or meeting point for two sources to a destination.",
+      "Running Dijkstra from src1 and src2 on the original graph, and from dest on the reversed graph, allows calculating path costs efficiently.",
+      "The minimum sum of these three distances for any intermediate node gives the overall minimum subgraph weight."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

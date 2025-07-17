@@ -1,0 +1,31 @@
+{
+  "problem_name": "tuple-with-same-product",
+  "data_structures": [
+    [
+      "collections.Counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through pairs, count product occurrences using a hash map."
+  ],
+  "problem_summary_simple": "Find the number of quadruplets (a, b, c, d) from an array where a*b = c*d and all elements are distinct.",
+  "problem_summary_technical": "Uses a hash map (Counter) to store frequencies of products of pairs (nums[i]*nums[j]). Counts tuples by summing existing counts for each new product found.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to find pairs with the same product.",
+      "A hash map is efficient for storing and retrieving product frequencies.",
+      "Each pair (a, b) with product P can form 8 tuples with other pairs (c, d) that also have product P."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

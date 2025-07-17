@@ -1,0 +1,50 @@
+{
+  "problem_name": "k-highest-ranked-items-within-a-price-range",
+  "data_structures": [
+    [
+      "list",
+      "list",
+      "list",
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list",
+      "list",
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) with custom sorting",
+    "BFS with Quickselect for efficient k-selection"
+  ],
+  "problem_summary_simple": "Find the k highest-ranked items in a grid within a price range, based on distance, price, and position.",
+  "problem_summary_technical": "Uses BFS to find reachable items, then sorts them by distance, price, row, and column to select the top k.",
+  "time_complexity": [
+    "O(m * n + k log k)",
+    "O(m * n + k)"
+  ],
+  "space_complexity": [
+    "O(m * n)",
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "BFS naturally finds shortest paths (distance) from the start.",
+      "A custom comparison function or tuple sorting is needed to rank items based on multiple criteria.",
+      "The `lookup` array stores the distance to each cell, preventing revisits and ensuring shortest paths."
+    ],
+    [
+      "Quickselect (or `nth_element`) can find the k-th ranked item in O(N) average time, improving the sorting step.",
+      "The `get_val` helper function encapsulates the multi-criteria ranking logic.",
+      "The BFS explores the grid layer by layer, ensuring that items found earlier have shorter distances."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-total-importance-of-roads",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ],
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Calculate city degrees, use inplace counting sort to assign highest values to highest degree cities.",
+    "Calculate city degrees, use standard sort to assign highest values to highest degree cities."
+  ],
+  "problem_summary_simple": "Assign values to cities to maximize the total importance of all roads.",
+  "problem_summary_technical": "Greedily assign the highest values (1 to n) to cities with the highest road degrees to maximize total road importance.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The total importance is the sum of (degree of city A * value of city A) + (degree of city B * value of city B) for all roads (A, B).",
+      "This simplifies to the sum of (degree of city * assigned value) for all cities.",
+      "To maximize this sum, we should assign the largest values to cities with the largest degrees."
+    ],
+    [
+      "Calculating the degree of each city is the first step.",
+      "Sorting the degrees allows us to pair them with the available values (1 to n) in descending order.",
+      "Counting sort is an optimization for sorting the degrees if the range of degrees is manageable."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:20",
+  "batch_processed": true,
+  "batch_size": 5
+}

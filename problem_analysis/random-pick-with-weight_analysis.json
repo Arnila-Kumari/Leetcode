@@ -1,0 +1,33 @@
+{
+  "problem_name": "random-pick-with-weight",
+  "data_structures": [
+    [
+      "list",
+      "binary search"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Precompute prefix sums of weights. Generate a random number within the total sum and use binary search to find the corresponding index.",
+    "Reservoir sampling with weights (not implemented in provided solution but a common alternative)."
+  ],
+  "problem_summary_simple": "Randomly pick an index based on its weight, where higher weights mean higher probability.",
+  "problem_summary_technical": "Uses prefix sums to create a cumulative distribution. A random number is generated within the total sum, and binary search finds the index corresponding to that random value.",
+  "time_complexity": [
+    "ctor: O(n), pickIndex: O(log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by transforming the weights into probabilities and then mapping a random number to an index based on these probabilities.",
+      "Prefix sums are crucial for efficiently determining the cumulative probability ranges for each index.",
+      "Binary search (specifically `bisect_right`) is used to quickly find which cumulative range the random number falls into."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

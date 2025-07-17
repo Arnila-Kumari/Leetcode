@@ -1,0 +1,32 @@
+{
+  "problem_name": "k-diff-pairs-in-an-array",
+  "data_structures": [
+    [
+      "set",
+      "set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash set for efficient lookups"
+  ],
+  "problem_summary_simple": "Count unique pairs in an array with an absolute difference of k.",
+  "problem_summary_technical": "Uses two hash sets to store seen numbers and unique pairs, achieving O(n) time complexity for finding pairs with difference k.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Using a hash set (lookup) allows checking for `num - k` and `num + k` in O(1) time.",
+      "A second hash set (result) is crucial to store unique pairs, preventing duplicates.",
+      "Handle k=0 as a special case where we count numbers appearing more than once."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:47:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

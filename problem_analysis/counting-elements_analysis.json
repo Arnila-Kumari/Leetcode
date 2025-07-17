@@ -1,0 +1,44 @@
+{
+  "problem_name": "counting-elements",
+  "data_structures": [
+    [
+      "hash set",
+      "iteration"
+    ],
+    [
+      "sorted array",
+      "counters"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a hash set for O(1) lookups to check for `x + 1` presence.",
+    "Sort the array and use a two-pointer/sliding window approach to count consecutive identical elements."
+  ],
+  "problem_summary_simple": "Count elements `x` in an array where `x + 1` also exists in the array.",
+  "problem_summary_technical": "Count elements `x` such that `x+1` is present, handling duplicates by either hash set lookup or sorted array traversal.",
+  "time_complexity": [
+    "O(n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(1) or O(log n) depending on sort implementation"
+  ],
+  "key_insights": [
+    [
+      "A hash set provides efficient O(1) average time complexity for checking the existence of `x + 1`.",
+      "Iterating through the original array ensures that duplicates are counted separately.",
+      "This is the most straightforward and often the most efficient approach for this problem."
+    ],
+    [
+      "Sorting the array brings identical elements together and allows for checking `arr[i] + 1 == arr[i+1]`.",
+      "A counter `l` is needed to track the occurrences of `arr[i]` to correctly add to the result when `arr[i] + 1` is found.",
+      "This approach avoids extra space but has a higher time complexity due to sorting."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:38:51",
+  "batch_processed": true,
+  "batch_size": 5
+}

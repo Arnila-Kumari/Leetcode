@@ -1,0 +1,42 @@
+{
+  "problem_name": "reverse-linked-list",
+  "data_structures": [
+    [
+      "linked list"
+    ],
+    [
+      "linked list"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Iterative: Use three pointers (prev, curr, next) to reverse links.",
+    "Recursive: Reverse the rest of the list, then attach current node to the end."
+  ],
+  "problem_summary_simple": "Reverse a singly linked list and return the new head.",
+  "problem_summary_technical": "Iteratively or recursively traverse the list, changing 'next' pointers to reverse the order.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The iterative approach uses constant extra space by re-wiring pointers in place.",
+      "A dummy node can simplify edge cases, especially for an empty list.",
+      "The key is to correctly manage the `prev`, `curr`, and `next` pointers during iteration."
+    ],
+    [
+      "The recursive solution breaks the problem into smaller subproblems.",
+      "The base case is an empty list or a single-node list.",
+      "The call stack implicitly manages the state, leading to O(n) space complexity."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

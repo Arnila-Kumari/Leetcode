@@ -1,0 +1,44 @@
+{
+  "problem_name": "design-an-expression-tree-with-evaluate-function",
+  "data_structures": [
+    [
+      "stack",
+      "custom Node class"
+    ],
+    [
+      "stack",
+      "custom Node class"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative approach using a stack to build the expression tree from postfix notation.",
+    "Recursive approach using a stack to build the expression tree from postfix notation."
+  ],
+  "problem_summary_simple": "Build an expression tree from postfix notation and evaluate it.",
+  "problem_summary_technical": "Uses a stack to construct a binary expression tree from postfix tokens, then evaluates it recursively or iteratively.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h) where h is the height of the tree (worst case O(n))",
+    "O(h) where h is the height of the tree (worst case O(n))"
+  ],
+  "key_insights": [
+    [
+      "Postfix to expression tree conversion is a classic stack-based algorithm.",
+      "The `evaluate` function can be implemented recursively or iteratively, with the iterative version potentially avoiding stack overflow for deep trees.",
+      "Modularity for new operators can be achieved by extending the `ops` dictionary and the `Node` class."
+    ],
+    [
+      "Postfix to expression tree conversion is a classic stack-based algorithm.",
+      "The `evaluate` function can be implemented recursively or iteratively, with the iterative version potentially avoiding stack overflow for deep trees.",
+      "Modularity for new operators can be achieved by extending the `ops` dictionary and the `Node` class."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,37 @@
+{
+  "problem_name": "bitwise-and-of-numbers-range",
+  "data_structures": [
+    [],
+    []
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Repeatedly AND right with right-1 until right equals left",
+    "Find common prefix bits by right shifting until numbers are equal"
+  ],
+  "problem_summary_simple": "Find the bitwise AND of all numbers in a given range.",
+  "problem_summary_technical": "Calculates bitwise AND of a range [m, n] by finding common most significant bits.",
+  "time_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The result is the common prefix of the binary representations of m and n.",
+      "If a bit differs between m and n, all numbers in between will have that bit as 0 in the final AND.",
+      "The operation `n &= n - 1` effectively turns off the rightmost set bit of n."
+    ],
+    [
+      "The number of right shifts needed is determined by the difference between n and m.",
+      "Shifting m right by `i` and then left by `i` effectively zeros out the differing lower bits."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:33:03",
+  "batch_processed": true,
+  "batch_size": 5
+}

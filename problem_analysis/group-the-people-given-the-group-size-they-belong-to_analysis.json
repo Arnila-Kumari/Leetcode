@@ -1,0 +1,33 @@
+{
+  "problem_name": "group-the-people-given-the-group-size-they-belong-to",
+  "data_structures": [
+    [
+      "collections.defaultdict(list)",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash map for grouping by size",
+    "Iterative group formation"
+  ],
+  "problem_summary_simple": "Form groups of people based on their specified group sizes.",
+  "problem_summary_technical": "Uses a hash map to store people by their required group size, forming groups as they reach the target size.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key is to process people and temporarily store them based on their group size requirement.",
+      "When a temporary group for a specific size reaches that size, it's finalized and added to the result.",
+      "A hash map is efficient for mapping group sizes to lists of people."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:37",
+  "batch_processed": true,
+  "batch_size": 5
+}

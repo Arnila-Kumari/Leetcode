@@ -1,0 +1,44 @@
+{
+  "problem_name": "palindrome-partitioning",
+  "data_structures": [
+    [
+      "2D array",
+      "list of lists"
+    ],
+    [
+      "list",
+      "list of lists"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Dynamic programming to precompute palindrome substrings, then backtracking to build partitions.",
+    "Recursive backtracking with a helper function to explore all possible palindrome partitions."
+  ],
+  "problem_summary_simple": "Divide a string into substrings, where each substring is a palindrome.",
+  "problem_summary_technical": "Uses dynamic programming to identify palindromic substrings and backtracking to generate all valid partitions.",
+  "time_complexity": [
+    "O(n^2 ~ 2^n)",
+    "O(2^n)"
+  ],
+  "space_complexity": [
+    "O(n^2)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating palindrome substrings using DP avoids redundant checks.",
+      "The DP table stores whether s[i:j+1] is a palindrome.",
+      "Backtracking explores all valid partitioning paths."
+    ],
+    [
+      "The recursive approach naturally explores all possibilities.",
+      "A helper function manages the current partition and the remaining string.",
+      "The `isPalindrome` check is performed repeatedly."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

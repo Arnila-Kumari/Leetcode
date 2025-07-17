@@ -1,0 +1,31 @@
+{
+  "problem_name": "range-addition",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Difference array (or prefix sum modification) to efficiently apply range updates."
+  ],
+  "problem_summary_simple": "Apply multiple range increment operations to an array initialized with zeros.",
+  "problem_summary_technical": "Uses a difference array approach: increment at start, decrement at end+1, then compute prefix sums.",
+  "time_complexity": [
+    "O(k + n), where k is number of updates and n is length"
+  ],
+  "space_complexity": [
+    "O(1) if modifying input array, O(n) if creating a new result array."
+  ],
+  "key_insights": [
+    [
+      "Instead of iterating through each element for every update, we mark the start and end points of the update.",
+      "An increment at `startIdxi` is applied to all subsequent elements. A decrement at `endIdxi + 1` cancels this increment.",
+      "A final pass to compute the prefix sums reconstructs the array with all updates applied."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "median-of-a-row-wise-sorted-matrix",
+  "data_structures": [
+    [
+      "list",
+      "bisect_right function (from bisect module)"
+    ]
+  ],
+  "category": "Binary Search",
+  "algorithm_technique": [
+    "Binary search on the possible range of median values, using bisect_right to count elements."
+  ],
+  "problem_summary_simple": "Find the median of a matrix where each row is sorted and the total number of elements is odd.",
+  "problem_summary_technical": "Binary search for the median value. For each candidate median, count elements less than or equal to it using `bisect_right` on each row.",
+  "time_complexity": [
+    "O(log(max_val - min_val) * m * log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The median must lie within the range of the minimum and maximum elements in the matrix.",
+      "The `bisect_right` function efficiently counts elements less than or equal to a target in a sorted array.",
+      "The problem can be reframed as finding a value `x` such that the count of elements <= `x` is `(m*n)/2 + 1`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:55:45",
+  "batch_processed": true,
+  "batch_size": 5
+}

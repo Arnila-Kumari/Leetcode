@@ -1,0 +1,72 @@
+{
+  "problem_name": "online-majority-element-in-subarray",
+  "data_structures": [
+    [
+      "list",
+      "hashmap",
+      "random"
+    ],
+    [
+      "list",
+      "hashmap",
+      "bisect"
+    ],
+    [
+      "list",
+      "hashmap",
+      "segment tree"
+    ],
+    [
+      "list",
+      "hashmap",
+      "square root decomposition"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Randomized approach: Sample elements from the subarray and check their counts using precomputed indices.",
+    "Square root decomposition: Precompute majority candidates for blocks and use Boyer-Moore for small blocks.",
+    "Segment Tree: Build a segment tree where each node stores the majority candidate and its count for its range.",
+    "Square root decomposition with precomputed majority candidates for blocks and Boyer-Moore for small blocks."
+  ],
+  "problem_summary_simple": "Find the majority element in a subarray that appears at least 'threshold' times.",
+  "problem_summary_technical": "Design a data structure to efficiently query for majority elements in subarrays. Solutions involve precomputation, randomized sampling, segment trees, or square root decomposition.",
+  "time_complexity": [
+    "O(n) for constructor, O(k*log(n)) for query (k is constant related to error rate)",
+    "O(n) for constructor, O(sqrt(n)*log(n)) for query",
+    "O(n*log(n)) for constructor, O((log(n))^2) for query",
+    "O(n) for constructor, O(sqrt(n)*log(n)) for query"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)",
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The randomized approach offers a probabilistic guarantee of correctness with a small error rate.",
+      "Precomputing indices for each number allows for efficient counting within a given range using binary search (bisect).",
+      "The constraint `2 * threshold > right - left + 1` implies that if a majority element exists, it's unique."
+    ],
+    [
+      "Square root decomposition divides the array into blocks to balance precomputation and query time.",
+      "Boyer-Moore Voting Algorithm is efficient for finding a potential majority element in a subarray.",
+      "Combining block-based precomputation with Boyer-Moore for smaller segments optimizes query performance."
+    ],
+    [
+      "A segment tree can store majority information for ranges, allowing for efficient querying.",
+      "The challenge is defining what information to store in segment tree nodes to correctly identify majority elements across merged ranges.",
+      "The `count` function within the segment tree's logic is critical for verifying potential majority candidates."
+    ],
+    [
+      "This approach is similar to the second solution but uses a different block partitioning strategy.",
+      "Precomputing majority candidates for each block helps to quickly check potential majority elements that span across blocks.",
+      "Handling queries that fall entirely within a block requires a separate strategy, often Boyer-Moore."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

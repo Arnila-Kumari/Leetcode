@@ -1,0 +1,31 @@
+{
+  "problem_name": "delete-node-in-a-bst",
+  "data_structures": [
+    [
+      "Binary Search Tree"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Recursive search and replacement with inorder successor"
+  ],
+  "problem_summary_simple": "Delete a node from a Binary Search Tree while maintaining its properties.",
+  "problem_summary_technical": "Recursively find the node, then replace it with its inorder successor if it has two children.",
+  "time_complexity": [
+    "O(h)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The BST property must be preserved after deletion.",
+      "When deleting a node with two children, the inorder successor (smallest in the right subtree) is used for replacement.",
+      "The recursive approach naturally handles finding the node and updating parent pointers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

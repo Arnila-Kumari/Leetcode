@@ -1,0 +1,44 @@
+{
+  "problem_name": "maximum-length-of-a-concatenated-string-with-unique-characters",
+  "data_structures": [
+    [
+      "list",
+      "dictionary"
+    ],
+    [
+      "list",
+      "dictionary"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Dynamic programming approach using bitmasks to represent character sets and check for uniqueness.",
+    "Iterate through all possible subsequences using bit manipulation to check for unique character concatenations."
+  ],
+  "problem_summary_simple": "Find the longest string formed by concatenating a subsequence of given strings, ensuring no repeated characters.",
+  "problem_summary_technical": "Use bitmasks to represent character sets of strings and DP to find the maximum length valid concatenation.",
+  "time_complexity": [
+    "O(N * L)",
+    "O(2^N * N)"
+  ],
+  "space_complexity": [
+    "O(N)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Representing character sets using bitmasks allows for efficient checking of character overlap (`&` operation).",
+      "Dynamic programming builds up solutions by considering each string and its potential concatenation with existing valid strings.",
+      "The `bitset` function efficiently converts a string to its bitmask representation."
+    ],
+    [
+      "Iterating through all `2^N` possible subsequences is feasible due to the small constraint on `arr.length` (N <= 16).",
+      "For each subsequence, check if it forms a valid string with unique characters.",
+      "The `log2` mapping helps quickly get the index of a bitmask, correlating it back to the original string."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

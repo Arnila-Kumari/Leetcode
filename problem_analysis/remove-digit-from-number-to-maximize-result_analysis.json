@@ -1,0 +1,34 @@
+{
+  "problem_name": "remove-digit-from-number-to-maximize-result",
+  "data_structures": [
+    [
+      "string",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the number, find the first occurrence of the digit where the next digit is larger, and remove it. If no such case, remove the last occurrence of the digit."
+  ],
+  "problem_summary_simple": "Remove one digit from a number string to get the largest possible resulting number.",
+  "problem_summary_technical": "Greedily remove the digit if it's followed by a larger digit to maximize the number. Otherwise, remove the last occurrence of the digit.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The greedy strategy is to remove a digit if it's smaller than the next digit, as this will result in a larger number.",
+      "If no such digit is found, removing the last occurrence of the target digit guarantees the largest possible result."
+    ],
+    [
+      "The problem guarantees the digit exists at least once, simplifying edge case handling."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:06:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

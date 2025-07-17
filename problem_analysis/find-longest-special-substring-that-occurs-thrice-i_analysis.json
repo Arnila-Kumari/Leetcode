@@ -1,0 +1,44 @@
+{
+  "problem_name": "find-longest-special-substring-that-occurs-thrice-i",
+  "data_structures": [
+    [
+      "list of lists (for counts)",
+      "integer"
+    ],
+    [
+      "list of lists (for counts)",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through string, track consecutive character counts, and store top 3 counts for each character.",
+    "Iterate through string, find all consecutive character runs, and count occurrences of each run length."
+  ],
+  "problem_summary_simple": "Find the longest substring of a single repeating character that appears at least three times.",
+  "problem_summary_technical": "Groups consecutive identical characters. For each character, it tracks the lengths of its top three occurrences and checks if any length appears thrice.",
+  "time_complexity": [
+    "O(26 * 3 + n * 3)",
+    "O(26 + n^2)"
+  ],
+  "space_complexity": [
+    "O(26 * 3)",
+    "O(26 + n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem focuses on 'special' substrings, which are sequences of a single repeating character.",
+      "We need to count how many times each special substring of a certain length appears.",
+      "The solution efficiently tracks the lengths of consecutive runs of each character and determines if any length occurs at least three times."
+    ],
+    [
+      "The problem focuses on 'special' substrings, which are sequences of a single repeating character.",
+      "A brute-force approach involves finding all substrings and checking if they are special and occur thrice.",
+      "The `lookup` table stores the frequency of each special substring length for each character."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:42:55",
+  "batch_processed": true,
+  "batch_size": 5
+}

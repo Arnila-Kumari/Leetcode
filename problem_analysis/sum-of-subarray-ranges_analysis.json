@@ -1,0 +1,33 @@
+{
+  "problem_name": "sum-of-subarray-ranges",
+  "data_structures": [
+    [
+      "list of integers",
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Use monotonic stacks to find the previous/next greater and smaller elements for each element, then calculate its contribution to the sum of ranges."
+  ],
+  "problem_summary_simple": "Sum the differences between the maximum and minimum elements of all contiguous subarrays.",
+  "problem_summary_technical": "Calculate sum of (max(subarray) - min(subarray)) for all subarrays using monotonic stacks.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The sum of subarray ranges can be decomposed into the sum of subarray maximums minus the sum of subarray minimums.",
+      "Monotonic stacks are effective for finding the previous/next greater/smaller elements.",
+      "An element `nums[i]` contributes to the sum of maximums if it's the maximum in a subarray. Its contribution is `nums[i] * (left_count) * (right_count)`.",
+      "Similarly, it contributes to the sum of minimums."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

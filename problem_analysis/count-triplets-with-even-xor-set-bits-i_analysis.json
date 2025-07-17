@@ -1,0 +1,47 @@
+{
+  "problem_name": "count-triplets-with-even-xor-set-bits-i",
+  "data_structures": [
+    [
+      "integer",
+      "list"
+    ],
+    [
+      "integer",
+      "list"
+    ],
+    [
+      "integer",
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Parity calculation of set bits and counting even/odd occurrences",
+    "Brute force with bit manipulation"
+  ],
+  "problem_summary_simple": "Count triplets (a[i], b[j], c[k]) where their XOR has an even number of set bits.",
+  "problem_summary_technical": "Calculate parity of set bits for each element, then count triplets where XOR parity is even using precomputed even/odd counts.",
+  "time_complexity": [
+    "O(N*logR)",
+    "O(N^3*logR)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The parity of the XOR sum of numbers is determined by the parity of the number of odd-parity numbers in the XOR operation.",
+      "We can pre-calculate the count of numbers with an even number of set bits and an odd number of set bits for each array.",
+      "The condition (x ^ y ^ z) has even set bits means (parity(x) + parity(y) + parity(z)) % 2 == 0."
+    ],
+    [
+      "Iterate through all possible triplets and directly calculate the XOR sum and its set bit count.",
+      "This approach is straightforward but computationally expensive for larger inputs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "search-a-2d-matrix-ii",
+  "data_structures": [
+    [
+      "2D array (matrix)"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Start from top-right or bottom-left and move based on target comparison"
+  ],
+  "problem_summary_simple": "Search for a target in a matrix sorted by rows and columns.",
+  "problem_summary_technical": "Uses a two-pointer approach starting from the top-right corner to efficiently eliminate rows or columns.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Starting from the top-right (or bottom-left) corner allows for efficient elimination.",
+      "If `matrix[i][j] > target`, move left (`j--`) because elements to the right are larger.",
+      "If `matrix[i][j] < target`, move down (`i++`) because elements above are smaller."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

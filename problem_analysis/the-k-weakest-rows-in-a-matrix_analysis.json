@@ -1,0 +1,56 @@
+{
+  "problem_name": "the-k-weakest-rows-in-a-matrix",
+  "data_structures": [
+    [
+      "array",
+      "set"
+    ],
+    [
+      "OrderedDict",
+      "array"
+    ],
+    [
+      "array",
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through columns, then rows, adding row indices to result if they contain a '1' and haven't been added.",
+    "Use OrderedDict to maintain insertion order and track weakest rows.",
+    "Calculate soldier count for each row, then use Quickselect to find k weakest, followed by sorting."
+  ],
+  "problem_summary_simple": "Find the indices of the k weakest rows in a binary matrix.",
+  "problem_summary_technical": "Rows are weaker if they have fewer soldiers (1s) or a smaller index if soldier counts are equal. Use iteration or sorting/selection.",
+  "time_complexity": [
+    "O(m * n)",
+    "O(m * n)",
+    "O(m * n + k log k) for sorting, O(m*n) average for quickselect"
+  ],
+  "space_complexity": [
+    "O(k) for result and lookup set",
+    "O(k) for OrderedDict",
+    "O(m) for storing row strengths and indices"
+  ],
+  "key_insights": [
+    [
+      "The problem requires a custom sorting criteria: first by the count of soldiers (1s), then by row index.",
+      "Iterating column by column and then row by row can efficiently identify rows with fewer soldiers first.",
+      "A set or OrderedDict is useful to keep track of already added rows."
+    ],
+    [
+      "OrderedDict preserves the order of insertion, which is crucial for the secondary sorting criterion (row index).",
+      "This approach avoids explicit sorting of all rows, potentially being more efficient if k is small.",
+      "The logic of iterating through columns first is key to finding rows with fewer soldiers."
+    ],
+    [
+      "Pre-calculating the number of soldiers in each row simplifies the comparison logic.",
+      "Quickselect can find the k weakest rows in O(m) average time, which is more efficient than sorting all m rows.",
+      "The final sorting of the top k elements is necessary to ensure the correct order."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

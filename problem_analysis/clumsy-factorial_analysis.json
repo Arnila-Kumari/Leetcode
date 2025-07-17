@@ -1,0 +1,31 @@
+{
+  "problem_name": "clumsy-factorial",
+  "data_structures": [
+    [
+      "None"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Observe the repeating pattern of operations and results for small N. Derive a formula based on N modulo 4."
+  ],
+  "problem_summary_simple": "Calculate a modified factorial using a repeating sequence of multiplication, division, addition, and subtraction.",
+  "problem_summary_technical": "Identify a repeating pattern in the clumsy factorial calculation for N mod 4. Use conditional logic to return the correct result based on N.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The key is to recognize that the operations repeat every four numbers: *, /, +, -.",
+      "The pattern of results for N=1, 2, 3, 4, 5, 6, 7, 8... is 1, 2, 6, 7, 9, 11, 6, 7...",
+      "The formula derived from N % 4 covers all cases efficiently."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

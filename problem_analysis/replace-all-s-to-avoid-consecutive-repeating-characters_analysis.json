@@ -1,0 +1,32 @@
+{
+  "problem_name": "replace-all-s-to-avoid-consecutive-repeating-characters",
+  "data_structures": [
+    [
+      "string",
+      "list"
+    ]
+  ],
+  "category": "String",
+  "algorithm_technique": [
+    "Iterate and replace '?' with a character that avoids consecutive duplicates with neighbors."
+  ],
+  "problem_summary_simple": "Replace '?' in a string so no adjacent characters are the same.",
+  "problem_summary_technical": "Iterates through the string, replacing '?' with 'a', 'b', or 'c' based on adjacent characters.",
+  "time_complexity": [
+    "O(N)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "It's always possible to find a valid replacement for '?' using only 'a', 'b', and 'c'.",
+      "When replacing a '?', check the preceding and succeeding characters to ensure no consecutive duplicates.",
+      "Converting the string to a list allows in-place modification, and then joining back to a string."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:07:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

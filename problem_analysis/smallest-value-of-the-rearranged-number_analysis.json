@@ -1,0 +1,44 @@
+{
+  "problem_name": "smallest-value-of-the-rearranged-number",
+  "data_structures": [
+    [
+      "list",
+      "array"
+    ],
+    [
+      "list",
+      "array"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "greedy, counting sort",
+    "greedy, sorting"
+  ],
+  "problem_summary_simple": "Rearrange digits of a number to get the smallest possible value without leading zeros.",
+  "problem_summary_technical": "Sorts digits greedily. For positive numbers, find the smallest non-zero digit and place it first. For negative, sort in descending order.",
+  "time_complexity": [
+    "O(d)",
+    "O(d log d)"
+  ],
+  "space_complexity": [
+    "O(d)",
+    "O(d)"
+  ],
+  "key_insights": [
+    [
+      "The sign of the number must be preserved.",
+      "For positive numbers, the smallest non-zero digit should be the leading digit to minimize the value.",
+      "For negative numbers, the largest digit (closest to zero) should be the leading digit to minimize the absolute value."
+    ],
+    [
+      "Sorting the digits is a straightforward greedy approach.",
+      "Handling the leading zero constraint is crucial for positive numbers.",
+      "The `next` iterator is useful for finding the first non-zero digit efficiently."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:32",
+  "batch_processed": true,
+  "batch_size": 5
+}

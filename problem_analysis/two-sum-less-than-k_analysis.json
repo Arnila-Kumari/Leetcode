@@ -1,0 +1,31 @@
+{
+  "problem_name": "two-sum-less-than-k",
+  "data_structures": [
+    [
+      "sorted array"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sort the array and use two pointers to find the maximum sum less than K."
+  ],
+  "problem_summary_simple": "Find the largest sum of two distinct numbers in an array that is less than a given value K.",
+  "problem_summary_technical": "Given an array and an integer K, find max(nums[i] + nums[j]) such that i < j and nums[i] + nums[j] < K.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is crucial for the two-pointer approach.",
+      "The two-pointer strategy efficiently explores pairs without redundant checks.",
+      "Maintaining the maximum valid sum found so far is key."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:13:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "design-authentication-manager",
+  "data_structures": [
+    [
+      "collections.OrderedDict"
+    ]
+  ],
+  "category": "Linked List",
+  "algorithm_technique": [
+    "Use an OrderedDict to store token IDs and their expiration times, enabling efficient eviction of expired tokens."
+  ],
+  "problem_summary_simple": "Manage authentication tokens, generating, renewing, and counting unexpired ones within a time-to-live.",
+  "problem_summary_technical": "Employs an OrderedDict to store token expiry times, allowing O(1) amortized eviction of expired tokens and quick lookups.",
+  "time_complexity": [
+    "ctor: O(1), generate: O(1) amortized, renew: O(1) amortized, countUnexpiredTokens: O(1) amortized"
+  ],
+  "space_complexity": [
+    "O(n) where n is the number of active tokens"
+  ],
+  "key_insights": [
+    [
+      "An OrderedDict is ideal because it maintains insertion order, allowing for efficient removal of expired tokens from the beginning.",
+      "The `__evict` helper function is crucial for maintaining the state of unexpired tokens by removing those whose expiry time has passed.",
+      "The constraint that `currentTime` is strictly increasing simplifies the eviction process, as we only need to consider tokens expiring before the current time."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

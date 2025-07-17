@@ -1,0 +1,31 @@
+{
+  "problem_name": "count-negative-numbers-in-a-sorted-matrix",
+  "data_structures": [
+    [
+      "list of lists"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Start from top-right or bottom-left, use two pointers to efficiently count negatives in a sorted matrix."
+  ],
+  "problem_summary_simple": "Count all negative numbers in a matrix sorted non-increasingly row and column-wise.",
+  "problem_summary_technical": "Uses a two-pointer approach, starting from the top-right corner, to efficiently count negative numbers in O(m+n) time.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The sorted nature of the matrix is key to the O(m+n) solution.",
+      "Starting from the top-right corner (or bottom-left) allows for a linear scan.",
+      "If an element is negative, all elements to its left in the same row are also negative (due to row-wise sorting)."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:17:29",
+  "batch_processed": true,
+  "batch_size": 5
+}

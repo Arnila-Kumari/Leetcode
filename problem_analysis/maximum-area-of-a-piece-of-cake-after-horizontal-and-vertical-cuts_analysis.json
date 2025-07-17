@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
+  "data_structures": [
+    [
+      "array (sorted)",
+      "integer"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sorting and finding maximum differences between adjacent elements"
+  ],
+  "problem_summary_simple": "Find the largest rectangular piece of cake after making horizontal and vertical cuts.",
+  "problem_summary_technical": "Sort cuts, find max difference between adjacent horizontal and vertical cuts, multiply for max area.",
+  "time_complexity": [
+    "O(h log h + w log w)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem decomposes into finding the maximum gap between horizontal cuts and the maximum gap between vertical cuts independently.",
+      "Sorting the cuts is essential to easily find these maximum gaps.",
+      "The maximum area is the product of the maximum horizontal gap and the maximum vertical gap."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:51:50",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,31 @@
+{
+  "problem_name": "seat-reservation-manager",
+  "data_structures": [
+    [
+      "min-heap (priority queue)"
+    ]
+  ],
+  "category": "Heap / Priority Queue",
+  "algorithm_technique": [
+    "Using a min-heap to efficiently track available seats and retrieve the smallest numbered one."
+  ],
+  "problem_summary_simple": "Manage seat reservations, always reserving the smallest available seat number.",
+  "problem_summary_technical": "Employ a min-heap to store available seat numbers, allowing O(log n) for reserve and unreserve operations.",
+  "time_complexity": [
+    "ctor: O(n), reserve: O(log n), unreserve: O(log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "A min-heap is the perfect data structure for this problem because it always provides the smallest element efficiently.",
+      "When a seat is reserved, it's removed from the heap. When unreserved, it's added back.",
+      "The initial population of the heap with all seat numbers ensures that `reserve` always has a seat to return."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:07:58",
+  "batch_processed": true,
+  "batch_size": 5
+}

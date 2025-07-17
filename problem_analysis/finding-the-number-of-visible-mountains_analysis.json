@@ -1,0 +1,42 @@
+{
+  "problem_name": "finding-the-number-of-visible-mountains",
+  "data_structures": [
+    [
+      "list"
+    ],
+    [
+      "list",
+      "stack"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Geometric transformation and sorting",
+    "Sorting and monotonic stack for overlap detection"
+  ],
+  "problem_summary_simple": "Count mountains not hidden by others, where mountains are triangles with slopes 1 and -1.",
+  "problem_summary_technical": "Transforms mountain peaks by rotating 45 degrees (x-y, x+y) and sorts to find visible peaks. Alternatively, uses a monotonic stack after sorting to detect overlaps.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key insight for the first solution is that rotating the coordinate system by 45 degrees simplifies the visibility check. A mountain is defined by its base on the x-axis and its peak. The boundaries of a mountain `(x, y)` are `x-y` and `x+y`. Sorting by `x-y` and then `-(x+y)` helps identify mountains that might cover others.",
+      "The second solution uses a monotonic stack. After sorting the peaks, it iterates through them. If a current peak is covered by the peak at the top of the stack, it's popped. Otherwise, the current peak is pushed. This ensures that only non-overlapping peaks remain."
+    ],
+    [
+      "The geometric transformation `(x, y) -> (x-y, x+y)` maps the mountain problem to finding points not dominated by others in a 2D plane.",
+      "Sorting by the transformed coordinates is crucial for efficiently checking overlaps.",
+      "A monotonic stack is a common technique for problems involving finding the next greater/smaller element or detecting overlaps."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:45:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

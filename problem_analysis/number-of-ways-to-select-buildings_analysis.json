@@ -1,0 +1,31 @@
+{
+  "problem_name": "number-of-ways-to-select-buildings",
+  "data_structures": [
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic Programming: Count sequences of length k ending with a specific digit."
+  ],
+  "problem_summary_simple": "Count ways to select 3 buildings with alternating types (010 or 101).",
+  "problem_summary_technical": "DP state `dp[i][j]` stores ways to select `i+1` buildings ending with type `j`. Transitions use previous states.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved using dynamic programming by tracking the number of ways to form sequences of length 1, 2, and 3.",
+      "The DP state should capture the count of sequences ending with '0' and '1' for each length.",
+      "The transition involves adding the count of valid preceding sequences to the current building's count."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:03:24",
+  "batch_processed": true,
+  "batch_size": 5
+}

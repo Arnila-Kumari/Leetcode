@@ -1,0 +1,43 @@
+{
+  "problem_name": "count-nodes-equal-to-average-of-subtree",
+  "data_structures": [
+    [
+      "list",
+      "dictionary"
+    ],
+    [
+      "list"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative DFS with explicit stack management",
+    "Recursive DFS with post-order traversal"
+  ],
+  "problem_summary_simple": "Count nodes whose value equals the average of their subtree's values.",
+  "problem_summary_technical": "Traverse tree using DFS, returning sum and count from children to compute subtree average and check node value.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires calculating subtree sums and counts, which naturally lends itself to a post-order traversal pattern.",
+      "Both recursive and iterative DFS can solve this, with the iterative approach managing the call stack explicitly.",
+      "The average calculation involves integer division, which is handled correctly by Python's `//` operator."
+    ],
+    [
+      "A recursive DFS function can return a tuple or list containing the sum of the subtree, the count of nodes in the subtree, and the count of nodes matching the condition.",
+      "The base case for recursion is a null node, returning (0, 0, 0).",
+      "The result for a node is accumulated from its children's results."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:17:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

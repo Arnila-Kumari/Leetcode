@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-positive-sum-subarray",
+  "data_structures": [
+    [
+      "array",
+      "sorted list",
+      "prefix sum array"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Use prefix sums and a sorted list (or balanced BST) to efficiently find minimum positive sum subarrays of given lengths."
+  ],
+  "problem_summary_simple": "Find the smallest positive sum of a contiguous subarray with a length between l and r.",
+  "problem_summary_technical": "Utilize prefix sums and a sorted list to find `prefix[j] - prefix[i]` such that `j-i` is in `[l, r]` and the sum is minimal positive.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by calculating prefix sums. The sum of a subarray `nums[i:j+1]` is `prefix[j+1] - prefix[i]`.",
+      "We need to find `min(prefix[j+1] - prefix[i])` such that `l <= (j+1) - i <= r` and the sum is positive.",
+      "A sorted list (like `SortedList` in Python) can efficiently store previous prefix sums and allow us to find the smallest `prefix[i]` that satisfies the conditions for a given `prefix[j+1]`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:18:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

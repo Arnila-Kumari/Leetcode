@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-string-length-after-removing-substrings",
+  "data_structures": [
+    [
+      "Stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Stack-based processing to remove adjacent 'AB' or 'CD' substrings."
+  ],
+  "problem_summary_simple": "Remove all occurrences of 'AB' and 'CD' substrings from a string until no more can be removed.",
+  "problem_summary_technical": "Iterate through the string, using a stack to keep track of characters. If the current character forms 'AB' or 'CD' with the stack top, pop.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem involves repeated removal of specific patterns, which is a classic use case for stacks.",
+      "When a removable substring is found, it's like canceling out the last added character.",
+      "The order of removal matters due to potential new patterns forming, which the stack handles naturally."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:59:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

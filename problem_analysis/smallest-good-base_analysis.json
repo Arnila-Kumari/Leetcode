@@ -1,0 +1,30 @@
+{
+  "problem_name": "smallest-good-base",
+  "data_structures": [
+    []
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Binary search on the number of terms (l) and then on the base (b)."
+  ],
+  "problem_summary_simple": "Find the smallest base k such that n in base k consists only of 1s.",
+  "problem_summary_technical": "Iterates through possible lengths of '1's (l) and uses binary search to find the base 'b' for each length.",
+  "time_complexity": [
+    "O(log n * log(log n))"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A number 'n' in base 'k' with 'l' ones can be represented as 1 + k + k^2 + ... + k^(l-1).",
+      "This is a geometric series: n = (k^l - 1) / (k - 1).",
+      "We can iterate through possible lengths 'l' (from max possible down to 2) and for each 'l', find 'k' using binary search.",
+      "The maximum possible length 'l' is bounded by log2(n) because the smallest base is 2."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:09:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

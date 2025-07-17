@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-the-minimum-cost-array-permutation",
+  "data_structures": [
+    [
+      "2-D Dynamic Programming",
+      "Array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "DP with bitmask to track used elements, minimizing cost and backtracking for the permutation.",
+    "State: dp[mask][last_idx] = (min_cost, prev_idx)"
+  ],
+  "problem_summary_simple": "Find the permutation of [0..n-1] that minimizes a cyclic cost function.",
+  "problem_summary_technical": "Use dynamic programming with a bitmask to explore permutations, minimizing the sum of absolute differences between permuted elements and nums.",
+  "time_complexity": [
+    "O((n-1)^2 * 2^(n-1))"
+  ],
+  "space_complexity": [
+    "O((n-1) * 2^(n-1))"
+  ],
+  "key_insights": [
+    [
+      "The problem has optimal substructure and overlapping subproblems, suitable for DP.",
+      "A bitmask is necessary to keep track of which numbers have already been included in the permutation.",
+      "The state needs to include the last element added to calculate the cost for the next element."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:44:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

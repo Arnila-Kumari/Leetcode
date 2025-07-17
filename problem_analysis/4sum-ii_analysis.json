@@ -1,0 +1,32 @@
+{
+  "problem_name": "4sum-ii",
+  "data_structures": [
+    [
+      "hashmap",
+      "counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash map to store sums of two arrays, then iterate through the other two."
+  ],
+  "problem_summary_simple": "Find the number of quadruplets from four arrays that sum to zero.",
+  "problem_summary_technical": "Uses a hash map (Counter) to store sums of pairs from two arrays, then efficiently checks for complementary sums in the remaining two.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "Splitting the problem into two pairs (A+B and C+D) reduces complexity.",
+      "A hash map (Counter) allows for O(1) average time lookups for complementary sums.",
+      "The constraints (n <= 200) make an O(n^2) approach feasible."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:31:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

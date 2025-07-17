@@ -1,0 +1,32 @@
+{
+  "problem_name": "sum-of-consecutive-subarrays",
+  "data_structures": [
+    [
+      "array",
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Combinatorial approach to count contributions of each element to consecutive subarrays."
+  ],
+  "problem_summary_simple": "Sum the values of all consecutive subarrays (increasing or decreasing by 1) within a given array.",
+  "problem_summary_technical": "Calculates contributions of elements to consecutive subarrays using a helper function that counts subarrays with a specific difference.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by considering the contribution of each element to all consecutive subarrays it belongs to.",
+      "A key insight is that the sum of all consecutive subarrays can be decomposed into sums of increasing and decreasing sequences.",
+      "The formula for the sum of an arithmetic progression is used implicitly in the counting logic."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:11:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

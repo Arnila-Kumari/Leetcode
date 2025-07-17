@@ -1,0 +1,32 @@
+{
+  "problem_name": "count-the-number-of-good-partitions",
+  "data_structures": [
+    [
+      "hash map",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Hash map to store last occurrence, iterate to find partition points, use combinatorics for powers of 2."
+  ],
+  "problem_summary_simple": "Count ways to split an array so no two subarrays share a number.",
+  "problem_summary_technical": "Uses a hash map to find the rightmost occurrence of each number. Iterates to identify valid split points, then applies combinatorics (powers of 2).",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding the number of places we can cut the array such that each segment contains unique numbers.",
+      "The key insight is that if a number appears multiple times, all its occurrences must belong to the same partition. This is captured by finding the rightmost occurrence.",
+      "The number of good partitions is 2 raised to the power of the number of 'cuttable' points."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:13",
+  "batch_processed": true,
+  "batch_size": 5
+}

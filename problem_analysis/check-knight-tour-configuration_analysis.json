@@ -1,0 +1,46 @@
+{
+  "problem_name": "check-knight-tour-configuration",
+  "data_structures": [
+    [
+      "2D array",
+      "hash table",
+      "list"
+    ],
+    [
+      "2D array",
+      "hash map",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Pre-process to store cell positions for each move number, then validate knight moves sequentially.",
+    "Use a hash map to store move positions and then validate sequential knight moves."
+  ],
+  "problem_summary_simple": "Verify if a knight's path on a chessboard visits every cell exactly once, starting from the top-left.",
+  "problem_summary_technical": "Map each move number to its grid coordinates and check if consecutive moves follow valid knight's L-shaped movements.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The first move must be to cell 0 at grid[0][0].",
+      "Create a mapping from the move number to its (row, col) coordinates.",
+      "Iterate through the moves from 0 to n*n-2 and check if the difference in coordinates between move i+1 and move i is a valid knight's move."
+    ],
+    [
+      "The starting cell must contain 0.",
+      "A hash map provides efficient lookup for the coordinates of each move number.",
+      "The validation involves checking if the absolute difference in row and column between consecutive moves is (1, 2) or (2, 1)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:34:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

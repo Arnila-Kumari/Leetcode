@@ -1,0 +1,32 @@
+{
+  "problem_name": "take-k-of-each-character-from-left-and-right",
+  "data_structures": [
+    [
+      "array (for counts)"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with two pointers to find the longest valid subarray.",
+    "Prefix/suffix counts to check feasibility and optimize window expansion."
+  ],
+  "problem_summary_simple": "Find the minimum minutes to take k of each 'a', 'b', 'c' from string ends.",
+  "problem_summary_technical": "Uses a sliding window to find the longest substring that *doesn't* satisfy the condition, then subtracts from total length.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be reframed: find the longest substring to *leave behind* such that the remaining characters satisfy the k count.",
+      "A sliding window approach efficiently explores all possible contiguous segments to leave behind.",
+      "Pre-calculating total counts and checking feasibility early is important."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:10",
+  "batch_processed": true,
+  "batch_size": 5
+}

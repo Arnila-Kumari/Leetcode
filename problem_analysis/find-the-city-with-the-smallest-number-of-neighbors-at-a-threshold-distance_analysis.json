@@ -1,0 +1,32 @@
+{
+  "problem_name": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+  "data_structures": [
+    [
+      "2D array",
+      "list of lists"
+    ]
+  ],
+  "category": "Advanced Graphs",
+  "algorithm_technique": [
+    "Floyd-Warshall algorithm for all-pairs shortest paths"
+  ],
+  "problem_summary_simple": "Find the city with the fewest reachable neighbors within a distance threshold.",
+  "problem_summary_technical": "Computes all-pairs shortest paths using Floyd-Warshall, then counts reachable neighbors within the threshold for each city.",
+  "time_complexity": [
+    "O(n^3)"
+  ],
+  "space_complexity": [
+    "O(n^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding shortest paths between all pairs of cities.",
+      "Floyd-Warshall is suitable for dense graphs or when all-pairs shortest paths are needed.",
+      "After computing distances, iterate through each city to count neighbors within the threshold."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

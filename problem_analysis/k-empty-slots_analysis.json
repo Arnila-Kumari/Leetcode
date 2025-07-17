@@ -1,0 +1,32 @@
+{
+  "problem_name": "k-empty-slots",
+  "data_structures": [
+    [
+      "list",
+      "float"
+    ]
+  ],
+  "category": "Sliding Window",
+  "algorithm_technique": [
+    "Sliding window with day mapping"
+  ],
+  "problem_summary_simple": "Find the earliest day when two turned-on bulbs have exactly k off bulbs between them.",
+  "problem_summary_technical": "Maps bulb positions to the day they turn on, then uses a sliding window to find the minimum day satisfying the k-empty-slot condition.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Transforming the problem to days when bulbs turn on simplifies the search.",
+      "A sliding window approach efficiently checks adjacent turned-on bulbs.",
+      "The window size is `k+2` (two bulbs and `k` in between). The pointers `left` and `right` represent the indices of the two bulbs."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

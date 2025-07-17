@@ -1,0 +1,31 @@
+{
+  "problem_name": "contains-duplicate",
+  "data_structures": [
+    [
+      "hash set"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Use a hash set to store seen elements; if an element is already in the set, a duplicate exists."
+  ],
+  "problem_summary_simple": "Check if any number appears more than once in an array.",
+  "problem_summary_technical": "Detect duplicates in an array by comparing array length to the size of a hash set containing its unique elements.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Hash sets provide O(1) average time complexity for insertion and lookup.",
+      "Comparing the original array length to the set length is a concise way to check for duplicates.",
+      "This is a fundamental problem for understanding hash table applications."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:35:43",
+  "batch_processed": true,
+  "batch_size": 5
+}

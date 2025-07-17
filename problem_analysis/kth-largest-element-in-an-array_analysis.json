@@ -1,0 +1,35 @@
+{
+  "problem_name": "kth-largest-element-in-an-array",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Quickselect (partition-based selection)",
+    "Heap (min-heap of size k)"
+  ],
+  "problem_summary_simple": "Find the k-th largest element in an unsorted array.",
+  "problem_summary_technical": "Use Quickselect (average O(n)) or a min-heap of size k (O(n log k)) to find the k-th largest element.",
+  "time_complexity": [
+    "O(n) average, O(n^2) worst case (Quickselect)",
+    "O(n log k) (Heap)"
+  ],
+  "space_complexity": [
+    "O(1) (Quickselect, in-place)",
+    "O(k) (Heap)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved efficiently without full sorting.",
+      "Quickselect is an adaptation of Quicksort that partitions the array around a pivot and recursively searches only one side.",
+      "Alternatively, maintaining a min-heap of size k allows finding the k-th largest element by keeping track of the k largest seen so far."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:48:08",
+  "batch_processed": true,
+  "batch_size": 5
+}

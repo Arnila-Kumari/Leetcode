@@ -1,0 +1,31 @@
+{
+  "problem_name": "last-moment-before-all-ants-fall-out-of-a-plank",
+  "data_structures": [
+    [
+      "list of integers"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Simulate ant movement, or realize ants passing through each other is equivalent to them not interacting."
+  ],
+  "problem_summary_simple": "Find the time when the last ant falls off a plank of given length.",
+  "problem_summary_technical": "The last ant to fall is determined by the ant furthest from an edge, considering its direction.",
+  "time_complexity": [
+    "O(L + R) where L is length of left array, R is length of right array"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "When two ants meet and change direction, it's equivalent to them passing through each other without changing direction.",
+      "The last ant to fall is the one that takes the longest to reach an edge.",
+      "For ants moving left, the furthest is `max(left)`. For ants moving right, the furthest is `n - min(right)`."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:46",
+  "batch_processed": true,
+  "batch_size": 5
+}

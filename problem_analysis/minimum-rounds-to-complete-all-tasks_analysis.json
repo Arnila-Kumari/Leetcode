@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-rounds-to-complete-all-tasks",
+  "data_structures": [
+    [
+      "hashmap",
+      "counter"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Count task frequencies and greedily use 3-task rounds, then 2-task rounds."
+  ],
+  "problem_summary_simple": "Find the minimum rounds to complete tasks, taking 2 or 3 of the same difficulty per round.",
+  "problem_summary_technical": "Count task frequencies; for each count `c`, the minimum rounds is `ceil(c/3)` or `(c+2)//3` using integer division.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved independently for each task difficulty.",
+      "For a count `c`, the optimal strategy is to maximize 3-task rounds.",
+      "If `c % 3 == 0`, rounds = `c / 3`. If `c % 3 == 1`, use one 2-task round and `(c-4)/3` 3-task rounds (total `(c-4)/3 + 1 = (c-1)/3`). If `c % 3 == 2`, use one 2-task round and `(c-2)/3` 3-task rounds (total `(c-2)/3 + 1 = (c+1)/3`). This simplifies to `(c+2)//3`."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:59:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

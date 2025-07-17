@@ -1,0 +1,33 @@
+{
+  "problem_name": "minimum-number-of-chairs-in-a-waiting-room",
+  "data_structures": [
+    [
+      "string (input)",
+      "integer (for current count)",
+      "integer (for max count)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Simulate the process by tracking the current number of people and the maximum number encountered."
+  ],
+  "problem_summary_simple": "Determine the minimum chairs needed for a waiting room based on people entering and leaving.",
+  "problem_summary_technical": "Simulate events: increment count for 'E', decrement for 'L'. The maximum count reached is the minimum chairs required.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by a single pass through the input string.",
+      "We only need to track the current number of people and the overall maximum.",
+      "The maximum number of people present at any given time dictates the minimum number of chairs."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:58:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

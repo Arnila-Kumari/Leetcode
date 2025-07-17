@@ -1,0 +1,46 @@
+{
+  "problem_name": "maximum-genetic-difference-query",
+  "data_structures": [
+    [
+      "collections.defaultdict(list)",
+      "Trie",
+      "list"
+    ],
+    [
+      "collections.defaultdict(list)",
+      "Trie",
+      "list"
+    ]
+  ],
+  "category": "Tries",
+  "algorithm_technique": [
+    "DFS with Trie for XOR maximization",
+    "Iterative DFS with Trie for XOR maximization"
+  ],
+  "problem_summary_simple": "For each query node and value, find the maximum XOR difference with any ancestor node's genetic value.",
+  "problem_summary_technical": "Uses a Trie to store genetic values of nodes on the path from the root to the current node during a DFS traversal.",
+  "time_complexity": [
+    "O(nlogk + mlogk)",
+    "O(nlogk + mlogk)"
+  ],
+  "space_complexity": [
+    "O(n + logk)",
+    "O(n + logk)"
+  ],
+  "key_insights": [
+    [
+      "The problem of finding the maximum XOR difference with a set of numbers can be efficiently solved using a Trie.",
+      "By performing a DFS traversal, we can insert nodes' genetic values into the Trie as we descend and remove them as we backtrack.",
+      "This ensures that for each query, the Trie contains only the genetic values of the nodes on the path from the root to the queried node."
+    ],
+    [
+      "An iterative DFS approach can also be used to manage the traversal and Trie updates.",
+      "The logic remains the same: insert on entering a node, query for the answer, and remove on exiting.",
+      "This avoids potential recursion depth limits for very deep trees."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:52:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

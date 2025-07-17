@@ -1,0 +1,34 @@
+{
+  "problem_name": "sum-of-numbers-with-units-digit-k",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Mathematical observation and iteration to find the minimum set size."
+  ],
+  "problem_summary_simple": "Find the minimum number of positive integers ending in k that sum up to num.",
+  "problem_summary_technical": "Iterate through possible counts of numbers ending in k. Check if `num - count * k` is divisible by 10.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "If `num` is 0, the answer is 0 (empty set).",
+      "If `k` is 0, we can only use numbers ending in 0. If `num` is not divisible by 10, it's impossible (-1).",
+      "For `k > 0`, we are looking for a set of numbers `n_1, n_2, ..., n_m` such that `n_i % 10 == k` and `sum(n_i) == num`.",
+      "This implies `sum(n_i) % 10 == num % 10`. Since `n_i % 10 == k`, `sum(n_i) % 10 == (m * k) % 10`.",
+      "Therefore, we need `(m * k) % 10 == num % 10`.",
+      "We can iterate through possible values of `m` (from 1 up to a reasonable limit, like 10 or `num // k`) and check this condition."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:11:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

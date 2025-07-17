@@ -1,0 +1,32 @@
+{
+  "problem_name": "compare-strings-by-frequency-of-the-smallest-character",
+  "data_structures": [
+    [
+      "list",
+      "sorted list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Frequency counting, sorting, and binary search (bisect_right)"
+  ],
+  "problem_summary_simple": "Count words where the query's smallest char frequency is less than the word's.",
+  "problem_summary_technical": "Calculate f(s) for each word, sort frequencies, then use binary search for each query's f(q).",
+  "time_complexity": [
+    "O((m + n) log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Pre-calculating and sorting word frequencies allows for efficient querying.",
+      "Binary search (bisect_right) is crucial for finding the count of words with higher frequencies.",
+      "The problem can be solved by transforming it into a 'count of elements greater than x' problem."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:35:19",
+  "batch_processed": true,
+  "batch_size": 5
+}

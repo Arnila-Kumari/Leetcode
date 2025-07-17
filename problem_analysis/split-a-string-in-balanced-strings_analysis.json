@@ -1,0 +1,31 @@
+{
+  "problem_name": "split-a-string-in-balanced-strings",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Counting character balance"
+  ],
+  "problem_summary_simple": "Split a balanced string into the maximum number of balanced substrings.",
+  "problem_summary_technical": "Iterates through the string, maintaining a balance count; increments the result when the balance returns to zero.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A balanced string has an equal number of 'L' and 'R' characters.",
+      "The greedy approach works because any time the count of 'L' and 'R' is equal, we can form a balanced substring.",
+      "The problem guarantees the input string is balanced, simplifying the logic."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:10:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

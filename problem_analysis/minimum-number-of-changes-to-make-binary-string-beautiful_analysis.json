@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-number-of-changes-to-make-binary-string-beautiful",
+  "data_structures": [
+    [
+      "string (input)",
+      "integer (for changes count)"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the string in pairs, counting adjacent characters that are different."
+  ],
+  "problem_summary_simple": "Find minimum changes to make a binary string beautiful, partitionable into same-character substrings of even length.",
+  "problem_summary_technical": "A beautiful string requires adjacent characters in even-length partitions to be the same. Check pairs of characters at even indices.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The condition for a beautiful string implies that s[i] must equal s[i+1] for all even i.",
+      "We only need to consider pairs of characters starting from index 0, 2, 4, ...",
+      "If s[i] != s[i+1] for an even i, one change is needed for that pair."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:58:22",
+  "batch_processed": true,
+  "batch_size": 5
+}

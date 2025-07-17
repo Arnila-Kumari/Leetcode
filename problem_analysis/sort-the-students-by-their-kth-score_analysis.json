@@ -1,0 +1,31 @@
+{
+  "problem_name": "sort-the-students-by-their-kth-score",
+  "data_structures": [
+    [
+      "list of lists"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Sorting with a custom key"
+  ],
+  "problem_summary_simple": "Sort students based on their score in a specific exam from highest to lowest.",
+  "problem_summary_technical": "Sort a 2D array (matrix) of student scores based on the value at a given column index (k) in descending order.",
+  "time_complexity": [
+    "O(m log m)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Python's built-in sort is efficient for this task.",
+      "Using a lambda function as the key simplifies the sorting logic.",
+      "The `reverse=True` argument is crucial for descending order."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:09:53",
+  "batch_processed": true,
+  "batch_size": 5
+}

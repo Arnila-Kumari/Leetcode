@@ -1,0 +1,32 @@
+{
+  "problem_name": "integer-to-english-words",
+  "data_structures": [
+    [
+      "dictionary",
+      "list"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Divide and conquer with lookup tables"
+  ],
+  "problem_summary_simple": "Convert a non-negative integer into its English word representation.",
+  "problem_summary_technical": "Process the number in chunks of three digits, using lookup tables for hundreds, tens, and units, and appending scale words.",
+  "time_complexity": [
+    "O(1)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be broken down by processing the number in groups of three digits (thousands, millions, billions).",
+      "Helper functions are used to convert numbers less than 1000 into words.",
+      "Lookup tables for number words and scale words (Thousand, Million, Billion) are essential for efficient conversion."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:28",
+  "batch_processed": true,
+  "batch_size": 5
+}

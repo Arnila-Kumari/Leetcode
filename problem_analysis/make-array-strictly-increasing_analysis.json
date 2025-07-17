@@ -1,0 +1,34 @@
+{
+  "problem_name": "make-array-strictly-increasing",
+  "data_structures": [
+    [
+      "array",
+      "hashmap",
+      "sorted array"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with a hashmap to store minimum operations for ending values, using binary search on sorted arr2.",
+    "Dynamic programming with a hashmap to store minimum operations for ending values, using binary search on sorted arr2."
+  ],
+  "problem_summary_simple": "Find the minimum operations to make arr1 strictly increasing by replacing elements with values from arr2.",
+  "problem_summary_technical": "DP state `dp[cost] = end_val`. Iterate through arr1, update DP by considering keeping current or replacing with arr2 elements using binary search.",
+  "time_complexity": [
+    "O(n^2 * log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This is a classic DP problem where the state needs to capture the minimum cost to achieve a certain prefix.",
+      "The DP state `dp[cost] = end_val` means the minimum cost to make the prefix ending at the current element strictly increasing, with the last element being `end_val`.",
+      "When processing `arr1[i]`, we consider two options: either keep `arr1[i]` if it's greater than the previous `end_val`, or replace it with an element from `arr2` using binary search to find the smallest valid replacement."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:50:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

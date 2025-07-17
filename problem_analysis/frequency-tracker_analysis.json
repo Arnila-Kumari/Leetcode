@@ -1,0 +1,32 @@
+{
+  "problem_name": "frequency-tracker",
+  "data_structures": [
+    [
+      "hash map (Counter)",
+      "hash map (Counter)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Two hash maps for frequency tracking"
+  ],
+  "problem_summary_simple": "Design a data structure to track number frequencies and check if a given frequency exists.",
+  "problem_summary_technical": "Uses two hash maps: one to store number counts (`__cnt`) and another to store frequency counts (`__freq`). Updates both maps on add/delete.",
+  "time_complexity": [
+    "ctor: O(1), add: O(1), deleteOne: O(1), hasFrequency: O(1)"
+  ],
+  "space_complexity": [
+    "O(min(N, R)), where N is the number of unique elements and R is the range of frequencies"
+  ],
+  "key_insights": [
+    [
+      "Maintaining two frequency maps is key: one mapping numbers to their counts, and another mapping counts to how many numbers have that count.",
+      "When adding or deleting a number, update both frequency maps by decrementing the old frequency count and incrementing the new one.",
+      "The `hasFrequency` operation becomes a simple O(1) lookup in the frequency-of-frequencies map."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:46:05",
+  "batch_processed": true,
+  "batch_size": 5
+}

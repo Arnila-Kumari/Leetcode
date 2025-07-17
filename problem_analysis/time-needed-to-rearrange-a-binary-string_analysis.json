@@ -1,0 +1,31 @@
+{
+  "problem_name": "time-needed-to-rearrange-a-binary-string",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate through the string, tracking consecutive zeros and updating the maximum time based on '01' to '10' transformations."
+  ],
+  "problem_summary_simple": "Calculate how many seconds it takes for all '01' pairs in a binary string to become '10'.",
+  "problem_summary_technical": "Simulate the '01' to '10' transformation. The time is determined by the maximum number of '0's a '1' needs to 'pass' to reach its sorted position.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is that each '01' pair effectively moves a '0' one step to the right, or a '1' one step to the left.",
+      "The process stops when all '0's are to the left of all '1's.",
+      "The maximum time is dictated by the '0' that is furthest to the right and needs to be moved the most."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,40 @@
+{
+  "problem_name": "valid-triangle-number",
+  "data_structures": [
+    [
+      "list",
+      "integer"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "Sort the array and use two pointers to efficiently count valid triangle triplets.",
+    "Sort the array and use a fixed element with two pointers to count valid triangle triplets."
+  ],
+  "problem_summary_simple": "Count triplets from an array that can form a triangle.",
+  "problem_summary_technical": "After sorting, for each element `nums[i]`, use two pointers (`left`, `right`) to find pairs `nums[left]` and `nums[right]` such that `nums[left] + nums[right] > nums[i]`.",
+  "time_complexity": [
+    "O(n^2)",
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the array is crucial for efficiently checking the triangle inequality (a + b > c).",
+      "The two-pointer approach, when applied to a sorted array, allows for O(n) counting for each fixed element, leading to an overall O(n^2) solution.",
+      "The condition `nums[left] + nums[right] > nums[i]` implies that all elements between `left` and `right` (inclusive of `left`, exclusive of `right`) will also satisfy the condition with `nums[i]` and `nums[right]`."
+    ],
+    [
+      "Sorting the array is essential for the two-pointer approach.",
+      "The outer loop fixes one side of the potential triangle, and the inner loop with two pointers finds valid combinations for the other two sides.",
+      "The `while` loop efficiently advances the `k` pointer to find the boundary where the triangle inequality holds."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:13:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

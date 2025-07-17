@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-if-digit-game-can-be-won",
+  "data_structures": [
+    [
+      "integer variables"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate and sum based on digit count"
+  ],
+  "problem_summary_simple": "Alice wins if her sum of chosen numbers (single or double digit) is greater than Bob's.",
+  "problem_summary_technical": "Calculate sums of single-digit and double-digit numbers separately. Alice wins if either sum is strictly greater than the other's.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem simplifies to comparing the sum of single-digit numbers against the sum of double-digit numbers.",
+      "Alice can choose either group, so we just need to check if one group's sum is strictly greater than the other's.",
+      "The constraints on numbers (1-99) make the single/double digit split straightforward."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:42:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

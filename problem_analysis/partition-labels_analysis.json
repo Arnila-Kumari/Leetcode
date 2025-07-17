@@ -1,0 +1,32 @@
+{
+  "problem_name": "partition-labels",
+  "data_structures": [
+    [
+      "hash map",
+      "list"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Greedy approach using a hash map to store the last occurrence of each character."
+  ],
+  "problem_summary_simple": "Partition a string into the maximum number of parts, where each letter appears in only one part.",
+  "problem_summary_technical": "Iterate through the string, tracking the furthest reach of characters in the current partition.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The key is to find the end of the current partition by considering the last occurrence of every character within it.",
+      "A greedy strategy works because extending a partition as far as possible doesn't prevent optimal partitioning later.",
+      "Pre-calculating the last occurrence of each character optimizes the process."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:04:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

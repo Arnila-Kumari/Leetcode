@@ -1,0 +1,31 @@
+{
+  "problem_name": "largest-odd-number-in-string",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Iterate from right to left, find the first odd digit."
+  ],
+  "problem_summary_simple": "Find the largest odd number that is a substring of a given number string.",
+  "problem_summary_technical": "Iterate from the right of the string, checking for the first odd digit to form the largest odd substring.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The largest odd number must end with an odd digit.",
+      "Iterating from the right ensures we find the longest possible odd number first.",
+      "String slicing is efficient for extracting substrings."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:48:34",
+  "batch_processed": true,
+  "batch_size": 5
+}

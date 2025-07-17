@@ -1,0 +1,33 @@
+{
+  "problem_name": "product-of-array-except-self",
+  "data_structures": [
+    [
+      "Array (for output)",
+      "Array (for left products)",
+      "Variable (for right product)"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Prefix and suffix product calculation without division."
+  ],
+  "problem_summary_simple": "Calculate the product of all elements except the current one for each element in an array.",
+  "problem_summary_technical": "Computes prefix products in one pass and suffix products in another, then combines them to get the final result.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1) (excluding output array)"
+  ],
+  "key_insights": [
+    [
+      "The key insight is to break down the problem into calculating products to the left and products to the right of each element.",
+      "By pre-calculating prefix products and then incorporating suffix products in a second pass, division is avoided.",
+      "The space complexity can be optimized to O(1) by reusing the output array to store intermediate prefix products."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:05:21",
+  "batch_processed": true,
+  "batch_size": 5
+}

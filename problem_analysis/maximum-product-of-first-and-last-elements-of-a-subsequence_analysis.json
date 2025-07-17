@@ -1,0 +1,32 @@
+{
+  "problem_name": "maximum-product-of-first-and-last-elements-of-a-subsequence",
+  "data_structures": [
+    [
+      "list",
+      "variables"
+    ]
+  ],
+  "category": "Two Pointers",
+  "algorithm_technique": [
+    "sliding window with max/min tracking"
+  ],
+  "problem_summary_simple": "Find the max product of first and last elements of a subsequence of size m.",
+  "problem_summary_technical": "Use a sliding window of size m to find the max/min element within each window and calculate product with the window's last element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The problem asks for the product of the first and last elements of a subsequence of size m.",
+      "This implies we need to consider all possible contiguous subarrays of size m as potential subsequences.",
+      "For each subarray, we need to find the maximum and minimum element within it to maximize the product with the last element."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:54:04",
+  "batch_processed": true,
+  "batch_size": 5
+}

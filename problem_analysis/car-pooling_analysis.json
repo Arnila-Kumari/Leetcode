@@ -1,0 +1,32 @@
+{
+  "problem_name": "car-pooling",
+  "data_structures": [
+    [
+      "array",
+      "list"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Event point sorting (sweep line) to track passenger changes at each location."
+  ],
+  "problem_summary_simple": "Determine if a car with limited capacity can complete all passenger trips.",
+  "problem_summary_technical": "Transforms trips into pickup/dropoff events, sorts them by location, and simulates the journey, checking capacity at each stop.",
+  "time_complexity": [
+    "O(N log N), where N is the number of trips, due to sorting."
+  ],
+  "space_complexity": [
+    "O(N), for storing the event points."
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as a sweep-line algorithm where events are passenger pickups and drop-offs.",
+      "By sorting events by location, we can efficiently track the current number of passengers.",
+      "A negative passenger count at any point indicates exceeding capacity."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:33:47",
+  "batch_processed": true,
+  "batch_size": 5
+}

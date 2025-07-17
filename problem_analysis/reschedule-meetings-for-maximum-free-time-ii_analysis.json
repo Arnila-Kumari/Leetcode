@@ -1,0 +1,33 @@
+{
+  "problem_name": "reschedule-meetings-for-maximum-free-time-ii",
+  "data_structures": [
+    [
+      "array",
+      "list of lists",
+      "tuple"
+    ]
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "greedy approach with sorting and considering top k gaps to maximize free time"
+  ],
+  "problem_summary_simple": "Maximize free time by rescheduling one meeting, allowing its position to change.",
+  "problem_summary_technical": "Calculates gaps, finds top 3 largest gaps, and checks if rescheduling a meeting into these gaps maximizes free time.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Since only one meeting can be rescheduled and its order can change, we can consider the largest available gaps.",
+      "The `topk` helper function, though inefficiently implemented (O(k*n)), aims to find the largest gaps.",
+      "The core idea is to place the rescheduled meeting to bridge two existing gaps, maximizing the new free time."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:07:09",
+  "batch_processed": true,
+  "batch_size": 5
+}

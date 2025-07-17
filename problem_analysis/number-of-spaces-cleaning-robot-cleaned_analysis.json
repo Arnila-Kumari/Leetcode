@@ -1,0 +1,32 @@
+{
+  "problem_name": "number-of-spaces-cleaning-robot-cleaned",
+  "data_structures": [
+    [
+      "list of lists (2D matrix)",
+      "list of tuples (directions)"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Simulate robot movement, use bit manipulation to mark visited cells and track direction."
+  ],
+  "problem_summary_simple": "A robot cleans a room, turning clockwise at walls or objects, and we need to count all cleaned empty spaces.",
+  "problem_summary_technical": "Simulate robot movement on a 2D grid, using bitwise operations to mark visited cells and track direction changes.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The core idea is to simulate the robot's path and use bit manipulation to efficiently track visited cells and the robot's direction.",
+      "The state of each cell in the `room` matrix is encoded using bits: one bit for visited status and another for direction.",
+      "The robot's movement is deterministic, so it will eventually enter a cycle or clean all reachable cells."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:02:41",
+  "batch_processed": true,
+  "batch_size": 5
+}

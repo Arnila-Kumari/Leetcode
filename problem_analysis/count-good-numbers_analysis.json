@@ -1,0 +1,39 @@
+{
+  "problem_name": "count-good-numbers",
+  "data_structures": [
+    [
+      "integer"
+    ]
+  ],
+  "category": "Math & Geometry",
+  "algorithm_technique": [
+    "Modular exponentiation to efficiently calculate powers of 5 and 4.",
+    "Built-in pow function with modulo for modular exponentiation."
+  ],
+  "problem_summary_simple": "Count digit strings of length n where even indices have even digits and odd indices have prime digits.",
+  "problem_summary_technical": "Calculate powers of 5 (for even indices) and 4 (for odd indices) modulo 10^9 + 7 using modular exponentiation.",
+  "time_complexity": [
+    "O(log n)",
+    "O(log n)"
+  ],
+  "space_complexity": [
+    "O(1)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The number of choices for even indices is 5 (0, 2, 4, 6, 8).",
+      "The number of choices for odd indices is 4 (2, 3, 5, 7).",
+      "Modular exponentiation is essential due to the large value of n."
+    ],
+    [
+      "The number of choices for even indices is 5 (0, 2, 4, 6, 8).",
+      "The number of choices for odd indices is 4 (2, 3, 5, 7).",
+      "Modular exponentiation is essential due to the large value of n."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:36:31",
+  "batch_processed": true,
+  "batch_size": 4
+}

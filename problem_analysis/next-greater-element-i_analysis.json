@@ -1,0 +1,32 @@
+{
+  "problem_name": "next-greater-element-i",
+  "data_structures": [
+    [
+      "stack",
+      "hashmap"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Monotonic stack to find next greater element for all elements in nums2, then map to nums1"
+  ],
+  "problem_summary_simple": "Find the next greater element to the right for each number in nums1 within nums2.",
+  "problem_summary_technical": "Uses a monotonic decreasing stack and a hashmap to precompute next greater elements for nums2, then maps results for nums1.",
+  "time_complexity": [
+    "O(m + n)"
+  ],
+  "space_complexity": [
+    "O(m + n)"
+  ],
+  "key_insights": [
+    [
+      "A monotonic stack is ideal for finding the next greater element efficiently.",
+      "Pre-computing the next greater element for all numbers in nums2 using a stack and hashmap allows for O(1) lookups for nums1.",
+      "The stack stores elements for which the next greater element hasn't been found yet."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:01:23",
+  "batch_processed": true,
+  "batch_size": 5
+}

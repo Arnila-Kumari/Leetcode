@@ -1,0 +1,46 @@
+{
+  "problem_name": "most-frequent-prime",
+  "data_structures": [
+    [
+      "2D array",
+      "hashmap",
+      "sieve array"
+    ],
+    [
+      "2D array",
+      "hashmap",
+      "function"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Generate numbers along 8 directions, use Sieve of Eratosthenes for prime checking, count frequencies.",
+    "Generate numbers along 8 directions, use trial division for prime checking, count frequencies."
+  ],
+  "problem_summary_simple": "Find the most frequent prime number greater than 10 formed by traversing a matrix in 8 directions.",
+  "problem_summary_technical": "Generates numbers by traversing matrix paths, checks primality, and counts frequencies to find the most frequent prime.",
+  "time_complexity": [
+    "O(n * m * (n + m) + MAX_VAL)",
+    "O(n * m * (n + m) * sqrt(MAX_VAL))"
+  ],
+  "space_complexity": [
+    "O(MAX_VAL + n * m * (n + m))",
+    "O(n * m * (n + m))"
+  ],
+  "key_insights": [
+    [
+      "The constraints on matrix size (6x6) allow for exploring all paths.",
+      "Pre-computing primes using a sieve is highly efficient for repeated primality tests.",
+      "The `numbers` generator function simplifies path traversal and number formation."
+    ],
+    [
+      "Trial division for primality testing is less efficient but simpler to implement if sieve is not used.",
+      "The maximum possible number can be large, impacting trial division performance.",
+      "Careful handling of the base case (no primes found) is necessary."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:00:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

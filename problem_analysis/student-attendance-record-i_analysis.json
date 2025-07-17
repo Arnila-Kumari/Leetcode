@@ -1,0 +1,31 @@
+{
+  "problem_name": "student-attendance-record-i",
+  "data_structures": [
+    [
+      "none"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Single pass iteration to count absences and check for consecutive lates."
+  ],
+  "problem_summary_simple": "Determine if a student's attendance record is eligible for an award based on absences and consecutive lates.",
+  "problem_summary_technical": "Checks for fewer than 2 'A's and no 3 consecutive 'L's by iterating through the attendance string.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The constraints are simple enough to be checked in a single pass.",
+      "Keep track of the count of 'A's and the current consecutive count of 'L's.",
+      "The problem can be solved greedily by returning false as soon as a condition is violated."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:10:54",
+  "batch_processed": true,
+  "batch_size": 5
+}

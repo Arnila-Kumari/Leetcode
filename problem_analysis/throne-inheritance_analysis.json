@@ -1,0 +1,32 @@
+{
+  "problem_name": "throne-inheritance",
+  "data_structures": [
+    [
+      "dictionary",
+      "set"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Represent family as a tree, use DFS (preorder traversal) to get inheritance order."
+  ],
+  "problem_summary_simple": "Maintain a family tree and return the inheritance order, excluding dead people.",
+  "problem_summary_technical": "Model family as a tree, use DFS preorder traversal to generate inheritance order, filtering out deceased individuals.",
+  "time_complexity": [
+    "O(1) for ctor, birth, death; O(N) for getInheritanceOrder, where N is total people."
+  ],
+  "space_complexity": [
+    "O(N)"
+  ],
+  "key_insights": [
+    [
+      "The family structure naturally forms a tree.",
+      "Preorder traversal (DFS) correctly captures the successor logic.",
+      "A set is efficient for tracking dead individuals."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "cousins-in-binary-tree-ii",
+  "data_structures": [
+    [
+      "TreeNode",
+      "queue (for BFS)"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Breadth First Search (BFS) to process nodes level by level and calculate cousin sums."
+  ],
+  "problem_summary_simple": "Replace each node's value with the sum of its cousins' values.",
+  "problem_summary_technical": "Employ BFS to group nodes by level, calculate total sum per level, and update node values based on cousin sums.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(w)"
+  ],
+  "key_insights": [
+    [
+      "BFS is ideal for level-order traversal, which is crucial for identifying cousins.",
+      "The sum of values at a given level can be efficiently calculated before processing that level.",
+      "The problem requires modifying the tree in place, so careful handling of node values is needed."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:38:59",
+  "batch_processed": true,
+  "batch_size": 5
+}

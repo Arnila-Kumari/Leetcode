@@ -1,0 +1,32 @@
+{
+  "problem_name": "splitting-a-string-into-descending-consecutive-values",
+  "data_structures": [
+    [
+      "string"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "backtracking with state management"
+  ],
+  "problem_summary_simple": "Check if a string of digits can be split into descending consecutive numbers.",
+  "problem_summary_technical": "Use backtracking to explore all possible splits, ensuring each subsequent number is one less than the previous.",
+  "time_complexity": [
+    "O(n^2)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a classic candidate for backtracking.",
+      "The state for the recursion needs to include the current index in the string, the value of the previously chosen number, and the count of numbers found so far.",
+      "The base case is when the end of the string is reached, and we check if at least two numbers were formed.",
+      "Care must be taken with leading zeros when parsing substrings into numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:10:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

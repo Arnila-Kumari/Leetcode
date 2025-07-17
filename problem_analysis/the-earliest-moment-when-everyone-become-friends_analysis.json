@@ -1,0 +1,33 @@
+{
+  "problem_name": "the-earliest-moment-when-everyone-become-friends",
+  "data_structures": [
+    [
+      "list",
+      "UnionFind"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Union-Find data structure to track connected components (friendship groups).",
+    "Sorting logs by timestamp and processing them chronologically."
+  ],
+  "problem_summary_simple": "Find the earliest time when all people in a group become friends.",
+  "problem_summary_technical": "Uses Union-Find to merge friend groups; the earliest time all N people are in one group is the answer.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding when all nodes in a graph become connected.",
+      "Union-Find is efficient for tracking connected components and merging them.",
+      "Processing events chronologically ensures we find the *earliest* moment."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:12:18",
+  "batch_processed": true,
+  "batch_size": 5
+}

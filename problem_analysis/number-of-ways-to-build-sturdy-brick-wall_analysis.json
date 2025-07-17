@@ -1,0 +1,44 @@
+{
+  "problem_name": "number-of-ways-to-build-sturdy-brick-wall",
+  "data_structures": [
+    [
+      "set",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Bit Manipulation",
+  "algorithm_technique": [
+    "Backtracking to find valid row patterns, then DP to count wall configurations.",
+    "Backtracking for patterns, matrix exponentiation for efficient DP state transitions."
+  ],
+  "problem_summary_simple": "Build a brick wall of given dimensions where adjacent rows don't align bricks except at ends.",
+  "problem_summary_technical": "Generate valid row patterns using bitmasks and backtracking, then use DP or matrix exponentiation to count valid wall combinations.",
+  "time_complexity": [
+    "O(h * p^2), where p is the number of valid row patterns.",
+    "O(p^3 * logh), where p is the number of valid row patterns."
+  ],
+  "space_complexity": [
+    "O(p^2), for adjacency list and DP table.",
+    "O(p^3), for adjacency matrix and matrix exponentiation."
+  ],
+  "key_insights": [
+    [
+      "Representing row patterns with bitmasks is crucial for efficient checking of adjacency.",
+      "Dynamic programming can be used to build the wall row by row, considering valid transitions between patterns.",
+      "Matrix exponentiation is an optimization for DP when the number of rows is large."
+    ],
+    [
+      "The problem can be modeled as counting paths in a graph where nodes are row patterns and edges represent valid transitions.",
+      "Matrix exponentiation is a standard technique to speed up linear recurrences like this DP.",
+      "The number of valid row patterns can be exponential in width, making efficient pattern generation and transition counting key."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:03:17",
+  "batch_processed": true,
+  "batch_size": 5
+}

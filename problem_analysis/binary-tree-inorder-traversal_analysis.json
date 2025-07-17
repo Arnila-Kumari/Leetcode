@@ -1,0 +1,44 @@
+{
+  "problem_name": "binary-tree-inorder-traversal",
+  "data_structures": [
+    [
+      "binary tree",
+      "list for result",
+      "stack for iterative solution"
+    ],
+    [
+      "binary tree",
+      "list for result",
+      "modified tree pointers for Morris traversal"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Iterative inorder traversal using a stack.",
+    "Morris traversal for O(1) space inorder traversal."
+  ],
+  "problem_summary_simple": "Traverse a binary tree in inorder (left, root, right) and return node values.",
+  "problem_summary_technical": "Implements inorder traversal iteratively using a stack and also via Morris traversal for constant space.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)",
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The stack-based iterative approach simulates recursion by pushing nodes and their left children.",
+      "Morris traversal cleverly uses thread pointers to traverse without a stack, modifying tree structure temporarily."
+    ],
+    [
+      "Morris traversal achieves O(1) space by creating temporary links from rightmost nodes of left subtrees to their parent.",
+      "The key is to restore the tree structure after visiting a node."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:32:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

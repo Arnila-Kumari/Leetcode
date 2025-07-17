@@ -1,0 +1,33 @@
+{
+  "problem_name": "sum-of-remoteness-of-all-cells",
+  "data_structures": [
+    [
+      "2D Array (grid)",
+      "Queue (for BFS)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Breadth-First Search (BFS) to find connected components",
+    "Mathematical calculation based on component sums and sizes"
+  ],
+  "problem_summary_simple": "Sum the values of cells unreachable from other non-blocked cells for each cell.",
+  "problem_summary_technical": "Identify connected components of non-blocked cells using BFS. Calculate total sum and size for each component, then derive remoteness based on these values.",
+  "time_complexity": [
+    "O(N^2)"
+  ],
+  "space_complexity": [
+    "O(N^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased: for each cell, sum values of all cells NOT in its connected component.",
+      "BFS is suitable for finding connected components in a grid.",
+      "Pre-calculating sums and counts for each component optimizes the final calculation."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:44",
+  "batch_processed": true,
+  "batch_size": 5
+}

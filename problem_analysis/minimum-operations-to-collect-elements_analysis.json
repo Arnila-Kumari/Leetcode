@@ -1,0 +1,32 @@
+{
+  "problem_name": "minimum-operations-to-collect-elements",
+  "data_structures": [
+    [
+      "hash table",
+      "boolean array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate from the end of the array, tracking collected elements using a hash set/boolean array."
+  ],
+  "problem_summary_simple": "Collect elements 1 to k by removing from the end of an array.",
+  "problem_summary_technical": "Uses a boolean array to track collected elements from the end of `nums`, stopping when 1 to k are found.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(k)"
+  ],
+  "key_insights": [
+    [
+      "Processing the array in reverse is crucial because operations remove elements from the end.",
+      "A boolean array (or hash set) efficiently tracks which numbers from 1 to k have been collected.",
+      "The minimum operations are determined by the index of the last element needed to complete the collection."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 21:59:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

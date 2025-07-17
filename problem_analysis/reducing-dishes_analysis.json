@@ -1,0 +1,29 @@
+{
+  "problem_name": "reducing-dishes",
+  "data_structures": [
+    []
+  ],
+  "category": "Greedy",
+  "algorithm_technique": [
+    "Sort satisfaction levels in descending order. Iterate, accumulating satisfaction and time-weighted satisfaction, stopping when the sum becomes non-positive."
+  ],
+  "problem_summary_simple": "Maximize the total 'like-time coefficient' by choosing dishes and their cooking order.",
+  "problem_summary_technical": "Sort satisfaction descending. Greedily add dishes, accumulating current satisfaction and total like-time coefficient, stopping if the sum decreases.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "Sorting the satisfaction levels in descending order is crucial for the greedy approach.",
+      "If a dish with negative satisfaction is added, it might decrease the total like-time coefficient if the current cumulative satisfaction is positive.",
+      "The greedy strategy works because adding a dish with higher satisfaction earlier increases its multiplier for all subsequent dishes."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:06:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

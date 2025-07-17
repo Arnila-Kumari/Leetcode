@@ -1,0 +1,37 @@
+{
+  "problem_name": "web-crawler-multithreaded",
+  "data_structures": [
+    [
+      "queue",
+      "set",
+      "threading primitives (Condition, Thread)",
+      "string manipulation for hostname extraction"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Multithreaded Breadth-First Search (BFS)",
+    "thread-safe queue for task distribution",
+    "shared set for visited URLs with synchronization",
+    "hostname extraction and comparison"
+  ],
+  "problem_summary_simple": "Multithreaded web crawler to collect links from the same hostname.",
+  "problem_summary_technical": "Multithreaded BFS using a thread-safe queue and synchronized set for visited URLs, filtering by hostname.",
+  "time_complexity": [
+    "O(|V| + |E|)"
+  ],
+  "space_complexity": [
+    "O(|V|)"
+  ],
+  "key_insights": [
+    [
+      "Multithreading is necessary to overcome the time limit due to blocking `getUrls` calls.",
+      "Thread synchronization (e.g., using `threading.Condition` and locks) is critical for shared data structures.",
+      "Managing worker threads and ensuring proper termination is important for correctness."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:14:14",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "factor-combinations",
+  "data_structures": [
+    [
+      "list"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking with recursion to find all factor combinations.",
+    "Iterative generation of factors to avoid duplicates."
+  ],
+  "problem_summary_simple": "Find all unique combinations of factors for a given number, excluding 1 and the number itself.",
+  "problem_summary_technical": "Recursive backtracking explores factor pairs, ensuring factors are in non-decreasing order to avoid duplicate combinations.",
+  "time_complexity": [
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(log n)"
+  ],
+  "key_insights": [
+    [
+      "The problem requires finding combinations, not permutations, so order matters for uniqueness.",
+      "Backtracking is a natural fit for exploring all possibilities.",
+      "To avoid duplicates, ensure factors are added in non-decreasing order and start the search from the last added factor."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:48",
+  "batch_processed": true,
+  "batch_size": 5
+}

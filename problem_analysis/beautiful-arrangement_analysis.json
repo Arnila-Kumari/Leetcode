@@ -1,0 +1,31 @@
+{
+  "problem_name": "beautiful-arrangement",
+  "data_structures": [
+    [
+      "list (for permutation generation and swapping)"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking: recursively try placing numbers 1 to N in positions 1 to N, checking divisibility conditions."
+  ],
+  "problem_summary_simple": "Find the number of permutations of 1 to N where each number at index i satisfies a divisibility rule with i.",
+  "problem_summary_technical": "Utilize backtracking to explore permutations, pruning branches where the divisibility condition (perm[i] % i == 0 or i % perm[i] == 0) is not met.",
+  "time_complexity": [
+    "O(n!)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This problem is a classic permutation generation problem with constraints.",
+      "Backtracking is a natural fit for exploring all possible arrangements.",
+      "The state in the recursion can be the current position being filled and the set of available numbers."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:32:27",
+  "batch_processed": true,
+  "batch_size": 5
+}

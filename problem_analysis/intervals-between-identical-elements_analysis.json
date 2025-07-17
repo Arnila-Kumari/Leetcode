@@ -1,0 +1,32 @@
+{
+  "problem_name": "intervals-between-identical-elements",
+  "data_structures": [
+    [
+      "hashmap",
+      "array"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "prefix sums with hashmap for grouping indices"
+  ],
+  "problem_summary_simple": "Calculate the sum of index differences for each element with identical values.",
+  "problem_summary_technical": "Groups indices by value using a hashmap, then uses prefix sums to efficiently calculate interval sums for each element.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved efficiently by processing elements with the same value together.",
+      "Prefix sums are crucial for calculating the sum of intervals in O(1) time per element after initial O(k) precomputation for each group of k identical elements.",
+      "The formula `(idx*(i+1)-prefix[i+1]) + ((prefix[len(idxs)]-prefix[i])-idx*(len(idxs)-i))` efficiently calculates the sum of distances to all other occurrences of the same number."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:36",
+  "batch_processed": true,
+  "batch_size": 5
+}

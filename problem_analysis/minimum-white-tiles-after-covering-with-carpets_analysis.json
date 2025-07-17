@@ -1,0 +1,31 @@
+{
+  "problem_name": "minimum-white-tiles-after-covering-with-carpets",
+  "data_structures": [
+    [
+      "2D array (DP table)"
+    ]
+  ],
+  "category": "2-D Dynamic Programming",
+  "algorithm_technique": [
+    "Dynamic programming with state representing floor index and number of carpets used."
+  ],
+  "problem_summary_simple": "Minimize visible white tiles by covering a floor with a limited number of carpets.",
+  "problem_summary_technical": "Uses 2D DP where dp[i][j] is min white tiles in first i floors using j carpets.",
+  "time_complexity": [
+    "O(m * n)"
+  ],
+  "space_complexity": [
+    "O(m * n)"
+  ],
+  "key_insights": [
+    [
+      "This problem can be framed as a DP problem where we decide whether to place a carpet or not at each step.",
+      "The state needs to capture the current position on the floor and the number of carpets remaining.",
+      "The transitions involve either not placing a carpet (extending the previous state) or placing a carpet (jumping back `carpetLen` positions)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:00:42",
+  "batch_processed": true,
+  "batch_size": 5
+}

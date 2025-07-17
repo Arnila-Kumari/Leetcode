@@ -1,0 +1,45 @@
+{
+  "problem_name": "minimum-cost-to-convert-string-i",
+  "data_structures": [
+    [
+      "adjacency list",
+      "priority queue",
+      "hash map"
+    ],
+    [
+      "2D array",
+      "hash map"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm on a graph where characters are nodes and conversions are edges, with memoization.",
+    "Floyd-Warshall algorithm to find all-pairs shortest paths between characters."
+  ],
+  "problem_summary_simple": "Find the minimum cost to convert a source string to a target string using character transformations.",
+  "problem_summary_technical": "Build a graph of character transformations. Use Dijkstra or Floyd-Warshall to find min cost between source and target characters for each position.",
+  "time_complexity": [
+    "O(o + k * eloge + n), where k is alphabet size, e is edges, o is original length",
+    "O(o + 26^3 + n)"
+  ],
+  "space_complexity": [
+    "O(o + k * v), where v is nodes reachable",
+    "O(o + 26^2)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be modeled as finding shortest paths in a graph where nodes are characters.",
+      "Multiple conversion paths might exist; we need the minimum cost path for each character transformation.",
+      "Memoization is key to avoid recomputing shortest paths for the same character pairs."
+    ],
+    [
+      "Floyd-Warshall is suitable here because the number of nodes (characters) is small (26).",
+      "It precomputes all possible minimum conversion costs between any two characters.",
+      "The time complexity is dominated by Floyd-Warshall's O(V^3) where V=26."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:57:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

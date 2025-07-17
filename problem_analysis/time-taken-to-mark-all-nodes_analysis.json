@@ -1,0 +1,44 @@
+{
+  "problem_name": "time-taken-to-mark-all-nodes",
+  "data_structures": [
+    [
+      "list",
+      "list"
+    ],
+    [
+      "list",
+      "list"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Build adjacency list, perform topological sort, then BFS to calculate marking times based on node parity and parent's marking time.",
+    "Build adjacency list, perform two DFS passes: one for subtree marking times, another for calculating times considering parent's marking."
+  ],
+  "problem_summary_simple": "Calculate the time to mark all nodes in a tree, starting from a specific node, with different marking rules for even/odd nodes.",
+  "problem_summary_technical": "Model as a tree, use DP on trees. For each node, calculate the max time to mark its children based on its parity and children's parity.",
+  "time_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "This is a tree DP problem where the state depends on the parity of the node and its parent.",
+      "The marking time for a node depends on the marking time of its neighbors and its own parity.",
+      "A topological sort is useful for the BFS approach to ensure parent information is processed before children."
+    ],
+    [
+      "The two-DFS approach effectively separates the calculation of subtree information from the propagation of information from the root.",
+      "The `dp` array stores the two largest times to mark children, crucial for calculating the time for the current node.",
+      "The parity of the node determines the time offset (1 or 2) for its neighbors."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 22:12:49",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "three-consecutive-odds",
+  "data_structures": [
+    [
+      "array of integers",
+      "integer counter"
+    ]
+  ],
+  "category": "Arrays & Hashing",
+  "algorithm_technique": [
+    "Iterate through the array, maintaining a count of consecutive odd numbers."
+  ],
+  "problem_summary_simple": "Check if an array contains three consecutive odd numbers.",
+  "problem_summary_technical": "Traverse the array, incrementing a counter for odd numbers and resetting it for even numbers, returning true if the counter reaches three.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "A simple counter is sufficient to track consecutive odd numbers.",
+      "The counter should reset to zero whenever an even number is encountered.",
+      "Early exit is possible as soon as three consecutive odds are found."
+    ]
+  ],
+  "difficulty_level": "Easy",
+  "analysis_timestamp": "2025-07-16 22:12:40",
+  "batch_processed": true,
+  "batch_size": 5
+}

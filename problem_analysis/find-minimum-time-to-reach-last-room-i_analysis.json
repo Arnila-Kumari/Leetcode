@@ -1,0 +1,33 @@
+{
+  "problem_name": "find-minimum-time-to-reach-last-room-i",
+  "data_structures": [
+    [
+      "2D array (grid)",
+      "min-heap (priority queue)",
+      "2D array (distance matrix)"
+    ]
+  ],
+  "category": "Graphs",
+  "algorithm_technique": [
+    "Dijkstra's algorithm on a grid with custom edge weights"
+  ],
+  "problem_summary_simple": "Find the minimum time to travel through a grid, considering room opening times and 1-second movement.",
+  "problem_summary_technical": "Dijkstra's algorithm on a grid, where edge weights depend on current time and room opening times.",
+  "time_complexity": [
+    "O(N * M * log(N * M))"
+  ],
+  "space_complexity": [
+    "O(N * M)"
+  ],
+  "key_insights": [
+    [
+      "The problem is a shortest path problem on a grid.",
+      "Dijkstra's algorithm is suitable due to non-negative edge weights.",
+      "The cost to enter a room is the maximum of the current time and the room's opening time, plus 1 second for movement."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:43:16",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,32 @@
+{
+  "problem_name": "divide-intervals-into-minimum-number-of-groups",
+  "data_structures": [
+    [
+      "hashmap (collections.Counter) for events",
+      "sorted list of event times"
+    ]
+  ],
+  "category": "Intervals",
+  "algorithm_technique": [
+    "Line sweep algorithm using a hashmap to track interval start and end events."
+  ],
+  "problem_summary_simple": "Group intervals such that no two intervals in a group overlap.",
+  "problem_summary_technical": "Use a line sweep. Increment count at interval start, decrement at end+1. Max concurrent intervals is the minimum groups needed.",
+  "time_complexity": [
+    "O(nlogn)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be rephrased as finding the maximum number of overlapping intervals at any point in time.",
+      "A line sweep approach is effective: treat interval starts as +1 events and interval ends (plus one) as -1 events.",
+      "Sorting the event points and iterating through them allows us to track the maximum number of active intervals (groups)."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:41:01",
+  "batch_processed": true,
+  "batch_size": 5
+}

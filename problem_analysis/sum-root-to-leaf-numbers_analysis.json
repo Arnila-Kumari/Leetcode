@@ -1,0 +1,31 @@
+{
+  "problem_name": "sum-root-to-leaf-numbers",
+  "data_structures": [
+    [
+      "Binary Tree"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "Depth-First Search (DFS) with recursion"
+  ],
+  "problem_summary_simple": "Calculate the sum of all numbers formed by root-to-leaf paths in a binary tree.",
+  "problem_summary_technical": "Traverse a binary tree using DFS, accumulating path values. Return sum of leaf node path values.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(h)"
+  ],
+  "key_insights": [
+    [
+      "The problem can be solved by a recursive DFS traversal.",
+      "Pass the current number formed by the path down the recursion.",
+      "When a leaf node is reached, add the complete number to the total sum."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 22:11:56",
+  "batch_processed": true,
+  "batch_size": 5
+}

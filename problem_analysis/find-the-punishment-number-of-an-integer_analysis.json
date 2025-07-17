@@ -1,0 +1,31 @@
+{
+  "problem_name": "find-the-punishment-number-of-an-integer",
+  "data_structures": [
+    [
+      "recursion stack"
+    ]
+  ],
+  "category": "Backtracking",
+  "algorithm_technique": [
+    "Backtracking to explore partitions of the squared number and check if their sum equals the original number."
+  ],
+  "problem_summary_simple": "Sum squares of numbers whose squared value can be split into parts that sum back to the original number.",
+  "problem_summary_technical": "Employs backtracking to partition the string representation of i*i, checking if any partition sums to i.",
+  "time_complexity": [
+    "O(n * (log(n^2))!)"
+  ],
+  "space_complexity": [
+    "O(log(n^2))"
+  ],
+  "key_insights": [
+    [
+      "The core of the problem is checking if `i*i` can be partitioned such that the sum of partitions equals `i`.",
+      "A recursive backtracking function is used to explore all possible partitions of the string representation of `i*i`.",
+      "The base case for the recursion is when the target sum is 0. If the current number being processed is also 0, it means a valid partition was found."
+    ]
+  ],
+  "difficulty_level": "Hard",
+  "analysis_timestamp": "2025-07-16 21:45:06",
+  "batch_processed": true,
+  "batch_size": 5
+}

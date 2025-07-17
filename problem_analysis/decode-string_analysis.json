@@ -1,0 +1,32 @@
+{
+  "problem_name": "decode-string",
+  "data_structures": [
+    [
+      "array",
+      "stack"
+    ]
+  ],
+  "category": "Stack",
+  "algorithm_technique": [
+    "Stack-based parsing to handle nested repetitions and build the decoded string."
+  ],
+  "problem_summary_simple": "Decode a string with repeating encoded substrings within brackets.",
+  "problem_summary_technical": "Uses a stack to manage repeat counts and intermediate strings, processing nested structures recursively.",
+  "time_complexity": [
+    "O(n)"
+  ],
+  "space_complexity": [
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "The nested nature of the encoding strongly suggests a stack-based approach.",
+      "When encountering '[', push the current repeat count and string onto the stack.",
+      "When encountering ']', pop from the stack, repeat the current string, and append to the popped string."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:39:12",
+  "batch_processed": true,
+  "batch_size": 5
+}

@@ -1,0 +1,44 @@
+{
+  "problem_name": "longest-square-streak-in-an-array",
+  "data_structures": [
+    [
+      "set",
+      "sorted list"
+    ],
+    [
+      "defaultdict",
+      "sorted list"
+    ]
+  ],
+  "category": "1-D Dynamic Programming",
+  "algorithm_technique": [
+    "Iterate through sorted unique numbers, check for squares using a set, remove found squares.",
+    "Dynamic programming: store streak length for each number, build upon square roots."
+  ],
+  "problem_summary_simple": "Find the longest subsequence where each number is the square of the previous one.",
+  "problem_summary_technical": "DP approach: dp[x] = dp[sqrt(x)] + 1 if x is a perfect square. Use hash set for efficient lookups.",
+  "time_complexity": [
+    "O(n log n)",
+    "O(n log n)"
+  ],
+  "space_complexity": [
+    "O(n)",
+    "O(n)"
+  ],
+  "key_insights": [
+    [
+      "Sorting unique elements is crucial for efficient processing.",
+      "Using a set for `squares` allows O(1) average time lookups.",
+      "The problem can be viewed as finding the longest path in a directed acyclic graph where edges are `x -> x*x`."
+    ],
+    [
+      "DP state `dp[x]` represents the length of the square streak ending at `x`.",
+      "Pre-sorting the array simplifies finding predecessors (square roots).",
+      "Handle the base case where no square streak of length >= 2 exists."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:50:00",
+  "batch_processed": true,
+  "batch_size": 5
+}

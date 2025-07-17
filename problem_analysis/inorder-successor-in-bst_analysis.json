@@ -1,0 +1,32 @@
+{
+  "problem_name": "inorder-successor-in-bst",
+  "data_structures": [
+    [
+      "Binary Search Tree",
+      "Node"
+    ]
+  ],
+  "category": "Trees",
+  "algorithm_technique": [
+    "BST traversal and comparison to find the smallest node greater than the target node."
+  ],
+  "problem_summary_simple": "Find the next node in an in-order traversal of a BST.",
+  "problem_summary_technical": "Leverage BST properties: if a node has a right child, its successor is the leftmost node in the right subtree; otherwise, it's an ancestor.",
+  "time_complexity": [
+    "O(h), where h is the height of the BST."
+  ],
+  "space_complexity": [
+    "O(1)"
+  ],
+  "key_insights": [
+    [
+      "The in-order successor is either in the right subtree or an ancestor node.",
+      "If a node has a right child, the successor is the minimum value in its right subtree.",
+      "If no right child, traverse up the tree; the first ancestor whose left child is on the path to the node is the successor."
+    ]
+  ],
+  "difficulty_level": "Medium",
+  "analysis_timestamp": "2025-07-16 21:47:19",
+  "batch_processed": true,
+  "batch_size": 5
+}
